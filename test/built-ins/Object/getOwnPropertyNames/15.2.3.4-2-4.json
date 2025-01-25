@@ -76,7 +76,8 @@
                       "type": "Literal",
                       "start": 334,
                       "end": 366,
-                      "value": "invoke customer defined Array!"
+                      "value": "invoke customer defined Array!",
+                      "raw": "\"invoke customer defined Array!\""
                     }
                   ]
                 }
@@ -254,13 +255,15 @@
             "type": "Literal",
             "start": 492,
             "end": 508,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "\"[object Array]\""
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 550,
-            "value": "Object.prototype.toString.call(result)"
+            "value": "Object.prototype.toString.call(result)",
+            "raw": "'Object.prototype.toString.call(result)'"
           }
         ],
         "optional": false

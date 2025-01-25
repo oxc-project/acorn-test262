@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 326,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 331,
             "end": 397,
-            "value": "String.prototype.split.hasOwnProperty(\"length\") must return true"
+            "value": "String.prototype.split.hasOwnProperty(\"length\") must return true",
+            "raw": "'String.prototype.split.hasOwnProperty(\"length\") must return true'"
           }
         ],
         "optional": false
@@ -164,13 +166,15 @@
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 502,
-            "value": "The value of String.prototype.split.length is 2"
+            "value": "The value of String.prototype.split.length is 2",
+            "raw": "'The value of String.prototype.split.length is 2'"
           }
         ],
         "optional": false

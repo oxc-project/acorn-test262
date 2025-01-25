@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 278,
                     "end": 310,
-                    "value": "1970-01-01T00:00[U-CA=iso8601]"
+                    "value": "1970-01-01T00:00[U-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 312,
                     "end": 337,
-                    "value": "invalid capitalized key"
+                    "value": "invalid capitalized key",
+                    "raw": "\"invalid capitalized key\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 343,
                     "end": 375,
-                    "value": "1970-01-01T00:00[u-CA=iso8601]"
+                    "value": "1970-01-01T00:00[u-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 377,
                     "end": 412,
-                    "value": "invalid partially-capitalized key"
+                    "value": "invalid partially-capitalized key",
+                    "raw": "\"invalid partially-capitalized key\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 418,
                     "end": 445,
-                    "value": "1970-01-01T00:00[FOO=bar]"
+                    "value": "1970-01-01T00:00[FOO=bar]",
+                    "raw": "\"1970-01-01T00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 447,
                     "end": 485,
-                    "value": "invalid capitalized unrecognized key"
+                    "value": "invalid capitalized unrecognized key",
+                    "raw": "\"invalid capitalized unrecognized key\""
                   }
                 ]
               }

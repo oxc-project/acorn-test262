@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 407,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 412,
             "end": 485,
-            "value": "Function.prototype.toString.hasOwnProperty('length') must return true"
+            "value": "Function.prototype.toString.hasOwnProperty('length') must return true",
+            "raw": "'Function.prototype.toString.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -162,7 +164,8 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 558,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 563,
             "end": 662,
-            "value": "The value of !Function.prototype.toString.propertyIsEnumerable('length') is expected to be true"
+            "value": "The value of !Function.prototype.toString.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Function.prototype.toString.propertyIsEnumerable(\\'length\\') is expected to be true'"
           }
         ],
         "optional": false
@@ -277,13 +281,15 @@
                   "type": "Literal",
                   "start": 747,
                   "end": 755,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 },
                 {
                   "type": "Literal",
                   "start": 757,
                   "end": 789,
-                  "value": "The value of p is not \"length\""
+                  "value": "The value of p is not \"length\"",
+                  "raw": "'The value of p is not \"length\"'"
                 }
               ],
               "optional": false

@@ -27,49 +27,57 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 735,
-                "value": "await 1"
+                "value": "await 1",
+                "raw": "'await 1'"
               },
               {
                 "type": "Literal",
                 "start": 739,
                 "end": 747,
-                "value": "tick 1"
+                "value": "tick 1",
+                "raw": "'tick 1'"
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 760,
-                "value": "await 2"
+                "value": "await 2",
+                "raw": "'await 2'"
               },
               {
                 "type": "Literal",
                 "start": 764,
                 "end": 772,
-                "value": "tick 2"
+                "value": "tick 2",
+                "raw": "'tick 2'"
               },
               {
                 "type": "Literal",
                 "start": 776,
                 "end": 785,
-                "value": "await 3"
+                "value": "await 3",
+                "raw": "'await 3'"
               },
               {
                 "type": "Literal",
                 "start": 789,
                 "end": 797,
-                "value": "tick 3"
+                "value": "tick 3",
+                "raw": "'tick 3'"
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 810,
-                "value": "await 4"
+                "value": "await 4",
+                "raw": "'await 4'"
               },
               {
                 "type": "Literal",
                 "start": 814,
                 "end": 822,
-                "value": "tick 4"
+                "value": "tick 4",
+                "raw": "'tick 4'"
               }
             ]
           }
@@ -182,7 +190,8 @@
                                     "type": "Literal",
                                     "start": 862,
                                     "end": 863,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   }
                                 ],
                                 "optional": false
@@ -234,7 +243,8 @@
                                       "type": "Literal",
                                       "start": 891,
                                       "end": 899,
-                                      "value": "tick 1"
+                                      "value": "tick 1",
+                                      "raw": "'tick 1'"
                                     }
                                   ],
                                   "optional": false
@@ -290,7 +300,8 @@
                                   "type": "Literal",
                                   "start": 928,
                                   "end": 936,
-                                  "value": "tick 2"
+                                  "value": "tick 2",
+                                  "raw": "'tick 2'"
                                 }
                               ],
                               "optional": false
@@ -346,7 +357,8 @@
                               "type": "Literal",
                               "start": 965,
                               "end": 973,
-                              "value": "tick 3"
+                              "value": "tick 3",
+                              "raw": "'tick 3'"
                             }
                           ],
                           "optional": false
@@ -402,7 +414,8 @@
                           "type": "Literal",
                           "start": 1002,
                           "end": 1010,
-                          "value": "tick 4"
+                          "value": "tick 4",
+                          "raw": "'tick 4'"
                         }
                       ],
                       "optional": false
@@ -479,7 +492,8 @@
                             "type": "Literal",
                             "start": 1071,
                             "end": 1111,
-                            "value": "Ticks for top level await and promises"
+                            "value": "Ticks for top level await and promises",
+                            "raw": "'Ticks for top level await and promises'"
                           }
                         ],
                         "optional": false
@@ -553,7 +567,8 @@
               "type": "Literal",
               "start": 1156,
               "end": 1165,
-              "value": "await 1"
+              "value": "await 1",
+              "raw": "'await 1'"
             }
           ],
           "optional": false
@@ -596,7 +611,8 @@
               "type": "Literal",
               "start": 1186,
               "end": 1195,
-              "value": "await 2"
+              "value": "await 2",
+              "raw": "'await 2'"
             }
           ],
           "optional": false
@@ -639,7 +655,8 @@
               "type": "Literal",
               "start": 1216,
               "end": 1225,
-              "value": "await 3"
+              "value": "await 3",
+              "raw": "'await 3'"
             }
           ],
           "optional": false
@@ -682,7 +699,8 @@
               "type": "Literal",
               "start": 1246,
               "end": 1255,
-              "value": "await 4"
+              "value": "await 4",
+              "raw": "'await 4'"
             }
           ],
           "optional": false

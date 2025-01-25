@@ -64,7 +64,8 @@
               "type": "Literal",
               "start": 521,
               "end": 532,
-              "value": "exception"
+              "value": "exception",
+              "raw": "'exception'"
             }
           }
         ]
@@ -141,7 +142,8 @@
                     "type": "Literal",
                     "start": 585,
                     "end": 586,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               },
@@ -242,7 +244,8 @@
             "type": "Literal",
             "start": 656,
             "end": 667,
-            "value": "exception"
+            "value": "exception",
+            "raw": "'exception'"
           }
         ],
         "optional": false
@@ -286,13 +289,15 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 727,
-            "value": "during loop body evaluation"
+            "value": "during loop body evaluation",
+            "raw": "'during loop body evaluation'"
           }
         ],
         "optional": false
@@ -336,13 +341,15 @@
             "type": "Literal",
             "start": 754,
             "end": 755,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 785,
-            "value": "after loop body evaluation"
+            "value": "after loop body evaluation",
+            "raw": "'after loop body evaluation'"
           }
         ],
         "optional": false

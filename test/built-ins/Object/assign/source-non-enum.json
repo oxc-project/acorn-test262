@@ -77,7 +77,8 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 620,
-                "value": "attr"
+                "value": "attr",
+                "raw": "'attr'"
               },
               {
                 "type": "ObjectExpression",
@@ -101,7 +102,8 @@
                       "type": "Literal",
                       "start": 633,
                       "end": 634,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -122,7 +124,8 @@
                       "type": "Literal",
                       "start": 650,
                       "end": 655,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     },
                     "kind": "init"
                   }
@@ -292,7 +295,8 @@
                   "type": "Literal",
                   "start": 770,
                   "end": 776,
-                  "value": "attr"
+                  "value": "attr",
+                  "raw": "'attr'"
                 }
               ],
               "optional": false
@@ -302,7 +306,8 @@
             "type": "Literal",
             "start": 781,
             "end": 843,
-            "value": "Non-enumerable property 'attr' does not get copied to target"
+            "value": "Non-enumerable property 'attr' does not get copied to target",
+            "raw": "\"Non-enumerable property 'attr' does not get copied to target\""
           }
         ],
         "optional": false

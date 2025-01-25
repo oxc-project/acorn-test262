@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 952,
+  "end": 947,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 911,
-      "end": 951,
+      "start": 906,
+      "end": 946,
       "expression": {
         "type": "CallExpression",
-        "start": 911,
-        "end": 950,
+        "start": 906,
+        "end": 945,
         "callee": {
           "type": "MemberExpression",
-          "start": 911,
-          "end": 927,
+          "start": 906,
+          "end": 922,
           "object": {
             "type": "Identifier",
-            "start": 911,
-            "end": 917,
+            "start": 906,
+            "end": 912,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 918,
-            "end": 927,
+            "start": 913,
+            "end": 922,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,29 +33,31 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 928,
-            "end": 946,
+            "start": 923,
+            "end": 941,
             "callee": {
               "type": "Identifier",
-              "start": 928,
-              "end": 932,
+              "start": 923,
+              "end": 927,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 933,
-                "end": 945,
-                "value": "0 //᠎"
+                "start": 928,
+                "end": 940,
+                "value": "0 //᠎",
+                "raw": "\"0 //\\u180E\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 948,
-            "end": 949,
-            "value": 0
+            "start": 943,
+            "end": 944,
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

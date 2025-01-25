@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 481,
           "end": 482,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -134,13 +135,15 @@
             "type": "Literal",
             "start": 536,
             "end": 537,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 586,
-            "value": "The value of x.myproperty is expected to be 1"
+            "value": "The value of x.myproperty is expected to be 1",
+            "raw": "'The value of x.myproperty is expected to be 1'"
           }
         ],
         "optional": false
@@ -202,7 +205,8 @@
                 "type": "Literal",
                 "start": 623,
                 "end": 635,
-                "value": "myproperty"
+                "value": "myproperty",
+                "raw": "'myproperty'"
               }
             ],
             "optional": false
@@ -211,13 +215,15 @@
             "type": "Literal",
             "start": 638,
             "end": 643,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 695,
-            "value": "x.hasOwnProperty(\"myproperty\") must return false"
+            "value": "x.hasOwnProperty(\"myproperty\") must return false",
+            "raw": "'x.hasOwnProperty(\"myproperty\") must return false'"
           }
         ],
         "optional": false

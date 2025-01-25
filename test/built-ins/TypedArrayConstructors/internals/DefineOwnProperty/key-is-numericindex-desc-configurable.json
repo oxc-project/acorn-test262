@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 795,
                             "end": 796,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -139,7 +140,8 @@
                             "type": "Literal",
                             "start": 855,
                             "end": 858,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "\"0\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -163,7 +165,8 @@
                                   "type": "Literal",
                                   "start": 875,
                                   "end": 877,
-                                  "value": 42
+                                  "value": 42,
+                                  "raw": "42"
                                 },
                                 "kind": "init"
                               },
@@ -184,7 +187,8 @@
                                   "type": "Literal",
                                   "start": 899,
                                   "end": 903,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               },
@@ -205,7 +209,8 @@
                                   "type": "Literal",
                                   "start": 923,
                                   "end": 927,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               },
@@ -226,7 +231,8 @@
                                   "type": "Literal",
                                   "start": 945,
                                   "end": 949,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               }
@@ -239,13 +245,15 @@
                         "type": "Literal",
                         "start": 962,
                         "end": 966,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 972,
                         "end": 997,
-                        "value": "defineProperty's result"
+                        "value": "defineProperty's result",
+                        "raw": "\"defineProperty's result\""
                       }
                     ],
                     "optional": false
@@ -293,7 +301,8 @@
                           "type": "Literal",
                           "start": 1029,
                           "end": 1030,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -302,13 +311,15 @@
                         "type": "Literal",
                         "start": 1033,
                         "end": 1035,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       },
                       {
                         "type": "Literal",
                         "start": 1037,
                         "end": 1056,
-                        "value": "side effect check"
+                        "value": "side effect check",
+                        "raw": "\"side effect check\""
                       }
                     ],
                     "optional": false

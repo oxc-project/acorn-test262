@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 569,
             "end": 577,
-            "value": "BigInt"
+            "value": "BigInt",
+            "raw": "\"BigInt\""
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 600,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 618,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 636,
                   "end": 640,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -22,7 +22,8 @@
           "type": "Literal",
           "start": 316,
           "end": 362,
-          "value": "Answer to Life, the Universe, and Everything"
+          "value": "Answer to Life, the Universe, and Everything",
+          "raw": "\"Answer to Life, the Universe, and Everything\""
         }
       }
     },
@@ -112,19 +113,22 @@
               "type": "Literal",
               "start": 542,
               "end": 544,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             },
             {
               "type": "Literal",
               "start": 545,
               "end": 547,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             },
             {
               "type": "Literal",
               "start": 548,
               "end": 550,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           ],
           "optional": false
@@ -161,7 +165,8 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 658,
-                  "value": "#1:  \"arguments\" variable overrides ActivationObject.arguments"
+                  "value": "#1:  \"arguments\" variable overrides ActivationObject.arguments",
+                  "raw": "'#1:  \"arguments\" variable overrides ActivationObject.arguments'"
                 }
               ]
             }

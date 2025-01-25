@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1673,
             "end": 1674,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -66,7 +67,8 @@
                 "type": "Literal",
                 "start": 1712,
                 "end": 1713,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -92,7 +94,8 @@
             "type": "Literal",
             "start": 1734,
             "end": 1735,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -258,25 +261,29 @@
                     "type": "Literal",
                     "start": 1821,
                     "end": 1825,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   {
                     "type": "Literal",
                     "start": 1827,
                     "end": 1828,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1830,
                     "end": 1835,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   },
                   {
                     "type": "Literal",
                     "start": 1837,
                     "end": 1839,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   }
                 ]
               }
@@ -325,7 +332,8 @@
                       "type": "Literal",
                       "start": 1866,
                       "end": 1870,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   ],
                   "optional": false
@@ -369,7 +377,8 @@
                       "type": "Literal",
                       "start": 1895,
                       "end": 1896,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ],
                   "optional": false
@@ -413,7 +422,8 @@
                       "type": "Literal",
                       "start": 1921,
                       "end": 1926,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   ],
                   "optional": false
@@ -457,7 +467,8 @@
                       "type": "Literal",
                       "start": 1951,
                       "end": 1953,
-                      "value": ""
+                      "value": "",
+                      "raw": "''"
                     }
                   ],
                   "optional": false
@@ -501,7 +512,8 @@
                       "type": "Literal",
                       "start": 1986,
                       "end": 1987,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ],
                   "optional": false
@@ -537,7 +549,8 @@
                       "type": "Literal",
                       "start": 2016,
                       "end": 2017,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -603,13 +616,15 @@
             "type": "Literal",
             "start": 2056,
             "end": 2057,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2059,
             "end": 2090,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

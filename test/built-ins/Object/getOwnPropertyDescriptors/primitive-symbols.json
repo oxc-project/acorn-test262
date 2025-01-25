@@ -140,13 +140,15 @@
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 445,
-            "value": "symbol primitive has no descriptors"
+            "value": "symbol primitive has no descriptors",
+            "raw": "'symbol primitive has no descriptors'"
           }
         ],
         "optional": false

@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 949,
             "end": 959,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 1016,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -138,7 +140,8 @@
                       "type": "Literal",
                       "start": 1104,
                       "end": 1105,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -216,7 +219,8 @@
                               "type": "Literal",
                               "start": 1178,
                               "end": 1209,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -311,7 +315,8 @@
                               "type": "Literal",
                               "start": 1304,
                               "end": 1335,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -437,7 +442,8 @@
             "type": "Literal",
             "start": 1468,
             "end": 1578,
-            "value": "`Atomics.waitAsync(i32a, poisonedValueOf, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i32a, poisonedValueOf, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i32a, poisonedValueOf, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -554,7 +560,8 @@
             "type": "Literal",
             "start": 1716,
             "end": 1838,
-            "value": "`Atomics.waitAsync(i32a, poisonedToPrimitive, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i32a, poisonedToPrimitive, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i32a, poisonedToPrimitive, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -657,7 +664,8 @@
                             "type": "Literal",
                             "start": 1913,
                             "end": 1916,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "'1'"
                           }
                         ],
                         "optional": false
@@ -685,7 +693,8 @@
             "type": "Literal",
             "start": 1957,
             "end": 2060,
-            "value": "`Atomics.waitAsync(i32a, Symbol(\"1\"), poisonedValueOf, poisonedValueOf)` throws a TypeError exception"
+            "value": "`Atomics.waitAsync(i32a, Symbol(\"1\"), poisonedValueOf, poisonedValueOf)` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync(i32a, Symbol(\"1\"), poisonedValueOf, poisonedValueOf)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -788,7 +797,8 @@
                             "type": "Literal",
                             "start": 2135,
                             "end": 2138,
-                            "value": "2"
+                            "value": "2",
+                            "raw": "'2'"
                           }
                         ],
                         "optional": false
@@ -816,7 +826,8 @@
             "type": "Literal",
             "start": 2187,
             "end": 2298,
-            "value": "`Atomics.waitAsync(i32a, Symbol(\"2\"), poisonedToPrimitive, poisonedToPrimitive)` throws a TypeError exception"
+            "value": "`Atomics.waitAsync(i32a, Symbol(\"2\"), poisonedToPrimitive, poisonedToPrimitive)` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync(i32a, Symbol(\"2\"), poisonedToPrimitive, poisonedToPrimitive)` throws a TypeError exception'"
           }
         ],
         "optional": false

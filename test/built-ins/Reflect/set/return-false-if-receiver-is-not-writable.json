@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 643,
             "end": 646,
-            "value": "p"
+            "value": "p",
+            "raw": "'p'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 662,
                   "end": 667,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 680,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 },
                 "kind": "init"
               }
@@ -170,13 +173,15 @@
                 "type": "Literal",
                 "start": 714,
                 "end": 717,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 721,
-                "value": 43
+                "value": 43,
+                "raw": "43"
               }
             ],
             "optional": false
@@ -223,13 +228,15 @@
             "type": "Literal",
             "start": 749,
             "end": 754,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 771,
-            "value": "returns false"
+            "value": "returns false",
+            "raw": "'returns false'"
           }
         ],
         "optional": false
@@ -286,13 +293,15 @@
             "type": "Literal",
             "start": 797,
             "end": 799,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 827,
-            "value": "does not set a new value"
+            "value": "does not set a new value",
+            "raw": "'does not set a new value'"
           }
         ],
         "optional": false

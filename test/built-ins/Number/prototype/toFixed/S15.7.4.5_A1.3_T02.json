@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 313,
             "end": 318,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 320,
             "end": 360,
-            "value": "Number.NaN.toFixed() must return \"NaN\""
+            "value": "Number.NaN.toFixed() must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed() must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -155,7 +157,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 400,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -164,13 +167,15 @@
             "type": "Literal",
             "start": 403,
             "end": 408,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 451,
-            "value": "Number.NaN.toFixed(0) must return \"NaN\""
+            "value": "Number.NaN.toFixed(0) must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(0) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -245,7 +250,8 @@
                 "type": "Literal",
                 "start": 490,
                 "end": 491,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -254,13 +260,15 @@
             "type": "Literal",
             "start": 494,
             "end": 499,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 542,
-            "value": "Number.NaN.toFixed(1) must return \"NaN\""
+            "value": "Number.NaN.toFixed(1) must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(1) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -335,7 +343,8 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 584,
-                "value": 1.1
+                "value": 1.1,
+                "raw": "1.1"
               }
             ],
             "optional": false
@@ -344,13 +353,15 @@
             "type": "Literal",
             "start": 587,
             "end": 592,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 594,
             "end": 637,
-            "value": "Number.NaN.toFixed(1.1) must return \"NaN\""
+            "value": "Number.NaN.toFixed(1.1) must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(1.1) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -425,7 +436,8 @@
                 "type": "Literal",
                 "start": 676,
                 "end": 679,
-                "value": 0.9
+                "value": 0.9,
+                "raw": "0.9"
               }
             ],
             "optional": false
@@ -434,13 +446,15 @@
             "type": "Literal",
             "start": 682,
             "end": 687,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 732,
-            "value": "Number.NaN.toFixed(0.9) must return \"NaN\""
+            "value": "Number.NaN.toFixed(0.9) must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(0.9) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -515,7 +529,8 @@
                 "type": "Literal",
                 "start": 771,
                 "end": 774,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -524,13 +539,15 @@
             "type": "Literal",
             "start": 777,
             "end": 782,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 827,
-            "value": "Number.NaN.toFixed(\"1\") must return \"NaN\""
+            "value": "Number.NaN.toFixed(\"1\") must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(\"1\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -605,7 +622,8 @@
                 "type": "Literal",
                 "start": 866,
                 "end": 871,
-                "value": "1.1"
+                "value": "1.1",
+                "raw": "\"1.1\""
               }
             ],
             "optional": false
@@ -614,13 +632,15 @@
             "type": "Literal",
             "start": 874,
             "end": 879,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 926,
-            "value": "Number.NaN.toFixed(\"1.1\") must return \"NaN\""
+            "value": "Number.NaN.toFixed(\"1.1\") must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(\"1.1\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -695,7 +715,8 @@
                 "type": "Literal",
                 "start": 965,
                 "end": 970,
-                "value": "0.9"
+                "value": "0.9",
+                "raw": "\"0.9\""
               }
             ],
             "optional": false
@@ -704,13 +725,15 @@
             "type": "Literal",
             "start": 973,
             "end": 978,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 980,
             "end": 1025,
-            "value": "Number.NaN.toFixed(\"0.9\") must return \"NaN\""
+            "value": "Number.NaN.toFixed(\"0.9\") must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(\"0.9\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -807,13 +830,15 @@
             "type": "Literal",
             "start": 1077,
             "end": 1082,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1134,
-            "value": "Number.NaN.toFixed(Number.NaN) must return \"NaN\""
+            "value": "Number.NaN.toFixed(Number.NaN) must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(Number.NaN) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -888,7 +913,8 @@
                 "type": "Literal",
                 "start": 1173,
                 "end": 1186,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               }
             ],
             "optional": false
@@ -897,13 +923,15 @@
             "type": "Literal",
             "start": 1189,
             "end": 1194,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1196,
             "end": 1249,
-            "value": "Number.NaN.toFixed(\"some string\") must return \"NaN\""
+            "value": "Number.NaN.toFixed(\"some string\") must return \"NaN\"",
+            "raw": "'Number.NaN.toFixed(\"some string\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -1013,7 +1041,8 @@
                   "type": "Literal",
                   "start": 1336,
                   "end": 1427,
-                  "value": "#10: Number.NaN.toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN"
+                  "value": "#10: Number.NaN.toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN",
+                  "raw": "'#10: Number.NaN.toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN'"
                 }
               ]
             }
@@ -1072,7 +1101,8 @@
                     "type": "Literal",
                     "start": 1478,
                     "end": 1553,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false

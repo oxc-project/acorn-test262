@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 361,
             "end": 367,
-            "value": "foo1"
+            "value": "foo1",
+            "raw": "\"foo1\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 380,
                   "end": 382,
-                  "value": 20
+                  "value": 20,
+                  "raw": "20"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 401,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 422,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -153,7 +157,8 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 445,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -190,7 +195,8 @@
               "type": "Literal",
               "start": 483,
               "end": 485,
-              "value": 10
+              "value": 10,
+              "raw": "10"
             }
           }
         ]
@@ -255,7 +261,8 @@
             "type": "Literal",
             "start": 541,
             "end": 547,
-            "value": "foo2"
+            "value": "foo2",
+            "raw": "\"foo2\""
           },
           {
             "type": "ObjectExpression",
@@ -321,7 +328,8 @@
                   "type": "Literal",
                   "start": 601,
                   "end": 606,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -421,7 +429,8 @@
             "type": "Literal",
             "start": 673,
             "end": 704,
-            "value": "Object.isFrozen(obj) !== true"
+            "value": "Object.isFrozen(obj) !== true",
+            "raw": "'Object.isFrozen(obj) !== true'"
           }
         ],
         "optional": false

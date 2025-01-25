@@ -118,7 +118,8 @@
             "type": "Literal",
             "start": 503,
             "end": 529,
-            "value": "d1.valueOf() returns NaN"
+            "value": "d1.valueOf() returns NaN",
+            "raw": "'d1.valueOf() returns NaN'"
           }
         ],
         "optional": false
@@ -226,7 +227,8 @@
             "type": "Literal",
             "start": 609,
             "end": 635,
-            "value": "d2.valueOf() returns NaN"
+            "value": "d2.valueOf() returns NaN",
+            "raw": "'d2.valueOf() returns NaN'"
           }
         ],
         "optional": false
@@ -341,7 +343,8 @@
             "type": "Literal",
             "start": 716,
             "end": 742,
-            "value": "d3.valueOf() returns NaN"
+            "value": "d3.valueOf() returns NaN",
+            "raw": "'d3.valueOf() returns NaN'"
           }
         ],
         "optional": false
@@ -377,7 +380,8 @@
                 "type": "Literal",
                 "start": 775,
                 "end": 776,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -443,13 +447,15 @@
             "type": "Literal",
             "start": 810,
             "end": 811,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 841,
-            "value": "d4.valueOf() must return 0"
+            "value": "d4.valueOf() must return 0",
+            "raw": "'d4.valueOf() must return 0'"
           }
         ],
         "optional": false
@@ -491,7 +497,8 @@
                   "type": "Literal",
                   "start": 875,
                   "end": 876,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ]
@@ -558,13 +565,15 @@
             "type": "Literal",
             "start": 910,
             "end": 911,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 941,
-            "value": "d5.valueOf() must return 0"
+            "value": "d5.valueOf() must return 0",
+            "raw": "'d5.valueOf() must return 0'"
           }
         ],
         "optional": false

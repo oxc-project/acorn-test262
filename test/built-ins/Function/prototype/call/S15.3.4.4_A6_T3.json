@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 451,
             "end": 452,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -87,7 +88,8 @@
                             "type": "Literal",
                             "start": 501,
                             "end": 504,
-                            "value": "a"
+                            "value": "a",
+                            "raw": "\"a\""
                           },
                           "operator": "+",
                           "right": {
@@ -179,13 +181,15 @@
                 "type": "Literal",
                 "start": 549,
                 "end": 556,
-                "value": "a2,a3"
+                "value": "a2,a3",
+                "raw": "\"a2,a3\""
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 576,
-                "value": "this.shifted=a1;"
+                "value": "this.shifted=a1;",
+                "raw": "\"this.shifted=a1;\""
               }
             ],
             "optional": false
@@ -221,19 +225,22 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 604,
-                "value": "nine"
+                "value": "nine",
+                "raw": "\"nine\""
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 612,
-                "value": "inch"
+                "value": "inch",
+                "raw": "\"inch\""
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 621,
-                "value": "nails"
+                "value": "nails",
+                "raw": "\"nails\""
               }
             ]
           }
@@ -287,7 +294,8 @@
                 "type": "Literal",
                 "start": 647,
                 "end": 656,
-                "value": "shifted"
+                "value": "shifted",
+                "raw": "\"shifted\""
               },
               "computed": true,
               "optional": false
@@ -305,7 +313,8 @@
             "type": "Literal",
             "start": 666,
             "end": 667,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -349,7 +358,8 @@
                     "type": "Literal",
                     "start": 680,
                     "end": 689,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   },
                   "computed": true,
                   "optional": false
@@ -358,7 +368,8 @@
                   "type": "Literal",
                   "start": 691,
                   "end": 692,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "computed": true,
                 "optional": false
@@ -368,7 +379,8 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 704,
-                "value": "nine"
+                "value": "nine",
+                "raw": "\"nine\""
               }
             }
           },
@@ -399,7 +411,8 @@
                     "type": "Literal",
                     "start": 714,
                     "end": 723,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   },
                   "computed": true,
                   "optional": false
@@ -408,7 +421,8 @@
                   "type": "Literal",
                   "start": 725,
                   "end": 726,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "computed": true,
                 "optional": false
@@ -418,7 +432,8 @@
                 "type": "Literal",
                 "start": 732,
                 "end": 738,
-                "value": "inch"
+                "value": "inch",
+                "raw": "\"inch\""
               }
             }
           }
@@ -450,7 +465,8 @@
                   "type": "Literal",
                   "start": 748,
                   "end": 757,
-                  "value": "shifted"
+                  "value": "shifted",
+                  "raw": "\"shifted\""
                 },
                 "computed": true,
                 "optional": false
@@ -459,7 +475,8 @@
                 "type": "Literal",
                 "start": 759,
                 "end": 760,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               "computed": true,
               "optional": false
@@ -469,7 +486,8 @@
               "type": "Literal",
               "start": 766,
               "end": 773,
-              "value": "nails"
+              "value": "nails",
+              "raw": "\"nails\""
             }
           }
         }
@@ -498,7 +516,8 @@
                   "type": "Literal",
                   "start": 803,
                   "end": 965,
-                  "value": "#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object"
+                  "value": "#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object",
+                  "raw": "'#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'"
                 }
               ]
             }
@@ -534,7 +553,8 @@
               "type": "Literal",
               "start": 987,
               "end": 996,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -545,7 +565,8 @@
           "type": "Literal",
           "start": 1002,
           "end": 1013,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -572,7 +593,8 @@
                   "type": "Literal",
                   "start": 1042,
                   "end": 1204,
-                  "value": "#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object"
+                  "value": "#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object",
+                  "raw": "'#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'"
                 }
               ]
             }

@@ -159,7 +159,8 @@
                         "type": "Literal",
                         "start": 505,
                         "end": 506,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     }
                   ]
@@ -253,13 +254,15 @@
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 602,
-            "value": "The value of push is expected to be 3"
+            "value": "The value of push is expected to be 3",
+            "raw": "'The value of push is expected to be 3'"
           }
         ],
         "optional": false
@@ -334,7 +337,8 @@
                         "type": "Literal",
                         "start": 646,
                         "end": 647,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     }
                   ]
@@ -377,7 +381,8 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 680,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ]
@@ -471,13 +476,15 @@
             "type": "Literal",
             "start": 734,
             "end": 735,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 776,
-            "value": "The value of push is expected to be 3"
+            "value": "The value of push is expected to be 3",
+            "raw": "'The value of push is expected to be 3'"
           }
         ],
         "optional": false
@@ -552,7 +559,8 @@
                         "type": "Literal",
                         "start": 820,
                         "end": 821,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     }
                   ]
@@ -689,13 +697,15 @@
             "type": "Literal",
             "start": 909,
             "end": 910,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 912,
             "end": 951,
-            "value": "The value of push is expected to be 3"
+            "value": "The value of push is expected to be 3",
+            "raw": "'The value of push is expected to be 3'"
           }
         ],
         "optional": false
@@ -779,7 +789,8 @@
                               "type": "Literal",
                               "start": 1007,
                               "end": 1008,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           }
                         ]
@@ -822,7 +833,8 @@
                               "type": "Literal",
                               "start": 1045,
                               "end": 1052,
-                              "value": "error"
+                              "value": "error",
+                              "raw": "\"error\""
                             }
                           }
                         ]
@@ -916,13 +928,15 @@
                   "type": "Literal",
                   "start": 1114,
                   "end": 1115,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 {
                   "type": "Literal",
                   "start": 1117,
                   "end": 1156,
-                  "value": "The value of push is expected to be 3"
+                  "value": "The value of push is expected to be 3",
+                  "raw": "'The value of push is expected to be 3'"
                 }
               ],
               "optional": false
@@ -983,13 +997,15 @@
                     "type": "Literal",
                     "start": 1198,
                     "end": 1205,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1207,
                     "end": 1238,
-                    "value": "The value of e is not \"error\""
+                    "value": "The value of e is not \"error\"",
+                    "raw": "'The value of e is not \"error\"'"
                   }
                 ],
                 "optional": false
@@ -1069,7 +1085,8 @@
                         "type": "Literal",
                         "start": 1285,
                         "end": 1286,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ]
@@ -1163,13 +1180,15 @@
             "type": "Literal",
             "start": 1340,
             "end": 1341,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1343,
             "end": 1382,
-            "value": "The value of push is expected to be 1"
+            "value": "The value of push is expected to be 1",
+            "raw": "'The value of push is expected to be 1'"
           }
         ],
         "optional": false
@@ -1287,7 +1306,8 @@
                         "type": "Literal",
                         "start": 1460,
                         "end": 1461,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ]
@@ -1381,13 +1401,15 @@
             "type": "Literal",
             "start": 1514,
             "end": 1515,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1517,
             "end": 1556,
-            "value": "The value of push is expected to be 1"
+            "value": "The value of push is expected to be 1",
+            "raw": "'The value of push is expected to be 1'"
           }
         ],
         "optional": false
@@ -1471,7 +1493,8 @@
                               "type": "Literal",
                               "start": 1612,
                               "end": 1619,
-                              "value": "error"
+                              "value": "error",
+                              "raw": "\"error\""
                             }
                           }
                         ]
@@ -1514,7 +1537,8 @@
                               "type": "Literal",
                               "start": 1657,
                               "end": 1658,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -1593,7 +1617,8 @@
                     "type": "Literal",
                     "start": 1720,
                     "end": 1828,
-                    "value": "#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.push() throw \"error\". Actual: "
+                    "value": "#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.push() throw \"error\". Actual: ",
+                    "raw": "'#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.push() throw \"error\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1666,13 +1691,15 @@
                     "type": "Literal",
                     "start": 1876,
                     "end": 1883,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1885,
                     "end": 1927,
-                    "value": "The value of e is expected to be \"error\""
+                    "value": "The value of e is expected to be \"error\"",
+                    "raw": "'The value of e is expected to be \"error\"'"
                   }
                 ],
                 "optional": false
@@ -1883,7 +1910,8 @@
                     "type": "Literal",
                     "start": 2090,
                     "end": 2197,
-                    "value": "#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.push() throw TypeError. Actual: "
+                    "value": "#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.push() throw TypeError. Actual: ",
+                    "raw": "'#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.push() throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1968,13 +1996,15 @@
                     "type": "Literal",
                     "start": 2275,
                     "end": 2279,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 2285,
                     "end": 2359,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

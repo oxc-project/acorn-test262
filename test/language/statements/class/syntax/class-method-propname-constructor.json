@@ -97,7 +97,8 @@
             "type": "Literal",
             "start": 424,
             "end": 434,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false

@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 749,
             "end": 753,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 792,
-            "value": "isConstructor(Map) must return true"
+            "value": "isConstructor(Map) must return true",
+            "raw": "'isConstructor(Map) must return true'"
           }
         ],
         "optional": false

@@ -122,7 +122,8 @@
             "type": "Literal",
             "start": 426,
             "end": 497,
-            "value": "Object.prototype.valueOf.call(undefined) throws a TypeError exception"
+            "value": "Object.prototype.valueOf.call(undefined) throws a TypeError exception",
+            "raw": "'Object.prototype.valueOf.call(undefined) throws a TypeError exception'"
           }
         ],
         "optional": false

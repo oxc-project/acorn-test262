@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 260,
             "end": 265,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 277,
             "end": 301,
-            "value": "Should not be rethrown"
+            "value": "Should not be rethrown",
+            "raw": "\"Should not be rethrown\""
           }
         }
       ],
@@ -98,7 +100,8 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 342,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -196,7 +199,8 @@
                   "type": "Literal",
                   "start": 424,
                   "end": 453,
-                  "value": "Should report correct error"
+                  "value": "Should report correct error",
+                  "raw": "\"Should report correct error\""
                 }
               ],
               "optional": false
@@ -290,7 +294,8 @@
             "type": "Literal",
             "start": 532,
             "end": 590,
-            "value": "asyncTest called $DONE with a synchronously thrown error"
+            "value": "asyncTest called $DONE with a synchronously thrown error",
+            "raw": "\"asyncTest called $DONE with a synchronously thrown error\""
           }
         ],
         "optional": false

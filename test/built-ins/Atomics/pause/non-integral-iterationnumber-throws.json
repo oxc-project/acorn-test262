@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 298,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 307,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 315,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 324,
-                "value": 42.42
+                "value": 42.42,
+                "raw": "42.42"
               },
               {
                 "type": "UnaryExpression",
@@ -57,7 +61,8 @@
                   "type": "Literal",
                   "start": 329,
                   "end": 334,
-                  "value": 42.42
+                  "value": 42.42,
+                  "raw": "42.42"
                 }
               },
               {
@@ -87,7 +92,8 @@
                     "type": "Literal",
                     "start": 364,
                     "end": 369,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   }
                 ],
                 "optional": false
@@ -96,19 +102,22 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 379,
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 387,
-                "value": "42"
+                "value": "42",
+                "raw": "\"42\""
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 396,
                 "value": {},
+                "raw": "/baz/",
                 "regex": {
                   "pattern": "baz",
                   "flags": ""
@@ -118,7 +127,8 @@
                 "type": "Literal",
                 "start": 400,
                 "end": 403,
-                "value": "42n"
+                "value": "42n",
+                "raw": "42n"
               },
               {
                 "type": "ObjectExpression",
@@ -189,7 +199,8 @@
                               "type": "Literal",
                               "start": 457,
                               "end": 459,
-                              "value": 42
+                              "value": 42,
+                              "raw": "42"
                             }
                           }
                         ]

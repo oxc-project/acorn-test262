@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 363,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 407,
                   "end": 426,
-                  "value": "VerifyArrayObject"
+                  "value": "VerifyArrayObject",
+                  "raw": "\"VerifyArrayObject\""
                 }
               }
             ]
@@ -236,13 +240,15 @@
             "type": "Literal",
             "start": 517,
             "end": 536,
-            "value": "VerifyArrayObject"
+            "value": "VerifyArrayObject",
+            "raw": "\"VerifyArrayObject\""
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 551,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

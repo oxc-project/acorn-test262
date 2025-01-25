@@ -39,27 +39,31 @@
               "type": "Literal",
               "start": 704,
               "end": 706,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
               "start": 710,
               "end": 712,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 714,
             "end": 716,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 718,
             "end": 750,
-            "value": "The result of (0n ** 0n) is 1n"
+            "value": "The result of (0n ** 0n) is 1n",
+            "raw": "'The result of (0n ** 0n) is 1n'"
           }
         ],
         "optional": false

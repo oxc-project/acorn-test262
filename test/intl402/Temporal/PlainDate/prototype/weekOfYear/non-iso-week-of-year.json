@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 442,
             "end": 451,
-            "value": "gregory"
+            "value": "gregory",
+            "raw": "\"gregory\""
           }
         }
       ],
@@ -71,19 +72,22 @@
                 "type": "Literal",
                 "start": 489,
                 "end": 493,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Identifier",
@@ -148,7 +152,8 @@
             "type": "Literal",
             "start": 547,
             "end": 548,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -173,7 +178,8 @@
           "type": "Literal",
           "start": 563,
           "end": 571,
-          "value": "hebrew"
+          "value": "hebrew",
+          "raw": "\"hebrew\""
         }
       }
     },
@@ -220,19 +226,22 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 619,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 621,
                 "end": 622,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 625,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Identifier",

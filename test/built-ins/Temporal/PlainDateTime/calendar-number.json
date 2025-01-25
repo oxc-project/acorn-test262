@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 269,
                 "end": 270,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -39,20 +40,23 @@
                   "type": "Literal",
                   "start": 275,
                   "end": 283,
-                  "value": 19761118
+                  "value": 19761118,
+                  "raw": "19761118"
                 }
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 295,
-                "value": 19761118
+                "value": 19761118,
+                "raw": "19761118"
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 309,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -167,55 +171,64 @@
                         "type": "Literal",
                         "start": 413,
                         "end": 417,
-                        "value": 2000
+                        "value": 2000,
+                        "raw": "2000"
                       },
                       {
                         "type": "Literal",
                         "start": 419,
                         "end": 420,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       {
                         "type": "Literal",
                         "start": 422,
                         "end": 423,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 425,
                         "end": 427,
-                        "value": 15
+                        "value": 15,
+                        "raw": "15"
                       },
                       {
                         "type": "Literal",
                         "start": 429,
                         "end": 431,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       },
                       {
                         "type": "Literal",
                         "start": 433,
                         "end": 435,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       },
                       {
                         "type": "Literal",
                         "start": 437,
                         "end": 440,
-                        "value": 987
+                        "value": 987,
+                        "raw": "987"
                       },
                       {
                         "type": "Literal",
                         "start": 442,
                         "end": 445,
-                        "value": 654
+                        "value": 654,
+                        "raw": "654"
                       },
                       {
                         "type": "Literal",
                         "start": 447,
                         "end": 450,
-                        "value": 321
+                        "value": 321,
+                        "raw": "321"
                       },
                       {
                         "type": "Identifier",
@@ -230,7 +243,8 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 511,
-                  "value": "A number is not a valid ISO string for Calendar"
+                  "value": "A number is not a valid ISO string for Calendar",
+                  "raw": "\"A number is not a valid ISO string for Calendar\""
                 }
               ],
               "optional": false

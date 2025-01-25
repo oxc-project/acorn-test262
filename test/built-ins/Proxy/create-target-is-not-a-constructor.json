@@ -117,13 +117,15 @@
             "type": "Literal",
             "start": 862,
             "end": 867,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 909,
-            "value": "isConstructor(proxy) must return false"
+            "value": "isConstructor(proxy) must return false",
+            "raw": "'isConstructor(proxy) must return false'"
           }
         ],
         "optional": false

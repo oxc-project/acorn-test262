@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 390,
-                "value": "ABCABC"
+                "value": "ABCABC",
+                "raw": "\"ABC\\u0041\\u0042\\u0043\""
               }
             ]
           }
@@ -73,7 +74,8 @@
           "type": "Literal",
           "start": 514,
           "end": 515,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "consequent": {
@@ -104,7 +106,8 @@
                     "type": "Literal",
                     "start": 544,
                     "end": 741,
-                    "value": "#1: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.length === 6, where __str__instance is new String(\"ABC\\u0041\\u0042\\u0043\"). Actual: __str__instance.length ==="
+                    "value": "#1: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.length === 6, where __str__instance is new String(\"ABC\\u0041\\u0042\\u0043\"). Actual: __str__instance.length ===",
+                    "raw": "'#1: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.length === 6, where __str__instance is new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"). Actual: __str__instance.length ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +198,8 @@
           "type": "Literal",
           "start": 1005,
           "end": 1006,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -226,7 +230,8 @@
                     "type": "Literal",
                     "start": 1035,
                     "end": 1172,
-                    "value": "#2: __str__instance = new String; __str__instance.length === 0, where __str__instance is new String. Actual: __str__instance.length ==="
+                    "value": "#2: __str__instance = new String; __str__instance.length === 0, where __str__instance is new String. Actual: __str__instance.length ===",
+                    "raw": "'#2: __str__instance = new String; __str__instance.length === 0, where __str__instance is new String. Actual: __str__instance.length ==='"
                   },
                   "operator": "+",
                   "right": {

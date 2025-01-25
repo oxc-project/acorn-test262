@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 205,
             "end": 206,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -334,7 +335,8 @@
           "type": "Literal",
           "start": 385,
           "end": 386,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -376,13 +378,15 @@
             "type": "Literal",
             "start": 408,
             "end": 409,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 436,
-            "value": "The value of `x` is `1`"
+            "value": "The value of `x` is `1`",
+            "raw": "\"The value of `x` is `1`\""
           }
         ],
         "optional": false
@@ -426,7 +430,8 @@
           "type": "Literal",
           "start": 459,
           "end": 460,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -468,13 +473,15 @@
             "type": "Literal",
             "start": 482,
             "end": 483,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 510,
-            "value": "The value of `x` is `2`"
+            "value": "The value of `x` is `2`",
+            "raw": "\"The value of `x` is `2`\""
           }
         ],
         "optional": false
@@ -512,7 +519,8 @@
           "type": "Literal",
           "start": 522,
           "end": 523,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -554,13 +562,15 @@
             "type": "Literal",
             "start": 545,
             "end": 546,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 573,
-            "value": "The value of `x` is `3`"
+            "value": "The value of `x` is `3`",
+            "raw": "\"The value of `x` is `3`\""
           }
         ],
         "optional": false
@@ -598,7 +608,8 @@
           "type": "Literal",
           "start": 590,
           "end": 591,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       }
     },
@@ -640,13 +651,15 @@
             "type": "Literal",
             "start": 613,
             "end": 614,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 616,
             "end": 641,
-            "value": "The value of `x` is `4`"
+            "value": "The value of `x` is `4`",
+            "raw": "\"The value of `x` is `4`\""
           }
         ],
         "optional": false

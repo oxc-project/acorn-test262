@@ -97,7 +97,8 @@
                         "type": "Literal",
                         "start": 472,
                         "end": 477,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   ],
@@ -186,7 +187,8 @@
                             "type": "Literal",
                             "start": 589,
                             "end": 642,
-                            "value": "Throws an instance of the matching custom TypeError"
+                            "value": "Throws an instance of the matching custom TypeError",
+                            "raw": "\"Throws an instance of the matching custom TypeError\""
                           }
                         ],
                         "optional": false
@@ -430,7 +432,8 @@
                               "type": "Literal",
                               "start": 874,
                               "end": 878,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -499,7 +502,8 @@
                                     "type": "Literal",
                                     "start": 951,
                                     "end": 985,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -540,7 +544,8 @@
                                   "type": "Literal",
                                   "start": 1027,
                                   "end": 1042,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -580,7 +585,8 @@
                               "type": "Literal",
                               "start": 1096,
                               "end": 1164,
-                              "value": "assert.throwsAsync did not reject a collision of constructor names"
+                              "value": "assert.throwsAsync did not reject a collision of constructor names",
+                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\""
                             }
                           ],
                           "optional": false
@@ -608,7 +614,8 @@
                       "type": "Literal",
                       "start": 1188,
                       "end": 1193,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 },
@@ -794,7 +801,8 @@
                               "type": "Literal",
                               "start": 1378,
                               "end": 1382,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -863,7 +871,8 @@
                                     "type": "Literal",
                                     "start": 1455,
                                     "end": 1489,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -904,7 +913,8 @@
                                   "type": "Literal",
                                   "start": 1531,
                                   "end": 1546,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -944,7 +954,8 @@
                               "type": "Literal",
                               "start": 1600,
                               "end": 1668,
-                              "value": "assert.throwsAsync did not reject a collision of constructor names"
+                              "value": "assert.throwsAsync did not reject a collision of constructor names",
+                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\""
                             }
                           ],
                           "optional": false

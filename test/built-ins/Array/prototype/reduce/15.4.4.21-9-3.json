@@ -71,7 +71,8 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 346,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "computed": true,
                 "optional": false
@@ -102,7 +103,8 @@
                   "type": "Literal",
                   "start": 362,
                   "end": 363,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 },
                 "computed": true,
                 "optional": false
@@ -159,31 +161,36 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 410,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 413,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 416,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 419,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -256,13 +263,15 @@
             "type": "Literal",
             "start": 491,
             "end": 496,
-            "value": "123"
+            "value": "123",
+            "raw": "\"123\""
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 522,
-            "value": "arr.reduce(callbackfn)"
+            "value": "arr.reduce(callbackfn)",
+            "raw": "'arr.reduce(callbackfn)'"
           }
         ],
         "optional": false

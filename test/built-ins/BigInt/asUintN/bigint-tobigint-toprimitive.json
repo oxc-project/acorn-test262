@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 409,
             "end": 419,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -112,7 +113,8 @@
             "type": "Literal",
             "start": 462,
             "end": 472,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -234,7 +236,8 @@
                 "type": "Literal",
                 "start": 579,
                 "end": 580,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -289,7 +292,8 @@
                               "type": "Literal",
                               "start": 632,
                               "end": 635,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -348,13 +352,15 @@
             "type": "Literal",
             "start": 678,
             "end": 680,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 682,
             "end": 727,
-            "value": "ToPrimitive: @@toPrimitive takes precedence"
+            "value": "ToPrimitive: @@toPrimitive takes precedence",
+            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\""
           }
         ],
         "optional": false
@@ -416,7 +422,8 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 763,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -458,7 +465,8 @@
                               "type": "Literal",
                               "start": 802,
                               "end": 805,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -496,13 +504,15 @@
             "type": "Literal",
             "start": 832,
             "end": 834,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 836,
             "end": 889,
-            "value": "ToPrimitive: valueOf takes precedence over toString"
+            "value": "ToPrimitive: valueOf takes precedence over toString",
+            "raw": "\"ToPrimitive: valueOf takes precedence over toString\""
           }
         ],
         "optional": false
@@ -564,7 +574,8 @@
                 "type": "Literal",
                 "start": 924,
                 "end": 925,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -606,7 +617,8 @@
                               "type": "Literal",
                               "start": 965,
                               "end": 968,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -623,13 +635,15 @@
             "type": "Literal",
             "start": 978,
             "end": 980,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 982,
             "end": 1021,
-            "value": "ToPrimitive: toString with no valueOf"
+            "value": "ToPrimitive: toString with no valueOf",
+            "raw": "\"ToPrimitive: toString with no valueOf\""
           }
         ],
         "optional": false
@@ -691,7 +705,8 @@
                 "type": "Literal",
                 "start": 1056,
                 "end": 1057,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -767,7 +782,8 @@
                               "type": "Literal",
                               "start": 1131,
                               "end": 1134,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -784,13 +800,15 @@
             "type": "Literal",
             "start": 1144,
             "end": 1146,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1148,
             "end": 1201,
-            "value": "ToPrimitive: skip @@toPrimitive when it's undefined"
+            "value": "ToPrimitive: skip @@toPrimitive when it's undefined",
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\""
           }
         ],
         "optional": false
@@ -852,7 +870,8 @@
                 "type": "Literal",
                 "start": 1236,
                 "end": 1237,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -889,7 +908,8 @@
                       "type": "Literal",
                       "start": 1265,
                       "end": 1269,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   },
@@ -928,7 +948,8 @@
                               "type": "Literal",
                               "start": 1306,
                               "end": 1309,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -945,13 +966,15 @@
             "type": "Literal",
             "start": 1319,
             "end": 1321,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1323,
             "end": 1371,
-            "value": "ToPrimitive: skip @@toPrimitive when it's null"
+            "value": "ToPrimitive: skip @@toPrimitive when it's null",
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\""
           }
         ],
         "optional": false
@@ -1013,7 +1036,8 @@
                 "type": "Literal",
                 "start": 1406,
                 "end": 1407,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1037,7 +1061,8 @@
                       "type": "Literal",
                       "start": 1422,
                       "end": 1426,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   },
@@ -1076,7 +1101,8 @@
                               "type": "Literal",
                               "start": 1464,
                               "end": 1467,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1093,13 +1119,15 @@
             "type": "Literal",
             "start": 1477,
             "end": 1479,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1481,
             "end": 1531,
-            "value": "ToPrimitive: skip valueOf when it's not callable"
+            "value": "ToPrimitive: skip valueOf when it's not callable",
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
           }
         ],
         "optional": false
@@ -1161,7 +1189,8 @@
                 "type": "Literal",
                 "start": 1566,
                 "end": 1567,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1185,7 +1214,8 @@
                       "type": "Literal",
                       "start": 1582,
                       "end": 1583,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -1224,7 +1254,8 @@
                               "type": "Literal",
                               "start": 1621,
                               "end": 1624,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1241,13 +1272,15 @@
             "type": "Literal",
             "start": 1634,
             "end": 1636,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1638,
             "end": 1688,
-            "value": "ToPrimitive: skip valueOf when it's not callable"
+            "value": "ToPrimitive: skip valueOf when it's not callable",
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
           }
         ],
         "optional": false
@@ -1309,7 +1342,8 @@
                 "type": "Literal",
                 "start": 1723,
                 "end": 1724,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1372,7 +1406,8 @@
                               "type": "Literal",
                               "start": 1779,
                               "end": 1782,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1389,13 +1424,15 @@
             "type": "Literal",
             "start": 1792,
             "end": 1794,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1796,
             "end": 1846,
-            "value": "ToPrimitive: skip valueOf when it's not callable"
+            "value": "ToPrimitive: skip valueOf when it's not callable",
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
           }
         ],
         "optional": false
@@ -1457,7 +1494,8 @@
                 "type": "Literal",
                 "start": 1881,
                 "end": 1882,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1542,7 +1580,8 @@
                               "type": "Literal",
                               "start": 1966,
                               "end": 1969,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1559,13 +1598,15 @@
             "type": "Literal",
             "start": 1979,
             "end": 1981,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1983,
             "end": 2036,
-            "value": "ToPrimitive: skip valueOf when it returns an object"
+            "value": "ToPrimitive: skip valueOf when it returns an object",
+            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
           }
         ],
         "optional": false
@@ -1627,7 +1668,8 @@
                 "type": "Literal",
                 "start": 2071,
                 "end": 2072,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1680,7 +1722,8 @@
                                   "type": "Literal",
                                   "start": 2118,
                                   "end": 2123,
-                                  "value": 12345
+                                  "value": 12345,
+                                  "raw": "12345"
                                 }
                               ],
                               "optional": false
@@ -1726,7 +1769,8 @@
                               "type": "Literal",
                               "start": 2167,
                               "end": 2170,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1743,13 +1787,15 @@
             "type": "Literal",
             "start": 2180,
             "end": 2182,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 2184,
             "end": 2237,
-            "value": "ToPrimitive: skip valueOf when it returns an object"
+            "value": "ToPrimitive: skip valueOf when it returns an object",
+            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
           }
         ],
         "optional": false
@@ -1835,7 +1881,8 @@
                         "type": "Literal",
                         "start": 2295,
                         "end": 2296,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -1872,7 +1919,8 @@
                               "type": "Literal",
                               "start": 2326,
                               "end": 2327,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -1889,7 +1937,8 @@
             "type": "Literal",
             "start": 2337,
             "end": 2392,
-            "value": "ToPrimitive: throw when @@toPrimitive is not callable"
+            "value": "ToPrimitive: throw when @@toPrimitive is not callable",
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
           }
         ],
         "optional": false
@@ -1975,7 +2024,8 @@
                         "type": "Literal",
                         "start": 2450,
                         "end": 2451,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2029,7 +2079,8 @@
             "type": "Literal",
             "start": 2493,
             "end": 2548,
-            "value": "ToPrimitive: throw when @@toPrimitive is not callable"
+            "value": "ToPrimitive: throw when @@toPrimitive is not callable",
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
           }
         ],
         "optional": false
@@ -2115,7 +2166,8 @@
                         "type": "Literal",
                         "start": 2606,
                         "end": 2607,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2181,7 +2233,8 @@
                                           "type": "Literal",
                                           "start": 2670,
                                           "end": 2671,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -2205,7 +2258,8 @@
             "type": "Literal",
             "start": 2689,
             "end": 2746,
-            "value": "ToPrimitive: throw when @@toPrimitive returns an object"
+            "value": "ToPrimitive: throw when @@toPrimitive returns an object",
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
           }
         ],
         "optional": false
@@ -2291,7 +2345,8 @@
                         "type": "Literal",
                         "start": 2804,
                         "end": 2805,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2367,7 +2422,8 @@
             "type": "Literal",
             "start": 2880,
             "end": 2937,
-            "value": "ToPrimitive: throw when @@toPrimitive returns an object"
+            "value": "ToPrimitive: throw when @@toPrimitive returns an object",
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
           }
         ],
         "optional": false
@@ -2453,7 +2509,8 @@
                         "type": "Literal",
                         "start": 2993,
                         "end": 2994,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2535,7 +2592,8 @@
             "type": "Literal",
             "start": 3079,
             "end": 3129,
-            "value": "ToPrimitive: propagate errors from @@toPrimitive"
+            "value": "ToPrimitive: propagate errors from @@toPrimitive",
+            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\""
           }
         ],
         "optional": false
@@ -2621,7 +2679,8 @@
                         "type": "Literal",
                         "start": 3185,
                         "end": 3186,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2690,7 +2749,8 @@
             "type": "Literal",
             "start": 3258,
             "end": 3302,
-            "value": "ToPrimitive: propagate errors from valueOf"
+            "value": "ToPrimitive: propagate errors from valueOf",
+            "raw": "\"ToPrimitive: propagate errors from valueOf\""
           }
         ],
         "optional": false
@@ -2776,7 +2836,8 @@
                         "type": "Literal",
                         "start": 3358,
                         "end": 3359,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2845,7 +2906,8 @@
             "type": "Literal",
             "start": 3432,
             "end": 3477,
-            "value": "ToPrimitive: propagate errors from toString"
+            "value": "ToPrimitive: propagate errors from toString",
+            "raw": "\"ToPrimitive: propagate errors from toString\""
           }
         ],
         "optional": false
@@ -2931,7 +2993,8 @@
                         "type": "Literal",
                         "start": 3535,
                         "end": 3536,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -2955,7 +3018,8 @@
                               "type": "Literal",
                               "start": 3553,
                               "end": 3557,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             },
                             "kind": "init"
                           },
@@ -2976,7 +3040,8 @@
                               "type": "Literal",
                               "start": 3573,
                               "end": 3577,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             },
                             "kind": "init"
                           }
@@ -2993,7 +3058,8 @@
             "type": "Literal",
             "start": 3587,
             "end": 3647,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString"
+            "value": "ToPrimitive: throw when skipping both valueOf and toString",
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
           }
         ],
         "optional": false
@@ -3079,7 +3145,8 @@
                         "type": "Literal",
                         "start": 3705,
                         "end": 3706,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -3103,7 +3170,8 @@
                               "type": "Literal",
                               "start": 3723,
                               "end": 3724,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           },
@@ -3124,7 +3192,8 @@
                               "type": "Literal",
                               "start": 3740,
                               "end": 3741,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -3141,7 +3210,8 @@
             "type": "Literal",
             "start": 3751,
             "end": 3811,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString"
+            "value": "ToPrimitive: throw when skipping both valueOf and toString",
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
           }
         ],
         "optional": false
@@ -3227,7 +3297,8 @@
                         "type": "Literal",
                         "start": 3869,
                         "end": 3870,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -3289,7 +3360,8 @@
             "type": "Literal",
             "start": 3917,
             "end": 3977,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString"
+            "value": "ToPrimitive: throw when skipping both valueOf and toString",
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
           }
         ],
         "optional": false
@@ -3375,7 +3447,8 @@
                         "type": "Literal",
                         "start": 4035,
                         "end": 4036,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -3428,7 +3501,8 @@
                                           "type": "Literal",
                                           "start": 4086,
                                           "end": 4087,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -3485,7 +3559,8 @@
                                           "type": "Literal",
                                           "start": 4144,
                                           "end": 4145,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -3509,7 +3584,8 @@
             "type": "Literal",
             "start": 4163,
             "end": 4223,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString"
+            "value": "ToPrimitive: throw when skipping both valueOf and toString",
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
           }
         ],
         "optional": false
@@ -3595,7 +3671,8 @@
                         "type": "Literal",
                         "start": 4281,
                         "end": 4282,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -3701,7 +3778,8 @@
             "type": "Literal",
             "start": 4395,
             "end": 4455,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString"
+            "value": "ToPrimitive: throw when skipping both valueOf and toString",
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
           }
         ],
         "optional": false

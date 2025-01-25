@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 682,
                 "end": 692,
-                "value": "1.0e-1_0"
+                "value": "1.0e-1_0",
+                "raw": "\"1.0e-1_0\""
               }
             ],
             "optional": false
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 700,
             "end": 710,
-            "value": "1.0e-1_0"
+            "value": "1.0e-1_0",
+            "raw": "\"1.0e-1_0\""
           }
         ],
         "optional": false

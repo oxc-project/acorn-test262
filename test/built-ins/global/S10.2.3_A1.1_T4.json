@@ -22,7 +22,8 @@
           "type": "Literal",
           "start": 361,
           "end": 365,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       },
       "consequent": {
@@ -49,7 +50,8 @@
                   "type": "Literal",
                   "start": 394,
                   "end": 414,
-                  "value": "#27: Math === null"
+                  "value": "#27: Math === null",
+                  "raw": "\"#27: Math === null\""
                 }
               ]
             }

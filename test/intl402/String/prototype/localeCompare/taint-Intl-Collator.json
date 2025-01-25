@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 353,
             "end": 363,
-            "value": "Collator"
+            "value": "Collator",
+            "raw": "\"Collator\""
           }
         ],
         "optional": false
@@ -50,7 +51,8 @@
             "type": "Literal",
             "start": 366,
             "end": 369,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           "property": {
             "type": "Identifier",
@@ -66,7 +68,8 @@
             "type": "Literal",
             "start": 384,
             "end": 387,
-            "value": "b"
+            "value": "b",
+            "raw": "\"b\""
           }
         ],
         "optional": false

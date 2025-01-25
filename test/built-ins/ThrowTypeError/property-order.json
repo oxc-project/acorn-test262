@@ -72,7 +72,8 @@
                             "type": "Literal",
                             "start": 331,
                             "end": 343,
-                            "value": "use strict"
+                            "value": "use strict",
+                            "raw": "\"use strict\""
                           },
                           "directive": "use strict"
                         },
@@ -97,7 +98,8 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 378,
-                  "value": "callee"
+                  "value": "callee",
+                  "raw": "\"callee\""
                 }
               ],
               "optional": false
@@ -210,7 +212,8 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 490,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -262,7 +265,8 @@
                 "type": "Literal",
                 "start": 527,
                 "end": 533,
-                "value": "name"
+                "value": "name",
+                "raw": "\"name\""
               }
             ],
             "optional": false
@@ -305,7 +309,8 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 560,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "operator": "&&",
@@ -335,7 +340,8 @@
                   "type": "Literal",
                   "start": 592,
                   "end": 593,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -344,7 +350,8 @@
             "type": "Literal",
             "start": 597,
             "end": 675,
-            "value": "The `length` property comes before the `name` property on built-in functions"
+            "value": "The `length` property comes before the `name` property on built-in functions",
+            "raw": "\"The `length` property comes before the `name` property on built-in functions\""
           }
         ],
         "optional": false

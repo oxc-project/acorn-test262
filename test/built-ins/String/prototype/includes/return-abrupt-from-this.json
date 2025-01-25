@@ -190,7 +190,8 @@
                         "type": "Literal",
                         "start": 585,
                         "end": 587,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

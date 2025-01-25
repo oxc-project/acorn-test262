@@ -21,7 +21,8 @@
             "type": "Literal",
             "start": 280,
             "end": 285,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         },
         "operator": "!==",
@@ -29,7 +30,8 @@
           "type": "Literal",
           "start": 290,
           "end": 291,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -60,7 +62,8 @@
                     "type": "Literal",
                     "start": 320,
                     "end": 348,
-                    "value": "#1: -false === 0. Actual: "
+                    "value": "#1: -false === 0. Actual: ",
+                    "raw": "'#1: -false === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -77,7 +80,8 @@
                         "type": "Literal",
                         "start": 353,
                         "end": 358,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   }
@@ -118,7 +122,8 @@
                 "type": "Literal",
                 "start": 392,
                 "end": 396,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -134,7 +139,8 @@
             "type": "Literal",
             "start": 403,
             "end": 404,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -166,7 +172,8 @@
                     "type": "Literal",
                     "start": 433,
                     "end": 474,
-                    "value": "#2: -new Boolean(true) === -1. Actual: "
+                    "value": "#2: -new Boolean(true) === -1. Actual: ",
+                    "raw": "'#2: -new Boolean(true) === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -194,7 +201,8 @@
                             "type": "Literal",
                             "start": 491,
                             "end": 495,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         ]
                       }

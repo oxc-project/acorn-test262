@@ -23,6 +23,7 @@
             "start": 316,
             "end": 323,
             "value": {},
+            "raw": "/nd|ne/",
             "regex": {
               "pattern": "nd|ne",
               "flags": ""
@@ -135,14 +136,16 @@
               "type": "Literal",
               "start": 395,
               "end": 399,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 467,
-            "value": "__re.test(undefined) must return __re.exec(undefined) !== null"
+            "value": "__re.test(undefined) must return __re.exec(undefined) !== null",
+            "raw": "'__re.test(undefined) must return __re.exec(undefined) !== null'"
           }
         ],
         "optional": false

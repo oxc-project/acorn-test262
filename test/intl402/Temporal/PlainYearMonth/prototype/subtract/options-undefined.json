@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 511,
                       "end": 515,
-                      "value": 5779
+                      "value": 5779,
+                      "raw": "5779"
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 530,
                       "end": 536,
-                      "value": "M05L"
+                      "value": "M05L",
+                      "raw": "\"M05L\""
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 550,
                       "end": 558,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -169,7 +172,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 590,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }

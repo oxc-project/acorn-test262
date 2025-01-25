@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 799,
             "end": 804,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 868,
-            "value": "isConstructor(TypedArray.prototype.with) must return false"
+            "value": "isConstructor(TypedArray.prototype.with) must return false",
+            "raw": "'isConstructor(TypedArray.prototype.with) must return false'"
           }
         ],
         "optional": false
@@ -186,13 +188,15 @@
                         "type": "Literal",
                         "start": 938,
                         "end": 939,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 941,
                         "end": 942,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   }
@@ -204,7 +208,8 @@
             "type": "Literal",
             "start": 948,
             "end": 1002,
-            "value": "`new %TypedArray%.prototype.with()` throws TypeError"
+            "value": "`new %TypedArray%.prototype.with()` throws TypeError",
+            "raw": "'`new %TypedArray%.prototype.with()` throws TypeError'"
           }
         ],
         "optional": false

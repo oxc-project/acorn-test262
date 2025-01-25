@@ -63,14 +63,16 @@
                       "type": "Literal",
                       "start": 503,
                       "end": 505,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 508,
                       "end": 509,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -81,7 +83,8 @@
             "type": "Literal",
             "start": 514,
             "end": 539,
-            "value": "1n & 1 throws TypeError"
+            "value": "1n & 1 throws TypeError",
+            "raw": "'1n & 1 throws TypeError'"
           }
         ],
         "optional": false
@@ -147,14 +150,16 @@
                       "type": "Literal",
                       "start": 583,
                       "end": 584,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 587,
                       "end": 589,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -165,7 +170,8 @@
             "type": "Literal",
             "start": 594,
             "end": 619,
-            "value": "1 & 1n throws TypeError"
+            "value": "1 & 1n throws TypeError",
+            "raw": "'1 & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -242,7 +248,8 @@
                           "type": "Literal",
                           "start": 670,
                           "end": 672,
-                          "value": "1n"
+                          "value": "1n",
+                          "raw": "1n"
                         }
                       ],
                       "optional": false
@@ -252,7 +259,8 @@
                       "type": "Literal",
                       "start": 676,
                       "end": 677,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -263,7 +271,8 @@
             "type": "Literal",
             "start": 682,
             "end": 715,
-            "value": "Object(1n) & 1 throws TypeError"
+            "value": "Object(1n) & 1 throws TypeError",
+            "raw": "'Object(1n) & 1 throws TypeError'"
           }
         ],
         "optional": false
@@ -329,7 +338,8 @@
                       "type": "Literal",
                       "start": 759,
                       "end": 760,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "operator": "&",
                     "right": {
@@ -347,7 +357,8 @@
                           "type": "Literal",
                           "start": 770,
                           "end": 772,
-                          "value": "1n"
+                          "value": "1n",
+                          "raw": "1n"
                         }
                       ],
                       "optional": false
@@ -361,7 +372,8 @@
             "type": "Literal",
             "start": 778,
             "end": 811,
-            "value": "1 & Object(1n) throws TypeError"
+            "value": "1 & Object(1n) throws TypeError",
+            "raw": "'1 & Object(1n) throws TypeError'"
           }
         ],
         "optional": false
@@ -427,7 +439,8 @@
                       "type": "Literal",
                       "start": 855,
                       "end": 857,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
@@ -445,7 +458,8 @@
                           "type": "Literal",
                           "start": 867,
                           "end": 868,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -459,7 +473,8 @@
             "type": "Literal",
             "start": 874,
             "end": 907,
-            "value": "1n & Object(1) throws TypeError"
+            "value": "1n & Object(1) throws TypeError",
+            "raw": "'1n & Object(1) throws TypeError'"
           }
         ],
         "optional": false
@@ -536,7 +551,8 @@
                           "type": "Literal",
                           "start": 958,
                           "end": 959,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -546,7 +562,8 @@
                       "type": "Literal",
                       "start": 963,
                       "end": 965,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -557,7 +574,8 @@
             "type": "Literal",
             "start": 970,
             "end": 1003,
-            "value": "Object(1) & 1n throws TypeError"
+            "value": "Object(1) & 1n throws TypeError",
+            "raw": "'Object(1) & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -634,7 +652,8 @@
                           "type": "Literal",
                           "start": 1054,
                           "end": 1056,
-                          "value": "1n"
+                          "value": "1n",
+                          "raw": "1n"
                         }
                       ],
                       "optional": false
@@ -655,7 +674,8 @@
                           "type": "Literal",
                           "start": 1067,
                           "end": 1068,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -669,7 +689,8 @@
             "type": "Literal",
             "start": 1074,
             "end": 1115,
-            "value": "Object(1n) & Object(1) throws TypeError"
+            "value": "Object(1n) & Object(1) throws TypeError",
+            "raw": "'Object(1n) & Object(1) throws TypeError'"
           }
         ],
         "optional": false
@@ -746,7 +767,8 @@
                           "type": "Literal",
                           "start": 1166,
                           "end": 1167,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -767,7 +789,8 @@
                           "type": "Literal",
                           "start": 1178,
                           "end": 1180,
-                          "value": "1n"
+                          "value": "1n",
+                          "raw": "1n"
                         }
                       ],
                       "optional": false
@@ -781,7 +804,8 @@
             "type": "Literal",
             "start": 1186,
             "end": 1227,
-            "value": "Object(1) & Object(1n) throws TypeError"
+            "value": "Object(1) & Object(1n) throws TypeError",
+            "raw": "'Object(1) & Object(1n) throws TypeError'"
           }
         ],
         "optional": false
@@ -847,7 +871,8 @@
                       "type": "Literal",
                       "start": 1271,
                       "end": 1273,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
@@ -865,7 +890,8 @@
             "type": "Literal",
             "start": 1284,
             "end": 1311,
-            "value": "1n & NaN throws TypeError"
+            "value": "1n & NaN throws TypeError",
+            "raw": "'1n & NaN throws TypeError'"
           }
         ],
         "optional": false
@@ -938,7 +964,8 @@
                       "type": "Literal",
                       "start": 1361,
                       "end": 1363,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -949,7 +976,8 @@
             "type": "Literal",
             "start": 1368,
             "end": 1395,
-            "value": "NaN & 1n throws TypeError"
+            "value": "NaN & 1n throws TypeError",
+            "raw": "'NaN & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -1015,7 +1043,8 @@
                       "type": "Literal",
                       "start": 1439,
                       "end": 1441,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
@@ -1033,7 +1062,8 @@
             "type": "Literal",
             "start": 1457,
             "end": 1489,
-            "value": "1n & Infinity throws TypeError"
+            "value": "1n & Infinity throws TypeError",
+            "raw": "'1n & Infinity throws TypeError'"
           }
         ],
         "optional": false
@@ -1106,7 +1136,8 @@
                       "type": "Literal",
                       "start": 1544,
                       "end": 1546,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -1117,7 +1148,8 @@
             "type": "Literal",
             "start": 1551,
             "end": 1583,
-            "value": "Infinity & 1n throws TypeError"
+            "value": "Infinity & 1n throws TypeError",
+            "raw": "'Infinity & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -1183,14 +1215,16 @@
                       "type": "Literal",
                       "start": 1627,
                       "end": 1629,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 1632,
                       "end": 1636,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -1201,7 +1235,8 @@
             "type": "Literal",
             "start": 1641,
             "end": 1669,
-            "value": "1n & true throws TypeError"
+            "value": "1n & true throws TypeError",
+            "raw": "'1n & true throws TypeError'"
           }
         ],
         "optional": false
@@ -1267,14 +1302,16 @@
                       "type": "Literal",
                       "start": 1713,
                       "end": 1717,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 1720,
                       "end": 1722,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -1285,7 +1322,8 @@
             "type": "Literal",
             "start": 1727,
             "end": 1755,
-            "value": "true & 1n throws TypeError"
+            "value": "true & 1n throws TypeError",
+            "raw": "'true & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -1351,14 +1389,16 @@
                       "type": "Literal",
                       "start": 1799,
                       "end": 1801,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 1804,
                       "end": 1807,
-                      "value": "1"
+                      "value": "1",
+                      "raw": "'1'"
                     }
                   }
                 }
@@ -1369,7 +1409,8 @@
             "type": "Literal",
             "start": 1812,
             "end": 1839,
-            "value": "1n & \"1\" throws TypeError"
+            "value": "1n & \"1\" throws TypeError",
+            "raw": "'1n & \"1\" throws TypeError'"
           }
         ],
         "optional": false
@@ -1435,14 +1476,16 @@
                       "type": "Literal",
                       "start": 1883,
                       "end": 1886,
-                      "value": "1"
+                      "value": "1",
+                      "raw": "'1'"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 1889,
                       "end": 1891,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -1453,7 +1496,8 @@
             "type": "Literal",
             "start": 1896,
             "end": 1923,
-            "value": "\"1\" & 1n throws TypeError"
+            "value": "\"1\" & 1n throws TypeError",
+            "raw": "'\"1\" & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -1519,14 +1563,16 @@
                       "type": "Literal",
                       "start": 1967,
                       "end": 1969,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 1972,
                       "end": 1976,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   }
                 }
@@ -1537,7 +1583,8 @@
             "type": "Literal",
             "start": 1981,
             "end": 2009,
-            "value": "1n & null throws TypeError"
+            "value": "1n & null throws TypeError",
+            "raw": "'1n & null throws TypeError'"
           }
         ],
         "optional": false
@@ -1603,14 +1650,16 @@
                       "type": "Literal",
                       "start": 2053,
                       "end": 2057,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "operator": "&",
                     "right": {
                       "type": "Literal",
                       "start": 2060,
                       "end": 2062,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -1621,7 +1670,8 @@
             "type": "Literal",
             "start": 2067,
             "end": 2095,
-            "value": "null & 1n throws TypeError"
+            "value": "null & 1n throws TypeError",
+            "raw": "'null & 1n throws TypeError'"
           }
         ],
         "optional": false
@@ -1687,7 +1737,8 @@
                       "type": "Literal",
                       "start": 2139,
                       "end": 2141,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     },
                     "operator": "&",
                     "right": {
@@ -1705,7 +1756,8 @@
             "type": "Literal",
             "start": 2158,
             "end": 2191,
-            "value": "1n & undefined throws TypeError"
+            "value": "1n & undefined throws TypeError",
+            "raw": "'1n & undefined throws TypeError'"
           }
         ],
         "optional": false
@@ -1778,7 +1830,8 @@
                       "type": "Literal",
                       "start": 2247,
                       "end": 2249,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -1789,7 +1842,8 @@
             "type": "Literal",
             "start": 2254,
             "end": 2287,
-            "value": "undefined & 1n throws TypeError"
+            "value": "undefined & 1n throws TypeError",
+            "raw": "'undefined & 1n throws TypeError'"
           }
         ],
         "optional": false

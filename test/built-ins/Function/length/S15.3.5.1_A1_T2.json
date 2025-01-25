@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 442,
-                "value": "arg1,arg2,arg3"
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 455,
-                "value": "arg4,arg5"
+                "value": "arg4,arg5",
+                "raw": "\"arg4,arg5\""
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 461,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -97,7 +100,8 @@
                 "type": "Literal",
                 "start": 489,
                 "end": 497,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +110,8 @@
             "type": "Literal",
             "start": 500,
             "end": 547,
-            "value": "f.hasOwnProperty('length') must return true"
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -163,13 +168,15 @@
             "type": "Literal",
             "start": 577,
             "end": 578,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 623,
-            "value": "The value of f.length is expected to be 5"
+            "value": "The value of f.length is expected to be 5",
+            "raw": "'The value of f.length is expected to be 5'"
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
           "type": "Literal",
           "start": 358,
           "end": 369,
-          "value": "MathValue"
+          "value": "MathValue",
+          "raw": "\"MathValue\""
         }
       }
     },
@@ -170,13 +171,15 @@
             "type": "Literal",
             "start": 453,
             "end": 464,
-            "value": "MathValue"
+            "value": "MathValue",
+            "raw": "\"MathValue\""
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 479,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

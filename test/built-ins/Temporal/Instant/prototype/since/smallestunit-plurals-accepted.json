@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 374,
-                "value": "1000000000987654321n"
+                "value": "1000000000987654321n",
+                "raw": "1_000_000_000_987_654_321n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 412,
                 "end": 438,
-                "value": "1086403661988655322n"
+                "value": "1086403661988655322n",
+                "raw": "1_086_403_661_988_655_322n"
               }
             ]
           }
@@ -129,37 +131,43 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 470,
-                "value": "hour"
+                "value": "hour",
+                "raw": "\"hour\""
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 482,
-                "value": "minute"
+                "value": "minute",
+                "raw": "\"minute\""
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 494,
-                "value": "second"
+                "value": "second",
+                "raw": "\"second\""
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 511,
-                "value": "millisecond"
+                "value": "millisecond",
+                "raw": "\"millisecond\""
               },
               {
                 "type": "Literal",
                 "start": 515,
                 "end": 528,
-                "value": "microsecond"
+                "value": "microsecond",
+                "raw": "\"microsecond\""
               },
               {
                 "type": "Literal",
                 "start": 532,
                 "end": 544,
-                "value": "nanosecond"
+                "value": "nanosecond",
+                "raw": "\"nanosecond\""
               }
             ]
           }

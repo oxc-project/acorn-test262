@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 332,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 339,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 393,
                       "end": 406,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   },
@@ -142,7 +145,8 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 428,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -193,13 +197,15 @@
             "type": "Literal",
             "start": 459,
             "end": 498,
-            "value": "2001-09-09T01:46:40.123988+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123988+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123988+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 558,
-            "value": "roundingMode is ceil (with 6 digits from smallestUnit)"
+            "value": "roundingMode is ceil (with 6 digits from smallestUnit)",
+            "raw": "\"roundingMode is ceil (with 6 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -266,7 +272,8 @@
                       "type": "Literal",
                       "start": 622,
                       "end": 623,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   },
@@ -287,7 +294,8 @@
                       "type": "Literal",
                       "start": 639,
                       "end": 645,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -338,13 +346,15 @@
             "type": "Literal",
             "start": 676,
             "end": 715,
-            "value": "2001-09-09T01:46:40.123988+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123988+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123988+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 785,
-            "value": "roundingMode is ceil (with 6 digits from fractionalSecondDigits)"
+            "value": "roundingMode is ceil (with 6 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is ceil (with 6 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false
@@ -411,7 +421,8 @@
                       "type": "Literal",
                       "start": 839,
                       "end": 852,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   },
@@ -432,7 +443,8 @@
                       "type": "Literal",
                       "start": 868,
                       "end": 874,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -483,13 +495,15 @@
             "type": "Literal",
             "start": 905,
             "end": 941,
-            "value": "2001-09-09T01:46:40.124+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.124+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.124+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 1001,
-            "value": "roundingMode is ceil (with 3 digits from smallestUnit)"
+            "value": "roundingMode is ceil (with 3 digits from smallestUnit)",
+            "raw": "\"roundingMode is ceil (with 3 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -556,7 +570,8 @@
                       "type": "Literal",
                       "start": 1065,
                       "end": 1066,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   },
@@ -577,7 +592,8 @@
                       "type": "Literal",
                       "start": 1082,
                       "end": 1088,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -628,13 +644,15 @@
             "type": "Literal",
             "start": 1119,
             "end": 1155,
-            "value": "2001-09-09T01:46:40.124+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.124+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.124+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1159,
             "end": 1225,
-            "value": "roundingMode is ceil (with 3 digits from fractionalSecondDigits)"
+            "value": "roundingMode is ceil (with 3 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is ceil (with 3 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false
@@ -701,7 +719,8 @@
                       "type": "Literal",
                       "start": 1279,
                       "end": 1287,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -722,7 +741,8 @@
                       "type": "Literal",
                       "start": 1303,
                       "end": 1309,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -773,13 +793,15 @@
             "type": "Literal",
             "start": 1340,
             "end": 1372,
-            "value": "2001-09-09T01:46:41+00:00[UTC]"
+            "value": "2001-09-09T01:46:41+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:41+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1376,
             "end": 1432,
-            "value": "roundingMode is ceil (with 0 digits from smallestUnit)"
+            "value": "roundingMode is ceil (with 0 digits from smallestUnit)",
+            "raw": "\"roundingMode is ceil (with 0 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -846,7 +868,8 @@
                       "type": "Literal",
                       "start": 1496,
                       "end": 1497,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "kind": "init"
                   },
@@ -867,7 +890,8 @@
                       "type": "Literal",
                       "start": 1513,
                       "end": 1519,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -918,13 +942,15 @@
             "type": "Literal",
             "start": 1550,
             "end": 1582,
-            "value": "2001-09-09T01:46:41+00:00[UTC]"
+            "value": "2001-09-09T01:46:41+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:41+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1586,
             "end": 1652,
-            "value": "roundingMode is ceil (with 0 digits from fractionalSecondDigits)"
+            "value": "roundingMode is ceil (with 0 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is ceil (with 0 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false
@@ -991,7 +1017,8 @@
                       "type": "Literal",
                       "start": 1706,
                       "end": 1714,
-                      "value": "minute"
+                      "value": "minute",
+                      "raw": "\"minute\""
                     },
                     "kind": "init"
                   },
@@ -1012,7 +1039,8 @@
                       "type": "Literal",
                       "start": 1730,
                       "end": 1736,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -1063,13 +1091,15 @@
             "type": "Literal",
             "start": 1767,
             "end": 1796,
-            "value": "2001-09-09T01:47+00:00[UTC]"
+            "value": "2001-09-09T01:47+00:00[UTC]",
+            "raw": "\"2001-09-09T01:47+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1798,
             "end": 1838,
-            "value": "roundingMode is ceil (round to minute)"
+            "value": "roundingMode is ceil (round to minute)",
+            "raw": "\"roundingMode is ceil (round to minute)\""
           }
         ],
         "optional": false

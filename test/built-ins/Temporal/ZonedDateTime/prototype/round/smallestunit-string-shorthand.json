@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 420,
-                "value": "1000000000987654321n"
+                "value": "1000000000987654321n",
+                "raw": "1_000_000_000_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 427,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -84,43 +86,50 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 458,
-                "value": "day"
+                "value": "day",
+                "raw": "\"day\""
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 468,
-                "value": "hour"
+                "value": "hour",
+                "raw": "\"hour\""
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 480,
-                "value": "minute"
+                "value": "minute",
+                "raw": "\"minute\""
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 492,
-                "value": "second"
+                "value": "second",
+                "raw": "\"second\""
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 509,
-                "value": "millisecond"
+                "value": "millisecond",
+                "raw": "\"millisecond\""
               },
               {
                 "type": "Literal",
                 "start": 513,
                 "end": 526,
-                "value": "microsecond"
+                "value": "microsecond",
+                "raw": "\"microsecond\""
               },
               {
                 "type": "Literal",
                 "start": 530,
                 "end": 542,
-                "value": "nanosecond"
+                "value": "nanosecond",
+                "raw": "\"nanosecond\""
               }
             ]
           }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1011,
             "end": 1016,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -95,7 +96,8 @@
                             "type": "Literal",
                             "start": 1050,
                             "end": 1054,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       }
@@ -128,7 +130,8 @@
             "type": "Literal",
             "start": 1072,
             "end": 1074,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         }
       ],
@@ -147,6 +150,7 @@
           "start": 1083,
           "end": 1089,
           "value": {},
+          "raw": "/x.y/g",
           "regex": {
             "pattern": "x.y",
             "flags": "g"
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 1111,
                   "end": 1134,
-                  "value": "It should be a RegExp"
+                  "value": "It should be a RegExp",
+                  "raw": "'It should be a RegExp'"
                 }
               ],
               "optional": false

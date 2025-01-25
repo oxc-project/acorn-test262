@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 399,
             "end": 409,
-            "value": 4294967296
+            "value": 4294967296,
+            "raw": "4294967296"
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -106,7 +108,8 @@
               "type": "Literal",
               "start": 435,
               "end": 436,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -121,7 +124,8 @@
             "type": "Literal",
             "start": 450,
             "end": 500,
-            "value": "The value of x[0] is expected to equal undefined"
+            "value": "The value of x[0] is expected to equal undefined",
+            "raw": "'The value of x[0] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -169,7 +173,8 @@
               "type": "Literal",
               "start": 522,
               "end": 534,
-              "value": "4294967296"
+              "value": "4294967296",
+              "raw": "\"4294967296\""
             },
             "computed": true,
             "optional": false
@@ -178,13 +183,15 @@
             "type": "Literal",
             "start": 537,
             "end": 538,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 590,
-            "value": "The value of x[\"4294967296\"] is expected to be 1"
+            "value": "The value of x[\"4294967296\"] is expected to be 1",
+            "raw": "'The value of x[\"4294967296\"] is expected to be 1'"
           }
         ],
         "optional": false
@@ -238,7 +245,8 @@
             "type": "Literal",
             "start": 608,
             "end": 618,
-            "value": 4294967297
+            "value": 4294967297,
+            "raw": "4294967297"
           },
           "computed": true,
           "optional": false
@@ -247,7 +255,8 @@
           "type": "Literal",
           "start": 622,
           "end": 623,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -273,7 +282,8 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -314,7 +324,8 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 737,
-                    "value": "#3: y = []; y[4294967297] = 1; y[1] === undefined. Actual: "
+                    "value": "#3: y = []; y[4294967297] = 1; y[1] === undefined. Actual: ",
+                    "raw": "'#3: y = []; y[4294967297] = 1; y[1] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -335,7 +346,8 @@
                         "type": "Literal",
                         "start": 743,
                         "end": 744,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -371,7 +383,8 @@
             "type": "Literal",
             "start": 768,
             "end": 780,
-            "value": "4294967297"
+            "value": "4294967297",
+            "raw": "\"4294967297\""
           },
           "computed": true,
           "optional": false
@@ -381,7 +394,8 @@
           "type": "Literal",
           "start": 786,
           "end": 787,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -412,7 +426,8 @@
                     "type": "Literal",
                     "start": 816,
                     "end": 880,
-                    "value": "#4: y = []; y[4294967297] = 1; y[\"4294967297\"] === 1. Actual: "
+                    "value": "#4: y = []; y[4294967297] = 1; y[\"4294967297\"] === 1. Actual: ",
+                    "raw": "'#4: y = []; y[4294967297] = 1; y[\"4294967297\"] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -433,7 +448,8 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 898,
-                        "value": "4294967297"
+                        "value": "4294967297",
+                        "raw": "\"4294967297\""
                       },
                       "computed": true,
                       "optional": false
@@ -495,7 +511,8 @@
             "type": "Literal",
             "start": 930,
             "end": 933,
-            "value": 1.1
+            "value": 1.1,
+            "raw": "1.1"
           },
           "computed": true,
           "optional": false
@@ -504,7 +521,8 @@
           "type": "Literal",
           "start": 937,
           "end": 938,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -530,7 +548,8 @@
             "type": "Literal",
             "start": 946,
             "end": 947,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -571,7 +590,8 @@
                     "type": "Literal",
                     "start": 991,
                     "end": 1045,
-                    "value": "#5: z = []; z[1.1] = 1; z[1] === undefined. Actual: "
+                    "value": "#5: z = []; z[1.1] = 1; z[1] === undefined. Actual: ",
+                    "raw": "'#5: z = []; z[1.1] = 1; z[1] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -592,7 +612,8 @@
                         "type": "Literal",
                         "start": 1051,
                         "end": 1052,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -628,7 +649,8 @@
             "type": "Literal",
             "start": 1076,
             "end": 1081,
-            "value": "1.1"
+            "value": "1.1",
+            "raw": "\"1.1\""
           },
           "computed": true,
           "optional": false
@@ -638,7 +660,8 @@
           "type": "Literal",
           "start": 1087,
           "end": 1088,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -669,7 +692,8 @@
                     "type": "Literal",
                     "start": 1117,
                     "end": 1167,
-                    "value": "#6: z = []; z[1.1] = 1; z[\"1.1\"] === 1. Actual: "
+                    "value": "#6: z = []; z[1.1] = 1; z[\"1.1\"] === 1. Actual: ",
+                    "raw": "'#6: z = []; z[1.1] = 1; z[\"1.1\"] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -690,7 +714,8 @@
                         "type": "Literal",
                         "start": 1173,
                         "end": 1178,
-                        "value": "1.1"
+                        "value": "1.1",
+                        "raw": "\"1.1\""
                       },
                       "computed": true,
                       "optional": false

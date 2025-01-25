@@ -52,14 +52,16 @@
                   "type": "Literal",
                   "start": 720,
                   "end": 741,
-                  "value": "13849764999999999n"
+                  "value": "13849764999999999n",
+                  "raw": "13849764_999_999_999n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 748,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -118,7 +120,8 @@
             "type": "Literal",
             "start": 940,
             "end": 941,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

@@ -64,7 +64,8 @@
                         "type": "Literal",
                         "start": 787,
                         "end": 788,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "AssignmentExpression",
@@ -81,7 +82,8 @@
                           "type": "Literal",
                           "start": 795,
                           "end": 799,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       }
                     ]

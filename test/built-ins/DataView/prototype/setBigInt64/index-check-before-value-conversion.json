@@ -44,7 +44,8 @@
                     "type": "Literal",
                     "start": 382,
                     "end": 383,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ]
               },
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 387,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -127,7 +129,8 @@
                               "type": "Literal",
                               "start": 449,
                               "end": 465,
-                              "value": "valueOf called"
+                              "value": "valueOf called",
+                              "raw": "\"valueOf called\""
                             }
                           ]
                         }
@@ -228,7 +231,8 @@
                           "type": "Literal",
                           "start": 539,
                           "end": 542,
-                          "value": 1.5
+                          "value": 1.5,
+                          "raw": "1.5"
                         }
                       },
                       {
@@ -248,7 +252,8 @@
             "type": "Literal",
             "start": 558,
             "end": 587,
-            "value": "setBigInt64(-1.5, poisoned)"
+            "value": "setBigInt64(-1.5, poisoned)",
+            "raw": "\"setBigInt64(-1.5, poisoned)\""
           }
         ],
         "optional": false
@@ -340,7 +345,8 @@
                           "type": "Literal",
                           "start": 654,
                           "end": 655,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
@@ -360,7 +366,8 @@
             "type": "Literal",
             "start": 671,
             "end": 698,
-            "value": "setBigInt64(-1, poisoned)"
+            "value": "setBigInt64(-1, poisoned)",
+            "raw": "\"setBigInt64(-1, poisoned)\""
           }
         ],
         "optional": false
@@ -472,7 +479,8 @@
             "type": "Literal",
             "start": 789,
             "end": 823,
-            "value": "setBigInt64(-Infinity, poisoned)"
+            "value": "setBigInt64(-Infinity, poisoned)",
+            "raw": "\"setBigInt64(-Infinity, poisoned)\""
           }
         ],
         "optional": false
@@ -577,7 +585,8 @@
             "type": "Literal",
             "start": 913,
             "end": 946,
-            "value": "setBigInt64(Infinity, poisoned)"
+            "value": "setBigInt64(Infinity, poisoned)",
+            "raw": "\"setBigInt64(Infinity, poisoned)\""
           }
         ],
         "optional": false

@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 609,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -115,7 +116,8 @@
             "type": "Literal",
             "start": 662,
             "end": 666,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -183,7 +185,8 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 740,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false

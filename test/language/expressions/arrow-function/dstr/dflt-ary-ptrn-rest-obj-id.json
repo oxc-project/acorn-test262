@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1673,
             "end": 1674,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -125,19 +126,22 @@
                     "type": "Literal",
                     "start": 1707,
                     "end": 1708,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1710,
                     "end": 1711,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 1713,
                     "end": 1714,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -186,7 +190,8 @@
                       "type": "Literal",
                       "start": 1749,
                       "end": 1750,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   ],
                   "optional": false
@@ -222,7 +227,8 @@
                       "type": "Literal",
                       "start": 1779,
                       "end": 1780,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -288,13 +294,15 @@
             "type": "Literal",
             "start": 1819,
             "end": 1820,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1822,
             "end": 1859,
-            "value": "arrow function invoked exactly once"
+            "value": "arrow function invoked exactly once",
+            "raw": "'arrow function invoked exactly once'"
           }
         ],
         "optional": false

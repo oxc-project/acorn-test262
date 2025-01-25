@@ -88,7 +88,8 @@
                               "type": "Literal",
                               "start": 398,
                               "end": 402,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -144,7 +145,8 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 437,
-                "value": "attr"
+                "value": "attr",
+                "raw": "\"attr\""
               },
               "operator": "in",
               "right": {
@@ -159,7 +161,8 @@
             "type": "Literal",
             "start": 445,
             "end": 449,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

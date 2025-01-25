@@ -108,7 +108,8 @@
             "type": "Literal",
             "start": 545,
             "end": 556,
-            "value": "EvalError"
+            "value": "EvalError",
+            "raw": "'EvalError'"
           }
         ],
         "optional": false

@@ -56,7 +56,8 @@
                           "type": "Literal",
                           "start": 442,
                           "end": 454,
-                          "value": "use strict"
+                          "value": "use strict",
+                          "raw": "\"use strict\""
                         },
                         "directive": "use strict"
                       },

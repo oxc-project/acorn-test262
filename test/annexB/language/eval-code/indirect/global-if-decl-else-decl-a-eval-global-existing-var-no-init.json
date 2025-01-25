@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 1036,
                 "end": 1037,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -40,7 +41,8 @@
             "type": "Literal",
             "start": 1047,
             "end": 1139,
-            "value": "var f = 123;  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}"
+            "value": "var f = 123;  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}",
+            "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}'"
           }
         ],
         "optional": false

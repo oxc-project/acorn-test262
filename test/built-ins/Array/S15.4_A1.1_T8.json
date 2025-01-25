@@ -62,7 +62,8 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 410,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ]
           },
@@ -73,7 +74,8 @@
           "type": "Literal",
           "start": 415,
           "end": 416,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -119,7 +121,8 @@
               "type": "Literal",
               "start": 437,
               "end": 438,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -128,13 +131,15 @@
             "type": "Literal",
             "start": 441,
             "end": 442,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 483,
-            "value": "The value of x[0] is expected to be 0"
+            "value": "The value of x[0] is expected to be 0",
+            "raw": "'The value of x[0] is expected to be 0'"
           }
         ],
         "optional": false
@@ -199,7 +204,8 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 515,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ]
           },
@@ -210,7 +216,8 @@
           "type": "Literal",
           "start": 520,
           "end": 521,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -256,7 +263,8 @@
               "type": "Literal",
               "start": 542,
               "end": 543,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -265,13 +273,15 @@
             "type": "Literal",
             "start": 546,
             "end": 547,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 588,
-            "value": "The value of y[1] is expected to be 1"
+            "value": "The value of y[1] is expected to be 1",
+            "raw": "'The value of y[1] is expected to be 1'"
           }
         ],
         "optional": false
@@ -336,7 +346,8 @@
                 "type": "Literal",
                 "start": 617,
                 "end": 622,
-                "value": "1.1"
+                "value": "1.1",
+                "raw": "\"1.1\""
               }
             ]
           },
@@ -347,7 +358,8 @@
           "type": "Literal",
           "start": 627,
           "end": 628,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -393,7 +405,8 @@
               "type": "Literal",
               "start": 649,
               "end": 654,
-              "value": "1.1"
+              "value": "1.1",
+              "raw": "\"1.1\""
             },
             "computed": true,
             "optional": false
@@ -402,13 +415,15 @@
             "type": "Literal",
             "start": 657,
             "end": 658,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 660,
             "end": 703,
-            "value": "The value of z[\"1.1\"] is expected to be 1"
+            "value": "The value of z[\"1.1\"] is expected to be 1",
+            "raw": "'The value of z[\"1.1\"] is expected to be 1'"
           }
         ],
         "optional": false

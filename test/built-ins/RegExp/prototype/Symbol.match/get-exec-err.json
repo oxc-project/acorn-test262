@@ -23,6 +23,7 @@
             "start": 492,
             "end": 495,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -70,7 +71,8 @@
             "type": "Literal",
             "start": 523,
             "end": 529,
-            "value": "exec"
+            "value": "exec",
+            "raw": "'exec'"
           },
           {
             "type": "ObjectExpression",
@@ -225,7 +227,8 @@
                         "type": "Literal",
                         "start": 651,
                         "end": 653,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

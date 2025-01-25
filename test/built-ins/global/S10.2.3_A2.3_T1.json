@@ -58,14 +58,16 @@
                               "type": "Literal",
                               "start": 299,
                               "end": 312,
-                              "value": "//CHECK#1\n"
+                              "value": "//CHECK#1\n",
+                              "raw": "'//CHECK#1\\n'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 314,
                               "end": 339,
-                              "value": "for (var x in this) {\n"
+                              "value": "for (var x in this) {\n",
+                              "raw": "'for (var x in this) {\\n'"
                             }
                           },
                           "operator": "+",
@@ -73,7 +75,8 @@
                             "type": "Literal",
                             "start": 341,
                             "end": 369,
-                            "value": "  if ( x === 'NaN' ) {\n"
+                            "value": "  if ( x === 'NaN' ) {\n",
+                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'"
                           }
                         },
                         "operator": "+",
@@ -81,7 +84,8 @@
                           "type": "Literal",
                           "start": 371,
                           "end": 441,
-                          "value": "    throw new Test262Error(\"#1: 'NaN' have attribute DontEnum\");\n"
+                          "value": "    throw new Test262Error(\"#1: 'NaN' have attribute DontEnum\");\n",
+                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'"
                         }
                       },
                       "operator": "+",
@@ -89,7 +93,8 @@
                         "type": "Literal",
                         "start": 443,
                         "end": 483,
-                        "value": "  } else if ( x === 'Infinity' ) {\n"
+                        "value": "  } else if ( x === 'Infinity' ) {\n",
+                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'"
                       }
                     },
                     "operator": "+",
@@ -97,7 +102,8 @@
                       "type": "Literal",
                       "start": 485,
                       "end": 560,
-                      "value": "    throw new Test262Error(\"#1: 'Infinity' have attribute DontEnum\");\n"
+                      "value": "    throw new Test262Error(\"#1: 'Infinity' have attribute DontEnum\");\n",
+                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'"
                     }
                   },
                   "operator": "+",
@@ -105,7 +111,8 @@
                     "type": "Literal",
                     "start": 562,
                     "end": 603,
-                    "value": "  } else if ( x === 'undefined' ) {\n"
+                    "value": "  } else if ( x === 'undefined' ) {\n",
+                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'"
                   }
                 },
                 "operator": "+",
@@ -113,7 +120,8 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 681,
-                  "value": "    throw new Test262Error(\"#1: 'undefined' have attribute DontEnum\");\n"
+                  "value": "    throw new Test262Error(\"#1: 'undefined' have attribute DontEnum\");\n",
+                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'"
                 }
               },
               "operator": "+",
@@ -121,7 +129,8 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 690,
-                "value": "  }\n"
+                "value": "  }\n",
+                "raw": "'  }\\n'"
               }
             },
             "operator": "+",
@@ -129,7 +138,8 @@
               "type": "Literal",
               "start": 692,
               "end": 697,
-              "value": "}\n"
+              "value": "}\n",
+              "raw": "'}\\n'"
             }
           }
         }

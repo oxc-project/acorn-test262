@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 746,
             "end": 758,
-            "value": "timeZoneId"
+            "value": "timeZoneId",
+            "raw": "'timeZoneId'"
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 836,
-            "value": "The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\""
+            "value": "The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"",
+            "raw": "'The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"'"
           }
         ],
         "optional": false
@@ -143,7 +145,8 @@
             "type": "Literal",
             "start": 881,
             "end": 887,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -167,7 +170,8 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 910,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 924,
                   "end": 929,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +214,8 @@
                   "type": "Literal",
                   "start": 947,
                   "end": 951,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

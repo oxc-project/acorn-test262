@@ -30,7 +30,8 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 433,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               "property": {
                 "type": "Identifier",

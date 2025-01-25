@@ -49,6 +49,7 @@
                   "start": 963,
                   "end": 968,
                   "value": {},
+                  "raw": "/\\w/g",
                   "regex": {
                     "pattern": "\\w",
                     "flags": "g"
@@ -148,7 +149,8 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1044,
-                  "value": "a*b"
+                  "value": "a*b",
+                  "raw": "'a*b'"
                 }
               }
             ],
@@ -253,7 +255,8 @@
                               "type": "Literal",
                               "start": 1124,
                               "end": 1127,
-                              "value": "a"
+                              "value": "a",
+                              "raw": "'a'"
                             }
                           ]
                         },
@@ -261,7 +264,8 @@
                           "type": "Literal",
                           "start": 1130,
                           "end": 1131,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "Identifier",
@@ -292,7 +296,8 @@
                               "type": "Literal",
                               "start": 1159,
                               "end": 1162,
-                              "value": "b"
+                              "value": "b",
+                              "raw": "'b'"
                             }
                           ]
                         },
@@ -300,7 +305,8 @@
                           "type": "Literal",
                           "start": 1165,
                           "end": 1166,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         {
                           "type": "Identifier",
@@ -364,7 +370,8 @@
             "type": "Literal",
             "start": 1234,
             "end": 1238,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false

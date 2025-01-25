@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 312,
             "end": 317,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 373,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             },
             "consequent": {
@@ -128,7 +130,8 @@
               "type": "Literal",
               "start": 417,
               "end": 422,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           }
         ]
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 449,
                   "end": 451,
-                  "value": 20
+                  "value": 20,
+                  "raw": "20"
                 },
                 "kind": "init"
               }
@@ -219,7 +223,8 @@
             "type": "Literal",
             "start": 483,
             "end": 487,
-            "value": "10"
+            "value": "10",
+            "raw": "\"10\""
           },
           {
             "type": "ObjectExpression",
@@ -286,7 +291,8 @@
                   "type": "Literal",
                   "start": 551,
                   "end": 555,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -380,7 +386,8 @@
             "type": "Literal",
             "start": 612,
             "end": 665,
-            "value": "Array.prototype.some.call(obj, callbackfn) !== true"
+            "value": "Array.prototype.some.call(obj, callbackfn) !== true",
+            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'"
           }
         ],
         "optional": false

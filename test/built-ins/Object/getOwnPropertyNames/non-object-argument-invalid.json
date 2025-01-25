@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 680,
             "end": 681,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -139,7 +140,8 @@
             "type": "Literal",
             "start": 772,
             "end": 830,
-            "value": "`Object.getOwnPropertyNames(undefined)` throws TypeError"
+            "value": "`Object.getOwnPropertyNames(undefined)` throws TypeError",
+            "raw": "'`Object.getOwnPropertyNames(undefined)` throws TypeError'"
           }
         ],
         "optional": false
@@ -243,7 +245,8 @@
                         "type": "Literal",
                         "start": 907,
                         "end": 911,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -256,7 +259,8 @@
             "type": "Literal",
             "start": 917,
             "end": 970,
-            "value": "`Object.getOwnPropertyNames(null)` throws TypeError"
+            "value": "`Object.getOwnPropertyNames(null)` throws TypeError",
+            "raw": "'`Object.getOwnPropertyNames(null)` throws TypeError'"
           }
         ],
         "optional": false
@@ -300,13 +304,15 @@
             "type": "Literal",
             "start": 998,
             "end": 999,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1028,
-            "value": "The value of `count` is 2"
+            "value": "The value of `count` is 2",
+            "raw": "'The value of `count` is 2'"
           }
         ],
         "optional": false

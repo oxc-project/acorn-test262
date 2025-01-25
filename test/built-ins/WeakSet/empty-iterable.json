@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 445,
             "end": 446,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -404,13 +405,15 @@
             "type": "Literal",
             "start": 725,
             "end": 726,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 782,
-            "value": "empty iterable does not call WeakSet.prototype.add"
+            "value": "empty iterable does not call WeakSet.prototype.add",
+            "raw": "'empty iterable does not call WeakSet.prototype.add'"
           }
         ],
         "optional": false

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 740,
+  "end": 739,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 319,
-      "end": 380,
+      "start": 318,
+      "end": 379,
       "expression": {
         "type": "CallExpression",
-        "start": 319,
-        "end": 379,
+        "start": 318,
+        "end": 378,
         "callee": {
           "type": "MemberExpression",
-          "start": 319,
-          "end": 335,
+          "start": 318,
+          "end": 334,
           "object": {
             "type": "Identifier",
-            "start": 319,
-            "end": 325,
+            "start": 318,
+            "end": 324,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 326,
-            "end": 335,
+            "start": 325,
+            "end": 334,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,24 +33,24 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 336,
-            "end": 366,
+            "start": 335,
+            "end": 365,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 343,
-              "end": 366,
+              "start": 342,
+              "end": 365,
               "object": {
                 "type": "Identifier",
-                "start": 343,
-                "end": 347,
+                "start": 342,
+                "end": 346,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 348,
-                "end": 366,
+                "start": 347,
+                "end": 365,
                 "name": "RelativeTimeFormat"
               },
               "computed": false,
@@ -59,9 +59,10 @@
           },
           {
             "type": "Literal",
-            "start": 368,
-            "end": 378,
-            "value": "function"
+            "start": 367,
+            "end": 377,
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -69,77 +70,86 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 382,
-      "end": 540,
+      "start": 381,
+      "end": 539,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 388,
-          "end": 539,
+          "start": 387,
+          "end": 538,
           "id": {
             "type": "Identifier",
-            "start": 388,
-            "end": 415,
+            "start": 387,
+            "end": 414,
             "name": "validNumberingSystemOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 418,
-            "end": 539,
+            "start": 417,
+            "end": 538,
             "elements": [
               {
                 "type": "Literal",
-                "start": 422,
-                "end": 427,
-                "value": "abc"
+                "start": 421,
+                "end": 426,
+                "value": "abc",
+                "raw": "\"abc\""
               },
               {
                 "type": "Literal",
-                "start": 431,
-                "end": 437,
-                "value": "abcd"
+                "start": 430,
+                "end": 436,
+                "value": "abcd",
+                "raw": "\"abcd\""
               },
               {
                 "type": "Literal",
-                "start": 441,
-                "end": 448,
-                "value": "abcde"
+                "start": 440,
+                "end": 447,
+                "value": "abcde",
+                "raw": "\"abcde\""
               },
               {
                 "type": "Literal",
-                "start": 452,
-                "end": 460,
-                "value": "abcdef"
+                "start": 451,
+                "end": 459,
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               {
                 "type": "Literal",
-                "start": 464,
-                "end": 473,
-                "value": "abcdefg"
+                "start": 463,
+                "end": 472,
+                "value": "abcdefg",
+                "raw": "\"abcdefg\""
               },
               {
                 "type": "Literal",
-                "start": 477,
-                "end": 487,
-                "value": "abcdefgh"
+                "start": 476,
+                "end": 486,
+                "value": "abcdefgh",
+                "raw": "\"abcdefgh\""
               },
               {
                 "type": "Literal",
-                "start": 491,
-                "end": 501,
-                "value": "12345678"
+                "start": 490,
+                "end": 500,
+                "value": "12345678",
+                "raw": "\"12345678\""
               },
               {
                 "type": "Literal",
-                "start": 505,
-                "end": 515,
-                "value": "1234abcd"
+                "start": 504,
+                "end": 514,
+                "value": "1234abcd",
+                "raw": "\"1234abcd\""
               },
               {
                 "type": "Literal",
-                "start": 519,
-                "end": 536,
-                "value": "1234abcd-abc123"
+                "start": 518,
+                "end": 535,
+                "value": "1234abcd-abc123",
+                "raw": "\"1234abcd-abc123\""
               }
             ]
           }
@@ -149,22 +159,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 542,
-      "end": 739,
+      "start": 541,
+      "end": 738,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 547,
-        "end": 568,
+        "start": 546,
+        "end": 567,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 553,
-            "end": 568,
+            "start": 552,
+            "end": 567,
             "id": {
               "type": "Identifier",
-              "start": 553,
-              "end": 568,
+              "start": 552,
+              "end": 567,
               "name": "numberingSystem"
             },
             "init": null
@@ -174,48 +184,48 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 572,
-        "end": 599,
+        "start": 571,
+        "end": 598,
         "name": "validNumberingSystemOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 601,
-        "end": 739,
+        "start": 600,
+        "end": 738,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 605,
-            "end": 670,
+            "start": 604,
+            "end": 669,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 611,
-                "end": 669,
+                "start": 610,
+                "end": 668,
                 "id": {
                   "type": "Identifier",
-                  "start": 611,
-                  "end": 614,
+                  "start": 610,
+                  "end": 613,
                   "name": "rtf"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 617,
-                  "end": 669,
+                  "start": 616,
+                  "end": 668,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 621,
-                    "end": 644,
+                    "start": 620,
+                    "end": 643,
                     "object": {
                       "type": "Identifier",
-                      "start": 621,
-                      "end": 625,
+                      "start": 620,
+                      "end": 624,
                       "name": "Intl"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 626,
-                      "end": 644,
+                      "start": 625,
+                      "end": 643,
                       "name": "RelativeTimeFormat"
                     },
                     "computed": false,
@@ -224,33 +234,34 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 645,
-                      "end": 649,
-                      "value": "en"
+                      "start": 644,
+                      "end": 648,
+                      "value": "en",
+                      "raw": "\"en\""
                     },
                     {
                       "type": "ObjectExpression",
-                      "start": 651,
-                      "end": 668,
+                      "start": 650,
+                      "end": 667,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 652,
-                          "end": 667,
+                          "start": 651,
+                          "end": 666,
                           "method": false,
                           "shorthand": true,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 652,
-                            "end": 667,
+                            "start": 651,
+                            "end": 666,
                             "name": "numberingSystem"
                           },
                           "kind": "init",
                           "value": {
                             "type": "Identifier",
-                            "start": 652,
-                            "end": 667,
+                            "start": 651,
+                            "end": 666,
                             "name": "numberingSystem"
                           }
                         }
@@ -264,26 +275,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 673,
-            "end": 737,
+            "start": 672,
+            "end": 736,
             "expression": {
               "type": "CallExpression",
-              "start": 673,
-              "end": 736,
+              "start": 672,
+              "end": 735,
               "callee": {
                 "type": "MemberExpression",
-                "start": 673,
-                "end": 689,
+                "start": 672,
+                "end": 688,
                 "object": {
                   "type": "Identifier",
-                  "start": 673,
-                  "end": 679,
+                  "start": 672,
+                  "end": 678,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 680,
-                  "end": 689,
+                  "start": 679,
+                  "end": 688,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -292,26 +303,26 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 690,
-                  "end": 727,
+                  "start": 689,
+                  "end": 726,
                   "object": {
                     "type": "CallExpression",
-                    "start": 690,
-                    "end": 711,
+                    "start": 689,
+                    "end": 710,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 690,
-                      "end": 709,
+                      "start": 689,
+                      "end": 708,
                       "object": {
                         "type": "Identifier",
-                        "start": 690,
-                        "end": 693,
+                        "start": 689,
+                        "end": 692,
                         "name": "rtf"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 694,
-                        "end": 709,
+                        "start": 693,
+                        "end": 708,
                         "name": "resolvedOptions"
                       },
                       "computed": false,
@@ -322,8 +333,8 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 712,
-                    "end": 727,
+                    "start": 711,
+                    "end": 726,
                     "name": "numberingSystem"
                   },
                   "computed": false,
@@ -331,9 +342,10 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 729,
-                  "end": 735,
-                  "value": "latn"
+                  "start": 728,
+                  "end": 734,
+                  "value": "latn",
+                  "raw": "\"latn\""
                 }
               ],
               "optional": false

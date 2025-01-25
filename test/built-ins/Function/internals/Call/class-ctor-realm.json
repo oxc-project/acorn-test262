@@ -104,7 +104,8 @@
                 "type": "Literal",
                 "start": 432,
                 "end": 444,
-                "value": "(class {})"
+                "value": "(class {})",
+                "raw": "'(class {})'"
               }
             ],
             "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 286,
             "end": 287,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -101,7 +102,8 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 351,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               },
               "operator": "&&",
@@ -127,7 +129,8 @@
                       "type": "Literal",
                       "start": 365,
                       "end": 366,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "computed": true,
                     "optional": false
@@ -186,13 +189,15 @@
                     "type": "Literal",
                     "start": 393,
                     "end": 395,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   },
                   {
                     "type": "Literal",
                     "start": 397,
                     "end": 399,
-                    "value": 12
+                    "value": 12,
+                    "raw": "12"
                   }
                 ]
               },
@@ -219,7 +224,8 @@
             "type": "Literal",
             "start": 420,
             "end": 457,
-            "value": "[11, 12].every(callbackfn) !== true"
+            "value": "[11, 12].every(callbackfn) !== true",
+            "raw": "'[11, 12].every(callbackfn) !== true'"
           }
         ],
         "optional": false
@@ -263,13 +269,15 @@
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 496,
-            "value": "called"
+            "value": "called",
+            "raw": "'called'"
           }
         ],
         "optional": false

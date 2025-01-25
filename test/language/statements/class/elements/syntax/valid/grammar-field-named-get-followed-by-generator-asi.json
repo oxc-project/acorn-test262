@@ -185,7 +185,8 @@
                 "type": "Literal",
                 "start": 999,
                 "end": 1002,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -194,7 +195,8 @@
             "type": "Literal",
             "start": 1007,
             "end": 1056,
-            "value": "(A) The generator is installed on the prototype"
+            "value": "(A) The generator is installed on the prototype",
+            "raw": "\"(A) The generator is installed on the prototype\""
           }
         ],
         "optional": false
@@ -249,7 +251,8 @@
                 "type": "Literal",
                 "start": 1093,
                 "end": 1098,
-                "value": "get"
+                "value": "get",
+                "raw": "\"get\""
               }
             ],
             "optional": false
@@ -258,7 +261,8 @@
             "type": "Literal",
             "start": 1103,
             "end": 1150,
-            "value": "(A) The field is installed on class instances"
+            "value": "(A) The field is installed on class instances",
+            "raw": "\"(A) The field is installed on class instances\""
           }
         ],
         "optional": false
@@ -320,7 +324,8 @@
                 "type": "Literal",
                 "start": 1191,
                 "end": 1194,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -329,7 +334,8 @@
             "type": "Literal",
             "start": 1199,
             "end": 1248,
-            "value": "(B) The generator is installed on the prototype"
+            "value": "(B) The generator is installed on the prototype",
+            "raw": "\"(B) The generator is installed on the prototype\""
           }
         ],
         "optional": false
@@ -378,7 +384,8 @@
                 "type": "Literal",
                 "start": 1279,
                 "end": 1284,
-                "value": "get"
+                "value": "get",
+                "raw": "\"get\""
               }
             ],
             "optional": false
@@ -387,7 +394,8 @@
             "type": "Literal",
             "start": 1289,
             "end": 1326,
-            "value": "(B) The field is installed on class"
+            "value": "(B) The field is installed on class",
+            "raw": "\"(B) The field is installed on class\""
           }
         ],
         "optional": false

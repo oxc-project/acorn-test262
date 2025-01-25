@@ -111,7 +111,8 @@
                               "type": "Literal",
                               "start": 406,
                               "end": 434,
-                              "value": "\"use strict\";return f();"
+                              "value": "\"use strict\";return f();",
+                              "raw": "\"\\\"use strict\\\";return f();\""
                             }
                           ],
                           "optional": false
@@ -142,7 +143,8 @@
               "type": "Literal",
               "start": 457,
               "end": 486,
-              "value": "'this' had incorrect value!"
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
             }
           }
         ]

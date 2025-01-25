@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 372,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 374,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -85,7 +90,8 @@
           "type": "Literal",
           "start": 409,
           "end": 417,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -116,7 +122,8 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 512,
-                    "value": "#1: var array = [1,2,3,4,5]; typeof array === \"object\". Actual: "
+                    "value": "#1: var array = [1,2,3,4,5]; typeof array === \"object\". Actual: ",
+                    "raw": "'#1: var array = [1,2,3,4,5]; typeof array === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -176,7 +183,8 @@
           "type": "Literal",
           "start": 576,
           "end": 580,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -203,7 +211,8 @@
                   "type": "Literal",
                   "start": 609,
                   "end": 671,
-                  "value": "#2: var array = [1,2,3,4,5]; array instanceof Array === true"
+                  "value": "#2: var array = [1,2,3,4,5]; array instanceof Array === true",
+                  "raw": "'#2: var array = [1,2,3,4,5]; array instanceof Array === true'"
                 }
               ]
             }
@@ -301,7 +310,8 @@
                     "type": "Literal",
                     "start": 763,
                     "end": 847,
-                    "value": "#3: var array = [1,2,3,4,5]; array.toString === Array.prototype.toString. Actual: "
+                    "value": "#3: var array = [1,2,3,4,5]; array.toString === Array.prototype.toString. Actual: ",
+                    "raw": "'#3: var array = [1,2,3,4,5]; array.toString === Array.prototype.toString. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -368,7 +378,8 @@
           "type": "Literal",
           "start": 903,
           "end": 904,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -399,7 +410,8 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 992,
-                    "value": "#4: var array = [1,2,3,4,5]; array.length === 5. Actual: "
+                    "value": "#4: var array = [1,2,3,4,5]; array.length === 5. Actual: ",
+                    "raw": "'#4: var array = [1,2,3,4,5]; array.length === 5. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -456,7 +468,8 @@
             "type": "Literal",
             "start": 1035,
             "end": 1036,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -466,7 +479,8 @@
           "type": "Literal",
           "start": 1042,
           "end": 1043,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -497,7 +511,8 @@
                     "type": "Literal",
                     "start": 1072,
                     "end": 1127,
-                    "value": "#5: var array = [1,2,3,4,5]; array[0] === 1. Actual: "
+                    "value": "#5: var array = [1,2,3,4,5]; array[0] === 1. Actual: ",
+                    "raw": "'#5: var array = [1,2,3,4,5]; array[0] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -518,7 +533,8 @@
                         "type": "Literal",
                         "start": 1137,
                         "end": 1138,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -554,7 +570,8 @@
             "type": "Literal",
             "start": 1166,
             "end": 1167,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -564,7 +581,8 @@
           "type": "Literal",
           "start": 1173,
           "end": 1174,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -595,7 +613,8 @@
                     "type": "Literal",
                     "start": 1203,
                     "end": 1258,
-                    "value": "#6: var array = [1,2,3,4,5]; array[1] === 2. Actual: "
+                    "value": "#6: var array = [1,2,3,4,5]; array[1] === 2. Actual: ",
+                    "raw": "'#6: var array = [1,2,3,4,5]; array[1] === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -616,7 +635,8 @@
                         "type": "Literal",
                         "start": 1268,
                         "end": 1269,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -652,7 +672,8 @@
             "type": "Literal",
             "start": 1297,
             "end": 1298,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -662,7 +683,8 @@
           "type": "Literal",
           "start": 1304,
           "end": 1305,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -693,7 +715,8 @@
                     "type": "Literal",
                     "start": 1334,
                     "end": 1389,
-                    "value": "#7: var array = [1,2,3,4,5]; array[2] === 3. Actual: "
+                    "value": "#7: var array = [1,2,3,4,5]; array[2] === 3. Actual: ",
+                    "raw": "'#7: var array = [1,2,3,4,5]; array[2] === 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -714,7 +737,8 @@
                         "type": "Literal",
                         "start": 1399,
                         "end": 1400,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "computed": true,
                       "optional": false
@@ -750,7 +774,8 @@
             "type": "Literal",
             "start": 1428,
             "end": 1429,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           "computed": true,
           "optional": false
@@ -760,7 +785,8 @@
           "type": "Literal",
           "start": 1435,
           "end": 1436,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "consequent": {
@@ -791,7 +817,8 @@
                     "type": "Literal",
                     "start": 1465,
                     "end": 1520,
-                    "value": "#8: var array = [1,2,3,4,5]; array[3] === 4. Actual: "
+                    "value": "#8: var array = [1,2,3,4,5]; array[3] === 4. Actual: ",
+                    "raw": "'#8: var array = [1,2,3,4,5]; array[3] === 4. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -812,7 +839,8 @@
                         "type": "Literal",
                         "start": 1530,
                         "end": 1531,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "computed": true,
                       "optional": false
@@ -848,7 +876,8 @@
             "type": "Literal",
             "start": 1559,
             "end": 1560,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           "computed": true,
           "optional": false
@@ -858,7 +887,8 @@
           "type": "Literal",
           "start": 1566,
           "end": 1567,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -889,7 +919,8 @@
                     "type": "Literal",
                     "start": 1596,
                     "end": 1651,
-                    "value": "#9: var array = [1,2,3,4,5]; array[4] === 5. Actual: "
+                    "value": "#9: var array = [1,2,3,4,5]; array[4] === 5. Actual: ",
+                    "raw": "'#9: var array = [1,2,3,4,5]; array[4] === 5. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -910,7 +941,8 @@
                         "type": "Literal",
                         "start": 1661,
                         "end": 1662,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       "computed": true,
                       "optional": false

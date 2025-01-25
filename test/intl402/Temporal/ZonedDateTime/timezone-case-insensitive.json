@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 275,
             "end": 286,
-            "value": "eTc/gMt+1"
+            "value": "eTc/gMt+1",
+            "raw": "'eTc/gMt+1'"
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 332,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -136,7 +138,8 @@
             "type": "Literal",
             "start": 381,
             "end": 392,
-            "value": "Etc/GMT+1"
+            "value": "Etc/GMT+1",
+            "raw": "'Etc/GMT+1'"
           },
           {
             "type": "TemplateLiteral",
@@ -201,3571 +204,4166 @@
                 "type": "Literal",
                 "start": 501,
                 "end": 517,
-                "value": "Africa/Abidjan"
+                "value": "Africa/Abidjan",
+                "raw": "'Africa/Abidjan'"
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 537,
-                "value": "Africa/Algiers"
+                "value": "Africa/Algiers",
+                "raw": "'Africa/Algiers'"
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 556,
-                "value": "Africa/Bissau"
+                "value": "Africa/Bissau",
+                "raw": "'Africa/Bissau'"
               },
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 574,
-                "value": "Africa/Cairo"
+                "value": "Africa/Cairo",
+                "raw": "'Africa/Cairo'"
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 597,
-                "value": "Africa/Casablanca"
+                "value": "Africa/Casablanca",
+                "raw": "'Africa/Casablanca'"
               },
               {
                 "type": "Literal",
                 "start": 601,
                 "end": 615,
-                "value": "Africa/Ceuta"
+                "value": "Africa/Ceuta",
+                "raw": "'Africa/Ceuta'"
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 636,
-                "value": "Africa/El_Aaiun"
+                "value": "Africa/El_Aaiun",
+                "raw": "'Africa/El_Aaiun'"
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 661,
-                "value": "Africa/Johannesburg"
+                "value": "Africa/Johannesburg",
+                "raw": "'Africa/Johannesburg'"
               },
               {
                 "type": "Literal",
                 "start": 665,
                 "end": 678,
-                "value": "Africa/Juba"
+                "value": "Africa/Juba",
+                "raw": "'Africa/Juba'"
               },
               {
                 "type": "Literal",
                 "start": 682,
                 "end": 699,
-                "value": "Africa/Khartoum"
+                "value": "Africa/Khartoum",
+                "raw": "'Africa/Khartoum'"
               },
               {
                 "type": "Literal",
                 "start": 703,
                 "end": 717,
-                "value": "Africa/Lagos"
+                "value": "Africa/Lagos",
+                "raw": "'Africa/Lagos'"
               },
               {
                 "type": "Literal",
                 "start": 721,
                 "end": 736,
-                "value": "Africa/Maputo"
+                "value": "Africa/Maputo",
+                "raw": "'Africa/Maputo'"
               },
               {
                 "type": "Literal",
                 "start": 740,
                 "end": 757,
-                "value": "Africa/Monrovia"
+                "value": "Africa/Monrovia",
+                "raw": "'Africa/Monrovia'"
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 777,
-                "value": "Africa/Nairobi"
+                "value": "Africa/Nairobi",
+                "raw": "'Africa/Nairobi'"
               },
               {
                 "type": "Literal",
                 "start": 781,
                 "end": 798,
-                "value": "Africa/Ndjamena"
+                "value": "Africa/Ndjamena",
+                "raw": "'Africa/Ndjamena'"
               },
               {
                 "type": "Literal",
                 "start": 802,
                 "end": 819,
-                "value": "Africa/Sao_Tome"
+                "value": "Africa/Sao_Tome",
+                "raw": "'Africa/Sao_Tome'"
               },
               {
                 "type": "Literal",
                 "start": 823,
                 "end": 839,
-                "value": "Africa/Tripoli"
+                "value": "Africa/Tripoli",
+                "raw": "'Africa/Tripoli'"
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 857,
-                "value": "Africa/Tunis"
+                "value": "Africa/Tunis",
+                "raw": "'Africa/Tunis'"
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 878,
-                "value": "Africa/Windhoek"
+                "value": "Africa/Windhoek",
+                "raw": "'Africa/Windhoek'"
               },
               {
                 "type": "Literal",
                 "start": 882,
                 "end": 896,
-                "value": "America/Adak"
+                "value": "America/Adak",
+                "raw": "'America/Adak'"
               },
               {
                 "type": "Literal",
                 "start": 900,
                 "end": 919,
-                "value": "America/Anchorage"
+                "value": "America/Anchorage",
+                "raw": "'America/Anchorage'"
               },
               {
                 "type": "Literal",
                 "start": 923,
                 "end": 942,
-                "value": "America/Araguaina"
+                "value": "America/Araguaina",
+                "raw": "'America/Araguaina'"
               },
               {
                 "type": "Literal",
                 "start": 946,
                 "end": 978,
-                "value": "America/Argentina/Buenos_Aires"
+                "value": "America/Argentina/Buenos_Aires",
+                "raw": "'America/Argentina/Buenos_Aires'"
               },
               {
                 "type": "Literal",
                 "start": 982,
                 "end": 1011,
-                "value": "America/Argentina/Catamarca"
+                "value": "America/Argentina/Catamarca",
+                "raw": "'America/Argentina/Catamarca'"
               },
               {
                 "type": "Literal",
                 "start": 1015,
                 "end": 1042,
-                "value": "America/Argentina/Cordoba"
+                "value": "America/Argentina/Cordoba",
+                "raw": "'America/Argentina/Cordoba'"
               },
               {
                 "type": "Literal",
                 "start": 1046,
                 "end": 1071,
-                "value": "America/Argentina/Jujuy"
+                "value": "America/Argentina/Jujuy",
+                "raw": "'America/Argentina/Jujuy'"
               },
               {
                 "type": "Literal",
                 "start": 1075,
                 "end": 1103,
-                "value": "America/Argentina/La_Rioja"
+                "value": "America/Argentina/La_Rioja",
+                "raw": "'America/Argentina/La_Rioja'"
               },
               {
                 "type": "Literal",
                 "start": 1107,
                 "end": 1134,
-                "value": "America/Argentina/Mendoza"
+                "value": "America/Argentina/Mendoza",
+                "raw": "'America/Argentina/Mendoza'"
               },
               {
                 "type": "Literal",
                 "start": 1138,
                 "end": 1170,
-                "value": "America/Argentina/Rio_Gallegos"
+                "value": "America/Argentina/Rio_Gallegos",
+                "raw": "'America/Argentina/Rio_Gallegos'"
               },
               {
                 "type": "Literal",
                 "start": 1174,
                 "end": 1199,
-                "value": "America/Argentina/Salta"
+                "value": "America/Argentina/Salta",
+                "raw": "'America/Argentina/Salta'"
               },
               {
                 "type": "Literal",
                 "start": 1203,
                 "end": 1231,
-                "value": "America/Argentina/San_Juan"
+                "value": "America/Argentina/San_Juan",
+                "raw": "'America/Argentina/San_Juan'"
               },
               {
                 "type": "Literal",
                 "start": 1235,
                 "end": 1263,
-                "value": "America/Argentina/San_Luis"
+                "value": "America/Argentina/San_Luis",
+                "raw": "'America/Argentina/San_Luis'"
               },
               {
                 "type": "Literal",
                 "start": 1267,
                 "end": 1294,
-                "value": "America/Argentina/Tucuman"
+                "value": "America/Argentina/Tucuman",
+                "raw": "'America/Argentina/Tucuman'"
               },
               {
                 "type": "Literal",
                 "start": 1298,
                 "end": 1325,
-                "value": "America/Argentina/Ushuaia"
+                "value": "America/Argentina/Ushuaia",
+                "raw": "'America/Argentina/Ushuaia'"
               },
               {
                 "type": "Literal",
                 "start": 1329,
                 "end": 1347,
-                "value": "America/Asuncion"
+                "value": "America/Asuncion",
+                "raw": "'America/Asuncion'"
               },
               {
                 "type": "Literal",
                 "start": 1351,
                 "end": 1366,
-                "value": "America/Bahia"
+                "value": "America/Bahia",
+                "raw": "'America/Bahia'"
               },
               {
                 "type": "Literal",
                 "start": 1370,
                 "end": 1394,
-                "value": "America/Bahia_Banderas"
+                "value": "America/Bahia_Banderas",
+                "raw": "'America/Bahia_Banderas'"
               },
               {
                 "type": "Literal",
                 "start": 1398,
                 "end": 1416,
-                "value": "America/Barbados"
+                "value": "America/Barbados",
+                "raw": "'America/Barbados'"
               },
               {
                 "type": "Literal",
                 "start": 1420,
                 "end": 1435,
-                "value": "America/Belem"
+                "value": "America/Belem",
+                "raw": "'America/Belem'"
               },
               {
                 "type": "Literal",
                 "start": 1439,
                 "end": 1455,
-                "value": "America/Belize"
+                "value": "America/Belize",
+                "raw": "'America/Belize'"
               },
               {
                 "type": "Literal",
                 "start": 1459,
                 "end": 1478,
-                "value": "America/Boa_Vista"
+                "value": "America/Boa_Vista",
+                "raw": "'America/Boa_Vista'"
               },
               {
                 "type": "Literal",
                 "start": 1482,
                 "end": 1498,
-                "value": "America/Bogota"
+                "value": "America/Bogota",
+                "raw": "'America/Bogota'"
               },
               {
                 "type": "Literal",
                 "start": 1502,
                 "end": 1517,
-                "value": "America/Boise"
+                "value": "America/Boise",
+                "raw": "'America/Boise'"
               },
               {
                 "type": "Literal",
                 "start": 1521,
                 "end": 1544,
-                "value": "America/Cambridge_Bay"
+                "value": "America/Cambridge_Bay",
+                "raw": "'America/Cambridge_Bay'"
               },
               {
                 "type": "Literal",
                 "start": 1548,
                 "end": 1570,
-                "value": "America/Campo_Grande"
+                "value": "America/Campo_Grande",
+                "raw": "'America/Campo_Grande'"
               },
               {
                 "type": "Literal",
                 "start": 1574,
                 "end": 1590,
-                "value": "America/Cancun"
+                "value": "America/Cancun",
+                "raw": "'America/Cancun'"
               },
               {
                 "type": "Literal",
                 "start": 1594,
                 "end": 1611,
-                "value": "America/Caracas"
+                "value": "America/Caracas",
+                "raw": "'America/Caracas'"
               },
               {
                 "type": "Literal",
                 "start": 1615,
                 "end": 1632,
-                "value": "America/Cayenne"
+                "value": "America/Cayenne",
+                "raw": "'America/Cayenne'"
               },
               {
                 "type": "Literal",
                 "start": 1636,
                 "end": 1653,
-                "value": "America/Chicago"
+                "value": "America/Chicago",
+                "raw": "'America/Chicago'"
               },
               {
                 "type": "Literal",
                 "start": 1657,
                 "end": 1676,
-                "value": "America/Chihuahua"
+                "value": "America/Chihuahua",
+                "raw": "'America/Chihuahua'"
               },
               {
                 "type": "Literal",
                 "start": 1770,
                 "end": 1790,
-                "value": "America/Costa_Rica"
+                "value": "America/Costa_Rica",
+                "raw": "'America/Costa_Rica'"
               },
               {
                 "type": "Literal",
                 "start": 1794,
                 "end": 1810,
-                "value": "America/Cuiaba"
+                "value": "America/Cuiaba",
+                "raw": "'America/Cuiaba'"
               },
               {
                 "type": "Literal",
                 "start": 1814,
                 "end": 1836,
-                "value": "America/Danmarkshavn"
+                "value": "America/Danmarkshavn",
+                "raw": "'America/Danmarkshavn'"
               },
               {
                 "type": "Literal",
                 "start": 1840,
                 "end": 1856,
-                "value": "America/Dawson"
+                "value": "America/Dawson",
+                "raw": "'America/Dawson'"
               },
               {
                 "type": "Literal",
                 "start": 1860,
                 "end": 1882,
-                "value": "America/Dawson_Creek"
+                "value": "America/Dawson_Creek",
+                "raw": "'America/Dawson_Creek'"
               },
               {
                 "type": "Literal",
                 "start": 1886,
                 "end": 1902,
-                "value": "America/Denver"
+                "value": "America/Denver",
+                "raw": "'America/Denver'"
               },
               {
                 "type": "Literal",
                 "start": 1906,
                 "end": 1923,
-                "value": "America/Detroit"
+                "value": "America/Detroit",
+                "raw": "'America/Detroit'"
               },
               {
                 "type": "Literal",
                 "start": 1927,
                 "end": 1945,
-                "value": "America/Edmonton"
+                "value": "America/Edmonton",
+                "raw": "'America/Edmonton'"
               },
               {
                 "type": "Literal",
                 "start": 1949,
                 "end": 1967,
-                "value": "America/Eirunepe"
+                "value": "America/Eirunepe",
+                "raw": "'America/Eirunepe'"
               },
               {
                 "type": "Literal",
                 "start": 1971,
                 "end": 1992,
-                "value": "America/El_Salvador"
+                "value": "America/El_Salvador",
+                "raw": "'America/El_Salvador'"
               },
               {
                 "type": "Literal",
                 "start": 1996,
                 "end": 2017,
-                "value": "America/Fort_Nelson"
+                "value": "America/Fort_Nelson",
+                "raw": "'America/Fort_Nelson'"
               },
               {
                 "type": "Literal",
                 "start": 2021,
                 "end": 2040,
-                "value": "America/Fortaleza"
+                "value": "America/Fortaleza",
+                "raw": "'America/Fortaleza'"
               },
               {
                 "type": "Literal",
                 "start": 2044,
                 "end": 2063,
-                "value": "America/Glace_Bay"
+                "value": "America/Glace_Bay",
+                "raw": "'America/Glace_Bay'"
               },
               {
                 "type": "Literal",
                 "start": 2067,
                 "end": 2086,
-                "value": "America/Goose_Bay"
+                "value": "America/Goose_Bay",
+                "raw": "'America/Goose_Bay'"
               },
               {
                 "type": "Literal",
                 "start": 2090,
                 "end": 2110,
-                "value": "America/Grand_Turk"
+                "value": "America/Grand_Turk",
+                "raw": "'America/Grand_Turk'"
               },
               {
                 "type": "Literal",
                 "start": 2114,
                 "end": 2133,
-                "value": "America/Guatemala"
+                "value": "America/Guatemala",
+                "raw": "'America/Guatemala'"
               },
               {
                 "type": "Literal",
                 "start": 2137,
                 "end": 2156,
-                "value": "America/Guayaquil"
+                "value": "America/Guayaquil",
+                "raw": "'America/Guayaquil'"
               },
               {
                 "type": "Literal",
                 "start": 2160,
                 "end": 2176,
-                "value": "America/Guyana"
+                "value": "America/Guyana",
+                "raw": "'America/Guyana'"
               },
               {
                 "type": "Literal",
                 "start": 2180,
                 "end": 2197,
-                "value": "America/Halifax"
+                "value": "America/Halifax",
+                "raw": "'America/Halifax'"
               },
               {
                 "type": "Literal",
                 "start": 2201,
                 "end": 2217,
-                "value": "America/Havana"
+                "value": "America/Havana",
+                "raw": "'America/Havana'"
               },
               {
                 "type": "Literal",
                 "start": 2221,
                 "end": 2241,
-                "value": "America/Hermosillo"
+                "value": "America/Hermosillo",
+                "raw": "'America/Hermosillo'"
               },
               {
                 "type": "Literal",
                 "start": 2245,
                 "end": 2275,
-                "value": "America/Indiana/Indianapolis"
+                "value": "America/Indiana/Indianapolis",
+                "raw": "'America/Indiana/Indianapolis'"
               },
               {
                 "type": "Literal",
                 "start": 2279,
                 "end": 2301,
-                "value": "America/Indiana/Knox"
+                "value": "America/Indiana/Knox",
+                "raw": "'America/Indiana/Knox'"
               },
               {
                 "type": "Literal",
                 "start": 2305,
                 "end": 2330,
-                "value": "America/Indiana/Marengo"
+                "value": "America/Indiana/Marengo",
+                "raw": "'America/Indiana/Marengo'"
               },
               {
                 "type": "Literal",
                 "start": 2334,
                 "end": 2362,
-                "value": "America/Indiana/Petersburg"
+                "value": "America/Indiana/Petersburg",
+                "raw": "'America/Indiana/Petersburg'"
               },
               {
                 "type": "Literal",
                 "start": 2366,
                 "end": 2393,
-                "value": "America/Indiana/Tell_City"
+                "value": "America/Indiana/Tell_City",
+                "raw": "'America/Indiana/Tell_City'"
               },
               {
                 "type": "Literal",
                 "start": 2397,
                 "end": 2420,
-                "value": "America/Indiana/Vevay"
+                "value": "America/Indiana/Vevay",
+                "raw": "'America/Indiana/Vevay'"
               },
               {
                 "type": "Literal",
                 "start": 2424,
                 "end": 2451,
-                "value": "America/Indiana/Vincennes"
+                "value": "America/Indiana/Vincennes",
+                "raw": "'America/Indiana/Vincennes'"
               },
               {
                 "type": "Literal",
                 "start": 2455,
                 "end": 2480,
-                "value": "America/Indiana/Winamac"
+                "value": "America/Indiana/Winamac",
+                "raw": "'America/Indiana/Winamac'"
               },
               {
                 "type": "Literal",
                 "start": 2484,
                 "end": 2500,
-                "value": "America/Inuvik"
+                "value": "America/Inuvik",
+                "raw": "'America/Inuvik'"
               },
               {
                 "type": "Literal",
                 "start": 2504,
                 "end": 2521,
-                "value": "America/Iqaluit"
+                "value": "America/Iqaluit",
+                "raw": "'America/Iqaluit'"
               },
               {
                 "type": "Literal",
                 "start": 2525,
                 "end": 2542,
-                "value": "America/Jamaica"
+                "value": "America/Jamaica",
+                "raw": "'America/Jamaica'"
               },
               {
                 "type": "Literal",
                 "start": 2546,
                 "end": 2562,
-                "value": "America/Juneau"
+                "value": "America/Juneau",
+                "raw": "'America/Juneau'"
               },
               {
                 "type": "Literal",
                 "start": 2566,
                 "end": 2595,
-                "value": "America/Kentucky/Louisville"
+                "value": "America/Kentucky/Louisville",
+                "raw": "'America/Kentucky/Louisville'"
               },
               {
                 "type": "Literal",
                 "start": 2599,
                 "end": 2628,
-                "value": "America/Kentucky/Monticello"
+                "value": "America/Kentucky/Monticello",
+                "raw": "'America/Kentucky/Monticello'"
               },
               {
                 "type": "Literal",
                 "start": 2632,
                 "end": 2648,
-                "value": "America/La_Paz"
+                "value": "America/La_Paz",
+                "raw": "'America/La_Paz'"
               },
               {
                 "type": "Literal",
                 "start": 2652,
                 "end": 2666,
-                "value": "America/Lima"
+                "value": "America/Lima",
+                "raw": "'America/Lima'"
               },
               {
                 "type": "Literal",
                 "start": 2670,
                 "end": 2691,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "'America/Los_Angeles'"
               },
               {
                 "type": "Literal",
                 "start": 2695,
                 "end": 2711,
-                "value": "America/Maceio"
+                "value": "America/Maceio",
+                "raw": "'America/Maceio'"
               },
               {
                 "type": "Literal",
                 "start": 2715,
                 "end": 2732,
-                "value": "America/Managua"
+                "value": "America/Managua",
+                "raw": "'America/Managua'"
               },
               {
                 "type": "Literal",
                 "start": 2736,
                 "end": 2752,
-                "value": "America/Manaus"
+                "value": "America/Manaus",
+                "raw": "'America/Manaus'"
               },
               {
                 "type": "Literal",
                 "start": 2756,
                 "end": 2776,
-                "value": "America/Martinique"
+                "value": "America/Martinique",
+                "raw": "'America/Martinique'"
               },
               {
                 "type": "Literal",
                 "start": 2780,
                 "end": 2799,
-                "value": "America/Matamoros"
+                "value": "America/Matamoros",
+                "raw": "'America/Matamoros'"
               },
               {
                 "type": "Literal",
                 "start": 2803,
                 "end": 2821,
-                "value": "America/Mazatlan"
+                "value": "America/Mazatlan",
+                "raw": "'America/Mazatlan'"
               },
               {
                 "type": "Literal",
                 "start": 2825,
                 "end": 2844,
-                "value": "America/Menominee"
+                "value": "America/Menominee",
+                "raw": "'America/Menominee'"
               },
               {
                 "type": "Literal",
                 "start": 2848,
                 "end": 2864,
-                "value": "America/Merida"
+                "value": "America/Merida",
+                "raw": "'America/Merida'"
               },
               {
                 "type": "Literal",
                 "start": 2868,
                 "end": 2888,
-                "value": "America/Metlakatla"
+                "value": "America/Metlakatla",
+                "raw": "'America/Metlakatla'"
               },
               {
                 "type": "Literal",
                 "start": 2892,
                 "end": 2913,
-                "value": "America/Mexico_City"
+                "value": "America/Mexico_City",
+                "raw": "'America/Mexico_City'"
               },
               {
                 "type": "Literal",
                 "start": 2917,
                 "end": 2935,
-                "value": "America/Miquelon"
+                "value": "America/Miquelon",
+                "raw": "'America/Miquelon'"
               },
               {
                 "type": "Literal",
                 "start": 2939,
                 "end": 2956,
-                "value": "America/Moncton"
+                "value": "America/Moncton",
+                "raw": "'America/Moncton'"
               },
               {
                 "type": "Literal",
                 "start": 2960,
                 "end": 2979,
-                "value": "America/Monterrey"
+                "value": "America/Monterrey",
+                "raw": "'America/Monterrey'"
               },
               {
                 "type": "Literal",
                 "start": 2983,
                 "end": 3003,
-                "value": "America/Montevideo"
+                "value": "America/Montevideo",
+                "raw": "'America/Montevideo'"
               },
               {
                 "type": "Literal",
                 "start": 3007,
                 "end": 3025,
-                "value": "America/New_York"
+                "value": "America/New_York",
+                "raw": "'America/New_York'"
               },
               {
                 "type": "Literal",
                 "start": 3029,
                 "end": 3043,
-                "value": "America/Nome"
+                "value": "America/Nome",
+                "raw": "'America/Nome'"
               },
               {
                 "type": "Literal",
                 "start": 3047,
                 "end": 3064,
-                "value": "America/Noronha"
+                "value": "America/Noronha",
+                "raw": "'America/Noronha'"
               },
               {
                 "type": "Literal",
                 "start": 3068,
                 "end": 3097,
-                "value": "America/North_Dakota/Beulah"
+                "value": "America/North_Dakota/Beulah",
+                "raw": "'America/North_Dakota/Beulah'"
               },
               {
                 "type": "Literal",
                 "start": 3101,
                 "end": 3130,
-                "value": "America/North_Dakota/Center"
+                "value": "America/North_Dakota/Center",
+                "raw": "'America/North_Dakota/Center'"
               },
               {
                 "type": "Literal",
                 "start": 3134,
                 "end": 3166,
-                "value": "America/North_Dakota/New_Salem"
+                "value": "America/North_Dakota/New_Salem",
+                "raw": "'America/North_Dakota/New_Salem'"
               },
               {
                 "type": "Literal",
                 "start": 3170,
                 "end": 3184,
-                "value": "America/Nuuk"
+                "value": "America/Nuuk",
+                "raw": "'America/Nuuk'"
               },
               {
                 "type": "Literal",
                 "start": 3188,
                 "end": 3205,
-                "value": "America/Ojinaga"
+                "value": "America/Ojinaga",
+                "raw": "'America/Ojinaga'"
               },
               {
                 "type": "Literal",
                 "start": 3209,
                 "end": 3225,
-                "value": "America/Panama"
+                "value": "America/Panama",
+                "raw": "'America/Panama'"
               },
               {
                 "type": "Literal",
                 "start": 3229,
                 "end": 3249,
-                "value": "America/Paramaribo"
+                "value": "America/Paramaribo",
+                "raw": "'America/Paramaribo'"
               },
               {
                 "type": "Literal",
                 "start": 3253,
                 "end": 3270,
-                "value": "America/Phoenix"
+                "value": "America/Phoenix",
+                "raw": "'America/Phoenix'"
               },
               {
                 "type": "Literal",
                 "start": 3274,
                 "end": 3298,
-                "value": "America/Port-au-Prince"
+                "value": "America/Port-au-Prince",
+                "raw": "'America/Port-au-Prince'"
               },
               {
                 "type": "Literal",
                 "start": 3302,
                 "end": 3323,
-                "value": "America/Porto_Velho"
+                "value": "America/Porto_Velho",
+                "raw": "'America/Porto_Velho'"
               },
               {
                 "type": "Literal",
                 "start": 3327,
                 "end": 3348,
-                "value": "America/Puerto_Rico"
+                "value": "America/Puerto_Rico",
+                "raw": "'America/Puerto_Rico'"
               },
               {
                 "type": "Literal",
                 "start": 3352,
                 "end": 3374,
-                "value": "America/Punta_Arenas"
+                "value": "America/Punta_Arenas",
+                "raw": "'America/Punta_Arenas'"
               },
               {
                 "type": "Literal",
                 "start": 3378,
                 "end": 3400,
-                "value": "America/Rankin_Inlet"
+                "value": "America/Rankin_Inlet",
+                "raw": "'America/Rankin_Inlet'"
               },
               {
                 "type": "Literal",
                 "start": 3404,
                 "end": 3420,
-                "value": "America/Recife"
+                "value": "America/Recife",
+                "raw": "'America/Recife'"
               },
               {
                 "type": "Literal",
                 "start": 3424,
                 "end": 3440,
-                "value": "America/Regina"
+                "value": "America/Regina",
+                "raw": "'America/Regina'"
               },
               {
                 "type": "Literal",
                 "start": 3444,
                 "end": 3462,
-                "value": "America/Resolute"
+                "value": "America/Resolute",
+                "raw": "'America/Resolute'"
               },
               {
                 "type": "Literal",
                 "start": 3466,
                 "end": 3486,
-                "value": "America/Rio_Branco"
+                "value": "America/Rio_Branco",
+                "raw": "'America/Rio_Branco'"
               },
               {
                 "type": "Literal",
                 "start": 3490,
                 "end": 3508,
-                "value": "America/Santarem"
+                "value": "America/Santarem",
+                "raw": "'America/Santarem'"
               },
               {
                 "type": "Literal",
                 "start": 3512,
                 "end": 3530,
-                "value": "America/Santiago"
+                "value": "America/Santiago",
+                "raw": "'America/Santiago'"
               },
               {
                 "type": "Literal",
                 "start": 3534,
                 "end": 3557,
-                "value": "America/Santo_Domingo"
+                "value": "America/Santo_Domingo",
+                "raw": "'America/Santo_Domingo'"
               },
               {
                 "type": "Literal",
                 "start": 3561,
                 "end": 3580,
-                "value": "America/Sao_Paulo"
+                "value": "America/Sao_Paulo",
+                "raw": "'America/Sao_Paulo'"
               },
               {
                 "type": "Literal",
                 "start": 3584,
                 "end": 3606,
-                "value": "America/Scoresbysund"
+                "value": "America/Scoresbysund",
+                "raw": "'America/Scoresbysund'"
               },
               {
                 "type": "Literal",
                 "start": 3610,
                 "end": 3625,
-                "value": "America/Sitka"
+                "value": "America/Sitka",
+                "raw": "'America/Sitka'"
               },
               {
                 "type": "Literal",
                 "start": 3629,
                 "end": 3647,
-                "value": "America/St_Johns"
+                "value": "America/St_Johns",
+                "raw": "'America/St_Johns'"
               },
               {
                 "type": "Literal",
                 "start": 3651,
                 "end": 3674,
-                "value": "America/Swift_Current"
+                "value": "America/Swift_Current",
+                "raw": "'America/Swift_Current'"
               },
               {
                 "type": "Literal",
                 "start": 3678,
                 "end": 3699,
-                "value": "America/Tegucigalpa"
+                "value": "America/Tegucigalpa",
+                "raw": "'America/Tegucigalpa'"
               },
               {
                 "type": "Literal",
                 "start": 3703,
                 "end": 3718,
-                "value": "America/Thule"
+                "value": "America/Thule",
+                "raw": "'America/Thule'"
               },
               {
                 "type": "Literal",
                 "start": 3722,
                 "end": 3739,
-                "value": "America/Tijuana"
+                "value": "America/Tijuana",
+                "raw": "'America/Tijuana'"
               },
               {
                 "type": "Literal",
                 "start": 3743,
                 "end": 3760,
-                "value": "America/Toronto"
+                "value": "America/Toronto",
+                "raw": "'America/Toronto'"
               },
               {
                 "type": "Literal",
                 "start": 3764,
                 "end": 3783,
-                "value": "America/Vancouver"
+                "value": "America/Vancouver",
+                "raw": "'America/Vancouver'"
               },
               {
                 "type": "Literal",
                 "start": 3787,
                 "end": 3807,
-                "value": "America/Whitehorse"
+                "value": "America/Whitehorse",
+                "raw": "'America/Whitehorse'"
               },
               {
                 "type": "Literal",
                 "start": 3811,
                 "end": 3829,
-                "value": "America/Winnipeg"
+                "value": "America/Winnipeg",
+                "raw": "'America/Winnipeg'"
               },
               {
                 "type": "Literal",
                 "start": 3833,
                 "end": 3850,
-                "value": "America/Yakutat"
+                "value": "America/Yakutat",
+                "raw": "'America/Yakutat'"
               },
               {
                 "type": "Literal",
                 "start": 3854,
                 "end": 3875,
-                "value": "America/Yellowknife"
+                "value": "America/Yellowknife",
+                "raw": "'America/Yellowknife'"
               },
               {
                 "type": "Literal",
                 "start": 3879,
                 "end": 3897,
-                "value": "Antarctica/Casey"
+                "value": "Antarctica/Casey",
+                "raw": "'Antarctica/Casey'"
               },
               {
                 "type": "Literal",
                 "start": 3901,
                 "end": 3919,
-                "value": "Antarctica/Davis"
+                "value": "Antarctica/Davis",
+                "raw": "'Antarctica/Davis'"
               },
               {
                 "type": "Literal",
                 "start": 3923,
                 "end": 3945,
-                "value": "Antarctica/Macquarie"
+                "value": "Antarctica/Macquarie",
+                "raw": "'Antarctica/Macquarie'"
               },
               {
                 "type": "Literal",
                 "start": 3949,
                 "end": 3968,
-                "value": "Antarctica/Mawson"
+                "value": "Antarctica/Mawson",
+                "raw": "'Antarctica/Mawson'"
               },
               {
                 "type": "Literal",
                 "start": 3972,
                 "end": 3991,
-                "value": "Antarctica/Palmer"
+                "value": "Antarctica/Palmer",
+                "raw": "'Antarctica/Palmer'"
               },
               {
                 "type": "Literal",
                 "start": 3995,
                 "end": 4015,
-                "value": "Antarctica/Rothera"
+                "value": "Antarctica/Rothera",
+                "raw": "'Antarctica/Rothera'"
               },
               {
                 "type": "Literal",
                 "start": 4019,
                 "end": 4037,
-                "value": "Antarctica/Troll"
+                "value": "Antarctica/Troll",
+                "raw": "'Antarctica/Troll'"
               },
               {
                 "type": "Literal",
                 "start": 4041,
                 "end": 4054,
-                "value": "Asia/Almaty"
+                "value": "Asia/Almaty",
+                "raw": "'Asia/Almaty'"
               },
               {
                 "type": "Literal",
                 "start": 4058,
                 "end": 4070,
-                "value": "Asia/Amman"
+                "value": "Asia/Amman",
+                "raw": "'Asia/Amman'"
               },
               {
                 "type": "Literal",
                 "start": 4074,
                 "end": 4087,
-                "value": "Asia/Anadyr"
+                "value": "Asia/Anadyr",
+                "raw": "'Asia/Anadyr'"
               },
               {
                 "type": "Literal",
                 "start": 4091,
                 "end": 4103,
-                "value": "Asia/Aqtau"
+                "value": "Asia/Aqtau",
+                "raw": "'Asia/Aqtau'"
               },
               {
                 "type": "Literal",
                 "start": 4107,
                 "end": 4120,
-                "value": "Asia/Aqtobe"
+                "value": "Asia/Aqtobe",
+                "raw": "'Asia/Aqtobe'"
               },
               {
                 "type": "Literal",
                 "start": 4124,
                 "end": 4139,
-                "value": "Asia/Ashgabat"
+                "value": "Asia/Ashgabat",
+                "raw": "'Asia/Ashgabat'"
               },
               {
                 "type": "Literal",
                 "start": 4143,
                 "end": 4156,
-                "value": "Asia/Atyrau"
+                "value": "Asia/Atyrau",
+                "raw": "'Asia/Atyrau'"
               },
               {
                 "type": "Literal",
                 "start": 4160,
                 "end": 4174,
-                "value": "Asia/Baghdad"
+                "value": "Asia/Baghdad",
+                "raw": "'Asia/Baghdad'"
               },
               {
                 "type": "Literal",
                 "start": 4178,
                 "end": 4189,
-                "value": "Asia/Baku"
+                "value": "Asia/Baku",
+                "raw": "'Asia/Baku'"
               },
               {
                 "type": "Literal",
                 "start": 4193,
                 "end": 4207,
-                "value": "Asia/Bangkok"
+                "value": "Asia/Bangkok",
+                "raw": "'Asia/Bangkok'"
               },
               {
                 "type": "Literal",
                 "start": 4211,
                 "end": 4225,
-                "value": "Asia/Barnaul"
+                "value": "Asia/Barnaul",
+                "raw": "'Asia/Barnaul'"
               },
               {
                 "type": "Literal",
                 "start": 4229,
                 "end": 4242,
-                "value": "Asia/Beirut"
+                "value": "Asia/Beirut",
+                "raw": "'Asia/Beirut'"
               },
               {
                 "type": "Literal",
                 "start": 4246,
                 "end": 4260,
-                "value": "Asia/Bishkek"
+                "value": "Asia/Bishkek",
+                "raw": "'Asia/Bishkek'"
               },
               {
                 "type": "Literal",
                 "start": 4264,
                 "end": 4276,
-                "value": "Asia/Chita"
+                "value": "Asia/Chita",
+                "raw": "'Asia/Chita'"
               },
               {
                 "type": "Literal",
                 "start": 4280,
                 "end": 4297,
-                "value": "Asia/Choibalsan"
+                "value": "Asia/Choibalsan",
+                "raw": "'Asia/Choibalsan'"
               },
               {
                 "type": "Literal",
                 "start": 4301,
                 "end": 4315,
-                "value": "Asia/Colombo"
+                "value": "Asia/Colombo",
+                "raw": "'Asia/Colombo'"
               },
               {
                 "type": "Literal",
                 "start": 4319,
                 "end": 4334,
-                "value": "Asia/Damascus"
+                "value": "Asia/Damascus",
+                "raw": "'Asia/Damascus'"
               },
               {
                 "type": "Literal",
                 "start": 4338,
                 "end": 4350,
-                "value": "Asia/Dhaka"
+                "value": "Asia/Dhaka",
+                "raw": "'Asia/Dhaka'"
               },
               {
                 "type": "Literal",
                 "start": 4354,
                 "end": 4365,
-                "value": "Asia/Dili"
+                "value": "Asia/Dili",
+                "raw": "'Asia/Dili'"
               },
               {
                 "type": "Literal",
                 "start": 4369,
                 "end": 4381,
-                "value": "Asia/Dubai"
+                "value": "Asia/Dubai",
+                "raw": "'Asia/Dubai'"
               },
               {
                 "type": "Literal",
                 "start": 4385,
                 "end": 4400,
-                "value": "Asia/Dushanbe"
+                "value": "Asia/Dushanbe",
+                "raw": "'Asia/Dushanbe'"
               },
               {
                 "type": "Literal",
                 "start": 4404,
                 "end": 4420,
-                "value": "Asia/Famagusta"
+                "value": "Asia/Famagusta",
+                "raw": "'Asia/Famagusta'"
               },
               {
                 "type": "Literal",
                 "start": 4424,
                 "end": 4435,
-                "value": "Asia/Gaza"
+                "value": "Asia/Gaza",
+                "raw": "'Asia/Gaza'"
               },
               {
                 "type": "Literal",
                 "start": 4439,
                 "end": 4452,
-                "value": "Asia/Hebron"
+                "value": "Asia/Hebron",
+                "raw": "'Asia/Hebron'"
               },
               {
                 "type": "Literal",
                 "start": 4456,
                 "end": 4474,
-                "value": "Asia/Ho_Chi_Minh"
+                "value": "Asia/Ho_Chi_Minh",
+                "raw": "'Asia/Ho_Chi_Minh'"
               },
               {
                 "type": "Literal",
                 "start": 4478,
                 "end": 4494,
-                "value": "Asia/Hong_Kong"
+                "value": "Asia/Hong_Kong",
+                "raw": "'Asia/Hong_Kong'"
               },
               {
                 "type": "Literal",
                 "start": 4498,
                 "end": 4509,
-                "value": "Asia/Hovd"
+                "value": "Asia/Hovd",
+                "raw": "'Asia/Hovd'"
               },
               {
                 "type": "Literal",
                 "start": 4513,
                 "end": 4527,
-                "value": "Asia/Irkutsk"
+                "value": "Asia/Irkutsk",
+                "raw": "'Asia/Irkutsk'"
               },
               {
                 "type": "Literal",
                 "start": 4531,
                 "end": 4545,
-                "value": "Asia/Jakarta"
+                "value": "Asia/Jakarta",
+                "raw": "'Asia/Jakarta'"
               },
               {
                 "type": "Literal",
                 "start": 4549,
                 "end": 4564,
-                "value": "Asia/Jayapura"
+                "value": "Asia/Jayapura",
+                "raw": "'Asia/Jayapura'"
               },
               {
                 "type": "Literal",
                 "start": 4568,
                 "end": 4584,
-                "value": "Asia/Jerusalem"
+                "value": "Asia/Jerusalem",
+                "raw": "'Asia/Jerusalem'"
               },
               {
                 "type": "Literal",
                 "start": 4588,
                 "end": 4600,
-                "value": "Asia/Kabul"
+                "value": "Asia/Kabul",
+                "raw": "'Asia/Kabul'"
               },
               {
                 "type": "Literal",
                 "start": 4604,
                 "end": 4620,
-                "value": "Asia/Kamchatka"
+                "value": "Asia/Kamchatka",
+                "raw": "'Asia/Kamchatka'"
               },
               {
                 "type": "Literal",
                 "start": 4624,
                 "end": 4638,
-                "value": "Asia/Karachi"
+                "value": "Asia/Karachi",
+                "raw": "'Asia/Karachi'"
               },
               {
                 "type": "Literal",
                 "start": 4642,
                 "end": 4658,
-                "value": "Asia/Kathmandu"
+                "value": "Asia/Kathmandu",
+                "raw": "'Asia/Kathmandu'"
               },
               {
                 "type": "Literal",
                 "start": 4662,
                 "end": 4677,
-                "value": "Asia/Khandyga"
+                "value": "Asia/Khandyga",
+                "raw": "'Asia/Khandyga'"
               },
               {
                 "type": "Literal",
                 "start": 4681,
                 "end": 4695,
-                "value": "Asia/Kolkata"
+                "value": "Asia/Kolkata",
+                "raw": "'Asia/Kolkata'"
               },
               {
                 "type": "Literal",
                 "start": 4699,
                 "end": 4717,
-                "value": "Asia/Krasnoyarsk"
+                "value": "Asia/Krasnoyarsk",
+                "raw": "'Asia/Krasnoyarsk'"
               },
               {
                 "type": "Literal",
                 "start": 4721,
                 "end": 4735,
-                "value": "Asia/Kuching"
+                "value": "Asia/Kuching",
+                "raw": "'Asia/Kuching'"
               },
               {
                 "type": "Literal",
                 "start": 4739,
                 "end": 4751,
-                "value": "Asia/Macau"
+                "value": "Asia/Macau",
+                "raw": "'Asia/Macau'"
               },
               {
                 "type": "Literal",
                 "start": 4755,
                 "end": 4769,
-                "value": "Asia/Magadan"
+                "value": "Asia/Magadan",
+                "raw": "'Asia/Magadan'"
               },
               {
                 "type": "Literal",
                 "start": 4773,
                 "end": 4788,
-                "value": "Asia/Makassar"
+                "value": "Asia/Makassar",
+                "raw": "'Asia/Makassar'"
               },
               {
                 "type": "Literal",
                 "start": 4792,
                 "end": 4805,
-                "value": "Asia/Manila"
+                "value": "Asia/Manila",
+                "raw": "'Asia/Manila'"
               },
               {
                 "type": "Literal",
                 "start": 4809,
                 "end": 4823,
-                "value": "Asia/Nicosia"
+                "value": "Asia/Nicosia",
+                "raw": "'Asia/Nicosia'"
               },
               {
                 "type": "Literal",
                 "start": 4827,
                 "end": 4846,
-                "value": "Asia/Novokuznetsk"
+                "value": "Asia/Novokuznetsk",
+                "raw": "'Asia/Novokuznetsk'"
               },
               {
                 "type": "Literal",
                 "start": 4850,
                 "end": 4868,
-                "value": "Asia/Novosibirsk"
+                "value": "Asia/Novosibirsk",
+                "raw": "'Asia/Novosibirsk'"
               },
               {
                 "type": "Literal",
                 "start": 4872,
                 "end": 4883,
-                "value": "Asia/Omsk"
+                "value": "Asia/Omsk",
+                "raw": "'Asia/Omsk'"
               },
               {
                 "type": "Literal",
                 "start": 4887,
                 "end": 4898,
-                "value": "Asia/Oral"
+                "value": "Asia/Oral",
+                "raw": "'Asia/Oral'"
               },
               {
                 "type": "Literal",
                 "start": 4902,
                 "end": 4918,
-                "value": "Asia/Pontianak"
+                "value": "Asia/Pontianak",
+                "raw": "'Asia/Pontianak'"
               },
               {
                 "type": "Literal",
                 "start": 4922,
                 "end": 4938,
-                "value": "Asia/Pyongyang"
+                "value": "Asia/Pyongyang",
+                "raw": "'Asia/Pyongyang'"
               },
               {
                 "type": "Literal",
                 "start": 4942,
                 "end": 4954,
-                "value": "Asia/Qatar"
+                "value": "Asia/Qatar",
+                "raw": "'Asia/Qatar'"
               },
               {
                 "type": "Literal",
                 "start": 4958,
                 "end": 4973,
-                "value": "Asia/Qostanay"
+                "value": "Asia/Qostanay",
+                "raw": "'Asia/Qostanay'"
               },
               {
                 "type": "Literal",
                 "start": 4977,
                 "end": 4993,
-                "value": "Asia/Qyzylorda"
+                "value": "Asia/Qyzylorda",
+                "raw": "'Asia/Qyzylorda'"
               },
               {
                 "type": "Literal",
                 "start": 4997,
                 "end": 5010,
-                "value": "Asia/Riyadh"
+                "value": "Asia/Riyadh",
+                "raw": "'Asia/Riyadh'"
               },
               {
                 "type": "Literal",
                 "start": 5014,
                 "end": 5029,
-                "value": "Asia/Sakhalin"
+                "value": "Asia/Sakhalin",
+                "raw": "'Asia/Sakhalin'"
               },
               {
                 "type": "Literal",
                 "start": 5033,
                 "end": 5049,
-                "value": "Asia/Samarkand"
+                "value": "Asia/Samarkand",
+                "raw": "'Asia/Samarkand'"
               },
               {
                 "type": "Literal",
                 "start": 5053,
                 "end": 5065,
-                "value": "Asia/Seoul"
+                "value": "Asia/Seoul",
+                "raw": "'Asia/Seoul'"
               },
               {
                 "type": "Literal",
                 "start": 5069,
                 "end": 5084,
-                "value": "Asia/Shanghai"
+                "value": "Asia/Shanghai",
+                "raw": "'Asia/Shanghai'"
               },
               {
                 "type": "Literal",
                 "start": 5088,
                 "end": 5104,
-                "value": "Asia/Singapore"
+                "value": "Asia/Singapore",
+                "raw": "'Asia/Singapore'"
               },
               {
                 "type": "Literal",
                 "start": 5108,
                 "end": 5128,
-                "value": "Asia/Srednekolymsk"
+                "value": "Asia/Srednekolymsk",
+                "raw": "'Asia/Srednekolymsk'"
               },
               {
                 "type": "Literal",
                 "start": 5132,
                 "end": 5145,
-                "value": "Asia/Taipei"
+                "value": "Asia/Taipei",
+                "raw": "'Asia/Taipei'"
               },
               {
                 "type": "Literal",
                 "start": 5149,
                 "end": 5164,
-                "value": "Asia/Tashkent"
+                "value": "Asia/Tashkent",
+                "raw": "'Asia/Tashkent'"
               },
               {
                 "type": "Literal",
                 "start": 5168,
                 "end": 5182,
-                "value": "Asia/Tbilisi"
+                "value": "Asia/Tbilisi",
+                "raw": "'Asia/Tbilisi'"
               },
               {
                 "type": "Literal",
                 "start": 5186,
                 "end": 5199,
-                "value": "Asia/Tehran"
+                "value": "Asia/Tehran",
+                "raw": "'Asia/Tehran'"
               },
               {
                 "type": "Literal",
                 "start": 5203,
                 "end": 5217,
-                "value": "Asia/Thimphu"
+                "value": "Asia/Thimphu",
+                "raw": "'Asia/Thimphu'"
               },
               {
                 "type": "Literal",
                 "start": 5221,
                 "end": 5233,
-                "value": "Asia/Tokyo"
+                "value": "Asia/Tokyo",
+                "raw": "'Asia/Tokyo'"
               },
               {
                 "type": "Literal",
                 "start": 5237,
                 "end": 5249,
-                "value": "Asia/Tomsk"
+                "value": "Asia/Tomsk",
+                "raw": "'Asia/Tomsk'"
               },
               {
                 "type": "Literal",
                 "start": 5253,
                 "end": 5271,
-                "value": "Asia/Ulaanbaatar"
+                "value": "Asia/Ulaanbaatar",
+                "raw": "'Asia/Ulaanbaatar'"
               },
               {
                 "type": "Literal",
                 "start": 5275,
                 "end": 5288,
-                "value": "Asia/Urumqi"
+                "value": "Asia/Urumqi",
+                "raw": "'Asia/Urumqi'"
               },
               {
                 "type": "Literal",
                 "start": 5292,
                 "end": 5307,
-                "value": "Asia/Ust-Nera"
+                "value": "Asia/Ust-Nera",
+                "raw": "'Asia/Ust-Nera'"
               },
               {
                 "type": "Literal",
                 "start": 5311,
                 "end": 5329,
-                "value": "Asia/Vladivostok"
+                "value": "Asia/Vladivostok",
+                "raw": "'Asia/Vladivostok'"
               },
               {
                 "type": "Literal",
                 "start": 5333,
                 "end": 5347,
-                "value": "Asia/Yakutsk"
+                "value": "Asia/Yakutsk",
+                "raw": "'Asia/Yakutsk'"
               },
               {
                 "type": "Literal",
                 "start": 5351,
                 "end": 5364,
-                "value": "Asia/Yangon"
+                "value": "Asia/Yangon",
+                "raw": "'Asia/Yangon'"
               },
               {
                 "type": "Literal",
                 "start": 5368,
                 "end": 5388,
-                "value": "Asia/Yekaterinburg"
+                "value": "Asia/Yekaterinburg",
+                "raw": "'Asia/Yekaterinburg'"
               },
               {
                 "type": "Literal",
                 "start": 5392,
                 "end": 5406,
-                "value": "Asia/Yerevan"
+                "value": "Asia/Yerevan",
+                "raw": "'Asia/Yerevan'"
               },
               {
                 "type": "Literal",
                 "start": 5410,
                 "end": 5427,
-                "value": "Atlantic/Azores"
+                "value": "Atlantic/Azores",
+                "raw": "'Atlantic/Azores'"
               },
               {
                 "type": "Literal",
                 "start": 5431,
                 "end": 5449,
-                "value": "Atlantic/Bermuda"
+                "value": "Atlantic/Bermuda",
+                "raw": "'Atlantic/Bermuda'"
               },
               {
                 "type": "Literal",
                 "start": 5453,
                 "end": 5470,
-                "value": "Atlantic/Canary"
+                "value": "Atlantic/Canary",
+                "raw": "'Atlantic/Canary'"
               },
               {
                 "type": "Literal",
                 "start": 5474,
                 "end": 5495,
-                "value": "Atlantic/Cape_Verde"
+                "value": "Atlantic/Cape_Verde",
+                "raw": "'Atlantic/Cape_Verde'"
               },
               {
                 "type": "Literal",
                 "start": 5499,
                 "end": 5515,
-                "value": "Atlantic/Faroe"
+                "value": "Atlantic/Faroe",
+                "raw": "'Atlantic/Faroe'"
               },
               {
                 "type": "Literal",
                 "start": 5519,
                 "end": 5537,
-                "value": "Atlantic/Madeira"
+                "value": "Atlantic/Madeira",
+                "raw": "'Atlantic/Madeira'"
               },
               {
                 "type": "Literal",
                 "start": 5541,
                 "end": 5565,
-                "value": "Atlantic/South_Georgia"
+                "value": "Atlantic/South_Georgia",
+                "raw": "'Atlantic/South_Georgia'"
               },
               {
                 "type": "Literal",
                 "start": 5569,
                 "end": 5587,
-                "value": "Atlantic/Stanley"
+                "value": "Atlantic/Stanley",
+                "raw": "'Atlantic/Stanley'"
               },
               {
                 "type": "Literal",
                 "start": 5591,
                 "end": 5611,
-                "value": "Australia/Adelaide"
+                "value": "Australia/Adelaide",
+                "raw": "'Australia/Adelaide'"
               },
               {
                 "type": "Literal",
                 "start": 5615,
                 "end": 5635,
-                "value": "Australia/Brisbane"
+                "value": "Australia/Brisbane",
+                "raw": "'Australia/Brisbane'"
               },
               {
                 "type": "Literal",
                 "start": 5639,
                 "end": 5662,
-                "value": "Australia/Broken_Hill"
+                "value": "Australia/Broken_Hill",
+                "raw": "'Australia/Broken_Hill'"
               },
               {
                 "type": "Literal",
                 "start": 5666,
                 "end": 5684,
-                "value": "Australia/Darwin"
+                "value": "Australia/Darwin",
+                "raw": "'Australia/Darwin'"
               },
               {
                 "type": "Literal",
                 "start": 5688,
                 "end": 5705,
-                "value": "Australia/Eucla"
+                "value": "Australia/Eucla",
+                "raw": "'Australia/Eucla'"
               },
               {
                 "type": "Literal",
                 "start": 5709,
                 "end": 5727,
-                "value": "Australia/Hobart"
+                "value": "Australia/Hobart",
+                "raw": "'Australia/Hobart'"
               },
               {
                 "type": "Literal",
                 "start": 5731,
                 "end": 5751,
-                "value": "Australia/Lindeman"
+                "value": "Australia/Lindeman",
+                "raw": "'Australia/Lindeman'"
               },
               {
                 "type": "Literal",
                 "start": 5755,
                 "end": 5776,
-                "value": "Australia/Lord_Howe"
+                "value": "Australia/Lord_Howe",
+                "raw": "'Australia/Lord_Howe'"
               },
               {
                 "type": "Literal",
                 "start": 5780,
                 "end": 5801,
-                "value": "Australia/Melbourne"
+                "value": "Australia/Melbourne",
+                "raw": "'Australia/Melbourne'"
               },
               {
                 "type": "Literal",
                 "start": 5805,
                 "end": 5822,
-                "value": "Australia/Perth"
+                "value": "Australia/Perth",
+                "raw": "'Australia/Perth'"
               },
               {
                 "type": "Literal",
                 "start": 5826,
                 "end": 5844,
-                "value": "Australia/Sydney"
+                "value": "Australia/Sydney",
+                "raw": "'Australia/Sydney'"
               },
               {
                 "type": "Literal",
                 "start": 5848,
                 "end": 5853,
-                "value": "CET"
+                "value": "CET",
+                "raw": "'CET'"
               },
               {
                 "type": "Literal",
                 "start": 5857,
                 "end": 5866,
-                "value": "CST6CDT"
+                "value": "CST6CDT",
+                "raw": "'CST6CDT'"
               },
               {
                 "type": "Literal",
                 "start": 5870,
                 "end": 5875,
-                "value": "EET"
+                "value": "EET",
+                "raw": "'EET'"
               },
               {
                 "type": "Literal",
                 "start": 5879,
                 "end": 5884,
-                "value": "EST"
+                "value": "EST",
+                "raw": "'EST'"
               },
               {
                 "type": "Literal",
                 "start": 5888,
                 "end": 5897,
-                "value": "EST5EDT"
+                "value": "EST5EDT",
+                "raw": "'EST5EDT'"
               },
               {
                 "type": "Literal",
                 "start": 5901,
                 "end": 5910,
-                "value": "Etc/GMT"
+                "value": "Etc/GMT",
+                "raw": "'Etc/GMT'"
               },
               {
                 "type": "Literal",
                 "start": 5914,
                 "end": 5925,
-                "value": "Etc/GMT+1"
+                "value": "Etc/GMT+1",
+                "raw": "'Etc/GMT+1'"
               },
               {
                 "type": "Literal",
                 "start": 5929,
                 "end": 5941,
-                "value": "Etc/GMT+10"
+                "value": "Etc/GMT+10",
+                "raw": "'Etc/GMT+10'"
               },
               {
                 "type": "Literal",
                 "start": 5945,
                 "end": 5957,
-                "value": "Etc/GMT+11"
+                "value": "Etc/GMT+11",
+                "raw": "'Etc/GMT+11'"
               },
               {
                 "type": "Literal",
                 "start": 5961,
                 "end": 5973,
-                "value": "Etc/GMT+12"
+                "value": "Etc/GMT+12",
+                "raw": "'Etc/GMT+12'"
               },
               {
                 "type": "Literal",
                 "start": 5977,
                 "end": 5988,
-                "value": "Etc/GMT+2"
+                "value": "Etc/GMT+2",
+                "raw": "'Etc/GMT+2'"
               },
               {
                 "type": "Literal",
                 "start": 5992,
                 "end": 6003,
-                "value": "Etc/GMT+3"
+                "value": "Etc/GMT+3",
+                "raw": "'Etc/GMT+3'"
               },
               {
                 "type": "Literal",
                 "start": 6007,
                 "end": 6018,
-                "value": "Etc/GMT+4"
+                "value": "Etc/GMT+4",
+                "raw": "'Etc/GMT+4'"
               },
               {
                 "type": "Literal",
                 "start": 6022,
                 "end": 6033,
-                "value": "Etc/GMT+5"
+                "value": "Etc/GMT+5",
+                "raw": "'Etc/GMT+5'"
               },
               {
                 "type": "Literal",
                 "start": 6037,
                 "end": 6048,
-                "value": "Etc/GMT+6"
+                "value": "Etc/GMT+6",
+                "raw": "'Etc/GMT+6'"
               },
               {
                 "type": "Literal",
                 "start": 6052,
                 "end": 6063,
-                "value": "Etc/GMT+7"
+                "value": "Etc/GMT+7",
+                "raw": "'Etc/GMT+7'"
               },
               {
                 "type": "Literal",
                 "start": 6067,
                 "end": 6078,
-                "value": "Etc/GMT+8"
+                "value": "Etc/GMT+8",
+                "raw": "'Etc/GMT+8'"
               },
               {
                 "type": "Literal",
                 "start": 6082,
                 "end": 6093,
-                "value": "Etc/GMT+9"
+                "value": "Etc/GMT+9",
+                "raw": "'Etc/GMT+9'"
               },
               {
                 "type": "Literal",
                 "start": 6097,
                 "end": 6108,
-                "value": "Etc/GMT-1"
+                "value": "Etc/GMT-1",
+                "raw": "'Etc/GMT-1'"
               },
               {
                 "type": "Literal",
                 "start": 6112,
                 "end": 6124,
-                "value": "Etc/GMT-10"
+                "value": "Etc/GMT-10",
+                "raw": "'Etc/GMT-10'"
               },
               {
                 "type": "Literal",
                 "start": 6128,
                 "end": 6140,
-                "value": "Etc/GMT-11"
+                "value": "Etc/GMT-11",
+                "raw": "'Etc/GMT-11'"
               },
               {
                 "type": "Literal",
                 "start": 6144,
                 "end": 6156,
-                "value": "Etc/GMT-12"
+                "value": "Etc/GMT-12",
+                "raw": "'Etc/GMT-12'"
               },
               {
                 "type": "Literal",
                 "start": 6160,
                 "end": 6172,
-                "value": "Etc/GMT-13"
+                "value": "Etc/GMT-13",
+                "raw": "'Etc/GMT-13'"
               },
               {
                 "type": "Literal",
                 "start": 6176,
                 "end": 6188,
-                "value": "Etc/GMT-14"
+                "value": "Etc/GMT-14",
+                "raw": "'Etc/GMT-14'"
               },
               {
                 "type": "Literal",
                 "start": 6192,
                 "end": 6203,
-                "value": "Etc/GMT-2"
+                "value": "Etc/GMT-2",
+                "raw": "'Etc/GMT-2'"
               },
               {
                 "type": "Literal",
                 "start": 6207,
                 "end": 6218,
-                "value": "Etc/GMT-3"
+                "value": "Etc/GMT-3",
+                "raw": "'Etc/GMT-3'"
               },
               {
                 "type": "Literal",
                 "start": 6222,
                 "end": 6233,
-                "value": "Etc/GMT-4"
+                "value": "Etc/GMT-4",
+                "raw": "'Etc/GMT-4'"
               },
               {
                 "type": "Literal",
                 "start": 6237,
                 "end": 6248,
-                "value": "Etc/GMT-5"
+                "value": "Etc/GMT-5",
+                "raw": "'Etc/GMT-5'"
               },
               {
                 "type": "Literal",
                 "start": 6252,
                 "end": 6263,
-                "value": "Etc/GMT-6"
+                "value": "Etc/GMT-6",
+                "raw": "'Etc/GMT-6'"
               },
               {
                 "type": "Literal",
                 "start": 6267,
                 "end": 6278,
-                "value": "Etc/GMT-7"
+                "value": "Etc/GMT-7",
+                "raw": "'Etc/GMT-7'"
               },
               {
                 "type": "Literal",
                 "start": 6282,
                 "end": 6293,
-                "value": "Etc/GMT-8"
+                "value": "Etc/GMT-8",
+                "raw": "'Etc/GMT-8'"
               },
               {
                 "type": "Literal",
                 "start": 6297,
                 "end": 6308,
-                "value": "Etc/GMT-9"
+                "value": "Etc/GMT-9",
+                "raw": "'Etc/GMT-9'"
               },
               {
                 "type": "Literal",
                 "start": 6312,
                 "end": 6321,
-                "value": "Etc/UTC"
+                "value": "Etc/UTC",
+                "raw": "'Etc/UTC'"
               },
               {
                 "type": "Literal",
                 "start": 6325,
                 "end": 6341,
-                "value": "Europe/Andorra"
+                "value": "Europe/Andorra",
+                "raw": "'Europe/Andorra'"
               },
               {
                 "type": "Literal",
                 "start": 6345,
                 "end": 6363,
-                "value": "Europe/Astrakhan"
+                "value": "Europe/Astrakhan",
+                "raw": "'Europe/Astrakhan'"
               },
               {
                 "type": "Literal",
                 "start": 6367,
                 "end": 6382,
-                "value": "Europe/Athens"
+                "value": "Europe/Athens",
+                "raw": "'Europe/Athens'"
               },
               {
                 "type": "Literal",
                 "start": 6386,
                 "end": 6403,
-                "value": "Europe/Belgrade"
+                "value": "Europe/Belgrade",
+                "raw": "'Europe/Belgrade'"
               },
               {
                 "type": "Literal",
                 "start": 6407,
                 "end": 6422,
-                "value": "Europe/Berlin"
+                "value": "Europe/Berlin",
+                "raw": "'Europe/Berlin'"
               },
               {
                 "type": "Literal",
                 "start": 6426,
                 "end": 6443,
-                "value": "Europe/Brussels"
+                "value": "Europe/Brussels",
+                "raw": "'Europe/Brussels'"
               },
               {
                 "type": "Literal",
                 "start": 6447,
                 "end": 6465,
-                "value": "Europe/Bucharest"
+                "value": "Europe/Bucharest",
+                "raw": "'Europe/Bucharest'"
               },
               {
                 "type": "Literal",
                 "start": 6469,
                 "end": 6486,
-                "value": "Europe/Budapest"
+                "value": "Europe/Budapest",
+                "raw": "'Europe/Budapest'"
               },
               {
                 "type": "Literal",
                 "start": 6490,
                 "end": 6507,
-                "value": "Europe/Chisinau"
+                "value": "Europe/Chisinau",
+                "raw": "'Europe/Chisinau'"
               },
               {
                 "type": "Literal",
                 "start": 6511,
                 "end": 6526,
-                "value": "Europe/Dublin"
+                "value": "Europe/Dublin",
+                "raw": "'Europe/Dublin'"
               },
               {
                 "type": "Literal",
                 "start": 6530,
                 "end": 6548,
-                "value": "Europe/Gibraltar"
+                "value": "Europe/Gibraltar",
+                "raw": "'Europe/Gibraltar'"
               },
               {
                 "type": "Literal",
                 "start": 6552,
                 "end": 6569,
-                "value": "Europe/Helsinki"
+                "value": "Europe/Helsinki",
+                "raw": "'Europe/Helsinki'"
               },
               {
                 "type": "Literal",
                 "start": 6573,
                 "end": 6590,
-                "value": "Europe/Istanbul"
+                "value": "Europe/Istanbul",
+                "raw": "'Europe/Istanbul'"
               },
               {
                 "type": "Literal",
                 "start": 6594,
                 "end": 6614,
-                "value": "Europe/Kaliningrad"
+                "value": "Europe/Kaliningrad",
+                "raw": "'Europe/Kaliningrad'"
               },
               {
                 "type": "Literal",
                 "start": 6618,
                 "end": 6632,
-                "value": "Europe/Kirov"
+                "value": "Europe/Kirov",
+                "raw": "'Europe/Kirov'"
               },
               {
                 "type": "Literal",
                 "start": 6636,
                 "end": 6649,
-                "value": "Europe/Kyiv"
+                "value": "Europe/Kyiv",
+                "raw": "'Europe/Kyiv'"
               },
               {
                 "type": "Literal",
                 "start": 6653,
                 "end": 6668,
-                "value": "Europe/Lisbon"
+                "value": "Europe/Lisbon",
+                "raw": "'Europe/Lisbon'"
               },
               {
                 "type": "Literal",
                 "start": 6672,
                 "end": 6687,
-                "value": "Europe/London"
+                "value": "Europe/London",
+                "raw": "'Europe/London'"
               },
               {
                 "type": "Literal",
                 "start": 6691,
                 "end": 6706,
-                "value": "Europe/Madrid"
+                "value": "Europe/Madrid",
+                "raw": "'Europe/Madrid'"
               },
               {
                 "type": "Literal",
                 "start": 6710,
                 "end": 6724,
-                "value": "Europe/Malta"
+                "value": "Europe/Malta",
+                "raw": "'Europe/Malta'"
               },
               {
                 "type": "Literal",
                 "start": 6728,
                 "end": 6742,
-                "value": "Europe/Minsk"
+                "value": "Europe/Minsk",
+                "raw": "'Europe/Minsk'"
               },
               {
                 "type": "Literal",
                 "start": 6746,
                 "end": 6761,
-                "value": "Europe/Moscow"
+                "value": "Europe/Moscow",
+                "raw": "'Europe/Moscow'"
               },
               {
                 "type": "Literal",
                 "start": 6765,
                 "end": 6779,
-                "value": "Europe/Paris"
+                "value": "Europe/Paris",
+                "raw": "'Europe/Paris'"
               },
               {
                 "type": "Literal",
                 "start": 6783,
                 "end": 6798,
-                "value": "Europe/Prague"
+                "value": "Europe/Prague",
+                "raw": "'Europe/Prague'"
               },
               {
                 "type": "Literal",
                 "start": 6802,
                 "end": 6815,
-                "value": "Europe/Riga"
+                "value": "Europe/Riga",
+                "raw": "'Europe/Riga'"
               },
               {
                 "type": "Literal",
                 "start": 6819,
                 "end": 6832,
-                "value": "Europe/Rome"
+                "value": "Europe/Rome",
+                "raw": "'Europe/Rome'"
               },
               {
                 "type": "Literal",
                 "start": 6836,
                 "end": 6851,
-                "value": "Europe/Samara"
+                "value": "Europe/Samara",
+                "raw": "'Europe/Samara'"
               },
               {
                 "type": "Literal",
                 "start": 6855,
                 "end": 6871,
-                "value": "Europe/Saratov"
+                "value": "Europe/Saratov",
+                "raw": "'Europe/Saratov'"
               },
               {
                 "type": "Literal",
                 "start": 6875,
                 "end": 6894,
-                "value": "Europe/Simferopol"
+                "value": "Europe/Simferopol",
+                "raw": "'Europe/Simferopol'"
               },
               {
                 "type": "Literal",
                 "start": 6898,
                 "end": 6912,
-                "value": "Europe/Sofia"
+                "value": "Europe/Sofia",
+                "raw": "'Europe/Sofia'"
               },
               {
                 "type": "Literal",
                 "start": 6916,
                 "end": 6932,
-                "value": "Europe/Tallinn"
+                "value": "Europe/Tallinn",
+                "raw": "'Europe/Tallinn'"
               },
               {
                 "type": "Literal",
                 "start": 6936,
                 "end": 6951,
-                "value": "Europe/Tirane"
+                "value": "Europe/Tirane",
+                "raw": "'Europe/Tirane'"
               },
               {
                 "type": "Literal",
                 "start": 6955,
                 "end": 6973,
-                "value": "Europe/Ulyanovsk"
+                "value": "Europe/Ulyanovsk",
+                "raw": "'Europe/Ulyanovsk'"
               },
               {
                 "type": "Literal",
                 "start": 6977,
                 "end": 6992,
-                "value": "Europe/Vienna"
+                "value": "Europe/Vienna",
+                "raw": "'Europe/Vienna'"
               },
               {
                 "type": "Literal",
                 "start": 6996,
                 "end": 7012,
-                "value": "Europe/Vilnius"
+                "value": "Europe/Vilnius",
+                "raw": "'Europe/Vilnius'"
               },
               {
                 "type": "Literal",
                 "start": 7016,
                 "end": 7034,
-                "value": "Europe/Volgograd"
+                "value": "Europe/Volgograd",
+                "raw": "'Europe/Volgograd'"
               },
               {
                 "type": "Literal",
                 "start": 7038,
                 "end": 7053,
-                "value": "Europe/Warsaw"
+                "value": "Europe/Warsaw",
+                "raw": "'Europe/Warsaw'"
               },
               {
                 "type": "Literal",
                 "start": 7057,
                 "end": 7072,
-                "value": "Europe/Zurich"
+                "value": "Europe/Zurich",
+                "raw": "'Europe/Zurich'"
               },
               {
                 "type": "Literal",
                 "start": 7076,
                 "end": 7081,
-                "value": "HST"
+                "value": "HST",
+                "raw": "'HST'"
               },
               {
                 "type": "Literal",
                 "start": 7085,
                 "end": 7100,
-                "value": "Indian/Chagos"
+                "value": "Indian/Chagos",
+                "raw": "'Indian/Chagos'"
               },
               {
                 "type": "Literal",
                 "start": 7104,
                 "end": 7121,
-                "value": "Indian/Maldives"
+                "value": "Indian/Maldives",
+                "raw": "'Indian/Maldives'"
               },
               {
                 "type": "Literal",
                 "start": 7125,
                 "end": 7143,
-                "value": "Indian/Mauritius"
+                "value": "Indian/Mauritius",
+                "raw": "'Indian/Mauritius'"
               },
               {
                 "type": "Literal",
                 "start": 7147,
                 "end": 7152,
-                "value": "MET"
+                "value": "MET",
+                "raw": "'MET'"
               },
               {
                 "type": "Literal",
                 "start": 7156,
                 "end": 7161,
-                "value": "MST"
+                "value": "MST",
+                "raw": "'MST'"
               },
               {
                 "type": "Literal",
                 "start": 7165,
                 "end": 7174,
-                "value": "MST7MDT"
+                "value": "MST7MDT",
+                "raw": "'MST7MDT'"
               },
               {
                 "type": "Literal",
                 "start": 7178,
                 "end": 7187,
-                "value": "PST8PDT"
+                "value": "PST8PDT",
+                "raw": "'PST8PDT'"
               },
               {
                 "type": "Literal",
                 "start": 7191,
                 "end": 7205,
-                "value": "Pacific/Apia"
+                "value": "Pacific/Apia",
+                "raw": "'Pacific/Apia'"
               },
               {
                 "type": "Literal",
                 "start": 7209,
                 "end": 7227,
-                "value": "Pacific/Auckland"
+                "value": "Pacific/Auckland",
+                "raw": "'Pacific/Auckland'"
               },
               {
                 "type": "Literal",
                 "start": 7231,
                 "end": 7253,
-                "value": "Pacific/Bougainville"
+                "value": "Pacific/Bougainville",
+                "raw": "'Pacific/Bougainville'"
               },
               {
                 "type": "Literal",
                 "start": 7257,
                 "end": 7274,
-                "value": "Pacific/Chatham"
+                "value": "Pacific/Chatham",
+                "raw": "'Pacific/Chatham'"
               },
               {
                 "type": "Literal",
                 "start": 7278,
                 "end": 7294,
-                "value": "Pacific/Easter"
+                "value": "Pacific/Easter",
+                "raw": "'Pacific/Easter'"
               },
               {
                 "type": "Literal",
                 "start": 7298,
                 "end": 7313,
-                "value": "Pacific/Efate"
+                "value": "Pacific/Efate",
+                "raw": "'Pacific/Efate'"
               },
               {
                 "type": "Literal",
                 "start": 7317,
                 "end": 7334,
-                "value": "Pacific/Fakaofo"
+                "value": "Pacific/Fakaofo",
+                "raw": "'Pacific/Fakaofo'"
               },
               {
                 "type": "Literal",
                 "start": 7338,
                 "end": 7352,
-                "value": "Pacific/Fiji"
+                "value": "Pacific/Fiji",
+                "raw": "'Pacific/Fiji'"
               },
               {
                 "type": "Literal",
                 "start": 7356,
                 "end": 7375,
-                "value": "Pacific/Galapagos"
+                "value": "Pacific/Galapagos",
+                "raw": "'Pacific/Galapagos'"
               },
               {
                 "type": "Literal",
                 "start": 7379,
                 "end": 7396,
-                "value": "Pacific/Gambier"
+                "value": "Pacific/Gambier",
+                "raw": "'Pacific/Gambier'"
               },
               {
                 "type": "Literal",
                 "start": 7400,
                 "end": 7421,
-                "value": "Pacific/Guadalcanal"
+                "value": "Pacific/Guadalcanal",
+                "raw": "'Pacific/Guadalcanal'"
               },
               {
                 "type": "Literal",
                 "start": 7425,
                 "end": 7439,
-                "value": "Pacific/Guam"
+                "value": "Pacific/Guam",
+                "raw": "'Pacific/Guam'"
               },
               {
                 "type": "Literal",
                 "start": 7443,
                 "end": 7461,
-                "value": "Pacific/Honolulu"
+                "value": "Pacific/Honolulu",
+                "raw": "'Pacific/Honolulu'"
               },
               {
                 "type": "Literal",
                 "start": 7465,
                 "end": 7481,
-                "value": "Pacific/Kanton"
+                "value": "Pacific/Kanton",
+                "raw": "'Pacific/Kanton'"
               },
               {
                 "type": "Literal",
                 "start": 7485,
                 "end": 7505,
-                "value": "Pacific/Kiritimati"
+                "value": "Pacific/Kiritimati",
+                "raw": "'Pacific/Kiritimati'"
               },
               {
                 "type": "Literal",
                 "start": 7509,
                 "end": 7525,
-                "value": "Pacific/Kosrae"
+                "value": "Pacific/Kosrae",
+                "raw": "'Pacific/Kosrae'"
               },
               {
                 "type": "Literal",
                 "start": 7529,
                 "end": 7548,
-                "value": "Pacific/Kwajalein"
+                "value": "Pacific/Kwajalein",
+                "raw": "'Pacific/Kwajalein'"
               },
               {
                 "type": "Literal",
                 "start": 7552,
                 "end": 7571,
-                "value": "Pacific/Marquesas"
+                "value": "Pacific/Marquesas",
+                "raw": "'Pacific/Marquesas'"
               },
               {
                 "type": "Literal",
                 "start": 7575,
                 "end": 7590,
-                "value": "Pacific/Nauru"
+                "value": "Pacific/Nauru",
+                "raw": "'Pacific/Nauru'"
               },
               {
                 "type": "Literal",
                 "start": 7594,
                 "end": 7608,
-                "value": "Pacific/Niue"
+                "value": "Pacific/Niue",
+                "raw": "'Pacific/Niue'"
               },
               {
                 "type": "Literal",
                 "start": 7612,
                 "end": 7629,
-                "value": "Pacific/Norfolk"
+                "value": "Pacific/Norfolk",
+                "raw": "'Pacific/Norfolk'"
               },
               {
                 "type": "Literal",
                 "start": 7633,
                 "end": 7649,
-                "value": "Pacific/Noumea"
+                "value": "Pacific/Noumea",
+                "raw": "'Pacific/Noumea'"
               },
               {
                 "type": "Literal",
                 "start": 7653,
                 "end": 7672,
-                "value": "Pacific/Pago_Pago"
+                "value": "Pacific/Pago_Pago",
+                "raw": "'Pacific/Pago_Pago'"
               },
               {
                 "type": "Literal",
                 "start": 7676,
                 "end": 7691,
-                "value": "Pacific/Palau"
+                "value": "Pacific/Palau",
+                "raw": "'Pacific/Palau'"
               },
               {
                 "type": "Literal",
                 "start": 7695,
                 "end": 7713,
-                "value": "Pacific/Pitcairn"
+                "value": "Pacific/Pitcairn",
+                "raw": "'Pacific/Pitcairn'"
               },
               {
                 "type": "Literal",
                 "start": 7717,
                 "end": 7739,
-                "value": "Pacific/Port_Moresby"
+                "value": "Pacific/Port_Moresby",
+                "raw": "'Pacific/Port_Moresby'"
               },
               {
                 "type": "Literal",
                 "start": 7743,
                 "end": 7762,
-                "value": "Pacific/Rarotonga"
+                "value": "Pacific/Rarotonga",
+                "raw": "'Pacific/Rarotonga'"
               },
               {
                 "type": "Literal",
                 "start": 7766,
                 "end": 7782,
-                "value": "Pacific/Tahiti"
+                "value": "Pacific/Tahiti",
+                "raw": "'Pacific/Tahiti'"
               },
               {
                 "type": "Literal",
                 "start": 7786,
                 "end": 7802,
-                "value": "Pacific/Tarawa"
+                "value": "Pacific/Tarawa",
+                "raw": "'Pacific/Tarawa'"
               },
               {
                 "type": "Literal",
                 "start": 7806,
                 "end": 7825,
-                "value": "Pacific/Tongatapu"
+                "value": "Pacific/Tongatapu",
+                "raw": "'Pacific/Tongatapu'"
               },
               {
                 "type": "Literal",
                 "start": 7856,
                 "end": 7861,
-                "value": "WET"
+                "value": "WET",
+                "raw": "'WET'"
               },
               {
                 "type": "Literal",
                 "start": 7865,
                 "end": 7879,
-                "value": "Africa/Accra"
+                "value": "Africa/Accra",
+                "raw": "'Africa/Accra'"
               },
               {
                 "type": "Literal",
                 "start": 7883,
                 "end": 7903,
-                "value": "Africa/Addis_Ababa"
+                "value": "Africa/Addis_Ababa",
+                "raw": "'Africa/Addis_Ababa'"
               },
               {
                 "type": "Literal",
                 "start": 7907,
                 "end": 7922,
-                "value": "Africa/Asmara"
+                "value": "Africa/Asmara",
+                "raw": "'Africa/Asmara'"
               },
               {
                 "type": "Literal",
                 "start": 7926,
                 "end": 7941,
-                "value": "Africa/Asmera"
+                "value": "Africa/Asmera",
+                "raw": "'Africa/Asmera'"
               },
               {
                 "type": "Literal",
                 "start": 7945,
                 "end": 7960,
-                "value": "Africa/Bamako"
+                "value": "Africa/Bamako",
+                "raw": "'Africa/Bamako'"
               },
               {
                 "type": "Literal",
                 "start": 7964,
                 "end": 7979,
-                "value": "Africa/Bangui"
+                "value": "Africa/Bangui",
+                "raw": "'Africa/Bangui'"
               },
               {
                 "type": "Literal",
                 "start": 7983,
                 "end": 7998,
-                "value": "Africa/Banjul"
+                "value": "Africa/Banjul",
+                "raw": "'Africa/Banjul'"
               },
               {
                 "type": "Literal",
                 "start": 8002,
                 "end": 8019,
-                "value": "Africa/Blantyre"
+                "value": "Africa/Blantyre",
+                "raw": "'Africa/Blantyre'"
               },
               {
                 "type": "Literal",
                 "start": 8023,
                 "end": 8043,
-                "value": "Africa/Brazzaville"
+                "value": "Africa/Brazzaville",
+                "raw": "'Africa/Brazzaville'"
               },
               {
                 "type": "Literal",
                 "start": 8047,
                 "end": 8065,
-                "value": "Africa/Bujumbura"
+                "value": "Africa/Bujumbura",
+                "raw": "'Africa/Bujumbura'"
               },
               {
                 "type": "Literal",
                 "start": 8069,
                 "end": 8085,
-                "value": "Africa/Conakry"
+                "value": "Africa/Conakry",
+                "raw": "'Africa/Conakry'"
               },
               {
                 "type": "Literal",
                 "start": 8089,
                 "end": 8103,
-                "value": "Africa/Dakar"
+                "value": "Africa/Dakar",
+                "raw": "'Africa/Dakar'"
               },
               {
                 "type": "Literal",
                 "start": 8107,
                 "end": 8129,
-                "value": "Africa/Dar_es_Salaam"
+                "value": "Africa/Dar_es_Salaam",
+                "raw": "'Africa/Dar_es_Salaam'"
               },
               {
                 "type": "Literal",
                 "start": 8133,
                 "end": 8150,
-                "value": "Africa/Djibouti"
+                "value": "Africa/Djibouti",
+                "raw": "'Africa/Djibouti'"
               },
               {
                 "type": "Literal",
                 "start": 8154,
                 "end": 8169,
-                "value": "Africa/Douala"
+                "value": "Africa/Douala",
+                "raw": "'Africa/Douala'"
               },
               {
                 "type": "Literal",
                 "start": 8173,
                 "end": 8190,
-                "value": "Africa/Freetown"
+                "value": "Africa/Freetown",
+                "raw": "'Africa/Freetown'"
               },
               {
                 "type": "Literal",
                 "start": 8194,
                 "end": 8211,
-                "value": "Africa/Gaborone"
+                "value": "Africa/Gaborone",
+                "raw": "'Africa/Gaborone'"
               },
               {
                 "type": "Literal",
                 "start": 8215,
                 "end": 8230,
-                "value": "Africa/Harare"
+                "value": "Africa/Harare",
+                "raw": "'Africa/Harare'"
               },
               {
                 "type": "Literal",
                 "start": 8234,
                 "end": 8250,
-                "value": "Africa/Kampala"
+                "value": "Africa/Kampala",
+                "raw": "'Africa/Kampala'"
               },
               {
                 "type": "Literal",
                 "start": 8254,
                 "end": 8269,
-                "value": "Africa/Kigali"
+                "value": "Africa/Kigali",
+                "raw": "'Africa/Kigali'"
               },
               {
                 "type": "Literal",
                 "start": 8273,
                 "end": 8290,
-                "value": "Africa/Kinshasa"
+                "value": "Africa/Kinshasa",
+                "raw": "'Africa/Kinshasa'"
               },
               {
                 "type": "Literal",
                 "start": 8294,
                 "end": 8313,
-                "value": "Africa/Libreville"
+                "value": "Africa/Libreville",
+                "raw": "'Africa/Libreville'"
               },
               {
                 "type": "Literal",
                 "start": 8317,
                 "end": 8330,
-                "value": "Africa/Lome"
+                "value": "Africa/Lome",
+                "raw": "'Africa/Lome'"
               },
               {
                 "type": "Literal",
                 "start": 8334,
                 "end": 8349,
-                "value": "Africa/Luanda"
+                "value": "Africa/Luanda",
+                "raw": "'Africa/Luanda'"
               },
               {
                 "type": "Literal",
                 "start": 8353,
                 "end": 8372,
-                "value": "Africa/Lubumbashi"
+                "value": "Africa/Lubumbashi",
+                "raw": "'Africa/Lubumbashi'"
               },
               {
                 "type": "Literal",
                 "start": 8376,
                 "end": 8391,
-                "value": "Africa/Lusaka"
+                "value": "Africa/Lusaka",
+                "raw": "'Africa/Lusaka'"
               },
               {
                 "type": "Literal",
                 "start": 8395,
                 "end": 8410,
-                "value": "Africa/Malabo"
+                "value": "Africa/Malabo",
+                "raw": "'Africa/Malabo'"
               },
               {
                 "type": "Literal",
                 "start": 8414,
                 "end": 8429,
-                "value": "Africa/Maseru"
+                "value": "Africa/Maseru",
+                "raw": "'Africa/Maseru'"
               },
               {
                 "type": "Literal",
                 "start": 8433,
                 "end": 8449,
-                "value": "Africa/Mbabane"
+                "value": "Africa/Mbabane",
+                "raw": "'Africa/Mbabane'"
               },
               {
                 "type": "Literal",
                 "start": 8453,
                 "end": 8471,
-                "value": "Africa/Mogadishu"
+                "value": "Africa/Mogadishu",
+                "raw": "'Africa/Mogadishu'"
               },
               {
                 "type": "Literal",
                 "start": 8475,
                 "end": 8490,
-                "value": "Africa/Niamey"
+                "value": "Africa/Niamey",
+                "raw": "'Africa/Niamey'"
               },
               {
                 "type": "Literal",
                 "start": 8494,
                 "end": 8513,
-                "value": "Africa/Nouakchott"
+                "value": "Africa/Nouakchott",
+                "raw": "'Africa/Nouakchott'"
               },
               {
                 "type": "Literal",
                 "start": 8517,
                 "end": 8537,
-                "value": "Africa/Ouagadougou"
+                "value": "Africa/Ouagadougou",
+                "raw": "'Africa/Ouagadougou'"
               },
               {
                 "type": "Literal",
                 "start": 8541,
                 "end": 8560,
-                "value": "Africa/Porto-Novo"
+                "value": "Africa/Porto-Novo",
+                "raw": "'Africa/Porto-Novo'"
               },
               {
                 "type": "Literal",
                 "start": 8564,
                 "end": 8581,
-                "value": "Africa/Timbuktu"
+                "value": "Africa/Timbuktu",
+                "raw": "'Africa/Timbuktu'"
               },
               {
                 "type": "Literal",
                 "start": 8585,
                 "end": 8603,
-                "value": "America/Anguilla"
+                "value": "America/Anguilla",
+                "raw": "'America/Anguilla'"
               },
               {
                 "type": "Literal",
                 "start": 8607,
                 "end": 8624,
-                "value": "America/Antigua"
+                "value": "America/Antigua",
+                "raw": "'America/Antigua'"
               },
               {
                 "type": "Literal",
                 "start": 8628,
                 "end": 8662,
-                "value": "America/Argentina/ComodRivadavia"
+                "value": "America/Argentina/ComodRivadavia",
+                "raw": "'America/Argentina/ComodRivadavia'"
               },
               {
                 "type": "Literal",
                 "start": 8666,
                 "end": 8681,
-                "value": "America/Aruba"
+                "value": "America/Aruba",
+                "raw": "'America/Aruba'"
               },
               {
                 "type": "Literal",
                 "start": 8685,
                 "end": 8703,
-                "value": "America/Atikokan"
+                "value": "America/Atikokan",
+                "raw": "'America/Atikokan'"
               },
               {
                 "type": "Literal",
                 "start": 8707,
                 "end": 8721,
-                "value": "America/Atka"
+                "value": "America/Atka",
+                "raw": "'America/Atka'"
               },
               {
                 "type": "Literal",
                 "start": 8725,
                 "end": 8747,
-                "value": "America/Blanc-Sablon"
+                "value": "America/Blanc-Sablon",
+                "raw": "'America/Blanc-Sablon'"
               },
               {
                 "type": "Literal",
                 "start": 8751,
                 "end": 8773,
-                "value": "America/Buenos_Aires"
+                "value": "America/Buenos_Aires",
+                "raw": "'America/Buenos_Aires'"
               },
               {
                 "type": "Literal",
                 "start": 8777,
                 "end": 8796,
-                "value": "America/Catamarca"
+                "value": "America/Catamarca",
+                "raw": "'America/Catamarca'"
               },
               {
                 "type": "Literal",
                 "start": 8800,
                 "end": 8816,
-                "value": "America/Cayman"
+                "value": "America/Cayman",
+                "raw": "'America/Cayman'"
               },
               {
                 "type": "Literal",
                 "start": 8820,
                 "end": 8843,
-                "value": "America/Coral_Harbour"
+                "value": "America/Coral_Harbour",
+                "raw": "'America/Coral_Harbour'"
               },
               {
                 "type": "Literal",
                 "start": 8847,
                 "end": 8864,
-                "value": "America/Cordoba"
+                "value": "America/Cordoba",
+                "raw": "'America/Cordoba'"
               },
               {
                 "type": "Literal",
                 "start": 8868,
                 "end": 8885,
-                "value": "America/Creston"
+                "value": "America/Creston",
+                "raw": "'America/Creston'"
               },
               {
                 "type": "Literal",
                 "start": 8889,
                 "end": 8906,
-                "value": "America/Curacao"
+                "value": "America/Curacao",
+                "raw": "'America/Curacao'"
               },
               {
                 "type": "Literal",
                 "start": 8910,
                 "end": 8928,
-                "value": "America/Dominica"
+                "value": "America/Dominica",
+                "raw": "'America/Dominica'"
               },
               {
                 "type": "Literal",
                 "start": 8932,
                 "end": 8950,
-                "value": "America/Ensenada"
+                "value": "America/Ensenada",
+                "raw": "'America/Ensenada'"
               },
               {
                 "type": "Literal",
                 "start": 8954,
                 "end": 8974,
-                "value": "America/Fort_Wayne"
+                "value": "America/Fort_Wayne",
+                "raw": "'America/Fort_Wayne'"
               },
               {
                 "type": "Literal",
                 "start": 8978,
                 "end": 8995,
-                "value": "America/Godthab"
+                "value": "America/Godthab",
+                "raw": "'America/Godthab'"
               },
               {
                 "type": "Literal",
                 "start": 8999,
                 "end": 9016,
-                "value": "America/Grenada"
+                "value": "America/Grenada",
+                "raw": "'America/Grenada'"
               },
               {
                 "type": "Literal",
                 "start": 9020,
                 "end": 9040,
-                "value": "America/Guadeloupe"
+                "value": "America/Guadeloupe",
+                "raw": "'America/Guadeloupe'"
               },
               {
                 "type": "Literal",
                 "start": 9044,
                 "end": 9066,
-                "value": "America/Indianapolis"
+                "value": "America/Indianapolis",
+                "raw": "'America/Indianapolis'"
               },
               {
                 "type": "Literal",
                 "start": 9070,
                 "end": 9085,
-                "value": "America/Jujuy"
+                "value": "America/Jujuy",
+                "raw": "'America/Jujuy'"
               },
               {
                 "type": "Literal",
                 "start": 9089,
                 "end": 9106,
-                "value": "America/Knox_IN"
+                "value": "America/Knox_IN",
+                "raw": "'America/Knox_IN'"
               },
               {
                 "type": "Literal",
                 "start": 9110,
                 "end": 9130,
-                "value": "America/Kralendijk"
+                "value": "America/Kralendijk",
+                "raw": "'America/Kralendijk'"
               },
               {
                 "type": "Literal",
                 "start": 9134,
                 "end": 9154,
-                "value": "America/Louisville"
+                "value": "America/Louisville",
+                "raw": "'America/Louisville'"
               },
               {
                 "type": "Literal",
                 "start": 9158,
                 "end": 9181,
-                "value": "America/Lower_Princes"
+                "value": "America/Lower_Princes",
+                "raw": "'America/Lower_Princes'"
               },
               {
                 "type": "Literal",
                 "start": 9185,
                 "end": 9202,
-                "value": "America/Marigot"
+                "value": "America/Marigot",
+                "raw": "'America/Marigot'"
               },
               {
                 "type": "Literal",
                 "start": 9206,
                 "end": 9223,
-                "value": "America/Mendoza"
+                "value": "America/Mendoza",
+                "raw": "'America/Mendoza'"
               },
               {
                 "type": "Literal",
                 "start": 9227,
                 "end": 9245,
-                "value": "America/Montreal"
+                "value": "America/Montreal",
+                "raw": "'America/Montreal'"
               },
               {
                 "type": "Literal",
                 "start": 9249,
                 "end": 9269,
-                "value": "America/Montserrat"
+                "value": "America/Montserrat",
+                "raw": "'America/Montserrat'"
               },
               {
                 "type": "Literal",
                 "start": 9273,
                 "end": 9289,
-                "value": "America/Nassau"
+                "value": "America/Nassau",
+                "raw": "'America/Nassau'"
               },
               {
                 "type": "Literal",
                 "start": 9293,
                 "end": 9310,
-                "value": "America/Nipigon"
+                "value": "America/Nipigon",
+                "raw": "'America/Nipigon'"
               },
               {
                 "type": "Literal",
                 "start": 9314,
                 "end": 9335,
-                "value": "America/Pangnirtung"
+                "value": "America/Pangnirtung",
+                "raw": "'America/Pangnirtung'"
               },
               {
                 "type": "Literal",
                 "start": 9339,
                 "end": 9362,
-                "value": "America/Port_of_Spain"
+                "value": "America/Port_of_Spain",
+                "raw": "'America/Port_of_Spain'"
               },
               {
                 "type": "Literal",
                 "start": 9366,
                 "end": 9386,
-                "value": "America/Porto_Acre"
+                "value": "America/Porto_Acre",
+                "raw": "'America/Porto_Acre'"
               },
               {
                 "type": "Literal",
                 "start": 9390,
                 "end": 9411,
-                "value": "America/Rainy_River"
+                "value": "America/Rainy_River",
+                "raw": "'America/Rainy_River'"
               },
               {
                 "type": "Literal",
                 "start": 9415,
                 "end": 9432,
-                "value": "America/Rosario"
+                "value": "America/Rosario",
+                "raw": "'America/Rosario'"
               },
               {
                 "type": "Literal",
                 "start": 9436,
                 "end": 9458,
-                "value": "America/Santa_Isabel"
+                "value": "America/Santa_Isabel",
+                "raw": "'America/Santa_Isabel'"
               },
               {
                 "type": "Literal",
                 "start": 9462,
                 "end": 9480,
-                "value": "America/Shiprock"
+                "value": "America/Shiprock",
+                "raw": "'America/Shiprock'"
               },
               {
                 "type": "Literal",
                 "start": 9484,
                 "end": 9507,
-                "value": "America/St_Barthelemy"
+                "value": "America/St_Barthelemy",
+                "raw": "'America/St_Barthelemy'"
               },
               {
                 "type": "Literal",
                 "start": 9511,
                 "end": 9529,
-                "value": "America/St_Kitts"
+                "value": "America/St_Kitts",
+                "raw": "'America/St_Kitts'"
               },
               {
                 "type": "Literal",
                 "start": 9533,
                 "end": 9551,
-                "value": "America/St_Lucia"
+                "value": "America/St_Lucia",
+                "raw": "'America/St_Lucia'"
               },
               {
                 "type": "Literal",
                 "start": 9555,
                 "end": 9574,
-                "value": "America/St_Thomas"
+                "value": "America/St_Thomas",
+                "raw": "'America/St_Thomas'"
               },
               {
                 "type": "Literal",
                 "start": 9578,
                 "end": 9598,
-                "value": "America/St_Vincent"
+                "value": "America/St_Vincent",
+                "raw": "'America/St_Vincent'"
               },
               {
                 "type": "Literal",
                 "start": 9602,
                 "end": 9623,
-                "value": "America/Thunder_Bay"
+                "value": "America/Thunder_Bay",
+                "raw": "'America/Thunder_Bay'"
               },
               {
                 "type": "Literal",
                 "start": 9627,
                 "end": 9644,
-                "value": "America/Tortola"
+                "value": "America/Tortola",
+                "raw": "'America/Tortola'"
               },
               {
                 "type": "Literal",
                 "start": 9648,
                 "end": 9664,
-                "value": "America/Virgin"
+                "value": "America/Virgin",
+                "raw": "'America/Virgin'"
               },
               {
                 "type": "Literal",
                 "start": 9668,
                 "end": 9695,
-                "value": "Antarctica/DumontDUrville"
+                "value": "Antarctica/DumontDUrville",
+                "raw": "'Antarctica/DumontDUrville'"
               },
               {
                 "type": "Literal",
                 "start": 9699,
                 "end": 9719,
-                "value": "Antarctica/McMurdo"
+                "value": "Antarctica/McMurdo",
+                "raw": "'Antarctica/McMurdo'"
               },
               {
                 "type": "Literal",
                 "start": 9723,
                 "end": 9746,
-                "value": "Antarctica/South_Pole"
+                "value": "Antarctica/South_Pole",
+                "raw": "'Antarctica/South_Pole'"
               },
               {
                 "type": "Literal",
                 "start": 9750,
                 "end": 9768,
-                "value": "Antarctica/Syowa"
+                "value": "Antarctica/Syowa",
+                "raw": "'Antarctica/Syowa'"
               },
               {
                 "type": "Literal",
                 "start": 9772,
                 "end": 9791,
-                "value": "Antarctica/Vostok"
+                "value": "Antarctica/Vostok",
+                "raw": "'Antarctica/Vostok'"
               },
               {
                 "type": "Literal",
                 "start": 9795,
                 "end": 9816,
-                "value": "Arctic/Longyearbyen"
+                "value": "Arctic/Longyearbyen",
+                "raw": "'Arctic/Longyearbyen'"
               },
               {
                 "type": "Literal",
                 "start": 9820,
                 "end": 9831,
-                "value": "Asia/Aden"
+                "value": "Asia/Aden",
+                "raw": "'Asia/Aden'"
               },
               {
                 "type": "Literal",
                 "start": 9835,
                 "end": 9851,
-                "value": "Asia/Ashkhabad"
+                "value": "Asia/Ashkhabad",
+                "raw": "'Asia/Ashkhabad'"
               },
               {
                 "type": "Literal",
                 "start": 9855,
                 "end": 9869,
-                "value": "Asia/Bahrain"
+                "value": "Asia/Bahrain",
+                "raw": "'Asia/Bahrain'"
               },
               {
                 "type": "Literal",
                 "start": 9873,
                 "end": 9886,
-                "value": "Asia/Brunei"
+                "value": "Asia/Brunei",
+                "raw": "'Asia/Brunei'"
               },
               {
                 "type": "Literal",
                 "start": 9890,
                 "end": 9905,
-                "value": "Asia/Calcutta"
+                "value": "Asia/Calcutta",
+                "raw": "'Asia/Calcutta'"
               },
               {
                 "type": "Literal",
                 "start": 9909,
                 "end": 9925,
-                "value": "Asia/Chongqing"
+                "value": "Asia/Chongqing",
+                "raw": "'Asia/Chongqing'"
               },
               {
                 "type": "Literal",
                 "start": 9929,
                 "end": 9945,
-                "value": "Asia/Chungking"
+                "value": "Asia/Chungking",
+                "raw": "'Asia/Chungking'"
               },
               {
                 "type": "Literal",
                 "start": 9949,
                 "end": 9961,
-                "value": "Asia/Dacca"
+                "value": "Asia/Dacca",
+                "raw": "'Asia/Dacca'"
               },
               {
                 "type": "Literal",
                 "start": 9965,
                 "end": 9978,
-                "value": "Asia/Harbin"
+                "value": "Asia/Harbin",
+                "raw": "'Asia/Harbin'"
               },
               {
                 "type": "Literal",
                 "start": 9982,
                 "end": 9997,
-                "value": "Asia/Istanbul"
+                "value": "Asia/Istanbul",
+                "raw": "'Asia/Istanbul'"
               },
               {
                 "type": "Literal",
                 "start": 10001,
                 "end": 10015,
-                "value": "Asia/Kashgar"
+                "value": "Asia/Kashgar",
+                "raw": "'Asia/Kashgar'"
               },
               {
                 "type": "Literal",
                 "start": 10019,
                 "end": 10034,
-                "value": "Asia/Katmandu"
+                "value": "Asia/Katmandu",
+                "raw": "'Asia/Katmandu'"
               },
               {
                 "type": "Literal",
                 "start": 10038,
                 "end": 10057,
-                "value": "Asia/Kuala_Lumpur"
+                "value": "Asia/Kuala_Lumpur",
+                "raw": "'Asia/Kuala_Lumpur'"
               },
               {
                 "type": "Literal",
                 "start": 10061,
                 "end": 10074,
-                "value": "Asia/Kuwait"
+                "value": "Asia/Kuwait",
+                "raw": "'Asia/Kuwait'"
               },
               {
                 "type": "Literal",
                 "start": 10078,
                 "end": 10090,
-                "value": "Asia/Macao"
+                "value": "Asia/Macao",
+                "raw": "'Asia/Macao'"
               },
               {
                 "type": "Literal",
                 "start": 10094,
                 "end": 10107,
-                "value": "Asia/Muscat"
+                "value": "Asia/Muscat",
+                "raw": "'Asia/Muscat'"
               },
               {
                 "type": "Literal",
                 "start": 10111,
                 "end": 10128,
-                "value": "Asia/Phnom_Penh"
+                "value": "Asia/Phnom_Penh",
+                "raw": "'Asia/Phnom_Penh'"
               },
               {
                 "type": "Literal",
                 "start": 10132,
                 "end": 10146,
-                "value": "Asia/Rangoon"
+                "value": "Asia/Rangoon",
+                "raw": "'Asia/Rangoon'"
               },
               {
                 "type": "Literal",
                 "start": 10150,
                 "end": 10163,
-                "value": "Asia/Saigon"
+                "value": "Asia/Saigon",
+                "raw": "'Asia/Saigon'"
               },
               {
                 "type": "Literal",
                 "start": 10167,
                 "end": 10182,
-                "value": "Asia/Tel_Aviv"
+                "value": "Asia/Tel_Aviv",
+                "raw": "'Asia/Tel_Aviv'"
               },
               {
                 "type": "Literal",
                 "start": 10186,
                 "end": 10199,
-                "value": "Asia/Thimbu"
+                "value": "Asia/Thimbu",
+                "raw": "'Asia/Thimbu'"
               },
               {
                 "type": "Literal",
                 "start": 10203,
                 "end": 10223,
-                "value": "Asia/Ujung_Pandang"
+                "value": "Asia/Ujung_Pandang",
+                "raw": "'Asia/Ujung_Pandang'"
               },
               {
                 "type": "Literal",
                 "start": 10227,
                 "end": 10244,
-                "value": "Asia/Ulan_Bator"
+                "value": "Asia/Ulan_Bator",
+                "raw": "'Asia/Ulan_Bator'"
               },
               {
                 "type": "Literal",
                 "start": 10248,
                 "end": 10264,
-                "value": "Asia/Vientiane"
+                "value": "Asia/Vientiane",
+                "raw": "'Asia/Vientiane'"
               },
               {
                 "type": "Literal",
                 "start": 10268,
                 "end": 10285,
-                "value": "Atlantic/Faeroe"
+                "value": "Atlantic/Faeroe",
+                "raw": "'Atlantic/Faeroe'"
               },
               {
                 "type": "Literal",
                 "start": 10289,
                 "end": 10309,
-                "value": "Atlantic/Jan_Mayen"
+                "value": "Atlantic/Jan_Mayen",
+                "raw": "'Atlantic/Jan_Mayen'"
               },
               {
                 "type": "Literal",
                 "start": 10313,
                 "end": 10333,
-                "value": "Atlantic/Reykjavik"
+                "value": "Atlantic/Reykjavik",
+                "raw": "'Atlantic/Reykjavik'"
               },
               {
                 "type": "Literal",
                 "start": 10337,
                 "end": 10357,
-                "value": "Atlantic/St_Helena"
+                "value": "Atlantic/St_Helena",
+                "raw": "'Atlantic/St_Helena'"
               },
               {
                 "type": "Literal",
                 "start": 10361,
                 "end": 10376,
-                "value": "Australia/ACT"
+                "value": "Australia/ACT",
+                "raw": "'Australia/ACT'"
               },
               {
                 "type": "Literal",
                 "start": 10380,
                 "end": 10400,
-                "value": "Australia/Canberra"
+                "value": "Australia/Canberra",
+                "raw": "'Australia/Canberra'"
               },
               {
                 "type": "Literal",
                 "start": 10404,
                 "end": 10422,
-                "value": "Australia/Currie"
+                "value": "Australia/Currie",
+                "raw": "'Australia/Currie'"
               },
               {
                 "type": "Literal",
                 "start": 10426,
                 "end": 10441,
-                "value": "Australia/LHI"
+                "value": "Australia/LHI",
+                "raw": "'Australia/LHI'"
               },
               {
                 "type": "Literal",
                 "start": 10445,
                 "end": 10460,
-                "value": "Australia/NSW"
+                "value": "Australia/NSW",
+                "raw": "'Australia/NSW'"
               },
               {
                 "type": "Literal",
                 "start": 10464,
                 "end": 10481,
-                "value": "Australia/North"
+                "value": "Australia/North",
+                "raw": "'Australia/North'"
               },
               {
                 "type": "Literal",
                 "start": 10485,
                 "end": 10507,
-                "value": "Australia/Queensland"
+                "value": "Australia/Queensland",
+                "raw": "'Australia/Queensland'"
               },
               {
                 "type": "Literal",
                 "start": 10511,
                 "end": 10528,
-                "value": "Australia/South"
+                "value": "Australia/South",
+                "raw": "'Australia/South'"
               },
               {
                 "type": "Literal",
                 "start": 10532,
                 "end": 10552,
-                "value": "Australia/Tasmania"
+                "value": "Australia/Tasmania",
+                "raw": "'Australia/Tasmania'"
               },
               {
                 "type": "Literal",
                 "start": 10556,
                 "end": 10576,
-                "value": "Australia/Victoria"
+                "value": "Australia/Victoria",
+                "raw": "'Australia/Victoria'"
               },
               {
                 "type": "Literal",
                 "start": 10580,
                 "end": 10596,
-                "value": "Australia/West"
+                "value": "Australia/West",
+                "raw": "'Australia/West'"
               },
               {
                 "type": "Literal",
                 "start": 10600,
                 "end": 10622,
-                "value": "Australia/Yancowinna"
+                "value": "Australia/Yancowinna",
+                "raw": "'Australia/Yancowinna'"
               },
               {
                 "type": "Literal",
                 "start": 10626,
                 "end": 10639,
-                "value": "Brazil/Acre"
+                "value": "Brazil/Acre",
+                "raw": "'Brazil/Acre'"
               },
               {
                 "type": "Literal",
                 "start": 10643,
                 "end": 10661,
-                "value": "Brazil/DeNoronha"
+                "value": "Brazil/DeNoronha",
+                "raw": "'Brazil/DeNoronha'"
               },
               {
                 "type": "Literal",
                 "start": 10665,
                 "end": 10678,
-                "value": "Brazil/East"
+                "value": "Brazil/East",
+                "raw": "'Brazil/East'"
               },
               {
                 "type": "Literal",
                 "start": 10682,
                 "end": 10695,
-                "value": "Brazil/West"
+                "value": "Brazil/West",
+                "raw": "'Brazil/West'"
               },
               {
                 "type": "Literal",
                 "start": 10699,
                 "end": 10716,
-                "value": "Canada/Atlantic"
+                "value": "Canada/Atlantic",
+                "raw": "'Canada/Atlantic'"
               },
               {
                 "type": "Literal",
                 "start": 10720,
                 "end": 10736,
-                "value": "Canada/Central"
+                "value": "Canada/Central",
+                "raw": "'Canada/Central'"
               },
               {
                 "type": "Literal",
                 "start": 10740,
                 "end": 10756,
-                "value": "Canada/Eastern"
+                "value": "Canada/Eastern",
+                "raw": "'Canada/Eastern'"
               },
               {
                 "type": "Literal",
                 "start": 10760,
                 "end": 10777,
-                "value": "Canada/Mountain"
+                "value": "Canada/Mountain",
+                "raw": "'Canada/Mountain'"
               },
               {
                 "type": "Literal",
                 "start": 10781,
                 "end": 10802,
-                "value": "Canada/Newfoundland"
+                "value": "Canada/Newfoundland",
+                "raw": "'Canada/Newfoundland'"
               },
               {
                 "type": "Literal",
                 "start": 10806,
                 "end": 10822,
-                "value": "Canada/Pacific"
+                "value": "Canada/Pacific",
+                "raw": "'Canada/Pacific'"
               },
               {
                 "type": "Literal",
                 "start": 10826,
                 "end": 10847,
-                "value": "Canada/Saskatchewan"
+                "value": "Canada/Saskatchewan",
+                "raw": "'Canada/Saskatchewan'"
               },
               {
                 "type": "Literal",
                 "start": 10851,
                 "end": 10865,
-                "value": "Canada/Yukon"
+                "value": "Canada/Yukon",
+                "raw": "'Canada/Yukon'"
               },
               {
                 "type": "Literal",
                 "start": 10869,
                 "end": 10888,
-                "value": "Chile/Continental"
+                "value": "Chile/Continental",
+                "raw": "'Chile/Continental'"
               },
               {
                 "type": "Literal",
                 "start": 10892,
                 "end": 10912,
-                "value": "Chile/EasterIsland"
+                "value": "Chile/EasterIsland",
+                "raw": "'Chile/EasterIsland'"
               },
               {
                 "type": "Literal",
                 "start": 10916,
                 "end": 10922,
-                "value": "Cuba"
+                "value": "Cuba",
+                "raw": "'Cuba'"
               },
               {
                 "type": "Literal",
                 "start": 10926,
                 "end": 10933,
-                "value": "Egypt"
+                "value": "Egypt",
+                "raw": "'Egypt'"
               },
               {
                 "type": "Literal",
                 "start": 10937,
                 "end": 10943,
-                "value": "Eire"
+                "value": "Eire",
+                "raw": "'Eire'"
               },
               {
                 "type": "Literal",
                 "start": 10947,
                 "end": 10958,
-                "value": "Etc/GMT+0"
+                "value": "Etc/GMT+0",
+                "raw": "'Etc/GMT+0'"
               },
               {
                 "type": "Literal",
                 "start": 10962,
                 "end": 10973,
-                "value": "Etc/GMT-0"
+                "value": "Etc/GMT-0",
+                "raw": "'Etc/GMT-0'"
               },
               {
                 "type": "Literal",
                 "start": 10977,
                 "end": 10987,
-                "value": "Etc/GMT0"
+                "value": "Etc/GMT0",
+                "raw": "'Etc/GMT0'"
               },
               {
                 "type": "Literal",
                 "start": 10991,
                 "end": 11006,
-                "value": "Etc/Greenwich"
+                "value": "Etc/Greenwich",
+                "raw": "'Etc/Greenwich'"
               },
               {
                 "type": "Literal",
                 "start": 11010,
                 "end": 11019,
-                "value": "Etc/UCT"
+                "value": "Etc/UCT",
+                "raw": "'Etc/UCT'"
               },
               {
                 "type": "Literal",
                 "start": 11023,
                 "end": 11038,
-                "value": "Etc/Universal"
+                "value": "Etc/Universal",
+                "raw": "'Etc/Universal'"
               },
               {
                 "type": "Literal",
                 "start": 11042,
                 "end": 11052,
-                "value": "Etc/Zulu"
+                "value": "Etc/Zulu",
+                "raw": "'Etc/Zulu'"
               },
               {
                 "type": "Literal",
                 "start": 11056,
                 "end": 11074,
-                "value": "Europe/Amsterdam"
+                "value": "Europe/Amsterdam",
+                "raw": "'Europe/Amsterdam'"
               },
               {
                 "type": "Literal",
                 "start": 11078,
                 "end": 11094,
-                "value": "Europe/Belfast"
+                "value": "Europe/Belfast",
+                "raw": "'Europe/Belfast'"
               },
               {
                 "type": "Literal",
                 "start": 11098,
                 "end": 11117,
-                "value": "Europe/Bratislava"
+                "value": "Europe/Bratislava",
+                "raw": "'Europe/Bratislava'"
               },
               {
                 "type": "Literal",
                 "start": 11121,
                 "end": 11138,
-                "value": "Europe/Busingen"
+                "value": "Europe/Busingen",
+                "raw": "'Europe/Busingen'"
               },
               {
                 "type": "Literal",
                 "start": 11142,
                 "end": 11161,
-                "value": "Europe/Copenhagen"
+                "value": "Europe/Copenhagen",
+                "raw": "'Europe/Copenhagen'"
               },
               {
                 "type": "Literal",
                 "start": 11165,
                 "end": 11182,
-                "value": "Europe/Guernsey"
+                "value": "Europe/Guernsey",
+                "raw": "'Europe/Guernsey'"
               },
               {
                 "type": "Literal",
                 "start": 11186,
                 "end": 11206,
-                "value": "Europe/Isle_of_Man"
+                "value": "Europe/Isle_of_Man",
+                "raw": "'Europe/Isle_of_Man'"
               },
               {
                 "type": "Literal",
                 "start": 11210,
                 "end": 11225,
-                "value": "Europe/Jersey"
+                "value": "Europe/Jersey",
+                "raw": "'Europe/Jersey'"
               },
               {
                 "type": "Literal",
                 "start": 11229,
                 "end": 11242,
-                "value": "Europe/Kiev"
+                "value": "Europe/Kiev",
+                "raw": "'Europe/Kiev'"
               },
               {
                 "type": "Literal",
                 "start": 11246,
                 "end": 11264,
-                "value": "Europe/Ljubljana"
+                "value": "Europe/Ljubljana",
+                "raw": "'Europe/Ljubljana'"
               },
               {
                 "type": "Literal",
                 "start": 11268,
                 "end": 11287,
-                "value": "Europe/Luxembourg"
+                "value": "Europe/Luxembourg",
+                "raw": "'Europe/Luxembourg'"
               },
               {
                 "type": "Literal",
                 "start": 11291,
                 "end": 11309,
-                "value": "Europe/Mariehamn"
+                "value": "Europe/Mariehamn",
+                "raw": "'Europe/Mariehamn'"
               },
               {
                 "type": "Literal",
                 "start": 11313,
                 "end": 11328,
-                "value": "Europe/Monaco"
+                "value": "Europe/Monaco",
+                "raw": "'Europe/Monaco'"
               },
               {
                 "type": "Literal",
                 "start": 11332,
                 "end": 11348,
-                "value": "Europe/Nicosia"
+                "value": "Europe/Nicosia",
+                "raw": "'Europe/Nicosia'"
               },
               {
                 "type": "Literal",
                 "start": 11352,
                 "end": 11365,
-                "value": "Europe/Oslo"
+                "value": "Europe/Oslo",
+                "raw": "'Europe/Oslo'"
               },
               {
                 "type": "Literal",
                 "start": 11369,
                 "end": 11387,
-                "value": "Europe/Podgorica"
+                "value": "Europe/Podgorica",
+                "raw": "'Europe/Podgorica'"
               },
               {
                 "type": "Literal",
                 "start": 11391,
                 "end": 11410,
-                "value": "Europe/San_Marino"
+                "value": "Europe/San_Marino",
+                "raw": "'Europe/San_Marino'"
               },
               {
                 "type": "Literal",
                 "start": 11414,
                 "end": 11431,
-                "value": "Europe/Sarajevo"
+                "value": "Europe/Sarajevo",
+                "raw": "'Europe/Sarajevo'"
               },
               {
                 "type": "Literal",
                 "start": 11435,
                 "end": 11450,
-                "value": "Europe/Skopje"
+                "value": "Europe/Skopje",
+                "raw": "'Europe/Skopje'"
               },
               {
                 "type": "Literal",
                 "start": 11454,
                 "end": 11472,
-                "value": "Europe/Stockholm"
+                "value": "Europe/Stockholm",
+                "raw": "'Europe/Stockholm'"
               },
               {
                 "type": "Literal",
                 "start": 11476,
                 "end": 11493,
-                "value": "Europe/Tiraspol"
+                "value": "Europe/Tiraspol",
+                "raw": "'Europe/Tiraspol'"
               },
               {
                 "type": "Literal",
                 "start": 11497,
                 "end": 11514,
-                "value": "Europe/Uzhgorod"
+                "value": "Europe/Uzhgorod",
+                "raw": "'Europe/Uzhgorod'"
               },
               {
                 "type": "Literal",
                 "start": 11518,
                 "end": 11532,
-                "value": "Europe/Vaduz"
+                "value": "Europe/Vaduz",
+                "raw": "'Europe/Vaduz'"
               },
               {
                 "type": "Literal",
                 "start": 11536,
                 "end": 11552,
-                "value": "Europe/Vatican"
+                "value": "Europe/Vatican",
+                "raw": "'Europe/Vatican'"
               },
               {
                 "type": "Literal",
                 "start": 11556,
                 "end": 11571,
-                "value": "Europe/Zagreb"
+                "value": "Europe/Zagreb",
+                "raw": "'Europe/Zagreb'"
               },
               {
                 "type": "Literal",
                 "start": 11575,
                 "end": 11594,
-                "value": "Europe/Zaporozhye"
+                "value": "Europe/Zaporozhye",
+                "raw": "'Europe/Zaporozhye'"
               },
               {
                 "type": "Literal",
                 "start": 11598,
                 "end": 11602,
-                "value": "GB"
+                "value": "GB",
+                "raw": "'GB'"
               },
               {
                 "type": "Literal",
                 "start": 11606,
                 "end": 11615,
-                "value": "GB-Eire"
+                "value": "GB-Eire",
+                "raw": "'GB-Eire'"
               },
               {
                 "type": "Literal",
                 "start": 11619,
                 "end": 11624,
-                "value": "GMT"
+                "value": "GMT",
+                "raw": "'GMT'"
               },
               {
                 "type": "Literal",
                 "start": 11628,
                 "end": 11635,
-                "value": "GMT+0"
+                "value": "GMT+0",
+                "raw": "'GMT+0'"
               },
               {
                 "type": "Literal",
                 "start": 11639,
                 "end": 11646,
-                "value": "GMT-0"
+                "value": "GMT-0",
+                "raw": "'GMT-0'"
               },
               {
                 "type": "Literal",
                 "start": 11650,
                 "end": 11656,
-                "value": "GMT0"
+                "value": "GMT0",
+                "raw": "'GMT0'"
               },
               {
                 "type": "Literal",
                 "start": 11660,
                 "end": 11671,
-                "value": "Greenwich"
+                "value": "Greenwich",
+                "raw": "'Greenwich'"
               },
               {
                 "type": "Literal",
                 "start": 11675,
                 "end": 11685,
-                "value": "Hongkong"
+                "value": "Hongkong",
+                "raw": "'Hongkong'"
               },
               {
                 "type": "Literal",
                 "start": 11689,
                 "end": 11698,
-                "value": "Iceland"
+                "value": "Iceland",
+                "raw": "'Iceland'"
               },
               {
                 "type": "Literal",
                 "start": 11702,
                 "end": 11723,
-                "value": "Indian/Antananarivo"
+                "value": "Indian/Antananarivo",
+                "raw": "'Indian/Antananarivo'"
               },
               {
                 "type": "Literal",
                 "start": 11727,
                 "end": 11745,
-                "value": "Indian/Christmas"
+                "value": "Indian/Christmas",
+                "raw": "'Indian/Christmas'"
               },
               {
                 "type": "Literal",
                 "start": 11749,
                 "end": 11763,
-                "value": "Indian/Cocos"
+                "value": "Indian/Cocos",
+                "raw": "'Indian/Cocos'"
               },
               {
                 "type": "Literal",
                 "start": 11767,
                 "end": 11782,
-                "value": "Indian/Comoro"
+                "value": "Indian/Comoro",
+                "raw": "'Indian/Comoro'"
               },
               {
                 "type": "Literal",
                 "start": 11786,
                 "end": 11804,
-                "value": "Indian/Kerguelen"
+                "value": "Indian/Kerguelen",
+                "raw": "'Indian/Kerguelen'"
               },
               {
                 "type": "Literal",
                 "start": 11808,
                 "end": 11821,
-                "value": "Indian/Mahe"
+                "value": "Indian/Mahe",
+                "raw": "'Indian/Mahe'"
               },
               {
                 "type": "Literal",
                 "start": 11825,
                 "end": 11841,
-                "value": "Indian/Mayotte"
+                "value": "Indian/Mayotte",
+                "raw": "'Indian/Mayotte'"
               },
               {
                 "type": "Literal",
                 "start": 11845,
                 "end": 11861,
-                "value": "Indian/Reunion"
+                "value": "Indian/Reunion",
+                "raw": "'Indian/Reunion'"
               },
               {
                 "type": "Literal",
                 "start": 11865,
                 "end": 11871,
-                "value": "Iran"
+                "value": "Iran",
+                "raw": "'Iran'"
               },
               {
                 "type": "Literal",
                 "start": 11875,
                 "end": 11883,
-                "value": "Israel"
+                "value": "Israel",
+                "raw": "'Israel'"
               },
               {
                 "type": "Literal",
                 "start": 11887,
                 "end": 11896,
-                "value": "Jamaica"
+                "value": "Jamaica",
+                "raw": "'Jamaica'"
               },
               {
                 "type": "Literal",
                 "start": 11900,
                 "end": 11907,
-                "value": "Japan"
+                "value": "Japan",
+                "raw": "'Japan'"
               },
               {
                 "type": "Literal",
                 "start": 11911,
                 "end": 11922,
-                "value": "Kwajalein"
+                "value": "Kwajalein",
+                "raw": "'Kwajalein'"
               },
               {
                 "type": "Literal",
                 "start": 11926,
                 "end": 11933,
-                "value": "Libya"
+                "value": "Libya",
+                "raw": "'Libya'"
               },
               {
                 "type": "Literal",
                 "start": 11937,
                 "end": 11955,
-                "value": "Mexico/BajaNorte"
+                "value": "Mexico/BajaNorte",
+                "raw": "'Mexico/BajaNorte'"
               },
               {
                 "type": "Literal",
                 "start": 11959,
                 "end": 11975,
-                "value": "Mexico/BajaSur"
+                "value": "Mexico/BajaSur",
+                "raw": "'Mexico/BajaSur'"
               },
               {
                 "type": "Literal",
                 "start": 11979,
                 "end": 11995,
-                "value": "Mexico/General"
+                "value": "Mexico/General",
+                "raw": "'Mexico/General'"
               },
               {
                 "type": "Literal",
                 "start": 11999,
                 "end": 12003,
-                "value": "NZ"
+                "value": "NZ",
+                "raw": "'NZ'"
               },
               {
                 "type": "Literal",
                 "start": 12007,
                 "end": 12016,
-                "value": "NZ-CHAT"
+                "value": "NZ-CHAT",
+                "raw": "'NZ-CHAT'"
               },
               {
                 "type": "Literal",
                 "start": 12020,
                 "end": 12028,
-                "value": "Navajo"
+                "value": "Navajo",
+                "raw": "'Navajo'"
               },
               {
                 "type": "Literal",
                 "start": 12032,
                 "end": 12037,
-                "value": "PRC"
+                "value": "PRC",
+                "raw": "'PRC'"
               },
               {
                 "type": "Literal",
                 "start": 12041,
                 "end": 12056,
-                "value": "Pacific/Chuuk"
+                "value": "Pacific/Chuuk",
+                "raw": "'Pacific/Chuuk'"
               },
               {
                 "type": "Literal",
                 "start": 12060,
                 "end": 12079,
-                "value": "Pacific/Enderbury"
+                "value": "Pacific/Enderbury",
+                "raw": "'Pacific/Enderbury'"
               },
               {
                 "type": "Literal",
                 "start": 12083,
                 "end": 12101,
-                "value": "Pacific/Funafuti"
+                "value": "Pacific/Funafuti",
+                "raw": "'Pacific/Funafuti'"
               },
               {
                 "type": "Literal",
                 "start": 12105,
                 "end": 12123,
-                "value": "Pacific/Johnston"
+                "value": "Pacific/Johnston",
+                "raw": "'Pacific/Johnston'"
               },
               {
                 "type": "Literal",
                 "start": 12127,
                 "end": 12143,
-                "value": "Pacific/Majuro"
+                "value": "Pacific/Majuro",
+                "raw": "'Pacific/Majuro'"
               },
               {
                 "type": "Literal",
                 "start": 12147,
                 "end": 12163,
-                "value": "Pacific/Midway"
+                "value": "Pacific/Midway",
+                "raw": "'Pacific/Midway'"
               },
               {
                 "type": "Literal",
                 "start": 12167,
                 "end": 12184,
-                "value": "Pacific/Pohnpei"
+                "value": "Pacific/Pohnpei",
+                "raw": "'Pacific/Pohnpei'"
               },
               {
                 "type": "Literal",
                 "start": 12188,
                 "end": 12204,
-                "value": "Pacific/Ponape"
+                "value": "Pacific/Ponape",
+                "raw": "'Pacific/Ponape'"
               },
               {
                 "type": "Literal",
                 "start": 12208,
                 "end": 12224,
-                "value": "Pacific/Saipan"
+                "value": "Pacific/Saipan",
+                "raw": "'Pacific/Saipan'"
               },
               {
                 "type": "Literal",
                 "start": 12228,
                 "end": 12243,
-                "value": "Pacific/Samoa"
+                "value": "Pacific/Samoa",
+                "raw": "'Pacific/Samoa'"
               },
               {
                 "type": "Literal",
                 "start": 12247,
                 "end": 12261,
-                "value": "Pacific/Truk"
+                "value": "Pacific/Truk",
+                "raw": "'Pacific/Truk'"
               },
               {
                 "type": "Literal",
                 "start": 12265,
                 "end": 12279,
-                "value": "Pacific/Wake"
+                "value": "Pacific/Wake",
+                "raw": "'Pacific/Wake'"
               },
               {
                 "type": "Literal",
                 "start": 12283,
                 "end": 12299,
-                "value": "Pacific/Wallis"
+                "value": "Pacific/Wallis",
+                "raw": "'Pacific/Wallis'"
               },
               {
                 "type": "Literal",
                 "start": 12303,
                 "end": 12316,
-                "value": "Pacific/Yap"
+                "value": "Pacific/Yap",
+                "raw": "'Pacific/Yap'"
               },
               {
                 "type": "Literal",
                 "start": 12320,
                 "end": 12328,
-                "value": "Poland"
+                "value": "Poland",
+                "raw": "'Poland'"
               },
               {
                 "type": "Literal",
                 "start": 12332,
                 "end": 12342,
-                "value": "Portugal"
+                "value": "Portugal",
+                "raw": "'Portugal'"
               },
               {
                 "type": "Literal",
                 "start": 12346,
                 "end": 12351,
-                "value": "ROC"
+                "value": "ROC",
+                "raw": "'ROC'"
               },
               {
                 "type": "Literal",
                 "start": 12355,
                 "end": 12360,
-                "value": "ROK"
+                "value": "ROK",
+                "raw": "'ROK'"
               },
               {
                 "type": "Literal",
                 "start": 12364,
                 "end": 12375,
-                "value": "Singapore"
+                "value": "Singapore",
+                "raw": "'Singapore'"
               },
               {
                 "type": "Literal",
                 "start": 12379,
                 "end": 12387,
-                "value": "Turkey"
+                "value": "Turkey",
+                "raw": "'Turkey'"
               },
               {
                 "type": "Literal",
                 "start": 12391,
                 "end": 12396,
-                "value": "UCT"
+                "value": "UCT",
+                "raw": "'UCT'"
               },
               {
                 "type": "Literal",
                 "start": 12400,
                 "end": 12411,
-                "value": "US/Alaska"
+                "value": "US/Alaska",
+                "raw": "'US/Alaska'"
               },
               {
                 "type": "Literal",
                 "start": 12415,
                 "end": 12428,
-                "value": "US/Aleutian"
+                "value": "US/Aleutian",
+                "raw": "'US/Aleutian'"
               },
               {
                 "type": "Literal",
                 "start": 12432,
                 "end": 12444,
-                "value": "US/Arizona"
+                "value": "US/Arizona",
+                "raw": "'US/Arizona'"
               },
               {
                 "type": "Literal",
                 "start": 12448,
                 "end": 12460,
-                "value": "US/Central"
+                "value": "US/Central",
+                "raw": "'US/Central'"
               },
               {
                 "type": "Literal",
                 "start": 12464,
                 "end": 12481,
-                "value": "US/East-Indiana"
+                "value": "US/East-Indiana",
+                "raw": "'US/East-Indiana'"
               },
               {
                 "type": "Literal",
                 "start": 12485,
                 "end": 12497,
-                "value": "US/Eastern"
+                "value": "US/Eastern",
+                "raw": "'US/Eastern'"
               },
               {
                 "type": "Literal",
                 "start": 12501,
                 "end": 12512,
-                "value": "US/Hawaii"
+                "value": "US/Hawaii",
+                "raw": "'US/Hawaii'"
               },
               {
                 "type": "Literal",
                 "start": 12516,
                 "end": 12535,
-                "value": "US/Indiana-Starke"
+                "value": "US/Indiana-Starke",
+                "raw": "'US/Indiana-Starke'"
               },
               {
                 "type": "Literal",
                 "start": 12539,
                 "end": 12552,
-                "value": "US/Michigan"
+                "value": "US/Michigan",
+                "raw": "'US/Michigan'"
               },
               {
                 "type": "Literal",
                 "start": 12556,
                 "end": 12569,
-                "value": "US/Mountain"
+                "value": "US/Mountain",
+                "raw": "'US/Mountain'"
               },
               {
                 "type": "Literal",
                 "start": 12573,
                 "end": 12585,
-                "value": "US/Pacific"
+                "value": "US/Pacific",
+                "raw": "'US/Pacific'"
               },
               {
                 "type": "Literal",
                 "start": 12589,
                 "end": 12599,
-                "value": "US/Samoa"
+                "value": "US/Samoa",
+                "raw": "'US/Samoa'"
               },
               {
                 "type": "Literal",
                 "start": 12603,
                 "end": 12608,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "'UTC'"
               },
               {
                 "type": "Literal",
                 "start": 12612,
                 "end": 12623,
-                "value": "Universal"
+                "value": "Universal",
+                "raw": "'Universal'"
               },
               {
                 "type": "Literal",
                 "start": 12627,
                 "end": 12633,
-                "value": "W-SU"
+                "value": "W-SU",
+                "raw": "'W-SU'"
               },
               {
                 "type": "Literal",
                 "start": 12637,
                 "end": 12643,
-                "value": "Zulu"
+                "value": "Zulu",
+                "raw": "'Zulu'"
               }
             ]
           }
@@ -3856,7 +4454,8 @@
                                 "type": "Literal",
                                 "start": 13182,
                                 "end": 13192,
-                                "value": "timeZone"
+                                "value": "timeZone",
+                                "raw": "'timeZone'"
                               }
                             ],
                             "optional": false
@@ -4059,7 +4658,8 @@
                         "type": "Literal",
                         "start": 13336,
                         "end": 13338,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",
@@ -4183,7 +4783,8 @@
                         "type": "Literal",
                         "start": 13448,
                         "end": 13450,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",
@@ -4307,7 +4908,8 @@
                         "type": "Literal",
                         "start": 13567,
                         "end": 13569,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",

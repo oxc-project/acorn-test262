@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 587,
             "end": 597,
-            "value": "DataView"
+            "value": "DataView",
+            "raw": "'DataView'"
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 683,
-            "value": "The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\""
+            "value": "The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"",
+            "raw": "'The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"'"
           }
         ],
         "optional": false
@@ -167,7 +169,8 @@
                   "type": "Literal",
                   "start": 757,
                   "end": 762,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +191,8 @@
                   "type": "Literal",
                   "start": 778,
                   "end": 783,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +213,8 @@
                   "type": "Literal",
                   "start": 801,
                   "end": 805,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

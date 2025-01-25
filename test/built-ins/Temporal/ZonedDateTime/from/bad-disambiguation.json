@@ -24,19 +24,22 @@
                 "type": "Literal",
                 "start": 255,
                 "end": 257,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
                 "start": 261,
                 "end": 270,
-                "value": "EARLIER"
+                "value": "EARLIER",
+                "raw": "\"EARLIER\""
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 283,
-                "value": "balance"
+                "value": "balance",
+                "raw": "\"balance\""
               }
             ]
           },
@@ -155,7 +158,8 @@
                               "type": "Literal",
                               "start": 376,
                               "end": 402,
-                              "value": "2020-11-01T04:00[-08:00]"
+                              "value": "2020-11-01T04:00[-08:00]",
+                              "raw": "\"2020-11-01T04:00[-08:00]\""
                             },
                             {
                               "type": "ObjectExpression",

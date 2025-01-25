@@ -59,7 +59,8 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 461,
-                    "value": "use strict"
+                    "value": "use strict",
+                    "raw": "\"use strict\""
                   },
                   "directive": "use strict"
                 },
@@ -126,7 +127,8 @@
                         "type": "Literal",
                         "start": 528,
                         "end": 541,
-                        "value": "accProperty"
+                        "value": "accProperty",
+                        "raw": "\"accProperty\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -179,7 +181,8 @@
                                         "type": "Literal",
                                         "start": 622,
                                         "end": 626,
-                                        "value": null
+                                        "value": null,
+                                        "raw": "null"
                                       }
                                     }
                                   },
@@ -191,7 +194,8 @@
                                       "type": "Literal",
                                       "start": 655,
                                       "end": 657,
-                                      "value": 11
+                                      "value": 11,
+                                      "raw": "11"
                                     }
                                   }
                                 ]
@@ -248,7 +252,8 @@
                           "type": "Literal",
                           "start": 737,
                           "end": 739,
-                          "value": 11
+                          "value": 11,
+                          "raw": "11"
                         }
                       }
                     }

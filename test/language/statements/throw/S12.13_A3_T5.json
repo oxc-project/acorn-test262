@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 255,
             "end": 259,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 267,
             "end": 272,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -113,13 +115,15 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 309,
-                  "value": "exception"
+                  "value": "exception",
+                  "raw": "\"exception\""
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 310,
                   "end": 315,
-                  "value": " #1"
+                  "value": " #1",
+                  "raw": "\" #1\""
                 }
               }
             }
@@ -160,7 +164,8 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 351,
-                  "value": "exception"
+                  "value": "exception",
+                  "raw": "\"exception\""
                 }
               },
               "consequent": {
@@ -186,7 +191,8 @@
                         "type": "Literal",
                         "start": 376,
                         "end": 445,
-                        "value": "#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==="
+                        "value": "#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ===",
+                        "raw": "'#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==='"
                       },
                       "operator": "+",
                       "right": {

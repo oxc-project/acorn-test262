@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 366,
                         "end": 418,
-                        "value": "\"\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f\""
+                        "value": "\"\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f\"",
+                        "raw": "'\"\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f\"'"
                       }
                     ],
                     "optional": false

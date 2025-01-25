@@ -70,7 +70,8 @@
                     "type": "Literal",
                     "start": 289,
                     "end": 294,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               }
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 298,
             "end": 303,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 358,
-            "value": "Array.isArray(new Boolean(false)) must return false"
+            "value": "Array.isArray(new Boolean(false)) must return false",
+            "raw": "'Array.isArray(new Boolean(false)) must return false'"
           }
         ],
         "optional": false

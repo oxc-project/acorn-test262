@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 427,
             "end": 433,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -157,7 +158,8 @@
             "type": "Literal",
             "start": 523,
             "end": 529,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +225,8 @@
                   "type": "Literal",
                   "start": 581,
                   "end": 586,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -244,7 +247,8 @@
                   "type": "Literal",
                   "start": 604,
                   "end": 608,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -303,7 +307,8 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 669,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -350,7 +355,8 @@
             "type": "Literal",
             "start": 700,
             "end": 706,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -433,7 +439,8 @@
                 "type": "Literal",
                 "start": 781,
                 "end": 787,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -499,7 +506,8 @@
             "type": "Literal",
             "start": 828,
             "end": 839,
-            "value": "desc1.set"
+            "value": "desc1.set",
+            "raw": "'desc1.set'"
           }
         ],
         "optional": false
@@ -563,13 +571,15 @@
             "type": "Literal",
             "start": 877,
             "end": 888,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 908,
-            "value": "typeof desc2.set"
+            "value": "typeof desc2.set",
+            "raw": "'typeof desc2.set'"
           }
         ],
         "optional": false

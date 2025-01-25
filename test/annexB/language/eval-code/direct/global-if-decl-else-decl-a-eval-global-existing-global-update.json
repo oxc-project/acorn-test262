@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1642,
             "end": 1645,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                           "type": "Literal",
                           "start": 1678,
                           "end": 1696,
-                          "value": "Another function"
+                          "value": "Another function",
+                          "raw": "'Another function'"
                         }
                       }
                     ]
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 1715,
                   "end": 1719,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -136,7 +139,8 @@
                   "type": "Literal",
                   "start": 1733,
                   "end": 1737,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -157,7 +161,8 @@
                   "type": "Literal",
                   "start": 1755,
                   "end": 1760,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -186,7 +191,8 @@
             "type": "Literal",
             "start": 1774,
             "end": 1855,
-            "value": "if (true) function f() { return \"function declaration\"; } else function _f() {}"
+            "value": "if (true) function f() { return \"function declaration\"; } else function _f() {}",
+            "raw": "'if (true) function f() { return \"function declaration\"; } else function _f() {}'"
           }
         ],
         "optional": false
@@ -237,7 +243,8 @@
             "type": "Literal",
             "start": 1887,
             "end": 1897,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -288,7 +295,8 @@
             "type": "Literal",
             "start": 1922,
             "end": 1944,
-            "value": "function declaration"
+            "value": "function declaration",
+            "raw": "'function declaration'"
           }
         ],
         "optional": false

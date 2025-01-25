@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 986,
             "end": 996,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -223,7 +224,8 @@
                               "type": "Literal",
                               "start": 1099,
                               "end": 1125,
-                              "value": "[[AsyncDisposableState]]"
+                              "value": "[[AsyncDisposableState]]",
+                              "raw": "'[[AsyncDisposableState]]'"
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -246,7 +248,8 @@
             "type": "Literal",
             "start": 1138,
             "end": 1188,
-            "value": "Ordinary object without [[AsyncDisposableState]]"
+            "value": "Ordinary object without [[AsyncDisposableState]]",
+            "raw": "'Ordinary object without [[AsyncDisposableState]]'"
           }
         ],
         "optional": false
@@ -358,7 +361,8 @@
             "type": "Literal",
             "start": 1277,
             "end": 1364,
-            "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot"
+            "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot",
+            "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'"
           }
         ],
         "optional": false
@@ -457,7 +461,8 @@
             "type": "Literal",
             "start": 1443,
             "end": 1520,
-            "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot"
+            "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot",
+            "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'"
           }
         ],
         "optional": false
@@ -587,7 +592,8 @@
             "type": "Literal",
             "start": 1619,
             "end": 1645,
-            "value": "DisposableStack instance"
+            "value": "DisposableStack instance",
+            "raw": "'DisposableStack instance'"
           }
         ],
         "optional": false

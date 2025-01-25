@@ -82,7 +82,8 @@
             "type": "Literal",
             "start": 405,
             "end": 485,
-            "value": "The value of !!Function.prototype.isPrototypeOf(Object) is expected to be true"
+            "value": "The value of !!Function.prototype.isPrototypeOf(Object) is expected to be true",
+            "raw": "'The value of !!Function.prototype.isPrototypeOf(Object) is expected to be true'"
           }
         ],
         "optional": false

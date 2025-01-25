@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 403,
             "end": 419,
-            "value": "Luke Skywalker"
+            "value": "Luke Skywalker",
+            "raw": "'Luke Skywalker'"
           }
         }
       ],
@@ -73,13 +74,15 @@
             "type": "Literal",
             "start": 451,
             "end": 459,
-            "value": "string"
+            "value": "string",
+            "raw": "'string'"
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 515,
-            "value": "The value of `typeof str` is expected to be \"string\""
+            "value": "The value of `typeof str` is expected to be \"string\"",
+            "raw": "'The value of `typeof str` is expected to be \"string\"'"
           }
         ],
         "optional": false
@@ -181,7 +184,8 @@
             "type": "Literal",
             "start": 585,
             "end": 656,
-            "value": "The value of obj.constructor is expected to equal the value of String"
+            "value": "The value of obj.constructor is expected to equal the value of String",
+            "raw": "'The value of obj.constructor is expected to equal the value of String'"
           }
         ],
         "optional": false
@@ -232,13 +236,15 @@
             "type": "Literal",
             "start": 688,
             "end": 696,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 752,
-            "value": "The value of `typeof obj` is expected to be \"object\""
+            "value": "The value of `typeof obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -274,14 +280,16 @@
               "type": "Literal",
               "start": 769,
               "end": 785,
-              "value": "Luke Skywalker"
+              "value": "Luke Skywalker",
+              "raw": "\"Luke Skywalker\""
             }
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 862,
-            "value": "The result of evaluating (obj == \"Luke Skywalker\") is expected to be true"
+            "value": "The result of evaluating (obj == \"Luke Skywalker\") is expected to be true",
+            "raw": "'The result of evaluating (obj == \"Luke Skywalker\") is expected to be true'"
           }
         ],
         "optional": false
@@ -325,13 +333,15 @@
             "type": "Literal",
             "start": 890,
             "end": 906,
-            "value": "Luke Skywalker"
+            "value": "Luke Skywalker",
+            "raw": "\"Luke Skywalker\""
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 950,
-            "value": "The value of obj is not \"Luke Skywalker\""
+            "value": "The value of obj is not \"Luke Skywalker\"",
+            "raw": "'The value of obj is not \"Luke Skywalker\"'"
           }
         ],
         "optional": false

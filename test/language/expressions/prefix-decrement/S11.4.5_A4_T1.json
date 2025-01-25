@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 287,
             "end": 291,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -58,14 +59,16 @@
             "type": "Literal",
             "start": 305,
             "end": 306,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "operator": "-",
           "right": {
             "type": "Literal",
             "start": 309,
             "end": 310,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -97,7 +100,8 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 382,
-                    "value": "#1: var x = true; --x === 1 - 1. Actual: "
+                    "value": "#1: var x = true; --x === 1 - 1. Actual: ",
+                    "raw": "'#1: var x = true; --x === 1 - 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -156,7 +160,8 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 431,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ]
           }
@@ -194,14 +199,16 @@
             "type": "Literal",
             "start": 446,
             "end": 447,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "operator": "-",
           "right": {
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -233,7 +240,8 @@
                     "type": "Literal",
                     "start": 480,
                     "end": 537,
-                    "value": "#2: var x = new Boolean(false); --x === 0 - 1. Actual: "
+                    "value": "#2: var x = new Boolean(false); --x === 0 - 1. Actual: ",
+                    "raw": "'#2: var x = new Boolean(false); --x === 0 - 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

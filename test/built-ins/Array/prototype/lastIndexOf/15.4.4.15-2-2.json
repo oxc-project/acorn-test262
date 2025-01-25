@@ -64,7 +64,8 @@
             "type": "Literal",
             "start": 319,
             "end": 320,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -122,7 +123,8 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 355,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
@@ -155,13 +157,15 @@
             "type": "Literal",
             "start": 392,
             "end": 393,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 434,
-            "value": "[0, targetObj].lastIndexOf(targetObj)"
+            "value": "[0, targetObj].lastIndexOf(targetObj)",
+            "raw": "'[0, targetObj].lastIndexOf(targetObj)'"
           }
         ],
         "optional": false
@@ -212,13 +216,15 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 456,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 458,
                     "end": 459,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -251,14 +257,16 @@
               "type": "Literal",
               "start": 486,
               "end": 487,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 489,
             "end": 520,
-            "value": "[0, 1].lastIndexOf(targetObj)"
+            "value": "[0, 1].lastIndexOf(targetObj)",
+            "raw": "'[0, 1].lastIndexOf(targetObj)'"
           }
         ],
         "optional": false

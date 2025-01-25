@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 414,
-                "value": "seamaid"
+                "value": "seamaid",
+                "raw": "\"seamaid\""
               }
             ]
           }
@@ -150,14 +151,16 @@
               "type": "Literal",
               "start": 587,
               "end": 597,
-              "value": "[object "
+              "value": "[object ",
+              "raw": "\"[object \""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 600,
               "end": 608,
-              "value": "String"
+              "value": "String",
+              "raw": "\"String\""
             }
           },
           "operator": "+",
@@ -165,7 +168,8 @@
             "type": "Literal",
             "start": 611,
             "end": 614,
-            "value": "]"
+            "value": "]",
+            "raw": "\"]\""
           }
         }
       },
@@ -197,7 +201,8 @@
                     "type": "Literal",
                     "start": 643,
                     "end": 816,
-                    "value": "#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ==="
+                    "value": "#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ===",
+                    "raw": "'#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ==='"
                   },
                   "operator": "+",
                   "right": {

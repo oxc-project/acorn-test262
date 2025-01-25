@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 766,
             "end": 771,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 835,
-            "value": "isConstructor(Array.prototype.toSpliced) must return false"
+            "value": "isConstructor(Array.prototype.toSpliced) must return false",
+            "raw": "'isConstructor(Array.prototype.toSpliced) must return false'"
           }
         ],
         "optional": false

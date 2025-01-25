@@ -49,7 +49,8 @@
               "type": "Literal",
               "start": 326,
               "end": 330,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
@@ -86,13 +87,15 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 350,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 352,
                   "end": 354,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -113,7 +116,8 @@
                   "type": "Literal",
                   "start": 366,
                   "end": 367,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               }
@@ -246,7 +250,8 @@
             "type": "Literal",
             "start": 458,
             "end": 463,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -334,7 +339,8 @@
                       "type": "Literal",
                       "start": 542,
                       "end": 545,
-                      "value": "0"
+                      "value": "0",
+                      "raw": "\"0\""
                     }
                   },
                   "consequent": {
@@ -361,7 +367,8 @@
                             "type": "Literal",
                             "start": 568,
                             "end": 572,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       }
@@ -401,7 +408,8 @@
             "type": "Literal",
             "start": 606,
             "end": 627,
-            "value": "enumerable !== true"
+            "value": "enumerable !== true",
+            "raw": "'enumerable !== true'"
           }
         ],
         "optional": false

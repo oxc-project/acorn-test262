@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 336,
                         "end": 353,
-                        "value": "arguments = 42;"
+                        "value": "arguments = 42;",
+                        "raw": "'arguments = 42;'"
                       }
                     ],
                     "optional": false

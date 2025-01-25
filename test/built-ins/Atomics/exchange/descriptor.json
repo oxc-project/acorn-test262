@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 307,
             "end": 317,
-            "value": "exchange"
+            "value": "exchange",
+            "raw": "'exchange'"
           },
           {
             "type": "ObjectExpression",
@@ -52,7 +53,8 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 340,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -73,7 +75,8 @@
                   "type": "Literal",
                   "start": 354,
                   "end": 358,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -94,7 +97,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 380,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

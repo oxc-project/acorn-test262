@@ -60,7 +60,8 @@
                       "type": "Literal",
                       "start": 1940,
                       "end": 1944,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   ]
                 }

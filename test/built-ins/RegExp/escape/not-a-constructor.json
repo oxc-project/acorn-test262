@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 706,
             "end": 711,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 761,
-            "value": "isConstructor(RegExp.escape) must return false"
+            "value": "isConstructor(RegExp.escape) must return false",
+            "raw": "'isConstructor(RegExp.escape) must return false'"
           }
         ],
         "optional": false

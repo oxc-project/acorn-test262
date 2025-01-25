@@ -126,19 +126,22 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 486,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -221,19 +224,22 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 542,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 544,
                 "end": 545,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ],
             "optional": false
@@ -299,7 +305,8 @@
             "type": "Literal",
             "start": 592,
             "end": 665,
-            "value": "The value of Array is expected to equal the value of result.constructor"
+            "value": "The value of Array is expected to equal the value of result.constructor",
+            "raw": "'The value of Array is expected to equal the value of result.constructor'"
           }
         ],
         "optional": false
@@ -355,13 +362,15 @@
             "type": "Literal",
             "start": 718,
             "end": 723,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 727,
             "end": 806,
-            "value": "The result of evaluating (result instanceof NonArray) is expected to be false"
+            "value": "The result of evaluating (result instanceof NonArray) is expected to be false",
+            "raw": "'The result of evaluating (result instanceof NonArray) is expected to be false'"
           }
         ],
         "optional": false
@@ -416,19 +425,22 @@
                 "type": "Literal",
                 "start": 844,
                 "end": 845,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 847,
                 "end": 848,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 850,
                 "end": 851,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           },
@@ -436,7 +448,8 @@
             "type": "Literal",
             "start": 854,
             "end": 908,
-            "value": "The value of result is expected to be [obj, 4, 5, 6]"
+            "value": "The value of result is expected to be [obj, 4, 5, 6]",
+            "raw": "'The value of result is expected to be [obj, 4, 5, 6]'"
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 738,
                 "end": 742,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "ObjectExpression",
@@ -70,7 +71,8 @@
                       "type": "Literal",
                       "start": 755,
                       "end": 765,
-                      "value": "islamicc"
+                      "value": "islamicc",
+                      "raw": "'islamicc'"
                     },
                     "kind": "init"
                   }
@@ -140,13 +142,15 @@
             "type": "Literal",
             "start": 803,
             "end": 826,
-            "value": "en-u-ca-islamic-civil"
+            "value": "en-u-ca-islamic-civil",
+            "raw": "\"en-u-ca-islamic-civil\""
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 886,
-            "value": "'islamicc' should be canonicalize to 'islamic-civil'"
+            "value": "'islamicc' should be canonicalize to 'islamic-civil'",
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
           }
         ],
         "optional": false
@@ -203,13 +207,15 @@
             "type": "Literal",
             "start": 921,
             "end": 936,
-            "value": "islamic-civil"
+            "value": "islamic-civil",
+            "raw": "\"islamic-civil\""
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 996,
-            "value": "'islamicc' should be canonicalize to 'islamic-civil'"
+            "value": "'islamicc' should be canonicalize to 'islamic-civil'",
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
           }
         ],
         "optional": false

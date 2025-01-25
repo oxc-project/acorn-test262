@@ -97,7 +97,8 @@
             "type": "Literal",
             "start": 694,
             "end": 705,
-            "value": "x = yield"
+            "value": "x = yield",
+            "raw": "'x = yield'"
           }
         ],
         "optional": false
@@ -170,13 +171,15 @@
                         "type": "Literal",
                         "start": 769,
                         "end": 780,
-                        "value": "x = yield"
+                        "value": "x = yield",
+                        "raw": "'x = yield'"
                       },
                       {
                         "type": "Literal",
                         "start": 782,
                         "end": 784,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false
@@ -189,7 +192,8 @@
             "type": "Literal",
             "start": 790,
             "end": 831,
-            "value": "YieldExpression not permitted generally"
+            "value": "YieldExpression not permitted generally",
+            "raw": "'YieldExpression not permitted generally'"
           }
         ],
         "optional": false
@@ -243,13 +247,15 @@
                         "type": "Literal",
                         "start": 891,
                         "end": 902,
-                        "value": "x = yield"
+                        "value": "x = yield",
+                        "raw": "'x = yield'"
                       },
                       {
                         "type": "Literal",
                         "start": 904,
                         "end": 906,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false
@@ -355,7 +361,8 @@
             "type": "Literal",
             "start": 984,
             "end": 1051,
-            "value": "YieldExpression not permitted when calling context is a generator"
+            "value": "YieldExpression not permitted when calling context is a generator",
+            "raw": "'YieldExpression not permitted when calling context is a generator'"
           }
         ],
         "optional": false

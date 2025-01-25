@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 316,
             "end": 321,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -95,7 +96,8 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 383,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "operator": "&&",
@@ -114,7 +116,8 @@
                   "type": "Literal",
                   "start": 395,
                   "end": 396,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               }
             },
@@ -142,7 +145,8 @@
                       "type": "Literal",
                       "start": 417,
                       "end": 421,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -190,7 +194,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 453,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 "kind": "init"
               }
@@ -238,7 +243,8 @@
             "type": "Literal",
             "start": 485,
             "end": 488,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           },
           {
             "type": "ObjectExpression",
@@ -310,7 +316,8 @@
                               "type": "Literal",
                               "start": 543,
                               "end": 546,
-                              "value": "3"
+                              "value": "3",
+                              "raw": "\"3\""
                             },
                             {
                               "type": "ObjectExpression",
@@ -352,7 +359,8 @@
                                             "type": "Literal",
                                             "start": 589,
                                             "end": 590,
-                                            "value": 3
+                                            "value": 3,
+                                            "raw": "3"
                                           }
                                         }
                                       ]
@@ -377,7 +385,8 @@
                                     "type": "Literal",
                                     "start": 621,
                                     "end": 625,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   "kind": "init"
                                 }
@@ -395,7 +404,8 @@
                           "type": "Literal",
                           "start": 645,
                           "end": 646,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -420,7 +430,8 @@
                   "type": "Literal",
                   "start": 669,
                   "end": 673,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -500,7 +511,8 @@
             "type": "Literal",
             "start": 724,
             "end": 738,
-            "value": "initialValue"
+            "value": "initialValue",
+            "raw": "\"initialValue\""
           }
         ],
         "optional": false
@@ -531,7 +543,8 @@
             "type": "Literal",
             "start": 761,
             "end": 782,
-            "value": "testResult !== true"
+            "value": "testResult !== true",
+            "raw": "'testResult !== true'"
           }
         ],
         "optional": false

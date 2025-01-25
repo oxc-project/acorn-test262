@@ -121,7 +121,8 @@
               "type": "Literal",
               "start": 680,
               "end": 685,
-              "value": "xFn"
+              "value": "xFn",
+              "raw": "'xFn'"
             }
           }
         ],
@@ -153,7 +154,8 @@
             "type": "Literal",
             "start": 708,
             "end": 714,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -177,7 +179,8 @@
                   "type": "Literal",
                   "start": 727,
                   "end": 731,
-                  "value": "fn"
+                  "value": "fn",
+                  "raw": "'fn'"
                 },
                 "kind": "init"
               },
@@ -198,7 +201,8 @@
                   "type": "Literal",
                   "start": 745,
                   "end": 750,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -219,7 +223,8 @@
                   "type": "Literal",
                   "start": 766,
                   "end": 771,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -240,7 +245,8 @@
                   "type": "Literal",
                   "start": 789,
                   "end": 793,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

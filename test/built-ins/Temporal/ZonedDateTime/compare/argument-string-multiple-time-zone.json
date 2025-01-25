@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 325,
-                "value": "1970-01-01T00:00[UTC][UTC]"
+                "value": "1970-01-01T00:00[UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 358,
-                "value": "1970-01-01T00:00[!UTC][UTC]"
+                "value": "1970-01-01T00:00[!UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[!UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 391,
-                "value": "1970-01-01T00:00[UTC][!UTC]"
+                "value": "1970-01-01T00:00[UTC][!UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 437,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 478,
-                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]"
+                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][foo=bar][UTC]\""
               }
             ]
           }
@@ -102,13 +107,15 @@
                 "type": "Literal",
                 "start": 528,
                 "end": 554,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 561,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }

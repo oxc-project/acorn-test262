@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1234,
         "end": 1239,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -52,7 +53,8 @@
                         "type": "Literal",
                         "start": 1262,
                         "end": 1293,
-                        "value": "./THIS_FILE_DOES_NOT_EXIST.js"
+                        "value": "./THIS_FILE_DOES_NOT_EXIST.js",
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
                       },
                       "options": null
                     },
@@ -132,7 +134,8 @@
                                   "type": "Literal",
                                   "start": 1351,
                                   "end": 1362,
-                                  "value": "undefined"
+                                  "value": "undefined",
+                                  "raw": "'undefined'"
                                 }
                               ],
                               "optional": false

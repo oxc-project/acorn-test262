@@ -65,7 +65,8 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 448,
-                    "value": 12
+                    "value": 12,
+                    "raw": "12"
                   }
                 }
               ]
@@ -170,7 +171,8 @@
                         "type": "Literal",
                         "start": 527,
                         "end": 531,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -191,7 +193,8 @@
                         "type": "Literal",
                         "start": 551,
                         "end": 555,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -296,7 +299,8 @@
             "type": "Literal",
             "start": 630,
             "end": 635,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "CallExpression",
@@ -340,7 +344,8 @@
             "type": "Literal",
             "start": 670,
             "end": 675,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -364,7 +369,8 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 697,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -385,7 +391,8 @@
                   "type": "Literal",
                   "start": 715,
                   "end": 719,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

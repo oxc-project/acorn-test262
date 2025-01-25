@@ -39,7 +39,8 @@
             "type": "Literal",
             "start": 522,
             "end": 523,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -48,7 +49,8 @@
           "type": "Literal",
           "start": 527,
           "end": 528,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -76,13 +78,15 @@
                 "type": "Literal",
                 "start": 539,
                 "end": 540,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 542,
                 "end": 543,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -122,7 +126,8 @@
           "type": "Literal",
           "start": 557,
           "end": 558,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -182,7 +187,8 @@
                 "type": "Literal",
                 "start": 594,
                 "end": 597,
-                "value": "2"
+                "value": "2",
+                "raw": "'2'"
               }
             ],
             "optional": false
@@ -191,13 +197,15 @@
             "type": "Literal",
             "start": 600,
             "end": 605,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 648,
-            "value": "x.hasOwnProperty(\"2\") must return false"
+            "value": "x.hasOwnProperty(\"2\") must return false",
+            "raw": "'x.hasOwnProperty(\"2\") must return false'"
           }
         ],
         "optional": false
@@ -235,7 +243,8 @@
           "type": "Literal",
           "start": 663,
           "end": 664,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -281,7 +290,8 @@
               "type": "Literal",
               "start": 685,
               "end": 686,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -290,13 +300,15 @@
             "type": "Literal",
             "start": 689,
             "end": 690,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 731,
-            "value": "The value of x[2] is expected to be 2"
+            "value": "The value of x[2] is expected to be 2",
+            "raw": "'The value of x[2] is expected to be 2'"
           }
         ],
         "optional": false

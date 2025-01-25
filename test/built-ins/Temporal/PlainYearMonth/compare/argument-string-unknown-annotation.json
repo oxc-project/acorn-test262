@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 272,
                     "end": 299,
-                    "value": "2019-12-15T15:23[foo=bar]"
+                    "value": "2019-12-15T15:23[foo=bar]",
+                    "raw": "\"2019-12-15T15:23[foo=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 301,
                     "end": 308,
-                    "value": "alone"
+                    "value": "alone",
+                    "raw": "\"alone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 314,
                     "end": 346,
-                    "value": "2019-12-15T15:23[UTC][foo=bar]"
+                    "value": "2019-12-15T15:23[UTC][foo=bar]",
+                    "raw": "\"2019-12-15T15:23[UTC][foo=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 348,
                     "end": 364,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 370,
                     "end": 411,
-                    "value": "2019-12-15T15:23[u-ca=iso8601][foo=bar]"
+                    "value": "2019-12-15T15:23[u-ca=iso8601][foo=bar]",
+                    "raw": "\"2019-12-15T15:23[u-ca=iso8601][foo=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 413,
                     "end": 428,
-                    "value": "with calendar"
+                    "value": "with calendar",
+                    "raw": "\"with calendar\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 434,
                     "end": 480,
-                    "value": "2019-12-15T15:23[UTC][foo=bar][u-ca=iso8601]"
+                    "value": "2019-12-15T15:23[UTC][foo=bar][u-ca=iso8601]",
+                    "raw": "\"2019-12-15T15:23[UTC][foo=bar][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 482,
                     "end": 511,
-                    "value": "with time zone and calendar"
+                    "value": "with time zone and calendar",
+                    "raw": "\"with time zone and calendar\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 517,
                     "end": 580,
-                    "value": "2019-12-15T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]"
+                    "value": "2019-12-15T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]",
+                    "raw": "\"2019-12-15T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]\""
                   },
                   {
                     "type": "Literal",
                     "start": 582,
                     "end": 615,
-                    "value": "with another unknown annotation"
+                    "value": "with another unknown annotation",
+                    "raw": "\"with another unknown annotation\""
                   }
                 ]
               }
@@ -295,7 +305,8 @@
                         "type": "Literal",
                         "start": 759,
                         "end": 760,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

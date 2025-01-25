@@ -23,6 +23,7 @@
             "start": 2699,
             "end": 2708,
             "value": null,
+            "raw": "/(?i:\\w)/",
             "regex": {
               "pattern": "(?i:\\w)",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2726,
                 "end": 2729,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2732,
             "end": 2752,
-            "value": "\\w should match A"
+            "value": "\\w should match A",
+            "raw": "\"\\\\w should match A\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2771,
                 "end": 2774,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2777,
             "end": 2797,
-            "value": "\\w should match a"
+            "value": "\\w should match a",
+            "raw": "\"\\\\w should match a\""
           }
         ],
         "optional": false
@@ -191,7 +196,8 @@
                 "type": "Literal",
                 "start": 2816,
                 "end": 2819,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -200,7 +206,8 @@
             "type": "Literal",
             "start": 2822,
             "end": 2842,
-            "value": "\\w should match z"
+            "value": "\\w should match z",
+            "raw": "\"\\\\w should match z\""
           }
         ],
         "optional": false
@@ -249,7 +256,8 @@
                 "type": "Literal",
                 "start": 2861,
                 "end": 2864,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -258,7 +266,8 @@
             "type": "Literal",
             "start": 2867,
             "end": 2887,
-            "value": "\\w should match Z"
+            "value": "\\w should match Z",
+            "raw": "\"\\\\w should match Z\""
           }
         ],
         "optional": false
@@ -284,6 +293,7 @@
             "start": 2901,
             "end": 2911,
             "value": null,
+            "raw": "/(?i:\\w)/u",
             "regex": {
               "pattern": "(?i:\\w)",
               "flags": "u"
@@ -336,7 +346,8 @@
                 "type": "Literal",
                 "start": 2929,
                 "end": 2932,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -345,7 +356,8 @@
             "type": "Literal",
             "start": 2935,
             "end": 2955,
-            "value": "\\w should match A"
+            "value": "\\w should match A",
+            "raw": "\"\\\\w should match A\""
           }
         ],
         "optional": false
@@ -394,7 +406,8 @@
                 "type": "Literal",
                 "start": 2974,
                 "end": 2977,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -403,7 +416,8 @@
             "type": "Literal",
             "start": 2980,
             "end": 3000,
-            "value": "\\w should match a"
+            "value": "\\w should match a",
+            "raw": "\"\\\\w should match a\""
           }
         ],
         "optional": false
@@ -452,7 +466,8 @@
                 "type": "Literal",
                 "start": 3019,
                 "end": 3022,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -461,7 +476,8 @@
             "type": "Literal",
             "start": 3025,
             "end": 3045,
-            "value": "\\w should match z"
+            "value": "\\w should match z",
+            "raw": "\"\\\\w should match z\""
           }
         ],
         "optional": false
@@ -510,7 +526,8 @@
                 "type": "Literal",
                 "start": 3064,
                 "end": 3067,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -519,7 +536,8 @@
             "type": "Literal",
             "start": 3070,
             "end": 3090,
-            "value": "\\w should match Z"
+            "value": "\\w should match Z",
+            "raw": "\"\\\\w should match Z\""
           }
         ],
         "optional": false
@@ -568,7 +586,8 @@
                 "type": "Literal",
                 "start": 3109,
                 "end": 3117,
-                "value": "ſ"
+                "value": "ſ",
+                "raw": "\"\\u017f\""
               }
             ],
             "optional": false
@@ -577,7 +596,8 @@
             "type": "Literal",
             "start": 3120,
             "end": 3145,
-            "value": "\\w should match ſ"
+            "value": "\\w should match ſ",
+            "raw": "\"\\\\w should match \\u017f\""
           }
         ],
         "optional": false
@@ -626,7 +646,8 @@
                 "type": "Literal",
                 "start": 3164,
                 "end": 3172,
-                "value": "K"
+                "value": "K",
+                "raw": "\"\\u212a\""
               }
             ],
             "optional": false
@@ -635,7 +656,8 @@
             "type": "Literal",
             "start": 3175,
             "end": 3200,
-            "value": "\\w should match K"
+            "value": "\\w should match K",
+            "raw": "\"\\\\w should match \\u212a\""
           }
         ],
         "optional": false
@@ -661,6 +683,7 @@
             "start": 3214,
             "end": 3224,
             "value": null,
+            "raw": "/(?i-:\\w)/",
             "regex": {
               "pattern": "(?i-:\\w)",
               "flags": ""
@@ -713,7 +736,8 @@
                 "type": "Literal",
                 "start": 3242,
                 "end": 3245,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -722,7 +746,8 @@
             "type": "Literal",
             "start": 3248,
             "end": 3268,
-            "value": "\\w should match A"
+            "value": "\\w should match A",
+            "raw": "\"\\\\w should match A\""
           }
         ],
         "optional": false
@@ -771,7 +796,8 @@
                 "type": "Literal",
                 "start": 3287,
                 "end": 3290,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -780,7 +806,8 @@
             "type": "Literal",
             "start": 3293,
             "end": 3313,
-            "value": "\\w should match a"
+            "value": "\\w should match a",
+            "raw": "\"\\\\w should match a\""
           }
         ],
         "optional": false
@@ -829,7 +856,8 @@
                 "type": "Literal",
                 "start": 3332,
                 "end": 3335,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -838,7 +866,8 @@
             "type": "Literal",
             "start": 3338,
             "end": 3358,
-            "value": "\\w should match z"
+            "value": "\\w should match z",
+            "raw": "\"\\\\w should match z\""
           }
         ],
         "optional": false
@@ -887,7 +916,8 @@
                 "type": "Literal",
                 "start": 3377,
                 "end": 3380,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -896,7 +926,8 @@
             "type": "Literal",
             "start": 3383,
             "end": 3403,
-            "value": "\\w should match Z"
+            "value": "\\w should match Z",
+            "raw": "\"\\\\w should match Z\""
           }
         ],
         "optional": false
@@ -922,6 +953,7 @@
             "start": 3417,
             "end": 3428,
             "value": null,
+            "raw": "/(?i-:\\w)/u",
             "regex": {
               "pattern": "(?i-:\\w)",
               "flags": "u"
@@ -974,7 +1006,8 @@
                 "type": "Literal",
                 "start": 3446,
                 "end": 3449,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -983,7 +1016,8 @@
             "type": "Literal",
             "start": 3452,
             "end": 3472,
-            "value": "\\w should match A"
+            "value": "\\w should match A",
+            "raw": "\"\\\\w should match A\""
           }
         ],
         "optional": false
@@ -1032,7 +1066,8 @@
                 "type": "Literal",
                 "start": 3491,
                 "end": 3494,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -1041,7 +1076,8 @@
             "type": "Literal",
             "start": 3497,
             "end": 3517,
-            "value": "\\w should match a"
+            "value": "\\w should match a",
+            "raw": "\"\\\\w should match a\""
           }
         ],
         "optional": false
@@ -1090,7 +1126,8 @@
                 "type": "Literal",
                 "start": 3536,
                 "end": 3539,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -1099,7 +1136,8 @@
             "type": "Literal",
             "start": 3542,
             "end": 3562,
-            "value": "\\w should match z"
+            "value": "\\w should match z",
+            "raw": "\"\\\\w should match z\""
           }
         ],
         "optional": false
@@ -1148,7 +1186,8 @@
                 "type": "Literal",
                 "start": 3581,
                 "end": 3584,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -1157,7 +1196,8 @@
             "type": "Literal",
             "start": 3587,
             "end": 3607,
-            "value": "\\w should match Z"
+            "value": "\\w should match Z",
+            "raw": "\"\\\\w should match Z\""
           }
         ],
         "optional": false
@@ -1206,7 +1246,8 @@
                 "type": "Literal",
                 "start": 3626,
                 "end": 3634,
-                "value": "ſ"
+                "value": "ſ",
+                "raw": "\"\\u017f\""
               }
             ],
             "optional": false
@@ -1215,7 +1256,8 @@
             "type": "Literal",
             "start": 3637,
             "end": 3662,
-            "value": "\\w should match ſ"
+            "value": "\\w should match ſ",
+            "raw": "\"\\\\w should match \\u017f\""
           }
         ],
         "optional": false
@@ -1264,7 +1306,8 @@
                 "type": "Literal",
                 "start": 3681,
                 "end": 3689,
-                "value": "K"
+                "value": "K",
+                "raw": "\"\\u212a\""
               }
             ],
             "optional": false
@@ -1273,7 +1316,8 @@
             "type": "Literal",
             "start": 3692,
             "end": 3717,
-            "value": "\\w should match K"
+            "value": "\\w should match K",
+            "raw": "\"\\\\w should match \\u212a\""
           }
         ],
         "optional": false

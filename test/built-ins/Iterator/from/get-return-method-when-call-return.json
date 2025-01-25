@@ -132,7 +132,8 @@
                                     "type": "Literal",
                                     "start": 572,
                                     "end": 573,
-                                    "value": 5
+                                    "value": 5,
+                                    "raw": "5"
                                   },
                                   "kind": "init"
                                 },
@@ -153,7 +154,8 @@
                                     "type": "Literal",
                                     "start": 581,
                                     "end": 585,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   "kind": "init"
                                 }
@@ -170,7 +172,8 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 611,
-                "value": "originalIter"
+                "value": "originalIter",
+                "raw": "\"originalIter\""
               }
             ],
             "optional": false
@@ -274,13 +277,15 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 718,
-                "value": "get originalIter[Symbol.iterator]"
+                "value": "get originalIter[Symbol.iterator]",
+                "raw": "\"get originalIter[Symbol.iterator]\""
               },
               {
                 "type": "Literal",
                 "start": 722,
                 "end": 745,
-                "value": "get originalIter.next"
+                "value": "get originalIter.next",
+                "raw": "\"get originalIter.next\""
               }
             ]
           }
@@ -362,19 +367,22 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 836,
-                "value": "get originalIter[Symbol.iterator]"
+                "value": "get originalIter[Symbol.iterator]",
+                "raw": "\"get originalIter[Symbol.iterator]\""
               },
               {
                 "type": "Literal",
                 "start": 840,
                 "end": 863,
-                "value": "get originalIter.next"
+                "value": "get originalIter.next",
+                "raw": "\"get originalIter.next\""
               },
               {
                 "type": "Literal",
                 "start": 867,
                 "end": 892,
-                "value": "get originalIter.return"
+                "value": "get originalIter.return",
+                "raw": "\"get originalIter.return\""
               }
             ]
           }

@@ -74,7 +74,8 @@
                       "type": "Literal",
                       "start": 272,
                       "end": 276,
-                      "value": "66"
+                      "value": "66",
+                      "raw": "'66'"
                     }
                   ],
                   "optional": false
@@ -101,7 +102,8 @@
             "type": "Literal",
             "start": 304,
             "end": 380,
-            "value": "The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`"
+            "value": "The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`",
+            "raw": "\"The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`\""
           }
         ],
         "optional": false
@@ -189,7 +191,8 @@
                           "type": "Literal",
                           "start": 440,
                           "end": 444,
-                          "value": "66"
+                          "value": "66",
+                          "raw": "'66'"
                         }
                       ],
                       "optional": false
@@ -219,7 +222,8 @@
             "type": "Literal",
             "start": 473,
             "end": 557,
-            "value": "The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`"
+            "value": "The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`",
+            "raw": "\"The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`\""
           }
         ],
         "optional": false

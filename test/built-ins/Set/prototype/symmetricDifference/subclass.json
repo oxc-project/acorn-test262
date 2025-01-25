@@ -61,13 +61,15 @@
                     "type": "Literal",
                     "start": 414,
                     "end": 415,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 417,
                     "end": 418,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -112,13 +114,15 @@
                     "type": "Literal",
                     "start": 442,
                     "end": 443,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 445,
                     "end": 446,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -152,13 +156,15 @@
                 "type": "Literal",
                 "start": 468,
                 "end": 469,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 472,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -324,13 +330,15 @@
             "type": "Literal",
             "start": 609,
             "end": 613,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 645,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -386,13 +394,15 @@
             "type": "Literal",
             "start": 697,
             "end": 702,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 752,
-            "value": "The returned object is a Set, not a subclass"
+            "value": "The returned object is a Set, not a subclass",
+            "raw": "\"The returned object is a Set, not a subclass\""
           }
         ],
         "optional": false

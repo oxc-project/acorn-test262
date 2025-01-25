@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 800,
             "end": 805,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 876,
-            "value": "isConstructor(Array.prototype[Symbol.iterator]) must return false"
+            "value": "isConstructor(Array.prototype[Symbol.iterator]) must return false",
+            "raw": "'isConstructor(Array.prototype[Symbol.iterator]) must return false'"
           }
         ],
         "optional": false

@@ -87,14 +87,16 @@
                     "type": "Literal",
                     "start": 631,
                     "end": 658,
-                    "value": "(class C extends Object {"
+                    "value": "(class C extends Object {",
+                    "raw": "'(class C extends Object {'"
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 663,
                     "end": 683,
-                    "value": "  constructor() {}"
+                    "value": "  constructor() {}",
+                    "raw": "'  constructor() {}'"
                   }
                 },
                 "operator": "+",
@@ -102,7 +104,8 @@
                   "type": "Literal",
                   "start": 688,
                   "end": 693,
-                  "value": "});"
+                  "value": "});",
+                  "raw": "'});'"
                 }
               }
             ],

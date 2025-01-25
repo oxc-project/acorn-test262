@@ -1128,13 +1128,15 @@
                                       "type": "Literal",
                                       "start": 1130,
                                       "end": 1131,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1133,
                                       "end": 1134,
-                                      "value": 2
+                                      "value": 2,
+                                      "raw": "2"
                                     },
                                     {
                                       "type": "CallExpression",
@@ -1305,13 +1307,15 @@
                                           "type": "Literal",
                                           "start": 1263,
                                           "end": 1264,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         },
                                         {
                                           "type": "Literal",
                                           "start": 1266,
                                           "end": 1267,
-                                          "value": 2
+                                          "value": 2,
+                                          "raw": "2"
                                         }
                                       ],
                                       "optional": false
@@ -1438,7 +1442,8 @@
                                   "type": "Literal",
                                   "start": 1367,
                                   "end": 1368,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 "consequent": {
                                   "type": "ExpressionStatement",
@@ -1552,7 +1557,8 @@
                       "type": "Literal",
                       "start": 1454,
                       "end": 1466,
-                      "value": "use strict"
+                      "value": "use strict",
+                      "raw": "'use strict'"
                     },
                     "directive": "use strict"
                   },
@@ -1663,7 +1669,8 @@
                       "type": "Literal",
                       "start": 1549,
                       "end": 1561,
-                      "value": "use strict"
+                      "value": "use strict",
+                      "raw": "'use strict'"
                     }
                   },
                   {
@@ -1793,7 +1800,8 @@
                       "type": "Literal",
                       "start": 1648,
                       "end": 1660,
-                      "value": "use strict"
+                      "value": "use strict",
+                      "raw": "'use strict'"
                     }
                   },
                   {

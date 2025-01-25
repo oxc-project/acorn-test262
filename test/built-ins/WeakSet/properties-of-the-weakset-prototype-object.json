@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 735,
             "end": 806,
-            "value": "`Object.getPrototypeOf(WeakSet.prototype)` returns `Object.prototype`"
+            "value": "`Object.getPrototypeOf(WeakSet.prototype)` returns `Object.prototype`",
+            "raw": "'`Object.getPrototypeOf(WeakSet.prototype)` returns `Object.prototype`'"
           }
         ],
         "optional": false

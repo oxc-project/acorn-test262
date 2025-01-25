@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 419,
             "end": 427,
-            "value": "flower"
+            "value": "flower",
+            "raw": "\"flower\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 440,
             "end": 446,
-            "value": "rose"
+            "value": "rose",
+            "raw": "\"rose\""
           }
         }
       ],
@@ -160,7 +162,8 @@
                     "type": "Literal",
                     "start": 542,
                     "end": 604,
-                    "value": "#0: __PROTO.type=__PLANT does not lead to throwing exception"
+                    "value": "#0: __PROTO.type=__PLANT does not lead to throwing exception",
+                    "raw": "'#0: __PROTO.type=__PLANT does not lead to throwing exception'"
                   }
                 ]
               }
@@ -309,7 +312,8 @@
                   "type": "Literal",
                   "start": 830,
                   "end": 871,
-                  "value": "#1: __rose() lead to throwing exception"
+                  "value": "#1: __rose() lead to throwing exception",
+                  "raw": "'#1: __rose() lead to throwing exception'"
                 }
               ]
             }
@@ -393,7 +397,8 @@
                             "type": "Literal",
                             "start": 951,
                             "end": 1007,
-                            "value": "#2: Exception Type is TypeError. Actual: exception ==="
+                            "value": "#2: Exception Type is TypeError. Actual: exception ===",
+                            "raw": "'#2: Exception Type is TypeError. Actual: exception ==='"
                           },
                           "operator": "+",
                           "right": {

@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 380,
             "end": 424,
-            "value": "Uint8Array.fromBase64 is not a constructor"
+            "value": "Uint8Array.fromBase64 is not a constructor",
+            "raw": "\"Uint8Array.fromBase64 is not a constructor\""
           }
         ],
         "optional": false
@@ -148,7 +149,8 @@
                         "type": "Literal",
                         "start": 494,
                         "end": 496,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ]
                   }

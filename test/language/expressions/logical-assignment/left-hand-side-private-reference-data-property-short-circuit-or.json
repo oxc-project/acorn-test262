@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 1624,
                   "end": 1669,
-                  "value": "The right-hand side should not be evaluated"
+                  "value": "The right-hand side should not be evaluated",
+                  "raw": "\"The right-hand side should not be evaluated\""
                 }
               ]
             }
@@ -81,7 +82,8 @@
               "type": "Literal",
               "start": 1696,
               "end": 1700,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
@@ -303,13 +305,15 @@
             "type": "Literal",
             "start": 1879,
             "end": 1883,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1885,
             "end": 1944,
-            "value": "The expression should evaluate to the short-circuit value"
+            "value": "The expression should evaluate to the short-circuit value",
+            "raw": "\"The expression should evaluate to the short-circuit value\""
           }
         ],
         "optional": false

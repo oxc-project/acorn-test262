@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 389,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 395,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -117,7 +120,8 @@
             "type": "Literal",
             "start": 438,
             "end": 439,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         ],
         "optional": false
@@ -167,7 +171,8 @@
             "type": "Literal",
             "start": 472,
             "end": 530,
-            "value": "The value of n_obj is expected to equal the value of arr"
+            "value": "The value of n_obj is expected to equal the value of arr",
+            "raw": "'The value of n_obj is expected to equal the value of arr'"
           }
         ],
         "optional": false
@@ -215,7 +220,8 @@
               "type": "Literal",
               "start": 556,
               "end": 557,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
@@ -224,13 +230,15 @@
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 606,
-            "value": "The value of n_obj[3] is expected to be 4"
+            "value": "The value of n_obj[3] is expected to be 4",
+            "raw": "'The value of n_obj[3] is expected to be 4'"
           }
         ],
         "optional": false

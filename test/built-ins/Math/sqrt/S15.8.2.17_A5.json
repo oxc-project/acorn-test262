@@ -113,7 +113,8 @@
             "type": "Literal",
             "start": 357,
             "end": 401,
-            "value": "Math.sqrt(+Infinity) must return +Infinity"
+            "value": "Math.sqrt(+Infinity) must return +Infinity",
+            "raw": "'Math.sqrt(+Infinity) must return +Infinity'"
           }
         ],
         "optional": false

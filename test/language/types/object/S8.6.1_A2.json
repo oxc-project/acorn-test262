@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 308,
             "end": 309,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -82,7 +83,8 @@
           "type": "Literal",
           "start": 350,
           "end": 351,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -113,7 +115,8 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 440,
-                    "value": "#1: count=0; for (p in Number) count++; count > 0. Actual: "
+                    "value": "#1: count=0; for (p in Number) count++; count > 0. Actual: ",
+                    "raw": "'#1: count=0; for (p in Number) count++; count > 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 1882,
                   "end": 1920,
-                  "value": "./module-import-rejection_FIXTURE.js"
+                  "value": "./module-import-rejection_FIXTURE.js",
+                  "raw": "'./module-import-rejection_FIXTURE.js'"
                 },
                 "options": null
               },
@@ -78,7 +79,8 @@
                             "type": "Literal",
                             "start": 1960,
                             "end": 1985,
-                            "value": "Should not be fulfilled"
+                            "value": "Should not be fulfilled",
+                            "raw": "'Should not be fulfilled'"
                           }
                         ]
                       }
@@ -252,7 +254,8 @@
                             "type": "Literal",
                             "start": 2118,
                             "end": 2152,
-                            "value": "error in the default export line"
+                            "value": "error in the default export line",
+                            "raw": "'error in the default export line'"
                           }
                         ],
                         "optional": false

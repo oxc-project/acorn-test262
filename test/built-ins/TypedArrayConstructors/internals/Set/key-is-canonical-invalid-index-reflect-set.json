@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 757,
             "end": 758,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -101,7 +102,8 @@
                           "type": "Literal",
                           "start": 829,
                           "end": 832,
-                          "value": 2.3
+                          "value": 2.3,
+                          "raw": "2.3"
                         }
                       }
                     ]
@@ -204,13 +206,15 @@
                             "type": "Literal",
                             "start": 917,
                             "end": 918,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 920,
                             "end": 923,
-                            "value": 1.5
+                            "value": 1.5,
+                            "raw": "1.5"
                           },
                           {
                             "type": "UnaryExpression",
@@ -222,7 +226,8 @@
                               "type": "Literal",
                               "start": 926,
                               "end": 927,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -373,7 +378,8 @@
                                                         "type": "Literal",
                                                         "start": 1053,
                                                         "end": 1085,
-                                                        "value": " getter should be unreachable!"
+                                                        "value": " getter should be unreachable!",
+                                                        "raw": "\" getter should be unreachable!\""
                                                       }
                                                     }
                                                   ]
@@ -448,7 +454,8 @@
                                                         "type": "Literal",
                                                         "start": 1146,
                                                         "end": 1178,
-                                                        "value": " setter should be unreachable!"
+                                                        "value": " setter should be unreachable!",
+                                                        "raw": "\" setter should be unreachable!\""
                                                       }
                                                     }
                                                   ]
@@ -476,7 +483,8 @@
                                           "type": "Literal",
                                           "start": 1204,
                                           "end": 1208,
-                                          "value": true
+                                          "value": true,
+                                          "raw": "true"
                                         },
                                         "kind": "init"
                                       }
@@ -521,7 +529,8 @@
                                           "type": "Literal",
                                           "start": 1241,
                                           "end": 1242,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -630,7 +639,8 @@
                                         "type": "Literal",
                                         "start": 1319,
                                         "end": 1354,
-                                        "value": "Reflect.set should succeed (key: "
+                                        "value": "Reflect.set should succeed (key: ",
+                                        "raw": "\"Reflect.set should succeed (key: \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -645,7 +655,8 @@
                                       "type": "Literal",
                                       "start": 1363,
                                       "end": 1390,
-                                      "value": ", receiver: empty object)"
+                                      "value": ", receiver: empty object)",
+                                      "raw": "\", receiver: empty object)\""
                                     }
                                   }
                                 ],
@@ -719,7 +730,8 @@
                                         "type": "Literal",
                                         "start": 1433,
                                         "end": 1442,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -734,7 +746,8 @@
                                       "type": "Literal",
                                       "start": 1451,
                                       "end": 1501,
-                                      "value": "] should not be created (receiver: empty object)"
+                                      "value": "] should not be created (receiver: empty object)",
+                                      "raw": "\"] should not be created (receiver: empty object)\""
                                     }
                                   }
                                 ],
@@ -808,7 +821,8 @@
                                         "type": "Literal",
                                         "start": 1546,
                                         "end": 1557,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -823,7 +837,8 @@
                                       "type": "Literal",
                                       "start": 1566,
                                       "end": 1616,
-                                      "value": "] should not be created (receiver: empty object)"
+                                      "value": "] should not be created (receiver: empty object)",
+                                      "raw": "\"] should not be created (receiver: empty object)\""
                                     }
                                   }
                                 ],
@@ -865,7 +880,8 @@
                                           "type": "Literal",
                                           "start": 1642,
                                           "end": 1643,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -908,7 +924,8 @@
                                           "type": "Literal",
                                           "start": 1670,
                                           "end": 1671,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ]
                                     }
@@ -994,7 +1011,8 @@
                                         "type": "Literal",
                                         "start": 1729,
                                         "end": 1764,
-                                        "value": "Reflect.set should succeed (key: "
+                                        "value": "Reflect.set should succeed (key: ",
+                                        "raw": "\"Reflect.set should succeed (key: \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1009,7 +1027,8 @@
                                       "type": "Literal",
                                       "start": 1773,
                                       "end": 1826,
-                                      "value": ", receiver: another typed array of the same length)"
+                                      "value": ", receiver: another typed array of the same length)",
+                                      "raw": "\", receiver: another typed array of the same length)\""
                                     }
                                   }
                                 ],
@@ -1083,7 +1102,8 @@
                                         "type": "Literal",
                                         "start": 1869,
                                         "end": 1878,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1098,7 +1118,8 @@
                                       "type": "Literal",
                                       "start": 1887,
                                       "end": 1963,
-                                      "value": "] should not be created (receiver: another typed array of the same length)"
+                                      "value": "] should not be created (receiver: another typed array of the same length)",
+                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\""
                                     }
                                   }
                                 ],
@@ -1172,7 +1193,8 @@
                                         "type": "Literal",
                                         "start": 2008,
                                         "end": 2019,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1187,7 +1209,8 @@
                                       "type": "Literal",
                                       "start": 2028,
                                       "end": 2104,
-                                      "value": "] should not be created (receiver: another typed array of the same length)"
+                                      "value": "] should not be created (receiver: another typed array of the same length)",
+                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\""
                                     }
                                   }
                                 ],
@@ -1229,7 +1252,8 @@
                                           "type": "Literal",
                                           "start": 2130,
                                           "end": 2131,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -1328,7 +1352,8 @@
                                                     "type": "Literal",
                                                     "start": 2214,
                                                     "end": 2215,
-                                                    "value": 1
+                                                    "value": 1,
+                                                    "raw": "1"
                                                   }
                                                 }
                                               ]
@@ -1400,7 +1425,8 @@
                                                           "type": "Literal",
                                                           "start": 2275,
                                                           "end": 2307,
-                                                          "value": " setter should be unreachable!"
+                                                          "value": " setter should be unreachable!",
+                                                          "raw": "\" setter should be unreachable!\""
                                                         }
                                                       }
                                                     ]
@@ -1428,7 +1454,8 @@
                                             "type": "Literal",
                                             "start": 2333,
                                             "end": 2337,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           "kind": "init"
                                         }
@@ -1517,7 +1544,8 @@
                                         "type": "Literal",
                                         "start": 2401,
                                         "end": 2459,
-                                        "value": "Reflect.set should succeed (receiver: plain object with "
+                                        "value": "Reflect.set should succeed (receiver: plain object with ",
+                                        "raw": "\"Reflect.set should succeed (receiver: plain object with \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1532,7 +1560,8 @@
                                       "type": "Literal",
                                       "start": 2468,
                                       "end": 2480,
-                                      "value": " accessor)"
+                                      "value": " accessor)",
+                                      "raw": "\" accessor)\""
                                     }
                                   }
                                 ],
@@ -1614,7 +1643,8 @@
                                             "type": "Literal",
                                             "start": 2523,
                                             "end": 2532,
-                                            "value": "target["
+                                            "value": "target[",
+                                            "raw": "\"target[\""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1629,7 +1659,8 @@
                                           "type": "Literal",
                                           "start": 2541,
                                           "end": 2596,
-                                          "value": "] should not be created (receiver: plain object with "
+                                          "value": "] should not be created (receiver: plain object with ",
+                                          "raw": "\"] should not be created (receiver: plain object with \""
                                         }
                                       },
                                       "operator": "+",
@@ -1645,7 +1676,8 @@
                                       "type": "Literal",
                                       "start": 2605,
                                       "end": 2617,
-                                      "value": " accessor)"
+                                      "value": " accessor)",
+                                      "raw": "\" accessor)\""
                                     }
                                   }
                                 ],
@@ -1703,7 +1735,8 @@
                                     "type": "Literal",
                                     "start": 2656,
                                     "end": 2657,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1725,7 +1758,8 @@
                                             "type": "Literal",
                                             "start": 2659,
                                             "end": 2670,
-                                            "value": "receiver["
+                                            "value": "receiver[",
+                                            "raw": "\"receiver[\""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1740,7 +1774,8 @@
                                           "type": "Literal",
                                           "start": 2679,
                                           "end": 2736,
-                                          "value": "] should remain unchanged (receiver: plain object with "
+                                          "value": "] should remain unchanged (receiver: plain object with ",
+                                          "raw": "\"] should remain unchanged (receiver: plain object with \""
                                         }
                                       },
                                       "operator": "+",
@@ -1756,7 +1791,8 @@
                                       "type": "Literal",
                                       "start": 2745,
                                       "end": 2757,
-                                      "value": " accessor)"
+                                      "value": " accessor)",
+                                      "raw": "\" accessor)\""
                                     }
                                   }
                                 ],
@@ -1798,7 +1834,8 @@
                                           "type": "Literal",
                                           "start": 2783,
                                           "end": 2784,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -1879,7 +1916,8 @@
                                             "type": "Literal",
                                             "start": 2843,
                                             "end": 2844,
-                                            "value": 1
+                                            "value": 1,
+                                            "raw": "1"
                                           },
                                           "kind": "init"
                                         },
@@ -1900,7 +1938,8 @@
                                             "type": "Literal",
                                             "start": 2856,
                                             "end": 2861,
-                                            "value": false
+                                            "value": false,
+                                            "raw": "false"
                                           },
                                           "kind": "init"
                                         },
@@ -1921,7 +1960,8 @@
                                             "type": "Literal",
                                             "start": 2877,
                                             "end": 2881,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           "kind": "init"
                                         }
@@ -2010,7 +2050,8 @@
                                         "type": "Literal",
                                         "start": 2940,
                                         "end": 3011,
-                                        "value": "Reflect.set should succeed (receiver: plain object with non-writable "
+                                        "value": "Reflect.set should succeed (receiver: plain object with non-writable ",
+                                        "raw": "\"Reflect.set should succeed (receiver: plain object with non-writable \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2025,7 +2066,8 @@
                                       "type": "Literal",
                                       "start": 3020,
                                       "end": 3023,
-                                      "value": ")"
+                                      "value": ")",
+                                      "raw": "\")\""
                                     }
                                   }
                                 ],
@@ -2107,7 +2149,8 @@
                                             "type": "Literal",
                                             "start": 3066,
                                             "end": 3075,
-                                            "value": "target["
+                                            "value": "target[",
+                                            "raw": "\"target[\""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -2122,7 +2165,8 @@
                                           "type": "Literal",
                                           "start": 3084,
                                           "end": 3152,
-                                          "value": "] should not be created (receiver: plain object with non-writable "
+                                          "value": "] should not be created (receiver: plain object with non-writable ",
+                                          "raw": "\"] should not be created (receiver: plain object with non-writable \""
                                         }
                                       },
                                       "operator": "+",
@@ -2138,7 +2182,8 @@
                                       "type": "Literal",
                                       "start": 3161,
                                       "end": 3164,
-                                      "value": ")"
+                                      "value": ")",
+                                      "raw": "\")\""
                                     }
                                   }
                                 ],
@@ -2196,7 +2241,8 @@
                                     "type": "Literal",
                                     "start": 3203,
                                     "end": 3204,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -2218,7 +2264,8 @@
                                             "type": "Literal",
                                             "start": 3206,
                                             "end": 3217,
-                                            "value": "receiver["
+                                            "value": "receiver[",
+                                            "raw": "\"receiver[\""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -2233,7 +2280,8 @@
                                           "type": "Literal",
                                           "start": 3226,
                                           "end": 3296,
-                                          "value": "] should remain unchanged (receiver: plain object with non-writable "
+                                          "value": "] should remain unchanged (receiver: plain object with non-writable ",
+                                          "raw": "\"] should remain unchanged (receiver: plain object with non-writable \""
                                         }
                                       },
                                       "operator": "+",
@@ -2249,7 +2297,8 @@
                                       "type": "Literal",
                                       "start": 3305,
                                       "end": 3308,
-                                      "value": ")"
+                                      "value": ")",
+                                      "raw": "\")\""
                                     }
                                   }
                                 ],
@@ -2291,7 +2340,8 @@
                                           "type": "Literal",
                                           "start": 3334,
                                           "end": 3335,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -2427,7 +2477,8 @@
                                         "type": "Literal",
                                         "start": 3438,
                                         "end": 3470,
-                                        "value": "Reflect.set should fail (key: "
+                                        "value": "Reflect.set should fail (key: ",
+                                        "raw": "\"Reflect.set should fail (key: \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2442,7 +2493,8 @@
                                       "type": "Literal",
                                       "start": 3479,
                                       "end": 3521,
-                                      "value": ", receiver: non-extensible empty object)"
+                                      "value": ", receiver: non-extensible empty object)",
+                                      "raw": "\", receiver: non-extensible empty object)\""
                                     }
                                   }
                                 ],
@@ -2516,7 +2568,8 @@
                                         "type": "Literal",
                                         "start": 3564,
                                         "end": 3573,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2531,7 +2584,8 @@
                                       "type": "Literal",
                                       "start": 3582,
                                       "end": 3647,
-                                      "value": "] should not be created (receiver: non-extensible empty object)"
+                                      "value": "] should not be created (receiver: non-extensible empty object)",
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
                                     }
                                   }
                                 ],
@@ -2605,7 +2659,8 @@
                                         "type": "Literal",
                                         "start": 3692,
                                         "end": 3703,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2620,7 +2675,8 @@
                                       "type": "Literal",
                                       "start": 3712,
                                       "end": 3777,
-                                      "value": "] should not be created (receiver: non-extensible empty object)"
+                                      "value": "] should not be created (receiver: non-extensible empty object)",
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
                                     }
                                   }
                                 ],
@@ -2727,7 +2783,8 @@
                               "type": "Literal",
                               "start": 3847,
                               "end": 3848,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -2770,13 +2827,15 @@
                               "type": "Literal",
                               "start": 3873,
                               "end": 3874,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 3876,
                               "end": 3877,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ]
                         }
@@ -2833,7 +2892,8 @@
                             "type": "Literal",
                             "start": 3910,
                             "end": 3911,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Identifier",
@@ -2854,7 +2914,8 @@
                         "type": "Literal",
                         "start": 3931,
                         "end": 4009,
-                        "value": "Reflect.set should succeed (receiver: another typed array of greater length)"
+                        "value": "Reflect.set should succeed (receiver: another typed array of greater length)",
+                        "raw": "\"Reflect.set should succeed (receiver: another typed array of greater length)\""
                       }
                     ],
                     "optional": false
@@ -2909,7 +2970,8 @@
                               "type": "Literal",
                               "start": 4044,
                               "end": 4045,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -2919,7 +2981,8 @@
                         "type": "Literal",
                         "start": 4048,
                         "end": 4131,
-                        "value": "target[1] should not be created (receiver: another typed array of greater length)"
+                        "value": "target[1] should not be created (receiver: another typed array of greater length)",
+                        "raw": "\"target[1] should not be created (receiver: another typed array of greater length)\""
                       }
                     ],
                     "optional": false
@@ -2967,7 +3030,8 @@
                           "type": "Literal",
                           "start": 4162,
                           "end": 4163,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -2976,13 +3040,15 @@
                         "type": "Literal",
                         "start": 4166,
                         "end": 4167,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 4169,
                         "end": 4256,
-                        "value": "receiver[1] should remain unchanged (receiver: another typed array of greater length)"
+                        "value": "receiver[1] should remain unchanged (receiver: another typed array of greater length)",
+                        "raw": "\"receiver[1] should remain unchanged (receiver: another typed array of greater length)\""
                       }
                     ],
                     "optional": false
@@ -3033,13 +3099,15 @@
             "type": "Literal",
             "start": 4295,
             "end": 4296,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 4298,
             "end": 4327,
-            "value": "value should not be coerced"
+            "value": "value should not be coerced",
+            "raw": "\"value should not be coerced\""
           }
         ],
         "optional": false

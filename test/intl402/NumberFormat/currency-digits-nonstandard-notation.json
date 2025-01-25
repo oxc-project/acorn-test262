@@ -37,19 +37,22 @@
             "type": "Literal",
             "start": 683,
             "end": 692,
-            "value": "compact"
+            "value": "compact",
+            "raw": "\"compact\""
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 707,
-            "value": "engineering"
+            "value": "engineering",
+            "raw": "\"engineering\""
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 721,
-            "value": "scientific"
+            "value": "scientific",
+            "raw": "\"scientific\""
           }
         ]
       },
@@ -92,19 +95,22 @@
                   "type": "Literal",
                   "start": 752,
                   "end": 757,
-                  "value": "JPY"
+                  "value": "JPY",
+                  "raw": "\"JPY\""
                 },
                 {
                   "type": "Literal",
                   "start": 759,
                   "end": 764,
-                  "value": "KWD"
+                  "value": "KWD",
+                  "raw": "\"KWD\""
                 },
                 {
                   "type": "Literal",
                   "start": 766,
                   "end": 771,
-                  "value": "USD"
+                  "value": "USD",
+                  "raw": "\"USD\""
                 }
               ]
             },
@@ -156,7 +162,8 @@
                             "type": "Literal",
                             "start": 811,
                             "end": 818,
-                            "value": "en-US"
+                            "value": "en-US",
+                            "raw": "'en-US'"
                           },
                           {
                             "type": "ObjectExpression",
@@ -180,7 +187,8 @@
                                   "type": "Literal",
                                   "start": 828,
                                   "end": 838,
-                                  "value": "currency"
+                                  "value": "currency",
+                                  "raw": "\"currency\""
                                 },
                                 "kind": "init"
                               },
@@ -393,7 +401,8 @@
                         "type": "Literal",
                         "start": 1103,
                         "end": 1104,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "BinaryExpression",
@@ -415,7 +424,8 @@
                                 "type": "Literal",
                                 "start": 1106,
                                 "end": 1153,
-                                "value": "Didn't get correct minimumFractionDigits for "
+                                "value": "Didn't get correct minimumFractionDigits for ",
+                                "raw": "\"Didn't get correct minimumFractionDigits for \""
                               },
                               "operator": "+",
                               "right": {
@@ -430,7 +440,8 @@
                               "type": "Literal",
                               "start": 1167,
                               "end": 1173,
-                              "value": " in "
+                              "value": " in ",
+                              "raw": "\" in \""
                             }
                           },
                           "operator": "+",
@@ -446,7 +457,8 @@
                           "type": "Literal",
                           "start": 1187,
                           "end": 1199,
-                          "value": " notation."
+                          "value": " notation.",
+                          "raw": "\" notation.\""
                         }
                       }
                     ],
@@ -491,7 +503,8 @@
                         "type": "Literal",
                         "start": 1246,
                         "end": 1247,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "BinaryExpression",
@@ -513,7 +526,8 @@
                                 "type": "Literal",
                                 "start": 1249,
                                 "end": 1296,
-                                "value": "Didn't get correct maximumFractionDigits for "
+                                "value": "Didn't get correct maximumFractionDigits for ",
+                                "raw": "\"Didn't get correct maximumFractionDigits for \""
                               },
                               "operator": "+",
                               "right": {
@@ -528,7 +542,8 @@
                               "type": "Literal",
                               "start": 1310,
                               "end": 1316,
-                              "value": " in "
+                              "value": " in ",
+                              "raw": "\" in \""
                             }
                           },
                           "operator": "+",
@@ -544,7 +559,8 @@
                           "type": "Literal",
                           "start": 1330,
                           "end": 1342,
-                          "value": " notation."
+                          "value": " notation.",
+                          "raw": "\" notation.\""
                         }
                       }
                     ],

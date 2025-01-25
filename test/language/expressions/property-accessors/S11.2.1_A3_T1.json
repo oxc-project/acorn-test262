@@ -23,7 +23,8 @@
               "type": "Literal",
               "start": 382,
               "end": 386,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "property": {
               "type": "Identifier",
@@ -42,7 +43,8 @@
           "type": "Literal",
           "start": 402,
           "end": 408,
-          "value": "true"
+          "value": "true",
+          "raw": "\"true\""
         }
       },
       "consequent": {
@@ -73,7 +75,8 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 479,
-                    "value": "#1: true.toString() === \"true\". Actual: "
+                    "value": "#1: true.toString() === \"true\". Actual: ",
+                    "raw": "'#1: true.toString() === \"true\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +95,8 @@
                           "type": "Literal",
                           "start": 483,
                           "end": 487,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         "property": {
                           "type": "Identifier",
@@ -135,13 +139,15 @@
               "type": "Literal",
               "start": 519,
               "end": 524,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "property": {
               "type": "Literal",
               "start": 525,
               "end": 535,
-              "value": "toString"
+              "value": "toString",
+              "raw": "\"toString\""
             },
             "computed": true,
             "optional": false
@@ -154,7 +160,8 @@
           "type": "Literal",
           "start": 543,
           "end": 550,
-          "value": "false"
+          "value": "false",
+          "raw": "\"false\""
         }
       },
       "consequent": {
@@ -185,7 +192,8 @@
                     "type": "Literal",
                     "start": 579,
                     "end": 626,
-                    "value": "#2: false[\"toString\"]() === \"false\". Actual: "
+                    "value": "#2: false[\"toString\"]() === \"false\". Actual: ",
+                    "raw": "'#2: false[\"toString\"]() === \"false\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -204,13 +212,15 @@
                           "type": "Literal",
                           "start": 630,
                           "end": 635,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         },
                         "property": {
                           "type": "Literal",
                           "start": 636,
                           "end": 646,
-                          "value": "toString"
+                          "value": "toString",
+                          "raw": "\"toString\""
                         },
                         "computed": true,
                         "optional": false
@@ -258,7 +268,8 @@
                   "type": "Literal",
                   "start": 682,
                   "end": 686,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ]
             },
@@ -279,7 +290,8 @@
           "type": "Literal",
           "start": 703,
           "end": 709,
-          "value": "true"
+          "value": "true",
+          "raw": "\"true\""
         }
       },
       "consequent": {
@@ -310,7 +322,8 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 793,
-                    "value": "#3: new Boolean(true).toString() === \"true\". Actual: "
+                    "value": "#3: new Boolean(true).toString() === \"true\". Actual: ",
+                    "raw": "'#3: new Boolean(true).toString() === \"true\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -340,7 +353,8 @@
                               "type": "Literal",
                               "start": 809,
                               "end": 813,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           ]
                         },
@@ -396,7 +410,8 @@
                   "type": "Literal",
                   "start": 858,
                   "end": 863,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               ]
             },
@@ -404,7 +419,8 @@
               "type": "Literal",
               "start": 865,
               "end": 875,
-              "value": "toString"
+              "value": "toString",
+              "raw": "\"toString\""
             },
             "computed": true,
             "optional": false
@@ -417,7 +433,8 @@
           "type": "Literal",
           "start": 883,
           "end": 890,
-          "value": "false"
+          "value": "false",
+          "raw": "\"false\""
         }
       },
       "consequent": {
@@ -448,7 +465,8 @@
                     "type": "Literal",
                     "start": 919,
                     "end": 979,
-                    "value": "#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: "
+                    "value": "#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: ",
+                    "raw": "'#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -478,7 +496,8 @@
                               "type": "Literal",
                               "start": 995,
                               "end": 1000,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             }
                           ]
                         },
@@ -486,7 +505,8 @@
                           "type": "Literal",
                           "start": 1002,
                           "end": 1012,
-                          "value": "toString"
+                          "value": "toString",
+                          "raw": "\"toString\""
                         },
                         "computed": true,
                         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 609,
             "end": 610,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -106,7 +107,8 @@
                           "type": "Literal",
                           "start": 679,
                           "end": 680,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -171,7 +173,8 @@
             "type": "Literal",
             "start": 734,
             "end": 746,
-            "value": "byteOffset"
+            "value": "byteOffset",
+            "raw": "\"byteOffset\""
           },
           {
             "type": "Identifier",
@@ -249,7 +252,8 @@
                             "type": "Literal",
                             "start": 830,
                             "end": 831,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -292,13 +296,15 @@
                                 "type": "Literal",
                                 "start": 854,
                                 "end": 857,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 859,
                                 "end": 862,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               }
                             ]
                           }
@@ -397,13 +403,15 @@
                                 "type": "Literal",
                                 "start": 959,
                                 "end": 962,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 964,
                                 "end": 967,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               }
                             ]
                           }
@@ -462,13 +470,15 @@
                             "type": "Literal",
                             "start": 1009,
                             "end": 1010,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1012,
                             "end": 1013,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -527,7 +537,8 @@
                         "type": "Literal",
                         "start": 1055,
                         "end": 1067,
-                        "value": "byteOffset"
+                        "value": "byteOffset",
+                        "raw": "\"byteOffset\""
                       },
                       {
                         "type": "Identifier",
@@ -577,7 +588,8 @@
                         "type": "Literal",
                         "start": 1105,
                         "end": 1117,
-                        "value": "byteOffset"
+                        "value": "byteOffset",
+                        "raw": "\"byteOffset\""
                       },
                       {
                         "type": "Identifier",
@@ -627,7 +639,8 @@
                         "type": "Literal",
                         "start": 1156,
                         "end": 1168,
-                        "value": "byteOffset"
+                        "value": "byteOffset",
+                        "raw": "\"byteOffset\""
                       },
                       {
                         "type": "Identifier",
@@ -677,7 +690,8 @@
                         "type": "Literal",
                         "start": 1207,
                         "end": 1219,
-                        "value": "byteOffset"
+                        "value": "byteOffset",
+                        "raw": "\"byteOffset\""
                       },
                       {
                         "type": "Identifier",
@@ -841,13 +855,15 @@
                         "type": "Literal",
                         "start": 1318,
                         "end": 1319,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1321,
                         "end": 1352,
-                        "value": "ignores byteOffset properties"
+                        "value": "ignores byteOffset properties",
+                        "raw": "\"ignores byteOffset properties\""
                       }
                     ],
                     "optional": false

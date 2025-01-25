@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 308,
           "end": 318,
-          "value": 4294967295
+          "value": 4294967295,
+          "raw": "4294967295"
         }
       }
     },
@@ -147,13 +148,15 @@
             "type": "Literal",
             "start": 365,
             "end": 375,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 425,
-            "value": "The value of push is expected to be 4294967295"
+            "value": "The value of push is expected to be 4294967295",
+            "raw": "'The value of push is expected to be 4294967295'"
           }
         ],
         "optional": false
@@ -200,7 +203,8 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 447,
-                  "value": "x"
+                  "value": "x",
+                  "raw": "\"x\""
                 }
               ],
               "optional": false
@@ -229,7 +233,8 @@
                     "type": "Literal",
                     "start": 475,
                     "end": 552,
-                    "value": "#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: "
+                    "value": "#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: ",
+                    "raw": "'#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -314,13 +319,15 @@
                     "type": "Literal",
                     "start": 631,
                     "end": 635,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 641,
                     "end": 716,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -373,7 +380,8 @@
               "type": "Literal",
               "start": 744,
               "end": 754,
-              "value": 4294967295
+              "value": 4294967295,
+              "raw": "4294967295"
             },
             "computed": true,
             "optional": false
@@ -382,13 +390,15 @@
             "type": "Literal",
             "start": 757,
             "end": 760,
-            "value": "x"
+            "value": "x",
+            "raw": "\"x\""
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 812,
-            "value": "The value of x[4294967295] is expected to be \"x\""
+            "value": "The value of x[4294967295] is expected to be \"x\"",
+            "raw": "'The value of x[4294967295] is expected to be \"x\"'"
           }
         ],
         "optional": false
@@ -445,13 +455,15 @@
             "type": "Literal",
             "start": 842,
             "end": 852,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 906,
-            "value": "The value of x.length is expected to be 4294967295"
+            "value": "The value of x.length is expected to be 4294967295",
+            "raw": "'The value of x.length is expected to be 4294967295'"
           }
         ],
         "optional": false

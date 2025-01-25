@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1549,
         "end": 1553,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -54,7 +55,8 @@
                             "type": "Literal",
                             "start": 1566,
                             "end": 1614,
-                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js"
+                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
+                            "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
                           },
                           "options": null
                         },
@@ -147,7 +149,8 @@
                                       "type": "Literal",
                                       "start": 1677,
                                       "end": 1678,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ],
                                   "optional": false
@@ -204,7 +207,8 @@
                                       "type": "Literal",
                                       "start": 1720,
                                       "end": 1721,
-                                      "value": 2
+                                      "value": 2,
+                                      "raw": "2"
                                     }
                                   ],
                                   "optional": false

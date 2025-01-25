@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 312,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 315,
             "end": 316,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 345,
-            "value": "Number(\"0\") must return 0"
+            "value": "Number(\"0\") must return 0",
+            "raw": "'Number(\"0\") must return 0'"
           }
         ],
         "optional": false
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 372,
-                "value": "0x0"
+                "value": "0x0",
+                "raw": "\"0x0\""
               }
             }
           },
@@ -117,13 +121,15 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 423,
-            "value": "The value of `+(\"0x0\")` is expected to be 0"
+            "value": "The value of `+(\"0x0\")` is expected to be 0",
+            "raw": "'The value of `+(\"0x0\")` is expected to be 0'"
           }
         ],
         "optional": false
@@ -172,7 +178,8 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 455,
-                "value": "0X0"
+                "value": "0X0",
+                "raw": "\"0X0\""
               }
             ],
             "optional": false
@@ -181,13 +188,15 @@
             "type": "Literal",
             "start": 458,
             "end": 459,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 490,
-            "value": "Number(\"0X0\") must return 0"
+            "value": "Number(\"0X0\") must return 0",
+            "raw": "'Number(\"0X0\") must return 0'"
           }
         ],
         "optional": false

@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 293,
             "end": 298,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 319,
-            "value": "`!sym` is `false`"
+            "value": "`!sym` is `false`",
+            "raw": "\"`!sym` is `false`\""
           }
         ],
         "optional": false
@@ -144,13 +146,15 @@
             "type": "Literal",
             "start": 346,
             "end": 350,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 352,
             "end": 371,
-            "value": "`!!sym` is `true`"
+            "value": "`!!sym` is `true`",
+            "raw": "\"`!!sym` is `true`\""
           }
         ],
         "optional": false
@@ -197,7 +201,8 @@
                   "type": "Literal",
                   "start": 412,
                   "end": 453,
-                  "value": "ToBoolean(Symbol) always returns `true`"
+                  "value": "ToBoolean(Symbol) always returns `true`",
+                  "raw": "\"ToBoolean(Symbol) always returns `true`\""
                 }
               ]
             }
@@ -238,13 +243,15 @@
                     "type": "Literal",
                     "start": 483,
                     "end": 487,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 489,
                     "end": 516,
-                    "value": "`sym` evaluates to `true`"
+                    "value": "`sym` evaluates to `true`",
+                    "raw": "\"`sym` evaluates to `true`\""
                   }
                 ],
                 "optional": false
@@ -276,7 +283,8 @@
                     "type": "Literal",
                     "start": 553,
                     "end": 594,
-                    "value": "ToBoolean(Symbol) always returns `true`"
+                    "value": "ToBoolean(Symbol) always returns `true`",
+                    "raw": "\"ToBoolean(Symbol) always returns `true`\""
                   }
                 ]
               }

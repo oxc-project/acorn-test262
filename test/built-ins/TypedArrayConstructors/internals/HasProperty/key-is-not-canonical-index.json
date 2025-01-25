@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 619,
-                "value": "1.0"
+                "value": "1.0",
+                "raw": "\"1.0\""
               },
               {
                 "type": "Literal",
                 "start": 623,
                 "end": 627,
-                "value": "+1"
+                "value": "+1",
+                "raw": "\"+1\""
               },
               {
                 "type": "Literal",
                 "start": 631,
                 "end": 655,
-                "value": "1000000000000000000000"
+                "value": "1000000000000000000000",
+                "raw": "\"1000000000000000000000\""
               },
               {
                 "type": "Literal",
                 "start": 659,
                 "end": 670,
-                "value": "0.0000001"
+                "value": "0.0000001",
+                "raw": "\"0.0000001\""
               }
             ]
           }
@@ -168,7 +172,8 @@
                                         "type": "Literal",
                                         "start": 776,
                                         "end": 777,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       }
                                     ]
                                   }
@@ -247,7 +252,8 @@
                                     "type": "Literal",
                                     "start": 835,
                                     "end": 840,
-                                    "value": false
+                                    "value": false,
+                                    "raw": "false"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -261,7 +267,8 @@
                                         "type": "Literal",
                                         "start": 848,
                                         "end": 877,
-                                        "value": "returns false without key ["
+                                        "value": "returns false without key [",
+                                        "raw": "\"returns false without key [\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -276,7 +283,8 @@
                                       "type": "Literal",
                                       "start": 886,
                                       "end": 889,
-                                      "value": "]"
+                                      "value": "]",
+                                      "raw": "\"]\""
                                     }
                                   }
                                 ],
@@ -328,7 +336,8 @@
                                   "type": "Literal",
                                   "start": 930,
                                   "end": 932,
-                                  "value": 42
+                                  "value": 42,
+                                  "raw": "42"
                                 }
                               }
                             },
@@ -403,7 +412,8 @@
                                     "type": "Literal",
                                     "start": 989,
                                     "end": 993,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -417,7 +427,8 @@
                                         "type": "Literal",
                                         "start": 1001,
                                         "end": 1036,
-                                        "value": "returns true with inherited key ["
+                                        "value": "returns true with inherited key [",
+                                        "raw": "\"returns true with inherited key [\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -432,7 +443,8 @@
                                       "type": "Literal",
                                       "start": 1045,
                                       "end": 1048,
-                                      "value": "]"
+                                      "value": "]",
+                                      "raw": "\"]\""
                                     }
                                   }
                                 ],
@@ -545,7 +557,8 @@
                                           "type": "Literal",
                                           "start": 1143,
                                           "end": 1145,
-                                          "value": 42
+                                          "value": 42,
+                                          "raw": "42"
                                         },
                                         "kind": "init"
                                       }
@@ -626,7 +639,8 @@
                                     "type": "Literal",
                                     "start": 1204,
                                     "end": 1208,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -640,7 +654,8 @@
                                         "type": "Literal",
                                         "start": 1216,
                                         "end": 1245,
-                                        "value": "returns true with own key ["
+                                        "value": "returns true with own key [",
+                                        "raw": "\"returns true with own key [\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -655,7 +670,8 @@
                                       "type": "Literal",
                                       "start": 1254,
                                       "end": 1257,
-                                      "value": "]"
+                                      "value": "]",
+                                      "raw": "\"]\""
                                     }
                                   }
                                 ],

@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 336,
             "end": 368,
-            "value": "Object.getPrototypeOf(Boolean)"
+            "value": "Object.getPrototypeOf(Boolean)",
+            "raw": "'Object.getPrototypeOf(Boolean)'"
           }
         ],
         "optional": false

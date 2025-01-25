@@ -61,7 +61,8 @@
                   "type": "Literal",
                   "start": 1149,
                   "end": 1165,
-                  "value": "poison handled"
+                  "value": "poison handled",
+                  "raw": "'poison handled'"
                 }
               ]
             }
@@ -96,7 +97,8 @@
               "type": "Literal",
               "start": 1205,
               "end": 1217,
-              "value": "poison!!!!"
+              "value": "poison!!!!",
+              "raw": "'poison!!!!'"
             }
           }
         ]
@@ -229,7 +231,8 @@
             "type": "Literal",
             "start": 1324,
             "end": 1364,
-            "value": "undefined ?? poison() ?? morePoison();"
+            "value": "undefined ?? poison() ?? morePoison();",
+            "raw": "'undefined ?? poison() ?? morePoison();'"
           }
         ],
         "optional": false
@@ -322,7 +325,8 @@
                         "type": "Literal",
                         "start": 1428,
                         "end": 1432,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "operator": "??",
                       "right": {
@@ -362,7 +366,8 @@
             "type": "Literal",
             "start": 1465,
             "end": 1500,
-            "value": "null ?? poison() ?? morePoison();"
+            "value": "null ?? poison() ?? morePoison();",
+            "raw": "'null ?? poison() ?? morePoison();'"
           }
         ],
         "optional": false
@@ -460,7 +465,8 @@
             "type": "Literal",
             "start": 1578,
             "end": 1605,
-            "value": "poison() ?? morePoison();"
+            "value": "poison() ?? morePoison();",
+            "raw": "'poison() ?? morePoison();'"
           }
         ],
         "optional": false

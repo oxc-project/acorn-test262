@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 1194,
             "end": 1204,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1208,
             "end": 1281,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -219,13 +221,15 @@
             "type": "Literal",
             "start": 1846,
             "end": 1848,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           {
             "type": "Literal",
             "start": 1850,
             "end": 1898,
-            "value": "All globalThis properties must be configurable"
+            "value": "All globalThis properties must be configurable",
+            "raw": "'All globalThis properties must be configurable'"
           }
         ],
         "optional": false
@@ -333,13 +337,15 @@
             "type": "Literal",
             "start": 2835,
             "end": 2837,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           {
             "type": "Literal",
             "start": 2839,
             "end": 2891,
-            "value": "deleting any globalThis property must be effective"
+            "value": "deleting any globalThis property must be effective",
+            "raw": "'deleting any globalThis property must be effective'"
           }
         ],
         "optional": false

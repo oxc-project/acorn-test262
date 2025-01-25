@@ -23,6 +23,7 @@
             "start": 2701,
             "end": 2714,
             "value": null,
+            "raw": "/(?-i:Z\\B)/ui",
             "regex": {
               "pattern": "(?-i:Z\\B)",
               "flags": "ui"
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 2733,
                   "end": 2742,
-                  "value": "Zſ"
+                  "value": "Zſ",
+                  "raw": "\"Z\\u017f\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 2745,
             "end": 2788,
-            "value": "\\B should not match between Z and ſ"
+            "value": "\\B should not match between Z and ſ",
+            "raw": "\"\\\\B should not match between Z and \\u017f\""
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 2808,
                   "end": 2817,
-                  "value": "ZK"
+                  "value": "ZK",
+                  "raw": "\"Z\\u212a\""
                 }
               ],
               "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 2820,
             "end": 2863,
-            "value": "\\B should not match between Z and K"
+            "value": "\\B should not match between Z and K",
+            "raw": "\"\\\\B should not match between Z and \\u212a\""
           }
         ],
         "optional": false

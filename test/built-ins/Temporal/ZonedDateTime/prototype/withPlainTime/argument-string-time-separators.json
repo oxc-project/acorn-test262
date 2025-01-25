@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 294,
                     "end": 325,
-                    "value": "1976-11-18T12:34:56.987654321"
+                    "value": "1976-11-18T12:34:56.987654321",
+                    "raw": "\"1976-11-18T12:34:56.987654321\""
                   },
                   {
                     "type": "Literal",
                     "start": 327,
                     "end": 340,
-                    "value": "uppercase T"
+                    "value": "uppercase T",
+                    "raw": "\"uppercase T\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 346,
                     "end": 377,
-                    "value": "1976-11-18t12:34:56.987654321"
+                    "value": "1976-11-18t12:34:56.987654321",
+                    "raw": "\"1976-11-18t12:34:56.987654321\""
                   },
                   {
                     "type": "Literal",
                     "start": 379,
                     "end": 392,
-                    "value": "lowercase T"
+                    "value": "lowercase T",
+                    "raw": "\"lowercase T\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 429,
-                    "value": "1976-11-18 12:34:56.987654321"
+                    "value": "1976-11-18 12:34:56.987654321",
+                    "raw": "\"1976-11-18 12:34:56.987654321\""
                   },
                   {
                     "type": "Literal",
                     "start": 431,
                     "end": 460,
-                    "value": "space between date and time"
+                    "value": "space between date and time",
+                    "raw": "\"space between date and time\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 466,
                     "end": 487,
-                    "value": "T12:34:56.987654321"
+                    "value": "T12:34:56.987654321",
+                    "raw": "\"T12:34:56.987654321\""
                   },
                   {
                     "type": "Literal",
                     "start": 489,
                     "end": 512,
-                    "value": "time-only uppercase T"
+                    "value": "time-only uppercase T",
+                    "raw": "\"time-only uppercase T\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 539,
-                    "value": "t12:34:56.987654321"
+                    "value": "t12:34:56.987654321",
+                    "raw": "\"t12:34:56.987654321\""
                   },
                   {
                     "type": "Literal",
                     "start": 541,
                     "end": 564,
-                    "value": "time-only lowercase T"
+                    "value": "time-only lowercase T",
+                    "raw": "\"time-only lowercase T\""
                   }
                 ]
               }
@@ -143,7 +153,8 @@
             "type": "Literal",
             "start": 588,
             "end": 593,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -192,7 +203,8 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 641,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -371,7 +383,8 @@
                         "type": "Literal",
                         "start": 795,
                         "end": 814,
-                        "value": "45296987654321n"
+                        "value": "45296987654321n",
+                        "raw": "45_296_987_654_321n"
                       },
                       {
                         "type": "TemplateLiteral",

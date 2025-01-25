@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 463,
                 "end": 466,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 475,
             "end": 485,
-            "value": "<b>_</b>"
+            "value": "<b>_</b>",
+            "raw": "'<b>_</b>'"
           }
         ],
         "optional": false
@@ -107,7 +109,8 @@
                 "type": "Literal",
                 "start": 505,
                 "end": 508,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               },
               "property": {
                 "type": "Identifier",
@@ -125,7 +128,8 @@
             "type": "Literal",
             "start": 517,
             "end": 527,
-            "value": "<b><</b>"
+            "value": "<b><</b>",
+            "raw": "'<b><</b>'"
           }
         ],
         "optional": false
@@ -213,7 +217,8 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 578,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -222,7 +227,8 @@
             "type": "Literal",
             "start": 581,
             "end": 592,
-            "value": "<b>42</b>"
+            "value": "<b>42</b>",
+            "raw": "'<b>42</b>'"
           }
         ],
         "optional": false
@@ -453,7 +459,8 @@
                         "type": "Literal",
                         "start": 745,
                         "end": 749,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

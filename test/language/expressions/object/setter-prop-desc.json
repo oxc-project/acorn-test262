@@ -128,7 +128,8 @@
                 "type": "Literal",
                 "start": 995,
                 "end": 998,
-                "value": "m"
+                "value": "m",
+                "raw": "'m'"
               }
             ],
             "optional": false
@@ -162,7 +163,8 @@
             "type": "Literal",
             "start": 1022,
             "end": 1025,
-            "value": "m"
+            "value": "m",
+            "raw": "'m'"
           },
           {
             "type": "ObjectExpression",
@@ -186,7 +188,8 @@
                   "type": "Literal",
                   "start": 1043,
                   "end": 1047,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -207,7 +210,8 @@
                   "type": "Literal",
                   "start": 1065,
                   "end": 1069,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -274,7 +278,8 @@
             "type": "Literal",
             "start": 1116,
             "end": 1131,
-            "value": "`value` field"
+            "value": "`value` field",
+            "raw": "'`value` field'"
           }
         ],
         "optional": false
@@ -337,7 +342,8 @@
             "type": "Literal",
             "start": 1172,
             "end": 1185,
-            "value": "`get` field"
+            "value": "`get` field",
+            "raw": "'`get` field'"
           }
         ],
         "optional": false
@@ -401,13 +407,15 @@
             "type": "Literal",
             "start": 1222,
             "end": 1232,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1234,
             "end": 1255,
-            "value": "type of `set` field"
+            "value": "type of `set` field",
+            "raw": "'type of `set` field'"
           }
         ],
         "optional": false
@@ -469,7 +477,8 @@
                 "type": "Literal",
                 "start": 1284,
                 "end": 1287,
-                "value": 436
+                "value": 436,
+                "raw": "436"
               }
             ],
             "optional": false
@@ -478,13 +487,15 @@
             "type": "Literal",
             "start": 1290,
             "end": 1293,
-            "value": 436
+            "value": 436,
+            "raw": "436"
           },
           {
             "type": "Literal",
             "start": 1295,
             "end": 1324,
-            "value": "`set` function return value"
+            "value": "`set` function return value",
+            "raw": "'`set` function return value'"
           }
         ],
         "optional": false

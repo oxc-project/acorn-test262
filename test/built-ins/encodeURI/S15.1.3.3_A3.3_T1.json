@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 257,
               "end": 260,
-              "value": "#"
+              "value": "#",
+              "raw": "\"#\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 266,
           "end": 269,
-          "value": "#"
+          "value": "#",
+          "raw": "\"#\""
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 334,
-                  "value": "#1: unescapedURISet containing \"#\""
+                  "value": "#1: unescapedURISet containing \"#\"",
+                  "raw": "'#1: unescapedURISet containing \"#\"'"
                 }
               ]
             }

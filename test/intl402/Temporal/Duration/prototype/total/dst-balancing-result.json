@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 395,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 397,
                 "end": 398,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 401,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 405,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -121,13 +126,15 @@
                 "type": "Literal",
                 "start": 459,
                 "end": 481,
-                "value": "941184000000000000n"
+                "value": "941184000000000000n",
+                "raw": "941184000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 510,
                 "end": 529,
-                "value": "America/Vancouver"
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\""
               }
             ]
           }
@@ -196,7 +203,8 @@
                       "type": "Literal",
                       "start": 610,
                       "end": 616,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -268,13 +276,15 @@
             "type": "Literal",
             "start": 658,
             "end": 664,
-            "value": 366.96
+            "value": 366.96,
+            "raw": "366.96"
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 717,
-            "value": "24 hours does not balance to 1 day in 25-hour day"
+            "value": "24 hours does not balance to 1 day in 25-hour day",
+            "raw": "\"24 hours does not balance to 1 day in 25-hour day\""
           }
         ],
         "optional": false

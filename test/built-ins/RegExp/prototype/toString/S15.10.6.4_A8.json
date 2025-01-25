@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 412,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 417,
             "end": 421,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 496,
-            "value": "RegExp.prototype.toString.hasOwnProperty('length') must return true"
+            "value": "RegExp.prototype.toString.hasOwnProperty('length') must return true",
+            "raw": "'RegExp.prototype.toString.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -188,7 +191,8 @@
                 "type": "Literal",
                 "start": 568,
                 "end": 576,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -197,13 +201,15 @@
             "type": "Literal",
             "start": 581,
             "end": 586,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 668,
-            "value": "RegExp.prototype.toString.propertyIsEnumerable('length') must return false"
+            "value": "RegExp.prototype.toString.propertyIsEnumerable('length') must return false",
+            "raw": "'RegExp.prototype.toString.propertyIsEnumerable(\\'length\\') must return false'"
           }
         ],
         "optional": false
@@ -228,7 +234,8 @@
             "type": "Literal",
             "start": 683,
             "end": 684,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -314,7 +321,8 @@
                 "type": "Literal",
                 "start": 741,
                 "end": 749,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -385,13 +393,15 @@
             "type": "Literal",
             "start": 801,
             "end": 802,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 804,
             "end": 844,
-            "value": "The value of count is expected to be 0"
+            "value": "The value of count is expected to be 0",
+            "raw": "'The value of count is expected to be 0'"
           }
         ],
         "optional": false

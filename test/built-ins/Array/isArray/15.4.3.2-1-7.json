@@ -78,13 +78,15 @@
             "type": "Literal",
             "start": 294,
             "end": 299,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 301,
             "end": 349,
-            "value": "Array.isArray(function() {}) must return false"
+            "value": "Array.isArray(function() {}) must return false",
+            "raw": "'Array.isArray(function() {}) must return false'"
           }
         ],
         "optional": false

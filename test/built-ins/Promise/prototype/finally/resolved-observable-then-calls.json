@@ -179,7 +179,8 @@
                       "type": "Literal",
                       "start": 442,
                       "end": 443,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -410,7 +411,8 @@
                       "type": "Literal",
                       "start": 599,
                       "end": 600,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   ],
                   "optional": false
@@ -603,7 +605,8 @@
                                         "type": "Literal",
                                         "start": 702,
                                         "end": 703,
-                                        "value": 2
+                                        "value": 2,
+                                        "raw": "2"
                                       }
                                     ],
                                     "optional": false
@@ -726,7 +729,8 @@
                                     "type": "Literal",
                                     "start": 791,
                                     "end": 792,
-                                    "value": 3
+                                    "value": 3,
+                                    "raw": "3"
                                   }
                                 ],
                                 "optional": false
@@ -812,7 +816,8 @@
                                 "type": "Literal",
                                 "start": 847,
                                 "end": 848,
-                                "value": 5
+                                "value": 5,
+                                "raw": "5"
                               }
                             ],
                             "optional": false
@@ -943,7 +948,8 @@
                             "type": "Literal",
                             "start": 941,
                             "end": 942,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ],
                         "optional": false
@@ -974,7 +980,8 @@
                             "type": "Literal",
                             "start": 971,
                             "end": 1019,
-                            "value": "All expected callbacks called in correct order"
+                            "value": "All expected callbacks called in correct order",
+                            "raw": "\"All expected callbacks called in correct order\""
                           }
                         ],
                         "optional": false

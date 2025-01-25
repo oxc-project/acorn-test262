@@ -31,6 +31,7 @@
                 "start": 699,
                 "end": 704,
                 "value": {},
+                "raw": "/[/]/",
                 "regex": {
                   "pattern": "[/]",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 710,
                 "end": 713,
-                "value": "/"
+                "value": "/",
+                "raw": "\"/\""
               }
             ],
             "optional": false
@@ -59,7 +61,8 @@
             "type": "Literal",
             "start": 716,
             "end": 731,
-            "value": "Forward slash"
+            "value": "Forward slash",
+            "raw": "\"Forward slash\""
           }
         ],
         "optional": false
@@ -106,6 +109,7 @@
                 "start": 751,
                 "end": 756,
                 "value": {},
+                "raw": "/[/]/",
                 "regex": {
                   "pattern": "[/]",
                   "flags": ""
@@ -125,7 +129,8 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 765,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ],
             "optional": false
@@ -134,13 +139,15 @@
             "type": "Literal",
             "start": 768,
             "end": 773,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 790,
-            "value": "Forward slash"
+            "value": "Forward slash",
+            "raw": "\"Forward slash\""
           }
         ],
         "optional": false
@@ -174,6 +181,7 @@
                 "start": 801,
                 "end": 807,
                 "value": {},
+                "raw": "/[//]/",
                 "regex": {
                   "pattern": "[//]",
                   "flags": ""
@@ -193,7 +201,8 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 816,
-                "value": "/"
+                "value": "/",
+                "raw": "\"/\""
               }
             ],
             "optional": false
@@ -202,7 +211,8 @@
             "type": "Literal",
             "start": 819,
             "end": 845,
-            "value": "Forward slash - repeated"
+            "value": "Forward slash - repeated",
+            "raw": "\"Forward slash - repeated\""
           }
         ],
         "optional": false
@@ -249,6 +259,7 @@
                 "start": 865,
                 "end": 871,
                 "value": {},
+                "raw": "/[//]/",
                 "regex": {
                   "pattern": "[//]",
                   "flags": ""
@@ -268,7 +279,8 @@
                 "type": "Literal",
                 "start": 877,
                 "end": 880,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ],
             "optional": false
@@ -277,13 +289,15 @@
             "type": "Literal",
             "start": 883,
             "end": 888,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 916,
-            "value": "Forward slash - repeated"
+            "value": "Forward slash - repeated",
+            "raw": "\"Forward slash - repeated\""
           }
         ],
         "optional": false

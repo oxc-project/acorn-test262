@@ -61,7 +61,8 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 484,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           }
@@ -125,7 +126,8 @@
                     "type": "Literal",
                     "start": 632,
                     "end": 682,
-                    "value": "#1: __func() === undefined. Actual: __func() ==="
+                    "value": "#1: __func() === undefined. Actual: __func() ===",
+                    "raw": "'#1: __func() === undefined. Actual: __func() ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -199,7 +201,8 @@
                     "type": "Literal",
                     "start": 903,
                     "end": 935,
-                    "value": "#2: x === true. Actual: x === "
+                    "value": "#2: x === true. Actual: x === ",
+                    "raw": "'#2: x === true. Actual: x === '"
                   },
                   "operator": "+",
                   "right": {

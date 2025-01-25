@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 1007,
                 "end": 1018,
-                "value": "hourCycle"
+                "value": "hourCycle",
+                "raw": "\"hourCycle\""
               }
             ],
             "optional": false
@@ -202,7 +203,8 @@
             "type": "Literal",
             "start": 1102,
             "end": 1112,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -259,7 +261,8 @@
             "type": "Literal",
             "start": 1154,
             "end": 1165,
-            "value": "hourCycle"
+            "value": "hourCycle",
+            "raw": "\"hourCycle\""
           },
           {
             "type": "ObjectExpression",
@@ -283,7 +286,8 @@
                   "type": "Literal",
                   "start": 1183,
                   "end": 1188,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -304,7 +308,8 @@
                   "type": "Literal",
                   "start": 1206,
                   "end": 1210,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

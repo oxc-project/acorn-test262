@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 408,
-                "value": "[a-b]"
+                "value": "[a-b]",
+                "raw": "\"[a-b]\""
               }
             ]
           }
@@ -135,7 +136,8 @@
                     "type": "Literal",
                     "start": 493,
                     "end": 616,
-                    "value": "#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: "
+                    "value": "#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: ",
+                    "raw": "'#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -170,7 +172,8 @@
                           "type": "Literal",
                           "start": 636,
                           "end": 660,
-                          "value": "message to investigate"
+                          "value": "message to investigate",
+                          "raw": "\"message to investigate\""
                         }
                       ],
                       "optional": false
@@ -247,13 +250,15 @@
                     "type": "Literal",
                     "start": 747,
                     "end": 751,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 761,
                     "end": 835,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

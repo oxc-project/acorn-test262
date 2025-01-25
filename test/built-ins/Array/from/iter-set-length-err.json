@@ -114,7 +114,8 @@
             "type": "Literal",
             "start": 640,
             "end": 648,
-            "value": "length"
+            "value": "length",
+            "raw": "'length'"
           },
           {
             "type": "ObjectExpression",
@@ -300,7 +301,8 @@
                                       "type": "Literal",
                                       "start": 812,
                                       "end": 816,
-                                      "value": true
+                                      "value": true,
+                                      "raw": "true"
                                     },
                                     "kind": "init"
                                   }
@@ -432,7 +434,8 @@
             "type": "Literal",
             "start": 936,
             "end": 1017,
-            "value": "Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception"
+            "value": "Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception",
+            "raw": "'Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception'"
           }
         ],
         "optional": false

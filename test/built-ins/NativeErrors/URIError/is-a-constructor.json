@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 754,
             "end": 758,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 802,
-            "value": "isConstructor(URIError) must return true"
+            "value": "isConstructor(URIError) must return true",
+            "raw": "'isConstructor(URIError) must return true'"
           }
         ],
         "optional": false

@@ -24,13 +24,15 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 324,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 334,
-                "value": "+01:00"
+                "value": "+01:00",
+                "raw": "\"+01:00\""
               }
             ]
           },

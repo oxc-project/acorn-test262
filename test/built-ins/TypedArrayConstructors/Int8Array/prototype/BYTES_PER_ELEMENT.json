@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 835,
+  "end": 834,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 585,
-      "end": 644,
+      "start": 584,
+      "end": 643,
       "expression": {
         "type": "CallExpression",
-        "start": 585,
-        "end": 643,
+        "start": 584,
+        "end": 642,
         "callee": {
           "type": "MemberExpression",
-          "start": 585,
-          "end": 601,
+          "start": 584,
+          "end": 600,
           "object": {
             "type": "Identifier",
-            "start": 585,
-            "end": 591,
+            "start": 584,
+            "end": 590,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 592,
-            "end": 601,
+            "start": 591,
+            "end": 600,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 602,
-            "end": 639,
+            "start": 601,
+            "end": 638,
             "object": {
               "type": "MemberExpression",
-              "start": 602,
-              "end": 621,
+              "start": 601,
+              "end": 620,
               "object": {
                 "type": "Identifier",
-                "start": 602,
-                "end": 611,
+                "start": 601,
+                "end": 610,
                 "name": "Int8Array"
               },
               "property": {
                 "type": "Identifier",
-                "start": 612,
-                "end": 621,
+                "start": 611,
+                "end": 620,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 622,
-              "end": 639,
+              "start": 621,
+              "end": 638,
               "name": "BYTES_PER_ELEMENT"
             },
             "computed": false,
@@ -65,9 +65,10 @@
           },
           {
             "type": "Literal",
-            "start": 641,
-            "end": 642,
-            "value": 1
+            "start": 640,
+            "end": 641,
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -75,33 +76,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 646,
-      "end": 708,
+      "start": 645,
+      "end": 707,
       "expression": {
         "type": "CallExpression",
-        "start": 646,
-        "end": 707,
+        "start": 645,
+        "end": 706,
         "callee": {
           "type": "Identifier",
-          "start": 646,
-          "end": 665,
+          "start": 645,
+          "end": 664,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 666,
-            "end": 685,
+            "start": 665,
+            "end": 684,
             "object": {
               "type": "Identifier",
-              "start": 666,
-              "end": 675,
+              "start": 665,
+              "end": 674,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 676,
-              "end": 685,
+              "start": 675,
+              "end": 684,
               "name": "prototype"
             },
             "computed": false,
@@ -109,9 +110,10 @@
           },
           {
             "type": "Literal",
-            "start": 687,
-            "end": 706,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 686,
+            "end": 705,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -119,33 +121,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 709,
-      "end": 769,
+      "start": 708,
+      "end": 768,
       "expression": {
         "type": "CallExpression",
-        "start": 709,
-        "end": 768,
+        "start": 708,
+        "end": 767,
         "callee": {
           "type": "Identifier",
-          "start": 709,
-          "end": 726,
+          "start": 708,
+          "end": 725,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 727,
-            "end": 746,
+            "start": 726,
+            "end": 745,
             "object": {
               "type": "Identifier",
-              "start": 727,
-              "end": 736,
+              "start": 726,
+              "end": 735,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 737,
-              "end": 746,
+              "start": 736,
+              "end": 745,
               "name": "prototype"
             },
             "computed": false,
@@ -153,9 +155,10 @@
           },
           {
             "type": "Literal",
-            "start": 748,
-            "end": 767,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 747,
+            "end": 766,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -163,33 +166,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 834,
+      "start": 769,
+      "end": 833,
       "expression": {
         "type": "CallExpression",
-        "start": 770,
-        "end": 833,
+        "start": 769,
+        "end": 832,
         "callee": {
           "type": "Identifier",
-          "start": 770,
-          "end": 791,
+          "start": 769,
+          "end": 790,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 792,
-            "end": 811,
+            "start": 791,
+            "end": 810,
             "object": {
               "type": "Identifier",
-              "start": 792,
-              "end": 801,
+              "start": 791,
+              "end": 800,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 802,
-              "end": 811,
+              "start": 801,
+              "end": 810,
               "name": "prototype"
             },
             "computed": false,
@@ -197,9 +200,10 @@
           },
           {
             "type": "Literal",
-            "start": 813,
-            "end": 832,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 812,
+            "end": 831,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false

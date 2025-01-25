@@ -46,7 +46,8 @@
             "type": "Literal",
             "start": 309,
             "end": 314,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -115,7 +116,8 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 383,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -176,13 +178,15 @@
                   "type": "Literal",
                   "start": 431,
                   "end": 432,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 434,
                   "end": 436,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -203,7 +207,8 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 449,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -315,13 +320,15 @@
             "type": "Literal",
             "start": 523,
             "end": 527,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 581,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, this)"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, this)",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, this)'"
           }
         ],
         "optional": false
@@ -352,7 +359,8 @@
             "type": "Literal",
             "start": 601,
             "end": 620,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

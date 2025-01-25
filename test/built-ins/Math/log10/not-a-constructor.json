@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 726,
             "end": 731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.log10) must return false"
+            "value": "isConstructor(Math.log10) must return false",
+            "raw": "'isConstructor(Math.log10) must return false'"
           }
         ],
         "optional": false

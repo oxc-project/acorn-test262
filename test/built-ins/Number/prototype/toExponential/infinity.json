@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 936,
+  "end": 934,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 563,
-      "end": 643,
+      "start": 561,
+      "end": 641,
       "expression": {
         "type": "CallExpression",
-        "start": 563,
-        "end": 642,
+        "start": 561,
+        "end": 640,
         "callee": {
           "type": "MemberExpression",
-          "start": 563,
-          "end": 579,
+          "start": 561,
+          "end": 577,
           "object": {
             "type": "Identifier",
-            "start": 563,
-            "end": 569,
+            "start": 561,
+            "end": 567,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 570,
-            "end": 579,
+            "start": 568,
+            "end": 577,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,34 +33,34 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 580,
-            "end": 611,
+            "start": 578,
+            "end": 609,
             "callee": {
               "type": "MemberExpression",
-              "start": 580,
-              "end": 605,
+              "start": 578,
+              "end": 603,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 580,
-                "end": 591,
+                "start": 578,
+                "end": 589,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 581,
-                  "end": 590,
+                  "start": 579,
+                  "end": 588,
                   "operator": "+",
                   "prefix": true,
                   "argument": {
                     "type": "Identifier",
-                    "start": 582,
-                    "end": 590,
+                    "start": 580,
+                    "end": 588,
                     "name": "Infinity"
                   }
                 }
               },
               "property": {
                 "type": "Identifier",
-                "start": 592,
-                "end": 605,
+                "start": 590,
+                "end": 603,
                 "name": "toExponential"
               },
               "computed": false,
@@ -69,24 +69,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 606,
-                "end": 610,
-                "value": 1000
+                "start": 604,
+                "end": 608,
+                "value": 1000,
+                "raw": "1000"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 613,
-            "end": 623,
-            "value": "Infinity"
+            "start": 611,
+            "end": 621,
+            "value": "Infinity",
+            "raw": "\"Infinity\""
           },
           {
             "type": "Literal",
-            "start": 625,
-            "end": 641,
-            "value": "Infinity value"
+            "start": 623,
+            "end": 639,
+            "value": "Infinity value",
+            "raw": "\"Infinity value\""
           }
         ],
         "optional": false
@@ -94,40 +97,40 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 644,
-      "end": 674,
+      "start": 642,
+      "end": 672,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 648,
-          "end": 673,
+          "start": 646,
+          "end": 671,
           "id": {
             "type": "Identifier",
-            "start": 648,
-            "end": 649,
+            "start": 646,
+            "end": 647,
             "name": "n"
           },
           "init": {
             "type": "NewExpression",
-            "start": 652,
-            "end": 673,
+            "start": 650,
+            "end": 671,
             "callee": {
               "type": "Identifier",
-              "start": 656,
-              "end": 662,
+              "start": 654,
+              "end": 660,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 663,
-                "end": 672,
+                "start": 661,
+                "end": 670,
                 "operator": "+",
                 "prefix": true,
                 "argument": {
                   "type": "Identifier",
-                  "start": 664,
-                  "end": 672,
+                  "start": 662,
+                  "end": 670,
                   "name": "Infinity"
                 }
               }
@@ -139,26 +142,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 675,
-      "end": 746,
+      "start": 673,
+      "end": 744,
       "expression": {
         "type": "CallExpression",
-        "start": 675,
-        "end": 745,
+        "start": 673,
+        "end": 743,
         "callee": {
           "type": "MemberExpression",
-          "start": 675,
-          "end": 691,
+          "start": 673,
+          "end": 689,
           "object": {
             "type": "Identifier",
-            "start": 675,
-            "end": 681,
+            "start": 673,
+            "end": 679,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 682,
-            "end": 691,
+            "start": 680,
+            "end": 689,
             "name": "sameValue"
           },
           "computed": false,
@@ -167,22 +170,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 692,
-            "end": 713,
+            "start": 690,
+            "end": 711,
             "callee": {
               "type": "MemberExpression",
-              "start": 692,
-              "end": 707,
+              "start": 690,
+              "end": 705,
               "object": {
                 "type": "Identifier",
-                "start": 692,
-                "end": 693,
+                "start": 690,
+                "end": 691,
                 "name": "n"
               },
               "property": {
                 "type": "Identifier",
-                "start": 694,
-                "end": 707,
+                "start": 692,
+                "end": 705,
                 "name": "toExponential"
               },
               "computed": false,
@@ -191,24 +194,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 708,
-                "end": 712,
-                "value": 1000
+                "start": 706,
+                "end": 710,
+                "value": 1000,
+                "raw": "1000"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 725,
-            "value": "Infinity"
+            "start": 713,
+            "end": 723,
+            "value": "Infinity",
+            "raw": "\"Infinity\""
           },
           {
             "type": "Literal",
-            "start": 727,
-            "end": 744,
-            "value": "Number Infinity"
+            "start": 725,
+            "end": 742,
+            "value": "Number Infinity",
+            "raw": "\"Number Infinity\""
           }
         ],
         "optional": false
@@ -216,26 +222,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 748,
-      "end": 830,
+      "start": 746,
+      "end": 828,
       "expression": {
         "type": "CallExpression",
-        "start": 748,
-        "end": 829,
+        "start": 746,
+        "end": 827,
         "callee": {
           "type": "MemberExpression",
-          "start": 748,
-          "end": 764,
+          "start": 746,
+          "end": 762,
           "object": {
             "type": "Identifier",
-            "start": 748,
-            "end": 754,
+            "start": 746,
+            "end": 752,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 755,
-            "end": 764,
+            "start": 753,
+            "end": 762,
             "name": "sameValue"
           },
           "computed": false,
@@ -244,34 +250,34 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 765,
-            "end": 796,
+            "start": 763,
+            "end": 794,
             "callee": {
               "type": "MemberExpression",
-              "start": 765,
-              "end": 790,
+              "start": 763,
+              "end": 788,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 765,
-                "end": 776,
+                "start": 763,
+                "end": 774,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 766,
-                  "end": 775,
+                  "start": 764,
+                  "end": 773,
                   "operator": "-",
                   "prefix": true,
                   "argument": {
                     "type": "Identifier",
-                    "start": 767,
-                    "end": 775,
+                    "start": 765,
+                    "end": 773,
                     "name": "Infinity"
                   }
                 }
               },
               "property": {
                 "type": "Identifier",
-                "start": 777,
-                "end": 790,
+                "start": 775,
+                "end": 788,
                 "name": "toExponential"
               },
               "computed": false,
@@ -280,24 +286,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 791,
-                "end": 795,
-                "value": 1000
+                "start": 789,
+                "end": 793,
+                "value": 1000,
+                "raw": "1000"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 798,
-            "end": 809,
-            "value": "-Infinity"
+            "start": 796,
+            "end": 807,
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
           },
           {
             "type": "Literal",
-            "start": 811,
-            "end": 828,
-            "value": "-Infinity value"
+            "start": 809,
+            "end": 826,
+            "value": "-Infinity value",
+            "raw": "\"-Infinity value\""
           }
         ],
         "optional": false
@@ -305,40 +314,40 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 831,
-      "end": 861,
+      "start": 829,
+      "end": 859,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 835,
-          "end": 860,
+          "start": 833,
+          "end": 858,
           "id": {
             "type": "Identifier",
-            "start": 835,
-            "end": 836,
+            "start": 833,
+            "end": 834,
             "name": "n"
           },
           "init": {
             "type": "NewExpression",
-            "start": 839,
-            "end": 860,
+            "start": 837,
+            "end": 858,
             "callee": {
               "type": "Identifier",
-              "start": 843,
-              "end": 849,
+              "start": 841,
+              "end": 847,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 850,
-                "end": 859,
+                "start": 848,
+                "end": 857,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Identifier",
-                  "start": 851,
-                  "end": 859,
+                  "start": 849,
+                  "end": 857,
                   "name": "Infinity"
                 }
               }
@@ -350,26 +359,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 862,
-      "end": 935,
+      "start": 860,
+      "end": 933,
       "expression": {
         "type": "CallExpression",
-        "start": 862,
-        "end": 934,
+        "start": 860,
+        "end": 932,
         "callee": {
           "type": "MemberExpression",
-          "start": 862,
-          "end": 878,
+          "start": 860,
+          "end": 876,
           "object": {
             "type": "Identifier",
-            "start": 862,
-            "end": 868,
+            "start": 860,
+            "end": 866,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 869,
-            "end": 878,
+            "start": 867,
+            "end": 876,
             "name": "sameValue"
           },
           "computed": false,
@@ -378,22 +387,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 879,
-            "end": 900,
+            "start": 877,
+            "end": 898,
             "callee": {
               "type": "MemberExpression",
-              "start": 879,
-              "end": 894,
+              "start": 877,
+              "end": 892,
               "object": {
                 "type": "Identifier",
-                "start": 879,
-                "end": 880,
+                "start": 877,
+                "end": 878,
                 "name": "n"
               },
               "property": {
                 "type": "Identifier",
-                "start": 881,
-                "end": 894,
+                "start": 879,
+                "end": 892,
                 "name": "toExponential"
               },
               "computed": false,
@@ -402,24 +411,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 895,
-                "end": 899,
-                "value": 1000
+                "start": 893,
+                "end": 897,
+                "value": 1000,
+                "raw": "1000"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 902,
-            "end": 913,
-            "value": "-Infinity"
+            "start": 900,
+            "end": 911,
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
           },
           {
             "type": "Literal",
-            "start": 915,
-            "end": 933,
-            "value": "Number -Infinity"
+            "start": 913,
+            "end": 931,
+            "value": "Number -Infinity",
+            "raw": "\"Number -Infinity\""
           }
         ],
         "optional": false

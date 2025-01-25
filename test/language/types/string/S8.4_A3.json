@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 269,
             "end": 279,
-            "value": "ABCDEFGH"
+            "value": "ABCDEFGH",
+            "raw": "\"ABCDEFGH\""
           }
         }
       ],
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 391,
           "end": 392,
-          "value": 8
+          "value": 8,
+          "raw": "8"
         }
       },
       "consequent": {
@@ -91,7 +93,8 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 479,
-                    "value": "#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: "
+                    "value": "#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: ",
+                    "raw": "'#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 643,
+  "end": 641,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 542,
-      "end": 642,
+      "end": 640,
       "expression": {
         "type": "CallExpression",
         "start": 542,
-        "end": 641,
+        "end": 639,
         "callee": {
           "type": "MemberExpression",
           "start": 542,
@@ -40,7 +40,7 @@
           {
             "type": "FunctionExpression",
             "start": 569,
-            "end": 611,
+            "end": 610,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,16 +49,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 581,
-              "end": 611,
+              "end": 610,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 585,
-                  "end": 609,
+                  "end": 608,
                   "expression": {
                     "type": "CallExpression",
                     "start": 585,
-                    "end": 608,
+                    "end": 607,
                     "callee": {
                       "type": "Identifier",
                       "start": 585,
@@ -69,14 +69,16 @@
                       {
                         "type": "Literal",
                         "start": 592,
-                        "end": 603,
-                        "value": "(?mͫ-:a)"
+                        "end": 602,
+                        "value": "(?mͫ-:a)",
+                        "raw": "\"(?mͫ-:a)\""
                       },
                       {
                         "type": "Literal",
-                        "start": 605,
-                        "end": 607,
-                        "value": ""
+                        "start": 604,
+                        "end": 606,
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -87,9 +89,10 @@
           },
           {
             "type": "Literal",
-            "start": 613,
-            "end": 640,
-            "value": "RegExp(\"(?mͫ-:a)\", \"\"): "
+            "start": 612,
+            "end": 638,
+            "value": "RegExp(\"(?mͫ-:a)\", \"\"): ",
+            "raw": "'RegExp(\"(?mͫ-:a)\", \"\"): '"
           }
         ],
         "optional": false

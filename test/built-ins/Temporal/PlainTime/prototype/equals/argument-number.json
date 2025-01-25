@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 332,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 345,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 350,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 355,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -108,7 +114,8 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 380,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -120,20 +127,23 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 401,
-                  "value": 123456.987654321
+                  "value": 123456.987654321,
+                  "raw": "123456.987654321"
                 }
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 412,
-                "value": 1234567
+                "value": 1234567,
+                "raw": "1234567"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 433,
-                "value": 123456.9876543219
+                "value": 123456.9876543219,
+                "raw": "123456.9876543219"
               }
             ]
           }

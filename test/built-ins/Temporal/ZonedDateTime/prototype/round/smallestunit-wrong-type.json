@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 383,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 390,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -92,13 +94,15 @@
             "type": "Literal",
             "start": 436,
             "end": 450,
-            "value": "smallestUnit"
+            "value": "smallestUnit",
+            "raw": "\"smallestUnit\""
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 465,
-            "value": "microsecond"
+            "value": "microsecond",
+            "raw": "\"microsecond\""
           },
           {
             "type": "ArrowFunctionExpression",
@@ -241,7 +245,8 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 610,
-                  "value": "1000000000123988000n"
+                  "value": "1000000000123988000n",
+                  "raw": "1_000_000_000_123_988_000n"
                 },
                 {
                   "type": "Identifier",

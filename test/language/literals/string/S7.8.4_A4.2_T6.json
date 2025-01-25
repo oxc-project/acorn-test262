@@ -1,55 +1,58 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2208,
+  "end": 2107,
   "body": [
     {
       "type": "IfStatement",
-      "start": 295,
-      "end": 351,
+      "start": 293,
+      "end": 346,
       "test": {
         "type": "BinaryExpression",
-        "start": 299,
-        "end": 313,
+        "start": 297,
+        "end": 309,
         "left": {
           "type": "Literal",
-          "start": 299,
-          "end": 303,
-          "value": "А"
+          "start": 297,
+          "end": 300,
+          "value": "А",
+          "raw": "\"А\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 308,
-          "end": 313,
-          "value": "А"
+          "start": 305,
+          "end": 309,
+          "value": "А",
+          "raw": "\"\\А\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 315,
-        "end": 351,
+        "start": 311,
+        "end": 346,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 319,
-            "end": 349,
+            "start": 315,
+            "end": 344,
             "argument": {
               "type": "NewExpression",
-              "start": 325,
-              "end": 348,
+              "start": 321,
+              "end": 343,
               "callee": {
                 "type": "Identifier",
-                "start": 329,
-                "end": 341,
+                "start": 325,
+                "end": 337,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 342,
-                  "end": 347,
-                  "value": "#А"
+                  "start": 338,
+                  "end": 342,
+                  "value": "#А",
+                  "raw": "'#А'"
                 }
               ]
             }
@@ -60,51 +63,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 353,
-      "end": 409,
+      "start": 348,
+      "end": 401,
       "test": {
         "type": "BinaryExpression",
-        "start": 357,
-        "end": 371,
+        "start": 352,
+        "end": 364,
         "left": {
           "type": "Literal",
-          "start": 357,
-          "end": 361,
-          "value": "Б"
+          "start": 352,
+          "end": 355,
+          "value": "Б",
+          "raw": "\"Б\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 366,
-          "end": 371,
-          "value": "Б"
+          "start": 360,
+          "end": 364,
+          "value": "Б",
+          "raw": "\"\\Б\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 373,
-        "end": 409,
+        "start": 366,
+        "end": 401,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 377,
-            "end": 407,
+            "start": 370,
+            "end": 399,
             "argument": {
               "type": "NewExpression",
-              "start": 383,
-              "end": 406,
+              "start": 376,
+              "end": 398,
               "callee": {
                 "type": "Identifier",
-                "start": 387,
-                "end": 399,
+                "start": 380,
+                "end": 392,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 400,
-                  "end": 405,
-                  "value": "#Б"
+                  "start": 393,
+                  "end": 397,
+                  "value": "#Б",
+                  "raw": "'#Б'"
                 }
               ]
             }
@@ -115,51 +121,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 411,
-      "end": 467,
+      "start": 403,
+      "end": 456,
       "test": {
         "type": "BinaryExpression",
-        "start": 415,
-        "end": 429,
+        "start": 407,
+        "end": 419,
         "left": {
+          "type": "Literal",
+          "start": 407,
+          "end": 410,
+          "value": "В",
+          "raw": "\"В\""
+        },
+        "operator": "!==",
+        "right": {
           "type": "Literal",
           "start": 415,
           "end": 419,
-          "value": "В"
-        },
-        "operator": "!==",
-        "right": {
-          "type": "Literal",
-          "start": 424,
-          "end": 429,
-          "value": "В"
+          "value": "В",
+          "raw": "\"\\В\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 431,
-        "end": 467,
+        "start": 421,
+        "end": 456,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 435,
-            "end": 465,
+            "start": 425,
+            "end": 454,
             "argument": {
               "type": "NewExpression",
-              "start": 441,
-              "end": 464,
+              "start": 431,
+              "end": 453,
               "callee": {
                 "type": "Identifier",
-                "start": 445,
-                "end": 457,
+                "start": 435,
+                "end": 447,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 458,
-                  "end": 463,
-                  "value": "#В"
+                  "start": 448,
+                  "end": 452,
+                  "value": "#В",
+                  "raw": "'#В'"
                 }
               ]
             }
@@ -170,51 +179,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 469,
-      "end": 525,
+      "start": 458,
+      "end": 511,
       "test": {
         "type": "BinaryExpression",
-        "start": 473,
-        "end": 487,
+        "start": 462,
+        "end": 474,
         "left": {
           "type": "Literal",
-          "start": 473,
-          "end": 477,
-          "value": "Г"
+          "start": 462,
+          "end": 465,
+          "value": "Г",
+          "raw": "\"Г\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 482,
-          "end": 487,
-          "value": "Г"
+          "start": 470,
+          "end": 474,
+          "value": "Г",
+          "raw": "\"\\Г\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 489,
-        "end": 525,
+        "start": 476,
+        "end": 511,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 493,
-            "end": 523,
+            "start": 480,
+            "end": 509,
             "argument": {
               "type": "NewExpression",
-              "start": 499,
-              "end": 522,
+              "start": 486,
+              "end": 508,
               "callee": {
                 "type": "Identifier",
-                "start": 503,
-                "end": 515,
+                "start": 490,
+                "end": 502,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 516,
-                  "end": 521,
-                  "value": "#Г"
+                  "start": 503,
+                  "end": 507,
+                  "value": "#Г",
+                  "raw": "'#Г'"
                 }
               ]
             }
@@ -225,51 +237,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 527,
-      "end": 583,
+      "start": 513,
+      "end": 566,
       "test": {
         "type": "BinaryExpression",
+        "start": 517,
+        "end": 529,
+        "left": {
+          "type": "Literal",
+          "start": 517,
+          "end": 520,
+          "value": "Д",
+          "raw": "\"Д\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 525,
+          "end": 529,
+          "value": "Д",
+          "raw": "\"\\Д\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
         "start": 531,
-        "end": 545,
-        "left": {
-          "type": "Literal",
-          "start": 531,
-          "end": 535,
-          "value": "Д"
-        },
-        "operator": "!==",
-        "right": {
-          "type": "Literal",
-          "start": 540,
-          "end": 545,
-          "value": "Д"
-        }
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 547,
-        "end": 583,
+        "end": 566,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 551,
-            "end": 581,
+            "start": 535,
+            "end": 564,
             "argument": {
               "type": "NewExpression",
-              "start": 557,
-              "end": 580,
+              "start": 541,
+              "end": 563,
               "callee": {
                 "type": "Identifier",
-                "start": 561,
-                "end": 573,
+                "start": 545,
+                "end": 557,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 574,
-                  "end": 579,
-                  "value": "#Д"
+                  "start": 558,
+                  "end": 562,
+                  "value": "#Д",
+                  "raw": "'#Д'"
                 }
               ]
             }
@@ -280,51 +295,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 585,
-      "end": 641,
+      "start": 568,
+      "end": 621,
       "test": {
         "type": "BinaryExpression",
-        "start": 589,
-        "end": 603,
+        "start": 572,
+        "end": 584,
         "left": {
           "type": "Literal",
-          "start": 589,
-          "end": 593,
-          "value": "Е"
+          "start": 572,
+          "end": 575,
+          "value": "Е",
+          "raw": "\"Е\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 598,
-          "end": 603,
-          "value": "Е"
+          "start": 580,
+          "end": 584,
+          "value": "Е",
+          "raw": "\"\\Е\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 605,
-        "end": 641,
+        "start": 586,
+        "end": 621,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 609,
-            "end": 639,
+            "start": 590,
+            "end": 619,
             "argument": {
               "type": "NewExpression",
-              "start": 615,
-              "end": 638,
+              "start": 596,
+              "end": 618,
               "callee": {
                 "type": "Identifier",
-                "start": 619,
-                "end": 631,
+                "start": 600,
+                "end": 612,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 632,
-                  "end": 637,
-                  "value": "#Е"
+                  "start": 613,
+                  "end": 617,
+                  "value": "#Е",
+                  "raw": "'#Е'"
                 }
               ]
             }
@@ -335,51 +353,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 643,
-      "end": 699,
+      "start": 623,
+      "end": 676,
       "test": {
         "type": "BinaryExpression",
-        "start": 647,
-        "end": 661,
+        "start": 627,
+        "end": 639,
         "left": {
           "type": "Literal",
-          "start": 647,
-          "end": 651,
-          "value": "Ж"
+          "start": 627,
+          "end": 630,
+          "value": "Ж",
+          "raw": "\"Ж\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 656,
-          "end": 661,
-          "value": "Ж"
+          "start": 635,
+          "end": 639,
+          "value": "Ж",
+          "raw": "\"\\Ж\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 663,
-        "end": 699,
+        "start": 641,
+        "end": 676,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 667,
-            "end": 697,
+            "start": 645,
+            "end": 674,
             "argument": {
               "type": "NewExpression",
-              "start": 673,
-              "end": 696,
+              "start": 651,
+              "end": 673,
               "callee": {
                 "type": "Identifier",
-                "start": 677,
-                "end": 689,
+                "start": 655,
+                "end": 667,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 690,
-                  "end": 695,
-                  "value": "#Ж"
+                  "start": 668,
+                  "end": 672,
+                  "value": "#Ж",
+                  "raw": "'#Ж'"
                 }
               ]
             }
@@ -390,51 +411,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 701,
-      "end": 757,
+      "start": 678,
+      "end": 731,
       "test": {
         "type": "BinaryExpression",
-        "start": 705,
-        "end": 719,
+        "start": 682,
+        "end": 694,
         "left": {
           "type": "Literal",
-          "start": 705,
-          "end": 709,
-          "value": "З"
+          "start": 682,
+          "end": 685,
+          "value": "З",
+          "raw": "\"З\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 714,
-          "end": 719,
-          "value": "З"
+          "start": 690,
+          "end": 694,
+          "value": "З",
+          "raw": "\"\\З\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 721,
-        "end": 757,
+        "start": 696,
+        "end": 731,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 725,
-            "end": 755,
+            "start": 700,
+            "end": 729,
             "argument": {
               "type": "NewExpression",
-              "start": 731,
-              "end": 754,
+              "start": 706,
+              "end": 728,
               "callee": {
                 "type": "Identifier",
-                "start": 735,
-                "end": 747,
+                "start": 710,
+                "end": 722,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 748,
-                  "end": 753,
-                  "value": "#З"
+                  "start": 723,
+                  "end": 727,
+                  "value": "#З",
+                  "raw": "'#З'"
                 }
               ]
             }
@@ -445,51 +469,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 759,
-      "end": 815,
+      "start": 733,
+      "end": 786,
       "test": {
         "type": "BinaryExpression",
-        "start": 763,
-        "end": 777,
+        "start": 737,
+        "end": 749,
         "left": {
           "type": "Literal",
-          "start": 763,
-          "end": 767,
-          "value": "И"
+          "start": 737,
+          "end": 740,
+          "value": "И",
+          "raw": "\"И\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 772,
-          "end": 777,
-          "value": "И"
+          "start": 745,
+          "end": 749,
+          "value": "И",
+          "raw": "\"\\И\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 779,
-        "end": 815,
+        "start": 751,
+        "end": 786,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 783,
-            "end": 813,
+            "start": 755,
+            "end": 784,
             "argument": {
               "type": "NewExpression",
-              "start": 789,
-              "end": 812,
+              "start": 761,
+              "end": 783,
               "callee": {
                 "type": "Identifier",
-                "start": 793,
-                "end": 805,
+                "start": 765,
+                "end": 777,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 806,
-                  "end": 811,
-                  "value": "#И"
+                  "start": 778,
+                  "end": 782,
+                  "value": "#И",
+                  "raw": "'#И'"
                 }
               ]
             }
@@ -500,51 +527,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 817,
-      "end": 873,
+      "start": 788,
+      "end": 841,
       "test": {
         "type": "BinaryExpression",
-        "start": 821,
-        "end": 835,
+        "start": 792,
+        "end": 804,
         "left": {
           "type": "Literal",
-          "start": 821,
-          "end": 825,
-          "value": "Й"
+          "start": 792,
+          "end": 795,
+          "value": "Й",
+          "raw": "\"Й\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 830,
-          "end": 835,
-          "value": "Й"
+          "start": 800,
+          "end": 804,
+          "value": "Й",
+          "raw": "\"\\Й\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 837,
-        "end": 873,
+        "start": 806,
+        "end": 841,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 841,
-            "end": 871,
+            "start": 810,
+            "end": 839,
             "argument": {
               "type": "NewExpression",
-              "start": 847,
-              "end": 870,
+              "start": 816,
+              "end": 838,
               "callee": {
                 "type": "Identifier",
-                "start": 851,
-                "end": 863,
+                "start": 820,
+                "end": 832,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 864,
-                  "end": 869,
-                  "value": "#Й"
+                  "start": 833,
+                  "end": 837,
+                  "value": "#Й",
+                  "raw": "'#Й'"
                 }
               ]
             }
@@ -555,51 +585,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 875,
-      "end": 931,
+      "start": 843,
+      "end": 896,
       "test": {
         "type": "BinaryExpression",
-        "start": 879,
-        "end": 893,
+        "start": 847,
+        "end": 859,
         "left": {
           "type": "Literal",
-          "start": 879,
-          "end": 883,
-          "value": "К"
+          "start": 847,
+          "end": 850,
+          "value": "К",
+          "raw": "\"К\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 888,
-          "end": 893,
-          "value": "К"
+          "start": 855,
+          "end": 859,
+          "value": "К",
+          "raw": "\"\\К\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 895,
-        "end": 931,
+        "start": 861,
+        "end": 896,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 899,
-            "end": 929,
+            "start": 865,
+            "end": 894,
             "argument": {
               "type": "NewExpression",
-              "start": 905,
-              "end": 928,
+              "start": 871,
+              "end": 893,
               "callee": {
                 "type": "Identifier",
-                "start": 909,
-                "end": 921,
+                "start": 875,
+                "end": 887,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 922,
-                  "end": 927,
-                  "value": "#К"
+                  "start": 888,
+                  "end": 892,
+                  "value": "#К",
+                  "raw": "'#К'"
                 }
               ]
             }
@@ -610,51 +643,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 933,
-      "end": 989,
+      "start": 898,
+      "end": 951,
       "test": {
         "type": "BinaryExpression",
-        "start": 937,
+        "start": 902,
+        "end": 914,
+        "left": {
+          "type": "Literal",
+          "start": 902,
+          "end": 905,
+          "value": "Л",
+          "raw": "\"Л\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 910,
+          "end": 914,
+          "value": "Л",
+          "raw": "\"\\Л\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 916,
         "end": 951,
-        "left": {
-          "type": "Literal",
-          "start": 937,
-          "end": 941,
-          "value": "Л"
-        },
-        "operator": "!==",
-        "right": {
-          "type": "Literal",
-          "start": 946,
-          "end": 951,
-          "value": "Л"
-        }
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 953,
-        "end": 989,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 957,
-            "end": 987,
+            "start": 920,
+            "end": 949,
             "argument": {
               "type": "NewExpression",
-              "start": 963,
-              "end": 986,
+              "start": 926,
+              "end": 948,
               "callee": {
                 "type": "Identifier",
-                "start": 967,
-                "end": 979,
+                "start": 930,
+                "end": 942,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 980,
-                  "end": 985,
-                  "value": "#Л"
+                  "start": 943,
+                  "end": 947,
+                  "value": "#Л",
+                  "raw": "'#Л'"
                 }
               ]
             }
@@ -665,51 +701,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 991,
-      "end": 1047,
+      "start": 953,
+      "end": 1006,
       "test": {
         "type": "BinaryExpression",
-        "start": 995,
-        "end": 1009,
+        "start": 957,
+        "end": 969,
         "left": {
           "type": "Literal",
-          "start": 995,
-          "end": 999,
-          "value": "М"
+          "start": 957,
+          "end": 960,
+          "value": "М",
+          "raw": "\"М\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1004,
-          "end": 1009,
-          "value": "М"
+          "start": 965,
+          "end": 969,
+          "value": "М",
+          "raw": "\"\\М\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1011,
-        "end": 1047,
+        "start": 971,
+        "end": 1006,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1015,
-            "end": 1045,
+            "start": 975,
+            "end": 1004,
             "argument": {
               "type": "NewExpression",
-              "start": 1021,
-              "end": 1044,
+              "start": 981,
+              "end": 1003,
               "callee": {
                 "type": "Identifier",
-                "start": 1025,
-                "end": 1037,
+                "start": 985,
+                "end": 997,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1038,
-                  "end": 1043,
-                  "value": "#М"
+                  "start": 998,
+                  "end": 1002,
+                  "value": "#М",
+                  "raw": "'#М'"
                 }
               ]
             }
@@ -720,51 +759,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1049,
-      "end": 1105,
+      "start": 1008,
+      "end": 1061,
       "test": {
         "type": "BinaryExpression",
-        "start": 1053,
-        "end": 1067,
+        "start": 1012,
+        "end": 1024,
         "left": {
           "type": "Literal",
-          "start": 1053,
-          "end": 1057,
-          "value": "Н"
+          "start": 1012,
+          "end": 1015,
+          "value": "Н",
+          "raw": "\"Н\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1062,
-          "end": 1067,
-          "value": "Н"
+          "start": 1020,
+          "end": 1024,
+          "value": "Н",
+          "raw": "\"\\Н\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1069,
-        "end": 1105,
+        "start": 1026,
+        "end": 1061,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1073,
-            "end": 1103,
+            "start": 1030,
+            "end": 1059,
             "argument": {
               "type": "NewExpression",
-              "start": 1079,
-              "end": 1102,
+              "start": 1036,
+              "end": 1058,
               "callee": {
                 "type": "Identifier",
-                "start": 1083,
-                "end": 1095,
+                "start": 1040,
+                "end": 1052,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1096,
-                  "end": 1101,
-                  "value": "#Н"
+                  "start": 1053,
+                  "end": 1057,
+                  "value": "#Н",
+                  "raw": "'#Н'"
                 }
               ]
             }
@@ -775,106 +817,112 @@
     },
     {
       "type": "IfStatement",
-      "start": 1107,
-      "end": 1163,
+      "start": 1063,
+      "end": 1116,
       "test": {
         "type": "BinaryExpression",
-        "start": 1111,
-        "end": 1125,
+        "start": 1067,
+        "end": 1079,
         "left": {
           "type": "Literal",
-          "start": 1111,
-          "end": 1115,
-          "value": "О"
+          "start": 1067,
+          "end": 1070,
+          "value": "О",
+          "raw": "\"О\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1120,
+          "start": 1075,
+          "end": 1079,
+          "value": "О",
+          "raw": "\"\\О\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1081,
+        "end": 1116,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1085,
+            "end": 1114,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1091,
+              "end": 1113,
+              "callee": {
+                "type": "Identifier",
+                "start": 1095,
+                "end": 1107,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1108,
+                  "end": 1112,
+                  "value": "#О",
+                  "raw": "'#О'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1118,
+      "end": 1171,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1122,
+        "end": 1134,
+        "left": {
+          "type": "Literal",
+          "start": 1122,
           "end": 1125,
-          "value": "О"
-        }
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 1127,
-        "end": 1163,
-        "body": [
-          {
-            "type": "ThrowStatement",
-            "start": 1131,
-            "end": 1161,
-            "argument": {
-              "type": "NewExpression",
-              "start": 1137,
-              "end": 1160,
-              "callee": {
-                "type": "Identifier",
-                "start": 1141,
-                "end": 1153,
-                "name": "Test262Error"
-              },
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 1154,
-                  "end": 1159,
-                  "value": "#О"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "alternate": null
-    },
-    {
-      "type": "IfStatement",
-      "start": 1165,
-      "end": 1221,
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1169,
-        "end": 1183,
-        "left": {
-          "type": "Literal",
-          "start": 1169,
-          "end": 1173,
-          "value": "П"
+          "value": "П",
+          "raw": "\"П\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1178,
-          "end": 1183,
-          "value": "П"
+          "start": 1130,
+          "end": 1134,
+          "value": "П",
+          "raw": "\"\\П\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1185,
-        "end": 1221,
+        "start": 1136,
+        "end": 1171,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1189,
-            "end": 1219,
+            "start": 1140,
+            "end": 1169,
             "argument": {
               "type": "NewExpression",
-              "start": 1195,
-              "end": 1218,
+              "start": 1146,
+              "end": 1168,
               "callee": {
                 "type": "Identifier",
-                "start": 1199,
-                "end": 1211,
+                "start": 1150,
+                "end": 1162,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1212,
-                  "end": 1217,
-                  "value": "#П"
+                  "start": 1163,
+                  "end": 1167,
+                  "value": "#П",
+                  "raw": "'#П'"
                 }
               ]
             }
@@ -885,51 +933,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1223,
-      "end": 1279,
+      "start": 1173,
+      "end": 1226,
       "test": {
         "type": "BinaryExpression",
-        "start": 1227,
-        "end": 1241,
+        "start": 1177,
+        "end": 1189,
         "left": {
           "type": "Literal",
-          "start": 1227,
-          "end": 1231,
-          "value": "Р"
+          "start": 1177,
+          "end": 1180,
+          "value": "Р",
+          "raw": "\"Р\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1236,
-          "end": 1241,
-          "value": "Р"
+          "start": 1185,
+          "end": 1189,
+          "value": "Р",
+          "raw": "\"\\Р\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1243,
-        "end": 1279,
+        "start": 1191,
+        "end": 1226,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1247,
-            "end": 1277,
+            "start": 1195,
+            "end": 1224,
             "argument": {
               "type": "NewExpression",
-              "start": 1253,
-              "end": 1276,
+              "start": 1201,
+              "end": 1223,
               "callee": {
                 "type": "Identifier",
-                "start": 1257,
-                "end": 1269,
+                "start": 1205,
+                "end": 1217,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1270,
-                  "end": 1275,
-                  "value": "#Р"
+                  "start": 1218,
+                  "end": 1222,
+                  "value": "#Р",
+                  "raw": "'#Р'"
                 }
               ]
             }
@@ -940,39 +991,99 @@
     },
     {
       "type": "IfStatement",
-      "start": 1281,
-      "end": 1337,
+      "start": 1228,
+      "end": 1281,
       "test": {
         "type": "BinaryExpression",
-        "start": 1285,
+        "start": 1232,
+        "end": 1244,
+        "left": {
+          "type": "Literal",
+          "start": 1232,
+          "end": 1235,
+          "value": "С",
+          "raw": "\"С\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1240,
+          "end": 1244,
+          "value": "С",
+          "raw": "\"\\С\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1246,
+        "end": 1281,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1250,
+            "end": 1279,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1256,
+              "end": 1278,
+              "callee": {
+                "type": "Identifier",
+                "start": 1260,
+                "end": 1272,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1273,
+                  "end": 1277,
+                  "value": "#С",
+                  "raw": "'#С'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1283,
+      "end": 1336,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1287,
         "end": 1299,
         "left": {
           "type": "Literal",
-          "start": 1285,
-          "end": 1289,
-          "value": "С"
+          "start": 1287,
+          "end": 1290,
+          "value": "Т",
+          "raw": "\"Т\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1294,
+          "start": 1295,
           "end": 1299,
-          "value": "С"
+          "value": "Т",
+          "raw": "\"\\Т\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
         "start": 1301,
-        "end": 1337,
+        "end": 1336,
         "body": [
           {
             "type": "ThrowStatement",
             "start": 1305,
-            "end": 1335,
+            "end": 1334,
             "argument": {
               "type": "NewExpression",
               "start": 1311,
-              "end": 1334,
+              "end": 1333,
               "callee": {
                 "type": "Identifier",
                 "start": 1315,
@@ -983,8 +1094,9 @@
                 {
                   "type": "Literal",
                   "start": 1328,
-                  "end": 1333,
-                  "value": "#С"
+                  "end": 1332,
+                  "value": "#Т",
+                  "raw": "'#Т'"
                 }
               ]
             }
@@ -995,51 +1107,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1339,
-      "end": 1395,
+      "start": 1338,
+      "end": 1391,
       "test": {
         "type": "BinaryExpression",
-        "start": 1343,
-        "end": 1357,
+        "start": 1342,
+        "end": 1354,
         "left": {
           "type": "Literal",
-          "start": 1343,
-          "end": 1347,
-          "value": "Т"
+          "start": 1342,
+          "end": 1345,
+          "value": "У",
+          "raw": "\"У\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1352,
-          "end": 1357,
-          "value": "Т"
+          "start": 1350,
+          "end": 1354,
+          "value": "У",
+          "raw": "\"\\У\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1359,
-        "end": 1395,
+        "start": 1356,
+        "end": 1391,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1363,
-            "end": 1393,
+            "start": 1360,
+            "end": 1389,
             "argument": {
               "type": "NewExpression",
-              "start": 1369,
-              "end": 1392,
+              "start": 1366,
+              "end": 1388,
               "callee": {
                 "type": "Identifier",
-                "start": 1373,
-                "end": 1385,
+                "start": 1370,
+                "end": 1382,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1386,
-                  "end": 1391,
-                  "value": "#Т"
+                  "start": 1383,
+                  "end": 1387,
+                  "value": "#У",
+                  "raw": "'#У'"
                 }
               ]
             }
@@ -1050,51 +1165,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1397,
-      "end": 1453,
+      "start": 1393,
+      "end": 1446,
       "test": {
         "type": "BinaryExpression",
-        "start": 1401,
-        "end": 1415,
+        "start": 1397,
+        "end": 1409,
         "left": {
           "type": "Literal",
-          "start": 1401,
-          "end": 1405,
-          "value": "У"
+          "start": 1397,
+          "end": 1400,
+          "value": "Ф",
+          "raw": "\"Ф\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1410,
-          "end": 1415,
-          "value": "У"
+          "start": 1405,
+          "end": 1409,
+          "value": "Ф",
+          "raw": "\"\\Ф\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1417,
-        "end": 1453,
+        "start": 1411,
+        "end": 1446,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1421,
-            "end": 1451,
+            "start": 1415,
+            "end": 1444,
             "argument": {
               "type": "NewExpression",
-              "start": 1427,
-              "end": 1450,
+              "start": 1421,
+              "end": 1443,
               "callee": {
                 "type": "Identifier",
-                "start": 1431,
-                "end": 1443,
+                "start": 1425,
+                "end": 1437,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1444,
-                  "end": 1449,
-                  "value": "#У"
+                  "start": 1438,
+                  "end": 1442,
+                  "value": "#Ф",
+                  "raw": "'#Ф'"
                 }
               ]
             }
@@ -1105,51 +1223,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1455,
-      "end": 1511,
+      "start": 1448,
+      "end": 1501,
       "test": {
         "type": "BinaryExpression",
-        "start": 1459,
-        "end": 1473,
+        "start": 1452,
+        "end": 1464,
         "left": {
           "type": "Literal",
-          "start": 1459,
-          "end": 1463,
-          "value": "Ф"
+          "start": 1452,
+          "end": 1455,
+          "value": "Х",
+          "raw": "\"Х\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1468,
-          "end": 1473,
-          "value": "Ф"
+          "start": 1460,
+          "end": 1464,
+          "value": "Х",
+          "raw": "\"\\Х\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1475,
-        "end": 1511,
+        "start": 1466,
+        "end": 1501,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1479,
-            "end": 1509,
+            "start": 1470,
+            "end": 1499,
             "argument": {
               "type": "NewExpression",
-              "start": 1485,
-              "end": 1508,
+              "start": 1476,
+              "end": 1498,
               "callee": {
                 "type": "Identifier",
-                "start": 1489,
-                "end": 1501,
+                "start": 1480,
+                "end": 1492,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1502,
-                  "end": 1507,
-                  "value": "#Ф"
+                  "start": 1493,
+                  "end": 1497,
+                  "value": "#Х",
+                  "raw": "'#Х'"
                 }
               ]
             }
@@ -1160,51 +1281,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1513,
-      "end": 1569,
+      "start": 1503,
+      "end": 1556,
       "test": {
         "type": "BinaryExpression",
-        "start": 1517,
-        "end": 1531,
+        "start": 1507,
+        "end": 1519,
         "left": {
           "type": "Literal",
-          "start": 1517,
-          "end": 1521,
-          "value": "Х"
+          "start": 1507,
+          "end": 1510,
+          "value": "Ц",
+          "raw": "\"Ц\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1526,
-          "end": 1531,
-          "value": "Х"
+          "start": 1515,
+          "end": 1519,
+          "value": "Ц",
+          "raw": "\"\\Ц\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1533,
-        "end": 1569,
+        "start": 1521,
+        "end": 1556,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1537,
-            "end": 1567,
+            "start": 1525,
+            "end": 1554,
             "argument": {
               "type": "NewExpression",
-              "start": 1543,
-              "end": 1566,
+              "start": 1531,
+              "end": 1553,
               "callee": {
                 "type": "Identifier",
-                "start": 1547,
-                "end": 1559,
+                "start": 1535,
+                "end": 1547,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1560,
-                  "end": 1565,
-                  "value": "#Х"
+                  "start": 1548,
+                  "end": 1552,
+                  "value": "#Ц",
+                  "raw": "'#Ц'"
                 }
               ]
             }
@@ -1215,51 +1339,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1571,
-      "end": 1627,
+      "start": 1558,
+      "end": 1611,
       "test": {
         "type": "BinaryExpression",
-        "start": 1575,
-        "end": 1589,
+        "start": 1562,
+        "end": 1574,
         "left": {
           "type": "Literal",
-          "start": 1575,
-          "end": 1579,
-          "value": "Ц"
+          "start": 1562,
+          "end": 1565,
+          "value": "Ч",
+          "raw": "\"Ч\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1584,
-          "end": 1589,
-          "value": "Ц"
+          "start": 1570,
+          "end": 1574,
+          "value": "Ч",
+          "raw": "\"\\Ч\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1591,
-        "end": 1627,
+        "start": 1576,
+        "end": 1611,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1595,
-            "end": 1625,
+            "start": 1580,
+            "end": 1609,
             "argument": {
               "type": "NewExpression",
-              "start": 1601,
-              "end": 1624,
+              "start": 1586,
+              "end": 1608,
               "callee": {
                 "type": "Identifier",
-                "start": 1605,
-                "end": 1617,
+                "start": 1590,
+                "end": 1602,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1618,
-                  "end": 1623,
-                  "value": "#Ц"
+                  "start": 1603,
+                  "end": 1607,
+                  "value": "#Ч",
+                  "raw": "'#Ч'"
                 }
               ]
             }
@@ -1270,51 +1397,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1629,
-      "end": 1685,
+      "start": 1613,
+      "end": 1666,
       "test": {
         "type": "BinaryExpression",
-        "start": 1633,
-        "end": 1647,
+        "start": 1617,
+        "end": 1629,
         "left": {
           "type": "Literal",
-          "start": 1633,
-          "end": 1637,
-          "value": "Ч"
+          "start": 1617,
+          "end": 1620,
+          "value": "Ш",
+          "raw": "\"Ш\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1642,
-          "end": 1647,
-          "value": "Ч"
+          "start": 1625,
+          "end": 1629,
+          "value": "Ш",
+          "raw": "\"\\Ш\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1649,
-        "end": 1685,
+        "start": 1631,
+        "end": 1666,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1653,
-            "end": 1683,
+            "start": 1635,
+            "end": 1664,
             "argument": {
               "type": "NewExpression",
-              "start": 1659,
-              "end": 1682,
+              "start": 1641,
+              "end": 1663,
               "callee": {
                 "type": "Identifier",
-                "start": 1663,
-                "end": 1675,
+                "start": 1645,
+                "end": 1657,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1676,
-                  "end": 1681,
-                  "value": "#Ч"
+                  "start": 1658,
+                  "end": 1662,
+                  "value": "#Ш",
+                  "raw": "'#Ш'"
                 }
               ]
             }
@@ -1325,51 +1455,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1687,
-      "end": 1743,
+      "start": 1668,
+      "end": 1721,
       "test": {
         "type": "BinaryExpression",
-        "start": 1691,
-        "end": 1705,
+        "start": 1672,
+        "end": 1684,
         "left": {
           "type": "Literal",
-          "start": 1691,
-          "end": 1695,
-          "value": "Ш"
+          "start": 1672,
+          "end": 1675,
+          "value": "Щ",
+          "raw": "\"Щ\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1700,
-          "end": 1705,
-          "value": "Ш"
+          "start": 1680,
+          "end": 1684,
+          "value": "Щ",
+          "raw": "\"\\Щ\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1707,
-        "end": 1743,
+        "start": 1686,
+        "end": 1721,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1711,
-            "end": 1741,
+            "start": 1690,
+            "end": 1719,
             "argument": {
               "type": "NewExpression",
-              "start": 1717,
-              "end": 1740,
+              "start": 1696,
+              "end": 1718,
               "callee": {
                 "type": "Identifier",
-                "start": 1721,
-                "end": 1733,
+                "start": 1700,
+                "end": 1712,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1734,
-                  "end": 1739,
-                  "value": "#Ш"
+                  "start": 1713,
+                  "end": 1717,
+                  "value": "#Щ",
+                  "raw": "'#Щ'"
                 }
               ]
             }
@@ -1380,51 +1513,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1745,
-      "end": 1801,
+      "start": 1723,
+      "end": 1776,
       "test": {
         "type": "BinaryExpression",
-        "start": 1749,
-        "end": 1763,
+        "start": 1727,
+        "end": 1739,
         "left": {
           "type": "Literal",
-          "start": 1749,
-          "end": 1753,
-          "value": "Щ"
+          "start": 1727,
+          "end": 1730,
+          "value": "Ъ",
+          "raw": "\"Ъ\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1758,
-          "end": 1763,
-          "value": "Щ"
+          "start": 1735,
+          "end": 1739,
+          "value": "Ъ",
+          "raw": "\"\\Ъ\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1765,
-        "end": 1801,
+        "start": 1741,
+        "end": 1776,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1769,
-            "end": 1799,
+            "start": 1745,
+            "end": 1774,
             "argument": {
               "type": "NewExpression",
-              "start": 1775,
-              "end": 1798,
+              "start": 1751,
+              "end": 1773,
               "callee": {
                 "type": "Identifier",
-                "start": 1779,
-                "end": 1791,
+                "start": 1755,
+                "end": 1767,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1792,
-                  "end": 1797,
-                  "value": "#Щ"
+                  "start": 1768,
+                  "end": 1772,
+                  "value": "#Ъ",
+                  "raw": "'#Ъ'"
                 }
               ]
             }
@@ -1435,51 +1571,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1803,
-      "end": 1859,
+      "start": 1778,
+      "end": 1831,
       "test": {
         "type": "BinaryExpression",
-        "start": 1807,
-        "end": 1821,
+        "start": 1782,
+        "end": 1794,
         "left": {
           "type": "Literal",
-          "start": 1807,
-          "end": 1811,
-          "value": "Ъ"
+          "start": 1782,
+          "end": 1785,
+          "value": "Ы",
+          "raw": "\"Ы\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1816,
-          "end": 1821,
-          "value": "Ъ"
+          "start": 1790,
+          "end": 1794,
+          "value": "Ы",
+          "raw": "\"\\Ы\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1823,
-        "end": 1859,
+        "start": 1796,
+        "end": 1831,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1827,
-            "end": 1857,
+            "start": 1800,
+            "end": 1829,
             "argument": {
               "type": "NewExpression",
-              "start": 1833,
-              "end": 1856,
+              "start": 1806,
+              "end": 1828,
               "callee": {
                 "type": "Identifier",
-                "start": 1837,
-                "end": 1849,
+                "start": 1810,
+                "end": 1822,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1850,
-                  "end": 1855,
-                  "value": "#Ъ"
+                  "start": 1823,
+                  "end": 1827,
+                  "value": "#Ы",
+                  "raw": "'#Ы'"
                 }
               ]
             }
@@ -1490,51 +1629,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1861,
-      "end": 1917,
+      "start": 1833,
+      "end": 1886,
       "test": {
         "type": "BinaryExpression",
-        "start": 1865,
-        "end": 1879,
+        "start": 1837,
+        "end": 1849,
         "left": {
           "type": "Literal",
-          "start": 1865,
-          "end": 1869,
-          "value": "Ы"
+          "start": 1837,
+          "end": 1840,
+          "value": "Ь",
+          "raw": "\"Ь\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1874,
-          "end": 1879,
-          "value": "Ы"
+          "start": 1845,
+          "end": 1849,
+          "value": "Ь",
+          "raw": "\"\\Ь\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1881,
-        "end": 1917,
+        "start": 1851,
+        "end": 1886,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1885,
-            "end": 1915,
+            "start": 1855,
+            "end": 1884,
             "argument": {
               "type": "NewExpression",
-              "start": 1891,
-              "end": 1914,
+              "start": 1861,
+              "end": 1883,
               "callee": {
                 "type": "Identifier",
-                "start": 1895,
-                "end": 1907,
+                "start": 1865,
+                "end": 1877,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1908,
-                  "end": 1913,
-                  "value": "#Ы"
+                  "start": 1878,
+                  "end": 1882,
+                  "value": "#Ь",
+                  "raw": "'#Ь'"
                 }
               ]
             }
@@ -1545,51 +1687,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1919,
-      "end": 1975,
+      "start": 1888,
+      "end": 1941,
       "test": {
         "type": "BinaryExpression",
-        "start": 1923,
-        "end": 1937,
+        "start": 1892,
+        "end": 1904,
         "left": {
           "type": "Literal",
-          "start": 1923,
-          "end": 1927,
-          "value": "Ь"
+          "start": 1892,
+          "end": 1895,
+          "value": "Э",
+          "raw": "\"Э\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1932,
-          "end": 1937,
-          "value": "Ь"
+          "start": 1900,
+          "end": 1904,
+          "value": "Э",
+          "raw": "\"\\Э\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1939,
-        "end": 1975,
+        "start": 1906,
+        "end": 1941,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1943,
-            "end": 1973,
+            "start": 1910,
+            "end": 1939,
             "argument": {
               "type": "NewExpression",
-              "start": 1949,
-              "end": 1972,
+              "start": 1916,
+              "end": 1938,
               "callee": {
                 "type": "Identifier",
-                "start": 1953,
-                "end": 1965,
+                "start": 1920,
+                "end": 1932,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1966,
-                  "end": 1971,
-                  "value": "#Ь"
+                  "start": 1933,
+                  "end": 1937,
+                  "value": "#Э",
+                  "raw": "'#Э'"
                 }
               ]
             }
@@ -1600,51 +1745,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 1977,
-      "end": 2033,
+      "start": 1943,
+      "end": 1996,
       "test": {
         "type": "BinaryExpression",
-        "start": 1981,
-        "end": 1995,
+        "start": 1947,
+        "end": 1959,
         "left": {
           "type": "Literal",
-          "start": 1981,
-          "end": 1985,
-          "value": "Э"
+          "start": 1947,
+          "end": 1950,
+          "value": "Ю",
+          "raw": "\"Ю\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1990,
-          "end": 1995,
-          "value": "Э"
+          "start": 1955,
+          "end": 1959,
+          "value": "Ю",
+          "raw": "\"\\Ю\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1997,
-        "end": 2033,
+        "start": 1961,
+        "end": 1996,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2001,
-            "end": 2031,
+            "start": 1965,
+            "end": 1994,
             "argument": {
               "type": "NewExpression",
-              "start": 2007,
-              "end": 2030,
+              "start": 1971,
+              "end": 1993,
               "callee": {
                 "type": "Identifier",
-                "start": 2011,
-                "end": 2023,
+                "start": 1975,
+                "end": 1987,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2024,
-                  "end": 2029,
-                  "value": "#Э"
+                  "start": 1988,
+                  "end": 1992,
+                  "value": "#Ю",
+                  "raw": "'#Ю'"
                 }
               ]
             }
@@ -1655,51 +1803,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 2035,
-      "end": 2091,
+      "start": 1998,
+      "end": 2051,
       "test": {
         "type": "BinaryExpression",
-        "start": 2039,
-        "end": 2053,
+        "start": 2002,
+        "end": 2014,
         "left": {
           "type": "Literal",
-          "start": 2039,
-          "end": 2043,
-          "value": "Ю"
+          "start": 2002,
+          "end": 2005,
+          "value": "Я",
+          "raw": "\"Я\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 2048,
-          "end": 2053,
-          "value": "Ю"
+          "start": 2010,
+          "end": 2014,
+          "value": "Я",
+          "raw": "\"\\Я\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2055,
-        "end": 2091,
+        "start": 2016,
+        "end": 2051,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2059,
-            "end": 2089,
+            "start": 2020,
+            "end": 2049,
             "argument": {
               "type": "NewExpression",
-              "start": 2065,
-              "end": 2088,
+              "start": 2026,
+              "end": 2048,
               "callee": {
                 "type": "Identifier",
-                "start": 2069,
-                "end": 2081,
+                "start": 2030,
+                "end": 2042,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2082,
-                  "end": 2087,
-                  "value": "#Ю"
+                  "start": 2043,
+                  "end": 2047,
+                  "value": "#Я",
+                  "raw": "'#Я'"
                 }
               ]
             }
@@ -1710,106 +1861,54 @@
     },
     {
       "type": "IfStatement",
-      "start": 2093,
-      "end": 2149,
+      "start": 2053,
+      "end": 2106,
       "test": {
         "type": "BinaryExpression",
-        "start": 2097,
-        "end": 2111,
+        "start": 2057,
+        "end": 2069,
         "left": {
           "type": "Literal",
-          "start": 2097,
-          "end": 2101,
-          "value": "Я"
+          "start": 2057,
+          "end": 2060,
+          "value": "Ё",
+          "raw": "\"Ё\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 2106,
-          "end": 2111,
-          "value": "Я"
+          "start": 2065,
+          "end": 2069,
+          "value": "Ё",
+          "raw": "\"\\Ё\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2113,
-        "end": 2149,
+        "start": 2071,
+        "end": 2106,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2117,
-            "end": 2147,
+            "start": 2075,
+            "end": 2104,
             "argument": {
               "type": "NewExpression",
-              "start": 2123,
-              "end": 2146,
+              "start": 2081,
+              "end": 2103,
               "callee": {
                 "type": "Identifier",
-                "start": 2127,
-                "end": 2139,
+                "start": 2085,
+                "end": 2097,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2140,
-                  "end": 2145,
-                  "value": "#Я"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "alternate": null
-    },
-    {
-      "type": "IfStatement",
-      "start": 2151,
-      "end": 2207,
-      "test": {
-        "type": "BinaryExpression",
-        "start": 2155,
-        "end": 2169,
-        "left": {
-          "type": "Literal",
-          "start": 2155,
-          "end": 2159,
-          "value": "Ё"
-        },
-        "operator": "!==",
-        "right": {
-          "type": "Literal",
-          "start": 2164,
-          "end": 2169,
-          "value": "Ё"
-        }
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 2171,
-        "end": 2207,
-        "body": [
-          {
-            "type": "ThrowStatement",
-            "start": 2175,
-            "end": 2205,
-            "argument": {
-              "type": "NewExpression",
-              "start": 2181,
-              "end": 2204,
-              "callee": {
-                "type": "Identifier",
-                "start": 2185,
-                "end": 2197,
-                "name": "Test262Error"
-              },
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 2198,
-                  "end": 2203,
-                  "value": "#Ё"
+                  "start": 2098,
+                  "end": 2102,
+                  "value": "#Ё",
+                  "raw": "'#Ё'"
                 }
               ]
             }

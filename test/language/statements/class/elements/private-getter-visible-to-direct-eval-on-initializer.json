@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 1802,
                       "end": 1811,
-                      "value": "Test262"
+                      "value": "Test262",
+                      "raw": "\"Test262\""
                     }
                   }
                 ]
@@ -88,7 +89,8 @@
                   "type": "Literal",
                   "start": 1827,
                   "end": 1836,
-                  "value": "this.#m"
+                  "value": "this.#m",
+                  "raw": "\"this.#m\""
                 }
               ],
               "optional": false
@@ -179,7 +181,8 @@
             "type": "Literal",
             "start": 1881,
             "end": 1890,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "\"Test262\""
           }
         ],
         "optional": false

@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 429,
             "end": 434,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -124,7 +125,8 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 449,
-                  "value": 12
+                  "value": 12,
+                  "raw": "12"
                 },
                 "kind": "init"
               },
@@ -145,7 +147,8 @@
                   "type": "Literal",
                   "start": 467,
                   "end": 472,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -241,7 +244,8 @@
                         "type": "Literal",
                         "start": 547,
                         "end": 552,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "\"foo\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -265,7 +269,8 @@
                               "type": "Literal",
                               "start": 567,
                               "end": 569,
-                              "value": 11
+                              "value": 11,
+                              "raw": "11"
                             },
                             "kind": "init"
                           },
@@ -286,7 +291,8 @@
                               "type": "Literal",
                               "start": 589,
                               "end": 593,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -354,13 +360,15 @@
             "type": "Literal",
             "start": 633,
             "end": 635,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 637,
             "end": 649,
-            "value": "argObj.foo"
+            "value": "argObj.foo",
+            "raw": "'argObj.foo'"
           }
         ],
         "optional": false

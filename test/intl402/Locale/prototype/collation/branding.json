@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 568,
                 "end": 579,
-                "value": "collation"
+                "value": "collation",
+                "raw": "\"collation\""
               }
             ],
             "optional": false
@@ -117,19 +118,22 @@
                 "type": "Literal",
                 "start": 621,
                 "end": 625,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 629,
                 "end": 633,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 639,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "CallExpression",
@@ -148,7 +152,8 @@
                 "type": "Literal",
                 "start": 655,
                 "end": 656,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "ObjectExpression",

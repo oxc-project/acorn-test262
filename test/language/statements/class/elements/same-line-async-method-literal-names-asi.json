@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 650,
                       "end": 652,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     }
                   }
                 ]
@@ -91,7 +92,8 @@
               "type": "Literal",
               "start": 664,
               "end": 666,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         ]
@@ -209,7 +211,8 @@
                   "type": "Literal",
                   "start": 744,
                   "end": 747,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -219,7 +222,8 @@
             "type": "Literal",
             "start": 752,
             "end": 807,
-            "value": "m doesn't appear as an own property on the C instance"
+            "value": "m doesn't appear as an own property on the C instance",
+            "raw": "\"m doesn't appear as an own property on the C instance\""
           }
         ],
         "optional": false
@@ -346,7 +350,8 @@
             "type": "Literal",
             "start": 878,
             "end": 881,
-            "value": "m"
+            "value": "m",
+            "raw": "\"m\""
           },
           {
             "type": "ObjectExpression",
@@ -370,7 +375,8 @@
                   "type": "Literal",
                   "start": 899,
                   "end": 904,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -391,7 +397,8 @@
                   "type": "Literal",
                   "start": 922,
                   "end": 926,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -412,7 +419,8 @@
                   "type": "Literal",
                   "start": 940,
                   "end": 944,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -440,7 +448,8 @@
                   "type": "Literal",
                   "start": 959,
                   "end": 963,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -565,7 +574,8 @@
                             "type": "Literal",
                             "start": 1015,
                             "end": 1017,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -650,7 +660,8 @@
                                               "type": "Literal",
                                               "start": 1169,
                                               "end": 1195,
-                                              "value": "Test262:AsyncTestFailure"
+                                              "value": "Test262:AsyncTestFailure",
+                                              "raw": "'Test262:AsyncTestFailure'"
                                             }
                                           ]
                                         }
@@ -756,7 +767,8 @@
                                         "type": "Literal",
                                         "start": 1280,
                                         "end": 1283,
-                                        "value": "a"
+                                        "value": "a",
+                                        "raw": "\"a\""
                                       }
                                     ],
                                     "optional": false
@@ -766,7 +778,8 @@
                                   "type": "Literal",
                                   "start": 1292,
                                   "end": 1344,
-                                  "value": "a doesn't appear as an own property on C prototype"
+                                  "value": "a doesn't appear as an own property on C prototype",
+                                  "raw": "\"a doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -853,7 +866,8 @@
                                         "type": "Literal",
                                         "start": 1411,
                                         "end": 1414,
-                                        "value": "a"
+                                        "value": "a",
+                                        "raw": "\"a\""
                                       }
                                     ],
                                     "optional": false
@@ -863,7 +877,8 @@
                                   "type": "Literal",
                                   "start": 1423,
                                   "end": 1477,
-                                  "value": "a doesn't appear as an own property on C constructor"
+                                  "value": "a doesn't appear as an own property on C constructor",
+                                  "raw": "\"a doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -894,7 +909,8 @@
                                   "type": "Literal",
                                   "start": 1508,
                                   "end": 1511,
-                                  "value": "a"
+                                  "value": "a",
+                                  "raw": "\"a\""
                                 },
                                 {
                                   "type": "ObjectExpression",
@@ -939,7 +955,8 @@
                                         "type": "Literal",
                                         "start": 1557,
                                         "end": 1561,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -960,7 +977,8 @@
                                         "type": "Literal",
                                         "start": 1579,
                                         "end": 1583,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -981,7 +999,8 @@
                                         "type": "Literal",
                                         "start": 1605,
                                         "end": 1609,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     }
@@ -1085,7 +1104,8 @@
                                         "type": "Literal",
                                         "start": 1688,
                                         "end": 1691,
-                                        "value": "b"
+                                        "value": "b",
+                                        "raw": "\"b\""
                                       }
                                     ],
                                     "optional": false
@@ -1095,7 +1115,8 @@
                                   "type": "Literal",
                                   "start": 1700,
                                   "end": 1752,
-                                  "value": "b doesn't appear as an own property on C prototype"
+                                  "value": "b doesn't appear as an own property on C prototype",
+                                  "raw": "\"b doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -1182,7 +1203,8 @@
                                         "type": "Literal",
                                         "start": 1819,
                                         "end": 1822,
-                                        "value": "b"
+                                        "value": "b",
+                                        "raw": "\"b\""
                                       }
                                     ],
                                     "optional": false
@@ -1192,7 +1214,8 @@
                                   "type": "Literal",
                                   "start": 1831,
                                   "end": 1885,
-                                  "value": "b doesn't appear as an own property on C constructor"
+                                  "value": "b doesn't appear as an own property on C constructor",
+                                  "raw": "\"b doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -1223,7 +1246,8 @@
                                   "type": "Literal",
                                   "start": 1916,
                                   "end": 1919,
-                                  "value": "b"
+                                  "value": "b",
+                                  "raw": "\"b\""
                                 },
                                 {
                                   "type": "ObjectExpression",
@@ -1247,7 +1271,8 @@
                                         "type": "Literal",
                                         "start": 1936,
                                         "end": 1938,
-                                        "value": 42
+                                        "value": 42,
+                                        "raw": "42"
                                       },
                                       "kind": "init"
                                     },
@@ -1268,7 +1293,8 @@
                                         "type": "Literal",
                                         "start": 1958,
                                         "end": 1962,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1289,7 +1315,8 @@
                                         "type": "Literal",
                                         "start": 1980,
                                         "end": 1984,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1310,7 +1337,8 @@
                                         "type": "Literal",
                                         "start": 2006,
                                         "end": 2010,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     }

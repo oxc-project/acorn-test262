@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 389,
-                  "value": "__proto__"
+                  "value": "__proto__",
+                  "raw": "'__proto__'"
                 }
               ],
               "optional": false
@@ -132,7 +133,8 @@
             "type": "Literal",
             "start": 426,
             "end": 436,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -311,7 +313,8 @@
                         "type": "Literal",
                         "start": 555,
                         "end": 559,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

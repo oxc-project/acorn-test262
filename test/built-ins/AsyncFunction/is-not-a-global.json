@@ -69,7 +69,8 @@
             "type": "Literal",
             "start": 362,
             "end": 411,
-            "value": "AsyncFunction should not be present as a global"
+            "value": "AsyncFunction should not be present as a global",
+            "raw": "\"AsyncFunction should not be present as a global\""
           }
         ],
         "optional": false

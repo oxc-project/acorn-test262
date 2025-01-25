@@ -117,7 +117,8 @@
                   "type": "Literal",
                   "start": 432,
                   "end": 443,
-                  "value": "__ARRAY__"
+                  "value": "__ARRAY__",
+                  "raw": "\"__ARRAY__\""
                 }
               }
             ]
@@ -245,7 +246,8 @@
           "type": "Literal",
           "start": 698,
           "end": 706,
-          "value": "string"
+          "value": "string",
+          "raw": "\"string\""
         }
       },
       "consequent": {
@@ -276,7 +278,8 @@
                     "type": "Literal",
                     "start": 735,
                     "end": 819,
-                    "value": "#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ==="
+                    "value": "#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -319,7 +322,8 @@
           "type": "Literal",
           "start": 1025,
           "end": 1036,
-          "value": "__ARRAY__"
+          "value": "__ARRAY__",
+          "raw": "\"__ARRAY__\""
         }
       },
       "consequent": {
@@ -350,7 +354,8 @@
                     "type": "Literal",
                     "start": 1065,
                     "end": 1196,
-                    "value": "#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ==="
+                    "value": "#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ===",
+                    "raw": "'#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ==='"
                   },
                   "operator": "+",
                   "right": {

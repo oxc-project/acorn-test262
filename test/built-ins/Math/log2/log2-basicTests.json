@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 231,
                   "end": 232,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -94,7 +95,8 @@
             "type": "Literal",
             "start": 263,
             "end": 307,
-            "value": "Math.log2 produces incorrect output for -0"
+            "value": "Math.log2 produces incorrect output for -0",
+            "raw": "\"Math.log2 produces incorrect output for -0\""
           }
         ],
         "optional": false
@@ -162,7 +164,8 @@
                   "type": "Literal",
                   "start": 338,
                   "end": 339,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -191,7 +194,8 @@
             "type": "Literal",
             "start": 370,
             "end": 414,
-            "value": "Math.log2 produces incorrect output for +0"
+            "value": "Math.log2 produces incorrect output for +0",
+            "raw": "\"Math.log2 produces incorrect output for +0\""
           }
         ],
         "optional": false
@@ -259,7 +263,8 @@
                   "type": "Literal",
                   "start": 445,
                   "end": 448,
-                  "value": 0.9
+                  "value": 0.9,
+                  "raw": "0.9"
                 }
               }
             ],
@@ -275,7 +280,8 @@
             "type": "Literal",
             "start": 458,
             "end": 504,
-            "value": "Math.log2 produces incorrect output for -0.9"
+            "value": "Math.log2 produces incorrect output for -0.9",
+            "raw": "\"Math.log2 produces incorrect output for -0.9\""
           }
         ],
         "optional": false
@@ -352,7 +358,8 @@
             "type": "Literal",
             "start": 547,
             "end": 592,
-            "value": "Math.log2 produces incorrect output for NaN"
+            "value": "Math.log2 produces incorrect output for NaN",
+            "raw": "\"Math.log2 produces incorrect output for NaN\""
           }
         ],
         "optional": false
@@ -420,7 +427,8 @@
                   "type": "Literal",
                   "start": 623,
                   "end": 625,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             ],
@@ -436,7 +444,8 @@
             "type": "Literal",
             "start": 635,
             "end": 680,
-            "value": "Math.log2 produces incorrect output for -10"
+            "value": "Math.log2 produces incorrect output for -10",
+            "raw": "\"Math.log2 produces incorrect output for -10\""
           }
         ],
         "optional": false
@@ -520,7 +529,8 @@
             "type": "Literal",
             "start": 729,
             "end": 780,
-            "value": "Math.log2 produces incorrect output for -Infinity"
+            "value": "Math.log2 produces incorrect output for -Infinity",
+            "raw": "\"Math.log2 produces incorrect output for -Infinity\""
           }
         ],
         "optional": false
@@ -582,7 +592,8 @@
                 "type": "Literal",
                 "start": 810,
                 "end": 814,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -610,7 +621,8 @@
             "type": "Literal",
             "start": 845,
             "end": 891,
-            "value": "Math.log2 produces incorrect output for null"
+            "value": "Math.log2 produces incorrect output for null",
+            "raw": "\"Math.log2 produces incorrect output for null\""
           }
         ],
         "optional": false
@@ -687,7 +699,8 @@
             "type": "Literal",
             "start": 940,
             "end": 991,
-            "value": "Math.log2 produces incorrect output for undefined"
+            "value": "Math.log2 produces incorrect output for undefined",
+            "raw": "\"Math.log2 produces incorrect output for undefined\""
           }
         ],
         "optional": false
@@ -790,7 +803,8 @@
             "type": "Literal",
             "start": 1076,
             "end": 1142,
-            "value": "Math.log2 produces incorrect output for Number.POSITIVE_INFINITY"
+            "value": "Math.log2 produces incorrect output for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.log2 produces incorrect output for Number.POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -852,7 +866,8 @@
                 "type": "Literal",
                 "start": 1172,
                 "end": 1173,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -861,13 +876,15 @@
             "type": "Literal",
             "start": 1176,
             "end": 1177,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1181,
             "end": 1224,
-            "value": "Math.log2 produces incorrect output for 1"
+            "value": "Math.log2 produces incorrect output for 1",
+            "raw": "\"Math.log2 produces incorrect output for 1\""
           }
         ],
         "optional": false
@@ -929,7 +946,8 @@
                 "type": "Literal",
                 "start": 1254,
                 "end": 1258,
-                "value": 2
+                "value": 2,
+                "raw": "2.00"
               }
             ],
             "optional": false
@@ -938,13 +956,15 @@
             "type": "Literal",
             "start": 1261,
             "end": 1262,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1266,
             "end": 1312,
-            "value": "Math.log2 produces incorrect output for 2.00"
+            "value": "Math.log2 produces incorrect output for 2.00",
+            "raw": "\"Math.log2 produces incorrect output for 2.00\""
           }
         ],
         "optional": false
@@ -1006,7 +1026,8 @@
                 "type": "Literal",
                 "start": 1342,
                 "end": 1346,
-                "value": 4
+                "value": 4,
+                "raw": "4.00"
               }
             ],
             "optional": false
@@ -1015,13 +1036,15 @@
             "type": "Literal",
             "start": 1349,
             "end": 1350,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1400,
-            "value": "Math.log2 produces incorrect output for 4.00"
+            "value": "Math.log2 produces incorrect output for 4.00",
+            "raw": "\"Math.log2 produces incorrect output for 4.00\""
           }
         ],
         "optional": false
@@ -1083,7 +1106,8 @@
                 "type": "Literal",
                 "start": 1430,
                 "end": 1434,
-                "value": 8
+                "value": 8,
+                "raw": "8.00"
               }
             ],
             "optional": false
@@ -1092,13 +1116,15 @@
             "type": "Literal",
             "start": 1437,
             "end": 1438,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1442,
             "end": 1488,
-            "value": "Math.log2 produces incorrect output for 8.00"
+            "value": "Math.log2 produces incorrect output for 8.00",
+            "raw": "\"Math.log2 produces incorrect output for 8.00\""
           }
         ],
         "optional": false

@@ -79,7 +79,8 @@
                 "type": "Literal",
                 "start": 976,
                 "end": 987,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Identifier",
@@ -177,7 +178,8 @@
             "type": "Literal",
             "start": 1070,
             "end": 1126,
-            "value": "does not change the object prototype (ordinary object)"
+            "value": "does not change the object prototype (ordinary object)",
+            "raw": "'does not change the object prototype (ordinary object)'"
           }
         ],
         "optional": false
@@ -226,7 +228,8 @@
                 "type": "Literal",
                 "start": 1159,
                 "end": 1170,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 1175,
             "end": 1248,
-            "value": "computed __proto__ property is set as an own property (ordinary object)"
+            "value": "computed __proto__ property is set as an own property (ordinary object)",
+            "raw": "'computed __proto__ property is set as an own property (ordinary object)'"
           }
         ],
         "optional": false
@@ -298,7 +302,8 @@
             "type": "Literal",
             "start": 1299,
             "end": 1344,
-            "value": "value is properly defined (ordinary object)"
+            "value": "value is properly defined (ordinary object)",
+            "raw": "'value is properly defined (ordinary object)'"
           }
         ],
         "optional": false
@@ -335,13 +340,15 @@
                 "type": "Literal",
                 "start": 1360,
                 "end": 1371,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Literal",
                 "start": 1374,
                 "end": 1378,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               "kind": "init"
             }
@@ -433,7 +440,8 @@
             "type": "Literal",
             "start": 1452,
             "end": 1497,
-            "value": "does not change the object prototype (null)"
+            "value": "does not change the object prototype (null)",
+            "raw": "'does not change the object prototype (null)'"
           }
         ],
         "optional": false
@@ -482,7 +490,8 @@
                 "type": "Literal",
                 "start": 1530,
                 "end": 1541,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -491,7 +500,8 @@
             "type": "Literal",
             "start": 1546,
             "end": 1608,
-            "value": "computed __proto__ property is set as an own property (null)"
+            "value": "computed __proto__ property is set as an own property (null)",
+            "raw": "'computed __proto__ property is set as an own property (null)'"
           }
         ],
         "optional": false
@@ -548,13 +558,15 @@
             "type": "Literal",
             "start": 1649,
             "end": 1653,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1657,
             "end": 1691,
-            "value": "value is properly defined (null)"
+            "value": "value is properly defined (null)",
+            "raw": "'value is properly defined (null)'"
           }
         ],
         "optional": false
@@ -591,7 +603,8 @@
                 "type": "Literal",
                 "start": 1707,
                 "end": 1718,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Identifier",
@@ -689,7 +702,8 @@
             "type": "Literal",
             "start": 1804,
             "end": 1854,
-            "value": "does not change the object prototype (undefined)"
+            "value": "does not change the object prototype (undefined)",
+            "raw": "'does not change the object prototype (undefined)'"
           }
         ],
         "optional": false
@@ -738,7 +752,8 @@
                 "type": "Literal",
                 "start": 1887,
                 "end": 1898,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -747,7 +762,8 @@
             "type": "Literal",
             "start": 1903,
             "end": 1970,
-            "value": "computed __proto__ property is set as an own property (undefined)"
+            "value": "computed __proto__ property is set as an own property (undefined)",
+            "raw": "'computed __proto__ property is set as an own property (undefined)'"
           }
         ],
         "optional": false
@@ -810,7 +826,8 @@
             "type": "Literal",
             "start": 2024,
             "end": 2063,
-            "value": "value is properly defined (undefined)"
+            "value": "value is properly defined (undefined)",
+            "raw": "'value is properly defined (undefined)'"
           }
         ],
         "optional": false
@@ -882,7 +899,8 @@
                 "type": "Literal",
                 "start": 2105,
                 "end": 2116,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Identifier",
@@ -980,7 +998,8 @@
             "type": "Literal",
             "start": 2197,
             "end": 2242,
-            "value": "does not change the object prototype (func)"
+            "value": "does not change the object prototype (func)",
+            "raw": "'does not change the object prototype (func)'"
           }
         ],
         "optional": false
@@ -1029,7 +1048,8 @@
                 "type": "Literal",
                 "start": 2275,
                 "end": 2286,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -1038,7 +1058,8 @@
             "type": "Literal",
             "start": 2291,
             "end": 2353,
-            "value": "computed __proto__ property is set as an own property (func)"
+            "value": "computed __proto__ property is set as an own property (func)",
+            "raw": "'computed __proto__ property is set as an own property (func)'"
           }
         ],
         "optional": false
@@ -1101,7 +1122,8 @@
             "type": "Literal",
             "start": 2402,
             "end": 2436,
-            "value": "value is properly defined (func)"
+            "value": "value is properly defined (func)",
+            "raw": "'value is properly defined (func)'"
           }
         ],
         "optional": false
@@ -1137,7 +1159,8 @@
                 "type": "Literal",
                 "start": 2461,
                 "end": 2466,
-                "value": "Leo"
+                "value": "Leo",
+                "raw": "'Leo'"
               }
             ],
             "optional": false
@@ -1177,7 +1200,8 @@
                 "type": "Literal",
                 "start": 2480,
                 "end": 2491,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Identifier",
@@ -1275,7 +1299,8 @@
             "type": "Literal",
             "start": 2574,
             "end": 2621,
-            "value": "does not change the object prototype (symbol)"
+            "value": "does not change the object prototype (symbol)",
+            "raw": "'does not change the object prototype (symbol)'"
           }
         ],
         "optional": false
@@ -1324,7 +1349,8 @@
                 "type": "Literal",
                 "start": 2654,
                 "end": 2665,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -1333,7 +1359,8 @@
             "type": "Literal",
             "start": 2670,
             "end": 2734,
-            "value": "computed __proto__ property is set as an own property (symbol)"
+            "value": "computed __proto__ property is set as an own property (symbol)",
+            "raw": "'computed __proto__ property is set as an own property (symbol)'"
           }
         ],
         "optional": false
@@ -1396,7 +1423,8 @@
             "type": "Literal",
             "start": 2785,
             "end": 2821,
-            "value": "value is properly defined (symbol)"
+            "value": "value is properly defined (symbol)",
+            "raw": "'value is properly defined (symbol)'"
           }
         ],
         "optional": false
@@ -1433,13 +1461,15 @@
                 "type": "Literal",
                 "start": 2837,
                 "end": 2848,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Literal",
                 "start": 2851,
                 "end": 2853,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               "kind": "init"
             }
@@ -1531,7 +1561,8 @@
             "type": "Literal",
             "start": 2927,
             "end": 2974,
-            "value": "does not change the object prototype (number)"
+            "value": "does not change the object prototype (number)",
+            "raw": "'does not change the object prototype (number)'"
           }
         ],
         "optional": false
@@ -1580,7 +1611,8 @@
                 "type": "Literal",
                 "start": 3007,
                 "end": 3018,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -1589,7 +1621,8 @@
             "type": "Literal",
             "start": 3023,
             "end": 3087,
-            "value": "computed __proto__ property is set as an own property (number)"
+            "value": "computed __proto__ property is set as an own property (number)",
+            "raw": "'computed __proto__ property is set as an own property (number)'"
           }
         ],
         "optional": false
@@ -1646,13 +1679,15 @@
             "type": "Literal",
             "start": 3128,
             "end": 3130,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 3134,
             "end": 3170,
-            "value": "value is properly defined (number)"
+            "value": "value is properly defined (number)",
+            "raw": "'value is properly defined (number)'"
           }
         ],
         "optional": false
@@ -1689,13 +1724,15 @@
                 "type": "Literal",
                 "start": 3186,
                 "end": 3197,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Literal",
                 "start": 3200,
                 "end": 3202,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               "kind": "init"
             }
@@ -1787,7 +1824,8 @@
             "type": "Literal",
             "start": 3276,
             "end": 3323,
-            "value": "does not change the object prototype (string)"
+            "value": "does not change the object prototype (string)",
+            "raw": "'does not change the object prototype (string)'"
           }
         ],
         "optional": false
@@ -1836,7 +1874,8 @@
                 "type": "Literal",
                 "start": 3356,
                 "end": 3367,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -1845,7 +1884,8 @@
             "type": "Literal",
             "start": 3372,
             "end": 3436,
-            "value": "computed __proto__ property is set as an own property (string)"
+            "value": "computed __proto__ property is set as an own property (string)",
+            "raw": "'computed __proto__ property is set as an own property (string)'"
           }
         ],
         "optional": false
@@ -1902,13 +1942,15 @@
             "type": "Literal",
             "start": 3477,
             "end": 3479,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           {
             "type": "Literal",
             "start": 3483,
             "end": 3519,
-            "value": "value is properly defined (string)"
+            "value": "value is properly defined (string)",
+            "raw": "'value is properly defined (string)'"
           }
         ],
         "optional": false
@@ -1945,13 +1987,15 @@
                 "type": "Literal",
                 "start": 3535,
                 "end": 3546,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               },
               "value": {
                 "type": "Literal",
                 "start": 3549,
                 "end": 3554,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               "kind": "init"
             }
@@ -2043,7 +2087,8 @@
             "type": "Literal",
             "start": 3628,
             "end": 3676,
-            "value": "does not change the object prototype (boolean)"
+            "value": "does not change the object prototype (boolean)",
+            "raw": "'does not change the object prototype (boolean)'"
           }
         ],
         "optional": false
@@ -2092,7 +2137,8 @@
                 "type": "Literal",
                 "start": 3709,
                 "end": 3720,
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "'__proto__'"
               }
             ],
             "optional": false
@@ -2101,7 +2147,8 @@
             "type": "Literal",
             "start": 3725,
             "end": 3790,
-            "value": "computed __proto__ property is set as an own property (boolean)"
+            "value": "computed __proto__ property is set as an own property (boolean)",
+            "raw": "'computed __proto__ property is set as an own property (boolean)'"
           }
         ],
         "optional": false
@@ -2158,13 +2205,15 @@
             "type": "Literal",
             "start": 3831,
             "end": 3836,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3840,
             "end": 3877,
-            "value": "value is properly defined (boolean)"
+            "value": "value is properly defined (boolean)",
+            "raw": "'value is properly defined (boolean)'"
           }
         ],
         "optional": false

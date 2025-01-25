@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 347,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 420,
             "end": 463,
-            "value": "[object Object] is not a valid ISO string"
+            "value": "[object Object] is not a valid ISO string",
+            "raw": "\"[object Object] is not a valid ISO string\""
           }
         ],
         "optional": false
@@ -216,7 +218,8 @@
                   "type": "Literal",
                   "start": 504,
                   "end": 523,
-                  "value": "1970-01-01T00:00Z"
+                  "value": "1970-01-01T00:00Z",
+                  "raw": "\"1970-01-01T00:00Z\""
                 }
               }
             ]
@@ -314,67 +317,78 @@
             "type": "Literal",
             "start": 603,
             "end": 604,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 607,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 610,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 613,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 616,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 618,
             "end": 619,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 622,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 625,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 631,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 682,
-            "value": "result of toString is interpreted as ISO string"
+            "value": "result of toString is interpreted as ISO string",
+            "raw": "\"result of toString is interpreted as ISO string\""
           }
         ],
         "optional": false

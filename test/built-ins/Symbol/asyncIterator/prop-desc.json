@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 464,
             "end": 472,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "'symbol'"
           }
         ],
         "optional": false
@@ -92,7 +93,8 @@
             "type": "Literal",
             "start": 499,
             "end": 514,
-            "value": "asyncIterator"
+            "value": "asyncIterator",
+            "raw": "'asyncIterator'"
           },
           {
             "type": "ObjectExpression",
@@ -116,7 +118,8 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 539,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -137,7 +140,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 560,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -158,7 +162,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 585,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

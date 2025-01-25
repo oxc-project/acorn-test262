@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 404,
             "end": 409,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 433,
             "end": 438,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -119,7 +121,8 @@
                             "type": "Literal",
                             "start": 507,
                             "end": 511,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       },
@@ -185,7 +188,8 @@
                             "type": "Literal",
                             "start": 580,
                             "end": 584,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       },
@@ -280,13 +284,15 @@
                             "type": "Literal",
                             "start": 650,
                             "end": 651,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 653,
                             "end": 657,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       },
@@ -304,7 +310,8 @@
                         "type": "Literal",
                         "start": 671,
                         "end": 675,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -348,7 +355,8 @@
             "type": "Literal",
             "start": 719,
             "end": 737,
-            "value": "toStringAccessed"
+            "value": "toStringAccessed",
+            "raw": "'toStringAccessed'"
           }
         ],
         "optional": false
@@ -379,7 +387,8 @@
             "type": "Literal",
             "start": 764,
             "end": 781,
-            "value": "valueOfAccessed"
+            "value": "valueOfAccessed",
+            "raw": "'valueOfAccessed'"
           }
         ],
         "optional": false

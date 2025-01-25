@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 682,
                   "end": 703,
-                  "value": "Intl.DateTimeFormat"
+                  "value": "Intl.DateTimeFormat",
+                  "raw": "\"Intl.DateTimeFormat\""
                 },
                 "kind": "init"
               },
@@ -112,7 +113,8 @@
                   "type": "Literal",
                   "start": 717,
                   "end": 722,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 738,
                   "end": 743,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -154,7 +157,8 @@
                   "type": "Literal",
                   "start": 761,
                   "end": 765,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

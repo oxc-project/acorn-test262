@@ -28,7 +28,8 @@
           "type": "Literal",
           "start": 313,
           "end": 317,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -50,7 +51,8 @@
               "type": "Literal",
               "start": 344,
               "end": 439,
-              "value": "#1: The this value associated with an executioncontext is immutable. Actual: this was deleted"
+              "value": "#1: The this value associated with an executioncontext is immutable. Actual: this was deleted",
+              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'"
             }
           ]
         }

@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 348,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -74,13 +75,15 @@
             "type": "Literal",
             "start": 351,
             "end": 356,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 404,
-            "value": "`Object.is(undefined, null)` returns `false`"
+            "value": "`Object.is(undefined, null)` returns `false`",
+            "raw": "\"`Object.is(undefined, null)` returns `false`\""
           }
         ],
         "optional": false

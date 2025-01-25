@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 333,
-                "value": "Asia/Tokyo"
+                "value": "Asia/Tokyo",
+                "raw": "'Asia/Tokyo'"
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 377,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 400,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "'America/Los_Angeles'"
               }
             ]
           }
@@ -146,13 +150,15 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 434,
-                    "value": "America/Atka"
+                    "value": "America/Atka",
+                    "raw": "'America/Atka'"
                   },
                   {
                     "type": "Literal",
                     "start": 436,
                     "end": 450,
-                    "value": "America/Adak"
+                    "value": "America/Adak",
+                    "raw": "'America/Adak'"
                   }
                 ]
               },
@@ -165,13 +171,15 @@
                     "type": "Literal",
                     "start": 456,
                     "end": 473,
-                    "value": "America/Knox_IN"
+                    "value": "America/Knox_IN",
+                    "raw": "'America/Knox_IN'"
                   },
                   {
                     "type": "Literal",
                     "start": 475,
                     "end": 497,
-                    "value": "America/Indiana/Knox"
+                    "value": "America/Indiana/Knox",
+                    "raw": "'America/Indiana/Knox'"
                   }
                 ]
               },
@@ -184,13 +192,15 @@
                     "type": "Literal",
                     "start": 503,
                     "end": 519,
-                    "value": "Asia/Ashkhabad"
+                    "value": "Asia/Ashkhabad",
+                    "raw": "'Asia/Ashkhabad'"
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 536,
-                    "value": "Asia/Ashgabat"
+                    "value": "Asia/Ashgabat",
+                    "raw": "'Asia/Ashgabat'"
                   }
                 ]
               },
@@ -203,13 +213,15 @@
                     "type": "Literal",
                     "start": 542,
                     "end": 554,
-                    "value": "Asia/Dacca"
+                    "value": "Asia/Dacca",
+                    "raw": "'Asia/Dacca'"
                   },
                   {
                     "type": "Literal",
                     "start": 556,
                     "end": 568,
-                    "value": "Asia/Dhaka"
+                    "value": "Asia/Dhaka",
+                    "raw": "'Asia/Dhaka'"
                   }
                 ]
               },
@@ -222,13 +234,15 @@
                     "type": "Literal",
                     "start": 574,
                     "end": 589,
-                    "value": "Asia/Istanbul"
+                    "value": "Asia/Istanbul",
+                    "raw": "'Asia/Istanbul'"
                   },
                   {
                     "type": "Literal",
                     "start": 591,
                     "end": 608,
-                    "value": "Europe/Istanbul"
+                    "value": "Europe/Istanbul",
+                    "raw": "'Europe/Istanbul'"
                   }
                 ]
               },
@@ -241,13 +255,15 @@
                     "type": "Literal",
                     "start": 614,
                     "end": 626,
-                    "value": "Asia/Macao"
+                    "value": "Asia/Macao",
+                    "raw": "'Asia/Macao'"
                   },
                   {
                     "type": "Literal",
                     "start": 628,
                     "end": 640,
-                    "value": "Asia/Macau"
+                    "value": "Asia/Macau",
+                    "raw": "'Asia/Macau'"
                   }
                 ]
               },
@@ -260,13 +276,15 @@
                     "type": "Literal",
                     "start": 646,
                     "end": 659,
-                    "value": "Asia/Thimbu"
+                    "value": "Asia/Thimbu",
+                    "raw": "'Asia/Thimbu'"
                   },
                   {
                     "type": "Literal",
                     "start": 661,
                     "end": 675,
-                    "value": "Asia/Thimphu"
+                    "value": "Asia/Thimphu",
+                    "raw": "'Asia/Thimphu'"
                   }
                 ]
               },
@@ -279,13 +297,15 @@
                     "type": "Literal",
                     "start": 681,
                     "end": 701,
-                    "value": "Asia/Ujung_Pandang"
+                    "value": "Asia/Ujung_Pandang",
+                    "raw": "'Asia/Ujung_Pandang'"
                   },
                   {
                     "type": "Literal",
                     "start": 703,
                     "end": 718,
-                    "value": "Asia/Makassar"
+                    "value": "Asia/Makassar",
+                    "raw": "'Asia/Makassar'"
                   }
                 ]
               },
@@ -298,13 +318,15 @@
                     "type": "Literal",
                     "start": 724,
                     "end": 741,
-                    "value": "Asia/Ulan_Bator"
+                    "value": "Asia/Ulan_Bator",
+                    "raw": "'Asia/Ulan_Bator'"
                   },
                   {
                     "type": "Literal",
                     "start": 743,
                     "end": 761,
-                    "value": "Asia/Ulaanbaatar"
+                    "value": "Asia/Ulaanbaatar",
+                    "raw": "'Asia/Ulaanbaatar'"
                   }
                 ]
               }
@@ -732,7 +754,8 @@
                   "type": "Literal",
                   "start": 1122,
                   "end": 1163,
-                  "value": "not equal to unrelated time zone object"
+                  "value": "not equal to unrelated time zone object",
+                  "raw": "\"not equal to unrelated time zone object\""
                 }
               ],
               "optional": false
@@ -1063,7 +1086,8 @@
                   "type": "Literal",
                   "start": 1426,
                   "end": 1463,
-                  "value": "not equal to unrelated IXDTF string"
+                  "value": "not equal to unrelated IXDTF string",
+                  "raw": "\"not equal to unrelated IXDTF string\""
                 }
               ],
               "optional": false

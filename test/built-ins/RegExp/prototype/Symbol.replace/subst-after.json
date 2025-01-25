@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 975,
+  "end": 973,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 848,
-      "end": 910,
+      "start": 846,
+      "end": 908,
       "expression": {
         "type": "CallExpression",
-        "start": 848,
-        "end": 909,
+        "start": 846,
+        "end": 907,
         "callee": {
           "type": "MemberExpression",
-          "start": 848,
-          "end": 864,
+          "start": 846,
+          "end": 862,
           "object": {
             "type": "Identifier",
-            "start": 848,
-            "end": 854,
+            "start": 846,
+            "end": 852,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 855,
-            "end": 864,
+            "start": 853,
+            "end": 862,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,17 +33,18 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 865,
-            "end": 900,
+            "start": 863,
+            "end": 898,
             "callee": {
               "type": "MemberExpression",
-              "start": 865,
-              "end": 884,
+              "start": 863,
+              "end": 882,
               "object": {
                 "type": "Literal",
-                "start": 865,
-                "end": 868,
+                "start": 863,
+                "end": 866,
                 "value": {},
+                "raw": "/c/",
                 "regex": {
                   "pattern": "c",
                   "flags": ""
@@ -51,18 +52,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 869,
-                "end": 883,
+                "start": 867,
+                "end": 881,
                 "object": {
                   "type": "Identifier",
-                  "start": 869,
-                  "end": 875,
+                  "start": 867,
+                  "end": 873,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 876,
-                  "end": 883,
+                  "start": 874,
+                  "end": 881,
                   "name": "replace"
                 },
                 "computed": false,
@@ -74,24 +75,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 885,
-                "end": 890,
-                "value": "abc"
+                "start": 883,
+                "end": 888,
+                "value": "abc",
+                "raw": "'abc'"
               },
               {
                 "type": "Literal",
-                "start": 892,
-                "end": 899,
-                "value": "[$']"
+                "start": 890,
+                "end": 897,
+                "value": "[$']",
+                "raw": "'[$\\']'"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 902,
-            "end": 908,
-            "value": "ab[]"
+            "start": 900,
+            "end": 906,
+            "value": "ab[]",
+            "raw": "'ab[]'"
           }
         ],
         "optional": false
@@ -99,26 +103,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 911,
-      "end": 974,
+      "start": 909,
+      "end": 972,
       "expression": {
         "type": "CallExpression",
-        "start": 911,
-        "end": 973,
+        "start": 909,
+        "end": 971,
         "callee": {
           "type": "MemberExpression",
-          "start": 911,
-          "end": 927,
+          "start": 909,
+          "end": 925,
           "object": {
             "type": "Identifier",
-            "start": 911,
-            "end": 917,
+            "start": 909,
+            "end": 915,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 918,
-            "end": 927,
+            "start": 916,
+            "end": 925,
             "name": "sameValue"
           },
           "computed": false,
@@ -127,17 +131,18 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 928,
-            "end": 963,
+            "start": 926,
+            "end": 961,
             "callee": {
               "type": "MemberExpression",
-              "start": 928,
-              "end": 947,
+              "start": 926,
+              "end": 945,
               "object": {
                 "type": "Literal",
-                "start": 928,
-                "end": 931,
+                "start": 926,
+                "end": 929,
                 "value": {},
+                "raw": "/b/",
                 "regex": {
                   "pattern": "b",
                   "flags": ""
@@ -145,18 +150,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 932,
-                "end": 946,
+                "start": 930,
+                "end": 944,
                 "object": {
                   "type": "Identifier",
-                  "start": 932,
-                  "end": 938,
+                  "start": 930,
+                  "end": 936,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 939,
-                  "end": 946,
+                  "start": 937,
+                  "end": 944,
                   "name": "replace"
                 },
                 "computed": false,
@@ -168,24 +173,27 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 948,
-                "end": 953,
-                "value": "abc"
+                "start": 946,
+                "end": 951,
+                "value": "abc",
+                "raw": "'abc'"
               },
               {
                 "type": "Literal",
-                "start": 955,
-                "end": 962,
-                "value": "[$']"
+                "start": 953,
+                "end": 960,
+                "value": "[$']",
+                "raw": "'[$\\']'"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 965,
-            "end": 972,
-            "value": "a[c]c"
+            "start": 963,
+            "end": 970,
+            "value": "a[c]c",
+            "raw": "'a[c]c'"
           }
         ],
         "optional": false

@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 294,
             "end": 305,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "\"prototype\""
           }
         ],
         "optional": false
@@ -101,13 +102,15 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 364,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 366,
                   "end": 430,
-                  "value": "The value of `delete Object.prototype` is expected to be false"
+                  "value": "The value of `delete Object.prototype` is expected to be false",
+                  "raw": "'The value of `delete Object.prototype` is expected to be false'"
                 }
               ],
               "optional": false
@@ -209,7 +212,8 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 606,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -262,7 +266,8 @@
                 "type": "Literal",
                 "start": 640,
                 "end": 651,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -293,7 +298,8 @@
                   "type": "Literal",
                   "start": 682,
                   "end": 748,
-                  "value": "#2: the Object.prototype property has the attributes DontDelete."
+                  "value": "#2: the Object.prototype property has the attributes DontDelete.",
+                  "raw": "'#2: the Object.prototype property has the attributes DontDelete.'"
                 }
               ]
             }

@@ -48,43 +48,50 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 317,
-                "value": "usage"
+                "value": "usage",
+                "raw": "\"usage\""
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 336,
-                "value": "localeMatcher"
+                "value": "localeMatcher",
+                "raw": "\"localeMatcher\""
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 351,
-                "value": "collation"
+                "value": "collation",
+                "raw": "\"collation\""
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 364,
-                "value": "numeric"
+                "value": "numeric",
+                "raw": "\"numeric\""
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 379,
-                "value": "caseFirst"
+                "value": "caseFirst",
+                "raw": "\"caseFirst\""
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 396,
-                "value": "sensitivity"
+                "value": "sensitivity",
+                "raw": "\"sensitivity\""
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 419,
-                "value": "ignorePunctuation"
+                "value": "ignorePunctuation",
+                "raw": "\"ignorePunctuation\""
               }
             ]
           }
@@ -208,7 +215,8 @@
                               "type": "Literal",
                               "start": 516,
                               "end": 520,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

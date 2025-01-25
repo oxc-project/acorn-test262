@@ -90,7 +90,8 @@
                       "type": "Literal",
                       "start": 1965,
                       "end": 1969,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   ]
                 }
@@ -216,7 +217,8 @@
                             "type": "Literal",
                             "start": 2049,
                             "end": 2099,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

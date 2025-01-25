@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 291,
                 "end": 326,
-                "value": "1976-11-18T15:23:30.12−02:00"
+                "value": "1976-11-18T15:23:30.12−02:00",
+                "raw": "\"1976-11-18T15:23:30.12\\u221202:00\""
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 362,
-                "value": "−009999-11-18T15:23:30.12"
+                "value": "−009999-11-18T15:23:30.12",
+                "raw": "\"\\u2212009999-11-18T15:23:30.12\""
               }
             ]
           }
@@ -84,55 +86,64 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 415,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 418,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 421,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 425,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 429,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 433,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 438,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 443,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 445,
                 "end": 448,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }

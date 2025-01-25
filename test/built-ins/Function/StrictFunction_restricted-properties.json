@@ -103,7 +103,8 @@
             "type": "Literal",
             "start": 544,
             "end": 593,
-            "value": "return func.caller throws a TypeError exception"
+            "value": "return func.caller throws a TypeError exception",
+            "raw": "'return func.caller throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -200,7 +201,8 @@
             "type": "Literal",
             "start": 658,
             "end": 705,
-            "value": "func.caller = {} throws a TypeError exception"
+            "value": "func.caller = {} throws a TypeError exception",
+            "raw": "'func.caller = {} throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -285,7 +287,8 @@
             "type": "Literal",
             "start": 775,
             "end": 827,
-            "value": "return func.arguments throws a TypeError exception"
+            "value": "return func.arguments throws a TypeError exception",
+            "raw": "'return func.arguments throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -382,7 +385,8 @@
             "type": "Literal",
             "start": 895,
             "end": 945,
-            "value": "func.arguments = {} throws a TypeError exception"
+            "value": "func.arguments = {} throws a TypeError exception",
+            "raw": "'func.arguments = {} throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -418,7 +422,8 @@
                 "type": "Literal",
                 "start": 976,
                 "end": 990,
-                "value": "\"use strict\""
+                "value": "\"use strict\"",
+                "raw": "'\"use strict\"'"
               }
             ]
           }
@@ -482,7 +487,8 @@
                 "type": "Literal",
                 "start": 1034,
                 "end": 1042,
-                "value": "caller"
+                "value": "caller",
+                "raw": "'caller'"
               }
             ],
             "optional": false
@@ -491,13 +497,15 @@
             "type": "Literal",
             "start": 1045,
             "end": 1050,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1052,
             "end": 1106,
-            "value": "newfunc.hasOwnProperty('caller') must return false"
+            "value": "newfunc.hasOwnProperty('caller') must return false",
+            "raw": "'newfunc.hasOwnProperty(\\'caller\\') must return false'"
           }
         ],
         "optional": false
@@ -559,7 +567,8 @@
                 "type": "Literal",
                 "start": 1149,
                 "end": 1160,
-                "value": "arguments"
+                "value": "arguments",
+                "raw": "'arguments'"
               }
             ],
             "optional": false
@@ -568,13 +577,15 @@
             "type": "Literal",
             "start": 1163,
             "end": 1168,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1170,
             "end": 1227,
-            "value": "newfunc.hasOwnProperty('arguments') must return false"
+            "value": "newfunc.hasOwnProperty('arguments') must return false",
+            "raw": "'newfunc.hasOwnProperty(\\'arguments\\') must return false'"
           }
         ],
         "optional": false
@@ -659,7 +670,8 @@
             "type": "Literal",
             "start": 1297,
             "end": 1349,
-            "value": "return newfunc.caller throws a TypeError exception"
+            "value": "return newfunc.caller throws a TypeError exception",
+            "raw": "'return newfunc.caller throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -756,7 +768,8 @@
             "type": "Literal",
             "start": 1417,
             "end": 1467,
-            "value": "newfunc.caller = {} throws a TypeError exception"
+            "value": "newfunc.caller = {} throws a TypeError exception",
+            "raw": "'newfunc.caller = {} throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -841,7 +854,8 @@
             "type": "Literal",
             "start": 1540,
             "end": 1595,
-            "value": "return newfunc.arguments throws a TypeError exception"
+            "value": "return newfunc.arguments throws a TypeError exception",
+            "raw": "'return newfunc.arguments throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -938,7 +952,8 @@
             "type": "Literal",
             "start": 1666,
             "end": 1719,
-            "value": "newfunc.arguments = {} throws a TypeError exception"
+            "value": "newfunc.arguments = {} throws a TypeError exception",
+            "raw": "'newfunc.arguments = {} throws a TypeError exception'"
           }
         ],
         "optional": false

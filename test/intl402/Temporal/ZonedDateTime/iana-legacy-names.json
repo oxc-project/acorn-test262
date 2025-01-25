@@ -27,49 +27,57 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 292,
-                "value": "Etc/GMT0"
+                "value": "Etc/GMT0",
+                "raw": "\"Etc/GMT0\""
               },
               {
                 "type": "Literal",
                 "start": 296,
                 "end": 302,
-                "value": "GMT0"
+                "value": "GMT0",
+                "raw": "\"GMT0\""
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 313,
-                "value": "GMT-0"
+                "value": "GMT-0",
+                "raw": "\"GMT-0\""
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 324,
-                "value": "GMT+0"
+                "value": "GMT+0",
+                "raw": "\"GMT+0\""
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 337,
-                "value": "EST5EDT"
+                "value": "EST5EDT",
+                "raw": "\"EST5EDT\""
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 351,
-                "value": "CST6CDT"
+                "value": "CST6CDT",
+                "raw": "\"CST6CDT\""
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 365,
-                "value": "MST7MDT"
+                "value": "MST7MDT",
+                "raw": "\"MST7MDT\""
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 379,
-                "value": "PST8PDT"
+                "value": "PST8PDT",
+                "raw": "\"PST8PDT\""
               }
             ]
           }
@@ -169,7 +177,8 @@
                             "type": "Literal",
                             "start": 461,
                             "end": 463,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           },
                           {
                             "type": "Identifier",

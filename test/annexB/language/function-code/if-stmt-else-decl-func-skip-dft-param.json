@@ -70,7 +70,8 @@
                   "type": "Literal",
                   "start": 1248,
                   "end": 1251,
-                  "value": 123
+                  "value": 123,
+                  "raw": "123"
                 }
               }
             ],
@@ -110,7 +111,8 @@
                     "type": "Literal",
                     "start": 1274,
                     "end": 1279,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   },
                   "consequent": {
                     "type": "EmptyStatement",
@@ -208,13 +210,15 @@
             "type": "Literal",
             "start": 1350,
             "end": 1353,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1355,
             "end": 1398,
-            "value": "binding is not initialized to `undefined`"
+            "value": "binding is not initialized to `undefined`",
+            "raw": "'binding is not initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -258,13 +262,15 @@
             "type": "Literal",
             "start": 1425,
             "end": 1428,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1430,
             "end": 1473,
-            "value": "value is not updated following evaluation"
+            "value": "value is not updated following evaluation",
+            "raw": "'value is not updated following evaluation'"
           }
         ],
         "optional": false

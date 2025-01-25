@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 705,
             "end": 710,
-            "value": "one"
+            "value": "one",
+            "raw": "\"one\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 723,
             "end": 728,
-            "value": "two"
+            "value": "two",
+            "raw": "\"two\""
           }
         }
       ],
@@ -343,7 +345,8 @@
                     "type": "Literal",
                     "start": 1095,
                     "end": 1161,
-                    "value": "#1: __instance.first === undefined. Actual: __instance.first ==="
+                    "value": "#1: __instance.first === undefined. Actual: __instance.first ===",
+                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -436,7 +439,8 @@
                     "type": "Literal",
                     "start": 1411,
                     "end": 1472,
-                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ==="
+                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ===",
+                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -489,7 +493,8 @@
               "type": "Literal",
               "start": 1680,
               "end": 1681,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -499,7 +504,8 @@
           "type": "Literal",
           "start": 1686,
           "end": 1687,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -530,7 +536,8 @@
                     "type": "Literal",
                     "start": 1715,
                     "end": 1766,
-                    "value": "#2: __instance(1)=== 2. Actual: __instance(1) ==="
+                    "value": "#2: __instance(1)=== 2. Actual: __instance(1) ===",
+                    "raw": "'#2: __instance(1)=== 2. Actual: __instance(1) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -548,7 +555,8 @@
                         "type": "Literal",
                         "start": 1778,
                         "end": 1779,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false

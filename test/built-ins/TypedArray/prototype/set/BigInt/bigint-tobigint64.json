@@ -1,89 +1,96 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3161,
+  "end": 3159,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2151,
-      "end": 2363,
+      "start": 2149,
+      "end": 2361,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2155,
-          "end": 2362,
+          "start": 2153,
+          "end": 2360,
           "id": {
             "type": "Identifier",
-            "start": 2155,
-            "end": 2159,
+            "start": 2153,
+            "end": 2157,
             "name": "vals"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2162,
-            "end": 2362,
+            "start": 2160,
+            "end": 2360,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2166,
-                "end": 2187,
-                "value": "18446744073709551618n"
+                "start": 2164,
+                "end": 2185,
+                "value": "18446744073709551618n",
+                "raw": "18446744073709551618n"
               },
               {
                 "type": "Literal",
-                "start": 2209,
-                "end": 2229,
-                "value": "9223372036854775810n"
+                "start": 2207,
+                "end": 2227,
+                "value": "9223372036854775810n",
+                "raw": "9223372036854775810n"
               },
               {
                 "type": "Literal",
-                "start": 2251,
-                "end": 2253,
-                "value": "2n"
+                "start": 2249,
+                "end": 2251,
+                "value": "2n",
+                "raw": "2n"
               },
               {
                 "type": "Literal",
-                "start": 2257,
-                "end": 2259,
-                "value": "0n"
+                "start": 2255,
+                "end": 2257,
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "UnaryExpression",
-                "start": 2263,
-                "end": 2266,
+                "start": 2261,
+                "end": 2264,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2264,
-                  "end": 2266,
-                  "value": "2n"
+                  "start": 2262,
+                  "end": 2264,
+                  "value": "2n",
+                  "raw": "2n"
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2270,
-                "end": 2291,
+                "start": 2268,
+                "end": 2289,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2271,
-                  "end": 2291,
-                  "value": "9223372036854775810n"
+                  "start": 2269,
+                  "end": 2289,
+                  "value": "9223372036854775810n",
+                  "raw": "9223372036854775810n"
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2316,
-                "end": 2338,
+                "start": 2314,
+                "end": 2336,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2317,
-                  "end": 2338,
-                  "value": "18446744073709551618n"
+                  "start": 2315,
+                  "end": 2336,
+                  "value": "18446744073709551618n",
+                  "raw": "18446744073709551618n"
                 }
               }
             ]
@@ -94,44 +101,44 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2365,
-      "end": 2413,
+      "start": 2363,
+      "end": 2411,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2369,
-          "end": 2412,
+          "start": 2367,
+          "end": 2410,
           "id": {
             "type": "Identifier",
-            "start": 2369,
-            "end": 2379,
+            "start": 2367,
+            "end": 2377,
             "name": "typedArray"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2382,
-            "end": 2412,
+            "start": 2380,
+            "end": 2410,
             "callee": {
               "type": "Identifier",
-              "start": 2386,
-              "end": 2399,
+              "start": 2384,
+              "end": 2397,
               "name": "BigInt64Array"
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 2400,
-                "end": 2411,
+                "start": 2398,
+                "end": 2409,
                 "object": {
                   "type": "Identifier",
-                  "start": 2400,
-                  "end": 2404,
+                  "start": 2398,
+                  "end": 2402,
                   "name": "vals"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2405,
-                  "end": 2411,
+                  "start": 2403,
+                  "end": 2409,
                   "name": "length"
                 },
                 "computed": false,
@@ -145,26 +152,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2414,
-      "end": 2435,
+      "start": 2412,
+      "end": 2433,
       "expression": {
         "type": "CallExpression",
-        "start": 2414,
-        "end": 2434,
+        "start": 2412,
+        "end": 2432,
         "callee": {
           "type": "MemberExpression",
-          "start": 2414,
-          "end": 2428,
+          "start": 2412,
+          "end": 2426,
           "object": {
             "type": "Identifier",
-            "start": 2414,
-            "end": 2424,
+            "start": 2412,
+            "end": 2422,
             "name": "typedArray"
           },
           "property": {
             "type": "Identifier",
-            "start": 2425,
-            "end": 2428,
+            "start": 2423,
+            "end": 2426,
             "name": "set"
           },
           "computed": false,
@@ -173,8 +180,8 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2429,
-            "end": 2433,
+            "start": 2427,
+            "end": 2431,
             "name": "vals"
           }
         ],
@@ -183,26 +190,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2437,
-      "end": 2526,
+      "start": 2435,
+      "end": 2524,
       "expression": {
         "type": "CallExpression",
-        "start": 2437,
-        "end": 2525,
+        "start": 2435,
+        "end": 2523,
         "callee": {
           "type": "MemberExpression",
-          "start": 2437,
-          "end": 2453,
+          "start": 2435,
+          "end": 2451,
           "object": {
             "type": "Identifier",
-            "start": 2437,
-            "end": 2443,
+            "start": 2435,
+            "end": 2441,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2444,
-            "end": 2453,
+            "start": 2442,
+            "end": 2451,
             "name": "sameValue"
           },
           "computed": false,
@@ -211,34 +218,37 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2454,
-            "end": 2467,
+            "start": 2452,
+            "end": 2465,
             "object": {
               "type": "Identifier",
-              "start": 2454,
+              "start": 2452,
+              "end": 2462,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2463,
               "end": 2464,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2465,
-              "end": 2466,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2469,
-            "end": 2471,
-            "value": "2n"
+            "start": 2467,
+            "end": 2469,
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
-            "start": 2490,
-            "end": 2524,
-            "value": "ToBigInt64(2n ** 64n + 2n) => 2n"
+            "start": 2488,
+            "end": 2522,
+            "value": "ToBigInt64(2n ** 64n + 2n) => 2n",
+            "raw": "\"ToBigInt64(2n ** 64n + 2n) => 2n\""
           }
         ],
         "optional": false
@@ -246,26 +256,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2528,
-      "end": 2673,
+      "start": 2526,
+      "end": 2671,
       "expression": {
         "type": "CallExpression",
-        "start": 2528,
-        "end": 2672,
+        "start": 2526,
+        "end": 2670,
         "callee": {
           "type": "MemberExpression",
-          "start": 2528,
-          "end": 2544,
+          "start": 2526,
+          "end": 2542,
           "object": {
             "type": "Identifier",
-            "start": 2528,
-            "end": 2534,
+            "start": 2526,
+            "end": 2532,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2535,
-            "end": 2544,
+            "start": 2533,
+            "end": 2542,
             "name": "sameValue"
           },
           "computed": false,
@@ -274,41 +284,44 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2545,
-            "end": 2558,
+            "start": 2543,
+            "end": 2556,
             "object": {
               "type": "Identifier",
-              "start": 2545,
+              "start": 2543,
+              "end": 2553,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2554,
               "end": 2555,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2556,
-              "end": 2557,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "UnaryExpression",
-            "start": 2560,
-            "end": 2581,
+            "start": 2558,
+            "end": 2579,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 2561,
-              "end": 2581,
-              "value": "9223372036854775806n"
+              "start": 2559,
+              "end": 2579,
+              "value": "9223372036854775806n",
+              "raw": "9223372036854775806n"
             }
           },
           {
             "type": "Literal",
-            "start": 2618,
-            "end": 2671,
-            "value": "ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n"
+            "start": 2616,
+            "end": 2669,
+            "value": "ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n",
+            "raw": "\"ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n\""
           }
         ],
         "optional": false
@@ -316,26 +329,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2675,
-      "end": 2752,
+      "start": 2673,
+      "end": 2750,
       "expression": {
         "type": "CallExpression",
-        "start": 2675,
-        "end": 2751,
+        "start": 2673,
+        "end": 2749,
         "callee": {
           "type": "MemberExpression",
-          "start": 2675,
-          "end": 2691,
+          "start": 2673,
+          "end": 2689,
           "object": {
             "type": "Identifier",
-            "start": 2675,
-            "end": 2681,
+            "start": 2673,
+            "end": 2679,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2682,
-            "end": 2691,
+            "start": 2680,
+            "end": 2689,
             "name": "sameValue"
           },
           "computed": false,
@@ -344,34 +357,37 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2692,
-            "end": 2705,
+            "start": 2690,
+            "end": 2703,
             "object": {
               "type": "Identifier",
-              "start": 2692,
+              "start": 2690,
+              "end": 2700,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2701,
               "end": 2702,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2703,
-              "end": 2704,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2707,
-            "end": 2709,
-            "value": "2n"
+            "start": 2705,
+            "end": 2707,
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
-            "start": 2728,
-            "end": 2750,
-            "value": "ToBigInt64(2n) => 2n"
+            "start": 2726,
+            "end": 2748,
+            "value": "ToBigInt64(2n) => 2n",
+            "raw": "\"ToBigInt64(2n) => 2n\""
           }
         ],
         "optional": false
@@ -379,26 +395,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2754,
-      "end": 2831,
+      "start": 2752,
+      "end": 2829,
       "expression": {
         "type": "CallExpression",
-        "start": 2754,
-        "end": 2830,
+        "start": 2752,
+        "end": 2828,
         "callee": {
           "type": "MemberExpression",
-          "start": 2754,
-          "end": 2770,
+          "start": 2752,
+          "end": 2768,
           "object": {
             "type": "Identifier",
-            "start": 2754,
-            "end": 2760,
+            "start": 2752,
+            "end": 2758,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2761,
-            "end": 2770,
+            "start": 2759,
+            "end": 2768,
             "name": "sameValue"
           },
           "computed": false,
@@ -407,34 +423,37 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2771,
-            "end": 2784,
+            "start": 2769,
+            "end": 2782,
             "object": {
               "type": "Identifier",
-              "start": 2771,
+              "start": 2769,
+              "end": 2779,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2780,
               "end": 2781,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2782,
-              "end": 2783,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2786,
-            "end": 2788,
-            "value": "0n"
+            "start": 2784,
+            "end": 2786,
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
-            "start": 2807,
-            "end": 2829,
-            "value": "ToBigInt64(0n) => 0n"
+            "start": 2805,
+            "end": 2827,
+            "value": "ToBigInt64(0n) => 0n",
+            "raw": "\"ToBigInt64(0n) => 0n\""
           }
         ],
         "optional": false
@@ -442,26 +461,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2833,
-      "end": 2914,
+      "start": 2831,
+      "end": 2912,
       "expression": {
         "type": "CallExpression",
-        "start": 2833,
-        "end": 2913,
+        "start": 2831,
+        "end": 2911,
         "callee": {
           "type": "MemberExpression",
-          "start": 2833,
-          "end": 2849,
+          "start": 2831,
+          "end": 2847,
           "object": {
             "type": "Identifier",
-            "start": 2833,
-            "end": 2839,
+            "start": 2831,
+            "end": 2837,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2840,
-            "end": 2849,
+            "start": 2838,
+            "end": 2847,
             "name": "sameValue"
           },
           "computed": false,
@@ -470,41 +489,44 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2850,
-            "end": 2863,
+            "start": 2848,
+            "end": 2861,
             "object": {
               "type": "Identifier",
-              "start": 2850,
+              "start": 2848,
+              "end": 2858,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2859,
               "end": 2860,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2861,
-              "end": 2862,
-              "value": 4
+              "value": 4,
+              "raw": "4"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "UnaryExpression",
-            "start": 2865,
-            "end": 2868,
+            "start": 2863,
+            "end": 2866,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 2866,
-              "end": 2868,
-              "value": "2n"
+              "start": 2864,
+              "end": 2866,
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 2887,
-            "end": 2912,
-            "value": "ToBigInt64( -2n) => -2n"
+            "start": 2885,
+            "end": 2910,
+            "value": "ToBigInt64( -2n) => -2n",
+            "raw": "\"ToBigInt64( -2n) => -2n\""
           }
         ],
         "optional": false
@@ -512,26 +534,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2916,
-      "end": 3062,
+      "start": 2914,
+      "end": 3060,
       "expression": {
         "type": "CallExpression",
-        "start": 2916,
-        "end": 3061,
+        "start": 2914,
+        "end": 3059,
         "callee": {
           "type": "MemberExpression",
-          "start": 2916,
-          "end": 2932,
+          "start": 2914,
+          "end": 2930,
           "object": {
             "type": "Identifier",
-            "start": 2916,
-            "end": 2922,
+            "start": 2914,
+            "end": 2920,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2923,
-            "end": 2932,
+            "start": 2921,
+            "end": 2930,
             "name": "sameValue"
           },
           "computed": false,
@@ -540,34 +562,37 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2933,
-            "end": 2946,
+            "start": 2931,
+            "end": 2944,
             "object": {
               "type": "Identifier",
-              "start": 2933,
+              "start": 2931,
+              "end": 2941,
+              "name": "typedArray"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 2942,
               "end": 2943,
-              "name": "typedArray"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2944,
-              "end": 2945,
-              "value": 5
+              "value": 5,
+              "raw": "5"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2948,
-            "end": 2968,
-            "value": "9223372036854775806n"
+            "start": 2946,
+            "end": 2966,
+            "value": "9223372036854775806n",
+            "raw": "9223372036854775806n"
           },
           {
             "type": "Literal",
-            "start": 3004,
-            "end": 3060,
-            "value": "ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n"
+            "start": 3002,
+            "end": 3058,
+            "value": "ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n",
+            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n\""
           }
         ],
         "optional": false
@@ -575,26 +600,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3064,
-      "end": 3159,
+      "start": 3062,
+      "end": 3157,
       "expression": {
         "type": "CallExpression",
-        "start": 3064,
-        "end": 3158,
+        "start": 3062,
+        "end": 3156,
         "callee": {
           "type": "MemberExpression",
-          "start": 3064,
-          "end": 3080,
+          "start": 3062,
+          "end": 3078,
           "object": {
             "type": "Identifier",
-            "start": 3064,
-            "end": 3070,
+            "start": 3062,
+            "end": 3068,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3071,
-            "end": 3080,
+            "start": 3069,
+            "end": 3078,
             "name": "sameValue"
           },
           "computed": false,
@@ -603,41 +628,44 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 3081,
-            "end": 3094,
+            "start": 3079,
+            "end": 3092,
             "object": {
               "type": "Identifier",
-              "start": 3081,
-              "end": 3091,
+              "start": 3079,
+              "end": 3089,
               "name": "typedArray"
             },
             "property": {
               "type": "Literal",
-              "start": 3092,
-              "end": 3093,
-              "value": 6
+              "start": 3090,
+              "end": 3091,
+              "value": 6,
+              "raw": "6"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "UnaryExpression",
-            "start": 3096,
-            "end": 3099,
+            "start": 3094,
+            "end": 3097,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 3097,
-              "end": 3099,
-              "value": "2n"
+              "start": 3095,
+              "end": 3097,
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 3118,
-            "end": 3157,
-            "value": "ToBigInt64( -(2n ** 64n) - 2n) => -2n"
+            "start": 3116,
+            "end": 3155,
+            "value": "ToBigInt64( -(2n ** 64n) - 2n) => -2n",
+            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => -2n\""
           }
         ],
         "optional": false

@@ -58,7 +58,8 @@
                     "type": "Literal",
                     "start": 314,
                     "end": 325,
-                    "value": "prototype"
+                    "value": "prototype",
+                    "raw": "\"prototype\""
                   }
                 ],
                 "optional": false
@@ -69,7 +70,8 @@
             "type": "Literal",
             "start": 330,
             "end": 404,
-            "value": "The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true"
+            "value": "The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true",
+            "raw": "'The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true'"
           }
         ],
         "optional": false

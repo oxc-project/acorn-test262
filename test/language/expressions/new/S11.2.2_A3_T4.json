@@ -48,7 +48,8 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 394,
-                  "value": "#1: new undefined throw TypeError"
+                  "value": "#1: new undefined throw TypeError",
+                  "raw": "'#1: new undefined throw TypeError'"
                 }
               ]
             }
@@ -106,7 +107,8 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 451,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -133,7 +135,8 @@
                           "type": "Literal",
                           "start": 482,
                           "end": 517,
-                          "value": "#1: new undefined throw TypeError"
+                          "value": "#1: new undefined throw TypeError",
+                          "raw": "'#1: new undefined throw TypeError'"
                         }
                       ]
                     }
@@ -217,7 +220,8 @@
                   "type": "Literal",
                   "start": 599,
                   "end": 645,
-                  "value": "#2: var x = undefined; new x throw TypeError"
+                  "value": "#2: var x = undefined; new x throw TypeError",
+                  "raw": "'#2: var x = undefined; new x throw TypeError'"
                 }
               ]
             }
@@ -275,7 +279,8 @@
                   "type": "Literal",
                   "start": 698,
                   "end": 702,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -302,7 +307,8 @@
                           "type": "Literal",
                           "start": 733,
                           "end": 779,
-                          "value": "#2: var x = undefined; new x throw TypeError"
+                          "value": "#2: var x = undefined; new x throw TypeError",
+                          "raw": "'#2: var x = undefined; new x throw TypeError'"
                         }
                       ]
                     }
@@ -386,7 +392,8 @@
                   "type": "Literal",
                   "start": 863,
                   "end": 911,
-                  "value": "#3: var x = undefined; new x() throw TypeError"
+                  "value": "#3: var x = undefined; new x() throw TypeError",
+                  "raw": "'#3: var x = undefined; new x() throw TypeError'"
                 }
               ]
             }
@@ -444,7 +451,8 @@
                   "type": "Literal",
                   "start": 964,
                   "end": 968,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -471,7 +479,8 @@
                           "type": "Literal",
                           "start": 999,
                           "end": 1047,
-                          "value": "#3: var x = undefined; new x() throw TypeError"
+                          "value": "#3: var x = undefined; new x() throw TypeError",
+                          "raw": "'#3: var x = undefined; new x() throw TypeError'"
                         }
                       ]
                     }

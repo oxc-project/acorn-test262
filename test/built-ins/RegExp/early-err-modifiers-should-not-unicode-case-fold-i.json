@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 690,
+  "end": 688,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 589,
-      "end": 689,
+      "end": 687,
       "expression": {
         "type": "CallExpression",
         "start": 589,
-        "end": 688,
+        "end": 686,
         "callee": {
           "type": "MemberExpression",
           "start": 589,
@@ -40,7 +40,7 @@
           {
             "type": "FunctionExpression",
             "start": 616,
-            "end": 658,
+            "end": 657,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,16 +49,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 628,
-              "end": 658,
+              "end": 657,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 632,
-                  "end": 656,
+                  "end": 655,
                   "expression": {
                     "type": "CallExpression",
                     "start": 632,
-                    "end": 655,
+                    "end": 654,
                     "callee": {
                       "type": "Identifier",
                       "start": 632,
@@ -69,14 +69,16 @@
                       {
                         "type": "Literal",
                         "start": 639,
-                        "end": 648,
-                        "value": "(?İ:a)"
+                        "end": 647,
+                        "value": "(?İ:a)",
+                        "raw": "\"(?İ:a)\""
                       },
                       {
                         "type": "Literal",
-                        "start": 650,
-                        "end": 654,
-                        "value": "iu"
+                        "start": 649,
+                        "end": 653,
+                        "value": "iu",
+                        "raw": "\"iu\""
                       }
                     ],
                     "optional": false
@@ -87,9 +89,10 @@
           },
           {
             "type": "Literal",
-            "start": 660,
-            "end": 687,
-            "value": "RegExp(\"(?İ:a)\", \"iu\"): "
+            "start": 659,
+            "end": 685,
+            "value": "RegExp(\"(?İ:a)\", \"iu\"): ",
+            "raw": "'RegExp(\"(?İ:a)\", \"iu\"): '"
           }
         ],
         "optional": false

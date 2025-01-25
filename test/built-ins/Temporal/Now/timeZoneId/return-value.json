@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 356,
             "end": 364,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 368,
             "end": 412,
-            "value": "Temporal.Now.timeZoneId() returns a string"
+            "value": "Temporal.Now.timeZoneId() returns a string",
+            "raw": "\"Temporal.Now.timeZoneId() returns a string\""
           }
         ],
         "optional": false

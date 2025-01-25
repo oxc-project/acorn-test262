@@ -94,7 +94,8 @@
                   "type": "Literal",
                   "start": 599,
                   "end": 611,
-                  "value": "byteLength"
+                  "value": "byteLength",
+                  "raw": "\"byteLength\""
                 }
               ],
               "optional": false
@@ -205,7 +206,8 @@
             "type": "Literal",
             "start": 687,
             "end": 706,
-            "value": "this is undefined"
+            "value": "this is undefined",
+            "raw": "\"this is undefined\""
           }
         ],
         "optional": false
@@ -291,7 +293,8 @@
                         "type": "Literal",
                         "start": 762,
                         "end": 766,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -304,7 +307,8 @@
             "type": "Literal",
             "start": 772,
             "end": 786,
-            "value": "this is null"
+            "value": "this is null",
+            "raw": "\"this is null\""
           }
         ],
         "optional": false
@@ -390,7 +394,8 @@
                         "type": "Literal",
                         "start": 842,
                         "end": 844,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -403,7 +408,8 @@
             "type": "Literal",
             "start": 850,
             "end": 862,
-            "value": "this is 42"
+            "value": "this is 42",
+            "raw": "\"this is 42\""
           }
         ],
         "optional": false
@@ -489,7 +495,8 @@
                         "type": "Literal",
                         "start": 918,
                         "end": 921,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       }
                     ],
                     "optional": false
@@ -502,7 +509,8 @@
             "type": "Literal",
             "start": 927,
             "end": 945,
-            "value": "this is a string"
+            "value": "this is a string",
+            "raw": "\"this is a string\""
           }
         ],
         "optional": false
@@ -588,7 +596,8 @@
                         "type": "Literal",
                         "start": 1001,
                         "end": 1005,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -601,7 +610,8 @@
             "type": "Literal",
             "start": 1011,
             "end": 1025,
-            "value": "this is true"
+            "value": "this is true",
+            "raw": "\"this is true\""
           }
         ],
         "optional": false
@@ -687,7 +697,8 @@
                         "type": "Literal",
                         "start": 1081,
                         "end": 1086,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -700,7 +711,8 @@
             "type": "Literal",
             "start": 1092,
             "end": 1107,
-            "value": "this is false"
+            "value": "this is false",
+            "raw": "\"this is false\""
           }
         ],
         "optional": false
@@ -736,7 +748,8 @@
                 "type": "Literal",
                 "start": 1126,
                 "end": 1129,
-                "value": "s"
+                "value": "s",
+                "raw": "\"s\""
               }
             ],
             "optional": false
@@ -838,7 +851,8 @@
             "type": "Literal",
             "start": 1191,
             "end": 1209,
-            "value": "this is a Symbol"
+            "value": "this is a Symbol",
+            "raw": "\"this is a Symbol\""
           }
         ],
         "optional": false

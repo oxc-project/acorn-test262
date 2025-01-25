@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 400,
-                "value": 1
+                "value": 1,
+                "raw": "1.0"
               }
             ]
           }
@@ -135,7 +136,8 @@
                     "type": "Literal",
                     "start": 479,
                     "end": 612,
-                    "value": "#1.1: __instance = new Number(1.0); __instance.exec = RegExp.prototype.exec; __instance[\"exec\"](\"message to investigate\"). Actual: "
+                    "value": "#1.1: __instance = new Number(1.0); __instance.exec = RegExp.prototype.exec; __instance[\"exec\"](\"message to investigate\"). Actual: ",
+                    "raw": "'#1.1: __instance = new Number(1.0); __instance.exec = RegExp.prototype.exec; __instance[\"exec\"](\"message to investigate\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -160,7 +162,8 @@
                           "type": "Literal",
                           "start": 627,
                           "end": 633,
-                          "value": "exec"
+                          "value": "exec",
+                          "raw": "\"exec\""
                         },
                         "computed": true,
                         "optional": false
@@ -170,7 +173,8 @@
                           "type": "Literal",
                           "start": 635,
                           "end": 659,
-                          "value": "message to investigate"
+                          "value": "message to investigate",
+                          "raw": "\"message to investigate\""
                         }
                       ],
                       "optional": false
@@ -247,13 +251,15 @@
                     "type": "Literal",
                     "start": 730,
                     "end": 734,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 740,
                     "end": 814,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

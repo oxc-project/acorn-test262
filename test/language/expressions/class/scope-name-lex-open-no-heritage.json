@@ -69,7 +69,8 @@
             "type": "Literal",
             "start": 925,
             "end": 934,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -194,7 +195,8 @@
                               "type": "Literal",
                               "start": 1008,
                               "end": 1012,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             }
                           }
                         }
@@ -254,7 +256,8 @@
             "type": "Literal",
             "start": 1054,
             "end": 1063,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false
@@ -337,7 +340,8 @@
             "type": "Literal",
             "start": 1111,
             "end": 1132,
-            "value": "inner binding value"
+            "value": "inner binding value",
+            "raw": "'inner binding value'"
           }
         ],
         "optional": false
@@ -413,7 +417,8 @@
             "type": "Literal",
             "start": 1185,
             "end": 1221,
-            "value": "inner binding rejects modification"
+            "value": "inner binding rejects modification",
+            "raw": "'inner binding rejects modification'"
           }
         ],
         "optional": false
@@ -496,7 +501,8 @@
             "type": "Literal",
             "start": 1270,
             "end": 1298,
-            "value": "inner binding is immutable"
+            "value": "inner binding is immutable",
+            "raw": "'inner binding is immutable'"
           }
         ],
         "optional": false

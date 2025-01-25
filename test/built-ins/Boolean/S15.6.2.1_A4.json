@@ -136,13 +136,15 @@
             "type": "Literal",
             "start": 413,
             "end": 431,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 480,
-            "value": "obj.toString() must return \"[object Boolean]\""
+            "value": "obj.toString() must return \"[object Boolean]\"",
+            "raw": "'obj.toString() must return \"[object Boolean]\"'"
           }
         ],
         "optional": false

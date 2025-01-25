@@ -75,7 +75,8 @@
             "type": "Literal",
             "start": 404,
             "end": 456,
-            "value": "Uint8Array.prototype.toBase64 is not a constructor"
+            "value": "Uint8Array.prototype.toBase64 is not a constructor",
+            "raw": "\"Uint8Array.prototype.toBase64 is not a constructor\""
           }
         ],
         "optional": false
@@ -111,7 +112,8 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 493,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }

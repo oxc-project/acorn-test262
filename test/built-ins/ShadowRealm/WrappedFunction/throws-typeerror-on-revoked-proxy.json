@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 914,
             "end": 924,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 928,
             "end": 1001,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -213,7 +215,8 @@
             "type": "Literal",
             "start": 1158,
             "end": 1178,
-            "value": "revocable.revoke()"
+            "value": "revocable.revoke()",
+            "raw": "'revocable.revoke()'"
           }
         ],
         "optional": false

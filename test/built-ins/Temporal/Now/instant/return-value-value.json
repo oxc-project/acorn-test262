@@ -135,7 +135,8 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 438,
-                  "value": "1000000n"
+                  "value": "1000000n",
+                  "raw": "1000000n"
                 }
               }
             ],
@@ -227,7 +228,8 @@
             "type": "Literal",
             "start": 497,
             "end": 569,
-            "value": "The result of evaluating (seconds >= nowBefore) is expected to be true"
+            "value": "The result of evaluating (seconds >= nowBefore) is expected to be true",
+            "raw": "'The result of evaluating (seconds >= nowBefore) is expected to be true'"
           }
         ],
         "optional": false
@@ -270,7 +272,8 @@
             "type": "Literal",
             "start": 600,
             "end": 671,
-            "value": "The result of evaluating (seconds <= nowAfter) is expected to be true"
+            "value": "The result of evaluating (seconds <= nowAfter) is expected to be true",
+            "raw": "'The result of evaluating (seconds <= nowAfter) is expected to be true'"
           }
         ],
         "optional": false

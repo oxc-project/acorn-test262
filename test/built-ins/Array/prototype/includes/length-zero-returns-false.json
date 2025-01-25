@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -185,7 +186,8 @@
                 "type": "Literal",
                 "start": 566,
                 "end": 567,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -194,13 +196,15 @@
             "type": "Literal",
             "start": 570,
             "end": 575,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 592,
-            "value": "returns false"
+            "value": "returns false",
+            "raw": "\"returns false\""
           }
         ],
         "optional": false
@@ -264,13 +268,15 @@
             "type": "Literal",
             "start": 631,
             "end": 636,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 662,
-            "value": "returns false - no arg"
+            "value": "returns false - no arg",
+            "raw": "\"returns false - no arg\""
           }
         ],
         "optional": false
@@ -332,7 +338,8 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 699,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -347,13 +354,15 @@
             "type": "Literal",
             "start": 713,
             "end": 718,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 737,
-            "value": "using fromIndex"
+            "value": "using fromIndex",
+            "raw": "\"using fromIndex\""
           }
         ],
         "optional": false
@@ -397,13 +406,15 @@
             "type": "Literal",
             "start": 764,
             "end": 765,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 814,
-            "value": "length is checked before ToInteger(fromIndex)"
+            "value": "length is checked before ToInteger(fromIndex)",
+            "raw": "\"length is checked before ToInteger(fromIndex)\""
           }
         ],
         "optional": false

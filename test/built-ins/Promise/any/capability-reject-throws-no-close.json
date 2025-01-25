@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 825,
             "end": 826,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 844,
             "end": 845,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 865,
             "end": 866,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -256,7 +259,8 @@
                                               "type": "Literal",
                                               "start": 1024,
                                               "end": 1028,
-                                              "value": true
+                                              "value": true,
+                                              "raw": "true"
                                             },
                                             "kind": "init"
                                           }
@@ -592,7 +596,8 @@
                                               "type": "Literal",
                                               "start": 1381,
                                               "end": 1396,
-                                              "value": "reject throws"
+                                              "value": "reject throws",
+                                              "raw": "'reject throws'"
                                             }
                                           ]
                                         }
@@ -785,7 +790,8 @@
                             "type": "Literal",
                             "start": 1498,
                             "end": 1531,
-                            "value": "The promise should be rejected."
+                            "value": "The promise should be rejected.",
+                            "raw": "'The promise should be rejected.'"
                           }
                         ],
                         "optional": false
@@ -853,7 +859,8 @@
                             "type": "Literal",
                             "start": 1581,
                             "end": 1582,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ],
                         "optional": false
@@ -897,7 +904,8 @@
                             "type": "Literal",
                             "start": 1617,
                             "end": 1618,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ],
                         "optional": false
@@ -941,7 +949,8 @@
                             "type": "Literal",
                             "start": 1651,
                             "end": 1652,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ],
                         "optional": false

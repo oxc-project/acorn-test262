@@ -92,7 +92,8 @@
             "type": "Literal",
             "start": 435,
             "end": 448,
-            "value": "++__map.foo"
+            "value": "++__map.foo",
+            "raw": "\"++__map.foo\""
           }
         ],
         "optional": false
@@ -120,7 +121,8 @@
               "type": "Literal",
               "start": 629,
               "end": 634,
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
             "operator": "in",
             "right": {
@@ -156,7 +158,8 @@
                   "type": "Literal",
                   "start": 673,
                   "end": 707,
-                  "value": "#2: var __map={}; \"foo\" in __map"
+                  "value": "#2: var __map={}; \"foo\" in __map",
+                  "raw": "'#2: var __map={}; \"foo\" in __map'"
                 }
               ]
             }

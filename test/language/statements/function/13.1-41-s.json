@@ -95,7 +95,8 @@
                         "type": "Literal",
                         "start": 397,
                         "end": 452,
-                        "value": "'use strict'; _13_1_41_s.x = function arguments() {};"
+                        "value": "'use strict'; _13_1_41_s.x = function arguments() {};",
+                        "raw": "\"'use strict'; _13_1_41_s.x = function arguments() {};\""
                       }
                     ],
                     "optional": false

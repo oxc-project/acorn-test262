@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 434,
               "end": 435,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           }
         ],
@@ -47,7 +48,8 @@
           "type": "Literal",
           "start": 442,
           "end": 444,
-          "value": 36
+          "value": 36,
+          "raw": "36"
         }
       },
       "update": {
@@ -111,7 +113,8 @@
                       "type": "Literal",
                       "start": 481,
                       "end": 487,
-                      "value": "10$1"
+                      "value": "10$1",
+                      "raw": "\"10$1\""
                     },
                     {
                       "type": "Identifier",
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 544,
-                  "value": "parseInt(\"10$1\", i) must return the value of i"
+                  "value": "parseInt(\"10$1\", i) must return the value of i",
+                  "raw": "'parseInt(\"10$1\", i) must return the value of i'"
                 }
               ],
               "optional": false

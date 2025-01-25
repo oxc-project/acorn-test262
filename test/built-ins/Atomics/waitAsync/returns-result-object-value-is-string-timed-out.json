@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 949,
             "end": 959,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 1016,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -138,7 +140,8 @@
                       "type": "Literal",
                       "start": 1104,
                       "end": 1105,
-                      "value": 8
+                      "value": 8,
+                      "raw": "8"
                     }
                   }
                 ]
@@ -241,19 +244,22 @@
                 "type": "Literal",
                 "start": 1156,
                 "end": 1157,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 1159,
                 "end": 1160,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 1162,
                 "end": 1163,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -300,13 +306,15 @@
             "type": "Literal",
             "start": 1191,
             "end": 1196,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1198,
             "end": 1229,
-            "value": "The value of `async` is false"
+            "value": "The value of `async` is false",
+            "raw": "'The value of `async` is false'"
           }
         ],
         "optional": false
@@ -350,13 +358,15 @@
             "type": "Literal",
             "start": 1256,
             "end": 1267,
-            "value": "timed-out"
+            "value": "timed-out",
+            "raw": "\"timed-out\""
           },
           {
             "type": "Literal",
             "start": 1269,
             "end": 1306,
-            "value": "The value of `value` is \"timed-out\""
+            "value": "The value of `value` is \"timed-out\"",
+            "raw": "'The value of `value` is \"timed-out\"'"
           }
         ],
         "optional": false

@@ -224,7 +224,8 @@
                             "type": "Literal",
                             "start": 1658,
                             "end": 1667,
-                            "value": "getThis"
+                            "value": "getThis",
+                            "raw": "'getThis'"
                           },
                           "computed": true,
                           "optional": false
@@ -262,7 +263,8 @@
                           "type": "Literal",
                           "start": 1694,
                           "end": 1700,
-                          "value": "This"
+                          "value": "This",
+                          "raw": "'This'"
                         },
                         "computed": true,
                         "optional": false
@@ -377,7 +379,8 @@
             "type": "Literal",
             "start": 1772,
             "end": 1792,
-            "value": "via CallExpression"
+            "value": "via CallExpression",
+            "raw": "'via CallExpression'"
           }
         ],
         "optional": false
@@ -440,7 +443,8 @@
             "type": "Literal",
             "start": 1836,
             "end": 1858,
-            "value": "via MemberExpression"
+            "value": "via MemberExpression",
+            "raw": "'via MemberExpression'"
           }
         ],
         "optional": false

@@ -58,7 +58,8 @@
                         "type": "Literal",
                         "start": 1008,
                         "end": 1010,
-                        "value": 45
+                        "value": 45,
+                        "raw": "45"
                       }
                     }
                   ]
@@ -90,7 +91,8 @@
         "type": "Literal",
         "start": 1030,
         "end": 1063,
-        "value": "./eval-export-dflt-cls-named.js"
+        "value": "./eval-export-dflt-cls-named.js",
+        "raw": "'./eval-export-dflt-cls-named.js'"
       },
       "attributes": []
     },
@@ -158,13 +160,15 @@
             "type": "Literal",
             "start": 1102,
             "end": 1104,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           },
           {
             "type": "Literal",
             "start": 1106,
             "end": 1127,
-            "value": "binding initialized"
+            "value": "binding initialized",
+            "raw": "'binding initialized'"
           }
         ],
         "optional": false
@@ -221,13 +225,15 @@
             "type": "Literal",
             "start": 1155,
             "end": 1162,
-            "value": "cName"
+            "value": "cName",
+            "raw": "'cName'"
           },
           {
             "type": "Literal",
             "start": 1164,
             "end": 1190,
-            "value": "correct name is assigned"
+            "value": "correct name is assigned",
+            "raw": "'correct name is assigned'"
           }
         ],
         "optional": false

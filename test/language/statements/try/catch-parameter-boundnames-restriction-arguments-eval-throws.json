@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 423,
                         "end": 453,
-                        "value": "try {} catch (arguments) { }"
+                        "value": "try {} catch (arguments) { }",
+                        "raw": "\"try {} catch (arguments) { }\""
                       }
                     ],
                     "optional": false

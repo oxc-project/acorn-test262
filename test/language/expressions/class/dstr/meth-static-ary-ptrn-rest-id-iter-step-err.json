@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2656,
             "end": 2657,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 2672,
             "end": 2673,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -105,7 +107,8 @@
                         "type": "Literal",
                         "start": 2711,
                         "end": 2712,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   },
@@ -145,7 +148,8 @@
                         "type": "Literal",
                         "start": 2754,
                         "end": 2755,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -403,7 +407,8 @@
             "type": "Literal",
             "start": 2911,
             "end": 2912,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -447,13 +452,15 @@
             "type": "Literal",
             "start": 2940,
             "end": 2941,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2943,
             "end": 2992,
-            "value": "Iterator is closed following abrupt completion."
+            "value": "Iterator is closed following abrupt completion.",
+            "raw": "'Iterator is closed following abrupt completion.'"
           }
         ],
         "optional": false

@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 530,
                 "end": 532,
-                "value": 20
+                "value": 20,
+                "raw": "20"
               },
               {
                 "type": "Literal",
                 "start": 534,
                 "end": 536,
-                "value": 40
+                "value": 40,
+                "raw": "40"
               }
             ],
             "optional": false
@@ -132,7 +134,8 @@
                     "type": "Literal",
                     "start": 664,
                     "end": 665,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   },
                   "operator": "/",
                   "right": {
@@ -213,7 +216,8 @@
                           "type": "Literal",
                           "start": 735,
                           "end": 736,
-                          "value": 8
+                          "value": 8,
+                          "raw": "8"
                         },
                         {
                           "type": "Identifier",
@@ -379,7 +383,8 @@
             "type": "Literal",
             "start": 862,
             "end": 864,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           }
         ],
         "optional": false
@@ -485,7 +490,8 @@
                   "type": "Literal",
                   "start": 941,
                   "end": 942,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -526,7 +532,8 @@
             "type": "Literal",
             "start": 1026,
             "end": 1028,
-            "value": 16
+            "value": 16,
+            "raw": "16"
           }
         ],
         "optional": false
@@ -673,7 +680,8 @@
             "type": "Literal",
             "start": 1127,
             "end": 1129,
-            "value": 40
+            "value": 40,
+            "raw": "40"
           }
         ],
         "optional": false

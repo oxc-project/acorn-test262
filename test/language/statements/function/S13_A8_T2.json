@@ -72,7 +72,8 @@
               "type": "Literal",
               "start": 521,
               "end": 524,
-              "value": "A"
+              "value": "A",
+              "raw": "'A'"
             }
           ],
           "optional": false
@@ -82,7 +83,8 @@
           "type": "Literal",
           "start": 530,
           "end": 531,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -113,7 +115,8 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 612,
-                    "value": "#1: __func('A') === 1. Actual: __func('A') ==="
+                    "value": "#1: __func('A') === 1. Actual: __func('A') ===",
+                    "raw": "'#1: __func(\\'A\\') === 1. Actual: __func(\\'A\\') ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -131,7 +134,8 @@
                         "type": "Literal",
                         "start": 620,
                         "end": 623,
-                        "value": "A"
+                        "value": "A",
+                        "raw": "'A'"
                       }
                     ],
                     "optional": false
@@ -167,25 +171,29 @@
               "type": "Literal",
               "start": 812,
               "end": 815,
-              "value": "A"
+              "value": "A",
+              "raw": "'A'"
             },
             {
               "type": "Literal",
               "start": 817,
               "end": 820,
-              "value": "B"
+              "value": "B",
+              "raw": "'B'"
             },
             {
               "type": "Literal",
               "start": 822,
               "end": 823,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 825,
               "end": 826,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Identifier",
@@ -201,7 +209,8 @@
           "type": "Literal",
           "start": 839,
           "end": 840,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -232,7 +241,8 @@
                     "type": "Literal",
                     "start": 868,
                     "end": 960,
-                    "value": "#2: __func('A', 'B', 1, 2,__func) === 5. Actual: __func('A', 'B', 1, 2,__func) ==="
+                    "value": "#2: __func('A', 'B', 1, 2,__func) === 5. Actual: __func('A', 'B', 1, 2,__func) ===",
+                    "raw": "'#2: __func(\\'A\\', \\'B\\', 1, 2,__func) === 5. Actual: __func(\\'A\\', \\'B\\', 1, 2,__func) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -250,25 +260,29 @@
                         "type": "Literal",
                         "start": 968,
                         "end": 971,
-                        "value": "A"
+                        "value": "A",
+                        "raw": "'A'"
                       },
                       {
                         "type": "Literal",
                         "start": 973,
                         "end": 976,
-                        "value": "B"
+                        "value": "B",
+                        "raw": "'B'"
                       },
                       {
                         "type": "Literal",
                         "start": 978,
                         "end": 979,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 981,
                         "end": 982,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Identifier",
@@ -313,7 +327,8 @@
           "type": "Literal",
           "start": 1184,
           "end": 1185,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -344,7 +359,8 @@
                     "type": "Literal",
                     "start": 1213,
                     "end": 1255,
-                    "value": "#3: __func() === 0. Actual: __func() ==="
+                    "value": "#3: __func() === 0. Actual: __func() ===",
+                    "raw": "'#3: __func() === 0. Actual: __func() ==='"
                   },
                   "operator": "+",
                   "right": {

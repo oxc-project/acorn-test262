@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 254,
             "end": 255,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -120,13 +121,15 @@
                               "type": "Literal",
                               "start": 326,
                               "end": 327,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Literal",
                               "start": 329,
                               "end": 363,
-                              "value": "The result of `counter++` is `0`"
+                              "value": "The result of `counter++` is `0`",
+                              "raw": "\"The result of `counter++` is `0`\""
                             }
                           ],
                           "optional": false
@@ -140,7 +143,8 @@
                           "type": "Literal",
                           "start": 377,
                           "end": 378,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -165,7 +169,8 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 401,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -267,13 +272,15 @@
                               "type": "Literal",
                               "start": 474,
                               "end": 475,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 477,
                               "end": 511,
-                              "value": "The result of `counter++` is `1`"
+                              "value": "The result of `counter++` is `1`",
+                              "raw": "\"The result of `counter++` is `1`\""
                             }
                           ],
                           "optional": false
@@ -287,7 +294,8 @@
                           "type": "Literal",
                           "start": 525,
                           "end": 526,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -312,7 +320,8 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 549,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -359,7 +368,8 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 577,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "'A'"
                 },
                 "kind": "init"
               },
@@ -380,7 +390,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 592,
-                  "value": "B"
+                  "value": "B",
+                  "raw": "'B'"
                 },
                 "kind": "init"
               },
@@ -401,7 +412,8 @@
                   "type": "Literal",
                   "start": 599,
                   "end": 602,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "'C'"
                 },
                 "kind": "init"
               },
@@ -422,7 +434,8 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 617,
-                  "value": "D"
+                  "value": "D",
+                  "raw": "'D'"
                 },
                 "kind": "init"
               }
@@ -470,13 +483,15 @@
             "type": "Literal",
             "start": 648,
             "end": 649,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 651,
             "end": 682,
-            "value": "The value of `counter` is `2`"
+            "value": "The value of `counter` is `2`",
+            "raw": "\"The value of `counter` is `2`\""
           }
         ],
         "optional": false
@@ -533,13 +548,15 @@
             "type": "Literal",
             "start": 712,
             "end": 715,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 772,
-            "value": "The value of `object.a` is `'A'`. Defined as `a: 'A'`"
+            "value": "The value of `object.a` is `'A'`. Defined as `a: 'A'`",
+            "raw": "\"The value of `object.a` is `'A'`. Defined as `a: 'A'`\""
           }
         ],
         "optional": false
@@ -587,7 +604,8 @@
               "type": "Literal",
               "start": 799,
               "end": 800,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -596,13 +614,15 @@
             "type": "Literal",
             "start": 803,
             "end": 806,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 869,
-            "value": "The value of `object[1]` is `'B'`. Defined as `[key1]: 'B'`"
+            "value": "The value of `object[1]` is `'B'`. Defined as `[key1]: 'B'`",
+            "raw": "\"The value of `object[1]` is `'B'`. Defined as `[key1]: 'B'`\""
           }
         ],
         "optional": false
@@ -659,13 +679,15 @@
             "type": "Literal",
             "start": 899,
             "end": 902,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 959,
-            "value": "The value of `object.c` is `'C'`. Defined as `c: 'C'`"
+            "value": "The value of `object.c` is `'C'`. Defined as `c: 'C'`",
+            "raw": "\"The value of `object.c` is `'C'`. Defined as `c: 'C'`\""
           }
         ],
         "optional": false
@@ -713,7 +735,8 @@
               "type": "Literal",
               "start": 986,
               "end": 987,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -722,13 +745,15 @@
             "type": "Literal",
             "start": 990,
             "end": 993,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1056,
-            "value": "The value of `object[2]` is `'D'`. Defined as `[key2]: 'D'`"
+            "value": "The value of `object[2]` is `'D'`. Defined as `[key2]: 'D'`",
+            "raw": "\"The value of `object[2]` is `'D'`. Defined as `[key2]: 'D'`\""
           }
         ],
         "optional": false
@@ -804,25 +829,29 @@
                 "type": "Literal",
                 "start": 1121,
                 "end": 1124,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               },
               {
                 "type": "Literal",
                 "start": 1126,
                 "end": 1129,
-                "value": "2"
+                "value": "2",
+                "raw": "'2'"
               },
               {
                 "type": "Literal",
                 "start": 1131,
                 "end": 1134,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 1136,
                 "end": 1139,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }

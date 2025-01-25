@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 292,
             "end": 300,
-            "value": "Father"
+            "value": "Father",
+            "raw": "\"Father\""
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +109,8 @@
                           "type": "Literal",
                           "start": 335,
                           "end": 337,
-                          "value": 10
+                          "value": 10,
+                          "raw": "10"
                         }
                       }
                     ]
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 364,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -378,7 +381,8 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 582,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -461,7 +465,8 @@
                 "type": "Literal",
                 "start": 646,
                 "end": 654,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -495,7 +500,8 @@
             "type": "Literal",
             "start": 675,
             "end": 694,
-            "value": "preCheck !== true"
+            "value": "preCheck !== true",
+            "raw": "'preCheck !== true'"
           }
         ],
         "optional": false
@@ -526,7 +532,8 @@
             "type": "Literal",
             "start": 719,
             "end": 743,
-            "value": "beforeDeleted !== true"
+            "value": "beforeDeleted !== true",
+            "raw": "'beforeDeleted !== true'"
           }
         ],
         "optional": false
@@ -570,13 +577,15 @@
             "type": "Literal",
             "start": 777,
             "end": 782,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 798,
-            "value": "afterDeleted"
+            "value": "afterDeleted",
+            "raw": "'afterDeleted'"
           }
         ],
         "optional": false

@@ -91,7 +91,8 @@
           "type": "Literal",
           "start": 397,
           "end": 405,
-          "value": "RegExp"
+          "value": "RegExp",
+          "raw": "\"RegExp\""
         }
       }
     },
@@ -212,13 +213,15 @@
             "type": "Literal",
             "start": 495,
             "end": 503,
-            "value": "RegExp"
+            "value": "RegExp",
+            "raw": "\"RegExp\""
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 519,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

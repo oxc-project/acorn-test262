@@ -1,53 +1,55 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2759,
+  "end": 2755,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 2643,
-      "end": 2703,
+      "start": 2639,
+      "end": 2699,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 2650,
-          "end": 2653,
+          "start": 2646,
+          "end": 2649,
           "local": {
             "type": "Identifier",
-            "start": 2650,
-            "end": 2653,
+            "start": 2646,
+            "end": 2649,
             "name": "foo"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2659,
-        "end": 2702,
-        "value": "./module-import-rejection-tick_FIXTURE.js"
+        "start": 2655,
+        "end": 2698,
+        "value": "./module-import-rejection-tick_FIXTURE.js",
+        "raw": "'./module-import-rejection-tick_FIXTURE.js'"
       },
       "attributes": []
     },
     {
       "type": "ThrowStatement",
-      "start": 2705,
-      "end": 2758,
+      "start": 2701,
+      "end": 2754,
       "argument": {
         "type": "NewExpression",
-        "start": 2711,
-        "end": 2757,
+        "start": 2707,
+        "end": 2753,
         "callee": {
           "type": "Identifier",
-          "start": 2715,
-          "end": 2727,
+          "start": 2711,
+          "end": 2723,
           "name": "Test262Error"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2728,
-            "end": 2756,
-            "value": "this should be unreachable"
+            "start": 2724,
+            "end": 2752,
+            "value": "this should be unreachable",
+            "raw": "'this should be unreachable'"
           }
         ]
       }

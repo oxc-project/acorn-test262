@@ -1,63 +1,63 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 772,
+  "end": 770,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 487,
-      "end": 576,
+      "start": 485,
+      "end": 574,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 493,
-          "end": 575,
+          "start": 491,
+          "end": 573,
           "id": {
             "type": "Identifier",
-            "start": 493,
-            "end": 497,
+            "start": 491,
+            "end": 495,
             "name": "i32a"
           },
           "init": {
             "type": "NewExpression",
-            "start": 500,
-            "end": 575,
+            "start": 498,
+            "end": 573,
             "callee": {
               "type": "Identifier",
-              "start": 504,
-              "end": 514,
+              "start": 502,
+              "end": 512,
               "name": "Int32Array"
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 518,
-                "end": 573,
+                "start": 516,
+                "end": 571,
                 "callee": {
                   "type": "Identifier",
-                  "start": 522,
-                  "end": 539,
+                  "start": 520,
+                  "end": 537,
                   "name": "SharedArrayBuffer"
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 540,
-                    "end": 572,
+                    "start": 538,
+                    "end": 570,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 540,
-                      "end": 568,
+                      "start": 538,
+                      "end": 566,
                       "object": {
                         "type": "Identifier",
-                        "start": 540,
-                        "end": 550,
+                        "start": 538,
+                        "end": 548,
                         "name": "Int32Array"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 551,
-                        "end": 568,
+                        "start": 549,
+                        "end": 566,
                         "name": "BYTES_PER_ELEMENT"
                       },
                       "computed": false,
@@ -66,9 +66,10 @@
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 571,
-                      "end": 572,
-                      "value": 4
+                      "start": 569,
+                      "end": 570,
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -81,41 +82,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 578,
-      "end": 688,
+      "start": 576,
+      "end": 686,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 584,
-          "end": 687,
+          "start": 582,
+          "end": 685,
           "id": {
             "type": "Identifier",
-            "start": 584,
-            "end": 592,
+            "start": 582,
+            "end": 590,
             "name": "poisoned"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 595,
-            "end": 687,
+            "start": 593,
+            "end": 685,
             "properties": [
               {
                 "type": "Property",
-                "start": 599,
-                "end": 685,
+                "start": 597,
+                "end": 683,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 599,
-                  "end": 606,
+                  "start": 597,
+                  "end": 604,
                   "name": "valueOf"
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 608,
-                  "end": 685,
+                  "start": 606,
+                  "end": 683,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -123,29 +124,30 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 619,
-                    "end": 685,
+                    "start": 617,
+                    "end": 683,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 625,
-                        "end": 681,
+                        "start": 623,
+                        "end": 679,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 631,
-                          "end": 680,
+                          "start": 629,
+                          "end": 678,
                           "callee": {
                             "type": "Identifier",
-                            "start": 635,
-                            "end": 647,
+                            "start": 633,
+                            "end": 645,
                             "name": "Test262Error"
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 648,
-                              "end": 679,
-                              "value": "should not evaluate this code"
+                              "start": 646,
+                              "end": 677,
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -163,26 +165,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 690,
-      "end": 771,
+      "start": 688,
+      "end": 769,
       "expression": {
         "type": "CallExpression",
-        "start": 690,
-        "end": 770,
+        "start": 688,
+        "end": 768,
         "callee": {
           "type": "MemberExpression",
-          "start": 690,
-          "end": 703,
+          "start": 688,
+          "end": 701,
           "object": {
             "type": "Identifier",
-            "start": 690,
-            "end": 696,
+            "start": 688,
+            "end": 694,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 697,
-            "end": 703,
+            "start": 695,
+            "end": 701,
             "name": "throws"
           },
           "computed": false,
@@ -191,14 +193,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 704,
-            "end": 716,
+            "start": 702,
+            "end": 714,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 718,
-            "end": 769,
+            "start": 716,
+            "end": 767,
             "id": null,
             "expression": false,
             "generator": false,
@@ -206,31 +208,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 729,
-              "end": 769,
+              "start": 727,
+              "end": 767,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 733,
-                  "end": 767,
+                  "start": 731,
+                  "end": 765,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 733,
-                    "end": 766,
+                    "start": 731,
+                    "end": 764,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 733,
-                      "end": 747,
+                      "start": 731,
+                      "end": 745,
                       "object": {
                         "type": "Identifier",
-                        "start": 733,
-                        "end": 740,
+                        "start": 731,
+                        "end": 738,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 741,
-                        "end": 747,
+                        "start": 739,
+                        "end": 745,
                         "name": "notify"
                       },
                       "computed": false,
@@ -239,20 +241,21 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 748,
-                        "end": 752,
+                        "start": 746,
+                        "end": 750,
                         "name": "i32a"
                       },
                       {
                         "type": "Literal",
-                        "start": 754,
-                        "end": 755,
-                        "value": 0
+                        "start": 752,
+                        "end": 753,
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
-                        "start": 757,
-                        "end": 765,
+                        "start": 755,
+                        "end": 763,
                         "name": "poisoned"
                       }
                     ],

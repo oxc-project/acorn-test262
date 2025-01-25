@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 788,
             "end": 793,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 854,
-            "value": "isConstructor(Reflect.setPrototypeOf) must return false"
+            "value": "isConstructor(Reflect.setPrototypeOf) must return false",
+            "raw": "'isConstructor(Reflect.setPrototypeOf) must return false'"
           }
         ],
         "optional": false

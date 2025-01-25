@@ -36,7 +36,8 @@
           "type": "Literal",
           "start": 321,
           "end": 331,
-          "value": "Infinity"
+          "value": "Infinity",
+          "raw": "\"Infinity\""
         }
       },
       "consequent": {
@@ -67,7 +68,8 @@
                     "type": "Literal",
                     "start": 360,
                     "end": 407,
-                    "value": "#1: String(Infinity) === \"Infinity\". Actual: "
+                    "value": "#1: String(Infinity) === \"Infinity\". Actual: ",
+                    "raw": "'#1: String(Infinity) === \"Infinity\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -149,7 +151,8 @@
           "type": "Literal",
           "start": 486,
           "end": 496,
-          "value": "Infinity"
+          "value": "Infinity",
+          "raw": "\"Infinity\""
         }
       },
       "consequent": {
@@ -180,7 +183,8 @@
                     "type": "Literal",
                     "start": 525,
                     "end": 588,
-                    "value": "#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: "
+                    "value": "#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: ",
+                    "raw": "'#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -269,7 +273,8 @@
           "type": "Literal",
           "start": 668,
           "end": 679,
-          "value": "-Infinity"
+          "value": "-Infinity",
+          "raw": "\"-Infinity\""
         }
       },
       "consequent": {
@@ -300,7 +305,8 @@
                     "type": "Literal",
                     "start": 708,
                     "end": 757,
-                    "value": "#3: String(-Infinity) === \"-Infinity\". Actual: "
+                    "value": "#3: String(-Infinity) === \"-Infinity\". Actual: ",
+                    "raw": "'#3: String(-Infinity) === \"-Infinity\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -389,7 +395,8 @@
           "type": "Literal",
           "start": 837,
           "end": 848,
-          "value": "-Infinity"
+          "value": "-Infinity",
+          "raw": "\"-Infinity\""
         }
       },
       "consequent": {
@@ -420,7 +427,8 @@
                     "type": "Literal",
                     "start": 877,
                     "end": 941,
-                    "value": "#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: "
+                    "value": "#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: ",
+                    "raw": "'#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

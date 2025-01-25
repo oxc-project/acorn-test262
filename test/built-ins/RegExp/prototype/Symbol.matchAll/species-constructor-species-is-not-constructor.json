@@ -23,6 +23,7 @@
             "start": 930,
             "end": 933,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -167,7 +168,8 @@
                         "type": "Literal",
                         "start": 1064,
                         "end": 1066,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false
@@ -225,7 +227,8 @@
           "type": "Literal",
           "start": 1109,
           "end": 1113,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -273,7 +276,8 @@
             "type": "Literal",
             "start": 1154,
             "end": 1202,
-            "value": "`constructor[Symbol.species]` value is Boolean"
+            "value": "`constructor[Symbol.species]` value is Boolean",
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
           }
         ],
         "optional": false
@@ -324,7 +328,8 @@
           "type": "Literal",
           "start": 1243,
           "end": 1244,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -372,7 +377,8 @@
             "type": "Literal",
             "start": 1285,
             "end": 1332,
-            "value": "`constructor[Symbol.species]` value is Number"
+            "value": "`constructor[Symbol.species]` value is Number",
+            "raw": "\"`constructor[Symbol.species]` value is Number\""
           }
         ],
         "optional": false
@@ -478,7 +484,8 @@
             "type": "Literal",
             "start": 1422,
             "end": 1469,
-            "value": "`constructor[Symbol.species]` value is Symbol"
+            "value": "`constructor[Symbol.species]` value is Symbol",
+            "raw": "\"`constructor[Symbol.species]` value is Symbol\""
           }
         ],
         "optional": false
@@ -529,7 +536,8 @@
           "type": "Literal",
           "start": 1510,
           "end": 1514,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -577,7 +585,8 @@
             "type": "Literal",
             "start": 1555,
             "end": 1603,
-            "value": "`constructor[Symbol.species]` value is Boolean"
+            "value": "`constructor[Symbol.species]` value is Boolean",
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
           }
         ],
         "optional": false

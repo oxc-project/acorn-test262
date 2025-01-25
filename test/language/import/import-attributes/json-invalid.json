@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 702,
+  "end": 700,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 629,
+      "start": 610,
+      "end": 627,
       "expression": {
         "type": "CallExpression",
-        "start": 612,
-        "end": 628,
+        "start": 610,
+        "end": 626,
         "callee": {
           "type": "Identifier",
-          "start": 612,
-          "end": 626,
+          "start": 610,
+          "end": 624,
           "name": "$DONOTEVALUATE"
         },
         "arguments": [],
@@ -23,43 +23,45 @@
     },
     {
       "type": "ImportDeclaration",
-      "start": 631,
-      "end": 701,
+      "start": 629,
+      "end": 699,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 638,
-          "end": 643,
+          "start": 636,
+          "end": 641,
           "local": {
             "type": "Identifier",
-            "start": 638,
-            "end": 643,
+            "start": 636,
+            "end": 641,
             "name": "value"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 649,
-        "end": 678,
-        "value": "./json-invalid_FIXTURE.json"
+        "start": 647,
+        "end": 676,
+        "value": "./json-invalid_FIXTURE.json",
+        "raw": "'./json-invalid_FIXTURE.json'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 686,
-          "end": 698,
+          "start": 684,
+          "end": 696,
           "key": {
             "type": "Identifier",
-            "start": 686,
-            "end": 690,
+            "start": 684,
+            "end": 688,
             "name": "type"
           },
           "value": {
             "type": "Literal",
-            "start": 692,
-            "end": 698,
-            "value": "json"
+            "start": 690,
+            "end": 696,
+            "value": "json",
+            "raw": "'json'"
           }
         }
       ]

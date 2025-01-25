@@ -63,7 +63,8 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 364,
-                  "value": "test"
+                  "value": "test",
+                  "raw": "'test'"
                 }
               ],
               "quasis": [
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 375,
             "end": 408,
-            "value": "\\u0065\\`\\r\\r\\n\\ntestcheck"
+            "value": "\\u0065\\`\\r\\r\\n\\ntestcheck",
+            "raw": "'\\\\u0065\\\\`\\\\r\\\\r\\\\n\\\\ntestcheck'"
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 438,
-            "value": "Unicode escape sequences"
+            "value": "Unicode escape sequences",
+            "raw": "'Unicode escape sequences'"
           }
         ],
         "optional": false
@@ -180,13 +183,15 @@
             "type": "Literal",
             "start": 485,
             "end": 499,
-            "value": "\\\n\\\n\\\n"
+            "value": "\\\n\\\n\\\n",
+            "raw": "'\\\\\\n\\\\\\n\\\\\\n'"
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 523,
-            "value": "Literal characters"
+            "value": "Literal characters",
+            "raw": "'Literal characters'"
           }
         ],
         "optional": false

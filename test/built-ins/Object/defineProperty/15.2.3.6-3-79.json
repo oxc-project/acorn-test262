@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 358,
             "end": 372,
-            "value": "configurable"
+            "value": "configurable",
+            "raw": "\"configurable\""
           },
           {
             "type": "ObjectExpression",
@@ -133,7 +134,8 @@
                           "type": "Literal",
                           "start": 407,
                           "end": 411,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       }
                     ]
@@ -185,7 +187,8 @@
             "type": "Literal",
             "start": 449,
             "end": 459,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -240,7 +243,8 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 518,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -323,7 +327,8 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 592,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -370,13 +375,15 @@
             "type": "Literal",
             "start": 628,
             "end": 632,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 649,
-            "value": "beforeDeleted"
+            "value": "beforeDeleted",
+            "raw": "'beforeDeleted'"
           }
         ],
         "optional": false
@@ -420,13 +427,15 @@
             "type": "Literal",
             "start": 683,
             "end": 688,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 704,
-            "value": "afterDeleted"
+            "value": "afterDeleted",
+            "raw": "'afterDeleted'"
           }
         ],
         "optional": false

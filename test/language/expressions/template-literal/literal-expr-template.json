@@ -45,7 +45,8 @@
                     "type": "Literal",
                     "start": 494,
                     "end": 495,
-                    "value": 5
+                    "value": 5,
+                    "raw": "5"
                   }
                 ],
                 "quasis": [
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 509,
             "end": 528,
-            "value": "foo bar 5 baz qux"
+            "value": "foo bar 5 baz qux",
+            "raw": "'foo bar 5 baz qux'"
           }
         ],
         "optional": false

@@ -19,14 +19,16 @@
             "type": "Literal",
             "start": 356,
             "end": 357,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "operator": "===",
           "right": {
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "body": {
@@ -71,7 +73,8 @@
                     "type": "Literal",
                     "start": 435,
                     "end": 442,
-                    "value": "can't"
+                    "value": "can't",
+                    "raw": "\"can't\""
                   }
                 }
               ],
@@ -89,7 +92,8 @@
                   "type": "Literal",
                   "start": 463,
                   "end": 464,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "body": {
                   "type": "BlockStatement",
@@ -115,7 +119,8 @@
                             "type": "Literal",
                             "start": 508,
                             "end": 513,
-                            "value": "get"
+                            "value": "get",
+                            "raw": "\"get\""
                           }
                         }
                       ],
@@ -146,7 +151,8 @@
                             "type": "Literal",
                             "start": 569,
                             "end": 573,
-                            "value": "no"
+                            "value": "no",
+                            "raw": "\"no\""
                           }
                         }
                       ],
@@ -186,7 +192,8 @@
                     "type": "Literal",
                     "start": 614,
                     "end": 628,
-                    "value": "Satisfaction"
+                    "value": "Satisfaction",
+                    "raw": "\"Satisfaction\""
                   }
                 }
               ],
@@ -296,7 +303,8 @@
                   "type": "Literal",
                   "start": 864,
                   "end": 931,
-                  "value": "#1: Break inside do-while is allowed as its described at standard"
+                  "value": "#1: Break inside do-while is allowed as its described at standard",
+                  "raw": "'#1: Break inside do-while is allowed as its described at standard'"
                 }
               ]
             }

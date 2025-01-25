@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 364,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 368,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 372,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 376,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 380,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 384,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 389,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 394,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 399,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 410,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -159,13 +169,15 @@
             "type": "Literal",
             "start": 451,
             "end": 453,
-            "value": 47
+            "value": 47,
+            "raw": "47"
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 487,
-            "value": "check week of year information"
+            "value": "check week of year information",
+            "raw": "\"check week of year information\""
           }
         ],
         "optional": false

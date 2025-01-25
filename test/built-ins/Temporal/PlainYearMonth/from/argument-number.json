@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 309,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 319,
-                "value": 201906
+                "value": 201906,
+                "raw": "201906"
               },
               {
                 "type": "UnaryExpression",
@@ -45,14 +47,16 @@
                   "type": "Literal",
                   "start": 324,
                   "end": 330,
-                  "value": 201906
+                  "value": 201906,
+                  "raw": "201906"
                 }
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 341,
-                "value": 1234567
+                "value": 1234567,
+                "raw": "1234567"
               }
             ]
           }

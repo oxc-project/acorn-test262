@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 344,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 347,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -141,7 +143,8 @@
             "type": "Literal",
             "start": 411,
             "end": 422,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -218,7 +221,8 @@
                   "type": "Literal",
                   "start": 474,
                   "end": 478,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               ],
               "optional": false
@@ -228,7 +232,8 @@
             "type": "Literal",
             "start": 481,
             "end": 487,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -305,7 +310,8 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 543,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ],
               "optional": false
@@ -315,7 +321,8 @@
             "type": "Literal",
             "start": 546,
             "end": 555,
-            "value": "boolean"
+            "value": "boolean",
+            "raw": "\"boolean\""
           }
         ],
         "optional": false
@@ -392,7 +399,8 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 610,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 }
               ],
               "optional": false
@@ -402,7 +410,8 @@
             "type": "Literal",
             "start": 613,
             "end": 627,
-            "value": "empty string"
+            "value": "empty string",
+            "raw": "\"empty string\""
           }
         ],
         "optional": false
@@ -496,7 +505,8 @@
             "type": "Literal",
             "start": 690,
             "end": 698,
-            "value": "Symbol"
+            "value": "Symbol",
+            "raw": "\"Symbol\""
           }
         ],
         "optional": false
@@ -573,7 +583,8 @@
                   "type": "Literal",
                   "start": 750,
                   "end": 751,
-                  "value": 7
+                  "value": 7,
+                  "raw": "7"
                 }
               ],
               "optional": false
@@ -583,7 +594,8 @@
             "type": "Literal",
             "start": 754,
             "end": 762,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           }
         ],
         "optional": false
@@ -660,7 +672,8 @@
                   "type": "Literal",
                   "start": 814,
                   "end": 816,
-                  "value": "7n"
+                  "value": "7n",
+                  "raw": "7n"
                 }
               ],
               "optional": false
@@ -670,7 +683,8 @@
             "type": "Literal",
             "start": 819,
             "end": 827,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           }
         ],
         "optional": false
@@ -757,7 +771,8 @@
             "type": "Literal",
             "start": 884,
             "end": 891,
-            "value": "array"
+            "value": "array",
+            "raw": "\"array\""
           }
         ],
         "optional": false
@@ -854,7 +869,8 @@
             "type": "Literal",
             "start": 954,
             "end": 964,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false

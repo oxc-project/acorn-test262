@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 357,
-                "value": "1572342398271986102n"
+                "value": "1572342398271986102n",
+                "raw": "1572342398_271_986_102n"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 367,
-                "value": "-07:00"
+                "value": "-07:00",
+                "raw": "\"-07:00\""
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 378,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 428,
-                "value": "japanese"
+                "value": "japanese",
+                "raw": "\"japanese\""
               }
             ],
             "optional": false
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 473,
             "end": 496,
-            "value": "1572342398271986102n"
+            "value": "1572342398271986102n",
+            "raw": "1572342398_271_986_102n"
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 539,
-            "value": "Exact time is preserved in return value"
+            "value": "Exact time is preserved in return value",
+            "raw": "\"Exact time is preserved in return value\""
           }
         ],
         "optional": false

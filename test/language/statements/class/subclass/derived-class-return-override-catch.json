@@ -1,53 +1,53 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 459,
+  "end": 458,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 277,
-      "end": 404,
+      "start": 276,
+      "end": 403,
       "id": {
         "type": "Identifier",
-        "start": 283,
-        "end": 284,
+        "start": 282,
+        "end": 283,
         "name": "C"
       },
       "superClass": {
         "type": "ClassExpression",
-        "start": 293,
-        "end": 301,
+        "start": 292,
+        "end": 300,
         "id": null,
         "superClass": null,
         "body": {
           "type": "ClassBody",
-          "start": 299,
-          "end": 301,
+          "start": 298,
+          "end": 300,
           "body": []
         }
       },
       "body": {
         "type": "ClassBody",
-        "start": 302,
-        "end": 404,
+        "start": 301,
+        "end": 403,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 306,
-            "end": 402,
+            "start": 305,
+            "end": 401,
             "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 306,
-              "end": 317,
+              "start": 305,
+              "end": 316,
               "name": "constructor"
             },
             "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
-              "start": 317,
-              "end": 402,
+              "start": 316,
+              "end": 401,
               "id": null,
               "expression": false,
               "generator": false,
@@ -55,21 +55,21 @@
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 320,
-                "end": 402,
+                "start": 319,
+                "end": 401,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 326,
-                    "end": 334,
+                    "start": 325,
+                    "end": 333,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 326,
-                      "end": 333,
+                      "start": 325,
+                      "end": 332,
                       "callee": {
                         "type": "Super",
-                        "start": 326,
-                        "end": 331
+                        "start": 325,
+                        "end": 330
                       },
                       "arguments": [],
                       "optional": false
@@ -77,45 +77,46 @@
                   },
                   {
                     "type": "TryStatement",
-                    "start": 340,
-                    "end": 398,
+                    "start": 339,
+                    "end": 397,
                     "block": {
                       "type": "BlockStatement",
-                      "start": 344,
-                      "end": 367,
+                      "start": 343,
+                      "end": 366,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 352,
-                          "end": 361,
+                          "start": 351,
+                          "end": 360,
                           "argument": {
                             "type": "Literal",
-                            "start": 359,
-                            "end": 360,
-                            "value": 0
+                            "start": 358,
+                            "end": 359,
+                            "value": 0,
+                            "raw": "0"
                           }
                         }
                       ]
                     },
                     "handler": {
                       "type": "CatchClause",
-                      "start": 368,
-                      "end": 398,
+                      "start": 367,
+                      "end": 397,
                       "param": {
                         "type": "Identifier",
-                        "start": 374,
-                        "end": 375,
+                        "start": 373,
+                        "end": 374,
                         "name": "e"
                       },
                       "body": {
                         "type": "BlockStatement",
-                        "start": 377,
-                        "end": 398,
+                        "start": 376,
+                        "end": 397,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 385,
-                            "end": 392,
+                            "start": 384,
+                            "end": 391,
                             "argument": null
                           }
                         ]
@@ -132,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 458,
+      "start": 405,
+      "end": 457,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 457,
+        "start": 405,
+        "end": 456,
         "callee": {
           "type": "MemberExpression",
-          "start": 406,
-          "end": 419,
+          "start": 405,
+          "end": 418,
           "object": {
             "type": "Identifier",
-            "start": 406,
-            "end": 412,
+            "start": 405,
+            "end": 411,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 413,
-            "end": 419,
+            "start": 412,
+            "end": 418,
             "name": "throws"
           },
           "computed": false,
@@ -160,14 +161,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 420,
-            "end": 429,
+            "start": 419,
+            "end": 428,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 431,
-            "end": 456,
+            "start": 430,
+            "end": 455,
             "id": null,
             "expression": false,
             "generator": false,
@@ -175,21 +176,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 442,
-              "end": 456,
+              "start": 441,
+              "end": 455,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 446,
-                  "end": 454,
+                  "start": 445,
+                  "end": 453,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 446,
-                    "end": 453,
+                    "start": 445,
+                    "end": 452,
                     "callee": {
                       "type": "Identifier",
-                      "start": 450,
-                      "end": 451,
+                      "start": 449,
+                      "end": 450,
                       "name": "C"
                     },
                     "arguments": []

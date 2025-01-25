@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 474,
                         "end": 514,
-                        "value": "callback function should not be called"
+                        "value": "callback function should not be called",
+                        "raw": "'callback function should not be called'"
                       }
                     ]
                   }
@@ -277,7 +278,8 @@
             "type": "Literal",
             "start": 712,
             "end": 739,
-            "value": "undefined Symbol.iterator"
+            "value": "undefined Symbol.iterator",
+            "raw": "'undefined Symbol.iterator'"
           }
         ],
         "optional": false
@@ -380,7 +382,8 @@
                             "type": "Literal",
                             "start": 816,
                             "end": 820,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ],
                         "optional": false
@@ -402,7 +405,8 @@
             "type": "Literal",
             "start": 835,
             "end": 857,
-            "value": "null Symbol.iterator"
+            "value": "null Symbol.iterator",
+            "raw": "'null Symbol.iterator'"
           }
         ],
         "optional": false

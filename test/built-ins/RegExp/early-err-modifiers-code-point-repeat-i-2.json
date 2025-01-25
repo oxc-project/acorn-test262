@@ -70,13 +70,15 @@
                         "type": "Literal",
                         "start": 731,
                         "end": 742,
-                        "value": "(?imsi:a)"
+                        "value": "(?imsi:a)",
+                        "raw": "\"(?imsi:a)\""
                       },
                       {
                         "type": "Literal",
                         "start": 744,
                         "end": 746,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -89,7 +91,8 @@
             "type": "Literal",
             "start": 752,
             "end": 779,
-            "value": "RegExp(\"(?imsi:a)\", \"\"): "
+            "value": "RegExp(\"(?imsi:a)\", \"\"): ",
+            "raw": "'RegExp(\"(?imsi:a)\", \"\"): '"
           }
         ],
         "optional": false

@@ -85,13 +85,15 @@
             "type": "Literal",
             "start": 240,
             "end": 250,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 252,
             "end": 280,
-            "value": "`typeof C` is `'function'`"
+            "value": "`typeof C` is `'function'`",
+            "raw": "\"`typeof C` is `'function'`\""
           }
         ],
         "optional": false
@@ -194,7 +196,8 @@
             "type": "Literal",
             "start": 367,
             "end": 432,
-            "value": "`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`"
+            "value": "`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`",
+            "raw": "\"`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`\""
           }
         ],
         "optional": false
@@ -284,7 +287,8 @@
             "type": "Literal",
             "start": 512,
             "end": 569,
-            "value": "`Object.getPrototypeOf(C)` returns `Function.prototype`"
+            "value": "`Object.getPrototypeOf(C)` returns `Function.prototype`",
+            "raw": "\"`Object.getPrototypeOf(C)` returns `Function.prototype`\""
           }
         ],
         "optional": false
@@ -341,13 +345,15 @@
             "type": "Literal",
             "start": 598,
             "end": 601,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 635,
-            "value": "The value of `C.name` is `'C'`"
+            "value": "The value of `C.name` is `'C'`",
+            "raw": "\"The value of `C.name` is `'C'`\""
           }
         ],
         "optional": false
@@ -416,13 +422,15 @@
             "type": "Literal",
             "start": 677,
             "end": 687,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 717,
-            "value": "`typeof D` is `'function'`"
+            "value": "`typeof D` is `'function'`",
+            "raw": "\"`typeof D` is `'function'`\""
           }
         ],
         "optional": false
@@ -525,7 +533,8 @@
             "type": "Literal",
             "start": 804,
             "end": 869,
-            "value": "`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`"
+            "value": "`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`",
+            "raw": "\"`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`\""
           }
         ],
         "optional": false
@@ -615,7 +624,8 @@
             "type": "Literal",
             "start": 949,
             "end": 1006,
-            "value": "`Object.getPrototypeOf(D)` returns `Function.prototype`"
+            "value": "`Object.getPrototypeOf(D)` returns `Function.prototype`",
+            "raw": "\"`Object.getPrototypeOf(D)` returns `Function.prototype`\""
           }
         ],
         "optional": false
@@ -672,13 +682,15 @@
             "type": "Literal",
             "start": 1035,
             "end": 1038,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 1040,
             "end": 1072,
-            "value": "The value of `D.name` is `'D'`"
+            "value": "The value of `D.name` is `'D'`",
+            "raw": "\"The value of `D.name` is `'D'`\""
           }
         ],
         "optional": false
@@ -784,13 +796,15 @@
             "type": "Literal",
             "start": 1132,
             "end": 1136,
-            "value": "D2"
+            "value": "D2",
+            "raw": "'D2'"
           },
           {
             "type": "Literal",
             "start": 1138,
             "end": 1172,
-            "value": "The value of `D2.name` is `'D2'`"
+            "value": "The value of `D2.name` is `'D2'`",
+            "raw": "\"The value of `D2.name` is `'D2'`\""
           }
         ],
         "optional": false
@@ -879,13 +893,15 @@
             "type": "Literal",
             "start": 1218,
             "end": 1221,
-            "value": "E"
+            "value": "E",
+            "raw": "'E'"
           },
           {
             "type": "Literal",
             "start": 1223,
             "end": 1255,
-            "value": "The value of `E.name` is `'E'`"
+            "value": "The value of `E.name` is `'E'`",
+            "raw": "\"The value of `E.name` is `'E'`\""
           }
         ],
         "optional": false
@@ -1005,13 +1021,15 @@
             "type": "Literal",
             "start": 1320,
             "end": 1323,
-            "value": "F"
+            "value": "F",
+            "raw": "'F'"
           },
           {
             "type": "Literal",
             "start": 1325,
             "end": 1357,
-            "value": "The value of `F.name` is `'F'`"
+            "value": "The value of `F.name` is `'F'`",
+            "raw": "\"The value of `F.name` is `'F'`\""
           }
         ],
         "optional": false

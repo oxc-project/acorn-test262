@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 771,
             "end": 776,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 780,
             "end": 845,
-            "value": "isConstructor(Number.prototype.toExponential) must return false"
+            "value": "isConstructor(Number.prototype.toExponential) must return false",
+            "raw": "'isConstructor(Number.prototype.toExponential) must return false'"
           }
         ],
         "optional": false

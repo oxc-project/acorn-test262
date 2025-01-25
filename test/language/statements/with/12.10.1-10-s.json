@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 607,
-                        "value": "          var o = {};          with (o) {}       "
+                        "value": "          var o = {};          with (o) {}       ",
+                        "raw": "\"\\\n          var o = {};\\\n          with (o) {}\\\n       \""
                       }
                     ],
                     "optional": false

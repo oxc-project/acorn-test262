@@ -74,7 +74,8 @@
                     "type": "Literal",
                     "start": 350,
                     "end": 352,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   }
                 },
                 "operator": "&&",
@@ -93,7 +94,8 @@
                     "type": "Literal",
                     "start": 364,
                     "end": 365,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               }
@@ -133,13 +135,15 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 386,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 388,
                   "end": 390,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -154,13 +158,15 @@
                   "type": "Literal",
                   "start": 394,
                   "end": 395,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 397,
                   "end": 398,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 },
                 "kind": "init"
               },
@@ -187,7 +193,8 @@
                     "type": "Literal",
                     "start": 411,
                     "end": 421,
-                    "value": 4294967294
+                    "value": 4294967294,
+                    "raw": "4294967294"
                   }
                 },
                 "kind": "init"
@@ -292,7 +299,8 @@
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -301,13 +309,15 @@
             "type": "Literal",
             "start": 492,
             "end": 493,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 544,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1)'"
           }
         ],
         "optional": false

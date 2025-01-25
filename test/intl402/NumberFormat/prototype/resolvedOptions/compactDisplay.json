@@ -43,19 +43,22 @@
             "type": "Literal",
             "start": 377,
             "end": 387,
-            "value": "standard"
+            "value": "standard",
+            "raw": "\"standard\""
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 401,
-            "value": "scientific"
+            "value": "scientific",
+            "raw": "\"scientific\""
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 416,
-            "value": "engineering"
+            "value": "engineering",
+            "raw": "\"engineering\""
           }
         ]
       },
@@ -160,7 +163,8 @@
                                 "type": "Literal",
                                 "start": 501,
                                 "end": 507,
-                                "value": "long"
+                                "value": "long",
+                                "raw": "\"long\""
                               },
                               "kind": "init"
                             }
@@ -220,7 +224,8 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 568,
-                    "value": "compactDisplay"
+                    "value": "compactDisplay",
+                    "raw": "\"compactDisplay\""
                   },
                   "operator": "in",
                   "right": {
@@ -234,7 +239,8 @@
                   "type": "Literal",
                   "start": 581,
                   "end": 586,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -445,7 +451,8 @@
                           "type": "Literal",
                           "start": 852,
                           "end": 861,
-                          "value": "compact"
+                          "value": "compact",
+                          "raw": "\"compact\""
                         },
                         "kind": "init"
                       },
@@ -466,7 +473,8 @@
                           "type": "Literal",
                           "start": 881,
                           "end": 887,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "kind": "init"
                       }
@@ -526,7 +534,8 @@
               "type": "Literal",
               "start": 928,
               "end": 944,
-              "value": "compactDisplay"
+              "value": "compactDisplay",
+              "raw": "\"compactDisplay\""
             },
             "operator": "in",
             "right": {
@@ -540,13 +549,15 @@
             "type": "Literal",
             "start": 957,
             "end": 961,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 963,
             "end": 1028,
-            "value": "There should be a compactDisplay property with notation=compact"
+            "value": "There should be a compactDisplay property with notation=compact",
+            "raw": "\"There should be a compactDisplay property with notation=compact\""
           }
         ],
         "optional": false
@@ -603,13 +614,15 @@
             "type": "Literal",
             "start": 1072,
             "end": 1078,
-            "value": "long"
+            "value": "long",
+            "raw": "\"long\""
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1149,
-            "value": "The compactDisplay property should be defined with notation=compact"
+            "value": "The compactDisplay property should be defined with notation=compact",
+            "raw": "\"The compactDisplay property should be defined with notation=compact\""
           }
         ],
         "optional": false

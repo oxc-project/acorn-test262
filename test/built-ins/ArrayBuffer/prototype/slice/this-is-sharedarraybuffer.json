@@ -81,7 +81,8 @@
                             "type": "Literal",
                             "start": 358,
                             "end": 359,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ]
                       }
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 406,
             "end": 450,
-            "value": "`this` value cannot be a SharedArrayBuffer"
+            "value": "`this` value cannot be a SharedArrayBuffer",
+            "raw": "\"`this` value cannot be a SharedArrayBuffer\""
           }
         ],
         "optional": false

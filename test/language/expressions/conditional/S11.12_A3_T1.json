@@ -23,19 +23,22 @@
               "type": "Literal",
               "start": 277,
               "end": 282,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "consequent": {
               "type": "Literal",
               "start": 285,
               "end": 290,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "alternate": {
               "type": "Literal",
               "start": 293,
               "end": 297,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         },
@@ -44,7 +47,8 @@
           "type": "Literal",
           "start": 303,
           "end": 307,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -71,7 +75,8 @@
                   "type": "Literal",
                   "start": 336,
                   "end": 373,
-                  "value": "#1: (false ? false : true) === true"
+                  "value": "#1: (false ? false : true) === true",
+                  "raw": "'#1: (false ? false : true) === true'"
                 }
               ]
             }
@@ -110,7 +115,8 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 413,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -138,13 +144,15 @@
               "type": "Literal",
               "start": 421,
               "end": 426,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "consequent": {
               "type": "Literal",
               "start": 429,
               "end": 433,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "alternate": {
               "type": "Identifier",
@@ -186,7 +194,8 @@
                   "type": "Literal",
                   "start": 473,
                   "end": 531,
-                  "value": "#2: (var y = new Boolean(true); (false ? true : z) === z"
+                  "value": "#2: (var y = new Boolean(true); (false ? true : z) === z",
+                  "raw": "'#2: (var y = new Boolean(true); (false ? true : z) === z'"
                 }
               ]
             }

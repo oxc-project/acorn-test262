@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -113,7 +114,8 @@
             "type": "Literal",
             "start": 601,
             "end": 606,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "Identifier",
@@ -174,7 +176,8 @@
                 "type": "Literal",
                 "start": 666,
                 "end": 671,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -234,13 +237,15 @@
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 727,
-            "value": "propDesc.value"
+            "value": "propDesc.value",
+            "raw": "'propDesc.value'"
           }
         ],
         "optional": false
@@ -297,13 +302,15 @@
             "type": "Literal",
             "start": 800,
             "end": 805,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 826,
-            "value": "propDesc.writable"
+            "value": "propDesc.writable",
+            "raw": "'propDesc.writable'"
           }
         ],
         "optional": false
@@ -360,13 +367,15 @@
             "type": "Literal",
             "start": 887,
             "end": 892,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 915,
-            "value": "propDesc.enumerable"
+            "value": "propDesc.enumerable",
+            "raw": "'propDesc.enumerable'"
           }
         ],
         "optional": false
@@ -423,13 +432,15 @@
             "type": "Literal",
             "start": 978,
             "end": 983,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 985,
             "end": 1008,
-            "value": "propDesc.configurable"
+            "value": "propDesc.configurable",
+            "raw": "'propDesc.configurable'"
           }
         ],
         "optional": false

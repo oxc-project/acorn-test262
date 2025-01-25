@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 337,
             "end": 341,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 392,
-            "value": "Array.isArray(Array.prototype) must return true"
+            "value": "Array.isArray(Array.prototype) must return true",
+            "raw": "'Array.isArray(Array.prototype) must return true'"
           }
         ],
         "optional": false

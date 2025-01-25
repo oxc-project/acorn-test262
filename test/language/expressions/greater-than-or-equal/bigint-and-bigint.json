@@ -39,27 +39,31 @@
               "type": "Literal",
               "start": 758,
               "end": 760,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 764,
               "end": 766,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 768,
             "end": 772,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 808,
-            "value": "The result of (0n >= 0n) is true"
+            "value": "The result of (0n >= 0n) is true",
+            "raw": "'The result of (0n >= 0n) is true'"
           }
         ],
         "optional": false
@@ -101,27 +105,31 @@
               "type": "Literal",
               "start": 828,
               "end": 830,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 834,
               "end": 836,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 838,
             "end": 842,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 844,
             "end": 878,
-            "value": "The result of (1n >= 1n) is true"
+            "value": "The result of (1n >= 1n) is true",
+            "raw": "'The result of (1n >= 1n) is true'"
           }
         ],
         "optional": false
@@ -169,7 +177,8 @@
                 "type": "Literal",
                 "start": 899,
                 "end": 901,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": ">=",
@@ -183,7 +192,8 @@
                 "type": "Literal",
                 "start": 906,
                 "end": 908,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -191,13 +201,15 @@
             "type": "Literal",
             "start": 910,
             "end": 914,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 952,
-            "value": "The result of (-1n >= -1n) is true"
+            "value": "The result of (-1n >= -1n) is true",
+            "raw": "'The result of (-1n >= -1n) is true'"
           }
         ],
         "optional": false
@@ -239,7 +251,8 @@
               "type": "Literal",
               "start": 972,
               "end": 974,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
@@ -252,7 +265,8 @@
                 "type": "Literal",
                 "start": 979,
                 "end": 981,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             }
           },
@@ -260,13 +274,15 @@
             "type": "Literal",
             "start": 983,
             "end": 987,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 989,
             "end": 1024,
-            "value": "The result of (0n >= -0n) is true"
+            "value": "The result of (0n >= -0n) is true",
+            "raw": "'The result of (0n >= -0n) is true'"
           }
         ],
         "optional": false
@@ -314,7 +330,8 @@
                 "type": "Literal",
                 "start": 1045,
                 "end": 1047,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             },
             "operator": ">=",
@@ -322,20 +339,23 @@
               "type": "Literal",
               "start": 1051,
               "end": 1053,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1055,
             "end": 1059,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1096,
-            "value": "The result of (-0n >= 0n) is true"
+            "value": "The result of (-0n >= 0n) is true",
+            "raw": "'The result of (-0n >= 0n) is true'"
           }
         ],
         "optional": false
@@ -377,27 +397,31 @@
               "type": "Literal",
               "start": 1116,
               "end": 1118,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 1122,
               "end": 1124,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1126,
             "end": 1131,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1133,
             "end": 1168,
-            "value": "The result of (0n >= 1n) is false"
+            "value": "The result of (0n >= 1n) is false",
+            "raw": "'The result of (0n >= 1n) is false'"
           }
         ],
         "optional": false
@@ -439,27 +463,31 @@
               "type": "Literal",
               "start": 1188,
               "end": 1190,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 1194,
               "end": 1196,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1198,
             "end": 1202,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1204,
             "end": 1238,
-            "value": "The result of (1n >= 0n) is true"
+            "value": "The result of (1n >= 0n) is true",
+            "raw": "'The result of (1n >= 0n) is true'"
           }
         ],
         "optional": false
@@ -501,7 +529,8 @@
               "type": "Literal",
               "start": 1258,
               "end": 1260,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
@@ -514,7 +543,8 @@
                 "type": "Literal",
                 "start": 1265,
                 "end": 1267,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -522,13 +552,15 @@
             "type": "Literal",
             "start": 1269,
             "end": 1273,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1275,
             "end": 1310,
-            "value": "The result of (0n >= -1n) is true"
+            "value": "The result of (0n >= -1n) is true",
+            "raw": "'The result of (0n >= -1n) is true'"
           }
         ],
         "optional": false
@@ -576,7 +608,8 @@
                 "type": "Literal",
                 "start": 1331,
                 "end": 1333,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": ">=",
@@ -584,20 +617,23 @@
               "type": "Literal",
               "start": 1337,
               "end": 1339,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1341,
             "end": 1346,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1348,
             "end": 1384,
-            "value": "The result of (-1n >= 0n) is false"
+            "value": "The result of (-1n >= 0n) is false",
+            "raw": "'The result of (-1n >= 0n) is false'"
           }
         ],
         "optional": false
@@ -639,7 +675,8 @@
               "type": "Literal",
               "start": 1404,
               "end": 1406,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": ">=",
             "right": {
@@ -652,7 +689,8 @@
                 "type": "Literal",
                 "start": 1411,
                 "end": 1413,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -660,13 +698,15 @@
             "type": "Literal",
             "start": 1415,
             "end": 1419,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1421,
             "end": 1456,
-            "value": "The result of (1n >= -1n) is true"
+            "value": "The result of (1n >= -1n) is true",
+            "raw": "'The result of (1n >= -1n) is true'"
           }
         ],
         "optional": false
@@ -714,7 +754,8 @@
                 "type": "Literal",
                 "start": 1477,
                 "end": 1479,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": ">=",
@@ -722,20 +763,23 @@
               "type": "Literal",
               "start": 1483,
               "end": 1485,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1487,
             "end": 1492,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1494,
             "end": 1530,
-            "value": "The result of (-1n >= 1n) is false"
+            "value": "The result of (-1n >= 1n) is false",
+            "raw": "'The result of (-1n >= 1n) is false'"
           }
         ],
         "optional": false
@@ -777,27 +821,31 @@
               "type": "Literal",
               "start": 1554,
               "end": 1573,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 1577,
               "end": 1596,
-              "value": "2305843009213693698n"
+              "value": "2305843009213693698n",
+              "raw": "0x1fffffffffffff02n"
             }
           },
           {
             "type": "Literal",
             "start": 1600,
             "end": 1605,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1609,
             "end": 1678,
-            "value": "The result of (0x1fffffffffffff01n >= 0x1fffffffffffff02n) is false"
+            "value": "The result of (0x1fffffffffffff01n >= 0x1fffffffffffff02n) is false",
+            "raw": "'The result of (0x1fffffffffffff01n >= 0x1fffffffffffff02n) is false'"
           }
         ],
         "optional": false
@@ -839,27 +887,31 @@
               "type": "Literal",
               "start": 1703,
               "end": 1722,
-              "value": "2305843009213693698n"
+              "value": "2305843009213693698n",
+              "raw": "0x1fffffffffffff02n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 1726,
               "end": 1745,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             }
           },
           {
             "type": "Literal",
             "start": 1749,
             "end": 1753,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1825,
-            "value": "The result of (0x1fffffffffffff02n >= 0x1fffffffffffff01n) is true"
+            "value": "The result of (0x1fffffffffffff02n >= 0x1fffffffffffff01n) is true",
+            "raw": "'The result of (0x1fffffffffffff02n >= 0x1fffffffffffff01n) is true'"
           }
         ],
         "optional": false
@@ -907,7 +959,8 @@
                 "type": "Literal",
                 "start": 1851,
                 "end": 1870,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             },
             "operator": ">=",
@@ -921,7 +974,8 @@
                 "type": "Literal",
                 "start": 1875,
                 "end": 1894,
-                "value": "2305843009213693698n"
+                "value": "2305843009213693698n",
+                "raw": "0x1fffffffffffff02n"
               }
             }
           },
@@ -929,13 +983,15 @@
             "type": "Literal",
             "start": 1898,
             "end": 1902,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1906,
             "end": 1976,
-            "value": "The result of (-0x1fffffffffffff01n >= -0x1fffffffffffff02n) is true"
+            "value": "The result of (-0x1fffffffffffff01n >= -0x1fffffffffffff02n) is true",
+            "raw": "'The result of (-0x1fffffffffffff01n >= -0x1fffffffffffff02n) is true'"
           }
         ],
         "optional": false
@@ -983,7 +1039,8 @@
                 "type": "Literal",
                 "start": 2002,
                 "end": 2021,
-                "value": "2305843009213693698n"
+                "value": "2305843009213693698n",
+                "raw": "0x1fffffffffffff02n"
               }
             },
             "operator": ">=",
@@ -997,7 +1054,8 @@
                 "type": "Literal",
                 "start": 2026,
                 "end": 2045,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             }
           },
@@ -1005,13 +1063,15 @@
             "type": "Literal",
             "start": 2049,
             "end": 2054,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2058,
             "end": 2129,
-            "value": "The result of (-0x1fffffffffffff02n >= -0x1fffffffffffff01n) is false"
+            "value": "The result of (-0x1fffffffffffff02n >= -0x1fffffffffffff01n) is false",
+            "raw": "'The result of (-0x1fffffffffffff02n >= -0x1fffffffffffff01n) is false'"
           }
         ],
         "optional": false
@@ -1053,27 +1113,31 @@
               "type": "Literal",
               "start": 2154,
               "end": 2174,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2178,
               "end": 2180,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2184,
             "end": 2188,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2192,
             "end": 2244,
-            "value": "The result of (0x10000000000000000n >= 0n) is true"
+            "value": "The result of (0x10000000000000000n >= 0n) is true",
+            "raw": "'The result of (0x10000000000000000n >= 0n) is true'"
           }
         ],
         "optional": false
@@ -1115,27 +1179,31 @@
               "type": "Literal",
               "start": 2269,
               "end": 2271,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2275,
               "end": 2295,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2299,
             "end": 2304,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2308,
             "end": 2361,
-            "value": "The result of (0n >= 0x10000000000000000n) is false"
+            "value": "The result of (0n >= 0x10000000000000000n) is false",
+            "raw": "'The result of (0n >= 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1177,27 +1245,31 @@
               "type": "Literal",
               "start": 2386,
               "end": 2406,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2410,
               "end": 2412,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 2416,
             "end": 2420,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2424,
             "end": 2476,
-            "value": "The result of (0x10000000000000000n >= 1n) is true"
+            "value": "The result of (0x10000000000000000n >= 1n) is true",
+            "raw": "'The result of (0x10000000000000000n >= 1n) is true'"
           }
         ],
         "optional": false
@@ -1239,27 +1311,31 @@
               "type": "Literal",
               "start": 2501,
               "end": 2503,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2507,
               "end": 2527,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2531,
             "end": 2536,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2540,
             "end": 2593,
-            "value": "The result of (1n >= 0x10000000000000000n) is false"
+            "value": "The result of (1n >= 0x10000000000000000n) is false",
+            "raw": "'The result of (1n >= 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1301,7 +1377,8 @@
               "type": "Literal",
               "start": 2618,
               "end": 2638,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": ">=",
             "right": {
@@ -1314,7 +1391,8 @@
                 "type": "Literal",
                 "start": 2643,
                 "end": 2645,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -1322,13 +1400,15 @@
             "type": "Literal",
             "start": 2649,
             "end": 2653,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2657,
             "end": 2710,
-            "value": "The result of (0x10000000000000000n >= -1n) is true"
+            "value": "The result of (0x10000000000000000n >= -1n) is true",
+            "raw": "'The result of (0x10000000000000000n >= -1n) is true'"
           }
         ],
         "optional": false
@@ -1376,7 +1456,8 @@
                 "type": "Literal",
                 "start": 2736,
                 "end": 2738,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": ">=",
@@ -1384,20 +1465,23 @@
               "type": "Literal",
               "start": 2742,
               "end": 2762,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2766,
             "end": 2771,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2775,
             "end": 2829,
-            "value": "The result of (-1n >= 0x10000000000000000n) is false"
+            "value": "The result of (-1n >= 0x10000000000000000n) is false",
+            "raw": "'The result of (-1n >= 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1439,27 +1523,31 @@
               "type": "Literal",
               "start": 2854,
               "end": 2874,
-              "value": "18446744073709551617n"
+              "value": "18446744073709551617n",
+              "raw": "0x10000000000000001n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2878,
               "end": 2880,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2884,
             "end": 2888,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2892,
             "end": 2944,
-            "value": "The result of (0x10000000000000001n >= 0n) is true"
+            "value": "The result of (0x10000000000000001n >= 0n) is true",
+            "raw": "'The result of (0x10000000000000001n >= 0n) is true'"
           }
         ],
         "optional": false
@@ -1501,27 +1589,31 @@
               "type": "Literal",
               "start": 2969,
               "end": 2971,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 2975,
               "end": 2995,
-              "value": "18446744073709551617n"
+              "value": "18446744073709551617n",
+              "raw": "0x10000000000000001n"
             }
           },
           {
             "type": "Literal",
             "start": 2999,
             "end": 3004,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3008,
             "end": 3061,
-            "value": "The result of (0n >= 0x10000000000000001n) is false"
+            "value": "The result of (0n >= 0x10000000000000001n) is false",
+            "raw": "'The result of (0n >= 0x10000000000000001n) is false'"
           }
         ],
         "optional": false
@@ -1569,7 +1661,8 @@
                 "type": "Literal",
                 "start": 3087,
                 "end": 3107,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": ">=",
@@ -1577,20 +1670,23 @@
               "type": "Literal",
               "start": 3111,
               "end": 3113,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 3117,
             "end": 3122,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3126,
             "end": 3180,
-            "value": "The result of (-0x10000000000000000n >= 0n) is false"
+            "value": "The result of (-0x10000000000000000n >= 0n) is false",
+            "raw": "'The result of (-0x10000000000000000n >= 0n) is false'"
           }
         ],
         "optional": false
@@ -1632,7 +1728,8 @@
               "type": "Literal",
               "start": 3205,
               "end": 3207,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
@@ -1645,7 +1742,8 @@
                 "type": "Literal",
                 "start": 3212,
                 "end": 3232,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -1653,13 +1751,15 @@
             "type": "Literal",
             "start": 3236,
             "end": 3240,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3244,
             "end": 3297,
-            "value": "The result of (0n >= -0x10000000000000000n) is true"
+            "value": "The result of (0n >= -0x10000000000000000n) is true",
+            "raw": "'The result of (0n >= -0x10000000000000000n) is true'"
           }
         ],
         "optional": false
@@ -1707,7 +1807,8 @@
                 "type": "Literal",
                 "start": 3323,
                 "end": 3343,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": ">=",
@@ -1715,20 +1816,23 @@
               "type": "Literal",
               "start": 3347,
               "end": 3349,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 3353,
             "end": 3358,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3362,
             "end": 3416,
-            "value": "The result of (-0x10000000000000000n >= 1n) is false"
+            "value": "The result of (-0x10000000000000000n >= 1n) is false",
+            "raw": "'The result of (-0x10000000000000000n >= 1n) is false'"
           }
         ],
         "optional": false
@@ -1770,7 +1874,8 @@
               "type": "Literal",
               "start": 3441,
               "end": 3443,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": ">=",
             "right": {
@@ -1783,7 +1888,8 @@
                 "type": "Literal",
                 "start": 3448,
                 "end": 3468,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -1791,13 +1897,15 @@
             "type": "Literal",
             "start": 3472,
             "end": 3476,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3480,
             "end": 3533,
-            "value": "The result of (1n >= -0x10000000000000000n) is true"
+            "value": "The result of (1n >= -0x10000000000000000n) is true",
+            "raw": "'The result of (1n >= -0x10000000000000000n) is true'"
           }
         ],
         "optional": false
@@ -1845,7 +1953,8 @@
                 "type": "Literal",
                 "start": 3559,
                 "end": 3579,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": ">=",
@@ -1859,7 +1968,8 @@
                 "type": "Literal",
                 "start": 3584,
                 "end": 3586,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -1867,13 +1977,15 @@
             "type": "Literal",
             "start": 3590,
             "end": 3595,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3599,
             "end": 3654,
-            "value": "The result of (-0x10000000000000000n >= -1n) is false"
+            "value": "The result of (-0x10000000000000000n >= -1n) is false",
+            "raw": "'The result of (-0x10000000000000000n >= -1n) is false'"
           }
         ],
         "optional": false
@@ -1921,7 +2033,8 @@
                 "type": "Literal",
                 "start": 3680,
                 "end": 3682,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": ">=",
@@ -1935,7 +2048,8 @@
                 "type": "Literal",
                 "start": 3687,
                 "end": 3707,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -1943,13 +2057,15 @@
             "type": "Literal",
             "start": 3711,
             "end": 3715,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3719,
             "end": 3773,
-            "value": "The result of (-1n >= -0x10000000000000000n) is true"
+            "value": "The result of (-1n >= -0x10000000000000000n) is true",
+            "raw": "'The result of (-1n >= -0x10000000000000000n) is true'"
           }
         ],
         "optional": false
@@ -1997,7 +2113,8 @@
                 "type": "Literal",
                 "start": 3799,
                 "end": 3819,
-                "value": "18446744073709551617n"
+                "value": "18446744073709551617n",
+                "raw": "0x10000000000000001n"
               }
             },
             "operator": ">=",
@@ -2005,20 +2122,23 @@
               "type": "Literal",
               "start": 3823,
               "end": 3825,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 3829,
             "end": 3834,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3838,
             "end": 3892,
-            "value": "The result of (-0x10000000000000001n >= 0n) is false"
+            "value": "The result of (-0x10000000000000001n >= 0n) is false",
+            "raw": "'The result of (-0x10000000000000001n >= 0n) is false'"
           }
         ],
         "optional": false
@@ -2060,7 +2180,8 @@
               "type": "Literal",
               "start": 3917,
               "end": 3919,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": ">=",
             "right": {
@@ -2073,7 +2194,8 @@
                 "type": "Literal",
                 "start": 3924,
                 "end": 3944,
-                "value": "18446744073709551617n"
+                "value": "18446744073709551617n",
+                "raw": "0x10000000000000001n"
               }
             }
           },
@@ -2081,13 +2203,15 @@
             "type": "Literal",
             "start": 3948,
             "end": 3952,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3956,
             "end": 4009,
-            "value": "The result of (0n >= -0x10000000000000001n) is true"
+            "value": "The result of (0n >= -0x10000000000000001n) is true",
+            "raw": "'The result of (0n >= -0x10000000000000001n) is true'"
           }
         ],
         "optional": false
@@ -2129,27 +2253,31 @@
               "type": "Literal",
               "start": 4034,
               "end": 4054,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 4058,
               "end": 4070,
-              "value": "4294967296n"
+              "value": "4294967296n",
+              "raw": "0x100000000n"
             }
           },
           {
             "type": "Literal",
             "start": 4074,
             "end": 4078,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 4082,
             "end": 4144,
-            "value": "The result of (0x10000000000000000n >= 0x100000000n) is true"
+            "value": "The result of (0x10000000000000000n >= 0x100000000n) is true",
+            "raw": "'The result of (0x10000000000000000n >= 0x100000000n) is true'"
           }
         ],
         "optional": false
@@ -2191,27 +2319,31 @@
               "type": "Literal",
               "start": 4169,
               "end": 4181,
-              "value": "4294967296n"
+              "value": "4294967296n",
+              "raw": "0x100000000n"
             },
             "operator": ">=",
             "right": {
               "type": "Literal",
               "start": 4185,
               "end": 4205,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 4209,
             "end": 4214,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 4218,
             "end": 4281,
-            "value": "The result of (0x100000000n >= 0x10000000000000000n) is false"
+            "value": "The result of (0x100000000n >= 0x10000000000000000n) is false",
+            "raw": "'The result of (0x100000000n >= 0x10000000000000000n) is false'"
           }
         ],
         "optional": false

@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 319,
-                "value": "-000000-08-24"
+                "value": "-000000-08-24",
+                "raw": "\"-000000-08-24\""
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 347,
-                "value": "-000000-08-24T15:43:27"
+                "value": "-000000-08-24T15:43:27",
+                "raw": "\"-000000-08-24T15:43:27\""
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 381,
-                "value": "-000000-08-24T15:43:27+01:00"
+                "value": "-000000-08-24T15:43:27+01:00",
+                "raw": "\"-000000-08-24T15:43:27+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 420,
-                "value": "-000000-08-24T15:43:27+00:00[UTC]"
+                "value": "-000000-08-24T15:43:27+00:00[UTC]",
+                "raw": "\"-000000-08-24T15:43:27+00:00[UTC]\""
               }
             ]
           }
@@ -196,7 +200,8 @@
                         "type": "Literal",
                         "start": 541,
                         "end": 577,
-                        "value": "reject minus zero as extended year"
+                        "value": "reject minus zero as extended year",
+                        "raw": "\"reject minus zero as extended year\""
                       }
                     ],
                     "optional": false

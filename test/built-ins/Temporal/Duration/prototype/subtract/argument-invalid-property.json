@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 343,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 366,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 371,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 376,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -189,7 +199,8 @@
             "type": "Literal",
             "start": 441,
             "end": 485,
-            "value": "Throws TypeError if no property is present"
+            "value": "Throws TypeError if no property is present",
+            "raw": "\"Throws TypeError if no property is present\""
           }
         ],
         "optional": false
@@ -284,7 +295,8 @@
                         "type": "Literal",
                         "start": 556,
                         "end": 560,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -298,7 +310,8 @@
             "type": "Literal",
             "start": 567,
             "end": 622,
-            "value": "Throws TypeError if no recognized property is present"
+            "value": "Throws TypeError if no recognized property is present",
+            "raw": "\"Throws TypeError if no recognized property is present\""
           }
         ],
         "optional": false
@@ -393,7 +406,8 @@
                         "type": "Literal",
                         "start": 689,
                         "end": 690,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -407,7 +421,8 @@
             "type": "Literal",
             "start": 697,
             "end": 730,
-            "value": "Sign property is not recognized"
+            "value": "Sign property is not recognized",
+            "raw": "\"Sign property is not recognized\""
           }
         ],
         "optional": false

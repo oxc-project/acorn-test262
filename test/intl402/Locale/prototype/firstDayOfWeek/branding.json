@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 611,
                 "end": 627,
-                "value": "firstDayOfWeek"
+                "value": "firstDayOfWeek",
+                "raw": "\"firstDayOfWeek\""
               }
             ],
             "optional": false
@@ -117,19 +118,22 @@
                 "type": "Literal",
                 "start": 669,
                 "end": 673,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 677,
                 "end": 681,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 685,
                 "end": 687,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "CallExpression",
@@ -148,7 +152,8 @@
                 "type": "Literal",
                 "start": 703,
                 "end": 704,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "ObjectExpression",

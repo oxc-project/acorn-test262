@@ -33,43 +33,50 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 343,
-                "value": 1999
+                "value": 1999,
+                "raw": "1999"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 350,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 358,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 366,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
           }
@@ -169,7 +176,8 @@
                     "type": "Literal",
                     "start": 438,
                     "end": 443,
-                    "value": 60000
+                    "value": 60000,
+                    "raw": "60000"
                   }
                 }
               }
@@ -237,13 +245,15 @@
             "type": "Literal",
             "start": 489,
             "end": 515,
-            "value": "1999-10-10T10:10:10.010Z"
+            "value": "1999-10-10T10:10:10.010Z",
+            "raw": "\"1999-10-10T10:10:10.010Z\""
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 542,
-            "value": "localDate.toISOString()"
+            "value": "localDate.toISOString()",
+            "raw": "'localDate.toISOString()'"
           }
         ],
         "optional": false

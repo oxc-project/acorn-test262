@@ -61,7 +61,8 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               }
             }
           }
@@ -150,7 +151,8 @@
           "type": "Literal",
           "start": 568,
           "end": 569,
-          "value": 7
+          "value": 7,
+          "raw": "7"
         }
       },
       "consequent": {
@@ -181,7 +183,8 @@
                     "type": "Literal",
                     "start": 597,
                     "end": 641,
-                    "value": "#1: __obj.foo === 7. Actual: __obj.foo ==="
+                    "value": "#1: __obj.foo === 7. Actual: __obj.foo ===",
+                    "raw": "'#1: __obj.foo === 7. Actual: __obj.foo ==='"
                   },
                   "operator": "+",
                   "right": {

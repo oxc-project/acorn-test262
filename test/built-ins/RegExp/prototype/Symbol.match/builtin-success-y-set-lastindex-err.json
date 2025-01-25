@@ -23,6 +23,7 @@
             "start": 795,
             "end": 799,
             "value": {},
+            "raw": "/a/y",
             "regex": {
               "pattern": "a",
               "flags": "y"
@@ -70,7 +71,8 @@
             "type": "Literal",
             "start": 827,
             "end": 838,
-            "value": "lastIndex"
+            "value": "lastIndex",
+            "raw": "'lastIndex'"
           },
           {
             "type": "ObjectExpression",
@@ -94,7 +96,8 @@
                   "type": "Literal",
                   "start": 852,
                   "end": 857,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -197,7 +200,8 @@
                         "type": "Literal",
                         "start": 919,
                         "end": 922,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       }
                     ],
                     "optional": false

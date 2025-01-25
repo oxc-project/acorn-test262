@@ -232,7 +232,8 @@
             "type": "Literal",
             "start": 1886,
             "end": 1887,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -302,7 +303,8 @@
             "type": "Literal",
             "start": 1923,
             "end": 1924,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

@@ -45,7 +45,8 @@
                         "type": "Literal",
                         "start": 472,
                         "end": 482,
-                        "value": "gnulluna"
+                        "value": "gnulluna",
+                        "raw": "\"gnulluna\""
                       }
                     }
                   ]
@@ -68,7 +69,8 @@
               "type": "Literal",
               "start": 497,
               "end": 501,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "CallExpression",
@@ -91,7 +93,8 @@
           "type": "Literal",
           "start": 519,
           "end": 534,
-          "value": "gundefineduna"
+          "value": "gundefineduna",
+          "raw": "\"gundefineduna\""
         }
       },
       "consequent": {
@@ -122,7 +125,8 @@
                     "type": "Literal",
                     "start": 563,
                     "end": 656,
-                    "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: "
+                    "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: ",
+                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +163,8 @@
                                   "type": "Literal",
                                   "start": 683,
                                   "end": 693,
-                                  "value": "gnulluna"
+                                  "value": "gnulluna",
+                                  "raw": "\"gnulluna\""
                                 }
                               }
                             ]
@@ -182,7 +187,8 @@
                         "type": "Literal",
                         "start": 708,
                         "end": 712,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "CallExpression",

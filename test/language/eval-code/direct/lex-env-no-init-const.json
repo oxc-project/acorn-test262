@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 811,
                         "end": 838,
-                        "value": "typeof x; const x = null;"
+                        "value": "typeof x; const x = null;",
+                        "raw": "'typeof x; const x = null;'"
                       }
                     ],
                     "optional": false

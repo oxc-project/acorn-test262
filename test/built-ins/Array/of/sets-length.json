@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 331,
             "end": 332,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -124,7 +125,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 414,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -304,25 +306,29 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 553,
-                "value": "wolves"
+                "value": "wolves",
+                "raw": "'wolves'"
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 562,
-                "value": "cards"
+                "value": "cards",
+                "raw": "'cards'"
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 576,
-                "value": "cigarettes"
+                "value": "cigarettes",
+                "raw": "'cigarettes'"
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 584,
-                "value": "lies"
+                "value": "lies",
+                "raw": "'lies'"
               }
             ],
             "optional": false
@@ -369,13 +375,15 @@
             "type": "Literal",
             "start": 611,
             "end": 612,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 653,
-            "value": "The value of hits is expected to be 1"
+            "value": "The value of hits is expected to be 1",
+            "raw": "'The value of hits is expected to be 1'"
           }
         ],
         "optional": false
@@ -419,13 +427,15 @@
             "type": "Literal",
             "start": 683,
             "end": 684,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 728,
-            "value": "The value of value is expected to be 4"
+            "value": "The value of value is expected to be 4",
+            "raw": "'The value of value is expected to be 4'"
           }
         ],
         "optional": false
@@ -475,7 +485,8 @@
             "type": "Literal",
             "start": 765,
             "end": 827,
-            "value": "The value of _this_ is expected to equal the value of result"
+            "value": "The value of _this_ is expected to equal the value of result",
+            "raw": "'The value of _this_ is expected to equal the value of result'"
           }
         ],
         "optional": false

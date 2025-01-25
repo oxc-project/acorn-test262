@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 333,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 340,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 393,
                       "end": 406,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   },
@@ -206,13 +209,15 @@
             "type": "Literal",
             "start": 481,
             "end": 507,
-            "value": "1000000000123988000n"
+            "value": "1000000000123988000n",
+            "raw": "1_000_000_000_123_988_000n"
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 545,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false
@@ -279,7 +284,8 @@
                       "type": "Literal",
                       "start": 597,
                       "end": 610,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   }
@@ -343,13 +349,15 @@
             "type": "Literal",
             "start": 660,
             "end": 686,
-            "value": "1000000000123988000n"
+            "value": "1000000000123988000n",
+            "raw": "1_000_000_000_123_988_000n"
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 724,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false
@@ -416,7 +424,8 @@
                       "type": "Literal",
                       "start": 777,
                       "end": 790,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   },
@@ -501,13 +510,15 @@
             "type": "Literal",
             "start": 865,
             "end": 891,
-            "value": "1000000000124000000n"
+            "value": "1000000000124000000n",
+            "raw": "1_000_000_000_124_000_000n"
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 929,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false
@@ -574,7 +585,8 @@
                       "type": "Literal",
                       "start": 981,
                       "end": 994,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   }
@@ -638,13 +650,15 @@
             "type": "Literal",
             "start": 1044,
             "end": 1070,
-            "value": "1000000000124000000n"
+            "value": "1000000000124000000n",
+            "raw": "1_000_000_000_124_000_000n"
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1108,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false
@@ -711,7 +725,8 @@
                       "type": "Literal",
                       "start": 1161,
                       "end": 1169,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -796,13 +811,15 @@
             "type": "Literal",
             "start": 1244,
             "end": 1270,
-            "value": "1000000000000000000n"
+            "value": "1000000000000000000n",
+            "raw": "1_000_000_000_000_000_000n"
           },
           {
             "type": "Literal",
             "start": 1272,
             "end": 1308,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false
@@ -869,7 +886,8 @@
                       "type": "Literal",
                       "start": 1360,
                       "end": 1368,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   }
@@ -933,13 +951,15 @@
             "type": "Literal",
             "start": 1418,
             "end": 1444,
-            "value": "1000000000000000000n"
+            "value": "1000000000000000000n",
+            "raw": "1_000_000_000_000_000_000n"
           },
           {
             "type": "Literal",
             "start": 1446,
             "end": 1482,
-            "value": "default roundingMode is halfExpand"
+            "value": "default roundingMode is halfExpand",
+            "raw": "\"default roundingMode is halfExpand\""
           }
         ],
         "optional": false

@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 302,
                 "end": 306,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 331,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 348,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -210,7 +215,8 @@
                               "type": "Literal",
                               "start": 459,
                               "end": 461,
-                              "value": 12
+                              "value": 12,
+                              "raw": "12"
                             },
                             "kind": "init"
                           },
@@ -231,7 +237,8 @@
                               "type": "Literal",
                               "start": 471,
                               "end": 473,
-                              "value": 34
+                              "value": 34,
+                              "raw": "34"
                             },
                             "kind": "init"
                           }
@@ -401,13 +408,15 @@
                             "type": "Literal",
                             "start": 621,
                             "end": 623,
-                            "value": 12
+                            "value": 12,
+                            "raw": "12"
                           },
                           {
                             "type": "Literal",
                             "start": 625,
                             "end": 627,
-                            "value": 34
+                            "value": 34,
+                            "raw": "34"
                           }
                         ]
                       },
@@ -425,7 +434,8 @@
                   "type": "Literal",
                   "start": 642,
                   "end": 694,
-                  "value": "TypeError thrown before cloning PlainTime instance"
+                  "value": "TypeError thrown before cloning PlainTime instance",
+                  "raw": "\"TypeError thrown before cloning PlainTime instance\""
                 }
               ],
               "optional": false
@@ -539,13 +549,15 @@
                             "type": "Literal",
                             "start": 781,
                             "end": 783,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           },
                           {
                             "type": "Literal",
                             "start": 785,
                             "end": 790,
-                            "value": "UTC"
+                            "value": "UTC",
+                            "raw": "\"UTC\""
                           }
                         ]
                       },
@@ -563,7 +575,8 @@
                   "type": "Literal",
                   "start": 805,
                   "end": 864,
-                  "value": "TypeError thrown before converting ZonedDateTime instance"
+                  "value": "TypeError thrown before converting ZonedDateTime instance",
+                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\""
                 }
               ],
               "optional": false
@@ -677,19 +690,22 @@
                             "type": "Literal",
                             "start": 951,
                             "end": 955,
-                            "value": 1976
+                            "value": 1976,
+                            "raw": "1976"
                           },
                           {
                             "type": "Literal",
                             "start": 957,
                             "end": 959,
-                            "value": 11
+                            "value": 11,
+                            "raw": "11"
                           },
                           {
                             "type": "Literal",
                             "start": 961,
                             "end": 963,
-                            "value": 18
+                            "value": 18,
+                            "raw": "18"
                           }
                         ]
                       },
@@ -707,7 +723,8 @@
                   "type": "Literal",
                   "start": 978,
                   "end": 1037,
-                  "value": "TypeError thrown before converting PlainDateTime instance"
+                  "value": "TypeError thrown before converting PlainDateTime instance",
+                  "raw": "\"TypeError thrown before converting PlainDateTime instance\""
                 }
               ],
               "optional": false
@@ -797,7 +814,8 @@
                         "type": "Literal",
                         "start": 1098,
                         "end": 1106,
-                        "value": "T99:99"
+                        "value": "T99:99",
+                        "raw": "\"T99:99\""
                       },
                       {
                         "type": "Identifier",
@@ -813,7 +831,8 @@
                   "type": "Literal",
                   "start": 1120,
                   "end": 1172,
-                  "value": "Invalid string processed before throwing TypeError"
+                  "value": "Invalid string processed before throwing TypeError",
+                  "raw": "\"Invalid string processed before throwing TypeError\""
                 }
               ],
               "optional": false

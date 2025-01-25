@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 700,
                   "end": 713,
-                  "value": "unicodeSets"
+                  "value": "unicodeSets",
+                  "raw": "\"unicodeSets\""
                 }
               ],
               "optional": false

@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 1020,
                 "end": 1027,
-                "value": "xabcd"
+                "value": "xabcd",
+                "raw": "\"xabcd\""
               },
               "property": {
                 "type": "Identifier",
@@ -60,6 +61,7 @@
                 "start": 1034,
                 "end": 1060,
                 "value": {},
+                "raw": "/.*(?<=(..|...|....))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(..|...|....))(.*)",
                   "flags": ""
@@ -77,19 +79,22 @@
                 "type": "Literal",
                 "start": 1064,
                 "end": 1071,
-                "value": "xabcd"
+                "value": "xabcd",
+                "raw": "\"xabcd\""
               },
               {
                 "type": "Literal",
                 "start": 1073,
                 "end": 1077,
-                "value": "cd"
+                "value": "cd",
+                "raw": "\"cd\""
               },
               {
                 "type": "Literal",
                 "start": 1079,
                 "end": 1081,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           },
@@ -97,7 +102,8 @@
             "type": "Literal",
             "start": 1084,
             "end": 1088,
-            "value": "#1"
+            "value": "#1",
+            "raw": "\"#1\""
           }
         ],
         "optional": false
@@ -143,7 +149,8 @@
                 "type": "Literal",
                 "start": 1111,
                 "end": 1118,
-                "value": "xabcd"
+                "value": "xabcd",
+                "raw": "\"xabcd\""
               },
               "property": {
                 "type": "Identifier",
@@ -160,6 +167,7 @@
                 "start": 1125,
                 "end": 1151,
                 "value": {},
+                "raw": "/.*(?<=(xx|...|....))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|...|....))(.*)",
                   "flags": ""
@@ -177,19 +185,22 @@
                 "type": "Literal",
                 "start": 1155,
                 "end": 1162,
-                "value": "xabcd"
+                "value": "xabcd",
+                "raw": "\"xabcd\""
               },
               {
                 "type": "Literal",
                 "start": 1164,
                 "end": 1169,
-                "value": "bcd"
+                "value": "bcd",
+                "raw": "\"bcd\""
               },
               {
                 "type": "Literal",
                 "start": 1171,
                 "end": 1173,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           },
@@ -197,7 +208,8 @@
             "type": "Literal",
             "start": 1176,
             "end": 1180,
-            "value": "#2"
+            "value": "#2",
+            "raw": "\"#2\""
           }
         ],
         "optional": false
@@ -243,7 +255,8 @@
                 "type": "Literal",
                 "start": 1203,
                 "end": 1211,
-                "value": "xxabcd"
+                "value": "xxabcd",
+                "raw": "\"xxabcd\""
               },
               "property": {
                 "type": "Identifier",
@@ -260,6 +273,7 @@
                 "start": 1218,
                 "end": 1239,
                 "value": {},
+                "raw": "/.*(?<=(xx|...))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|...))(.*)",
                   "flags": ""
@@ -277,19 +291,22 @@
                 "type": "Literal",
                 "start": 1243,
                 "end": 1251,
-                "value": "xxabcd"
+                "value": "xxabcd",
+                "raw": "\"xxabcd\""
               },
               {
                 "type": "Literal",
                 "start": 1253,
                 "end": 1258,
-                "value": "bcd"
+                "value": "bcd",
+                "raw": "\"bcd\""
               },
               {
                 "type": "Literal",
                 "start": 1260,
                 "end": 1262,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           },
@@ -297,7 +314,8 @@
             "type": "Literal",
             "start": 1265,
             "end": 1269,
-            "value": "#3"
+            "value": "#3",
+            "raw": "\"#3\""
           }
         ],
         "optional": false
@@ -343,7 +361,8 @@
                 "type": "Literal",
                 "start": 1292,
                 "end": 1300,
-                "value": "xxabcd"
+                "value": "xxabcd",
+                "raw": "\"xxabcd\""
               },
               "property": {
                 "type": "Identifier",
@@ -360,6 +379,7 @@
                 "start": 1307,
                 "end": 1328,
                 "value": {},
+                "raw": "/.*(?<=(xx|xxx))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|xxx))(.*)",
                   "flags": ""
@@ -377,19 +397,22 @@
                 "type": "Literal",
                 "start": 1332,
                 "end": 1340,
-                "value": "xxabcd"
+                "value": "xxabcd",
+                "raw": "\"xxabcd\""
               },
               {
                 "type": "Literal",
                 "start": 1342,
                 "end": 1346,
-                "value": "xx"
+                "value": "xx",
+                "raw": "\"xx\""
               },
               {
                 "type": "Literal",
                 "start": 1348,
                 "end": 1354,
-                "value": "abcd"
+                "value": "abcd",
+                "raw": "\"abcd\""
               }
             ]
           },
@@ -397,7 +420,8 @@
             "type": "Literal",
             "start": 1357,
             "end": 1361,
-            "value": "#4"
+            "value": "#4",
+            "raw": "\"#4\""
           }
         ],
         "optional": false

@@ -128,13 +128,15 @@
             "type": "Literal",
             "start": 837,
             "end": 842,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 938,
-            "value": "isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false"
+            "value": "isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false",
+            "raw": "'isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false'"
           }
         ],
         "optional": false

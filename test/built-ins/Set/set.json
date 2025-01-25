@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 314,
             "end": 319,
-            "value": "Set"
+            "value": "Set",
+            "raw": "\"Set\""
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 339,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 360,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 382,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

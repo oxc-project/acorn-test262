@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 628,
+  "end": 627,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 440,
-      "end": 519,
+      "start": 439,
+      "end": 518,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 444,
-          "end": 518,
+          "start": 443,
+          "end": 517,
           "id": {
             "type": "Identifier",
-            "start": 444,
-            "end": 455,
+            "start": 443,
+            "end": 454,
             "name": "minDateTime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 458,
-            "end": 518,
+            "start": 457,
+            "end": 517,
             "callee": {
               "type": "MemberExpression",
-              "start": 462,
-              "end": 484,
+              "start": 461,
+              "end": 483,
               "object": {
                 "type": "Identifier",
-                "start": 462,
-                "end": 470,
+                "start": 461,
+                "end": 469,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 471,
-                "end": 484,
+                "start": 470,
+                "end": 483,
                 "name": "PlainDateTime"
               },
               "computed": false,
@@ -44,64 +44,73 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 485,
-                "end": 492,
+                "start": 484,
+                "end": 491,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 486,
-                  "end": 492,
-                  "value": 271821
+                  "start": 485,
+                  "end": 491,
+                  "value": 271821,
+                  "raw": "271821"
                 }
               },
               {
                 "type": "Literal",
-                "start": 494,
-                "end": 495,
-                "value": 4
+                "start": 493,
+                "end": 494,
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
-                "start": 497,
-                "end": 499,
-                "value": 19
+                "start": 496,
+                "end": 498,
+                "value": 19,
+                "raw": "19"
               },
               {
                 "type": "Literal",
-                "start": 501,
-                "end": 502,
-                "value": 0
+                "start": 500,
+                "end": 501,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 504,
-                "end": 505,
-                "value": 0
+                "start": 503,
+                "end": 504,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 507,
-                "end": 508,
-                "value": 0
+                "start": 506,
+                "end": 507,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 510,
-                "end": 511,
-                "value": 0
+                "start": 509,
+                "end": 510,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 513,
-                "end": 514,
-                "value": 0
+                "start": 512,
+                "end": 513,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 516,
-                "end": 517,
-                "value": 1
+                "start": 515,
+                "end": 516,
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -111,42 +120,43 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 520,
-      "end": 558,
+      "start": 519,
+      "end": 557,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 524,
-          "end": 557,
+          "start": 523,
+          "end": 556,
           "id": {
             "type": "Identifier",
-            "start": 524,
-            "end": 539,
+            "start": 523,
+            "end": 538,
             "name": "zeroNanoseconds"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 542,
-            "end": 557,
+            "start": 541,
+            "end": 556,
             "properties": [
               {
                 "type": "Property",
-                "start": 543,
-                "end": 556,
+                "start": 542,
+                "end": 555,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 543,
-                  "end": 553,
+                  "start": 542,
+                  "end": 552,
                   "name": "nanosecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 555,
-                  "end": 556,
-                  "value": 0
+                  "start": 554,
+                  "end": 555,
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -158,26 +168,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 560,
-      "end": 627,
+      "start": 559,
+      "end": 626,
       "expression": {
         "type": "CallExpression",
-        "start": 560,
-        "end": 626,
+        "start": 559,
+        "end": 625,
         "callee": {
           "type": "MemberExpression",
-          "start": 560,
-          "end": 573,
+          "start": 559,
+          "end": 572,
           "object": {
             "type": "Identifier",
-            "start": 560,
-            "end": 566,
+            "start": 559,
+            "end": 565,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 567,
-            "end": 573,
+            "start": 566,
+            "end": 572,
             "name": "throws"
           },
           "computed": false,
@@ -186,14 +196,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 574,
-            "end": 584,
+            "start": 573,
+            "end": 583,
             "name": "RangeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 586,
-            "end": 625,
+            "start": 585,
+            "end": 624,
             "id": null,
             "expression": true,
             "generator": false,
@@ -201,22 +211,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 592,
-              "end": 625,
+              "start": 591,
+              "end": 624,
               "callee": {
                 "type": "MemberExpression",
-                "start": 592,
-                "end": 608,
+                "start": 591,
+                "end": 607,
                 "object": {
                   "type": "Identifier",
-                  "start": 592,
-                  "end": 603,
+                  "start": 591,
+                  "end": 602,
                   "name": "minDateTime"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 604,
-                  "end": 608,
+                  "start": 603,
+                  "end": 607,
                   "name": "with"
                 },
                 "computed": false,
@@ -225,8 +235,8 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 609,
-                  "end": 624,
+                  "start": 608,
+                  "end": 623,
                   "name": "zeroNanoseconds"
                 }
               ],

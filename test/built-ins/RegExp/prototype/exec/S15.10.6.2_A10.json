@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 417,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 422,
             "end": 426,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 497,
-            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true"
+            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true",
+            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -221,13 +224,15 @@
             "type": "Literal",
             "start": 586,
             "end": 594,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 600,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -251,7 +256,8 @@
                     "type": "Literal",
                     "start": 620,
                     "end": 629,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -344,7 +350,8 @@
             "type": "Literal",
             "start": 696,
             "end": 779,
-            "value": "The value of RegExp.prototype.exec.length is expected to equal the value of __obj"
+            "value": "The value of RegExp.prototype.exec.length is expected to equal the value of __obj",
+            "raw": "'The value of RegExp.prototype.exec.length is expected to equal the value of __obj'"
           }
         ],
         "optional": false

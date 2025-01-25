@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 740,
             "end": 745,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 796,
-            "value": "isConstructor(BigInt.asUintN) must return false"
+            "value": "isConstructor(BigInt.asUintN) must return false",
+            "raw": "'isConstructor(BigInt.asUintN) must return false'"
           }
         ],
         "optional": false
@@ -160,13 +162,15 @@
                         "type": "Literal",
                         "start": 854,
                         "end": 856,
-                        "value": 64
+                        "value": 64,
+                        "raw": "64"
                       },
                       {
                         "type": "Literal",
                         "start": 858,
                         "end": 860,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     ]
                   }

@@ -152,7 +152,8 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 484,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               },
               "operator": "in",
               "right": {
@@ -167,7 +168,8 @@
             "type": "Literal",
             "start": 492,
             "end": 497,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -213,7 +215,8 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 526,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               },
               "operator": "in",
               "right": {
@@ -228,7 +231,8 @@
             "type": "Literal",
             "start": 534,
             "end": 538,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

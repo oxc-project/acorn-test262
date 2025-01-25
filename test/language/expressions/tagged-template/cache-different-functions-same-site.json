@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 496,
             "end": 497,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 517,
             "end": 521,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 544,
             "end": 548,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -303,7 +306,8 @@
               "type": "Literal",
               "start": 691,
               "end": 695,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -329,7 +333,8 @@
           "type": "Literal",
           "start": 715,
           "end": 719,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -402,7 +407,8 @@
             "type": "Literal",
             "start": 789,
             "end": 861,
-            "value": "The realm's template cache is for source code locations in a function"
+            "value": "The realm's template cache is for source code locations in a function",
+            "raw": "'The realm\\'s template cache is for source code locations in a function'"
           }
         ],
         "optional": false

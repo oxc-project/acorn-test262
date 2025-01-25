@@ -20,7 +20,8 @@
               "type": "Literal",
               "start": 432,
               "end": 433,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
@@ -31,7 +32,8 @@
               "type": "Literal",
               "start": 445,
               "end": 446,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
@@ -42,7 +44,8 @@
               "type": "Literal",
               "start": 458,
               "end": 459,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           },
           {
@@ -64,7 +67,8 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 529,
-                  "value": "1.1: throw 1 lead to throwing exception"
+                  "value": "1.1: throw 1 lead to throwing exception",
+                  "raw": "'1.1: throw 1 lead to throwing exception'"
                 }
               ]
             }
@@ -105,7 +109,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 556,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -136,7 +141,8 @@
                             "type": "Literal",
                             "start": 585,
                             "end": 632,
-                            "value": "#1.2: Exception === 1. Actual:  Exception ==="
+                            "value": "#1.2: Exception === 1. Actual:  Exception ===",
+                            "raw": "'#1.2: Exception === 1. Actual:  Exception ==='"
                           },
                           "operator": "+",
                           "right": {
@@ -180,7 +186,8 @@
                   "type": "Literal",
                   "start": 834,
                   "end": 835,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -191,7 +198,8 @@
                   "type": "Literal",
                   "start": 851,
                   "end": 852,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               }
             ]
@@ -204,7 +212,8 @@
               "type": "Literal",
               "start": 870,
               "end": 871,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           },
           {
@@ -226,7 +235,8 @@
                   "type": "Literal",
                   "start": 900,
                   "end": 942,
-                  "value": "#2.1: throw 1 lead to throwing exception"
+                  "value": "#2.1: throw 1 lead to throwing exception",
+                  "raw": "'#2.1: throw 1 lead to throwing exception'"
                 }
               ]
             }
@@ -267,7 +277,8 @@
                   "type": "Literal",
                   "start": 968,
                   "end": 969,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -298,7 +309,8 @@
                             "type": "Literal",
                             "start": 998,
                             "end": 1045,
-                            "value": "#2.2: Exception === 1. Actual:  Exception ==="
+                            "value": "#2.2: Exception === 1. Actual:  Exception ===",
+                            "raw": "'#2.2: Exception === 1. Actual:  Exception ==='"
                           },
                           "operator": "+",
                           "right": {
@@ -337,7 +349,8 @@
               "type": "Literal",
               "start": 1240,
               "end": 1241,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
@@ -353,7 +366,8 @@
                   "type": "Literal",
                   "start": 1263,
                   "end": 1264,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
@@ -364,7 +378,8 @@
                   "type": "Literal",
                   "start": 1280,
                   "end": 1281,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               }
             ]
@@ -388,7 +403,8 @@
                   "type": "Literal",
                   "start": 1316,
                   "end": 1358,
-                  "value": "#3.1: throw 1 lead to throwing exception"
+                  "value": "#3.1: throw 1 lead to throwing exception",
+                  "raw": "'#3.1: throw 1 lead to throwing exception'"
                 }
               ]
             }
@@ -429,7 +445,8 @@
                   "type": "Literal",
                   "start": 1384,
                   "end": 1385,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -460,7 +477,8 @@
                             "type": "Literal",
                             "start": 1414,
                             "end": 1461,
-                            "value": "#3.2: Exception === 1. Actual:  Exception ==="
+                            "value": "#3.2: Exception === 1. Actual:  Exception ===",
+                            "raw": "'#3.2: Exception === 1. Actual:  Exception ==='"
                           },
                           "operator": "+",
                           "right": {

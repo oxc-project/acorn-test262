@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 446,
           "end": 457,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -65,7 +66,8 @@
                     "type": "Literal",
                     "start": 486,
                     "end": 528,
-                    "value": "#1: typeof (x) === \"undefined\". Actual: "
+                    "value": "#1: typeof (x) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -168,7 +170,8 @@
           "type": "Literal",
           "start": 605,
           "end": 609,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -195,7 +198,8 @@
                   "type": "Literal",
                   "start": 638,
                   "end": 690,
-                  "value": "#2: var object = {}; delete (object.prop) === true"
+                  "value": "#2: var object = {}; delete (object.prop) === true",
+                  "raw": "'#2: var object = {}; delete (object.prop) === true'"
                 }
               ]
             }
@@ -248,7 +252,8 @@
           "type": "Literal",
           "start": 735,
           "end": 746,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -279,7 +284,8 @@
                     "type": "Literal",
                     "start": 775,
                     "end": 844,
-                    "value": "#3: var object = {}; typeof (object.prop) === \"undefined\". Actual: "
+                    "value": "#3: var object = {}; typeof (object.prop) === \"undefined\". Actual: ",
+                    "raw": "'#3: var object = {}; typeof (object.prop) === \"undefined\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

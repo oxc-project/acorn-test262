@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 346,
             "end": 356,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 433,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -226,13 +228,15 @@
             "type": "Literal",
             "start": 595,
             "end": 605,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 657,
-            "value": "wrapped proxy callable object is typeof function"
+            "value": "wrapped proxy callable object is typeof function",
+            "raw": "'wrapped proxy callable object is typeof function'"
           }
         ],
         "optional": false
@@ -283,13 +287,15 @@
             "type": "Literal",
             "start": 694,
             "end": 696,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 723,
-            "value": "wrappedpfn() returns 42"
+            "value": "wrappedpfn() returns 42",
+            "raw": "'wrappedpfn() returns 42'"
           }
         ],
         "optional": false
@@ -364,13 +370,15 @@
             "type": "Literal",
             "start": 777,
             "end": 779,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 815,
-            "value": "wrapped functions can be proxied"
+            "value": "wrapped functions can be proxied",
+            "raw": "'wrapped functions can be proxied'"
           }
         ],
         "optional": false

@@ -65,7 +65,8 @@
                       "type": "Literal",
                       "start": 544,
                       "end": 546,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -76,7 +77,8 @@
             "type": "Literal",
             "start": 551,
             "end": 573,
-            "value": "+0n throws TypeError"
+            "value": "+0n throws TypeError",
+            "raw": "'+0n throws TypeError'"
           }
         ],
         "optional": false
@@ -144,7 +146,8 @@
                       "type": "Literal",
                       "start": 618,
                       "end": 620,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -155,7 +158,8 @@
             "type": "Literal",
             "start": 625,
             "end": 647,
-            "value": "+1n throws TypeError"
+            "value": "+1n throws TypeError",
+            "raw": "'+1n throws TypeError'"
           }
         ],
         "optional": false
@@ -229,7 +233,8 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 695,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     }
                   }
@@ -241,7 +246,8 @@
             "type": "Literal",
             "start": 700,
             "end": 723,
-            "value": "+-1n throws TypeError"
+            "value": "+-1n throws TypeError",
+            "raw": "'+-1n throws TypeError'"
           }
         ],
         "optional": false
@@ -309,7 +315,8 @@
                       "type": "Literal",
                       "start": 768,
                       "end": 785,
-                      "value": "1000000000000000n"
+                      "value": "1000000000000000n",
+                      "raw": "1000000000000000n"
                     }
                   }
                 }
@@ -320,7 +327,8 @@
             "type": "Literal",
             "start": 790,
             "end": 827,
-            "value": "+1000000000000000n throws TypeError"
+            "value": "+1000000000000000n throws TypeError",
+            "raw": "'+1000000000000000n throws TypeError'"
           }
         ],
         "optional": false

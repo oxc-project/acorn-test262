@@ -92,7 +92,8 @@
                     "type": "Literal",
                     "start": 447,
                     "end": 510,
-                    "value": "#1: String.prototype.charAt.prototype === undefined. Actual: "
+                    "value": "#1: String.prototype.charAt.prototype === undefined. Actual: ",
+                    "raw": "'#1: String.prototype.charAt.prototype === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {

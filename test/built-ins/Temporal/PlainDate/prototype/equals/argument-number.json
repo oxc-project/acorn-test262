@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 322,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 326,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               }
             ]
           }
@@ -90,13 +93,15 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 367,
-                "value": 19761118
+                "value": 19761118,
+                "raw": "19761118"
               },
               {
                 "type": "UnaryExpression",
@@ -108,14 +113,16 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 380,
-                  "value": 19761118
+                  "value": 19761118,
+                  "raw": "19761118"
                 }
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 394,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -240,7 +247,8 @@
                   "type": "Literal",
                   "start": 497,
                   "end": 561,
-                  "value": "Numbers cannot be used in place of an ISO string for PlainDate"
+                  "value": "Numbers cannot be used in place of an ISO string for PlainDate",
+                  "raw": "'Numbers cannot be used in place of an ISO string for PlainDate'"
                 }
               ],
               "optional": false

@@ -106,7 +106,8 @@
                                             "type": "Literal",
                                             "start": 445,
                                             "end": 459,
-                                            "value": "early-reject"
+                                            "value": "early-reject",
+                                            "raw": "\"early-reject\""
                                           }
                                         ],
                                         "optional": false
@@ -192,7 +193,8 @@
                                             "type": "Literal",
                                             "start": 547,
                                             "end": 557,
-                                            "value": "override"
+                                            "value": "override",
+                                            "raw": "\"override\""
                                           }
                                         ],
                                         "optional": false
@@ -323,13 +325,15 @@
                             "type": "Literal",
                             "start": 636,
                             "end": 646,
-                            "value": "override"
+                            "value": "override",
+                            "raw": "\"override\""
                           },
                           {
                             "type": "Literal",
                             "start": 648,
                             "end": 684,
-                            "value": "Awaited rejection in finally block"
+                            "value": "Awaited rejection in finally block",
+                            "raw": "\"Awaited rejection in finally block\""
                           }
                         ],
                         "optional": false

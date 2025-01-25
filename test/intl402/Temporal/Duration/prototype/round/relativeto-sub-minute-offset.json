@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 367,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 373,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 380,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -195,7 +200,8 @@
                         "type": "Literal",
                         "start": 474,
                         "end": 481,
-                        "value": "years"
+                        "value": "years",
+                        "raw": "\"years\""
                       },
                       "kind": "init"
                     },
@@ -249,7 +255,8 @@
           "type": "Literal",
           "start": 512,
           "end": 547,
-          "value": "1970-01-01T00:00-00:45:00[-00:45]"
+          "value": "1970-01-01T00:00-00:45:00[-00:45]",
+          "raw": "\"1970-01-01T00:00-00:45:00[-00:45]\""
         }
       }
     },
@@ -328,31 +335,36 @@
             "type": "Literal",
             "start": 621,
             "end": 622,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 625,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 631,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 688,
-            "value": "ISO string offset accepted with zero seconds (string)"
+            "value": "ISO string offset accepted with zero seconds (string)",
+            "raw": "\"ISO string offset accepted with zero seconds (string)\""
           }
         ],
         "optional": false
@@ -395,7 +407,8 @@
                 "type": "Literal",
                 "start": 713,
                 "end": 717,
-                "value": 1970
+                "value": 1970,
+                "raw": "1970"
               },
               "kind": "init"
             },
@@ -416,7 +429,8 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 727,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "kind": "init"
             },
@@ -437,7 +451,8 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 735,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "kind": "init"
             },
@@ -458,7 +473,8 @@
                 "type": "Literal",
                 "start": 745,
                 "end": 766,
-                "value": "+00:45:00.000000000"
+                "value": "+00:45:00.000000000",
+                "raw": "\"+00:45:00.000000000\""
               },
               "kind": "init"
             },
@@ -479,7 +495,8 @@
                 "type": "Literal",
                 "start": 778,
                 "end": 786,
-                "value": "+00:45"
+                "value": "+00:45",
+                "raw": "\"+00:45\""
               },
               "kind": "init"
             }
@@ -562,31 +579,36 @@
             "type": "Literal",
             "start": 862,
             "end": 863,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 865,
             "end": 866,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 868,
             "end": 869,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 871,
             "end": 872,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 874,
             "end": 935,
-            "value": "ISO string offset accepted with zero seconds (property bag)"
+            "value": "ISO string offset accepted with zero seconds (property bag)",
+            "raw": "\"ISO string offset accepted with zero seconds (property bag)\""
           }
         ],
         "optional": false
@@ -611,7 +633,8 @@
           "type": "Literal",
           "start": 952,
           "end": 996,
-          "value": "1970-01-01T00:00:00-00:45[Africa/Monrovia]"
+          "value": "1970-01-01T00:00:00-00:45[Africa/Monrovia]",
+          "raw": "\"1970-01-01T00:00:00-00:45[Africa/Monrovia]\""
         }
       }
     },
@@ -690,31 +713,36 @@
             "type": "Literal",
             "start": 1070,
             "end": 1071,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1073,
             "end": 1074,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1076,
             "end": 1077,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1079,
             "end": 1080,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1082,
             "end": 1126,
-            "value": "rounded HH:MM is accepted in string offset"
+            "value": "rounded HH:MM is accepted in string offset",
+            "raw": "\"rounded HH:MM is accepted in string offset\""
           }
         ],
         "optional": false
@@ -739,7 +767,8 @@
           "type": "Literal",
           "start": 1143,
           "end": 1190,
-          "value": "1970-01-01T00:00:00-00:44:30[Africa/Monrovia]"
+          "value": "1970-01-01T00:00:00-00:44:30[Africa/Monrovia]",
+          "raw": "\"1970-01-01T00:00:00-00:44:30[Africa/Monrovia]\""
         }
       }
     },
@@ -818,31 +847,36 @@
             "type": "Literal",
             "start": 1264,
             "end": 1265,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1268,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1270,
             "end": 1271,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1273,
             "end": 1274,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1276,
             "end": 1325,
-            "value": "unrounded HH:MM:SS is accepted in string offset"
+            "value": "unrounded HH:MM:SS is accepted in string offset",
+            "raw": "\"unrounded HH:MM:SS is accepted in string offset\""
           }
         ],
         "optional": false
@@ -867,7 +901,8 @@
           "type": "Literal",
           "start": 1342,
           "end": 1387,
-          "value": "1970-01-01T00:00+00:44:30.123456789[+00:45]"
+          "value": "1970-01-01T00:00+00:44:30.123456789[+00:45]",
+          "raw": "\"1970-01-01T00:00+00:44:30.123456789[+00:45]\""
         }
       }
     },
@@ -939,7 +974,8 @@
             "type": "Literal",
             "start": 1441,
             "end": 1500,
-            "value": "rounding is not accepted between ISO offset and time zone"
+            "value": "rounding is not accepted between ISO offset and time zone",
+            "raw": "\"rounding is not accepted between ISO offset and time zone\""
           }
         ],
         "optional": false
@@ -982,7 +1018,8 @@
                 "type": "Literal",
                 "start": 1525,
                 "end": 1529,
-                "value": 1970
+                "value": 1970,
+                "raw": "1970"
               },
               "kind": "init"
             },
@@ -1003,7 +1040,8 @@
                 "type": "Literal",
                 "start": 1538,
                 "end": 1539,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "kind": "init"
             },
@@ -1024,7 +1062,8 @@
                 "type": "Literal",
                 "start": 1546,
                 "end": 1547,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "kind": "init"
             },
@@ -1045,7 +1084,8 @@
                 "type": "Literal",
                 "start": 1557,
                 "end": 1565,
-                "value": "+00:45"
+                "value": "+00:45",
+                "raw": "\"+00:45\""
               },
               "kind": "init"
             },
@@ -1066,7 +1106,8 @@
                 "type": "Literal",
                 "start": 1577,
                 "end": 1594,
-                "value": "Africa/Monrovia"
+                "value": "Africa/Monrovia",
+                "raw": "\"Africa/Monrovia\""
               },
               "kind": "init"
             }
@@ -1142,7 +1183,8 @@
             "type": "Literal",
             "start": 1650,
             "end": 1704,
-            "value": "rounded HH:MM not accepted as offset in property bag"
+            "value": "rounded HH:MM not accepted as offset in property bag",
+            "raw": "\"rounded HH:MM not accepted as offset in property bag\""
           }
         ],
         "optional": false

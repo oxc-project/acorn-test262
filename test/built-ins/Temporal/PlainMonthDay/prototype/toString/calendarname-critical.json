@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 367,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 432,
-                      "value": "critical"
+                      "value": "critical",
+                      "raw": "\"critical\""
                     },
                     "kind": "init"
                   }
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 462,
             "end": 489,
-            "value": "1972-05-02[!u-ca=iso8601]"
+            "value": "1972-05-02[!u-ca=iso8601]",
+            "raw": "\"1972-05-02[!u-ca=iso8601]\""
           },
           {
             "type": "TemplateLiteral",

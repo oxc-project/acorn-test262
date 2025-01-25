@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 469,
             "end": 503,
-            "value": "\"use strict\";{ function f() {} }"
+            "value": "\"use strict\";{ function f() {} }",
+            "raw": "'\"use strict\";{ function f() {} }'"
           }
         ],
         "optional": false

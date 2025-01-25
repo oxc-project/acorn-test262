@@ -51,13 +51,15 @@
                     "type": "Literal",
                     "start": 443,
                     "end": 465,
-                    "value": "949132800000000000n"
+                    "value": "949132800000000000n",
+                    "raw": "949132800_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 498,
                     "end": 517,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -108,13 +110,15 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 633,
-                    "value": "972889200000000000n"
+                    "value": "972889200000000000n",
+                    "raw": "972889200_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 666,
                     "end": 685,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -189,7 +193,8 @@
                           "type": "Literal",
                           "start": 781,
                           "end": 788,
-                          "value": "years"
+                          "value": "years",
+                          "raw": "\"years\""
                         },
                         "kind": "init"
                       }
@@ -240,7 +245,8 @@
                 "type": "Literal",
                 "start": 838,
                 "end": 839,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "UnaryExpression",
@@ -252,20 +258,23 @@
                   "type": "Literal",
                   "start": 842,
                   "end": 843,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 }
               },
               {
                 "type": "Literal",
                 "start": 845,
                 "end": 846,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 848,
                 "end": 849,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "UnaryExpression",
@@ -277,44 +286,51 @@
                   "type": "Literal",
                   "start": 852,
                   "end": 854,
-                  "value": 24
+                  "value": 24,
+                  "raw": "24"
                 }
               },
               {
                 "type": "Literal",
                 "start": 856,
                 "end": 857,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 859,
                 "end": 860,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 862,
                 "end": 863,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 865,
                 "end": 866,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 868,
                 "end": 869,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 879,
                 "end": 930,
-                "value": "24 hours does not balance to 1 day in 25-hour day"
+                "value": "24 hours does not balance to 1 day in 25-hour day",
+                "raw": "\"24 hours does not balance to 1 day in 25-hour day\""
               }
             ],
             "optional": false

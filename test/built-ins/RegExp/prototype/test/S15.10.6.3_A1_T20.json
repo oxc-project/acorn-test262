@@ -23,6 +23,7 @@
             "start": 331,
             "end": 339,
             "value": {},
+            "raw": "/[a-f]d/",
             "regex": {
               "pattern": "[a-f]d",
               "flags": ""
@@ -135,14 +136,16 @@
               "type": "Literal",
               "start": 390,
               "end": 394,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 443,
-            "value": "__re.test() must return __re.exec(x) !== null"
+            "value": "__re.test() must return __re.exec(x) !== null",
+            "raw": "'__re.test() must return __re.exec(x) !== null'"
           }
         ],
         "optional": false

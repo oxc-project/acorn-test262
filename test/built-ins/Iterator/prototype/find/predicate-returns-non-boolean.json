@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 375,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             }
           },
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 389,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             }
           },
@@ -86,7 +88,8 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 419,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           },
@@ -103,7 +106,8 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 430,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -120,7 +124,8 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           },
@@ -137,7 +142,8 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 452,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             }
           }
@@ -195,7 +201,8 @@
             "type": "Literal",
             "start": 495,
             "end": 496,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -338,7 +345,8 @@
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -382,7 +390,8 @@
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           }
         ],
         "optional": false

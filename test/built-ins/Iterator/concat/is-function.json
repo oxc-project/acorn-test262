@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 375,
+  "end": 374,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 258,
-      "end": 374,
+      "start": 257,
+      "end": 373,
       "expression": {
         "type": "CallExpression",
-        "start": 258,
-        "end": 373,
+        "start": 257,
+        "end": 372,
         "callee": {
           "type": "MemberExpression",
-          "start": 258,
-          "end": 274,
+          "start": 257,
+          "end": 273,
           "object": {
             "type": "Identifier",
-            "start": 258,
-            "end": 264,
+            "start": 257,
+            "end": 263,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 265,
-            "end": 274,
+            "start": 264,
+            "end": 273,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,24 +33,24 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 278,
-            "end": 300,
+            "start": 277,
+            "end": 299,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 300,
+              "start": 284,
+              "end": 299,
               "object": {
                 "type": "Identifier",
-                "start": 285,
-                "end": 293,
+                "start": 284,
+                "end": 292,
                 "name": "Iterator"
               },
               "property": {
                 "type": "Identifier",
-                "start": 294,
-                "end": 300,
+                "start": 293,
+                "end": 299,
                 "name": "concat"
               },
               "computed": false,
@@ -59,15 +59,17 @@
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 314,
-            "value": "function"
+            "start": 303,
+            "end": 313,
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
-            "start": 318,
-            "end": 371,
-            "value": "The value of `typeof Iterator.concat` is 'function'"
+            "start": 317,
+            "end": 370,
+            "value": "The value of `typeof Iterator.concat` is 'function'",
+            "raw": "\"The value of `typeof Iterator.concat` is 'function'\""
           }
         ],
         "optional": false

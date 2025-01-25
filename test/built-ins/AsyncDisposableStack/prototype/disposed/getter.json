@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 491,
                 "end": 501,
-                "value": "disposed"
+                "value": "disposed",
+                "raw": "'disposed'"
               }
             ],
             "optional": false
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 550,
             "end": 560,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 599,
-            "value": "typeof descriptor.get is function"
+            "value": "typeof descriptor.get is function",
+            "raw": "'typeof descriptor.get is function'"
           }
         ],
         "optional": false
@@ -202,13 +205,15 @@
             "type": "Literal",
             "start": 648,
             "end": 659,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 699,
-            "value": "typeof descriptor.set is undefined"
+            "value": "typeof descriptor.set is undefined",
+            "raw": "'typeof descriptor.set is undefined'"
           }
         ],
         "optional": false
@@ -252,7 +257,8 @@
             "type": "Literal",
             "start": 751,
             "end": 761,
-            "value": "disposed"
+            "value": "disposed",
+            "raw": "'disposed'"
           },
           {
             "type": "ObjectExpression",
@@ -276,7 +282,8 @@
                   "type": "Literal",
                   "start": 779,
                   "end": 784,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -297,7 +304,8 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 806,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

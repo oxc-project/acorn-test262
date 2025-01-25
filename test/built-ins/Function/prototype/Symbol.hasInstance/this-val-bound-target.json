@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 726,
+  "end": 724,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 604,
-      "end": 627,
+      "start": 602,
+      "end": 625,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 608,
-          "end": 626,
+          "start": 606,
+          "end": 624,
           "id": {
             "type": "Identifier",
-            "start": 608,
-            "end": 610,
+            "start": 606,
+            "end": 608,
             "name": "BC"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 613,
-            "end": 626,
+            "start": 611,
+            "end": 624,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,8 +29,8 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 624,
-              "end": 626,
+              "start": 622,
+              "end": 624,
               "body": []
             }
           }
@@ -40,27 +40,27 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 628,
-      "end": 646,
+      "start": 626,
+      "end": 644,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 632,
-          "end": 645,
+          "start": 630,
+          "end": 643,
           "id": {
             "type": "Identifier",
-            "start": 632,
-            "end": 634,
+            "start": 630,
+            "end": 632,
             "name": "bc"
           },
           "init": {
             "type": "NewExpression",
-            "start": 637,
-            "end": 645,
+            "start": 635,
+            "end": 643,
             "callee": {
               "type": "Identifier",
-              "start": 641,
-              "end": 643,
+              "start": 639,
+              "end": 641,
               "name": "BC"
             },
             "arguments": []
@@ -71,37 +71,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 647,
-      "end": 669,
+      "start": 645,
+      "end": 667,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 651,
-          "end": 668,
+          "start": 649,
+          "end": 666,
           "id": {
             "type": "Identifier",
-            "start": 651,
-            "end": 656,
+            "start": 649,
+            "end": 654,
             "name": "bound"
           },
           "init": {
             "type": "CallExpression",
-            "start": 659,
-            "end": 668,
+            "start": 657,
+            "end": 666,
             "callee": {
               "type": "MemberExpression",
-              "start": 659,
-              "end": 666,
+              "start": 657,
+              "end": 664,
               "object": {
                 "type": "Identifier",
-                "start": 659,
-                "end": 661,
+                "start": 657,
+                "end": 659,
                 "name": "BC"
               },
               "property": {
                 "type": "Identifier",
-                "start": 662,
-                "end": 666,
+                "start": 660,
+                "end": 664,
                 "name": "bind"
               },
               "computed": false,
@@ -116,26 +116,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 671,
-      "end": 725,
+      "start": 669,
+      "end": 723,
       "expression": {
         "type": "CallExpression",
-        "start": 671,
-        "end": 724,
+        "start": 669,
+        "end": 722,
         "callee": {
           "type": "MemberExpression",
-          "start": 671,
-          "end": 687,
+          "start": 669,
+          "end": 685,
           "object": {
             "type": "Identifier",
-            "start": 671,
-            "end": 677,
+            "start": 669,
+            "end": 675,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 678,
-            "end": 687,
+            "start": 676,
+            "end": 685,
             "name": "sameValue"
           },
           "computed": false,
@@ -144,32 +144,32 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 688,
-            "end": 717,
+            "start": 686,
+            "end": 715,
             "callee": {
               "type": "MemberExpression",
-              "start": 688,
-              "end": 713,
+              "start": 686,
+              "end": 711,
               "object": {
                 "type": "Identifier",
-                "start": 688,
-                "end": 693,
+                "start": 686,
+                "end": 691,
                 "name": "bound"
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 694,
-                "end": 712,
+                "start": 692,
+                "end": 710,
                 "object": {
                   "type": "Identifier",
-                  "start": 694,
-                  "end": 700,
+                  "start": 692,
+                  "end": 698,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 701,
-                  "end": 712,
+                  "start": 699,
+                  "end": 710,
                   "name": "hasInstance"
                 },
                 "computed": false,
@@ -181,8 +181,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 714,
-                "end": 716,
+                "start": 712,
+                "end": 714,
                 "name": "bc"
               }
             ],
@@ -190,9 +190,10 @@
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 723,
-            "value": true
+            "start": 717,
+            "end": 721,
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

@@ -74,7 +74,8 @@
                           "type": "Literal",
                           "start": 484,
                           "end": 486,
-                          "value": "2n"
+                          "value": "2n",
+                          "raw": "2n"
                         }
                       ],
                       "optional": false
@@ -84,7 +85,8 @@
                       "type": "Literal",
                       "start": 492,
                       "end": 494,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -95,7 +97,8 @@
             "type": "Literal",
             "start": 499,
             "end": 535,
-            "value": "Object(2n) >>> 0n throws TypeError"
+            "value": "Object(2n) >>> 0n throws TypeError",
+            "raw": "'Object(2n) >>> 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -161,7 +164,8 @@
                       "type": "Literal",
                       "start": 579,
                       "end": 581,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -179,7 +183,8 @@
                           "type": "Literal",
                           "start": 593,
                           "end": 595,
-                          "value": "2n"
+                          "value": "2n",
+                          "raw": "2n"
                         }
                       ],
                       "optional": false
@@ -193,7 +198,8 @@
             "type": "Literal",
             "start": 601,
             "end": 637,
-            "value": "0n >>> Object(2n) throws TypeError"
+            "value": "0n >>> Object(2n) throws TypeError",
+            "raw": "'0n >>> Object(2n) throws TypeError'"
           }
         ],
         "optional": false
@@ -312,7 +318,8 @@
                                       "type": "Literal",
                                       "start": 736,
                                       "end": 738,
-                                      "value": "2n"
+                                      "value": "2n",
+                                      "raw": "2n"
                                     }
                                   }
                                 ]
@@ -328,7 +335,8 @@
                       "type": "Literal",
                       "start": 755,
                       "end": 757,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -339,7 +347,8 @@
             "type": "Literal",
             "start": 762,
             "end": 837,
-            "value": "({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -405,7 +414,8 @@
                       "type": "Literal",
                       "start": 881,
                       "end": 883,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -461,7 +471,8 @@
                                     "type": "Literal",
                                     "start": 942,
                                     "end": 944,
-                                    "value": "2n"
+                                    "value": "2n",
+                                    "raw": "2n"
                                   }
                                 }
                               ]
@@ -480,7 +491,8 @@
             "type": "Literal",
             "start": 960,
             "end": 1033,
-            "value": "0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError"
+            "value": "0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError",
+            "raw": "'0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError'"
           }
         ],
         "optional": false
@@ -586,7 +598,8 @@
                                       "type": "Literal",
                                       "start": 1119,
                                       "end": 1121,
-                                      "value": "2n"
+                                      "value": "2n",
+                                      "raw": "2n"
                                     }
                                   }
                                 ]
@@ -602,7 +615,8 @@
                       "type": "Literal",
                       "start": 1138,
                       "end": 1140,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -613,7 +627,8 @@
             "type": "Literal",
             "start": 1145,
             "end": 1207,
-            "value": "({valueOf: function() {return 2n;}}) >>> 0n throws TypeError"
+            "value": "({valueOf: function() {return 2n;}}) >>> 0n throws TypeError",
+            "raw": "'({valueOf: function() {return 2n;}}) >>> 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -679,7 +694,8 @@
                       "type": "Literal",
                       "start": 1251,
                       "end": 1253,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -722,7 +738,8 @@
                                     "type": "Literal",
                                     "start": 1299,
                                     "end": 1301,
-                                    "value": "2n"
+                                    "value": "2n",
+                                    "raw": "2n"
                                   }
                                 }
                               ]
@@ -741,7 +758,8 @@
             "type": "Literal",
             "start": 1317,
             "end": 1377,
-            "value": "0n >>> {valueOf: function() {return 2n;}} throws TypeError"
+            "value": "0n >>> {valueOf: function() {return 2n;}} throws TypeError",
+            "raw": "'0n >>> {valueOf: function() {return 2n;}} throws TypeError'"
           }
         ],
         "optional": false
@@ -847,7 +865,8 @@
                                       "type": "Literal",
                                       "start": 1464,
                                       "end": 1466,
-                                      "value": "2n"
+                                      "value": "2n",
+                                      "raw": "2n"
                                     }
                                   }
                                 ]
@@ -863,7 +882,8 @@
                       "type": "Literal",
                       "start": 1483,
                       "end": 1485,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -874,7 +894,8 @@
             "type": "Literal",
             "start": 1490,
             "end": 1553,
-            "value": "({toString: function() {return 2n;}}) >>> 0n throws TypeError"
+            "value": "({toString: function() {return 2n;}}) >>> 0n throws TypeError",
+            "raw": "'({toString: function() {return 2n;}}) >>> 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -940,7 +961,8 @@
                       "type": "Literal",
                       "start": 1597,
                       "end": 1599,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -983,7 +1005,8 @@
                                     "type": "Literal",
                                     "start": 1646,
                                     "end": 1648,
-                                    "value": "2n"
+                                    "value": "2n",
+                                    "raw": "2n"
                                   }
                                 }
                               ]
@@ -1002,7 +1025,8 @@
             "type": "Literal",
             "start": 1664,
             "end": 1725,
-            "value": "0n >>> {toString: function() {return 2n;}} throws TypeError"
+            "value": "0n >>> {toString: function() {return 2n;}} throws TypeError",
+            "raw": "'0n >>> {toString: function() {return 2n;}} throws TypeError'"
           }
         ],
         "optional": false

@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 755,
-                "value": "Etc/GMT"
+                "value": "Etc/GMT",
+                "raw": "\"Etc/GMT\""
               },
               {
                 "type": "Literal",
                 "start": 757,
                 "end": 766,
-                "value": "Etc/UTC"
+                "value": "Etc/UTC",
+                "raw": "\"Etc/UTC\""
               },
               {
                 "type": "Literal",
                 "start": 768,
                 "end": 773,
-                "value": "GMT"
+                "value": "GMT",
+                "raw": "\"GMT\""
               }
             ]
           }
@@ -208,7 +211,8 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 910,
-                  "value": "UTC"
+                  "value": "UTC",
+                  "raw": "\"UTC\""
                 },
                 {
                   "type": "BinaryExpression",
@@ -222,7 +226,8 @@
                       "type": "Literal",
                       "start": 912,
                       "end": 929,
-                      "value": "Time zone name "
+                      "value": "Time zone name ",
+                      "raw": "\"Time zone name \""
                     },
                     "operator": "+",
                     "right": {
@@ -237,7 +242,8 @@
                     "type": "Literal",
                     "start": 943,
                     "end": 973,
-                    "value": " not canonicalized to 'UTC'."
+                    "value": " not canonicalized to 'UTC'.",
+                    "raw": "\" not canonicalized to 'UTC'.\""
                   }
                 }
               ],

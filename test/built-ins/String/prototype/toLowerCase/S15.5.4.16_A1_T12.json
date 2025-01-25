@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 438,
                           "end": 447,
-                          "value": "intostr"
+                          "value": "intostr",
+                          "raw": "\"intostr\""
                         }
                       }
                     ]
@@ -250,7 +251,8 @@
                   "type": "Literal",
                   "start": 657,
                   "end": 719,
-                  "value": "#1: \"var x = __obj.toLowerCase()\" lead to throwing exception"
+                  "value": "#1: \"var x = __obj.toLowerCase()\" lead to throwing exception",
+                  "raw": "'#1: \"var x = __obj.toLowerCase()\" lead to throwing exception'"
                 }
               ]
             }
@@ -291,7 +293,8 @@
                   "type": "Literal",
                   "start": 748,
                   "end": 757,
-                  "value": "intostr"
+                  "value": "intostr",
+                  "raw": "\"intostr\""
                 }
               },
               "consequent": {
@@ -322,7 +325,8 @@
                             "type": "Literal",
                             "start": 788,
                             "end": 829,
-                            "value": "#1.1: Exception === \"intostr\". Actual: "
+                            "value": "#1.1: Exception === \"intostr\". Actual: ",
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -41,7 +41,8 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 442,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             }
           }
@@ -114,7 +115,8 @@
                 "type": "Literal",
                 "start": 509,
                 "end": 556,
-                "value": "__ES3_1_test_suite_test_11_13_1_unique_id_3__"
+                "value": "__ES3_1_test_suite_test_11_13_1_unique_id_3__",
+                "raw": "'__ES3_1_test_suite_test_11_13_1_unique_id_3__'"
               }
             ],
             "optional": false
@@ -174,13 +176,15 @@
             "type": "Literal",
             "start": 589,
             "end": 591,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 605,
-            "value": "desc.value"
+            "value": "desc.value",
+            "raw": "'desc.value'"
           }
         ],
         "optional": false
@@ -237,13 +241,15 @@
             "type": "Literal",
             "start": 640,
             "end": 644,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 661,
-            "value": "desc.writable"
+            "value": "desc.writable",
+            "raw": "'desc.writable'"
           }
         ],
         "optional": false
@@ -300,13 +306,15 @@
             "type": "Literal",
             "start": 698,
             "end": 702,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 721,
-            "value": "desc.enumerable"
+            "value": "desc.enumerable",
+            "raw": "'desc.enumerable'"
           }
         ],
         "optional": false
@@ -363,13 +371,15 @@
             "type": "Literal",
             "start": 760,
             "end": 764,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 785,
-            "value": "desc.configurable"
+            "value": "desc.configurable",
+            "raw": "'desc.configurable'"
           }
         ],
         "optional": false

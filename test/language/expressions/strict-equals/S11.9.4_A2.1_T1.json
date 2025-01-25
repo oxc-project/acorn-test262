@@ -25,14 +25,16 @@
               "type": "Literal",
               "start": 286,
               "end": 287,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "===",
             "right": {
               "type": "Literal",
               "start": 292,
               "end": 293,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -61,7 +63,8 @@
                   "type": "Literal",
                   "start": 323,
                   "end": 336,
-                  "value": "#1: 1 === 1"
+                  "value": "#1: 1 === 1",
+                  "raw": "'#1: 1 === 1'"
                 }
               ]
             }
@@ -89,7 +92,8 @@
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -124,7 +128,8 @@
               "type": "Literal",
               "start": 375,
               "end": 376,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -153,7 +158,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 430,
-                  "value": "#2: var x = 1; x === 1"
+                  "value": "#2: var x = 1; x === 1",
+                  "raw": "'#2: var x = 1; x === 1'"
                 }
               ]
             }
@@ -181,7 +187,8 @@
             "type": "Literal",
             "start": 454,
             "end": 455,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -209,7 +216,8 @@
               "type": "Literal",
               "start": 463,
               "end": 464,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "===",
             "right": {
@@ -245,7 +253,8 @@
                   "type": "Literal",
                   "start": 500,
                   "end": 524,
-                  "value": "#3: var y = 1; 1 === y"
+                  "value": "#3: var y = 1; 1 === y",
+                  "raw": "'#3: var y = 1; 1 === y'"
                 }
               ]
             }
@@ -273,7 +282,8 @@
             "type": "Literal",
             "start": 548,
             "end": 549,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -298,7 +308,8 @@
             "type": "Literal",
             "start": 559,
             "end": 560,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -362,7 +373,8 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 640,
-                  "value": "#4: var x = 1; var y = 1; x === y"
+                  "value": "#4: var x = 1; var y = 1; x === y",
+                  "raw": "'#4: var x = 1; var y = 1; x === y'"
                 }
               ]
             }
@@ -465,7 +477,8 @@
           "type": "Literal",
           "start": 727,
           "end": 728,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -501,7 +514,8 @@
           "type": "Literal",
           "start": 745,
           "end": 746,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -589,7 +603,8 @@
                   "type": "Literal",
                   "start": 813,
                   "end": 940,
-                  "value": "#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 1; objecty.prop = 1; objectx.prop === objecty.prop"
+                  "value": "#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 1; objecty.prop = 1; objectx.prop === objecty.prop",
+                  "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 1; objecty.prop = 1; objectx.prop === objecty.prop'"
                 }
               ]
             }

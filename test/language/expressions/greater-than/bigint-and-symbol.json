@@ -63,7 +63,8 @@
                       "type": "Literal",
                       "start": 308,
                       "end": 310,
-                      "value": "3n"
+                      "value": "3n",
+                      "raw": "3n"
                     },
                     "operator": ">",
                     "right": {
@@ -81,7 +82,8 @@
                           "type": "Literal",
                           "start": 320,
                           "end": 323,
-                          "value": "2"
+                          "value": "2",
+                          "raw": "'2'"
                         }
                       ],
                       "optional": false
@@ -95,7 +97,8 @@
             "type": "Literal",
             "start": 329,
             "end": 364,
-            "value": "3n > Symbol(\"2\") throws TypeError"
+            "value": "3n > Symbol(\"2\") throws TypeError",
+            "raw": "'3n > Symbol(\"2\") throws TypeError'"
           }
         ],
         "optional": false
@@ -172,7 +175,8 @@
                           "type": "Literal",
                           "start": 415,
                           "end": 418,
-                          "value": "2"
+                          "value": "2",
+                          "raw": "'2'"
                         }
                       ],
                       "optional": false
@@ -182,7 +186,8 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 424,
-                      "value": "3n"
+                      "value": "3n",
+                      "raw": "3n"
                     }
                   }
                 }
@@ -193,7 +198,8 @@
             "type": "Literal",
             "start": 429,
             "end": 464,
-            "value": "Symbol(\"2\") > 3n throws TypeError"
+            "value": "Symbol(\"2\") > 3n throws TypeError",
+            "raw": "'Symbol(\"2\") > 3n throws TypeError'"
           }
         ],
         "optional": false

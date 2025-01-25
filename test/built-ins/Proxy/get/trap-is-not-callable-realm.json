@@ -285,7 +285,8 @@
                       "type": "Literal",
                       "start": 725,
                       "end": 731,
-                      "value": "attr"
+                      "value": "attr",
+                      "raw": "\"attr\""
                     },
                     "computed": true,
                     "optional": false

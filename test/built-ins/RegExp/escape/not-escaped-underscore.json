@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 532,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 535,
             "end": 538,
-            "value": "_"
+            "value": "_",
+            "raw": "'_'"
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 584,
-            "value": "Single underscore character is not escaped"
+            "value": "Single underscore character is not escaped",
+            "raw": "'Single underscore character is not escaped'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 618,
                 "end": 622,
-                "value": "__"
+                "value": "__",
+                "raw": "'__'"
               }
             ],
             "optional": false
@@ -145,13 +149,15 @@
             "type": "Literal",
             "start": 625,
             "end": 629,
-            "value": "__"
+            "value": "__",
+            "raw": "'__'"
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 670,
-            "value": "Thunderscore character is not escaped"
+            "value": "Thunderscore character is not escaped",
+            "raw": "'Thunderscore character is not escaped'"
           }
         ],
         "optional": false
@@ -213,7 +219,8 @@
                 "type": "Literal",
                 "start": 704,
                 "end": 717,
-                "value": "hello_world"
+                "value": "hello_world",
+                "raw": "'hello_world'"
               }
             ],
             "optional": false
@@ -222,13 +229,15 @@
             "type": "Literal",
             "start": 720,
             "end": 737,
-            "value": "\\x68ello_world"
+            "value": "\\x68ello_world",
+            "raw": "'\\\\x68ello_world'"
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 821,
-            "value": "String starting with ASCII letter and containing underscore is correctly escaped"
+            "value": "String starting with ASCII letter and containing underscore is correctly escaped",
+            "raw": "'String starting with ASCII letter and containing underscore is correctly escaped'"
           }
         ],
         "optional": false
@@ -290,7 +299,8 @@
                 "type": "Literal",
                 "start": 855,
                 "end": 870,
-                "value": "1_hello_world"
+                "value": "1_hello_world",
+                "raw": "'1_hello_world'"
               }
             ],
             "optional": false
@@ -299,13 +309,15 @@
             "type": "Literal",
             "start": 873,
             "end": 892,
-            "value": "\\x31_hello_world"
+            "value": "\\x31_hello_world",
+            "raw": "'\\\\x31_hello_world'"
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 969,
-            "value": "String starting with digit and containing underscore is correctly escaped"
+            "value": "String starting with digit and containing underscore is correctly escaped",
+            "raw": "'String starting with digit and containing underscore is correctly escaped'"
           }
         ],
         "optional": false
@@ -367,7 +379,8 @@
                 "type": "Literal",
                 "start": 1003,
                 "end": 1010,
-                "value": "a_b_c"
+                "value": "a_b_c",
+                "raw": "'a_b_c'"
               }
             ],
             "optional": false
@@ -376,13 +389,15 @@
             "type": "Literal",
             "start": 1013,
             "end": 1024,
-            "value": "\\x61_b_c"
+            "value": "\\x61_b_c",
+            "raw": "'\\\\x61_b_c'"
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1118,
-            "value": "String starting with ASCII letter and containing multiple underscores is correctly escaped"
+            "value": "String starting with ASCII letter and containing multiple underscores is correctly escaped",
+            "raw": "'String starting with ASCII letter and containing multiple underscores is correctly escaped'"
           }
         ],
         "optional": false
@@ -444,7 +459,8 @@
                 "type": "Literal",
                 "start": 1152,
                 "end": 1159,
-                "value": "3_b_4"
+                "value": "3_b_4",
+                "raw": "'3_b_4'"
               }
             ],
             "optional": false
@@ -453,13 +469,15 @@
             "type": "Literal",
             "start": 1162,
             "end": 1173,
-            "value": "\\x33_b_4"
+            "value": "\\x33_b_4",
+            "raw": "'\\\\x33_b_4'"
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1260,
-            "value": "String starting with digit and containing multiple underscores is correctly escaped"
+            "value": "String starting with digit and containing multiple underscores is correctly escaped",
+            "raw": "'String starting with digit and containing multiple underscores is correctly escaped'"
           }
         ],
         "optional": false
@@ -521,7 +539,8 @@
                 "type": "Literal",
                 "start": 1294,
                 "end": 1302,
-                "value": "_hello"
+                "value": "_hello",
+                "raw": "'_hello'"
               }
             ],
             "optional": false
@@ -530,13 +549,15 @@
             "type": "Literal",
             "start": 1305,
             "end": 1313,
-            "value": "_hello"
+            "value": "_hello",
+            "raw": "'_hello'"
           },
           {
             "type": "Literal",
             "start": 1315,
             "end": 1395,
-            "value": "String starting with underscore and containing other characters is not escaped"
+            "value": "String starting with underscore and containing other characters is not escaped",
+            "raw": "'String starting with underscore and containing other characters is not escaped'"
           }
         ],
         "optional": false
@@ -598,7 +619,8 @@
                 "type": "Literal",
                 "start": 1429,
                 "end": 1438,
-                "value": "_1hello"
+                "value": "_1hello",
+                "raw": "'_1hello'"
               }
             ],
             "optional": false
@@ -607,13 +629,15 @@
             "type": "Literal",
             "start": 1441,
             "end": 1450,
-            "value": "_1hello"
+            "value": "_1hello",
+            "raw": "'_1hello'"
           },
           {
             "type": "Literal",
             "start": 1452,
             "end": 1510,
-            "value": "String starting with underscore and digit is not escaped"
+            "value": "String starting with underscore and digit is not escaped",
+            "raw": "'String starting with underscore and digit is not escaped'"
           }
         ],
         "optional": false
@@ -675,7 +699,8 @@
                 "type": "Literal",
                 "start": 1544,
                 "end": 1552,
-                "value": "_a_1_2"
+                "value": "_a_1_2",
+                "raw": "'_a_1_2'"
               }
             ],
             "optional": false
@@ -684,13 +709,15 @@
             "type": "Literal",
             "start": 1555,
             "end": 1563,
-            "value": "_a_1_2"
+            "value": "_a_1_2",
+            "raw": "'_a_1_2'"
           },
           {
             "type": "Literal",
             "start": 1565,
             "end": 1634,
-            "value": "String starting with underscore and mixed characters is not escaped"
+            "value": "String starting with underscore and mixed characters is not escaped",
+            "raw": "'String starting with underscore and mixed characters is not escaped'"
           }
         ],
         "optional": false

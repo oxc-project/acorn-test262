@@ -260,7 +260,8 @@
             "type": "Literal",
             "start": 849,
             "end": 869,
-            "value": "via CallExpression"
+            "value": "via CallExpression",
+            "raw": "'via CallExpression'"
           }
         ],
         "optional": false
@@ -310,7 +311,8 @@
             "type": "Literal",
             "start": 905,
             "end": 927,
-            "value": "via MemberExpression"
+            "value": "via MemberExpression",
+            "raw": "'via MemberExpression'"
           }
         ],
         "optional": false

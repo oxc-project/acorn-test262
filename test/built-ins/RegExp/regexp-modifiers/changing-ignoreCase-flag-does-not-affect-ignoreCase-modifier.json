@@ -34,6 +34,7 @@
                 "start": 2198,
                 "end": 2208,
                 "value": null,
+                "raw": "/(?i:aB)/i",
                 "regex": {
                   "pattern": "(?i:aB)",
                   "flags": "i"
@@ -43,7 +44,8 @@
                 "type": "Literal",
                 "start": 2210,
                 "end": 2212,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }
@@ -94,7 +96,8 @@
                 "type": "Literal",
                 "start": 2231,
                 "end": 2235,
-                "value": "AB"
+                "value": "AB",
+                "raw": "\"AB\""
               }
             ],
             "optional": false
@@ -103,7 +106,8 @@
             "type": "Literal",
             "start": 2238,
             "end": 2282,
-            "value": "still should ignore case in modified group"
+            "value": "still should ignore case in modified group",
+            "raw": "\"still should ignore case in modified group\""
           }
         ],
         "optional": false
@@ -152,7 +156,8 @@
                 "type": "Literal",
                 "start": 2301,
                 "end": 2305,
-                "value": "Ab"
+                "value": "Ab",
+                "raw": "\"Ab\""
               }
             ],
             "optional": false
@@ -161,7 +166,8 @@
             "type": "Literal",
             "start": 2308,
             "end": 2352,
-            "value": "still should ignore case in modified group"
+            "value": "still should ignore case in modified group",
+            "raw": "\"still should ignore case in modified group\""
           }
         ],
         "optional": false
@@ -210,7 +216,8 @@
                 "type": "Literal",
                 "start": 2371,
                 "end": 2375,
-                "value": "aB"
+                "value": "aB",
+                "raw": "\"aB\""
               }
             ],
             "optional": false
@@ -219,7 +226,8 @@
             "type": "Literal",
             "start": 2378,
             "end": 2422,
-            "value": "still should ignore case in modified group"
+            "value": "still should ignore case in modified group",
+            "raw": "\"still should ignore case in modified group\""
           }
         ],
         "optional": false
@@ -268,7 +276,8 @@
                 "type": "Literal",
                 "start": 2441,
                 "end": 2445,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               }
             ],
             "optional": false
@@ -277,7 +286,8 @@
             "type": "Literal",
             "start": 2448,
             "end": 2492,
-            "value": "still should ignore case in modified group"
+            "value": "still should ignore case in modified group",
+            "raw": "\"still should ignore case in modified group\""
           }
         ],
         "optional": false
@@ -314,6 +324,7 @@
                 "start": 2517,
                 "end": 2527,
                 "value": null,
+                "raw": "/(?-i:aB)/",
                 "regex": {
                   "pattern": "(?-i:aB)",
                   "flags": ""
@@ -323,7 +334,8 @@
                 "type": "Literal",
                 "start": 2529,
                 "end": 2532,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }
@@ -380,7 +392,8 @@
                   "type": "Literal",
                   "start": 2552,
                   "end": 2556,
-                  "value": "AB"
+                  "value": "AB",
+                  "raw": "\"AB\""
                 }
               ],
               "optional": false
@@ -390,7 +403,8 @@
             "type": "Literal",
             "start": 2559,
             "end": 2605,
-            "value": "still should preserve case in modified group"
+            "value": "still should preserve case in modified group",
+            "raw": "\"still should preserve case in modified group\""
           }
         ],
         "optional": false
@@ -445,7 +459,8 @@
                   "type": "Literal",
                   "start": 2625,
                   "end": 2629,
-                  "value": "Ab"
+                  "value": "Ab",
+                  "raw": "\"Ab\""
                 }
               ],
               "optional": false
@@ -455,7 +470,8 @@
             "type": "Literal",
             "start": 2632,
             "end": 2678,
-            "value": "still should preserve case in modified group"
+            "value": "still should preserve case in modified group",
+            "raw": "\"still should preserve case in modified group\""
           }
         ],
         "optional": false
@@ -510,7 +526,8 @@
                   "type": "Literal",
                   "start": 2698,
                   "end": 2702,
-                  "value": "ab"
+                  "value": "ab",
+                  "raw": "\"ab\""
                 }
               ],
               "optional": false
@@ -520,7 +537,8 @@
             "type": "Literal",
             "start": 2705,
             "end": 2751,
-            "value": "still should preserve case in modified group"
+            "value": "still should preserve case in modified group",
+            "raw": "\"still should preserve case in modified group\""
           }
         ],
         "optional": false
@@ -569,7 +587,8 @@
                 "type": "Literal",
                 "start": 2770,
                 "end": 2774,
-                "value": "aB"
+                "value": "aB",
+                "raw": "\"aB\""
               }
             ],
             "optional": false
@@ -578,7 +597,8 @@
             "type": "Literal",
             "start": 2777,
             "end": 2823,
-            "value": "still should preserve case in modified group"
+            "value": "still should preserve case in modified group",
+            "raw": "\"still should preserve case in modified group\""
           }
         ],
         "optional": false

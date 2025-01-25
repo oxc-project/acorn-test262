@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 429,
                           "end": 430,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -139,7 +140,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 564,
-                "value": "ABBAB1ABAB1BBAA"
+                "value": "ABBAB1ABAB1BBAA",
+                "raw": "\"ABB\\u0041B\\u0031ABAB\\u0031BBAA\""
               },
               "property": {
                 "type": "Identifier",
@@ -164,7 +166,8 @@
             "type": "Literal",
             "start": 578,
             "end": 579,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -174,7 +177,8 @@
           "type": "Literal",
           "start": 585,
           "end": 588,
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
       },
       "consequent": {
@@ -205,7 +209,8 @@
                     "type": "Literal",
                     "start": 617,
                     "end": 768,
-                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\u0041B\\u0031ABAB\\u0031BBAA\".match(__obj)[0] ===\"1\". Actual: "
+                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\u0041B\\u0031ABAB\\u0031BBAA\".match(__obj)[0] ===\"1\". Actual: ",
+                    "raw": "'#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\\\u0041B\\\\u0031ABAB\\\\u0031BBAA\".match(__obj)[0] ===\"1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -228,7 +233,8 @@
                             "type": "Literal",
                             "start": 772,
                             "end": 804,
-                            "value": "ABBAB1ABAB1BBAA"
+                            "value": "ABBAB1ABAB1BBAA",
+                            "raw": "\"ABB\\u0041B\\u0031ABAB\\u0031BBAA\""
                           },
                           "property": {
                             "type": "Identifier",
@@ -253,7 +259,8 @@
                         "type": "Literal",
                         "start": 818,
                         "end": 819,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -291,7 +298,8 @@
                 "type": "Literal",
                 "start": 1002,
                 "end": 1034,
-                "value": "ABBAB1ABAB1BBAA"
+                "value": "ABBAB1ABAB1BBAA",
+                "raw": "\"ABB\\u0041B\\u0031ABAB\\u0031BBAA\""
               },
               "property": {
                 "type": "Identifier",
@@ -326,7 +334,8 @@
           "type": "Literal",
           "start": 1059,
           "end": 1060,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -357,7 +366,8 @@
                     "type": "Literal",
                     "start": 1089,
                     "end": 1243,
-                    "value": "#3: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\u0041B\\u0031ABAB\\u0031BBAA\".match(__obj).length === 1. Actual: "
+                    "value": "#3: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\u0041B\\u0031ABAB\\u0031BBAA\".match(__obj).length === 1. Actual: ",
+                    "raw": "'#3: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; \"ABB\\\\u0041B\\\\u0031ABAB\\\\u0031BBAA\".match(__obj).length === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -380,7 +390,8 @@
                             "type": "Literal",
                             "start": 1247,
                             "end": 1279,
-                            "value": "ABBAB1ABAB1BBAA"
+                            "value": "ABBAB1ABAB1BBAA",
+                            "raw": "\"ABB\\u0041B\\u0031ABAB\\u0031BBAA\""
                           },
                           "property": {
                             "type": "Identifier",

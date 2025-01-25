@@ -130,7 +130,8 @@
             "type": "Literal",
             "start": 735,
             "end": 783,
-            "value": "returns undefined if key is not on the weakmap"
+            "value": "returns undefined if key is not on the weakmap",
+            "raw": "'returns undefined if key is not on the weakmap'"
           }
         ],
         "optional": false
@@ -174,7 +175,8 @@
             "type": "Literal",
             "start": 801,
             "end": 802,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -218,7 +220,8 @@
             "type": "Literal",
             "start": 817,
             "end": 818,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -300,7 +303,8 @@
             "type": "Literal",
             "start": 850,
             "end": 851,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -377,7 +381,8 @@
             "type": "Literal",
             "start": 902,
             "end": 940,
-            "value": "returns undefined if key was deleted"
+            "value": "returns undefined if key was deleted",
+            "raw": "'returns undefined if key was deleted'"
           }
         ],
         "optional": false

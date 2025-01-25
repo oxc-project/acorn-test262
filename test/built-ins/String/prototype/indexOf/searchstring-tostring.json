@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 391,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               },
               "property": {
                 "type": "Identifier",
@@ -59,7 +60,8 @@
                 "type": "Literal",
                 "start": 400,
                 "end": 402,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -68,7 +70,8 @@
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -114,7 +117,8 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 435,
-                "value": "__foo__"
+                "value": "__foo__",
+                "raw": "\"__foo__\""
               },
               "property": {
                 "type": "Identifier",
@@ -130,7 +134,8 @@
                 "type": "Literal",
                 "start": 444,
                 "end": 449,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -139,7 +144,8 @@
             "type": "Literal",
             "start": 452,
             "end": 453,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -185,7 +191,8 @@
                 "type": "Literal",
                 "start": 473,
                 "end": 488,
-                "value": "__undefined__"
+                "value": "__undefined__",
+                "raw": "\"__undefined__\""
               },
               "property": {
                 "type": "Identifier",
@@ -210,13 +217,15 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 548,
-            "value": "ToString: undefined => \"undefined\""
+            "value": "ToString: undefined => \"undefined\"",
+            "raw": "'ToString: undefined => \"undefined\"'"
           }
         ],
         "optional": false
@@ -262,7 +271,8 @@
                 "type": "Literal",
                 "start": 568,
                 "end": 578,
-                "value": "__null__"
+                "value": "__null__",
+                "raw": "\"__null__\""
               },
               "property": {
                 "type": "Identifier",
@@ -278,7 +288,8 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 591,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -287,13 +298,15 @@
             "type": "Literal",
             "start": 594,
             "end": 595,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 623,
-            "value": "ToString: null => \"null\""
+            "value": "ToString: null => \"null\"",
+            "raw": "'ToString: null => \"null\"'"
           }
         ],
         "optional": false
@@ -339,7 +352,8 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 653,
-                "value": "__true__"
+                "value": "__true__",
+                "raw": "\"__true__\""
               },
               "property": {
                 "type": "Identifier",
@@ -355,7 +369,8 @@
                 "type": "Literal",
                 "start": 662,
                 "end": 666,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -364,13 +379,15 @@
             "type": "Literal",
             "start": 669,
             "end": 670,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 698,
-            "value": "ToString: true => \"true\""
+            "value": "ToString: true => \"true\"",
+            "raw": "'ToString: true => \"true\"'"
           }
         ],
         "optional": false
@@ -416,7 +433,8 @@
                 "type": "Literal",
                 "start": 718,
                 "end": 729,
-                "value": "__false__"
+                "value": "__false__",
+                "raw": "\"__false__\""
               },
               "property": {
                 "type": "Identifier",
@@ -432,7 +450,8 @@
                 "type": "Literal",
                 "start": 738,
                 "end": 743,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -441,13 +460,15 @@
             "type": "Literal",
             "start": 746,
             "end": 747,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 777,
-            "value": "ToString: false => \"false\""
+            "value": "ToString: false => \"false\"",
+            "raw": "'ToString: false => \"false\"'"
           }
         ],
         "optional": false
@@ -493,7 +514,8 @@
                 "type": "Literal",
                 "start": 797,
                 "end": 804,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -509,7 +531,8 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 814,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -518,13 +541,15 @@
             "type": "Literal",
             "start": 817,
             "end": 818,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 820,
             "end": 848,
-            "value": "ToString: Number to String"
+            "value": "ToString: Number to String",
+            "raw": "\"ToString: Number to String\""
           }
         ],
         "optional": false
@@ -570,7 +595,8 @@
                 "type": "Literal",
                 "start": 868,
                 "end": 875,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -592,7 +618,8 @@
                   "type": "Literal",
                   "start": 885,
                   "end": 886,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -602,13 +629,15 @@
             "type": "Literal",
             "start": 889,
             "end": 890,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 913,
-            "value": "ToString: -0 => \"0\""
+            "value": "ToString: -0 => \"0\"",
+            "raw": "'ToString: -0 => \"0\"'"
           }
         ],
         "optional": false
@@ -654,7 +683,8 @@
                 "type": "Literal",
                 "start": 933,
                 "end": 947,
-                "value": "__Infinity__"
+                "value": "__Infinity__",
+                "raw": "\"__Infinity__\""
               },
               "property": {
                 "type": "Identifier",
@@ -679,13 +709,15 @@
             "type": "Literal",
             "start": 967,
             "end": 968,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 1004,
-            "value": "ToString: Infinity => \"Infinity\""
+            "value": "ToString: Infinity => \"Infinity\"",
+            "raw": "'ToString: Infinity => \"Infinity\"'"
           }
         ],
         "optional": false
@@ -731,7 +763,8 @@
                 "type": "Literal",
                 "start": 1024,
                 "end": 1039,
-                "value": "__-Infinity__"
+                "value": "__-Infinity__",
+                "raw": "\"__-Infinity__\""
               },
               "property": {
                 "type": "Identifier",
@@ -763,13 +796,15 @@
             "type": "Literal",
             "start": 1060,
             "end": 1061,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1099,
-            "value": "ToString: -Infinity => \"-Infinity\""
+            "value": "ToString: -Infinity => \"-Infinity\"",
+            "raw": "'ToString: -Infinity => \"-Infinity\"'"
           }
         ],
         "optional": false
@@ -815,7 +850,8 @@
                 "type": "Literal",
                 "start": 1119,
                 "end": 1128,
-                "value": "__NaN__"
+                "value": "__NaN__",
+                "raw": "\"__NaN__\""
               },
               "property": {
                 "type": "Identifier",
@@ -840,13 +876,15 @@
             "type": "Literal",
             "start": 1143,
             "end": 1144,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1170,
-            "value": "ToString: NaN => \"NaN\""
+            "value": "ToString: NaN => \"NaN\"",
+            "raw": "'ToString: NaN => \"NaN\"'"
           }
         ],
         "optional": false
@@ -892,7 +930,8 @@
                 "type": "Literal",
                 "start": 1190,
                 "end": 1203,
-                "value": "__123.456__"
+                "value": "__123.456__",
+                "raw": "\"__123.456__\""
               },
               "property": {
                 "type": "Identifier",
@@ -908,7 +947,8 @@
                 "type": "Literal",
                 "start": 1212,
                 "end": 1219,
-                "value": 123.456
+                "value": 123.456,
+                "raw": "123.456"
               }
             ],
             "optional": false
@@ -917,13 +957,15 @@
             "type": "Literal",
             "start": 1222,
             "end": 1223,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1225,
             "end": 1253,
-            "value": "ToString: Number to String"
+            "value": "ToString: Number to String",
+            "raw": "\"ToString: Number to String\""
           }
         ],
         "optional": false
@@ -969,7 +1011,8 @@
                 "type": "Literal",
                 "start": 1273,
                 "end": 1287,
-                "value": "__-123.456__"
+                "value": "__-123.456__",
+                "raw": "\"__-123.456__\""
               },
               "property": {
                 "type": "Identifier",
@@ -991,7 +1034,8 @@
                   "type": "Literal",
                   "start": 1297,
                   "end": 1304,
-                  "value": 123.456
+                  "value": 123.456,
+                  "raw": "123.456"
                 }
               }
             ],
@@ -1001,13 +1045,15 @@
             "type": "Literal",
             "start": 1307,
             "end": 1308,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1310,
             "end": 1338,
-            "value": "ToString: Number to String"
+            "value": "ToString: Number to String",
+            "raw": "\"ToString: Number to String\""
           }
         ],
         "optional": false
@@ -1053,7 +1099,8 @@
                 "type": "Literal",
                 "start": 1358,
                 "end": 1363,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               },
               "property": {
                 "type": "Identifier",
@@ -1078,13 +1125,15 @@
             "type": "Literal",
             "start": 1377,
             "end": 1378,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1380,
             "end": 1403,
-            "value": "ToString: .toString()"
+            "value": "ToString: .toString()",
+            "raw": "\"ToString: .toString()\""
           }
         ],
         "optional": false
@@ -1130,7 +1179,8 @@
                 "type": "Literal",
                 "start": 1423,
                 "end": 1436,
-                "value": "__foo,bar__"
+                "value": "__foo,bar__",
+                "raw": "\"__foo,bar__\""
               },
               "property": {
                 "type": "Identifier",
@@ -1151,13 +1201,15 @@
                     "type": "Literal",
                     "start": 1446,
                     "end": 1451,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   },
                   {
                     "type": "Literal",
                     "start": 1453,
                     "end": 1458,
-                    "value": "bar"
+                    "value": "bar",
+                    "raw": "\"bar\""
                   }
                 ]
               }
@@ -1168,13 +1220,15 @@
             "type": "Literal",
             "start": 1462,
             "end": 1463,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1465,
             "end": 1488,
-            "value": "ToString: .toString()"
+            "value": "ToString: .toString()",
+            "raw": "\"ToString: .toString()\""
           }
         ],
         "optional": false
@@ -1220,7 +1274,8 @@
                 "type": "Literal",
                 "start": 1508,
                 "end": 1529,
-                "value": "__[object Object]__"
+                "value": "__[object Object]__",
+                "raw": "\"__[object Object]__\""
               },
               "property": {
                 "type": "Identifier",
@@ -1245,13 +1300,15 @@
             "type": "Literal",
             "start": 1543,
             "end": 1544,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1546,
             "end": 1569,
-            "value": "ToString: .toString()"
+            "value": "ToString: .toString()",
+            "raw": "\"ToString: .toString()\""
           }
         ],
         "optional": false

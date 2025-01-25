@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 321,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 329,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 342,
-                "value": "2021-01"
+                "value": "2021-01",
+                "raw": "\"2021-01\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 359,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 365,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -115,13 +120,15 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 420,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 424,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
           }
@@ -254,7 +261,8 @@
                               "type": "Literal",
                               "start": 516,
                               "end": 520,
-                              "value": 2020
+                              "value": 2020,
+                              "raw": "2020"
                             },
                             "kind": "init"
                           }
@@ -411,7 +419,8 @@
                                 "type": "Literal",
                                 "start": 646,
                                 "end": 647,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             },
                             "kind": "init"
@@ -432,7 +441,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 713,
-                  "value": "Partial date processed before throwing TypeError"
+                  "value": "Partial date processed before throwing TypeError",
+                  "raw": "\"Partial date processed before throwing TypeError\""
                 }
               ],
               "optional": false

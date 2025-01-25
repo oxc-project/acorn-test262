@@ -34,6 +34,7 @@
                 "start": 423,
                 "end": 432,
                 "value": {},
+                "raw": "/\\u0042/i",
                 "regex": {
                   "pattern": "\\u0042",
                   "flags": "i"
@@ -43,7 +44,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 437,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }

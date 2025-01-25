@@ -38,7 +38,8 @@
                     "type": "Literal",
                     "start": 353,
                     "end": 354,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               }
@@ -128,7 +129,8 @@
                         "type": "Literal",
                         "start": 424,
                         "end": 425,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -141,7 +143,8 @@
             "type": "Literal",
             "start": 435,
             "end": 443,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           }
         ],
         "optional": false
@@ -227,7 +230,8 @@
                         "type": "Literal",
                         "start": 514,
                         "end": 516,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -240,7 +244,8 @@
             "type": "Literal",
             "start": 526,
             "end": 534,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
         "optional": false
@@ -326,7 +331,8 @@
                         "type": "Literal",
                         "start": 605,
                         "end": 607,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     ],
                     "optional": false
@@ -339,7 +345,8 @@
             "type": "Literal",
             "start": 617,
             "end": 625,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           }
         ],
         "optional": false
@@ -425,7 +432,8 @@
                         "type": "Literal",
                         "start": 696,
                         "end": 701,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -438,7 +446,8 @@
             "type": "Literal",
             "start": 711,
             "end": 720,
-            "value": "boolean"
+            "value": "boolean",
+            "raw": "\"boolean\""
           }
         ],
         "optional": false
@@ -537,7 +546,8 @@
             "type": "Literal",
             "start": 810,
             "end": 821,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -623,7 +633,8 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 896,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -636,7 +647,8 @@
             "type": "Literal",
             "start": 906,
             "end": 912,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -733,7 +745,8 @@
                             "type": "Literal",
                             "start": 990,
                             "end": 996,
-                            "value": "test"
+                            "value": "test",
+                            "raw": "\"test\""
                           }
                         ],
                         "optional": false
@@ -749,7 +762,8 @@
             "type": "Literal",
             "start": 1007,
             "end": 1015,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                           "type": "Literal",
                           "start": 459,
                           "end": 475,
-                          "value": "NoInExpression"
+                          "value": "NoInExpression",
+                          "raw": "\"NoInExpression\""
                         }
                       }
                     ]
@@ -71,7 +72,8 @@
                     "type": "Literal",
                     "start": 493,
                     "end": 504,
-                    "value": "Statement"
+                    "value": "Statement",
+                    "raw": "\"Statement\""
                   }
                 }
               ]
@@ -96,7 +98,8 @@
                   "type": "Literal",
                   "start": 533,
                   "end": 604,
-                  "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception"
+                  "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception",
+                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'"
                 }
               ]
             }
@@ -137,7 +140,8 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 648,
-                  "value": "NoInExpression"
+                  "value": "NoInExpression",
+                  "raw": "\"NoInExpression\""
                 }
               },
               "consequent": {
@@ -164,7 +168,8 @@
                           "type": "Literal",
                           "start": 677,
                           "end": 768,
-                          "value": "#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first"
+                          "value": "#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first",
+                          "raw": "'#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first'"
                         }
                       ]
                     }

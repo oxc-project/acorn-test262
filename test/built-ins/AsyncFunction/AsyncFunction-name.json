@@ -81,7 +81,8 @@
             "type": "Literal",
             "start": 421,
             "end": 427,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -105,7 +106,8 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 455,
-                  "value": "AsyncFunction"
+                  "value": "AsyncFunction",
+                  "raw": "\"AsyncFunction\""
                 },
                 "kind": "init"
               },
@@ -126,7 +128,8 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 474,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -147,7 +150,8 @@
                   "type": "Literal",
                   "start": 490,
                   "end": 495,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -168,7 +172,8 @@
                   "type": "Literal",
                   "start": 513,
                   "end": 517,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -69,13 +69,15 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 388,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -121,13 +123,15 @@
             "type": "Literal",
             "start": 440,
             "end": 445,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 448,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -217,7 +221,8 @@
             "type": "Literal",
             "start": 532,
             "end": 565,
-            "value": "Instance of CustomPlainMonthDay"
+            "value": "Instance of CustomPlainMonthDay",
+            "raw": "\"Instance of CustomPlainMonthDay\""
           }
         ],
         "optional": false
@@ -260,7 +265,8 @@
             "type": "Literal",
             "start": 616,
             "end": 649,
-            "value": "Instance of CustomPlainMonthDay"
+            "value": "Instance of CustomPlainMonthDay",
+            "raw": "\"Instance of CustomPlainMonthDay\""
           }
         ],
         "optional": false
@@ -316,7 +322,8 @@
             "type": "Literal",
             "start": 703,
             "end": 739,
-            "value": "Instance of Temporal.PlainMonthDay"
+            "value": "Instance of Temporal.PlainMonthDay",
+            "raw": "\"Instance of Temporal.PlainMonthDay\""
           }
         ],
         "optional": false

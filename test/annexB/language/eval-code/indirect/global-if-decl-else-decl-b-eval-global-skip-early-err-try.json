@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 1613,
                 "end": 1614,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -40,7 +41,8 @@
             "type": "Literal",
             "start": 1624,
             "end": 2226,
-            "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {if (false) function _f() {} else function f() {  }}    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );"
+            "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {if (false) function _f() {} else function f() {  }}    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );",
+            "raw": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {if (false) function _f() {} else function f() {  }}\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'"
           }
         ],
         "optional": false

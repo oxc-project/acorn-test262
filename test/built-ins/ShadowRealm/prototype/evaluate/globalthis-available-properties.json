@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 1251,
             "end": 1261,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1338,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -141,349 +143,407 @@
                 "type": "Literal",
                 "start": 1394,
                 "end": 1406,
-                "value": "globalThis"
+                "value": "globalThis",
+                "raw": "'globalThis'"
               },
               {
                 "type": "Literal",
                 "start": 1410,
                 "end": 1420,
-                "value": "Infinity"
+                "value": "Infinity",
+                "raw": "'Infinity'"
               },
               {
                 "type": "Literal",
                 "start": 1424,
                 "end": 1429,
-                "value": "NaN"
+                "value": "NaN",
+                "raw": "'NaN'"
               },
               {
                 "type": "Literal",
                 "start": 1433,
                 "end": 1444,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "'undefined'"
               },
               {
                 "type": "Literal",
                 "start": 1448,
                 "end": 1454,
-                "value": "eval"
+                "value": "eval",
+                "raw": "'eval'"
               },
               {
                 "type": "Literal",
                 "start": 1458,
                 "end": 1468,
-                "value": "isFinite"
+                "value": "isFinite",
+                "raw": "'isFinite'"
               },
               {
                 "type": "Literal",
                 "start": 1472,
                 "end": 1479,
-                "value": "isNaN"
+                "value": "isNaN",
+                "raw": "'isNaN'"
               },
               {
                 "type": "Literal",
                 "start": 1483,
                 "end": 1495,
-                "value": "parseFloat"
+                "value": "parseFloat",
+                "raw": "'parseFloat'"
               },
               {
                 "type": "Literal",
                 "start": 1499,
                 "end": 1509,
-                "value": "parseInt"
+                "value": "parseInt",
+                "raw": "'parseInt'"
               },
               {
                 "type": "Literal",
                 "start": 1513,
                 "end": 1524,
-                "value": "decodeURI"
+                "value": "decodeURI",
+                "raw": "'decodeURI'"
               },
               {
                 "type": "Literal",
                 "start": 1528,
                 "end": 1548,
-                "value": "decodeURIComponent"
+                "value": "decodeURIComponent",
+                "raw": "'decodeURIComponent'"
               },
               {
                 "type": "Literal",
                 "start": 1552,
                 "end": 1563,
-                "value": "encodeURI"
+                "value": "encodeURI",
+                "raw": "'encodeURI'"
               },
               {
                 "type": "Literal",
                 "start": 1567,
                 "end": 1587,
-                "value": "encodeURIComponent"
+                "value": "encodeURIComponent",
+                "raw": "'encodeURIComponent'"
               },
               {
                 "type": "Literal",
                 "start": 1591,
                 "end": 1607,
-                "value": "AggregateError"
+                "value": "AggregateError",
+                "raw": "'AggregateError'"
               },
               {
                 "type": "Literal",
                 "start": 1611,
                 "end": 1618,
-                "value": "Array"
+                "value": "Array",
+                "raw": "'Array'"
               },
               {
                 "type": "Literal",
                 "start": 1622,
                 "end": 1635,
-                "value": "ArrayBuffer"
+                "value": "ArrayBuffer",
+                "raw": "'ArrayBuffer'"
               },
               {
                 "type": "Literal",
                 "start": 1639,
                 "end": 1647,
-                "value": "BigInt"
+                "value": "BigInt",
+                "raw": "'BigInt'"
               },
               {
                 "type": "Literal",
                 "start": 1651,
                 "end": 1666,
-                "value": "BigInt64Array"
+                "value": "BigInt64Array",
+                "raw": "'BigInt64Array'"
               },
               {
                 "type": "Literal",
                 "start": 1670,
                 "end": 1686,
-                "value": "BigUint64Array"
+                "value": "BigUint64Array",
+                "raw": "'BigUint64Array'"
               },
               {
                 "type": "Literal",
                 "start": 1690,
                 "end": 1699,
-                "value": "Boolean"
+                "value": "Boolean",
+                "raw": "'Boolean'"
               },
               {
                 "type": "Literal",
                 "start": 1703,
                 "end": 1713,
-                "value": "DataView"
+                "value": "DataView",
+                "raw": "'DataView'"
               },
               {
                 "type": "Literal",
                 "start": 1717,
                 "end": 1723,
-                "value": "Date"
+                "value": "Date",
+                "raw": "'Date'"
               },
               {
                 "type": "Literal",
                 "start": 1727,
                 "end": 1734,
-                "value": "Error"
+                "value": "Error",
+                "raw": "'Error'"
               },
               {
                 "type": "Literal",
                 "start": 1738,
                 "end": 1749,
-                "value": "EvalError"
+                "value": "EvalError",
+                "raw": "'EvalError'"
               },
               {
                 "type": "Literal",
                 "start": 1753,
                 "end": 1775,
-                "value": "FinalizationRegistry"
+                "value": "FinalizationRegistry",
+                "raw": "'FinalizationRegistry'"
               },
               {
                 "type": "Literal",
                 "start": 1779,
                 "end": 1793,
-                "value": "Float16Array"
+                "value": "Float16Array",
+                "raw": "'Float16Array'"
               },
               {
                 "type": "Literal",
                 "start": 1797,
                 "end": 1811,
-                "value": "Float32Array"
+                "value": "Float32Array",
+                "raw": "'Float32Array'"
               },
               {
                 "type": "Literal",
                 "start": 1815,
                 "end": 1829,
-                "value": "Float64Array"
+                "value": "Float64Array",
+                "raw": "'Float64Array'"
               },
               {
                 "type": "Literal",
                 "start": 1833,
                 "end": 1843,
-                "value": "Function"
+                "value": "Function",
+                "raw": "'Function'"
               },
               {
                 "type": "Literal",
                 "start": 1847,
                 "end": 1858,
-                "value": "Int8Array"
+                "value": "Int8Array",
+                "raw": "'Int8Array'"
               },
               {
                 "type": "Literal",
                 "start": 1862,
                 "end": 1874,
-                "value": "Int16Array"
+                "value": "Int16Array",
+                "raw": "'Int16Array'"
               },
               {
                 "type": "Literal",
                 "start": 1878,
                 "end": 1890,
-                "value": "Int32Array"
+                "value": "Int32Array",
+                "raw": "'Int32Array'"
               },
               {
                 "type": "Literal",
                 "start": 1894,
                 "end": 1899,
-                "value": "Map"
+                "value": "Map",
+                "raw": "'Map'"
               },
               {
                 "type": "Literal",
                 "start": 1903,
                 "end": 1911,
-                "value": "Number"
+                "value": "Number",
+                "raw": "'Number'"
               },
               {
                 "type": "Literal",
                 "start": 1915,
                 "end": 1923,
-                "value": "Object"
+                "value": "Object",
+                "raw": "'Object'"
               },
               {
                 "type": "Literal",
                 "start": 1927,
                 "end": 1936,
-                "value": "Promise"
+                "value": "Promise",
+                "raw": "'Promise'"
               },
               {
                 "type": "Literal",
                 "start": 1940,
                 "end": 1947,
-                "value": "Proxy"
+                "value": "Proxy",
+                "raw": "'Proxy'"
               },
               {
                 "type": "Literal",
                 "start": 1951,
                 "end": 1963,
-                "value": "RangeError"
+                "value": "RangeError",
+                "raw": "'RangeError'"
               },
               {
                 "type": "Literal",
                 "start": 1967,
                 "end": 1983,
-                "value": "ReferenceError"
+                "value": "ReferenceError",
+                "raw": "'ReferenceError'"
               },
               {
                 "type": "Literal",
                 "start": 1987,
                 "end": 1995,
-                "value": "RegExp"
+                "value": "RegExp",
+                "raw": "'RegExp'"
               },
               {
                 "type": "Literal",
                 "start": 1999,
                 "end": 2004,
-                "value": "Set"
+                "value": "Set",
+                "raw": "'Set'"
               },
               {
                 "type": "Literal",
                 "start": 2008,
                 "end": 2027,
-                "value": "SharedArrayBuffer"
+                "value": "SharedArrayBuffer",
+                "raw": "'SharedArrayBuffer'"
               },
               {
                 "type": "Literal",
                 "start": 2031,
                 "end": 2039,
-                "value": "String"
+                "value": "String",
+                "raw": "'String'"
               },
               {
                 "type": "Literal",
                 "start": 2043,
                 "end": 2051,
-                "value": "Symbol"
+                "value": "Symbol",
+                "raw": "'Symbol'"
               },
               {
                 "type": "Literal",
                 "start": 2055,
                 "end": 2068,
-                "value": "SyntaxError"
+                "value": "SyntaxError",
+                "raw": "'SyntaxError'"
               },
               {
                 "type": "Literal",
                 "start": 2072,
                 "end": 2083,
-                "value": "TypeError"
+                "value": "TypeError",
+                "raw": "'TypeError'"
               },
               {
                 "type": "Literal",
                 "start": 2087,
                 "end": 2099,
-                "value": "Uint8Array"
+                "value": "Uint8Array",
+                "raw": "'Uint8Array'"
               },
               {
                 "type": "Literal",
                 "start": 2103,
                 "end": 2122,
-                "value": "Uint8ClampedArray"
+                "value": "Uint8ClampedArray",
+                "raw": "'Uint8ClampedArray'"
               },
               {
                 "type": "Literal",
                 "start": 2126,
                 "end": 2139,
-                "value": "Uint16Array"
+                "value": "Uint16Array",
+                "raw": "'Uint16Array'"
               },
               {
                 "type": "Literal",
                 "start": 2143,
                 "end": 2156,
-                "value": "Uint32Array"
+                "value": "Uint32Array",
+                "raw": "'Uint32Array'"
               },
               {
                 "type": "Literal",
                 "start": 2160,
                 "end": 2170,
-                "value": "URIError"
+                "value": "URIError",
+                "raw": "'URIError'"
               },
               {
                 "type": "Literal",
                 "start": 2174,
                 "end": 2183,
-                "value": "WeakMap"
+                "value": "WeakMap",
+                "raw": "'WeakMap'"
               },
               {
                 "type": "Literal",
                 "start": 2187,
                 "end": 2196,
-                "value": "WeakRef"
+                "value": "WeakRef",
+                "raw": "'WeakRef'"
               },
               {
                 "type": "Literal",
                 "start": 2200,
                 "end": 2209,
-                "value": "WeakSet"
+                "value": "WeakSet",
+                "raw": "'WeakSet'"
               },
               {
                 "type": "Literal",
                 "start": 2213,
                 "end": 2222,
-                "value": "Atomics"
+                "value": "Atomics",
+                "raw": "'Atomics'"
               },
               {
                 "type": "Literal",
                 "start": 2226,
                 "end": 2232,
-                "value": "JSON"
+                "value": "JSON",
+                "raw": "'JSON'"
               },
               {
                 "type": "Literal",
                 "start": 2236,
                 "end": 2242,
-                "value": "Math"
+                "value": "Math",
+                "raw": "'Math'"
               },
               {
                 "type": "Literal",
                 "start": 2246,
                 "end": 2255,
-                "value": "Reflect"
+                "value": "Reflect",
+                "raw": "'Reflect'"
               }
             ]
           }

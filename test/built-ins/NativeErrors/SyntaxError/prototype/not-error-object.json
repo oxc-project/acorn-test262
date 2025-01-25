@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 471,
+  "end": 470,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 470,
+      "start": 378,
+      "end": 469,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 469,
+        "start": 378,
+        "end": 468,
         "callee": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 395,
+          "start": 378,
+          "end": 394,
           "object": {
             "type": "Identifier",
-            "start": 379,
-            "end": 385,
+            "start": 378,
+            "end": 384,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 386,
-            "end": 395,
+            "start": 385,
+            "end": 394,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,30 +33,30 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 396,
-            "end": 449,
+            "start": 395,
+            "end": 448,
             "callee": {
               "type": "MemberExpression",
-              "start": 396,
-              "end": 426,
+              "start": 395,
+              "end": 425,
               "object": {
                 "type": "MemberExpression",
-                "start": 396,
-                "end": 421,
+                "start": 395,
+                "end": 420,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 396,
-                  "end": 412,
+                  "start": 395,
+                  "end": 411,
                   "object": {
                     "type": "Identifier",
-                    "start": 396,
-                    "end": 402,
+                    "start": 395,
+                    "end": 401,
                     "name": "Object"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 403,
-                    "end": 412,
+                    "start": 402,
+                    "end": 411,
                     "name": "prototype"
                   },
                   "computed": false,
@@ -64,8 +64,8 @@
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 413,
-                  "end": 421,
+                  "start": 412,
+                  "end": 420,
                   "name": "toString"
                 },
                 "computed": false,
@@ -73,8 +73,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 422,
-                "end": 426,
+                "start": 421,
+                "end": 425,
                 "name": "call"
               },
               "computed": false,
@@ -83,18 +83,18 @@
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 427,
-                "end": 448,
+                "start": 426,
+                "end": 447,
                 "object": {
                   "type": "Identifier",
-                  "start": 427,
-                  "end": 438,
+                  "start": 426,
+                  "end": 437,
                   "name": "SyntaxError"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 439,
-                  "end": 448,
+                  "start": 438,
+                  "end": 447,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -105,9 +105,10 @@
           },
           {
             "type": "Literal",
-            "start": 451,
-            "end": 468,
-            "value": "[object Object]"
+            "start": 450,
+            "end": 467,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           }
         ],
         "optional": false

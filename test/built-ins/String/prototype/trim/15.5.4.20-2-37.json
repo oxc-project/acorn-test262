@@ -96,7 +96,8 @@
                     "type": "Literal",
                     "start": 325,
                     "end": 328,
-                    "value": 123
+                    "value": 123,
+                    "raw": "123"
                   }
                 ]
               }
@@ -107,13 +108,15 @@
             "type": "Literal",
             "start": 332,
             "end": 337,
-            "value": "123"
+            "value": "123",
+            "raw": "\"123\""
           },
           {
             "type": "Literal",
             "start": 339,
             "end": 384,
-            "value": "String.prototype.trim.call(new Number(123))"
+            "value": "String.prototype.trim.call(new Number(123))",
+            "raw": "'String.prototype.trim.call(new Number(123))'"
           }
         ],
         "optional": false

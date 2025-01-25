@@ -83,7 +83,8 @@
                           "type": "Literal",
                           "start": 530,
                           "end": 546,
-                          "value": "\"own\" toString"
+                          "value": "\"own\" toString",
+                          "raw": "'\"own\" toString'"
                         }
                       }
                     ]
@@ -164,7 +165,8 @@
             "type": "Literal",
             "start": 585,
             "end": 602,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false
@@ -237,7 +239,8 @@
             "type": "Literal",
             "start": 635,
             "end": 653,
-            "value": "1[object Object]"
+            "value": "1[object Object]",
+            "raw": "'1[object Object]'"
           }
         ],
         "optional": false
@@ -310,7 +313,8 @@
             "type": "Literal",
             "start": 686,
             "end": 704,
-            "value": "[object Object]2"
+            "value": "[object Object]2",
+            "raw": "'[object Object]2'"
           }
         ],
         "optional": false
@@ -383,7 +387,8 @@
             "type": "Literal",
             "start": 738,
             "end": 757,
-            "value": "1[object Object]2"
+            "value": "1[object Object]2",
+            "raw": "'1[object Object]2'"
           }
         ],
         "optional": false
@@ -456,7 +461,8 @@
             "type": "Literal",
             "start": 791,
             "end": 807,
-            "value": "\"own\" toString"
+            "value": "\"own\" toString",
+            "raw": "'\"own\" toString'"
           }
         ],
         "optional": false
@@ -529,7 +535,8 @@
             "type": "Literal",
             "start": 841,
             "end": 858,
-            "value": "1\"own\" toString"
+            "value": "1\"own\" toString",
+            "raw": "'1\"own\" toString'"
           }
         ],
         "optional": false
@@ -602,7 +609,8 @@
             "type": "Literal",
             "start": 892,
             "end": 909,
-            "value": "\"own\" toString2"
+            "value": "\"own\" toString2",
+            "raw": "'\"own\" toString2'"
           }
         ],
         "optional": false
@@ -675,7 +683,8 @@
             "type": "Literal",
             "start": 944,
             "end": 962,
-            "value": "1\"own\" toString2"
+            "value": "1\"own\" toString2",
+            "raw": "'1\"own\" toString2'"
           }
         ],
         "optional": false

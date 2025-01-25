@@ -53,7 +53,8 @@
               "type": "Literal",
               "start": 469,
               "end": 470,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
@@ -123,7 +124,8 @@
             "type": "Literal",
             "start": 511,
             "end": 539,
-            "value": "return value (no argument)"
+            "value": "return value (no argument)",
+            "raw": "'return value (no argument)'"
           }
         ],
         "optional": false
@@ -193,7 +195,8 @@
             "type": "Literal",
             "start": 583,
             "end": 626,
-            "value": "[[DateValue]] internal slot (no argument)"
+            "value": "[[DateValue]] internal slot (no argument)",
+            "raw": "'[[DateValue]] internal slot (no argument)'"
           }
         ],
         "optional": false
@@ -229,7 +232,8 @@
               "type": "Literal",
               "start": 647,
               "end": 648,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
@@ -306,7 +310,8 @@
             "type": "Literal",
             "start": 692,
             "end": 720,
-            "value": "return value (literal NaN)"
+            "value": "return value (literal NaN)",
+            "raw": "'return value (literal NaN)'"
           }
         ],
         "optional": false
@@ -376,7 +381,8 @@
             "type": "Literal",
             "start": 764,
             "end": 807,
-            "value": "[[DateValue]] internal slot (literal NaN)"
+            "value": "[[DateValue]] internal slot (literal NaN)",
+            "raw": "'[[DateValue]] internal slot (literal NaN)'"
           }
         ],
         "optional": false
@@ -412,7 +418,8 @@
               "type": "Literal",
               "start": 828,
               "end": 829,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
@@ -474,7 +481,8 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 879,
-                "value": "not a number"
+                "value": "not a number",
+                "raw": "'not a number'"
               }
             ],
             "optional": false
@@ -489,7 +497,8 @@
             "type": "Literal",
             "start": 887,
             "end": 921,
-            "value": "return value (NaN from ToNumber)"
+            "value": "return value (NaN from ToNumber)",
+            "raw": "'return value (NaN from ToNumber)'"
           }
         ],
         "optional": false
@@ -559,7 +568,8 @@
             "type": "Literal",
             "start": 966,
             "end": 1015,
-            "value": "[[DateValue]] internal slot (NaN from ToNumber)"
+            "value": "[[DateValue]] internal slot (NaN from ToNumber)",
+            "raw": "'[[DateValue]] internal slot (NaN from ToNumber)'"
           }
         ],
         "optional": false

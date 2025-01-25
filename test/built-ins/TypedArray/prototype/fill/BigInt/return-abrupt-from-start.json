@@ -225,7 +225,8 @@
                                     "type": "Literal",
                                     "start": 1294,
                                     "end": 1296,
-                                    "value": "1n"
+                                    "value": "1n",
+                                    "raw": "1n"
                                   },
                                   {
                                     "type": "Identifier",

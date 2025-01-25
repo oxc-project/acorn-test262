@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 353,
             "end": 363,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 410,
-            "value": "typeof Map.prototype.delete is \"function\""
+            "value": "typeof Map.prototype.delete is \"function\"",
+            "raw": "'typeof Map.prototype.delete is \"function\"'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 445,
             "end": 453,
-            "value": "delete"
+            "value": "delete",
+            "raw": "'delete'"
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 473,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 489,
                   "end": 494,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 512,
                   "end": 516,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

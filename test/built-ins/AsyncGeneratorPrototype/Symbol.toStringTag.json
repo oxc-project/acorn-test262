@@ -161,7 +161,8 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 737,
-                  "value": "AsyncGenerator"
+                  "value": "AsyncGenerator",
+                  "raw": "'AsyncGenerator'"
                 },
                 "kind": "init"
               },
@@ -182,7 +183,8 @@
                   "type": "Literal",
                   "start": 753,
                   "end": 758,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -203,7 +205,8 @@
                   "type": "Literal",
                   "start": 772,
                   "end": 777,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -224,7 +227,8 @@
                   "type": "Literal",
                   "start": 795,
                   "end": 799,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

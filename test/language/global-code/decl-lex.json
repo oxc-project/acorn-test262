@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 697,
             "end": 698,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -47,7 +48,8 @@
           "type": "Literal",
           "start": 714,
           "end": 715,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -89,13 +91,15 @@
             "type": "Literal",
             "start": 747,
             "end": 748,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 776,
-            "value": "`let` binding is mutable"
+            "value": "`let` binding is mutable",
+            "raw": "'`let` binding is mutable'"
           }
         ],
         "optional": false
@@ -156,7 +160,8 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 831,
-                "value": "test262let"
+                "value": "test262let",
+                "raw": "'test262let'"
               }
             ],
             "optional": false
@@ -165,13 +170,15 @@
             "type": "Literal",
             "start": 836,
             "end": 841,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 845,
             "end": 894,
-            "value": "property not created on the global object (let)"
+            "value": "property not created on the global object (let)",
+            "raw": "'property not created on the global object (let)'"
           }
         ],
         "optional": false
@@ -196,7 +203,8 @@
             "type": "Literal",
             "start": 920,
             "end": 921,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -269,7 +277,8 @@
                       "type": "Literal",
                       "start": 979,
                       "end": 980,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 }
@@ -280,7 +289,8 @@
             "type": "Literal",
             "start": 985,
             "end": 1024,
-            "value": "`const` binding is strictly immutable"
+            "value": "`const` binding is strictly immutable",
+            "raw": "'`const` binding is strictly immutable'"
           }
         ],
         "optional": false
@@ -324,13 +334,15 @@
             "type": "Literal",
             "start": 1058,
             "end": 1059,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1097,
-            "value": "`const` binding cannot be modified"
+            "value": "`const` binding cannot be modified",
+            "raw": "'`const` binding cannot be modified'"
           }
         ],
         "optional": false
@@ -391,7 +403,8 @@
                 "type": "Literal",
                 "start": 1140,
                 "end": 1154,
-                "value": "test262const"
+                "value": "test262const",
+                "raw": "'test262const'"
               }
             ],
             "optional": false
@@ -400,13 +413,15 @@
             "type": "Literal",
             "start": 1159,
             "end": 1164,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1168,
             "end": 1219,
-            "value": "property not created on the global object (const)"
+            "value": "property not created on the global object (const)",
+            "raw": "'property not created on the global object (const)'"
           }
         ],
         "optional": false
@@ -449,7 +464,8 @@
           "type": "Literal",
           "start": 1262,
           "end": 1263,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       }
     },
@@ -491,13 +507,15 @@
             "type": "Literal",
             "start": 1297,
             "end": 1298,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 1300,
             "end": 1328,
-            "value": "`class` binding is mutable"
+            "value": "`class` binding is mutable",
+            "raw": "'`class` binding is mutable'"
           }
         ],
         "optional": false
@@ -558,7 +576,8 @@
                 "type": "Literal",
                 "start": 1371,
                 "end": 1385,
-                "value": "test262class"
+                "value": "test262class",
+                "raw": "'test262class'"
               }
             ],
             "optional": false
@@ -567,13 +586,15 @@
             "type": "Literal",
             "start": 1390,
             "end": 1395,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1399,
             "end": 1450,
-            "value": "property not created on the global object (class)"
+            "value": "property not created on the global object (class)",
+            "raw": "'property not created on the global object (class)'"
           }
         ],
         "optional": false

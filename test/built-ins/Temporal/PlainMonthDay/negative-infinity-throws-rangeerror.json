@@ -87,7 +87,8 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 406,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -167,7 +168,8 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 470,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "UnaryExpression",
@@ -260,19 +262,22 @@
                   "type": "Literal",
                   "start": 544,
                   "end": 545,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 547,
                   "end": 548,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 550,
                   "end": 559,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "UnaryExpression",
@@ -427,7 +432,8 @@
                     "type": "Literal",
                     "start": 728,
                     "end": 744,
-                    "value": "infinite month"
+                    "value": "infinite month",
+                    "raw": "\"infinite month\""
                   },
                   {
                     "type": "ArrayExpression",
@@ -462,7 +468,8 @@
                             "type": "Literal",
                             "start": 764,
                             "end": 771,
-                            "value": "month"
+                            "value": "month",
+                            "raw": "\"month\""
                           }
                         ],
                         "optional": false
@@ -482,13 +489,15 @@
                             "type": "Literal",
                             "start": 776,
                             "end": 777,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 779,
                             "end": 784,
-                            "value": "day"
+                            "value": "day",
+                            "raw": "\"day\""
                           }
                         ],
                         "optional": false
@@ -506,7 +515,8 @@
                           "type": "Literal",
                           "start": 793,
                           "end": 802,
-                          "value": "iso8601"
+                          "value": "iso8601",
+                          "raw": "\"iso8601\""
                         }
                       },
                       {
@@ -524,13 +534,15 @@
                             "type": "Literal",
                             "start": 806,
                             "end": 807,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 809,
                             "end": 815,
-                            "value": "year"
+                            "value": "year",
+                            "raw": "\"year\""
                           }
                         ],
                         "optional": false
@@ -546,13 +558,15 @@
                         "type": "Literal",
                         "start": 824,
                         "end": 843,
-                        "value": "get month.valueOf"
+                        "value": "get month.valueOf",
+                        "raw": "\"get month.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 845,
                         "end": 865,
-                        "value": "call month.valueOf"
+                        "value": "call month.valueOf",
+                        "raw": "\"call month.valueOf\""
                       }
                     ]
                   }
@@ -567,7 +581,8 @@
                     "type": "Literal",
                     "start": 880,
                     "end": 894,
-                    "value": "infinite day"
+                    "value": "infinite day",
+                    "raw": "\"infinite day\""
                   },
                   {
                     "type": "ArrayExpression",
@@ -589,13 +604,15 @@
                             "type": "Literal",
                             "start": 903,
                             "end": 904,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 906,
                             "end": 913,
-                            "value": "month"
+                            "value": "month",
+                            "raw": "\"month\""
                           }
                         ],
                         "optional": false
@@ -628,7 +645,8 @@
                             "type": "Literal",
                             "start": 929,
                             "end": 934,
-                            "value": "day"
+                            "value": "day",
+                            "raw": "\"day\""
                           }
                         ],
                         "optional": false
@@ -646,7 +664,8 @@
                           "type": "Literal",
                           "start": 943,
                           "end": 952,
-                          "value": "iso8601"
+                          "value": "iso8601",
+                          "raw": "\"iso8601\""
                         }
                       },
                       {
@@ -664,13 +683,15 @@
                             "type": "Literal",
                             "start": 956,
                             "end": 957,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 959,
                             "end": 965,
-                            "value": "year"
+                            "value": "year",
+                            "raw": "\"year\""
                           }
                         ],
                         "optional": false
@@ -686,25 +707,29 @@
                         "type": "Literal",
                         "start": 974,
                         "end": 993,
-                        "value": "get month.valueOf"
+                        "value": "get month.valueOf",
+                        "raw": "\"get month.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 995,
                         "end": 1015,
-                        "value": "call month.valueOf"
+                        "value": "call month.valueOf",
+                        "raw": "\"call month.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1017,
                         "end": 1034,
-                        "value": "get day.valueOf"
+                        "value": "get day.valueOf",
+                        "raw": "\"get day.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1036,
                         "end": 1054,
-                        "value": "call day.valueOf"
+                        "value": "call day.valueOf",
+                        "raw": "\"call day.valueOf\""
                       }
                     ]
                   }
@@ -719,7 +744,8 @@
                     "type": "Literal",
                     "start": 1069,
                     "end": 1084,
-                    "value": "infinite year"
+                    "value": "infinite year",
+                    "raw": "\"infinite year\""
                   },
                   {
                     "type": "ArrayExpression",
@@ -741,13 +767,15 @@
                             "type": "Literal",
                             "start": 1093,
                             "end": 1094,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 1096,
                             "end": 1103,
-                            "value": "month"
+                            "value": "month",
+                            "raw": "\"month\""
                           }
                         ],
                         "optional": false
@@ -767,13 +795,15 @@
                             "type": "Literal",
                             "start": 1108,
                             "end": 1109,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1111,
                             "end": 1116,
-                            "value": "day"
+                            "value": "day",
+                            "raw": "\"day\""
                           }
                         ],
                         "optional": false
@@ -791,7 +821,8 @@
                           "type": "Literal",
                           "start": 1125,
                           "end": 1134,
-                          "value": "iso8601"
+                          "value": "iso8601",
+                          "raw": "\"iso8601\""
                         }
                       },
                       {
@@ -822,7 +853,8 @@
                             "type": "Literal",
                             "start": 1149,
                             "end": 1155,
-                            "value": "year"
+                            "value": "year",
+                            "raw": "\"year\""
                           }
                         ],
                         "optional": false
@@ -838,37 +870,43 @@
                         "type": "Literal",
                         "start": 1164,
                         "end": 1183,
-                        "value": "get month.valueOf"
+                        "value": "get month.valueOf",
+                        "raw": "\"get month.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1185,
                         "end": 1205,
-                        "value": "call month.valueOf"
+                        "value": "call month.valueOf",
+                        "raw": "\"call month.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1207,
                         "end": 1224,
-                        "value": "get day.valueOf"
+                        "value": "get day.valueOf",
+                        "raw": "\"get day.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1226,
                         "end": 1244,
-                        "value": "call day.valueOf"
+                        "value": "call day.valueOf",
+                        "raw": "\"call day.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1246,
                         "end": 1264,
-                        "value": "get year.valueOf"
+                        "value": "get year.valueOf",
+                        "raw": "\"get year.valueOf\""
                       },
                       {
                         "type": "Literal",
                         "start": 1266,
                         "end": 1285,
-                        "value": "call year.valueOf"
+                        "value": "call year.valueOf",
+                        "raw": "\"call year.valueOf\""
                       }
                     ]
                   }

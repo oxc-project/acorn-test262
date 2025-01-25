@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 448,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 477,
             "end": 486,
-            "value": "valueOf"
+            "value": "valueOf",
+            "raw": "\"valueOf\""
           },
           {
             "type": "ObjectExpression",
@@ -212,7 +214,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 656,
-                  "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError"
+                  "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError",
+                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'"
                 }
               ]
             }
@@ -271,7 +274,8 @@
                     "type": "Literal",
                     "start": 706,
                     "end": 780,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -312,7 +316,8 @@
                 "type": "Literal",
                 "start": 804,
                 "end": 805,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -455,7 +460,8 @@
                   "type": "Literal",
                   "start": 907,
                   "end": 983,
-                  "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError"
+                  "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError",
+                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'"
                 }
               ]
             }
@@ -514,7 +520,8 @@
                     "type": "Literal",
                     "start": 1033,
                     "end": 1107,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

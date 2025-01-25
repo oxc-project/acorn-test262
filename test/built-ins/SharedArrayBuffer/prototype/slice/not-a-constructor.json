@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 796,
             "end": 801,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 873,
-            "value": "isConstructor(SharedArrayBuffer.prototype.slice) must return false"
+            "value": "isConstructor(SharedArrayBuffer.prototype.slice) must return false",
+            "raw": "'isConstructor(SharedArrayBuffer.prototype.slice) must return false'"
           }
         ],
         "optional": false
@@ -171,7 +173,8 @@
                             "type": "Literal",
                             "start": 945,
                             "end": 946,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }

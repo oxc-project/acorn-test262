@@ -73,7 +73,8 @@
             "type": "Literal",
             "start": 383,
             "end": 434,
-            "value": "The value of `Set.prototype.constructor` is `Set`"
+            "value": "The value of `Set.prototype.constructor` is `Set`",
+            "raw": "\"The value of `Set.prototype.constructor` is `Set`\""
           }
         ],
         "optional": false

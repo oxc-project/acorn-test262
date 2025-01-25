@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 300,
                 "end": 304,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 308,
-                "value": "m"
+                "value": "m",
+                "raw": "\"m\""
               }
             ]
           }
@@ -98,13 +100,15 @@
             "type": "Literal",
             "start": 346,
             "end": 351,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 407,
-            "value": "The value of __re.ignoreCase is expected to be false"
+            "value": "The value of __re.ignoreCase is expected to be false",
+            "raw": "'The value of __re.ignoreCase is expected to be false'"
           }
         ],
         "optional": false
@@ -161,13 +165,15 @@
             "type": "Literal",
             "start": 443,
             "end": 447,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 501,
-            "value": "The value of __re.multiline is expected to be true"
+            "value": "The value of __re.multiline is expected to be true",
+            "raw": "'The value of __re.multiline is expected to be true'"
           }
         ],
         "optional": false
@@ -224,13 +230,15 @@
             "type": "Literal",
             "start": 534,
             "end": 539,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 591,
-            "value": "The value of __re.global is expected to be false"
+            "value": "The value of __re.global is expected to be false",
+            "raw": "'The value of __re.global is expected to be false'"
           }
         ],
         "optional": false
@@ -287,13 +295,15 @@
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 679,
-            "value": "The value of __re.lastIndex is expected to be 0"
+            "value": "The value of __re.lastIndex is expected to be 0",
+            "raw": "'The value of __re.lastIndex is expected to be 0'"
           }
         ],
         "optional": false
@@ -357,13 +367,15 @@
             "type": "Literal",
             "start": 722,
             "end": 733,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 787,
-            "value": "The value of typeof __re.source is not \"undefined\""
+            "value": "The value of typeof __re.source is not \"undefined\"",
+            "raw": "'The value of typeof __re.source is not \"undefined\"'"
           }
         ],
         "optional": false

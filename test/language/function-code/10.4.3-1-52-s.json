@@ -90,7 +90,8 @@
                                 "type": "Literal",
                                 "start": 412,
                                 "end": 424,
-                                "value": "use strict"
+                                "value": "use strict",
+                                "raw": "\"use strict\""
                               },
                               "directive": "use strict"
                             },
@@ -163,13 +164,15 @@
                         "type": "Literal",
                         "start": 486,
                         "end": 497,
-                        "value": "undefined"
+                        "value": "undefined",
+                        "raw": "\"undefined\""
                       },
                       {
                         "type": "Literal",
                         "start": 499,
                         "end": 504,
-                        "value": "f()"
+                        "value": "f()",
+                        "raw": "'f()'"
                       }
                     ],
                     "optional": false
@@ -218,7 +221,8 @@
                         "type": "Literal",
                         "start": 542,
                         "end": 548,
-                        "value": "this"
+                        "value": "this",
+                        "raw": "'this'"
                       }
                     ],
                     "optional": false

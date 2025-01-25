@@ -40,7 +40,8 @@
                     "type": "Literal",
                     "start": 311,
                     "end": 314,
-                    "value": "x"
+                    "value": "x",
+                    "raw": "\"x\""
                   }
                 }
               ]
@@ -87,7 +88,8 @@
                     "type": "Literal",
                     "start": 347,
                     "end": 350,
-                    "value": "y"
+                    "value": "y",
+                    "raw": "\"y\""
                   }
                 }
               ]
@@ -166,7 +168,8 @@
                     "type": "Literal",
                     "start": 402,
                     "end": 512,
-                    "value": "#1.1: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: "
+                    "value": "#1.1: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: ",
+                    "raw": "'#1.1: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -246,7 +249,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 560,
-                  "value": "y"
+                  "value": "y",
+                  "raw": "\"y\""
                 }
               },
               "consequent": {
@@ -273,7 +277,8 @@
                           "type": "Literal",
                           "start": 592,
                           "end": 663,
-                          "value": "#1.2: First expression is evaluated first, and then second expression"
+                          "value": "#1.2: First expression is evaluated first, and then second expression",
+                          "raw": "'#1.2: First expression is evaluated first, and then second expression'"
                         }
                       ]
                     }
@@ -304,7 +309,8 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 696,
-                        "value": "x"
+                        "value": "x",
+                        "raw": "\"x\""
                       }
                     },
                     "consequent": {
@@ -335,7 +341,8 @@
                                   "type": "Literal",
                                   "start": 730,
                                   "end": 840,
-                                  "value": "#1.3: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: "
+                                  "value": "#1.3: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: ",
+                                  "raw": "'#1.3: var x = function () { throw \"x\"; }; var y = function () { throw \"y\"; }; x() != y() throw \"x\". Actual: '"
                                 },
                                 "operator": "+",
                                 "right": {

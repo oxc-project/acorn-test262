@@ -53,7 +53,8 @@
             "type": "Literal",
             "start": 802,
             "end": 803,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -121,7 +122,8 @@
                         "type": "Literal",
                         "start": 864,
                         "end": 865,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   },
@@ -182,7 +184,8 @@
                         "type": "Literal",
                         "start": 918,
                         "end": 931,
-                        "value": "unreachable"
+                        "value": "unreachable",
+                        "raw": "\"unreachable\""
                       }
                     }
                   }
@@ -341,7 +344,8 @@
                   "type": "Literal",
                   "start": 1121,
                   "end": 1127,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -351,7 +355,8 @@
             "type": "Literal",
             "start": 1132,
             "end": 1188,
-            "value": "#gen does not appear as an own property on C prototype"
+            "value": "#gen does not appear as an own property on C prototype",
+            "raw": "\"#gen does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -438,7 +443,8 @@
                   "type": "Literal",
                   "start": 1243,
                   "end": 1249,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -448,7 +454,8 @@
             "type": "Literal",
             "start": 1254,
             "end": 1312,
-            "value": "#gen does not appear as an own property on C constructor"
+            "value": "#gen does not appear as an own property on C constructor",
+            "raw": "\"#gen does not appear as an own property on C constructor\""
           }
         ],
         "optional": false
@@ -588,7 +595,8 @@
                             "type": "Literal",
                             "start": 1388,
                             "end": 1419,
-                            "value": "Promise incorrectly resolved."
+                            "value": "Promise incorrectly resolved.",
+                            "raw": "\"Promise incorrectly resolved.\""
                           }
                         ]
                       }
@@ -819,13 +827,15 @@
                                             "type": "Literal",
                                             "start": 1611,
                                             "end": 1615,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1617,
                                             "end": 1661,
-                                            "value": "The value of IteratorResult.done is `true`"
+                                            "value": "The value of IteratorResult.done is `true`",
+                                            "raw": "\"The value of IteratorResult.done is `true`\""
                                           }
                                         ],
                                         "optional": false
@@ -875,7 +885,8 @@
                                             "type": "Literal",
                                             "start": 1703,
                                             "end": 1753,
-                                            "value": "The value of IteratorResult.value is `undefined`"
+                                            "value": "The value of IteratorResult.value is `undefined`",
+                                            "raw": "\"The value of IteratorResult.value is `undefined`\""
                                           }
                                         ],
                                         "optional": false
@@ -977,7 +988,8 @@
             "type": "Literal",
             "start": 1827,
             "end": 1828,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -1077,7 +1089,8 @@
                   "type": "Literal",
                   "start": 1967,
                   "end": 1973,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1087,7 +1100,8 @@
             "type": "Literal",
             "start": 1978,
             "end": 2034,
-            "value": "#gen does not appear as an own property on C prototype"
+            "value": "#gen does not appear as an own property on C prototype",
+            "raw": "\"#gen does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -1174,7 +1188,8 @@
                   "type": "Literal",
                   "start": 2089,
                   "end": 2095,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1184,7 +1199,8 @@
             "type": "Literal",
             "start": 2100,
             "end": 2158,
-            "value": "#gen does not appear as an own property on C constructor"
+            "value": "#gen does not appear as an own property on C constructor",
+            "raw": "\"#gen does not appear as an own property on C constructor\""
           }
         ],
         "optional": false

@@ -56,7 +56,8 @@
                           "type": "Literal",
                           "start": 530,
                           "end": 538,
-                          "value": 1600
+                          "value": 1600,
+                          "raw": "0x000640"
                         }
                       ]
                     },
@@ -89,13 +90,15 @@
                               "type": "Literal",
                               "start": 561,
                               "end": 569,
-                              "value": 68480
+                              "value": 68480,
+                              "raw": "0x010B80"
                             },
                             {
                               "type": "Literal",
                               "start": 571,
                               "end": 579,
-                              "value": 68497
+                              "value": 68497,
+                              "raw": "0x010B91"
                             }
                           ]
                         },
@@ -108,13 +111,15 @@
                               "type": "Literal",
                               "start": 587,
                               "end": 595,
-                              "value": 68505
+                              "value": 68505,
+                              "raw": "0x010B99"
                             },
                             {
                               "type": "Literal",
                               "start": 597,
                               "end": 605,
-                              "value": 68508
+                              "value": 68508,
+                              "raw": "0x010B9C"
                             }
                           ]
                         },
@@ -127,13 +132,15 @@
                               "type": "Literal",
                               "start": 613,
                               "end": 621,
-                              "value": 68521
+                              "value": 68521,
+                              "raw": "0x010BA9"
                             },
                             {
                               "type": "Literal",
                               "start": 623,
                               "end": 631,
-                              "value": 68527
+                              "value": 68527,
+                              "raw": "0x010BAF"
                             }
                           ]
                         }
@@ -170,6 +177,7 @@
             "start": 664,
             "end": 707,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Psalter_Pahlavi}+$",
               "flags": "u"
@@ -185,7 +193,8 @@
             "type": "Literal",
             "start": 727,
             "end": 767,
-            "value": "\\p{Script_Extensions=Psalter_Pahlavi}"
+            "value": "\\p{Script_Extensions=Psalter_Pahlavi}",
+            "raw": "\"\\\\p{Script_Extensions=Psalter_Pahlavi}\""
           }
         ],
         "optional": false
@@ -211,6 +220,7 @@
             "start": 794,
             "end": 826,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phlp}+$",
               "flags": "u"
@@ -226,7 +236,8 @@
             "type": "Literal",
             "start": 846,
             "end": 875,
-            "value": "\\p{Script_Extensions=Phlp}"
+            "value": "\\p{Script_Extensions=Phlp}",
+            "raw": "\"\\\\p{Script_Extensions=Phlp}\""
           }
         ],
         "optional": false
@@ -252,6 +263,7 @@
             "start": 902,
             "end": 931,
             "value": {},
+            "raw": "/^\\p{scx=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Psalter_Pahlavi}+$",
               "flags": "u"
@@ -267,7 +279,8 @@
             "type": "Literal",
             "start": 951,
             "end": 977,
-            "value": "\\p{scx=Psalter_Pahlavi}"
+            "value": "\\p{scx=Psalter_Pahlavi}",
+            "raw": "\"\\\\p{scx=Psalter_Pahlavi}\""
           }
         ],
         "optional": false
@@ -293,6 +306,7 @@
             "start": 1004,
             "end": 1022,
             "value": {},
+            "raw": "/^\\p{scx=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phlp}+$",
               "flags": "u"
@@ -308,7 +322,8 @@
             "type": "Literal",
             "start": 1042,
             "end": 1057,
-            "value": "\\p{scx=Phlp}"
+            "value": "\\p{scx=Phlp}",
+            "raw": "\"\\\\p{scx=Phlp}\""
           }
         ],
         "optional": false
@@ -393,13 +408,15 @@
                               "type": "Literal",
                               "start": 1139,
                               "end": 1147,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1149,
                               "end": 1157,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -412,13 +429,15 @@
                               "type": "Literal",
                               "start": 1165,
                               "end": 1173,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1175,
                               "end": 1183,
-                              "value": 1599
+                              "value": 1599,
+                              "raw": "0x00063F"
                             }
                           ]
                         },
@@ -431,13 +450,15 @@
                               "type": "Literal",
                               "start": 1191,
                               "end": 1199,
-                              "value": 1601
+                              "value": 1601,
+                              "raw": "0x000641"
                             },
                             {
                               "type": "Literal",
                               "start": 1201,
                               "end": 1209,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -450,13 +471,15 @@
                               "type": "Literal",
                               "start": 1217,
                               "end": 1225,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1227,
                               "end": 1235,
-                              "value": 68479
+                              "value": 68479,
+                              "raw": "0x010B7F"
                             }
                           ]
                         },
@@ -469,13 +492,15 @@
                               "type": "Literal",
                               "start": 1243,
                               "end": 1251,
-                              "value": 68498
+                              "value": 68498,
+                              "raw": "0x010B92"
                             },
                             {
                               "type": "Literal",
                               "start": 1253,
                               "end": 1261,
-                              "value": 68504
+                              "value": 68504,
+                              "raw": "0x010B98"
                             }
                           ]
                         },
@@ -488,13 +513,15 @@
                               "type": "Literal",
                               "start": 1269,
                               "end": 1277,
-                              "value": 68509
+                              "value": 68509,
+                              "raw": "0x010B9D"
                             },
                             {
                               "type": "Literal",
                               "start": 1279,
                               "end": 1287,
-                              "value": 68520
+                              "value": 68520,
+                              "raw": "0x010BA8"
                             }
                           ]
                         },
@@ -507,13 +534,15 @@
                               "type": "Literal",
                               "start": 1295,
                               "end": 1303,
-                              "value": 68528
+                              "value": 68528,
+                              "raw": "0x010BB0"
                             },
                             {
                               "type": "Literal",
                               "start": 1305,
                               "end": 1313,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -550,6 +579,7 @@
             "start": 1346,
             "end": 1389,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Psalter_Pahlavi}+$",
               "flags": "u"
@@ -565,7 +595,8 @@
             "type": "Literal",
             "start": 1412,
             "end": 1452,
-            "value": "\\P{Script_Extensions=Psalter_Pahlavi}"
+            "value": "\\P{Script_Extensions=Psalter_Pahlavi}",
+            "raw": "\"\\\\P{Script_Extensions=Psalter_Pahlavi}\""
           }
         ],
         "optional": false
@@ -591,6 +622,7 @@
             "start": 1479,
             "end": 1511,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phlp}+$",
               "flags": "u"
@@ -606,7 +638,8 @@
             "type": "Literal",
             "start": 1534,
             "end": 1563,
-            "value": "\\P{Script_Extensions=Phlp}"
+            "value": "\\P{Script_Extensions=Phlp}",
+            "raw": "\"\\\\P{Script_Extensions=Phlp}\""
           }
         ],
         "optional": false
@@ -632,6 +665,7 @@
             "start": 1590,
             "end": 1619,
             "value": {},
+            "raw": "/^\\P{scx=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Psalter_Pahlavi}+$",
               "flags": "u"
@@ -647,7 +681,8 @@
             "type": "Literal",
             "start": 1642,
             "end": 1668,
-            "value": "\\P{scx=Psalter_Pahlavi}"
+            "value": "\\P{scx=Psalter_Pahlavi}",
+            "raw": "\"\\\\P{scx=Psalter_Pahlavi}\""
           }
         ],
         "optional": false
@@ -673,6 +708,7 @@
             "start": 1695,
             "end": 1713,
             "value": {},
+            "raw": "/^\\P{scx=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phlp}+$",
               "flags": "u"
@@ -688,7 +724,8 @@
             "type": "Literal",
             "start": 1736,
             "end": 1751,
-            "value": "\\P{scx=Phlp}"
+            "value": "\\P{scx=Phlp}",
+            "raw": "\"\\\\P{scx=Phlp}\""
           }
         ],
         "optional": false

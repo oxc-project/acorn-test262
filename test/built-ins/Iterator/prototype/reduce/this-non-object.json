@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 436,
                         "end": 440,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -244,7 +245,8 @@
                         "type": "Literal",
                         "start": 530,
                         "end": 534,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -266,7 +268,8 @@
                         "type": "Literal",
                         "start": 546,
                         "end": 547,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -330,7 +333,8 @@
             "type": "Literal",
             "start": 595,
             "end": 601,
-            "value": "next"
+            "value": "next",
+            "raw": "'next'"
           },
           {
             "type": "ObjectExpression",
@@ -498,7 +502,8 @@
                         "type": "Literal",
                         "start": 738,
                         "end": 739,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -633,7 +638,8 @@
                         "type": "Literal",
                         "start": 829,
                         "end": 830,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -655,7 +661,8 @@
                         "type": "Literal",
                         "start": 842,
                         "end": 843,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false

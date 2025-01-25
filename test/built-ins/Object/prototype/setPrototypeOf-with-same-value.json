@@ -103,7 +103,8 @@
                 "type": "Literal",
                 "start": 809,
                 "end": 813,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -118,7 +119,8 @@
             "type": "Literal",
             "start": 830,
             "end": 898,
-            "value": "Object.setPrototypeOf(ObjProto, null) returns the Object.prototype"
+            "value": "Object.setPrototypeOf(ObjProto, null) returns the Object.prototype",
+            "raw": "\"Object.setPrototypeOf(ObjProto, null) returns the Object.prototype\""
           }
         ],
         "optional": false
@@ -176,7 +178,8 @@
             "type": "Literal",
             "start": 946,
             "end": 1022,
-            "value": "Object.prototype is still extensible after a setPrototypeOf operation - #1"
+            "value": "Object.prototype is still extensible after a setPrototypeOf operation - #1",
+            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #1\""
           }
         ],
         "optional": false
@@ -244,7 +247,8 @@
                 "type": "Literal",
                 "start": 1080,
                 "end": 1084,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -253,13 +257,15 @@
             "type": "Literal",
             "start": 1089,
             "end": 1093,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1150,
-            "value": "Reflect.setPrototypeOf(ObjProto, null) returns true"
+            "value": "Reflect.setPrototypeOf(ObjProto, null) returns true",
+            "raw": "\"Reflect.setPrototypeOf(ObjProto, null) returns true\""
           }
         ],
         "optional": false
@@ -317,7 +323,8 @@
             "type": "Literal",
             "start": 1198,
             "end": 1274,
-            "value": "Object.prototype is still extensible after a setPrototypeOf operation - #2"
+            "value": "Object.prototype is still extensible after a setPrototypeOf operation - #2",
+            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #2\""
           }
         ],
         "optional": false

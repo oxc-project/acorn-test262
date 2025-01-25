@@ -121,7 +121,8 @@
                           "type": "Literal",
                           "start": 1314,
                           "end": 1318,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       }
                     ]
@@ -212,7 +213,8 @@
                         "type": "Literal",
                         "start": 1387,
                         "end": 1388,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "SpreadElement",

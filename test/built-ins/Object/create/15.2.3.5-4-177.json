@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 360,
           "end": 373,
-          "value": "GlobalValue"
+          "value": "GlobalValue",
+          "raw": "\"GlobalValue\""
         }
       }
     },
@@ -168,13 +169,15 @@
             "type": "Literal",
             "start": 457,
             "end": 470,
-            "value": "GlobalValue"
+            "value": "GlobalValue",
+            "raw": "\"GlobalValue\""
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 485,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

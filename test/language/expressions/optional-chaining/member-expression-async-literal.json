@@ -66,13 +66,15 @@
                         "type": "Literal",
                         "start": 496,
                         "end": 503,
-                        "value": "hello"
+                        "value": "hello",
+                        "raw": "\"hello\""
                       },
                       "property": {
                         "type": "Literal",
                         "start": 506,
                         "end": 507,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": true
@@ -83,7 +85,8 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 513,
-                  "value": "h"
+                  "value": "h",
+                  "raw": "'h'"
                 }
               ],
               "optional": false
@@ -133,7 +136,8 @@
                         "type": "Literal",
                         "start": 541,
                         "end": 545,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "property": {
                         "type": "Identifier",

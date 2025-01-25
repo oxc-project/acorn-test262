@@ -12,7 +12,8 @@
         "type": "Literal",
         "start": 432,
         "end": 468,
-        "value": "./instn-same-global-set_FIXTURE.js"
+        "value": "./instn-same-global-set_FIXTURE.js",
+        "raw": "'./instn-same-global-set_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 536,
             "end": 539,
-            "value": 262
+            "value": 262,
+            "raw": "262"
           }
         ],
         "optional": false

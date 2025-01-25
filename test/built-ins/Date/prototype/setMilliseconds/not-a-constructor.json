@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 771,
             "end": 776,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 780,
             "end": 845,
-            "value": "isConstructor(Date.prototype.setMilliseconds) must return false"
+            "value": "isConstructor(Date.prototype.setMilliseconds) must return false",
+            "raw": "'isConstructor(Date.prototype.setMilliseconds) must return false'"
           }
         ],
         "optional": false

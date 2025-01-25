@@ -46,7 +46,8 @@
                           "type": "Literal",
                           "start": 484,
                           "end": 500,
-                          "value": "NoInExpression"
+                          "value": "NoInExpression",
+                          "raw": "\"NoInExpression\""
                         }
                       }
                     ]
@@ -86,7 +87,8 @@
                           "type": "Literal",
                           "start": 525,
                           "end": 542,
-                          "value": "FirstExpression"
+                          "value": "FirstExpression",
+                          "raw": "\"FirstExpression\""
                         }
                       }
                     ]
@@ -126,7 +128,8 @@
                           "type": "Literal",
                           "start": 567,
                           "end": 585,
-                          "value": "SecondExpression"
+                          "value": "SecondExpression",
+                          "raw": "\"SecondExpression\""
                         }
                       }
                     ]
@@ -160,7 +163,8 @@
                         "type": "Literal",
                         "start": 609,
                         "end": 618,
-                        "value": "reached"
+                        "value": "reached",
+                        "raw": "\"reached\""
                       }
                     }
                   ],
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 719,
-                  "value": "#1: (function(){throw \"NoInExpression\";})() lead to throwing exception"
+                  "value": "#1: (function(){throw \"NoInExpression\";})() lead to throwing exception",
+                  "raw": "'#1: (function(){throw \"NoInExpression\";})() lead to throwing exception'"
                 }
               ]
             }
@@ -229,7 +234,8 @@
                   "type": "Literal",
                   "start": 747,
                   "end": 763,
-                  "value": "NoInExpression"
+                  "value": "NoInExpression",
+                  "raw": "\"NoInExpression\""
                 }
               },
               "consequent": {
@@ -256,7 +262,8 @@
                           "type": "Literal",
                           "start": 792,
                           "end": 903,
-                          "value": "#1: When for (ExpressionNoIn ; Expression ; Expression) Statement is evaluated ExpressionNoIn evaluates first"
+                          "value": "#1: When for (ExpressionNoIn ; Expression ; Expression) Statement is evaluated ExpressionNoIn evaluates first",
+                          "raw": "'#1: When for (ExpressionNoIn ; Expression ; Expression) Statement is evaluated ExpressionNoIn evaluates first'"
                         }
                       ]
                     }
@@ -320,7 +327,8 @@
                     "type": "Literal",
                     "start": 1135,
                     "end": 1182,
-                    "value": "#2: in_for === undefined. Actual:  in_for ==="
+                    "value": "#2: in_for === undefined. Actual:  in_for ===",
+                    "raw": "'#2: in_for === undefined. Actual:  in_for ==='"
                   },
                   "operator": "+",
                   "right": {

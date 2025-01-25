@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 773,
+  "end": 771,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 333,
                     "end": 334,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 336,
                     "end": 337,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -78,13 +80,15 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 357,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -124,7 +128,8 @@
           "type": "Literal",
           "start": 370,
           "end": 371,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -196,7 +201,8 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 410,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 },
                 "consequent": {
@@ -207,7 +213,8 @@
                     "type": "Literal",
                     "start": 419,
                     "end": 423,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 },
                 "alternate": null
@@ -231,7 +238,8 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 438,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 },
                 "consequent": {
@@ -242,7 +250,8 @@
                     "type": "Literal",
                     "start": 447,
                     "end": 451,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 },
                 "alternate": null
@@ -266,7 +275,8 @@
                       "type": "Literal",
                       "start": 478,
                       "end": 569,
-                      "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this"
+                      "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this",
+                      "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\""
                     }
                   ]
                 }
@@ -279,11 +289,11 @@
     {
       "type": "ExpressionStatement",
       "start": 575,
-      "end": 728,
+      "end": 726,
       "expression": {
         "type": "AssignmentExpression",
         "start": 575,
-        "end": 727,
+        "end": 725,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
@@ -307,7 +317,7 @@
         "right": {
           "type": "FunctionExpression",
           "start": 585,
-          "end": 727,
+          "end": 725,
           "id": null,
           "expression": false,
           "generator": false,
@@ -316,16 +326,16 @@
           "body": {
             "type": "BlockStatement",
             "start": 597,
-            "end": 727,
+            "end": 725,
             "body": [
               {
                 "type": "ThrowStatement",
                 "start": 601,
-                "end": 725,
+                "end": 723,
                 "argument": {
                   "type": "NewExpression",
                   "start": 607,
-                  "end": 724,
+                  "end": 722,
                   "callee": {
                     "type": "Identifier",
                     "start": 611,
@@ -336,8 +346,9 @@
                     {
                       "type": "Literal",
                       "start": 624,
-                      "end": 723,
-                      "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator when this.size ≤ arg.size"
+                      "end": 721,
+                      "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator when this.size ≤ arg.size",
+                      "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator when this.size ≤ arg.size\""
                     }
                   ]
                 }
@@ -349,26 +360,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 730,
-      "end": 772,
+      "start": 728,
+      "end": 770,
       "expression": {
         "type": "CallExpression",
-        "start": 730,
-        "end": 771,
+        "start": 728,
+        "end": 769,
         "callee": {
           "type": "MemberExpression",
-          "start": 730,
-          "end": 746,
+          "start": 728,
+          "end": 744,
           "object": {
             "type": "Identifier",
-            "start": 730,
-            "end": 736,
+            "start": 728,
+            "end": 734,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 737,
-            "end": 746,
+            "start": 735,
+            "end": 744,
             "name": "sameValue"
           },
           "computed": false,
@@ -377,22 +388,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 747,
-            "end": 764,
+            "start": 745,
+            "end": 762,
             "callee": {
               "type": "MemberExpression",
-              "start": 747,
-              "end": 760,
+              "start": 745,
+              "end": 758,
               "object": {
                 "type": "Identifier",
-                "start": 747,
-                "end": 749,
+                "start": 745,
+                "end": 747,
                 "name": "s1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 750,
-                "end": 760,
+                "start": 748,
+                "end": 758,
                 "name": "isSubsetOf"
               },
               "computed": false,
@@ -401,8 +412,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 761,
-                "end": 763,
+                "start": 759,
+                "end": 761,
                 "name": "s2"
               }
             ],
@@ -410,9 +421,10 @@
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 770,
-            "value": true
+            "start": 764,
+            "end": 768,
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 735,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -72,7 +73,8 @@
                 "type": "Literal",
                 "start": 755,
                 "end": 770,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 812,
             "end": 814,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -194,7 +197,8 @@
             "type": "Literal",
             "start": 830,
             "end": 832,
-            "value": 43
+            "value": 43,
+            "raw": "43"
           }
         ],
         "optional": false
@@ -311,7 +315,8 @@
             "type": "Literal",
             "start": 889,
             "end": 926,
-            "value": "Regular symbol was deleted from map"
+            "value": "Regular symbol was deleted from map",
+            "raw": "'Regular symbol was deleted from map'"
           }
         ],
         "optional": false
@@ -369,7 +374,8 @@
             "type": "Literal",
             "start": 950,
             "end": 1008,
-            "value": "Symbols with the same description don't alias each other"
+            "value": "Symbols with the same description don't alias each other",
+            "raw": "\"Symbols with the same description don't alias each other\""
           }
         ],
         "optional": false
@@ -413,13 +419,15 @@
             "type": "Literal",
             "start": 1036,
             "end": 1040,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1042,
             "end": 1084,
-            "value": "delete() returns true for regular symbol"
+            "value": "delete() returns true for regular symbol",
+            "raw": "'delete() returns true for regular symbol'"
           }
         ],
         "optional": false
@@ -476,7 +484,8 @@
             "type": "Literal",
             "start": 1116,
             "end": 1118,
-            "value": 44
+            "value": 44,
+            "raw": "44"
           }
         ],
         "optional": false
@@ -617,7 +626,8 @@
             "type": "Literal",
             "start": 1201,
             "end": 1241,
-            "value": "Well-known symbol was deleted from map"
+            "value": "Well-known symbol was deleted from map",
+            "raw": "'Well-known symbol was deleted from map'"
           }
         ],
         "optional": false
@@ -661,13 +671,15 @@
             "type": "Literal",
             "start": 1269,
             "end": 1273,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1275,
             "end": 1320,
-            "value": "delete() returns true for well-known symbol"
+            "value": "delete() returns true for well-known symbol",
+            "raw": "'delete() returns true for well-known symbol'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 340,
             "end": 345,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 400,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "consequent": {
@@ -128,7 +130,8 @@
               "type": "Literal",
               "start": 444,
               "end": 449,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           }
         ]
@@ -195,7 +198,8 @@
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -204,7 +208,8 @@
           "type": "Literal",
           "start": 490,
           "end": 492,
-          "value": 11
+          "value": 11,
+          "raw": "11"
         }
       }
     },
@@ -246,7 +251,8 @@
             "type": "Literal",
             "start": 522,
             "end": 525,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -313,7 +319,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 593,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -417,7 +424,8 @@
               "type": "Literal",
               "start": 666,
               "end": 667,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -426,13 +434,15 @@
             "type": "Literal",
             "start": 670,
             "end": 674,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 691,
-            "value": "testResult[0]"
+            "value": "testResult[0]",
+            "raw": "'testResult[0]'"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 313,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -139,13 +140,15 @@
               "type": "Literal",
               "start": 483,
               "end": 488,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             {
               "type": "Literal",
               "start": 490,
               "end": 494,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ],
           "optional": false
@@ -155,7 +158,8 @@
           "type": "Literal",
           "start": 500,
           "end": 503,
-          "value": "t"
+          "value": "t",
+          "raw": "\"t\""
         }
       },
       "consequent": {
@@ -186,7 +190,8 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 672,
-                    "value": "#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: "
+                    "value": "#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: ",
+                    "raw": "'#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -217,13 +222,15 @@
                         "type": "Literal",
                         "start": 696,
                         "end": 701,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 703,
                         "end": 707,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false

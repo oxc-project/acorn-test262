@@ -172,7 +172,8 @@
                                   "type": "Literal",
                                   "start": 1165,
                                   "end": 1215,
-                                  "value": "The promise should be rejected, but was resolved"
+                                  "value": "The promise should be rejected, but was resolved",
+                                  "raw": "'The promise should be rejected, but was resolved'"
                                 }
                               ],
                               "optional": false

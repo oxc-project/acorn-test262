@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 343,
                   "end": 387,
-                  "value": "'use strict'; function _10_4_2_1_4_fun(){}"
+                  "value": "'use strict'; function _10_4_2_1_4_fun(){}",
+                  "raw": "\"'use strict'; function _10_4_2_1_4_fun(){}\""
                 }
               ],
               "optional": false
@@ -92,7 +93,8 @@
                   "type": "Literal",
                   "start": 439,
                   "end": 450,
-                  "value": "undefined"
+                  "value": "undefined",
+                  "raw": "\"undefined\""
                 }
               ],
               "optional": false

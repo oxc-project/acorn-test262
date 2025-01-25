@@ -38,14 +38,16 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 363,
-                    "value": "//CHECK#27\n"
+                    "value": "//CHECK#27\n",
+                    "raw": "'//CHECK#27\\n'"
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 365,
                     "end": 391,
-                    "value": "if ( Math === null ) {\n"
+                    "value": "if ( Math === null ) {\n",
+                    "raw": "'if ( Math === null ) {\\n'"
                   }
                 },
                 "operator": "+",
@@ -53,7 +55,8 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 444,
-                  "value": "  throw new Test262Error(\"#27: Math === null\");\n"
+                  "value": "  throw new Test262Error(\"#27: Math === null\");\n",
+                  "raw": "'  throw new Test262Error(\"#27: Math === null\");\\n'"
                 }
               },
               "operator": "+",
@@ -61,7 +64,8 @@
                 "type": "Literal",
                 "start": 446,
                 "end": 451,
-                "value": "}\n"
+                "value": "}\n",
+                "raw": "'}\\n'"
               }
             },
             "operator": "+",
@@ -69,7 +73,8 @@
               "type": "Literal",
               "start": 453,
               "end": 458,
-              "value": ";\n"
+              "value": ";\n",
+              "raw": "';\\n'"
             }
           }
         }

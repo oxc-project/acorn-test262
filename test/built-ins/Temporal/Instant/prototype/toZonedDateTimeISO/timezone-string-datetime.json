@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 324,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 343,
             "end": 361,
-            "value": "2021-08-19T17:30"
+            "value": "2021-08-19T17:30",
+            "raw": "\"2021-08-19T17:30\""
           }
         }
       ],
@@ -160,7 +162,8 @@
             "type": "Literal",
             "start": 434,
             "end": 476,
-            "value": "bare date-time string is not a time zone"
+            "value": "bare date-time string is not a time zone",
+            "raw": "\"bare date-time string is not a time zone\""
           }
         ],
         "optional": false
@@ -187,121 +190,141 @@
                 "type": "Literal",
                 "start": 484,
                 "end": 511,
-                "value": "2021-08-19T17:30-07:00:01"
+                "value": "2021-08-19T17:30-07:00:01",
+                "raw": "\"2021-08-19T17:30-07:00:01\""
               },
               {
                 "type": "Literal",
                 "start": 515,
                 "end": 542,
-                "value": "2021-08-19T17:30-07:00:00"
+                "value": "2021-08-19T17:30-07:00:00",
+                "raw": "\"2021-08-19T17:30-07:00:00\""
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 575,
-                "value": "2021-08-19T17:30-07:00:00.1"
+                "value": "2021-08-19T17:30-07:00:00.1",
+                "raw": "\"2021-08-19T17:30-07:00:00.1\""
               },
               {
                 "type": "Literal",
                 "start": 579,
                 "end": 608,
-                "value": "2021-08-19T17:30-07:00:00.0"
+                "value": "2021-08-19T17:30-07:00:00.0",
+                "raw": "\"2021-08-19T17:30-07:00:00.0\""
               },
               {
                 "type": "Literal",
                 "start": 612,
                 "end": 642,
-                "value": "2021-08-19T17:30-07:00:00.01"
+                "value": "2021-08-19T17:30-07:00:00.01",
+                "raw": "\"2021-08-19T17:30-07:00:00.01\""
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 676,
-                "value": "2021-08-19T17:30-07:00:00.00"
+                "value": "2021-08-19T17:30-07:00:00.00",
+                "raw": "\"2021-08-19T17:30-07:00:00.00\""
               },
               {
                 "type": "Literal",
                 "start": 680,
                 "end": 711,
-                "value": "2021-08-19T17:30-07:00:00.001"
+                "value": "2021-08-19T17:30-07:00:00.001",
+                "raw": "\"2021-08-19T17:30-07:00:00.001\""
               },
               {
                 "type": "Literal",
                 "start": 715,
                 "end": 746,
-                "value": "2021-08-19T17:30-07:00:00.000"
+                "value": "2021-08-19T17:30-07:00:00.000",
+                "raw": "\"2021-08-19T17:30-07:00:00.000\""
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 782,
-                "value": "2021-08-19T17:30-07:00:00.0001"
+                "value": "2021-08-19T17:30-07:00:00.0001",
+                "raw": "\"2021-08-19T17:30-07:00:00.0001\""
               },
               {
                 "type": "Literal",
                 "start": 786,
                 "end": 818,
-                "value": "2021-08-19T17:30-07:00:00.0000"
+                "value": "2021-08-19T17:30-07:00:00.0000",
+                "raw": "\"2021-08-19T17:30-07:00:00.0000\""
               },
               {
                 "type": "Literal",
                 "start": 822,
                 "end": 855,
-                "value": "2021-08-19T17:30-07:00:00.00001"
+                "value": "2021-08-19T17:30-07:00:00.00001",
+                "raw": "\"2021-08-19T17:30-07:00:00.00001\""
               },
               {
                 "type": "Literal",
                 "start": 859,
                 "end": 892,
-                "value": "2021-08-19T17:30-07:00:00.00000"
+                "value": "2021-08-19T17:30-07:00:00.00000",
+                "raw": "\"2021-08-19T17:30-07:00:00.00000\""
               },
               {
                 "type": "Literal",
                 "start": 896,
                 "end": 930,
-                "value": "2021-08-19T17:30-07:00:00.000001"
+                "value": "2021-08-19T17:30-07:00:00.000001",
+                "raw": "\"2021-08-19T17:30-07:00:00.000001\""
               },
               {
                 "type": "Literal",
                 "start": 934,
                 "end": 968,
-                "value": "2021-08-19T17:30-07:00:00.000000"
+                "value": "2021-08-19T17:30-07:00:00.000000",
+                "raw": "\"2021-08-19T17:30-07:00:00.000000\""
               },
               {
                 "type": "Literal",
                 "start": 972,
                 "end": 1007,
-                "value": "2021-08-19T17:30-07:00:00.0000001"
+                "value": "2021-08-19T17:30-07:00:00.0000001",
+                "raw": "\"2021-08-19T17:30-07:00:00.0000001\""
               },
               {
                 "type": "Literal",
                 "start": 1011,
                 "end": 1046,
-                "value": "2021-08-19T17:30-07:00:00.0000000"
+                "value": "2021-08-19T17:30-07:00:00.0000000",
+                "raw": "\"2021-08-19T17:30-07:00:00.0000000\""
               },
               {
                 "type": "Literal",
                 "start": 1050,
                 "end": 1086,
-                "value": "2021-08-19T17:30-07:00:00.00000001"
+                "value": "2021-08-19T17:30-07:00:00.00000001",
+                "raw": "\"2021-08-19T17:30-07:00:00.00000001\""
               },
               {
                 "type": "Literal",
                 "start": 1090,
                 "end": 1126,
-                "value": "2021-08-19T17:30-07:00:00.00000000"
+                "value": "2021-08-19T17:30-07:00:00.00000000",
+                "raw": "\"2021-08-19T17:30-07:00:00.00000000\""
               },
               {
                 "type": "Literal",
                 "start": 1130,
                 "end": 1167,
-                "value": "2021-08-19T17:30-07:00:00.000000001"
+                "value": "2021-08-19T17:30-07:00:00.000000001",
+                "raw": "\"2021-08-19T17:30-07:00:00.000000001\""
               },
               {
                 "type": "Literal",
                 "start": 1171,
                 "end": 1208,
-                "value": "2021-08-19T17:30-07:00:00.000000000"
+                "value": "2021-08-19T17:30-07:00:00.000000000",
+                "raw": "\"2021-08-19T17:30-07:00:00.000000000\""
               }
             ]
           },
@@ -478,7 +501,8 @@
           "type": "Literal",
           "start": 1418,
           "end": 1437,
-          "value": "2021-08-19T17:30Z"
+          "value": "2021-08-19T17:30Z",
+          "raw": "\"2021-08-19T17:30Z\""
         }
       }
     },
@@ -585,13 +609,15 @@
             "type": "Literal",
             "start": 1531,
             "end": 1536,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 1538,
             "end": 1570,
-            "value": "date-time + Z is UTC time zone"
+            "value": "date-time + Z is UTC time zone",
+            "raw": "\"date-time + Z is UTC time zone\""
           }
         ],
         "optional": false
@@ -616,7 +642,8 @@
           "type": "Literal",
           "start": 1585,
           "end": 1609,
-          "value": "2021-08-19T17:30-07:00"
+          "value": "2021-08-19T17:30-07:00",
+          "raw": "\"2021-08-19T17:30-07:00\""
         }
       }
     },
@@ -723,13 +750,15 @@
             "type": "Literal",
             "start": 1703,
             "end": 1711,
-            "value": "-07:00"
+            "value": "-07:00",
+            "raw": "\"-07:00\""
           },
           {
             "type": "Literal",
             "start": 1713,
             "end": 1757,
-            "value": "date-time + offset is the offset time zone"
+            "value": "date-time + offset is the offset time zone",
+            "raw": "\"date-time + offset is the offset time zone\""
           }
         ],
         "optional": false
@@ -754,7 +783,8 @@
           "type": "Literal",
           "start": 1772,
           "end": 1795,
-          "value": "2021-08-19T17:30[UTC]"
+          "value": "2021-08-19T17:30[UTC]",
+          "raw": "\"2021-08-19T17:30[UTC]\""
         }
       }
     },
@@ -861,13 +891,15 @@
             "type": "Literal",
             "start": 1889,
             "end": 1894,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 1896,
             "end": 1947,
-            "value": "date-time + IANA annotation is the IANA time zone"
+            "value": "date-time + IANA annotation is the IANA time zone",
+            "raw": "\"date-time + IANA annotation is the IANA time zone\""
           }
         ],
         "optional": false
@@ -892,7 +924,8 @@
           "type": "Literal",
           "start": 1962,
           "end": 1986,
-          "value": "2021-08-19T17:30Z[UTC]"
+          "value": "2021-08-19T17:30Z[UTC]",
+          "raw": "\"2021-08-19T17:30Z[UTC]\""
         }
       }
     },
@@ -999,13 +1032,15 @@
             "type": "Literal",
             "start": 2080,
             "end": 2085,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 2087,
             "end": 2142,
-            "value": "date-time + Z + IANA annotation is the IANA time zone"
+            "value": "date-time + Z + IANA annotation is the IANA time zone",
+            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
           }
         ],
         "optional": false
@@ -1030,7 +1065,8 @@
           "type": "Literal",
           "start": 2157,
           "end": 2186,
-          "value": "2021-08-19T17:30-07:00[UTC]"
+          "value": "2021-08-19T17:30-07:00[UTC]",
+          "raw": "\"2021-08-19T17:30-07:00[UTC]\""
         }
       }
     },
@@ -1137,13 +1173,15 @@
             "type": "Literal",
             "start": 2280,
             "end": 2285,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 2287,
             "end": 2347,
-            "value": "date-time + offset + IANA annotation is the IANA time zone"
+            "value": "date-time + offset + IANA annotation is the IANA time zone",
+            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
           }
         ],
         "optional": false

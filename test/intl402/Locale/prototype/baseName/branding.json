@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 575,
-                "value": "baseName"
+                "value": "baseName",
+                "raw": "\"baseName\""
               }
             ],
             "optional": false
@@ -117,19 +118,22 @@
                 "type": "Literal",
                 "start": 617,
                 "end": 621,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 629,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 633,
                 "end": 635,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "CallExpression",
@@ -148,7 +152,8 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 652,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "ObjectExpression",

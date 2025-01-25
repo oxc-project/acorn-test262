@@ -28,7 +28,8 @@
               "type": "Literal",
               "start": 322,
               "end": 323,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -69,7 +70,8 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           }
@@ -102,7 +104,8 @@
             "type": "Literal",
             "start": 354,
             "end": 355,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -134,7 +137,8 @@
                     "type": "Literal",
                     "start": 384,
                     "end": 438,
-                    "value": "#1: var x = -1; var z = (x %= 2); z === -1. Actual: "
+                    "value": "#1: var x = -1; var z = (x %= 2); z === -1. Actual: ",
+                    "raw": "'#1: var x = -1; var z = (x %= 2); z === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -181,7 +185,8 @@
               "type": "Literal",
               "start": 469,
               "end": 470,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -207,7 +212,8 @@
             "type": "Literal",
             "start": 480,
             "end": 481,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -280,7 +286,8 @@
             "type": "Literal",
             "start": 512,
             "end": 513,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -312,7 +319,8 @@
                     "type": "Literal",
                     "start": 542,
                     "end": 607,
-                    "value": "#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: "
+                    "value": "#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: ",
+                    "raw": "'#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

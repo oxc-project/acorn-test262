@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -156,7 +157,8 @@
                                 "type": "Literal",
                                 "start": 733,
                                 "end": 734,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           },
@@ -173,7 +175,8 @@
                                   "type": "Literal",
                                   "start": 748,
                                   "end": 757,
-                                  "value": "missing"
+                                  "value": "missing",
+                                  "raw": "'missing'"
                                 }
                               ]
                             }
@@ -285,13 +288,15 @@
             "type": "Literal",
             "start": 838,
             "end": 839,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 878,
-            "value": "Proxy trap was invoked exactly once"
+            "value": "Proxy trap was invoked exactly once",
+            "raw": "'Proxy trap was invoked exactly once'"
           }
         ],
         "optional": false
@@ -378,7 +383,8 @@
                   "type": "Literal",
                   "start": 937,
                   "end": 946,
-                  "value": "missing"
+                  "value": "missing",
+                  "raw": "'missing'"
                 }
               ],
               "optional": false
@@ -388,7 +394,8 @@
             "type": "Literal",
             "start": 951,
             "end": 1029,
-            "value": "An own property was not created for a property without a property descriptor"
+            "value": "An own property was not created for a property without a property descriptor",
+            "raw": "'An own property was not created for a property without a property descriptor'"
           }
         ],
         "optional": false

@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 895,
             "end": 896,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -170,7 +171,8 @@
                                       "type": "Literal",
                                       "start": 995,
                                       "end": 1000,
-                                      "value": false
+                                      "value": false,
+                                      "raw": "false"
                                     },
                                     "kind": "init"
                                   },
@@ -191,7 +193,8 @@
                                       "type": "Literal",
                                       "start": 1009,
                                       "end": 1013,
-                                      "value": null
+                                      "value": null,
+                                      "raw": "null"
                                     },
                                     "kind": "init"
                                   }
@@ -220,7 +223,8 @@
                         "type": "Literal",
                         "start": 1036,
                         "end": 1041,
-                        "value": "str"
+                        "value": "str",
+                        "raw": "'str'"
                       },
                       "kind": "init"
                     }
@@ -335,7 +339,8 @@
                             "type": "Literal",
                             "start": 1143,
                             "end": 1144,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -358,7 +363,8 @@
                               "type": "Literal",
                               "start": 1173,
                               "end": 1198,
-                              "value": "should not be overriden"
+                              "value": "should not be overriden",
+                              "raw": "'should not be overriden'"
                             }
                           ]
                         }
@@ -411,13 +417,15 @@
             "type": "Literal",
             "start": 1243,
             "end": 1244,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1246,
             "end": 1274,
-            "value": "The loop body is evaluated"
+            "value": "The loop body is evaluated",
+            "raw": "'The loop body is evaluated'"
           }
         ],
         "optional": false

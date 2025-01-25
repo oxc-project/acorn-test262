@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 468,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 478,
             "end": 496,
-            "value": "<blink>_</blink>"
+            "value": "<blink>_</blink>",
+            "raw": "'<blink>_</blink>'"
           }
         ],
         "optional": false
@@ -107,7 +109,8 @@
                 "type": "Literal",
                 "start": 516,
                 "end": 519,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               },
               "property": {
                 "type": "Identifier",
@@ -125,7 +128,8 @@
             "type": "Literal",
             "start": 529,
             "end": 547,
-            "value": "<blink><</blink>"
+            "value": "<blink><</blink>",
+            "raw": "'<blink><</blink>'"
           }
         ],
         "optional": false
@@ -213,7 +217,8 @@
                 "type": "Literal",
                 "start": 595,
                 "end": 599,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -222,7 +227,8 @@
             "type": "Literal",
             "start": 602,
             "end": 621,
-            "value": "<blink>42</blink>"
+            "value": "<blink>42</blink>",
+            "raw": "'<blink>42</blink>'"
           }
         ],
         "optional": false
@@ -453,7 +459,8 @@
                         "type": "Literal",
                         "start": 776,
                         "end": 780,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

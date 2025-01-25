@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 343,
-                "value": "toPrecision"
+                "value": "toPrecision",
+                "raw": "\"toPrecision\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 348,
             "end": 352,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 356,
             "end": 421,
-            "value": "Number.prototype.hasOwnProperty(\"toPrecision\") must return true"
+            "value": "Number.prototype.hasOwnProperty(\"toPrecision\") must return true",
+            "raw": "'Number.prototype.hasOwnProperty(\"toPrecision\") must return true'"
           }
         ],
         "optional": false

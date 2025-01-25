@@ -73,7 +73,8 @@
             "type": "Literal",
             "start": 345,
             "end": 431,
-            "value": "The value of Promise.prototype.constructor is expected to equal the value of Promise"
+            "value": "The value of Promise.prototype.constructor is expected to equal the value of Promise",
+            "raw": "'The value of Promise.prototype.constructor is expected to equal the value of Promise'"
           }
         ],
         "optional": false

@@ -101,19 +101,22 @@
             "type": "Literal",
             "start": 719,
             "end": 731,
-            "value": "toReversed"
+            "value": "toReversed",
+            "raw": "\"toReversed\""
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 743,
-            "value": "toSorted"
+            "value": "toSorted",
+            "raw": "\"toSorted\""
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 756,
-            "value": "toSpliced"
+            "value": "toSpliced",
+            "raw": "\"toSpliced\""
           }
         ]
       },
@@ -171,7 +174,8 @@
                         "type": "Literal",
                         "start": 822,
                         "end": 826,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -192,7 +196,8 @@
                         "type": "Literal",
                         "start": 846,
                         "end": 850,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -213,7 +218,8 @@
                         "type": "Literal",
                         "start": 874,
                         "end": 878,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -312,7 +318,8 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 954,
-                  "value": "with"
+                  "value": "with",
+                  "raw": "\"with\""
                 }
               ],
               "optional": false
@@ -322,7 +329,8 @@
             "type": "Literal",
             "start": 957,
             "end": 979,
-            "value": "does not have `with`"
+            "value": "does not have `with`",
+            "raw": "\"does not have `with`\""
           }
         ],
         "optional": false

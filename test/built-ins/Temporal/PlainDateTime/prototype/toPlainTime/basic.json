@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 378,
-                "value": "2020-02-12T11:42:56.987654321+01:00[Europe/Amsterdam]"
+                "value": "2020-02-12T11:42:56.987654321+01:00[Europe/Amsterdam]",
+                "raw": "\"2020-02-12T11:42:56.987654321+01:00[Europe/Amsterdam]\""
               }
             ],
             "optional": false
@@ -126,37 +127,43 @@
             "type": "Literal",
             "start": 442,
             "end": 444,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 446,
             "end": 448,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 452,
-            "value": 56
+            "value": 56,
+            "raw": "56"
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 457,
-            "value": 987
+            "value": 987,
+            "raw": "987"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 462,
-            "value": 654
+            "value": 654,
+            "raw": "654"
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 467,
-            "value": 321
+            "value": 321,
+            "raw": "321"
           }
         ],
         "optional": false

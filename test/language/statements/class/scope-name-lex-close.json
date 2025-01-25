@@ -134,7 +134,8 @@
             "type": "Literal",
             "start": 449,
             "end": 459,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -159,7 +160,8 @@
           "type": "Literal",
           "start": 466,
           "end": 470,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -201,7 +203,8 @@
             "type": "Literal",
             "start": 492,
             "end": 496,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -284,7 +287,8 @@
             "type": "Literal",
             "start": 545,
             "end": 567,
-            "value": "from instance method"
+            "value": "from instance method",
+            "raw": "'from instance method'"
           }
         ],
         "optional": false

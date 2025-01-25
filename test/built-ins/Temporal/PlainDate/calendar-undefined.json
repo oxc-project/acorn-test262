@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 279,
                 "end": 283,
-                "value": 2020
+                "value": 2020,
+                "raw": "2020"
               },
               {
                 "type": "Literal",
                 "start": 285,
                 "end": 287,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 289,
                 "end": 291,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -160,13 +163,15 @@
             "type": "Literal",
             "start": 402,
             "end": 411,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 441,
-            "value": "calendar string is iso8601"
+            "value": "calendar string is iso8601",
+            "raw": "\"calendar string is iso8601\""
           }
         ],
         "optional": false
@@ -279,13 +284,15 @@
             "type": "Literal",
             "start": 541,
             "end": 550,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 580,
-            "value": "calendar string is iso8601"
+            "value": "calendar string is iso8601",
+            "raw": "\"calendar string is iso8601\""
           }
         ],
         "optional": false

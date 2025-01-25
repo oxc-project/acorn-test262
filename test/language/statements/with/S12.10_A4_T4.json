@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 306,
           "end": 309,
-          "value": "a"
+          "value": "a",
+          "raw": "'a'"
         }
       }
     },
@@ -93,7 +94,8 @@
                         "type": "Literal",
                         "start": 334,
                         "end": 341,
-                        "value": "hello"
+                        "value": "hello",
+                        "raw": "\"hello\""
                       },
                       "kind": "init"
                     }
@@ -126,7 +128,8 @@
             "type": "Literal",
             "start": 352,
             "end": 378,
-            "value": "with(myObj){p1={b:'hi'}}"
+            "value": "with(myObj){p1={b:'hi'}}",
+            "raw": "\"with(myObj){p1={b:'hi'}}\""
           }
         ],
         "optional": false
@@ -177,7 +180,8 @@
           "type": "Literal",
           "start": 489,
           "end": 496,
-          "value": "hello"
+          "value": "hello",
+          "raw": "\"hello\""
         }
       },
       "consequent": {
@@ -204,7 +208,8 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 552,
-                  "value": "#1: myObj.p1.a !== \"hello\""
+                  "value": "#1: myObj.p1.a !== \"hello\"",
+                  "raw": "'#1: myObj.p1.a !== \"hello\"'"
                 }
               ]
             }
@@ -258,7 +263,8 @@
           "type": "Literal",
           "start": 747,
           "end": 751,
-          "value": "hi"
+          "value": "hi",
+          "raw": "\"hi\""
         }
       },
       "consequent": {
@@ -289,7 +295,8 @@
                     "type": "Literal",
                     "start": 779,
                     "end": 829,
-                    "value": "#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ==="
+                    "value": "#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ===",
+                    "raw": "'#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -364,7 +371,8 @@
           "type": "Literal",
           "start": 1037,
           "end": 1040,
-          "value": "a"
+          "value": "a",
+          "raw": "'a'"
         }
       },
       "consequent": {
@@ -391,7 +399,8 @@
                   "type": "Literal",
                   "start": 1068,
                   "end": 1092,
-                  "value": "#3: myObj.p1 !== 'a'"
+                  "value": "#3: myObj.p1 !== 'a'",
+                  "raw": "'#3: myObj.p1 !== \\'a\\''"
                 }
               ]
             }

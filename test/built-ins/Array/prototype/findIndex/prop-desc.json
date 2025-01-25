@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 366,
             "end": 376,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 430,
-            "value": "`typeof Array.prototype.findIndex` is `function`"
+            "value": "`typeof Array.prototype.findIndex` is `function`",
+            "raw": "'`typeof Array.prototype.findIndex` is `function`'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 467,
             "end": 478,
-            "value": "findIndex"
+            "value": "findIndex",
+            "raw": "\"findIndex\""
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 498,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 519,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 537,
                   "end": 541,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

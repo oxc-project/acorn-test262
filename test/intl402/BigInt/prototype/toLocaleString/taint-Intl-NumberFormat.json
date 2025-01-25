@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 429,
             "end": 443,
-            "value": "NumberFormat"
+            "value": "NumberFormat",
+            "raw": "\"NumberFormat\""
           }
         ],
         "optional": false
@@ -50,7 +51,8 @@
             "type": "Literal",
             "start": 446,
             "end": 448,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           "property": {
             "type": "Identifier",

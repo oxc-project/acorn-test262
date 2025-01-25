@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 516,
                         "end": 517,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     },
                     "kind": "init"
@@ -229,7 +230,8 @@
                       "type": "Literal",
                       "start": 589,
                       "end": 594,
-                      "value": "dog"
+                      "value": "dog",
+                      "raw": "\"dog\""
                     },
                     "kind": "init"
                   }

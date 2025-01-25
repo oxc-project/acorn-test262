@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2888,
             "end": 2889,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -109,13 +110,15 @@
                               "type": "Literal",
                               "start": 2940,
                               "end": 2941,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 2943,
                               "end": 2944,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             }
                           ]
                         }
@@ -229,7 +232,8 @@
                                 "type": "Literal",
                                 "start": 3010,
                                 "end": 3011,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             ],
                             "optional": false
@@ -265,7 +269,8 @@
                                 "type": "Literal",
                                 "start": 3042,
                                 "end": 3043,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -424,13 +429,15 @@
             "type": "Literal",
             "start": 3154,
             "end": 3155,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 3157,
             "end": 3186,
-            "value": "method invoked exactly once"
+            "value": "method invoked exactly once",
+            "raw": "'method invoked exactly once'"
           }
         ],
         "optional": false

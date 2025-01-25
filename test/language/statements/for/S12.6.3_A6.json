@@ -48,7 +48,8 @@
                           "type": "Literal",
                           "start": 494,
                           "end": 512,
-                          "value": "SecondExpression"
+                          "value": "SecondExpression",
+                          "raw": "\"SecondExpression\""
                         }
                       }
                     ]
@@ -82,7 +83,8 @@
                         "type": "Literal",
                         "start": 544,
                         "end": 553,
-                        "value": "reached"
+                        "value": "reached",
+                        "raw": "\"reached\""
                       }
                     }
                   ],
@@ -110,7 +112,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 660,
-                  "value": "#1: (function(){throw \"SecondExpression\"}() lead to throwing exception"
+                  "value": "#1: (function(){throw \"SecondExpression\"}() lead to throwing exception",
+                  "raw": "'#1: (function(){throw \"SecondExpression\"}() lead to throwing exception'"
                 }
               ]
             }
@@ -151,7 +154,8 @@
                   "type": "Literal",
                   "start": 688,
                   "end": 706,
-                  "value": "SecondExpression"
+                  "value": "SecondExpression",
+                  "raw": "\"SecondExpression\""
                 }
               },
               "consequent": {
@@ -178,7 +182,8 @@
                           "type": "Literal",
                           "start": 735,
                           "end": 843,
-                          "value": "#1: When for ( ;  ; Expression) Statement is evaluated Statement evaluates first then Expression evaluates"
+                          "value": "#1: When for ( ;  ; Expression) Statement is evaluated Statement evaluates first then Expression evaluates",
+                          "raw": "'#1: When for ( ;  ; Expression) Statement is evaluated Statement evaluates first then Expression evaluates'"
                         }
                       ]
                     }
@@ -211,7 +216,8 @@
           "type": "Literal",
           "start": 1041,
           "end": 1050,
-          "value": "reached"
+          "value": "reached",
+          "raw": "\"reached\""
         }
       },
       "consequent": {
@@ -242,7 +248,8 @@
                     "type": "Literal",
                     "start": 1078,
                     "end": 1131,
-                    "value": "#2: __in__for === \"reached\". Actual:  __in__for ==="
+                    "value": "#2: __in__for === \"reached\". Actual:  __in__for ===",
+                    "raw": "'#2: __in__for === \"reached\". Actual:  __in__for ==='"
                   },
                   "operator": "+",
                   "right": {

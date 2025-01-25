@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 773,
             "end": 778,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 848,
-            "value": "isConstructor(Object.getOwnPropertyDescriptor) must return false"
+            "value": "isConstructor(Object.getOwnPropertyDescriptor) must return false",
+            "raw": "'isConstructor(Object.getOwnPropertyDescriptor) must return false'"
           }
         ],
         "optional": false
@@ -166,7 +168,8 @@
                         "type": "Literal",
                         "start": 928,
                         "end": 930,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ]
                   }

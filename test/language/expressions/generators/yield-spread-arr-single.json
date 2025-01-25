@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 612,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 617,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 622,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }
@@ -66,7 +69,8 @@
             "type": "Literal",
             "start": 642,
             "end": 643,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -120,7 +124,8 @@
                       "type": "Literal",
                       "start": 686,
                       "end": 687,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -225,7 +230,8 @@
             "type": "Literal",
             "start": 742,
             "end": 747,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -365,7 +371,8 @@
             "type": "Literal",
             "start": 834,
             "end": 856,
-            "value": "value is a new array"
+            "value": "value is a new array",
+            "raw": "'value is a new array'"
           }
         ],
         "optional": false
@@ -423,7 +430,8 @@
             "type": "Literal",
             "start": 888,
             "end": 921,
-            "value": "value is an Array exotic object"
+            "value": "value is an Array exotic object",
+            "raw": "'value is an Array exotic object'"
           }
         ],
         "optional": false
@@ -480,7 +488,8 @@
             "type": "Literal",
             "start": 955,
             "end": 956,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -528,7 +537,8 @@
               "type": "Literal",
               "start": 981,
               "end": 982,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -537,7 +547,8 @@
             "type": "Literal",
             "start": 985,
             "end": 988,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           }
         ],
         "optional": false
@@ -585,7 +596,8 @@
               "type": "Literal",
               "start": 1014,
               "end": 1015,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -594,7 +606,8 @@
             "type": "Literal",
             "start": 1018,
             "end": 1021,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           }
         ],
         "optional": false
@@ -642,7 +655,8 @@
               "type": "Literal",
               "start": 1047,
               "end": 1048,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -651,7 +665,8 @@
             "type": "Literal",
             "start": 1051,
             "end": 1054,
-            "value": "c"
+            "value": "c",
+            "raw": "'c'"
           }
         ],
         "optional": false
@@ -708,7 +723,8 @@
             "type": "Literal",
             "start": 1085,
             "end": 1090,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -752,7 +768,8 @@
             "type": "Literal",
             "start": 1122,
             "end": 1123,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 362,
-                "value": "globglob"
+                "value": "globglob",
+                "raw": "\"globglob\""
               }
             ]
           }
@@ -83,7 +84,8 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 500,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -118,7 +120,8 @@
                     "type": "Literal",
                     "start": 531,
                     "end": 645,
-                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: "
+                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
+                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -149,7 +152,8 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 687,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       }
                     ],
                     "optional": false
@@ -187,7 +191,8 @@
             "type": "Literal",
             "start": 815,
             "end": 823,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           }
         ],
         "optional": false
@@ -241,7 +246,8 @@
                 "type": "Literal",
                 "start": 962,
                 "end": 966,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             },
             "consequent": {
@@ -268,7 +274,8 @@
                         "type": "Literal",
                         "start": 997,
                         "end": 1087,
-                        "value": "#2: var __str__instance = new String(\"globglob\"); delete __str__instance.length !== true"
+                        "value": "#2: var __str__instance = new String(\"globglob\"); delete __str__instance.length !== true",
+                        "raw": "'#2: var __str__instance = new String(\"globglob\"); delete __str__instance.length !== true'"
                       }
                     ]
                   }
@@ -413,7 +420,8 @@
                 "type": "Literal",
                 "start": 1395,
                 "end": 1403,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -448,7 +456,8 @@
                     "type": "Literal",
                     "start": 1434,
                     "end": 1579,
-                    "value": "#3: var __str__instance = new String(\"globglob\"); delete __str__instance.length; __str__instance.hasOwnProperty(\"length\") return true. Actual: "
+                    "value": "#3: var __str__instance = new String(\"globglob\"); delete __str__instance.length; __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
+                    "raw": "'#3: var __str__instance = new String(\"globglob\"); delete __str__instance.length; __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -479,7 +488,8 @@
                         "type": "Literal",
                         "start": 1613,
                         "end": 1621,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       }
                     ],
                     "optional": false

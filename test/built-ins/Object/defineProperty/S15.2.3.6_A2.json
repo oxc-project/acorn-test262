@@ -107,7 +107,8 @@
               "type": "Literal",
               "start": 332,
               "end": 340,
-              "value": "gotten"
+              "value": "gotten",
+              "raw": "'gotten'"
             }
           }
         ]
@@ -151,7 +152,8 @@
             "type": "Literal",
             "start": 372,
             "end": 377,
-            "value": "foo"
+            "value": "foo",
+            "raw": "'foo'"
           },
           {
             "type": "ObjectExpression",
@@ -234,7 +236,8 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 439,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "'foo'"
                 }
               ],
               "optional": false
@@ -244,7 +247,8 @@
             "type": "Literal",
             "start": 444,
             "end": 512,
-            "value": "The value of !derived.hasOwnProperty(\"foo\") is expected to be true"
+            "value": "The value of !derived.hasOwnProperty(\"foo\") is expected to be true",
+            "raw": "'The value of !derived.hasOwnProperty(\"foo\") is expected to be true'"
           }
         ],
         "optional": false

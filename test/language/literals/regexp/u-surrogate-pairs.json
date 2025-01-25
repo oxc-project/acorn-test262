@@ -31,6 +31,7 @@
                 "start": 641,
                 "end": 660,
                 "value": {},
+                "raw": "/^[\\ud834\\udf06]$/u",
                 "regex": {
                   "pattern": "^[\\ud834\\udf06]$",
                   "flags": "u"
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 666,
                 "end": 680,
-                "value": "𝌆"
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
               }
             ],
             "optional": false

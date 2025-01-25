@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 407,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "CallExpression",
@@ -76,7 +77,8 @@
                     "type": "Literal",
                     "start": 416,
                     "end": 418,
-                    "value": "0n"
+                    "value": "0n",
+                    "raw": "0n"
                   }
                 ],
                 "optional": false
@@ -88,13 +90,15 @@
             "type": "Literal",
             "start": 422,
             "end": 424,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 472,
-            "value": "ToPrimitive: unbox object with internal slot"
+            "value": "ToPrimitive: unbox object with internal slot",
+            "raw": "\"ToPrimitive: unbox object with internal slot\""
           }
         ],
         "optional": false
@@ -156,7 +160,8 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 507,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -211,7 +216,8 @@
                               "type": "Literal",
                               "start": 559,
                               "end": 561,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -228,13 +234,15 @@
             "type": "Literal",
             "start": 571,
             "end": 573,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 603,
-            "value": "ToPrimitive: @@toPrimitive"
+            "value": "ToPrimitive: @@toPrimitive",
+            "raw": "\"ToPrimitive: @@toPrimitive\""
           }
         ],
         "optional": false
@@ -296,7 +304,8 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 638,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -338,7 +347,8 @@
                               "type": "Literal",
                               "start": 677,
                               "end": 679,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -355,13 +365,15 @@
             "type": "Literal",
             "start": 689,
             "end": 691,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 693,
             "end": 715,
-            "value": "ToPrimitive: valueOf"
+            "value": "ToPrimitive: valueOf",
+            "raw": "\"ToPrimitive: valueOf\""
           }
         ],
         "optional": false
@@ -423,7 +435,8 @@
                 "type": "Literal",
                 "start": 749,
                 "end": 750,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -465,7 +478,8 @@
                               "type": "Literal",
                               "start": 790,
                               "end": 792,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -482,13 +496,15 @@
             "type": "Literal",
             "start": 802,
             "end": 804,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 829,
-            "value": "ToPrimitive: toString"
+            "value": "ToPrimitive: toString",
+            "raw": "\"ToPrimitive: toString\""
           }
         ],
         "optional": false
@@ -550,7 +566,8 @@
                 "type": "Literal",
                 "start": 863,
                 "end": 864,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "CallExpression",
@@ -567,7 +584,8 @@
                     "type": "Literal",
                     "start": 873,
                     "end": 877,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ],
                 "optional": false
@@ -579,13 +597,15 @@
             "type": "Literal",
             "start": 881,
             "end": 883,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 887,
             "end": 944,
-            "value": "ToBigInt: unbox object with internal slot => true => 1n"
+            "value": "ToBigInt: unbox object with internal slot => true => 1n",
+            "raw": "\"ToBigInt: unbox object with internal slot => true => 1n\""
           }
         ],
         "optional": false
@@ -647,7 +667,8 @@
                 "type": "Literal",
                 "start": 978,
                 "end": 979,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -702,7 +723,8 @@
                               "type": "Literal",
                               "start": 1031,
                               "end": 1035,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -719,13 +741,15 @@
             "type": "Literal",
             "start": 1045,
             "end": 1047,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1049,
             "end": 1088,
-            "value": "ToBigInt: @@toPrimitive => true => 1n"
+            "value": "ToBigInt: @@toPrimitive => true => 1n",
+            "raw": "\"ToBigInt: @@toPrimitive => true => 1n\""
           }
         ],
         "optional": false
@@ -787,7 +811,8 @@
                 "type": "Literal",
                 "start": 1122,
                 "end": 1123,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -829,7 +854,8 @@
                               "type": "Literal",
                               "start": 1162,
                               "end": 1166,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -846,13 +872,15 @@
             "type": "Literal",
             "start": 1176,
             "end": 1178,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1180,
             "end": 1213,
-            "value": "ToBigInt: valueOf => true => 1n"
+            "value": "ToBigInt: valueOf => true => 1n",
+            "raw": "\"ToBigInt: valueOf => true => 1n\""
           }
         ],
         "optional": false
@@ -914,7 +942,8 @@
                 "type": "Literal",
                 "start": 1247,
                 "end": 1248,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -956,7 +985,8 @@
                               "type": "Literal",
                               "start": 1288,
                               "end": 1292,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -973,13 +1003,15 @@
             "type": "Literal",
             "start": 1302,
             "end": 1304,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1306,
             "end": 1340,
-            "value": "ToBigInt: toString => true => 1n"
+            "value": "ToBigInt: toString => true => 1n",
+            "raw": "\"ToBigInt: toString => true => 1n\""
           }
         ],
         "optional": false
@@ -1041,7 +1073,8 @@
                 "type": "Literal",
                 "start": 1374,
                 "end": 1375,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "CallExpression",
@@ -1058,7 +1091,8 @@
                     "type": "Literal",
                     "start": 1384,
                     "end": 1387,
-                    "value": "1"
+                    "value": "1",
+                    "raw": "\"1\""
                   }
                 ],
                 "optional": false
@@ -1070,13 +1104,15 @@
             "type": "Literal",
             "start": 1391,
             "end": 1393,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1456,
-            "value": "ToBigInt: unbox object with internal slot => parse BigInt"
+            "value": "ToBigInt: unbox object with internal slot => parse BigInt",
+            "raw": "\"ToBigInt: unbox object with internal slot => parse BigInt\""
           }
         ],
         "optional": false
@@ -1138,7 +1174,8 @@
                 "type": "Literal",
                 "start": 1490,
                 "end": 1491,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1193,7 +1230,8 @@
                               "type": "Literal",
                               "start": 1543,
                               "end": 1546,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1210,13 +1248,15 @@
             "type": "Literal",
             "start": 1556,
             "end": 1558,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1560,
             "end": 1601,
-            "value": "ToBigInt: @@toPrimitive => parse BigInt"
+            "value": "ToBigInt: @@toPrimitive => parse BigInt",
+            "raw": "\"ToBigInt: @@toPrimitive => parse BigInt\""
           }
         ],
         "optional": false
@@ -1278,7 +1318,8 @@
                 "type": "Literal",
                 "start": 1635,
                 "end": 1636,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1320,7 +1361,8 @@
                               "type": "Literal",
                               "start": 1675,
                               "end": 1678,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1337,13 +1379,15 @@
             "type": "Literal",
             "start": 1688,
             "end": 1690,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1692,
             "end": 1727,
-            "value": "ToBigInt: valueOf => parse BigInt"
+            "value": "ToBigInt: valueOf => parse BigInt",
+            "raw": "\"ToBigInt: valueOf => parse BigInt\""
           }
         ],
         "optional": false
@@ -1405,7 +1449,8 @@
                 "type": "Literal",
                 "start": 1761,
                 "end": 1762,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -1447,7 +1492,8 @@
                               "type": "Literal",
                               "start": 1802,
                               "end": 1805,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             }
                           }
                         ]
@@ -1464,13 +1510,15 @@
             "type": "Literal",
             "start": 1815,
             "end": 1817,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1819,
             "end": 1855,
-            "value": "ToBigInt: toString => parse BigInt"
+            "value": "ToBigInt: toString => parse BigInt",
+            "raw": "\"ToBigInt: toString => parse BigInt\""
           }
         ],
         "optional": false

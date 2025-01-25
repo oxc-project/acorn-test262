@@ -45,13 +45,15 @@
                       "type": "Literal",
                       "start": 1037,
                       "end": 1038,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "value": {
                       "type": "Literal",
                       "start": 1040,
                       "end": 1044,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -199,7 +201,8 @@
                         "type": "Literal",
                         "start": 1174,
                         "end": 1191,
-                        "value": "[\"first\", null]"
+                        "value": "[\"first\", null]",
+                        "raw": "'[\"first\", null]'"
                       },
                       {
                         "type": "FunctionExpression",
@@ -247,7 +250,8 @@
                                   "type": "Literal",
                                   "start": 1232,
                                   "end": 1239,
-                                  "value": "first"
+                                  "value": "first",
+                                  "raw": "'first'"
                                 }
                               },
                               "consequent": {
@@ -277,7 +281,8 @@
                                           "type": "Literal",
                                           "start": 1254,
                                           "end": 1255,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         },
                                         "computed": true,
                                         "optional": false

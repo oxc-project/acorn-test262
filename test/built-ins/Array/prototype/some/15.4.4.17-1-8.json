@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 350,
-                "value": "hello\nw_orld\\!"
+                "value": "hello\nw_orld\\!",
+                "raw": "\"hello\\nw_orld\\\\!\""
               }
             ]
           }
@@ -189,7 +190,8 @@
             "type": "Literal",
             "start": 405,
             "end": 458,
-            "value": "Array.prototype.some.call(obj, callbackfn) !== true"
+            "value": "Array.prototype.some.call(obj, callbackfn) !== true",
+            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'"
           }
         ],
         "optional": false

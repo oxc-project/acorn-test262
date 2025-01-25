@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 545,
-                    "value": "/a\\ /"
+                    "value": "/a\\ /",
+                    "raw": "\"/a\\\\\\u2029/\""
                   }
                 ],
                 "optional": false
@@ -73,7 +74,8 @@
                     "type": "Literal",
                     "start": 581,
                     "end": 679,
-                    "value": "#1.1: RegularExpressionChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: "
+                    "value": "#1.1: RegularExpressionChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
+                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -99,7 +101,8 @@
                             "type": "Literal",
                             "start": 688,
                             "end": 701,
-                            "value": "/a\\ /"
+                            "value": "/a\\ /",
+                            "raw": "\"/a\\\\\\u2029/\""
                           }
                         ],
                         "optional": false
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 764,
                   "end": 768,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +206,8 @@
                             "type": "Literal",
                             "start": 800,
                             "end": 898,
-                            "value": "#1.2: RegularExpressionChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: "
+                            "value": "#1.2: RegularExpressionChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
+                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
                           },
                           "operator": "+",
                           "right": {

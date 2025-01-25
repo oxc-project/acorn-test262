@@ -41,7 +41,8 @@
           "type": "Literal",
           "start": 356,
           "end": 360,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -68,7 +69,8 @@
                   "type": "Literal",
                   "start": 389,
                   "end": 417,
-                  "value": "#1: delete this.x === true"
+                  "value": "#1: delete this.x === true",
+                  "raw": "'#1: delete this.x === true'"
                 }
               ]
             }

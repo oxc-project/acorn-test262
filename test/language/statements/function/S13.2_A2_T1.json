@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 244,
             "end": 250,
-            "value": "jedi"
+            "value": "jedi",
+            "raw": "\"jedi\""
           }
         }
       ],
@@ -84,7 +85,8 @@
                       "type": "Literal",
                       "start": 320,
                       "end": 321,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "computed": true,
                     "optional": false
@@ -188,7 +190,8 @@
                     "type": "Literal",
                     "start": 507,
                     "end": 570,
-                    "value": "#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==="
+                    "value": "#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ===",
+                    "raw": "'#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==='"
                   },
                   "operator": "+",
                   "right": {

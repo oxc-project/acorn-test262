@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 381,
             "end": 385,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 399,
             "end": 422,
-            "value": "propNameViaIdentifier"
+            "value": "propNameViaIdentifier",
+            "raw": "'propNameViaIdentifier'"
           }
         }
       ],
@@ -226,7 +228,8 @@
             "type": "Literal",
             "start": 526,
             "end": 530,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -264,7 +267,8 @@
             "type": "Literal",
             "start": 544,
             "end": 567,
-            "value": "propNameViaExpression"
+            "value": "propNameViaExpression",
+            "raw": "'propNameViaExpression'"
           }
         ],
         "optional": false
@@ -351,7 +355,8 @@
                   "type": "Literal",
                   "start": 624,
                   "end": 647,
-                  "value": "propNameViaIdentifier"
+                  "value": "propNameViaIdentifier",
+                  "raw": "'propNameViaIdentifier'"
                 }
               ],
               "optional": false
@@ -361,7 +366,8 @@
             "type": "Literal",
             "start": 652,
             "end": 710,
-            "value": "The property name is not taken from the 'yield' variable"
+            "value": "The property name is not taken from the 'yield' variable",
+            "raw": "\"The property name is not taken from the 'yield' variable\""
           }
         ],
         "optional": false
@@ -442,7 +448,8 @@
                 "type": "Literal",
                 "start": 766,
                 "end": 789,
-                "value": "propNameViaExpression"
+                "value": "propNameViaExpression",
+                "raw": "'propNameViaExpression'"
               }
             ],
             "optional": false
@@ -451,7 +458,8 @@
             "type": "Literal",
             "start": 794,
             "end": 848,
-            "value": "The property name is taken from the yield expression"
+            "value": "The property name is taken from the yield expression",
+            "raw": "\"The property name is taken from the yield expression\""
           }
         ],
         "optional": false

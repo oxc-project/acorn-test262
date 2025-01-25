@@ -166,7 +166,8 @@
                       "type": "Literal",
                       "start": 438,
                       "end": 439,
-                      "value": 7
+                      "value": 7,
+                      "raw": "7"
                     }
                   }
                 }

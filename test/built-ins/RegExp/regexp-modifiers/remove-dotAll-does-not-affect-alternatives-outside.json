@@ -23,6 +23,7 @@
             "start": 1778,
             "end": 1806,
             "value": null,
+            "raw": "/a.a|b.b|(?-s:c.c)|d.d|e.e/s",
             "regex": {
               "pattern": "a.a|b.b|(?-s:c.c)|d.d|e.e",
               "flags": "s"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 1824,
                 "end": 1830,
-                "value": "a\na"
+                "value": "a\na",
+                "raw": "\"a\\na\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 1833,
             "end": 1873,
-            "value": "Alternative `a.a` should match newline"
+            "value": "Alternative `a.a` should match newline",
+            "raw": "\"Alternative `a.a` should match newline\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 1892,
                 "end": 1898,
-                "value": "b\nb"
+                "value": "b\nb",
+                "raw": "\"b\\nb\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 1901,
             "end": 1941,
-            "value": "Alternative `b.b` should match newline"
+            "value": "Alternative `b.b` should match newline",
+            "raw": "\"Alternative `b.b` should match newline\""
           }
         ],
         "optional": false
@@ -197,7 +202,8 @@
                   "type": "Literal",
                   "start": 1961,
                   "end": 1967,
-                  "value": "c\nc"
+                  "value": "c\nc",
+                  "raw": "\"c\\nc\""
                 }
               ],
               "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 1970,
             "end": 2038,
-            "value": "Alternative `(?-s:c.c)` should not match newline in modified group"
+            "value": "Alternative `(?-s:c.c)` should not match newline in modified group",
+            "raw": "\"Alternative `(?-s:c.c)` should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -256,7 +263,8 @@
                 "type": "Literal",
                 "start": 2057,
                 "end": 2063,
-                "value": "d\nd"
+                "value": "d\nd",
+                "raw": "\"d\\nd\""
               }
             ],
             "optional": false
@@ -265,7 +273,8 @@
             "type": "Literal",
             "start": 2066,
             "end": 2106,
-            "value": "Alternative `d.d` should match newline"
+            "value": "Alternative `d.d` should match newline",
+            "raw": "\"Alternative `d.d` should match newline\""
           }
         ],
         "optional": false
@@ -314,7 +323,8 @@
                 "type": "Literal",
                 "start": 2125,
                 "end": 2131,
-                "value": "e\ne"
+                "value": "e\ne",
+                "raw": "\"e\\ne\""
               }
             ],
             "optional": false
@@ -323,7 +333,8 @@
             "type": "Literal",
             "start": 2134,
             "end": 2174,
-            "value": "Alternative `e.e` should match newline"
+            "value": "Alternative `e.e` should match newline",
+            "raw": "\"Alternative `e.e` should match newline\""
           }
         ],
         "optional": false
@@ -349,6 +360,7 @@
             "start": 2188,
             "end": 2228,
             "value": null,
+            "raw": "/(a.a)|(?:b.b)|(?-s:c.c)|(?:d.d)|(e.e)/s",
             "regex": {
               "pattern": "(a.a)|(?:b.b)|(?-s:c.c)|(?:d.d)|(e.e)",
               "flags": "s"
@@ -401,7 +413,8 @@
                 "type": "Literal",
                 "start": 2246,
                 "end": 2252,
-                "value": "a\na"
+                "value": "a\na",
+                "raw": "\"a\\na\""
               }
             ],
             "optional": false
@@ -410,7 +423,8 @@
             "type": "Literal",
             "start": 2255,
             "end": 2297,
-            "value": "Alternative `(a.a)` should match newline"
+            "value": "Alternative `(a.a)` should match newline",
+            "raw": "\"Alternative `(a.a)` should match newline\""
           }
         ],
         "optional": false
@@ -459,7 +473,8 @@
                 "type": "Literal",
                 "start": 2316,
                 "end": 2322,
-                "value": "b\nb"
+                "value": "b\nb",
+                "raw": "\"b\\nb\""
               }
             ],
             "optional": false
@@ -468,7 +483,8 @@
             "type": "Literal",
             "start": 2325,
             "end": 2369,
-            "value": "Alternative `(?:b.b)` should match newline"
+            "value": "Alternative `(?:b.b)` should match newline",
+            "raw": "\"Alternative `(?:b.b)` should match newline\""
           }
         ],
         "optional": false
@@ -523,7 +539,8 @@
                   "type": "Literal",
                   "start": 2389,
                   "end": 2395,
-                  "value": "c\nc"
+                  "value": "c\nc",
+                  "raw": "\"c\\nc\""
                 }
               ],
               "optional": false
@@ -533,7 +550,8 @@
             "type": "Literal",
             "start": 2398,
             "end": 2466,
-            "value": "Alternative `(?-s:c.c)` should not match newline in modified group"
+            "value": "Alternative `(?-s:c.c)` should not match newline in modified group",
+            "raw": "\"Alternative `(?-s:c.c)` should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -582,7 +600,8 @@
                 "type": "Literal",
                 "start": 2485,
                 "end": 2491,
-                "value": "d\nd"
+                "value": "d\nd",
+                "raw": "\"d\\nd\""
               }
             ],
             "optional": false
@@ -591,7 +610,8 @@
             "type": "Literal",
             "start": 2494,
             "end": 2538,
-            "value": "Alternative `(?:d.d)` should match newline"
+            "value": "Alternative `(?:d.d)` should match newline",
+            "raw": "\"Alternative `(?:d.d)` should match newline\""
           }
         ],
         "optional": false
@@ -640,7 +660,8 @@
                 "type": "Literal",
                 "start": 2557,
                 "end": 2563,
-                "value": "e\ne"
+                "value": "e\ne",
+                "raw": "\"e\\ne\""
               }
             ],
             "optional": false
@@ -649,7 +670,8 @@
             "type": "Literal",
             "start": 2566,
             "end": 2608,
-            "value": "Alternative `(e.e)` should match newline"
+            "value": "Alternative `(e.e)` should match newline",
+            "raw": "\"Alternative `(e.e)` should match newline\""
           }
         ],
         "optional": false

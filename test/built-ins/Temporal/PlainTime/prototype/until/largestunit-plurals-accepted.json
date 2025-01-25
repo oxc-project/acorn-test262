@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 351,
                 "end": 353,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 357,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 361,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 366,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 371,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 376,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -127,37 +133,43 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 418,
-                "value": 13
+                "value": 13,
+                "raw": "13"
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 422,
-                "value": 35
+                "value": 35,
+                "raw": "35"
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 426,
-                "value": 57
+                "value": 57,
+                "raw": "57"
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 431,
-                "value": 988
+                "value": 988,
+                "raw": "988"
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 436,
-                "value": 655
+                "value": 655,
+                "raw": "655"
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 441,
-                "value": 322
+                "value": 322,
+                "raw": "322"
               }
             ]
           }
@@ -189,37 +201,43 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 473,
-                "value": "hour"
+                "value": "hour",
+                "raw": "\"hour\""
               },
               {
                 "type": "Literal",
                 "start": 477,
                 "end": 485,
-                "value": "minute"
+                "value": "minute",
+                "raw": "\"minute\""
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 497,
-                "value": "second"
+                "value": "second",
+                "raw": "\"second\""
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 514,
-                "value": "millisecond"
+                "value": "millisecond",
+                "raw": "\"millisecond\""
               },
               {
                 "type": "Literal",
                 "start": 518,
                 "end": 531,
-                "value": "microsecond"
+                "value": "microsecond",
+                "raw": "\"microsecond\""
               },
               {
                 "type": "Literal",
                 "start": 535,
                 "end": 547,
-                "value": "nanosecond"
+                "value": "nanosecond",
+                "raw": "\"nanosecond\""
               }
             ]
           }

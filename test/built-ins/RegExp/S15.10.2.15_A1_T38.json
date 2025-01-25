@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 689,
                     "end": 749,
-                    "value": "#1.1: /[d-G\\c0001]/.exec(\"1\") throw SyntaxError. Actual: "
+                    "value": "#1.1: /[d-G\\c0001]/.exec(\"1\") throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: /[d-G\\\\c0001]/.exec(\"1\") throw SyntaxError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -65,7 +66,8 @@
                               "type": "Literal",
                               "start": 764,
                               "end": 778,
-                              "value": "[d-G\\c0001]"
+                              "value": "[d-G\\c0001]",
+                              "raw": "\"[d-G\\\\c0001]\""
                             }
                           ]
                         },
@@ -83,7 +85,8 @@
                           "type": "Literal",
                           "start": 785,
                           "end": 788,
-                          "value": "1"
+                          "value": "1",
+                          "raw": "\"1\""
                         }
                       ],
                       "optional": false
@@ -160,13 +163,15 @@
                     "type": "Literal",
                     "start": 861,
                     "end": 865,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 871,
                     "end": 947,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
                   }
                 ],
                 "optional": false

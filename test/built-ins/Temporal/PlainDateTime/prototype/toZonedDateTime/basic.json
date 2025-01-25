@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 310,
-                "value": 2020
+                "value": 2020,
+                "raw": "2020"
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 313,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 316,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 319,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -121,7 +126,8 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 361,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ],
             "optional": false
@@ -181,13 +187,15 @@
             "type": "Literal",
             "start": 404,
             "end": 424,
-            "value": "1577836800000000000n"
+            "value": "1577836800000000000n",
+            "raw": "1577836800000000000n"
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 439,
-            "value": "nanoseconds"
+            "value": "nanoseconds",
+            "raw": "\"nanoseconds\""
           }
         ],
         "optional": false
@@ -244,13 +252,15 @@
             "type": "Literal",
             "start": 475,
             "end": 484,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 496,
-            "value": "calendar"
+            "value": "calendar",
+            "raw": "\"calendar\""
           }
         ],
         "optional": false
@@ -307,13 +317,15 @@
             "type": "Literal",
             "start": 532,
             "end": 537,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 549,
-            "value": "timezone"
+            "value": "timezone",
+            "raw": "\"timezone\""
           }
         ],
         "optional": false

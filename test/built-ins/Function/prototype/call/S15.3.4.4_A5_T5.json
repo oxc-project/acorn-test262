@@ -63,7 +63,8 @@
                       "type": "Literal",
                       "start": 362,
                       "end": 366,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -175,7 +176,8 @@
             "type": "Literal",
             "start": 421,
             "end": 470,
-            "value": "The value of obj.touched is expected to be true"
+            "value": "The value of obj.touched is expected to be true",
+            "raw": "'The value of obj.touched is expected to be true'"
           }
         ],
         "optional": false

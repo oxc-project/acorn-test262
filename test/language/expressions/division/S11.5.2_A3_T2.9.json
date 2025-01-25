@@ -19,14 +19,16 @@
             "type": "Literal",
             "start": 361,
             "end": 365,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           "operator": "/",
           "right": {
             "type": "Literal",
             "start": 368,
             "end": 372,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         },
         "operator": "!==",
@@ -78,7 +80,8 @@
                     "type": "Literal",
                     "start": 430,
                     "end": 471,
-                    "value": "#1: true / null === +Infinity. Actual: "
+                    "value": "#1: true / null === +Infinity. Actual: ",
+                    "raw": "'#1: true / null === +Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -93,14 +96,16 @@
                         "type": "Literal",
                         "start": 475,
                         "end": 479,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "operator": "/",
                       "right": {
                         "type": "Literal",
                         "start": 482,
                         "end": 486,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }
@@ -128,14 +133,16 @@
             "type": "Literal",
             "start": 507,
             "end": 511,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": "/",
           "right": {
             "type": "Literal",
             "start": 514,
             "end": 518,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         "operator": "!==",
@@ -143,7 +150,8 @@
           "type": "Literal",
           "start": 523,
           "end": 524,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -174,7 +182,8 @@
                     "type": "Literal",
                     "start": 553,
                     "end": 586,
-                    "value": "#2: null / true === 0. Actual: "
+                    "value": "#2: null / true === 0. Actual: ",
+                    "raw": "'#2: null / true === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -189,14 +198,16 @@
                         "type": "Literal",
                         "start": 590,
                         "end": 594,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "operator": "/",
                       "right": {
                         "type": "Literal",
                         "start": 597,
                         "end": 601,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   }
@@ -235,7 +246,8 @@
                 "type": "Literal",
                 "start": 634,
                 "end": 638,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           },
@@ -244,7 +256,8 @@
             "type": "Literal",
             "start": 642,
             "end": 646,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         },
         "operator": "!==",
@@ -296,7 +309,8 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 758,
-                    "value": "#3: new Boolean(true) / null === +Infinity. Actual: "
+                    "value": "#3: new Boolean(true) / null === +Infinity. Actual: ",
+                    "raw": "'#3: new Boolean(true) / null === +Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -322,7 +336,8 @@
                             "type": "Literal",
                             "start": 774,
                             "end": 778,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         ]
                       },
@@ -331,7 +346,8 @@
                         "type": "Literal",
                         "start": 782,
                         "end": 786,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }
@@ -359,7 +375,8 @@
             "type": "Literal",
             "start": 807,
             "end": 811,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": "/",
           "right": {
@@ -377,7 +394,8 @@
                 "type": "Literal",
                 "start": 826,
                 "end": 830,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -387,7 +405,8 @@
           "type": "Literal",
           "start": 836,
           "end": 837,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -418,7 +437,8 @@
                     "type": "Literal",
                     "start": 866,
                     "end": 912,
-                    "value": "#4: null / new Boolean(true) === 0. Actual: "
+                    "value": "#4: null / new Boolean(true) === 0. Actual: ",
+                    "raw": "'#4: null / new Boolean(true) === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -433,7 +453,8 @@
                         "type": "Literal",
                         "start": 916,
                         "end": 920,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "operator": "/",
                       "right": {
@@ -451,7 +472,8 @@
                             "type": "Literal",
                             "start": 935,
                             "end": 939,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         ]
                       }

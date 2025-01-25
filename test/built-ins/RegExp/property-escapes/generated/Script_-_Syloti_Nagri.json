@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 531,
                               "end": 539,
-                              "value": 43008
+                              "value": 43008,
+                              "raw": "0x00A800"
                             },
                             {
                               "type": "Literal",
                               "start": 541,
                               "end": 549,
-                              "value": 43052
+                              "value": 43052,
+                              "raw": "0x00A82C"
                             }
                           ]
                         }
@@ -125,6 +127,7 @@
             "start": 582,
             "end": 611,
             "value": {},
+            "raw": "/^\\p{Script=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Syloti_Nagri}+$",
               "flags": "u"
@@ -140,7 +143,8 @@
             "type": "Literal",
             "start": 631,
             "end": 657,
-            "value": "\\p{Script=Syloti_Nagri}"
+            "value": "\\p{Script=Syloti_Nagri}",
+            "raw": "\"\\\\p{Script=Syloti_Nagri}\""
           }
         ],
         "optional": false
@@ -166,6 +170,7 @@
             "start": 684,
             "end": 705,
             "value": {},
+            "raw": "/^\\p{Script=Sylo}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sylo}+$",
               "flags": "u"
@@ -181,7 +186,8 @@
             "type": "Literal",
             "start": 725,
             "end": 743,
-            "value": "\\p{Script=Sylo}"
+            "value": "\\p{Script=Sylo}",
+            "raw": "\"\\\\p{Script=Sylo}\""
           }
         ],
         "optional": false
@@ -207,6 +213,7 @@
             "start": 770,
             "end": 795,
             "value": {},
+            "raw": "/^\\p{sc=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Syloti_Nagri}+$",
               "flags": "u"
@@ -222,7 +229,8 @@
             "type": "Literal",
             "start": 815,
             "end": 837,
-            "value": "\\p{sc=Syloti_Nagri}"
+            "value": "\\p{sc=Syloti_Nagri}",
+            "raw": "\"\\\\p{sc=Syloti_Nagri}\""
           }
         ],
         "optional": false
@@ -248,6 +256,7 @@
             "start": 864,
             "end": 881,
             "value": {},
+            "raw": "/^\\p{sc=Sylo}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sylo}+$",
               "flags": "u"
@@ -263,7 +272,8 @@
             "type": "Literal",
             "start": 901,
             "end": 915,
-            "value": "\\p{sc=Sylo}"
+            "value": "\\p{sc=Sylo}",
+            "raw": "\"\\\\p{sc=Sylo}\""
           }
         ],
         "optional": false
@@ -348,13 +358,15 @@
                               "type": "Literal",
                               "start": 997,
                               "end": 1005,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1007,
                               "end": 1015,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1023,
                               "end": 1031,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1033,
                               "end": 1041,
-                              "value": 43007
+                              "value": 43007,
+                              "raw": "0x00A7FF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1049,
                               "end": 1057,
-                              "value": 43053
+                              "value": 43053,
+                              "raw": "0x00A82D"
                             },
                             {
                               "type": "Literal",
                               "start": 1059,
                               "end": 1067,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1075,
                               "end": 1083,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1085,
                               "end": 1093,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -448,6 +466,7 @@
             "start": 1126,
             "end": 1155,
             "value": {},
+            "raw": "/^\\P{Script=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Syloti_Nagri}+$",
               "flags": "u"
@@ -463,7 +482,8 @@
             "type": "Literal",
             "start": 1178,
             "end": 1204,
-            "value": "\\P{Script=Syloti_Nagri}"
+            "value": "\\P{Script=Syloti_Nagri}",
+            "raw": "\"\\\\P{Script=Syloti_Nagri}\""
           }
         ],
         "optional": false
@@ -489,6 +509,7 @@
             "start": 1231,
             "end": 1252,
             "value": {},
+            "raw": "/^\\P{Script=Sylo}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sylo}+$",
               "flags": "u"
@@ -504,7 +525,8 @@
             "type": "Literal",
             "start": 1275,
             "end": 1293,
-            "value": "\\P{Script=Sylo}"
+            "value": "\\P{Script=Sylo}",
+            "raw": "\"\\\\P{Script=Sylo}\""
           }
         ],
         "optional": false
@@ -530,6 +552,7 @@
             "start": 1320,
             "end": 1345,
             "value": {},
+            "raw": "/^\\P{sc=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Syloti_Nagri}+$",
               "flags": "u"
@@ -545,7 +568,8 @@
             "type": "Literal",
             "start": 1368,
             "end": 1390,
-            "value": "\\P{sc=Syloti_Nagri}"
+            "value": "\\P{sc=Syloti_Nagri}",
+            "raw": "\"\\\\P{sc=Syloti_Nagri}\""
           }
         ],
         "optional": false
@@ -571,6 +595,7 @@
             "start": 1417,
             "end": 1434,
             "value": {},
+            "raw": "/^\\P{sc=Sylo}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sylo}+$",
               "flags": "u"
@@ -586,7 +611,8 @@
             "type": "Literal",
             "start": 1457,
             "end": 1471,
-            "value": "\\P{sc=Sylo}"
+            "value": "\\P{sc=Sylo}",
+            "raw": "\"\\\\P{sc=Sylo}\""
           }
         ],
         "optional": false

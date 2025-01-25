@@ -48,13 +48,15 @@
             "type": "Literal",
             "start": 1814,
             "end": 1824,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1826,
             "end": 1870,
-            "value": "new binding on an extensible global object"
+            "value": "new binding on an extensible global object",
+            "raw": "'new binding on an extensible global object'"
           }
         ],
         "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 1895,
             "end": 1905,
-            "value": "brandNew"
+            "value": "brandNew",
+            "raw": "'brandNew'"
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +111,8 @@
                   "type": "Literal",
                   "start": 1921,
                   "end": 1925,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -129,7 +133,8 @@
                   "type": "Literal",
                   "start": 1941,
                   "end": 1945,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -150,7 +155,8 @@
                   "type": "Literal",
                   "start": 1963,
                   "end": 1968,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

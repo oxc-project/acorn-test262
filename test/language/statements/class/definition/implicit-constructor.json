@@ -136,7 +136,8 @@
             "type": "Literal",
             "start": 305,
             "end": 355,
-            "value": "`Object.getPrototypeOf(c)` returns `C.prototype`"
+            "value": "`Object.getPrototypeOf(c)` returns `C.prototype`",
+            "raw": "\"`Object.getPrototypeOf(c)` returns `C.prototype`\""
           }
         ],
         "optional": false

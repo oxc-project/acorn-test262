@@ -23,6 +23,7 @@
             "start": 454,
             "end": 460,
             "value": {},
+            "raw": "/\\d+/g",
             "regex": {
               "pattern": "\\d+",
               "flags": "g"
@@ -81,19 +82,22 @@
                 "type": "Literal",
                 "start": 502,
                 "end": 507,
-                "value": "123"
+                "value": "123",
+                "raw": "\"123\""
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 513,
-                "value": "456"
+                "value": "456",
+                "raw": "\"456\""
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 519,
-                "value": "789"
+                "value": "789",
+                "raw": "\"789\""
               }
             ]
           }
@@ -153,7 +157,8 @@
                       "type": "Literal",
                       "start": 558,
                       "end": 571,
-                      "value": "123 456 789"
+                      "value": "123 456 789",
+                      "raw": "\"123 456 789\""
                     }
                   ],
                   "optional": false
@@ -181,7 +186,8 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 601,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             },
             "consequent": {
@@ -231,7 +237,8 @@
                           "type": "Literal",
                           "start": 639,
                           "end": 640,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -262,7 +269,8 @@
         "type": "Literal",
         "start": 685,
         "end": 689,
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     },
     {
@@ -335,7 +343,8 @@
             "type": "Literal",
             "start": 754,
             "end": 837,
-            "value": "The value of __expected.length is expected to equal the value of __matched.length"
+            "value": "The value of __expected.length is expected to equal the value of __matched.length",
+            "raw": "'The value of __expected.length is expected to equal the value of __matched.length'"
           }
         ],
         "optional": false
@@ -364,7 +373,8 @@
               "type": "Literal",
               "start": 856,
               "end": 857,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -489,7 +499,8 @@
                   "type": "Literal",
                   "start": 964,
                   "end": 1047,
-                  "value": "The value of __expected[index] is expected to equal the value of __matched[index]"
+                  "value": "The value of __expected[index] is expected to equal the value of __matched[index]",
+                  "raw": "'The value of __expected[index] is expected to equal the value of __matched[index]'"
                 }
               ],
               "optional": false

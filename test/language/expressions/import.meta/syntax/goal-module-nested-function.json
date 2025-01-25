@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 471,
+  "end": 470,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 439,
-      "end": 470,
+      "start": 438,
+      "end": 469,
       "id": {
         "type": "Identifier",
-        "start": 448,
-        "end": 449,
+        "start": 447,
+        "end": 448,
         "name": "f"
       },
       "expression": false,
@@ -19,27 +19,27 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 452,
-        "end": 470,
+        "start": 451,
+        "end": 469,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 456,
-            "end": 468,
+            "start": 455,
+            "end": 467,
             "expression": {
               "type": "MetaProperty",
-              "start": 456,
-              "end": 467,
+              "start": 455,
+              "end": 466,
               "meta": {
                 "type": "Identifier",
-                "start": 456,
-                "end": 462,
+                "start": 455,
+                "end": 461,
                 "name": "import"
               },
               "property": {
                 "type": "Identifier",
-                "start": 463,
-                "end": 467,
+                "start": 462,
+                "end": 466,
                 "name": "meta"
               }
             }

@@ -64,7 +64,8 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 420,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -103,7 +104,8 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 455,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -142,7 +144,8 @@
                 "type": "Literal",
                 "start": 475,
                 "end": 496,
-                "value": "another description"
+                "value": "another description",
+                "raw": "'another description'"
               }
             ],
             "optional": false
@@ -189,7 +192,8 @@
             "type": "Literal",
             "start": 513,
             "end": 515,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -260,13 +264,15 @@
             "type": "Literal",
             "start": 553,
             "end": 558,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 592,
-            "value": "Regular symbol key not present"
+            "value": "Regular symbol key not present",
+            "raw": "'Regular symbol key not present'"
           }
         ],
         "optional": false
@@ -337,13 +343,15 @@
             "type": "Literal",
             "start": 628,
             "end": 633,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 696,
-            "value": "Symbols with the same description don't alias to each other"
+            "value": "Symbols with the same description don't alias to each other",
+            "raw": "\"Symbols with the same description don't alias to each other\""
           }
         ],
         "optional": false
@@ -427,13 +435,15 @@
             "type": "Literal",
             "start": 748,
             "end": 753,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 790,
-            "value": "Well-known symbol key not present"
+            "value": "Well-known symbol key not present",
+            "raw": "'Well-known symbol key not present'"
           }
         ],
         "optional": false

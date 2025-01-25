@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 763,
             "end": 768,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 833,
-            "value": "isConstructor(Object.getOwnPropertyNames) must return false"
+            "value": "isConstructor(Object.getOwnPropertyNames) must return false",
+            "raw": "'isConstructor(Object.getOwnPropertyNames) must return false'"
           }
         ],
         "optional": false

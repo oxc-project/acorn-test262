@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 429,
-                "value": "0b2"
+                "value": "0b2",
+                "raw": "'0b2'"
               }
             ],
             "optional": false
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 437,
             "end": 452,
-            "value": "invalid digit"
+            "value": "invalid digit",
+            "raw": "'invalid digit'"
           }
         ],
         "optional": false
@@ -110,7 +112,8 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 485,
-                "value": "00b0"
+                "value": "00b0",
+                "raw": "'00b0'"
               }
             ],
             "optional": false
@@ -125,7 +128,8 @@
             "type": "Literal",
             "start": 493,
             "end": 507,
-            "value": "leading zero"
+            "value": "leading zero",
+            "raw": "'leading zero'"
           }
         ],
         "optional": false
@@ -174,7 +178,8 @@
                 "type": "Literal",
                 "start": 534,
                 "end": 538,
-                "value": "0b"
+                "value": "0b",
+                "raw": "'0b'"
               }
             ],
             "optional": false
@@ -189,7 +194,8 @@
             "type": "Literal",
             "start": 546,
             "end": 562,
-            "value": "omitted digits"
+            "value": "omitted digits",
+            "raw": "'omitted digits'"
           }
         ],
         "optional": false
@@ -238,7 +244,8 @@
                 "type": "Literal",
                 "start": 589,
                 "end": 595,
-                "value": "+0b1"
+                "value": "+0b1",
+                "raw": "'+0b1'"
               }
             ],
             "optional": false
@@ -253,7 +260,8 @@
             "type": "Literal",
             "start": 603,
             "end": 614,
-            "value": "plus sign"
+            "value": "plus sign",
+            "raw": "'plus sign'"
           }
         ],
         "optional": false
@@ -302,7 +310,8 @@
                 "type": "Literal",
                 "start": 641,
                 "end": 647,
-                "value": "-0b1"
+                "value": "-0b1",
+                "raw": "'-0b1'"
               }
             ],
             "optional": false
@@ -317,7 +326,8 @@
             "type": "Literal",
             "start": 655,
             "end": 667,
-            "value": "minus sign"
+            "value": "minus sign",
+            "raw": "'minus sign'"
           }
         ],
         "optional": false
@@ -366,7 +376,8 @@
                 "type": "Literal",
                 "start": 694,
                 "end": 702,
-                "value": "0b1.01"
+                "value": "0b1.01",
+                "raw": "'0b1.01'"
               }
             ],
             "optional": false
@@ -381,7 +392,8 @@
             "type": "Literal",
             "start": 710,
             "end": 727,
-            "value": "fractional part"
+            "value": "fractional part",
+            "raw": "'fractional part'"
           }
         ],
         "optional": false
@@ -430,7 +442,8 @@
                 "type": "Literal",
                 "start": 754,
                 "end": 762,
-                "value": "0b1e10"
+                "value": "0b1e10",
+                "raw": "'0b1e10'"
               }
             ],
             "optional": false
@@ -445,7 +458,8 @@
             "type": "Literal",
             "start": 770,
             "end": 785,
-            "value": "exponent part"
+            "value": "exponent part",
+            "raw": "'exponent part'"
           }
         ],
         "optional": false
@@ -494,7 +508,8 @@
                 "type": "Literal",
                 "start": 812,
                 "end": 821,
-                "value": "0b1e-10"
+                "value": "0b1e-10",
+                "raw": "'0b1e-10'"
               }
             ],
             "optional": false
@@ -509,7 +524,8 @@
             "type": "Literal",
             "start": 829,
             "end": 862,
-            "value": "exponent part with a minus sign"
+            "value": "exponent part with a minus sign",
+            "raw": "'exponent part with a minus sign'"
           }
         ],
         "optional": false
@@ -558,7 +574,8 @@
                 "type": "Literal",
                 "start": 889,
                 "end": 898,
-                "value": "0b1e+10"
+                "value": "0b1e+10",
+                "raw": "'0b1e+10'"
               }
             ],
             "optional": false
@@ -573,7 +590,8 @@
             "type": "Literal",
             "start": 906,
             "end": 938,
-            "value": "exponent part with a plus sign"
+            "value": "exponent part with a plus sign",
+            "raw": "'exponent part with a plus sign'"
           }
         ],
         "optional": false

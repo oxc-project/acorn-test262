@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 402,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -76,7 +77,8 @@
           "type": "Literal",
           "start": 438,
           "end": 446,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -107,7 +109,8 @@
                     "type": "Literal",
                     "start": 475,
                     "end": 545,
-                    "value": "#1: var object = {prop : true}; typeof object === \"object\". Actual: "
+                    "value": "#1: var object = {prop : true}; typeof object === \"object\". Actual: ",
+                    "raw": "'#1: var object = {prop : true}; typeof object === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -167,7 +170,8 @@
           "type": "Literal",
           "start": 612,
           "end": 616,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -194,7 +198,8 @@
                   "type": "Literal",
                   "start": 645,
                   "end": 712,
-                  "value": "#2: var object = {prop : true}; object instanceof Object === true"
+                  "value": "#2: var object = {prop : true}; object instanceof Object === true",
+                  "raw": "'#2: var object = {prop : true}; object instanceof Object === true'"
                 }
               ]
             }
@@ -292,7 +297,8 @@
                     "type": "Literal",
                     "start": 806,
                     "end": 895,
-                    "value": "#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: "
+                    "value": "#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: ",
+                    "raw": "'#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -349,7 +355,8 @@
             "type": "Literal",
             "start": 942,
             "end": 948,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           "computed": true,
           "optional": false
@@ -359,7 +366,8 @@
           "type": "Literal",
           "start": 954,
           "end": 958,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -386,7 +394,8 @@
                   "type": "Literal",
                   "start": 987,
                   "end": 1044,
-                  "value": "#4: var object = {prop : true}; object[\"prop\"] === true"
+                  "value": "#4: var object = {prop : true}; object[\"prop\"] === true",
+                  "raw": "'#4: var object = {prop : true}; object[\"prop\"] === true'"
                 }
               ]
             }
@@ -427,7 +436,8 @@
           "type": "Literal",
           "start": 1080,
           "end": 1084,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -454,7 +464,8 @@
                   "type": "Literal",
                   "start": 1113,
                   "end": 1167,
-                  "value": "#5: var object = {prop : true}; object.prop === true"
+                  "value": "#5: var object = {prop : true}; object.prop === true",
+                  "raw": "'#5: var object = {prop : true}; object.prop === true'"
                 }
               ]
             }

@@ -1,39 +1,40 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 803,
+  "end": 801,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 605,
-      "end": 640,
+      "start": 603,
+      "end": 638,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 609,
-          "end": 639,
+          "start": 607,
+          "end": 637,
           "id": {
             "type": "Identifier",
-            "start": 609,
-            "end": 611,
+            "start": 607,
+            "end": 609,
             "name": "ab"
           },
           "init": {
             "type": "NewExpression",
-            "start": 614,
-            "end": 639,
+            "start": 612,
+            "end": 637,
             "callee": {
               "type": "Identifier",
-              "start": 618,
-              "end": 635,
+              "start": 616,
+              "end": 633,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 636,
-                "end": 638,
-                "value": 42
+                "start": 634,
+                "end": 636,
+                "value": 42,
+                "raw": "42"
               }
             ]
           }
@@ -43,26 +44,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 642,
-      "end": 714,
+      "start": 640,
+      "end": 712,
       "expression": {
         "type": "CallExpression",
-        "start": 642,
-        "end": 713,
+        "start": 640,
+        "end": 711,
         "callee": {
           "type": "MemberExpression",
-          "start": 642,
-          "end": 655,
+          "start": 640,
+          "end": 653,
           "object": {
             "type": "Identifier",
-            "start": 642,
-            "end": 648,
+            "start": 640,
+            "end": 646,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 649,
-            "end": 655,
+            "start": 647,
+            "end": 653,
             "name": "throws"
           },
           "computed": false,
@@ -71,14 +72,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 656,
-            "end": 666,
+            "start": 654,
+            "end": 664,
             "name": "RangeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 668,
-            "end": 706,
+            "start": 666,
+            "end": 704,
             "id": null,
             "expression": false,
             "generator": false,
@@ -86,41 +87,42 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 679,
-              "end": 706,
+              "start": 677,
+              "end": 704,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 683,
-                  "end": 704,
+                  "start": 681,
+                  "end": 702,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 683,
-                    "end": 703,
+                    "start": 681,
+                    "end": 701,
                     "callee": {
                       "type": "Identifier",
-                      "start": 687,
-                      "end": 695,
+                      "start": 685,
+                      "end": 693,
                       "name": "DataView"
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 696,
-                        "end": 698,
+                        "start": 694,
+                        "end": 696,
                         "name": "ab"
                       },
                       {
                         "type": "UnaryExpression",
-                        "start": 700,
-                        "end": 702,
+                        "start": 698,
+                        "end": 700,
                         "operator": "-",
                         "prefix": true,
                         "argument": {
                           "type": "Literal",
-                          "start": 701,
-                          "end": 702,
-                          "value": 1
+                          "start": 699,
+                          "end": 700,
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -131,9 +133,10 @@
           },
           {
             "type": "Literal",
-            "start": 708,
-            "end": 712,
-            "value": "-1"
+            "start": 706,
+            "end": 710,
+            "value": "-1",
+            "raw": "\"-1\""
           }
         ],
         "optional": false
@@ -141,26 +144,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 716,
-      "end": 802,
+      "start": 714,
+      "end": 800,
       "expression": {
         "type": "CallExpression",
-        "start": 716,
-        "end": 801,
+        "start": 714,
+        "end": 799,
         "callee": {
           "type": "MemberExpression",
-          "start": 716,
-          "end": 729,
+          "start": 714,
+          "end": 727,
           "object": {
             "type": "Identifier",
-            "start": 716,
-            "end": 722,
+            "start": 714,
+            "end": 720,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 723,
-            "end": 729,
+            "start": 721,
+            "end": 727,
             "name": "throws"
           },
           "computed": false,
@@ -169,14 +172,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 730,
-            "end": 740,
+            "start": 728,
+            "end": 738,
             "name": "RangeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 742,
-            "end": 787,
+            "start": 740,
+            "end": 785,
             "id": null,
             "expression": false,
             "generator": false,
@@ -184,40 +187,40 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 753,
-              "end": 787,
+              "start": 751,
+              "end": 785,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 757,
-                  "end": 785,
+                  "start": 755,
+                  "end": 783,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 757,
-                    "end": 784,
+                    "start": 755,
+                    "end": 782,
                     "callee": {
                       "type": "Identifier",
-                      "start": 761,
-                      "end": 769,
+                      "start": 759,
+                      "end": 767,
                       "name": "DataView"
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 770,
-                        "end": 772,
+                        "start": 768,
+                        "end": 770,
                         "name": "ab"
                       },
                       {
                         "type": "UnaryExpression",
-                        "start": 774,
-                        "end": 783,
+                        "start": 772,
+                        "end": 781,
                         "operator": "-",
                         "prefix": true,
                         "argument": {
                           "type": "Identifier",
-                          "start": 775,
-                          "end": 783,
+                          "start": 773,
+                          "end": 781,
                           "name": "Infinity"
                         }
                       }
@@ -229,9 +232,10 @@
           },
           {
             "type": "Literal",
-            "start": 789,
-            "end": 800,
-            "value": "-Infinity"
+            "start": 787,
+            "end": 798,
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
           }
         ],
         "optional": false

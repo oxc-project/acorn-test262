@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 428,
             "end": 466,
-            "value": "She sells seashells by the seashore."
+            "value": "She sells seashells by the seashore.",
+            "raw": "'She sells seashells by the seashore.'"
           }
         }
       ],
@@ -48,6 +49,7 @@
             "start": 479,
             "end": 483,
             "value": {},
+            "raw": "/sh/",
             "regex": {
               "pattern": "sh",
               "flags": ""
@@ -99,7 +101,8 @@
               "type": "Literal",
               "start": 599,
               "end": 604,
-              "value": "sch"
+              "value": "sch",
+              "raw": "'sch'"
             }
           ],
           "optional": false
@@ -109,7 +112,8 @@
           "type": "Literal",
           "start": 610,
           "end": 649,
-          "value": "She sells seaschells by the seashore."
+          "value": "She sells seaschells by the seashore.",
+          "raw": "'She sells seaschells by the seashore.'"
         }
       },
       "consequent": {
@@ -140,7 +144,8 @@
                     "type": "Literal",
                     "start": 678,
                     "end": 837,
-                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, 'sch')==='She sells seaschells by the seashore.'. Actual: "
+                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, 'sch')==='She sells seaschells by the seashore.'. Actual: ",
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \\'sch\\')===\\'She sells seaschells by the seashore.\\'. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -177,7 +182,8 @@
                         "type": "Literal",
                         "start": 860,
                         "end": 865,
-                        "value": "sch"
+                        "value": "sch",
+                        "raw": "'sch'"
                       }
                     ],
                     "optional": false

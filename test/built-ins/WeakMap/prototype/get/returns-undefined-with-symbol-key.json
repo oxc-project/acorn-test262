@@ -64,7 +64,8 @@
                 "type": "Literal",
                 "start": 711,
                 "end": 726,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 772,
             "end": 833,
-            "value": "returns undefined for regular symbol on initially empty map"
+            "value": "returns undefined for regular symbol on initially empty map",
+            "raw": "'returns undefined for regular symbol on initially empty map'"
           }
         ],
         "optional": false
@@ -234,7 +236,8 @@
             "type": "Literal",
             "start": 900,
             "end": 964,
-            "value": "returns undefined for well-known symbol on initially empty map"
+            "value": "returns undefined for well-known symbol on initially empty map",
+            "raw": "'returns undefined for well-known symbol on initially empty map'"
           }
         ],
         "optional": false
@@ -278,7 +281,8 @@
             "type": "Literal",
             "start": 982,
             "end": 983,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -335,7 +339,8 @@
             "type": "Literal",
             "start": 1014,
             "end": 1015,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -501,7 +506,8 @@
             "type": "Literal",
             "start": 1110,
             "end": 1156,
-            "value": "returns undefined for deleted regular symbol"
+            "value": "returns undefined for deleted regular symbol",
+            "raw": "'returns undefined for deleted regular symbol'"
           }
         ],
         "optional": false
@@ -591,7 +597,8 @@
             "type": "Literal",
             "start": 1216,
             "end": 1265,
-            "value": "returns undefined for deleted well-known symbol"
+            "value": "returns undefined for deleted well-known symbol",
+            "raw": "'returns undefined for deleted well-known symbol'"
           }
         ],
         "optional": false

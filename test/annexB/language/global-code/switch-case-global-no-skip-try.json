@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 1155,
             "end": 1204,
-            "value": "Initialized binding created prior to evaluation"
+            "value": "Initialized binding created prior to evaluation",
+            "raw": "'Initialized binding created prior to evaluation'"
           }
         ],
         "optional": false
@@ -70,7 +71,8 @@
               "type": "Literal",
               "start": 1223,
               "end": 1227,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ]
@@ -98,7 +100,8 @@
                 "type": "Literal",
                 "start": 1252,
                 "end": 1253,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "cases": [
                 {
@@ -133,7 +136,8 @@
                               "type": "Literal",
                               "start": 1293,
                               "end": 1296,
-                              "value": 123
+                              "value": 123,
+                              "raw": "123"
                             }
                           }
                         ]
@@ -144,7 +148,8 @@
                     "type": "Literal",
                     "start": 1264,
                     "end": 1265,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               ]
@@ -199,13 +204,15 @@
             "type": "Literal",
             "start": 1338,
             "end": 1348,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1352,
             "end": 1399,
-            "value": "binding value is updated following evaluation"
+            "value": "binding value is updated following evaluation",
+            "raw": "'binding value is updated following evaluation'"
           }
         ],
         "optional": false
@@ -256,7 +263,8 @@
             "type": "Literal",
             "start": 1425,
             "end": 1428,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         ],
         "optional": false

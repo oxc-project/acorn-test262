@@ -131,7 +131,8 @@
                             "type": "Literal",
                             "start": 1941,
                             "end": 1945,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 493,
             "end": 496,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 519,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -138,7 +140,8 @@
             "type": "Literal",
             "start": 555,
             "end": 558,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -162,7 +165,8 @@
                   "type": "Literal",
                   "start": 576,
                   "end": 581,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -197,7 +201,8 @@
             "type": "Literal",
             "start": 610,
             "end": 613,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -242,7 +247,8 @@
                   "type": "Literal",
                   "start": 649,
                   "end": 654,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -263,7 +269,8 @@
                   "type": "Literal",
                   "start": 670,
                   "end": 675,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -284,7 +291,8 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 698,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

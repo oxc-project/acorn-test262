@@ -1,49 +1,50 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 564,
+  "end": 561,
   "body": [
     {
       "type": "IfStatement",
-      "start": 517,
-      "end": 563,
+      "start": 514,
+      "end": 560,
       "test": {
         "type": "Literal",
-        "start": 521,
-        "end": 526,
-        "value": false
+        "start": 518,
+        "end": 523,
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 528,
-        "end": 563,
+        "start": 525,
+        "end": 560,
         "body": [
           {
             "type": "WithStatement",
-            "start": 534,
-            "end": 547,
+            "start": 531,
+            "end": 544,
             "object": {
               "type": "ObjectExpression",
-              "start": 540,
-              "end": 542,
+              "start": 537,
+              "end": 539,
               "properties": []
             },
             "body": {
               "type": "ExpressionStatement",
-              "start": 544,
-              "end": 547,
+              "start": 541,
+              "end": 544,
               "expression": {
                 "type": "Identifier",
-                "start": 544,
-                "end": 547,
+                "start": 541,
+                "end": 544,
                 "name": "let"
               }
             }
           },
           {
             "type": "BlockStatement",
-            "start": 559,
-            "end": 561,
+            "start": 556,
+            "end": 558,
             "body": []
           }
         ]

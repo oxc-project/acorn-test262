@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 224,
             "end": 225,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -115,7 +116,8 @@
             "type": "Literal",
             "start": 290,
             "end": 291,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -166,7 +168,8 @@
               "type": "Literal",
               "start": 326,
               "end": 327,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           }
         ]
@@ -239,7 +242,8 @@
                         "type": "Literal",
                         "start": 398,
                         "end": 399,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -298,13 +302,15 @@
                           "type": "Literal",
                           "start": 447,
                           "end": 448,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 450,
                           "end": 484,
-                          "value": "The value of `baseCalled` is `1`"
+                          "value": "The value of `baseCalled` is `1`",
+                          "raw": "\"The value of `baseCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -353,7 +359,8 @@
                           "type": "Literal",
                           "start": 522,
                           "end": 526,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       }
                     ],
@@ -378,7 +385,8 @@
                         "type": "Literal",
                         "start": 545,
                         "end": 546,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -401,7 +409,8 @@
                         "type": "Literal",
                         "start": 562,
                         "end": 563,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -540,13 +549,15 @@
                           "type": "Literal",
                           "start": 687,
                           "end": 691,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         {
                           "type": "Literal",
                           "start": 699,
                           "end": 756,
-                          "value": "The result of `exn instanceof ReferenceError` is `true`"
+                          "value": "The result of `exn instanceof ReferenceError` is `true`",
+                          "raw": "\"The result of `exn instanceof ReferenceError` is `true`\""
                         }
                       ],
                       "optional": false
@@ -590,13 +601,15 @@
                           "type": "Literal",
                           "start": 794,
                           "end": 795,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 797,
                           "end": 828,
-                          "value": "The value of `fCalled` is `1`"
+                          "value": "The value of `fCalled` is `1`",
+                          "raw": "\"The value of `fCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -640,13 +653,15 @@
                           "type": "Literal",
                           "start": 864,
                           "end": 865,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 867,
                           "end": 901,
-                          "value": "The value of `baseCalled` is `1`"
+                          "value": "The value of `baseCalled` is `1`",
+                          "raw": "\"The value of `baseCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -695,7 +710,8 @@
                           "type": "Literal",
                           "start": 936,
                           "end": 953,
-                          "value": "`this` is `obj`"
+                          "value": "`this` is `obj`",
+                          "raw": "\"`this` is `obj`\""
                         }
                       ],
                       "optional": false
@@ -720,7 +736,8 @@
                         "type": "Literal",
                         "start": 967,
                         "end": 971,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   },
@@ -743,7 +760,8 @@
                         "type": "Literal",
                         "start": 990,
                         "end": 991,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -766,7 +784,8 @@
                         "type": "Literal",
                         "start": 1007,
                         "end": 1008,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -917,13 +936,15 @@
                           "type": "Literal",
                           "start": 1141,
                           "end": 1145,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         {
                           "type": "Literal",
                           "start": 1153,
                           "end": 1210,
-                          "value": "The result of `exn instanceof ReferenceError` is `true`"
+                          "value": "The result of `exn instanceof ReferenceError` is `true`",
+                          "raw": "\"The result of `exn instanceof ReferenceError` is `true`\""
                         }
                       ],
                       "optional": false
@@ -967,13 +988,15 @@
                           "type": "Literal",
                           "start": 1248,
                           "end": 1249,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "Literal",
                           "start": 1251,
                           "end": 1282,
-                          "value": "The value of `fCalled` is `0`"
+                          "value": "The value of `fCalled` is `0`",
+                          "raw": "\"The value of `fCalled` is `0`\""
                         }
                       ],
                       "optional": false
@@ -1017,13 +1040,15 @@
                           "type": "Literal",
                           "start": 1318,
                           "end": 1319,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 1321,
                           "end": 1355,
-                          "value": "The value of `baseCalled` is `1`"
+                          "value": "The value of `baseCalled` is `1`",
+                          "raw": "\"The value of `baseCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -1072,7 +1097,8 @@
                           "type": "Literal",
                           "start": 1390,
                           "end": 1407,
-                          "value": "`this` is `obj`"
+                          "value": "`this` is `obj`",
+                          "raw": "\"`this` is `obj`\""
                         }
                       ],
                       "optional": false
@@ -1097,7 +1123,8 @@
                         "type": "Literal",
                         "start": 1421,
                         "end": 1425,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   },
@@ -1120,7 +1147,8 @@
                         "type": "Literal",
                         "start": 1444,
                         "end": 1445,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -1143,7 +1171,8 @@
                         "type": "Literal",
                         "start": 1461,
                         "end": 1462,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   },
@@ -1294,13 +1323,15 @@
                           "type": "Literal",
                           "start": 1595,
                           "end": 1599,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         {
                           "type": "Literal",
                           "start": 1607,
                           "end": 1664,
-                          "value": "The result of `exn instanceof ReferenceError` is `true`"
+                          "value": "The result of `exn instanceof ReferenceError` is `true`",
+                          "raw": "\"The result of `exn instanceof ReferenceError` is `true`\""
                         }
                       ],
                       "optional": false
@@ -1344,13 +1375,15 @@
                           "type": "Literal",
                           "start": 1702,
                           "end": 1703,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 1705,
                           "end": 1736,
-                          "value": "The value of `fCalled` is `1`"
+                          "value": "The value of `fCalled` is `1`",
+                          "raw": "\"The value of `fCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -1394,13 +1427,15 @@
                           "type": "Literal",
                           "start": 1772,
                           "end": 1773,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         {
                           "type": "Literal",
                           "start": 1775,
                           "end": 1809,
-                          "value": "The value of `baseCalled` is `1`"
+                          "value": "The value of `baseCalled` is `1`",
+                          "raw": "\"The value of `baseCalled` is `1`\""
                         }
                       ],
                       "optional": false
@@ -1449,7 +1484,8 @@
                           "type": "Literal",
                           "start": 1844,
                           "end": 1861,
-                          "value": "`this` is `obj`"
+                          "value": "`this` is `obj`",
+                          "raw": "\"`this` is `obj`\""
                         }
                       ],
                       "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1846,
             "end": 1847,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -160,7 +161,8 @@
                       "type": "Literal",
                       "start": 1958,
                       "end": 1959,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -256,13 +258,15 @@
                       "type": "Literal",
                       "start": 2015,
                       "end": 2016,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     {
                       "type": "Literal",
                       "start": 2018,
                       "end": 2050,
-                      "value": "iteration occurred as expected"
+                      "value": "iteration occurred as expected",
+                      "raw": "'iteration occurred as expected'"
                     }
                   ],
                   "optional": false

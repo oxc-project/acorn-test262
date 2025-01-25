@@ -83,13 +83,15 @@
                         "type": "Literal",
                         "start": 301,
                         "end": 305,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 307,
                         "end": 312,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "\"foo\""
                       },
                       {
                         "type": "ObjectExpression",

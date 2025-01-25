@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 404,
             "end": 405,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 409,
           "end": 413,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -87,7 +89,8 @@
             "type": "Literal",
             "start": 417,
             "end": 418,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -123,7 +126,8 @@
             "type": "Literal",
             "start": 434,
             "end": 435,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           "computed": true,
           "optional": false
@@ -159,7 +163,8 @@
             "type": "Literal",
             "start": 452,
             "end": 453,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           "computed": true,
           "optional": false
@@ -195,7 +200,8 @@
             "type": "Literal",
             "start": 470,
             "end": 471,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           },
           "computed": true,
           "optional": false
@@ -204,7 +210,8 @@
           "type": "Literal",
           "start": 475,
           "end": 480,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       }
     },
@@ -231,7 +238,8 @@
             "type": "Literal",
             "start": 484,
             "end": 485,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           "computed": true,
           "optional": false
@@ -240,7 +248,8 @@
           "type": "Literal",
           "start": 489,
           "end": 493,
-          "value": "-1"
+          "value": "-1",
+          "raw": "\"-1\""
         }
       }
     },
@@ -339,7 +348,8 @@
                     "type": "Literal",
                     "start": 569,
                     "end": 703,
-                    "value": "#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse() === x. Actual: "
+                    "value": "#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse() === x. Actual: ",
+                    "raw": "'#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse() === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -383,7 +393,8 @@
             "type": "Literal",
             "start": 727,
             "end": 728,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -393,7 +404,8 @@
           "type": "Literal",
           "start": 734,
           "end": 738,
-          "value": "-1"
+          "value": "-1",
+          "raw": "\"-1\""
         }
       },
       "consequent": {
@@ -424,7 +436,8 @@
                     "type": "Literal",
                     "start": 767,
                     "end": 910,
-                    "value": "#2: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[0] === \"-1\". Actual: "
+                    "value": "#2: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[0] === \"-1\". Actual: ",
+                    "raw": "'#2: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[0] === \"-1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -445,7 +458,8 @@
                         "type": "Literal",
                         "start": 916,
                         "end": 917,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -481,7 +495,8 @@
             "type": "Literal",
             "start": 931,
             "end": 932,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -491,7 +506,8 @@
           "type": "Literal",
           "start": 938,
           "end": 943,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       },
       "consequent": {
@@ -522,7 +538,8 @@
                     "type": "Literal",
                     "start": 972,
                     "end": 1116,
-                    "value": "#3: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[1] === \"NaN\". Actual: "
+                    "value": "#3: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[1] === \"NaN\". Actual: ",
+                    "raw": "'#3: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[1] === \"NaN\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -543,7 +560,8 @@
                         "type": "Literal",
                         "start": 1122,
                         "end": 1123,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -579,7 +597,8 @@
             "type": "Literal",
             "start": 1137,
             "end": 1138,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -620,7 +639,8 @@
                     "type": "Literal",
                     "start": 1182,
                     "end": 1330,
-                    "value": "#4: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[2] === undefined. Actual: "
+                    "value": "#4: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[2] === undefined. Actual: ",
+                    "raw": "'#4: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[2] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -641,7 +661,8 @@
                         "type": "Literal",
                         "start": 1336,
                         "end": 1337,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "computed": true,
                       "optional": false
@@ -677,7 +698,8 @@
             "type": "Literal",
             "start": 1351,
             "end": 1352,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           "computed": true,
           "optional": false
@@ -718,7 +740,8 @@
                     "type": "Literal",
                     "start": 1396,
                     "end": 1544,
-                    "value": "#5: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[3] === undefined. Actual: "
+                    "value": "#5: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[3] === undefined. Actual: ",
+                    "raw": "'#5: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[3] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -739,7 +762,8 @@
                         "type": "Literal",
                         "start": 1550,
                         "end": 1551,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "computed": true,
                       "optional": false
@@ -775,7 +799,8 @@
             "type": "Literal",
             "start": 1565,
             "end": 1566,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           "computed": true,
           "optional": false
@@ -816,7 +841,8 @@
                     "type": "Literal",
                     "start": 1610,
                     "end": 1758,
-                    "value": "#6: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[4] === undefined. Actual: "
+                    "value": "#6: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[4] === undefined. Actual: ",
+                    "raw": "'#6: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[4] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -837,7 +863,8 @@
                         "type": "Literal",
                         "start": 1764,
                         "end": 1765,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       "computed": true,
                       "optional": false
@@ -873,7 +900,8 @@
             "type": "Literal",
             "start": 1779,
             "end": 1780,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           "computed": true,
           "optional": false
@@ -914,7 +942,8 @@
                     "type": "Literal",
                     "start": 1824,
                     "end": 1972,
-                    "value": "#7: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[5] === undefined. Actual: "
+                    "value": "#7: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[5] === undefined. Actual: ",
+                    "raw": "'#7: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[5] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -935,7 +964,8 @@
                         "type": "Literal",
                         "start": 1978,
                         "end": 1979,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       "computed": true,
                       "optional": false
@@ -971,7 +1001,8 @@
             "type": "Literal",
             "start": 1993,
             "end": 1994,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           "computed": true,
           "optional": false
@@ -1012,7 +1043,8 @@
                     "type": "Literal",
                     "start": 2038,
                     "end": 2186,
-                    "value": "#8: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[6] === undefined. Actual: "
+                    "value": "#8: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[6] === undefined. Actual: ",
+                    "raw": "'#8: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[6] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1033,7 +1065,8 @@
                         "type": "Literal",
                         "start": 2192,
                         "end": 2193,
-                        "value": 6
+                        "value": 6,
+                        "raw": "6"
                       },
                       "computed": true,
                       "optional": false
@@ -1069,7 +1102,8 @@
             "type": "Literal",
             "start": 2207,
             "end": 2208,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           "computed": true,
           "optional": false
@@ -1110,7 +1144,8 @@
                     "type": "Literal",
                     "start": 2251,
                     "end": 2398,
-                    "value": "#9: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[7] === Infinity. Actual: "
+                    "value": "#9: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[7] === Infinity. Actual: ",
+                    "raw": "'#9: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[7] === Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1131,7 +1166,8 @@
                         "type": "Literal",
                         "start": 2404,
                         "end": 2405,
-                        "value": 7
+                        "value": 7,
+                        "raw": "7"
                       },
                       "computed": true,
                       "optional": false
@@ -1167,7 +1203,8 @@
             "type": "Literal",
             "start": 2419,
             "end": 2420,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           },
           "computed": true,
           "optional": false
@@ -1208,7 +1245,8 @@
                     "type": "Literal",
                     "start": 2464,
                     "end": 2613,
-                    "value": "#10: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[8] === undefined. Actual: "
+                    "value": "#10: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[8] === undefined. Actual: ",
+                    "raw": "'#10: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[8] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1229,7 +1267,8 @@
                         "type": "Literal",
                         "start": 2619,
                         "end": 2620,
-                        "value": 8
+                        "value": 8,
+                        "raw": "8"
                       },
                       "computed": true,
                       "optional": false
@@ -1265,7 +1304,8 @@
             "type": "Literal",
             "start": 2634,
             "end": 2635,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           "computed": true,
           "optional": false
@@ -1275,7 +1315,8 @@
           "type": "Literal",
           "start": 2641,
           "end": 2645,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1306,7 +1347,8 @@
                     "type": "Literal",
                     "start": 2674,
                     "end": 2818,
-                    "value": "#11: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[9] === true. Actual: "
+                    "value": "#11: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[9] === true. Actual: ",
+                    "raw": "'#11: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x[9] === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1327,7 +1369,8 @@
                         "type": "Literal",
                         "start": 2824,
                         "end": 2825,
-                        "value": 9
+                        "value": 9,
+                        "raw": "9"
                       },
                       "computed": true,
                       "optional": false
@@ -1373,7 +1416,8 @@
           "type": "Literal",
           "start": 2844,
           "end": 2845,
-          "value": 9
+          "value": 9,
+          "raw": "9"
         }
       }
     },
@@ -1472,7 +1516,8 @@
                     "type": "Literal",
                     "start": 2921,
                     "end": 3082,
-                    "value": "#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse() === x. Actual: "
+                    "value": "#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse() === x. Actual: ",
+                    "raw": "'#1: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse() === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1516,7 +1561,8 @@
             "type": "Literal",
             "start": 3106,
             "end": 3107,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -1557,7 +1603,8 @@
                     "type": "Literal",
                     "start": 3151,
                     "end": 3327,
-                    "value": "#12: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[0] === undefined. Actual: "
+                    "value": "#12: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[0] === undefined. Actual: ",
+                    "raw": "'#12: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[0] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1578,7 +1625,8 @@
                         "type": "Literal",
                         "start": 3333,
                         "end": 3334,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -1614,7 +1662,8 @@
             "type": "Literal",
             "start": 3348,
             "end": 3349,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -1655,7 +1704,8 @@
                     "type": "Literal",
                     "start": 3392,
                     "end": 3567,
-                    "value": "#13: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[1] === Infinity. Actual: "
+                    "value": "#13: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[1] === Infinity. Actual: ",
+                    "raw": "'#13: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[1] === Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1676,7 +1726,8 @@
                         "type": "Literal",
                         "start": 3573,
                         "end": 3574,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -1712,7 +1763,8 @@
             "type": "Literal",
             "start": 3588,
             "end": 3589,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -1753,7 +1805,8 @@
                     "type": "Literal",
                     "start": 3633,
                     "end": 3809,
-                    "value": "#14: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[2] === undefined. Actual: "
+                    "value": "#14: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[2] === undefined. Actual: ",
+                    "raw": "'#14: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[2] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1774,7 +1827,8 @@
                         "type": "Literal",
                         "start": 3815,
                         "end": 3816,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "computed": true,
                       "optional": false
@@ -1810,7 +1864,8 @@
             "type": "Literal",
             "start": 3830,
             "end": 3831,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           "computed": true,
           "optional": false
@@ -1851,7 +1906,8 @@
                     "type": "Literal",
                     "start": 3875,
                     "end": 4051,
-                    "value": "#15: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[3] === undefined. Actual: "
+                    "value": "#15: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[3] === undefined. Actual: ",
+                    "raw": "'#15: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[3] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1872,7 +1928,8 @@
                         "type": "Literal",
                         "start": 4057,
                         "end": 4058,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "computed": true,
                       "optional": false
@@ -1908,7 +1965,8 @@
             "type": "Literal",
             "start": 4072,
             "end": 4073,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           "computed": true,
           "optional": false
@@ -1949,7 +2007,8 @@
                     "type": "Literal",
                     "start": 4117,
                     "end": 4293,
-                    "value": "#16: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[4] === undefined. Actual: "
+                    "value": "#16: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[4] === undefined. Actual: ",
+                    "raw": "'#16: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[4] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1970,7 +2029,8 @@
                         "type": "Literal",
                         "start": 4299,
                         "end": 4300,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       "computed": true,
                       "optional": false
@@ -2006,7 +2066,8 @@
             "type": "Literal",
             "start": 4314,
             "end": 4315,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           "computed": true,
           "optional": false
@@ -2047,7 +2108,8 @@
                     "type": "Literal",
                     "start": 4359,
                     "end": 4535,
-                    "value": "#17: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[5] === undefined. Actual: "
+                    "value": "#17: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[5] === undefined. Actual: ",
+                    "raw": "'#17: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[5] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -2068,7 +2130,8 @@
                         "type": "Literal",
                         "start": 4541,
                         "end": 4542,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       "computed": true,
                       "optional": false
@@ -2104,7 +2167,8 @@
             "type": "Literal",
             "start": 4556,
             "end": 4557,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           "computed": true,
           "optional": false
@@ -2145,7 +2209,8 @@
                     "type": "Literal",
                     "start": 4601,
                     "end": 4777,
-                    "value": "#18: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[6] === undefined. Actual: "
+                    "value": "#18: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[6] === undefined. Actual: ",
+                    "raw": "'#18: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[6] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -2166,7 +2231,8 @@
                         "type": "Literal",
                         "start": 4783,
                         "end": 4784,
-                        "value": 6
+                        "value": 6,
+                        "raw": "6"
                       },
                       "computed": true,
                       "optional": false
@@ -2202,7 +2268,8 @@
             "type": "Literal",
             "start": 4798,
             "end": 4799,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           "computed": true,
           "optional": false
@@ -2212,7 +2279,8 @@
           "type": "Literal",
           "start": 4805,
           "end": 4810,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       },
       "consequent": {
@@ -2243,7 +2311,8 @@
                     "type": "Literal",
                     "start": 4839,
                     "end": 5011,
-                    "value": "#19: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[7] === \"NaN\". Actual: "
+                    "value": "#19: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[7] === \"NaN\". Actual: ",
+                    "raw": "'#19: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[7] === \"NaN\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -2264,7 +2333,8 @@
                         "type": "Literal",
                         "start": 5017,
                         "end": 5018,
-                        "value": 7
+                        "value": 7,
+                        "raw": "7"
                       },
                       "computed": true,
                       "optional": false
@@ -2300,7 +2370,8 @@
             "type": "Literal",
             "start": 5032,
             "end": 5033,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           },
           "computed": true,
           "optional": false
@@ -2310,7 +2381,8 @@
           "type": "Literal",
           "start": 5039,
           "end": 5043,
-          "value": "-1"
+          "value": "-1",
+          "raw": "\"-1\""
         }
       },
       "consequent": {
@@ -2341,7 +2413,8 @@
                     "type": "Literal",
                     "start": 5072,
                     "end": 5243,
-                    "value": "#20: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[8] === \"-1\". Actual: "
+                    "value": "#20: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[8] === \"-1\". Actual: ",
+                    "raw": "'#20: x = []; x[0] = true; x[2] = Infinity; x[4] = undefined; x[5] = undefined; x[8] = \"NaN\"; x[9] = \"-1\"; x.reverse(); x.length = 9; x.reverse(); x[8] === \"-1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -2362,7 +2435,8 @@
                         "type": "Literal",
                         "start": 5249,
                         "end": 5250,
-                        "value": 8
+                        "value": 8,
+                        "raw": "8"
                       },
                       "computed": true,
                       "optional": false

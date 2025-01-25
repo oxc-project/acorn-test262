@@ -31,6 +31,7 @@
                 "start": 358,
                 "end": 367,
                 "value": {},
+                "raw": "/[xyz]*1/",
                 "regex": {
                   "pattern": "[xyz]*1",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 383,
-                "value": "a0.b2.c3"
+                "value": "a0.b2.c3",
+                "raw": "'a0.b2.c3'"
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 407,
             "end": 456,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

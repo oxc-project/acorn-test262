@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 777,
+  "end": 775,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 342,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 344,
                     "end": 345,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -78,13 +80,15 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 362,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -124,7 +128,8 @@
           "type": "Literal",
           "start": 378,
           "end": 379,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -200,7 +205,8 @@
                       "type": "Literal",
                       "start": 417,
                       "end": 418,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   },
                   "operator": "||",
@@ -219,7 +225,8 @@
                       "type": "Literal",
                       "start": 428,
                       "end": 429,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   }
                 },
@@ -231,7 +238,8 @@
                     "type": "Literal",
                     "start": 438,
                     "end": 442,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 },
                 "alternate": null
@@ -255,7 +263,8 @@
                       "type": "Literal",
                       "start": 469,
                       "end": 564,
-                      "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this"
+                      "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this",
+                      "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\""
                     }
                   ]
                 }
@@ -268,11 +277,11 @@
     {
       "type": "ExpressionStatement",
       "start": 570,
-      "end": 727,
+      "end": 725,
       "expression": {
         "type": "AssignmentExpression",
         "start": 570,
-        "end": 726,
+        "end": 724,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
@@ -296,7 +305,7 @@
         "right": {
           "type": "FunctionExpression",
           "start": 580,
-          "end": 726,
+          "end": 724,
           "id": null,
           "expression": false,
           "generator": false,
@@ -305,16 +314,16 @@
           "body": {
             "type": "BlockStatement",
             "start": 592,
-            "end": 726,
+            "end": 724,
             "body": [
               {
                 "type": "ThrowStatement",
                 "start": 596,
-                "end": 724,
+                "end": 722,
                 "argument": {
                   "type": "NewExpression",
                   "start": 602,
-                  "end": 723,
+                  "end": 721,
                   "callee": {
                     "type": "Identifier",
                     "start": 606,
@@ -325,8 +334,9 @@
                     {
                       "type": "Literal",
                       "start": 619,
-                      "end": 722,
-                      "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size"
+                      "end": 720,
+                      "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size",
+                      "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\""
                     }
                   ]
                 }
@@ -338,26 +348,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 729,
-      "end": 776,
+      "start": 727,
+      "end": 774,
       "expression": {
         "type": "CallExpression",
-        "start": 729,
-        "end": 775,
+        "start": 727,
+        "end": 773,
         "callee": {
           "type": "MemberExpression",
-          "start": 729,
-          "end": 745,
+          "start": 727,
+          "end": 743,
           "object": {
             "type": "Identifier",
-            "start": 729,
-            "end": 735,
+            "start": 727,
+            "end": 733,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 736,
-            "end": 745,
+            "start": 734,
+            "end": 743,
             "name": "sameValue"
           },
           "computed": false,
@@ -366,22 +376,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 746,
-            "end": 767,
+            "start": 744,
+            "end": 765,
             "callee": {
               "type": "MemberExpression",
-              "start": 746,
-              "end": 763,
+              "start": 744,
+              "end": 761,
               "object": {
                 "type": "Identifier",
-                "start": 746,
-                "end": 748,
+                "start": 744,
+                "end": 746,
                 "name": "s1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 749,
-                "end": 763,
+                "start": 747,
+                "end": 761,
                 "name": "isDisjointFrom"
               },
               "computed": false,
@@ -390,8 +400,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 764,
-                "end": 766,
+                "start": 762,
+                "end": 764,
                 "name": "s2"
               }
             ],
@@ -399,9 +409,10 @@
           },
           {
             "type": "Literal",
-            "start": 769,
-            "end": 774,
-            "value": false
+            "start": 767,
+            "end": 772,
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

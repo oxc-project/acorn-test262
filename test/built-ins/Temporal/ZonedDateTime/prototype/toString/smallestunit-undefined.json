@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 336,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 343,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -142,7 +144,8 @@
                       "type": "Literal",
                       "start": 434,
                       "end": 435,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -193,13 +196,15 @@
             "type": "Literal",
             "start": 468,
             "end": 507,
-            "value": "2001-09-09T01:46:40.123987+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 564,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -266,7 +271,8 @@
                       "type": "Literal",
                       "start": 629,
                       "end": 630,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -317,13 +323,15 @@
             "type": "Literal",
             "start": 663,
             "end": 702,
-            "value": "2001-09-09T01:46:40.123987+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 759,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -411,7 +419,8 @@
                       "type": "Literal",
                       "start": 850,
                       "end": 851,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -462,13 +471,15 @@
             "type": "Literal",
             "start": 884,
             "end": 920,
-            "value": "2001-09-09T01:46:40.123+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 977,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -535,7 +546,8 @@
                       "type": "Literal",
                       "start": 1042,
                       "end": 1043,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -586,13 +598,15 @@
             "type": "Literal",
             "start": 1076,
             "end": 1112,
-            "value": "2001-09-09T01:46:40.123+00:00[UTC]"
+            "value": "2001-09-09T01:46:40.123+00:00[UTC]",
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1114,
             "end": 1169,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false

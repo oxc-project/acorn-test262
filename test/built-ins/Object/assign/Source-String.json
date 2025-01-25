@@ -83,7 +83,8 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 358,
-                "value": "123"
+                "value": "123",
+                "raw": "\"123\""
               }
             ],
             "optional": false
@@ -134,7 +135,8 @@
               "type": "Literal",
               "start": 386,
               "end": 387,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -143,13 +145,15 @@
             "type": "Literal",
             "start": 390,
             "end": 393,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 441,
-            "value": "The value of result[0] is expected to be \"1\""
+            "value": "The value of result[0] is expected to be \"1\"",
+            "raw": "'The value of result[0] is expected to be \"1\"'"
           }
         ],
         "optional": false
@@ -197,7 +201,8 @@
               "type": "Literal",
               "start": 468,
               "end": 469,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -206,13 +211,15 @@
             "type": "Literal",
             "start": 472,
             "end": 475,
-            "value": "2"
+            "value": "2",
+            "raw": "\"2\""
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 523,
-            "value": "The value of result[1] is expected to be \"2\""
+            "value": "The value of result[1] is expected to be \"2\"",
+            "raw": "'The value of result[1] is expected to be \"2\"'"
           }
         ],
         "optional": false
@@ -260,7 +267,8 @@
               "type": "Literal",
               "start": 550,
               "end": 551,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -269,13 +277,15 @@
             "type": "Literal",
             "start": 554,
             "end": 557,
-            "value": "3"
+            "value": "3",
+            "raw": "\"3\""
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 605,
-            "value": "The value of result[2] is expected to be \"3\""
+            "value": "The value of result[2] is expected to be \"3\"",
+            "raw": "'The value of result[2] is expected to be \"3\"'"
           }
         ],
         "optional": false

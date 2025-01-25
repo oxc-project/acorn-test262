@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 897,
             "end": 907,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 964,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -140,7 +142,8 @@
                               "type": "Literal",
                               "start": 1027,
                               "end": 1058,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -268,7 +271,8 @@
                                   "type": "Literal",
                                   "start": 1194,
                                   "end": 1195,
-                                  "value": 8
+                                  "value": 8,
+                                  "raw": "8"
                                 }
                               }
                             ]
@@ -342,7 +346,8 @@
             "type": "Literal",
             "start": 1262,
             "end": 1440,
-            "value": "`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -461,7 +466,8 @@
                                   "type": "Literal",
                                   "start": 1569,
                                   "end": 1570,
-                                  "value": 4
+                                  "value": 4,
+                                  "raw": "4"
                                 }
                               }
                             ]
@@ -535,7 +541,8 @@
             "type": "Literal",
             "start": 1637,
             "end": 1815,
-            "value": "`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -567,7 +574,8 @@
           "type": "Literal",
           "start": 1847,
           "end": 1858,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "'undefined'"
         }
       },
       "consequent": {
@@ -688,7 +696,8 @@
                                         "type": "Literal",
                                         "start": 1998,
                                         "end": 1999,
-                                        "value": 2
+                                        "value": 2,
+                                        "raw": "2"
                                       }
                                     }
                                   ]
@@ -762,7 +771,8 @@
                   "type": "Literal",
                   "start": 2072,
                   "end": 2250,
-                  "value": "`const view = new Float16Array( new SharedArrayBuffer(Float16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+                  "value": "`const view = new Float16Array( new SharedArrayBuffer(Float16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+                  "raw": "'`const view = new Float16Array( new SharedArrayBuffer(Float16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
                 }
               ],
               "optional": false
@@ -885,7 +895,8 @@
                                   "type": "Literal",
                                   "start": 2377,
                                   "end": 2378,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 }
                               }
                             ]
@@ -959,7 +970,8 @@
             "type": "Literal",
             "start": 2445,
             "end": 2619,
-            "value": "`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1140,7 +1152,8 @@
             "type": "Literal",
             "start": 2806,
             "end": 2974,
-            "value": "`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1259,7 +1272,8 @@
                                   "type": "Literal",
                                   "start": 3101,
                                   "end": 3102,
-                                  "value": 4
+                                  "value": 4,
+                                  "raw": "4"
                                 }
                               }
                             ]
@@ -1333,7 +1347,8 @@
             "type": "Literal",
             "start": 3169,
             "end": 3345,
-            "value": "`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1452,7 +1467,8 @@
                                   "type": "Literal",
                                   "start": 3472,
                                   "end": 3473,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 }
                               }
                             ]
@@ -1526,7 +1542,8 @@
             "type": "Literal",
             "start": 3540,
             "end": 3716,
-            "value": "`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1707,7 +1724,8 @@
             "type": "Literal",
             "start": 3905,
             "end": 4075,
-            "value": "`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1888,7 +1906,8 @@
             "type": "Literal",
             "start": 4278,
             "end": 4462,
-            "value": "`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false

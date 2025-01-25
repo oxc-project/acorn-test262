@@ -50,7 +50,8 @@
               "type": "Literal",
               "start": 584,
               "end": 593,
-              "value": "valueOf"
+              "value": "valueOf",
+              "raw": "\"valueOf\""
             },
             "operator": "in",
             "right": {
@@ -86,7 +87,8 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 670,
-                  "value": "#1: var __obj={}; \"valueOf\" in __obj"
+                  "value": "#1: var __obj={}; \"valueOf\" in __obj",
+                  "raw": "'#1: var __obj={}; \"valueOf\" in __obj'"
                 }
               ]
             }

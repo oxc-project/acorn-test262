@@ -110,7 +110,8 @@
                 "type": "Literal",
                 "start": 823,
                 "end": 836,
-                "value": "unreachable"
+                "value": "unreachable",
+                "raw": "\"unreachable\""
               }
             }
           }
@@ -136,7 +137,8 @@
             "type": "Literal",
             "start": 858,
             "end": 859,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -214,7 +216,8 @@
                               "type": "Literal",
                               "start": 917,
                               "end": 918,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         },
@@ -412,7 +415,8 @@
                             "type": "Literal",
                             "start": 1036,
                             "end": 1067,
-                            "value": "Promise incorrectly resolved."
+                            "value": "Promise incorrectly resolved.",
+                            "raw": "\"Promise incorrectly resolved.\""
                           }
                         ]
                       }
@@ -643,13 +647,15 @@
                                             "type": "Literal",
                                             "start": 1259,
                                             "end": 1263,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1265,
                                             "end": 1309,
-                                            "value": "The value of IteratorResult.done is `true`"
+                                            "value": "The value of IteratorResult.done is `true`",
+                                            "raw": "\"The value of IteratorResult.done is `true`\""
                                           }
                                         ],
                                         "optional": false
@@ -699,7 +705,8 @@
                                             "type": "Literal",
                                             "start": 1351,
                                             "end": 1401,
-                                            "value": "The value of IteratorResult.value is `undefined`"
+                                            "value": "The value of IteratorResult.value is `undefined`",
+                                            "raw": "\"The value of IteratorResult.value is `undefined`\""
                                           }
                                         ],
                                         "optional": false
@@ -807,7 +814,8 @@
             "type": "Literal",
             "start": 1482,
             "end": 1483,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

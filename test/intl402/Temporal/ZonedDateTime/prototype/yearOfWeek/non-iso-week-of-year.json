@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 450,
             "end": 459,
-            "value": "gregory"
+            "value": "gregory",
+            "raw": "\"gregory\""
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 604,
                 "end": 630,
-                "value": "1704112496987654321n"
+                "value": "1704112496987654321n",
+                "raw": "1_704_112_496_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 632,
                 "end": 637,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",
@@ -142,7 +145,8 @@
             "type": "Literal",
             "start": 685,
             "end": 689,
-            "value": 2024
+            "value": 2024,
+            "raw": "2024"
           }
         ],
         "optional": false
@@ -167,7 +171,8 @@
           "type": "Literal",
           "start": 704,
           "end": 712,
-          "value": "hebrew"
+          "value": "hebrew",
+          "raw": "\"hebrew\""
         }
       }
     },
@@ -214,13 +219,15 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 786,
-                "value": "1704112496987654321n"
+                "value": "1704112496987654321n",
+                "raw": "1_704_112_496_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 788,
                 "end": 793,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",

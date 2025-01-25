@@ -85,7 +85,8 @@
                         "type": "Literal",
                         "start": 349,
                         "end": 354,
-                        "value": "lol"
+                        "value": "lol",
+                        "raw": "'lol'"
                       },
                       "computed": true,
                       "optional": false
@@ -94,7 +95,8 @@
                       "type": "Literal",
                       "start": 358,
                       "end": 360,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     }
                   }
                 }
@@ -187,7 +189,8 @@
             "type": "Literal",
             "start": 404,
             "end": 406,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -235,7 +238,8 @@
               "type": "Literal",
               "start": 429,
               "end": 434,
-              "value": "lol"
+              "value": "lol",
+              "raw": "'lol'"
             },
             "computed": true,
             "optional": false
@@ -244,7 +248,8 @@
             "type": "Literal",
             "start": 437,
             "end": 439,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false

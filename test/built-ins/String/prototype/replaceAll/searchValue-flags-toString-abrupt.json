@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 811,
             "end": 821,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 846,
-            "value": "function must exist"
+            "value": "function must exist",
+            "raw": "'function must exist'"
           }
         ],
         "optional": false
@@ -105,7 +107,8 @@
             "type": "Literal",
             "start": 866,
             "end": 867,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -178,7 +181,8 @@
                             "type": "Literal",
                             "start": 915,
                             "end": 916,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -190,7 +194,8 @@
                           "type": "Literal",
                           "start": 928,
                           "end": 975,
-                          "value": "Should not call toString on this/replaceValue"
+                          "value": "Should not call toString on this/replaceValue",
+                          "raw": "'Should not call toString on this/replaceValue'"
                         }
                       }
                     ]
@@ -253,7 +258,8 @@
                   "type": "Literal",
                   "start": 1024,
                   "end": 1028,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -321,7 +327,8 @@
                           "type": "Literal",
                           "start": 1074,
                           "end": 1115,
-                          "value": "Should not call toString on searchValue"
+                          "value": "Should not call toString on searchValue",
+                          "raw": "'Should not call toString on searchValue'"
                         }
                       }
                     ]
@@ -402,7 +409,8 @@
                           "type": "Literal",
                           "start": 1165,
                           "end": 1167,
-                          "value": ""
+                          "value": "",
+                          "raw": "''"
                         },
                         "property": {
                           "type": "Identifier",
@@ -452,7 +460,8 @@
             "type": "Literal",
             "start": 1217,
             "end": 1225,
-            "value": "Symbol"
+            "value": "Symbol",
+            "raw": "'Symbol'"
           }
         ],
         "optional": false
@@ -612,7 +621,8 @@
                           "type": "Literal",
                           "start": 1347,
                           "end": 1349,
-                          "value": ""
+                          "value": "",
+                          "raw": "''"
                         },
                         "property": {
                           "type": "Identifier",
@@ -662,7 +672,8 @@
             "type": "Literal",
             "start": 1399,
             "end": 1414,
-            "value": "custom abrupt"
+            "value": "custom abrupt",
+            "raw": "'custom abrupt'"
           }
         ],
         "optional": false
@@ -706,7 +717,8 @@
             "type": "Literal",
             "start": 1445,
             "end": 1446,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

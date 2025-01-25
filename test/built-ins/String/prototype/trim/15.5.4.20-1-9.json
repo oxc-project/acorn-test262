@@ -99,13 +99,15 @@
             "type": "Literal",
             "start": 335,
             "end": 346,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 363,
-            "value": "strObj.trim()"
+            "value": "strObj.trim()",
+            "raw": "'strObj.trim()'"
           }
         ],
         "optional": false

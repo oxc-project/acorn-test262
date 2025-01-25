@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 855,
             "end": 856,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -225,7 +226,8 @@
                             "type": "Literal",
                             "start": 995,
                             "end": 996,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -573,13 +575,15 @@
             "type": "Literal",
             "start": 1269,
             "end": 1270,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1272,
             "end": 1317,
-            "value": "Array species constructor is not referenced"
+            "value": "Array species constructor is not referenced",
+            "raw": "'Array species constructor is not referenced'"
           }
         ],
         "optional": false

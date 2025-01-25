@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 271,
                 "end": 275,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 280,
                 "end": 281,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 283,
                 "end": 293,
-                "value": "islamicc"
+                "value": "islamicc",
+                "raw": "\"islamicc\""
               }
             ]
           }
@@ -123,13 +127,15 @@
             "type": "Literal",
             "start": 332,
             "end": 347,
-            "value": "islamic-civil"
+            "value": "islamic-civil",
+            "raw": "\"islamic-civil\""
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 379,
-            "value": "calendar ID is canonicalized"
+            "value": "calendar ID is canonicalized",
+            "raw": "\"calendar ID is canonicalized\""
           }
         ],
         "optional": false

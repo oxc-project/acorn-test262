@@ -37,49 +37,57 @@
             "type": "Literal",
             "start": 337,
             "end": 349,
-            "value": "2020-01-01"
+            "value": "2020-01-01",
+            "raw": "\"2020-01-01\""
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 379,
-            "value": "2020-01-01[u-ca=iso8601]"
+            "value": "2020-01-01[u-ca=iso8601]",
+            "raw": "\"2020-01-01[u-ca=iso8601]\""
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 414,
-            "value": "2020-01-01T00:00:00.000000000"
+            "value": "2020-01-01T00:00:00.000000000",
+            "raw": "\"2020-01-01T00:00:00.000000000\""
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 463,
-            "value": "2020-01-01T00:00:00.000000000[u-ca=iso8601]"
+            "value": "2020-01-01T00:00:00.000000000[u-ca=iso8601]",
+            "raw": "\"2020-01-01T00:00:00.000000000[u-ca=iso8601]\""
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 474,
-            "value": "01-01"
+            "value": "01-01",
+            "raw": "\"01-01\""
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 499,
-            "value": "01-01[u-ca=iso8601]"
+            "value": "01-01[u-ca=iso8601]",
+            "raw": "\"01-01[u-ca=iso8601]\""
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 512,
-            "value": "2020-01"
+            "value": "2020-01",
+            "raw": "\"2020-01\""
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 539,
-            "value": "2020-01[u-ca=iso8601]"
+            "value": "2020-01[u-ca=iso8601]",
+            "raw": "\"2020-01[u-ca=iso8601]\""
           }
         ]
       },
@@ -125,7 +133,8 @@
                         "type": "Literal",
                         "start": 568,
                         "end": 572,
-                        "value": 2019
+                        "value": 2019,
+                        "raw": "2019"
                       },
                       "kind": "init"
                     },
@@ -146,7 +155,8 @@
                         "type": "Literal",
                         "start": 585,
                         "end": 590,
-                        "value": "M06"
+                        "value": "M06",
+                        "raw": "\"M06\""
                       },
                       "kind": "init"
                     },
@@ -280,19 +290,22 @@
                   "type": "Literal",
                   "start": 703,
                   "end": 707,
-                  "value": 2019
+                  "value": 2019,
+                  "raw": "2019"
                 },
                 {
                   "type": "Literal",
                   "start": 709,
                   "end": 710,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 712,
                   "end": 717,
-                  "value": "M06"
+                  "value": "M06",
+                  "raw": "\"M06\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -384,13 +397,15 @@
                   "type": "Literal",
                   "start": 804,
                   "end": 813,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "Literal",
                   "start": 815,
                   "end": 843,
-                  "value": "calendar string is iso8601"
+                  "value": "calendar string is iso8601",
+                  "raw": "\"calendar string is iso8601\""
                 }
               ],
               "optional": false

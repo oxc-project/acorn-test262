@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 1045,
                 "end": 1061,
-                "value": "firstDayOfWeek"
+                "value": "firstDayOfWeek",
+                "raw": "\"firstDayOfWeek\""
               }
             ],
             "optional": false
@@ -202,7 +203,8 @@
             "type": "Literal",
             "start": 1145,
             "end": 1155,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -259,7 +261,8 @@
             "type": "Literal",
             "start": 1197,
             "end": 1213,
-            "value": "firstDayOfWeek"
+            "value": "firstDayOfWeek",
+            "raw": "\"firstDayOfWeek\""
           },
           {
             "type": "ObjectExpression",
@@ -283,7 +286,8 @@
                   "type": "Literal",
                   "start": 1231,
                   "end": 1236,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -304,7 +308,8 @@
                   "type": "Literal",
                   "start": 1254,
                   "end": 1258,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

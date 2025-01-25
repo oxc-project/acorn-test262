@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 295,
             "end": 300,
-            "value": "ABC"
+            "value": "ABC",
+            "raw": "'ABC'"
           }
         }
       ],
@@ -58,7 +59,8 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 329,
-                "value": "ABC"
+                "value": "ABC",
+                "raw": "'ABC'"
               }
             ]
           }
@@ -138,7 +140,8 @@
                   "type": "Literal",
                   "start": 475,
                   "end": 536,
-                  "value": "#1: 'ABC'.constructor === new String('ABC').constructor"
+                  "value": "#1: 'ABC'.constructor === new String('ABC').constructor",
+                  "raw": "'#1: \\'ABC\\'.constructor === new String(\\'ABC\\').constructor'"
                 }
               ]
             }
@@ -193,7 +196,8 @@
                   "type": "Literal",
                   "start": 724,
                   "end": 756,
-                  "value": "#2: \"ABC\" == new String(\"ABC\")"
+                  "value": "#2: \"ABC\" == new String(\"ABC\")",
+                  "raw": "'#2: \"ABC\" == new String(\"ABC\")'"
                 }
               ]
             }
@@ -248,7 +252,8 @@
                   "type": "Literal",
                   "start": 945,
                   "end": 978,
-                  "value": "#3: \"ABC\" !== new String(\"ABC\")"
+                  "value": "#3: \"ABC\" !== new String(\"ABC\")",
+                  "raw": "'#3: \"ABC\" !== new String(\"ABC\")'"
                 }
               ]
             }

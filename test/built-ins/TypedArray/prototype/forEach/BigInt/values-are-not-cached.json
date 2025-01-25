@@ -74,19 +74,22 @@
                                 "type": "Literal",
                                 "start": 753,
                                 "end": 756,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 758,
                                 "end": 761,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 763,
                                 "end": 766,
-                                "value": "44n"
+                                "value": "44n",
+                                "raw": "44n"
                               }
                             ]
                           }
@@ -194,7 +197,8 @@
                                     "type": "Literal",
                                     "start": 833,
                                     "end": 834,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   }
                                 }
                               },
@@ -237,7 +241,8 @@
                                             "type": "Literal",
                                             "start": 853,
                                             "end": 854,
-                                            "value": 1
+                                            "value": 1,
+                                            "raw": "1"
                                           }
                                         },
                                         "computed": true,
@@ -247,7 +252,8 @@
                                         "type": "Literal",
                                         "start": 858,
                                         "end": 861,
-                                        "value": "42n"
+                                        "value": "42n",
+                                        "raw": "42n"
                                       }
                                     }
                                   }
@@ -293,13 +299,15 @@
                                     "type": "Literal",
                                     "start": 901,
                                     "end": 904,
-                                    "value": "42n"
+                                    "value": "42n",
+                                    "raw": "42n"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 906,
                                     "end": 960,
-                                    "value": "method does not cache values before callbackfn calls"
+                                    "value": "method does not cache values before callbackfn calls",
+                                    "raw": "\"method does not cache values before callbackfn calls\""
                                   }
                                 ],
                                 "optional": false

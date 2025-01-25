@@ -43,7 +43,8 @@
                       "type": "Literal",
                       "start": 323,
                       "end": 326,
-                      "value": "z"
+                      "value": "z",
+                      "raw": "'z'"
                     }
                   ]
                 },

@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 286,
             "end": 321,
-            "value": "Object.isExtensible(obj) !== true"
+            "value": "Object.isExtensible(obj) !== true",
+            "raw": "'Object.isExtensible(obj) !== true'"
           }
         ],
         "optional": false

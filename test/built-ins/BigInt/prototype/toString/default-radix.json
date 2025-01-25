@@ -53,7 +53,8 @@
                     "type": "Literal",
                     "start": 252,
                     "end": 256,
-                    "value": "100n"
+                    "value": "100n",
+                    "raw": "100n"
                   }
                 }
               },
@@ -73,13 +74,15 @@
             "type": "Literal",
             "start": 270,
             "end": 276,
-            "value": "-100"
+            "value": "-100",
+            "raw": "\"-100\""
           },
           {
             "type": "Literal",
             "start": 278,
             "end": 309,
-            "value": "(-100n).toString() === '-100'"
+            "value": "(-100n).toString() === '-100'",
+            "raw": "\"(-100n).toString() === '-100'\""
           }
         ],
         "optional": false
@@ -129,7 +132,8 @@
                   "type": "Literal",
                   "start": 330,
                   "end": 332,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               },
               "property": {
@@ -148,13 +152,15 @@
             "type": "Literal",
             "start": 346,
             "end": 349,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 376,
-            "value": "(0n).toString() === '0'"
+            "value": "(0n).toString() === '0'",
+            "raw": "\"(0n).toString() === '0'\""
           }
         ],
         "optional": false
@@ -204,7 +210,8 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 401,
-                  "value": "100n"
+                  "value": "100n",
+                  "raw": "100n"
                 }
               },
               "property": {
@@ -223,13 +230,15 @@
             "type": "Literal",
             "start": 415,
             "end": 420,
-            "value": "100"
+            "value": "100",
+            "raw": "\"100\""
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 451,
-            "value": "(100n).toString() === '100'"
+            "value": "(100n).toString() === '100'",
+            "raw": "\"(100n).toString() === '100'\""
           }
         ],
         "optional": false
@@ -285,7 +294,8 @@
                     "type": "Literal",
                     "start": 474,
                     "end": 478,
-                    "value": "100n"
+                    "value": "100n",
+                    "raw": "100n"
                   }
                 }
               },
@@ -312,13 +322,15 @@
             "type": "Literal",
             "start": 501,
             "end": 507,
-            "value": "-100"
+            "value": "-100",
+            "raw": "\"-100\""
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 566,
-            "value": "(-100n).toString(undefined) === '-100'"
+            "value": "(-100n).toString(undefined) === '-100'",
+            "raw": "\"(-100n).toString(undefined) === '-100'\""
           }
         ],
         "optional": false
@@ -368,7 +380,8 @@
                   "type": "Literal",
                   "start": 587,
                   "end": 589,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               },
               "property": {
@@ -394,13 +407,15 @@
             "type": "Literal",
             "start": 612,
             "end": 615,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 668,
-            "value": "(0n).toString(undefined) === '0'"
+            "value": "(0n).toString(undefined) === '0'",
+            "raw": "\"(0n).toString(undefined) === '0'\""
           }
         ],
         "optional": false
@@ -450,7 +465,8 @@
                   "type": "Literal",
                   "start": 689,
                   "end": 693,
-                  "value": "100n"
+                  "value": "100n",
+                  "raw": "100n"
                 }
               },
               "property": {
@@ -476,13 +492,15 @@
             "type": "Literal",
             "start": 716,
             "end": 721,
-            "value": "100"
+            "value": "100",
+            "raw": "\"100\""
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 778,
-            "value": "(100n).toString(undefined) === '100'"
+            "value": "(100n).toString(undefined) === '100'",
+            "raw": "\"(100n).toString(undefined) === '100'\""
           }
         ],
         "optional": false

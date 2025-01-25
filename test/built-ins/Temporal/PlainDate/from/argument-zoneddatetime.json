@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 302,
             "end": 311,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 378,
-                "value": "1000000000987654321n"
+                "value": "1000000000987654321n",
+                "raw": "1_000_000_000_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 385,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",
@@ -194,31 +197,36 @@
             "type": "Literal",
             "start": 489,
             "end": 493,
-            "value": 2001
+            "value": 2001,
+            "raw": "2001"
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 496,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 503,
-            "value": "M09"
+            "value": "M09",
+            "raw": "\"M09\""
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 506,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 538,
-            "value": "ZonedDateTime is converted"
+            "value": "ZonedDateTime is converted",
+            "raw": "\"ZonedDateTime is converted\""
           }
         ],
         "optional": false
@@ -281,7 +289,8 @@
             "type": "Literal",
             "start": 596,
             "end": 616,
-            "value": "Calendar is copied"
+            "value": "Calendar is copied",
+            "raw": "\"Calendar is copied\""
           }
         ],
         "optional": false

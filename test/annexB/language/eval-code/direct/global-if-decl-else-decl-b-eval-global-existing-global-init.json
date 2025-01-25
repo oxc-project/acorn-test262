@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1200,
             "end": 1203,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -72,7 +73,8 @@
                   "type": "Literal",
                   "start": 1216,
                   "end": 1219,
-                  "value": "x"
+                  "value": "x",
+                  "raw": "'x'"
                 },
                 "kind": "init"
               },
@@ -93,7 +95,8 @@
                   "type": "Literal",
                   "start": 1235,
                   "end": 1239,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -114,7 +117,8 @@
                   "type": "Literal",
                   "start": 1253,
                   "end": 1257,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -135,7 +139,8 @@
                   "type": "Literal",
                   "start": 1275,
                   "end": 1280,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -164,7 +169,8 @@
             "type": "Literal",
             "start": 1294,
             "end": 1569,
-            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (false) function _f() {} else function f() {  }"
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (false) function _f() {} else function f() {  }",
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });if (false) function _f() {} else function f() {  }'"
           }
         ],
         "optional": false
@@ -215,7 +221,8 @@
             "type": "Literal",
             "start": 1601,
             "end": 1611,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -246,7 +253,8 @@
             "type": "Literal",
             "start": 1637,
             "end": 1640,
-            "value": "f"
+            "value": "f",
+            "raw": "\"f\""
           },
           {
             "type": "ObjectExpression",
@@ -270,7 +278,8 @@
                   "type": "Literal",
                   "start": 1658,
                   "end": 1662,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -291,7 +300,8 @@
                   "type": "Literal",
                   "start": 1676,
                   "end": 1680,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -312,7 +322,8 @@
                   "type": "Literal",
                   "start": 1698,
                   "end": 1703,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

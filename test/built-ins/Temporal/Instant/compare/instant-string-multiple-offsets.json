@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 353,
             "end": 398,
-            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]"
+            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]",
+            "raw": "\"1970-01-01T00:02:00.000000000+00:02[+01:30]\""
           }
         }
       ],
@@ -163,13 +165,15 @@
             "type": "Literal",
             "start": 456,
             "end": 457,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 526,
-            "value": "UTC offset determined from offset part of string (first argument)"
+            "value": "UTC offset determined from offset part of string (first argument)",
+            "raw": "\"UTC offset determined from offset part of string (first argument)\""
           }
         ],
         "optional": false
@@ -259,13 +263,15 @@
             "type": "Literal",
             "start": 584,
             "end": 585,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 587,
             "end": 655,
-            "value": "UTC offset determined from offset part of string (second argument)"
+            "value": "UTC offset determined from offset part of string (second argument)",
+            "raw": "\"UTC offset determined from offset part of string (second argument)\""
           }
         ],
         "optional": false

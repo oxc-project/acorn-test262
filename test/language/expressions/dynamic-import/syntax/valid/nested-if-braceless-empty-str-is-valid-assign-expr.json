@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1041,
         "end": 1045,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -25,7 +26,8 @@
             "type": "Literal",
             "start": 1054,
             "end": 1056,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           "options": null
         }

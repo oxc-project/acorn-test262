@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 373,
             "end": 382,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -185,7 +186,8 @@
             "type": "Literal",
             "start": 486,
             "end": 508,
-            "value": "from instance method"
+            "value": "from instance method",
+            "raw": "'from instance method'"
           }
         ],
         "optional": false
@@ -229,7 +231,8 @@
             "type": "Literal",
             "start": 531,
             "end": 540,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false

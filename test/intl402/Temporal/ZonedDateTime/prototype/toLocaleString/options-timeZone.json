@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 376,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 383,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -131,7 +133,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 449,
-                  "value": "en-US"
+                  "value": "en-US",
+                  "raw": "\"en-US\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -155,7 +158,8 @@
                         "type": "Literal",
                         "start": 463,
                         "end": 478,
-                        "value": "Europe/Vienna"
+                        "value": "Europe/Vienna",
+                        "raw": "\"Europe/Vienna\""
                       },
                       "kind": "init"
                     }
@@ -169,7 +173,8 @@
             "type": "Literal",
             "start": 483,
             "end": 511,
-            "value": "timeZone option disallowed"
+            "value": "timeZone option disallowed",
+            "raw": "\"timeZone option disallowed\""
           }
         ],
         "optional": false
@@ -246,7 +251,8 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 576,
-                  "value": "en-US"
+                  "value": "en-US",
+                  "raw": "\"en-US\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -270,7 +276,8 @@
                         "type": "Literal",
                         "start": 590,
                         "end": 595,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -284,7 +291,8 @@
             "type": "Literal",
             "start": 600,
             "end": 672,
-            "value": "timeZone option disallowed even if it agrees with instance's time zone"
+            "value": "timeZone option disallowed even if it agrees with instance's time zone",
+            "raw": "\"timeZone option disallowed even if it agrees with instance's time zone\""
           }
         ],
         "optional": false

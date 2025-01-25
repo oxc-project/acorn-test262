@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 687,
+  "end": 685,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 595,
-      "end": 686,
+      "start": 593,
+      "end": 684,
       "expression": {
         "type": "CallExpression",
-        "start": 595,
-        "end": 685,
+        "start": 593,
+        "end": 683,
         "callee": {
           "type": "MemberExpression",
-          "start": 595,
-          "end": 611,
+          "start": 593,
+          "end": 609,
           "object": {
             "type": "Identifier",
-            "start": 595,
-            "end": 601,
+            "start": 593,
+            "end": 599,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 602,
-            "end": 611,
+            "start": 600,
+            "end": 609,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,37 +33,37 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 615,
-            "end": 663,
+            "start": 613,
+            "end": 661,
             "callee": {
               "type": "MemberExpression",
-              "start": 615,
-              "end": 661,
+              "start": 613,
+              "end": 659,
               "object": {
                 "type": "CallExpression",
-                "start": 615,
-                "end": 641,
+                "start": 613,
+                "end": 639,
                 "callee": {
                   "type": "Identifier",
-                  "start": 615,
-                  "end": 621,
+                  "start": 613,
+                  "end": 619,
                   "name": "Object"
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 622,
-                    "end": 640,
+                    "start": 620,
+                    "end": 638,
                     "object": {
                       "type": "Identifier",
-                      "start": 622,
-                      "end": 628,
+                      "start": 620,
+                      "end": 626,
                       "name": "Symbol"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 629,
-                      "end": 640,
+                      "start": 627,
+                      "end": 638,
                       "name": "toPrimitive"
                     },
                     "computed": false,
@@ -74,18 +74,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 642,
-                "end": 660,
+                "start": 640,
+                "end": 658,
                 "object": {
                   "type": "Identifier",
-                  "start": 642,
-                  "end": 648,
+                  "start": 640,
+                  "end": 646,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 649,
-                  "end": 660,
+                  "start": 647,
+                  "end": 658,
                   "name": "toPrimitive"
                 },
                 "computed": false,
@@ -99,18 +99,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 665,
-            "end": 683,
+            "start": 663,
+            "end": 681,
             "object": {
               "type": "Identifier",
-              "start": 665,
-              "end": 671,
+              "start": 663,
+              "end": 669,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 672,
-              "end": 683,
+              "start": 670,
+              "end": 681,
               "name": "toPrimitive"
             },
             "computed": false,

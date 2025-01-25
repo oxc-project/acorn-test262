@@ -112,7 +112,8 @@
             "type": "Literal",
             "start": 367,
             "end": 377,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -166,13 +167,15 @@
                     "type": "Literal",
                     "start": 422,
                     "end": 429,
-                    "value": "123456n"
+                    "value": "123456n",
+                    "raw": "123456n"
                   },
                   {
                     "type": "Literal",
                     "start": 431,
                     "end": 436,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   }
                 ]
               }
@@ -269,7 +272,8 @@
             "type": "Literal",
             "start": 503,
             "end": 514,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -346,7 +350,8 @@
                   "type": "Literal",
                   "start": 561,
                   "end": 565,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "Identifier",
@@ -362,7 +367,8 @@
             "type": "Literal",
             "start": 574,
             "end": 580,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -439,7 +445,8 @@
                   "type": "Literal",
                   "start": 627,
                   "end": 631,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 {
                   "type": "Identifier",
@@ -455,7 +462,8 @@
             "type": "Literal",
             "start": 640,
             "end": 646,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           }
         ],
         "optional": false
@@ -532,7 +540,8 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 695,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 },
                 {
                   "type": "Identifier",
@@ -548,7 +557,8 @@
             "type": "Literal",
             "start": 704,
             "end": 718,
-            "value": "empty string"
+            "value": "empty string",
+            "raw": "\"empty string\""
           }
         ],
         "optional": false
@@ -648,7 +658,8 @@
             "type": "Literal",
             "start": 782,
             "end": 790,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           }
         ],
         "optional": false
@@ -725,7 +736,8 @@
                   "type": "Literal",
                   "start": 837,
                   "end": 838,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Identifier",
@@ -741,7 +753,8 @@
             "type": "Literal",
             "start": 847,
             "end": 850,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           }
         ],
         "optional": false
@@ -834,7 +847,8 @@
             "type": "Literal",
             "start": 908,
             "end": 922,
-            "value": "plain object"
+            "value": "plain object",
+            "raw": "\"plain object\""
           }
         ],
         "optional": false
@@ -940,7 +954,8 @@
             "type": "Literal",
             "start": 1000,
             "end": 1024,
-            "value": "Temporal.ZonedDateTime"
+            "value": "Temporal.ZonedDateTime",
+            "raw": "\"Temporal.ZonedDateTime\""
           }
         ],
         "optional": false
@@ -1059,7 +1074,8 @@
             "type": "Literal",
             "start": 1112,
             "end": 1146,
-            "value": "Temporal.ZonedDateTime.prototype"
+            "value": "Temporal.ZonedDateTime.prototype",
+            "raw": "\"Temporal.ZonedDateTime.prototype\""
           }
         ],
         "optional": false

@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 377,
-                "value": "getUTCHours"
+                "value": "getUTCHours",
+                "raw": "\"getUTCHours\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 382,
             "end": 386,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 453,
-            "value": "Date.prototype.hasOwnProperty(\"getUTCHours\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"getUTCHours\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"getUTCHours\") must return true'"
           }
         ],
         "optional": false

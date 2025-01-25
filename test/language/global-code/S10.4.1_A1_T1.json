@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 428,
             "end": 429,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -59,7 +60,8 @@
           "type": "Literal",
           "start": 447,
           "end": 448,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 524,
-                  "value": "#1: variable x is a property of global object"
+                  "value": "#1: variable x is a property of global object",
+                  "raw": "\"#1: variable x is a property of global object\""
                 }
               ]
             }
@@ -133,7 +136,8 @@
           "type": "Literal",
           "start": 551,
           "end": 556,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -160,7 +164,8 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 634,
-                  "value": "#2: variable x has property attribute DontDelete"
+                  "value": "#2: variable x has property attribute DontDelete",
+                  "raw": "\"#2: variable x has property attribute DontDelete\""
                 }
               ]
             }

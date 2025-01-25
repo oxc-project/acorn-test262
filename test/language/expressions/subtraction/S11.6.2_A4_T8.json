@@ -111,7 +111,8 @@
                     "type": "Literal",
                     "start": 478,
                     "end": 559,
-                    "value": "#1: Number.MAX_VALUE - -Number.MAX_VALUE === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#1: Number.MAX_VALUE - -Number.MAX_VALUE === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#1: Number.MAX_VALUE - -Number.MAX_VALUE === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -286,7 +287,8 @@
                     "type": "Literal",
                     "start": 714,
                     "end": 794,
-                    "value": "#2: -Number.MAX_VALUE - umber.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: "
+                    "value": "#2: -Number.MAX_VALUE - umber.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: ",
+                    "raw": "'#2: -Number.MAX_VALUE - umber.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -369,7 +371,8 @@
             "type": "Literal",
             "start": 855,
             "end": 861,
-            "value": 1e+308
+            "value": 1e+308,
+            "raw": "1e+308"
           },
           "operator": "-",
           "right": {
@@ -382,7 +385,8 @@
               "type": "Literal",
               "start": 865,
               "end": 871,
-              "value": 1e+308
+              "value": 1e+308,
+              "raw": "1e+308"
             }
           }
         },
@@ -435,7 +439,8 @@
                     "type": "Literal",
                     "start": 929,
                     "end": 990,
-                    "value": "#3: 1e+308 - -1e+308 === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#3: 1e+308 - -1e+308 === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#3: 1e+308 - -1e+308 === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -450,7 +455,8 @@
                         "type": "Literal",
                         "start": 994,
                         "end": 1000,
-                        "value": 1e+308
+                        "value": 1e+308,
+                        "raw": "1e+308"
                       },
                       "operator": "-",
                       "right": {
@@ -463,7 +469,8 @@
                           "type": "Literal",
                           "start": 1004,
                           "end": 1010,
-                          "value": 1e+308
+                          "value": 1e+308,
+                          "raw": "1e+308"
                         }
                       }
                     }
@@ -498,7 +505,8 @@
               "type": "Literal",
               "start": 1032,
               "end": 1041,
-              "value": 8.99e+307
+              "value": 8.99e+307,
+              "raw": "8.99e+307"
             }
           },
           "operator": "-",
@@ -506,7 +514,8 @@
             "type": "Literal",
             "start": 1044,
             "end": 1053,
-            "value": 8.99e+307
+            "value": 8.99e+307,
+            "raw": "8.99e+307"
           }
         },
         "operator": "!==",
@@ -558,7 +567,8 @@
                     "type": "Literal",
                     "start": 1111,
                     "end": 1178,
-                    "value": "#4: -8.99e+307 - 8.99e+307 === Number.NEGATIVE_INFINITY. Actual: "
+                    "value": "#4: -8.99e+307 - 8.99e+307 === Number.NEGATIVE_INFINITY. Actual: ",
+                    "raw": "'#4: -8.99e+307 - 8.99e+307 === Number.NEGATIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -579,7 +589,8 @@
                           "type": "Literal",
                           "start": 1183,
                           "end": 1192,
-                          "value": 8.99e+307
+                          "value": 8.99e+307,
+                          "raw": "8.99e+307"
                         }
                       },
                       "operator": "-",
@@ -587,7 +598,8 @@
                         "type": "Literal",
                         "start": 1195,
                         "end": 1204,
-                        "value": 8.99e+307
+                        "value": 8.99e+307,
+                        "raw": "8.99e+307"
                       }
                     }
                   }

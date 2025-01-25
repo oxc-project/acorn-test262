@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 537,
                               "end": 545,
-                              "value": 71040
+                              "value": 71040,
+                              "raw": "0x011580"
                             },
                             {
                               "type": "Literal",
                               "start": 547,
                               "end": 555,
-                              "value": 71093
+                              "value": 71093,
+                              "raw": "0x0115B5"
                             }
                           ]
                         },
@@ -101,13 +103,15 @@
                               "type": "Literal",
                               "start": 563,
                               "end": 571,
-                              "value": 71096
+                              "value": 71096,
+                              "raw": "0x0115B8"
                             },
                             {
                               "type": "Literal",
                               "start": 573,
                               "end": 581,
-                              "value": 71133
+                              "value": 71133,
+                              "raw": "0x0115DD"
                             }
                           ]
                         }
@@ -144,6 +148,7 @@
             "start": 614,
             "end": 649,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Siddham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Siddham}+$",
               "flags": "u"
@@ -159,7 +164,8 @@
             "type": "Literal",
             "start": 669,
             "end": 701,
-            "value": "\\p{Script_Extensions=Siddham}"
+            "value": "\\p{Script_Extensions=Siddham}",
+            "raw": "\"\\\\p{Script_Extensions=Siddham}\""
           }
         ],
         "optional": false
@@ -185,6 +191,7 @@
             "start": 728,
             "end": 760,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Sidd}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sidd}+$",
               "flags": "u"
@@ -200,7 +207,8 @@
             "type": "Literal",
             "start": 780,
             "end": 809,
-            "value": "\\p{Script_Extensions=Sidd}"
+            "value": "\\p{Script_Extensions=Sidd}",
+            "raw": "\"\\\\p{Script_Extensions=Sidd}\""
           }
         ],
         "optional": false
@@ -226,6 +234,7 @@
             "start": 836,
             "end": 857,
             "value": {},
+            "raw": "/^\\p{scx=Siddham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Siddham}+$",
               "flags": "u"
@@ -241,7 +250,8 @@
             "type": "Literal",
             "start": 877,
             "end": 895,
-            "value": "\\p{scx=Siddham}"
+            "value": "\\p{scx=Siddham}",
+            "raw": "\"\\\\p{scx=Siddham}\""
           }
         ],
         "optional": false
@@ -267,6 +277,7 @@
             "start": 922,
             "end": 940,
             "value": {},
+            "raw": "/^\\p{scx=Sidd}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sidd}+$",
               "flags": "u"
@@ -282,7 +293,8 @@
             "type": "Literal",
             "start": 960,
             "end": 975,
-            "value": "\\p{scx=Sidd}"
+            "value": "\\p{scx=Sidd}",
+            "raw": "\"\\\\p{scx=Sidd}\""
           }
         ],
         "optional": false
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1057,
                               "end": 1065,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1067,
                               "end": 1075,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1083,
                               "end": 1091,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1093,
                               "end": 1101,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1109,
                               "end": 1117,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1119,
                               "end": 1127,
-                              "value": 71039
+                              "value": 71039,
+                              "raw": "0x01157F"
                             }
                           ]
                         },
@@ -424,13 +442,15 @@
                               "type": "Literal",
                               "start": 1135,
                               "end": 1143,
-                              "value": 71094
+                              "value": 71094,
+                              "raw": "0x0115B6"
                             },
                             {
                               "type": "Literal",
                               "start": 1145,
                               "end": 1153,
-                              "value": 71095
+                              "value": 71095,
+                              "raw": "0x0115B7"
                             }
                           ]
                         },
@@ -443,13 +463,15 @@
                               "type": "Literal",
                               "start": 1161,
                               "end": 1169,
-                              "value": 71134
+                              "value": 71134,
+                              "raw": "0x0115DE"
                             },
                             {
                               "type": "Literal",
                               "start": 1171,
                               "end": 1179,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -486,6 +508,7 @@
             "start": 1212,
             "end": 1247,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Siddham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Siddham}+$",
               "flags": "u"
@@ -501,7 +524,8 @@
             "type": "Literal",
             "start": 1270,
             "end": 1302,
-            "value": "\\P{Script_Extensions=Siddham}"
+            "value": "\\P{Script_Extensions=Siddham}",
+            "raw": "\"\\\\P{Script_Extensions=Siddham}\""
           }
         ],
         "optional": false
@@ -527,6 +551,7 @@
             "start": 1329,
             "end": 1361,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Sidd}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sidd}+$",
               "flags": "u"
@@ -542,7 +567,8 @@
             "type": "Literal",
             "start": 1384,
             "end": 1413,
-            "value": "\\P{Script_Extensions=Sidd}"
+            "value": "\\P{Script_Extensions=Sidd}",
+            "raw": "\"\\\\P{Script_Extensions=Sidd}\""
           }
         ],
         "optional": false
@@ -568,6 +594,7 @@
             "start": 1440,
             "end": 1461,
             "value": {},
+            "raw": "/^\\P{scx=Siddham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Siddham}+$",
               "flags": "u"
@@ -583,7 +610,8 @@
             "type": "Literal",
             "start": 1484,
             "end": 1502,
-            "value": "\\P{scx=Siddham}"
+            "value": "\\P{scx=Siddham}",
+            "raw": "\"\\\\P{scx=Siddham}\""
           }
         ],
         "optional": false
@@ -609,6 +637,7 @@
             "start": 1529,
             "end": 1547,
             "value": {},
+            "raw": "/^\\P{scx=Sidd}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sidd}+$",
               "flags": "u"
@@ -624,7 +653,8 @@
             "type": "Literal",
             "start": 1570,
             "end": 1585,
-            "value": "\\P{scx=Sidd}"
+            "value": "\\P{scx=Sidd}",
+            "raw": "\"\\\\P{scx=Sidd}\""
           }
         ],
         "optional": false

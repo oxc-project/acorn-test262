@@ -76,7 +76,8 @@
                             "type": "Literal",
                             "start": 961,
                             "end": 982,
-                            "value": "./throws_FIXTURE.js"
+                            "value": "./throws_FIXTURE.js",
+                            "raw": "\"./throws_FIXTURE.js\""
                           },
                           "options": null
                         },
@@ -193,7 +194,8 @@
                         "type": "Literal",
                         "start": 1047,
                         "end": 1078,
-                        "value": "the error from throws_FIXTURE"
+                        "value": "the error from throws_FIXTURE",
+                        "raw": "\"the error from throws_FIXTURE\""
                       }
                     ],
                     "optional": false
@@ -248,7 +250,8 @@
                             "type": "Literal",
                             "start": 1112,
                             "end": 1146,
-                            "value": "./import-defer-throws_FIXTURE.js"
+                            "value": "./import-defer-throws_FIXTURE.js",
+                            "raw": "\"./import-defer-throws_FIXTURE.js\""
                           },
                           "options": null
                         }
@@ -404,7 +407,8 @@
                         "type": "Literal",
                         "start": 1247,
                         "end": 1337,
-                        "value": "Evaluation errors are thrown for modules evaluated before getting the deferred namespace"
+                        "value": "Evaluation errors are thrown for modules evaluated before getting the deferred namespace",
+                        "raw": "\"Evaluation errors are thrown for modules evaluated before getting the deferred namespace\""
                       }
                     ],
                     "optional": false

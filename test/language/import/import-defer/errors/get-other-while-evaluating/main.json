@@ -12,7 +12,8 @@
         "type": "Literal",
         "start": 1574,
         "end": 1592,
-        "value": "./dep_FIXTURE.js"
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -49,7 +50,8 @@
                 "type": "Literal",
                 "start": 1613,
                 "end": 1632,
-                "value": "error on main.foo"
+                "value": "error on main.foo",
+                "raw": "\"error on main.foo\""
               },
               "computed": true,
               "optional": false
@@ -66,7 +68,8 @@
             "type": "Literal",
             "start": 1656,
             "end": 1702,
-            "value": "main.foo while evaluating throws a TypeError"
+            "value": "main.foo while evaluating throws a TypeError",
+            "raw": "\"main.foo while evaluating throws a TypeError\""
           }
         ],
         "optional": false

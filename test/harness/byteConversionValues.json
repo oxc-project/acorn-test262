@@ -122,7 +122,8 @@
               "type": "Literal",
               "start": 374,
               "end": 375,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -212,7 +213,8 @@
             "type": "Literal",
             "start": 435,
             "end": 444,
-            "value": "Float32"
+            "value": "Float32",
+            "raw": "\"Float32\""
           }
         ],
         "optional": false
@@ -301,7 +303,8 @@
             "type": "Literal",
             "start": 504,
             "end": 513,
-            "value": "Float64"
+            "value": "Float64",
+            "raw": "\"Float64\""
           }
         ],
         "optional": false
@@ -390,7 +393,8 @@
             "type": "Literal",
             "start": 570,
             "end": 576,
-            "value": "Int8"
+            "value": "Int8",
+            "raw": "\"Int8\""
           }
         ],
         "optional": false
@@ -479,7 +483,8 @@
             "type": "Literal",
             "start": 634,
             "end": 641,
-            "value": "Int16"
+            "value": "Int16",
+            "raw": "\"Int16\""
           }
         ],
         "optional": false
@@ -568,7 +573,8 @@
             "type": "Literal",
             "start": 699,
             "end": 706,
-            "value": "Int32"
+            "value": "Int32",
+            "raw": "\"Int32\""
           }
         ],
         "optional": false
@@ -657,7 +663,8 @@
             "type": "Literal",
             "start": 764,
             "end": 771,
-            "value": "Uint8"
+            "value": "Uint8",
+            "raw": "\"Uint8\""
           }
         ],
         "optional": false
@@ -746,7 +753,8 @@
             "type": "Literal",
             "start": 830,
             "end": 838,
-            "value": "Uint16"
+            "value": "Uint16",
+            "raw": "\"Uint16\""
           }
         ],
         "optional": false
@@ -835,7 +843,8 @@
             "type": "Literal",
             "start": 897,
             "end": 905,
-            "value": "Uint32"
+            "value": "Uint32",
+            "raw": "\"Uint32\""
           }
         ],
         "optional": false
@@ -924,7 +933,8 @@
             "type": "Literal",
             "start": 970,
             "end": 984,
-            "value": "Uint8Clamped"
+            "value": "Uint8Clamped",
+            "raw": "\"Uint8Clamped\""
           }
         ],
         "optional": false

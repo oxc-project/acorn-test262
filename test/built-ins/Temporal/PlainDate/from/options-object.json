@@ -90,7 +90,8 @@
                       "type": "Literal",
                       "start": 353,
                       "end": 357,
-                      "value": 1976
+                      "value": 1976,
+                      "raw": "1976"
                     },
                     "kind": "init"
                   },
@@ -111,7 +112,8 @@
                       "type": "Literal",
                       "start": 366,
                       "end": 368,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     },
                     "kind": "init"
                   },
@@ -132,7 +134,8 @@
                       "type": "Literal",
                       "start": 375,
                       "end": 377,
-                      "value": 18
+                      "value": 18,
+                      "raw": "18"
                     },
                     "kind": "init"
                   }
@@ -151,31 +154,36 @@
             "type": "Literal",
             "start": 386,
             "end": 390,
-            "value": 1976
+            "value": 1976,
+            "raw": "1976"
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 394,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 401,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 405,
-            "value": 18
+            "value": 18,
+            "raw": "18"
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 447,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -268,7 +276,8 @@
                       "type": "Literal",
                       "start": 519,
                       "end": 523,
-                      "value": 1976
+                      "value": 1976,
+                      "raw": "1976"
                     },
                     "kind": "init"
                   },
@@ -289,7 +298,8 @@
                       "type": "Literal",
                       "start": 532,
                       "end": 534,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     },
                     "kind": "init"
                   },
@@ -310,7 +320,8 @@
                       "type": "Literal",
                       "start": 541,
                       "end": 543,
-                      "value": 18
+                      "value": 18,
+                      "raw": "18"
                     },
                     "kind": "init"
                   }
@@ -339,31 +350,36 @@
             "type": "Literal",
             "start": 558,
             "end": 562,
-            "value": 1976
+            "value": 1976,
+            "raw": "1976"
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 566,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 573,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 577,
-            "value": 18
+            "value": 18,
+            "raw": "18"
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 622,
-            "value": "options may be an empty function object"
+            "value": "options may be an empty function object",
+            "raw": "\"options may be an empty function object\""
           }
         ],
         "optional": false

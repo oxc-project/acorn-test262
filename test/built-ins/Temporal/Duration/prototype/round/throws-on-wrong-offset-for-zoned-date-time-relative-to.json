@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 320,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 338,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 341,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 344,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 347,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -197,7 +207,8 @@
                         "type": "Literal",
                         "start": 409,
                         "end": 418,
-                        "value": "seconds"
+                        "value": "seconds",
+                        "raw": "\"seconds\""
                       },
                       "kind": "init"
                     },
@@ -218,7 +229,8 @@
                         "type": "Literal",
                         "start": 434,
                         "end": 469,
-                        "value": "1971-01-01T00:00+02:00[-00:44:30]"
+                        "value": "1971-01-01T00:00+02:00[-00:44:30]",
+                        "raw": "\"1971-01-01T00:00+02:00[-00:44:30]\""
                       },
                       "kind": "init"
                     }

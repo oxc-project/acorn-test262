@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 383,
                 "end": 504,
-                "value": "power of the power of the power of the power of the power of the power of the great sword"
+                "value": "power of the power of the power of the power of the power of the power of the great sword",
+                "raw": "\"power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the great sword\""
               }
             ]
           }
@@ -78,6 +79,7 @@
               "start": 616,
               "end": 620,
               "value": {},
+              "raw": "/of/",
               "regex": {
                 "pattern": "of",
                 "flags": ""
@@ -116,6 +118,7 @@
               "start": 641,
               "end": 646,
               "value": {},
+              "raw": "/of/g",
               "regex": {
                 "pattern": "of",
                 "flags": "g"
@@ -153,7 +156,8 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 892,
-                    "value": "#1: var aString = new String(\"power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the great sword\"); aString.search(/of/)=== aString.search(/of/g). Actual: "
+                    "value": "#1: var aString = new String(\"power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the power \\u006F\\u0066 the power of the great sword\"); aString.search(/of/)=== aString.search(/of/g). Actual: ",
+                    "raw": "'#1: var aString = new String(\"power \\\\u006F\\\\u0066 the power of the power \\\\u006F\\\\u0066 the power of the power \\\\u006F\\\\u0066 the power of the great sword\"); aString.search(/of/)=== aString.search(/of/g). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -185,6 +189,7 @@
                         "start": 910,
                         "end": 914,
                         "value": {},
+                        "raw": "/of/",
                         "regex": {
                           "pattern": "of",
                           "flags": ""

@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -58,7 +59,8 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 426,
-                  "value": "This code is unreachable (following `yield` statement)."
+                  "value": "This code is unreachable (following `yield` statement).",
+                  "raw": "'This code is unreachable (following `yield` statement).'"
                 }
               ]
             }
@@ -117,7 +119,8 @@
             "type": "Literal",
             "start": 464,
             "end": 465,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -218,7 +221,8 @@
                         "type": "Literal",
                         "start": 564,
                         "end": 621,
-                        "value": "This code is unreachable (following `break` statement)."
+                        "value": "This code is unreachable (following `break` statement).",
+                        "raw": "'This code is unreachable (following `break` statement).'"
                       }
                     ]
                   }
@@ -245,7 +249,8 @@
                   "type": "Literal",
                   "start": 654,
                   "end": 709,
-                  "value": "This code is unreachable (following `try` statement)."
+                  "value": "This code is unreachable (following `try` statement).",
+                  "raw": "'This code is unreachable (following `try` statement).'"
                 }
               ]
             }
@@ -291,7 +296,8 @@
             "type": "Literal",
             "start": 735,
             "end": 736,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

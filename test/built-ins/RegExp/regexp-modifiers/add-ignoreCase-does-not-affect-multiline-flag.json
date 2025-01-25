@@ -23,6 +23,7 @@
             "start": 2173,
             "end": 2183,
             "value": null,
+            "raw": "/(?i:es$)/",
             "regex": {
               "pattern": "(?i:es$)",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2201,
                 "end": 2205,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2208,
             "end": 2244,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2263,
                 "end": 2267,
-                "value": "eS"
+                "value": "eS",
+                "raw": "\"eS\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2270,
             "end": 2306,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -197,7 +202,8 @@
                   "type": "Literal",
                   "start": 2326,
                   "end": 2333,
-                  "value": "es\nz"
+                  "value": "es\nz",
+                  "raw": "\"es\\nz\""
                 }
               ],
               "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 2336,
             "end": 2382,
-            "value": "$ should not match newline in modified group"
+            "value": "$ should not match newline in modified group",
+            "raw": "\"$ should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -262,7 +269,8 @@
                   "type": "Literal",
                   "start": 2402,
                   "end": 2409,
-                  "value": "eS\nz"
+                  "value": "eS\nz",
+                  "raw": "\"eS\\nz\""
                 }
               ],
               "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2412,
             "end": 2458,
-            "value": "$ should not match newline in modified group"
+            "value": "$ should not match newline in modified group",
+            "raw": "\"$ should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -298,6 +307,7 @@
             "start": 2472,
             "end": 2483,
             "value": null,
+            "raw": "/(?i:es$)/m",
             "regex": {
               "pattern": "(?i:es$)",
               "flags": "m"
@@ -350,7 +360,8 @@
                 "type": "Literal",
                 "start": 2501,
                 "end": 2505,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -359,7 +370,8 @@
             "type": "Literal",
             "start": 2508,
             "end": 2544,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -408,7 +420,8 @@
                 "type": "Literal",
                 "start": 2563,
                 "end": 2567,
-                "value": "eS"
+                "value": "eS",
+                "raw": "\"eS\""
               }
             ],
             "optional": false
@@ -417,7 +430,8 @@
             "type": "Literal",
             "start": 2570,
             "end": 2606,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -466,7 +480,8 @@
                 "type": "Literal",
                 "start": 2625,
                 "end": 2632,
-                "value": "es\nz"
+                "value": "es\nz",
+                "raw": "\"es\\nz\""
               }
             ],
             "optional": false
@@ -475,7 +490,8 @@
             "type": "Literal",
             "start": 2635,
             "end": 2677,
-            "value": "$ should match newline in modified group"
+            "value": "$ should match newline in modified group",
+            "raw": "\"$ should match newline in modified group\""
           }
         ],
         "optional": false
@@ -524,7 +540,8 @@
                 "type": "Literal",
                 "start": 2696,
                 "end": 2703,
-                "value": "eS\nz"
+                "value": "eS\nz",
+                "raw": "\"eS\\nz\""
               }
             ],
             "optional": false
@@ -533,7 +550,8 @@
             "type": "Literal",
             "start": 2706,
             "end": 2748,
-            "value": "$ should match newline in modified group"
+            "value": "$ should match newline in modified group",
+            "raw": "\"$ should match newline in modified group\""
           }
         ],
         "optional": false
@@ -559,6 +577,7 @@
             "start": 2762,
             "end": 2773,
             "value": null,
+            "raw": "/(?i-:es$)/",
             "regex": {
               "pattern": "(?i-:es$)",
               "flags": ""
@@ -611,7 +630,8 @@
                 "type": "Literal",
                 "start": 2791,
                 "end": 2795,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -620,7 +640,8 @@
             "type": "Literal",
             "start": 2798,
             "end": 2834,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -669,7 +690,8 @@
                 "type": "Literal",
                 "start": 2853,
                 "end": 2857,
-                "value": "eS"
+                "value": "eS",
+                "raw": "\"eS\""
               }
             ],
             "optional": false
@@ -678,7 +700,8 @@
             "type": "Literal",
             "start": 2860,
             "end": 2896,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -733,7 +756,8 @@
                   "type": "Literal",
                   "start": 2916,
                   "end": 2923,
-                  "value": "es\nz"
+                  "value": "es\nz",
+                  "raw": "\"es\\nz\""
                 }
               ],
               "optional": false
@@ -743,7 +767,8 @@
             "type": "Literal",
             "start": 2926,
             "end": 2972,
-            "value": "$ should not match newline in modified group"
+            "value": "$ should not match newline in modified group",
+            "raw": "\"$ should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -798,7 +823,8 @@
                   "type": "Literal",
                   "start": 2992,
                   "end": 2999,
-                  "value": "eS\nz"
+                  "value": "eS\nz",
+                  "raw": "\"eS\\nz\""
                 }
               ],
               "optional": false
@@ -808,7 +834,8 @@
             "type": "Literal",
             "start": 3002,
             "end": 3048,
-            "value": "$ should not match newline in modified group"
+            "value": "$ should not match newline in modified group",
+            "raw": "\"$ should not match newline in modified group\""
           }
         ],
         "optional": false
@@ -834,6 +861,7 @@
             "start": 3062,
             "end": 3074,
             "value": null,
+            "raw": "/(?i-:es$)/m",
             "regex": {
               "pattern": "(?i-:es$)",
               "flags": "m"
@@ -886,7 +914,8 @@
                 "type": "Literal",
                 "start": 3092,
                 "end": 3096,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -895,7 +924,8 @@
             "type": "Literal",
             "start": 3099,
             "end": 3135,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -944,7 +974,8 @@
                 "type": "Literal",
                 "start": 3154,
                 "end": 3158,
-                "value": "eS"
+                "value": "eS",
+                "raw": "\"eS\""
               }
             ],
             "optional": false
@@ -953,7 +984,8 @@
             "type": "Literal",
             "start": 3161,
             "end": 3197,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -1002,7 +1034,8 @@
                 "type": "Literal",
                 "start": 3216,
                 "end": 3223,
-                "value": "es\nz"
+                "value": "es\nz",
+                "raw": "\"es\\nz\""
               }
             ],
             "optional": false
@@ -1011,7 +1044,8 @@
             "type": "Literal",
             "start": 3226,
             "end": 3268,
-            "value": "$ should match newline in modified group"
+            "value": "$ should match newline in modified group",
+            "raw": "\"$ should match newline in modified group\""
           }
         ],
         "optional": false
@@ -1060,7 +1094,8 @@
                 "type": "Literal",
                 "start": 3287,
                 "end": 3294,
-                "value": "eS\nz"
+                "value": "eS\nz",
+                "raw": "\"eS\\nz\""
               }
             ],
             "optional": false
@@ -1069,7 +1104,8 @@
             "type": "Literal",
             "start": 3297,
             "end": 3339,
-            "value": "$ should match newline in modified group"
+            "value": "$ should match newline in modified group",
+            "raw": "\"$ should match newline in modified group\""
           }
         ],
         "optional": false

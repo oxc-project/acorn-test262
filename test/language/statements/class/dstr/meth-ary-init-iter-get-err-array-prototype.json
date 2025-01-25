@@ -256,19 +256,22 @@
                             "type": "Literal",
                             "start": 2530,
                             "end": 2531,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2533,
                             "end": 2534,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 2536,
                             "end": 2537,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       }

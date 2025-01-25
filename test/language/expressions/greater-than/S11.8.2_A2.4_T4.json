@@ -34,7 +34,8 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -51,7 +52,8 @@
           "type": "Literal",
           "start": 336,
           "end": 341,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -78,7 +80,8 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 397,
-                  "value": "#1: (y = 1) > y === false"
+                  "value": "#1: (y = 1) > y === false",
+                  "raw": "'#1: (y = 1) > y === false'"
                 }
               ]
             }

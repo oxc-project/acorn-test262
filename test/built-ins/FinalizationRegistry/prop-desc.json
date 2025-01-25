@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 582,
             "end": 604,
-            "value": "FinalizationRegistry"
+            "value": "FinalizationRegistry",
+            "raw": "'FinalizationRegistry'"
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 627,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 641,
                   "end": 645,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 667,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

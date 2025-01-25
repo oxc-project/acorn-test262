@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 740,
             "end": 745,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 795,
-            "value": "isConstructor(Symbol.keyFor) must return false"
+            "value": "isConstructor(Symbol.keyFor) must return false",
+            "raw": "'isConstructor(Symbol.keyFor) must return false'"
           }
         ],
         "optional": false

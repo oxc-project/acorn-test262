@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 498,
-                "value": "/"
+                "value": "/",
+                "raw": "'/'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 501,
             "end": 506,
-            "value": "\\/"
+            "value": "\\/",
+            "raw": "'\\\\/'"
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 548,
-            "value": "solidus character is escaped correctly"
+            "value": "solidus character is escaped correctly",
+            "raw": "'solidus character is escaped correctly'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 586,
-                "value": "//"
+                "value": "//",
+                "raw": "'//'"
               }
             ],
             "optional": false
@@ -145,13 +149,15 @@
             "type": "Literal",
             "start": 589,
             "end": 597,
-            "value": "\\/\\/"
+            "value": "\\/\\/",
+            "raw": "'\\\\/\\\\/'"
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 664,
-            "value": "solidus character is escaped correctly - multiple occurrences 1"
+            "value": "solidus character is escaped correctly - multiple occurrences 1",
+            "raw": "'solidus character is escaped correctly - multiple occurrences 1'"
           }
         ],
         "optional": false
@@ -213,7 +219,8 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 703,
-                "value": "///"
+                "value": "///",
+                "raw": "'///'"
               }
             ],
             "optional": false
@@ -222,13 +229,15 @@
             "type": "Literal",
             "start": 706,
             "end": 717,
-            "value": "\\/\\/\\/"
+            "value": "\\/\\/\\/",
+            "raw": "'\\\\/\\\\/\\\\/'"
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 784,
-            "value": "solidus character is escaped correctly - multiple occurrences 2"
+            "value": "solidus character is escaped correctly - multiple occurrences 2",
+            "raw": "'solidus character is escaped correctly - multiple occurrences 2'"
           }
         ],
         "optional": false
@@ -290,7 +299,8 @@
                 "type": "Literal",
                 "start": 818,
                 "end": 824,
-                "value": "////"
+                "value": "////",
+                "raw": "'////'"
               }
             ],
             "optional": false
@@ -299,13 +309,15 @@
             "type": "Literal",
             "start": 827,
             "end": 841,
-            "value": "\\/\\/\\/\\/"
+            "value": "\\/\\/\\/\\/",
+            "raw": "'\\\\/\\\\/\\\\/\\\\/'"
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 908,
-            "value": "solidus character is escaped correctly - multiple occurrences 3"
+            "value": "solidus character is escaped correctly - multiple occurrences 3",
+            "raw": "'solidus character is escaped correctly - multiple occurrences 3'"
           }
         ],
         "optional": false

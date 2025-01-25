@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 736,
-                "value": "first"
+                "value": "first",
+                "raw": "\"first\""
               },
               {
                 "type": "Literal",
                 "start": 738,
                 "end": 746,
-                "value": "second"
+                "value": "second",
+                "raw": "\"second\""
               },
               {
                 "type": "Literal",
                 "start": 748,
                 "end": 755,
-                "value": "third"
+                "value": "third",
+                "raw": "\"third\""
               }
             ]
           }

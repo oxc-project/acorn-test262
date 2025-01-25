@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 775,
+  "end": 774,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 557,
-      "end": 608,
+      "start": 556,
+      "end": 607,
       "expression": {
         "type": "CallExpression",
-        "start": 557,
-        "end": 607,
+        "start": 556,
+        "end": 606,
         "callee": {
           "type": "MemberExpression",
-          "start": 557,
-          "end": 573,
+          "start": 556,
+          "end": 572,
           "object": {
             "type": "Identifier",
-            "start": 557,
-            "end": 563,
+            "start": 556,
+            "end": 562,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 564,
-            "end": 573,
+            "start": 563,
+            "end": 572,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 574,
-            "end": 603,
+            "start": 573,
+            "end": 602,
             "object": {
               "type": "Identifier",
-              "start": 574,
-              "end": 585,
+              "start": 573,
+              "end": 584,
               "name": "Uint32Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 586,
-              "end": 603,
+              "start": 585,
+              "end": 602,
               "name": "BYTES_PER_ELEMENT"
             },
             "computed": false,
@@ -52,9 +52,10 @@
           },
           {
             "type": "Literal",
-            "start": 605,
-            "end": 606,
-            "value": 4
+            "start": 604,
+            "end": 605,
+            "value": 4,
+            "raw": "4"
           }
         ],
         "optional": false
@@ -62,30 +63,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 610,
-      "end": 664,
+      "start": 609,
+      "end": 663,
       "expression": {
         "type": "CallExpression",
-        "start": 610,
-        "end": 663,
+        "start": 609,
+        "end": 662,
         "callee": {
           "type": "Identifier",
-          "start": 610,
-          "end": 629,
+          "start": 609,
+          "end": 628,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 630,
-            "end": 641,
+            "start": 629,
+            "end": 640,
             "name": "Uint32Array"
           },
           {
             "type": "Literal",
-            "start": 643,
-            "end": 662,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 642,
+            "end": 661,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -93,30 +95,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 665,
-      "end": 717,
+      "start": 664,
+      "end": 716,
       "expression": {
         "type": "CallExpression",
-        "start": 665,
-        "end": 716,
+        "start": 664,
+        "end": 715,
         "callee": {
           "type": "Identifier",
-          "start": 665,
-          "end": 682,
+          "start": 664,
+          "end": 681,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 683,
-            "end": 694,
+            "start": 682,
+            "end": 693,
             "name": "Uint32Array"
           },
           {
             "type": "Literal",
-            "start": 696,
-            "end": 715,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 695,
+            "end": 714,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -124,30 +127,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 718,
-      "end": 774,
+      "start": 717,
+      "end": 773,
       "expression": {
         "type": "CallExpression",
-        "start": 718,
-        "end": 773,
+        "start": 717,
+        "end": 772,
         "callee": {
           "type": "Identifier",
-          "start": 718,
-          "end": 739,
+          "start": 717,
+          "end": 738,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 740,
-            "end": 751,
+            "start": 739,
+            "end": 750,
             "name": "Uint32Array"
           },
           {
             "type": "Literal",
-            "start": 753,
-            "end": 772,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 752,
+            "end": 771,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false

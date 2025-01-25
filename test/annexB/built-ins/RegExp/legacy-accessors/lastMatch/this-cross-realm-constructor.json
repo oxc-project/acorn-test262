@@ -147,7 +147,8 @@
                         "type": "Literal",
                         "start": 727,
                         "end": 738,
-                        "value": "lastMatch"
+                        "value": "lastMatch",
+                        "raw": "\"lastMatch\""
                       },
                       {
                         "type": "MemberExpression",
@@ -179,7 +180,8 @@
             "type": "Literal",
             "start": 762,
             "end": 819,
-            "value": "RegExp.lastMatch getter throws for cross-realm receiver"
+            "value": "RegExp.lastMatch getter throws for cross-realm receiver",
+            "raw": "\"RegExp.lastMatch getter throws for cross-realm receiver\""
           }
         ],
         "optional": false
@@ -271,7 +273,8 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 896,
-                        "value": "$&"
+                        "value": "$&",
+                        "raw": "\"$&\""
                       },
                       {
                         "type": "MemberExpression",
@@ -303,7 +306,8 @@
             "type": "Literal",
             "start": 920,
             "end": 970,
-            "value": "RegExp.$& getter throws for cross-realm receiver"
+            "value": "RegExp.$& getter throws for cross-realm receiver",
+            "raw": "\"RegExp.$& getter throws for cross-realm receiver\""
           }
         ],
         "optional": false

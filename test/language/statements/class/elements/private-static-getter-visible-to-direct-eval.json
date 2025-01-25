@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 1794,
                       "end": 1803,
-                      "value": "Test262"
+                      "value": "Test262",
+                      "raw": "'Test262'"
                     }
                   }
                 ]
@@ -107,7 +108,8 @@
                           "type": "Literal",
                           "start": 1851,
                           "end": 1860,
-                          "value": "this.#m"
+                          "value": "this.#m",
+                          "raw": "'this.#m'"
                         }
                       ],
                       "optional": false
@@ -182,7 +184,8 @@
                           "type": "Literal",
                           "start": 1927,
                           "end": 1953,
-                          "value": "should never be executed"
+                          "value": "should never be executed",
+                          "raw": "'should never be executed'"
                         }
                       ]
                     }
@@ -252,7 +255,8 @@
             "type": "Literal",
             "start": 1997,
             "end": 2006,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "'Test262'"
           }
         ],
         "optional": false
@@ -364,7 +368,8 @@
             "type": "Literal",
             "start": 2076,
             "end": 2119,
-            "value": "invalid access to a static private getter"
+            "value": "invalid access to a static private getter",
+            "raw": "'invalid access to a static private getter'"
           }
         ],
         "optional": false

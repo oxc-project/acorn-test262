@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 772,
             "end": 776,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 823,
-            "value": "isConstructor(Uint16Array) must return true"
+            "value": "isConstructor(Uint16Array) must return true",
+            "raw": "'isConstructor(Uint16Array) must return true'"
           }
         ],
         "optional": false

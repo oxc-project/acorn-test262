@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 640,
             "end": 659,
-            "value": "SharedArrayBuffer"
+            "value": "SharedArrayBuffer",
+            "raw": "'SharedArrayBuffer'"
           }
         ],
         "optional": false
@@ -161,7 +162,8 @@
                   "type": "Literal",
                   "start": 741,
                   "end": 746,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -182,7 +184,8 @@
                   "type": "Literal",
                   "start": 762,
                   "end": 767,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -203,7 +206,8 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 789,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

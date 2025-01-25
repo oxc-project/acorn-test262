@@ -126,7 +126,8 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 371,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -135,7 +136,8 @@
             "type": "Literal",
             "start": 374,
             "end": 413,
-            "value": "newObj.hasOwnProperty(\"foo\") !== true"
+            "value": "newObj.hasOwnProperty(\"foo\") !== true",
+            "raw": "'newObj.hasOwnProperty(\"foo\") !== true'"
           }
         ],
         "optional": false

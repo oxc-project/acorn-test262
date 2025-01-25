@@ -23,6 +23,7 @@
             "start": 1789,
             "end": 1801,
             "value": null,
+            "raw": "/(?-s:^.$)/s",
             "regex": {
               "pattern": "(?-s:^.$)",
               "flags": "s"
@@ -70,7 +71,8 @@
             "type": "Literal",
             "start": 1822,
             "end": 1871,
-            "value": "RegExp instance dotAll flag should still be set"
+            "value": "RegExp instance dotAll flag should still be set",
+            "raw": "\"RegExp instance dotAll flag should still be set\""
           }
         ],
         "optional": false
@@ -106,13 +108,15 @@
                 "type": "Literal",
                 "start": 1896,
                 "end": 1907,
-                "value": "(?-s:^.$)"
+                "value": "(?-s:^.$)",
+                "raw": "\"(?-s:^.$)\""
               },
               {
                 "type": "Literal",
                 "start": 1909,
                 "end": 1912,
-                "value": "s"
+                "value": "s",
+                "raw": "\"s\""
               }
             ]
           }
@@ -158,7 +162,8 @@
             "type": "Literal",
             "start": 1934,
             "end": 1983,
-            "value": "RegExp instance dotAll flag should still be set"
+            "value": "RegExp instance dotAll flag should still be set",
+            "raw": "\"RegExp instance dotAll flag should still be set\""
           }
         ],
         "optional": false

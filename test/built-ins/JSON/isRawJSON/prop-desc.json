@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 580,
             "end": 591,
-            "value": "isRawJSON"
+            "value": "isRawJSON",
+            "raw": "'isRawJSON'"
           },
           {
             "type": "ObjectExpression",
@@ -52,7 +53,8 @@
                   "type": "Literal",
                   "start": 609,
                   "end": 614,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -73,7 +75,8 @@
                   "type": "Literal",
                   "start": 628,
                   "end": 632,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -94,7 +97,8 @@
                   "type": "Literal",
                   "start": 650,
                   "end": 654,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

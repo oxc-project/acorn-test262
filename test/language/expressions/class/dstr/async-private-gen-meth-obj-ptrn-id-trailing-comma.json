@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1918,
             "end": 1919,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -148,7 +149,8 @@
                                 "type": "Literal",
                                 "start": 1989,
                                 "end": 1991,
-                                "value": 23
+                                "value": 23,
+                                "raw": "23"
                               }
                             ],
                             "optional": false
@@ -184,7 +186,8 @@
                                 "type": "Literal",
                                 "start": 2022,
                                 "end": 2023,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -334,7 +337,8 @@
                               "type": "Literal",
                               "start": 2100,
                               "end": 2102,
-                              "value": 23
+                              "value": 23,
+                              "raw": "23"
                             },
                             "kind": "init"
                           }
@@ -417,13 +421,15 @@
                             "type": "Literal",
                             "start": 2158,
                             "end": 2159,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2161,
                             "end": 2183,
-                            "value": "invoked exactly once"
+                            "value": "invoked exactly once",
+                            "raw": "'invoked exactly once'"
                           }
                         ],
                         "optional": false

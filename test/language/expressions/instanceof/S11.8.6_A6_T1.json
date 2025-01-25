@@ -58,7 +58,8 @@
                   "type": "Literal",
                   "start": 403,
                   "end": 531,
-                  "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator"
+                  "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator",
+                  "raw": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'"
                 }
               ]
             }
@@ -111,7 +112,8 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 583,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -138,7 +140,8 @@
                           "type": "Literal",
                           "start": 614,
                           "end": 742,
-                          "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator"
+                          "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator",
+                          "raw": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'"
                         }
                       ]
                     }

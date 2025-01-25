@@ -35,7 +35,8 @@
           "type": "Literal",
           "start": 613,
           "end": 617,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -92,7 +93,8 @@
                         "type": "Literal",
                         "start": 640,
                         "end": 641,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   }
@@ -133,7 +135,8 @@
                       "type": "Literal",
                       "start": 669,
                       "end": 706,
-                      "value": "The promise should not be resolved."
+                      "value": "The promise should not be resolved.",
+                      "raw": "'The promise should not be resolved.'"
                     }
                   ],
                   "optional": false

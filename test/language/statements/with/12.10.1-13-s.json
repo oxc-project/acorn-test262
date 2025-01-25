@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 328,
               "end": 340,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "\"use strict\""
             }
           }
         ]

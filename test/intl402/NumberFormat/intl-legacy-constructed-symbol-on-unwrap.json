@@ -131,7 +131,8 @@
             "type": "Literal",
             "start": 459,
             "end": 463,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -156,7 +157,8 @@
             "type": "Literal",
             "start": 477,
             "end": 481,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -486,7 +488,8 @@
           "type": "Literal",
           "start": 866,
           "end": 870,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       },
       "consequent": {
@@ -539,7 +542,8 @@
                   "type": "Literal",
                   "start": 912,
                   "end": 920,
-                  "value": "symbol"
+                  "value": "symbol",
+                  "raw": "\"symbol\""
                 }
               ],
               "optional": false
@@ -596,7 +600,8 @@
                   "type": "Literal",
                   "start": 966,
                   "end": 995,
-                  "value": "IntlLegacyConstructedSymbol"
+                  "value": "IntlLegacyConstructedSymbol",
+                  "raw": "\"IntlLegacyConstructedSymbol\""
                 }
               ],
               "optional": false

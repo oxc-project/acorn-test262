@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 953,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 1024,
             "end": 1031,
-            "value": "value"
+            "value": "value",
+            "raw": "'value'"
           },
           {
             "type": "ObjectExpression",
@@ -411,7 +413,8 @@
                             "type": "Literal",
                             "start": 1263,
                             "end": 1296,
-                            "value": "The promise should be rejected."
+                            "value": "The promise should be rejected.",
+                            "raw": "'The promise should be rejected.'"
                           }
                         ],
                         "optional": false

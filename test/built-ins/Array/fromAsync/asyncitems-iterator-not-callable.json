@@ -66,13 +66,15 @@
                         "type": "Literal",
                         "start": 371,
                         "end": 375,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 377,
                         "end": 379,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "CallExpression",
@@ -91,13 +93,15 @@
                         "type": "Literal",
                         "start": 391,
                         "end": 392,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 394,
                         "end": 396,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       },
                       {
                         "type": "ObjectExpression",

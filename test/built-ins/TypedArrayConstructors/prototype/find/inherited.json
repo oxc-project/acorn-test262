@@ -108,7 +108,8 @@
                             "type": "Literal",
                             "start": 402,
                             "end": 408,
-                            "value": "find"
+                            "value": "find",
+                            "raw": "\"find\""
                           }
                         ],
                         "optional": false
@@ -117,7 +118,8 @@
                         "type": "Literal",
                         "start": 411,
                         "end": 416,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false

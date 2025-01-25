@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1342,
             "end": 1343,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -36,7 +37,8 @@
         "type": "Literal",
         "start": 1351,
         "end": 1355,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",

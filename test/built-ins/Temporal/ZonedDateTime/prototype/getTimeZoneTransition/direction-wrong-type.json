@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 421,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 428,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -84,25 +86,29 @@
                 "type": "Literal",
                 "start": 458,
                 "end": 463,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 467,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 472,
-                "value": "55n"
+                "value": "55n",
+                "raw": "55n"
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 478,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -249,7 +255,8 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 642,
-                  "value": "Non-Symbol throws a RangeError"
+                  "value": "Non-Symbol throws a RangeError",
+                  "raw": "\"Non-Symbol throws a RangeError\""
                 }
               ],
               "optional": false
@@ -358,7 +365,8 @@
                             "type": "Literal",
                             "start": 724,
                             "end": 730,
-                            "value": "next"
+                            "value": "next",
+                            "raw": "\"next\""
                           }
                         ],
                         "optional": false
@@ -375,7 +383,8 @@
             "type": "Literal",
             "start": 736,
             "end": 763,
-            "value": "Symbol throws a TypeError"
+            "value": "Symbol throws a TypeError",
+            "raw": "\"Symbol throws a TypeError\""
           }
         ],
         "optional": false

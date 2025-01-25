@@ -84,7 +84,8 @@
                     "type": "Literal",
                     "start": 450,
                     "end": 458,
-                    "value": "length"
+                    "value": "length",
+                    "raw": "'length'"
                   }
                 ],
                 "optional": false
@@ -95,7 +96,8 @@
             "type": "Literal",
             "start": 463,
             "end": 565,
-            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true"
+            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true'"
           }
         ],
         "optional": false
@@ -186,7 +188,8 @@
             "type": "Literal",
             "start": 637,
             "end": 728,
-            "value": "The value of !!delete Object.prototype.propertyIsEnumerable.length is expected to be true"
+            "value": "The value of !!delete Object.prototype.propertyIsEnumerable.length is expected to be true",
+            "raw": "'The value of !!delete Object.prototype.propertyIsEnumerable.length is expected to be true'"
           }
         ],
         "optional": false

@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 370,
           "end": 371,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -95,7 +96,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 398,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               "kind": "init"
             }
@@ -156,7 +158,8 @@
                       "type": "Literal",
                       "start": 453,
                       "end": 454,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -179,7 +182,8 @@
                       "type": "Literal",
                       "start": 466,
                       "end": 470,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 },
@@ -261,7 +265,8 @@
           "type": "Literal",
           "start": 630,
           "end": 631,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -292,7 +297,8 @@
                     "type": "Literal",
                     "start": 659,
                     "end": 697,
-                    "value": "#1: callee === 0. Actual: callee ==="
+                    "value": "#1: callee === 0. Actual: callee ===",
+                    "raw": "'#1: callee === 0. Actual: callee ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -341,7 +347,8 @@
           "type": "Literal",
           "start": 902,
           "end": 905,
-          "value": "a"
+          "value": "a",
+          "raw": "\"a\""
         }
       },
       "consequent": {
@@ -372,7 +379,8 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 985,
-                    "value": "#2: __obj.callee === \"a\". Actual: __obj.callee ==="
+                    "value": "#2: __obj.callee === \"a\". Actual: __obj.callee ===",
+                    "raw": "'#2: __obj.callee === \"a\". Actual: __obj.callee ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -434,7 +442,8 @@
           "type": "Literal",
           "start": 1197,
           "end": 1198,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -465,7 +474,8 @@
                     "type": "Literal",
                     "start": 1226,
                     "end": 1278,
-                    "value": "#3: result.callee === 1. Actual: result.callee ==="
+                    "value": "#3: result.callee === 1. Actual: result.callee ===",
+                    "raw": "'#3: result.callee === 1. Actual: result.callee ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -557,7 +567,8 @@
                     "type": "Literal",
                     "start": 1510,
                     "end": 1551,
-                    "value": "#4: this.b === true. Actual: this.b ==="
+                    "value": "#4: this.b === true. Actual: this.b ===",
+                    "raw": "'#4: this.b === true. Actual: this.b ==='"
                   },
                   "operator": "+",
                   "right": {

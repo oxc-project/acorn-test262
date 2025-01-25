@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 652,
                 "end": 667,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -72,7 +73,8 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 702,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -304,13 +306,15 @@
             "type": "Literal",
             "start": 813,
             "end": 817,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 819,
             "end": 852,
-            "value": "Returns true for regular symbol"
+            "value": "Returns true for regular symbol",
+            "raw": "'Returns true for regular symbol'"
           }
         ],
         "optional": false
@@ -375,7 +379,8 @@
             "type": "Literal",
             "start": 875,
             "end": 911,
-            "value": "Regular symbol is removed from set"
+            "value": "Regular symbol is removed from set",
+            "raw": "'Regular symbol is removed from set'"
           }
         ],
         "optional": false
@@ -433,7 +438,8 @@
             "type": "Literal",
             "start": 933,
             "end": 998,
-            "value": "Symbols with the same description are not aliased to each other"
+            "value": "Symbols with the same description are not aliased to each other",
+            "raw": "'Symbols with the same description are not aliased to each other'"
           }
         ],
         "optional": false
@@ -517,13 +523,15 @@
             "type": "Literal",
             "start": 1049,
             "end": 1053,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1055,
             "end": 1091,
-            "value": "Returns true for well-known symbol"
+            "value": "Returns true for well-known symbol",
+            "raw": "'Returns true for well-known symbol'"
           }
         ],
         "optional": false
@@ -601,7 +609,8 @@
             "type": "Literal",
             "start": 1129,
             "end": 1168,
-            "value": "Well-known symbol is removed from set"
+            "value": "Well-known symbol is removed from set",
+            "raw": "'Well-known symbol is removed from set'"
           }
         ],
         "optional": false

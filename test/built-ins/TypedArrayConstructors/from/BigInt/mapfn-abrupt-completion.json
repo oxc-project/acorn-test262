@@ -1,67 +1,70 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 738,
+  "end": 736,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 506,
-      "end": 547,
+      "start": 504,
+      "end": 545,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 546,
+          "start": 508,
+          "end": 544,
           "id": {
             "type": "Identifier",
-            "start": 510,
-            "end": 516,
+            "start": 508,
+            "end": 514,
             "name": "source"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 519,
-            "end": 546,
+            "start": 517,
+            "end": 544,
             "properties": [
               {
                 "type": "Property",
-                "start": 523,
-                "end": 531,
+                "start": 521,
+                "end": 529,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 523,
-                  "end": 526,
-                  "value": "0"
+                  "start": 521,
+                  "end": 524,
+                  "value": "0",
+                  "raw": "\"0\""
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 528,
-                  "end": 531,
-                  "value": "42n"
+                  "start": 526,
+                  "end": 529,
+                  "value": "42n",
+                  "raw": "42n"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 535,
-                "end": 544,
+                "start": 533,
+                "end": 542,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 535,
-                  "end": 541,
+                  "start": 533,
+                  "end": 539,
                   "name": "length"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 543,
-                  "end": 544,
-                  "value": 2
+                  "start": 541,
+                  "end": 542,
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               }
@@ -73,23 +76,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 548,
-      "end": 603,
+      "start": 546,
+      "end": 601,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 552,
-          "end": 602,
+          "start": 550,
+          "end": 600,
           "id": {
             "type": "Identifier",
-            "start": 552,
-            "end": 557,
+            "start": 550,
+            "end": 555,
             "name": "mapfn"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 560,
-            "end": 602,
+            "start": 558,
+            "end": 600,
             "id": null,
             "expression": false,
             "generator": false,
@@ -97,21 +100,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 571,
-              "end": 602,
+              "start": 569,
+              "end": 600,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 575,
-                  "end": 600,
+                  "start": 573,
+                  "end": 598,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 581,
-                    "end": 599,
+                    "start": 579,
+                    "end": 597,
                     "callee": {
                       "type": "Identifier",
-                      "start": 585,
-                      "end": 597,
+                      "start": 583,
+                      "end": 595,
                       "name": "Test262Error"
                     },
                     "arguments": []
@@ -126,23 +129,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 737,
+      "start": 603,
+      "end": 735,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 736,
+        "start": 603,
+        "end": 734,
         "callee": {
           "type": "Identifier",
-          "start": 605,
-          "end": 641,
+          "start": 603,
+          "end": 639,
           "name": "testWithBigIntTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 642,
-            "end": 735,
+            "start": 640,
+            "end": 733,
             "id": null,
             "expression": false,
             "generator": false,
@@ -150,38 +153,38 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 651,
-                "end": 653,
+                "start": 649,
+                "end": 651,
                 "name": "TA"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 655,
-              "end": 735,
+              "start": 653,
+              "end": 733,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 659,
-                  "end": 733,
+                  "start": 657,
+                  "end": 731,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 659,
-                    "end": 732,
+                    "start": 657,
+                    "end": 730,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 659,
-                      "end": 672,
+                      "start": 657,
+                      "end": 670,
                       "object": {
                         "type": "Identifier",
-                        "start": 659,
-                        "end": 665,
+                        "start": 657,
+                        "end": 663,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 666,
-                        "end": 672,
+                        "start": 664,
+                        "end": 670,
                         "name": "throws"
                       },
                       "computed": false,
@@ -190,14 +193,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 673,
-                        "end": 685,
+                        "start": 671,
+                        "end": 683,
                         "name": "Test262Error"
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 687,
-                        "end": 731,
+                        "start": 685,
+                        "end": 729,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -205,31 +208,31 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 698,
-                          "end": 731,
+                          "start": 696,
+                          "end": 729,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 704,
-                              "end": 727,
+                              "start": 702,
+                              "end": 725,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 704,
-                                "end": 726,
+                                "start": 702,
+                                "end": 724,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 704,
-                                  "end": 711,
+                                  "start": 702,
+                                  "end": 709,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 704,
-                                    "end": 706,
+                                    "start": 702,
+                                    "end": 704,
                                     "name": "TA"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 707,
-                                    "end": 711,
+                                    "start": 705,
+                                    "end": 709,
                                     "name": "from"
                                   },
                                   "computed": false,
@@ -238,14 +241,14 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 712,
-                                    "end": 718,
+                                    "start": 710,
+                                    "end": 716,
                                     "name": "source"
                                   },
                                   {
                                     "type": "Identifier",
-                                    "start": 720,
-                                    "end": 725,
+                                    "start": 718,
+                                    "end": 723,
                                     "name": "mapfn"
                                   }
                                 ],

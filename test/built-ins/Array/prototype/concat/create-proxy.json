@@ -414,7 +414,8 @@
             "type": "Literal",
             "start": 1104,
             "end": 1186,
-            "value": "Object.getPrototypeOf(Array.prototype.concat.call(proxy)) returns Ctor.prototype"
+            "value": "Object.getPrototypeOf(Array.prototype.concat.call(proxy)) returns Ctor.prototype",
+            "raw": "'Object.getPrototypeOf(Array.prototype.concat.call(proxy)) returns Ctor.prototype'"
           }
         ],
         "optional": false

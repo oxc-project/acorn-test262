@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 1230,
                 "end": 1234,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -159,7 +160,8 @@
             "type": "Literal",
             "start": 1318,
             "end": 1334,
-            "value": "`get` accessor"
+            "value": "`get` accessor",
+            "raw": "'`get` accessor'"
           }
         ],
         "optional": false
@@ -276,7 +278,8 @@
             "type": "Literal",
             "start": 1418,
             "end": 1434,
-            "value": "`set` accessor"
+            "value": "`set` accessor",
+            "raw": "'`set` accessor'"
           }
         ],
         "optional": false

@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 293,
             "end": 294,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -59,7 +60,8 @@
             "type": "Literal",
             "start": 303,
             "end": 304,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -95,7 +97,8 @@
               "type": "Literal",
               "start": 326,
               "end": 435,
-              "value": "while(__condition < 10) { __condition++; if (((''+__condition/2).split('.')).length>1) continue; __odds++;}"
+              "value": "while(__condition < 10) { __condition++; if (((''+__condition/2).split('.')).length>1) continue; __odds++;}",
+              "raw": "\"while(__condition < 10) { __condition++; if (((''+__condition/2).split('.')).length>1) continue; __odds++;}\""
             }
           ],
           "optional": false
@@ -121,7 +124,8 @@
           "type": "Literal",
           "start": 543,
           "end": 544,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -152,7 +156,8 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 611,
-                    "value": "#1: __odds === 5. Actual:  __odds ==="
+                    "value": "#1: __odds === 5. Actual:  __odds ===",
+                    "raw": "'#1: __odds === 5. Actual:  __odds ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +193,8 @@
           "type": "Literal",
           "start": 818,
           "end": 819,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "consequent": {
@@ -219,7 +225,8 @@
                     "type": "Literal",
                     "start": 847,
                     "end": 896,
-                    "value": "#2: __evaluated === 4. Actual:  __evaluated ==="
+                    "value": "#2: __evaluated === 4. Actual:  __evaluated ===",
+                    "raw": "'#2: __evaluated === 4. Actual:  __evaluated ==='"
                   },
                   "operator": "+",
                   "right": {

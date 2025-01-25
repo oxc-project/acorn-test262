@@ -64,13 +64,15 @@
                       "type": "Literal",
                       "start": 709,
                       "end": 710,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     {
                       "type": "Literal",
                       "start": 712,
                       "end": 714,
-                      "value": 53
+                      "value": 53,
+                      "raw": "53"
                     }
                   ],
                   "optional": false

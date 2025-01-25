@@ -142,7 +142,8 @@
                         "type": "Literal",
                         "start": 423,
                         "end": 428,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       "kind": "init"
                     },
@@ -163,7 +164,8 @@
                         "type": "Literal",
                         "start": 448,
                         "end": 452,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -231,13 +233,15 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 506,
-                  "value": "function"
+                  "value": "function",
+                  "raw": "'function'"
                 },
                 {
                   "type": "Literal",
                   "start": 508,
                   "end": 543,
-                  "value": "`typeof desc.get` is `'function'`"
+                  "value": "`typeof desc.get` is `'function'`",
+                  "raw": "\"`typeof desc.get` is `'function'`\""
                 }
               ],
               "optional": false
@@ -279,7 +283,8 @@
                     "type": "Literal",
                     "start": 565,
                     "end": 576,
-                    "value": "prototype"
+                    "value": "prototype",
+                    "raw": "'prototype'"
                   },
                   "operator": "in",
                   "right": {
@@ -306,13 +311,15 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 595,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 597,
                   "end": 649,
-                  "value": "The result of `'prototype' in desc.get` is `false`"
+                  "value": "The result of `'prototype' in desc.get` is `false`",
+                  "raw": "\"The result of `'prototype' in desc.get` is `false`\""
                 }
               ],
               "optional": false
@@ -375,7 +382,8 @@
                   "type": "Literal",
                   "start": 692,
                   "end": 732,
-                  "value": "The value of `desc.set` is `undefined`"
+                  "value": "The value of `desc.set` is `undefined`",
+                  "raw": "\"The value of `desc.set` is `undefined`\""
                 }
               ],
               "optional": false
@@ -435,7 +443,8 @@
                       "type": "Literal",
                       "start": 767,
                       "end": 768,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 ]
@@ -477,7 +486,8 @@
                       "type": "Literal",
                       "start": 804,
                       "end": 805,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   }
                 ]
@@ -519,7 +529,8 @@
                       "type": "Literal",
                       "start": 828,
                       "end": 829,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   }
                 ]
@@ -561,7 +572,8 @@
                       "type": "Literal",
                       "start": 865,
                       "end": 866,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -628,13 +640,15 @@
             "type": "Literal",
             "start": 901,
             "end": 902,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 973,
-            "value": "The value of `new C().x` is `1`. Defined as `get x() { return 1; }`"
+            "value": "The value of `new C().x` is `1`. Defined as `get x() { return 1; }`",
+            "raw": "\"The value of `new C().x` is `1`. Defined as `get x() { return 1; }`\""
           }
         ],
         "optional": false
@@ -691,13 +705,15 @@
             "type": "Literal",
             "start": 1004,
             "end": 1005,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1089,
-            "value": "The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`"
+            "value": "The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`",
+            "raw": "\"The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`\""
           }
         ],
         "optional": false
@@ -760,13 +776,15 @@
             "type": "Literal",
             "start": 1120,
             "end": 1121,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1192,
-            "value": "The value of `new C().y` is `3`. Defined as `get y() { return 3; }`"
+            "value": "The value of `new C().y` is `3`. Defined as `get y() { return 3; }`",
+            "raw": "\"The value of `new C().y` is `3`. Defined as `get y() { return 3; }`\""
           }
         ],
         "optional": false
@@ -823,13 +841,15 @@
             "type": "Literal",
             "start": 1223,
             "end": 1224,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 1226,
             "end": 1308,
-            "value": "The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`"
+            "value": "The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`",
+            "raw": "\"The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`\""
           }
         ],
         "optional": false
@@ -873,7 +893,8 @@
             "type": "Literal",
             "start": 1348,
             "end": 1351,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false
@@ -917,7 +938,8 @@
             "type": "Literal",
             "start": 1390,
             "end": 1393,
-            "value": "y"
+            "value": "y",
+            "raw": "'y'"
           }
         ],
         "optional": false
@@ -948,7 +970,8 @@
             "type": "Literal",
             "start": 1422,
             "end": 1431,
-            "value": "staticX"
+            "value": "staticX",
+            "raw": "'staticX'"
           }
         ],
         "optional": false
@@ -979,7 +1002,8 @@
             "type": "Literal",
             "start": 1460,
             "end": 1469,
-            "value": "staticY"
+            "value": "staticY",
+            "raw": "'staticY'"
           }
         ],
         "optional": false

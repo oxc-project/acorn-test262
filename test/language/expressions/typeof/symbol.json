@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 488,
             "end": 496,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 530,
-            "value": "typeof Symbol() === 'symbol'"
+            "value": "typeof Symbol() === 'symbol'",
+            "raw": "\"typeof Symbol() === 'symbol'\""
           }
         ],
         "optional": false
@@ -116,7 +118,8 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 572,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "\"A\""
                 }
               ],
               "optional": false
@@ -126,13 +129,15 @@
             "type": "Literal",
             "start": 577,
             "end": 585,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 622,
-            "value": "typeof Symbol('A') === 'symbol'"
+            "value": "typeof Symbol('A') === 'symbol'",
+            "raw": "\"typeof Symbol('A') === 'symbol'\""
           }
         ],
         "optional": false
@@ -204,13 +209,15 @@
             "type": "Literal",
             "start": 674,
             "end": 682,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 724,
-            "value": "typeof Object(Symbol()) === 'object'"
+            "value": "typeof Object(Symbol()) === 'object'",
+            "raw": "\"typeof Object(Symbol()) === 'object'\""
           }
         ],
         "optional": false
@@ -276,7 +283,8 @@
                       "type": "Literal",
                       "start": 770,
                       "end": 773,
-                      "value": "A"
+                      "value": "A",
+                      "raw": "\"A\""
                     }
                   ],
                   "optional": false
@@ -289,13 +297,15 @@
             "type": "Literal",
             "start": 779,
             "end": 787,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 832,
-            "value": "typeof Object(Symbol('A')) === 'object'"
+            "value": "typeof Object(Symbol('A')) === 'object'",
+            "raw": "\"typeof Object(Symbol('A')) === 'object'\""
           }
         ],
         "optional": false

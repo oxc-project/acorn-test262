@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 295,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 298,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -122,7 +125,8 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 346,
-                "value": "2000-05-02"
+                "value": "2000-05-02",
+                "raw": "\"2000-05-02\""
               }
             ],
             "optional": false
@@ -131,13 +135,15 @@
             "type": "Literal",
             "start": 349,
             "end": 353,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 366,
-            "value": "same date"
+            "value": "same date",
+            "raw": "\"same date\""
           }
         ],
         "optional": false
@@ -199,7 +205,8 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 414,
-                "value": "2000-05-04"
+                "value": "2000-05-04",
+                "raw": "\"2000-05-04\""
               }
             ],
             "optional": false
@@ -208,13 +215,15 @@
             "type": "Literal",
             "start": 417,
             "end": 422,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 440,
-            "value": "different date"
+            "value": "different date",
+            "raw": "\"different date\""
           }
         ],
         "optional": false

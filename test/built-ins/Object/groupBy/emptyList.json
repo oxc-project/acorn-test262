@@ -106,7 +106,8 @@
                             "type": "Literal",
                             "start": 558,
                             "end": 598,
-                            "value": "callback function should not be called"
+                            "value": "callback function should not be called",
+                            "raw": "'callback function should not be called'"
                           }
                         ]
                       }
@@ -165,7 +166,8 @@
             "type": "Literal",
             "start": 640,
             "end": 674,
-            "value": "Object.groupBy returns an object"
+            "value": "Object.groupBy returns an object",
+            "raw": "'Object.groupBy returns an object'"
           }
         ],
         "optional": false
@@ -249,7 +251,8 @@
             "type": "Literal",
             "start": 719,
             "end": 720,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

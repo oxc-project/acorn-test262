@@ -71,7 +71,8 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 521,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +107,8 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 637,
-                    "value": "#0: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: "
+                    "value": "#0: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: ",
+                    "raw": "'#0: String.prototype.localeCompare.hasOwnProperty(\\'length\\') return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +165,8 @@
                         "type": "Literal",
                         "start": 686,
                         "end": 694,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "'length'"
                       }
                     ],
                     "optional": false
@@ -263,7 +266,8 @@
                   "type": "Literal",
                   "start": 950,
                   "end": 1012,
-                  "value": "#1: delete String.prototype.localeCompare.length return true"
+                  "value": "#1: delete String.prototype.localeCompare.length return true",
+                  "raw": "'#1: delete String.prototype.localeCompare.length return true'"
                 }
               ]
             }
@@ -330,7 +334,8 @@
             "type": "Literal",
             "start": 1239,
             "end": 1247,
-            "value": "length"
+            "value": "length",
+            "raw": "'length'"
           }
         ],
         "optional": false
@@ -363,7 +368,8 @@
                     "type": "Literal",
                     "start": 1277,
                     "end": 1409,
-                    "value": "#2: delete String.prototype.localeCompare.length; String.prototype.localeCompare.hasOwnProperty('length') return false. Actual: "
+                    "value": "#2: delete String.prototype.localeCompare.length; String.prototype.localeCompare.hasOwnProperty('length') return false. Actual: ",
+                    "raw": "'#2: delete String.prototype.localeCompare.length; String.prototype.localeCompare.hasOwnProperty(\\'length\\') return false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -420,7 +426,8 @@
                         "type": "Literal",
                         "start": 1458,
                         "end": 1466,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "'length'"
                       }
                     ],
                     "optional": false

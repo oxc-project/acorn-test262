@@ -137,7 +137,8 @@
                         "type": "Literal",
                         "start": 564,
                         "end": 622,
-                        "value": "#1: arguments.constructor.prototype === Object.prototype"
+                        "value": "#1: arguments.constructor.prototype === Object.prototype",
+                        "raw": "'#1: arguments.constructor.prototype === Object.prototype'"
                       }
                     ]
                   }
@@ -182,7 +183,8 @@
                     "type": "Literal",
                     "start": 666,
                     "end": 696,
-                    "value": "#1: arguments doesn't exists"
+                    "value": "#1: arguments doesn't exists",
+                    "raw": "\"#1: arguments doesn't exists\""
                   }
                 ]
               }
@@ -340,7 +342,8 @@
                         "type": "Literal",
                         "start": 839,
                         "end": 897,
-                        "value": "#2: arguments.constructor.prototype === Object.prototype"
+                        "value": "#2: arguments.constructor.prototype === Object.prototype",
+                        "raw": "'#2: arguments.constructor.prototype === Object.prototype'"
                       }
                     ]
                   }
@@ -385,7 +388,8 @@
                     "type": "Literal",
                     "start": 941,
                     "end": 971,
-                    "value": "#2: arguments doesn't exists"
+                    "value": "#2: arguments doesn't exists",
+                    "raw": "\"#2: arguments doesn't exists\""
                   }
                 ]
               }

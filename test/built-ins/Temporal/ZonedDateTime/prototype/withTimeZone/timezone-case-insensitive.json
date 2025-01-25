@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 314,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 321,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -79,7 +81,8 @@
             "type": "Literal",
             "start": 342,
             "end": 347,
-            "value": "uTc"
+            "value": "uTc",
+            "raw": "'uTc'"
           }
         }
       ],
@@ -188,7 +191,8 @@
             "type": "Literal",
             "start": 433,
             "end": 438,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "'UTC'"
           },
           {
             "type": "TemplateLiteral",

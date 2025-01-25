@@ -74,19 +74,22 @@
                   "type": "Literal",
                   "start": 387,
                   "end": 391,
-                  "value": 1970
+                  "value": 1970,
+                  "raw": "1970"
                 },
                 {
                   "type": "Literal",
                   "start": 393,
                   "end": 394,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 396,
                   "end": 397,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               ],
               "optional": false

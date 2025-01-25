@@ -23,6 +23,7 @@
             "start": 1066,
             "end": 1084,
             "value": {},
+            "raw": "/original value/ig",
             "regex": {
               "pattern": "original value",
               "flags": "ig"
@@ -64,7 +65,8 @@
             "type": "Literal",
             "start": 1103,
             "end": 1114,
-            "value": "new value"
+            "value": "new value",
+            "raw": "'new value'"
           }
         ],
         "optional": false
@@ -136,7 +138,8 @@
                   "type": "Literal",
                   "start": 1167,
                   "end": 1178,
-                  "value": "new value"
+                  "value": "new value",
+                  "raw": "'new value'"
                 }
               ]
             },
@@ -153,7 +156,8 @@
             "type": "Literal",
             "start": 1190,
             "end": 1224,
-            "value": "[[OriginalSource]] internal slot"
+            "value": "[[OriginalSource]] internal slot",
+            "raw": "'[[OriginalSource]] internal slot'"
           }
         ],
         "optional": false
@@ -215,7 +219,8 @@
                 "type": "Literal",
                 "start": 1261,
                 "end": 1277,
-                "value": "original value"
+                "value": "original value",
+                "raw": "'original value'"
               }
             ],
             "optional": false
@@ -224,13 +229,15 @@
             "type": "Literal",
             "start": 1280,
             "end": 1285,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1287,
             "end": 1320,
-            "value": "[[RegExpMatcher]] internal slot"
+            "value": "[[RegExpMatcher]] internal slot",
+            "raw": "'[[RegExpMatcher]] internal slot'"
           }
         ],
         "optional": false
@@ -292,7 +299,8 @@
                 "type": "Literal",
                 "start": 1357,
                 "end": 1368,
-                "value": "new value"
+                "value": "new value",
+                "raw": "'new value'"
               }
             ],
             "optional": false
@@ -301,13 +309,15 @@
             "type": "Literal",
             "start": 1371,
             "end": 1375,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1377,
             "end": 1410,
-            "value": "[[RegExpMatcher]] internal slot"
+            "value": "[[RegExpMatcher]] internal slot",
+            "raw": "'[[RegExpMatcher]] internal slot'"
           }
         ],
         "optional": false

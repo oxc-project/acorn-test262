@@ -81,7 +81,8 @@
                     "type": "Literal",
                     "start": 415,
                     "end": 419,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 }
               ],
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 444,
             "end": 504,
-            "value": "function*(){}().filter(() => true) must return an Iterator"
+            "value": "function*(){}().filter(() => true) must return an Iterator",
+            "raw": "'function*(){}().filter(() => true) must return an Iterator'"
           }
         ],
         "optional": false

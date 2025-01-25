@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 280,
             "end": 286,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           }
         ],
         "optional": false
@@ -57,7 +58,8 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 385,
-                  "value": "#1: In the \"if\" Statement eval as Expression is admitted"
+                  "value": "#1: In the \"if\" Statement eval as Expression is admitted",
+                  "raw": "'#1: In the \"if\" Statement eval as Expression is admitted'"
                 }
               ]
             }

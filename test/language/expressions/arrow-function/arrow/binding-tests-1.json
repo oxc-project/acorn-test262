@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 247,
                   "end": 257,
-                  "value": "()=>this"
+                  "value": "()=>this",
+                  "raw": "\"()=>this\""
                 }
               ],
               "optional": false
@@ -107,7 +108,8 @@
             "type": "Literal",
             "start": 299,
             "end": 381,
-            "value": "This binding initialization was incorrect for arrow capturing this from closure."
+            "value": "This binding initialization was incorrect for arrow capturing this from closure.",
+            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\""
           }
         ],
         "optional": false

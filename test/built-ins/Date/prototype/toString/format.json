@@ -23,6 +23,7 @@
             "start": 432,
             "end": 586,
             "value": {},
+            "raw": "/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [0-9]{2} [0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT[+-][0-9]{4}( \\(.+\\))?$/",
             "regex": {
               "pattern": "^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [0-9]{2} [0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT[+-][0-9]{4}( \\(.+\\))?$",
               "flags": ""
@@ -94,7 +95,8 @@
                         "type": "Literal",
                         "start": 626,
                         "end": 627,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ]
                   },
@@ -149,7 +151,8 @@
             "type": "Literal",
             "start": 662,
             "end": 666,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Identifier",
@@ -223,7 +226,8 @@
                       "type": "Literal",
                       "start": 756,
                       "end": 778,
-                      "value": "0020-01-01T00:00:00Z"
+                      "value": "0020-01-01T00:00:00Z",
+                      "raw": "'0020-01-01T00:00:00Z'"
                     }
                   ]
                 },
@@ -276,7 +280,8 @@
             "type": "Literal",
             "start": 813,
             "end": 817,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Identifier",

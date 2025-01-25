@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 1259,
                 "end": 1263,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -116,7 +117,8 @@
                         "type": "Literal",
                         "start": 1308,
                         "end": 1309,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ClassExpression",
@@ -172,7 +174,8 @@
             "type": "Literal",
             "start": 1356,
             "end": 1372,
-            "value": "`get` accessor"
+            "value": "`get` accessor",
+            "raw": "'`get` accessor'"
           }
         ],
         "optional": false
@@ -239,7 +242,8 @@
                         "type": "Literal",
                         "start": 1416,
                         "end": 1417,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ClassExpression",
@@ -302,7 +306,8 @@
             "type": "Literal",
             "start": 1465,
             "end": 1481,
-            "value": "`set` accessor"
+            "value": "`set` accessor",
+            "raw": "'`set` accessor'"
           }
         ],
         "optional": false

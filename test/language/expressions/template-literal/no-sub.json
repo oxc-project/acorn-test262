@@ -53,7 +53,8 @@
             "type": "Literal",
             "start": 487,
             "end": 511,
-            "value": "NoSubstitutionTemplate"
+            "value": "NoSubstitutionTemplate",
+            "raw": "'NoSubstitutionTemplate'"
           }
         ],
         "optional": false

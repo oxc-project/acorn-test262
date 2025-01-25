@@ -144,13 +144,15 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 350,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 {
                   "type": "Literal",
                   "start": 352,
                   "end": 396,
-                  "value": "The value of `desc.configurable` is `true`"
+                  "value": "The value of `desc.configurable` is `true`",
+                  "raw": "\"The value of `desc.configurable` is `true`\""
                 }
               ],
               "optional": false
@@ -207,13 +209,15 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 440,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 442,
                   "end": 485,
-                  "value": "The value of `desc.enumerable` is `false`"
+                  "value": "The value of `desc.enumerable` is `false`",
+                  "raw": "\"The value of `desc.enumerable` is `false`\""
                 }
               ],
               "optional": false
@@ -277,13 +281,15 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 534,
-                  "value": "function"
+                  "value": "function",
+                  "raw": "'function'"
                 },
                 {
                   "type": "Literal",
                   "start": 536,
                   "end": 571,
-                  "value": "`typeof desc.get` is `'function'`"
+                  "value": "`typeof desc.get` is `'function'`",
+                  "raw": "\"`typeof desc.get` is `'function'`\""
                 }
               ],
               "optional": false
@@ -347,13 +353,15 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 620,
-                  "value": "function"
+                  "value": "function",
+                  "raw": "'function'"
                 },
                 {
                   "type": "Literal",
                   "start": 622,
                   "end": 657,
-                  "value": "`typeof desc.set` is `'function'`"
+                  "value": "`typeof desc.set` is `'function'`",
+                  "raw": "\"`typeof desc.set` is `'function'`\""
                 }
               ],
               "optional": false
@@ -395,7 +403,8 @@
                     "type": "Literal",
                     "start": 684,
                     "end": 695,
-                    "value": "prototype"
+                    "value": "prototype",
+                    "raw": "'prototype'"
                   },
                   "operator": "in",
                   "right": {
@@ -422,13 +431,15 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 718,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 724,
                   "end": 776,
-                  "value": "The result of `'prototype' in desc.get` is `false`"
+                  "value": "The result of `'prototype' in desc.get` is `false`",
+                  "raw": "\"The result of `'prototype' in desc.get` is `false`\""
                 }
               ],
               "optional": false
@@ -470,7 +481,8 @@
                     "type": "Literal",
                     "start": 806,
                     "end": 817,
-                    "value": "prototype"
+                    "value": "prototype",
+                    "raw": "'prototype'"
                   },
                   "operator": "in",
                   "right": {
@@ -497,13 +509,15 @@
                   "type": "Literal",
                   "start": 835,
                   "end": 840,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 846,
                   "end": 898,
-                  "value": "The result of `'prototype' in desc.set` is `false`"
+                  "value": "The result of `'prototype' in desc.set` is `false`",
+                  "raw": "\"The result of `'prototype' in desc.set` is `false`\""
                 }
               ],
               "optional": false
@@ -896,7 +910,8 @@
             "type": "Literal",
             "start": 1143,
             "end": 1146,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false
@@ -927,7 +942,8 @@
             "type": "Literal",
             "start": 1177,
             "end": 1186,
-            "value": "staticX"
+            "value": "staticX",
+            "raw": "'staticX'"
           }
         ],
         "optional": false
@@ -963,7 +979,8 @@
                 "type": "Literal",
                 "start": 1204,
                 "end": 1205,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -1003,7 +1020,8 @@
           "type": "Literal",
           "start": 1215,
           "end": 1216,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -1058,13 +1076,15 @@
             "type": "Literal",
             "start": 1240,
             "end": 1241,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1243,
             "end": 1299,
-            "value": "The value of `c.x` is `1`, after executing `c._x = 1;`"
+            "value": "The value of `c.x` is `1`, after executing `c._x = 1;`",
+            "raw": "\"The value of `c.x` is `1`, after executing `c._x = 1;`\""
           }
         ],
         "optional": false
@@ -1102,7 +1122,8 @@
           "type": "Literal",
           "start": 1308,
           "end": 1309,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -1157,13 +1178,15 @@
             "type": "Literal",
             "start": 1334,
             "end": 1335,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1337,
             "end": 1393,
-            "value": "The value of `c._x` is `2`, after executing `c.x = 2;`"
+            "value": "The value of `c._x` is `2`, after executing `c.x = 2;`",
+            "raw": "\"The value of `c._x` is `2`, after executing `c.x = 2;`\""
           }
         ],
         "optional": false
@@ -1201,7 +1224,8 @@
           "type": "Literal",
           "start": 1404,
           "end": 1405,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -1256,13 +1280,15 @@
             "type": "Literal",
             "start": 1435,
             "end": 1436,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1438,
             "end": 1500,
-            "value": "The value of `C.staticX` is `3`, after executing `C._x = 3;`"
+            "value": "The value of `C.staticX` is `3`, after executing `C._x = 3;`",
+            "raw": "\"The value of `C.staticX` is `3`, after executing `C._x = 3;`\""
           }
         ],
         "optional": false
@@ -1300,7 +1326,8 @@
           "type": "Literal",
           "start": 1510,
           "end": 1511,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       }
     },
@@ -1355,13 +1382,15 @@
             "type": "Literal",
             "start": 1541,
             "end": 1542,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 1544,
             "end": 1606,
-            "value": "The value of `C.staticX` is `4`, after executing `C._x = 4;`"
+            "value": "The value of `C.staticX` is `4`, after executing `C._x = 4;`",
+            "raw": "\"The value of `C.staticX` is `4`, after executing `C._x = 4;`\""
           }
         ],
         "optional": false

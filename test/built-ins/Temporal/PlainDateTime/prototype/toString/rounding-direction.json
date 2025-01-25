@@ -52,44 +52,51 @@
                   "type": "Literal",
                   "start": 334,
                   "end": 336,
-                  "value": 99
+                  "value": 99,
+                  "raw": "99"
                 }
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 359,
-                "value": 500
+                "value": 500,
+                "raw": "500"
               }
             ]
           }
@@ -171,7 +178,8 @@
                       "type": "Literal",
                       "start": 416,
                       "end": 424,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -192,7 +200,8 @@
                       "type": "Literal",
                       "start": 440,
                       "end": 447,
-                      "value": "floor"
+                      "value": "floor",
+                      "raw": "\"floor\""
                     },
                     "kind": "init"
                   }
@@ -205,13 +214,15 @@
             "type": "Literal",
             "start": 454,
             "end": 478,
-            "value": "-000099-12-15T12:00:00"
+            "value": "-000099-12-15T12:00:00",
+            "raw": "\"-000099-12-15T12:00:00\""
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 545,
-            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE"
+            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE",
+            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE\""
           }
         ],
         "optional": false
@@ -291,7 +302,8 @@
                       "type": "Literal",
                       "start": 603,
                       "end": 611,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -312,7 +324,8 @@
                       "type": "Literal",
                       "start": 627,
                       "end": 634,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -325,13 +338,15 @@
             "type": "Literal",
             "start": 641,
             "end": 665,
-            "value": "-000099-12-15T12:00:00"
+            "value": "-000099-12-15T12:00:00",
+            "raw": "\"-000099-12-15T12:00:00\""
           },
           {
             "type": "Literal",
             "start": 669,
             "end": 753,
-            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)"
+            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)",
+            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)\""
           }
         ],
         "optional": false
@@ -411,7 +426,8 @@
                       "type": "Literal",
                       "start": 811,
                       "end": 819,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -432,7 +448,8 @@
                       "type": "Literal",
                       "start": 835,
                       "end": 841,
-                      "value": "ceil"
+                      "value": "ceil",
+                      "raw": "\"ceil\""
                     },
                     "kind": "init"
                   }
@@ -445,13 +462,15 @@
             "type": "Literal",
             "start": 848,
             "end": 872,
-            "value": "-000099-12-15T12:00:01"
+            "value": "-000099-12-15T12:00:01",
+            "raw": "\"-000099-12-15T12:00:01\""
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 959,
-            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)"
+            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)",
+            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)\""
           }
         ],
         "optional": false
@@ -531,7 +550,8 @@
                       "type": "Literal",
                       "start": 1017,
                       "end": 1025,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -552,7 +572,8 @@
                       "type": "Literal",
                       "start": 1041,
                       "end": 1053,
-                      "value": "halfExpand"
+                      "value": "halfExpand",
+                      "raw": "\"halfExpand\""
                     },
                     "kind": "init"
                   }
@@ -565,13 +586,15 @@
             "type": "Literal",
             "start": 1060,
             "end": 1084,
-            "value": "-000099-12-15T12:00:01"
+            "value": "-000099-12-15T12:00:01",
+            "raw": "\"-000099-12-15T12:00:01\""
           },
           {
             "type": "Literal",
             "start": 1088,
             "end": 1177,
-            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)"
+            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)",
+            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)\""
           }
         ],
         "optional": false

@@ -23,6 +23,7 @@
             "start": 323,
             "end": 334,
             "value": {},
+            "raw": "/undefined/",
             "regex": {
               "pattern": "undefined",
               "flags": ""
@@ -121,14 +122,16 @@
               "type": "Literal",
               "start": 383,
               "end": 387,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 435,
-            "value": "__re.test() must return __re.exec() !== null"
+            "value": "__re.test() must return __re.exec() !== null",
+            "raw": "'__re.test() must return __re.exec() !== null'"
           }
         ],
         "optional": false

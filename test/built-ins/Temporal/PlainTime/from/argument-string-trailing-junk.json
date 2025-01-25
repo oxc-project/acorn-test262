@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 294,
             "end": 312,
-            "value": "15:23:30.100junk"
+            "value": "15:23:30.100junk",
+            "raw": "\"15:23:30.100junk\""
           }
         }
       ],

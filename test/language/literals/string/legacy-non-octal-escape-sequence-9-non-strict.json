@@ -35,13 +35,15 @@
             "type": "Literal",
             "start": 535,
             "end": 539,
-            "value": "9"
+            "value": "9",
+            "raw": "'\\9'"
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 544,
-            "value": "9"
+            "value": "9",
+            "raw": "'9'"
           }
         ],
         "optional": false

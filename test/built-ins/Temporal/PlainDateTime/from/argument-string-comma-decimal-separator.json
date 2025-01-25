@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 376,
-                "value": "1976-11-18T15:23:30,12"
+                "value": "1976-11-18T15:23:30,12",
+                "raw": "\"1976-11-18T15:23:30,12\""
               }
             ],
             "optional": false
@@ -81,67 +82,78 @@
             "type": "Literal",
             "start": 381,
             "end": 385,
-            "value": 1976
+            "value": 1976,
+            "raw": "1976"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 389,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 391,
             "end": 396,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 400,
-            "value": 18
+            "value": 18,
+            "raw": "18"
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 404,
-            "value": 15
+            "value": 15,
+            "raw": "15"
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 408,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 412,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 417,
-            "value": 120
+            "value": 120,
+            "raw": "120"
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 420,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 423,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 452,
-            "value": "comma decimal separator"
+            "value": "comma decimal separator",
+            "raw": "\"comma decimal separator\""
           }
         ],
         "optional": false

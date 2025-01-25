@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 355,
-                "value": "1572342398271986102n"
+                "value": "1572342398271986102n",
+                "raw": "1572342398_271_986_102n"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 365,
-                "value": "-07:00"
+                "value": "-07:00",
+                "raw": "\"-07:00\""
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 376,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 424,
-                "value": "-08:00"
+                "value": "-08:00",
+                "raw": "\"-08:00\""
               }
             ],
             "optional": false
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 463,
             "end": 472,
-            "value": "gregory"
+            "value": "gregory",
+            "raw": "\"gregory\""
           },
           {
             "type": "Literal",
             "start": 474,
             "end": 513,
-            "value": "Calendar is preserved in return value"
+            "value": "Calendar is preserved in return value",
+            "raw": "\"Calendar is preserved in return value\""
           }
         ],
         "optional": false

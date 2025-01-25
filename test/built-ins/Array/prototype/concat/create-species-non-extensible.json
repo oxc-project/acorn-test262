@@ -70,7 +70,8 @@
                       "type": "Literal",
                       "start": 792,
                       "end": 793,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 },
@@ -321,7 +322,8 @@
                         "type": "Literal",
                         "start": 958,
                         "end": 959,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -334,7 +336,8 @@
             "type": "Literal",
             "start": 965,
             "end": 1009,
-            "value": "arr.concat(1) throws a TypeError exception"
+            "value": "arr.concat(1) throws a TypeError exception",
+            "raw": "'arr.concat(1) throws a TypeError exception'"
           }
         ],
         "optional": false

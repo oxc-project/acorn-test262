@@ -64,7 +64,8 @@
                             "type": "Literal",
                             "start": 993,
                             "end": 995,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         }
                       ]
@@ -87,7 +88,8 @@
                     "type": "Literal",
                     "start": 1004,
                     "end": 1013,
-                    "value": "test262"
+                    "value": "test262",
+                    "raw": "'test262'"
                   }
                 },
                 {
@@ -263,7 +265,8 @@
                   "type": "Literal",
                   "start": 1125,
                   "end": 1128,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -273,7 +276,8 @@
             "type": "Literal",
             "start": 1133,
             "end": 1188,
-            "value": "m doesn't appear as an own property on the C instance"
+            "value": "m doesn't appear as an own property on the C instance",
+            "raw": "\"m doesn't appear as an own property on the C instance\""
           }
         ],
         "optional": false
@@ -400,7 +404,8 @@
             "type": "Literal",
             "start": 1259,
             "end": 1262,
-            "value": "m"
+            "value": "m",
+            "raw": "\"m\""
           },
           {
             "type": "ObjectExpression",
@@ -424,7 +429,8 @@
                   "type": "Literal",
                   "start": 1280,
                   "end": 1285,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -445,7 +451,8 @@
                   "type": "Literal",
                   "start": 1303,
                   "end": 1307,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -466,7 +473,8 @@
                   "type": "Literal",
                   "start": 1321,
                   "end": 1325,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -494,7 +502,8 @@
                   "type": "Literal",
                   "start": 1340,
                   "end": 1344,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -619,7 +628,8 @@
                             "type": "Literal",
                             "start": 1396,
                             "end": 1398,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -704,7 +714,8 @@
                                               "type": "Literal",
                                               "start": 1550,
                                               "end": 1576,
-                                              "value": "Test262:AsyncTestFailure"
+                                              "value": "Test262:AsyncTestFailure",
+                                              "raw": "'Test262:AsyncTestFailure'"
                                             }
                                           ]
                                         }
@@ -774,7 +785,8 @@
                                   "type": "Literal",
                                   "start": 1625,
                                   "end": 1634,
-                                  "value": "test262"
+                                  "value": "test262",
+                                  "raw": "'test262'"
                                 }
                               ],
                               "optional": false

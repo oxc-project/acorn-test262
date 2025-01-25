@@ -82,7 +82,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 364,
-                  "value": "minutes"
+                  "value": "minutes",
+                  "raw": "\"minutes\""
                 }
               ],
               "optional": false
@@ -145,7 +146,8 @@
             "type": "Literal",
             "start": 405,
             "end": 415,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -232,7 +234,8 @@
             "type": "Literal",
             "start": 475,
             "end": 486,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -309,7 +312,8 @@
                   "type": "Literal",
                   "start": 533,
                   "end": 537,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               ],
               "optional": false
@@ -319,7 +323,8 @@
             "type": "Literal",
             "start": 540,
             "end": 546,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -396,7 +401,8 @@
                   "type": "Literal",
                   "start": 593,
                   "end": 597,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ],
               "optional": false
@@ -406,7 +412,8 @@
             "type": "Literal",
             "start": 600,
             "end": 606,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           }
         ],
         "optional": false
@@ -483,7 +490,8 @@
                   "type": "Literal",
                   "start": 653,
                   "end": 655,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 }
               ],
               "optional": false
@@ -493,7 +501,8 @@
             "type": "Literal",
             "start": 658,
             "end": 672,
-            "value": "empty string"
+            "value": "empty string",
+            "raw": "\"empty string\""
           }
         ],
         "optional": false
@@ -587,7 +596,8 @@
             "type": "Literal",
             "start": 730,
             "end": 738,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           }
         ],
         "optional": false
@@ -664,7 +674,8 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 786,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -674,7 +685,8 @@
             "type": "Literal",
             "start": 789,
             "end": 792,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           }
         ],
         "optional": false
@@ -761,7 +773,8 @@
             "type": "Literal",
             "start": 844,
             "end": 858,
-            "value": "plain object"
+            "value": "plain object",
+            "raw": "\"plain object\""
           }
         ],
         "optional": false
@@ -861,7 +874,8 @@
             "type": "Literal",
             "start": 925,
             "end": 944,
-            "value": "Temporal.Duration"
+            "value": "Temporal.Duration",
+            "raw": "\"Temporal.Duration\""
           }
         ],
         "optional": false
@@ -974,7 +988,8 @@
             "type": "Literal",
             "start": 1021,
             "end": 1050,
-            "value": "Temporal.Duration.prototype"
+            "value": "Temporal.Duration.prototype",
+            "raw": "\"Temporal.Duration.prototype\""
           }
         ],
         "optional": false

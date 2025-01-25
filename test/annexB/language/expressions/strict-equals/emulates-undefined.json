@@ -91,13 +91,15 @@
             "type": "Literal",
             "start": 638,
             "end": 643,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 667,
-            "value": "=== with `undefined`"
+            "value": "=== with `undefined`",
+            "raw": "\"=== with `undefined`\""
           }
         ],
         "optional": false
@@ -153,13 +155,15 @@
             "type": "Literal",
             "start": 712,
             "end": 717,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 741,
-            "value": "=== with `undefined`"
+            "value": "=== with `undefined`",
+            "raw": "\"=== with `undefined`\""
           }
         ],
         "optional": false
@@ -208,20 +212,23 @@
               "type": "Literal",
               "start": 776,
               "end": 780,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 787,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 806,
-            "value": "=== with `null`"
+            "value": "=== with `null`",
+            "raw": "\"=== with `null`\""
           }
         ],
         "optional": false
@@ -263,7 +270,8 @@
               "type": "Literal",
               "start": 826,
               "end": 830,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             "operator": "===",
             "right": {
@@ -277,13 +285,15 @@
             "type": "Literal",
             "start": 846,
             "end": 851,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 853,
             "end": 870,
-            "value": "=== with `null`"
+            "value": "=== with `null`",
+            "raw": "\"=== with `null`\""
           }
         ],
         "optional": false

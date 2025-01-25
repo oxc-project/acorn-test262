@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 365,
                       "end": 366,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -106,14 +107,16 @@
                           "type": "Literal",
                           "start": 379,
                           "end": 380,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         "operator": "**",
                         "right": {
                           "type": "Literal",
                           "start": 382,
                           "end": 384,
-                          "value": 53
+                          "value": 53,
+                          "raw": "53"
                         }
                       },
                       "operator": "-",
@@ -121,7 +124,8 @@
                         "type": "Literal",
                         "start": 387,
                         "end": 388,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     },
                     "kind": "init"
@@ -178,19 +182,22 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 438,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -308,7 +315,8 @@
                         "type": "Literal",
                         "start": 515,
                         "end": 521,
-                        "value": "days"
+                        "value": "days",
+                        "raw": "\"days\""
                       },
                       "kind": "init"
                     }

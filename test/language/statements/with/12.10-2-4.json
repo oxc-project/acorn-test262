@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 328,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               }
             }
@@ -69,7 +70,8 @@
                     "type": "Literal",
                     "start": 355,
                     "end": 421,
-                    "value": "#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === "
+                    "value": "#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === ",
+                    "raw": "'#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === '"
                   },
                   "operator": "+",
                   "right": {
@@ -140,7 +142,8 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 480,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -171,7 +174,8 @@
                             "type": "Literal",
                             "start": 510,
                             "end": 570,
-                            "value": "#2.2: with(undefined) x = 2 must throw TypeError. Actual: "
+                            "value": "#2.2: with(undefined) x = 2 must throw TypeError. Actual: ",
+                            "raw": "'#2.2: with(undefined) x = 2 must throw TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

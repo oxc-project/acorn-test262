@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 321,
             "end": 327,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 369,
             "end": 375,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -208,7 +210,8 @@
                   "type": "Literal",
                   "start": 483,
                   "end": 487,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -229,7 +232,8 @@
                   "type": "Literal",
                   "start": 505,
                   "end": 509,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -326,7 +330,8 @@
                 "type": "Literal",
                 "start": 580,
                 "end": 586,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -335,13 +340,15 @@
             "type": "Literal",
             "start": 589,
             "end": 594,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 627,
-            "value": "errObj.hasOwnProperty(\"prop\")"
+            "value": "errObj.hasOwnProperty(\"prop\")",
+            "raw": "'errObj.hasOwnProperty(\"prop\")'"
           }
         ],
         "optional": false
@@ -398,13 +405,15 @@
             "type": "Literal",
             "start": 660,
             "end": 666,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 681,
-            "value": "errObj.prop"
+            "value": "errObj.prop",
+            "raw": "'errObj.prop'"
           }
         ],
         "optional": false

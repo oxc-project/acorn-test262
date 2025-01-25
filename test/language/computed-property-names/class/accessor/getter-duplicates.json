@@ -29,7 +29,8 @@
               "type": "Literal",
               "start": 362,
               "end": 365,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             },
             "kind": "get",
             "value": {
@@ -54,7 +55,8 @@
                       "type": "Literal",
                       "start": 382,
                       "end": 385,
-                      "value": "A"
+                      "value": "A",
+                      "raw": "'A'"
                     }
                   }
                 ]
@@ -121,13 +123,15 @@
             "type": "Literal",
             "start": 421,
             "end": 424,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 461,
-            "value": "The value of `new C().a` is `'A'`"
+            "value": "The value of `new C().a` is `'A'`",
+            "raw": "\"The value of `new C().a` is `'A'`\""
           }
         ],
         "optional": false
@@ -195,7 +199,8 @@
                           "type": "Literal",
                           "start": 515,
                           "end": 571,
-                          "value": "The first `b` getter definition in `C2` is unreachable"
+                          "value": "The first `b` getter definition in `C2` is unreachable",
+                          "raw": "\"The first `b` getter definition in `C2` is unreachable\""
                         }
                       ]
                     }
@@ -214,7 +219,8 @@
               "type": "Literal",
               "start": 585,
               "end": 588,
-              "value": "b"
+              "value": "b",
+              "raw": "'b'"
             },
             "kind": "get",
             "value": {
@@ -239,7 +245,8 @@
                       "type": "Literal",
                       "start": 605,
                       "end": 608,
-                      "value": "B"
+                      "value": "B",
+                      "raw": "'B'"
                     }
                   }
                 ]
@@ -306,13 +313,15 @@
             "type": "Literal",
             "start": 645,
             "end": 648,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 686,
-            "value": "The value of `new C2().b` is `'B'`"
+            "value": "The value of `new C2().b` is `'B'`",
+            "raw": "\"The value of `new C2().b` is `'B'`\""
           }
         ],
         "optional": false
@@ -380,7 +389,8 @@
                           "type": "Literal",
                           "start": 740,
                           "end": 796,
-                          "value": "The first `c` getter definition in `C3` is unreachable"
+                          "value": "The first `c` getter definition in `C3` is unreachable",
+                          "raw": "\"The first `c` getter definition in `C3` is unreachable\""
                         }
                       ]
                     }
@@ -399,7 +409,8 @@
               "type": "Literal",
               "start": 810,
               "end": 813,
-              "value": "c"
+              "value": "c",
+              "raw": "'c'"
             },
             "kind": "get",
             "value": {
@@ -435,7 +446,8 @@
                           "type": "Literal",
                           "start": 846,
                           "end": 903,
-                          "value": "The second `c` getter definition in `C3` is unreachable"
+                          "value": "The second `c` getter definition in `C3` is unreachable",
+                          "raw": "\"The second `c` getter definition in `C3` is unreachable\""
                         }
                       ]
                     }
@@ -454,7 +466,8 @@
               "type": "Literal",
               "start": 917,
               "end": 920,
-              "value": "c"
+              "value": "c",
+              "raw": "'c'"
             },
             "kind": "get",
             "value": {
@@ -479,7 +492,8 @@
                       "type": "Literal",
                       "start": 937,
                       "end": 940,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "'C'"
                     }
                   }
                 ]
@@ -546,13 +560,15 @@
             "type": "Literal",
             "start": 977,
             "end": 980,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 982,
             "end": 1018,
-            "value": "The value of `new C3().c` is `'C'`"
+            "value": "The value of `new C3().c` is `'C'`",
+            "raw": "\"The value of `new C3().c` is `'C'`\""
           }
         ],
         "optional": false
@@ -584,7 +600,8 @@
               "type": "Literal",
               "start": 1040,
               "end": 1043,
-              "value": "d"
+              "value": "d",
+              "raw": "'d'"
             },
             "kind": "get",
             "value": {
@@ -620,7 +637,8 @@
                           "type": "Literal",
                           "start": 1076,
                           "end": 1132,
-                          "value": "The first `d` getter definition in `C4` is unreachable"
+                          "value": "The first `d` getter definition in `C4` is unreachable",
+                          "raw": "\"The first `d` getter definition in `C4` is unreachable\""
                         }
                       ]
                     }
@@ -664,7 +682,8 @@
                       "type": "Literal",
                       "start": 1162,
                       "end": 1165,
-                      "value": "D"
+                      "value": "D",
+                      "raw": "'D'"
                     }
                   }
                 ]
@@ -731,13 +750,15 @@
             "type": "Literal",
             "start": 1202,
             "end": 1205,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 1207,
             "end": 1243,
-            "value": "The value of `new C4().d` is `'D'`"
+            "value": "The value of `new C4().d` is `'D'`",
+            "raw": "\"The value of `new C4().d` is `'D'`\""
           }
         ],
         "optional": false

@@ -74,7 +74,8 @@
           "type": "Literal",
           "start": 400,
           "end": 404,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -105,7 +106,8 @@
                     "type": "Literal",
                     "start": 433,
                     "end": 475,
-                    "value": "#1: NaN * NaN === Not-a-Number. Actual: "
+                    "value": "#1: NaN * NaN === Not-a-Number. Actual: ",
+                    "raw": "'#1: NaN * NaN === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -192,7 +194,8 @@
                   "type": "Literal",
                   "start": 531,
                   "end": 532,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             }
@@ -204,7 +207,8 @@
           "type": "Literal",
           "start": 538,
           "end": 542,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -235,7 +239,8 @@
                     "type": "Literal",
                     "start": 571,
                     "end": 612,
-                    "value": "#2: NaN * +0 === Not-a-Number. Actual: "
+                    "value": "#2: NaN * +0 === Not-a-Number. Actual: ",
+                    "raw": "'#2: NaN * +0 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -263,7 +268,8 @@
                           "type": "Literal",
                           "start": 623,
                           "end": 624,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     }
@@ -329,7 +335,8 @@
                   "type": "Literal",
                   "start": 667,
                   "end": 668,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             }
@@ -341,7 +348,8 @@
           "type": "Literal",
           "start": 674,
           "end": 678,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -372,7 +380,8 @@
                     "type": "Literal",
                     "start": 707,
                     "end": 748,
-                    "value": "#3: NaN * -0 === Not-a-Number. Actual: "
+                    "value": "#3: NaN * -0 === Not-a-Number. Actual: ",
+                    "raw": "'#3: NaN * -0 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -400,7 +409,8 @@
                           "type": "Literal",
                           "start": 759,
                           "end": 760,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     }
@@ -484,7 +494,8 @@
           "type": "Literal",
           "start": 832,
           "end": 836,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -515,7 +526,8 @@
                     "type": "Literal",
                     "start": 865,
                     "end": 912,
-                    "value": "#4: NaN * Infinity === Not-a-Number. Actual: "
+                    "value": "#4: NaN * Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#4: NaN * Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -620,7 +632,8 @@
           "type": "Literal",
           "start": 1001,
           "end": 1005,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -651,7 +664,8 @@
                     "type": "Literal",
                     "start": 1034,
                     "end": 1082,
-                    "value": "#5: NaN * -Infinity === Not-a-Number. Actual: "
+                    "value": "#5: NaN * -Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#5: NaN * -Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -763,7 +777,8 @@
           "type": "Literal",
           "start": 1165,
           "end": 1169,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -794,7 +809,8 @@
                     "type": "Literal",
                     "start": 1198,
                     "end": 1253,
-                    "value": "#6: NaN * Number.MAX_VALUE === Not-a-Number. Actual: "
+                    "value": "#6: NaN * Number.MAX_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#6: NaN * Number.MAX_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -912,7 +928,8 @@
           "type": "Literal",
           "start": 1342,
           "end": 1346,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -943,7 +960,8 @@
                     "type": "Literal",
                     "start": 1375,
                     "end": 1430,
-                    "value": "#7: NaN * Number.MIN_VALUE === Not-a-Number. Actual: "
+                    "value": "#7: NaN * Number.MIN_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#7: NaN * Number.MIN_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1037,7 +1055,8 @@
                 "type": "Literal",
                 "start": 1497,
                 "end": 1498,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -1048,7 +1067,8 @@
           "type": "Literal",
           "start": 1504,
           "end": 1508,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1079,7 +1099,8 @@
                     "type": "Literal",
                     "start": 1537,
                     "end": 1577,
-                    "value": "#8: NaN * 1 === Not-a-Number. Actual: "
+                    "value": "#8: NaN * 1 === Not-a-Number. Actual: ",
+                    "raw": "'#8: NaN * 1 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1101,7 +1122,8 @@
                         "type": "Literal",
                         "start": 1587,
                         "end": 1588,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }

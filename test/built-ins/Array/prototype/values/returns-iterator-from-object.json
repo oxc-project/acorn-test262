@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 446,
                   "end": 447,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               }
@@ -284,7 +285,8 @@
             "type": "Literal",
             "start": 639,
             "end": 697,
-            "value": "The prototype of [].values() is %ArrayIteratorPrototype%"
+            "value": "The prototype of [].values() is %ArrayIteratorPrototype%",
+            "raw": "'The prototype of [].values() is %ArrayIteratorPrototype%'"
           }
         ],
         "optional": false

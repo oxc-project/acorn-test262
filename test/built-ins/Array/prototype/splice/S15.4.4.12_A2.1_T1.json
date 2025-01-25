@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 262,
                 "end": 263,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 265,
                 "end": 266,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 268,
                 "end": 269,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 271,
                 "end": 272,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -96,13 +100,15 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 297,
-                "value": 1.5
+                "value": 1.5,
+                "raw": "1.5"
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ],
             "optional": false
@@ -220,14 +226,16 @@
               "type": "Literal",
               "start": 369,
               "end": 379,
-              "value": "[object "
+              "value": "[object ",
+              "raw": "\"[object \""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 382,
               "end": 389,
-              "value": "Array"
+              "value": "Array",
+              "raw": "\"Array\""
             }
           },
           "operator": "+",
@@ -235,7 +243,8 @@
             "type": "Literal",
             "start": 392,
             "end": 395,
-            "value": "]"
+            "value": "]",
+            "raw": "\"]\""
           }
         }
       },
@@ -267,7 +276,8 @@
                     "type": "Literal",
                     "start": 424,
                     "end": 505,
-                    "value": "#1: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr is Array object. Actual: "
+                    "value": "#1: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr is Array object. Actual: ",
+                    "raw": "'#1: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr is Array object. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -341,7 +351,8 @@
           "type": "Literal",
           "start": 549,
           "end": 550,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -372,7 +383,8 @@
                     "type": "Literal",
                     "start": 579,
                     "end": 657,
-                    "value": "#2: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr.length === 3. Actual: "
+                    "value": "#2: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr.length === 3. Actual: ",
+                    "raw": "'#2: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr.length === 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -429,7 +441,8 @@
             "type": "Literal",
             "start": 686,
             "end": 687,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -439,7 +452,8 @@
           "type": "Literal",
           "start": 693,
           "end": 694,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -470,7 +484,8 @@
                     "type": "Literal",
                     "start": 723,
                     "end": 797,
-                    "value": "#3: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[0] === 1. Actual: "
+                    "value": "#3: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[0] === 1. Actual: ",
+                    "raw": "'#3: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[0] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -491,7 +506,8 @@
                         "type": "Literal",
                         "start": 805,
                         "end": 806,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -527,7 +543,8 @@
             "type": "Literal",
             "start": 822,
             "end": 823,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -537,7 +554,8 @@
           "type": "Literal",
           "start": 829,
           "end": 830,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -568,7 +586,8 @@
                     "type": "Literal",
                     "start": 859,
                     "end": 933,
-                    "value": "#4: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[1] === 2. Actual: "
+                    "value": "#4: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[1] === 2. Actual: ",
+                    "raw": "'#4: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[1] === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -589,7 +608,8 @@
                         "type": "Literal",
                         "start": 941,
                         "end": 942,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -625,7 +645,8 @@
             "type": "Literal",
             "start": 958,
             "end": 959,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -635,7 +656,8 @@
           "type": "Literal",
           "start": 965,
           "end": 966,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -666,7 +688,8 @@
                     "type": "Literal",
                     "start": 995,
                     "end": 1069,
-                    "value": "#5: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[2] === 3. Actual: "
+                    "value": "#5: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[2] === 3. Actual: ",
+                    "raw": "'#5: var x = [0,1,2,3]; var arr = x.splice(1.5,3); arr[2] === 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -687,7 +710,8 @@
                         "type": "Literal",
                         "start": 1077,
                         "end": 1078,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "computed": true,
                       "optional": false
@@ -733,7 +757,8 @@
           "type": "Literal",
           "start": 1103,
           "end": 1104,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -764,7 +789,8 @@
                     "type": "Literal",
                     "start": 1133,
                     "end": 1209,
-                    "value": "#6: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x.length === 1. Actual: "
+                    "value": "#6: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x.length === 1. Actual: ",
+                    "raw": "'#6: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x.length === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -821,7 +847,8 @@
             "type": "Literal",
             "start": 1234,
             "end": 1235,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -831,7 +858,8 @@
           "type": "Literal",
           "start": 1241,
           "end": 1242,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -862,7 +890,8 @@
                     "type": "Literal",
                     "start": 1271,
                     "end": 1343,
-                    "value": "#7: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x[0] === 0. Actual: "
+                    "value": "#7: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x[0] === 0. Actual: ",
+                    "raw": "'#7: var x = [0,1,2,3]; var arr = x.splice(1.5,3); x[0] === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -883,7 +912,8 @@
                         "type": "Literal",
                         "start": 1349,
                         "end": 1350,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false

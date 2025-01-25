@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 412,
             "end": 413,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -48,6 +49,7 @@
             "start": 434,
             "end": 437,
             "value": {},
+            "raw": "/$/",
             "regex": {
               "pattern": "$",
               "flags": ""
@@ -183,7 +185,8 @@
                     "type": "Literal",
                     "start": 543,
                     "end": 544,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -237,7 +240,8 @@
                 "type": "Literal",
                 "start": 590,
                 "end": 592,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               "property": {
                 "type": "Identifier",
@@ -253,7 +257,8 @@
                 "type": "Literal",
                 "start": 601,
                 "end": 604,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Identifier",
@@ -306,7 +311,8 @@
             "type": "Literal",
             "start": 649,
             "end": 651,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         ],
         "optional": false
@@ -350,7 +356,8 @@
             "type": "Literal",
             "start": 678,
             "end": 679,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -396,7 +403,8 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 707,
-                "value": "dollar"
+                "value": "dollar",
+                "raw": "\"dollar\""
               },
               "property": {
                 "type": "Identifier",
@@ -412,13 +420,15 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 724,
-                "value": "dollar"
+                "value": "dollar",
+                "raw": "\"dollar\""
               },
               {
                 "type": "Literal",
                 "start": 726,
                 "end": 729,
                 "value": {},
+                "raw": "/$/",
                 "regex": {
                   "pattern": "$",
                   "flags": ""
@@ -431,7 +441,8 @@
             "type": "Literal",
             "start": 732,
             "end": 737,
-            "value": "/$/"
+            "value": "/$/",
+            "raw": "\"/$/\""
           }
         ],
         "optional": false

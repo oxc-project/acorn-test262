@@ -133,7 +133,8 @@
                             "type": "Literal",
                             "start": 632,
                             "end": 661,
-                            "value": "target should not be called"
+                            "value": "target should not be called",
+                            "raw": "'target should not be called'"
                           }
                         ]
                       }

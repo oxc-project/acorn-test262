@@ -39,7 +39,8 @@
             "type": "Literal",
             "start": 408,
             "end": 409,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "operator": "!==",
@@ -91,7 +92,8 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 510,
-                    "value": "#1: -Infinity / 1 === -Infinity. Actual: "
+                    "value": "#1: -Infinity / 1 === -Infinity. Actual: ",
+                    "raw": "'#1: -Infinity / 1 === -Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -120,7 +122,8 @@
                         "type": "Literal",
                         "start": 526,
                         "end": 527,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -174,7 +177,8 @@
               "type": "Literal",
               "start": 576,
               "end": 577,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         },
@@ -227,7 +231,8 @@
                     "type": "Literal",
                     "start": 635,
                     "end": 678,
-                    "value": "#2: -Infinity / -1 === Infinity. Actual: "
+                    "value": "#2: -Infinity / -1 === Infinity. Actual: ",
+                    "raw": "'#2: -Infinity / -1 === Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -262,7 +267,8 @@
                           "type": "Literal",
                           "start": 695,
                           "end": 696,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -311,7 +317,8 @@
             "type": "Literal",
             "start": 744,
             "end": 745,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "operator": "!==",
@@ -363,7 +370,8 @@
                     "type": "Literal",
                     "start": 803,
                     "end": 844,
-                    "value": "#3: Infinity / 1 === Infinity. Actual: "
+                    "value": "#3: Infinity / 1 === Infinity. Actual: ",
+                    "raw": "'#3: Infinity / 1 === Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -385,7 +393,8 @@
                         "type": "Literal",
                         "start": 859,
                         "end": 860,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -439,7 +448,8 @@
               "type": "Literal",
               "start": 909,
               "end": 910,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         },
@@ -492,7 +502,8 @@
                     "type": "Literal",
                     "start": 968,
                     "end": 1011,
-                    "value": "#4: Infinity / -1 === -Infinity. Actual: "
+                    "value": "#4: Infinity / -1 === -Infinity. Actual: ",
+                    "raw": "'#4: Infinity / -1 === -Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -520,7 +531,8 @@
                           "type": "Literal",
                           "start": 1027,
                           "end": 1028,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -641,7 +653,8 @@
                     "type": "Literal",
                     "start": 1151,
                     "end": 1209,
-                    "value": "#5: Infinity / -Number.MAX_VALUE === -Infinity. Actual: "
+                    "value": "#5: Infinity / -Number.MAX_VALUE === -Infinity. Actual: ",
+                    "raw": "'#5: Infinity / -Number.MAX_VALUE === -Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -796,7 +809,8 @@
                     "type": "Literal",
                     "start": 1363,
                     "end": 1421,
-                    "value": "#6: -Infinity / Number.MIN_VALUE === -Infinity. Actual: "
+                    "value": "#6: -Infinity / Number.MIN_VALUE === -Infinity. Actual: ",
+                    "raw": "'#6: -Infinity / Number.MIN_VALUE === -Infinity. Actual: '"
                   },
                   "operator": "+",
                   "right": {

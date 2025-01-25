@@ -133,7 +133,8 @@
             "type": "Literal",
             "start": 383,
             "end": 465,
-            "value": "Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype"
+            "value": "Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype",
+            "raw": "'Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype'"
           }
         ],
         "optional": false

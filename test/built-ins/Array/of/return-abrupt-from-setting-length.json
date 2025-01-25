@@ -59,7 +59,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 417,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 },
                 {
                   "type": "ObjectExpression",
@@ -230,7 +231,8 @@
             "type": "Literal",
             "start": 554,
             "end": 604,
-            "value": "Array.of.call(T) throws a Test262Error exception"
+            "value": "Array.of.call(T) throws a Test262Error exception",
+            "raw": "'Array.of.call(T) throws a Test262Error exception'"
           }
         ],
         "optional": false

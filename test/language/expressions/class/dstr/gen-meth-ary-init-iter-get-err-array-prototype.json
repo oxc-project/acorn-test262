@@ -265,19 +265,22 @@
                             "type": "Literal",
                             "start": 2810,
                             "end": 2811,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2813,
                             "end": 2814,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 2816,
                             "end": 2817,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       }

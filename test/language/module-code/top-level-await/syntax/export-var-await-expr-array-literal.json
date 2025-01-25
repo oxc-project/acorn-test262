@@ -1,35 +1,35 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2130,
+  "end": 2128,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 2067,
-      "end": 2095,
+      "start": 2065,
+      "end": 2093,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2074,
-        "end": 2095,
+        "start": 2072,
+        "end": 2093,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2078,
-            "end": 2094,
+            "start": 2076,
+            "end": 2092,
             "id": {
               "type": "Identifier",
-              "start": 2078,
-              "end": 2083,
+              "start": 2076,
+              "end": 2081,
               "name": "name1"
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 2086,
-              "end": 2094,
+              "start": 2084,
+              "end": 2092,
               "argument": {
                 "type": "ArrayExpression",
-                "start": 2092,
-                "end": 2094,
+                "start": 2090,
+                "end": 2092,
                 "elements": []
               }
             }
@@ -42,54 +42,54 @@
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2096,
-      "end": 2129,
+      "start": 2094,
+      "end": 2127,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2103,
-        "end": 2129,
+        "start": 2101,
+        "end": 2127,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2107,
-            "end": 2128,
+            "start": 2105,
+            "end": 2126,
             "id": {
               "type": "ObjectPattern",
-              "start": 2107,
-              "end": 2123,
+              "start": 2105,
+              "end": 2121,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 2109,
-                  "end": 2121,
+                  "start": 2107,
+                  "end": 2119,
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 2109,
-                    "end": 2110,
+                    "start": 2107,
+                    "end": 2108,
                     "name": "x"
                   },
                   "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
-                    "start": 2109,
-                    "end": 2121,
+                    "start": 2107,
+                    "end": 2119,
                     "left": {
                       "type": "Identifier",
-                      "start": 2109,
-                      "end": 2110,
+                      "start": 2107,
+                      "end": 2108,
                       "name": "x"
                     },
                     "right": {
                       "type": "AwaitExpression",
-                      "start": 2113,
-                      "end": 2121,
+                      "start": 2111,
+                      "end": 2119,
                       "argument": {
                         "type": "ArrayExpression",
-                        "start": 2119,
-                        "end": 2121,
+                        "start": 2117,
+                        "end": 2119,
                         "elements": []
                       }
                     }
@@ -99,8 +99,8 @@
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 2126,
-              "end": 2128,
+              "start": 2124,
+              "end": 2126,
               "properties": []
             }
           }

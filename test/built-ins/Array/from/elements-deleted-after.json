@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 283,
                 "end": 284,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 286,
                 "end": 287,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -45,14 +47,16 @@
                   "type": "Literal",
                   "start": 290,
                   "end": 291,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
                 "type": "Literal",
                 "start": 293,
                 "end": 294,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "UnaryExpression",
@@ -64,14 +68,16 @@
                   "type": "Literal",
                   "start": 297,
                   "end": 298,
-                  "value": 8
+                  "value": 8,
+                  "raw": "8"
                 }
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 302,
-                "value": 16
+                "value": 16,
+                "raw": "16"
               }
             ]
           }
@@ -103,13 +109,15 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 319,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -121,14 +129,16 @@
                   "type": "Literal",
                   "start": 325,
                   "end": 326,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "UnaryExpression",
@@ -140,14 +150,16 @@
                   "type": "Literal",
                   "start": 332,
                   "end": 333,
-                  "value": 8
+                  "value": 8,
+                  "raw": "8"
                 }
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 337,
-                "value": 16
+                "value": 16,
+                "raw": "16"
               }
             ]
           }
@@ -205,7 +217,8 @@
               "type": "Literal",
               "start": 370,
               "end": 371,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -343,7 +356,8 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 553,
-                  "value": "The value of value is expected to equal the value of array[this.arrayIndex]"
+                  "value": "The value of value is expected to equal the value of array[this.arrayIndex]",
+                  "raw": "'The value of value is expected to equal the value of array[this.arrayIndex]'"
                 }
               ],
               "optional": false
@@ -405,7 +419,8 @@
                   "type": "Literal",
                   "start": 599,
                   "end": 669,
-                  "value": "The value of index is expected to equal the value of this.arrayIndex"
+                  "value": "The value of index is expected to equal the value of this.arrayIndex",
+                  "raw": "'The value of index is expected to equal the value of this.arrayIndex'"
                 }
               ],
               "optional": false
@@ -467,14 +482,16 @@
                     "type": "Literal",
                     "start": 703,
                     "end": 704,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 },
                 {
                   "type": "Literal",
                   "start": 706,
                   "end": 707,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -488,7 +505,8 @@
               "type": "Literal",
               "start": 719,
               "end": 722,
-              "value": 127
+              "value": 127,
+              "raw": "127"
             }
           }
         ]
@@ -630,14 +648,16 @@
               "type": "Literal",
               "start": 815,
               "end": 816,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 884,
-            "value": "The value of a.length is expected to be originalArray.length / 2"
+            "value": "The value of a.length is expected to be originalArray.length / 2",
+            "raw": "'The value of a.length is expected to be originalArray.length / 2'"
           }
         ],
         "optional": false
@@ -666,7 +686,8 @@
               "type": "Literal",
               "start": 901,
               "end": 902,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -711,7 +732,8 @@
             "type": "Literal",
             "start": 931,
             "end": 932,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       },
@@ -784,13 +806,15 @@
                   "type": "Literal",
                   "start": 966,
                   "end": 969,
-                  "value": 127
+                  "value": 127,
+                  "raw": "127"
                 },
                 {
                   "type": "Literal",
                   "start": 971,
                   "end": 1012,
-                  "value": "The value of a[j] is expected to be 127"
+                  "value": "The value of a[j] is expected to be 127",
+                  "raw": "'The value of a[j] is expected to be 127'"
                 }
               ],
               "optional": false

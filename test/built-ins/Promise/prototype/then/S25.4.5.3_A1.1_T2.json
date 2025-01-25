@@ -120,7 +120,8 @@
             "type": "Literal",
             "start": 354,
             "end": 422,
-            "value": "The value of !!(p.then instanceof Function) is expected to be true"
+            "value": "The value of !!(p.then instanceof Function) is expected to be true",
+            "raw": "'The value of !!(p.then instanceof Function) is expected to be true'"
           }
         ],
         "optional": false
@@ -190,13 +191,15 @@
             "type": "Literal",
             "start": 457,
             "end": 458,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 508,
-            "value": "The value of p.then.length is expected to be 2"
+            "value": "The value of p.then.length is expected to be 2",
+            "raw": "'The value of p.then.length is expected to be 2'"
           }
         ],
         "optional": false

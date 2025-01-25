@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 302,
             "end": 303,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -68,7 +69,8 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 327,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               },
               "property": {
                 "type": "Identifier",
@@ -84,7 +86,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 339,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "CallExpression",
@@ -116,7 +119,8 @@
                             "type": "Literal",
                             "start": 360,
                             "end": 372,
-                            "value": "use strict"
+                            "value": "use strict",
+                            "raw": "\"use strict\""
                           },
                           "directive": "use strict"
                         },
@@ -168,7 +172,8 @@
                                     "type": "Literal",
                                     "start": 432,
                                     "end": 435,
-                                    "value": "a"
+                                    "value": "a",
+                                    "raw": "\"a\""
                                   }
                                 }
                               ]
@@ -189,7 +194,8 @@
             "type": "Literal",
             "start": 450,
             "end": 454,
-            "value": "aa"
+            "value": "aa",
+            "raw": "\"aa\""
           }
         ],
         "optional": false
@@ -239,7 +245,8 @@
             "type": "Literal",
             "start": 488,
             "end": 491,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false

@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 532,
                         "end": 533,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -122,7 +123,8 @@
             "type": "Literal",
             "start": 539,
             "end": 633,
-            "value": "Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules"
+            "value": "Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules",
+            "raw": "\"Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules\""
           }
         ],
         "optional": false

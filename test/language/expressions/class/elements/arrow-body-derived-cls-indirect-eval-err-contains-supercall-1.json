@@ -95,7 +95,8 @@
                             "type": "Literal",
                             "start": 1134,
                             "end": 1135,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -111,7 +112,8 @@
                         "type": "Literal",
                         "start": 1143,
                         "end": 1164,
-                        "value": "() => super()[\"x\"];"
+                        "value": "() => super()[\"x\"];",
+                        "raw": "'() => super()[\"x\"];'"
                       }
                     ],
                     "optional": false

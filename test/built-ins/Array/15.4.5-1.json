@@ -144,13 +144,15 @@
             "type": "Literal",
             "start": 300,
             "end": 316,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "'[object Array]'"
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 369,
-            "value": "The value of s is expected to be \"[object Array]\""
+            "value": "The value of s is expected to be \"[object Array]\"",
+            "raw": "'The value of s is expected to be \"[object Array]\"'"
           }
         ],
         "optional": false

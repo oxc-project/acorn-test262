@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 1629,
                       "end": 1634,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 ]
@@ -119,7 +120,8 @@
                         "type": "Literal",
                         "start": 1692,
                         "end": 1696,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   }
@@ -235,7 +237,8 @@
             "type": "Literal",
             "start": 1779,
             "end": 1833,
-            "value": "PutValue throws when storing the result if no setter"
+            "value": "PutValue throws when storing the result if no setter",
+            "raw": "\"PutValue throws when storing the result if no setter\""
           }
         ],
         "optional": false

@@ -79,7 +79,8 @@
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -151,7 +152,8 @@
                             "type": "Literal",
                             "start": 510,
                             "end": 511,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -188,7 +190,8 @@
                   "type": "Literal",
                   "start": 546,
                   "end": 550,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -230,7 +233,8 @@
           "type": "Literal",
           "start": 566,
           "end": 567,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -305,13 +309,15 @@
             "type": "Literal",
             "start": 621,
             "end": 625,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 672,
-            "value": "Returns true if symbol own property found"
+            "value": "Returns true if symbol own property found",
+            "raw": "\"Returns true if symbol own property found\""
           }
         ],
         "optional": false
@@ -355,13 +361,15 @@
             "type": "Literal",
             "start": 705,
             "end": 706,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 744,
-            "value": "valueOf method called exactly once"
+            "value": "valueOf method called exactly once",
+            "raw": "\"valueOf method called exactly once\""
           }
         ],
         "optional": false

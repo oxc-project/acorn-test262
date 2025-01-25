@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 664,
             "end": 674,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 731,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -92,7 +94,8 @@
             "type": "Literal",
             "start": 750,
             "end": 751,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -243,7 +246,8 @@
                       "type": "Literal",
                       "start": 1104,
                       "end": 1105,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -327,7 +331,8 @@
                     "type": "Literal",
                     "start": 1155,
                     "end": 1157,
-                    "value": "1n"
+                    "value": "1n",
+                    "raw": "1n"
                   }
                 ],
                 "optional": false
@@ -401,13 +406,15 @@
                             "type": "Literal",
                             "start": 1217,
                             "end": 1219,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           },
                           {
                             "type": "Literal",
                             "start": 1221,
                             "end": 1254,
-                            "value": "The value of `agentCount` is 1n"
+                            "value": "The value of `agentCount` is 1n",
+                            "raw": "'The value of `agentCount` is 1n'"
                           }
                         ],
                         "optional": false
@@ -489,13 +496,15 @@
                             "type": "Literal",
                             "start": 1321,
                             "end": 1332,
-                            "value": "timed-out"
+                            "value": "timed-out",
+                            "raw": "'timed-out'"
                           },
                           {
                             "type": "Literal",
                             "start": 1338,
                             "end": 1409,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
                           }
                         ],
                         "optional": false
@@ -563,7 +572,8 @@
                                 "type": "Literal",
                                 "start": 1461,
                                 "end": 1462,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             ],
                             "optional": false
@@ -572,13 +582,15 @@
                             "type": "Literal",
                             "start": 1469,
                             "end": 1470,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1476,
                             "end": 1588,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
                           }
                         ],
                         "optional": false

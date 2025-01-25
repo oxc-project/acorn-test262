@@ -31,6 +31,7 @@
                 "start": 423,
                 "end": 431,
                 "value": {},
+                "raw": "/a[^b]c/",
                 "regex": {
                   "pattern": "a[^b]c",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 442,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 466,
             "end": 515,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

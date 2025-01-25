@@ -153,13 +153,15 @@
             "type": "Literal",
             "start": 341,
             "end": 352,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 377,
-            "value": "typeof (obj.property)"
+            "value": "typeof (obj.property)",
+            "raw": "'typeof (obj.property)'"
           }
         ],
         "optional": false

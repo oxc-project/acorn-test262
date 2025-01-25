@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 775,
             "end": 780,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 851,
-            "value": "isConstructor(Date.prototype.getTimezoneOffset) must return false"
+            "value": "isConstructor(Date.prototype.getTimezoneOffset) must return false",
+            "raw": "'isConstructor(Date.prototype.getTimezoneOffset) must return false'"
           }
         ],
         "optional": false

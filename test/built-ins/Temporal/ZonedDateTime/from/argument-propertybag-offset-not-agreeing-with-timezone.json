@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 316,
             "end": 324,
-            "value": "+01:00"
+            "value": "+01:00",
+            "raw": "\"+01:00\""
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 354,
                   "end": 358,
-                  "value": 2021
+                  "value": 2021,
+                  "raw": "2021"
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 367,
                   "end": 369,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -107,7 +110,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 378,
-                  "value": 28
+                  "value": 28,
+                  "raw": "28"
                 },
                 "kind": "init"
               },
@@ -128,7 +132,8 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 396,
-                  "value": "-07:00"
+                  "value": "-07:00",
+                  "raw": "\"-07:00\""
                 },
                 "kind": "init"
               },
@@ -253,7 +258,8 @@
             "type": "Literal",
             "start": 483,
             "end": 535,
-            "value": "offset property not matching time zone is rejected"
+            "value": "offset property not matching time zone is rejected",
+            "raw": "\"offset property not matching time zone is rejected\""
           }
         ],
         "optional": false
@@ -367,7 +373,8 @@
                         "type": "Literal",
                         "start": 620,
                         "end": 628,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -381,7 +388,8 @@
             "type": "Literal",
             "start": 633,
             "end": 685,
-            "value": "offset property not matching time zone is rejected"
+            "value": "offset property not matching time zone is rejected",
+            "raw": "\"offset property not matching time zone is rejected\""
           }
         ],
         "optional": false

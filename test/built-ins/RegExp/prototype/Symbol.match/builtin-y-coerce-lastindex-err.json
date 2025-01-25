@@ -23,6 +23,7 @@
             "start": 674,
             "end": 678,
             "value": {},
+            "raw": "/./y",
             "regex": {
               "pattern": ".",
               "flags": "y"
@@ -211,7 +212,8 @@
                         "type": "Literal",
                         "start": 817,
                         "end": 819,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

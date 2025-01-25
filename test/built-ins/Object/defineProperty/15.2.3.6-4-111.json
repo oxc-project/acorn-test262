@@ -55,7 +55,8 @@
               "type": "Literal",
               "start": 382,
               "end": 384,
-              "value": 10
+              "value": 10,
+              "raw": "10"
             }
           }
         ]
@@ -164,7 +165,8 @@
             "type": "Literal",
             "start": 478,
             "end": 483,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -230,7 +232,8 @@
                   "type": "Literal",
                   "start": 533,
                   "end": 537,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -251,7 +254,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 559,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -299,7 +303,8 @@
             "type": "Literal",
             "start": 592,
             "end": 597,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -403,7 +408,8 @@
                 "type": "Literal",
                 "start": 688,
                 "end": 693,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -455,7 +461,8 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 728,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -464,7 +471,8 @@
             "type": "Literal",
             "start": 731,
             "end": 767,
-            "value": "obj.hasOwnProperty(\"foo\") !== true"
+            "value": "obj.hasOwnProperty(\"foo\") !== true",
+            "raw": "'obj.hasOwnProperty(\"foo\") !== true'"
           }
         ],
         "optional": false
@@ -533,13 +541,15 @@
             "type": "Literal",
             "start": 805,
             "end": 816,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 837,
-            "value": "typeof (desc.set)"
+            "value": "typeof (desc.set)",
+            "raw": "'typeof (desc.set)'"
           }
         ],
         "optional": false

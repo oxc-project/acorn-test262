@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 271,
                 "end": 272,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -109,13 +112,15 @@
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 319,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -124,13 +129,15 @@
             "type": "Literal",
             "start": 322,
             "end": 323,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 344,
-            "value": "\"1\" resolves to 1"
+            "value": "\"1\" resolves to 1",
+            "raw": "'\"1\" resolves to 1'"
           }
         ],
         "optional": false
@@ -192,13 +199,15 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 386,
-                "value": "one"
+                "value": "one",
+                "raw": "\"one\""
               }
             ],
             "optional": false
@@ -213,14 +222,16 @@
               "type": "Literal",
               "start": 390,
               "end": 391,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 420,
-            "value": "NaN string resolves to 01"
+            "value": "NaN string resolves to 01",
+            "raw": "'NaN string resolves to 01'"
           }
         ],
         "optional": false

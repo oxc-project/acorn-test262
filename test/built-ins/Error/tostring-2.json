@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 313,
             "end": 320,
-            "value": "Error"
+            "value": "Error",
+            "raw": "'Error'"
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 360,
-            "value": "Error().toString() returns \"Error\""
+            "value": "Error().toString() returns \"Error\"",
+            "raw": "'Error().toString() returns \"Error\"'"
           }
         ],
         "optional": false
@@ -220,13 +222,15 @@
             "type": "Literal",
             "start": 461,
             "end": 477,
-            "value": "[object Error]"
+            "value": "[object Error]",
+            "raw": "'[object Error]'"
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 554,
-            "value": "Error().toString() returns \"[object Error]\" (Object.prototype.toString)"
+            "value": "Error().toString() returns \"[object Error]\" (Object.prototype.toString)",
+            "raw": "'Error().toString() returns \"[object Error]\" (Object.prototype.toString)'"
           }
         ],
         "optional": false

@@ -63,7 +63,8 @@
           "type": "Literal",
           "start": 287,
           "end": 291,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -94,7 +95,8 @@
                     "type": "Literal",
                     "start": 320,
                     "end": 366,
-                    "value": "#1: var x; --x; x === Not-a-Number. Actual: "
+                    "value": "#1: var x; --x; x === Not-a-Number. Actual: ",
+                    "raw": "'#1: var x; --x; x === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -135,7 +137,8 @@
             "type": "Literal",
             "start": 396,
             "end": 400,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -173,7 +176,8 @@
             "type": "Literal",
             "start": 415,
             "end": 416,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -205,7 +209,8 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 485,
-                    "value": "#2: var x = null; --x === -1. Actual: "
+                    "value": "#2: var x = null; --x === -1. Actual: ",
+                    "raw": "'#2: var x = null; --x === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

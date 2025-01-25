@@ -87,7 +87,8 @@
                   "type": "Literal",
                   "start": 343,
                   "end": 361,
-                  "value": "2020-13-34T24:60"
+                  "value": "2020-13-34T24:60",
+                  "raw": "\"2020-13-34T24:60\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -103,7 +104,8 @@
             "type": "Literal",
             "start": 370,
             "end": 442,
-            "value": "constrain has no effect on invalid ISO string (empty options argument)"
+            "value": "constrain has no effect on invalid ISO string (empty options argument)",
+            "raw": "\"constrain has no effect on invalid ISO string (empty options argument)\""
           }
         ],
         "optional": false
@@ -193,7 +195,8 @@
                   "type": "Literal",
                   "start": 512,
                   "end": 530,
-                  "value": "2020-13-34T24:60"
+                  "value": "2020-13-34T24:60",
+                  "raw": "\"2020-13-34T24:60\""
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -219,7 +222,8 @@
             "type": "Literal",
             "start": 545,
             "end": 633,
-            "value": "constrain has no effect on invalid ISO string (nullary empty object function argument)"
+            "value": "constrain has no effect on invalid ISO string (nullary empty object function argument)",
+            "raw": "\"constrain has no effect on invalid ISO string (nullary empty object function argument)\""
           }
         ],
         "optional": false
@@ -309,7 +313,8 @@
                   "type": "Literal",
                   "start": 703,
                   "end": 721,
-                  "value": "2020-13-34T24:60"
+                  "value": "2020-13-34T24:60",
+                  "raw": "\"2020-13-34T24:60\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -333,7 +338,8 @@
                         "type": "Literal",
                         "start": 734,
                         "end": 745,
-                        "value": "constrain"
+                        "value": "constrain",
+                        "raw": "\"constrain\""
                       },
                       "kind": "init"
                     }
@@ -347,7 +353,8 @@
             "type": "Literal",
             "start": 751,
             "end": 809,
-            "value": "overflow = constrain has no effect on invalid ISO string"
+            "value": "overflow = constrain has no effect on invalid ISO string",
+            "raw": "\"overflow = constrain has no effect on invalid ISO string\""
           }
         ],
         "optional": false
@@ -437,7 +444,8 @@
                   "type": "Literal",
                   "start": 879,
                   "end": 897,
-                  "value": "2020-13-34T24:60"
+                  "value": "2020-13-34T24:60",
+                  "raw": "\"2020-13-34T24:60\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -461,7 +469,8 @@
                         "type": "Literal",
                         "start": 910,
                         "end": 918,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -475,7 +484,8 @@
             "type": "Literal",
             "start": 924,
             "end": 979,
-            "value": "overflow = reject has no effect on invalid ISO string"
+            "value": "overflow = reject has no effect on invalid ISO string",
+            "raw": "\"overflow = reject has no effect on invalid ISO string\""
           }
         ],
         "optional": false

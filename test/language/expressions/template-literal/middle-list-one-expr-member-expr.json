@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 515,
                   "end": 516,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 "kind": "init"
               },
@@ -61,7 +62,8 @@
                   "type": "Literal",
                   "start": 528,
                   "end": 541,
-                  "value": "stringValue"
+                  "value": "stringValue",
+                  "raw": "'stringValue'"
                 },
                 "kind": "init"
               }
@@ -108,7 +110,8 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 570,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -167,13 +170,15 @@
             "type": "Literal",
             "start": 595,
             "end": 604,
-            "value": "0 5 bar"
+            "value": "0 5 bar",
+            "raw": "'0 5 bar'"
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 629,
-            "value": "number value property"
+            "value": "number value property",
+            "raw": "'number value property'"
           }
         ],
         "optional": false
@@ -216,7 +221,8 @@
                 "type": "Literal",
                 "start": 656,
                 "end": 657,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -275,13 +281,15 @@
             "type": "Literal",
             "start": 682,
             "end": 701,
-            "value": "0 stringValue bar"
+            "value": "0 stringValue bar",
+            "raw": "'0 stringValue bar'"
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 726,
-            "value": "string value property"
+            "value": "string value property",
+            "raw": "'string value property'"
           }
         ],
         "optional": false
@@ -324,7 +332,8 @@
                 "type": "Literal",
                 "start": 753,
                 "end": 754,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -340,7 +349,8 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 773,
-                  "value": "string"
+                  "value": "string",
+                  "raw": "'string'"
                 },
                 "computed": true,
                 "optional": false
@@ -383,13 +393,15 @@
             "type": "Literal",
             "start": 784,
             "end": 803,
-            "value": "0 stringValue bar"
+            "value": "0 stringValue bar",
+            "raw": "'0 stringValue bar'"
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 864,
-            "value": "string value property (single-quote string dereference)"
+            "value": "string value property (single-quote string dereference)",
+            "raw": "'string value property (single-quote string dereference)'"
           }
         ],
         "optional": false
@@ -432,7 +444,8 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 892,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -448,7 +461,8 @@
                   "type": "Literal",
                   "start": 903,
                   "end": 911,
-                  "value": "string"
+                  "value": "string",
+                  "raw": "\"string\""
                 },
                 "computed": true,
                 "optional": false
@@ -491,13 +505,15 @@
             "type": "Literal",
             "start": 922,
             "end": 941,
-            "value": "0 stringValue bar"
+            "value": "0 stringValue bar",
+            "raw": "'0 stringValue bar'"
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 1002,
-            "value": "string value property (double-quote string dereference)"
+            "value": "string value property (double-quote string dereference)",
+            "raw": "'string value property (double-quote string dereference)'"
           }
         ],
         "optional": false

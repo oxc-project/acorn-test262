@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 334,
             "end": 335,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -59,7 +60,8 @@
         "type": "Literal",
         "start": 368,
         "end": 372,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -85,7 +87,8 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 386,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -131,7 +134,8 @@
             "type": "Literal",
             "start": 415,
             "end": 416,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

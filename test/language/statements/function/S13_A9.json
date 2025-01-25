@@ -48,7 +48,8 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -172,13 +173,15 @@
               "type": "Literal",
               "start": 508,
               "end": 509,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 511,
               "end": 512,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
           "optional": false
@@ -188,7 +191,8 @@
           "type": "Literal",
           "start": 518,
           "end": 519,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "consequent": {
@@ -215,7 +219,8 @@
                   "type": "Literal",
                   "start": 547,
                   "end": 588,
-                  "value": "#1: function  can be passed as argument"
+                  "value": "#1: function  can be passed as argument",
+                  "raw": "'#1: function  can be passed as argument'"
                 }
               ]
             }

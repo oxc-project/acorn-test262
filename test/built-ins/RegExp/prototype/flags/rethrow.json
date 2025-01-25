@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 770,
                   "end": 777,
-                  "value": "flags"
+                  "value": "flags",
+                  "raw": "'flags'"
                 }
               ],
               "optional": false
@@ -230,7 +231,8 @@
             "type": "Literal",
             "start": 910,
             "end": 963,
-            "value": "Let hasIndices be ToBoolean(? Get(R, \"hasIndices\"))"
+            "value": "Let hasIndices be ToBoolean(? Get(R, \"hasIndices\"))",
+            "raw": "'Let hasIndices be ToBoolean(? Get(R, \"hasIndices\"))'"
           }
         ],
         "optional": false
@@ -379,7 +381,8 @@
             "type": "Literal",
             "start": 1088,
             "end": 1133,
-            "value": "Let global be ToBoolean(? Get(R, \"global\"))"
+            "value": "Let global be ToBoolean(? Get(R, \"global\"))",
+            "raw": "'Let global be ToBoolean(? Get(R, \"global\"))'"
           }
         ],
         "optional": false
@@ -528,7 +531,8 @@
             "type": "Literal",
             "start": 1262,
             "end": 1315,
-            "value": "Let ignoreCase be ToBoolean(? Get(R, \"ignoreCase\"))"
+            "value": "Let ignoreCase be ToBoolean(? Get(R, \"ignoreCase\"))",
+            "raw": "'Let ignoreCase be ToBoolean(? Get(R, \"ignoreCase\"))'"
           }
         ],
         "optional": false
@@ -677,7 +681,8 @@
             "type": "Literal",
             "start": 1443,
             "end": 1494,
-            "value": "Let multiline be ToBoolean(? Get(R, \"multiline\"))"
+            "value": "Let multiline be ToBoolean(? Get(R, \"multiline\"))",
+            "raw": "'Let multiline be ToBoolean(? Get(R, \"multiline\"))'"
           }
         ],
         "optional": false
@@ -826,7 +831,8 @@
             "type": "Literal",
             "start": 1619,
             "end": 1664,
-            "value": "Let dotAll be ToBoolean(? Get(R, \"dotAll\"))"
+            "value": "Let dotAll be ToBoolean(? Get(R, \"dotAll\"))",
+            "raw": "'Let dotAll be ToBoolean(? Get(R, \"dotAll\"))'"
           }
         ],
         "optional": false
@@ -975,7 +981,8 @@
             "type": "Literal",
             "start": 1790,
             "end": 1837,
-            "value": "Let unicode be ToBoolean(? Get(R, \"unicode\"))"
+            "value": "Let unicode be ToBoolean(? Get(R, \"unicode\"))",
+            "raw": "'Let unicode be ToBoolean(? Get(R, \"unicode\"))'"
           }
         ],
         "optional": false
@@ -1124,7 +1131,8 @@
             "type": "Literal",
             "start": 1962,
             "end": 2007,
-            "value": "Let sticky be ToBoolean(? Get(R, \"sticky\"))"
+            "value": "Let sticky be ToBoolean(? Get(R, \"sticky\"))",
+            "raw": "'Let sticky be ToBoolean(? Get(R, \"sticky\"))'"
           }
         ],
         "optional": false

@@ -51,7 +51,8 @@
                     "type": "Literal",
                     "start": 342,
                     "end": 345,
-                    "value": "a"
+                    "value": "a",
+                    "raw": "'a'"
                   }
                 ],
                 "optional": false
@@ -104,7 +105,8 @@
                           "type": "Literal",
                           "start": 384,
                           "end": 387,
-                          "value": "b"
+                          "value": "b",
+                          "raw": "'b'"
                         }
                       ],
                       "optional": false
@@ -169,7 +171,8 @@
                             "type": "Literal",
                             "start": 421,
                             "end": 424,
-                            "value": "c"
+                            "value": "c",
+                            "raw": "'c'"
                           }
                         ],
                         "optional": false
@@ -231,7 +234,8 @@
                         "type": "Literal",
                         "start": 462,
                         "end": 465,
-                        "value": "d"
+                        "value": "d",
+                        "raw": "'d'"
                       }
                     ],
                     "optional": false
@@ -332,7 +336,8 @@
                       "type": "Literal",
                       "start": 522,
                       "end": 572,
-                      "value": "The promise should be rejected, but was resolved"
+                      "value": "The promise should be rejected, but was resolved",
+                      "raw": "'The promise should be rejected, but was resolved'"
                     }
                   ],
                   "optional": false
@@ -511,7 +516,8 @@
                                 "type": "Literal",
                                 "start": 695,
                                 "end": 697,
-                                "value": ""
+                                "value": "",
+                                "raw": "''"
                               }
                             ],
                             "optional": false
@@ -520,7 +526,8 @@
                             "type": "Literal",
                             "start": 700,
                             "end": 706,
-                            "value": "abcd"
+                            "value": "abcd",
+                            "raw": "'abcd'"
                           }
                         ],
                         "optional": false

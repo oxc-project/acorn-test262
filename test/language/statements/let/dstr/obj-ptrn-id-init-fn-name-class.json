@@ -233,7 +233,8 @@
             "type": "Literal",
             "start": 1356,
             "end": 1361,
-            "value": "cls"
+            "value": "cls",
+            "raw": "'cls'"
           }
         ],
         "optional": false
@@ -290,7 +291,8 @@
             "type": "Literal",
             "start": 1395,
             "end": 1401,
-            "value": "xCls"
+            "value": "xCls",
+            "raw": "'xCls'"
           }
         ],
         "optional": false
@@ -347,7 +349,8 @@
             "type": "Literal",
             "start": 1436,
             "end": 1443,
-            "value": "xCls2"
+            "value": "xCls2",
+            "raw": "'xCls2'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 415,
             "end": 416,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -160,13 +161,15 @@
                     "type": "Literal",
                     "start": 536,
                     "end": 537,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 539,
                     "end": 540,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -211,13 +214,15 @@
                     "type": "Literal",
                     "start": 564,
                     "end": 565,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 567,
                     "end": 568,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -251,13 +256,15 @@
                 "type": "Literal",
                 "start": 590,
                 "end": 591,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 593,
                 "end": 594,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -411,13 +418,15 @@
             "type": "Literal",
             "start": 713,
             "end": 714,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 748,
-            "value": "Symbol.species is never called"
+            "value": "Symbol.species is never called",
+            "raw": "\"Symbol.species is never called\""
           }
         ],
         "optional": false
@@ -473,13 +482,15 @@
             "type": "Literal",
             "start": 793,
             "end": 797,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 799,
             "end": 829,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -535,13 +546,15 @@
             "type": "Literal",
             "start": 881,
             "end": 886,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 936,
-            "value": "The returned object is a Set, not a subclass"
+            "value": "The returned object is a Set, not a subclass",
+            "raw": "\"The returned object is a Set, not a subclass\""
           }
         ],
         "optional": false

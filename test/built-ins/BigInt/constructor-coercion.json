@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 525,
             "end": 529,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -122,7 +123,8 @@
                                   "type": "Literal",
                                   "start": 609,
                                   "end": 614,
-                                  "value": false
+                                  "value": false,
+                                  "raw": "false"
                                 }
                               }
                             },
@@ -134,7 +136,8 @@
                                 "type": "Literal",
                                 "start": 629,
                                 "end": 633,
-                                "value": "42"
+                                "value": "42",
+                                "raw": "\"42\""
                               }
                             }
                           ]
@@ -160,7 +163,8 @@
                               "type": "Literal",
                               "start": 668,
                               "end": 716,
-                              "value": "Symbol.toPrimitive should only be invoked once"
+                              "value": "Symbol.toPrimitive should only be invoked once",
+                              "raw": "\"Symbol.toPrimitive should only be invoked once\""
                             }
                           ]
                         }
@@ -228,13 +232,15 @@
             "type": "Literal",
             "start": 756,
             "end": 759,
-            "value": "42n"
+            "value": "42n",
+            "raw": "42n"
           },
           {
             "type": "Literal",
             "start": 761,
             "end": 847,
-            "value": "BigInt constructor should use the post-ToPrimitive value as the argument to ToBigInt"
+            "value": "BigInt constructor should use the post-ToPrimitive value as the argument to ToBigInt",
+            "raw": "\"BigInt constructor should use the post-ToPrimitive value as the argument to ToBigInt\""
           }
         ],
         "optional": false

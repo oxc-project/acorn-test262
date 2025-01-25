@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 354,
             "end": 359,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         }
       ],
@@ -51,7 +52,8 @@
             "type": "Literal",
             "start": 370,
             "end": 372,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         },
         "operator": "!==",
@@ -90,7 +92,8 @@
                     "type": "Literal",
                     "start": 408,
                     "end": 444,
-                    "value": "#1: \"abc\" + \"\" === \"abc\". Actual: "
+                    "value": "#1: \"abc\" + \"\" === \"abc\". Actual: ",
+                    "raw": "'#1: \"abc\" + \"\" === \"abc\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -105,14 +108,16 @@
                         "type": "Literal",
                         "start": 448,
                         "end": 453,
-                        "value": "abc"
+                        "value": "abc",
+                        "raw": "\"abc\""
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
                         "start": 456,
                         "end": 458,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     }
                   }
@@ -143,7 +148,8 @@
             "type": "Literal",
             "start": 485,
             "end": 490,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         }
       ],
@@ -179,7 +185,8 @@
             "type": "Literal",
             "start": 508,
             "end": 510,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         },
         "operator": "!==",
@@ -225,7 +232,8 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 600,
-                    "value": "#2: typeof \"abc\" + \"\" === \"string\". Actual: "
+                    "value": "#2: typeof \"abc\" + \"\" === \"string\". Actual: ",
+                    "raw": "'#2: typeof \"abc\" + \"\" === \"string\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -246,7 +254,8 @@
                           "type": "Literal",
                           "start": 611,
                           "end": 616,
-                          "value": "abc"
+                          "value": "abc",
+                          "raw": "\"abc\""
                         }
                       },
                       "operator": "+",
@@ -254,7 +263,8 @@
                         "type": "Literal",
                         "start": 619,
                         "end": 621,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     }
                   }

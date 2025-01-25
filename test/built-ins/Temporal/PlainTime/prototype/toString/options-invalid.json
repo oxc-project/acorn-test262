@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 342,
-                "value": "12:56:32"
+                "value": "12:56:32",
+                "raw": "\"12:56:32\""
               }
             ],
             "optional": false
@@ -92,19 +93,22 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 365,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 371,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 380,
-                "value": "hello"
+                "value": "hello",
+                "raw": "\"hello\""
               },
               {
                 "type": "CallExpression",
@@ -121,7 +125,8 @@
                     "type": "Literal",
                     "start": 389,
                     "end": 394,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   }
                 ],
                 "optional": false
@@ -130,13 +135,15 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 398,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 402,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             ]
           }

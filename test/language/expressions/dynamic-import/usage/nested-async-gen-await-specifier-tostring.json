@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 1785,
                           "end": 1811,
-                          "value": "./module-code_FIXTURE.js"
+                          "value": "./module-code_FIXTURE.js",
+                          "raw": "'./module-code_FIXTURE.js'"
                         }
                       }
                     ]
@@ -91,7 +92,8 @@
             "type": "Literal",
             "start": 1840,
             "end": 1841,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -226,7 +228,8 @@
                                 "type": "Literal",
                                 "start": 1946,
                                 "end": 1948,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               }
                             ],
                             "optional": false
@@ -283,7 +286,8 @@
                                 "type": "Literal",
                                 "start": 1984,
                                 "end": 1993,
-                                "value": "Test262"
+                                "value": "Test262",
+                                "raw": "'Test262'"
                               }
                             ],
                             "optional": false
@@ -340,7 +344,8 @@
                                 "type": "Literal",
                                 "start": 2029,
                                 "end": 2031,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               }
                             ],
                             "optional": false
@@ -498,7 +503,8 @@
                                 "type": "Literal",
                                 "start": 2115,
                                 "end": 2116,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             ],
                             "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 351,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 358,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -84,25 +86,29 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 399,
-                "value": "Asia/Calcutta"
+                "value": "Asia/Calcutta",
+                "raw": "\"Asia/Calcutta\""
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 417,
-                "value": "Asia/Kolkata"
+                "value": "Asia/Kolkata",
+                "raw": "\"Asia/Kolkata\""
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 436,
-                "value": "ASIA/calcutta"
+                "value": "ASIA/calcutta",
+                "raw": "\"ASIA/calcutta\""
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 454,
-                "value": "Asia/KOLKATA"
+                "value": "Asia/KOLKATA",
+                "raw": "\"Asia/KOLKATA\""
               }
             ]
           }
@@ -369,13 +375,15 @@
                 "type": "Literal",
                 "start": 712,
                 "end": 726,
-                "value": "Asia/Colombo"
+                "value": "Asia/Colombo",
+                "raw": "\"Asia/Colombo\""
               },
               {
                 "type": "Literal",
                 "start": 730,
                 "end": 744,
-                "value": "ASIA/colombo"
+                "value": "ASIA/colombo",
+                "raw": "\"ASIA/colombo\""
               }
             ]
           }

@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 412,
           "end": 423,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -65,7 +66,8 @@
                     "type": "Literal",
                     "start": 453,
                     "end": 498,
-                    "value": "#1: typeof(__ref) === \"undefined\". Actual: "
+                    "value": "#1: typeof(__ref) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof(__ref) === \"undefined\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -191,7 +193,8 @@
           "type": "Literal",
           "start": 758,
           "end": 769,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -218,7 +221,8 @@
                   "type": "Literal",
                   "start": 799,
                   "end": 871,
-                  "value": "#2: obj = new Object(); var __ref = obj; typeof(__ref) !== \"undefined\""
+                  "value": "#2: obj = new Object(); var __ref = obj; typeof(__ref) !== \"undefined\"",
+                  "raw": "'#2: obj = new Object(); var __ref = obj; typeof(__ref) !== \"undefined\"'"
                 }
               ]
             }
@@ -258,7 +262,8 @@
           "type": "Literal",
           "start": 1070,
           "end": 1075,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -289,7 +294,8 @@
                     "type": "Literal",
                     "start": 1105,
                     "end": 1180,
-                    "value": "#3: obj = new Object(); var __ref = obj; delete __ref === false. Actual: "
+                    "value": "#3: obj = new Object(); var __ref = obj; delete __ref === false. Actual: ",
+                    "raw": "'#3: obj = new Object(); var __ref = obj; delete __ref === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -354,7 +360,8 @@
           "type": "Literal",
           "start": 1397,
           "end": 1405,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -385,7 +392,8 @@
                     "type": "Literal",
                     "start": 1435,
                     "end": 1528,
-                    "value": "#4: obj = new Object(); var __ref = obj; delete __ref; typeof(__ref) === \"object\". Actual: "
+                    "value": "#4: obj = new Object(); var __ref = obj; delete __ref; typeof(__ref) === \"object\". Actual: ",
+                    "raw": "'#4: obj = new Object(); var __ref = obj; delete __ref; typeof(__ref) === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -455,7 +463,8 @@
           "type": "Literal",
           "start": 1744,
           "end": 1752,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -486,7 +495,8 @@
                     "type": "Literal",
                     "start": 1782,
                     "end": 1873,
-                    "value": "#5: obj = new Object(); var __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: "
+                    "value": "#5: obj = new Object(); var __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: ",
+                    "raw": "'#5: obj = new Object(); var __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

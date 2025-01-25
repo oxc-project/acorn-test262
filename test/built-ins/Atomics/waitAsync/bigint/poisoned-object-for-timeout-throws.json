@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 735,
             "end": 745,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 802,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -138,7 +140,8 @@
                       "type": "Literal",
                       "start": 892,
                       "end": 893,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -216,7 +219,8 @@
                               "type": "Literal",
                               "start": 965,
                               "end": 996,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -311,7 +315,8 @@
                               "type": "Literal",
                               "start": 1091,
                               "end": 1138,
-                              "value": "passing a poisoned object using @@ToPrimitive"
+                              "value": "passing a poisoned object using @@ToPrimitive",
+                              "raw": "'passing a poisoned object using @@ToPrimitive'"
                             }
                           ]
                         }
@@ -412,13 +417,15 @@
                         "type": "Literal",
                         "start": 1216,
                         "end": 1217,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1219,
                         "end": 1221,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",
@@ -437,7 +444,8 @@
             "type": "Literal",
             "start": 1244,
             "end": 1327,
-            "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -529,13 +537,15 @@
                         "type": "Literal",
                         "start": 1398,
                         "end": 1399,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1401,
                         "end": 1403,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",
@@ -554,7 +564,8 @@
             "type": "Literal",
             "start": 1430,
             "end": 1517,
-            "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception'"
           }
         ],
         "optional": false

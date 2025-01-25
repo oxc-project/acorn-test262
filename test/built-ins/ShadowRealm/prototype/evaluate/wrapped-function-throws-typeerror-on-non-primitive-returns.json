@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 388,
             "end": 398,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 475,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -179,7 +181,8 @@
                 "type": "Literal",
                 "start": 546,
                 "end": 564,
-                "value": "() => globalThis"
+                "value": "() => globalThis",
+                "raw": "'() => globalThis'"
               }
             ],
             "optional": false
@@ -188,7 +191,8 @@
             "type": "Literal",
             "start": 567,
             "end": 579,
-            "value": "globalThis"
+            "value": "globalThis",
+            "raw": "'globalThis'"
           }
         ],
         "optional": false
@@ -256,7 +260,8 @@
                 "type": "Literal",
                 "start": 618,
                 "end": 628,
-                "value": "() => []"
+                "value": "() => []",
+                "raw": "'() => []'"
               }
             ],
             "optional": false
@@ -265,7 +270,8 @@
             "type": "Literal",
             "start": 631,
             "end": 646,
-            "value": "array literal"
+            "value": "array literal",
+            "raw": "'array literal'"
           }
         ],
         "optional": false
@@ -354,7 +360,8 @@
             "type": "Literal",
             "start": 835,
             "end": 893,
-            "value": "object literal with immediate primitive coercion methods"
+            "value": "object literal with immediate primitive coercion methods",
+            "raw": "'object literal with immediate primitive coercion methods'"
           }
         ],
         "optional": false
@@ -422,7 +429,8 @@
                 "type": "Literal",
                 "start": 932,
                 "end": 959,
-                "value": "() => Object.create(null)"
+                "value": "() => Object.create(null)",
+                "raw": "'() => Object.create(null)'"
               }
             ],
             "optional": false
@@ -431,7 +439,8 @@
             "type": "Literal",
             "start": 962,
             "end": 999,
-            "value": "ordinary object with null __proto__"
+            "value": "ordinary object with null __proto__",
+            "raw": "'ordinary object with null __proto__'"
           }
         ],
         "optional": false
@@ -499,7 +508,8 @@
                 "type": "Literal",
                 "start": 1038,
                 "end": 1075,
-                "value": "() => new Proxy({}, { apply() {} })"
+                "value": "() => new Proxy({}, { apply() {} })",
+                "raw": "'() => new Proxy({}, { apply() {} })'"
               }
             ],
             "optional": false
@@ -508,7 +518,8 @@
             "type": "Literal",
             "start": 1078,
             "end": 1098,
-            "value": "non-callable proxy"
+            "value": "non-callable proxy",
+            "raw": "'non-callable proxy'"
           }
         ],
         "optional": false

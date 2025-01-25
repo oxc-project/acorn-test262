@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 760,
             "end": 764,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 811,
-            "value": "isConstructor(SyntaxError) must return true"
+            "value": "isConstructor(SyntaxError) must return true",
+            "raw": "'isConstructor(SyntaxError) must return true'"
           }
         ],
         "optional": false

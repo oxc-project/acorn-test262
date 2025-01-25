@@ -102,7 +102,8 @@
                       "type": "Literal",
                       "start": 405,
                       "end": 416,
-                      "value": "arguments"
+                      "value": "arguments",
+                      "raw": "\"arguments\""
                     }
                   }
                 },
@@ -204,7 +205,8 @@
                       "type": "Literal",
                       "start": 509,
                       "end": 520,
-                      "value": "arguments"
+                      "value": "arguments",
+                      "raw": "\"arguments\""
                     }
                   }
                 }
@@ -247,7 +249,8 @@
             "type": "Literal",
             "start": 541,
             "end": 558,
-            "value": "func() !== true"
+            "value": "func() !== true",
+            "raw": "'func() !== true'"
           }
         ],
         "optional": false

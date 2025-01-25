@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 528,
                               "end": 536,
-                              "value": 93504
+                              "value": 93504,
+                              "raw": "0x016D40"
                             },
                             {
                               "type": "Literal",
                               "start": 538,
                               "end": 546,
-                              "value": 93561
+                              "value": 93561,
+                              "raw": "0x016D79"
                             }
                           ]
                         }
@@ -125,6 +127,7 @@
             "start": 579,
             "end": 605,
             "value": null,
+            "raw": "/^\\p{Script=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kirat_Rai}+$",
               "flags": "u"
@@ -140,7 +143,8 @@
             "type": "Literal",
             "start": 625,
             "end": 648,
-            "value": "\\p{Script=Kirat_Rai}"
+            "value": "\\p{Script=Kirat_Rai}",
+            "raw": "\"\\\\p{Script=Kirat_Rai}\""
           }
         ],
         "optional": false
@@ -166,6 +170,7 @@
             "start": 675,
             "end": 696,
             "value": null,
+            "raw": "/^\\p{Script=Krai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Krai}+$",
               "flags": "u"
@@ -181,7 +186,8 @@
             "type": "Literal",
             "start": 716,
             "end": 734,
-            "value": "\\p{Script=Krai}"
+            "value": "\\p{Script=Krai}",
+            "raw": "\"\\\\p{Script=Krai}\""
           }
         ],
         "optional": false
@@ -207,6 +213,7 @@
             "start": 761,
             "end": 783,
             "value": null,
+            "raw": "/^\\p{sc=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kirat_Rai}+$",
               "flags": "u"
@@ -222,7 +229,8 @@
             "type": "Literal",
             "start": 803,
             "end": 822,
-            "value": "\\p{sc=Kirat_Rai}"
+            "value": "\\p{sc=Kirat_Rai}",
+            "raw": "\"\\\\p{sc=Kirat_Rai}\""
           }
         ],
         "optional": false
@@ -248,6 +256,7 @@
             "start": 849,
             "end": 866,
             "value": null,
+            "raw": "/^\\p{sc=Krai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Krai}+$",
               "flags": "u"
@@ -263,7 +272,8 @@
             "type": "Literal",
             "start": 886,
             "end": 900,
-            "value": "\\p{sc=Krai}"
+            "value": "\\p{sc=Krai}",
+            "raw": "\"\\\\p{sc=Krai}\""
           }
         ],
         "optional": false
@@ -348,13 +358,15 @@
                               "type": "Literal",
                               "start": 982,
                               "end": 990,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 992,
                               "end": 1000,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1008,
                               "end": 1016,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1018,
                               "end": 1026,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1034,
                               "end": 1042,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1044,
                               "end": 1052,
-                              "value": 93503
+                              "value": 93503,
+                              "raw": "0x016D3F"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1060,
                               "end": 1068,
-                              "value": 93562
+                              "value": 93562,
+                              "raw": "0x016D7A"
                             },
                             {
                               "type": "Literal",
                               "start": 1070,
                               "end": 1078,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -448,6 +466,7 @@
             "start": 1111,
             "end": 1137,
             "value": null,
+            "raw": "/^\\P{Script=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kirat_Rai}+$",
               "flags": "u"
@@ -463,7 +482,8 @@
             "type": "Literal",
             "start": 1160,
             "end": 1183,
-            "value": "\\P{Script=Kirat_Rai}"
+            "value": "\\P{Script=Kirat_Rai}",
+            "raw": "\"\\\\P{Script=Kirat_Rai}\""
           }
         ],
         "optional": false
@@ -489,6 +509,7 @@
             "start": 1210,
             "end": 1231,
             "value": null,
+            "raw": "/^\\P{Script=Krai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Krai}+$",
               "flags": "u"
@@ -504,7 +525,8 @@
             "type": "Literal",
             "start": 1254,
             "end": 1272,
-            "value": "\\P{Script=Krai}"
+            "value": "\\P{Script=Krai}",
+            "raw": "\"\\\\P{Script=Krai}\""
           }
         ],
         "optional": false
@@ -530,6 +552,7 @@
             "start": 1299,
             "end": 1321,
             "value": null,
+            "raw": "/^\\P{sc=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kirat_Rai}+$",
               "flags": "u"
@@ -545,7 +568,8 @@
             "type": "Literal",
             "start": 1344,
             "end": 1363,
-            "value": "\\P{sc=Kirat_Rai}"
+            "value": "\\P{sc=Kirat_Rai}",
+            "raw": "\"\\\\P{sc=Kirat_Rai}\""
           }
         ],
         "optional": false
@@ -571,6 +595,7 @@
             "start": 1390,
             "end": 1407,
             "value": null,
+            "raw": "/^\\P{sc=Krai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Krai}+$",
               "flags": "u"
@@ -586,7 +611,8 @@
             "type": "Literal",
             "start": 1430,
             "end": 1444,
-            "value": "\\P{sc=Krai}"
+            "value": "\\P{sc=Krai}",
+            "raw": "\"\\\\P{sc=Krai}\""
           }
         ],
         "optional": false

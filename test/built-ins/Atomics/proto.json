@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 477,
             "end": 549,
-            "value": "Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`"
+            "value": "Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`",
+            "raw": "'Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`'"
           }
         ],
         "optional": false

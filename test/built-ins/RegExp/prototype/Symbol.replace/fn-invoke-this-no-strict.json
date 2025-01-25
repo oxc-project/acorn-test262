@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 876,
+  "end": 874,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 743,
-      "end": 755,
+      "start": 741,
+      "end": 753,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 747,
-          "end": 754,
+          "start": 745,
+          "end": 752,
           "id": {
             "type": "Identifier",
-            "start": 747,
-            "end": 754,
+            "start": 745,
+            "end": 752,
             "name": "thisVal"
           },
           "init": null
@@ -25,23 +25,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 756,
-      "end": 804,
+      "start": 754,
+      "end": 802,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 760,
-          "end": 803,
+          "start": 758,
+          "end": 801,
           "id": {
             "type": "Identifier",
-            "start": 760,
-            "end": 768,
+            "start": 758,
+            "end": 766,
             "name": "replacer"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 771,
-            "end": 803,
+            "start": 769,
+            "end": 801,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,28 +49,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 782,
-              "end": 803,
+              "start": 780,
+              "end": 801,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 786,
-                  "end": 801,
+                  "start": 784,
+                  "end": 799,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 786,
-                    "end": 800,
+                    "start": 784,
+                    "end": 798,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 786,
-                      "end": 793,
+                      "start": 784,
+                      "end": 791,
                       "name": "thisVal"
                     },
                     "right": {
                       "type": "ThisExpression",
-                      "start": 796,
-                      "end": 800
+                      "start": 794,
+                      "end": 798
                     }
                   }
                 }
@@ -83,21 +83,22 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 806,
-      "end": 841,
+      "start": 804,
+      "end": 839,
       "expression": {
         "type": "CallExpression",
-        "start": 806,
-        "end": 840,
+        "start": 804,
+        "end": 838,
         "callee": {
           "type": "MemberExpression",
-          "start": 806,
-          "end": 825,
+          "start": 804,
+          "end": 823,
           "object": {
             "type": "Literal",
-            "start": 806,
-            "end": 809,
+            "start": 804,
+            "end": 807,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -105,18 +106,18 @@
           },
           "property": {
             "type": "MemberExpression",
-            "start": 810,
-            "end": 824,
+            "start": 808,
+            "end": 822,
             "object": {
               "type": "Identifier",
-              "start": 810,
-              "end": 816,
+              "start": 808,
+              "end": 814,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 817,
-              "end": 824,
+              "start": 815,
+              "end": 822,
               "name": "replace"
             },
             "computed": false,
@@ -128,14 +129,15 @@
         "arguments": [
           {
             "type": "Literal",
-            "start": 826,
-            "end": 829,
-            "value": "x"
+            "start": 824,
+            "end": 827,
+            "value": "x",
+            "raw": "'x'"
           },
           {
             "type": "Identifier",
-            "start": 831,
-            "end": 839,
+            "start": 829,
+            "end": 837,
             "name": "replacer"
           }
         ],
@@ -144,26 +146,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 843,
-      "end": 875,
+      "start": 841,
+      "end": 873,
       "expression": {
         "type": "CallExpression",
-        "start": 843,
-        "end": 874,
+        "start": 841,
+        "end": 872,
         "callee": {
           "type": "MemberExpression",
-          "start": 843,
-          "end": 859,
+          "start": 841,
+          "end": 857,
           "object": {
             "type": "Identifier",
-            "start": 843,
-            "end": 849,
+            "start": 841,
+            "end": 847,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 850,
-            "end": 859,
+            "start": 848,
+            "end": 857,
             "name": "sameValue"
           },
           "computed": false,
@@ -172,14 +174,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 860,
-            "end": 867,
+            "start": 858,
+            "end": 865,
             "name": "thisVal"
           },
           {
             "type": "ThisExpression",
-            "start": 869,
-            "end": 873
+            "start": 867,
+            "end": 871
           }
         ],
         "optional": false

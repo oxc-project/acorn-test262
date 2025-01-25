@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 1024,
                   "end": 1026,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 },
                 "kind": "init"
               }
@@ -69,7 +70,8 @@
             "type": "Literal",
             "start": 1045,
             "end": 1067,
-            "value": "receiver is a string"
+            "value": "receiver is a string",
+            "raw": "'receiver is a string'"
           }
         }
       ],
@@ -124,13 +126,15 @@
                 "type": "Literal",
                 "start": 1098,
                 "end": 1101,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               },
               {
                 "type": "Literal",
                 "start": 1103,
                 "end": 1105,
-                "value": 43
+                "value": 43,
+                "raw": "43"
               },
               {
                 "type": "Identifier",
@@ -183,13 +187,15 @@
             "type": "Literal",
             "start": 1144,
             "end": 1149,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1151,
             "end": 1166,
-            "value": "returns false"
+            "value": "returns false",
+            "raw": "'returns false'"
           }
         ],
         "optional": false
@@ -246,13 +252,15 @@
             "type": "Literal",
             "start": 1192,
             "end": 1194,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1196,
             "end": 1218,
-            "value": "does not set a value"
+            "value": "does not set a value",
+            "raw": "'does not set a value'"
           }
         ],
         "optional": false
@@ -314,7 +322,8 @@
                 "type": "Literal",
                 "start": 1265,
                 "end": 1268,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               }
             ],
             "optional": false
@@ -323,13 +332,15 @@
             "type": "Literal",
             "start": 1271,
             "end": 1276,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1280,
             "end": 1344,
-            "value": "does not set a new property on receiver if it is not an object"
+            "value": "does not set a new property on receiver if it is not an object",
+            "raw": "'does not set a new property on receiver if it is not an object'"
           }
         ],
         "optional": false

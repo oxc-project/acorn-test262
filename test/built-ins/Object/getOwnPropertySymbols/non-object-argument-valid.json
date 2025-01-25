@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 749,
                 "end": 753,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -74,7 +75,8 @@
             "type": "Literal",
             "start": 762,
             "end": 813,
-            "value": "Object.getOwnPropertySymbols(true) must return []"
+            "value": "Object.getOwnPropertySymbols(true) must return []",
+            "raw": "'Object.getOwnPropertySymbols(true) must return []'"
           }
         ],
         "optional": false
@@ -136,7 +138,8 @@
                 "type": "Literal",
                 "start": 869,
                 "end": 874,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -151,7 +154,8 @@
             "type": "Literal",
             "start": 883,
             "end": 935,
-            "value": "Object.getOwnPropertySymbols(false) must return []"
+            "value": "Object.getOwnPropertySymbols(false) must return []",
+            "raw": "'Object.getOwnPropertySymbols(false) must return []'"
           }
         ],
         "optional": false
@@ -213,7 +217,8 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 992,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -228,7 +233,8 @@
             "type": "Literal",
             "start": 1001,
             "end": 1049,
-            "value": "Object.getOwnPropertySymbols(1) must return []"
+            "value": "Object.getOwnPropertySymbols(1) must return []",
+            "raw": "'Object.getOwnPropertySymbols(1) must return []'"
           }
         ],
         "optional": false
@@ -290,7 +296,8 @@
                 "type": "Literal",
                 "start": 1105,
                 "end": 1106,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -305,7 +312,8 @@
             "type": "Literal",
             "start": 1115,
             "end": 1163,
-            "value": "Object.getOwnPropertySymbols(0) must return []"
+            "value": "Object.getOwnPropertySymbols(0) must return []",
+            "raw": "'Object.getOwnPropertySymbols(0) must return []'"
           }
         ],
         "optional": false
@@ -367,7 +375,8 @@
                 "type": "Literal",
                 "start": 1219,
                 "end": 1221,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -382,7 +391,8 @@
             "type": "Literal",
             "start": 1230,
             "end": 1279,
-            "value": "Object.getOwnPropertySymbols(\"\") must return []"
+            "value": "Object.getOwnPropertySymbols(\"\") must return []",
+            "raw": "'Object.getOwnPropertySymbols(\"\") must return []'"
           }
         ],
         "optional": false
@@ -466,7 +476,8 @@
             "type": "Literal",
             "start": 1352,
             "end": 1407,
-            "value": "Object.getOwnPropertySymbols(Symbol()) must return []"
+            "value": "Object.getOwnPropertySymbols(Symbol()) must return []",
+            "raw": "'Object.getOwnPropertySymbols(Symbol()) must return []'"
           }
         ],
         "optional": false

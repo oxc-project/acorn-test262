@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 361,
             "end": 416,
-            "value": "Object.isExtensible(Proxy.revocable) must return true"
+            "value": "Object.isExtensible(Proxy.revocable) must return true",
+            "raw": "'Object.isExtensible(Proxy.revocable) must return true'"
           }
         ],
         "optional": false
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 460,
             "end": 470,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 525,
-            "value": "The value of `typeof Proxy.revocable` is \"function\""
+            "value": "The value of `typeof Proxy.revocable` is \"function\"",
+            "raw": "'The value of `typeof Proxy.revocable` is \"function\"'"
           }
         ],
         "optional": false
@@ -248,13 +251,15 @@
             "type": "Literal",
             "start": 599,
             "end": 618,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 703,
-            "value": "Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\""
+            "value": "Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\"",
+            "raw": "'Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\"'"
           }
         ],
         "optional": false
@@ -357,7 +362,8 @@
             "type": "Literal",
             "start": 791,
             "end": 875,
-            "value": "Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype"
+            "value": "Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype",
+            "raw": "'Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype'"
           }
         ],
         "optional": false
@@ -432,7 +438,8 @@
                 "type": "Literal",
                 "start": 931,
                 "end": 942,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -441,13 +448,15 @@
             "type": "Literal",
             "start": 947,
             "end": 952,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1021,
-            "value": "Proxy.revocable.hasOwnProperty('prototype') must return false"
+            "value": "Proxy.revocable.hasOwnProperty('prototype') must return false",
+            "raw": "'Proxy.revocable.hasOwnProperty(\\'prototype\\') must return false'"
           }
         ],
         "optional": false

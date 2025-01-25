@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 319,
-                "value": "2020-01-01"
+                "value": "2020-01-01",
+                "raw": "\"2020-01-01\""
               }
             ],
             "optional": false
@@ -87,7 +88,8 @@
             "type": "Literal",
             "start": 339,
             "end": 344,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -149,7 +151,8 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 395,
-                "value": "12:00"
+                "value": "12:00",
+                "raw": "\"12:00\""
               }
             ],
             "optional": false
@@ -311,13 +314,15 @@
             "type": "Literal",
             "start": 500,
             "end": 532,
-            "value": "2020-01-01T12:00:00+00:00[UTC]"
+            "value": "2020-01-01T12:00:00+00:00[UTC]",
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 550,
-            "value": "objects passed"
+            "value": "objects passed",
+            "raw": "\"objects passed\""
           }
         ],
         "optional": false
@@ -431,13 +436,15 @@
             "type": "Literal",
             "start": 636,
             "end": 668,
-            "value": "2020-01-01T00:00:00+00:00[UTC]"
+            "value": "2020-01-01T00:00:00+00:00[UTC]",
+            "raw": "\"2020-01-01T00:00:00+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 697,
-            "value": "time zone object argument"
+            "value": "time zone object argument",
+            "raw": "\"time zone object argument\""
           }
         ],
         "optional": false
@@ -594,13 +601,15 @@
             "type": "Literal",
             "start": 798,
             "end": 830,
-            "value": "2020-01-01T12:00:00+00:00[UTC]"
+            "value": "2020-01-01T12:00:00+00:00[UTC]",
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 859,
-            "value": "time zone string property"
+            "value": "time zone string property",
+            "raw": "\"time zone string property\""
           }
         ],
         "optional": false
@@ -688,7 +697,8 @@
                     "type": "Literal",
                     "start": 921,
                     "end": 928,
-                    "value": "12:00"
+                    "value": "12:00",
+                    "raw": "\"12:00\""
                   },
                   "kind": "init"
                 }
@@ -757,13 +767,15 @@
             "type": "Literal",
             "start": 969,
             "end": 1001,
-            "value": "2020-01-01T12:00:00+00:00[UTC]"
+            "value": "2020-01-01T12:00:00+00:00[UTC]",
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1025,
-            "value": "time string property"
+            "value": "time string property",
+            "raw": "\"time string property\""
           }
         ],
         "optional": false

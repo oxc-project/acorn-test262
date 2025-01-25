@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 931,
                       "end": 944,
-                      "value": "super class"
+                      "value": "super class",
+                      "raw": "'super class'"
                     }
                   }
                 ]
@@ -174,7 +175,8 @@
                       "type": "Literal",
                       "start": 1030,
                       "end": 1039,
-                      "value": "test262"
+                      "value": "test262",
+                      "raw": "'test262'"
                     }
                   }
                 ]
@@ -327,7 +329,8 @@
             "type": "Literal",
             "start": 1135,
             "end": 1144,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -391,7 +394,8 @@
             "type": "Literal",
             "start": 1181,
             "end": 1194,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -486,7 +490,8 @@
             "type": "Literal",
             "start": 1249,
             "end": 1262,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -598,7 +603,8 @@
             "type": "Literal",
             "start": 1326,
             "end": 1362,
-            "value": "invalid access of C private method"
+            "value": "invalid access of C private method",
+            "raw": "'invalid access of C private method'"
           }
         ],
         "optional": false

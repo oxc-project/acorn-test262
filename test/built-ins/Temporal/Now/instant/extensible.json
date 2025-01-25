@@ -81,7 +81,8 @@
             "type": "Literal",
             "start": 307,
             "end": 367,
-            "value": "Object.isExtensible(Temporal.Now.instant) must return true"
+            "value": "Object.isExtensible(Temporal.Now.instant) must return true",
+            "raw": "'Object.isExtensible(Temporal.Now.instant) must return true'"
           }
         ],
         "optional": false

@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 1176,
                             "end": 1177,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ]
                       }
@@ -196,7 +197,8 @@
                       "type": "Literal",
                       "start": 1260,
                       "end": 1264,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   }
                 },
@@ -335,7 +337,8 @@
                         "type": "Literal",
                         "start": 1398,
                         "end": 1446,
-                        "value": "buffer ctor is not called when species is null"
+                        "value": "buffer ctor is not called when species is null",
+                        "raw": "\"buffer ctor is not called when species is null\""
                       }
                     ],
                     "optional": false

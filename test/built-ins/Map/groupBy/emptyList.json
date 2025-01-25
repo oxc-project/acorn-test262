@@ -106,7 +106,8 @@
                             "type": "Literal",
                             "start": 554,
                             "end": 594,
-                            "value": "callback function should not be called"
+                            "value": "callback function should not be called",
+                            "raw": "'callback function should not be called'"
                           }
                         ]
                       }
@@ -165,7 +166,8 @@
             "type": "Literal",
             "start": 636,
             "end": 663,
-            "value": "Map.groupBy returns a map"
+            "value": "Map.groupBy returns a map",
+            "raw": "'Map.groupBy returns a map'"
           }
         ],
         "optional": false
@@ -222,7 +224,8 @@
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

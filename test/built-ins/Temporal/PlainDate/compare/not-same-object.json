@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 302,
                 "end": 306,
-                "value": 1914
+                "value": 1914,
+                "raw": "1914"
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 309,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 313,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               }
             ]
           }
@@ -109,19 +112,22 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 357,
-                "value": 1914
+                "value": 1914,
+                "raw": "1914"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 364,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               }
             ]
           }
@@ -213,13 +219,15 @@
             "type": "Literal",
             "start": 427,
             "end": 428,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 443,
-            "value": "same object"
+            "value": "same object",
+            "raw": "\"same object\""
           }
         ],
         "optional": false
@@ -309,13 +317,15 @@
             "type": "Literal",
             "start": 505,
             "end": 506,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 519,
-            "value": "same date"
+            "value": "same date",
+            "raw": "\"same date\""
           }
         ],
         "optional": false

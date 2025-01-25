@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 317,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 391,
             "end": 434,
-            "value": "[object Object] is not a valid ISO string"
+            "value": "[object Object] is not a valid ISO string",
+            "raw": "\"[object Object] is not a valid ISO string\""
           }
         ],
         "optional": false
@@ -216,7 +218,8 @@
                   "type": "Literal",
                   "start": 475,
                   "end": 494,
-                  "value": "1970-01-01T00:00Z"
+                  "value": "1970-01-01T00:00Z",
+                  "raw": "\"1970-01-01T00:00Z\""
                 }
               }
             ]
@@ -314,13 +317,15 @@
             "type": "Literal",
             "start": 561,
             "end": 565,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 616,
-            "value": "result of toString is interpreted as ISO string"
+            "value": "result of toString is interpreted as ISO string",
+            "raw": "\"result of toString is interpreted as ISO string\""
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 283,
             "end": 304,
-            "value": "\ta bc \t"
+            "value": "\ta bc \t",
+            "raw": "\"\\u0009a b\\\nc \\u0009\""
           }
         }
       ],
@@ -86,13 +87,15 @@
             "type": "Literal",
             "start": 335,
             "end": 341,
-            "value": "a bc"
+            "value": "a bc",
+            "raw": "\"a bc\""
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 353,
-            "value": "s.trim()"
+            "value": "s.trim()",
+            "raw": "'s.trim()'"
           }
         ],
         "optional": false

@@ -71,7 +71,8 @@
                               "type": "Literal",
                               "start": 353,
                               "end": 354,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             "computed": true,
                             "optional": false
@@ -81,7 +82,8 @@
                             "type": "Literal",
                             "start": 357,
                             "end": 360,
-                            "value": "-"
+                            "value": "-",
+                            "raw": "\"-\""
                           }
                         },
                         "operator": "+",
@@ -99,7 +101,8 @@
                             "type": "Literal",
                             "start": 372,
                             "end": 373,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "computed": true,
                           "optional": false
@@ -115,13 +118,15 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 382,
-                "value": "Obi"
+                "value": "Obi",
+                "raw": "\"Obi\""
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 388,
-                "value": "Wan"
+                "value": "Wan",
+                "raw": "\"Wan\""
               }
             ],
             "optional": false
@@ -149,7 +154,8 @@
           "type": "Literal",
           "start": 491,
           "end": 500,
-          "value": "Obi-Wan"
+          "value": "Obi-Wan",
+          "raw": "\"Obi-Wan\""
         }
       },
       "consequent": {
@@ -180,7 +186,8 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 564,
-                    "value": "#1: x === \"Obi-Wan\". Actual: x ==="
+                    "value": "#1: x === \"Obi-Wan\". Actual: x ===",
+                    "raw": "'#1: x === \"Obi-Wan\". Actual: x ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -223,7 +230,8 @@
           "type": "Literal",
           "start": 766,
           "end": 777,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "'undefined'"
         }
       },
       "consequent": {
@@ -254,7 +262,8 @@
                     "type": "Literal",
                     "start": 805,
                     "end": 869,
-                    "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ==="
+                    "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ===",
+                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='"
                   },
                   "operator": "+",
                   "right": {

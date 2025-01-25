@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 714,
             "end": 719,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 760,
-            "value": "isConstructor(eval) must return false"
+            "value": "isConstructor(eval) must return false",
+            "raw": "'isConstructor(eval) must return false'"
           }
         ],
         "optional": false
@@ -134,7 +136,8 @@
                         "type": "Literal",
                         "start": 808,
                         "end": 810,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ]
                   }

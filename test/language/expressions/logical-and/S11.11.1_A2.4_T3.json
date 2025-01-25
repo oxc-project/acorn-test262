@@ -46,7 +46,8 @@
                     "type": "Literal",
                     "start": 335,
                     "end": 339,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 }
               }
@@ -75,7 +76,8 @@
                     "type": "Literal",
                     "start": 367,
                     "end": 421,
-                    "value": "#1.1: x && (x = true) throw ReferenceError. Actual: "
+                    "value": "#1.1: x && (x = true) throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: x && (x = true) throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -112,7 +114,8 @@
                             "type": "Literal",
                             "start": 435,
                             "end": 439,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       }
@@ -175,7 +178,8 @@
                   "type": "Literal",
                   "start": 498,
                   "end": 502,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -206,7 +210,8 @@
                             "type": "Literal",
                             "start": 533,
                             "end": 587,
-                            "value": "#1.2: x && (x = true) throw ReferenceError. Actual: "
+                            "value": "#1.2: x && (x = true) throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: x && (x = true) throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {
@@ -268,7 +273,8 @@
                   "type": "Literal",
                   "start": 623,
                   "end": 627,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -286,7 +292,8 @@
           "type": "Literal",
           "start": 639,
           "end": 643,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -313,7 +320,8 @@
                   "type": "Literal",
                   "start": 672,
                   "end": 704,
-                  "value": "#2: ((y = true) && y) === true"
+                  "value": "#2: ((y = true) && y) === true",
+                  "raw": "'#2: ((y = true) && y) === true'"
                 }
               ]
             }

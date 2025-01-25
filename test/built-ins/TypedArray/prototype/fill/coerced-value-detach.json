@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 623,
                             "end": 625,
-                            "value": 10
+                            "value": 10,
+                            "raw": "10"
                           }
                         ]
                       }
@@ -142,7 +143,8 @@
                           "type": "Literal",
                           "start": 709,
                           "end": 713,
-                          "value": 119
+                          "value": 119,
+                          "raw": "0x77"
                         }
                       }
                     ]
@@ -256,13 +258,15 @@
                                     "type": "Literal",
                                     "start": 809,
                                     "end": 810,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 812,
                                     "end": 814,
-                                    "value": 10
+                                    "value": 10,
+                                    "raw": "10"
                                   }
                                 ],
                                 "optional": false
@@ -275,7 +279,8 @@
                         "type": "Literal",
                         "start": 822,
                         "end": 877,
-                        "value": "Detachment when coercing value should throw TypeError"
+                        "value": "Detachment when coercing value should throw TypeError",
+                        "raw": "\"Detachment when coercing value should throw TypeError\""
                       }
                     ],
                     "optional": false

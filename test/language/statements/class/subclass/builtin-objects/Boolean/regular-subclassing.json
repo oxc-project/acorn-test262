@@ -56,7 +56,8 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 427,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -102,13 +103,15 @@
             "type": "Literal",
             "start": 455,
             "end": 459,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 486,
-            "value": "b1 is an Boolean object"
+            "value": "b1 is an Boolean object",
+            "raw": "'b1 is an Boolean object'"
           }
         ],
         "optional": false
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 520,
             "end": 524,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false
@@ -208,7 +212,8 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 546,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -254,13 +259,15 @@
             "type": "Literal",
             "start": 573,
             "end": 578,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 606,
-            "value": "bln is an Boolean object"
+            "value": "bln is an Boolean object",
+            "raw": "'bln is an Boolean object'"
           }
         ],
         "optional": false
@@ -324,7 +331,8 @@
             "type": "Literal",
             "start": 640,
             "end": 645,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 283,
                 "end": 284,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 286,
                 "end": 287,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 289,
                 "end": 290,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -70,7 +73,8 @@
             "type": "Literal",
             "start": 295,
             "end": 305,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           "computed": true,
           "optional": false
@@ -79,7 +83,8 @@
           "type": "Literal",
           "start": 309,
           "end": 331,
-          "value": "not an array element"
+          "value": "not an array element",
+          "raw": "\"not an array element\""
         }
       }
     },
@@ -134,13 +139,15 @@
             "type": "Literal",
             "start": 361,
             "end": 362,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 364,
             "end": 407,
-            "value": "The value of a.length is expected to be 3"
+            "value": "The value of a.length is expected to be 3",
+            "raw": "'The value of a.length is expected to be 3'"
           }
         ],
         "optional": false

@@ -66,7 +66,8 @@
                   "type": "Literal",
                   "start": 463,
                   "end": 478,
-                  "value": "localeMatcher"
+                  "value": "localeMatcher",
+                  "raw": "\"localeMatcher\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -84,7 +85,8 @@
                         "type": "Literal",
                         "start": 486,
                         "end": 491,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -119,7 +121,8 @@
                                     "type": "Literal",
                                     "start": 528,
                                     "end": 587,
-                                    "value": "Should not call getter on Object.prototype: localeMatcher"
+                                    "value": "Should not call getter on Object.prototype: localeMatcher",
+                                    "raw": "\"Should not call getter on Object.prototype: localeMatcher\""
                                   }
                                 ]
                               }
@@ -144,7 +147,8 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 621,
-                  "value": "lineBreakStyle"
+                  "value": "lineBreakStyle",
+                  "raw": "\"lineBreakStyle\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -162,7 +166,8 @@
                         "type": "Literal",
                         "start": 629,
                         "end": 634,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -197,7 +202,8 @@
                                     "type": "Literal",
                                     "start": 671,
                                     "end": 731,
-                                    "value": "Should not call getter on Object.prototype: lineBreakStyle"
+                                    "value": "Should not call getter on Object.prototype: lineBreakStyle",
+                                    "raw": "\"Should not call getter on Object.prototype: lineBreakStyle\""
                                   }
                                 ]
                               }
@@ -222,7 +228,8 @@
                   "type": "Literal",
                   "start": 749,
                   "end": 762,
-                  "value": "granularity"
+                  "value": "granularity",
+                  "raw": "\"granularity\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -240,7 +247,8 @@
                         "type": "Literal",
                         "start": 770,
                         "end": 775,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -275,7 +283,8 @@
                                     "type": "Literal",
                                     "start": 812,
                                     "end": 869,
-                                    "value": "Should not call getter on Object.prototype: granularity"
+                                    "value": "Should not call getter on Object.prototype: granularity",
+                                    "raw": "\"Should not call getter on Object.prototype: granularity\""
                                   }
                                 ]
                               }
@@ -547,7 +556,8 @@
                   "type": "Literal",
                   "start": 1144,
                   "end": 1154,
-                  "value": "grapheme"
+                  "value": "grapheme",
+                  "raw": "\"grapheme\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -682,7 +692,8 @@
                         "type": "Literal",
                         "start": 1326,
                         "end": 1342,
-                        "value": "lineBreakStyle"
+                        "value": "lineBreakStyle",
+                        "raw": "\"lineBreakStyle\""
                       }
                     ],
                     "optional": false

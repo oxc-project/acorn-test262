@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 503,
                 "end": 504,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -96,13 +97,15 @@
                 "type": "Literal",
                 "start": 547,
                 "end": 548,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 551,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -171,20 +174,23 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 581,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
                 "type": "Literal",
                 "start": 583,
                 "end": 587,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 589,
                 "end": 594,
-                "value": "NaN"
+                "value": "NaN",
+                "raw": "\"NaN\""
               }
             ],
             "optional": false
@@ -313,13 +319,15 @@
             "type": "Literal",
             "start": 673,
             "end": 689,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "\"[object Array]\""
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 736,
-            "value": "arr.getClass() must return \"[object Array]\""
+            "value": "arr.getClass() must return \"[object Array]\"",
+            "raw": "'arr.getClass() must return \"[object Array]\"'"
           }
         ],
         "optional": false
@@ -367,7 +375,8 @@
               "type": "Literal",
               "start": 760,
               "end": 761,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -376,13 +385,15 @@
             "type": "Literal",
             "start": 764,
             "end": 765,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 808,
-            "value": "The value of arr[0] is expected to be 0"
+            "value": "The value of arr[0] is expected to be 0",
+            "raw": "'The value of arr[0] is expected to be 0'"
           }
         ],
         "optional": false
@@ -430,7 +441,8 @@
               "type": "Literal",
               "start": 832,
               "end": 833,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -445,7 +457,8 @@
             "type": "Literal",
             "start": 839,
             "end": 896,
-            "value": "The value of arr[1] is expected to equal the value of y"
+            "value": "The value of arr[1] is expected to equal the value of y",
+            "raw": "'The value of arr[1] is expected to equal the value of y'"
           }
         ],
         "optional": false
@@ -493,7 +506,8 @@
               "type": "Literal",
               "start": 920,
               "end": 921,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -502,13 +516,15 @@
             "type": "Literal",
             "start": 924,
             "end": 925,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 927,
             "end": 968,
-            "value": "The value of arr[2] is expected to be 1"
+            "value": "The value of arr[2] is expected to be 1",
+            "raw": "'The value of arr[2] is expected to be 1'"
           }
         ],
         "optional": false
@@ -556,7 +572,8 @@
               "type": "Literal",
               "start": 992,
               "end": 993,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
@@ -565,13 +582,15 @@
             "type": "Literal",
             "start": 996,
             "end": 997,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 999,
             "end": 1040,
-            "value": "The value of arr[3] is expected to be 2"
+            "value": "The value of arr[3] is expected to be 2",
+            "raw": "'The value of arr[3] is expected to be 2'"
           }
         ],
         "optional": false
@@ -619,7 +638,8 @@
               "type": "Literal",
               "start": 1064,
               "end": 1065,
-              "value": 4
+              "value": 4,
+              "raw": "4"
             },
             "computed": true,
             "optional": false
@@ -634,14 +654,16 @@
               "type": "Literal",
               "start": 1069,
               "end": 1070,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1114,
-            "value": "The value of arr[4] is expected to be -1"
+            "value": "The value of arr[4] is expected to be -1",
+            "raw": "'The value of arr[4] is expected to be -1'"
           }
         ],
         "optional": false
@@ -689,7 +711,8 @@
               "type": "Literal",
               "start": 1138,
               "end": 1139,
-              "value": 5
+              "value": 5,
+              "raw": "5"
             },
             "computed": true,
             "optional": false
@@ -698,13 +721,15 @@
             "type": "Literal",
             "start": 1142,
             "end": 1146,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1148,
             "end": 1192,
-            "value": "The value of arr[5] is expected to be true"
+            "value": "The value of arr[5] is expected to be true",
+            "raw": "'The value of arr[5] is expected to be true'"
           }
         ],
         "optional": false
@@ -752,7 +777,8 @@
               "type": "Literal",
               "start": 1216,
               "end": 1217,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             },
             "computed": true,
             "optional": false
@@ -761,13 +787,15 @@
             "type": "Literal",
             "start": 1220,
             "end": 1225,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1227,
             "end": 1272,
-            "value": "The value of arr[6] is expected to be \"NaN\""
+            "value": "The value of arr[6] is expected to be \"NaN\"",
+            "raw": "'The value of arr[6] is expected to be \"NaN\"'"
           }
         ],
         "optional": false
@@ -824,13 +852,15 @@
             "type": "Literal",
             "start": 1304,
             "end": 1305,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1352,
-            "value": "The value of arr.length is expected to be 7"
+            "value": "The value of arr.length is expected to be 7",
+            "raw": "'The value of arr.length is expected to be 7'"
           }
         ],
         "optional": false

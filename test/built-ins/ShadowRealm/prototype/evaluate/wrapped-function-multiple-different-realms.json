@@ -97,7 +97,8 @@
           "type": "Literal",
           "start": 361,
           "end": 362,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -356,7 +357,8 @@
             "type": "Literal",
             "start": 724,
             "end": 749,
-            "value": "rewrapped !== r1wrapped"
+            "value": "rewrapped !== r1wrapped",
+            "raw": "'rewrapped !== r1wrapped'"
           }
         ],
         "optional": false
@@ -405,7 +407,8 @@
                 "type": "Literal",
                 "start": 787,
                 "end": 807,
-                "value": "globalThis.wrapped"
+                "value": "globalThis.wrapped",
+                "raw": "'globalThis.wrapped'"
               }
             ],
             "optional": false
@@ -458,7 +461,8 @@
             "type": "Literal",
             "start": 853,
             "end": 878,
-            "value": "r2wrapped !== r1wrapped"
+            "value": "r2wrapped !== r1wrapped",
+            "raw": "'r2wrapped !== r1wrapped'"
           }
         ],
         "optional": false
@@ -508,7 +512,8 @@
             "type": "Literal",
             "start": 923,
             "end": 948,
-            "value": "r2wrapped !== rewrapped"
+            "value": "r2wrapped !== rewrapped",
+            "raw": "'r2wrapped !== rewrapped'"
           }
         ],
         "optional": false
@@ -570,7 +575,8 @@
                 "type": "Literal",
                 "start": 985,
                 "end": 1003,
-                "value": "globalThis.count"
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
               }
             ],
             "optional": false
@@ -579,7 +585,8 @@
             "type": "Literal",
             "start": 1006,
             "end": 1007,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "TemplateLiteral",
@@ -648,13 +655,15 @@
             "type": "Literal",
             "start": 1090,
             "end": 1091,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1145,
-            "value": "call from r2 wrapped (r2wrapped) cycles back to r1"
+            "value": "call from r2 wrapped (r2wrapped) cycles back to r1",
+            "raw": "'call from r2 wrapped (r2wrapped) cycles back to r1'"
           }
         ],
         "optional": false
@@ -716,7 +725,8 @@
                 "type": "Literal",
                 "start": 1182,
                 "end": 1200,
-                "value": "globalThis.count"
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
               }
             ],
             "optional": false
@@ -725,13 +735,15 @@
             "type": "Literal",
             "start": 1203,
             "end": 1204,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1206,
             "end": 1245,
-            "value": "effects produced in a third realm, #1"
+            "value": "effects produced in a third realm, #1",
+            "raw": "'effects produced in a third realm, #1'"
           }
         ],
         "optional": false
@@ -782,13 +794,15 @@
             "type": "Literal",
             "start": 1279,
             "end": 1280,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1282,
             "end": 1334,
-            "value": "call from r2 wrapped (rewrapped) cycles back to r1"
+            "value": "call from r2 wrapped (rewrapped) cycles back to r1",
+            "raw": "'call from r2 wrapped (rewrapped) cycles back to r1'"
           }
         ],
         "optional": false
@@ -850,7 +864,8 @@
                 "type": "Literal",
                 "start": 1371,
                 "end": 1389,
-                "value": "globalThis.count"
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
               }
             ],
             "optional": false
@@ -859,13 +874,15 @@
             "type": "Literal",
             "start": 1392,
             "end": 1393,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1395,
             "end": 1434,
-            "value": "effects produced in a third realm, #2"
+            "value": "effects produced in a third realm, #2",
+            "raw": "'effects produced in a third realm, #2'"
           }
         ],
         "optional": false
@@ -927,7 +944,8 @@
                 "type": "Literal",
                 "start": 1471,
                 "end": 1489,
-                "value": "globalThis.count"
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
               }
             ],
             "optional": false
@@ -936,13 +954,15 @@
             "type": "Literal",
             "start": 1492,
             "end": 1493,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1495,
             "end": 1549,
-            "value": "no side effects produced in the wrong realm (realm2)"
+            "value": "no side effects produced in the wrong realm (realm2)",
+            "raw": "'no side effects produced in the wrong realm (realm2)'"
           }
         ],
         "optional": false
@@ -999,13 +1019,15 @@
             "type": "Literal",
             "start": 1587,
             "end": 1588,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1590,
             "end": 1648,
-            "value": "no side effects produced in the wrong realm (main realm)"
+            "value": "no side effects produced in the wrong realm (main realm)",
+            "raw": "'no side effects produced in the wrong realm (main realm)'"
           }
         ],
         "optional": false

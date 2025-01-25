@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 319,
               "end": 327,
-              "value": "length"
+              "value": "length",
+              "raw": "'length'"
             }
           ],
           "optional": false
@@ -49,7 +50,8 @@
           "type": "Literal",
           "start": 333,
           "end": 337,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -80,7 +82,8 @@
                     "type": "Literal",
                     "start": 366,
                     "end": 422,
-                    "value": "#1: eval.hasOwnProperty('length') === true. Actual: "
+                    "value": "#1: eval.hasOwnProperty('length') === true. Actual: ",
+                    "raw": "'#1: eval.hasOwnProperty(\\'length\\') === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -115,7 +118,8 @@
                           "type": "Literal",
                           "start": 446,
                           "end": 454,
-                          "value": "length"
+                          "value": "length",
+                          "raw": "'length'"
                         }
                       ],
                       "optional": false
@@ -196,7 +200,8 @@
               "type": "Literal",
               "start": 517,
               "end": 525,
-              "value": "length"
+              "value": "length",
+              "raw": "'length'"
             }
           ],
           "optional": false
@@ -206,7 +211,8 @@
           "type": "Literal",
           "start": 531,
           "end": 536,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -237,7 +243,8 @@
                     "type": "Literal",
                     "start": 565,
                     "end": 642,
-                    "value": "#2: delete eval.length; eval.hasOwnProperty('length') === false. Actual: "
+                    "value": "#2: delete eval.length; eval.hasOwnProperty('length') === false. Actual: ",
+                    "raw": "'#2: delete eval.length; eval.hasOwnProperty(\\'length\\') === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -272,7 +279,8 @@
                           "type": "Literal",
                           "start": 666,
                           "end": 674,
-                          "value": "length"
+                          "value": "length",
+                          "raw": "'length'"
                         }
                       ],
                       "optional": false
@@ -345,7 +353,8 @@
                   "type": "Literal",
                   "start": 750,
                   "end": 801,
-                  "value": "#3: delete eval.length; eval.length !== undefined"
+                  "value": "#3: delete eval.length; eval.length !== undefined",
+                  "raw": "'#3: delete eval.length; eval.length !== undefined'"
                 }
               ]
             }

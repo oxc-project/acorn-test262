@@ -90,7 +90,8 @@
                       "type": "Literal",
                       "start": 368,
                       "end": 372,
-                      "value": 2021
+                      "value": 2021,
+                      "raw": "2021"
                     },
                     "kind": "init"
                   },
@@ -111,7 +112,8 @@
                       "type": "Literal",
                       "start": 385,
                       "end": 390,
-                      "value": "M01"
+                      "value": "M01",
+                      "raw": "\"M01\""
                     },
                     "kind": "init"
                   }
@@ -130,25 +132,29 @@
             "type": "Literal",
             "start": 399,
             "end": 403,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 413,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 455,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -241,7 +247,8 @@
                       "type": "Literal",
                       "start": 537,
                       "end": 541,
-                      "value": 2021
+                      "value": 2021,
+                      "raw": "2021"
                     },
                     "kind": "init"
                   },
@@ -262,7 +269,8 @@
                       "type": "Literal",
                       "start": 554,
                       "end": 559,
-                      "value": "M01"
+                      "value": "M01",
+                      "raw": "\"M01\""
                     },
                     "kind": "init"
                   }
@@ -291,25 +299,29 @@
             "type": "Literal",
             "start": 574,
             "end": 578,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 581,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 588,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 633,
-            "value": "options may be an empty function object"
+            "value": "options may be an empty function object",
+            "raw": "\"options may be an empty function object\""
           }
         ],
         "optional": false

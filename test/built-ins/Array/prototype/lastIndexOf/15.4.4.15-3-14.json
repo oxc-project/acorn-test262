@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 310,
                   "end": 311,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 313,
                   "end": 317,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -55,13 +57,15 @@
                   "type": "Literal",
                   "start": 321,
                   "end": 322,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 324,
                   "end": 328,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -82,7 +86,8 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 351,
-                  "value": "-Infinity"
+                  "value": "-Infinity",
+                  "raw": "\"-Infinity\""
                 },
                 "kind": "init"
               }
@@ -180,7 +185,8 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 420,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -195,14 +201,16 @@
               "type": "Literal",
               "start": 424,
               "end": 425,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 477,
-            "value": "Array.prototype.lastIndexOf.call(objThree, true)"
+            "value": "Array.prototype.lastIndexOf.call(objThree, true)",
+            "raw": "'Array.prototype.lastIndexOf.call(objThree, true)'"
           }
         ],
         "optional": false

@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 599,
             "end": 609,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -173,7 +174,8 @@
             "type": "Literal",
             "start": 672,
             "end": 703,
-            "value": "non callable argument, object"
+            "value": "non callable argument, object",
+            "raw": "'non callable argument, object'"
           }
         ],
         "optional": false
@@ -259,7 +261,8 @@
                         "type": "Literal",
                         "start": 758,
                         "end": 759,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -272,7 +275,8 @@
             "type": "Literal",
             "start": 765,
             "end": 796,
-            "value": "non callable argument, number"
+            "value": "non callable argument, number",
+            "raw": "'non callable argument, number'"
           }
         ],
         "optional": false
@@ -364,7 +368,8 @@
             "type": "Literal",
             "start": 857,
             "end": 899,
-            "value": "non callable argument, implict undefined"
+            "value": "non callable argument, implict undefined",
+            "raw": "'non callable argument, implict undefined'"
           }
         ],
         "optional": false
@@ -463,7 +468,8 @@
             "type": "Literal",
             "start": 969,
             "end": 1003,
-            "value": "non callable argument, undefined"
+            "value": "non callable argument, undefined",
+            "raw": "'non callable argument, undefined'"
           }
         ],
         "optional": false
@@ -549,7 +555,8 @@
                         "type": "Literal",
                         "start": 1058,
                         "end": 1062,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -562,7 +569,8 @@
             "type": "Literal",
             "start": 1068,
             "end": 1097,
-            "value": "non callable argument, null"
+            "value": "non callable argument, null",
+            "raw": "'non callable argument, null'"
           }
         ],
         "optional": false
@@ -648,7 +656,8 @@
                         "type": "Literal",
                         "start": 1152,
                         "end": 1157,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -661,7 +670,8 @@
             "type": "Literal",
             "start": 1163,
             "end": 1195,
-            "value": "non callable argument, boolean"
+            "value": "non callable argument, boolean",
+            "raw": "'non callable argument, boolean'"
           }
         ],
         "optional": false
@@ -747,7 +757,8 @@
                         "type": "Literal",
                         "start": 1250,
                         "end": 1252,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false
@@ -760,7 +771,8 @@
             "type": "Literal",
             "start": 1258,
             "end": 1289,
-            "value": "non callable argument, string"
+            "value": "non callable argument, string",
+            "raw": "'non callable argument, string'"
           }
         ],
         "optional": false
@@ -891,7 +903,8 @@
             "type": "Literal",
             "start": 1369,
             "end": 1400,
-            "value": "non callable argument, symbol"
+            "value": "non callable argument, symbol",
+            "raw": "'non callable argument, symbol'"
           }
         ],
         "optional": false

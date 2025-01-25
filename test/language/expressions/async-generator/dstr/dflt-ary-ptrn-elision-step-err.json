@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1306,
             "end": 1307,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -97,7 +98,8 @@
                         "type": "Literal",
                         "start": 1377,
                         "end": 1378,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -308,13 +310,15 @@
             "type": "Literal",
             "start": 1526,
             "end": 1527,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1529,
             "end": 1560,
-            "value": "Iterator was properly closed."
+            "value": "Iterator was properly closed.",
+            "raw": "'Iterator was properly closed.'"
           }
         ],
         "optional": false

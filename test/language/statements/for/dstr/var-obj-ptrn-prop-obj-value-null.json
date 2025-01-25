@@ -178,7 +178,8 @@
                                         "type": "Literal",
                                         "start": 1534,
                                         "end": 1535,
-                                        "value": 4
+                                        "value": 4,
+                                        "raw": "4"
                                       },
                                       "kind": "init"
                                     },
@@ -199,7 +200,8 @@
                                         "type": "Literal",
                                         "start": 1540,
                                         "end": 1541,
-                                        "value": 5
+                                        "value": 5,
+                                        "raw": "5"
                                       },
                                       "kind": "init"
                                     },
@@ -220,7 +222,8 @@
                                         "type": "Literal",
                                         "start": 1546,
                                         "end": 1547,
-                                        "value": 6
+                                        "value": 6,
+                                        "raw": "6"
                                       },
                                       "kind": "init"
                                     }
@@ -253,7 +256,8 @@
                                 "type": "Literal",
                                 "start": 1559,
                                 "end": 1563,
-                                "value": null
+                                "value": null,
+                                "raw": "null"
                               },
                               "kind": "init"
                             }
@@ -278,7 +282,8 @@
                       "type": "Literal",
                       "start": 1579,
                       "end": 1580,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   },
                   "update": null,

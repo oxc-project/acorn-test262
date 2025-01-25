@@ -122,7 +122,8 @@
                   "type": "Literal",
                   "start": 379,
                   "end": 380,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -143,7 +144,8 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 402,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -203,13 +205,15 @@
             "type": "Literal",
             "start": 437,
             "end": 441,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 481,
-            "value": "The result of `sym in obj` is `true`"
+            "value": "The result of `sym in obj` is `true`",
+            "raw": "\"The result of `sym in obj` is `true`\""
           }
         ],
         "optional": false
@@ -264,7 +268,8 @@
                   "type": "Literal",
                   "start": 520,
                   "end": 521,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -285,7 +290,8 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 543,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -306,7 +312,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 562,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -327,7 +334,8 @@
                   "type": "Literal",
                   "start": 578,
                   "end": 583,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -434,13 +442,15 @@
             "type": "Literal",
             "start": 666,
             "end": 671,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 747,
-            "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`"
+            "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`",
+            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\""
           }
         ],
         "optional": false
@@ -504,13 +514,15 @@
             "type": "Literal",
             "start": 786,
             "end": 790,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 792,
             "end": 835,
-            "value": "The result of `delete obj[sym]` is `true`"
+            "value": "The result of `delete obj[sym]` is `true`",
+            "raw": "\"The result of `delete obj[sym]` is `true`\""
           }
         ],
         "optional": false
@@ -593,7 +605,8 @@
             "type": "Literal",
             "start": 917,
             "end": 982,
-            "value": "`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`"
+            "value": "`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`",
+            "raw": "\"`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`\""
           }
         ],
         "optional": false

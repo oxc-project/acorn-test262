@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 262,
               "end": 290,
-              "value": "' str ing '"
+              "value": "' str ing '",
+              "raw": "\"'\\u0020str\\u0020ing\\u0020'\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 296,
           "end": 322,
-          "value": " str ing "
+          "value": " str ing ",
+          "raw": "\"\\u0020str\\u0020ing\\u0020\""
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 351,
                   "end": 430,
-                  "value": "#1: eval(\"'\\u0020str\\u0020ing\\u0020'\") === \"\\u0020str\\u0020ing\\u0020\""
+                  "value": "#1: eval(\"'\\u0020str\\u0020ing\\u0020'\") === \"\\u0020str\\u0020ing\\u0020\"",
+                  "raw": "'#1: eval(\"\\'\\\\u0020str\\\\u0020ing\\\\u0020\\'\") === \"\\\\u0020str\\\\u0020ing\\\\u0020\"'"
                 }
               ]
             }
@@ -95,7 +98,8 @@
               "type": "Literal",
               "start": 455,
               "end": 468,
-              "value": "' str ing '"
+              "value": "' str ing '",
+              "raw": "\"' str ing '\""
             }
           ],
           "optional": false
@@ -105,7 +109,8 @@
           "type": "Literal",
           "start": 474,
           "end": 485,
-          "value": " str ing "
+          "value": " str ing ",
+          "raw": "\" str ing \""
         }
       },
       "consequent": {
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 557,
-                  "value": "#2: eval(\"' str ing '\") === \" str ing \""
+                  "value": "#2: eval(\"' str ing '\") === \" str ing \"",
+                  "raw": "'#2: eval(\"\\' str ing \\'\") === \" str ing \"'"
                 }
               ]
             }

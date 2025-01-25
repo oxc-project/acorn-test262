@@ -104,7 +104,8 @@
                                     "type": "Literal",
                                     "start": 435,
                                     "end": 447,
-                                    "value": "gNonStrict"
+                                    "value": "gNonStrict",
+                                    "raw": "\"gNonStrict\""
                                   }
                                 ],
                                 "optional": false
@@ -221,7 +222,8 @@
               "type": "Literal",
               "start": 532,
               "end": 544,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "\"use strict\""
             },
             "directive": "use strict"
           },

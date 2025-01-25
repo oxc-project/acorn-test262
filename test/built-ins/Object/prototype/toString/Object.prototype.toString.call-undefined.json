@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 313,
             "end": 333,
-            "value": "[object Undefined]"
+            "value": "[object Undefined]",
+            "raw": "\"[object Undefined]\""
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 407,
-            "value": "Object.prototype.toString.call(undefined) returns [object Undefined]"
+            "value": "Object.prototype.toString.call(undefined) returns [object Undefined]",
+            "raw": "\"Object.prototype.toString.call(undefined) returns [object Undefined]\""
           }
         ],
         "optional": false

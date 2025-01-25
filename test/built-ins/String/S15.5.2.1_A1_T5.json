@@ -67,7 +67,8 @@
           "type": "Literal",
           "start": 631,
           "end": 639,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -98,7 +99,8 @@
                     "type": "Literal",
                     "start": 668,
                     "end": 750,
-                    "value": "#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ==="
+                    "value": "#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -185,7 +187,8 @@
                     "type": "Literal",
                     "start": 1005,
                     "end": 1097,
-                    "value": "#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ==="
+                    "value": "#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ===",
+                    "raw": "'#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -246,14 +249,16 @@
                 "type": "Literal",
                 "start": 1308,
                 "end": 1309,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "operator": "/",
               "right": {
                 "type": "Literal",
                 "start": 1312,
                 "end": 1315,
-                "value": "s"
+                "value": "s",
+                "raw": "\"s\""
               }
             }
           },
@@ -262,7 +267,8 @@
             "type": "Literal",
             "start": 1319,
             "end": 1321,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         }
       },
@@ -294,7 +300,8 @@
                     "type": "Literal",
                     "start": 1350,
                     "end": 1417,
-                    "value": "#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str =="
+                    "value": "#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str ==",
+                    "raw": "'#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str =='"
                   },
                   "operator": "+",
                   "right": {

@@ -76,13 +76,15 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 359,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 361,
                     "end": 362,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -275,13 +277,15 @@
             "type": "Literal",
             "start": 510,
             "end": 514,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 546,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -322,13 +326,15 @@
                     "type": "Literal",
                     "start": 570,
                     "end": 571,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 573,
                     "end": 574,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -555,13 +561,15 @@
             "type": "Literal",
             "start": 738,
             "end": 742,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 774,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -822,13 +830,15 @@
             "type": "Literal",
             "start": 962,
             "end": 966,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 998,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false

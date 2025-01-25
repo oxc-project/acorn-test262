@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 316,
             "end": 324,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +124,8 @@
                               "type": "Literal",
                               "start": 356,
                               "end": 357,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "computed": true,
                             "optional": false
@@ -132,7 +134,8 @@
                             "type": "Literal",
                             "start": 361,
                             "end": 374,
-                            "value": "accumulator"
+                            "value": "accumulator",
+                            "raw": "\"accumulator\""
                           }
                         }
                       },
@@ -144,7 +147,8 @@
                           "type": "Literal",
                           "start": 387,
                           "end": 388,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       }
                     ]
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 415,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -286,13 +291,15 @@
             "type": "Literal",
             "start": 487,
             "end": 500,
-            "value": "accumulator"
+            "value": "accumulator",
+            "raw": "\"accumulator\""
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 553,
-            "value": "Array.prototype.reduce.call(obj, function () { })"
+            "value": "Array.prototype.reduce.call(obj, function () { })",
+            "raw": "'Array.prototype.reduce.call(obj, function () { })'"
           }
         ],
         "optional": false

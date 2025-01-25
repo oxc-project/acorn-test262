@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 834,
             "end": 913,
-            "value": "Object.getPrototypeOf(Intl.ListFormat) equals the value of Function.prototype"
+            "value": "Object.getPrototypeOf(Intl.ListFormat) equals the value of Function.prototype",
+            "raw": "\"Object.getPrototypeOf(Intl.ListFormat) equals the value of Function.prototype\""
           }
         ],
         "optional": false

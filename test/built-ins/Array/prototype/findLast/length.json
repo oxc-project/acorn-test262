@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 466,
-            "value": "The value of `Array.prototype.findLast.length` is `1`"
+            "value": "The value of `Array.prototype.findLast.length` is `1`",
+            "raw": "'The value of `Array.prototype.findLast.length` is `1`'"
           }
         ],
         "optional": false
@@ -143,7 +145,8 @@
             "type": "Literal",
             "start": 512,
             "end": 520,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -167,7 +170,8 @@
                   "type": "Literal",
                   "start": 538,
                   "end": 543,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 562,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +214,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 584,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1723,
             "end": 1724,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -66,7 +67,8 @@
                 "type": "Literal",
                 "start": 1762,
                 "end": 1763,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -92,7 +94,8 @@
             "type": "Literal",
             "start": 1784,
             "end": 1785,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -258,25 +261,29 @@
                     "type": "Literal",
                     "start": 1872,
                     "end": 1876,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   {
                     "type": "Literal",
                     "start": 1878,
                     "end": 1879,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1881,
                     "end": 1886,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   },
                   {
                     "type": "Literal",
                     "start": 1888,
                     "end": 1890,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   }
                 ]
               }
@@ -325,7 +332,8 @@
                       "type": "Literal",
                       "start": 1917,
                       "end": 1921,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   ],
                   "optional": false
@@ -369,7 +377,8 @@
                       "type": "Literal",
                       "start": 1946,
                       "end": 1947,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ],
                   "optional": false
@@ -413,7 +422,8 @@
                       "type": "Literal",
                       "start": 1972,
                       "end": 1977,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   ],
                   "optional": false
@@ -457,7 +467,8 @@
                       "type": "Literal",
                       "start": 2002,
                       "end": 2004,
-                      "value": ""
+                      "value": "",
+                      "raw": "''"
                     }
                   ],
                   "optional": false
@@ -501,7 +512,8 @@
                       "type": "Literal",
                       "start": 2037,
                       "end": 2038,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ],
                   "optional": false
@@ -537,7 +549,8 @@
                       "type": "Literal",
                       "start": 2067,
                       "end": 2068,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -623,13 +636,15 @@
             "type": "Literal",
             "start": 2114,
             "end": 2115,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2117,
             "end": 2158,
-            "value": "generator function invoked exactly once"
+            "value": "generator function invoked exactly once",
+            "raw": "'generator function invoked exactly once'"
           }
         ],
         "optional": false

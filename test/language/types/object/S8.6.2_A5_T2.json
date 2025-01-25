@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 351,
           "end": 352,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -86,7 +87,8 @@
             "type": "Literal",
             "start": 374,
             "end": 380,
-            "value": "move"
+            "value": "move",
+            "raw": "'move'"
           },
           "computed": true,
           "optional": false
@@ -178,7 +180,8 @@
           "type": "Literal",
           "start": 524,
           "end": 525,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -209,7 +212,8 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 664,
-                    "value": "#1: this.position=0; seat = {}; seat['move']=function(){position++}; seat.move(); position === 1. Actual: "
+                    "value": "#1: this.position=0; seat = {}; seat['move']=function(){position++}; seat.move(); position === 1. Actual: ",
+                    "raw": "'#1: this.position=0; seat = {}; seat[\\'move\\']=function(){position++}; seat.move(); position === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -253,7 +257,8 @@
             "type": "Literal",
             "start": 859,
             "end": 865,
-            "value": "move"
+            "value": "move",
+            "raw": "'move'"
           },
           "computed": true,
           "optional": false
@@ -281,7 +286,8 @@
           "type": "Literal",
           "start": 886,
           "end": 887,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -312,7 +318,8 @@
                     "type": "Literal",
                     "start": 916,
                     "end": 1044,
-                    "value": "#2: this.position=0; seat = {}; seat['move']=function(){position++}; seat.move(); seat['move'](); position === 2. Actual: "
+                    "value": "#2: this.position=0; seat = {}; seat['move']=function(){position++}; seat.move(); seat['move'](); position === 2. Actual: ",
+                    "raw": "'#2: this.position=0; seat = {}; seat[\\'move\\']=function(){position++}; seat.move(); seat[\\'move\\'](); position === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

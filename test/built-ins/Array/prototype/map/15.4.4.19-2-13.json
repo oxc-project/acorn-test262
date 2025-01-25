@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 379,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           }
@@ -130,7 +131,8 @@
             "type": "Literal",
             "start": 429,
             "end": 437,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -185,7 +187,8 @@
                   "type": "Literal",
                   "start": 479,
                   "end": 483,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -320,7 +323,8 @@
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -329,7 +333,8 @@
           "type": "Literal",
           "start": 572,
           "end": 574,
-          "value": 11
+          "value": 11,
+          "raw": "11"
         }
       }
     },
@@ -356,7 +361,8 @@
             "type": "Literal",
             "start": 582,
             "end": 583,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -365,7 +371,8 @@
           "type": "Literal",
           "start": 587,
           "end": 589,
-          "value": 12
+          "value": 12,
+          "raw": "12"
         }
       }
     },
@@ -504,13 +511,15 @@
             "type": "Literal",
             "start": 691,
             "end": 692,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 713,
-            "value": "testResult.length"
+            "value": "testResult.length",
+            "raw": "'testResult.length'"
           }
         ],
         "optional": false

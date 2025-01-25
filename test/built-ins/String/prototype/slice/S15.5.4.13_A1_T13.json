@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 512,
                           "end": 513,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 572,
                           "end": 579,
-                          "value": "inend"
+                          "value": "inend",
+                          "raw": "\"inend\""
                         }
                       }
                     ]
@@ -220,7 +222,8 @@
                       "type": "Literal",
                       "start": 694,
                       "end": 720,
-                      "value": "ABBABABAB1BBAA"
+                      "value": "ABBABABAB1BBAA",
+                      "raw": "\"ABB\\u0041BABAB\\u0031BBAA\""
                     },
                     "property": {
                       "type": "Identifier",
@@ -270,7 +273,8 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 830,
-                  "value": "#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception"
+                  "value": "#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception",
+                  "raw": "'#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception'"
                 }
               ]
             }
@@ -311,7 +315,8 @@
                   "type": "Literal",
                   "start": 859,
                   "end": 866,
-                  "value": "inend"
+                  "value": "inend",
+                  "raw": "\"inend\""
                 }
               },
               "consequent": {
@@ -342,7 +347,8 @@
                             "type": "Literal",
                             "start": 897,
                             "end": 936,
-                            "value": "#1.1: Exception === \"inend\". Actual: "
+                            "value": "#1.1: Exception === \"inend\". Actual: ",
+                            "raw": "'#1.1: Exception === \"inend\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

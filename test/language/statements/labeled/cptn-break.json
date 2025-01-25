@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 747,
                 "end": 786,
-                "value": "test262id: { 5; break test262id; 9; }"
+                "value": "test262id: { 5; break test262id; 9; }",
+                "raw": "'test262id: { 5; break test262id; 9; }'"
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 789,
             "end": 790,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           }
         ],
         "optional": false

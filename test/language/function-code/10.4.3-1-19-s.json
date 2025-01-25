@@ -114,7 +114,8 @@
                       "type": "Literal",
                       "start": 370,
                       "end": 376,
-                      "value": "this"
+                      "value": "this",
+                      "raw": "\"this\""
                     }
                   ],
                   "optional": false
@@ -129,7 +130,8 @@
                   "type": "Literal",
                   "start": 387,
                   "end": 404,
-                  "value": "my_eval(\"this\")"
+                  "value": "my_eval(\"this\")",
+                  "raw": "'my_eval(\"this\")'"
                 }
               ],
               "optional": false

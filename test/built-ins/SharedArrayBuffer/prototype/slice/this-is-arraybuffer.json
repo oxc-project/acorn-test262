@@ -81,7 +81,8 @@
                             "type": "Literal",
                             "start": 365,
                             "end": 366,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ]
                       }
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 418,
             "end": 457,
-            "value": "`this` value cannot be an ArrayBuffer"
+            "value": "`this` value cannot be an ArrayBuffer",
+            "raw": "\"`this` value cannot be an ArrayBuffer\""
           }
         ],
         "optional": false

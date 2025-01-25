@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 716,
             "end": 721,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 763,
-            "value": "isConstructor(isNaN) must return false"
+            "value": "isConstructor(isNaN) must return false",
+            "raw": "'isConstructor(isNaN) must return false'"
           }
         ],
         "optional": false
@@ -134,7 +136,8 @@
                         "type": "Literal",
                         "start": 812,
                         "end": 813,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   }

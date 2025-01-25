@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 344,
             "end": 345,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -119,7 +120,8 @@
           "type": "Literal",
           "start": 489,
           "end": 490,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -150,7 +152,8 @@
                     "type": "Literal",
                     "start": 519,
                     "end": 591,
-                    "value": "#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: "
+                    "value": "#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: ",
+                    "raw": "'#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -193,7 +196,8 @@
             "type": "Literal",
             "start": 783,
             "end": 790,
-            "value": "knock"
+            "value": "knock",
+            "raw": "'knock'"
           },
           "computed": true,
           "optional": false
@@ -221,7 +225,8 @@
           "type": "Literal",
           "start": 808,
           "end": 809,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -252,7 +257,8 @@
                     "type": "Literal",
                     "start": 838,
                     "end": 929,
-                    "value": "#2: count=0; knock=function(){count++}; knock(); this['knock'](); count === 2. Actual: "
+                    "value": "#2: count=0; knock=function(){count++}; knock(); this['knock'](); count === 2. Actual: ",
+                    "raw": "'#2: count=0; knock=function(){count++}; knock(); this[\\'knock\\'](); count === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

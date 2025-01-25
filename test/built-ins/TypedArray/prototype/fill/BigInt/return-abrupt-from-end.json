@@ -225,13 +225,15 @@
                                     "type": "Literal",
                                     "start": 1338,
                                     "end": 1340,
-                                    "value": "1n"
+                                    "value": "1n",
+                                    "raw": "1n"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1342,
                                     "end": 1343,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "Identifier",

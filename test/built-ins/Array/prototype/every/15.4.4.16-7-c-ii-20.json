@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 306,
             "end": 311,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 368,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -101,7 +103,8 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 381,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               "operator": "===",
               "right": {
@@ -164,7 +167,8 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 436,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               }
@@ -205,13 +209,15 @@
                   "type": "Literal",
                   "start": 455,
                   "end": 456,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 458,
                   "end": 460,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -232,7 +238,8 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 473,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -332,7 +339,8 @@
             "type": "Literal",
             "start": 539,
             "end": 602,
-            "value": "Array.prototype.every.call(obj, callbackfn, thisArg) !== true"
+            "value": "Array.prototype.every.call(obj, callbackfn, thisArg) !== true",
+            "raw": "'Array.prototype.every.call(obj, callbackfn, thisArg) !== true'"
           }
         ],
         "optional": false

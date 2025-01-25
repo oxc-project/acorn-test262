@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1076,
             "end": 1083,
-            "value": "outer"
+            "value": "outer",
+            "raw": "\"outer\""
           }
         }
       ],
@@ -62,7 +63,8 @@
                         "type": "Literal",
                         "start": 1096,
                         "end": 1097,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "value": {
                         "type": "Identifier",
@@ -83,7 +85,8 @@
                         "type": "Literal",
                         "start": 1102,
                         "end": 1103,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "value": {
                         "type": "Identifier",
@@ -104,7 +107,8 @@
                         "type": "Literal",
                         "start": 1108,
                         "end": 1109,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "value": {
                         "type": "Identifier",
@@ -125,7 +129,8 @@
                         "type": "Literal",
                         "start": 1114,
                         "end": 1115,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "value": {
                         "type": "Identifier",
@@ -170,19 +175,22 @@
                 "type": "Literal",
                 "start": 1136,
                 "end": 1137,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 1139,
                 "end": 1140,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               },
               {
                 "type": "Literal",
                 "start": 1142,
                 "end": 1143,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               }
             ]
           }
@@ -228,7 +236,8 @@
             "type": "Literal",
             "start": 1167,
             "end": 1168,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           }
         ],
         "optional": false
@@ -272,7 +281,8 @@
             "type": "Literal",
             "start": 1191,
             "end": 1192,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           }
         ],
         "optional": false
@@ -316,7 +326,8 @@
             "type": "Literal",
             "start": 1215,
             "end": 1216,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           }
         ],
         "optional": false
@@ -404,7 +415,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1272,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -448,13 +460,15 @@
             "type": "Literal",
             "start": 1301,
             "end": 1308,
-            "value": "outer"
+            "value": "outer",
+            "raw": "\"outer\""
           },
           {
             "type": "Literal",
             "start": 1310,
             "end": 1356,
-            "value": "the length prop is not set as a binding name"
+            "value": "the length prop is not set as a binding name",
+            "raw": "\"the length prop is not set as a binding name\""
           }
         ],
         "optional": false

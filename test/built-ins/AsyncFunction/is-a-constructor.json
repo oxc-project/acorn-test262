@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 788,
             "end": 792,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 794,
             "end": 841,
-            "value": "isConstructor(AsyncFunction) must return true"
+            "value": "isConstructor(AsyncFunction) must return true",
+            "raw": "'isConstructor(AsyncFunction) must return true'"
           }
         ],
         "optional": false

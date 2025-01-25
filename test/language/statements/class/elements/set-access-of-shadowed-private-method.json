@@ -204,7 +204,8 @@
                         "type": "Literal",
                         "start": 1177,
                         "end": 1186,
-                        "value": "Test262"
+                        "value": "Test262",
+                        "raw": "'Test262'"
                       }
                     }
                   }
@@ -332,7 +333,8 @@
             "type": "Literal",
             "start": 1270,
             "end": 1338,
-            "value": "subclass private method should shadow super class private accessor"
+            "value": "subclass private method should shadow super class private accessor",
+            "raw": "'subclass private method should shadow super class private accessor'"
           }
         ],
         "optional": false
@@ -538,7 +540,8 @@
                                 "type": "Literal",
                                 "start": 1503,
                                 "end": 1512,
-                                "value": "Test262"
+                                "value": "Test262",
+                                "raw": "'Test262'"
                               }
                             }
                           }
@@ -714,7 +717,8 @@
             "type": "Literal",
             "start": 1635,
             "end": 1706,
-            "value": "inner class private method should shadow outer class private accessor"
+            "value": "inner class private method should shadow outer class private accessor",
+            "raw": "'inner class private method should shadow outer class private accessor'"
           }
         ],
         "optional": false
@@ -924,7 +928,8 @@
                         "type": "Literal",
                         "start": 1871,
                         "end": 1880,
-                        "value": "Test262"
+                        "value": "Test262",
+                        "raw": "'Test262'"
                       }
                     }
                   }
@@ -1052,7 +1057,8 @@
             "type": "Literal",
             "start": 1964,
             "end": 2031,
-            "value": "inner class private accessor should not be visible to outer class"
+            "value": "inner class private accessor should not be visible to outer class",
+            "raw": "'inner class private accessor should not be visible to outer class'"
           }
         ],
         "optional": false

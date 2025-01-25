@@ -23,6 +23,7 @@
             "start": 2701,
             "end": 2715,
             "value": null,
+            "raw": "/(?i:\\P{Lu})/u",
             "regex": {
               "pattern": "(?i:\\P{Lu})",
               "flags": "u"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2733,
                 "end": 2736,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2739,
             "end": 2778,
-            "value": "\\P{Lu} should match A (ignores case)"
+            "value": "\\P{Lu} should match A (ignores case)",
+            "raw": "\"\\\\P{Lu} should match A (ignores case)\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2797,
                 "end": 2800,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2803,
             "end": 2827,
-            "value": "\\P{Lu} should match a"
+            "value": "\\P{Lu} should match a",
+            "raw": "\"\\\\P{Lu} should match a\""
           }
         ],
         "optional": false
@@ -191,7 +196,8 @@
                 "type": "Literal",
                 "start": 2846,
                 "end": 2849,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -200,7 +206,8 @@
             "type": "Literal",
             "start": 2852,
             "end": 2891,
-            "value": "\\P{Lu} should match Z (ignores case)"
+            "value": "\\P{Lu} should match Z (ignores case)",
+            "raw": "\"\\\\P{Lu} should match Z (ignores case)\""
           }
         ],
         "optional": false
@@ -249,7 +256,8 @@
                 "type": "Literal",
                 "start": 2910,
                 "end": 2913,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -258,7 +266,8 @@
             "type": "Literal",
             "start": 2916,
             "end": 2940,
-            "value": "\\P{Lu} should match z"
+            "value": "\\P{Lu} should match z",
+            "raw": "\"\\\\P{Lu} should match z\""
           }
         ],
         "optional": false
@@ -307,7 +316,8 @@
                 "type": "Literal",
                 "start": 2959,
                 "end": 2962,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -316,7 +326,8 @@
             "type": "Literal",
             "start": 2965,
             "end": 2989,
-            "value": "\\P{Lu} should match 0"
+            "value": "\\P{Lu} should match 0",
+            "raw": "\"\\\\P{Lu} should match 0\""
           }
         ],
         "optional": false
@@ -342,6 +353,7 @@
             "start": 3003,
             "end": 3018,
             "value": null,
+            "raw": "/(?i-:\\P{Lu})/u",
             "regex": {
               "pattern": "(?i-:\\P{Lu})",
               "flags": "u"
@@ -394,7 +406,8 @@
                 "type": "Literal",
                 "start": 3036,
                 "end": 3039,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -403,7 +416,8 @@
             "type": "Literal",
             "start": 3042,
             "end": 3081,
-            "value": "\\P{Lu} should match A (ignores case)"
+            "value": "\\P{Lu} should match A (ignores case)",
+            "raw": "\"\\\\P{Lu} should match A (ignores case)\""
           }
         ],
         "optional": false
@@ -452,7 +466,8 @@
                 "type": "Literal",
                 "start": 3100,
                 "end": 3103,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -461,7 +476,8 @@
             "type": "Literal",
             "start": 3106,
             "end": 3130,
-            "value": "\\P{Lu} should match a"
+            "value": "\\P{Lu} should match a",
+            "raw": "\"\\\\P{Lu} should match a\""
           }
         ],
         "optional": false
@@ -510,7 +526,8 @@
                 "type": "Literal",
                 "start": 3149,
                 "end": 3152,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -519,7 +536,8 @@
             "type": "Literal",
             "start": 3155,
             "end": 3194,
-            "value": "\\P{Lu} should match Z (ignores case)"
+            "value": "\\P{Lu} should match Z (ignores case)",
+            "raw": "\"\\\\P{Lu} should match Z (ignores case)\""
           }
         ],
         "optional": false
@@ -568,7 +586,8 @@
                 "type": "Literal",
                 "start": 3213,
                 "end": 3216,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -577,7 +596,8 @@
             "type": "Literal",
             "start": 3219,
             "end": 3243,
-            "value": "\\P{Lu} should match z"
+            "value": "\\P{Lu} should match z",
+            "raw": "\"\\\\P{Lu} should match z\""
           }
         ],
         "optional": false
@@ -626,7 +646,8 @@
                 "type": "Literal",
                 "start": 3262,
                 "end": 3265,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -635,7 +656,8 @@
             "type": "Literal",
             "start": 3268,
             "end": 3292,
-            "value": "\\P{Lu} should match 0"
+            "value": "\\P{Lu} should match 0",
+            "raw": "\"\\\\P{Lu} should match 0\""
           }
         ],
         "optional": false

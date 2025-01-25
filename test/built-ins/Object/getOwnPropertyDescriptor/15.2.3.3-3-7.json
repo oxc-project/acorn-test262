@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 323,
                   "end": 346,
-                  "value": "inheritedDataProperty"
+                  "value": "inheritedDataProperty",
+                  "raw": "\"inheritedDataProperty\""
                 },
                 "kind": "init"
               }
@@ -189,7 +190,8 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 476,
-                    "value": "ownAccessorProperty"
+                    "value": "ownAccessorProperty",
+                    "raw": "\"ownAccessorProperty\""
                   }
                 }
               ]
@@ -237,7 +239,8 @@
             "type": "Literal",
             "start": 510,
             "end": 520,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -282,7 +285,8 @@
                   "type": "Literal",
                   "start": 552,
                   "end": 556,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -341,7 +345,8 @@
                 "type": "Literal",
                 "start": 612,
                 "end": 622,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -407,7 +412,8 @@
             "type": "Literal",
             "start": 658,
             "end": 668,
-            "value": "desc.get"
+            "value": "desc.get",
+            "raw": "'desc.get'"
           }
         ],
         "optional": false

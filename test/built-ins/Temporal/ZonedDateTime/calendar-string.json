@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 274,
             "end": 283,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 337,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",
@@ -142,7 +145,8 @@
             "type": "Literal",
             "start": 381,
             "end": 390,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "TemplateLiteral",

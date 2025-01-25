@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 768,
             "end": 773,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 838,
-            "value": "isConstructor(Array.prototype.toReversed) must return false"
+            "value": "isConstructor(Array.prototype.toReversed) must return false",
+            "raw": "'isConstructor(Array.prototype.toReversed) must return false'"
           }
         ],
         "optional": false

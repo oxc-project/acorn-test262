@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 445,
             "end": 499,
-            "value": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            "value": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "raw": "'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 523,
             "end": 535,
-            "value": "0123456789"
+            "value": "0123456789",
+            "raw": "'0123456789'"
           }
         }
       ],
@@ -109,7 +111,8 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 571,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -118,13 +121,15 @@
             "type": "Literal",
             "start": 574,
             "end": 576,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 611,
-            "value": "the empty string is not escaped"
+            "value": "the empty string is not escaped",
+            "raw": "'the empty string is not escaped'"
           }
         ],
         "optional": false
@@ -170,7 +175,8 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 635,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -506,7 +512,8 @@
             "type": "Literal",
             "start": 832,
             "end": 863,
-            "value": "ASCII letters are not escaped"
+            "value": "ASCII letters are not escaped",
+            "raw": "'ASCII letters are not escaped'"
           }
         ],
         "optional": false
@@ -552,7 +559,8 @@
                 "type": "Literal",
                 "start": 887,
                 "end": 889,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -888,7 +896,8 @@
             "type": "Literal",
             "start": 1091,
             "end": 1123,
-            "value": "decimal digits are not escaped"
+            "value": "decimal digits are not escaped",
+            "raw": "'decimal digits are not escaped'"
           }
         ],
         "optional": false
@@ -950,7 +959,8 @@
                 "type": "Literal",
                 "start": 1158,
                 "end": 1173,
-                "value": ".a1b2c3D4E5F6"
+                "value": ".a1b2c3D4E5F6",
+                "raw": "'.a1b2c3D4E5F6'"
               }
             ],
             "optional": false
@@ -959,13 +969,15 @@
             "type": "Literal",
             "start": 1176,
             "end": 1193,
-            "value": "\\.a1b2c3D4E5F6"
+            "value": "\\.a1b2c3D4E5F6",
+            "raw": "'\\\\.a1b2c3D4E5F6'"
           },
           {
             "type": "Literal",
             "start": 1195,
             "end": 1262,
-            "value": "mixed string with ASCII letters and decimal digits is not escaped"
+            "value": "mixed string with ASCII letters and decimal digits is not escaped",
+            "raw": "'mixed string with ASCII letters and decimal digits is not escaped'"
           }
         ],
         "optional": false

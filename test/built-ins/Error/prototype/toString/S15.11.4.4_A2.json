@@ -54,7 +54,8 @@
                     "type": "Literal",
                     "start": 338,
                     "end": 345,
-                    "value": "Error"
+                    "value": "Error",
+                    "raw": "\"Error\""
                   }
                 ]
               },
@@ -80,7 +81,8 @@
             "type": "Literal",
             "start": 370,
             "end": 429,
-            "value": "The value of toStr is expected to not equal ``undefined``"
+            "value": "The value of toStr is expected to not equal ``undefined``",
+            "raw": "'The value of toStr is expected to not equal ``undefined``'"
           }
         ],
         "optional": false

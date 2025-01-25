@@ -56,7 +56,8 @@
                           "type": "Literal",
                           "start": 511,
                           "end": 519,
-                          "value": 2142
+                          "value": 2142,
+                          "raw": "0x00085E"
                         }
                       ]
                     },
@@ -89,13 +90,15 @@
                               "type": "Literal",
                               "start": 542,
                               "end": 550,
-                              "value": 2112
+                              "value": 2112,
+                              "raw": "0x000840"
                             },
                             {
                               "type": "Literal",
                               "start": 552,
                               "end": 560,
-                              "value": 2139
+                              "value": 2139,
+                              "raw": "0x00085B"
                             }
                           ]
                         }
@@ -132,6 +135,7 @@
             "start": 593,
             "end": 617,
             "value": {},
+            "raw": "/^\\p{Script=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mandaic}+$",
               "flags": "u"
@@ -147,7 +151,8 @@
             "type": "Literal",
             "start": 637,
             "end": 658,
-            "value": "\\p{Script=Mandaic}"
+            "value": "\\p{Script=Mandaic}",
+            "raw": "\"\\\\p{Script=Mandaic}\""
           }
         ],
         "optional": false
@@ -173,6 +178,7 @@
             "start": 685,
             "end": 706,
             "value": {},
+            "raw": "/^\\p{Script=Mand}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mand}+$",
               "flags": "u"
@@ -188,7 +194,8 @@
             "type": "Literal",
             "start": 726,
             "end": 744,
-            "value": "\\p{Script=Mand}"
+            "value": "\\p{Script=Mand}",
+            "raw": "\"\\\\p{Script=Mand}\""
           }
         ],
         "optional": false
@@ -214,6 +221,7 @@
             "start": 771,
             "end": 791,
             "value": {},
+            "raw": "/^\\p{sc=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mandaic}+$",
               "flags": "u"
@@ -229,7 +237,8 @@
             "type": "Literal",
             "start": 811,
             "end": 828,
-            "value": "\\p{sc=Mandaic}"
+            "value": "\\p{sc=Mandaic}",
+            "raw": "\"\\\\p{sc=Mandaic}\""
           }
         ],
         "optional": false
@@ -255,6 +264,7 @@
             "start": 855,
             "end": 872,
             "value": {},
+            "raw": "/^\\p{sc=Mand}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mand}+$",
               "flags": "u"
@@ -270,7 +280,8 @@
             "type": "Literal",
             "start": 892,
             "end": 906,
-            "value": "\\p{sc=Mand}"
+            "value": "\\p{sc=Mand}",
+            "raw": "\"\\\\p{sc=Mand}\""
           }
         ],
         "optional": false
@@ -355,13 +366,15 @@
                               "type": "Literal",
                               "start": 988,
                               "end": 996,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 998,
                               "end": 1006,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -374,13 +387,15 @@
                               "type": "Literal",
                               "start": 1014,
                               "end": 1022,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1024,
                               "end": 1032,
-                              "value": 2111
+                              "value": 2111,
+                              "raw": "0x00083F"
                             }
                           ]
                         },
@@ -393,13 +408,15 @@
                               "type": "Literal",
                               "start": 1040,
                               "end": 1048,
-                              "value": 2140
+                              "value": 2140,
+                              "raw": "0x00085C"
                             },
                             {
                               "type": "Literal",
                               "start": 1050,
                               "end": 1058,
-                              "value": 2141
+                              "value": 2141,
+                              "raw": "0x00085D"
                             }
                           ]
                         },
@@ -412,13 +429,15 @@
                               "type": "Literal",
                               "start": 1066,
                               "end": 1074,
-                              "value": 2143
+                              "value": 2143,
+                              "raw": "0x00085F"
                             },
                             {
                               "type": "Literal",
                               "start": 1076,
                               "end": 1084,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -431,13 +450,15 @@
                               "type": "Literal",
                               "start": 1092,
                               "end": 1100,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1102,
                               "end": 1110,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -474,6 +495,7 @@
             "start": 1143,
             "end": 1167,
             "value": {},
+            "raw": "/^\\P{Script=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mandaic}+$",
               "flags": "u"
@@ -489,7 +511,8 @@
             "type": "Literal",
             "start": 1190,
             "end": 1211,
-            "value": "\\P{Script=Mandaic}"
+            "value": "\\P{Script=Mandaic}",
+            "raw": "\"\\\\P{Script=Mandaic}\""
           }
         ],
         "optional": false
@@ -515,6 +538,7 @@
             "start": 1238,
             "end": 1259,
             "value": {},
+            "raw": "/^\\P{Script=Mand}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mand}+$",
               "flags": "u"
@@ -530,7 +554,8 @@
             "type": "Literal",
             "start": 1282,
             "end": 1300,
-            "value": "\\P{Script=Mand}"
+            "value": "\\P{Script=Mand}",
+            "raw": "\"\\\\P{Script=Mand}\""
           }
         ],
         "optional": false
@@ -556,6 +581,7 @@
             "start": 1327,
             "end": 1347,
             "value": {},
+            "raw": "/^\\P{sc=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mandaic}+$",
               "flags": "u"
@@ -571,7 +597,8 @@
             "type": "Literal",
             "start": 1370,
             "end": 1387,
-            "value": "\\P{sc=Mandaic}"
+            "value": "\\P{sc=Mandaic}",
+            "raw": "\"\\\\P{sc=Mandaic}\""
           }
         ],
         "optional": false
@@ -597,6 +624,7 @@
             "start": 1414,
             "end": 1431,
             "value": {},
+            "raw": "/^\\P{sc=Mand}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mand}+$",
               "flags": "u"
@@ -612,7 +640,8 @@
             "type": "Literal",
             "start": 1454,
             "end": 1468,
-            "value": "\\P{sc=Mand}"
+            "value": "\\P{sc=Mand}",
+            "raw": "\"\\\\P{sc=Mand}\""
           }
         ],
         "optional": false

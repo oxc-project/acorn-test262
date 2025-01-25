@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 343,
-                "value": "if(1);"
+                "value": "if(1);",
+                "raw": "\"if(1);\""
               }
             ],
             "optional": false
@@ -90,7 +91,8 @@
               "type": "Literal",
               "start": 388,
               "end": 445,
-              "value": "#1: __evaluated === undefined. Actual:  __evaluated ==="
+              "value": "#1: __evaluated === undefined. Actual:  __evaluated ===",
+              "raw": "'#1: __evaluated === undefined. Actual:  __evaluated ==='"
             },
             "operator": "+",
             "right": {

@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 1042,
                           "end": 1043,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -127,7 +128,8 @@
                           "type": "Literal",
                           "start": 1100,
                           "end": 1106,
-                          "value": "body"
+                          "value": "body",
+                          "raw": "\"body\""
                         }
                       }
                     ]
@@ -213,7 +215,8 @@
                   "type": "Literal",
                   "start": 1180,
                   "end": 1197,
-                  "value": "#1: test failed"
+                  "value": "#1: test failed",
+                  "raw": "'#1: test failed'"
                 }
               ]
             }
@@ -273,13 +276,15 @@
                     "type": "Literal",
                     "start": 1236,
                     "end": 1237,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1239,
                     "end": 1275,
-                    "value": "The value of e is expected to be 1"
+                    "value": "The value of e is expected to be 1",
+                    "raw": "'The value of e is expected to be 1'"
                   }
                 ],
                 "optional": false

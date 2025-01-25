@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 319,
             "end": 324,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -94,7 +95,8 @@
                             "type": "Literal",
                             "start": 379,
                             "end": 383,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       },
@@ -106,7 +108,8 @@
                           "type": "Literal",
                           "start": 396,
                           "end": 397,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       }
                     ]
@@ -175,7 +178,8 @@
                           "type": "Literal",
                           "start": 455,
                           "end": 456,
-                          "value": 4
+                          "value": 4,
+                          "raw": "4"
                         }
                       }
                     ]
@@ -239,13 +243,15 @@
             "type": "Literal",
             "start": 496,
             "end": 501,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 541,
-            "value": "The result of (obj1 > obj2) is false"
+            "value": "The result of (obj1 > obj2) is false",
+            "raw": "'The result of (obj1 > obj2) is false'"
           }
         ],
         "optional": false
@@ -289,13 +295,15 @@
             "type": "Literal",
             "start": 571,
             "end": 575,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 608,
-            "value": "The value of accessed is true"
+            "value": "The value of accessed is true",
+            "raw": "'The value of accessed is true'"
           }
         ],
         "optional": false

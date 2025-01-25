@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 799,
+  "end": 797,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 717,
-      "end": 798,
+      "start": 715,
+      "end": 796,
       "expression": {
         "type": "CallExpression",
-        "start": 717,
-        "end": 797,
+        "start": 715,
+        "end": 795,
         "callee": {
           "type": "MemberExpression",
-          "start": 717,
-          "end": 730,
+          "start": 715,
+          "end": 728,
           "object": {
             "type": "Identifier",
-            "start": 717,
-            "end": 723,
+            "start": 715,
+            "end": 721,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 724,
-            "end": 730,
+            "start": 722,
+            "end": 728,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 731,
-            "end": 740,
+            "start": 729,
+            "end": 738,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 742,
-            "end": 788,
+            "start": 740,
+            "end": 786,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,31 +48,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 748,
-              "end": 788,
+              "start": 746,
+              "end": 786,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 752,
-                  "end": 786,
+                  "start": 750,
+                  "end": 784,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 752,
-                    "end": 785,
+                    "start": 750,
+                    "end": 783,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 756,
-                      "end": 773,
+                      "start": 754,
+                      "end": 771,
                       "object": {
                         "type": "Identifier",
-                        "start": 756,
-                        "end": 760,
+                        "start": 754,
+                        "end": 758,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 761,
-                        "end": 773,
+                        "start": 759,
+                        "end": 771,
                         "name": "DisplayNames"
                       },
                       "computed": false,
@@ -81,15 +81,17 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 774,
-                        "end": 778,
-                        "value": "en"
+                        "start": 772,
+                        "end": 776,
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "Literal",
-                        "start": 780,
-                        "end": 784,
-                        "value": null
+                        "start": 778,
+                        "end": 782,
+                        "value": null,
+                        "raw": "null"
                       }
                     ]
                   }
@@ -99,9 +101,10 @@
           },
           {
             "type": "Literal",
-            "start": 790,
-            "end": 796,
-            "value": "null"
+            "start": 788,
+            "end": 794,
+            "value": "null",
+            "raw": "'null'"
           }
         ],
         "optional": false

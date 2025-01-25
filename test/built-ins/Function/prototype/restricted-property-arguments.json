@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 385,
-                "value": "arguments"
+                "value": "arguments",
+                "raw": "'arguments'"
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 388,
             "end": 392,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 465,
-            "value": "The result of %FunctionPrototype%.hasOwnProperty(\"arguments\") is true"
+            "value": "The result of %FunctionPrototype%.hasOwnProperty(\"arguments\") is true",
+            "raw": "'The result of %FunctionPrototype%.hasOwnProperty(\"arguments\") is true'"
           }
         ],
         "optional": false
@@ -167,7 +170,8 @@
                 "type": "Literal",
                 "start": 536,
                 "end": 547,
-                "value": "arguments"
+                "value": "arguments",
+                "raw": "'arguments'"
               }
             ],
             "optional": false
@@ -234,13 +238,15 @@
             "type": "Literal",
             "start": 590,
             "end": 600,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 602,
             "end": 657,
-            "value": "%FunctionPrototype%.arguments is an accessor property"
+            "value": "%FunctionPrototype%.arguments is an accessor property",
+            "raw": "'%FunctionPrototype%.arguments is an accessor property'"
           }
         ],
         "optional": false
@@ -304,13 +310,15 @@
             "type": "Literal",
             "start": 700,
             "end": 710,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 767,
-            "value": "%FunctionPrototype%.arguments is an accessor property"
+            "value": "%FunctionPrototype%.arguments is an accessor property",
+            "raw": "'%FunctionPrototype%.arguments is an accessor property'"
           }
         ],
         "optional": false
@@ -386,7 +394,8 @@
             "type": "Literal",
             "start": 819,
             "end": 890,
-            "value": "%FunctionPrototype%.arguments getter/setter are both %ThrowTypeError%"
+            "value": "%FunctionPrototype%.arguments getter/setter are both %ThrowTypeError%",
+            "raw": "'%FunctionPrototype%.arguments getter/setter are both %ThrowTypeError%'"
           }
         ],
         "optional": false
@@ -587,7 +596,8 @@
             "type": "Literal",
             "start": 1093,
             "end": 1104,
-            "value": "arguments"
+            "value": "arguments",
+            "raw": "'arguments'"
           }
         ],
         "optional": false
@@ -618,7 +628,8 @@
             "type": "Literal",
             "start": 1145,
             "end": 1156,
-            "value": "arguments"
+            "value": "arguments",
+            "raw": "'arguments'"
           }
         ],
         "optional": false

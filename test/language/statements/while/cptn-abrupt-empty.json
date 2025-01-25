@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 769,
                 "end": 797,
-                "value": "1; while (true) { break; }"
+                "value": "1; while (true) { break; }",
+                "raw": "'1; while (true) { break; }'"
               }
             ],
             "optional": false
@@ -104,7 +105,8 @@
                 "type": "Literal",
                 "start": 834,
                 "end": 865,
-                "value": "2; while (true) { 3; break; }"
+                "value": "2; while (true) { 3; break; }",
+                "raw": "'2; while (true) { 3; break; }'"
               }
             ],
             "optional": false
@@ -113,7 +115,8 @@
             "type": "Literal",
             "start": 868,
             "end": 869,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -162,7 +165,8 @@
                 "type": "Literal",
                 "start": 898,
                 "end": 963,
-                "value": "4; outer: do { while (true) { continue outer; } } while (false)"
+                "value": "4; outer: do { while (true) { continue outer; } } while (false)",
+                "raw": "'4; outer: do { while (true) { continue outer; } } while (false)'"
               }
             ],
             "optional": false
@@ -220,7 +224,8 @@
                 "type": "Literal",
                 "start": 1006,
                 "end": 1074,
-                "value": "5; outer: do { while (true) { 6; continue outer; } } while (false)"
+                "value": "5; outer: do { while (true) { 6; continue outer; } } while (false)",
+                "raw": "'5; outer: do { while (true) { 6; continue outer; } } while (false)'"
               }
             ],
             "optional": false
@@ -229,7 +234,8 @@
             "type": "Literal",
             "start": 1077,
             "end": 1078,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           }
         ],
         "optional": false

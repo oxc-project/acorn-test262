@@ -66,13 +66,15 @@
             "type": "Literal",
             "start": 368,
             "end": 376,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 382,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Identifier",
@@ -147,7 +149,8 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 519,
-                    "value": "#1: x = eval.length; eval.length = Infinity; eval.length === x. Actual: "
+                    "value": "#1: x = eval.length; eval.length = Infinity; eval.length === x. Actual: ",
+                    "raw": "'#1: x = eval.length; eval.length = Infinity; eval.length === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {

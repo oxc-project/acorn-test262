@@ -198,13 +198,15 @@
             "type": "Literal",
             "start": 1432,
             "end": 1433,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1435,
             "end": 1483,
-            "value": "The value of result.length is expected to be 0"
+            "value": "The value of result.length is expected to be 0",
+            "raw": "'The value of result.length is expected to be 0'"
           }
         ],
         "optional": false

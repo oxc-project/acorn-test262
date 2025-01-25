@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -58,7 +59,8 @@
                   "type": "Literal",
                   "start": 387,
                   "end": 444,
-                  "value": "This code is unreachable (following `yield` statement)."
+                  "value": "This code is unreachable (following `yield` statement).",
+                  "raw": "'This code is unreachable (following `yield` statement).'"
                 }
               ]
             }
@@ -152,7 +154,8 @@
             "type": "Literal",
             "start": 515,
             "end": 516,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -337,7 +340,8 @@
                                     "type": "Literal",
                                     "start": 704,
                                     "end": 761,
-                                    "value": "This code is unreachable (following `throw` statement)."
+                                    "value": "This code is unreachable (following `throw` statement).",
+                                    "raw": "'This code is unreachable (following `throw` statement).'"
                                   }
                                 ]
                               }
@@ -364,7 +368,8 @@
                               "type": "Literal",
                               "start": 798,
                               "end": 853,
-                              "value": "This code is unreachable (following `try` statement)."
+                              "value": "This code is unreachable (following `try` statement).",
+                              "raw": "'This code is unreachable (following `try` statement).'"
                             }
                           ]
                         }
@@ -391,7 +396,8 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 945,
-                        "value": "This code is unreachable (following `for..in` statement)."
+                        "value": "This code is unreachable (following `for..in` statement).",
+                        "raw": "'This code is unreachable (following `for..in` statement).'"
                       }
                     ]
                   }
@@ -441,7 +447,8 @@
             "type": "Literal",
             "start": 973,
             "end": 974,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

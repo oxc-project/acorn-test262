@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1112,
+  "end": 1111,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 905,
-      "end": 1111,
+      "start": 904,
+      "end": 1110,
       "expression": {
         "type": "CallExpression",
-        "start": 905,
-        "end": 1110,
+        "start": 904,
+        "end": 1109,
         "callee": {
           "type": "Identifier",
-          "start": 905,
-          "end": 935,
+          "start": 904,
+          "end": 934,
           "name": "testWithTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 936,
-            "end": 1109,
+            "start": 935,
+            "end": 1108,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,45 +29,45 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 945,
-                "end": 947,
+                "start": 944,
+                "end": 946,
                 "name": "TA"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 949,
-              "end": 1109,
+              "start": 948,
+              "end": 1108,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 953,
-                  "end": 984,
+                  "start": 952,
+                  "end": 983,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 957,
-                      "end": 983,
+                      "start": 956,
+                      "end": 982,
                       "id": {
                         "type": "Identifier",
-                        "start": 957,
-                        "end": 960,
+                        "start": 956,
+                        "end": 959,
                         "name": "bpe"
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 963,
-                        "end": 983,
+                        "start": 962,
+                        "end": 982,
                         "object": {
                           "type": "Identifier",
-                          "start": 963,
-                          "end": 965,
+                          "start": 962,
+                          "end": 964,
                           "name": "TA"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 966,
-                          "end": 983,
+                          "start": 965,
+                          "end": 982,
                           "name": "BYTES_PER_ELEMENT"
                         },
                         "computed": false,
@@ -79,34 +79,34 @@
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 987,
-                  "end": 1027,
+                  "start": 986,
+                  "end": 1026,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 991,
-                      "end": 1026,
+                      "start": 990,
+                      "end": 1025,
                       "id": {
                         "type": "Identifier",
-                        "start": 991,
-                        "end": 997,
+                        "start": 990,
+                        "end": 996,
                         "name": "buffer"
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 1000,
-                        "end": 1026,
+                        "start": 999,
+                        "end": 1025,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1004,
-                          "end": 1021,
+                          "start": 1003,
+                          "end": 1020,
                           "name": "SharedArrayBuffer"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 1022,
-                            "end": 1025,
+                            "start": 1021,
+                            "end": 1024,
                             "name": "bpe"
                           }
                         ]
@@ -117,26 +117,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1031,
-                  "end": 1107,
+                  "start": 1030,
+                  "end": 1106,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1031,
-                    "end": 1106,
+                    "start": 1030,
+                    "end": 1105,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1031,
-                      "end": 1044,
+                      "start": 1030,
+                      "end": 1043,
                       "object": {
                         "type": "Identifier",
-                        "start": 1031,
-                        "end": 1037,
+                        "start": 1030,
+                        "end": 1036,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1038,
-                        "end": 1044,
+                        "start": 1037,
+                        "end": 1043,
                         "name": "throws"
                       },
                       "computed": false,
@@ -145,14 +145,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 1045,
-                        "end": 1055,
+                        "start": 1044,
+                        "end": 1054,
                         "name": "RangeError"
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 1057,
-                        "end": 1105,
+                        "start": 1056,
+                        "end": 1104,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -160,52 +160,54 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 1068,
-                          "end": 1105,
+                          "start": 1067,
+                          "end": 1104,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 1074,
-                              "end": 1101,
+                              "start": 1073,
+                              "end": 1100,
                               "expression": {
                                 "type": "NewExpression",
-                                "start": 1074,
-                                "end": 1100,
+                                "start": 1073,
+                                "end": 1099,
                                 "callee": {
                                   "type": "Identifier",
-                                  "start": 1078,
-                                  "end": 1080,
+                                  "start": 1077,
+                                  "end": 1079,
                                   "name": "TA"
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 1081,
-                                    "end": 1087,
+                                    "start": 1080,
+                                    "end": 1086,
                                     "name": "buffer"
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 1089,
-                                    "end": 1090,
-                                    "value": 0
+                                    "start": 1088,
+                                    "end": 1089,
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "BinaryExpression",
-                                    "start": 1092,
-                                    "end": 1099,
+                                    "start": 1091,
+                                    "end": 1098,
                                     "left": {
                                       "type": "Identifier",
-                                      "start": 1092,
-                                      "end": 1095,
+                                      "start": 1091,
+                                      "end": 1094,
                                       "name": "bpe"
                                     },
                                     "operator": "*",
                                     "right": {
                                       "type": "Literal",
-                                      "start": 1098,
-                                      "end": 1099,
-                                      "value": 2
+                                      "start": 1097,
+                                      "end": 1098,
+                                      "value": 2,
+                                      "raw": "2"
                                     }
                                   }
                                 ]

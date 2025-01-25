@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 398,
-                "value": "monthsInYear"
+                "value": "monthsInYear",
+                "raw": "\"monthsInYear\""
               }
             ],
             "optional": false
@@ -145,7 +146,8 @@
             "type": "Literal",
             "start": 441,
             "end": 451,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -259,7 +261,8 @@
             "type": "Literal",
             "start": 539,
             "end": 544,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -316,7 +319,8 @@
             "type": "Literal",
             "start": 589,
             "end": 593,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

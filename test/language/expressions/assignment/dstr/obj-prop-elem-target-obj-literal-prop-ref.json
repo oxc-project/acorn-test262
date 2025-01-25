@@ -80,7 +80,8 @@
                   "type": "Literal",
                   "start": 2719,
                   "end": 2721,
-                  "value": 23
+                  "value": 23,
+                  "raw": "23"
                 },
                 "kind": "init"
               }
@@ -184,7 +185,8 @@
                                       "type": "Literal",
                                       "start": 2780,
                                       "end": 2818,
-                                      "value": "The property should not be accessed."
+                                      "value": "The property should not be accessed.",
+                                      "raw": "'The property should not be accessed.'"
                                     }
                                   ]
                                 }
@@ -317,7 +319,8 @@
             "type": "Literal",
             "start": 2906,
             "end": 2908,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           }
         ],
         "optional": false

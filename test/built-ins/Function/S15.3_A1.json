@@ -109,7 +109,8 @@
             "type": "Literal",
             "start": 333,
             "end": 393,
-            "value": "The value of obj is expected to equal the value of thisobj"
+            "value": "The value of obj is expected to equal the value of thisobj",
+            "raw": "'The value of obj is expected to equal the value of thisobj'"
           }
         ],
         "optional": false

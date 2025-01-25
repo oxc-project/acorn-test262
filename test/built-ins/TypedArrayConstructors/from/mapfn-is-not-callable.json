@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 555,
             "end": 556,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -289,7 +290,8 @@
                                     "type": "Literal",
                                     "start": 787,
                                     "end": 791,
-                                    "value": null
+                                    "value": null,
+                                    "raw": "null"
                                   }
                                 ],
                                 "optional": false
@@ -302,7 +304,8 @@
                         "type": "Literal",
                         "start": 799,
                         "end": 814,
-                        "value": "mapfn is null"
+                        "value": "mapfn is null",
+                        "raw": "\"mapfn is null\""
                       }
                     ],
                     "optional": false
@@ -394,7 +397,8 @@
                                     "type": "Literal",
                                     "start": 881,
                                     "end": 883,
-                                    "value": 42
+                                    "value": 42,
+                                    "raw": "42"
                                   }
                                 ],
                                 "optional": false
@@ -407,7 +411,8 @@
                         "type": "Literal",
                         "start": 891,
                         "end": 910,
-                        "value": "mapfn is a number"
+                        "value": "mapfn is a number",
+                        "raw": "\"mapfn is a number\""
                       }
                     ],
                     "optional": false
@@ -499,7 +504,8 @@
                                     "type": "Literal",
                                     "start": 977,
                                     "end": 979,
-                                    "value": ""
+                                    "value": "",
+                                    "raw": "\"\""
                                   }
                                 ],
                                 "optional": false
@@ -512,7 +518,8 @@
                         "type": "Literal",
                         "start": 987,
                         "end": 1006,
-                        "value": "mapfn is a string"
+                        "value": "mapfn is a string",
+                        "raw": "\"mapfn is a string\""
                       }
                     ],
                     "optional": false
@@ -617,7 +624,8 @@
                         "type": "Literal",
                         "start": 1083,
                         "end": 1112,
-                        "value": "mapfn is an ordinary object"
+                        "value": "mapfn is an ordinary object",
+                        "raw": "\"mapfn is an ordinary object\""
                       }
                     ],
                     "optional": false
@@ -722,7 +730,8 @@
                         "type": "Literal",
                         "start": 1189,
                         "end": 1208,
-                        "value": "mapfn is an array"
+                        "value": "mapfn is an array",
+                        "raw": "\"mapfn is an array\""
                       }
                     ],
                     "optional": false
@@ -814,7 +823,8 @@
                                     "type": "Literal",
                                     "start": 1275,
                                     "end": 1279,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   }
                                 ],
                                 "optional": false
@@ -827,7 +837,8 @@
                         "type": "Literal",
                         "start": 1287,
                         "end": 1307,
-                        "value": "mapfn is a boolean"
+                        "value": "mapfn is a boolean",
+                        "raw": "\"mapfn is a boolean\""
                       }
                     ],
                     "optional": false
@@ -863,7 +874,8 @@
                             "type": "Literal",
                             "start": 1328,
                             "end": 1331,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "\"1\""
                           }
                         ],
                         "optional": false
@@ -971,7 +983,8 @@
                         "type": "Literal",
                         "start": 1406,
                         "end": 1425,
-                        "value": "mapfn is a symbol"
+                        "value": "mapfn is a symbol",
+                        "raw": "\"mapfn is a symbol\""
                       }
                     ],
                     "optional": false
@@ -1015,13 +1028,15 @@
                         "type": "Literal",
                         "start": 1466,
                         "end": 1467,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1473,
                         "end": 1539,
-                        "value": "IsCallable(mapfn) check occurs before getting source[@@iterator]"
+                        "value": "IsCallable(mapfn) check occurs before getting source[@@iterator]",
+                        "raw": "\"IsCallable(mapfn) check occurs before getting source[@@iterator]\""
                       }
                     ],
                     "optional": false

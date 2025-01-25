@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 440,
                         "end": 454,
-                        "value": "not callable"
+                        "value": "not callable",
+                        "raw": "'not callable'"
                       }
                     ]
                   }
@@ -149,7 +150,8 @@
                         "type": "Literal",
                         "start": 514,
                         "end": 515,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   }
@@ -228,7 +230,8 @@
                         "type": "Literal",
                         "start": 575,
                         "end": 579,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ]
                   }

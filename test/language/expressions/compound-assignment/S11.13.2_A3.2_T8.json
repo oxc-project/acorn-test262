@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 293,
             "end": 294,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         }
       ],
@@ -62,7 +63,8 @@
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -89,7 +91,8 @@
           "type": "Literal",
           "start": 328,
           "end": 329,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -120,7 +123,8 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 414,
-                    "value": "#1: var x = 4; var x1 = (x >>>= 1); x1 === 2. Actual: "
+                    "value": "#1: var x = 4; var x1 = (x >>>= 1); x1 === 2. Actual: ",
+                    "raw": "'#1: var x = 4; var x1 = (x >>>= 1); x1 === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -201,7 +205,8 @@
           "type": "Literal",
           "start": 456,
           "end": 457,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       }
     },
@@ -239,7 +244,8 @@
               "type": "Literal",
               "start": 472,
               "end": 473,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -264,7 +270,8 @@
           "type": "Literal",
           "start": 487,
           "end": 488,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -295,7 +302,8 @@
                     "type": "Literal",
                     "start": 517,
                     "end": 565,
-                    "value": "#2: y = 4; y1 = (y >>>= 1); y1 === 2. Actual: "
+                    "value": "#2: y = 4; y1 = (y >>>= 1); y1 === 2. Actual: ",
+                    "raw": "'#2: y = 4; y1 = (y >>>= 1); y1 === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

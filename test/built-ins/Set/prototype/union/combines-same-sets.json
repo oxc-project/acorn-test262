@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 323,
                     "end": 324,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 326,
                     "end": 327,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -89,13 +91,15 @@
                     "type": "Literal",
                     "start": 351,
                     "end": 352,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 354,
                     "end": 355,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -129,13 +133,15 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 378,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -301,13 +307,15 @@
             "type": "Literal",
             "start": 504,
             "end": 508,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 540,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -363,13 +371,15 @@
             "type": "Literal",
             "start": 577,
             "end": 582,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 621,
-            "value": "The returned object is a new object"
+            "value": "The returned object is a new object",
+            "raw": "\"The returned object is a new object\""
           }
         ],
         "optional": false
@@ -425,13 +435,15 @@
             "type": "Literal",
             "start": 658,
             "end": 663,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 702,
-            "value": "The returned object is a new object"
+            "value": "The returned object is a new object",
+            "raw": "\"The returned object is a new object\""
           }
         ],
         "optional": false

@@ -49,13 +49,15 @@
                       "type": "Literal",
                       "start": 333,
                       "end": 338,
-                      "value": "lol"
+                      "value": "lol",
+                      "raw": "\"lol\""
                     },
                     "property": {
                       "type": "Literal",
                       "start": 342,
                       "end": 343,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "computed": true,
                     "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 388,
             "end": 391,
-            "value": "o"
+            "value": "o",
+            "raw": "'o'"
           }
         ],
         "optional": false

@@ -31,6 +31,7 @@
                 "start": 357,
                 "end": 366,
                 "value": {},
+                "raw": "/\\d{2,4}/",
                 "regex": {
                   "pattern": "\\d{2,4}",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 385,
-                "value": "the 7 movie"
+                "value": "the 7 movie",
+                "raw": "\"the 7 movie\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 409,
             "end": 458,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

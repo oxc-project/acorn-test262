@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 473,
             "end": 474,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -87,7 +88,8 @@
                             "type": "Literal",
                             "start": 523,
                             "end": 526,
-                            "value": "a"
+                            "value": "a",
+                            "raw": "\"a\""
                           },
                           "operator": "+",
                           "right": {
@@ -191,7 +193,8 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 612,
-                "value": "this.shifted=a3+a2+a1.length;"
+                "value": "this.shifted=a3+a2+a1.length;",
+                "raw": "\"this.shifted=a3+a2+a1.length;\""
               }
             ]
           },
@@ -253,25 +256,29 @@
                 "type": "Literal",
                 "start": 661,
                 "end": 664,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 666,
                 "end": 669,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 671,
                 "end": 674,
-                "value": "c"
+                "value": "c",
+                "raw": "\"c\""
               },
               {
                 "type": "Literal",
                 "start": 676,
                 "end": 679,
-                "value": "d"
+                "value": "d",
+                "raw": "\"d\""
               }
             ],
             "optional": false
@@ -280,13 +287,15 @@
             "type": "Literal",
             "start": 682,
             "end": 684,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 687,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -334,7 +343,8 @@
               "type": "Literal",
               "start": 712,
               "end": 721,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -343,13 +353,15 @@
             "type": "Literal",
             "start": 724,
             "end": 728,
-            "value": "24"
+            "value": "24",
+            "raw": "\"24\""
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 782,
-            "value": "The value of obj[\"shifted\"] is expected to be \"24\""
+            "value": "The value of obj[\"shifted\"] is expected to be \"24\"",
+            "raw": "'The value of obj[\"shifted\"] is expected to be \"24\"'"
           }
         ],
         "optional": false
@@ -402,7 +414,8 @@
                 "type": "Literal",
                 "start": 818,
                 "end": 827,
-                "value": "shifted"
+                "value": "shifted",
+                "raw": "\"shifted\""
               },
               "computed": true,
               "optional": false
@@ -412,13 +425,15 @@
             "type": "Literal",
             "start": 832,
             "end": 843,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 847,
             "end": 916,
-            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\""
+            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 292,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             ]
           }
@@ -143,7 +144,8 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 458,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -177,7 +179,8 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 484,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -188,7 +191,8 @@
           "type": "Literal",
           "start": 490,
           "end": 494,
-          "value": "42"
+          "value": "42",
+          "raw": "\"42\""
         }
       },
       "consequent": {
@@ -223,7 +227,8 @@
                       "type": "Literal",
                       "start": 523,
                       "end": 745,
-                      "value": "#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: "
+                      "value": "#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: ",
+                      "raw": "'#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: '"
                     },
                     "operator": "+",
                     "right": {
@@ -254,7 +259,8 @@
                           "type": "Literal",
                           "start": 766,
                           "end": 771,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         }
                       ],
                       "optional": false
@@ -289,7 +295,8 @@
                         "type": "Literal",
                         "start": 793,
                         "end": 797,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false

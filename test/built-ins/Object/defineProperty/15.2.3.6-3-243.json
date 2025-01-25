@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 364,
             "end": 370,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -72,7 +73,8 @@
             "type": "Literal",
             "start": 384,
             "end": 390,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -306,7 +308,8 @@
             "type": "Literal",
             "start": 587,
             "end": 592,
-            "value": "set"
+            "value": "set",
+            "raw": "\"set\""
           },
           {
             "type": "ObjectExpression",
@@ -441,7 +444,8 @@
             "type": "Literal",
             "start": 709,
             "end": 719,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -485,7 +489,8 @@
           "type": "Literal",
           "start": 744,
           "end": 765,
-          "value": "ownAccessorProperty"
+          "value": "ownAccessorProperty",
+          "raw": "\"ownAccessorProperty\""
         }
       }
     },
@@ -532,7 +537,8 @@
                 "type": "Literal",
                 "start": 794,
                 "end": 804,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -541,7 +547,8 @@
             "type": "Literal",
             "start": 807,
             "end": 848,
-            "value": "obj.hasOwnProperty(\"property\") !== true"
+            "value": "obj.hasOwnProperty(\"property\") !== true",
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
           }
         ],
         "optional": false
@@ -585,13 +592,15 @@
             "type": "Literal",
             "start": 875,
             "end": 881,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 890,
-            "value": "data1"
+            "value": "data1",
+            "raw": "'data1'"
           }
         ],
         "optional": false
@@ -635,13 +644,15 @@
             "type": "Literal",
             "start": 917,
             "end": 938,
-            "value": "ownAccessorProperty"
+            "value": "ownAccessorProperty",
+            "raw": "\"ownAccessorProperty\""
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 947,
-            "value": "data2"
+            "value": "data2",
+            "raw": "'data2'"
           }
         ],
         "optional": false

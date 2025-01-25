@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 294,
             "end": 344,
-            "value": "Sparse arrays of the same length are equivalent."
+            "value": "Sparse arrays of the same length are equivalent.",
+            "raw": "'Sparse arrays of the same length are equivalent.'"
           }
         ],
         "optional": false
@@ -161,7 +162,8 @@
             "type": "Literal",
             "start": 420,
             "end": 476,
-            "value": "Sparse arrays of differing lengths are not equivalent."
+            "value": "Sparse arrays of differing lengths are not equivalent.",
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
           }
         ],
         "optional": false
@@ -271,7 +273,8 @@
             "type": "Literal",
             "start": 552,
             "end": 608,
-            "value": "Sparse arrays of differing lengths are not equivalent."
+            "value": "Sparse arrays of differing lengths are not equivalent.",
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
           }
         ],
         "optional": false
@@ -378,7 +381,8 @@
             "type": "Literal",
             "start": 682,
             "end": 733,
-            "value": "Sparse arrays are not equivalent to empty arrays."
+            "value": "Sparse arrays are not equivalent to empty arrays.",
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
           }
         ],
         "optional": false
@@ -485,7 +489,8 @@
             "type": "Literal",
             "start": 807,
             "end": 858,
-            "value": "Sparse arrays are not equivalent to empty arrays."
+            "value": "Sparse arrays are not equivalent to empty arrays.",
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
           }
         ],
         "optional": false

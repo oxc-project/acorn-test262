@@ -54,13 +54,15 @@
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 369,
             "end": 404,
-            "value": "The value of parseInt.length is 2"
+            "value": "The value of parseInt.length is 2",
+            "raw": "'The value of parseInt.length is 2'"
           }
         ],
         "optional": false
@@ -91,13 +93,15 @@
             "type": "Literal",
             "start": 435,
             "end": 443,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 449,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Identifier",

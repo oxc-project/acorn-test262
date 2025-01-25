@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 589,
             "end": 599,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 687,
-            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\""
+            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"",
+            "raw": "'The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -154,7 +156,8 @@
                     "type": "Literal",
                     "start": 736,
                     "end": 752,
-                    "value": "hasOwnProperty"
+                    "value": "hasOwnProperty",
+                    "raw": "\"hasOwnProperty\""
                   }
                 ],
                 "optional": false
@@ -165,7 +168,8 @@
             "type": "Literal",
             "start": 757,
             "end": 846,
-            "value": "The value of !!Object.prototype.hasOwnProperty(\"hasOwnProperty\") is expected to be true"
+            "value": "The value of !!Object.prototype.hasOwnProperty(\"hasOwnProperty\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.hasOwnProperty(\"hasOwnProperty\") is expected to be true'"
           }
         ],
         "optional": false

@@ -54,7 +54,8 @@
           "type": "Literal",
           "start": 412,
           "end": 414,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       }
     },
@@ -77,7 +78,8 @@
           "type": "Literal",
           "start": 426,
           "end": 427,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "test": {
@@ -95,7 +97,8 @@
           "type": "Literal",
           "start": 435,
           "end": 437,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "update": {
@@ -113,7 +116,8 @@
           "type": "Literal",
           "start": 446,
           "end": 447,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "body": {
@@ -140,7 +144,8 @@
                 "type": "Literal",
                 "start": 462,
                 "end": 463,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             },
             "consequent": {
@@ -196,7 +201,8 @@
           "type": "Literal",
           "start": 504,
           "end": 511,
-          "value": "56789"
+          "value": "56789",
+          "raw": "\"56789\""
         }
       },
       "consequent": {
@@ -227,7 +233,8 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 582,
-                    "value": "#1: __str === \"56789\". Actual:  __str ==="
+                    "value": "#1: __str === \"56789\". Actual:  __str ===",
+                    "raw": "'#1: __str === \"56789\". Actual:  __str ==='"
                   },
                   "operator": "+",
                   "right": {

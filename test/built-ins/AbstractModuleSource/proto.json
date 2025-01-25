@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 528,
             "end": 538,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -164,7 +165,8 @@
             "type": "Literal",
             "start": 635,
             "end": 722,
-            "value": "Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`"
+            "value": "Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`",
+            "raw": "'Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`'"
           }
         ],
         "optional": false

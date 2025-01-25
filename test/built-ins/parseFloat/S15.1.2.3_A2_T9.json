@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 295,
               "end": 306,
-              "value": " 1.1"
+              "value": " 1.1",
+              "raw": "\"\\u20291.1\""
             }
           ],
           "optional": false
@@ -47,7 +48,8 @@
               "type": "Literal",
               "start": 323,
               "end": 328,
-              "value": "1.1"
+              "value": "1.1",
+              "raw": "\"1.1\""
             }
           ],
           "optional": false
@@ -81,7 +83,8 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 420,
-                    "value": "#1: parseFloat(\"\\u20291.1\") === parseFloat(\"1.1\"). Actual: "
+                    "value": "#1: parseFloat(\"\\u20291.1\") === parseFloat(\"1.1\"). Actual: ",
+                    "raw": "'#1: parseFloat(\"\\\\u20291.1\") === parseFloat(\"1.1\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 435,
                           "end": 446,
-                          "value": " 1.1"
+                          "value": " 1.1",
+                          "raw": "\"\\u20291.1\""
                         }
                       ],
                       "optional": false
@@ -140,7 +144,8 @@
               "type": "Literal",
               "start": 479,
               "end": 497,
-              "value": "  -1.1"
+              "value": "  -1.1",
+              "raw": "\"\\u2029\\u2029-1.1\""
             }
           ],
           "optional": false
@@ -161,7 +166,8 @@
               "type": "Literal",
               "start": 514,
               "end": 520,
-              "value": "-1.1"
+              "value": "-1.1",
+              "raw": "\"-1.1\""
             }
           ],
           "optional": false
@@ -195,7 +201,8 @@
                     "type": "Literal",
                     "start": 550,
                     "end": 621,
-                    "value": "#2: parseFloat(\"\\u2029\\u2029-1.1\") === parseFloat(\"-1.1\"). Actual: "
+                    "value": "#2: parseFloat(\"\\u2029\\u2029-1.1\") === parseFloat(\"-1.1\"). Actual: ",
+                    "raw": "'#2: parseFloat(\"\\\\u2029\\\\u2029-1.1\") === parseFloat(\"-1.1\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +224,8 @@
                           "type": "Literal",
                           "start": 636,
                           "end": 654,
-                          "value": "  -1.1"
+                          "value": "  -1.1",
+                          "raw": "\"\\u2029\\u2029-1.1\""
                         }
                       ],
                       "optional": false
@@ -274,7 +282,8 @@
                 "type": "Literal",
                 "start": 700,
                 "end": 708,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2029\""
               }
             ],
             "optional": false

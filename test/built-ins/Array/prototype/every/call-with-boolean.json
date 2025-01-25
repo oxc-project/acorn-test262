@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 286,
                 "end": 290,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -110,13 +111,15 @@
             "type": "Literal",
             "start": 305,
             "end": 309,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 374,
-            "value": "Array.prototype.every.call(true, () => {}) must return true"
+            "value": "Array.prototype.every.call(true, () => {}) must return true",
+            "raw": "'Array.prototype.every.call(true, () => {}) must return true'"
           }
         ],
         "optional": false
@@ -204,7 +207,8 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 430,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -229,13 +233,15 @@
             "type": "Literal",
             "start": 445,
             "end": 449,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 515,
-            "value": "Array.prototype.every.call(false, () => {}) must return true"
+            "value": "Array.prototype.every.call(false, () => {}) must return true",
+            "raw": "'Array.prototype.every.call(false, () => {}) must return true'"
           }
         ],
         "optional": false

@@ -234,7 +234,8 @@
             "type": "Literal",
             "start": 566,
             "end": 617,
-            "value": "Array.from(items) throws a Test262Error exception"
+            "value": "Array.from(items) throws a Test262Error exception",
+            "raw": "'Array.from(items) throws a Test262Error exception'"
           }
         ],
         "optional": false

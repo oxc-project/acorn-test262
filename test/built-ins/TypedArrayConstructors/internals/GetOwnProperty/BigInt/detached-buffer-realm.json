@@ -178,7 +178,8 @@
                             "type": "Literal",
                             "start": 1126,
                             "end": 1127,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -286,7 +287,8 @@
                             "type": "Literal",
                             "start": 1228,
                             "end": 1229,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ],
                         "optional": false
@@ -301,7 +303,8 @@
                         "type": "Literal",
                         "start": 1251,
                         "end": 1327,
-                        "value": "Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined"
+                        "value": "Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined",
+                        "raw": "'Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined'"
                       }
                     ],
                     "optional": false

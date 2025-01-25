@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 306,
                         "end": 311,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   ],
@@ -223,7 +224,8 @@
                               "type": "Literal",
                               "start": 459,
                               "end": 463,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -292,7 +294,8 @@
                                     "type": "Literal",
                                     "start": 536,
                                     "end": 570,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -333,7 +336,8 @@
                                   "type": "Literal",
                                   "start": 612,
                                   "end": 627,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -373,7 +377,8 @@
                               "type": "Literal",
                               "start": 681,
                               "end": 749,
-                              "value": "assert.throwsAsync did not reject when the thenable did not reject"
+                              "value": "assert.throwsAsync did not reject when the thenable did not reject",
+                              "raw": "\"assert.throwsAsync did not reject when the thenable did not reject\""
                             }
                           ],
                           "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 361,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               }
             ]
           }
@@ -88,43 +89,50 @@
             "type": "Literal",
             "start": 392,
             "end": 406,
-            "value": "other string"
+            "value": "other string",
+            "raw": "\"other string\""
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 414,
-            "value": "cile"
+            "value": "cile",
+            "raw": "\"cile\""
           },
           {
             "type": "Literal",
             "start": 416,
             "end": 422,
-            "value": "CEIL"
+            "value": "CEIL",
+            "raw": "\"CEIL\""
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 435,
-            "value": "ceıl"
+            "value": "ceıl",
+            "raw": "\"ce\\u0131l\""
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 443,
-            "value": "auto"
+            "value": "auto",
+            "raw": "\"auto\""
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 457,
-            "value": "halfexpand"
+            "value": "halfexpand",
+            "raw": "\"halfexpand\""
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 468,
-            "value": "floor\u0000"
+            "value": "floor\u0000",
+            "raw": "\"floor\\0\""
           }
         ]
       },
@@ -222,7 +230,8 @@
                               "type": "Literal",
                               "start": 537,
                               "end": 550,
-                              "value": "microsecond"
+                              "value": "microsecond",
+                              "raw": "\"microsecond\""
                             },
                             "kind": "init"
                           },

@@ -23,6 +23,7 @@
             "start": 600,
             "end": 604,
             "value": {},
+            "raw": "/./d",
             "regex": {
               "pattern": ".",
               "flags": "d"
@@ -79,7 +80,8 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 633,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 }
               ],
               "optional": false
@@ -122,7 +124,8 @@
             "type": "Literal",
             "start": 668,
             "end": 676,
-            "value": "groups"
+            "value": "groups",
+            "raw": "'groups'"
           },
           {
             "type": "ObjectExpression",
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 692,
                   "end": 696,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -167,7 +171,8 @@
                   "type": "Literal",
                   "start": 712,
                   "end": 716,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -188,7 +193,8 @@
                   "type": "Literal",
                   "start": 734,
                   "end": 738,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },

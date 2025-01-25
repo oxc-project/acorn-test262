@@ -101,7 +101,8 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 440,
-                    "value": "description"
+                    "value": "description",
+                    "raw": "'description'"
                   }
                 ],
                 "optional": false
@@ -119,7 +120,8 @@
             "type": "Literal",
             "start": 447,
             "end": 491,
-            "value": "`s.add(Symbol(\"description\"))` returns `s`"
+            "value": "`s.add(Symbol(\"description\"))` returns `s`",
+            "raw": "'`s.add(Symbol(\"description\"))` returns `s`'"
           }
         ],
         "optional": false

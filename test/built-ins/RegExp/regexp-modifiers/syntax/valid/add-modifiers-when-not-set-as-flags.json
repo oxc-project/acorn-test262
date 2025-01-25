@@ -12,6 +12,7 @@
         "start": 1633,
         "end": 1640,
         "value": null,
+        "raw": "/(?i:)/",
         "regex": {
           "pattern": "(?i:)",
           "flags": ""
@@ -27,6 +28,7 @@
         "start": 1642,
         "end": 1650,
         "value": null,
+        "raw": "/(?is:)/",
         "regex": {
           "pattern": "(?is:)",
           "flags": ""
@@ -42,6 +44,7 @@
         "start": 1652,
         "end": 1660,
         "value": null,
+        "raw": "/(?im:)/",
         "regex": {
           "pattern": "(?im:)",
           "flags": ""
@@ -57,6 +60,7 @@
         "start": 1662,
         "end": 1669,
         "value": null,
+        "raw": "/(?s:)/",
         "regex": {
           "pattern": "(?s:)",
           "flags": ""
@@ -72,6 +76,7 @@
         "start": 1671,
         "end": 1679,
         "value": null,
+        "raw": "/(?si:)/",
         "regex": {
           "pattern": "(?si:)",
           "flags": ""
@@ -87,6 +92,7 @@
         "start": 1681,
         "end": 1689,
         "value": null,
+        "raw": "/(?sm:)/",
         "regex": {
           "pattern": "(?sm:)",
           "flags": ""
@@ -102,6 +108,7 @@
         "start": 1691,
         "end": 1698,
         "value": null,
+        "raw": "/(?m:)/",
         "regex": {
           "pattern": "(?m:)",
           "flags": ""
@@ -117,6 +124,7 @@
         "start": 1700,
         "end": 1708,
         "value": null,
+        "raw": "/(?mi:)/",
         "regex": {
           "pattern": "(?mi:)",
           "flags": ""
@@ -132,6 +140,7 @@
         "start": 1710,
         "end": 1718,
         "value": null,
+        "raw": "/(?ms:)/",
         "regex": {
           "pattern": "(?ms:)",
           "flags": ""
@@ -147,6 +156,7 @@
         "start": 1720,
         "end": 1729,
         "value": null,
+        "raw": "/(?ims:)/",
         "regex": {
           "pattern": "(?ims:)",
           "flags": ""
@@ -162,6 +172,7 @@
         "start": 1731,
         "end": 1740,
         "value": null,
+        "raw": "/(?ism:)/",
         "regex": {
           "pattern": "(?ism:)",
           "flags": ""
@@ -177,6 +188,7 @@
         "start": 1742,
         "end": 1751,
         "value": null,
+        "raw": "/(?sim:)/",
         "regex": {
           "pattern": "(?sim:)",
           "flags": ""
@@ -192,6 +204,7 @@
         "start": 1753,
         "end": 1762,
         "value": null,
+        "raw": "/(?smi:)/",
         "regex": {
           "pattern": "(?smi:)",
           "flags": ""
@@ -207,6 +220,7 @@
         "start": 1764,
         "end": 1773,
         "value": null,
+        "raw": "/(?mis:)/",
         "regex": {
           "pattern": "(?mis:)",
           "flags": ""
@@ -222,6 +236,7 @@
         "start": 1775,
         "end": 1784,
         "value": null,
+        "raw": "/(?msi:)/",
         "regex": {
           "pattern": "(?msi:)",
           "flags": ""
@@ -247,7 +262,8 @@
             "type": "Literal",
             "start": 1797,
             "end": 1804,
-            "value": "(?i:)"
+            "value": "(?i:)",
+            "raw": "\"(?i:)\""
           }
         ]
       }
@@ -271,7 +287,8 @@
             "type": "Literal",
             "start": 1818,
             "end": 1826,
-            "value": "(?is:)"
+            "value": "(?is:)",
+            "raw": "\"(?is:)\""
           }
         ]
       }
@@ -295,7 +312,8 @@
             "type": "Literal",
             "start": 1840,
             "end": 1848,
-            "value": "(?im:)"
+            "value": "(?im:)",
+            "raw": "\"(?im:)\""
           }
         ]
       }
@@ -319,7 +337,8 @@
             "type": "Literal",
             "start": 1862,
             "end": 1869,
-            "value": "(?s:)"
+            "value": "(?s:)",
+            "raw": "\"(?s:)\""
           }
         ]
       }
@@ -343,7 +362,8 @@
             "type": "Literal",
             "start": 1883,
             "end": 1891,
-            "value": "(?si:)"
+            "value": "(?si:)",
+            "raw": "\"(?si:)\""
           }
         ]
       }
@@ -367,7 +387,8 @@
             "type": "Literal",
             "start": 1905,
             "end": 1913,
-            "value": "(?sm:)"
+            "value": "(?sm:)",
+            "raw": "\"(?sm:)\""
           }
         ]
       }
@@ -391,7 +412,8 @@
             "type": "Literal",
             "start": 1927,
             "end": 1934,
-            "value": "(?m:)"
+            "value": "(?m:)",
+            "raw": "\"(?m:)\""
           }
         ]
       }
@@ -415,7 +437,8 @@
             "type": "Literal",
             "start": 1948,
             "end": 1956,
-            "value": "(?mi:)"
+            "value": "(?mi:)",
+            "raw": "\"(?mi:)\""
           }
         ]
       }
@@ -439,7 +462,8 @@
             "type": "Literal",
             "start": 1970,
             "end": 1978,
-            "value": "(?ms:)"
+            "value": "(?ms:)",
+            "raw": "\"(?ms:)\""
           }
         ]
       }
@@ -463,7 +487,8 @@
             "type": "Literal",
             "start": 1992,
             "end": 2001,
-            "value": "(?ims:)"
+            "value": "(?ims:)",
+            "raw": "\"(?ims:)\""
           }
         ]
       }
@@ -487,7 +512,8 @@
             "type": "Literal",
             "start": 2015,
             "end": 2024,
-            "value": "(?ism:)"
+            "value": "(?ism:)",
+            "raw": "\"(?ism:)\""
           }
         ]
       }
@@ -511,7 +537,8 @@
             "type": "Literal",
             "start": 2038,
             "end": 2047,
-            "value": "(?sim:)"
+            "value": "(?sim:)",
+            "raw": "\"(?sim:)\""
           }
         ]
       }
@@ -535,7 +562,8 @@
             "type": "Literal",
             "start": 2061,
             "end": 2070,
-            "value": "(?smi:)"
+            "value": "(?smi:)",
+            "raw": "\"(?smi:)\""
           }
         ]
       }
@@ -559,7 +587,8 @@
             "type": "Literal",
             "start": 2084,
             "end": 2093,
-            "value": "(?mis:)"
+            "value": "(?mis:)",
+            "raw": "\"(?mis:)\""
           }
         ]
       }
@@ -583,7 +612,8 @@
             "type": "Literal",
             "start": 2107,
             "end": 2116,
-            "value": "(?msi:)"
+            "value": "(?msi:)",
+            "raw": "\"(?msi:)\""
           }
         ]
       }

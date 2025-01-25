@@ -155,7 +155,8 @@
                   "type": "Literal",
                   "start": 655,
                   "end": 656,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -167,7 +168,8 @@
           "type": "Literal",
           "start": 663,
           "end": 666,
-          "value": "f"
+          "value": "f",
+          "raw": "\"f\""
         }
       },
       "consequent": {
@@ -198,7 +200,8 @@
                     "type": "Literal",
                     "start": 695,
                     "end": 848,
-                    "value": "#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: "
+                    "value": "#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: ",
+                    "raw": "'#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -252,7 +255,8 @@
                             "type": "Literal",
                             "start": 897,
                             "end": 898,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }

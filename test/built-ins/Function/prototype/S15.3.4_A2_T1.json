@@ -76,7 +76,8 @@
                   "type": "Literal",
                   "start": 401,
                   "end": 441,
-                  "value": "Function.prototype() returns undefined"
+                  "value": "Function.prototype() returns undefined",
+                  "raw": "'Function.prototype() returns undefined'"
                 }
               ],
               "optional": false
@@ -122,7 +123,8 @@
                       "type": "Literal",
                       "start": 483,
                       "end": 614,
-                      "value": "#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: "
+                      "value": "#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: ",
+                      "raw": "'#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: '"
                     },
                     "operator": "+",
                     "right": {

@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 332,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": 29
+                "value": 29,
+                "raw": "29"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
-                "value": 46
+                "value": 46,
+                "raw": "46"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 352,
-                "value": 38
+                "value": 38,
+                "raw": "38"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 357,
-                "value": 271
+                "value": 271,
+                "raw": "271"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 362,
-                "value": 986
+                "value": 986,
+                "raw": "986"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 367,
-                "value": 102
+                "value": 102,
+                "raw": "102"
               }
             ]
           }
@@ -191,7 +200,8 @@
                         "type": "Literal",
                         "start": 425,
                         "end": 429,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     }
@@ -205,7 +215,8 @@
             "type": "Literal",
             "start": 436,
             "end": 477,
-            "value": "object must contain required properties"
+            "value": "object must contain required properties",
+            "raw": "\"object must contain required properties\""
           }
         ],
         "optional": false

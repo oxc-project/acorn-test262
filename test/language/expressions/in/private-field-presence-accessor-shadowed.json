@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 688,
             "end": 689,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -67,7 +68,8 @@
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -135,7 +137,8 @@
                         "type": "Literal",
                         "start": 766,
                         "end": 767,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -242,7 +245,8 @@
                                           "type": "Literal",
                                           "start": 858,
                                           "end": 859,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       }
                                     }
@@ -425,7 +429,8 @@
             "type": "Literal",
             "start": 1021,
             "end": 1026,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -469,13 +474,15 @@
             "type": "Literal",
             "start": 1059,
             "end": 1060,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1062,
             "end": 1091,
-            "value": "parent accessor not invoked"
+            "value": "parent accessor not invoked",
+            "raw": "'parent accessor not invoked'"
           }
         ],
         "optional": false
@@ -552,7 +559,8 @@
             "type": "Literal",
             "start": 1140,
             "end": 1144,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false
@@ -596,13 +604,15 @@
             "type": "Literal",
             "start": 1176,
             "end": 1177,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1179,
             "end": 1207,
-            "value": "child accessor not invoked"
+            "value": "child accessor not invoked",
+            "raw": "'child accessor not invoked'"
           }
         ],
         "optional": false

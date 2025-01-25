@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 1907,
             "end": 1917,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1921,
             "end": 1997,
-            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
           }
         ],
         "optional": false
@@ -165,13 +167,15 @@
                     "type": "Literal",
                     "start": 2046,
                     "end": 2073,
-                    "value": "./import-value_FIXTURE.js"
+                    "value": "./import-value_FIXTURE.js",
+                    "raw": "'./import-value_FIXTURE.js'"
                   },
                   {
                     "type": "Literal",
                     "start": 2075,
                     "end": 2078,
-                    "value": "y"
+                    "value": "y",
+                    "raw": "'y'"
                   }
                 ],
                 "optional": false
@@ -219,7 +223,8 @@
                             "type": "Literal",
                             "start": 2130,
                             "end": 2150,
-                            "value": "Expected rejection"
+                            "value": "Expected rejection",
+                            "raw": "\"Expected rejection\""
                           }
                         ]
                       }
@@ -332,7 +337,8 @@
                             "type": "Literal",
                             "start": 2245,
                             "end": 2280,
-                            "value": "should be rejected with TypeError"
+                            "value": "should be rejected with TypeError",
+                            "raw": "'should be rejected with TypeError'"
                           }
                         ],
                         "optional": false

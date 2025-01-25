@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 671,
                   "end": 672,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -69,7 +70,8 @@
             "type": "Literal",
             "start": 701,
             "end": 706,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -159,7 +161,8 @@
                       "type": "Literal",
                       "start": 814,
                       "end": 815,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -195,7 +198,8 @@
             "type": "Literal",
             "start": 854,
             "end": 873,
-            "value": "(expObj.foo == 1)"
+            "value": "(expObj.foo == 1)",
+            "raw": "'(expObj.foo == 1)'"
           }
         ],
         "optional": false
@@ -220,7 +224,8 @@
           "type": "Literal",
           "start": 900,
           "end": 905,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       }
     },
@@ -326,7 +331,8 @@
             "type": "Literal",
             "start": 1049,
             "end": 1078,
-            "value": "e instanceof ReferenceError"
+            "value": "e instanceof ReferenceError",
+            "raw": "'e instanceof ReferenceError'"
           }
         ],
         "optional": false

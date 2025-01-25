@@ -101,7 +101,8 @@
                       "type": "Literal",
                       "start": 800,
                       "end": 804,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }

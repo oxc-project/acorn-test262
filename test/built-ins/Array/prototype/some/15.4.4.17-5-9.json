@@ -133,7 +133,8 @@
                     "type": "Literal",
                     "start": 368,
                     "end": 370,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   }
                 ]
               },
@@ -166,7 +167,8 @@
             "type": "Literal",
             "start": 403,
             "end": 448,
-            "value": "[11].some(callbackfn, objFunction) !== true"
+            "value": "[11].some(callbackfn, objFunction) !== true",
+            "raw": "'[11].some(callbackfn, objFunction) !== true'"
           }
         ],
         "optional": false

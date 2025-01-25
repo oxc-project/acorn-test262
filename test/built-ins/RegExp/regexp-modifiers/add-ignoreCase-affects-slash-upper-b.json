@@ -23,6 +23,7 @@
             "start": 2699,
             "end": 2710,
             "value": null,
+            "raw": "/(?i:Z\\B)/u",
             "regex": {
               "pattern": "(?i:Z\\B)",
               "flags": "u"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2728,
                 "end": 2737,
-                "value": "Zſ"
+                "value": "Zſ",
+                "raw": "\"Z\\u017f\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2740,
             "end": 2779,
-            "value": "\\B should match between Z and ſ"
+            "value": "\\B should match between Z and ſ",
+            "raw": "\"\\\\B should match between Z and \\u017f\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2798,
                 "end": 2807,
-                "value": "ZK"
+                "value": "ZK",
+                "raw": "\"Z\\u212a\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2810,
             "end": 2849,
-            "value": "\\B should match between Z and K"
+            "value": "\\B should match between Z and K",
+            "raw": "\"\\\\B should match between Z and \\u212a\""
           }
         ],
         "optional": false
@@ -168,6 +173,7 @@
             "start": 2863,
             "end": 2875,
             "value": null,
+            "raw": "/(?i-:Z\\B)/u",
             "regex": {
               "pattern": "(?i-:Z\\B)",
               "flags": "u"
@@ -220,7 +226,8 @@
                 "type": "Literal",
                 "start": 2893,
                 "end": 2902,
-                "value": "Zſ"
+                "value": "Zſ",
+                "raw": "\"Z\\u017f\""
               }
             ],
             "optional": false
@@ -229,7 +236,8 @@
             "type": "Literal",
             "start": 2905,
             "end": 2944,
-            "value": "\\B should match between Z and ſ"
+            "value": "\\B should match between Z and ſ",
+            "raw": "\"\\\\B should match between Z and \\u017f\""
           }
         ],
         "optional": false
@@ -278,7 +286,8 @@
                 "type": "Literal",
                 "start": 2963,
                 "end": 2972,
-                "value": "ZK"
+                "value": "ZK",
+                "raw": "\"Z\\u212a\""
               }
             ],
             "optional": false
@@ -287,7 +296,8 @@
             "type": "Literal",
             "start": 2975,
             "end": 3014,
-            "value": "\\B should match between Z and K"
+            "value": "\\B should match between Z and K",
+            "raw": "\"\\\\B should match between Z and \\u212a\""
           }
         ],
         "optional": false

@@ -73,7 +73,8 @@
           "type": "Literal",
           "start": 558,
           "end": 567,
-          "value": "test262"
+          "value": "test262",
+          "raw": "'test262'"
         }
       }
     },
@@ -168,7 +169,8 @@
             "type": "Literal",
             "start": 627,
             "end": 645,
-            "value": "[object test262]"
+            "value": "[object test262]",
+            "raw": "'[object test262]'"
           }
         ],
         "optional": false

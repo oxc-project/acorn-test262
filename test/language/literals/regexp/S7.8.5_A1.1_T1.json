@@ -20,6 +20,7 @@
             "start": 357,
             "end": 360,
             "value": {},
+            "raw": "/1/",
             "regex": {
               "pattern": "1",
               "flags": ""
@@ -39,7 +40,8 @@
           "type": "Literal",
           "start": 372,
           "end": 375,
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
       },
       "consequent": {
@@ -66,7 +68,8 @@
                   "type": "Literal",
                   "start": 404,
                   "end": 413,
-                  "value": "#1: /1/"
+                  "value": "#1: /1/",
+                  "raw": "'#1: /1/'"
                 }
               ]
             }
@@ -92,6 +95,7 @@
             "start": 433,
             "end": 436,
             "value": {},
+            "raw": "/a/",
             "regex": {
               "pattern": "a",
               "flags": ""
@@ -111,7 +115,8 @@
           "type": "Literal",
           "start": 448,
           "end": 451,
-          "value": "a"
+          "value": "a",
+          "raw": "\"a\""
         }
       },
       "consequent": {
@@ -138,7 +143,8 @@
                   "type": "Literal",
                   "start": 480,
                   "end": 489,
-                  "value": "#2: /a/"
+                  "value": "#2: /a/",
+                  "raw": "'#2: /a/'"
                 }
               ]
             }
@@ -164,6 +170,7 @@
             "start": 509,
             "end": 512,
             "value": {},
+            "raw": "/;/",
             "regex": {
               "pattern": ";",
               "flags": ""
@@ -183,7 +190,8 @@
           "type": "Literal",
           "start": 524,
           "end": 527,
-          "value": ";"
+          "value": ";",
+          "raw": "\";\""
         }
       },
       "consequent": {
@@ -210,7 +218,8 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 565,
-                  "value": "#3: /;/"
+                  "value": "#3: /;/",
+                  "raw": "'#3: /;/'"
                 }
               ]
             }
@@ -236,6 +245,7 @@
             "start": 585,
             "end": 588,
             "value": {},
+            "raw": "/ /",
             "regex": {
               "pattern": " ",
               "flags": ""
@@ -255,7 +265,8 @@
           "type": "Literal",
           "start": 600,
           "end": 603,
-          "value": " "
+          "value": " ",
+          "raw": "\" \""
         }
       },
       "consequent": {
@@ -282,7 +293,8 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 641,
-                  "value": "#4: / /"
+                  "value": "#4: / /",
+                  "raw": "'#4: / /'"
                 }
               ]
             }
@@ -308,6 +320,7 @@
             "start": 661,
             "end": 669,
             "value": {},
+            "raw": "/\\u0041/",
             "regex": {
               "pattern": "\\u0041",
               "flags": ""
@@ -327,7 +340,8 @@
           "type": "Literal",
           "start": 681,
           "end": 690,
-          "value": "\\u0041"
+          "value": "\\u0041",
+          "raw": "\"\\\\u0041\""
         }
       },
       "consequent": {
@@ -354,7 +368,8 @@
                   "type": "Literal",
                   "start": 719,
                   "end": 734,
-                  "value": "#5: /\\u0041/"
+                  "value": "#5: /\\u0041/",
+                  "raw": "'#5: /\\\\u0041/'"
                 }
               ]
             }

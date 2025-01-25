@@ -77,7 +77,8 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 484,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -105,7 +106,8 @@
           "type": "Literal",
           "start": 503,
           "end": 504,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -136,7 +138,8 @@
                     "type": "Literal",
                     "start": 533,
                     "end": 584,
-                    "value": "#1: x = new Array(); x.unshift(1) === 1. Actual: "
+                    "value": "#1: x = new Array(); x.unshift(1) === 1. Actual: ",
+                    "raw": "'#1: x = new Array(); x.unshift(1) === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -180,7 +183,8 @@
             "type": "Literal",
             "start": 608,
             "end": 609,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -190,7 +194,8 @@
           "type": "Literal",
           "start": 615,
           "end": 616,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -221,7 +226,8 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 702,
-                    "value": "#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: "
+                    "value": "#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: ",
+                    "raw": "'#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -242,7 +248,8 @@
                         "type": "Literal",
                         "start": 708,
                         "end": 709,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -320,7 +327,8 @@
           "type": "Literal",
           "start": 760,
           "end": 761,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -351,7 +359,8 @@
                     "type": "Literal",
                     "start": 790,
                     "end": 854,
-                    "value": "#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: "
+                    "value": "#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: ",
+                    "raw": "'#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -395,7 +404,8 @@
             "type": "Literal",
             "start": 878,
             "end": 879,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -436,7 +446,8 @@
                     "type": "Literal",
                     "start": 923,
                     "end": 1001,
-                    "value": "#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: "
+                    "value": "#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: ",
+                    "raw": "'#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -457,7 +468,8 @@
                         "type": "Literal",
                         "start": 1007,
                         "end": 1008,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -520,7 +532,8 @@
                   "type": "Literal",
                   "start": 1041,
                   "end": 1042,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -549,7 +562,8 @@
           "type": "Literal",
           "start": 1061,
           "end": 1062,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -580,7 +594,8 @@
                     "type": "Literal",
                     "start": 1091,
                     "end": 1170,
-                    "value": "#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: "
+                    "value": "#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: ",
+                    "raw": "'#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -624,7 +639,8 @@
             "type": "Literal",
             "start": 1194,
             "end": 1195,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -640,7 +656,8 @@
             "type": "Literal",
             "start": 1202,
             "end": 1203,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -672,7 +689,8 @@
                     "type": "Literal",
                     "start": 1232,
                     "end": 1305,
-                    "value": "#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: "
+                    "value": "#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: ",
+                    "raw": "'#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -693,7 +711,8 @@
                         "type": "Literal",
                         "start": 1311,
                         "end": 1312,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -729,7 +748,8 @@
             "type": "Literal",
             "start": 1326,
             "end": 1327,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -739,7 +759,8 @@
           "type": "Literal",
           "start": 1333,
           "end": 1334,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -770,7 +791,8 @@
                     "type": "Literal",
                     "start": 1363,
                     "end": 1435,
-                    "value": "#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: "
+                    "value": "#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: ",
+                    "raw": "'#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -791,7 +813,8 @@
                         "type": "Literal",
                         "start": 1441,
                         "end": 1442,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -837,7 +860,8 @@
           "type": "Literal",
           "start": 1467,
           "end": 1468,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -868,7 +892,8 @@
                     "type": "Literal",
                     "start": 1497,
                     "end": 1586,
-                    "value": "#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: "
+                    "value": "#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: ",
+                    "raw": "'#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -120,7 +120,8 @@
             "type": "Literal",
             "start": 514,
             "end": 539,
-            "value": "[object Intl.Segmenter]"
+            "value": "[object Intl.Segmenter]",
+            "raw": "\"[object Intl.Segmenter]\""
           }
         ],
         "optional": false
@@ -236,7 +237,8 @@
             "type": "Literal",
             "start": 613,
             "end": 638,
-            "value": "[object Intl.Segmenter]"
+            "value": "[object Intl.Segmenter]",
+            "raw": "\"[object Intl.Segmenter]\""
           }
         ],
         "optional": false

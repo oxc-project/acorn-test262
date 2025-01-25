@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 635,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 642,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 650,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               },
               {
                 "type": "Literal",
                 "start": 654,
                 "end": 665,
-                "value": "abcdefghi"
+                "value": "abcdefghi",
+                "raw": "\"abcdefghi\""
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 684,
-                "value": "abc-abcdefghi"
+                "value": "abc-abcdefghi",
+                "raw": "\"abc-abcdefghi\""
               }
             ]
           }
@@ -175,7 +180,8 @@
                               "type": "Literal",
                               "start": 814,
                               "end": 818,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

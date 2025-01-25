@@ -107,7 +107,8 @@
                               "type": "Literal",
                               "start": 822,
                               "end": 832,
-                              "value": "toString"
+                              "value": "toString",
+                              "raw": "'toString'"
                             }
                           ],
                           "optional": false
@@ -188,7 +189,8 @@
                               "type": "Literal",
                               "start": 892,
                               "end": 901,
-                              "value": "valueOf"
+                              "value": "valueOf",
+                              "raw": "'valueOf'"
                             }
                           ],
                           "optional": false
@@ -246,7 +248,8 @@
                 "type": "Literal",
                 "start": 951,
                 "end": 952,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -398,7 +401,8 @@
             "type": "Literal",
             "start": 1054,
             "end": 1055,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -446,7 +450,8 @@
               "type": "Literal",
               "start": 1079,
               "end": 1080,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -455,7 +460,8 @@
             "type": "Literal",
             "start": 1083,
             "end": 1092,
-            "value": "valueOf"
+            "value": "valueOf",
+            "raw": "'valueOf'"
           }
         ],
         "optional": false
@@ -503,7 +509,8 @@
               "type": "Literal",
               "start": 1116,
               "end": 1117,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -512,7 +519,8 @@
             "type": "Literal",
             "start": 1120,
             "end": 1130,
-            "value": "toString"
+            "value": "toString",
+            "raw": "'toString'"
           }
         ],
         "optional": false

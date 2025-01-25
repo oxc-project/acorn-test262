@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 623,
         "end": 673,
-        "value": "Test262: This statement should not be evaluated."
+        "value": "Test262: This statement should not be evaluated.",
+        "raw": "\"Test262: This statement should not be evaluated.\""
       }
     },
     {
@@ -23,7 +24,8 @@
         "type": "Literal",
         "start": 683,
         "end": 729,
-        "value": "../resources/ensure-linking-error_FIXTURE.js"
+        "value": "../resources/ensure-linking-error_FIXTURE.js",
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -48,7 +50,8 @@
         "type": "Literal",
         "start": 751,
         "end": 784,
-        "value": "./import-attribute-1_FIXTURE.js"
+        "value": "./import-attribute-1_FIXTURE.js",
+        "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": []
     }

@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 797,
             "end": 801,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 852,
-            "value": "isConstructor(SuppressedError) must return true"
+            "value": "isConstructor(SuppressedError) must return true",
+            "raw": "'isConstructor(SuppressedError) must return true'"
           }
         ],
         "optional": false

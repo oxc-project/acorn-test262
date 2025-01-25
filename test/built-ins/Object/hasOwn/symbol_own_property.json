@@ -131,13 +131,15 @@
             "type": "Literal",
             "start": 478,
             "end": 483,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 535,
-            "value": "Returns false if symbol own property not found"
+            "value": "Returns false if symbol own property not found",
+            "raw": "\"Returns false if symbol own property not found\""
           }
         ],
         "optional": false
@@ -175,7 +177,8 @@
           "type": "Literal",
           "start": 551,
           "end": 552,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -250,13 +253,15 @@
             "type": "Literal",
             "start": 602,
             "end": 606,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 653,
-            "value": "Returns true if symbol own property found"
+            "value": "Returns true if symbol own property found",
+            "raw": "\"Returns true if symbol own property found\""
           }
         ],
         "optional": false

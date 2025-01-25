@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 314,
             "end": 323,
-            "value": "WeakMap"
+            "value": "WeakMap",
+            "raw": "'WeakMap'"
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 339,
                   "end": 343,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 364,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 386,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -44,7 +44,8 @@
                     "type": "Literal",
                     "start": 972,
                     "end": 974,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   },
                   "kind": "init"
                 }
@@ -97,7 +98,8 @@
               "type": "Literal",
               "start": 1001,
               "end": 1006,
-              "value": "let"
+              "value": "let",
+              "raw": "'let'"
             },
             "computed": true,
             "optional": false
@@ -106,13 +108,15 @@
             "type": "Literal",
             "start": 1009,
             "end": 1011,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1030,
-            "value": "property exists"
+            "value": "property exists",
+            "raw": "'property exists'"
           }
         ],
         "optional": false

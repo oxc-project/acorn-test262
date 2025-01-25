@@ -59,13 +59,15 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ],
             "optional": false
@@ -74,7 +76,8 @@
             "type": "Literal",
             "start": 365,
             "end": 367,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 403,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "UnaryExpression",
@@ -148,7 +152,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 408,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               }
             ],
@@ -158,7 +163,8 @@
             "type": "Literal",
             "start": 411,
             "end": 413,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           }
         ],
         "optional": false
@@ -220,13 +226,15 @@
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 456,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -235,13 +243,15 @@
             "type": "Literal",
             "start": 459,
             "end": 461,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 486,
-            "value": "ToBigInt: false => 0n"
+            "value": "ToBigInt: false => 0n",
+            "raw": "\"ToBigInt: false => 0n\""
           }
         ],
         "optional": false
@@ -303,13 +313,15 @@
                 "type": "Literal",
                 "start": 521,
                 "end": 522,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 524,
                 "end": 528,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -318,13 +330,15 @@
             "type": "Literal",
             "start": 531,
             "end": 533,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 535,
             "end": 557,
-            "value": "ToBigInt: true => 1n"
+            "value": "ToBigInt: true => 1n",
+            "raw": "\"ToBigInt: true => 1n\""
           }
         ],
         "optional": false
@@ -386,13 +400,15 @@
                 "type": "Literal",
                 "start": 592,
                 "end": 593,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 595,
                 "end": 598,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -401,13 +417,15 @@
             "type": "Literal",
             "start": 601,
             "end": 603,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 629,
-            "value": "ToBigInt: parse BigInt"
+            "value": "ToBigInt: parse BigInt",
+            "raw": "\"ToBigInt: parse BigInt\""
           }
         ],
         "optional": false
@@ -469,13 +487,15 @@
                 "type": "Literal",
                 "start": 664,
                 "end": 665,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 667,
                 "end": 671,
-                "value": "-0"
+                "value": "-0",
+                "raw": "\"-0\""
               }
             ],
             "optional": false
@@ -484,13 +504,15 @@
             "type": "Literal",
             "start": 674,
             "end": 676,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 702,
-            "value": "ToBigInt: parse BigInt"
+            "value": "ToBigInt: parse BigInt",
+            "raw": "\"ToBigInt: parse BigInt\""
           }
         ],
         "optional": false
@@ -552,13 +574,15 @@
                 "type": "Literal",
                 "start": 737,
                 "end": 738,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 740,
                 "end": 742,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -567,13 +591,15 @@
             "type": "Literal",
             "start": 745,
             "end": 747,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 779,
-            "value": "ToBigInt: empty String => 0n"
+            "value": "ToBigInt: empty String => 0n",
+            "raw": "\"ToBigInt: empty String => 0n\""
           }
         ],
         "optional": false
@@ -635,13 +661,15 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 815,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 817,
                 "end": 824,
-                "value": "     "
+                "value": "     ",
+                "raw": "\"     \""
               }
             ],
             "optional": false
@@ -650,13 +678,15 @@
             "type": "Literal",
             "start": 827,
             "end": 829,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 831,
             "end": 876,
-            "value": "ToBigInt: String with only whitespace => 0n"
+            "value": "ToBigInt: String with only whitespace => 0n",
+            "raw": "\"ToBigInt: String with only whitespace => 0n\""
           }
         ],
         "optional": false
@@ -718,7 +748,8 @@
                 "type": "Literal",
                 "start": 911,
                 "end": 912,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ArrayExpression",
@@ -733,13 +764,15 @@
             "type": "Literal",
             "start": 919,
             "end": 921,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 923,
             "end": 968,
-            "value": "ToBigInt: .toString() => empty String => 0n"
+            "value": "ToBigInt: .toString() => empty String => 0n",
+            "raw": "\"ToBigInt: .toString() => empty String => 0n\""
           }
         ],
         "optional": false
@@ -801,7 +834,8 @@
                 "type": "Literal",
                 "start": 1003,
                 "end": 1004,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ArrayExpression",
@@ -812,7 +846,8 @@
                     "type": "Literal",
                     "start": 1007,
                     "end": 1008,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               }
@@ -823,13 +858,15 @@
             "type": "Literal",
             "start": 1012,
             "end": 1014,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1016,
             "end": 1055,
-            "value": "ToBigInt: .toString() => parse BigInt"
+            "value": "ToBigInt: .toString() => parse BigInt",
+            "raw": "\"ToBigInt: .toString() => parse BigInt\""
           }
         ],
         "optional": false
@@ -891,13 +928,15 @@
                 "type": "Literal",
                 "start": 1090,
                 "end": 1091,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1093,
                 "end": 1096,
-                "value": "10n"
+                "value": "10n",
+                "raw": "10n"
               }
             ],
             "optional": false
@@ -906,7 +945,8 @@
             "type": "Literal",
             "start": 1099,
             "end": 1101,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           }
         ],
         "optional": false
@@ -968,13 +1008,15 @@
                 "type": "Literal",
                 "start": 1136,
                 "end": 1137,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1139,
                 "end": 1143,
-                "value": "10"
+                "value": "10",
+                "raw": "\"10\""
               }
             ],
             "optional": false
@@ -983,13 +1025,15 @@
             "type": "Literal",
             "start": 1146,
             "end": 1148,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1150,
             "end": 1174,
-            "value": "ToBigInt: parse BigInt"
+            "value": "ToBigInt: parse BigInt",
+            "raw": "\"ToBigInt: parse BigInt\""
           }
         ],
         "optional": false
@@ -1051,13 +1095,15 @@
                 "type": "Literal",
                 "start": 1209,
                 "end": 1210,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1212,
                 "end": 1220,
-                "value": "0b1010"
+                "value": "0b1010",
+                "raw": "\"0b1010\""
               }
             ],
             "optional": false
@@ -1066,13 +1112,15 @@
             "type": "Literal",
             "start": 1223,
             "end": 1225,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1227,
             "end": 1258,
-            "value": "ToBigInt: parse BigInt binary"
+            "value": "ToBigInt: parse BigInt binary",
+            "raw": "\"ToBigInt: parse BigInt binary\""
           }
         ],
         "optional": false
@@ -1134,13 +1182,15 @@
                 "type": "Literal",
                 "start": 1293,
                 "end": 1294,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1296,
                 "end": 1302,
-                "value": "0o12"
+                "value": "0o12",
+                "raw": "\"0o12\""
               }
             ],
             "optional": false
@@ -1149,13 +1199,15 @@
             "type": "Literal",
             "start": 1305,
             "end": 1307,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1309,
             "end": 1339,
-            "value": "ToBigInt: parse BigInt octal"
+            "value": "ToBigInt: parse BigInt octal",
+            "raw": "\"ToBigInt: parse BigInt octal\""
           }
         ],
         "optional": false
@@ -1217,13 +1269,15 @@
                 "type": "Literal",
                 "start": 1374,
                 "end": 1375,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1377,
                 "end": 1382,
-                "value": "0xa"
+                "value": "0xa",
+                "raw": "\"0xa\""
               }
             ],
             "optional": false
@@ -1232,13 +1286,15 @@
             "type": "Literal",
             "start": 1385,
             "end": 1387,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1389,
             "end": 1417,
-            "value": "ToBigInt: parse BigInt hex"
+            "value": "ToBigInt: parse BigInt hex",
+            "raw": "\"ToBigInt: parse BigInt hex\""
           }
         ],
         "optional": false
@@ -1300,13 +1356,15 @@
                 "type": "Literal",
                 "start": 1452,
                 "end": 1453,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1455,
                 "end": 1468,
-                "value": "    0xa    "
+                "value": "    0xa    ",
+                "raw": "\"    0xa    \""
               }
             ],
             "optional": false
@@ -1315,13 +1373,15 @@
             "type": "Literal",
             "start": 1471,
             "end": 1473,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1477,
             "end": 1536,
-            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace"
+            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace",
+            "raw": "\"ToBigInt: parse BigInt ignore leading/trailing whitespace\""
           }
         ],
         "optional": false
@@ -1383,13 +1443,15 @@
                 "type": "Literal",
                 "start": 1571,
                 "end": 1572,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 1574,
                 "end": 1588,
-                "value": "     10     "
+                "value": "     10     ",
+                "raw": "\"     10     \""
               }
             ],
             "optional": false
@@ -1398,13 +1460,15 @@
             "type": "Literal",
             "start": 1591,
             "end": 1593,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1597,
             "end": 1656,
-            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace"
+            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace",
+            "raw": "\"ToBigInt: parse BigInt ignore leading/trailing whitespace\""
           }
         ],
         "optional": false
@@ -1466,7 +1530,8 @@
                 "type": "Literal",
                 "start": 1691,
                 "end": 1692,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "ArrayExpression",
@@ -1477,7 +1542,8 @@
                     "type": "Literal",
                     "start": 1695,
                     "end": 1698,
-                    "value": "10n"
+                    "value": "10n",
+                    "raw": "10n"
                   }
                 ]
               }
@@ -1488,13 +1554,15 @@
             "type": "Literal",
             "start": 1702,
             "end": 1704,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1706,
             "end": 1745,
-            "value": "ToBigInt: .toString() => parse BigInt"
+            "value": "ToBigInt: .toString() => parse BigInt",
+            "raw": "\"ToBigInt: .toString() => parse BigInt\""
           }
         ],
         "optional": false
@@ -1556,7 +1624,8 @@
                 "type": "Literal",
                 "start": 1780,
                 "end": 1781,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "ArrayExpression",
@@ -1567,7 +1636,8 @@
                     "type": "Literal",
                     "start": 1784,
                     "end": 1788,
-                    "value": "10"
+                    "value": "10",
+                    "raw": "\"10\""
                   }
                 ]
               }
@@ -1578,13 +1648,15 @@
             "type": "Literal",
             "start": 1792,
             "end": 1794,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1796,
             "end": 1835,
-            "value": "ToBigInt: .toString() => parse BigInt"
+            "value": "ToBigInt: .toString() => parse BigInt",
+            "raw": "\"ToBigInt: .toString() => parse BigInt\""
           }
         ],
         "optional": false
@@ -1646,13 +1718,15 @@
                 "type": "Literal",
                 "start": 1870,
                 "end": 1871,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 1873,
                 "end": 1897,
-                "value": "12345678901234567890003n"
+                "value": "12345678901234567890003n",
+                "raw": "12345678901234567890003n"
               }
             ],
             "optional": false
@@ -1661,7 +1735,8 @@
             "type": "Literal",
             "start": 1900,
             "end": 1902,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           }
         ],
         "optional": false
@@ -1723,13 +1798,15 @@
                 "type": "Literal",
                 "start": 1937,
                 "end": 1938,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 1940,
                 "end": 1965,
-                "value": "12345678901234567890003"
+                "value": "12345678901234567890003",
+                "raw": "\"12345678901234567890003\""
               }
             ],
             "optional": false
@@ -1738,13 +1815,15 @@
             "type": "Literal",
             "start": 1968,
             "end": 1970,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 1972,
             "end": 1996,
-            "value": "ToBigInt: parse BigInt"
+            "value": "ToBigInt: parse BigInt",
+            "raw": "\"ToBigInt: parse BigInt\""
           }
         ],
         "optional": false
@@ -1806,13 +1885,15 @@
                 "type": "Literal",
                 "start": 2031,
                 "end": 2032,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 2038,
                 "end": 2116,
-                "value": "0b10100111010100001010110110010011100111011001110001010000100100010001010011"
+                "value": "0b10100111010100001010110110010011100111011001110001010000100100010001010011",
+                "raw": "\"0b10100111010100001010110110010011100111011001110001010000100100010001010011\""
               }
             ],
             "optional": false
@@ -1821,13 +1902,15 @@
             "type": "Literal",
             "start": 2119,
             "end": 2121,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2125,
             "end": 2156,
-            "value": "ToBigInt: parse BigInt binary"
+            "value": "ToBigInt: parse BigInt binary",
+            "raw": "\"ToBigInt: parse BigInt binary\""
           }
         ],
         "optional": false
@@ -1889,13 +1972,15 @@
                 "type": "Literal",
                 "start": 2191,
                 "end": 2192,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 2194,
                 "end": 2223,
-                "value": "0o2472412662347316120442123"
+                "value": "0o2472412662347316120442123",
+                "raw": "\"0o2472412662347316120442123\""
               }
             ],
             "optional": false
@@ -1904,13 +1989,15 @@
             "type": "Literal",
             "start": 2226,
             "end": 2228,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2232,
             "end": 2262,
-            "value": "ToBigInt: parse BigInt octal"
+            "value": "ToBigInt: parse BigInt octal",
+            "raw": "\"ToBigInt: parse BigInt octal\""
           }
         ],
         "optional": false
@@ -1972,13 +2059,15 @@
                 "type": "Literal",
                 "start": 2297,
                 "end": 2298,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 2300,
                 "end": 2323,
-                "value": "0x29d42b64e7671424453"
+                "value": "0x29d42b64e7671424453",
+                "raw": "\"0x29d42b64e7671424453\""
               }
             ],
             "optional": false
@@ -1987,13 +2076,15 @@
             "type": "Literal",
             "start": 2326,
             "end": 2328,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2330,
             "end": 2358,
-            "value": "ToBigInt: parse BigInt hex"
+            "value": "ToBigInt: parse BigInt hex",
+            "raw": "\"ToBigInt: parse BigInt hex\""
           }
         ],
         "optional": false
@@ -2055,13 +2146,15 @@
                 "type": "Literal",
                 "start": 2393,
                 "end": 2394,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 2396,
                 "end": 2427,
-                "value": "    0x29d42b64e7671424453    "
+                "value": "    0x29d42b64e7671424453    ",
+                "raw": "\"    0x29d42b64e7671424453    \""
               }
             ],
             "optional": false
@@ -2070,13 +2163,15 @@
             "type": "Literal",
             "start": 2430,
             "end": 2432,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2436,
             "end": 2495,
-            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace"
+            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace",
+            "raw": "\"ToBigInt: parse BigInt ignore leading/trailing whitespace\""
           }
         ],
         "optional": false
@@ -2138,13 +2233,15 @@
                 "type": "Literal",
                 "start": 2530,
                 "end": 2531,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 2533,
                 "end": 2568,
-                "value": "     12345678901234567890003     "
+                "value": "     12345678901234567890003     ",
+                "raw": "\"     12345678901234567890003     \""
               }
             ],
             "optional": false
@@ -2153,13 +2250,15 @@
             "type": "Literal",
             "start": 2571,
             "end": 2573,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2577,
             "end": 2636,
-            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace"
+            "value": "ToBigInt: parse BigInt ignore leading/trailing whitespace",
+            "raw": "\"ToBigInt: parse BigInt ignore leading/trailing whitespace\""
           }
         ],
         "optional": false
@@ -2221,7 +2320,8 @@
                 "type": "Literal",
                 "start": 2671,
                 "end": 2672,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "ArrayExpression",
@@ -2232,7 +2332,8 @@
                     "type": "Literal",
                     "start": 2675,
                     "end": 2699,
-                    "value": "12345678901234567890003n"
+                    "value": "12345678901234567890003n",
+                    "raw": "12345678901234567890003n"
                   }
                 ]
               }
@@ -2243,13 +2344,15 @@
             "type": "Literal",
             "start": 2703,
             "end": 2705,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2709,
             "end": 2748,
-            "value": "ToBigInt: .toString() => parse BigInt"
+            "value": "ToBigInt: .toString() => parse BigInt",
+            "raw": "\"ToBigInt: .toString() => parse BigInt\""
           }
         ],
         "optional": false
@@ -2311,7 +2414,8 @@
                 "type": "Literal",
                 "start": 2783,
                 "end": 2784,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "ArrayExpression",
@@ -2322,7 +2426,8 @@
                     "type": "Literal",
                     "start": 2787,
                     "end": 2812,
-                    "value": "12345678901234567890003"
+                    "value": "12345678901234567890003",
+                    "raw": "\"12345678901234567890003\""
                   }
                 ]
               }
@@ -2333,13 +2438,15 @@
             "type": "Literal",
             "start": 2816,
             "end": 2818,
-            "value": "3n"
+            "value": "3n",
+            "raw": "3n"
           },
           {
             "type": "Literal",
             "start": 2822,
             "end": 2861,
-            "value": "ToBigInt: .toString() => parse BigInt"
+            "value": "ToBigInt: .toString() => parse BigInt",
+            "raw": "\"ToBigInt: .toString() => parse BigInt\""
           }
         ],
         "optional": false

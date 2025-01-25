@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 648,
             "end": 658,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 660,
             "end": 715,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -92,7 +94,8 @@
             "type": "Literal",
             "start": 735,
             "end": 736,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -243,7 +246,8 @@
                       "type": "Literal",
                       "start": 1095,
                       "end": 1096,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -327,7 +331,8 @@
                     "type": "Literal",
                     "start": 1147,
                     "end": 1148,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -401,13 +406,15 @@
                             "type": "Literal",
                             "start": 1211,
                             "end": 1212,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1214,
                             "end": 1246,
-                            "value": "The value of `agentCount` is 1"
+                            "value": "The value of `agentCount` is 1",
+                            "raw": "'The value of `agentCount` is 1'"
                           }
                         ],
                         "optional": false
@@ -475,7 +482,8 @@
                                 "type": "Literal",
                                 "start": 1290,
                                 "end": 1291,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             ],
                             "optional": false
@@ -484,13 +492,15 @@
                             "type": "Literal",
                             "start": 1294,
                             "end": 1295,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1297,
                             "end": 1403,
-                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 1"
+                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 1",
+                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 1'"
                           }
                         ],
                         "optional": false
@@ -572,13 +582,15 @@
                             "type": "Literal",
                             "start": 1470,
                             "end": 1474,
-                            "value": "ok"
+                            "value": "ok",
+                            "raw": "'ok'"
                           },
                           {
                             "type": "Literal",
                             "start": 1480,
                             "end": 1544,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\""
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\"",
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"ok\"'"
                           }
                         ],
                         "optional": false

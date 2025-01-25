@@ -94,7 +94,8 @@
           "type": "Literal",
           "start": 424,
           "end": 434,
-          "value": "ArgValue"
+          "value": "ArgValue",
+          "raw": "\"ArgValue\""
         }
       }
     },
@@ -229,13 +230,15 @@
             "type": "Literal",
             "start": 520,
             "end": 530,
-            "value": "ArgValue"
+            "value": "ArgValue",
+            "raw": "\"ArgValue\""
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 545,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

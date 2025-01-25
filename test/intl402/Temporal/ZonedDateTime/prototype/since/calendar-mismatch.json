@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 347,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 354,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 365,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -109,19 +112,22 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 415,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 422,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 434,
-                "value": "japanese"
+                "value": "japanese",
+                "raw": "\"japanese\""
               }
             ]
           }

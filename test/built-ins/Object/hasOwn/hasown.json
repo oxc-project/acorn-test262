@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 488,
             "end": 498,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -116,7 +117,8 @@
                 "type": "Literal",
                 "start": 530,
                 "end": 538,
-                "value": "hasOwn"
+                "value": "hasOwn",
+                "raw": "'hasOwn'"
               }
             ],
             "optional": false

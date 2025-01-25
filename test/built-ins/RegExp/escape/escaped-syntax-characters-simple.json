@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 448,
-                "value": "."
+                "value": ".",
+                "raw": "'.'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 451,
             "end": 456,
-            "value": "\\."
+            "value": "\\.",
+            "raw": "'\\\\.'"
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 494,
-            "value": "dot character is escaped correctly"
+            "value": "dot character is escaped correctly",
+            "raw": "'dot character is escaped correctly'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 528,
                 "end": 531,
-                "value": "*"
+                "value": "*",
+                "raw": "'*'"
               }
             ],
             "optional": false
@@ -145,13 +149,15 @@
             "type": "Literal",
             "start": 534,
             "end": 539,
-            "value": "\\*"
+            "value": "\\*",
+            "raw": "'\\\\*'"
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 582,
-            "value": "asterisk character is escaped correctly"
+            "value": "asterisk character is escaped correctly",
+            "raw": "'asterisk character is escaped correctly'"
           }
         ],
         "optional": false
@@ -213,7 +219,8 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 619,
-                "value": "+"
+                "value": "+",
+                "raw": "'+'"
               }
             ],
             "optional": false
@@ -222,13 +229,15 @@
             "type": "Literal",
             "start": 622,
             "end": 627,
-            "value": "\\+"
+            "value": "\\+",
+            "raw": "'\\\\+'"
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 666,
-            "value": "plus character is escaped correctly"
+            "value": "plus character is escaped correctly",
+            "raw": "'plus character is escaped correctly'"
           }
         ],
         "optional": false
@@ -290,7 +299,8 @@
                 "type": "Literal",
                 "start": 700,
                 "end": 703,
-                "value": "?"
+                "value": "?",
+                "raw": "'?'"
               }
             ],
             "optional": false
@@ -299,13 +309,15 @@
             "type": "Literal",
             "start": 706,
             "end": 711,
-            "value": "\\?"
+            "value": "\\?",
+            "raw": "'\\\\?'"
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 759,
-            "value": "question mark character is escaped correctly"
+            "value": "question mark character is escaped correctly",
+            "raw": "'question mark character is escaped correctly'"
           }
         ],
         "optional": false
@@ -367,7 +379,8 @@
                 "type": "Literal",
                 "start": 793,
                 "end": 796,
-                "value": "^"
+                "value": "^",
+                "raw": "'^'"
               }
             ],
             "optional": false
@@ -376,13 +389,15 @@
             "type": "Literal",
             "start": 799,
             "end": 804,
-            "value": "\\^"
+            "value": "\\^",
+            "raw": "'\\\\^'"
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 844,
-            "value": "caret character is escaped correctly"
+            "value": "caret character is escaped correctly",
+            "raw": "'caret character is escaped correctly'"
           }
         ],
         "optional": false
@@ -444,7 +459,8 @@
                 "type": "Literal",
                 "start": 878,
                 "end": 881,
-                "value": "$"
+                "value": "$",
+                "raw": "'$'"
               }
             ],
             "optional": false
@@ -453,13 +469,15 @@
             "type": "Literal",
             "start": 884,
             "end": 889,
-            "value": "\\$"
+            "value": "\\$",
+            "raw": "'\\\\$'"
           },
           {
             "type": "Literal",
             "start": 891,
             "end": 930,
-            "value": "dollar character is escaped correctly"
+            "value": "dollar character is escaped correctly",
+            "raw": "'dollar character is escaped correctly'"
           }
         ],
         "optional": false
@@ -521,7 +539,8 @@
                 "type": "Literal",
                 "start": 964,
                 "end": 967,
-                "value": "|"
+                "value": "|",
+                "raw": "'|'"
               }
             ],
             "optional": false
@@ -530,13 +549,15 @@
             "type": "Literal",
             "start": 970,
             "end": 975,
-            "value": "\\|"
+            "value": "\\|",
+            "raw": "'\\\\|'"
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 1014,
-            "value": "pipe character is escaped correctly"
+            "value": "pipe character is escaped correctly",
+            "raw": "'pipe character is escaped correctly'"
           }
         ],
         "optional": false
@@ -598,7 +619,8 @@
                 "type": "Literal",
                 "start": 1048,
                 "end": 1051,
-                "value": "("
+                "value": "(",
+                "raw": "'('"
               }
             ],
             "optional": false
@@ -607,13 +629,15 @@
             "type": "Literal",
             "start": 1054,
             "end": 1059,
-            "value": "\\("
+            "value": "\\(",
+            "raw": "'\\\\('"
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1110,
-            "value": "open parenthesis character is escaped correctly"
+            "value": "open parenthesis character is escaped correctly",
+            "raw": "'open parenthesis character is escaped correctly'"
           }
         ],
         "optional": false
@@ -675,7 +699,8 @@
                 "type": "Literal",
                 "start": 1144,
                 "end": 1147,
-                "value": ")"
+                "value": ")",
+                "raw": "')'"
               }
             ],
             "optional": false
@@ -684,13 +709,15 @@
             "type": "Literal",
             "start": 1150,
             "end": 1155,
-            "value": "\\)"
+            "value": "\\)",
+            "raw": "'\\\\)'"
           },
           {
             "type": "Literal",
             "start": 1157,
             "end": 1207,
-            "value": "close parenthesis character is escaped correctly"
+            "value": "close parenthesis character is escaped correctly",
+            "raw": "'close parenthesis character is escaped correctly'"
           }
         ],
         "optional": false
@@ -752,7 +779,8 @@
                 "type": "Literal",
                 "start": 1241,
                 "end": 1244,
-                "value": "["
+                "value": "[",
+                "raw": "'['"
               }
             ],
             "optional": false
@@ -761,13 +789,15 @@
             "type": "Literal",
             "start": 1247,
             "end": 1252,
-            "value": "\\["
+            "value": "\\[",
+            "raw": "'\\\\['"
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1299,
-            "value": "open bracket character is escaped correctly"
+            "value": "open bracket character is escaped correctly",
+            "raw": "'open bracket character is escaped correctly'"
           }
         ],
         "optional": false
@@ -829,7 +859,8 @@
                 "type": "Literal",
                 "start": 1333,
                 "end": 1336,
-                "value": "]"
+                "value": "]",
+                "raw": "']'"
               }
             ],
             "optional": false
@@ -838,13 +869,15 @@
             "type": "Literal",
             "start": 1339,
             "end": 1344,
-            "value": "\\]"
+            "value": "\\]",
+            "raw": "'\\\\]'"
           },
           {
             "type": "Literal",
             "start": 1346,
             "end": 1392,
-            "value": "close bracket character is escaped correctly"
+            "value": "close bracket character is escaped correctly",
+            "raw": "'close bracket character is escaped correctly'"
           }
         ],
         "optional": false
@@ -906,7 +939,8 @@
                 "type": "Literal",
                 "start": 1426,
                 "end": 1429,
-                "value": "{"
+                "value": "{",
+                "raw": "'{'"
               }
             ],
             "optional": false
@@ -915,13 +949,15 @@
             "type": "Literal",
             "start": 1432,
             "end": 1437,
-            "value": "\\{"
+            "value": "\\{",
+            "raw": "'\\\\{'"
           },
           {
             "type": "Literal",
             "start": 1439,
             "end": 1482,
-            "value": "open brace character is escaped correctly"
+            "value": "open brace character is escaped correctly",
+            "raw": "'open brace character is escaped correctly'"
           }
         ],
         "optional": false
@@ -983,7 +1019,8 @@
                 "type": "Literal",
                 "start": 1516,
                 "end": 1519,
-                "value": "}"
+                "value": "}",
+                "raw": "'}'"
               }
             ],
             "optional": false
@@ -992,13 +1029,15 @@
             "type": "Literal",
             "start": 1522,
             "end": 1527,
-            "value": "\\}"
+            "value": "\\}",
+            "raw": "'\\\\}'"
           },
           {
             "type": "Literal",
             "start": 1529,
             "end": 1573,
-            "value": "close brace character is escaped correctly"
+            "value": "close brace character is escaped correctly",
+            "raw": "'close brace character is escaped correctly'"
           }
         ],
         "optional": false
@@ -1060,7 +1099,8 @@
                 "type": "Literal",
                 "start": 1607,
                 "end": 1611,
-                "value": "\\"
+                "value": "\\",
+                "raw": "'\\\\'"
               }
             ],
             "optional": false
@@ -1069,13 +1109,15 @@
             "type": "Literal",
             "start": 1614,
             "end": 1620,
-            "value": "\\\\"
+            "value": "\\\\",
+            "raw": "'\\\\\\\\'"
           },
           {
             "type": "Literal",
             "start": 1622,
             "end": 1664,
-            "value": "backslash character is escaped correctly"
+            "value": "backslash character is escaped correctly",
+            "raw": "'backslash character is escaped correctly'"
           }
         ],
         "optional": false

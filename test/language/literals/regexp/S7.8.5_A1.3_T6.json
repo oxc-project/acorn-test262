@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 672,
                     "end": 682,
-                    "value": "/ /"
+                    "value": "/ /",
+                    "raw": "\"/\\u2029/\""
                   }
                 ],
                 "optional": false
@@ -73,7 +74,8 @@
                     "type": "Literal",
                     "start": 718,
                     "end": 798,
-                    "value": "#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: "
+                    "value": "#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: ",
+                    "raw": "'#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -99,7 +101,8 @@
                             "type": "Literal",
                             "start": 807,
                             "end": 817,
-                            "value": "/ /"
+                            "value": "/ /",
+                            "raw": "\"/\\u2029/\""
                           }
                         ],
                         "optional": false
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 880,
                   "end": 884,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +206,8 @@
                             "type": "Literal",
                             "start": 916,
                             "end": 996,
-                            "value": "#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: "
+                            "value": "#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: ",
+                            "raw": "'#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 355,
             "end": 356,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -253,7 +254,8 @@
                       "type": "Literal",
                       "start": 755,
                       "end": 756,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -372,7 +374,8 @@
             "type": "Literal",
             "start": 830,
             "end": 831,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -484,7 +487,8 @@
                 "type": "Literal",
                 "start": 967,
                 "end": 968,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -499,13 +503,15 @@
             "type": "Literal",
             "start": 976,
             "end": 977,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 979,
             "end": 1019,
-            "value": "Atomics.notify(i32a, 0, NaN) returns 0"
+            "value": "Atomics.notify(i32a, 0, NaN) returns 0",
+            "raw": "'Atomics.notify(i32a, 0, NaN) returns 0'"
           }
         ],
         "optional": false
@@ -633,13 +639,15 @@
             "type": "Literal",
             "start": 1129,
             "end": 1140,
-            "value": "timed-out"
+            "value": "timed-out",
+            "raw": "'timed-out'"
           },
           {
             "type": "Literal",
             "start": 1142,
             "end": 1186,
-            "value": "$262.agent.getReport() returns \"timed-out\""
+            "value": "$262.agent.getReport() returns \"timed-out\"",
+            "raw": "'$262.agent.getReport() returns \"timed-out\"'"
           }
         ],
         "optional": false

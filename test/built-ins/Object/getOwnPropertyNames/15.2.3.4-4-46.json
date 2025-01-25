@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 321,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -98,7 +101,8 @@
             "type": "Literal",
             "start": 370,
             "end": 385,
-            "value": "protoProperty"
+            "value": "protoProperty",
+            "raw": "\"protoProperty\""
           },
           {
             "type": "ObjectExpression",
@@ -140,7 +144,8 @@
                           "type": "Literal",
                           "start": 420,
                           "end": 432,
-                          "value": "protoArray"
+                          "value": "protoArray",
+                          "raw": "\"protoArray\""
                         }
                       }
                     ]
@@ -165,7 +170,8 @@
                   "type": "Literal",
                   "start": 455,
                   "end": 459,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -313,13 +319,15 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 584,
-                  "value": "protoProperty"
+                  "value": "protoProperty",
+                  "raw": "\"protoProperty\""
                 },
                 {
                   "type": "Literal",
                   "start": 586,
                   "end": 597,
-                  "value": "result[p]"
+                  "value": "result[p]",
+                  "raw": "'result[p]'"
                 }
               ],
               "optional": false

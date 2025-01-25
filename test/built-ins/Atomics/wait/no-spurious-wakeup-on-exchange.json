@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -157,7 +158,8 @@
                       "type": "Literal",
                       "start": 491,
                       "end": 492,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -372,7 +374,8 @@
             "type": "Literal",
             "start": 970,
             "end": 971,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -460,13 +463,15 @@
             "type": "Literal",
             "start": 1092,
             "end": 1093,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1095,
             "end": 1096,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -567,7 +572,8 @@
             "type": "Literal",
             "start": 1168,
             "end": 1212,
-            "value": "The result of `(lapse >= TIMEOUT)` is true"
+            "value": "The result of `(lapse >= TIMEOUT)` is true",
+            "raw": "'The result of `(lapse >= TIMEOUT)` is true'"
           }
         ],
         "optional": false
@@ -644,13 +650,15 @@
             "type": "Literal",
             "start": 1262,
             "end": 1273,
-            "value": "timed-out"
+            "value": "timed-out",
+            "raw": "'timed-out'"
           },
           {
             "type": "Literal",
             "start": 1277,
             "end": 1321,
-            "value": "$262.agent.getReport() returns \"timed-out\""
+            "value": "$262.agent.getReport() returns \"timed-out\"",
+            "raw": "'$262.agent.getReport() returns \"timed-out\"'"
           }
         ],
         "optional": false
@@ -718,7 +726,8 @@
                 "type": "Literal",
                 "start": 1363,
                 "end": 1364,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -727,13 +736,15 @@
             "type": "Literal",
             "start": 1367,
             "end": 1368,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1370,
             "end": 1405,
-            "value": "Atomics.notify(i32a, 0) returns 0"
+            "value": "Atomics.notify(i32a, 0) returns 0",
+            "raw": "'Atomics.notify(i32a, 0) returns 0'"
           }
         ],
         "optional": false

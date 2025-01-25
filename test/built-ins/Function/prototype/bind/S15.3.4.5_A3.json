@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 213,
               "end": 219,
-              "value": "bind"
+              "value": "bind",
+              "raw": "'bind'"
             },
             "operator": "in",
             "right": {
@@ -53,7 +54,8 @@
             "type": "Literal",
             "start": 245,
             "end": 327,
-            "value": "The result of evaluating ('bind' in Function.prototype) is expected to be true"
+            "value": "The result of evaluating ('bind' in Function.prototype) is expected to be true",
+            "raw": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'"
           }
         ],
         "optional": false

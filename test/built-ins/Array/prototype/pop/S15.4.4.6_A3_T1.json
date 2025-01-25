@@ -113,7 +113,8 @@
             "type": "Literal",
             "start": 309,
             "end": 310,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -122,7 +123,8 @@
           "type": "Literal",
           "start": 314,
           "end": 317,
-          "value": "x"
+          "value": "x",
+          "raw": "\"x\""
         }
       }
     },
@@ -149,7 +151,8 @@
             "type": "Literal",
             "start": 323,
             "end": 333,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           "computed": true,
           "optional": false
@@ -158,7 +161,8 @@
           "type": "Literal",
           "start": 337,
           "end": 340,
-          "value": "y"
+          "value": "y",
+          "raw": "\"y\""
         }
       }
     },
@@ -194,7 +198,8 @@
           "type": "Literal",
           "start": 355,
           "end": 365,
-          "value": 4294967296
+          "value": 4294967296,
+          "raw": "4294967296"
         }
       }
     },
@@ -262,7 +267,8 @@
           "type": "Literal",
           "start": 401,
           "end": 404,
-          "value": "y"
+          "value": "y",
+          "raw": "\"y\""
         }
       },
       "consequent": {
@@ -293,7 +299,8 @@
                     "type": "Literal",
                     "start": 433,
                     "end": 573,
-                    "value": "#1: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop() === \"y\". Actual: "
+                    "value": "#1: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop() === \"y\". Actual: ",
+                    "raw": "'#1: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop() === \"y\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -347,7 +354,8 @@
           "type": "Literal",
           "start": 606,
           "end": 616,
-          "value": 4294967295
+          "value": 4294967295,
+          "raw": "4294967295"
         }
       },
       "consequent": {
@@ -378,7 +386,8 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 804,
-                    "value": "#2: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj.length === 4294967295. Actual: "
+                    "value": "#2: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj.length === 4294967295. Actual: ",
+                    "raw": "'#2: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj.length === 4294967295. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -435,7 +444,8 @@
             "type": "Literal",
             "start": 833,
             "end": 834,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -445,7 +455,8 @@
           "type": "Literal",
           "start": 840,
           "end": 843,
-          "value": "x"
+          "value": "x",
+          "raw": "\"x\""
         }
       },
       "consequent": {
@@ -476,7 +487,8 @@
                     "type": "Literal",
                     "start": 872,
                     "end": 1020,
-                    "value": "#3: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[0] === \"x\". Actual: "
+                    "value": "#3: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[0] === \"x\". Actual: ",
+                    "raw": "'#3: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[0] === \"x\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -497,7 +509,8 @@
                         "type": "Literal",
                         "start": 1028,
                         "end": 1029,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -533,7 +546,8 @@
             "type": "Literal",
             "start": 1045,
             "end": 1055,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           "computed": true,
           "optional": false
@@ -574,7 +588,8 @@
                     "type": "Literal",
                     "start": 1099,
                     "end": 1262,
-                    "value": "#4: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[4294967295] === undefined. Actual: "
+                    "value": "#4: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[4294967295] === undefined. Actual: ",
+                    "raw": "'#4: var obj = {}; obj.pop = Array.prototype.pop; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; obj.pop(); obj[4294967295] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -595,7 +610,8 @@
                         "type": "Literal",
                         "start": 1270,
                         "end": 1280,
-                        "value": 4294967295
+                        "value": 4294967295,
+                        "raw": "4294967295"
                       },
                       "computed": true,
                       "optional": false

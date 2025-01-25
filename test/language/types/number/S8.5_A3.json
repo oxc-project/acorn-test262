@@ -59,7 +59,8 @@
           "type": "Literal",
           "start": 327,
           "end": 335,
-          "value": "number"
+          "value": "number",
+          "raw": "\"number\""
         }
       },
       "consequent": {
@@ -90,7 +91,8 @@
                     "type": "Literal",
                     "start": 363,
                     "end": 412,
-                    "value": "#1: var x=NaN; typeof(x) === \"number\". Actual: "
+                    "value": "#1: var x=NaN; typeof(x) === \"number\". Actual: ",
+                    "raw": "'#1: var x=NaN; typeof(x) === \"number\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -155,7 +157,8 @@
           "type": "Literal",
           "start": 581,
           "end": 589,
-          "value": "number"
+          "value": "number",
+          "raw": "\"number\""
         }
       },
       "consequent": {
@@ -186,7 +189,8 @@
                     "type": "Literal",
                     "start": 617,
                     "end": 657,
-                    "value": "#2: typeof(NaN) === \"number\". Actual: "
+                    "value": "#2: typeof(NaN) === \"number\". Actual: ",
+                    "raw": "'#2: typeof(NaN) === \"number\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

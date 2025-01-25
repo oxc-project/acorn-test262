@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 372,
-                "value": "setUTCHours"
+                "value": "setUTCHours",
+                "raw": "\"setUTCHours\""
               }
             ],
             "optional": false
@@ -157,7 +158,8 @@
             "type": "Literal",
             "start": 433,
             "end": 445,
-            "value": "desc.value"
+            "value": "desc.value",
+            "raw": "'desc.value'"
           }
         ],
         "optional": false
@@ -214,13 +216,15 @@
             "type": "Literal",
             "start": 480,
             "end": 484,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 501,
-            "value": "desc.writable"
+            "value": "desc.writable",
+            "raw": "'desc.writable'"
           }
         ],
         "optional": false
@@ -277,13 +281,15 @@
             "type": "Literal",
             "start": 538,
             "end": 543,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 562,
-            "value": "desc.enumerable"
+            "value": "desc.enumerable",
+            "raw": "'desc.enumerable'"
           }
         ],
         "optional": false
@@ -340,13 +346,15 @@
             "type": "Literal",
             "start": 601,
             "end": 605,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 626,
-            "value": "desc.configurable"
+            "value": "desc.configurable",
+            "raw": "'desc.configurable'"
           }
         ],
         "optional": false

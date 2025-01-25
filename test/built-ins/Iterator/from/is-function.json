@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 287,
             "end": 297,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 350,
-            "value": "The value of `typeof Iterator.from` is \"function\""
+            "value": "The value of `typeof Iterator.from` is \"function\"",
+            "raw": "'The value of `typeof Iterator.from` is \"function\"'"
           }
         ],
         "optional": false

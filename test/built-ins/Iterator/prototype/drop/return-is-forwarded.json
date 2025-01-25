@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 492,
             "end": 493,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -102,7 +103,8 @@
                             "type": "Literal",
                             "start": 570,
                             "end": 575,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           "kind": "init"
                         },
@@ -123,7 +125,8 @@
                             "type": "Literal",
                             "start": 590,
                             "end": 591,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "kind": "init"
                         }
@@ -246,7 +249,8 @@
                 "type": "Literal",
                 "start": 697,
                 "end": 698,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -293,7 +297,8 @@
             "type": "Literal",
             "start": 731,
             "end": 732,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -368,7 +373,8 @@
             "type": "Literal",
             "start": 784,
             "end": 785,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -443,7 +449,8 @@
             "type": "Literal",
             "start": 837,
             "end": 838,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -468,7 +475,8 @@
           "type": "Literal",
           "start": 856,
           "end": 857,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -521,7 +529,8 @@
               "type": "Literal",
               "start": 895,
               "end": 896,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -566,7 +575,8 @@
             "type": "Literal",
             "start": 929,
             "end": 930,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -641,7 +651,8 @@
             "type": "Literal",
             "start": 982,
             "end": 983,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -716,7 +727,8 @@
             "type": "Literal",
             "start": 1035,
             "end": 1036,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -741,7 +753,8 @@
           "type": "Literal",
           "start": 1054,
           "end": 1055,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -826,7 +839,8 @@
                               "type": "Literal",
                               "start": 1093,
                               "end": 1094,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -845,7 +859,8 @@
                           "type": "Literal",
                           "start": 1101,
                           "end": 1102,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -864,7 +879,8 @@
                       "type": "Literal",
                       "start": 1109,
                       "end": 1110,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -883,7 +899,8 @@
                   "type": "Literal",
                   "start": 1117,
                   "end": 1118,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -902,7 +919,8 @@
               "type": "Literal",
               "start": 1125,
               "end": 1126,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -947,7 +965,8 @@
             "type": "Literal",
             "start": 1159,
             "end": 1160,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -1022,7 +1041,8 @@
             "type": "Literal",
             "start": 1212,
             "end": 1213,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -1097,7 +1117,8 @@
             "type": "Literal",
             "start": 1265,
             "end": 1266,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

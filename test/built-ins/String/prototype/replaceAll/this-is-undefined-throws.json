@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 583,
             "end": 593,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 618,
-            "value": "function must exist"
+            "value": "function must exist",
+            "raw": "'function must exist'"
           }
         ],
         "optional": false

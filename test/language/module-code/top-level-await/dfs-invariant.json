@@ -12,7 +12,8 @@
         "type": "Literal",
         "start": 1501,
         "end": 1538,
-        "value": "./dfs-invariant-direct-1_FIXTURE.js"
+        "value": "./dfs-invariant-direct-1_FIXTURE.js",
+        "raw": "'./dfs-invariant-direct-1_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -25,7 +26,8 @@
         "type": "Literal",
         "start": 1547,
         "end": 1584,
-        "value": "./dfs-invariant-direct-2_FIXTURE.js"
+        "value": "./dfs-invariant-direct-2_FIXTURE.js",
+        "raw": "'./dfs-invariant-direct-2_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -38,7 +40,8 @@
         "type": "Literal",
         "start": 1593,
         "end": 1630,
-        "value": "./dfs-invariant-indirect_FIXTURE.js"
+        "value": "./dfs-invariant-indirect_FIXTURE.js",
+        "raw": "'./dfs-invariant-indirect_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -93,7 +96,8 @@
             "type": "Literal",
             "start": 1670,
             "end": 1704,
-            "value": "async:direct-1:direct-2:indirect"
+            "value": "async:direct-1:direct-2:indirect",
+            "raw": "'async:direct-1:direct-2:indirect'"
           }
         ],
         "optional": false

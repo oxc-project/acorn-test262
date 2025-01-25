@@ -44,19 +44,22 @@
                       "type": "Literal",
                       "start": 944,
                       "end": 959,
-                      "value": "Roberta Flack"
+                      "value": "Roberta Flack",
+                      "raw": "'Roberta Flack'"
                     },
                     {
                       "type": "Literal",
                       "start": 961,
                       "end": 977,
-                      "value": "Donny Hathaway"
+                      "value": "Donny Hathaway",
+                      "raw": "'Donny Hathaway'"
                     },
                     {
                       "type": "Literal",
                       "start": 979,
                       "end": 994,
-                      "value": "Frank Sinatra"
+                      "value": "Frank Sinatra",
+                      "raw": "'Frank Sinatra'"
                     }
                   ]
                 }

@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 271,
                 "end": 272,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 280,
                 "end": 281,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -115,31 +119,36 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -283,7 +292,8 @@
                           "type": "Literal",
                           "start": 445,
                           "end": 483,
-                          "value": "2017-01-01T00:00[America/Montevideo]"
+                          "value": "2017-01-01T00:00[America/Montevideo]",
+                          "raw": "'2017-01-01T00:00[America/Montevideo]'"
                         }
                       ],
                       "optional": false
@@ -299,13 +309,15 @@
             "type": "Literal",
             "start": 491,
             "end": 492,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 586,
-            "value": "relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change"
+            "value": "relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change",
+            "raw": "'relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change'"
           }
         ],
         "optional": false
@@ -447,7 +459,8 @@
                           "type": "Literal",
                           "start": 694,
                           "end": 731,
-                          "value": "2019-11-03T00:00[America/Vancouver]"
+                          "value": "2019-11-03T00:00[America/Vancouver]",
+                          "raw": "'2019-11-03T00:00[America/Vancouver]'"
                         }
                       ],
                       "optional": false
@@ -463,13 +476,15 @@
             "type": "Literal",
             "start": 739,
             "end": 740,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 827,
-            "value": "relativeTo does affect days if ZonedDateTime, and duration encompasses DST change"
+            "value": "relativeTo does affect days if ZonedDateTime, and duration encompasses DST change",
+            "raw": "'relativeTo does affect days if ZonedDateTime, and duration encompasses DST change'"
           }
         ],
         "optional": false
@@ -574,7 +589,8 @@
                       "type": "Literal",
                       "start": 907,
                       "end": 944,
-                      "value": "2019-11-03T00:00[America/Vancouver]"
+                      "value": "2019-11-03T00:00[America/Vancouver]",
+                      "raw": "'2019-11-03T00:00[America/Vancouver]'"
                     },
                     "kind": "init"
                   }
@@ -587,13 +603,15 @@
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1003,
-            "value": "casts relativeTo to ZonedDateTime from string"
+            "value": "casts relativeTo to ZonedDateTime from string",
+            "raw": "'casts relativeTo to ZonedDateTime from string'"
           }
         ],
         "optional": false
@@ -716,7 +734,8 @@
                             "type": "Literal",
                             "start": 1095,
                             "end": 1099,
-                            "value": 2019
+                            "value": 2019,
+                            "raw": "2019"
                           },
                           "kind": "init"
                         },
@@ -737,7 +756,8 @@
                             "type": "Literal",
                             "start": 1108,
                             "end": 1110,
-                            "value": 11
+                            "value": 11,
+                            "raw": "11"
                           },
                           "kind": "init"
                         },
@@ -758,7 +778,8 @@
                             "type": "Literal",
                             "start": 1117,
                             "end": 1118,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           },
                           "kind": "init"
                         },
@@ -779,7 +800,8 @@
                             "type": "Literal",
                             "start": 1130,
                             "end": 1149,
-                            "value": "America/Vancouver"
+                            "value": "America/Vancouver",
+                            "raw": "'America/Vancouver'"
                           },
                           "kind": "init"
                         }
@@ -796,13 +818,15 @@
             "type": "Literal",
             "start": 1160,
             "end": 1161,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1165,
             "end": 1212,
-            "value": "casts relativeTo to ZonedDateTime from object"
+            "value": "casts relativeTo to ZonedDateTime from object",
+            "raw": "'casts relativeTo to ZonedDateTime from object'"
           }
         ],
         "optional": false

@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 376,
               "end": 381,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 387,
           "end": 394,
-          "value": "false"
+          "value": "false",
+          "raw": "\"false\""
         }
       },
       "consequent": {
@@ -67,7 +69,8 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 464,
-                    "value": "#1: String(false) === \"false\". Actual: "
+                    "value": "#1: String(false) === \"false\". Actual: ",
+                    "raw": "'#1: String(false) === \"false\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -89,7 +92,8 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 480,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         }
                       ],
                       "optional": false
@@ -126,7 +130,8 @@
               "type": "Literal",
               "start": 510,
               "end": 514,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ],
           "optional": false
@@ -136,7 +141,8 @@
           "type": "Literal",
           "start": 520,
           "end": 526,
-          "value": "true"
+          "value": "true",
+          "raw": "\"true\""
         }
       },
       "consequent": {
@@ -167,7 +173,8 @@
                     "type": "Literal",
                     "start": 555,
                     "end": 594,
-                    "value": "#2: String(true) === \"true\". Actual: "
+                    "value": "#2: String(true) === \"true\". Actual: ",
+                    "raw": "'#2: String(true) === \"true\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -189,7 +196,8 @@
                           "type": "Literal",
                           "start": 605,
                           "end": 609,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       ],
                       "optional": false

@@ -59,13 +59,15 @@
                 "type": "Literal",
                 "start": 268,
                 "end": 269,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 271,
                 "end": 272,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ],
             "optional": false
@@ -74,13 +76,15 @@
             "type": "Literal",
             "start": 275,
             "end": 276,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 278,
             "end": 295,
-            "value": "Math.hypot(3,4)"
+            "value": "Math.hypot(3,4)",
+            "raw": "'Math.hypot(3,4)'"
           }
         ],
         "optional": false

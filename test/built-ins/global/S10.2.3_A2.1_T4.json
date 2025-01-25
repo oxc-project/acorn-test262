@@ -56,7 +56,8 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 335,
-                "value": "Math"
+                "value": "Math",
+                "raw": "'Math'"
               }
             },
             "consequent": {
@@ -83,7 +84,8 @@
                         "type": "Literal",
                         "start": 366,
                         "end": 402,
-                        "value": "#1: 'Math' have attribute DontEnum"
+                        "value": "#1: 'Math' have attribute DontEnum",
+                        "raw": "\"#1: 'Math' have attribute DontEnum\""
                       }
                     ]
                   }

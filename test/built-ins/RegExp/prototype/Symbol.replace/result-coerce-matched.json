@@ -23,6 +23,7 @@
             "start": 572,
             "end": 575,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -69,7 +70,8 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 611,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -84,7 +86,8 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 616,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -126,7 +129,8 @@
                                 "type": "Literal",
                                 "start": 660,
                                 "end": 676,
-                                "value": "toString value"
+                                "value": "toString value",
+                                "raw": "'toString value'"
                               }
                             }
                           ]
@@ -180,7 +184,8 @@
                                     "type": "Literal",
                                     "start": 740,
                                     "end": 776,
-                                    "value": "This method should not be invoked."
+                                    "value": "This method should not be invoked.",
+                                    "raw": "'This method should not be invoked.'"
                                   }
                                 ]
                               }
@@ -211,7 +216,8 @@
                   "type": "Literal",
                   "start": 800,
                   "end": 801,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -348,13 +354,15 @@
                 "type": "Literal",
                 "start": 895,
                 "end": 897,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "Literal",
                 "start": 899,
                 "end": 911,
-                "value": "foo[$&]bar"
+                "value": "foo[$&]bar",
+                "raw": "'foo[$&]bar'"
               }
             ],
             "optional": false
@@ -363,7 +371,8 @@
             "type": "Literal",
             "start": 914,
             "end": 938,
-            "value": "foo[toString value]bar"
+            "value": "foo[toString value]bar",
+            "raw": "'foo[toString value]bar'"
           }
         ],
         "optional": false

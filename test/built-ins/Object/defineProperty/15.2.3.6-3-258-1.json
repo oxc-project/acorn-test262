@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 392,
             "end": 398,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -240,7 +241,8 @@
             "type": "Literal",
             "start": 542,
             "end": 552,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -284,7 +286,8 @@
           "type": "Literal",
           "start": 578,
           "end": 592,
-          "value": "overrideData"
+          "value": "overrideData",
+          "raw": "\"overrideData\""
         }
       }
     },
@@ -331,7 +334,8 @@
                 "type": "Literal",
                 "start": 621,
                 "end": 631,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -340,7 +344,8 @@
             "type": "Literal",
             "start": 634,
             "end": 675,
-            "value": "obj.hasOwnProperty(\"property\") !== true"
+            "value": "obj.hasOwnProperty(\"property\") !== true",
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
           }
         ],
         "optional": false
@@ -384,13 +389,15 @@
             "type": "Literal",
             "start": 701,
             "end": 715,
-            "value": "overrideData"
+            "value": "overrideData",
+            "raw": "\"overrideData\""
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 723,
-            "value": "data"
+            "value": "data",
+            "raw": "'data'"
           }
         ],
         "optional": false

@@ -76,7 +76,8 @@
                               "type": "Literal",
                               "start": 988,
                               "end": 989,
-                              "value": 4
+                              "value": 4,
+                              "raw": "4"
                             },
                             "kind": "init"
                           },
@@ -91,13 +92,15 @@
                               "type": "Literal",
                               "start": 997,
                               "end": 1000,
-                              "value": "0"
+                              "value": "0",
+                              "raw": "\"0\""
                             },
                             "value": {
                               "type": "Literal",
                               "start": 1002,
                               "end": 1005,
-                              "value": "42n"
+                              "value": "42n",
+                              "raw": "42n"
                             },
                             "kind": "init"
                           },
@@ -112,13 +115,15 @@
                               "type": "Literal",
                               "start": 1013,
                               "end": 1016,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             },
                             "value": {
                               "type": "Literal",
                               "start": 1018,
                               "end": 1021,
-                              "value": "43n"
+                              "value": "43n",
+                              "raw": "43n"
                             },
                             "kind": "init"
                           },
@@ -133,13 +138,15 @@
                               "type": "Literal",
                               "start": 1029,
                               "end": 1032,
-                              "value": "3"
+                              "value": "3",
+                              "raw": "\"3\""
                             },
                             "value": {
                               "type": "Literal",
                               "start": 1034,
                               "end": 1037,
-                              "value": "44n"
+                              "value": "44n",
+                              "raw": "44n"
                             },
                             "kind": "init"
                           }
@@ -187,7 +194,8 @@
                         "type": "Literal",
                         "start": 1076,
                         "end": 1079,
-                        "value": "2"
+                        "value": "2",
+                        "raw": "\"2\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -284,25 +292,29 @@
                                 "type": "Literal",
                                 "start": 1181,
                                 "end": 1183,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1185,
                                 "end": 1187,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1189,
                                 "end": 1191,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1193,
                                 "end": 1195,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               }
                             ]
                           }
@@ -446,25 +458,29 @@
                                 "type": "Literal",
                                 "start": 1307,
                                 "end": 1310,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1312,
                                 "end": 1315,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1317,
                                 "end": 1319,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1321,
                                 "end": 1323,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               }
                             ]
                           }
@@ -475,7 +491,8 @@
                         "type": "Literal",
                         "start": 1331,
                         "end": 1363,
-                        "value": "values are set until exception"
+                        "value": "values are set until exception",
+                        "raw": "\"values are set until exception\""
                       }
                     ],
                     "optional": false

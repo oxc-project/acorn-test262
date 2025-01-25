@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -110,7 +112,8 @@
             "type": "Literal",
             "start": 419,
             "end": 423,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -135,7 +138,8 @@
             "type": "Literal",
             "start": 433,
             "end": 434,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -179,7 +183,8 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 473,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               }
             },
@@ -317,7 +322,8 @@
                                 "type": "Literal",
                                 "start": 638,
                                 "end": 698,
-                                "value": "This code is unreachable (following `continue` statement)."
+                                "value": "This code is unreachable (following `continue` statement).",
+                                "raw": "'This code is unreachable (following `continue` statement).'"
                               }
                             ]
                           }
@@ -344,7 +350,8 @@
                           "type": "Literal",
                           "start": 735,
                           "end": 790,
-                          "value": "This code is unreachable (following `try` statement)."
+                          "value": "This code is unreachable (following `try` statement).",
+                          "raw": "'This code is unreachable (following `try` statement).'"
                         }
                       ]
                     }
@@ -371,7 +378,8 @@
                     "type": "Literal",
                     "start": 823,
                     "end": 882,
-                    "value": "This code is unreachable (following `for..of` statement)."
+                    "value": "This code is unreachable (following `for..of` statement).",
+                    "raw": "'This code is unreachable (following `for..of` statement).'"
                   }
                 ]
               }
@@ -424,7 +432,8 @@
             "type": "Literal",
             "start": 908,
             "end": 909,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

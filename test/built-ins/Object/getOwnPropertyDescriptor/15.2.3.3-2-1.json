@@ -130,7 +130,8 @@
             "type": "Literal",
             "start": 375,
             "end": 381,
-            "value": "desc"
+            "value": "desc",
+            "raw": "'desc'"
           }
         ],
         "optional": false

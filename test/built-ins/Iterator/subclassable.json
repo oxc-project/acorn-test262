@@ -82,13 +82,15 @@
             "type": "Literal",
             "start": 523,
             "end": 527,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 531,
             "end": 599,
-            "value": "The result of `(new SubIterator() instanceof SubIterator)` is true"
+            "value": "The result of `(new SubIterator() instanceof SubIterator)` is true",
+            "raw": "'The result of `(new SubIterator() instanceof SubIterator)` is true'"
           }
         ],
         "optional": false
@@ -150,13 +152,15 @@
             "type": "Literal",
             "start": 664,
             "end": 668,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 737,
-            "value": "The result of `(new SubIterator() instanceof Iterator)` is true"
+            "value": "The result of `(new SubIterator() instanceof Iterator)` is true",
+            "raw": "'The result of `(new SubIterator() instanceof Iterator)` is true'"
           }
         ],
         "optional": false

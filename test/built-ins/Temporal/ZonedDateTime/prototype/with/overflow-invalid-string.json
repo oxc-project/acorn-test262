@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1347,
+  "end": 1341,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 997,
-      "end": 1076,
+      "start": 991,
+      "end": 1070,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1003,
-          "end": 1075,
+          "start": 997,
+          "end": 1069,
           "id": {
             "type": "Identifier",
-            "start": 1003,
-            "end": 1011,
+            "start": 997,
+            "end": 1005,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1014,
-            "end": 1075,
+            "start": 1008,
+            "end": 1069,
             "callee": {
               "type": "MemberExpression",
-              "start": 1018,
-              "end": 1040,
+              "start": 1012,
+              "end": 1034,
               "object": {
                 "type": "Identifier",
-                "start": 1018,
-                "end": 1026,
+                "start": 1012,
+                "end": 1020,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1027,
-                "end": 1040,
+                "start": 1021,
+                "end": 1034,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -44,15 +44,17 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1041,
-                "end": 1067,
-                "value": "1000000000987654321n"
+                "start": 1035,
+                "end": 1061,
+                "value": "1000000000987654321n",
+                "raw": "1_000_000_000_987_654_321n"
               },
               {
                 "type": "Literal",
-                "start": 1069,
-                "end": 1074,
-                "value": "UTC"
+                "start": 1063,
+                "end": 1068,
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -62,59 +64,65 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1077,
-      "end": 1173,
+      "start": 1071,
+      "end": 1167,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1083,
-          "end": 1172,
+          "start": 1077,
+          "end": 1166,
           "id": {
             "type": "Identifier",
-            "start": 1083,
-            "end": 1095,
+            "start": 1077,
+            "end": 1089,
             "name": "badOverflows"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1098,
-            "end": 1172,
+            "start": 1092,
+            "end": 1166,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1099,
-                "end": 1101,
-                "value": ""
+                "start": 1093,
+                "end": 1095,
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
-                "start": 1103,
-                "end": 1114,
-                "value": "CONSTRAIN"
+                "start": 1097,
+                "end": 1108,
+                "value": "CONSTRAIN",
+                "raw": "\"CONSTRAIN\""
               },
               {
                 "type": "Literal",
-                "start": 1116,
-                "end": 1125,
-                "value": "balance"
+                "start": 1110,
+                "end": 1119,
+                "value": "balance",
+                "raw": "\"balance\""
               },
               {
                 "type": "Literal",
-                "start": 1127,
-                "end": 1141,
-                "value": "other string"
+                "start": 1121,
+                "end": 1135,
+                "value": "other string",
+                "raw": "\"other string\""
               },
               {
                 "type": "Literal",
-                "start": 1143,
-                "end": 1159,
-                "value": "constraın"
+                "start": 1137,
+                "end": 1153,
+                "value": "constraın",
+                "raw": "\"constra\\u0131n\""
               },
               {
                 "type": "Literal",
-                "start": 1161,
-                "end": 1171,
-                "value": "reject\u0000"
+                "start": 1155,
+                "end": 1165,
+                "value": "reject\u0000",
+                "raw": "\"reject\\0\""
               }
             ]
           }
@@ -124,22 +132,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1174,
-      "end": 1346,
+      "start": 1168,
+      "end": 1340,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1179,
-        "end": 1193,
+        "start": 1173,
+        "end": 1187,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1185,
-            "end": 1193,
+            "start": 1179,
+            "end": 1187,
             "id": {
               "type": "Identifier",
-              "start": 1185,
-              "end": 1193,
+              "start": 1179,
+              "end": 1187,
               "name": "overflow"
             },
             "init": null
@@ -149,37 +157,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1197,
-        "end": 1209,
+        "start": 1191,
+        "end": 1203,
         "name": "badOverflows"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1211,
-        "end": 1346,
+        "start": 1205,
+        "end": 1340,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1215,
-            "end": 1344,
+            "start": 1209,
+            "end": 1338,
             "expression": {
               "type": "CallExpression",
-              "start": 1215,
-              "end": 1343,
+              "start": 1209,
+              "end": 1337,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1215,
-                "end": 1228,
+                "start": 1209,
+                "end": 1222,
                 "object": {
                   "type": "Identifier",
-                  "start": 1215,
-                  "end": 1221,
+                  "start": 1209,
+                  "end": 1215,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1222,
-                  "end": 1228,
+                  "start": 1216,
+                  "end": 1222,
                   "name": "throws"
                 },
                 "computed": false,
@@ -188,14 +196,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1234,
-                  "end": 1244,
+                  "start": 1228,
+                  "end": 1238,
                   "name": "RangeError"
                 },
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 1250,
-                  "end": 1299,
+                  "start": 1244,
+                  "end": 1293,
                   "id": null,
                   "expression": true,
                   "generator": false,
@@ -203,22 +211,22 @@
                   "params": [],
                   "body": {
                     "type": "CallExpression",
-                    "start": 1256,
-                    "end": 1299,
+                    "start": 1250,
+                    "end": 1293,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1256,
-                      "end": 1269,
+                      "start": 1250,
+                      "end": 1263,
                       "object": {
                         "type": "Identifier",
-                        "start": 1256,
-                        "end": 1264,
+                        "start": 1250,
+                        "end": 1258,
                         "name": "datetime"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1265,
-                        "end": 1269,
+                        "start": 1259,
+                        "end": 1263,
                         "name": "with"
                       },
                       "computed": false,
@@ -227,27 +235,28 @@
                     "arguments": [
                       {
                         "type": "ObjectExpression",
-                        "start": 1270,
-                        "end": 1284,
+                        "start": 1264,
+                        "end": 1278,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1272,
-                            "end": 1282,
+                            "start": 1266,
+                            "end": 1276,
                             "method": false,
                             "shorthand": false,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 1272,
-                              "end": 1278,
+                              "start": 1266,
+                              "end": 1272,
                               "name": "minute"
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 1280,
-                              "end": 1282,
-                              "value": 45
+                              "start": 1274,
+                              "end": 1276,
+                              "value": 45,
+                              "raw": "45"
                             },
                             "kind": "init"
                           }
@@ -255,27 +264,27 @@
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1286,
-                        "end": 1298,
+                        "start": 1280,
+                        "end": 1292,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1288,
-                            "end": 1296,
+                            "start": 1282,
+                            "end": 1290,
                             "method": false,
                             "shorthand": true,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 1288,
-                              "end": 1296,
+                              "start": 1282,
+                              "end": 1290,
                               "name": "overflow"
                             },
                             "kind": "init",
                             "value": {
                               "type": "Identifier",
-                              "start": 1288,
-                              "end": 1296,
+                              "start": 1282,
+                              "end": 1290,
                               "name": "overflow"
                             }
                           }
@@ -287,21 +296,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1305,
-                  "end": 1339,
+                  "start": 1299,
+                  "end": 1333,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 1327,
-                      "end": 1335,
+                      "start": 1321,
+                      "end": 1329,
                       "name": "overflow"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1306,
-                      "end": 1325,
+                      "start": 1300,
+                      "end": 1319,
                       "value": {
                         "raw": "invalid overflow (\"",
                         "cooked": "invalid overflow (\""
@@ -310,8 +319,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1336,
-                      "end": 1338,
+                      "start": 1330,
+                      "end": 1332,
                       "value": {
                         "raw": "\")",
                         "cooked": "\")"

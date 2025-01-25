@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 510,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 512,
                     "end": 513,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -119,7 +121,8 @@
                               "type": "Literal",
                               "start": 566,
                               "end": 567,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -179,7 +182,8 @@
                                   "type": "Literal",
                                   "start": 611,
                                   "end": 681,
-                                  "value": "Set.prototype.isSupersetOf should not call its argument's has method"
+                                  "value": "Set.prototype.isSupersetOf should not call its argument's has method",
+                                  "raw": "\"Set.prototype.isSupersetOf should not call its argument's has method\""
                                 }
                               ]
                             }
@@ -228,7 +232,8 @@
                                 "type": "Literal",
                                 "start": 711,
                                 "end": 712,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -310,7 +315,8 @@
             "type": "Literal",
             "start": 760,
             "end": 764,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

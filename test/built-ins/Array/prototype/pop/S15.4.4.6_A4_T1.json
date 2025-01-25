@@ -39,7 +39,8 @@
             "type": "Literal",
             "start": 378,
             "end": 379,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -48,7 +49,8 @@
           "type": "Literal",
           "start": 383,
           "end": 384,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -76,7 +78,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 396,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -116,7 +119,8 @@
           "type": "Literal",
           "start": 410,
           "end": 411,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -184,7 +188,8 @@
           "type": "Literal",
           "start": 445,
           "end": 446,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -215,7 +220,8 @@
                     "type": "Literal",
                     "start": 475,
                     "end": 551,
-                    "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop() === 1. Actual: "
+                    "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop() === 1. Actual: ",
+                    "raw": "'#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop() === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -259,7 +265,8 @@
             "type": "Literal",
             "start": 571,
             "end": 572,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -269,7 +276,8 @@
           "type": "Literal",
           "start": 578,
           "end": 579,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -300,7 +308,8 @@
                     "type": "Literal",
                     "start": 608,
                     "end": 690,
-                    "value": "#2: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop(); x[1] === 1. Actual: "
+                    "value": "#2: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop(); x[1] === 1. Actual: ",
+                    "raw": "'#2: Array.prototype[1] = 1; x = [0]; x.length = 2; x.pop(); x[1] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -321,7 +330,8 @@
                         "type": "Literal",
                         "start": 696,
                         "end": 697,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -371,7 +381,8 @@
             "type": "Literal",
             "start": 722,
             "end": 723,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -380,7 +391,8 @@
           "type": "Literal",
           "start": 727,
           "end": 728,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -429,7 +441,8 @@
           "type": "Literal",
           "start": 756,
           "end": 757,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -539,13 +552,15 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 812,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "value": {
                 "type": "Literal",
                 "start": 814,
                 "end": 815,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "kind": "init"
             }
@@ -617,7 +632,8 @@
           "type": "Literal",
           "start": 851,
           "end": 852,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -648,7 +664,8 @@
                     "type": "Literal",
                     "start": 881,
                     "end": 1019,
-                    "value": "#3: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop() === 1. Actual: "
+                    "value": "#3: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop() === 1. Actual: ",
+                    "raw": "'#3: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop() === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -692,7 +709,8 @@
             "type": "Literal",
             "start": 1039,
             "end": 1040,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -702,7 +720,8 @@
           "type": "Literal",
           "start": 1046,
           "end": 1047,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -733,7 +752,8 @@
                     "type": "Literal",
                     "start": 1076,
                     "end": 1220,
-                    "value": "#4: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x[1] === 1. Actual: "
+                    "value": "#4: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x[1] === 1. Actual: ",
+                    "raw": "'#4: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x[1] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -754,7 +774,8 @@
                         "type": "Literal",
                         "start": 1226,
                         "end": 1227,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -800,7 +821,8 @@
           "type": "Literal",
           "start": 1252,
           "end": 1253,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -831,7 +853,8 @@
                     "type": "Literal",
                     "start": 1282,
                     "end": 1430,
-                    "value": "#6: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x.length === 1. Actual: "
+                    "value": "#6: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x.length === 1. Actual: ",
+                    "raw": "'#6: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); x.length === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -929,7 +952,8 @@
           "type": "Literal",
           "start": 1483,
           "end": 1484,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -960,7 +984,8 @@
                     "type": "Literal",
                     "start": 1513,
                     "end": 1671,
-                    "value": "#7: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); delete x; x.length === 2. Actual: "
+                    "value": "#7: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); delete x; x.length === 2. Actual: ",
+                    "raw": "'#7: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.pop = Array.prototype.pop; x = {0:0}; x.pop(); delete x; x.length === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -235,13 +235,15 @@
             "type": "Literal",
             "start": 564,
             "end": 568,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 590,
-            "value": "x.isPrototypeOf(d)"
+            "value": "x.isPrototypeOf(d)",
+            "raw": "'x.isPrototypeOf(d)'"
           }
         ],
         "optional": false

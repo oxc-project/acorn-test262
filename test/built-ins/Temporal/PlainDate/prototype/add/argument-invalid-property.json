@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 343,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -147,7 +150,8 @@
             "type": "Literal",
             "start": 409,
             "end": 453,
-            "value": "Throws TypeError if no property is present"
+            "value": "Throws TypeError if no property is present",
+            "raw": "\"Throws TypeError if no property is present\""
           }
         ],
         "optional": false
@@ -242,7 +246,8 @@
                         "type": "Literal",
                         "start": 519,
                         "end": 523,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -256,7 +261,8 @@
             "type": "Literal",
             "start": 530,
             "end": 585,
-            "value": "Throws TypeError if no recognized property is present"
+            "value": "Throws TypeError if no recognized property is present",
+            "raw": "\"Throws TypeError if no recognized property is present\""
           }
         ],
         "optional": false
@@ -351,7 +357,8 @@
                         "type": "Literal",
                         "start": 647,
                         "end": 648,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -365,7 +372,8 @@
             "type": "Literal",
             "start": 655,
             "end": 688,
-            "value": "Sign property is not recognized"
+            "value": "Sign property is not recognized",
+            "raw": "\"Sign property is not recognized\""
           }
         ],
         "optional": false

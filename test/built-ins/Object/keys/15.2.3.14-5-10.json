@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 388,
             "end": 394,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +122,8 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 438,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -142,7 +144,8 @@
                   "type": "Literal",
                   "start": 456,
                   "end": 460,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -292,7 +295,8 @@
             "type": "Literal",
             "start": 562,
             "end": 568,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -347,7 +351,8 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 613,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -368,7 +373,8 @@
                   "type": "Literal",
                   "start": 631,
                   "end": 635,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -516,13 +522,15 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 727,
-                  "value": "prop"
+                  "value": "prop",
+                  "raw": "\"prop\""
                 },
                 {
                   "type": "Literal",
                   "start": 729,
                   "end": 737,
-                  "value": "arr[p]"
+                  "value": "arr[p]",
+                  "raw": "'arr[p]'"
                 }
               ],
               "optional": false

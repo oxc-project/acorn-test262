@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 321,
             "end": 322,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -78,7 +79,8 @@
               "type": "Literal",
               "start": 343,
               "end": 391,
-              "value": "while (__condition<5) eval(\"__condition++\");"
+              "value": "while (__condition<5) eval(\"__condition++\");",
+              "raw": "\"while (__condition<5) eval(\\\"__condition++\\\");\""
             }
           ],
           "optional": false
@@ -104,7 +106,8 @@
           "type": "Literal",
           "start": 504,
           "end": 505,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -131,7 +134,8 @@
                   "type": "Literal",
                   "start": 533,
                   "end": 602,
-                  "value": "#1: The \"while\" statement is evaluated as described in the Standard"
+                  "value": "#1: The \"while\" statement is evaluated as described in the Standard",
+                  "raw": "'#1: The \"while\" statement is evaluated as described in the Standard'"
                 }
               ]
             }
@@ -159,7 +163,8 @@
           "type": "Literal",
           "start": 799,
           "end": 800,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "consequent": {
@@ -186,7 +191,8 @@
                   "type": "Literal",
                   "start": 828,
                   "end": 882,
-                  "value": "#2: The \"while\" statement returns (normal, V, empty)"
+                  "value": "#2: The \"while\" statement returns (normal, V, empty)",
+                  "raw": "'#2: The \"while\" statement returns (normal, V, empty)'"
                 }
               ]
             }

@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 337,
-                "value": 2020
+                "value": 2020,
+                "raw": "2020"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -102,25 +107,29 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 379,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 391,
-                "value": "hello"
+                "value": "hello",
+                "raw": "'hello'"
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 397,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "CallExpression",
@@ -137,7 +146,8 @@
                     "type": "Literal",
                     "start": 406,
                     "end": 411,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "'foo'"
                   }
                 ],
                 "optional": false
@@ -146,7 +156,8 @@
                 "type": "Literal",
                 "start": 414,
                 "end": 416,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             ]
           }
@@ -292,7 +303,8 @@
                                     "type": "Literal",
                                     "start": 516,
                                     "end": 517,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   "kind": "init"
                                 }

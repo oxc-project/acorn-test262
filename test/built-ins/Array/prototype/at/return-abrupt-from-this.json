@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 382,
             "end": 392,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 467,
-            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\""
+            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
+            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -205,7 +207,8 @@
             "type": "Literal",
             "start": 546,
             "end": 611,
-            "value": "Array.prototype.at.call(undefined) throws a TypeError exception"
+            "value": "Array.prototype.at.call(undefined) throws a TypeError exception",
+            "raw": "'Array.prototype.at.call(undefined) throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -317,7 +320,8 @@
                         "type": "Literal",
                         "start": 674,
                         "end": 678,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -330,7 +334,8 @@
             "type": "Literal",
             "start": 684,
             "end": 744,
-            "value": "Array.prototype.at.call(null) throws a TypeError exception"
+            "value": "Array.prototype.at.call(null) throws a TypeError exception",
+            "raw": "'Array.prototype.at.call(null) throws a TypeError exception'"
           }
         ],
         "optional": false

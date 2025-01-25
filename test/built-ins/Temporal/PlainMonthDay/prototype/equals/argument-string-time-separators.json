@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 287,
                     "end": 305,
-                    "value": "1976-05-02T15:23"
+                    "value": "1976-05-02T15:23",
+                    "raw": "\"1976-05-02T15:23\""
                   },
                   {
                     "type": "Literal",
                     "start": 307,
                     "end": 320,
-                    "value": "uppercase T"
+                    "value": "uppercase T",
+                    "raw": "\"uppercase T\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 326,
                     "end": 344,
-                    "value": "1976-05-02t15:23"
+                    "value": "1976-05-02t15:23",
+                    "raw": "\"1976-05-02t15:23\""
                   },
                   {
                     "type": "Literal",
                     "start": 346,
                     "end": 359,
-                    "value": "lowercase T"
+                    "value": "lowercase T",
+                    "raw": "\"lowercase T\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 365,
                     "end": 383,
-                    "value": "1976-05-02 15:23"
+                    "value": "1976-05-02 15:23",
+                    "raw": "\"1976-05-02 15:23\""
                   },
                   {
                     "type": "Literal",
                     "start": 385,
                     "end": 414,
-                    "value": "space between date and time"
+                    "value": "space between date and time",
+                    "raw": "\"space between date and time\""
                   }
                 ]
               }
@@ -129,13 +135,15 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 466,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 468,
                 "end": 469,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -295,7 +303,8 @@
                         "type": "Literal",
                         "start": 589,
                         "end": 593,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "TemplateLiteral",

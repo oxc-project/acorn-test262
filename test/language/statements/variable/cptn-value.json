@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 500,
-                "value": "var test262id1;"
+                "value": "var test262id1;",
+                "raw": "'var test262id1;'"
               }
             ],
             "optional": false
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 514,
             "end": 554,
-            "value": "Single declaration without initializer"
+            "value": "Single declaration without initializer",
+            "raw": "'Single declaration without initializer'"
           }
         ],
         "optional": false
@@ -110,7 +112,8 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 604,
-                "value": "var test262id2 = 2;"
+                "value": "var test262id2 = 2;",
+                "raw": "'var test262id2 = 2;'"
               }
             ],
             "optional": false
@@ -125,7 +128,8 @@
             "type": "Literal",
             "start": 622,
             "end": 662,
-            "value": "Single declaration bearing initializer"
+            "value": "Single declaration bearing initializer",
+            "raw": "'Single declaration bearing initializer'"
           }
         ],
         "optional": false
@@ -174,7 +178,8 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 724,
-                "value": "var test262id3 = 3, test262id4;"
+                "value": "var test262id3 = 3, test262id4;",
+                "raw": "'var test262id3 = 3, test262id4;'"
               }
             ],
             "optional": false
@@ -189,7 +194,8 @@
             "type": "Literal",
             "start": 742,
             "end": 792,
-            "value": "Multiple declarations, final without initializer"
+            "value": "Multiple declarations, final without initializer",
+            "raw": "'Multiple declarations, final without initializer'"
           }
         ],
         "optional": false
@@ -238,7 +244,8 @@
                 "type": "Literal",
                 "start": 821,
                 "end": 854,
-                "value": "var test262id5, test262id6 = 6;"
+                "value": "var test262id5, test262id6 = 6;",
+                "raw": "'var test262id5, test262id6 = 6;'"
               }
             ],
             "optional": false
@@ -253,7 +260,8 @@
             "type": "Literal",
             "start": 872,
             "end": 922,
-            "value": "Multiple declarations, final bearing initializer"
+            "value": "Multiple declarations, final bearing initializer",
+            "raw": "'Multiple declarations, final bearing initializer'"
           }
         ],
         "optional": false
@@ -302,7 +310,8 @@
                 "type": "Literal",
                 "start": 949,
                 "end": 969,
-                "value": "7; var test262id8;"
+                "value": "7; var test262id8;",
+                "raw": "'7; var test262id8;'"
               }
             ],
             "optional": false
@@ -311,7 +320,8 @@
             "type": "Literal",
             "start": 972,
             "end": 973,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           }
         ],
         "optional": false
@@ -360,7 +370,8 @@
                 "type": "Literal",
                 "start": 998,
                 "end": 1024,
-                "value": "9; var test262id10 = 10;"
+                "value": "9; var test262id10 = 10;",
+                "raw": "'9; var test262id10 = 10;'"
               }
             ],
             "optional": false
@@ -369,7 +380,8 @@
             "type": "Literal",
             "start": 1027,
             "end": 1028,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           }
         ],
         "optional": false
@@ -418,7 +430,8 @@
                 "type": "Literal",
                 "start": 1053,
                 "end": 1093,
-                "value": "11; var test262id12 = 12, test262id13;"
+                "value": "11; var test262id12 = 12, test262id13;",
+                "raw": "'11; var test262id12 = 12, test262id13;'"
               }
             ],
             "optional": false
@@ -427,7 +440,8 @@
             "type": "Literal",
             "start": 1096,
             "end": 1098,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           }
         ],
         "optional": false
@@ -476,7 +490,8 @@
                 "type": "Literal",
                 "start": 1123,
                 "end": 1163,
-                "value": "14; var test262id15, test262id16 = 16;"
+                "value": "14; var test262id15, test262id16 = 16;",
+                "raw": "'14; var test262id15, test262id16 = 16;'"
               }
             ],
             "optional": false
@@ -485,7 +500,8 @@
             "type": "Literal",
             "start": 1166,
             "end": 1168,
-            "value": 14
+            "value": 14,
+            "raw": "14"
           }
         ],
         "optional": false

@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 614,
             "end": 633,
-            "value": "BYTES_PER_ELEMENT"
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           },
           {
             "type": "ObjectExpression",
@@ -52,7 +53,8 @@
                   "type": "Literal",
                   "start": 646,
                   "end": 647,
-                  "value": 8
+                  "value": 8,
+                  "raw": "8"
                 },
                 "kind": "init"
               },
@@ -73,7 +75,8 @@
                   "type": "Literal",
                   "start": 661,
                   "end": 666,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -94,7 +97,8 @@
                   "type": "Literal",
                   "start": 682,
                   "end": 687,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -115,7 +119,8 @@
                   "type": "Literal",
                   "start": 705,
                   "end": 710,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

@@ -90,7 +90,8 @@
                     "type": "Literal",
                     "start": 1161,
                     "end": 1169,
-                    "value": "caller"
+                    "value": "caller",
+                    "raw": "\"caller\""
                   }
                 ],
                 "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 1252,
             "end": 1253,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -207,7 +209,8 @@
                   "type": "Literal",
                   "start": 1288,
                   "end": 1300,
-                  "value": "use strict"
+                  "value": "use strict",
+                  "raw": "\"use strict\""
                 },
                 "directive": "use strict"
               },
@@ -260,7 +263,8 @@
                           "type": "Literal",
                           "start": 1645,
                           "end": 1653,
-                          "value": "caller"
+                          "value": "caller",
+                          "raw": "\"caller\""
                         }
                       ],
                       "optional": false
@@ -313,7 +317,8 @@
                     "type": "Literal",
                     "start": 1703,
                     "end": 1708,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 },
                 "consequent": {
@@ -359,7 +364,8 @@
                             "type": "Literal",
                             "start": 1745,
                             "end": 1753,
-                            "value": "caller"
+                            "value": "caller",
+                            "raw": "\"caller\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -451,7 +457,8 @@
                     "type": "Literal",
                     "start": 1835,
                     "end": 1840,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 },
                 "consequent": {
@@ -497,13 +504,15 @@
                             "type": "Literal",
                             "start": 1873,
                             "end": 1874,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1876,
                             "end": 2018,
-                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
+                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
+                            "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
                           }
                         ],
                         "optional": false
@@ -726,13 +735,15 @@
                             "type": "Literal",
                             "start": 2581,
                             "end": 2582,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2584,
                             "end": 2609,
-                            "value": "function body evaluated"
+                            "value": "function body evaluated",
+                            "raw": "'function body evaluated'"
                           }
                         ],
                         "optional": false

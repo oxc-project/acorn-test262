@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 413,
-                "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'arguments', 'tempIndex');}"
+                "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'arguments', 'tempIndex');}",
+                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'arguments', 'tempIndex');}\""
               }
             ]
           }

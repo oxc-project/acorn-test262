@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 325,
             "end": 330,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 383,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             },
             "consequent": {
@@ -112,7 +114,8 @@
                       "type": "Literal",
                       "start": 402,
                       "end": 406,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -128,7 +131,8 @@
               "type": "Literal",
               "start": 421,
               "end": 425,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
@@ -171,7 +175,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 454,
-                  "value": 20
+                  "value": 20,
+                  "raw": "20"
                 },
                 "kind": "init"
               }
@@ -219,7 +224,8 @@
             "type": "Literal",
             "start": 485,
             "end": 488,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           },
           {
             "type": "ObjectExpression",
@@ -272,7 +278,8 @@
                               "type": "Literal",
                               "start": 537,
                               "end": 576,
-                              "value": "unhandle exception happened in getter"
+                              "value": "unhandle exception happened in getter",
+                              "raw": "\"unhandle exception happened in getter\""
                             }
                           ]
                         }
@@ -299,7 +306,8 @@
                   "type": "Literal",
                   "start": 600,
                   "end": 604,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -472,13 +480,15 @@
             "type": "Literal",
             "start": 725,
             "end": 730,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 742,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

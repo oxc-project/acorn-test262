@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 447,
         "end": 451,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -123,7 +124,8 @@
                         "type": "Literal",
                         "start": 542,
                         "end": 565,
-                        "value": "var x; let test262Fn;"
+                        "value": "var x; let test262Fn;",
+                        "raw": "'var x; let test262Fn;'"
                       }
                     ],
                     "optional": false
@@ -202,7 +204,8 @@
             "type": "Literal",
             "start": 624,
             "end": 645,
-            "value": "no bindings created"
+            "value": "no bindings created",
+            "raw": "'no bindings created'"
           }
         ],
         "optional": false

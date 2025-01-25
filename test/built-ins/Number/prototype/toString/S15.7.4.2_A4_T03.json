@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 478,
             "end": 488,
-            "value": "toString"
+            "value": "toString",
+            "raw": "\"toString\""
           },
           {
             "type": "ObjectExpression",
@@ -212,7 +214,8 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 661,
-                  "value": "#1: Number.prototype.toString on not a Number object should throw TypeError"
+                  "value": "#1: Number.prototype.toString on not a Number object should throw TypeError",
+                  "raw": "'#1: Number.prototype.toString on not a Number object should throw TypeError'"
                 }
               ]
             }
@@ -271,7 +274,8 @@
                     "type": "Literal",
                     "start": 711,
                     "end": 785,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -312,7 +316,8 @@
                 "type": "Literal",
                 "start": 809,
                 "end": 810,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -455,7 +460,8 @@
                   "type": "Literal",
                   "start": 915,
                   "end": 992,
-                  "value": "#2: Number.prototype.toString on not a Number object should throw TypeError"
+                  "value": "#2: Number.prototype.toString on not a Number object should throw TypeError",
+                  "raw": "'#2: Number.prototype.toString on not a Number object should throw TypeError'"
                 }
               ]
             }
@@ -514,7 +520,8 @@
                     "type": "Literal",
                     "start": 1042,
                     "end": 1116,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

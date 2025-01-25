@@ -64,7 +64,8 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 412,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -103,7 +104,8 @@
                 "type": "Literal",
                 "start": 432,
                 "end": 447,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -142,7 +144,8 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 492,
-                "value": "a different description"
+                "value": "a different description",
+                "raw": "'a different description'"
               }
             ],
             "optional": false
@@ -330,7 +333,8 @@
             "type": "Literal",
             "start": 567,
             "end": 583,
-            "value": "Regular symbol"
+            "value": "Regular symbol",
+            "raw": "'Regular symbol'"
           }
         ],
         "optional": false
@@ -395,7 +399,8 @@
             "type": "Literal",
             "start": 606,
             "end": 664,
-            "value": "Symbols with the same description don't alias each other"
+            "value": "Symbols with the same description don't alias each other",
+            "raw": "\"Symbols with the same description don't alias each other\""
           }
         ],
         "optional": false
@@ -453,7 +458,8 @@
             "type": "Literal",
             "start": 686,
             "end": 729,
-            "value": "Regular symbol with different description"
+            "value": "Regular symbol with different description",
+            "raw": "'Regular symbol with different description'"
           }
         ],
         "optional": false
@@ -524,7 +530,8 @@
             "type": "Literal",
             "start": 766,
             "end": 785,
-            "value": "Well-known symbol"
+            "value": "Well-known symbol",
+            "raw": "'Well-known symbol'"
           }
         ],
         "optional": false

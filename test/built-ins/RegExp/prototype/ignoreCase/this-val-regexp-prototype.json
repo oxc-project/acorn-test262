@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 598,
-                  "value": "ignoreCase"
+                  "value": "ignoreCase",
+                  "raw": "'ignoreCase'"
                 }
               ],
               "optional": false

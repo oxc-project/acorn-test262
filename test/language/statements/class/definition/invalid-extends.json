@@ -65,7 +65,8 @@
                     "type": "Literal",
                     "start": 259,
                     "end": 261,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   },
                   "body": {
                     "type": "ClassBody",
@@ -265,7 +266,8 @@
                       "type": "Literal",
                       "start": 464,
                       "end": 466,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     }
                   }
                 },

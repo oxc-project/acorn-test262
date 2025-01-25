@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 490,
-                "value": "one"
+                "value": "one",
+                "raw": "\"one\""
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 497,
-                "value": "two"
+                "value": "two",
+                "raw": "\"two\""
               },
               {
                 "type": "Literal",
                 "start": 499,
                 "end": 506,
-                "value": "three"
+                "value": "three",
+                "raw": "\"three\""
               }
             ]
           }
@@ -108,13 +111,15 @@
               "type": "Literal",
               "start": 632,
               "end": 637,
-              "value": "new"
+              "value": "new",
+              "raw": "\"new\""
             },
             {
               "type": "Literal",
               "start": 639,
               "end": 646,
-              "value": "array"
+              "value": "array",
+              "raw": "\"array\""
             }
           ]
         }
@@ -166,7 +171,8 @@
                   "type": "Literal",
                   "start": 858,
                   "end": 988,
-                  "value": "#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items = new Array( \"new\", \"array\" ); items != itemsRef"
+                  "value": "#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items = new Array( \"new\", \"array\" ); items != itemsRef",
+                  "raw": "'#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items = new Array( \"new\", \"array\" ); items != itemsRef'"
                 }
               ]
             }

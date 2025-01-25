@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 907,
             "end": 908,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -407,7 +408,8 @@
                                           "type": "Literal",
                                           "start": 1242,
                                           "end": 1243,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       }
                                     },
@@ -535,7 +537,8 @@
                             "type": "Literal",
                             "start": 1339,
                             "end": 1372,
-                            "value": "The promise should be rejected."
+                            "value": "The promise should be rejected.",
+                            "raw": "'The promise should be rejected.'"
                           }
                         ],
                         "optional": false
@@ -647,7 +650,8 @@
                             "type": "Literal",
                             "start": 1459,
                             "end": 1460,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ],
                         "optional": false

@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 738,
             "end": 739,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -131,7 +132,8 @@
             "type": "Literal",
             "start": 797,
             "end": 800,
-            "value": "p"
+            "value": "p",
+            "raw": "'p'"
           },
           {
             "type": "ObjectExpression",
@@ -340,13 +342,15 @@
                 "type": "Literal",
                 "start": 954,
                 "end": 957,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               },
               {
                 "type": "Literal",
                 "start": 959,
                 "end": 961,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             ],
             "optional": false
@@ -393,13 +397,15 @@
             "type": "Literal",
             "start": 989,
             "end": 993,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1009,
-            "value": "returns true"
+            "value": "returns true",
+            "raw": "'returns true'"
           }
         ],
         "optional": false
@@ -456,13 +462,15 @@
             "type": "Literal",
             "start": 1042,
             "end": 1043,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1045,
             "end": 1085,
-            "value": "prototype `set` called with 1 argument"
+            "value": "prototype `set` called with 1 argument",
+            "raw": "'prototype `set` called with 1 argument'"
           }
         ],
         "optional": false
@@ -510,7 +518,8 @@
               "type": "Literal",
               "start": 1110,
               "end": 1111,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -519,13 +528,15 @@
             "type": "Literal",
             "start": 1114,
             "end": 1116,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1118,
             "end": 1150,
-            "value": "prototype `set` called with 42"
+            "value": "prototype `set` called with 42",
+            "raw": "'prototype `set` called with 42'"
           }
         ],
         "optional": false
@@ -575,7 +586,8 @@
             "type": "Literal",
             "start": 1185,
             "end": 1231,
-            "value": "prototype `set` called with target as `this`"
+            "value": "prototype `set` called with target as `this`",
+            "raw": "'prototype `set` called with target as `this`'"
           }
         ],
         "optional": false
@@ -619,13 +631,15 @@
             "type": "Literal",
             "start": 1258,
             "end": 1259,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1261,
             "end": 1290,
-            "value": "prototype `set` called once"
+            "value": "prototype `set` called once",
+            "raw": "'prototype `set` called once'"
           }
         ],
         "optional": false

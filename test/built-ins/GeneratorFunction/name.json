@@ -103,7 +103,8 @@
             "type": "Literal",
             "start": 890,
             "end": 896,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -127,7 +128,8 @@
                   "type": "Literal",
                   "start": 909,
                   "end": 928,
-                  "value": "GeneratorFunction"
+                  "value": "GeneratorFunction",
+                  "raw": "\"GeneratorFunction\""
                 },
                 "kind": "init"
               },
@@ -148,7 +150,8 @@
                   "type": "Literal",
                   "start": 942,
                   "end": 947,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -169,7 +172,8 @@
                   "type": "Literal",
                   "start": 963,
                   "end": 968,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -190,7 +194,8 @@
                   "type": "Literal",
                   "start": 986,
                   "end": 990,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

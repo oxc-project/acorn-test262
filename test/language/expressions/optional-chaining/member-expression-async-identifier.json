@@ -89,7 +89,8 @@
                       "type": "Literal",
                       "start": 489,
                       "end": 491,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     }
                   ],
                   "optional": false
@@ -249,7 +250,8 @@
                   "type": "Literal",
                   "start": 604,
                   "end": 606,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 }
               ],
               "optional": false
@@ -300,7 +302,8 @@
                 "type": "Literal",
                 "start": 636,
                 "end": 638,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             }
           },
@@ -417,13 +420,15 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 715,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 },
                 {
                   "type": "Literal",
                   "start": 717,
                   "end": 792,
-                  "value": "await unwraps the evaluation of the whole optional chaining expression #1"
+                  "value": "await unwraps the evaluation of the whole optional chaining expression #1",
+                  "raw": "'await unwraps the evaluation of the whole optional chaining expression #1'"
                 }
               ],
               "optional": false
@@ -474,7 +479,8 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 822,
-                "value": 43
+                "value": 43,
+                "raw": "43"
               }
             }
           },
@@ -591,13 +597,15 @@
                   "type": "Literal",
                   "start": 896,
                   "end": 898,
-                  "value": 43
+                  "value": 43,
+                  "raw": "43"
                 },
                 {
                   "type": "Literal",
                   "start": 900,
                   "end": 975,
-                  "value": "await unwraps the evaluation of the whole optional chaining expression #2"
+                  "value": "await unwraps the evaluation of the whole optional chaining expression #2",
+                  "raw": "'await unwraps the evaluation of the whole optional chaining expression #2'"
                 }
               ],
               "optional": false
@@ -659,7 +667,8 @@
                     "type": "Literal",
                     "start": 1005,
                     "end": 1007,
-                    "value": 39
+                    "value": 39,
+                    "raw": "39"
                   }
                 ],
                 "optional": false
@@ -727,13 +736,15 @@
                   "type": "Literal",
                   "start": 1041,
                   "end": 1043,
-                  "value": 39
+                  "value": 39,
+                  "raw": "39"
                 },
                 {
                   "type": "Literal",
                   "start": 1045,
                   "end": 1110,
-                  "value": "await unwraps the promise given after the evaluation of the OCE"
+                  "value": "await unwraps the promise given after the evaluation of the OCE",
+                  "raw": "'await unwraps the promise given after the evaluation of the OCE'"
                 }
               ],
               "optional": false

@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 529,
                               "end": 537,
-                              "value": 66304
+                              "value": 66304,
+                              "raw": "0x010300"
                             },
                             {
                               "type": "Literal",
                               "start": 539,
                               "end": 547,
-                              "value": 66339
+                              "value": 66339,
+                              "raw": "0x010323"
                             }
                           ]
                         },
@@ -101,13 +103,15 @@
                               "type": "Literal",
                               "start": 555,
                               "end": 563,
-                              "value": 66349
+                              "value": 66349,
+                              "raw": "0x01032D"
                             },
                             {
                               "type": "Literal",
                               "start": 565,
                               "end": 573,
-                              "value": 66351
+                              "value": 66351,
+                              "raw": "0x01032F"
                             }
                           ]
                         }
@@ -144,6 +148,7 @@
             "start": 606,
             "end": 633,
             "value": {},
+            "raw": "/^\\p{Script=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_Italic}+$",
               "flags": "u"
@@ -159,7 +164,8 @@
             "type": "Literal",
             "start": 653,
             "end": 677,
-            "value": "\\p{Script=Old_Italic}"
+            "value": "\\p{Script=Old_Italic}",
+            "raw": "\"\\\\p{Script=Old_Italic}\""
           }
         ],
         "optional": false
@@ -185,6 +191,7 @@
             "start": 704,
             "end": 725,
             "value": {},
+            "raw": "/^\\p{Script=Ital}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ital}+$",
               "flags": "u"
@@ -200,7 +207,8 @@
             "type": "Literal",
             "start": 745,
             "end": 763,
-            "value": "\\p{Script=Ital}"
+            "value": "\\p{Script=Ital}",
+            "raw": "\"\\\\p{Script=Ital}\""
           }
         ],
         "optional": false
@@ -226,6 +234,7 @@
             "start": 790,
             "end": 813,
             "value": {},
+            "raw": "/^\\p{sc=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_Italic}+$",
               "flags": "u"
@@ -241,7 +250,8 @@
             "type": "Literal",
             "start": 833,
             "end": 853,
-            "value": "\\p{sc=Old_Italic}"
+            "value": "\\p{sc=Old_Italic}",
+            "raw": "\"\\\\p{sc=Old_Italic}\""
           }
         ],
         "optional": false
@@ -267,6 +277,7 @@
             "start": 880,
             "end": 897,
             "value": {},
+            "raw": "/^\\p{sc=Ital}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ital}+$",
               "flags": "u"
@@ -282,7 +293,8 @@
             "type": "Literal",
             "start": 917,
             "end": 931,
-            "value": "\\p{sc=Ital}"
+            "value": "\\p{sc=Ital}",
+            "raw": "\"\\\\p{sc=Ital}\""
           }
         ],
         "optional": false
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1013,
                               "end": 1021,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1023,
                               "end": 1031,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1039,
                               "end": 1047,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1049,
                               "end": 1057,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1065,
                               "end": 1073,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1075,
                               "end": 1083,
-                              "value": 66303
+                              "value": 66303,
+                              "raw": "0x0102FF"
                             }
                           ]
                         },
@@ -424,13 +442,15 @@
                               "type": "Literal",
                               "start": 1091,
                               "end": 1099,
-                              "value": 66340
+                              "value": 66340,
+                              "raw": "0x010324"
                             },
                             {
                               "type": "Literal",
                               "start": 1101,
                               "end": 1109,
-                              "value": 66348
+                              "value": 66348,
+                              "raw": "0x01032C"
                             }
                           ]
                         },
@@ -443,13 +463,15 @@
                               "type": "Literal",
                               "start": 1117,
                               "end": 1125,
-                              "value": 66352
+                              "value": 66352,
+                              "raw": "0x010330"
                             },
                             {
                               "type": "Literal",
                               "start": 1127,
                               "end": 1135,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -486,6 +508,7 @@
             "start": 1168,
             "end": 1195,
             "value": {},
+            "raw": "/^\\P{Script=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_Italic}+$",
               "flags": "u"
@@ -501,7 +524,8 @@
             "type": "Literal",
             "start": 1218,
             "end": 1242,
-            "value": "\\P{Script=Old_Italic}"
+            "value": "\\P{Script=Old_Italic}",
+            "raw": "\"\\\\P{Script=Old_Italic}\""
           }
         ],
         "optional": false
@@ -527,6 +551,7 @@
             "start": 1269,
             "end": 1290,
             "value": {},
+            "raw": "/^\\P{Script=Ital}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ital}+$",
               "flags": "u"
@@ -542,7 +567,8 @@
             "type": "Literal",
             "start": 1313,
             "end": 1331,
-            "value": "\\P{Script=Ital}"
+            "value": "\\P{Script=Ital}",
+            "raw": "\"\\\\P{Script=Ital}\""
           }
         ],
         "optional": false
@@ -568,6 +594,7 @@
             "start": 1358,
             "end": 1381,
             "value": {},
+            "raw": "/^\\P{sc=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_Italic}+$",
               "flags": "u"
@@ -583,7 +610,8 @@
             "type": "Literal",
             "start": 1404,
             "end": 1424,
-            "value": "\\P{sc=Old_Italic}"
+            "value": "\\P{sc=Old_Italic}",
+            "raw": "\"\\\\P{sc=Old_Italic}\""
           }
         ],
         "optional": false
@@ -609,6 +637,7 @@
             "start": 1451,
             "end": 1468,
             "value": {},
+            "raw": "/^\\P{sc=Ital}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ital}+$",
               "flags": "u"
@@ -624,7 +653,8 @@
             "type": "Literal",
             "start": 1491,
             "end": 1505,
-            "value": "\\P{sc=Ital}"
+            "value": "\\P{sc=Ital}",
+            "raw": "\"\\\\P{sc=Ital}\""
           }
         ],
         "optional": false

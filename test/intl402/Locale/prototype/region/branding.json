@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 567,
-                "value": "region"
+                "value": "region",
+                "raw": "\"region\""
               }
             ],
             "optional": false
@@ -117,19 +118,22 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 613,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 621,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 627,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "CallExpression",
@@ -148,7 +152,8 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 644,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "ObjectExpression",

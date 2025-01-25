@@ -21,7 +21,8 @@
             "type": "Literal",
             "start": 1143,
             "end": 1145,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       }

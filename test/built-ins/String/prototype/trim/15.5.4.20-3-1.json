@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 272,
             "end": 298,
-            "value": "\n\r  "
+            "value": "\n\r  ",
+            "raw": "\"\\u000A\\u000D\\u2028\\u2029\""
           }
         }
       ],
@@ -86,13 +87,15 @@
             "type": "Literal",
             "start": 345,
             "end": 347,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 376,
-            "value": "lineTerminatorsStr.trim()"
+            "value": "lineTerminatorsStr.trim()",
+            "raw": "'lineTerminatorsStr.trim()'"
           }
         ],
         "optional": false

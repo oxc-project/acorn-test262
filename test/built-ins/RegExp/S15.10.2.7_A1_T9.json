@@ -31,6 +31,7 @@
                 "start": 369,
                 "end": 380,
                 "value": {},
+                "raw": "/b{42,93}c/",
                 "regex": {
                   "pattern": "b{42,93}c",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 409,
-                "value": "aaabbbbcccddeeeefffff"
+                "value": "aaabbbbcccddeeeefffff",
+                "raw": "\"aaabbbbcccddeeeefffff\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 433,
             "end": 482,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

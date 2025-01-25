@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 326,
                   "end": 329,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "'A'"
                 },
                 "kind": "init"
               },
@@ -109,7 +110,8 @@
                               "type": "Literal",
                               "start": 375,
                               "end": 378,
-                              "value": "c"
+                              "value": "c",
+                              "raw": "'c'"
                             },
                             {
                               "type": "ObjectExpression",
@@ -133,7 +135,8 @@
                                     "type": "Literal",
                                     "start": 400,
                                     "end": 405,
-                                    "value": false
+                                    "value": false,
+                                    "raw": "false"
                                   },
                                   "kind": "init"
                                 }
@@ -151,7 +154,8 @@
                           "type": "Literal",
                           "start": 425,
                           "end": 428,
-                          "value": "B"
+                          "value": "B",
+                          "raw": "'B'"
                         }
                       }
                     ]
@@ -175,7 +179,8 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 443,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "'C'"
                 },
                 "kind": "init"
               }
@@ -302,13 +307,15 @@
             "type": "Literal",
             "start": 528,
             "end": 532,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 554,
-            "value": "result is an array"
+            "value": "result is an array",
+            "raw": "'result is an array'"
           }
         ],
         "optional": false
@@ -365,13 +372,15 @@
             "type": "Literal",
             "start": 589,
             "end": 590,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 612,
-            "value": "result has 2 items"
+            "value": "result has 2 items",
+            "raw": "'result has 2 items'"
           }
         ],
         "optional": false
@@ -419,7 +428,8 @@
               "type": "Literal",
               "start": 640,
               "end": 641,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -428,13 +438,15 @@
             "type": "Literal",
             "start": 644,
             "end": 647,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 669,
-            "value": "first value is \"A\""
+            "value": "first value is \"A\"",
+            "raw": "'first value is \"A\"'"
           }
         ],
         "optional": false
@@ -482,7 +494,8 @@
               "type": "Literal",
               "start": 696,
               "end": 697,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -491,13 +504,15 @@
             "type": "Literal",
             "start": 700,
             "end": 703,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 705,
             "end": 726,
-            "value": "second value is \"B\""
+            "value": "second value is \"B\"",
+            "raw": "'second value is \"B\"'"
           }
         ],
         "optional": false

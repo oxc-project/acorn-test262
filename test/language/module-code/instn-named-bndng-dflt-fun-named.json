@@ -48,13 +48,15 @@
             "type": "Literal",
             "start": 1633,
             "end": 1635,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           },
           {
             "type": "Literal",
             "start": 1637,
             "end": 1664,
-            "value": "function value is hoisted"
+            "value": "function value is hoisted",
+            "raw": "'function value is hoisted'"
           }
         ],
         "optional": false
@@ -111,13 +113,15 @@
             "type": "Literal",
             "start": 1692,
             "end": 1699,
-            "value": "fName"
+            "value": "fName",
+            "raw": "'fName'"
           },
           {
             "type": "Literal",
             "start": 1701,
             "end": 1727,
-            "value": "correct name is assigned"
+            "value": "correct name is assigned",
+            "raw": "'correct name is assigned'"
           }
         ],
         "optional": false
@@ -144,7 +148,8 @@
         "type": "Literal",
         "start": 1745,
         "end": 1784,
-        "value": "./instn-named-bndng-dflt-fun-named.js"
+        "value": "./instn-named-bndng-dflt-fun-named.js",
+        "raw": "'./instn-named-bndng-dflt-fun-named.js'"
       },
       "attributes": []
     },
@@ -179,7 +184,8 @@
                 "type": "Literal",
                 "start": 1827,
                 "end": 1829,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               }
             }
           ]

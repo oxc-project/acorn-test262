@@ -233,13 +233,15 @@
             "type": "Literal",
             "start": 1347,
             "end": 1351,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1353,
             "end": 1385,
-            "value": "iteration occurred as expected"
+            "value": "iteration occurred as expected",
+            "raw": "'iteration occurred as expected'"
           }
         ],
         "optional": false

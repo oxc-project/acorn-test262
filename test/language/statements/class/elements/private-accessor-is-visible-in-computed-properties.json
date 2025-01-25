@@ -143,7 +143,8 @@
                           "type": "Literal",
                           "start": 1067,
                           "end": 1076,
-                          "value": "Test262"
+                          "value": "Test262",
+                          "raw": "'Test262'"
                         }
                       }
                     ]
@@ -156,7 +157,8 @@
             "type": "Literal",
             "start": 1085,
             "end": 1135,
-            "value": "access to a private acessor from ordinary object"
+            "value": "access to a private acessor from ordinary object",
+            "raw": "'access to a private acessor from ordinary object'"
           }
         ],
         "optional": false

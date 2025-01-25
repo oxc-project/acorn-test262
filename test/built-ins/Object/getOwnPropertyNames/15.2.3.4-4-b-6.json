@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 285,
                   "end": 288,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 290,
                   "end": 293,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 },
                 "kind": "init"
               }
@@ -149,7 +151,8 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 391,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 }
               ],
               "optional": false
@@ -183,7 +186,8 @@
             "type": "Literal",
             "start": 409,
             "end": 410,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -237,7 +241,8 @@
                   "type": "Literal",
                   "start": 455,
                   "end": 458,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 }
               ],
               "optional": false
@@ -272,7 +277,8 @@
             "type": "Literal",
             "start": 485,
             "end": 509,
-            "value": "beforeDeleted !== true"
+            "value": "beforeDeleted !== true",
+            "raw": "'beforeDeleted !== true'"
           }
         ],
         "optional": false
@@ -316,13 +322,15 @@
             "type": "Literal",
             "start": 543,
             "end": 548,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 564,
-            "value": "afterDeleted"
+            "value": "afterDeleted",
+            "raw": "'afterDeleted'"
           }
         ],
         "optional": false

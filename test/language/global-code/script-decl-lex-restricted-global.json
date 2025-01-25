@@ -40,7 +40,8 @@
             "type": "Literal",
             "start": 734,
             "end": 755,
-            "value": "test262Configurable"
+            "value": "test262Configurable",
+            "raw": "'test262Configurable'"
           },
           {
             "type": "ObjectExpression",
@@ -64,7 +65,8 @@
                   "type": "Literal",
                   "start": 773,
                   "end": 777,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -111,7 +113,8 @@
             "type": "Literal",
             "start": 810,
             "end": 834,
-            "value": "test262NonConfigurable"
+            "value": "test262NonConfigurable",
+            "raw": "'test262NonConfigurable'"
           },
           {
             "type": "ObjectExpression",
@@ -135,7 +138,8 @@
                   "type": "Literal",
                   "start": 852,
                   "end": 857,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -177,7 +181,8 @@
             "type": "Literal",
             "start": 879,
             "end": 905,
-            "value": "let test262Configurable;"
+            "value": "let test262Configurable;",
+            "raw": "'let test262Configurable;'"
           }
         ],
         "optional": false
@@ -263,7 +268,8 @@
                         "type": "Literal",
                         "start": 967,
                         "end": 1003,
-                        "value": "var x; let test262NonConfigurable;"
+                        "value": "var x; let test262NonConfigurable;",
+                        "raw": "'var x; let test262NonConfigurable;'"
                       }
                     ],
                     "optional": false

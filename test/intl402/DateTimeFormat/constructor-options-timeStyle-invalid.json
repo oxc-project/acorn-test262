@@ -1,63 +1,69 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 849,
+  "end": 847,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 534,
-      "end": 625,
+      "start": 532,
+      "end": 623,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 540,
-          "end": 624,
+          "start": 538,
+          "end": 622,
           "id": {
             "type": "Identifier",
-            "start": 540,
-            "end": 554,
+            "start": 538,
+            "end": 552,
             "name": "invalidOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 557,
-            "end": 624,
+            "start": 555,
+            "end": 622,
             "elements": [
               {
                 "type": "Literal",
-                "start": 561,
-                "end": 563,
-                "value": ""
+                "start": 559,
+                "end": 561,
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
-                "start": 567,
-                "end": 573,
-                "value": "FULL"
+                "start": 565,
+                "end": 571,
+                "value": "FULL",
+                "raw": "\"FULL\""
               },
               {
                 "type": "Literal",
-                "start": 577,
-                "end": 584,
-                "value": " long"
+                "start": 575,
+                "end": 582,
+                "value": " long",
+                "raw": "\" long\""
               },
               {
                 "type": "Literal",
-                "start": 588,
-                "end": 596,
-                "value": "short "
+                "start": 586,
+                "end": 594,
+                "value": "short ",
+                "raw": "\"short \""
               },
               {
                 "type": "Literal",
-                "start": 600,
-                "end": 608,
-                "value": "narrow"
+                "start": 598,
+                "end": 606,
+                "value": "narrow",
+                "raw": "\"narrow\""
               },
               {
                 "type": "Literal",
-                "start": 612,
-                "end": 621,
-                "value": "numeric"
+                "start": 610,
+                "end": 619,
+                "value": "numeric",
+                "raw": "\"numeric\""
               }
             ]
           }
@@ -67,22 +73,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 626,
-      "end": 848,
+      "start": 624,
+      "end": 846,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 631,
-        "end": 646,
+        "start": 629,
+        "end": 644,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 637,
-            "end": 646,
+            "start": 635,
+            "end": 644,
             "id": {
               "type": "Identifier",
-              "start": 637,
-              "end": 646,
+              "start": 635,
+              "end": 644,
               "name": "timeStyle"
             },
             "init": null
@@ -92,37 +98,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 650,
-        "end": 664,
+        "start": 648,
+        "end": 662,
         "name": "invalidOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 666,
-        "end": 848,
+        "start": 664,
+        "end": 846,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 670,
-            "end": 846,
+            "start": 668,
+            "end": 844,
             "expression": {
               "type": "CallExpression",
-              "start": 670,
-              "end": 845,
+              "start": 668,
+              "end": 843,
               "callee": {
                 "type": "MemberExpression",
-                "start": 670,
-                "end": 683,
+                "start": 668,
+                "end": 681,
                 "object": {
                   "type": "Identifier",
-                  "start": 670,
-                  "end": 676,
+                  "start": 668,
+                  "end": 674,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 677,
-                  "end": 683,
+                  "start": 675,
+                  "end": 681,
                   "name": "throws"
                 },
                 "computed": false,
@@ -131,14 +137,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 684,
-                  "end": 694,
+                  "start": 682,
+                  "end": 692,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 696,
-                  "end": 762,
+                  "start": 694,
+                  "end": 760,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -146,31 +152,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 707,
-                    "end": 762,
+                    "start": 705,
+                    "end": 760,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 713,
-                        "end": 758,
+                        "start": 711,
+                        "end": 756,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 713,
-                          "end": 757,
+                          "start": 711,
+                          "end": 755,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 717,
-                            "end": 736,
+                            "start": 715,
+                            "end": 734,
                             "object": {
                               "type": "Identifier",
-                              "start": 717,
-                              "end": 721,
+                              "start": 715,
+                              "end": 719,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 722,
-                              "end": 736,
+                              "start": 720,
+                              "end": 734,
                               "name": "DateTimeFormat"
                             },
                             "computed": false,
@@ -179,33 +185,34 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 737,
-                              "end": 741,
-                              "value": "en"
+                              "start": 735,
+                              "end": 739,
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 743,
-                              "end": 756,
+                              "start": 741,
+                              "end": 754,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 745,
-                                  "end": 754,
+                                  "start": 743,
+                                  "end": 752,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 745,
-                                    "end": 754,
+                                    "start": 743,
+                                    "end": 752,
                                     "name": "timeStyle"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 745,
-                                    "end": 754,
+                                    "start": 743,
+                                    "end": 752,
                                     "name": "timeStyle"
                                   }
                                 }
@@ -219,21 +226,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 764,
-                  "end": 844,
+                  "start": 762,
+                  "end": 842,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 811,
-                      "end": 820,
+                      "start": 809,
+                      "end": 818,
                       "name": "timeStyle"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 765,
-                      "end": 809,
+                      "start": 763,
+                      "end": 807,
                       "value": {
                         "raw": "new Intl.DateTimeFormat(\"en\", { timeStyle: \"",
                         "cooked": "new Intl.DateTimeFormat(\"en\", { timeStyle: \""
@@ -242,8 +249,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 821,
-                      "end": 843,
+                      "start": 819,
+                      "end": 841,
                       "value": {
                         "raw": "\" }) throws RangeError",
                         "cooked": "\" }) throws RangeError"

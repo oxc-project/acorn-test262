@@ -158,6 +158,7 @@
             "start": 753,
             "end": 756,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -235,7 +236,8 @@
                         "type": "Literal",
                         "start": 803,
                         "end": 804,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -250,13 +252,15 @@
                         "type": "Literal",
                         "start": 810,
                         "end": 811,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "value": {
                         "type": "Literal",
                         "start": 813,
                         "end": 816,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       },
                       "kind": "init"
                     },
@@ -358,13 +362,15 @@
                 "type": "Literal",
                 "start": 880,
                 "end": 884,
-                "value": "ab"
+                "value": "ab",
+                "raw": "'ab'"
               },
               {
                 "type": "Literal",
                 "start": 886,
                 "end": 890,
-                "value": "$`"
+                "value": "$`",
+                "raw": "'$`'"
               }
             ],
             "optional": false
@@ -373,7 +379,8 @@
             "type": "Literal",
             "start": 893,
             "end": 896,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           }
         ],
         "optional": false
@@ -417,7 +424,8 @@
             "type": "Literal",
             "start": 933,
             "end": 941,
-            "value": "number"
+            "value": "number",
+            "raw": "'number'"
           }
         ],
         "optional": false

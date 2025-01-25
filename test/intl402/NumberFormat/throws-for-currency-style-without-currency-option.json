@@ -191,7 +191,8 @@
                               "type": "Literal",
                               "start": 460,
                               "end": 470,
-                              "value": "currency"
+                              "value": "currency",
+                              "raw": "\"currency\""
                             },
                             "kind": "init"
                           }
@@ -207,7 +208,8 @@
             "type": "Literal",
             "start": 477,
             "end": 532,
-            "value": "Throws TypeError when currency code is not specified."
+            "value": "Throws TypeError when currency code is not specified.",
+            "raw": "\"Throws TypeError when currency code is not specified.\""
           }
         ],
         "optional": false
@@ -309,7 +311,8 @@
                               "type": "Literal",
                               "start": 629,
                               "end": 640,
-                              "value": "-u-cu-krw"
+                              "value": "-u-cu-krw",
+                              "raw": "\"-u-cu-krw\""
                             }
                           }
                         ]
@@ -336,7 +339,8 @@
                               "type": "Literal",
                               "start": 651,
                               "end": 661,
-                              "value": "currency"
+                              "value": "currency",
+                              "raw": "\"currency\""
                             },
                             "kind": "init"
                           }
@@ -352,7 +356,8 @@
             "type": "Literal",
             "start": 668,
             "end": 788,
-            "value": "Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored."
+            "value": "Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.",
+            "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\""
           }
         ],
         "optional": false

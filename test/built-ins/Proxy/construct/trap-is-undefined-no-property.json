@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 786,
             "end": 787,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -107,7 +108,8 @@
                             "type": "Literal",
                             "start": 867,
                             "end": 896,
-                            "value": "target should not be called"
+                            "value": "target should not be called",
+                            "raw": "'target should not be called'"
                           }
                         ]
                       }
@@ -185,7 +187,8 @@
                                 "type": "Literal",
                                 "start": 967,
                                 "end": 968,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           },
@@ -252,7 +255,8 @@
                                         "type": "Literal",
                                         "start": 1027,
                                         "end": 1028,
-                                        "value": 0
+                                        "value": 0,
+                                        "raw": "0"
                                       },
                                       "computed": true,
                                       "optional": false
@@ -272,7 +276,8 @@
                                         "type": "Literal",
                                         "start": 1037,
                                         "end": 1038,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       },
                                       "computed": true,
                                       "optional": false
@@ -429,13 +434,15 @@
                     "type": "Literal",
                     "start": 1149,
                     "end": 1150,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   },
                   {
                     "type": "Literal",
                     "start": 1152,
                     "end": 1153,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   }
                 ]
               },
@@ -490,13 +497,15 @@
             "type": "Literal",
             "start": 1193,
             "end": 1194,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1196,
             "end": 1249,
-            "value": "construct is missing: [[Construct]] is invoked once"
+            "value": "construct is missing: [[Construct]] is invoked once",
+            "raw": "\"construct is missing: [[Construct]] is invoked once\""
           }
         ],
         "optional": false
@@ -546,7 +555,8 @@
             "type": "Literal",
             "start": 1292,
             "end": 1352,
-            "value": "construct is missing: NewTarget is passed to [[Construct]]"
+            "value": "construct is missing: NewTarget is passed to [[Construct]]",
+            "raw": "\"construct is missing: NewTarget is passed to [[Construct]]\""
           }
         ],
         "optional": false
@@ -603,13 +613,15 @@
             "type": "Literal",
             "start": 1381,
             "end": 1382,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 1384,
             "end": 1443,
-            "value": "construct is missing: result of [[Construct]] is returned"
+            "value": "construct is missing: result of [[Construct]] is returned",
+            "raw": "\"construct is missing: result of [[Construct]] is returned\""
           }
         ],
         "optional": false

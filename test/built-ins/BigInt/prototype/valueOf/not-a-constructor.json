@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 765,
             "end": 770,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 833,
-            "value": "isConstructor(BigInt.prototype.valueOf) must return false"
+            "value": "isConstructor(BigInt.prototype.valueOf) must return false",
+            "raw": "'isConstructor(BigInt.prototype.valueOf) must return false'"
           }
         ],
         "optional": false
@@ -160,7 +162,8 @@
                         "type": "Literal",
                         "start": 881,
                         "end": 883,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     }
                   ],

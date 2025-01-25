@@ -113,7 +113,8 @@
                   "type": "Literal",
                   "start": 407,
                   "end": 505,
-                  "value": "#1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" lead to throwing exception"
+                  "value": "#1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" lead to throwing exception",
+                  "raw": "'#1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" lead to throwing exception'"
                 }
               ]
             }
@@ -171,7 +172,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 561,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +204,8 @@
                             "type": "Literal",
                             "start": 592,
                             "end": 693,
-                            "value": "#1.1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" throw a TypeError. Actual: "
+                            "value": "#1.1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" throw a TypeError. Actual: ",
+                            "raw": "'#1.1: __FACTORY = String.prototype.search; \"__instance = new __FACTORY\" throw a TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

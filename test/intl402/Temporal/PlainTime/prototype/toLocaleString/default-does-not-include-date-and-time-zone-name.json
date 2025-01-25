@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": 46
+                "value": 46,
+                "raw": "46"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
-                "value": 40
+                "value": 40,
+                "raw": "40"
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 343,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -115,7 +119,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
-                "value": "en"
+                "value": "en",
+                "raw": "\"en\""
               },
               {
                 "type": "ObjectExpression",
@@ -139,7 +144,8 @@
                       "type": "Literal",
                       "start": 404,
                       "end": 409,
-                      "value": "UTC"
+                      "value": "UTC",
+                      "raw": "\"UTC\""
                     },
                     "kind": "init"
                   }
@@ -201,7 +207,8 @@
                   "type": "Literal",
                   "start": 439,
                   "end": 445,
-                  "value": "1970"
+                  "value": "1970",
+                  "raw": "\"1970\""
                 }
               ],
               "optional": false
@@ -299,7 +306,8 @@
                     "type": "Literal",
                     "start": 546,
                     "end": 550,
-                    "value": "01"
+                    "value": "01",
+                    "raw": "\"01\""
                   }
                 ],
                 "optional": false
@@ -340,7 +348,8 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 577,
-                    "value": "Jan"
+                    "value": "Jan",
+                    "raw": "\"Jan\""
                   }
                 ],
                 "optional": false
@@ -429,7 +438,8 @@
                 "type": "Literal",
                 "start": 685,
                 "end": 689,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               }
             ],
             "optional": false
@@ -516,7 +526,8 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 789,
-                "value": "46"
+                "value": "46",
+                "raw": "\"46\""
               }
             ],
             "optional": false
@@ -603,7 +614,8 @@
                 "type": "Literal",
                 "start": 887,
                 "end": 891,
-                "value": "40"
+                "value": "40",
+                "raw": "\"40\""
               }
             ],
             "optional": false
@@ -696,7 +708,8 @@
                   "type": "Literal",
                   "start": 990,
                   "end": 995,
-                  "value": "321"
+                  "value": "321",
+                  "raw": "\"321\""
                 }
               ],
               "optional": false
@@ -794,7 +807,8 @@
                     "type": "Literal",
                     "start": 1119,
                     "end": 1124,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   }
                 ],
                 "optional": false
@@ -835,7 +849,8 @@
                     "type": "Literal",
                     "start": 1146,
                     "end": 1174,
-                    "value": "Coordinated Universal Time"
+                    "value": "Coordinated Universal Time",
+                    "raw": "\"Coordinated Universal Time\""
                   }
                 ],
                 "optional": false

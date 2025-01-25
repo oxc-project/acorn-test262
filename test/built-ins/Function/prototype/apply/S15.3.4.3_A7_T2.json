@@ -30,19 +30,22 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 431,
-                "value": "a1,a2"
+                "value": "a1,a2",
+                "raw": "\"a1,a2\""
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 437,
-                "value": "a3"
+                "value": "a3",
+                "raw": "\"a3\""
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 457,
-                "value": "this.shifted=a2;"
+                "value": "this.shifted=a2;",
+                "raw": "\"this.shifted=a2;\""
               }
             ]
           },
@@ -60,7 +63,8 @@
             "type": "Literal",
             "start": 465,
             "end": 469,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "ArrayExpression",
@@ -71,19 +75,22 @@
                 "type": "Literal",
                 "start": 472,
                 "end": 473,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 476,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 479,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -132,7 +139,8 @@
               "type": "Literal",
               "start": 506,
               "end": 515,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -141,13 +149,15 @@
             "type": "Literal",
             "start": 518,
             "end": 519,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 571,
-            "value": "The value of this[\"shifted\"] is expected to be 2"
+            "value": "The value of this[\"shifted\"] is expected to be 2",
+            "raw": "'The value of this[\"shifted\"] is expected to be 2'"
           }
         ],
         "optional": false

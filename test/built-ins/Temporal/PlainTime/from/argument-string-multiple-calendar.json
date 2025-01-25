@@ -27,49 +27,57 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 360,
-                "value": "00:00[u-ca=iso8601][!u-ca=iso8601]"
+                "value": "00:00[u-ca=iso8601][!u-ca=iso8601]",
+                "raw": "\"00:00[u-ca=iso8601][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 400,
-                "value": "00:00[!u-ca=iso8601][u-ca=iso8601]"
+                "value": "00:00[!u-ca=iso8601][u-ca=iso8601]",
+                "raw": "\"00:00[!u-ca=iso8601][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 404,
                 "end": 445,
-                "value": "00:00[UTC][u-ca=iso8601][!u-ca=iso8601]"
+                "value": "00:00[UTC][u-ca=iso8601][!u-ca=iso8601]",
+                "raw": "\"00:00[UTC][u-ca=iso8601][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 449,
                 "end": 494,
-                "value": "00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]"
+                "value": "00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]",
+                "raw": "\"00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 545,
-                "value": "1970-01-01T00:00[u-ca=iso8601][!u-ca=iso8601]"
+                "value": "1970-01-01T00:00[u-ca=iso8601][!u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[u-ca=iso8601][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 549,
                 "end": 596,
-                "value": "1970-01-01T00:00[!u-ca=iso8601][u-ca=iso8601]"
+                "value": "1970-01-01T00:00[!u-ca=iso8601][u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[!u-ca=iso8601][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 600,
                 "end": 652,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 656,
                 "end": 712,
-                "value": "1970-01-01T00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]"
+                "value": "1970-01-01T00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[u-ca=iso8601][foo=bar][!u-ca=iso8601]\""
               }
             ]
           }

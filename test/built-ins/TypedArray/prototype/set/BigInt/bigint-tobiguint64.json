@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 2113,
                 "end": 2134,
-                "value": "18446744073709551618n"
+                "value": "18446744073709551618n",
+                "raw": "18446744073709551618n"
               },
               {
                 "type": "Literal",
                 "start": 2156,
                 "end": 2176,
-                "value": "9223372036854775810n"
+                "value": "9223372036854775810n",
+                "raw": "9223372036854775810n"
               },
               {
                 "type": "Literal",
                 "start": 2198,
                 "end": 2200,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               },
               {
                 "type": "Literal",
                 "start": 2204,
                 "end": 2206,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "UnaryExpression",
@@ -57,7 +61,8 @@
                   "type": "Literal",
                   "start": 2211,
                   "end": 2213,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               },
               {
@@ -70,7 +75,8 @@
                   "type": "Literal",
                   "start": 2218,
                   "end": 2238,
-                  "value": "9223372036854775810n"
+                  "value": "9223372036854775810n",
+                  "raw": "9223372036854775810n"
                 }
               },
               {
@@ -83,7 +89,8 @@
                   "type": "Literal",
                   "start": 2264,
                   "end": 2285,
-                  "value": "18446744073709551618n"
+                  "value": "18446744073709551618n",
+                  "raw": "18446744073709551618n"
                 }
               }
             ]
@@ -223,7 +230,8 @@
               "type": "Literal",
               "start": 2413,
               "end": 2414,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -232,13 +240,15 @@
             "type": "Literal",
             "start": 2417,
             "end": 2419,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 2438,
             "end": 2473,
-            "value": "ToBigUint64(2n ** 64n + 2n) => 2n"
+            "value": "ToBigUint64(2n ** 64n + 2n) => 2n",
+            "raw": "\"ToBigUint64(2n ** 64n + 2n) => 2n\""
           }
         ],
         "optional": false
@@ -286,7 +296,8 @@
               "type": "Literal",
               "start": 2505,
               "end": 2506,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -295,13 +306,15 @@
             "type": "Literal",
             "start": 2509,
             "end": 2529,
-            "value": "9223372036854775810n"
+            "value": "9223372036854775810n",
+            "raw": "9223372036854775810n"
           },
           {
             "type": "Literal",
             "start": 2566,
             "end": 2618,
-            "value": "ToBigUint64(2n ** 63n + 2n) => 9223372036854775810"
+            "value": "ToBigUint64(2n ** 63n + 2n) => 9223372036854775810",
+            "raw": "\"ToBigUint64(2n ** 63n + 2n) => 9223372036854775810\""
           }
         ],
         "optional": false
@@ -349,7 +362,8 @@
               "type": "Literal",
               "start": 2650,
               "end": 2651,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -358,13 +372,15 @@
             "type": "Literal",
             "start": 2654,
             "end": 2656,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 2675,
             "end": 2698,
-            "value": "ToBigUint64(2n) => 2n"
+            "value": "ToBigUint64(2n) => 2n",
+            "raw": "\"ToBigUint64(2n) => 2n\""
           }
         ],
         "optional": false
@@ -412,7 +428,8 @@
               "type": "Literal",
               "start": 2730,
               "end": 2731,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
@@ -421,13 +438,15 @@
             "type": "Literal",
             "start": 2734,
             "end": 2736,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 2755,
             "end": 2778,
-            "value": "ToBigUint64(0n) => 0n"
+            "value": "ToBigUint64(0n) => 0n",
+            "raw": "\"ToBigUint64(0n) => 0n\""
           }
         ],
         "optional": false
@@ -475,7 +494,8 @@
               "type": "Literal",
               "start": 2810,
               "end": 2811,
-              "value": 4
+              "value": 4,
+              "raw": "4"
             },
             "computed": true,
             "optional": false
@@ -484,13 +504,15 @@
             "type": "Literal",
             "start": 2814,
             "end": 2835,
-            "value": "18446744073709551614n"
+            "value": "18446744073709551614n",
+            "raw": "18446744073709551614n"
           },
           {
             "type": "Literal",
             "start": 2872,
             "end": 2916,
-            "value": "ToBigUint64( -2n) => 18446744073709551614n"
+            "value": "ToBigUint64( -2n) => 18446744073709551614n",
+            "raw": "\"ToBigUint64( -2n) => 18446744073709551614n\""
           }
         ],
         "optional": false
@@ -538,7 +560,8 @@
               "type": "Literal",
               "start": 2948,
               "end": 2949,
-              "value": 5
+              "value": 5,
+              "raw": "5"
             },
             "computed": true,
             "optional": false
@@ -547,13 +570,15 @@
             "type": "Literal",
             "start": 2952,
             "end": 2972,
-            "value": "9223372036854775806n"
+            "value": "9223372036854775806n",
+            "raw": "9223372036854775806n"
           },
           {
             "type": "Literal",
             "start": 3009,
             "end": 3066,
-            "value": "ToBigUint64( -(2n ** 63n) - 2n) => 9223372036854775806n"
+            "value": "ToBigUint64( -(2n ** 63n) - 2n) => 9223372036854775806n",
+            "raw": "\"ToBigUint64( -(2n ** 63n) - 2n) => 9223372036854775806n\""
           }
         ],
         "optional": false
@@ -601,7 +626,8 @@
               "type": "Literal",
               "start": 3098,
               "end": 3099,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             },
             "computed": true,
             "optional": false
@@ -610,13 +636,15 @@
             "type": "Literal",
             "start": 3102,
             "end": 3123,
-            "value": "18446744073709551614n"
+            "value": "18446744073709551614n",
+            "raw": "18446744073709551614n"
           },
           {
             "type": "Literal",
             "start": 3160,
             "end": 3218,
-            "value": "ToBigUint64( -(2n ** 64n) - 2n) => 18446744073709551614n"
+            "value": "ToBigUint64( -(2n ** 64n) - 2n) => 18446744073709551614n",
+            "raw": "\"ToBigUint64( -(2n ** 64n) - 2n) => 18446744073709551614n\""
           }
         ],
         "optional": false

@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 331,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 339,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 356,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 373,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 377,
                 "end": 379,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -115,19 +120,22 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 433,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 436,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 439,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -242,7 +250,8 @@
                         "type": "Literal",
                         "start": 534,
                         "end": 539,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       {
                         "type": "Identifier",

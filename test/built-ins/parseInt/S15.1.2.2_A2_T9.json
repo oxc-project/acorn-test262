@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 312,
-                "value": " 1"
+                "value": " 1",
+                "raw": "\"\\u20291\""
               }
             ],
             "optional": false
@@ -66,7 +67,8 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 329,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -75,7 +77,8 @@
             "type": "Literal",
             "start": 334,
             "end": 409,
-            "value": "parseInt(\"\\u20291\") must return the same value returned by parseInt(\"1\")"
+            "value": "parseInt(\"\\u20291\") must return the same value returned by parseInt(\"1\")",
+            "raw": "'parseInt(\"\\\\u20291\") must return the same value returned by parseInt(\"1\")'"
           }
         ],
         "optional": false
@@ -124,7 +127,8 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 459,
-                "value": "  -1"
+                "value": "  -1",
+                "raw": "\"\\u2029\\u2029-1\""
               }
             ],
             "optional": false
@@ -144,7 +148,8 @@
                 "type": "Literal",
                 "start": 473,
                 "end": 477,
-                "value": "-1"
+                "value": "-1",
+                "raw": "\"-1\""
               }
             ],
             "optional": false
@@ -153,7 +158,8 @@
             "type": "Literal",
             "start": 482,
             "end": 566,
-            "value": "parseInt(\"\\u2029\\u2029-1\") must return the same value returned by parseInt(\"-1\")"
+            "value": "parseInt(\"\\u2029\\u2029-1\") must return the same value returned by parseInt(\"-1\")",
+            "raw": "'parseInt(\"\\\\u2029\\\\u2029-1\") must return the same value returned by parseInt(\"-1\")'"
           }
         ],
         "optional": false
@@ -202,7 +208,8 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 615,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2029\""
               }
             ],
             "optional": false
@@ -217,7 +224,8 @@
             "type": "Literal",
             "start": 623,
             "end": 660,
-            "value": "parseInt(\"\\u2029\") must return NaN"
+            "value": "parseInt(\"\\u2029\") must return NaN",
+            "raw": "'parseInt(\"\\\\u2029\") must return NaN'"
           }
         ],
         "optional": false

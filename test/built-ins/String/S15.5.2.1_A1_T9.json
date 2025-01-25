@@ -60,19 +60,22 @@
                               "type": "Literal",
                               "start": 572,
                               "end": 573,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 575,
                               "end": 576,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             {
                               "type": "Literal",
                               "start": 578,
                               "end": 579,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           ]
                         }
@@ -115,7 +118,8 @@
           "type": "Literal",
           "start": 698,
           "end": 706,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -146,7 +150,8 @@
                     "type": "Literal",
                     "start": 735,
                     "end": 842,
-                    "value": "#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ==="
+                    "value": "#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -233,7 +238,8 @@
                     "type": "Literal",
                     "start": 1097,
                     "end": 1214,
-                    "value": "#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ==="
+                    "value": "#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ===",
+                    "raw": "'#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -282,7 +288,8 @@
           "type": "Literal",
           "start": 1424,
           "end": 1431,
-          "value": "1,2,3"
+          "value": "1,2,3",
+          "raw": "\"1,2,3\""
         }
       },
       "consequent": {
@@ -313,7 +320,8 @@
                     "type": "Literal",
                     "start": 1460,
                     "end": 1549,
-                    "value": "#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str =="
+                    "value": "#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str ==",
+                    "raw": "'#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str =='"
                   },
                   "operator": "+",
                   "right": {

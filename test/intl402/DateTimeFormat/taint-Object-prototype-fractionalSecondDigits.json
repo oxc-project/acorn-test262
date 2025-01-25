@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 383,
                 "end": 407,
-                "value": "fractionalSecondDigits"
+                "value": "fractionalSecondDigits",
+                "raw": "\"fractionalSecondDigits\""
               }
             ]
           }
@@ -114,7 +115,8 @@
                             "type": "Literal",
                             "start": 476,
                             "end": 484,
-                            "value": "lookup"
+                            "value": "lookup",
+                            "raw": "\"lookup\""
                           },
                           "kind": "init"
                         }
@@ -194,7 +196,8 @@
                 "type": "Literal",
                 "start": 573,
                 "end": 613,
-                "value": "DateTimeFormat returns invalid locale "
+                "value": "DateTimeFormat returns invalid locale ",
+                "raw": "\"DateTimeFormat returns invalid locale \""
               },
               "operator": "+",
               "right": {
@@ -209,7 +212,8 @@
               "type": "Literal",
               "start": 625,
               "end": 628,
-              "value": "."
+              "value": ".",
+              "raw": "\".\""
             }
           }
         ],

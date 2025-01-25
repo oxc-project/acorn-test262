@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 498,
             "end": 506,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",

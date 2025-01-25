@@ -53,7 +53,8 @@
                     "type": "Literal",
                     "start": 267,
                     "end": 274,
-                    "value": 123.456
+                    "value": 123.456,
+                    "raw": "123.456"
                   }
                 },
                 "property": {
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 287,
             "end": 295,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
         "optional": false

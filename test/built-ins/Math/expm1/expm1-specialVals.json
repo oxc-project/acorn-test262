@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 252,
             "end": 298,
-            "value": "Math.expm1 produces incorrect output for NaN"
+            "value": "Math.expm1 produces incorrect output for NaN",
+            "raw": "\"Math.expm1 produces incorrect output for NaN\""
           }
         ],
         "optional": false
@@ -177,14 +178,16 @@
               "type": "Literal",
               "start": 357,
               "end": 358,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 421,
-            "value": "Math.expm1 should produce -1 for Number.NEGATIVE_INFINITY"
+            "value": "Math.expm1 should produce -1 for Number.NEGATIVE_INFINITY",
+            "raw": "\"Math.expm1 should produce -1 for Number.NEGATIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -287,7 +290,8 @@
             "type": "Literal",
             "start": 507,
             "end": 581,
-            "value": "Math.expm1 should produce POSITIVE infinity for Number.POSITIVE_INFINITY"
+            "value": "Math.expm1 should produce POSITIVE infinity for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.expm1 should produce POSITIVE infinity for Number.POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -329,7 +333,8 @@
               "type": "Literal",
               "start": 601,
               "end": 602,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -366,7 +371,8 @@
                     "type": "Literal",
                     "start": 617,
                     "end": 618,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -396,7 +402,8 @@
             "type": "Literal",
             "start": 649,
             "end": 686,
-            "value": "Math.expm1 should produce -0 for -0"
+            "value": "Math.expm1 should produce -0 for -0",
+            "raw": "\"Math.expm1 should produce -0 for -0\""
           }
         ],
         "optional": false
@@ -438,7 +445,8 @@
               "type": "Literal",
               "start": 706,
               "end": 707,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -469,7 +477,8 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 722,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -498,7 +507,8 @@
             "type": "Literal",
             "start": 753,
             "end": 790,
-            "value": "Math.expm1 should produce +0 for +0"
+            "value": "Math.expm1 should produce +0 for +0",
+            "raw": "\"Math.expm1 should produce +0 for +0\""
           }
         ],
         "optional": false

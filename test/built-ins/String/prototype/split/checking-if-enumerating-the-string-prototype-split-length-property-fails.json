@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 394,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 399,
             "end": 467,
-            "value": "String.prototype.split.hasOwnProperty('length') must return true"
+            "value": "String.prototype.split.hasOwnProperty('length') must return true",
+            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -162,7 +164,8 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 535,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 540,
             "end": 621,
-            "value": "The value of `!String.prototype.split.propertyIsEnumerable('length')` is true"
+            "value": "The value of `!String.prototype.split.propertyIsEnumerable('length')` is true",
+            "raw": "'The value of `!String.prototype.split.propertyIsEnumerable(\\'length\\')` is true'"
           }
         ],
         "optional": false
@@ -197,7 +201,8 @@
             "type": "Literal",
             "start": 811,
             "end": 812,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -283,7 +288,8 @@
                 "type": "Literal",
                 "start": 867,
                 "end": 875,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -354,13 +360,15 @@
             "type": "Literal",
             "start": 923,
             "end": 924,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 953,
-            "value": "The value of `count` is 0"
+            "value": "The value of `count` is 0",
+            "raw": "'The value of `count` is 0'"
           }
         ],
         "optional": false

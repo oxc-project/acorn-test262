@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 360,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 365,
               "end": 367,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 369,
             "end": 371,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 413,
-            "value": "The result of (Object(2n) >> 1n) is 1n"
+            "value": "The result of (Object(2n) >> 1n) is 1n",
+            "raw": "'The result of (Object(2n) >> 1n) is 1n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 433,
               "end": 435,
-              "value": "4n"
+              "value": "4n",
+              "raw": "4n"
             },
             "operator": ">>",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 446,
                   "end": 448,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 451,
             "end": 453,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 495,
-            "value": "The result of (4n >> Object(2n)) is 1n"
+            "value": "The result of (4n >> Object(2n)) is 1n",
+            "raw": "'The result of (4n >> Object(2n)) is 1n'"
           }
         ],
         "optional": false
@@ -240,7 +248,8 @@
                             "type": "Literal",
                             "start": 566,
                             "end": 568,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -255,20 +264,23 @@
               "type": "Literal",
               "start": 579,
               "end": 581,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 585,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 587,
             "end": 666,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) >> 1n) is 1n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) >> 1n) is 1n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) >> 1n) is 1n'"
           }
         ],
         "optional": false
@@ -310,7 +322,8 @@
               "type": "Literal",
               "start": 687,
               "end": 689,
-              "value": "4n"
+              "value": "4n",
+              "raw": "4n"
             },
             "operator": ">>",
             "right": {
@@ -366,7 +379,8 @@
                             "type": "Literal",
                             "start": 743,
                             "end": 745,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -381,13 +395,15 @@
             "type": "Literal",
             "start": 754,
             "end": 756,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 835,
-            "value": "The result of (4n >> {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n"
+            "value": "The result of (4n >> {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (4n >> {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -465,7 +481,8 @@
                             "type": "Literal",
                             "start": 893,
                             "end": 895,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -480,20 +497,23 @@
               "type": "Literal",
               "start": 906,
               "end": 908,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 910,
             "end": 912,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 980,
-            "value": "The result of (({valueOf: function() {return 2n;}}) >> 1n) is 1n"
+            "value": "The result of (({valueOf: function() {return 2n;}}) >> 1n) is 1n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) >> 1n) is 1n'"
           }
         ],
         "optional": false
@@ -535,7 +555,8 @@
               "type": "Literal",
               "start": 1001,
               "end": 1003,
-              "value": "4n"
+              "value": "4n",
+              "raw": "4n"
             },
             "operator": ">>",
             "right": {
@@ -578,7 +599,8 @@
                             "type": "Literal",
                             "start": 1044,
                             "end": 1046,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -593,13 +615,15 @@
             "type": "Literal",
             "start": 1055,
             "end": 1057,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1123,
-            "value": "The result of (4n >> {valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (4n >> {valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (4n >> {valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -677,7 +701,8 @@
                             "type": "Literal",
                             "start": 1182,
                             "end": 1184,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -692,20 +717,23 @@
               "type": "Literal",
               "start": 1195,
               "end": 1197,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1199,
             "end": 1201,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1203,
             "end": 1270,
-            "value": "The result of (({toString: function() {return 2n;}}) >> 1n) is 1n"
+            "value": "The result of (({toString: function() {return 2n;}}) >> 1n) is 1n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) >> 1n) is 1n'"
           }
         ],
         "optional": false
@@ -747,7 +775,8 @@
               "type": "Literal",
               "start": 1291,
               "end": 1293,
-              "value": "4n"
+              "value": "4n",
+              "raw": "4n"
             },
             "operator": ">>",
             "right": {
@@ -790,7 +819,8 @@
                             "type": "Literal",
                             "start": 1335,
                             "end": 1337,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -805,13 +835,15 @@
             "type": "Literal",
             "start": 1346,
             "end": 1348,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1350,
             "end": 1415,
-            "value": "The result of (4n >> {toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (4n >> {toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (4n >> {toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false

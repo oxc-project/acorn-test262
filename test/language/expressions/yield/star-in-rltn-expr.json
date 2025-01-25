@@ -64,7 +64,8 @@
                       "type": "Literal",
                       "start": 470,
                       "end": 474,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     },
                     "kind": "init"
                   }
@@ -277,7 +278,8 @@
                     "type": "Literal",
                     "start": 619,
                     "end": 624,
-                    "value": "hit"
+                    "value": "hit",
+                    "raw": "'hit'"
                   },
                   "operator": "in",
                   "right": {
@@ -318,7 +320,8 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 657,
-                    "value": "miss"
+                    "value": "miss",
+                    "raw": "'miss'"
                   },
                   "operator": "in",
                   "right": {
@@ -407,7 +410,8 @@
               "type": "Literal",
               "start": 705,
               "end": 712,
-              "value": "first"
+              "value": "first",
+              "raw": "'first'"
             }
           ],
           "optional": false
@@ -465,13 +469,15 @@
             "type": "Literal",
             "start": 750,
             "end": 755,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 792,
-            "value": "`done` property (first iteration)"
+            "value": "`done` property (first iteration)",
+            "raw": "'`done` property (first iteration)'"
           }
         ],
         "optional": false
@@ -528,13 +534,15 @@
             "type": "Literal",
             "start": 830,
             "end": 834,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 836,
             "end": 872,
-            "value": "`value` property (first iteration)"
+            "value": "`value` property (first iteration)",
+            "raw": "'`value` property (first iteration)'"
           }
         ],
         "optional": false
@@ -584,7 +592,8 @@
             "type": "Literal",
             "start": 913,
             "end": 972,
-            "value": "generator paused prior to evaluating AssignmentExpression"
+            "value": "generator paused prior to evaluating AssignmentExpression",
+            "raw": "'generator paused prior to evaluating AssignmentExpression'"
           }
         ],
         "optional": false
@@ -633,7 +642,8 @@
               "type": "Literal",
               "start": 1000,
               "end": 1008,
-              "value": "second"
+              "value": "second",
+              "raw": "'second'"
             }
           ],
           "optional": false
@@ -691,13 +701,15 @@
             "type": "Literal",
             "start": 1046,
             "end": 1051,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1089,
-            "value": "`done` property (second iteration)"
+            "value": "`done` property (second iteration)",
+            "raw": "'`done` property (second iteration)'"
           }
         ],
         "optional": false
@@ -754,13 +766,15 @@
             "type": "Literal",
             "start": 1130,
             "end": 1135,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1137,
             "end": 1174,
-            "value": "`value` property (second iteration)"
+            "value": "`value` property (second iteration)",
+            "raw": "'`value` property (second iteration)'"
           }
         ],
         "optional": false
@@ -810,7 +824,8 @@
             "type": "Literal",
             "start": 1213,
             "end": 1250,
-            "value": "value of first AssignmentExpression"
+            "value": "value of first AssignmentExpression",
+            "raw": "'value of first AssignmentExpression'"
           }
         ],
         "optional": false
@@ -859,7 +874,8 @@
               "type": "Literal",
               "start": 1277,
               "end": 1284,
-              "value": "third"
+              "value": "third",
+              "raw": "'third'"
             }
           ],
           "optional": false
@@ -917,13 +933,15 @@
             "type": "Literal",
             "start": 1322,
             "end": 1326,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1328,
             "end": 1363,
-            "value": "`done` property (third iteration)"
+            "value": "`done` property (third iteration)",
+            "raw": "'`done` property (third iteration)'"
           }
         ],
         "optional": false
@@ -986,7 +1004,8 @@
             "type": "Literal",
             "start": 1415,
             "end": 1451,
-            "value": "`value` property (third iteration)"
+            "value": "`value` property (third iteration)",
+            "raw": "'`value` property (third iteration)'"
           }
         ],
         "optional": false
@@ -1036,7 +1055,8 @@
             "type": "Literal",
             "start": 1490,
             "end": 1528,
-            "value": "value of second AssignmentExpression"
+            "value": "value of second AssignmentExpression",
+            "raw": "'value of second AssignmentExpression'"
           }
         ],
         "optional": false

@@ -98,7 +98,8 @@
             "type": "Literal",
             "start": 670,
             "end": 675,
-            "value": "bar"
+            "value": "bar",
+            "raw": "\"bar\""
           },
           {
             "type": "ObjectExpression",
@@ -122,7 +123,8 @@
                   "type": "Literal",
                   "start": 695,
                   "end": 700,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -346,7 +348,8 @@
                   "type": "Literal",
                   "start": 915,
                   "end": 920,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               ],
               "optional": false
@@ -356,7 +359,8 @@
             "type": "Literal",
             "start": 925,
             "end": 974,
-            "value": "'foo' property was deleted from original object"
+            "value": "'foo' property was deleted from original object",
+            "raw": "\"'foo' property was deleted from original object\""
           }
         ],
         "optional": false
@@ -417,7 +421,8 @@
                   "type": "Literal",
                   "start": 1028,
                   "end": 1033,
-                  "value": "bar"
+                  "value": "bar",
+                  "raw": "\"bar\""
                 }
               ],
               "optional": false
@@ -502,7 +507,8 @@
                 "type": "Literal",
                 "start": 1097,
                 "end": 1102,
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               }
             ],
             "optional": false
@@ -511,7 +517,8 @@
             "type": "Literal",
             "start": 1107,
             "end": 1160,
-            "value": "'bar' property was not deleted from original object"
+            "value": "'bar' property was not deleted from original object",
+            "raw": "\"'bar' property was not deleted from original object\""
           }
         ],
         "optional": false
@@ -766,7 +773,8 @@
                   "type": "Literal",
                   "start": 1360,
                   "end": 1368,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 }
               ],
               "optional": false
@@ -776,7 +784,8 @@
             "type": "Literal",
             "start": 1373,
             "end": 1425,
-            "value": "'length' property was deleted from original object"
+            "value": "'length' property was deleted from original object",
+            "raw": "\"'length' property was deleted from original object\""
           }
         ],
         "optional": false
@@ -838,7 +847,8 @@
                     "type": "Literal",
                     "start": 1470,
                     "end": 1482,
-                    "value": "use strict"
+                    "value": "use strict",
+                    "raw": "\"use strict\""
                   },
                   "directive": "use strict"
                 },

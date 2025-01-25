@@ -12,6 +12,7 @@
         "start": 1703,
         "end": 1715,
         "value": null,
+        "raw": "/(?i:(?i:))/",
         "regex": {
           "pattern": "(?i:(?i:))",
           "flags": ""
@@ -27,6 +28,7 @@
         "start": 1717,
         "end": 1729,
         "value": null,
+        "raw": "/(?s:(?s:))/",
         "regex": {
           "pattern": "(?s:(?s:))",
           "flags": ""
@@ -42,6 +44,7 @@
         "start": 1731,
         "end": 1743,
         "value": null,
+        "raw": "/(?m:(?m:))/",
         "regex": {
           "pattern": "(?m:(?m:))",
           "flags": ""
@@ -67,7 +70,8 @@
             "type": "Literal",
             "start": 1756,
             "end": 1768,
-            "value": "(?i:(?i:))"
+            "value": "(?i:(?i:))",
+            "raw": "\"(?i:(?i:))\""
           }
         ]
       }
@@ -91,7 +95,8 @@
             "type": "Literal",
             "start": 1782,
             "end": 1794,
-            "value": "(?s:(?s:))"
+            "value": "(?s:(?s:))",
+            "raw": "\"(?s:(?s:))\""
           }
         ]
       }
@@ -115,7 +120,8 @@
             "type": "Literal",
             "start": 1808,
             "end": 1820,
-            "value": "(?m:(?m:))"
+            "value": "(?m:(?m:))",
+            "raw": "\"(?m:(?m:))\""
           }
         ]
       }

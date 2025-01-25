@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 303,
             "end": 309,
-            "value": 201906
+            "value": 201906,
+            "raw": "201906"
           }
         }
       ],
@@ -52,13 +53,15 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 343,
-                "value": 201906
+                "value": 201906,
+                "raw": "201906"
               },
               {
                 "type": "UnaryExpression",
@@ -70,14 +73,16 @@
                   "type": "Literal",
                   "start": 348,
                   "end": 354,
-                  "value": 201906
+                  "value": 201906,
+                  "raw": "201906"
                 }
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 365,
-                "value": 1234567
+                "value": 1234567,
+                "raw": "1234567"
               }
             ]
           }
@@ -235,13 +240,15 @@
                             "type": "Literal",
                             "start": 507,
                             "end": 511,
-                            "value": 2019
+                            "value": 2019,
+                            "raw": "2019"
                           },
                           {
                             "type": "Literal",
                             "start": 513,
                             "end": 514,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -396,13 +403,15 @@
                             "type": "Literal",
                             "start": 711,
                             "end": 715,
-                            "value": 2019
+                            "value": 2019,
+                            "raw": "2019"
                           },
                           {
                             "type": "Literal",
                             "start": 717,
                             "end": 718,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       },

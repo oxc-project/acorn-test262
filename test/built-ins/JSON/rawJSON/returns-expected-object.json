@@ -100,13 +100,15 @@
                   "type": "Literal",
                   "start": 623,
                   "end": 627,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "Literal",
                   "start": 629,
                   "end": 672,
-                  "value": "RawJSON object should have null prototype"
+                  "value": "RawJSON object should have null prototype",
+                  "raw": "\"RawJSON object should have null prototype\""
                 }
               ],
               "optional": false
@@ -161,7 +163,8 @@
                       "type": "Literal",
                       "start": 707,
                       "end": 716,
-                      "value": "rawJSON"
+                      "value": "rawJSON",
+                      "raw": "\"rawJSON\""
                     }
                   ],
                   "optional": false
@@ -170,7 +173,8 @@
                   "type": "Literal",
                   "start": 719,
                   "end": 768,
-                  "value": "RawJSON object should have rawJSON own property"
+                  "value": "RawJSON object should have rawJSON own property",
+                  "raw": "\"RawJSON object should have rawJSON own property\""
                 }
               ],
               "optional": false
@@ -246,7 +250,8 @@
                       "type": "Literal",
                       "start": 831,
                       "end": 840,
-                      "value": "rawJSON"
+                      "value": "rawJSON",
+                      "raw": "\"rawJSON\""
                     }
                   ]
                 },
@@ -254,7 +259,8 @@
                   "type": "Literal",
                   "start": 843,
                   "end": 897,
-                  "value": "RawJSON object should have only rawJSON own property"
+                  "value": "RawJSON object should have only rawJSON own property",
+                  "raw": "\"RawJSON object should have only rawJSON own property\""
                 }
               ],
               "optional": false
@@ -331,7 +337,8 @@
                   "type": "Literal",
                   "start": 965,
                   "end": 1017,
-                  "value": "RawJSON object should have no own property symbols"
+                  "value": "RawJSON object should have no own property symbols",
+                  "raw": "\"RawJSON object should have no own property symbols\""
                 }
               ],
               "optional": false
@@ -394,7 +401,8 @@
                   "type": "Literal",
                   "start": 1078,
                   "end": 1093,
-                  "value": "rawJSON value"
+                  "value": "rawJSON value",
+                  "raw": "\"rawJSON value\""
                 }
               ],
               "optional": false
@@ -446,7 +454,8 @@
                 "type": "Literal",
                 "start": 1128,
                 "end": 1129,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -455,7 +464,8 @@
             "type": "Literal",
             "start": 1132,
             "end": 1135,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           }
         ],
         "optional": false
@@ -504,7 +514,8 @@
                 "type": "Literal",
                 "start": 1167,
                 "end": 1171,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -513,7 +524,8 @@
             "type": "Literal",
             "start": 1174,
             "end": 1180,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -562,7 +574,8 @@
                 "type": "Literal",
                 "start": 1212,
                 "end": 1216,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -571,7 +584,8 @@
             "type": "Literal",
             "start": 1219,
             "end": 1225,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           }
         ],
         "optional": false
@@ -620,7 +634,8 @@
                 "type": "Literal",
                 "start": 1257,
                 "end": 1262,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -629,7 +644,8 @@
             "type": "Literal",
             "start": 1265,
             "end": 1272,
-            "value": "false"
+            "value": "false",
+            "raw": "\"false\""
           }
         ],
         "optional": false
@@ -678,7 +694,8 @@
                 "type": "Literal",
                 "start": 1304,
                 "end": 1311,
-                "value": "\"foo\""
+                "value": "\"foo\"",
+                "raw": "'\"foo\"'"
               }
             ],
             "optional": false
@@ -687,7 +704,8 @@
             "type": "Literal",
             "start": 1314,
             "end": 1321,
-            "value": "\"foo\""
+            "value": "\"foo\"",
+            "raw": "'\"foo\"'"
           }
         ],
         "optional": false

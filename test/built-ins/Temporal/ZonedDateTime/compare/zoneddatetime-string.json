@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 331,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 338,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -109,14 +111,16 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 405,
-                  "value": "3600000000000n"
+                  "value": "3600000000000n",
+                  "raw": "3600_000_000_000n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 412,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -143,7 +147,8 @@
             "type": "Literal",
             "start": 426,
             "end": 444,
-            "value": "1970-01-01T00:00"
+            "value": "1970-01-01T00:00",
+            "raw": "\"1970-01-01T00:00\""
           }
         }
       ],
@@ -249,7 +254,8 @@
             "type": "Literal",
             "start": 522,
             "end": 585,
-            "value": "bare date-time string is not a ZonedDateTime (first argument)"
+            "value": "bare date-time string is not a ZonedDateTime (first argument)",
+            "raw": "\"bare date-time string is not a ZonedDateTime (first argument)\""
           }
         ],
         "optional": false
@@ -355,7 +361,8 @@
             "type": "Literal",
             "start": 664,
             "end": 728,
-            "value": "bare date-time string is not a ZonedDateTime (second argument)"
+            "value": "bare date-time string is not a ZonedDateTime (second argument)",
+            "raw": "\"bare date-time string is not a ZonedDateTime (second argument)\""
           }
         ],
         "optional": false
@@ -380,7 +387,8 @@
           "type": "Literal",
           "start": 737,
           "end": 756,
-          "value": "1970-01-01T00:00Z"
+          "value": "1970-01-01T00:00Z",
+          "raw": "\"1970-01-01T00:00Z\""
         }
       }
     },
@@ -484,7 +492,8 @@
             "type": "Literal",
             "start": 834,
             "end": 889,
-            "value": "date-time + Z is not a ZonedDateTime (first argument)"
+            "value": "date-time + Z is not a ZonedDateTime (first argument)",
+            "raw": "\"date-time + Z is not a ZonedDateTime (first argument)\""
           }
         ],
         "optional": false
@@ -590,7 +599,8 @@
             "type": "Literal",
             "start": 968,
             "end": 1024,
-            "value": "date-time + Z is not a ZonedDateTime (second argument)"
+            "value": "date-time + Z is not a ZonedDateTime (second argument)",
+            "raw": "\"date-time + Z is not a ZonedDateTime (second argument)\""
           }
         ],
         "optional": false
@@ -615,7 +625,8 @@
           "type": "Literal",
           "start": 1033,
           "end": 1057,
-          "value": "1970-01-01T00:00+01:00"
+          "value": "1970-01-01T00:00+01:00",
+          "raw": "\"1970-01-01T00:00+01:00\""
         }
       }
     },
@@ -719,7 +730,8 @@
             "type": "Literal",
             "start": 1135,
             "end": 1195,
-            "value": "date-time + offset is not a ZonedDateTime (first argument)"
+            "value": "date-time + offset is not a ZonedDateTime (first argument)",
+            "raw": "\"date-time + offset is not a ZonedDateTime (first argument)\""
           }
         ],
         "optional": false
@@ -825,7 +837,8 @@
             "type": "Literal",
             "start": 1274,
             "end": 1335,
-            "value": "date-time + offset is not a ZonedDateTime (second argument)"
+            "value": "date-time + offset is not a ZonedDateTime (second argument)",
+            "raw": "\"date-time + offset is not a ZonedDateTime (second argument)\""
           }
         ],
         "optional": false
@@ -850,7 +863,8 @@
           "type": "Literal",
           "start": 1345,
           "end": 1371,
-          "value": "1970-01-01T00:00[+01:00]"
+          "value": "1970-01-01T00:00[+01:00]",
+          "raw": "\"1970-01-01T00:00[+01:00]\""
         }
       }
     },
@@ -963,13 +977,15 @@
             "type": "Literal",
             "start": 1464,
             "end": 1465,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1467,
             "end": 1550,
-            "value": "date-time + IANA annotation preserves wall time in the time zone (first argument)"
+            "value": "date-time + IANA annotation preserves wall time in the time zone (first argument)",
+            "raw": "\"date-time + IANA annotation preserves wall time in the time zone (first argument)\""
           }
         ],
         "optional": false
@@ -1084,13 +1100,15 @@
             "type": "Literal",
             "start": 1644,
             "end": 1645,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1647,
             "end": 1731,
-            "value": "date-time + IANA annotation preserves wall time in the time zone (second argument)"
+            "value": "date-time + IANA annotation preserves wall time in the time zone (second argument)",
+            "raw": "\"date-time + IANA annotation preserves wall time in the time zone (second argument)\""
           }
         ],
         "optional": false
@@ -1115,7 +1133,8 @@
           "type": "Literal",
           "start": 1741,
           "end": 1768,
-          "value": "1970-01-01T00:00Z[+01:00]"
+          "value": "1970-01-01T00:00Z[+01:00]",
+          "raw": "\"1970-01-01T00:00Z[+01:00]\""
         }
       }
     },
@@ -1228,13 +1247,15 @@
             "type": "Literal",
             "start": 1856,
             "end": 1857,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1859,
             "end": 1947,
-            "value": "date-time + Z + IANA annotation preserves exact time in the time zone (first argument)"
+            "value": "date-time + Z + IANA annotation preserves exact time in the time zone (first argument)",
+            "raw": "\"date-time + Z + IANA annotation preserves exact time in the time zone (first argument)\""
           }
         ],
         "optional": false
@@ -1349,13 +1370,15 @@
             "type": "Literal",
             "start": 2036,
             "end": 2037,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2039,
             "end": 2128,
-            "value": "date-time + Z + IANA annotation preserves exact time in the time zone (second argument)"
+            "value": "date-time + Z + IANA annotation preserves exact time in the time zone (second argument)",
+            "raw": "\"date-time + Z + IANA annotation preserves exact time in the time zone (second argument)\""
           }
         ],
         "optional": false
@@ -1380,7 +1403,8 @@
           "type": "Literal",
           "start": 2138,
           "end": 2170,
-          "value": "1970-01-01T00:00+01:00[+01:00]"
+          "value": "1970-01-01T00:00+01:00[+01:00]",
+          "raw": "\"1970-01-01T00:00+01:00[+01:00]\""
         }
       }
     },
@@ -1493,13 +1517,15 @@
             "type": "Literal",
             "start": 2263,
             "end": 2264,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2266,
             "end": 2360,
-            "value": "date-time + offset + IANA annotation ensures both exact and wall time match (first argument)"
+            "value": "date-time + offset + IANA annotation ensures both exact and wall time match (first argument)",
+            "raw": "\"date-time + offset + IANA annotation ensures both exact and wall time match (first argument)\""
           }
         ],
         "optional": false
@@ -1614,13 +1640,15 @@
             "type": "Literal",
             "start": 2454,
             "end": 2455,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2457,
             "end": 2552,
-            "value": "date-time + offset + IANA annotation ensures both exact and wall time match (second argument)"
+            "value": "date-time + offset + IANA annotation ensures both exact and wall time match (second argument)",
+            "raw": "\"date-time + offset + IANA annotation ensures both exact and wall time match (second argument)\""
           }
         ],
         "optional": false
@@ -1645,7 +1673,8 @@
           "type": "Literal",
           "start": 2562,
           "end": 2594,
-          "value": "1970-01-01T00:00-04:15[+01:00]"
+          "value": "1970-01-01T00:00-04:15[+01:00]",
+          "raw": "\"1970-01-01T00:00-04:15[+01:00]\""
         }
       }
     },
@@ -1749,7 +1778,8 @@
             "type": "Literal",
             "start": 2672,
             "end": 2771,
-            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch (first argument)"
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch (first argument)",
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch (first argument)\""
           }
         ],
         "optional": false
@@ -1855,7 +1885,8 @@
             "type": "Literal",
             "start": 2850,
             "end": 2950,
-            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch (second argument)"
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch (second argument)",
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch (second argument)\""
           }
         ],
         "optional": false

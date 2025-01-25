@@ -72,7 +72,8 @@
                             "type": "Literal",
                             "start": 382,
                             "end": 383,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "MemberExpression",
@@ -120,7 +121,8 @@
             "type": "Literal",
             "start": 417,
             "end": 479,
-            "value": "(1, Object.prototype.valueOf)() throws a TypeError exception"
+            "value": "(1, Object.prototype.valueOf)() throws a TypeError exception",
+            "raw": "'(1, Object.prototype.valueOf)() throws a TypeError exception'"
           }
         ],
         "optional": false

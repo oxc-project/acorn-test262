@@ -45,7 +45,8 @@
                         "type": "Literal",
                         "start": 466,
                         "end": 476,
-                        "value": "gnulluna"
+                        "value": "gnulluna",
+                        "raw": "\"gnulluna\""
                       }
                     }
                   ]
@@ -68,7 +69,8 @@
               "type": "Literal",
               "start": 489,
               "end": 493,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "UnaryExpression",
@@ -80,7 +82,8 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             }
           ],
@@ -91,7 +94,8 @@
           "type": "Literal",
           "start": 503,
           "end": 510,
-          "value": "gnull"
+          "value": "gnull",
+          "raw": "\"gnull\""
         }
       },
       "consequent": {
@@ -122,7 +126,8 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 614,
-                    "value": "#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: "
+                    "value": "#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: ",
+                    "raw": "'#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +164,8 @@
                                   "type": "Literal",
                                   "start": 641,
                                   "end": 651,
-                                  "value": "gnulluna"
+                                  "value": "gnulluna",
+                                  "raw": "\"gnulluna\""
                                 }
                               }
                             ]
@@ -182,7 +188,8 @@
                         "type": "Literal",
                         "start": 664,
                         "end": 668,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "UnaryExpression",
@@ -194,7 +201,8 @@
                           "type": "Literal",
                           "start": 671,
                           "end": 672,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       }
                     ],

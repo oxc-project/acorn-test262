@@ -112,7 +112,8 @@
             "type": "Literal",
             "start": 522,
             "end": 528,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -136,7 +137,8 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 563,
-                  "value": "get [Symbol.species]"
+                  "value": "get [Symbol.species]",
+                  "raw": "\"get [Symbol.species]\""
                 },
                 "kind": "init"
               },
@@ -157,7 +159,8 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 582,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -178,7 +181,8 @@
                   "type": "Literal",
                   "start": 598,
                   "end": 603,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -199,7 +203,8 @@
                   "type": "Literal",
                   "start": 621,
                   "end": 625,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

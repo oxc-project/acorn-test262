@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 298,
               "end": 304,
-              "value": "this"
+              "value": "this",
+              "raw": "\"this\""
             }
           ],
           "optional": false
@@ -51,7 +52,8 @@
               "type": "Literal",
               "start": 328,
               "end": 357,
-              "value": "'this' had incorrect value!"
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
             }
           }
         ]

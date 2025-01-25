@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2323,
+  "end": 2322,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 333,
             "end": 349,
-            "value": 8692288669465520
+            "value": 8692288669465520,
+            "raw": "8692288669465520"
           }
         }
       ],
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 380,
-                "value": 513
+                "value": 513,
+                "raw": "513"
               }
             }
           ],
@@ -101,37 +103,43 @@
                     "type": "Literal",
                     "start": 416,
                     "end": 417,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 419,
                     "end": 420,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 422,
                     "end": 423,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 425,
                     "end": 426,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 428,
                     "end": 429,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 431,
                     "end": 432,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
@@ -212,7 +220,8 @@
                           "type": "Literal",
                           "start": 499,
                           "end": 513,
-                          "value": "milliseconds"
+                          "value": "milliseconds",
+                          "raw": "\"milliseconds\""
                         },
                         "kind": "init"
                       }
@@ -284,7 +293,8 @@
                         "type": "Literal",
                         "start": 649,
                         "end": 654,
-                        "value": "1000n"
+                        "value": "1000n",
+                        "raw": "1000n"
                       }
                     },
                     "operator": "+",
@@ -354,13 +364,15 @@
                 "type": "Literal",
                 "start": 721,
                 "end": 741,
-                "value": 8692288669465520000
+                "value": 8692288669465520000,
+                "raw": "8692288669465520_513"
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 770,
-                "value": "check expected value (ms)"
+                "value": "check expected value (ms)",
+                "raw": "\"check expected value (ms)\""
               }
             ],
             "optional": false
@@ -404,43 +416,50 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 820,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 822,
                 "end": 823,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 826,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 828,
                 "end": 829,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 835,
                 "end": 836,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 838,
                 "end": 839,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 842,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -452,19 +471,22 @@
                 "type": "Literal",
                 "start": 870,
                 "end": 871,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 874,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 880,
                 "end": 984,
-                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds"
+                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds",
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\""
               }
             ],
             "optional": false
@@ -475,7 +497,7 @@
     {
       "type": "BlockStatement",
       "start": 993,
-      "end": 1651,
+      "end": 1650,
       "body": [
         {
           "type": "VariableDeclaration",
@@ -496,7 +518,8 @@
                 "type": "Literal",
                 "start": 1018,
                 "end": 1024,
-                "value": 373761
+                "value": 373761,
+                "raw": "373761"
               }
             }
           ],
@@ -545,37 +568,43 @@
                     "type": "Literal",
                     "start": 1060,
                     "end": 1061,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1063,
                     "end": 1064,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1066,
                     "end": 1067,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1069,
                     "end": 1070,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1072,
                     "end": 1073,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1075,
                     "end": 1076,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
@@ -587,7 +616,8 @@
                     "type": "Literal",
                     "start": 1087,
                     "end": 1088,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
@@ -662,7 +692,8 @@
                           "type": "Literal",
                           "start": 1146,
                           "end": 1160,
-                          "value": "microseconds"
+                          "value": "microseconds",
+                          "raw": "\"microseconds\""
                         },
                         "kind": "init"
                       }
@@ -734,7 +765,8 @@
                         "type": "Literal",
                         "start": 1299,
                         "end": 1309,
-                        "value": "1000000n"
+                        "value": "1000000n",
+                        "raw": "1_000_000n"
                       }
                     },
                     "operator": "+",
@@ -769,11 +801,11 @@
         {
           "type": "ExpressionStatement",
           "start": 1337,
-          "end": 1432,
+          "end": 1431,
           "expression": {
             "type": "CallExpression",
             "start": 1337,
-            "end": 1431,
+            "end": 1430,
             "callee": {
               "type": "MemberExpression",
               "start": 1337,
@@ -804,13 +836,15 @@
                 "type": "Literal",
                 "start": 1376,
                 "end": 1400,
-                "value": 8.692288669465521e+21
+                "value": 8.692288669465521e+21,
+                "raw": "8692288669465520_373_761"
               },
               {
                 "type": "Literal",
                 "start": 1402,
-                "end": 1430,
-                "value": "check expected value (µs)"
+                "end": 1429,
+                "value": "check expected value (µs)",
+                "raw": "\"check expected value (µs)\""
               }
             ],
             "optional": false
@@ -818,26 +852,26 @@
         },
         {
           "type": "ExpressionStatement",
-          "start": 1436,
-          "end": 1649,
+          "start": 1435,
+          "end": 1648,
           "expression": {
             "type": "CallExpression",
-            "start": 1436,
-            "end": 1648,
+            "start": 1435,
+            "end": 1647,
             "callee": {
               "type": "MemberExpression",
-              "start": 1436,
-              "end": 1466,
+              "start": 1435,
+              "end": 1465,
               "object": {
                 "type": "Identifier",
-                "start": 1436,
-                "end": 1451,
+                "start": 1435,
+                "end": 1450,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1452,
-                "end": 1466,
+                "start": 1451,
+                "end": 1465,
                 "name": "assertDuration"
               },
               "computed": false,
@@ -846,75 +880,85 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1467,
-                "end": 1473,
+                "start": 1466,
+                "end": 1472,
                 "name": "result"
               },
               {
                 "type": "Literal",
-                "start": 1479,
-                "end": 1480,
-                "value": 0
+                "start": 1478,
+                "end": 1479,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1482,
-                "end": 1483,
-                "value": 0
+                "start": 1481,
+                "end": 1482,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1485,
-                "end": 1486,
-                "value": 0
+                "start": 1484,
+                "end": 1485,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1488,
-                "end": 1489,
-                "value": 0
+                "start": 1487,
+                "end": 1488,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1495,
-                "end": 1496,
-                "value": 0
+                "start": 1494,
+                "end": 1495,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1498,
-                "end": 1499,
-                "value": 0
+                "start": 1497,
+                "end": 1498,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1501,
-                "end": 1502,
-                "value": 0
+                "start": 1500,
+                "end": 1501,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1508,
-                "end": 1509,
-                "value": 0
+                "start": 1507,
+                "end": 1508,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
-                "start": 1511,
-                "end": 1531,
+                "start": 1510,
+                "end": 1530,
                 "name": "expectedMicroseconds"
               },
               {
                 "type": "Literal",
-                "start": 1533,
-                "end": 1534,
-                "value": 0
+                "start": 1532,
+                "end": 1533,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 1540,
-                "end": 1644,
-                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds"
+                "start": 1539,
+                "end": 1643,
+                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds",
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\""
               }
             ],
             "optional": false
@@ -924,29 +968,30 @@
     },
     {
       "type": "BlockStatement",
-      "start": 1654,
-      "end": 2322,
+      "start": 1653,
+      "end": 2321,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 1658,
-          "end": 1690,
+          "start": 1657,
+          "end": 1689,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1664,
-              "end": 1689,
+              "start": 1663,
+              "end": 1688,
               "id": {
                 "type": "Identifier",
-                "start": 1664,
-                "end": 1675,
+                "start": 1663,
+                "end": 1674,
                 "name": "nanoseconds"
               },
               "init": {
                 "type": "Literal",
-                "start": 1678,
-                "end": 1689,
-                "value": 321414345
+                "start": 1677,
+                "end": 1688,
+                "value": 321414345,
+                "raw": "321_414_345"
               }
             }
           ],
@@ -954,37 +999,37 @@
         },
         {
           "type": "VariableDeclaration",
-          "start": 1693,
-          "end": 1771,
+          "start": 1692,
+          "end": 1770,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1699,
-              "end": 1770,
+              "start": 1698,
+              "end": 1769,
               "id": {
                 "type": "Identifier",
-                "start": 1699,
-                "end": 1700,
+                "start": 1698,
+                "end": 1699,
                 "name": "d"
               },
               "init": {
                 "type": "NewExpression",
-                "start": 1703,
-                "end": 1770,
+                "start": 1702,
+                "end": 1769,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 1707,
-                  "end": 1724,
+                  "start": 1706,
+                  "end": 1723,
                   "object": {
                     "type": "Identifier",
-                    "start": 1707,
-                    "end": 1715,
+                    "start": 1706,
+                    "end": 1714,
                     "name": "Temporal"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1716,
-                    "end": 1724,
+                    "start": 1715,
+                    "end": 1723,
                     "name": "Duration"
                   },
                   "computed": false,
@@ -993,62 +1038,70 @@
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 1725,
-                    "end": 1726,
-                    "value": 0
+                    "start": 1724,
+                    "end": 1725,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1728,
-                    "end": 1729,
-                    "value": 0
+                    "start": 1727,
+                    "end": 1728,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1731,
-                    "end": 1732,
-                    "value": 0
+                    "start": 1730,
+                    "end": 1731,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1734,
-                    "end": 1735,
-                    "value": 0
+                    "start": 1733,
+                    "end": 1734,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1737,
-                    "end": 1738,
-                    "value": 0
+                    "start": 1736,
+                    "end": 1737,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1740,
-                    "end": 1741,
-                    "value": 0
+                    "start": 1739,
+                    "end": 1740,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
-                    "start": 1743,
-                    "end": 1750,
+                    "start": 1742,
+                    "end": 1749,
                     "name": "seconds"
                   },
                   {
                     "type": "Literal",
-                    "start": 1752,
-                    "end": 1753,
-                    "value": 0
+                    "start": 1751,
+                    "end": 1752,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 1755,
-                    "end": 1756,
-                    "value": 0
+                    "start": 1754,
+                    "end": 1755,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
-                    "start": 1758,
-                    "end": 1769,
+                    "start": 1757,
+                    "end": 1768,
                     "name": "nanoseconds"
                   }
                 ]
@@ -1059,37 +1112,37 @@
         },
         {
           "type": "VariableDeclaration",
-          "start": 1775,
-          "end": 1830,
+          "start": 1774,
+          "end": 1829,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1781,
-              "end": 1829,
+              "start": 1780,
+              "end": 1828,
               "id": {
                 "type": "Identifier",
-                "start": 1781,
-                "end": 1787,
+                "start": 1780,
+                "end": 1786,
                 "name": "result"
               },
               "init": {
                 "type": "CallExpression",
-                "start": 1790,
-                "end": 1829,
+                "start": 1789,
+                "end": 1828,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 1790,
-                  "end": 1797,
+                  "start": 1789,
+                  "end": 1796,
                   "object": {
                     "type": "Identifier",
-                    "start": 1790,
-                    "end": 1791,
+                    "start": 1789,
+                    "end": 1790,
                     "name": "d"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1792,
-                    "end": 1797,
+                    "start": 1791,
+                    "end": 1796,
                     "name": "round"
                   },
                   "computed": false,
@@ -1098,27 +1151,28 @@
                 "arguments": [
                   {
                     "type": "ObjectExpression",
-                    "start": 1798,
-                    "end": 1828,
+                    "start": 1797,
+                    "end": 1827,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1800,
-                        "end": 1826,
+                        "start": 1799,
+                        "end": 1825,
                         "method": false,
                         "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1800,
-                          "end": 1811,
+                          "start": 1799,
+                          "end": 1810,
                           "name": "largestUnit"
                         },
                         "value": {
                           "type": "Literal",
-                          "start": 1813,
-                          "end": 1826,
-                          "value": "nanoseconds"
+                          "start": 1812,
+                          "end": 1825,
+                          "value": "nanoseconds",
+                          "raw": "\"nanoseconds\""
                         },
                         "kind": "init"
                       }
@@ -1133,53 +1187,53 @@
         },
         {
           "type": "VariableDeclaration",
-          "start": 1914,
-          "end": 2005,
+          "start": 1913,
+          "end": 2004,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1920,
-              "end": 2004,
+              "start": 1919,
+              "end": 2003,
               "id": {
                 "type": "Identifier",
-                "start": 1920,
-                "end": 1939,
+                "start": 1919,
+                "end": 1938,
                 "name": "expectedNanoseconds"
               },
               "init": {
                 "type": "CallExpression",
-                "start": 1942,
-                "end": 2004,
+                "start": 1941,
+                "end": 2003,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1942,
-                  "end": 1948,
+                  "start": 1941,
+                  "end": 1947,
                   "name": "Number"
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 1949,
-                    "end": 2003,
+                    "start": 1948,
+                    "end": 2002,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 1949,
-                      "end": 1981,
+                      "start": 1948,
+                      "end": 1980,
                       "left": {
                         "type": "CallExpression",
-                        "start": 1949,
-                        "end": 1964,
+                        "start": 1948,
+                        "end": 1963,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1949,
-                          "end": 1955,
+                          "start": 1948,
+                          "end": 1954,
                           "name": "BigInt"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 1956,
-                            "end": 1963,
+                            "start": 1955,
+                            "end": 1962,
                             "name": "seconds"
                           }
                         ],
@@ -1188,27 +1242,28 @@
                       "operator": "*",
                       "right": {
                         "type": "Literal",
-                        "start": 1967,
-                        "end": 1981,
-                        "value": "1000000000n"
+                        "start": 1966,
+                        "end": 1980,
+                        "value": "1000000000n",
+                        "raw": "1_000_000_000n"
                       }
                     },
                     "operator": "+",
                     "right": {
                       "type": "CallExpression",
-                      "start": 1984,
-                      "end": 2003,
+                      "start": 1983,
+                      "end": 2002,
                       "callee": {
                         "type": "Identifier",
-                        "start": 1984,
-                        "end": 1990,
+                        "start": 1983,
+                        "end": 1989,
                         "name": "BigInt"
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 1991,
-                          "end": 2002,
+                          "start": 1990,
+                          "end": 2001,
                           "name": "nanoseconds"
                         }
                       ],
@@ -1224,26 +1279,26 @@
         },
         {
           "type": "ExpressionStatement",
-          "start": 2008,
-          "end": 2105,
+          "start": 2007,
+          "end": 2104,
           "expression": {
             "type": "CallExpression",
-            "start": 2008,
-            "end": 2104,
+            "start": 2007,
+            "end": 2103,
             "callee": {
               "type": "MemberExpression",
-              "start": 2008,
-              "end": 2024,
+              "start": 2007,
+              "end": 2023,
               "object": {
                 "type": "Identifier",
-                "start": 2008,
-                "end": 2014,
+                "start": 2007,
+                "end": 2013,
                 "name": "assert"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2015,
-                "end": 2024,
+                "start": 2014,
+                "end": 2023,
                 "name": "sameValue"
               },
               "computed": false,
@@ -1252,21 +1307,23 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2025,
-                "end": 2044,
+                "start": 2024,
+                "end": 2043,
                 "name": "expectedNanoseconds"
               },
               {
                 "type": "Literal",
-                "start": 2046,
-                "end": 2074,
-                "value": 8.692288669465521e+24
+                "start": 2045,
+                "end": 2073,
+                "value": 8.692288669465521e+24,
+                "raw": "8692288669465520_321_414_345"
               },
               {
                 "type": "Literal",
-                "start": 2076,
-                "end": 2103,
-                "value": "check expected value (ns)"
+                "start": 2075,
+                "end": 2102,
+                "value": "check expected value (ns)",
+                "raw": "\"check expected value (ns)\""
               }
             ],
             "optional": false
@@ -1274,26 +1331,26 @@
         },
         {
           "type": "ExpressionStatement",
-          "start": 2109,
-          "end": 2320,
+          "start": 2108,
+          "end": 2319,
           "expression": {
             "type": "CallExpression",
-            "start": 2109,
-            "end": 2319,
+            "start": 2108,
+            "end": 2318,
             "callee": {
               "type": "MemberExpression",
-              "start": 2109,
-              "end": 2139,
+              "start": 2108,
+              "end": 2138,
               "object": {
                 "type": "Identifier",
-                "start": 2109,
-                "end": 2124,
+                "start": 2108,
+                "end": 2123,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2125,
-                "end": 2139,
+                "start": 2124,
+                "end": 2138,
                 "name": "assertDuration"
               },
               "computed": false,
@@ -1302,75 +1359,85 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2140,
-                "end": 2146,
+                "start": 2139,
+                "end": 2145,
                 "name": "result"
               },
               {
                 "type": "Literal",
-                "start": 2152,
-                "end": 2153,
-                "value": 0
+                "start": 2151,
+                "end": 2152,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2155,
-                "end": 2156,
-                "value": 0
+                "start": 2154,
+                "end": 2155,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2158,
-                "end": 2159,
-                "value": 0
+                "start": 2157,
+                "end": 2158,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2161,
-                "end": 2162,
-                "value": 0
+                "start": 2160,
+                "end": 2161,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2168,
-                "end": 2169,
-                "value": 0
+                "start": 2167,
+                "end": 2168,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2171,
-                "end": 2172,
-                "value": 0
+                "start": 2170,
+                "end": 2171,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2174,
-                "end": 2175,
-                "value": 0
+                "start": 2173,
+                "end": 2174,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2181,
-                "end": 2182,
-                "value": 0
+                "start": 2180,
+                "end": 2181,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 2184,
-                "end": 2185,
-                "value": 0
+                "start": 2183,
+                "end": 2184,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
-                "start": 2187,
-                "end": 2206,
+                "start": 2186,
+                "end": 2205,
                 "name": "expectedNanoseconds"
               },
               {
                 "type": "Literal",
-                "start": 2212,
-                "end": 2315,
-                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds"
+                "start": 2211,
+                "end": 2314,
+                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds",
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds\""
               }
             ],
             "optional": false

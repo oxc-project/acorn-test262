@@ -1,87 +1,93 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1007,
+  "end": 1005,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 661,
-      "end": 794,
+      "start": 659,
+      "end": 792,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 667,
-          "end": 793,
+          "start": 665,
+          "end": 791,
           "id": {
             "type": "Identifier",
-            "start": 667,
-            "end": 690,
+            "start": 665,
+            "end": 688,
             "name": "invalidCaseFirstOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 693,
-            "end": 793,
+            "start": 691,
+            "end": 791,
             "elements": [
               {
                 "type": "Literal",
-                "start": 697,
-                "end": 699,
-                "value": ""
+                "start": 695,
+                "end": 697,
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
-                "start": 703,
-                "end": 706,
-                "value": "u"
+                "start": 701,
+                "end": 704,
+                "value": "u",
+                "raw": "\"u\""
               },
               {
                 "type": "Literal",
-                "start": 710,
-                "end": 717,
-                "value": "Upper"
+                "start": 708,
+                "end": 715,
+                "value": "Upper",
+                "raw": "\"Upper\""
               },
               {
                 "type": "Literal",
-                "start": 721,
-                "end": 730,
-                "value": "upper\u0000"
+                "start": 719,
+                "end": 728,
+                "value": "upper\u0000",
+                "raw": "\"upper\\0\""
               },
               {
                 "type": "Literal",
-                "start": 734,
-                "end": 745,
-                "value": "uppercase"
+                "start": 732,
+                "end": 743,
+                "value": "uppercase",
+                "raw": "\"uppercase\""
               },
               {
                 "type": "Literal",
-                "start": 749,
-                "end": 755,
-                "value": "true"
+                "start": 747,
+                "end": 753,
+                "value": "true",
+                "raw": "\"true\""
               },
               {
                 "type": "ObjectExpression",
-                "start": 759,
-                "end": 790,
+                "start": 757,
+                "end": 788,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 761,
-                    "end": 788,
+                    "start": 759,
+                    "end": 786,
                     "method": true,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 761,
-                      "end": 768,
+                      "start": 759,
+                      "end": 766,
                       "name": "valueOf"
                     },
                     "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 768,
-                      "end": 788,
+                      "start": 766,
+                      "end": 786,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -89,18 +95,19 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 771,
-                        "end": 788,
+                        "start": 769,
+                        "end": 786,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 773,
-                            "end": 786,
+                            "start": 771,
+                            "end": 784,
                             "argument": {
                               "type": "Literal",
-                              "start": 780,
-                              "end": 785,
-                              "value": false
+                              "start": 778,
+                              "end": 783,
+                              "value": false,
+                              "raw": "false"
                             }
                           }
                         ]
@@ -117,22 +124,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 795,
-      "end": 1006,
+      "start": 793,
+      "end": 1004,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 800,
-        "end": 815,
+        "start": 798,
+        "end": 813,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 806,
-            "end": 815,
+            "start": 804,
+            "end": 813,
             "id": {
               "type": "Identifier",
-              "start": 806,
-              "end": 815,
+              "start": 804,
+              "end": 813,
               "name": "caseFirst"
             },
             "init": null
@@ -142,37 +149,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 819,
-        "end": 842,
+        "start": 817,
+        "end": 840,
         "name": "invalidCaseFirstOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 844,
-        "end": 1006,
+        "start": 842,
+        "end": 1004,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 848,
-            "end": 1004,
+            "start": 846,
+            "end": 1002,
             "expression": {
               "type": "CallExpression",
-              "start": 848,
-              "end": 1003,
+              "start": 846,
+              "end": 1001,
               "callee": {
                 "type": "MemberExpression",
-                "start": 848,
-                "end": 861,
+                "start": 846,
+                "end": 859,
                 "object": {
                   "type": "Identifier",
-                  "start": 848,
-                  "end": 854,
+                  "start": 846,
+                  "end": 852,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 855,
-                  "end": 861,
+                  "start": 853,
+                  "end": 859,
                   "name": "throws"
                 },
                 "computed": false,
@@ -181,14 +188,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 862,
-                  "end": 872,
+                  "start": 860,
+                  "end": 870,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 874,
-                  "end": 930,
+                  "start": 872,
+                  "end": 928,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -196,31 +203,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 885,
-                    "end": 930,
+                    "start": 883,
+                    "end": 928,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 891,
-                        "end": 926,
+                        "start": 889,
+                        "end": 924,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 891,
-                          "end": 925,
+                          "start": 889,
+                          "end": 923,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 895,
-                            "end": 906,
+                            "start": 893,
+                            "end": 904,
                             "object": {
                               "type": "Identifier",
-                              "start": 895,
-                              "end": 899,
+                              "start": 893,
+                              "end": 897,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 900,
-                              "end": 906,
+                              "start": 898,
+                              "end": 904,
                               "name": "Locale"
                             },
                             "computed": false,
@@ -229,33 +236,34 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 907,
-                              "end": 911,
-                              "value": "en"
+                              "start": 905,
+                              "end": 909,
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 913,
-                              "end": 924,
+                              "start": 911,
+                              "end": 922,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 914,
-                                  "end": 923,
+                                  "start": 912,
+                                  "end": 921,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 914,
-                                    "end": 923,
+                                    "start": 912,
+                                    "end": 921,
                                     "name": "caseFirst"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 914,
-                                    "end": 923,
+                                    "start": 912,
+                                    "end": 921,
                                     "name": "caseFirst"
                                   }
                                 }
@@ -269,21 +277,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 932,
-                  "end": 1002,
+                  "start": 930,
+                  "end": 1000,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 970,
-                      "end": 979,
+                      "start": 968,
+                      "end": 977,
                       "name": "caseFirst"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 933,
-                      "end": 968,
+                      "start": 931,
+                      "end": 966,
                       "value": {
                         "raw": "new Intl.Locale(\"en\", {caseFirst: \"",
                         "cooked": "new Intl.Locale(\"en\", {caseFirst: \""
@@ -292,8 +300,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 980,
-                      "end": 1001,
+                      "start": 978,
+                      "end": 999,
                       "value": {
                         "raw": "\"}) throws RangeError",
                         "cooked": "\"}) throws RangeError"

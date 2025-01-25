@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 319,
                     "end": 367,
-                    "value": "#1.1: new new RegExp throw TypeError. Actual: "
+                    "value": "#1.1: new new RegExp throw TypeError. Actual: ",
+                    "raw": "'#1.1: new new RegExp throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -132,13 +133,15 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 459,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 465,
                     "end": 539,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

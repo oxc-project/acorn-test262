@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 326,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 367,
                       "end": 368,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -191,19 +194,22 @@
             "type": "Literal",
             "start": 423,
             "end": 439,
-            "value": "345600000000000n"
+            "value": "345600000000000n",
+            "raw": "345600000000000n"
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 446,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 488,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -270,7 +276,8 @@
                       "type": "Literal",
                       "start": 530,
                       "end": 531,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -350,19 +357,22 @@
             "type": "Literal",
             "start": 592,
             "end": 608,
-            "value": "345600000000000n"
+            "value": "345600000000000n",
+            "raw": "345600000000000n"
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 615,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 653,
-            "value": "options may be a function object"
+            "value": "options may be a function object",
+            "raw": "\"options may be a function object\""
           }
         ],
         "optional": false

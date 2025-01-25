@@ -62,7 +62,8 @@
                   "type": "Literal",
                   "start": 1026,
                   "end": 1050,
-                  "value": "./2nd-param_FIXTURE.js"
+                  "value": "./2nd-param_FIXTURE.js",
+                  "raw": "'./2nd-param_FIXTURE.js'"
                 },
                 "options": {
                   "type": "ObjectExpression",
@@ -98,7 +99,8 @@
                               "type": "Literal",
                               "start": 1063,
                               "end": 1065,
-                              "value": ""
+                              "value": "",
+                              "raw": "''"
                             },
                             "kind": "get",
                             "value": {
@@ -180,7 +182,8 @@
                             "type": "Literal",
                             "start": 1137,
                             "end": 1192,
-                            "value": "Expected promise to be rejected, but it was fulfilled"
+                            "value": "Expected promise to be rejected, but it was fulfilled",
+                            "raw": "'Expected promise to be rejected, but it was fulfilled'"
                           }
                         ]
                       }

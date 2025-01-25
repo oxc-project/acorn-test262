@@ -42,7 +42,8 @@
           "type": "Literal",
           "start": 306,
           "end": 314,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -68,7 +69,8 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 394,
-                "value": "#1: typeof Boolean.prototype === \"object\". Actual: "
+                "value": "#1: typeof Boolean.prototype === \"object\". Actual: ",
+                "raw": "'#1: typeof Boolean.prototype === \"object\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -136,7 +138,8 @@
               "type": "Literal",
               "start": 446,
               "end": 457,
-              "value": "prototype"
+              "value": "prototype",
+              "raw": "'prototype'"
             },
             "computed": true,
             "optional": false
@@ -147,7 +150,8 @@
           "type": "Literal",
           "start": 464,
           "end": 472,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -173,7 +177,8 @@
                 "type": "Literal",
                 "start": 498,
                 "end": 554,
-                "value": "#2: typeof Boolean[\"prototype\"] === \"object\". Actual: "
+                "value": "#2: typeof Boolean[\"prototype\"] === \"object\". Actual: ",
+                "raw": "'#2: typeof Boolean[\"prototype\"] === \"object\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -200,7 +205,8 @@
                       "type": "Literal",
                       "start": 573,
                       "end": 584,
-                      "value": "prototype"
+                      "value": "prototype",
+                      "raw": "\"prototype\""
                     },
                     "computed": true,
                     "optional": false
@@ -252,7 +258,8 @@
           "type": "Literal",
           "start": 626,
           "end": 636,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -278,7 +285,8 @@
                 "type": "Literal",
                 "start": 662,
                 "end": 719,
-                "value": "#3: typeof Boolean.constructor === \"function\". Actual: "
+                "value": "#3: typeof Boolean.constructor === \"function\". Actual: ",
+                "raw": "'#3: typeof Boolean.constructor === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -346,7 +354,8 @@
               "type": "Literal",
               "start": 773,
               "end": 786,
-              "value": "constructor"
+              "value": "constructor",
+              "raw": "'constructor'"
             },
             "computed": true,
             "optional": false
@@ -357,7 +366,8 @@
           "type": "Literal",
           "start": 793,
           "end": 803,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -383,7 +393,8 @@
                 "type": "Literal",
                 "start": 829,
                 "end": 889,
-                "value": "#4: typeof Boolean[\"constructor\"] === \"function\". Actual: "
+                "value": "#4: typeof Boolean[\"constructor\"] === \"function\". Actual: ",
+                "raw": "'#4: typeof Boolean[\"constructor\"] === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -410,7 +421,8 @@
                       "type": "Literal",
                       "start": 908,
                       "end": 921,
-                      "value": "constructor"
+                      "value": "constructor",
+                      "raw": "\"constructor\""
                     },
                     "computed": true,
                     "optional": false
@@ -475,7 +487,8 @@
           "type": "Literal",
           "start": 969,
           "end": 979,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -501,7 +514,8 @@
                 "type": "Literal",
                 "start": 1005,
                 "end": 1068,
-                "value": "#5: typeof Boolean.prototype.valueOf === \"function\". Actual: "
+                "value": "#5: typeof Boolean.prototype.valueOf === \"function\". Actual: ",
+                "raw": "'#5: typeof Boolean.prototype.valueOf === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -595,7 +609,8 @@
               "type": "Literal",
               "start": 1138,
               "end": 1147,
-              "value": "valueOf"
+              "value": "valueOf",
+              "raw": "'valueOf'"
             },
             "computed": true,
             "optional": false
@@ -606,7 +621,8 @@
           "type": "Literal",
           "start": 1153,
           "end": 1163,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -632,7 +648,8 @@
                 "type": "Literal",
                 "start": 1189,
                 "end": 1255,
-                "value": "#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: "
+                "value": "#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: ",
+                "raw": "'#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -672,7 +689,8 @@
                       "type": "Literal",
                       "start": 1284,
                       "end": 1293,
-                      "value": "valueOf"
+                      "value": "valueOf",
+                      "raw": "\"valueOf\""
                     },
                     "computed": true,
                     "optional": false
@@ -737,7 +755,8 @@
           "type": "Literal",
           "start": 1341,
           "end": 1351,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -763,7 +782,8 @@
                 "type": "Literal",
                 "start": 1377,
                 "end": 1441,
-                "value": "#7: typeof Boolean.prototype.toString === \"function\". Actual: "
+                "value": "#7: typeof Boolean.prototype.toString === \"function\". Actual: ",
+                "raw": "'#7: typeof Boolean.prototype.toString === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -857,7 +877,8 @@
               "type": "Literal",
               "start": 1512,
               "end": 1522,
-              "value": "toString"
+              "value": "toString",
+              "raw": "'toString'"
             },
             "computed": true,
             "optional": false
@@ -868,7 +889,8 @@
           "type": "Literal",
           "start": 1528,
           "end": 1538,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -894,7 +916,8 @@
                 "type": "Literal",
                 "start": 1564,
                 "end": 1631,
-                "value": "#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: "
+                "value": "#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: ",
+                "raw": "'#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: '"
               },
               "operator": "+",
               "right": {
@@ -934,7 +957,8 @@
                       "type": "Literal",
                       "start": 1660,
                       "end": 1670,
-                      "value": "toString"
+                      "value": "toString",
+                      "raw": "\"toString\""
                     },
                     "computed": true,
                     "optional": false

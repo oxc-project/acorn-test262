@@ -113,7 +113,8 @@
             "type": "Literal",
             "start": 342,
             "end": 385,
-            "value": "Math.exp(+Infinity) must return +Infinity"
+            "value": "Math.exp(+Infinity) must return +Infinity",
+            "raw": "'Math.exp(+Infinity) must return +Infinity'"
           }
         ],
         "optional": false

@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 296,
                   "end": 297,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 299,
                   "end": 300,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -55,13 +57,15 @@
                   "type": "Literal",
                   "start": 304,
                   "end": 305,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 307,
                   "end": 308,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -82,7 +86,8 @@
                   "type": "Literal",
                   "start": 320,
                   "end": 323,
-                  "value": "2"
+                  "value": "2",
+                  "raw": "\"2\""
                 },
                 "kind": "init"
               }
@@ -180,7 +185,8 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 380,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -189,13 +195,15 @@
             "type": "Literal",
             "start": 383,
             "end": 384,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 424,
-            "value": "Array.prototype.indexOf.call(obj, 1)"
+            "value": "Array.prototype.indexOf.call(obj, 1)",
+            "raw": "'Array.prototype.indexOf.call(obj, 1)'"
           }
         ],
         "optional": false
@@ -289,7 +297,8 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 479,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -304,14 +313,16 @@
               "type": "Literal",
               "start": 483,
               "end": 484,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 524,
-            "value": "Array.prototype.indexOf.call(obj, 2)"
+            "value": "Array.prototype.indexOf.call(obj, 2)",
+            "raw": "'Array.prototype.indexOf.call(obj, 2)'"
           }
         ],
         "optional": false

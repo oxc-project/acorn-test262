@@ -28,19 +28,22 @@
             "type": "Literal",
             "start": 339,
             "end": 358,
-            "value": "POSITIVE_INFINITY"
+            "value": "POSITIVE_INFINITY",
+            "raw": "\"POSITIVE_INFINITY\""
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 364,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -105,7 +108,8 @@
             "type": "Literal",
             "start": 420,
             "end": 493,
-            "value": "The value of !isFinite(Number.POSITIVE_INFINITY) is expected to be true"
+            "value": "The value of !isFinite(Number.POSITIVE_INFINITY) is expected to be true",
+            "raw": "'The value of !isFinite(Number.POSITIVE_INFINITY) is expected to be true'"
           }
         ],
         "optional": false

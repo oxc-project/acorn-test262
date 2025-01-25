@@ -190,7 +190,8 @@
             "type": "Literal",
             "start": 475,
             "end": 519,
-            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }"
+            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }",
+            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
           }
         ],
         "optional": false

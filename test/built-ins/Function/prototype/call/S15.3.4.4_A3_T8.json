@@ -95,7 +95,8 @@
                                     "type": "Literal",
                                     "start": 459,
                                     "end": 472,
-                                    "value": "kamon beyba"
+                                    "value": "kamon beyba",
+                                    "raw": "\"kamon beyba\""
                                   }
                                 }
                               }
@@ -172,7 +173,8 @@
               "type": "Literal",
               "start": 525,
               "end": 531,
-              "value": "feat"
+              "value": "feat",
+              "raw": "\"feat\""
             },
             "computed": true,
             "optional": false
@@ -181,13 +183,15 @@
             "type": "Literal",
             "start": 534,
             "end": 547,
-            "value": "kamon beyba"
+            "value": "kamon beyba",
+            "raw": "\"kamon beyba\""
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 608,
-            "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\""
+            "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
+            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
           }
         ],
         "optional": false

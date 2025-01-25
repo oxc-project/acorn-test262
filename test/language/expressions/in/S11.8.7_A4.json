@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 291,
             "end": 297,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 301,
           "end": 302,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -80,7 +82,8 @@
             "type": "Literal",
             "start": 308,
             "end": 312,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           "operator": "in",
           "right": {
@@ -99,7 +102,8 @@
             "type": "Literal",
             "start": 327,
             "end": 333,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           },
           "operator": "in",
           "right": {
@@ -134,7 +138,8 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 453,
-                  "value": "#1: \"var object = {}; object[\"true\"] = 1; true in object === \"true\" in object"
+                  "value": "#1: \"var object = {}; object[\"true\"] = 1; true in object === \"true\" in object",
+                  "raw": "'#1: \"var object = {}; object[\"true\"] = 1; true in object === \"true\" in object'"
                 }
               ]
             }
@@ -200,7 +205,8 @@
           "type": "Literal",
           "start": 506,
           "end": 507,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -239,7 +245,8 @@
             "type": "Literal",
             "start": 536,
             "end": 546,
-            "value": "Infinity"
+            "value": "Infinity",
+            "raw": "\"Infinity\""
           },
           "operator": "in",
           "right": {
@@ -274,7 +281,8 @@
                   "type": "Literal",
                   "start": 587,
                   "end": 675,
-                  "value": "#2: \"var object = {}; object.Infinity = 1; Infinity in object === \"Infinity\" in object"
+                  "value": "#2: \"var object = {}; object.Infinity = 1; Infinity in object === \"Infinity\" in object",
+                  "raw": "'#2: \"var object = {}; object.Infinity = 1; Infinity in object === \"Infinity\" in object'"
                 }
               ]
             }
@@ -340,7 +348,8 @@
           "type": "Literal",
           "start": 729,
           "end": 730,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -379,7 +388,8 @@
             "type": "Literal",
             "start": 760,
             "end": 771,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           "operator": "in",
           "right": {
@@ -414,7 +424,8 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 903,
-                  "value": "#4: \"var object = {}; object.undefined = 1; undefined in object === \"undefined\" in object"
+                  "value": "#4: \"var object = {}; object.undefined = 1; undefined in object === \"undefined\" in object",
+                  "raw": "'#4: \"var object = {}; object.undefined = 1; undefined in object === \"undefined\" in object'"
                 }
               ]
             }
@@ -471,7 +482,8 @@
             "type": "Literal",
             "start": 945,
             "end": 951,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           },
           "computed": true,
           "optional": false
@@ -480,7 +492,8 @@
           "type": "Literal",
           "start": 955,
           "end": 956,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -500,7 +513,8 @@
             "type": "Literal",
             "start": 962,
             "end": 966,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": "in",
           "right": {
@@ -519,7 +533,8 @@
             "type": "Literal",
             "start": 981,
             "end": 987,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           },
           "operator": "in",
           "right": {
@@ -554,7 +569,8 @@
                   "type": "Literal",
                   "start": 1028,
                   "end": 1107,
-                  "value": "#5: \"var object = {}; object[\"null\"] = 1; null in object === \"null\" in object"
+                  "value": "#5: \"var object = {}; object[\"null\"] = 1; null in object === \"null\" in object",
+                  "raw": "'#5: \"var object = {}; object[\"null\"] = 1; null in object === \"null\" in object'"
                 }
               ]
             }

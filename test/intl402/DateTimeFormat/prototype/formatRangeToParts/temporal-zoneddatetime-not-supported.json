@@ -168,7 +168,8 @@
                 "type": "Literal",
                 "start": 511,
                 "end": 513,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -260,13 +261,15 @@
             "type": "Literal",
             "start": 596,
             "end": 604,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 651,
-            "value": "toLocaleString() with same options succeeds"
+            "value": "toLocaleString() with same options succeeds",
+            "raw": "\"toLocaleString() with same options succeeds\""
           }
         ],
         "optional": false
@@ -315,7 +318,8 @@
                 "type": "Literal",
                 "start": 700,
                 "end": 714,
-                "value": "1000000000n"
+                "value": "1000000000n",
+                "raw": "1_000_000_000n"
               },
               {
                 "type": "Identifier",
@@ -416,7 +420,8 @@
             "type": "Literal",
             "start": 803,
             "end": 858,
-            "value": "formatRange() does not support Temporal.ZonedDateTime"
+            "value": "formatRange() does not support Temporal.ZonedDateTime",
+            "raw": "\"formatRange() does not support Temporal.ZonedDateTime\""
           }
         ],
         "optional": false

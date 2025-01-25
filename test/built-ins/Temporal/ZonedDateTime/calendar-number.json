@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 269,
                 "end": 270,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -39,20 +40,23 @@
                   "type": "Literal",
                   "start": 275,
                   "end": 283,
-                  "value": 19761118
+                  "value": 19761118,
+                  "raw": "19761118"
                 }
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 295,
-                "value": 19761118
+                "value": 19761118,
+                "raw": "19761118"
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 309,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -167,13 +171,15 @@
                         "type": "Literal",
                         "start": 413,
                         "end": 415,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 417,
                         "end": 422,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       {
                         "type": "Identifier",
@@ -188,7 +194,8 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 483,
-                  "value": "A number is not a valid ISO string for Calendar"
+                  "value": "A number is not a valid ISO string for Calendar",
+                  "raw": "\"A number is not a valid ISO string for Calendar\""
                 }
               ],
               "optional": false

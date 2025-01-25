@@ -181,7 +181,8 @@
                             "type": "Literal",
                             "start": 2016,
                             "end": 2020,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

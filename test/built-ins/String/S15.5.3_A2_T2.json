@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 399,
           "end": 400,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -84,7 +85,8 @@
           "type": "Literal",
           "start": 517,
           "end": 518,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -115,7 +117,8 @@
                     "type": "Literal",
                     "start": 547,
                     "end": 639,
-                    "value": "#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ==="
+                    "value": "#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ===",
+                    "raw": "'#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ==='"
                   },
                   "operator": "+",
                   "right": {

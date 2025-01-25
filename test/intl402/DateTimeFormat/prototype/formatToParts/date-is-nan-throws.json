@@ -51,7 +51,8 @@
                     "type": "Literal",
                     "start": 722,
                     "end": 729,
-                    "value": "pt-BR"
+                    "value": "pt-BR",
+                    "raw": "\"pt-BR\""
                   }
                 ]
               }
@@ -234,7 +235,8 @@
                         "type": "Literal",
                         "start": 863,
                         "end": 868,
-                        "value": "lol"
+                        "value": "lol",
+                        "raw": "\"lol\""
                       }
                     ],
                     "optional": false

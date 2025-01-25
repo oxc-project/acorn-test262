@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 339,
-                "value": "1588377600000000000n"
+                "value": "1588377600000000000n",
+                "raw": "1588377600_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 346,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -79,7 +81,8 @@
             "type": "Literal",
             "start": 364,
             "end": 396,
-            "value": "2016-12-31T23:59:60+00:00[UTC]"
+            "value": "2016-12-31T23:59:60+00:00[UTC]",
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
           }
         }
       ],
@@ -146,7 +149,8 @@
                       "type": "Literal",
                       "start": 430,
                       "end": 434,
-                      "value": 2020
+                      "value": 2020,
+                      "raw": "2020"
                     },
                     "kind": "init"
                   },
@@ -167,7 +171,8 @@
                       "type": "Literal",
                       "start": 443,
                       "end": 444,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   },
@@ -188,7 +193,8 @@
                       "type": "Literal",
                       "start": 451,
                       "end": 452,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   },
@@ -222,7 +228,8 @@
             "type": "Literal",
             "start": 467,
             "end": 515,
-            "value": "leap second is a valid ISO string for TimeZone"
+            "value": "leap second is a valid ISO string for TimeZone",
+            "raw": "\"leap second is a valid ISO string for TimeZone\""
           }
         ],
         "optional": false
@@ -247,7 +254,8 @@
           "type": "Literal",
           "start": 530,
           "end": 578,
-          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]"
+          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
         }
       }
     },
@@ -340,7 +348,8 @@
                         "type": "Literal",
                         "start": 636,
                         "end": 640,
-                        "value": 2020
+                        "value": 2020,
+                        "raw": "2020"
                       },
                       "kind": "init"
                     },
@@ -361,7 +370,8 @@
                         "type": "Literal",
                         "start": 649,
                         "end": 650,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       "kind": "init"
                     },
@@ -382,7 +392,8 @@
                         "type": "Literal",
                         "start": 657,
                         "end": 658,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "kind": "init"
                     },
@@ -417,7 +428,8 @@
             "type": "Literal",
             "start": 673,
             "end": 714,
-            "value": "leap second in time zone name not valid"
+            "value": "leap second in time zone name not valid",
+            "raw": "\"leap second in time zone name not valid\""
           }
         ],
         "optional": false

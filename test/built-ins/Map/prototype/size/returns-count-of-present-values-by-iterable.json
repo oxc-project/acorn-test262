@@ -43,7 +43,8 @@
                         "type": "Literal",
                         "start": 492,
                         "end": 493,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
@@ -81,7 +82,8 @@
                         "type": "Literal",
                         "start": 536,
                         "end": 541,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Identifier",
@@ -119,7 +121,8 @@
                         "type": "Literal",
                         "start": 578,
                         "end": 582,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -138,7 +141,8 @@
                         "type": "Literal",
                         "start": 599,
                         "end": 601,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       {
                         "type": "Identifier",
@@ -233,13 +237,15 @@
             "type": "Literal",
             "start": 672,
             "end": 673,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 707,
-            "value": "The value of `map.size` is `7`"
+            "value": "The value of `map.size` is `7`",
+            "raw": "'The value of `map.size` is `7`'"
           }
         ],
         "optional": false

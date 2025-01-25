@@ -65,7 +65,8 @@
                     "type": "Literal",
                     "start": 377,
                     "end": 394,
-                    "value": "ownDataProperty"
+                    "value": "ownDataProperty",
+                    "raw": "\"ownDataProperty\""
                   }
                 }
               ]
@@ -113,7 +114,8 @@
             "type": "Literal",
             "start": 426,
             "end": 436,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -158,7 +160,8 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 472,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -217,7 +220,8 @@
                 "type": "Literal",
                 "start": 526,
                 "end": 536,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -245,7 +249,8 @@
             "type": "Literal",
             "start": 554,
             "end": 559,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -305,7 +310,8 @@
                 "type": "Literal",
                 "start": 602,
                 "end": 607,
-                "value": "get"
+                "value": "get",
+                "raw": "\"get\""
               }
             },
             "consequent": {
@@ -332,7 +338,8 @@
                       "type": "Literal",
                       "start": 626,
                       "end": 630,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -368,7 +375,8 @@
             "type": "Literal",
             "start": 656,
             "end": 675,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

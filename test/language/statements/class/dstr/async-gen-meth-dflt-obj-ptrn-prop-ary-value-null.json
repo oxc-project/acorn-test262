@@ -101,19 +101,22 @@
                                 "type": "Literal",
                                 "start": 1975,
                                 "end": 1976,
-                                "value": 4
+                                "value": 4,
+                                "raw": "4"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1978,
                                 "end": 1979,
-                                "value": 5
+                                "value": 5,
+                                "raw": "5"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1981,
                                 "end": 1982,
-                                "value": 6
+                                "value": 6,
+                                "raw": "6"
                               }
                             ]
                           }
@@ -144,7 +147,8 @@
                           "type": "Literal",
                           "start": 1993,
                           "end": 1997,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         },
                         "kind": "init"
                       }

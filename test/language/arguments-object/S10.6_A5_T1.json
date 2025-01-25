@@ -54,7 +54,8 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 399,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 }
               ],
               "optional": false
@@ -98,7 +99,8 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 427,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             },
             "consequent": {
@@ -125,7 +127,8 @@
                         "type": "Literal",
                         "start": 457,
                         "end": 514,
-                        "value": "#1: arguments object doesn't contains property 'length'"
+                        "value": "#1: arguments object doesn't contains property 'length'",
+                        "raw": "\"#1: arguments object doesn't contains property 'length'\""
                       }
                     ]
                   }
@@ -170,7 +173,8 @@
                     "type": "Literal",
                     "start": 558,
                     "end": 595,
-                    "value": "#1: arguments object doesn't exists"
+                    "value": "#1: arguments object doesn't exists",
+                    "raw": "\"#1: arguments object doesn't exists\""
                   }
                 ]
               }
@@ -241,7 +245,8 @@
                         "type": "Literal",
                         "start": 663,
                         "end": 671,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       }
                     ],
                     "optional": false
@@ -289,7 +294,8 @@
                 "type": "Literal",
                 "start": 695,
                 "end": 699,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             },
             "consequent": {
@@ -316,7 +322,8 @@
                         "type": "Literal",
                         "start": 729,
                         "end": 786,
-                        "value": "#2: arguments object doesn't contains property 'length'"
+                        "value": "#2: arguments object doesn't contains property 'length'",
+                        "raw": "\"#2: arguments object doesn't contains property 'length'\""
                       }
                     ]
                   }
@@ -361,7 +368,8 @@
                     "type": "Literal",
                     "start": 830,
                     "end": 867,
-                    "value": "#2: arguments object doesn't exists"
+                    "value": "#2: arguments object doesn't exists",
+                    "raw": "\"#2: arguments object doesn't exists\""
                   }
                 ]
               }

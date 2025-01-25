@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 329,
-                "value": 2013
+                "value": 2013,
+                "raw": "2013"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -149,7 +151,8 @@
                         "type": "Literal",
                         "start": 387,
                         "end": 391,
-                        "value": 1994
+                        "value": 1994,
+                        "raw": "1994"
                       },
                       "kind": "init"
                     }
@@ -163,7 +166,8 @@
             "type": "Literal",
             "start": 396,
             "end": 432,
-            "value": "Throws when missing required month"
+            "value": "Throws when missing required month",
+            "raw": "'Throws when missing required month'"
           }
         ],
         "optional": false
@@ -258,7 +262,8 @@
                         "type": "Literal",
                         "start": 487,
                         "end": 489,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     }
@@ -272,7 +277,8 @@
             "type": "Literal",
             "start": 494,
             "end": 529,
-            "value": "Throws when missing required year"
+            "value": "Throws when missing required year",
+            "raw": "'Throws when missing required year'"
           }
         ],
         "optional": false

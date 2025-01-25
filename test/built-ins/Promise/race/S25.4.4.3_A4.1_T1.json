@@ -270,7 +270,8 @@
                             "type": "Literal",
                             "start": 477,
                             "end": 558,
-                            "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError"
+                            "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError",
+                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError'"
                           }
                         ]
                       }
@@ -343,7 +344,8 @@
                             "type": "Literal",
                             "start": 617,
                             "end": 678,
-                            "value": "The value of reason is expected to equal the value of error"
+                            "value": "The value of reason is expected to equal the value of error",
+                            "raw": "'The value of reason is expected to equal the value of error'"
                           }
                         ],
                         "optional": false

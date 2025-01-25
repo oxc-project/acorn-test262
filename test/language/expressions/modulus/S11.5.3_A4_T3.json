@@ -74,7 +74,8 @@
           "type": "Literal",
           "start": 427,
           "end": 431,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -105,7 +106,8 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 513,
-                    "value": "#1: -Infinity % Infinity === Not-a-Number. Actual: "
+                    "value": "#1: -Infinity % Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#1: -Infinity % Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +219,8 @@
           "type": "Literal",
           "start": 621,
           "end": 625,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -248,7 +251,8 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 708,
-                    "value": "#2: -Infinity % -Infinity === Not-a-Number. Actual: "
+                    "value": "#2: -Infinity % -Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#2: -Infinity % -Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -367,7 +371,8 @@
           "type": "Literal",
           "start": 817,
           "end": 821,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -398,7 +403,8 @@
                     "type": "Literal",
                     "start": 850,
                     "end": 902,
-                    "value": "#3: Infinity % Infinity === Not-a-Number. Actual: "
+                    "value": "#3: Infinity % Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#3: Infinity % Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -503,7 +509,8 @@
           "type": "Literal",
           "start": 1009,
           "end": 1013,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -534,7 +541,8 @@
                     "type": "Literal",
                     "start": 1042,
                     "end": 1095,
-                    "value": "#4: Infinity % -Infinity === Not-a-Number. Actual: "
+                    "value": "#4: Infinity % -Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#4: Infinity % -Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -622,7 +630,8 @@
                 "type": "Literal",
                 "start": 1173,
                 "end": 1174,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -633,7 +642,8 @@
           "type": "Literal",
           "start": 1180,
           "end": 1184,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -664,7 +674,8 @@
                     "type": "Literal",
                     "start": 1213,
                     "end": 1258,
-                    "value": "#5: Infinity % 1 === Not-a-Number. Actual: "
+                    "value": "#5: Infinity % 1 === Not-a-Number. Actual: ",
+                    "raw": "'#5: Infinity % 1 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -686,7 +697,8 @@
                         "type": "Literal",
                         "start": 1273,
                         "end": 1274,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -751,7 +763,8 @@
                   "type": "Literal",
                   "start": 1329,
                   "end": 1330,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -763,7 +776,8 @@
           "type": "Literal",
           "start": 1336,
           "end": 1340,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -794,7 +808,8 @@
                     "type": "Literal",
                     "start": 1369,
                     "end": 1416,
-                    "value": "#6: -Infinity % -1 === Not-a-Number. Actual: "
+                    "value": "#6: -Infinity % -1 === Not-a-Number. Actual: ",
+                    "raw": "'#6: -Infinity % -1 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -829,7 +844,8 @@
                           "type": "Literal",
                           "start": 1433,
                           "end": 1434,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -889,7 +905,8 @@
                 "type": "Literal",
                 "start": 1488,
                 "end": 1489,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -900,7 +917,8 @@
           "type": "Literal",
           "start": 1495,
           "end": 1499,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -931,7 +949,8 @@
                     "type": "Literal",
                     "start": 1528,
                     "end": 1573,
-                    "value": "#7: Infinity % 1 === Not-a-Number. Actual: "
+                    "value": "#7: Infinity % 1 === Not-a-Number. Actual: ",
+                    "raw": "'#7: Infinity % 1 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -953,7 +972,8 @@
                         "type": "Literal",
                         "start": 1588,
                         "end": 1589,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -1018,7 +1038,8 @@
                   "type": "Literal",
                   "start": 1644,
                   "end": 1645,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -1030,7 +1051,8 @@
           "type": "Literal",
           "start": 1651,
           "end": 1655,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1061,7 +1083,8 @@
                     "type": "Literal",
                     "start": 1684,
                     "end": 1730,
-                    "value": "#8: Infinity % -1 === Not-a-Number. Actual: "
+                    "value": "#8: Infinity % -1 === Not-a-Number. Actual: ",
+                    "raw": "'#8: Infinity % -1 === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1089,7 +1112,8 @@
                           "type": "Literal",
                           "start": 1746,
                           "end": 1747,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -1173,7 +1197,8 @@
           "type": "Literal",
           "start": 1823,
           "end": 1827,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1204,7 +1229,8 @@
                     "type": "Literal",
                     "start": 1856,
                     "end": 1916,
-                    "value": "#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: "
+                    "value": "#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1329,7 +1355,8 @@
           "type": "Literal",
           "start": 2025,
           "end": 2029,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1360,7 +1387,8 @@
                     "type": "Literal",
                     "start": 2058,
                     "end": 2121,
-                    "value": "#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: "
+                    "value": "#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1492,7 +1520,8 @@
           "type": "Literal",
           "start": 2231,
           "end": 2235,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1523,7 +1552,8 @@
                     "type": "Literal",
                     "start": 2264,
                     "end": 2325,
-                    "value": "#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: "
+                    "value": "#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1648,7 +1678,8 @@
           "type": "Literal",
           "start": 2434,
           "end": 2438,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -1679,7 +1710,8 @@
                     "type": "Literal",
                     "start": 2467,
                     "end": 2529,
-                    "value": "#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: "
+                    "value": "#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: ",
+                    "raw": "'#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {

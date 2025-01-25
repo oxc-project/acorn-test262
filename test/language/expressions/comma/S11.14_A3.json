@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 298,
             "end": 299,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 309,
             "end": 310,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -110,7 +113,8 @@
                   "type": "Literal",
                   "start": 321,
                   "end": 322,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -128,7 +132,8 @@
                   "type": "Literal",
                   "start": 328,
                   "end": 329,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
@@ -146,7 +151,8 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 336,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               }
             ]
@@ -157,7 +163,8 @@
           "type": "Literal",
           "start": 342,
           "end": 343,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -188,7 +195,8 @@
                     "type": "Literal",
                     "start": 372,
                     "end": 448,
-                    "value": "#1: var x = 0; var y = 0; var z = 0; (x = 1, y = 2, z = 3) === 3. Actual: "
+                    "value": "#1: var x = 0; var y = 0; var z = 0; (x = 1, y = 2, z = 3) === 3. Actual: ",
+                    "raw": "'#1: var x = 0; var y = 0; var z = 0; (x = 1, y = 2, z = 3) === 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -219,7 +227,8 @@
                               "type": "Literal",
                               "start": 457,
                               "end": 458,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           {
@@ -237,7 +246,8 @@
                               "type": "Literal",
                               "start": 464,
                               "end": 465,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             }
                           },
                           {
@@ -255,7 +265,8 @@
                               "type": "Literal",
                               "start": 471,
                               "end": 472,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           }
                         ]
@@ -289,7 +300,8 @@
             "type": "Literal",
             "start": 488,
             "end": 489,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -314,7 +326,8 @@
             "type": "Literal",
             "start": 499,
             "end": 500,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -339,7 +352,8 @@
             "type": "Literal",
             "start": 510,
             "end": 511,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -369,7 +383,8 @@
               "type": "Literal",
               "start": 517,
               "end": 518,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
@@ -387,7 +402,8 @@
               "type": "Literal",
               "start": 524,
               "end": 525,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
@@ -405,7 +421,8 @@
               "type": "Literal",
               "start": 531,
               "end": 532,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           }
         ]
@@ -430,7 +447,8 @@
           "type": "Literal",
           "start": 555,
           "end": 556,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -461,7 +479,8 @@
                     "type": "Literal",
                     "start": 585,
                     "end": 662,
-                    "value": "#2: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; x === 1. Actual: "
+                    "value": "#2: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; x === 1. Actual: ",
+                    "raw": "'#2: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -502,7 +521,8 @@
           "type": "Literal",
           "start": 694,
           "end": 695,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -533,7 +553,8 @@
                     "type": "Literal",
                     "start": 724,
                     "end": 801,
-                    "value": "#3: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; y === 2. Actual: "
+                    "value": "#3: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; y === 2. Actual: ",
+                    "raw": "'#3: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; y === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -574,7 +595,8 @@
           "type": "Literal",
           "start": 833,
           "end": 834,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -605,7 +627,8 @@
                     "type": "Literal",
                     "start": 863,
                     "end": 940,
-                    "value": "#4: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; z === 3. Actual: "
+                    "value": "#4: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; z === 3. Actual: ",
+                    "raw": "'#4: var x = 0; var y = 0; var z = 0; x = 1, y = 2, z = 3; z === 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {

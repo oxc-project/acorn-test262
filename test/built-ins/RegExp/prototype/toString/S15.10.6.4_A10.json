@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 439,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 444,
             "end": 448,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 523,
-            "value": "RegExp.prototype.toString.hasOwnProperty('length') must return true"
+            "value": "RegExp.prototype.toString.hasOwnProperty('length') must return true",
+            "raw": "'RegExp.prototype.toString.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -221,13 +224,15 @@
             "type": "Literal",
             "start": 620,
             "end": 628,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 634,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -251,7 +256,8 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 663,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -344,7 +350,8 @@
             "type": "Literal",
             "start": 734,
             "end": 821,
-            "value": "The value of RegExp.prototype.toString.length is expected to equal the value of __obj"
+            "value": "The value of RegExp.prototype.toString.length is expected to equal the value of __obj",
+            "raw": "'The value of RegExp.prototype.toString.length is expected to equal the value of __obj'"
           }
         ],
         "optional": false

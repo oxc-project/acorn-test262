@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 326,
             "end": 359,
-            "value": "Object.getPrototypeOf(URIError)"
+            "value": "Object.getPrototypeOf(URIError)",
+            "raw": "'Object.getPrototypeOf(URIError)'"
           }
         ],
         "optional": false

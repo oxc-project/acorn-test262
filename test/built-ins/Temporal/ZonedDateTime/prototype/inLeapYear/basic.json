@@ -67,13 +67,15 @@
                     "type": "Literal",
                     "start": 304,
                     "end": 323,
-                    "value": "217178610123456789n"
+                    "value": "217178610123456789n",
+                    "raw": "217178610123456789n"
                   },
                   {
                     "type": "Literal",
                     "start": 325,
                     "end": 330,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   }
                 ]
               }
@@ -91,13 +93,15 @@
             "type": "Literal",
             "start": 347,
             "end": 351,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 364,
-            "value": "leap year"
+            "value": "leap year",
+            "raw": "\"leap year\""
           }
         ],
         "optional": false
@@ -167,13 +171,15 @@
                     "type": "Literal",
                     "start": 412,
                     "end": 431,
-                    "value": "248714610123456789n"
+                    "value": "248714610123456789n",
+                    "raw": "248714610123456789n"
                   },
                   {
                     "type": "Literal",
                     "start": 433,
                     "end": 438,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   }
                 ]
               }
@@ -191,13 +197,15 @@
             "type": "Literal",
             "start": 455,
             "end": 460,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 477,
-            "value": "non-leap year"
+            "value": "non-leap year",
+            "raw": "\"non-leap year\""
           }
         ],
         "optional": false

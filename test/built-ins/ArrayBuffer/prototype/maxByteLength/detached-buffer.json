@@ -1,39 +1,40 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 676,
+  "end": 674,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 587,
-      "end": 615,
+      "start": 585,
+      "end": 613,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 591,
-          "end": 614,
+          "start": 589,
+          "end": 612,
           "id": {
             "type": "Identifier",
-            "start": 591,
-            "end": 593,
+            "start": 589,
+            "end": 591,
             "name": "ab"
           },
           "init": {
             "type": "NewExpression",
-            "start": 596,
-            "end": 614,
+            "start": 594,
+            "end": 612,
             "callee": {
               "type": "Identifier",
-              "start": 600,
-              "end": 611,
+              "start": 598,
+              "end": 609,
               "name": "ArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 612,
-                "end": 613,
-                "value": 1
+                "start": 610,
+                "end": 611,
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -43,23 +44,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 635,
+      "start": 615,
+      "end": 633,
       "expression": {
         "type": "CallExpression",
-        "start": 617,
-        "end": 634,
+        "start": 615,
+        "end": 632,
         "callee": {
           "type": "Identifier",
-          "start": 617,
-          "end": 630,
+          "start": 615,
+          "end": 628,
           "name": "$DETACHBUFFER"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 631,
-            "end": 633,
+            "start": 629,
+            "end": 631,
             "name": "ab"
           }
         ],
@@ -68,26 +69,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 637,
-      "end": 675,
+      "start": 635,
+      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 637,
-        "end": 674,
+        "start": 635,
+        "end": 672,
         "callee": {
           "type": "MemberExpression",
-          "start": 637,
-          "end": 653,
+          "start": 635,
+          "end": 651,
           "object": {
             "type": "Identifier",
-            "start": 637,
-            "end": 643,
+            "start": 635,
+            "end": 641,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 644,
-            "end": 653,
+            "start": 642,
+            "end": 651,
             "name": "sameValue"
           },
           "computed": false,
@@ -96,18 +97,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 654,
-            "end": 670,
+            "start": 652,
+            "end": 668,
             "object": {
               "type": "Identifier",
-              "start": 654,
-              "end": 656,
+              "start": 652,
+              "end": 654,
               "name": "ab"
             },
             "property": {
               "type": "Identifier",
-              "start": 657,
-              "end": 670,
+              "start": 655,
+              "end": 668,
               "name": "maxByteLength"
             },
             "computed": false,
@@ -115,9 +116,10 @@
           },
           {
             "type": "Literal",
-            "start": 672,
-            "end": 673,
-            "value": 0
+            "start": 670,
+            "end": 671,
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

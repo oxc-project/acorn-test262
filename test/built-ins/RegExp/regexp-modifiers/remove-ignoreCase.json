@@ -23,6 +23,7 @@
             "start": 1773,
             "end": 1785,
             "value": null,
+            "raw": "/(?-i:fo)o/i",
             "regex": {
               "pattern": "(?-i:fo)o",
               "flags": "i"
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 1804,
                   "end": 1809,
-                  "value": "FOO"
+                  "value": "FOO",
+                  "raw": "\"FOO\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 1812,
             "end": 1877,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 1897,
                   "end": 1902,
-                  "value": "FOo"
+                  "value": "FOo",
+                  "raw": "\"FOo\""
                 }
               ],
               "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 1905,
             "end": 1970,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -205,7 +210,8 @@
                 "type": "Literal",
                 "start": 1989,
                 "end": 1994,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -214,7 +220,8 @@
             "type": "Literal",
             "start": 1997,
             "end": 2047,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -263,7 +270,8 @@
                 "type": "Literal",
                 "start": 2066,
                 "end": 2071,
-                "value": "foO"
+                "value": "foO",
+                "raw": "\"foO\""
               }
             ],
             "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2074,
             "end": 2124,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -308,13 +317,15 @@
                 "type": "Literal",
                 "start": 2149,
                 "end": 2160,
-                "value": "(?-i:fo)o"
+                "value": "(?-i:fo)o",
+                "raw": "\"(?-i:fo)o\""
               },
               {
                 "type": "Literal",
                 "start": 2162,
                 "end": 2165,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }
@@ -371,7 +382,8 @@
                   "type": "Literal",
                   "start": 2185,
                   "end": 2190,
-                  "value": "FOO"
+                  "value": "FOO",
+                  "raw": "\"FOO\""
                 }
               ],
               "optional": false
@@ -381,7 +393,8 @@
             "type": "Literal",
             "start": 2193,
             "end": 2258,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -436,7 +449,8 @@
                   "type": "Literal",
                   "start": 2278,
                   "end": 2283,
-                  "value": "FOo"
+                  "value": "FOo",
+                  "raw": "\"FOo\""
                 }
               ],
               "optional": false
@@ -446,7 +460,8 @@
             "type": "Literal",
             "start": 2286,
             "end": 2351,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -495,7 +510,8 @@
                 "type": "Literal",
                 "start": 2370,
                 "end": 2375,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -504,7 +520,8 @@
             "type": "Literal",
             "start": 2378,
             "end": 2428,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -553,7 +570,8 @@
                 "type": "Literal",
                 "start": 2447,
                 "end": 2452,
-                "value": "foO"
+                "value": "foO",
+                "raw": "\"foO\""
               }
             ],
             "optional": false
@@ -562,7 +580,8 @@
             "type": "Literal",
             "start": 2455,
             "end": 2505,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -588,6 +607,7 @@
             "start": 2519,
             "end": 2531,
             "value": null,
+            "raw": "/b(?-i:ar)/i",
             "regex": {
               "pattern": "b(?-i:ar)",
               "flags": "i"
@@ -646,7 +666,8 @@
                   "type": "Literal",
                   "start": 2550,
                   "end": 2555,
-                  "value": "BAR"
+                  "value": "BAR",
+                  "raw": "\"BAR\""
                 }
               ],
               "optional": false
@@ -656,7 +677,8 @@
             "type": "Literal",
             "start": 2558,
             "end": 2623,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -711,7 +733,8 @@
                   "type": "Literal",
                   "start": 2643,
                   "end": 2648,
-                  "value": "bAR"
+                  "value": "bAR",
+                  "raw": "\"bAR\""
                 }
               ],
               "optional": false
@@ -721,7 +744,8 @@
             "type": "Literal",
             "start": 2651,
             "end": 2716,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -770,7 +794,8 @@
                 "type": "Literal",
                 "start": 2735,
                 "end": 2740,
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               }
             ],
             "optional": false
@@ -779,7 +804,8 @@
             "type": "Literal",
             "start": 2743,
             "end": 2793,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -828,7 +854,8 @@
                 "type": "Literal",
                 "start": 2812,
                 "end": 2817,
-                "value": "Bar"
+                "value": "Bar",
+                "raw": "\"Bar\""
               }
             ],
             "optional": false
@@ -837,7 +864,8 @@
             "type": "Literal",
             "start": 2820,
             "end": 2870,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -873,13 +901,15 @@
                 "type": "Literal",
                 "start": 2895,
                 "end": 2906,
-                "value": "b(?-i:ar)"
+                "value": "b(?-i:ar)",
+                "raw": "\"b(?-i:ar)\""
               },
               {
                 "type": "Literal",
                 "start": 2908,
                 "end": 2911,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }
@@ -936,7 +966,8 @@
                   "type": "Literal",
                   "start": 2931,
                   "end": 2936,
-                  "value": "BAR"
+                  "value": "BAR",
+                  "raw": "\"BAR\""
                 }
               ],
               "optional": false
@@ -946,7 +977,8 @@
             "type": "Literal",
             "start": 2939,
             "end": 3004,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -1001,7 +1033,8 @@
                   "type": "Literal",
                   "start": 3024,
                   "end": 3029,
-                  "value": "bAR"
+                  "value": "bAR",
+                  "raw": "\"bAR\""
                 }
               ],
               "optional": false
@@ -1011,7 +1044,8 @@
             "type": "Literal",
             "start": 3032,
             "end": 3097,
-            "value": "Pattern should not match as modified group does not ignore case"
+            "value": "Pattern should not match as modified group does not ignore case",
+            "raw": "\"Pattern should not match as modified group does not ignore case\""
           }
         ],
         "optional": false
@@ -1060,7 +1094,8 @@
                 "type": "Literal",
                 "start": 3116,
                 "end": 3121,
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               }
             ],
             "optional": false
@@ -1069,7 +1104,8 @@
             "type": "Literal",
             "start": 3124,
             "end": 3174,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -1118,7 +1154,8 @@
                 "type": "Literal",
                 "start": 3193,
                 "end": 3198,
-                "value": "Bar"
+                "value": "Bar",
+                "raw": "\"Bar\""
               }
             ],
             "optional": false
@@ -1127,7 +1164,8 @@
             "type": "Literal",
             "start": 3201,
             "end": 3251,
-            "value": "Pattern should not ignore case in modified group"
+            "value": "Pattern should not ignore case in modified group",
+            "raw": "\"Pattern should not ignore case in modified group\""
           }
         ],
         "optional": false
@@ -1153,6 +1191,7 @@
             "start": 3265,
             "end": 3277,
             "value": null,
+            "raw": "/b(?-i:a)z/i",
             "regex": {
               "pattern": "b(?-i:a)z",
               "flags": "i"
@@ -1205,7 +1244,8 @@
                 "type": "Literal",
                 "start": 3295,
                 "end": 3300,
-                "value": "baz"
+                "value": "baz",
+                "raw": "\"baz\""
               }
             ],
             "optional": false
@@ -1214,7 +1254,8 @@
             "type": "Literal",
             "start": 3303,
             "end": 3328,
-            "value": "a should match a in baz"
+            "value": "a should match a in baz",
+            "raw": "\"a should match a in baz\""
           }
         ],
         "optional": false
@@ -1269,7 +1310,8 @@
                   "type": "Literal",
                   "start": 3348,
                   "end": 3353,
-                  "value": "bAz"
+                  "value": "bAz",
+                  "raw": "\"bAz\""
                 }
               ],
               "optional": false
@@ -1279,7 +1321,8 @@
             "type": "Literal",
             "start": 3356,
             "end": 3385,
-            "value": "A should not match a in baz"
+            "value": "A should not match a in baz",
+            "raw": "\"A should not match a in baz\""
           }
         ],
         "optional": false
@@ -1328,7 +1371,8 @@
                 "type": "Literal",
                 "start": 3404,
                 "end": 3409,
-                "value": "Baz"
+                "value": "Baz",
+                "raw": "\"Baz\""
               }
             ],
             "optional": false
@@ -1337,7 +1381,8 @@
             "type": "Literal",
             "start": 3412,
             "end": 3437,
-            "value": "B should match b in baz"
+            "value": "B should match b in baz",
+            "raw": "\"B should match b in baz\""
           }
         ],
         "optional": false
@@ -1386,7 +1431,8 @@
                 "type": "Literal",
                 "start": 3456,
                 "end": 3461,
-                "value": "baZ"
+                "value": "baZ",
+                "raw": "\"baZ\""
               }
             ],
             "optional": false
@@ -1395,7 +1441,8 @@
             "type": "Literal",
             "start": 3464,
             "end": 3489,
-            "value": "Z should match z in baz"
+            "value": "Z should match z in baz",
+            "raw": "\"Z should match z in baz\""
           }
         ],
         "optional": false
@@ -1444,7 +1491,8 @@
                 "type": "Literal",
                 "start": 3508,
                 "end": 3513,
-                "value": "BaZ"
+                "value": "BaZ",
+                "raw": "\"BaZ\""
               }
             ],
             "optional": false
@@ -1453,7 +1501,8 @@
             "type": "Literal",
             "start": 3516,
             "end": 3534,
-            "value": "should match baz"
+            "value": "should match baz",
+            "raw": "\"should match baz\""
           }
         ],
         "optional": false
@@ -1508,7 +1557,8 @@
                   "type": "Literal",
                   "start": 3554,
                   "end": 3559,
-                  "value": "BAZ"
+                  "value": "BAZ",
+                  "raw": "\"BAZ\""
                 }
               ],
               "optional": false
@@ -1518,7 +1568,8 @@
             "type": "Literal",
             "start": 3562,
             "end": 3584,
-            "value": "should not match baz"
+            "value": "should not match baz",
+            "raw": "\"should not match baz\""
           }
         ],
         "optional": false
@@ -1554,13 +1605,15 @@
                 "type": "Literal",
                 "start": 3609,
                 "end": 3620,
-                "value": "b(?-i:a)z"
+                "value": "b(?-i:a)z",
+                "raw": "\"b(?-i:a)z\""
               },
               {
                 "type": "Literal",
                 "start": 3622,
                 "end": 3625,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }
@@ -1611,7 +1664,8 @@
                 "type": "Literal",
                 "start": 3644,
                 "end": 3649,
-                "value": "baz"
+                "value": "baz",
+                "raw": "\"baz\""
               }
             ],
             "optional": false
@@ -1620,7 +1674,8 @@
             "type": "Literal",
             "start": 3652,
             "end": 3677,
-            "value": "a should match a in baz"
+            "value": "a should match a in baz",
+            "raw": "\"a should match a in baz\""
           }
         ],
         "optional": false
@@ -1675,7 +1730,8 @@
                   "type": "Literal",
                   "start": 3697,
                   "end": 3702,
-                  "value": "bAz"
+                  "value": "bAz",
+                  "raw": "\"bAz\""
                 }
               ],
               "optional": false
@@ -1685,7 +1741,8 @@
             "type": "Literal",
             "start": 3705,
             "end": 3734,
-            "value": "A should not match a in baz"
+            "value": "A should not match a in baz",
+            "raw": "\"A should not match a in baz\""
           }
         ],
         "optional": false
@@ -1734,7 +1791,8 @@
                 "type": "Literal",
                 "start": 3753,
                 "end": 3758,
-                "value": "Baz"
+                "value": "Baz",
+                "raw": "\"Baz\""
               }
             ],
             "optional": false
@@ -1743,7 +1801,8 @@
             "type": "Literal",
             "start": 3761,
             "end": 3786,
-            "value": "B should match b in baz"
+            "value": "B should match b in baz",
+            "raw": "\"B should match b in baz\""
           }
         ],
         "optional": false
@@ -1792,7 +1851,8 @@
                 "type": "Literal",
                 "start": 3805,
                 "end": 3810,
-                "value": "baZ"
+                "value": "baZ",
+                "raw": "\"baZ\""
               }
             ],
             "optional": false
@@ -1801,7 +1861,8 @@
             "type": "Literal",
             "start": 3813,
             "end": 3838,
-            "value": "Z should match z in baz"
+            "value": "Z should match z in baz",
+            "raw": "\"Z should match z in baz\""
           }
         ],
         "optional": false
@@ -1850,7 +1911,8 @@
                 "type": "Literal",
                 "start": 3857,
                 "end": 3862,
-                "value": "BaZ"
+                "value": "BaZ",
+                "raw": "\"BaZ\""
               }
             ],
             "optional": false
@@ -1859,7 +1921,8 @@
             "type": "Literal",
             "start": 3865,
             "end": 3883,
-            "value": "should match baz"
+            "value": "should match baz",
+            "raw": "\"should match baz\""
           }
         ],
         "optional": false
@@ -1914,7 +1977,8 @@
                   "type": "Literal",
                   "start": 3903,
                   "end": 3908,
-                  "value": "BAZ"
+                  "value": "BAZ",
+                  "raw": "\"BAZ\""
                 }
               ],
               "optional": false
@@ -1924,7 +1988,8 @@
             "type": "Literal",
             "start": 3911,
             "end": 3933,
-            "value": "should not match baz"
+            "value": "should not match baz",
+            "raw": "\"should not match baz\""
           }
         ],
         "optional": false

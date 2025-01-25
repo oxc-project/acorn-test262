@@ -95,7 +95,8 @@
                     "type": "Literal",
                     "start": 563,
                     "end": 564,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -156,7 +157,8 @@
                     "type": "Literal",
                     "start": 599,
                     "end": 602,
-                    "value": "A"
+                    "value": "A",
+                    "raw": "\"A\""
                   }
                 }
               },
@@ -266,7 +268,8 @@
           "type": "Literal",
           "start": 778,
           "end": 789,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -297,7 +300,8 @@
                     "type": "Literal",
                     "start": 817,
                     "end": 873,
-                    "value": "#1: typeof obj === \"undefined\". Actual: typeof obj ==="
+                    "value": "#1: typeof obj === \"undefined\". Actual: typeof obj ===",
+                    "raw": "'#1: typeof obj === \"undefined\". Actual: typeof obj ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -353,7 +357,8 @@
           "type": "Literal",
           "start": 1080,
           "end": 1083,
-          "value": "A"
+          "value": "A",
+          "raw": "\"A\""
         }
       },
       "consequent": {
@@ -384,7 +389,8 @@
                     "type": "Literal",
                     "start": 1111,
                     "end": 1159,
-                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ==="
+                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ===",
+                    "raw": "'#2: __obj.prop === \"A\". Actual: __obj.prop ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -459,7 +465,8 @@
           "type": "Literal",
           "start": 1370,
           "end": 1371,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -490,7 +497,8 @@
                     "type": "Literal",
                     "start": 1399,
                     "end": 1454,
-                    "value": "#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==="
+                    "value": "#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ===",
+                    "raw": "'#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==='"
                   },
                   "operator": "+",
                   "right": {

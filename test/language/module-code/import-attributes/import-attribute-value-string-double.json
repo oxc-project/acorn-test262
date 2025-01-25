@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 735,
         "end": 781,
-        "value": "../resources/ensure-linking-error_FIXTURE.js"
+        "value": "../resources/ensure-linking-error_FIXTURE.js",
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -55,7 +56,8 @@
         "type": "Literal",
         "start": 798,
         "end": 831,
-        "value": "./import-attribute-1_FIXTURE.js"
+        "value": "./import-attribute-1_FIXTURE.js",
+        "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 846,
             "end": 854,
-            "value": "x"
+            "value": "x",
+            "raw": "\"\\u0078\""
           }
         }
       ]
@@ -86,7 +89,8 @@
         "type": "Literal",
         "start": 864,
         "end": 897,
-        "value": "./import-attribute-2_FIXTURE.js"
+        "value": "./import-attribute-2_FIXTURE.js",
+        "raw": "'./import-attribute-2_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -103,7 +107,8 @@
             "type": "Literal",
             "start": 912,
             "end": 920,
-            "value": "x"
+            "value": "x",
+            "raw": "\"\\u0078\""
           }
         }
       ]
@@ -117,7 +122,8 @@
         "type": "Literal",
         "start": 937,
         "end": 970,
-        "value": "./import-attribute-3_FIXTURE.js"
+        "value": "./import-attribute-3_FIXTURE.js",
+        "raw": "'./import-attribute-3_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -134,7 +140,8 @@
             "type": "Literal",
             "start": 985,
             "end": 993,
-            "value": "x"
+            "value": "x",
+            "raw": "\"\\u0078\""
           }
         }
       ]

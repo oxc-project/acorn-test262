@@ -103,7 +103,8 @@
             "type": "Literal",
             "start": 402,
             "end": 407,
-            "value": "obj"
+            "value": "obj",
+            "raw": "'obj'"
           }
         ],
         "optional": false
@@ -159,13 +160,15 @@
             "type": "Literal",
             "start": 444,
             "end": 455,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 471,
-            "value": "(typeof obj)"
+            "value": "(typeof obj)",
+            "raw": "'(typeof obj)'"
           }
         ],
         "optional": false

@@ -70,13 +70,15 @@
                         "type": "Literal",
                         "start": 376,
                         "end": 382,
-                        "value": "eval"
+                        "value": "eval",
+                        "raw": "'eval'"
                       },
                       {
                         "type": "Literal",
                         "start": 384,
                         "end": 399,
-                        "value": "\"use strict\";"
+                        "value": "\"use strict\";",
+                        "raw": "'\"use strict\";'"
                       }
                     ],
                     "optional": false

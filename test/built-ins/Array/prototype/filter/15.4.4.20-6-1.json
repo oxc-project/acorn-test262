@@ -128,7 +128,8 @@
             "type": "Literal",
             "start": 369,
             "end": 396,
-            "value": "Array.isArray(a) !== true"
+            "value": "Array.isArray(a) !== true",
+            "raw": "'Array.isArray(a) !== true'"
           }
         ],
         "optional": false
@@ -185,13 +186,15 @@
             "type": "Literal",
             "start": 426,
             "end": 427,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 439,
-            "value": "a.length"
+            "value": "a.length",
+            "raw": "'a.length'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 722,
             "end": 727,
-            "value": "one"
+            "value": "one",
+            "raw": "\"one\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 740,
             "end": 745,
-            "value": "two"
+            "value": "two",
+            "raw": "\"two\""
           }
         }
       ],
@@ -178,13 +180,15 @@
                             "type": "Literal",
                             "start": 834,
                             "end": 839,
-                            "value": "arg"
+                            "value": "arg",
+                            "raw": "\"arg\""
                           },
                           {
                             "type": "Literal",
                             "start": 840,
                             "end": 855,
-                            "value": "return ++arg;"
+                            "value": "return ++arg;",
+                            "raw": "\"return ++arg;\""
                           }
                         ],
                         "optional": false
@@ -354,7 +358,8 @@
                     "type": "Literal",
                     "start": 1099,
                     "end": 1165,
-                    "value": "#1: __instance.first === undefined. Actual: __instance.first ==="
+                    "value": "#1: __instance.first === undefined. Actual: __instance.first ===",
+                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -447,7 +452,8 @@
                     "type": "Literal",
                     "start": 1415,
                     "end": 1476,
-                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ==="
+                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ===",
+                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -500,7 +506,8 @@
               "type": "Literal",
               "start": 1684,
               "end": 1685,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -510,7 +517,8 @@
           "type": "Literal",
           "start": 1690,
           "end": 1691,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -541,7 +549,8 @@
                     "type": "Literal",
                     "start": 1719,
                     "end": 1770,
-                    "value": "#2: __instance(1)=== 2. Actual: __instance(1) ==="
+                    "value": "#2: __instance(1)=== 2. Actual: __instance(1) ===",
+                    "raw": "'#2: __instance(1)=== 2. Actual: __instance(1) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -559,7 +568,8 @@
                         "type": "Literal",
                         "start": 1782,
                         "end": 1783,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false

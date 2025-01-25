@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2149,
+  "end": 2147,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2069,
-      "end": 2081,
+      "start": 2067,
+      "end": 2079,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2073,
-          "end": 2080,
+          "start": 2071,
+          "end": 2078,
           "id": {
             "type": "Identifier",
-            "start": 2073,
-            "end": 2076,
+            "start": 2071,
+            "end": 2074,
             "name": "foo"
           },
           "init": {
             "type": "Literal",
-            "start": 2079,
-            "end": 2080,
-            "value": 1
+            "start": 2077,
+            "end": 2078,
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -30,31 +31,31 @@
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2084,
-      "end": 2113,
+      "start": 2082,
+      "end": 2111,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2091,
-        "end": 2113,
+        "start": 2089,
+        "end": 2111,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2095,
-            "end": 2112,
+            "start": 2093,
+            "end": 2110,
             "id": {
               "type": "Identifier",
-              "start": 2095,
-              "end": 2100,
+              "start": 2093,
+              "end": 2098,
               "name": "name1"
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 2103,
-              "end": 2112,
+              "start": 2101,
+              "end": 2110,
               "argument": {
                 "type": "Identifier",
-                "start": 2109,
-                "end": 2112,
+                "start": 2107,
+                "end": 2110,
                 "name": "foo"
               }
             }
@@ -67,54 +68,54 @@
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2114,
-      "end": 2148,
+      "start": 2112,
+      "end": 2146,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2121,
-        "end": 2148,
+        "start": 2119,
+        "end": 2146,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2125,
-            "end": 2147,
+            "start": 2123,
+            "end": 2145,
             "id": {
               "type": "ObjectPattern",
-              "start": 2125,
-              "end": 2142,
+              "start": 2123,
+              "end": 2140,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 2127,
-                  "end": 2140,
+                  "start": 2125,
+                  "end": 2138,
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 2127,
-                    "end": 2128,
+                    "start": 2125,
+                    "end": 2126,
                     "name": "x"
                   },
                   "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
-                    "start": 2127,
-                    "end": 2140,
+                    "start": 2125,
+                    "end": 2138,
                     "left": {
                       "type": "Identifier",
-                      "start": 2127,
-                      "end": 2128,
+                      "start": 2125,
+                      "end": 2126,
                       "name": "x"
                     },
                     "right": {
                       "type": "AwaitExpression",
-                      "start": 2131,
-                      "end": 2140,
+                      "start": 2129,
+                      "end": 2138,
                       "argument": {
                         "type": "Identifier",
-                        "start": 2137,
-                        "end": 2140,
+                        "start": 2135,
+                        "end": 2138,
                         "name": "foo"
                       }
                     }
@@ -124,8 +125,8 @@
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 2145,
-              "end": 2147,
+              "start": 2143,
+              "end": 2145,
               "properties": []
             }
           }

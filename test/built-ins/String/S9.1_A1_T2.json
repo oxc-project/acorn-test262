@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 412,
                           "end": 413,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -101,7 +102,8 @@
                           "type": "Literal",
                           "start": 455,
                           "end": 456,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -148,7 +150,8 @@
           "type": "Literal",
           "start": 487,
           "end": 490,
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
       },
       "consequent": {
@@ -179,7 +182,8 @@
                     "type": "Literal",
                     "start": 519,
                     "end": 637,
-                    "value": "#1: var object = {valueOf: function() {return 0}, toString: function() {return 1}}; String(object) === \"1\". Actual: "
+                    "value": "#1: var object = {valueOf: function() {return 0}, toString: function() {return 1}}; String(object) === \"1\". Actual: ",
+                    "raw": "'#1: var object = {valueOf: function() {return 0}, toString: function() {return 1}}; String(object) === \"1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -270,7 +274,8 @@
                           "type": "Literal",
                           "start": 723,
                           "end": 724,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -360,7 +365,8 @@
           "type": "Literal",
           "start": 799,
           "end": 802,
-          "value": "0"
+          "value": "0",
+          "raw": "\"0\""
         }
       },
       "consequent": {
@@ -391,7 +397,8 @@
                     "type": "Literal",
                     "start": 831,
                     "end": 950,
-                    "value": "#2: var object = {valueOf: function() {return 0}, toString: function() {return {}}}; String(object) === \"0\". Actual: "
+                    "value": "#2: var object = {valueOf: function() {return 0}, toString: function() {return {}}}; String(object) === \"0\". Actual: ",
+                    "raw": "'#2: var object = {valueOf: function() {return 0}, toString: function() {return {}}}; String(object) === \"0\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

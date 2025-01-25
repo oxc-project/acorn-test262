@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 773,
             "end": 777,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 824,
-            "value": "isConstructor(ArrayBuffer) must return true"
+            "value": "isConstructor(ArrayBuffer) must return true",
+            "raw": "'isConstructor(ArrayBuffer) must return true'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1798,
             "end": 1799,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -121,7 +122,8 @@
                               "type": "Literal",
                               "start": 1853,
                               "end": 1855,
-                              "value": 42
+                              "value": 42,
+                              "raw": "42"
                             }
                           ],
                           "optional": false
@@ -157,7 +159,8 @@
                               "type": "Literal",
                               "start": 1886,
                               "end": 1887,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -212,13 +215,15 @@
                 "type": "Literal",
                 "start": 1908,
                 "end": 1910,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Literal",
                 "start": 1912,
                 "end": 1914,
-                "value": 39
+                "value": 39,
+                "raw": "39"
               }
             ],
             "optional": false
@@ -312,13 +317,15 @@
             "type": "Literal",
             "start": 2024,
             "end": 2025,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2027,
             "end": 2066,
-            "value": "generator method invoked exactly once"
+            "value": "generator method invoked exactly once",
+            "raw": "'generator method invoked exactly once'"
           }
         ],
         "optional": false
@@ -375,13 +382,15 @@
             "type": "Literal",
             "start": 2099,
             "end": 2100,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2102,
             "end": 2126,
-            "value": "length is properly set"
+            "value": "length is properly set",
+            "raw": "'length is properly set'"
           }
         ],
         "optional": false

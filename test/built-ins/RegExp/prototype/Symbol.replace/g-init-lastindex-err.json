@@ -23,6 +23,7 @@
             "start": 552,
             "end": 556,
             "value": {},
+            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -77,13 +78,15 @@
             "type": "Literal",
             "start": 628,
             "end": 631,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 636,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false
@@ -127,7 +130,8 @@
             "type": "Literal",
             "start": 665,
             "end": 676,
-            "value": "lastIndex"
+            "value": "lastIndex",
+            "raw": "'lastIndex'"
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +155,8 @@
                   "type": "Literal",
                   "start": 690,
                   "end": 695,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -254,13 +259,15 @@
                         "type": "Literal",
                         "start": 759,
                         "end": 762,
-                        "value": "x"
+                        "value": "x",
+                        "raw": "'x'"
                       },
                       {
                         "type": "Literal",
                         "start": 764,
                         "end": 767,
-                        "value": "x"
+                        "value": "x",
+                        "raw": "'x'"
                       }
                     ],
                     "optional": false

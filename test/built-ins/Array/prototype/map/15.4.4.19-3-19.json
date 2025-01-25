@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 342,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           }
@@ -98,13 +99,15 @@
                   "type": "Literal",
                   "start": 361,
                   "end": 362,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 364,
                   "end": 366,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -119,13 +122,15 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 371,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 373,
                   "end": 374,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 },
                 "kind": "init"
               },
@@ -182,7 +187,8 @@
                                 "type": "Literal",
                                 "start": 429,
                                 "end": 432,
-                                "value": "2"
+                                "value": "2",
+                                "raw": "'2'"
                               }
                             }
                           ]
@@ -335,13 +341,15 @@
             "type": "Literal",
             "start": 537,
             "end": 538,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 555,
-            "value": "newArr.length"
+            "value": "newArr.length",
+            "raw": "'newArr.length'"
           }
         ],
         "optional": false

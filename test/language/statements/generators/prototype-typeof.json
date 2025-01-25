@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 446,
+  "end": 444,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 381,
-      "end": 397,
+      "start": 379,
+      "end": 395,
       "id": {
         "type": "Identifier",
-        "start": 391,
-        "end": 392,
+        "start": 389,
+        "end": 390,
         "name": "g"
       },
       "expression": false,
@@ -19,33 +19,33 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 395,
-        "end": 397,
+        "start": 393,
+        "end": 395,
         "body": []
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 445,
+      "start": 396,
+      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 444,
+        "start": 396,
+        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
+          "start": 396,
+          "end": 412,
           "object": {
             "type": "Identifier",
-            "start": 398,
-            "end": 404,
+            "start": 396,
+            "end": 402,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 405,
-            "end": 414,
+            "start": 403,
+            "end": 412,
             "name": "sameValue"
           },
           "computed": false,
@@ -54,24 +54,24 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 415,
-            "end": 433,
+            "start": 413,
+            "end": 431,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 422,
-              "end": 433,
+              "start": 420,
+              "end": 431,
               "object": {
                 "type": "Identifier",
-                "start": 422,
-                "end": 423,
+                "start": 420,
+                "end": 421,
                 "name": "g"
               },
               "property": {
                 "type": "Identifier",
-                "start": 424,
-                "end": 433,
+                "start": 422,
+                "end": 431,
                 "name": "prototype"
               },
               "computed": false,
@@ -80,9 +80,10 @@
           },
           {
             "type": "Literal",
-            "start": 435,
-            "end": 443,
-            "value": "object"
+            "start": 433,
+            "end": 441,
+            "value": "object",
+            "raw": "'object'"
           }
         ],
         "optional": false

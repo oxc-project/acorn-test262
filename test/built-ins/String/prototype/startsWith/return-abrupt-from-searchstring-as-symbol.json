@@ -99,7 +99,8 @@
                         "type": "Literal",
                         "start": 492,
                         "end": 494,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",

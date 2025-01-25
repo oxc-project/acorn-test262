@@ -108,7 +108,8 @@
                             "type": "Literal",
                             "start": 422,
                             "end": 428,
-                            "value": "keys"
+                            "value": "keys",
+                            "raw": "\"keys\""
                           }
                         ],
                         "optional": false
@@ -117,7 +118,8 @@
                         "type": "Literal",
                         "start": 431,
                         "end": 436,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false

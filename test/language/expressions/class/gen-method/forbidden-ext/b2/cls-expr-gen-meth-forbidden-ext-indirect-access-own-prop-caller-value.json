@@ -90,7 +90,8 @@
                     "type": "Literal",
                     "start": 1062,
                     "end": 1070,
-                    "value": "caller"
+                    "value": "caller",
+                    "raw": "\"caller\""
                   }
                 ],
                 "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 1152,
             "end": 1153,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -252,7 +254,8 @@
                                     "type": "Literal",
                                     "start": 1539,
                                     "end": 1547,
-                                    "value": "caller"
+                                    "value": "caller",
+                                    "raw": "\"caller\""
                                   }
                                 ],
                                 "optional": false
@@ -305,7 +308,8 @@
                               "type": "Literal",
                               "start": 1599,
                               "end": 1603,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           },
                           "consequent": {
@@ -351,7 +355,8 @@
                                       "type": "Literal",
                                       "start": 1642,
                                       "end": 1650,
-                                      "value": "caller"
+                                      "value": "caller",
+                                      "raw": "\"caller\""
                                     },
                                     {
                                       "type": "ObjectExpression",
@@ -375,7 +380,8 @@
                                             "type": "Literal",
                                             "start": 1660,
                                             "end": 1661,
-                                            "value": 1
+                                            "value": 1,
+                                            "raw": "1"
                                           },
                                           "kind": "init"
                                         }
@@ -465,7 +471,8 @@
                               "type": "Literal",
                               "start": 1746,
                               "end": 1750,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           },
                           "consequent": {
@@ -511,13 +518,15 @@
                                       "type": "Literal",
                                       "start": 1785,
                                       "end": 1786,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1788,
                                       "end": 1930,
-                                      "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
+                                      "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
+                                      "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
                                     }
                                   ],
                                   "optional": false
@@ -745,13 +754,15 @@
             "type": "Literal",
             "start": 2535,
             "end": 2536,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2538,
             "end": 2561,
-            "value": "method body evaluated"
+            "value": "method body evaluated",
+            "raw": "'method body evaluated'"
           }
         ],
         "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 359,
-                "value": "30000000000n"
+                "value": "30000000000n",
+                "raw": "30_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 369,
-                "value": "+01:35"
+                "value": "+01:35",
+                "raw": "\"+01:35\""
               }
             ]
           }
@@ -79,7 +81,8 @@
             "type": "Literal",
             "start": 382,
             "end": 430,
-            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]"
+            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
           }
         }
       ],
@@ -169,13 +172,15 @@
             "type": "Literal",
             "start": 502,
             "end": 503,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 564,
-            "value": "Time zone determined from bracket name (first argument)"
+            "value": "Time zone determined from bracket name (first argument)",
+            "raw": "\"Time zone determined from bracket name (first argument)\""
           }
         ],
         "optional": false
@@ -265,13 +270,15 @@
             "type": "Literal",
             "start": 637,
             "end": 638,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 700,
-            "value": "Time zone determined from bracket name (second argument)"
+            "value": "Time zone determined from bracket name (second argument)",
+            "raw": "\"Time zone determined from bracket name (second argument)\""
           }
         ],
         "optional": false
@@ -296,7 +303,8 @@
           "type": "Literal",
           "start": 711,
           "end": 772,
-          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]"
+          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
         }
       }
     },
@@ -400,7 +408,8 @@
             "type": "Literal",
             "start": 860,
             "end": 943,
-            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers (first argument)"
+            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers (first argument)",
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers (first argument)\""
           }
         ],
         "optional": false
@@ -506,7 +515,8 @@
             "type": "Literal",
             "start": 1033,
             "end": 1117,
-            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers (second argument)"
+            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers (second argument)",
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers (second argument)\""
           }
         ],
         "optional": false

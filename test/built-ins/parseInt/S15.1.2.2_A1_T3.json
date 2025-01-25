@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 294,
             "end": 331,
-            "value": "parseInt(undefined) must return NaN"
+            "value": "parseInt(undefined) must return NaN",
+            "raw": "'parseInt(undefined) must return NaN'"
           }
         ],
         "optional": false
@@ -110,7 +111,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 364,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -125,7 +127,8 @@
             "type": "Literal",
             "start": 372,
             "end": 404,
-            "value": "parseInt(null) must return NaN"
+            "value": "parseInt(null) must return NaN",
+            "raw": "'parseInt(null) must return NaN'"
           }
         ],
         "optional": false

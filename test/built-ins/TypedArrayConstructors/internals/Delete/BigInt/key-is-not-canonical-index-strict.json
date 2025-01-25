@@ -63,25 +63,29 @@
                             "type": "Literal",
                             "start": 919,
                             "end": 924,
-                            "value": "1.0"
+                            "value": "1.0",
+                            "raw": "\"1.0\""
                           },
                           {
                             "type": "Literal",
                             "start": 930,
                             "end": 934,
-                            "value": "+1"
+                            "value": "+1",
+                            "raw": "\"+1\""
                           },
                           {
                             "type": "Literal",
                             "start": 940,
                             "end": 964,
-                            "value": "1000000000000000000000"
+                            "value": "1000000000000000000000",
+                            "raw": "\"1000000000000000000000\""
                           },
                           {
                             "type": "Literal",
                             "start": 970,
                             "end": 981,
-                            "value": "0.0000001"
+                            "value": "0.0000001",
+                            "raw": "\"0.0000001\""
                           }
                         ]
                       }
@@ -227,13 +231,15 @@
                                     "type": "Literal",
                                     "start": 1116,
                                     "end": 1120,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1128,
                                     "end": 1171,
-                                    "value": "The value of `delete sample[key]` is true"
+                                    "value": "The value of `delete sample[key]` is true",
+                                    "raw": "'The value of `delete sample[key]` is true'"
                                   }
                                 ],
                                 "optional": false
@@ -346,13 +352,15 @@
                                     "type": "Literal",
                                     "start": 1272,
                                     "end": 1276,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1284,
                                     "end": 1327,
-                                    "value": "The value of `delete sample[key]` is true"
+                                    "value": "The value of `delete sample[key]` is true",
+                                    "raw": "'The value of `delete sample[key]` is true'"
                                   }
                                 ],
                                 "optional": false
@@ -452,13 +460,15 @@
                                     "type": "Literal",
                                     "start": 1407,
                                     "end": 1411,
-                                    "value": true
+                                    "value": true,
+                                    "raw": "true"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1419,
                                     "end": 1462,
-                                    "value": "The value of `delete sample[key]` is true"
+                                    "value": "The value of `delete sample[key]` is true",
+                                    "raw": "'The value of `delete sample[key]` is true'"
                                   }
                                 ],
                                 "optional": false

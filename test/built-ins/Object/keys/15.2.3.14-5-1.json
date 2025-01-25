@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 314,
             "end": 320,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 333,
                   "end": 337,
-                  "value": 1003
+                  "value": 1003,
+                  "raw": "1003"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 353,
                   "end": 357,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 379,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -237,7 +241,8 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -246,7 +251,8 @@
             "type": "Literal",
             "start": 444,
             "end": 476,
-            "value": "arr.hasOwnProperty(0) !== true"
+            "value": "arr.hasOwnProperty(0) !== true",
+            "raw": "'arr.hasOwnProperty(0) !== true'"
           }
         ],
         "optional": false
@@ -294,7 +300,8 @@
               "type": "Literal",
               "start": 500,
               "end": 501,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -303,13 +310,15 @@
             "type": "Literal",
             "start": 504,
             "end": 510,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 520,
-            "value": "arr[0]"
+            "value": "arr[0]",
+            "raw": "'arr[0]'"
           }
         ],
         "optional": false

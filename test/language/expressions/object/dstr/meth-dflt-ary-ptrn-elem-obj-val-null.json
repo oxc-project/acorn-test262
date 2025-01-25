@@ -94,7 +94,8 @@
                             "type": "Literal",
                             "start": 2004,
                             "end": 2008,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

@@ -135,7 +135,8 @@
                           "type": "Literal",
                           "start": 595,
                           "end": 596,
-                          "value": 5
+                          "value": 5,
+                          "raw": "5"
                         }
                       }
                     ]
@@ -360,7 +361,8 @@
                           "type": "Literal",
                           "start": 898,
                           "end": 905,
-                          "value": "\"[\""
+                          "value": "\"[\"",
+                          "raw": "\"\\\"[\\\"\""
                         }
                       ],
                       "optional": false
@@ -423,13 +425,15 @@
                   "type": "Literal",
                   "start": 957,
                   "end": 965,
-                  "value": "object"
+                  "value": "object",
+                  "raw": "\"object\""
                 },
                 {
                   "type": "Literal",
                   "start": 967,
                   "end": 1010,
-                  "value": "The value of `typeof __split` is \"object\""
+                  "value": "The value of `typeof __split` is \"object\"",
+                  "raw": "'The value of `typeof __split` is \"object\"'"
                 }
               ],
               "optional": false
@@ -492,7 +496,8 @@
                   "type": "Literal",
                   "start": 1074,
                   "end": 1148,
-                  "value": "The value of __split.constructor is expected to equal the value of Array"
+                  "value": "The value of __split.constructor is expected to equal the value of Array",
+                  "raw": "'The value of __split.constructor is expected to equal the value of Array'"
                 }
               ],
               "optional": false
@@ -549,13 +554,15 @@
                   "type": "Literal",
                   "start": 1190,
                   "end": 1191,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "Literal",
                   "start": 1193,
                   "end": 1227,
-                  "value": "The value of __split.length is 2"
+                  "value": "The value of __split.length is 2",
+                  "raw": "'The value of __split.length is 2'"
                 }
               ],
               "optional": false
@@ -611,7 +618,8 @@
                         "type": "Literal",
                         "start": 1257,
                         "end": 1258,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -630,13 +638,15 @@
                       "type": "Literal",
                       "start": 1270,
                       "end": 1271,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     {
                       "type": "Literal",
                       "start": 1273,
                       "end": 1274,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     }
                   ],
                   "optional": false
@@ -645,13 +655,15 @@
                   "type": "Literal",
                   "start": 1277,
                   "end": 1285,
-                  "value": "object"
+                  "value": "object",
+                  "raw": "\"object\""
                 },
                 {
                   "type": "Literal",
                   "start": 1287,
                   "end": 1336,
-                  "value": "__split[1].substring(0, 6) must return \"object\""
+                  "value": "__split[1].substring(0, 6) must return \"object\"",
+                  "raw": "'__split[1].substring(0, 6) must return \"object\"'"
                 }
               ],
               "optional": false

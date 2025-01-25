@@ -303,7 +303,8 @@
                               "type": "Literal",
                               "start": 1066,
                               "end": 1075,
-                              "value": "test262"
+                              "value": "test262",
+                              "raw": "'test262'"
                             }
                           }
                         ]
@@ -485,7 +486,8 @@
             "type": "Literal",
             "start": 1194,
             "end": 1240,
-            "value": "invalid [[Set]] of an acessor without setter"
+            "value": "invalid [[Set]] of an acessor without setter",
+            "raw": "'invalid [[Set]] of an acessor without setter'"
           }
         ],
         "optional": false
@@ -523,7 +525,8 @@
             "type": "Literal",
             "start": 1253,
             "end": 1266,
-            "value": "outer class"
+            "value": "outer class",
+            "raw": "'outer class'"
           }
         ],
         "optional": false
@@ -580,7 +583,8 @@
             "type": "Literal",
             "start": 1292,
             "end": 1305,
-            "value": "outer class"
+            "value": "outer class",
+            "raw": "'outer class'"
           }
         ],
         "optional": false
@@ -679,7 +683,8 @@
             "type": "Literal",
             "start": 1370,
             "end": 1438,
-            "value": "invalid access of inner class getter from an object of outer class"
+            "value": "invalid access of inner class getter from an object of outer class",
+            "raw": "'invalid access of inner class getter from an object of outer class'"
           }
         ],
         "optional": false

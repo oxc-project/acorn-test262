@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -122,7 +123,8 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 488,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -196,7 +198,8 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 572,
-                  "value": "#1: Scope chain disturbed"
+                  "value": "#1: Scope chain disturbed",
+                  "raw": "\"#1: Scope chain disturbed\""
                 }
               ]
             }

@@ -70,7 +70,8 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 392,
-                "value": "toExponential"
+                "value": "toExponential",
+                "raw": "\"toExponential\""
               }
             ],
             "optional": false
@@ -79,13 +80,15 @@
             "type": "Literal",
             "start": 397,
             "end": 402,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 472,
-            "value": "(new Number()).hasOwnProperty(\"toExponential\") must return false"
+            "value": "(new Number()).hasOwnProperty(\"toExponential\") must return false",
+            "raw": "'(new Number()).hasOwnProperty(\"toExponential\") must return false'"
           }
         ],
         "optional": false
@@ -185,7 +188,8 @@
             "type": "Literal",
             "start": 563,
             "end": 671,
-            "value": "The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential"
+            "value": "The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential",
+            "raw": "'The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential'"
           }
         ],
         "optional": false

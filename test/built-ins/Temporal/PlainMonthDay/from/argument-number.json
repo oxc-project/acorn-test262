@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 307,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 315,
-                "value": 1118
+                "value": 1118,
+                "raw": "1118"
               },
               {
                 "type": "UnaryExpression",
@@ -45,14 +47,16 @@
                   "type": "Literal",
                   "start": 320,
                   "end": 324,
-                  "value": 1118
+                  "value": 1118,
+                  "raw": "1118"
                 }
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 333,
-                "value": 12345
+                "value": 12345,
+                "raw": "12345"
               }
             ]
           }

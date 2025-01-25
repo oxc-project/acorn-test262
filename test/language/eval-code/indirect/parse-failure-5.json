@@ -64,7 +64,8 @@
                         "type": "Literal",
                         "start": 378,
                         "end": 379,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
@@ -80,7 +81,8 @@
                     "type": "Literal",
                     "start": 386,
                     "end": 395,
-                    "value": "return;"
+                    "value": "return;",
+                    "raw": "\"return;\""
                   }
                 ],
                 "optional": false
@@ -110,7 +112,8 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 470,
-                    "value": "#1.1: return must throw SyntaxError. Actual: "
+                    "value": "#1.1: return must throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: return must throw SyntaxError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -176,7 +179,8 @@
                   "type": "Literal",
                   "start": 531,
                   "end": 535,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -207,7 +211,8 @@
                             "type": "Literal",
                             "start": 566,
                             "end": 613,
-                            "value": "#1.2: return must throw SyntaxError. Actual: "
+                            "value": "#1.2: return must throw SyntaxError. Actual: ",
+                            "raw": "'#1.2: return must throw SyntaxError. Actual: '"
                           },
                           "operator": "+",
                           "right": {
@@ -298,7 +303,8 @@
                             "type": "Literal",
                             "start": 670,
                             "end": 671,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -314,7 +320,8 @@
                         "type": "Literal",
                         "start": 678,
                         "end": 687,
-                        "value": "return;"
+                        "value": "return;",
+                        "raw": "\"return;\""
                       }
                     ],
                     "optional": false

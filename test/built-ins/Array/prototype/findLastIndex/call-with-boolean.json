@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 344,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -116,14 +117,16 @@
               "type": "Literal",
               "start": 360,
               "end": 361,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 432,
-            "value": "Array.prototype.findLastIndex.call(true, () => {}) must return -1"
+            "value": "Array.prototype.findLastIndex.call(true, () => {}) must return -1",
+            "raw": "'Array.prototype.findLastIndex.call(true, () => {}) must return -1'"
           }
         ],
         "optional": false
@@ -211,7 +214,8 @@
                 "type": "Literal",
                 "start": 491,
                 "end": 496,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -242,14 +246,16 @@
               "type": "Literal",
               "start": 512,
               "end": 513,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 585,
-            "value": "Array.prototype.findLastIndex.call(false, () => {}) must return -1"
+            "value": "Array.prototype.findLastIndex.call(false, () => {}) must return -1",
+            "raw": "'Array.prototype.findLastIndex.call(false, () => {}) must return -1'"
           }
         ],
         "optional": false

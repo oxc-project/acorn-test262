@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1192,
             "end": 1195,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                           "type": "Literal",
                           "start": 1228,
                           "end": 1246,
-                          "value": "Another function"
+                          "value": "Another function",
+                          "raw": "'Another function'"
                         }
                       }
                     ]
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 1265,
                   "end": 1269,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -136,7 +139,8 @@
                   "type": "Literal",
                   "start": 1283,
                   "end": 1287,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -157,7 +161,8 @@
                   "type": "Literal",
                   "start": 1305,
                   "end": 1310,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -188,7 +193,8 @@
                 "type": "Literal",
                 "start": 1317,
                 "end": 1318,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -216,14 +222,16 @@
                   "type": "Literal",
                   "start": 1328,
                   "end": 1342,
-                  "value": "switch (1) {"
+                  "value": "switch (1) {",
+                  "raw": "'switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1347,
                   "end": 1359,
-                  "value": "  default:"
+                  "value": "  default:",
+                  "raw": "'  default:'"
                 }
               },
               "operator": "+",
@@ -231,7 +239,8 @@
                 "type": "Literal",
                 "start": 1364,
                 "end": 1417,
-                "value": "    function f() { return \"function declaration\"; }"
+                "value": "    function f() { return \"function declaration\"; }",
+                "raw": "'    function f() { return \"function declaration\"; }'"
               }
             },
             "operator": "+",
@@ -239,7 +248,8 @@
               "type": "Literal",
               "start": 1422,
               "end": 1429,
-              "value": "}  "
+              "value": "}  ",
+              "raw": "'}\\\n  '"
             }
           }
         ],
@@ -291,7 +301,8 @@
             "type": "Literal",
             "start": 1461,
             "end": 1471,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -342,7 +353,8 @@
             "type": "Literal",
             "start": 1496,
             "end": 1518,
-            "value": "function declaration"
+            "value": "function declaration",
+            "raw": "'function declaration'"
           }
         ],
         "optional": false

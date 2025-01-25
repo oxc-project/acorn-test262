@@ -1,39 +1,40 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 847,
+  "end": 846,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 680,
-      "end": 709,
+      "start": 679,
+      "end": 708,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 684,
-          "end": 708,
+          "start": 683,
+          "end": 707,
           "id": {
             "type": "Identifier",
-            "start": 684,
-            "end": 688,
+            "start": 683,
+            "end": 687,
             "name": "date"
           },
           "init": {
             "type": "NewExpression",
-            "start": 691,
-            "end": 708,
+            "start": 690,
+            "end": 707,
             "callee": {
               "type": "Identifier",
-              "start": 695,
-              "end": 699,
+              "start": 694,
+              "end": 698,
               "name": "Date"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 700,
-                "end": 707,
-                "value": 8640000000000000
+                "start": 699,
+                "end": 706,
+                "value": 8640000000000000,
+                "raw": "8.64e15"
               }
             ]
           }
@@ -43,17 +44,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 710,
-      "end": 726,
+      "start": 709,
+      "end": 725,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 714,
-          "end": 725,
+          "start": 713,
+          "end": 724,
           "id": {
             "type": "Identifier",
-            "start": 714,
-            "end": 725,
+            "start": 713,
+            "end": 724,
             "name": "returnValue"
           },
           "init": null
@@ -63,26 +64,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 728,
-      "end": 769,
+      "start": 727,
+      "end": 768,
       "expression": {
         "type": "CallExpression",
-        "start": 728,
-        "end": 768,
+        "start": 727,
+        "end": 767,
         "callee": {
           "type": "MemberExpression",
-          "start": 728,
-          "end": 747,
+          "start": 727,
+          "end": 746,
           "object": {
             "type": "Identifier",
-            "start": 728,
-            "end": 734,
+            "start": 727,
+            "end": 733,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 735,
-            "end": 747,
+            "start": 734,
+            "end": 746,
             "name": "notSameValue"
           },
           "computed": false,
@@ -91,22 +92,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 748,
-            "end": 762,
+            "start": 747,
+            "end": 761,
             "callee": {
               "type": "MemberExpression",
-              "start": 748,
-              "end": 760,
+              "start": 747,
+              "end": 759,
               "object": {
                 "type": "Identifier",
-                "start": 748,
-                "end": 752,
+                "start": 747,
+                "end": 751,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 753,
-                "end": 760,
+                "start": 752,
+                "end": 759,
                 "name": "getTime"
               },
               "computed": false,
@@ -117,8 +118,8 @@
           },
           {
             "type": "Identifier",
-            "start": 764,
-            "end": 767,
+            "start": 763,
+            "end": 766,
             "name": "NaN"
           }
         ],
@@ -127,37 +128,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 771,
-      "end": 809,
+      "start": 770,
+      "end": 808,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 771,
-        "end": 808,
+        "start": 770,
+        "end": 807,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 771,
-          "end": 782,
+          "start": 770,
+          "end": 781,
           "name": "returnValue"
         },
         "right": {
           "type": "CallExpression",
-          "start": 785,
-          "end": 808,
+          "start": 784,
+          "end": 807,
           "callee": {
             "type": "MemberExpression",
-            "start": 785,
-            "end": 805,
+            "start": 784,
+            "end": 804,
             "object": {
               "type": "Identifier",
-              "start": 785,
-              "end": 789,
+              "start": 784,
+              "end": 788,
               "name": "date"
             },
             "property": {
               "type": "Identifier",
-              "start": 790,
-              "end": 805,
+              "start": 789,
+              "end": 804,
               "name": "setMilliseconds"
             },
             "computed": false,
@@ -166,9 +167,10 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 806,
-              "end": 807,
-              "value": 1
+              "start": 805,
+              "end": 806,
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -177,26 +179,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 811,
-      "end": 846,
+      "start": 810,
+      "end": 845,
       "expression": {
         "type": "CallExpression",
-        "start": 811,
-        "end": 845,
+        "start": 810,
+        "end": 844,
         "callee": {
           "type": "MemberExpression",
-          "start": 811,
-          "end": 827,
+          "start": 810,
+          "end": 826,
           "object": {
             "type": "Identifier",
-            "start": 811,
-            "end": 817,
+            "start": 810,
+            "end": 816,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 818,
-            "end": 827,
+            "start": 817,
+            "end": 826,
             "name": "sameValue"
           },
           "computed": false,
@@ -205,14 +207,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 828,
-            "end": 839,
+            "start": 827,
+            "end": 838,
             "name": "returnValue"
           },
           {
             "type": "Identifier",
-            "start": 841,
-            "end": 844,
+            "start": 840,
+            "end": 843,
             "name": "NaN"
           }
         ],

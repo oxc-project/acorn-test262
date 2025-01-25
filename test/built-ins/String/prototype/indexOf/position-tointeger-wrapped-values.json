@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 435,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -59,7 +60,8 @@
                 "type": "Literal",
                 "start": 444,
                 "end": 448,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "CallExpression",
@@ -76,7 +78,8 @@
                     "type": "Literal",
                     "start": 457,
                     "end": 458,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ],
                 "optional": false
@@ -88,13 +91,15 @@
             "type": "Literal",
             "start": 462,
             "end": 463,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 511,
-            "value": "ToPrimitive: unbox object with internal slot"
+            "value": "ToPrimitive: unbox object with internal slot",
+            "raw": "\"ToPrimitive: unbox object with internal slot\""
           }
         ],
         "optional": false
@@ -140,7 +145,8 @@
                 "type": "Literal",
                 "start": 531,
                 "end": 537,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -156,7 +162,8 @@
                 "type": "Literal",
                 "start": 546,
                 "end": 550,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -211,7 +218,8 @@
                               "type": "Literal",
                               "start": 602,
                               "end": 603,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           }
                         ]
@@ -228,13 +236,15 @@
             "type": "Literal",
             "start": 613,
             "end": 614,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 616,
             "end": 644,
-            "value": "ToPrimitive: @@toPrimitive"
+            "value": "ToPrimitive: @@toPrimitive",
+            "raw": "\"ToPrimitive: @@toPrimitive\""
           }
         ],
         "optional": false
@@ -280,7 +290,8 @@
                 "type": "Literal",
                 "start": 664,
                 "end": 670,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -296,7 +307,8 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 683,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -338,7 +350,8 @@
                               "type": "Literal",
                               "start": 722,
                               "end": 723,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           }
                         ]
@@ -355,13 +368,15 @@
             "type": "Literal",
             "start": 733,
             "end": 734,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 736,
             "end": 758,
-            "value": "ToPrimitive: valueOf"
+            "value": "ToPrimitive: valueOf",
+            "raw": "\"ToPrimitive: valueOf\""
           }
         ],
         "optional": false
@@ -407,7 +422,8 @@
                 "type": "Literal",
                 "start": 778,
                 "end": 784,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -423,7 +439,8 @@
                 "type": "Literal",
                 "start": 793,
                 "end": 797,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -465,7 +482,8 @@
                               "type": "Literal",
                               "start": 837,
                               "end": 838,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           }
                         ]
@@ -482,13 +500,15 @@
             "type": "Literal",
             "start": 848,
             "end": 849,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 851,
             "end": 874,
-            "value": "ToPrimitive: toString"
+            "value": "ToPrimitive: toString",
+            "raw": "\"ToPrimitive: toString\""
           }
         ],
         "optional": false
@@ -534,7 +554,8 @@
                 "type": "Literal",
                 "start": 894,
                 "end": 900,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -550,7 +571,8 @@
                 "type": "Literal",
                 "start": 909,
                 "end": 913,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "CallExpression",
@@ -579,13 +601,15 @@
             "type": "Literal",
             "start": 929,
             "end": 930,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 934,
             "end": 990,
-            "value": "ToInteger: unbox object with internal slot => NaN => 0"
+            "value": "ToInteger: unbox object with internal slot => NaN => 0",
+            "raw": "\"ToInteger: unbox object with internal slot => NaN => 0\""
           }
         ],
         "optional": false
@@ -631,7 +655,8 @@
                 "type": "Literal",
                 "start": 1010,
                 "end": 1016,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -647,7 +672,8 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1029,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -719,13 +745,15 @@
             "type": "Literal",
             "start": 1094,
             "end": 1095,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1135,
-            "value": "ToInteger: @@toPrimitive => NaN => 0"
+            "value": "ToInteger: @@toPrimitive => NaN => 0",
+            "raw": "\"ToInteger: @@toPrimitive => NaN => 0\""
           }
         ],
         "optional": false
@@ -771,7 +799,8 @@
                 "type": "Literal",
                 "start": 1155,
                 "end": 1161,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -787,7 +816,8 @@
                 "type": "Literal",
                 "start": 1170,
                 "end": 1174,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -846,13 +876,15 @@
             "type": "Literal",
             "start": 1226,
             "end": 1227,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1229,
             "end": 1261,
-            "value": "ToInteger: valueOf => NaN => 0"
+            "value": "ToInteger: valueOf => NaN => 0",
+            "raw": "\"ToInteger: valueOf => NaN => 0\""
           }
         ],
         "optional": false
@@ -898,7 +930,8 @@
                 "type": "Literal",
                 "start": 1281,
                 "end": 1287,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -914,7 +947,8 @@
                 "type": "Literal",
                 "start": 1296,
                 "end": 1300,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -973,13 +1007,15 @@
             "type": "Literal",
             "start": 1353,
             "end": 1354,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1389,
-            "value": "ToInteger: toString => NaN => 0"
+            "value": "ToInteger: toString => NaN => 0",
+            "raw": "\"ToInteger: toString => NaN => 0\""
           }
         ],
         "optional": false
@@ -1025,7 +1061,8 @@
                 "type": "Literal",
                 "start": 1409,
                 "end": 1415,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1041,7 +1078,8 @@
                 "type": "Literal",
                 "start": 1424,
                 "end": 1428,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1113,13 +1151,15 @@
             "type": "Literal",
             "start": 1499,
             "end": 1500,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1502,
             "end": 1553,
-            "value": "ToInteger: @@toPrimitive => undefined => NaN => 0"
+            "value": "ToInteger: @@toPrimitive => undefined => NaN => 0",
+            "raw": "\"ToInteger: @@toPrimitive => undefined => NaN => 0\""
           }
         ],
         "optional": false
@@ -1165,7 +1205,8 @@
                 "type": "Literal",
                 "start": 1573,
                 "end": 1579,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1181,7 +1222,8 @@
                 "type": "Literal",
                 "start": 1588,
                 "end": 1592,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1240,13 +1282,15 @@
             "type": "Literal",
             "start": 1650,
             "end": 1651,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1653,
             "end": 1698,
-            "value": "ToInteger: valueOf => undefined => NaN => 0"
+            "value": "ToInteger: valueOf => undefined => NaN => 0",
+            "raw": "\"ToInteger: valueOf => undefined => NaN => 0\""
           }
         ],
         "optional": false
@@ -1292,7 +1336,8 @@
                 "type": "Literal",
                 "start": 1718,
                 "end": 1724,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1308,7 +1353,8 @@
                 "type": "Literal",
                 "start": 1733,
                 "end": 1737,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1367,13 +1413,15 @@
             "type": "Literal",
             "start": 1796,
             "end": 1797,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1799,
             "end": 1845,
-            "value": "ToInteger: toString => undefined => NaN => 0"
+            "value": "ToInteger: toString => undefined => NaN => 0",
+            "raw": "\"ToInteger: toString => undefined => NaN => 0\""
           }
         ],
         "optional": false
@@ -1419,7 +1467,8 @@
                 "type": "Literal",
                 "start": 1865,
                 "end": 1871,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1435,7 +1484,8 @@
                 "type": "Literal",
                 "start": 1880,
                 "end": 1884,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1490,7 +1540,8 @@
                               "type": "Literal",
                               "start": 1936,
                               "end": 1940,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             }
                           }
                         ]
@@ -1507,13 +1558,15 @@
             "type": "Literal",
             "start": 1950,
             "end": 1951,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1953,
             "end": 1992,
-            "value": "ToInteger: @@toPrimitive => null => 0"
+            "value": "ToInteger: @@toPrimitive => null => 0",
+            "raw": "\"ToInteger: @@toPrimitive => null => 0\""
           }
         ],
         "optional": false
@@ -1559,7 +1612,8 @@
                 "type": "Literal",
                 "start": 2012,
                 "end": 2018,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1575,7 +1629,8 @@
                 "type": "Literal",
                 "start": 2027,
                 "end": 2031,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1617,7 +1672,8 @@
                               "type": "Literal",
                               "start": 2070,
                               "end": 2074,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             }
                           }
                         ]
@@ -1634,13 +1690,15 @@
             "type": "Literal",
             "start": 2084,
             "end": 2085,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2087,
             "end": 2120,
-            "value": "ToInteger: valueOf => null => 0"
+            "value": "ToInteger: valueOf => null => 0",
+            "raw": "\"ToInteger: valueOf => null => 0\""
           }
         ],
         "optional": false
@@ -1686,7 +1744,8 @@
                 "type": "Literal",
                 "start": 2140,
                 "end": 2146,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1702,7 +1761,8 @@
                 "type": "Literal",
                 "start": 2155,
                 "end": 2159,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1744,7 +1804,8 @@
                               "type": "Literal",
                               "start": 2199,
                               "end": 2203,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             }
                           }
                         ]
@@ -1761,13 +1822,15 @@
             "type": "Literal",
             "start": 2213,
             "end": 2214,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2216,
             "end": 2250,
-            "value": "ToInteger: toString => null => 0"
+            "value": "ToInteger: toString => null => 0",
+            "raw": "\"ToInteger: toString => null => 0\""
           }
         ],
         "optional": false
@@ -1813,7 +1876,8 @@
                 "type": "Literal",
                 "start": 2270,
                 "end": 2276,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1829,7 +1893,8 @@
                 "type": "Literal",
                 "start": 2285,
                 "end": 2289,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "CallExpression",
@@ -1846,7 +1911,8 @@
                     "type": "Literal",
                     "start": 2298,
                     "end": 2302,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ],
                 "optional": false
@@ -1858,13 +1924,15 @@
             "type": "Literal",
             "start": 2306,
             "end": 2307,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2311,
             "end": 2368,
-            "value": "ToInteger: unbox object with internal slot => true => 1"
+            "value": "ToInteger: unbox object with internal slot => true => 1",
+            "raw": "\"ToInteger: unbox object with internal slot => true => 1\""
           }
         ],
         "optional": false
@@ -1910,7 +1978,8 @@
                 "type": "Literal",
                 "start": 2388,
                 "end": 2394,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -1926,7 +1995,8 @@
                 "type": "Literal",
                 "start": 2403,
                 "end": 2407,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -1981,7 +2051,8 @@
                               "type": "Literal",
                               "start": 2459,
                               "end": 2463,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -1998,13 +2069,15 @@
             "type": "Literal",
             "start": 2473,
             "end": 2474,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2476,
             "end": 2515,
-            "value": "ToInteger: @@toPrimitive => true => 1"
+            "value": "ToInteger: @@toPrimitive => true => 1",
+            "raw": "\"ToInteger: @@toPrimitive => true => 1\""
           }
         ],
         "optional": false
@@ -2050,7 +2123,8 @@
                 "type": "Literal",
                 "start": 2535,
                 "end": 2541,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2066,7 +2140,8 @@
                 "type": "Literal",
                 "start": 2550,
                 "end": 2554,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -2108,7 +2183,8 @@
                               "type": "Literal",
                               "start": 2593,
                               "end": 2597,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -2125,13 +2201,15 @@
             "type": "Literal",
             "start": 2607,
             "end": 2608,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2610,
             "end": 2643,
-            "value": "ToInteger: valueOf => true => 1"
+            "value": "ToInteger: valueOf => true => 1",
+            "raw": "\"ToInteger: valueOf => true => 1\""
           }
         ],
         "optional": false
@@ -2177,7 +2255,8 @@
                 "type": "Literal",
                 "start": 2663,
                 "end": 2669,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2193,7 +2272,8 @@
                 "type": "Literal",
                 "start": 2678,
                 "end": 2682,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -2235,7 +2315,8 @@
                               "type": "Literal",
                               "start": 2722,
                               "end": 2726,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -2252,13 +2333,15 @@
             "type": "Literal",
             "start": 2736,
             "end": 2737,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2739,
             "end": 2773,
-            "value": "ToInteger: toString => true => 1"
+            "value": "ToInteger: toString => true => 1",
+            "raw": "\"ToInteger: toString => true => 1\""
           }
         ],
         "optional": false
@@ -2304,7 +2387,8 @@
                 "type": "Literal",
                 "start": 2793,
                 "end": 2799,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2320,7 +2404,8 @@
                 "type": "Literal",
                 "start": 2808,
                 "end": 2812,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "CallExpression",
@@ -2337,7 +2422,8 @@
                     "type": "Literal",
                     "start": 2821,
                     "end": 2826,
-                    "value": "1.9"
+                    "value": "1.9",
+                    "raw": "\"1.9\""
                   }
                 ],
                 "optional": false
@@ -2349,13 +2435,15 @@
             "type": "Literal",
             "start": 2830,
             "end": 2831,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2835,
             "end": 2907,
-            "value": "ToInteger: unbox object with internal slot => parse Number => 1.9 => 1"
+            "value": "ToInteger: unbox object with internal slot => parse Number => 1.9 => 1",
+            "raw": "\"ToInteger: unbox object with internal slot => parse Number => 1.9 => 1\""
           }
         ],
         "optional": false
@@ -2401,7 +2489,8 @@
                 "type": "Literal",
                 "start": 2927,
                 "end": 2933,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2417,7 +2506,8 @@
                 "type": "Literal",
                 "start": 2942,
                 "end": 2946,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -2472,7 +2562,8 @@
                               "type": "Literal",
                               "start": 2998,
                               "end": 3003,
-                              "value": "1.9"
+                              "value": "1.9",
+                              "raw": "\"1.9\""
                             }
                           }
                         ]
@@ -2489,13 +2580,15 @@
             "type": "Literal",
             "start": 3013,
             "end": 3014,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 3016,
             "end": 3070,
-            "value": "ToInteger: @@toPrimitive => parse Number => 1.9 => 1"
+            "value": "ToInteger: @@toPrimitive => parse Number => 1.9 => 1",
+            "raw": "\"ToInteger: @@toPrimitive => parse Number => 1.9 => 1\""
           }
         ],
         "optional": false
@@ -2541,7 +2634,8 @@
                 "type": "Literal",
                 "start": 3090,
                 "end": 3096,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2557,7 +2651,8 @@
                 "type": "Literal",
                 "start": 3105,
                 "end": 3109,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -2599,7 +2694,8 @@
                               "type": "Literal",
                               "start": 3148,
                               "end": 3153,
-                              "value": "1.9"
+                              "value": "1.9",
+                              "raw": "\"1.9\""
                             }
                           }
                         ]
@@ -2616,13 +2712,15 @@
             "type": "Literal",
             "start": 3163,
             "end": 3164,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 3166,
             "end": 3214,
-            "value": "ToInteger: valueOf => parse Number => 1.9 => 1"
+            "value": "ToInteger: valueOf => parse Number => 1.9 => 1",
+            "raw": "\"ToInteger: valueOf => parse Number => 1.9 => 1\""
           }
         ],
         "optional": false
@@ -2668,7 +2766,8 @@
                 "type": "Literal",
                 "start": 3234,
                 "end": 3240,
-                "value": "aaaa"
+                "value": "aaaa",
+                "raw": "\"aaaa\""
               },
               "property": {
                 "type": "Identifier",
@@ -2684,7 +2783,8 @@
                 "type": "Literal",
                 "start": 3249,
                 "end": 3253,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "ObjectExpression",
@@ -2726,7 +2826,8 @@
                               "type": "Literal",
                               "start": 3293,
                               "end": 3298,
-                              "value": "1.9"
+                              "value": "1.9",
+                              "raw": "\"1.9\""
                             }
                           }
                         ]
@@ -2743,13 +2844,15 @@
             "type": "Literal",
             "start": 3308,
             "end": 3309,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 3311,
             "end": 3360,
-            "value": "ToInteger: toString => parse Number => 1.9 => 1"
+            "value": "ToInteger: toString => parse Number => 1.9 => 1",
+            "raw": "\"ToInteger: toString => parse Number => 1.9 => 1\""
           }
         ],
         "optional": false

@@ -248,7 +248,8 @@
             "type": "Literal",
             "start": 1086,
             "end": 1159,
-            "value": "get operation on private accessor without getter should throw TypeError"
+            "value": "get operation on private accessor without getter should throw TypeError",
+            "raw": "'get operation on private accessor without getter should throw TypeError'"
           }
         ],
         "optional": false

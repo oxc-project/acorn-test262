@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 2128,
                   "end": 2143,
-                  "value": "initial value"
+                  "value": "initial value",
+                  "raw": "'initial value'"
                 }
               }
             ],
@@ -120,7 +121,8 @@
                                   "type": "Literal",
                                   "start": 2218,
                                   "end": 2242,
-                                  "value": "unexpected then() call"
+                                  "value": "unexpected then() call",
+                                  "raw": "'unexpected then() call'"
                                 }
                               }
                             },
@@ -209,7 +211,8 @@
                   "type": "Literal",
                   "start": 2371,
                   "end": 2376,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               },
               "operator": "||",
@@ -259,7 +262,8 @@
                   "type": "Literal",
                   "start": 2422,
                   "end": 2437,
-                  "value": "initial value"
+                  "value": "initial value",
+                  "raw": "'initial value'"
                 }
               ],
               "optional": false

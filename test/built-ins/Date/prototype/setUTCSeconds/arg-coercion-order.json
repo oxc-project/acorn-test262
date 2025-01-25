@@ -145,7 +145,8 @@
                               "type": "Literal",
                               "start": 794,
                               "end": 807,
-                              "value": "valueOf sec"
+                              "value": "valueOf sec",
+                              "raw": "'valueOf sec'"
                             }
                           ],
                           "optional": false
@@ -159,7 +160,8 @@
                           "type": "Literal",
                           "start": 821,
                           "end": 822,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -252,7 +254,8 @@
                               "type": "Literal",
                               "start": 886,
                               "end": 898,
-                              "value": "valueOf ms"
+                              "value": "valueOf ms",
+                              "raw": "'valueOf ms'"
                             }
                           ],
                           "optional": false
@@ -266,7 +269,8 @@
                           "type": "Literal",
                           "start": 912,
                           "end": 913,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -362,13 +366,15 @@
                 "type": "Literal",
                 "start": 1000,
                 "end": 1013,
-                "value": "valueOf sec"
+                "value": "valueOf sec",
+                "raw": "'valueOf sec'"
               },
               {
                 "type": "Literal",
                 "start": 1015,
                 "end": 1027,
-                "value": "valueOf ms"
+                "value": "valueOf ms",
+                "raw": "'valueOf ms'"
               }
             ]
           }
@@ -464,7 +470,8 @@
             "type": "Literal",
             "start": 1113,
             "end": 1165,
-            "value": "argument is ignored when `this` is an invalid date"
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
           }
         ],
         "optional": false
@@ -534,7 +541,8 @@
             "type": "Literal",
             "start": 1206,
             "end": 1258,
-            "value": "argument is ignored when `this` is an invalid date"
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
           }
         ],
         "optional": false

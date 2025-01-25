@@ -64,7 +64,8 @@
                     "type": "Literal",
                     "start": 543,
                     "end": 550,
-                    "value": "fr-CA"
+                    "value": "fr-CA",
+                    "raw": "\"fr-CA\""
                   },
                   {
                     "type": "NewExpression",
@@ -94,7 +95,8 @@
                         "type": "Literal",
                         "start": 570,
                         "end": 586,
-                        "value": "en-gb-oxendict"
+                        "value": "en-gb-oxendict",
+                        "raw": "\"en-gb-oxendict\""
                       }
                     ]
                   },
@@ -102,7 +104,8 @@
                     "type": "Literal",
                     "start": 591,
                     "end": 595,
-                    "value": "de"
+                    "value": "de",
+                    "raw": "\"de\""
                   },
                   {
                     "type": "NewExpression",
@@ -132,7 +135,8 @@
                         "type": "Literal",
                         "start": 615,
                         "end": 619,
-                        "value": "jp"
+                        "value": "jp",
+                        "raw": "\"jp\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -150,13 +154,15 @@
                               "type": "Literal",
                               "start": 623,
                               "end": 633,
-                              "value": "calendar"
+                              "value": "calendar",
+                              "raw": "\"calendar\""
                             },
                             "value": {
                               "type": "Literal",
                               "start": 635,
                               "end": 644,
-                              "value": "gregory"
+                              "value": "gregory",
+                              "raw": "\"gregory\""
                             },
                             "kind": "init"
                           }
@@ -168,7 +174,8 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 655,
-                    "value": "zh"
+                    "value": "zh",
+                    "raw": "\"zh\""
                   },
                   {
                     "type": "NewExpression",
@@ -198,7 +205,8 @@
                         "type": "Literal",
                         "start": 675,
                         "end": 682,
-                        "value": "fr-CA"
+                        "value": "fr-CA",
+                        "raw": "\"fr-CA\""
                       }
                     ]
                   }
@@ -216,31 +224,36 @@
                 "type": "Literal",
                 "start": 693,
                 "end": 700,
-                "value": "fr-CA"
+                "value": "fr-CA",
+                "raw": "\"fr-CA\""
               },
               {
                 "type": "Literal",
                 "start": 704,
                 "end": 720,
-                "value": "en-GB-oxendict"
+                "value": "en-GB-oxendict",
+                "raw": "\"en-GB-oxendict\""
               },
               {
                 "type": "Literal",
                 "start": 724,
                 "end": 728,
-                "value": "de"
+                "value": "de",
+                "raw": "\"de\""
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 749,
-                "value": "jp-u-ca-gregory"
+                "value": "jp-u-ca-gregory",
+                "raw": "\"jp-u-ca-gregory\""
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 757,
-                "value": "zh"
+                "value": "zh",
+                "raw": "\"zh\""
               }
             ]
           }

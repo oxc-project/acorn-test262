@@ -73,7 +73,8 @@
                       "type": "Literal",
                       "start": 803,
                       "end": 804,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     {
                       "type": "Identifier",
@@ -89,7 +90,8 @@
                   "type": "Literal",
                   "start": 811,
                   "end": 819,
-                  "value": "var x;"
+                  "value": "var x;",
+                  "raw": "'var x;'"
                 }
               ],
               "optional": false

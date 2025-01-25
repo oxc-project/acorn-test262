@@ -157,7 +157,8 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 431,
-                "value": "caller"
+                "value": "caller",
+                "raw": "'caller'"
               }
             ],
             "optional": false
@@ -166,13 +167,15 @@
             "type": "Literal",
             "start": 434,
             "end": 439,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 526,
-            "value": "Functions created using Function.prototype.bind() do not have own property \"caller\""
+            "value": "Functions created using Function.prototype.bind() do not have own property \"caller\"",
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'"
           }
         ],
         "optional": false
@@ -234,7 +237,8 @@
                 "type": "Literal",
                 "start": 567,
                 "end": 578,
-                "value": "arguments"
+                "value": "arguments",
+                "raw": "'arguments'"
               }
             ],
             "optional": false
@@ -243,13 +247,15 @@
             "type": "Literal",
             "start": 581,
             "end": 586,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 676,
-            "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\""
+            "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\"",
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'"
           }
         ],
         "optional": false

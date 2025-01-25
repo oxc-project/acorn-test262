@@ -23,6 +23,7 @@
             "start": 889,
             "end": 892,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -52,6 +53,7 @@
             "start": 909,
             "end": 913,
             "value": {},
+            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -152,7 +154,8 @@
             "type": "Literal",
             "start": 1009,
             "end": 1018,
-            "value": "unicode"
+            "value": "unicode",
+            "raw": "'unicode'"
           },
           {
             "type": "ObjectExpression",
@@ -224,7 +227,8 @@
             "type": "Literal",
             "start": 1074,
             "end": 1083,
-            "value": "unicode"
+            "value": "unicode",
+            "raw": "'unicode'"
           },
           {
             "type": "ObjectExpression",
@@ -351,13 +355,15 @@
                         "type": "Literal",
                         "start": 1179,
                         "end": 1181,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       {
                         "type": "Literal",
                         "start": 1183,
                         "end": 1185,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false
@@ -463,13 +469,15 @@
                         "type": "Literal",
                         "start": 1261,
                         "end": 1263,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       {
                         "type": "Literal",
                         "start": 1265,
                         "end": 1267,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

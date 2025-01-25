@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 853,
             "end": 856,
-            "value": "42n"
+            "value": "42n",
+            "raw": "42n"
           }
         }
       ],
@@ -213,7 +214,8 @@
                                       "type": "Literal",
                                       "start": 1045,
                                       "end": 1046,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ]
                                 }
@@ -299,7 +301,8 @@
                                       "type": "Literal",
                                       "start": 1128,
                                       "end": 1129,
-                                      "value": 0
+                                      "value": 0,
+                                      "raw": "0"
                                     },
                                     "computed": true,
                                     "optional": false
@@ -314,7 +317,8 @@
                                     "type": "Literal",
                                     "start": 1164,
                                     "end": 1230,
-                                    "value": "Setting BigInt TypedArray with BigInt TypedArray should succeed."
+                                    "value": "Setting BigInt TypedArray with BigInt TypedArray should succeed.",
+                                    "raw": "\"Setting BigInt TypedArray with BigInt TypedArray should succeed.\""
                                   }
                                 ],
                                 "optional": false

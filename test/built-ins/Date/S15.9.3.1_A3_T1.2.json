@@ -108,13 +108,15 @@
                 "type": "Literal",
                 "start": 459,
                 "end": 463,
-                "value": 1899
+                "value": 1899,
+                "raw": "1899"
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 467,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -180,13 +182,15 @@
             "type": "Literal",
             "start": 502,
             "end": 517,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 562,
-            "value": "x1.toString() must return \"[object Date]\""
+            "value": "x1.toString() must return \"[object Date]\"",
+            "raw": "'x1.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -222,13 +226,15 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 588,
-                "value": 1899
+                "value": 1899,
+                "raw": "1899"
               },
               {
                 "type": "Literal",
                 "start": 590,
                 "end": 592,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -294,13 +300,15 @@
             "type": "Literal",
             "start": 627,
             "end": 642,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 687,
-            "value": "x2.toString() must return \"[object Date]\""
+            "value": "x2.toString() must return \"[object Date]\"",
+            "raw": "'x2.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -336,13 +344,15 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 713,
-                "value": 1900
+                "value": 1900,
+                "raw": "1900"
               },
               {
                 "type": "Literal",
                 "start": 715,
                 "end": 716,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -408,13 +418,15 @@
             "type": "Literal",
             "start": 751,
             "end": 766,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 768,
             "end": 811,
-            "value": "x3.toString() must return \"[object Date]\""
+            "value": "x3.toString() must return \"[object Date]\"",
+            "raw": "'x3.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -450,13 +462,15 @@
                 "type": "Literal",
                 "start": 833,
                 "end": 837,
-                "value": 1969
+                "value": 1969,
+                "raw": "1969"
               },
               {
                 "type": "Literal",
                 "start": 839,
                 "end": 841,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -522,13 +536,15 @@
             "type": "Literal",
             "start": 876,
             "end": 891,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 936,
-            "value": "x4.toString() must return \"[object Date]\""
+            "value": "x4.toString() must return \"[object Date]\"",
+            "raw": "'x4.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -564,13 +580,15 @@
                 "type": "Literal",
                 "start": 958,
                 "end": 962,
-                "value": 1969
+                "value": 1969,
+                "raw": "1969"
               },
               {
                 "type": "Literal",
                 "start": 964,
                 "end": 966,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -636,13 +654,15 @@
             "type": "Literal",
             "start": 1001,
             "end": 1016,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1061,
-            "value": "x5.toString() must return \"[object Date]\""
+            "value": "x5.toString() must return \"[object Date]\"",
+            "raw": "'x5.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -678,13 +698,15 @@
                 "type": "Literal",
                 "start": 1083,
                 "end": 1087,
-                "value": 1970
+                "value": 1970,
+                "raw": "1970"
               },
               {
                 "type": "Literal",
                 "start": 1089,
                 "end": 1090,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -750,13 +772,15 @@
             "type": "Literal",
             "start": 1125,
             "end": 1140,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1142,
             "end": 1185,
-            "value": "x6.toString() must return \"[object Date]\""
+            "value": "x6.toString() must return \"[object Date]\"",
+            "raw": "'x6.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -792,13 +816,15 @@
                 "type": "Literal",
                 "start": 1207,
                 "end": 1211,
-                "value": 1999
+                "value": 1999,
+                "raw": "1999"
               },
               {
                 "type": "Literal",
                 "start": 1213,
                 "end": 1215,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -864,13 +890,15 @@
             "type": "Literal",
             "start": 1250,
             "end": 1265,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1310,
-            "value": "x7.toString() must return \"[object Date]\""
+            "value": "x7.toString() must return \"[object Date]\"",
+            "raw": "'x7.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -906,13 +934,15 @@
                 "type": "Literal",
                 "start": 1332,
                 "end": 1336,
-                "value": 1999
+                "value": 1999,
+                "raw": "1999"
               },
               {
                 "type": "Literal",
                 "start": 1338,
                 "end": 1340,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -978,13 +1008,15 @@
             "type": "Literal",
             "start": 1375,
             "end": 1390,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1392,
             "end": 1435,
-            "value": "x8.toString() must return \"[object Date]\""
+            "value": "x8.toString() must return \"[object Date]\"",
+            "raw": "'x8.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -1020,13 +1052,15 @@
                 "type": "Literal",
                 "start": 1457,
                 "end": 1461,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 1463,
                 "end": 1464,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -1092,13 +1126,15 @@
             "type": "Literal",
             "start": 1499,
             "end": 1514,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1516,
             "end": 1559,
-            "value": "x9.toString() must return \"[object Date]\""
+            "value": "x9.toString() must return \"[object Date]\"",
+            "raw": "'x9.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -1134,13 +1170,15 @@
                 "type": "Literal",
                 "start": 1582,
                 "end": 1586,
-                "value": 2099
+                "value": 2099,
+                "raw": "2099"
               },
               {
                 "type": "Literal",
                 "start": 1588,
                 "end": 1590,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -1206,13 +1244,15 @@
             "type": "Literal",
             "start": 1626,
             "end": 1641,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1643,
             "end": 1687,
-            "value": "x10.toString() must return \"[object Date]\""
+            "value": "x10.toString() must return \"[object Date]\"",
+            "raw": "'x10.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -1248,13 +1288,15 @@
                 "type": "Literal",
                 "start": 1710,
                 "end": 1714,
-                "value": 2099
+                "value": 2099,
+                "raw": "2099"
               },
               {
                 "type": "Literal",
                 "start": 1716,
                 "end": 1718,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -1320,13 +1362,15 @@
             "type": "Literal",
             "start": 1754,
             "end": 1769,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1771,
             "end": 1815,
-            "value": "x11.toString() must return \"[object Date]\""
+            "value": "x11.toString() must return \"[object Date]\"",
+            "raw": "'x11.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false
@@ -1362,13 +1406,15 @@
                 "type": "Literal",
                 "start": 1838,
                 "end": 1842,
-                "value": 2100
+                "value": 2100,
+                "raw": "2100"
               },
               {
                 "type": "Literal",
                 "start": 1844,
                 "end": 1845,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -1434,13 +1480,15 @@
             "type": "Literal",
             "start": 1881,
             "end": 1896,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "\"[object Date]\""
           },
           {
             "type": "Literal",
             "start": 1898,
             "end": 1942,
-            "value": "x12.toString() must return \"[object Date]\""
+            "value": "x12.toString() must return \"[object Date]\"",
+            "raw": "'x12.toString() must return \"[object Date]\"'"
           }
         ],
         "optional": false

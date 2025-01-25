@@ -27,73 +27,85 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 372,
-                "value": "locale"
+                "value": "locale",
+                "raw": "'locale'"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 384,
-                "value": "type"
+                "value": "type",
+                "raw": "'type'"
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 412,
-                "value": "minimumIntegerDigits"
+                "value": "minimumIntegerDigits",
+                "raw": "'minimumIntegerDigits'"
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 441,
-                "value": "minimumFractionDigits"
+                "value": "minimumFractionDigits",
+                "raw": "'minimumFractionDigits'"
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 470,
-                "value": "maximumFractionDigits"
+                "value": "maximumFractionDigits",
+                "raw": "'maximumFractionDigits'"
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 502,
-                "value": "minimumSignificantDigits"
+                "value": "minimumSignificantDigits",
+                "raw": "'minimumSignificantDigits'"
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 534,
-                "value": "maximumSignificantDigits"
+                "value": "maximumSignificantDigits",
+                "raw": "'maximumSignificantDigits'"
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 558,
-                "value": "pluralCategories"
+                "value": "pluralCategories",
+                "raw": "'pluralCategories'"
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 583,
-                "value": "roundingIncrement"
+                "value": "roundingIncrement",
+                "raw": "'roundingIncrement'"
               },
               {
                 "type": "Literal",
                 "start": 589,
                 "end": 603,
-                "value": "roundingMode"
+                "value": "roundingMode",
+                "raw": "'roundingMode'"
               },
               {
                 "type": "Literal",
                 "start": 609,
                 "end": 627,
-                "value": "roundingPriority"
+                "value": "roundingPriority",
+                "raw": "'roundingPriority'"
               },
               {
                 "type": "Literal",
                 "start": 633,
                 "end": 654,
-                "value": "trailingZeroDisplay"
+                "value": "trailingZeroDisplay",
+                "raw": "'trailingZeroDisplay'"
               }
             ]
           }
@@ -149,7 +161,8 @@
                       "type": "Literal",
                       "start": 718,
                       "end": 719,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -177,7 +190,8 @@
                       "type": "Literal",
                       "start": 752,
                       "end": 753,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -521,7 +535,8 @@
                           "type": "Literal",
                           "start": 1066,
                           "end": 1118,
-                          "value": "resolvedOptions() property key order with options "
+                          "value": "resolvedOptions() property key order with options ",
+                          "raw": "'resolvedOptions() property key order with options '"
                         },
                         "operator": "+",
                         "right": {

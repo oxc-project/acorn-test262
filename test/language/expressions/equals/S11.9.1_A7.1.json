@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 421,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ]
             },
@@ -54,7 +55,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 442,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ]
             }
@@ -65,7 +67,8 @@
           "type": "Literal",
           "start": 449,
           "end": 454,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -92,7 +95,8 @@
                   "type": "Literal",
                   "start": 483,
                   "end": 539,
-                  "value": "#1: (new Boolean(true) == new Boolean(true)) === false"
+                  "value": "#1: (new Boolean(true) == new Boolean(true)) === false",
+                  "raw": "'#1: (new Boolean(true) == new Boolean(true)) === false'"
                 }
               ]
             }
@@ -132,7 +136,8 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -152,7 +157,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 589,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -163,7 +169,8 @@
           "type": "Literal",
           "start": 596,
           "end": 601,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -190,7 +197,8 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 678,
-                  "value": "#2: (new Number(1) == new Number(1)) === false"
+                  "value": "#2: (new Number(1) == new Number(1)) === false",
+                  "raw": "'#2: (new Number(1) == new Number(1)) === false'"
                 }
               ]
             }
@@ -230,7 +238,8 @@
                   "type": "Literal",
                   "start": 710,
                   "end": 713,
-                  "value": "x"
+                  "value": "x",
+                  "raw": "\"x\""
                 }
               ]
             },
@@ -250,7 +259,8 @@
                   "type": "Literal",
                   "start": 729,
                   "end": 732,
-                  "value": "x"
+                  "value": "x",
+                  "raw": "\"x\""
                 }
               ]
             }
@@ -261,7 +271,8 @@
           "type": "Literal",
           "start": 739,
           "end": 744,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -288,7 +299,8 @@
                   "type": "Literal",
                   "start": 773,
                   "end": 825,
-                  "value": "#3: (new String(\"x\") == new String(\"x\")) === false"
+                  "value": "#3: (new String(\"x\") == new String(\"x\")) === false",
+                  "raw": "'#3: (new String(\"x\") == new String(\"x\")) === false'"
                 }
               ]
             }
@@ -345,7 +357,8 @@
           "type": "Literal",
           "start": 880,
           "end": 885,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -372,7 +385,8 @@
                   "type": "Literal",
                   "start": 914,
                   "end": 960,
-                  "value": "#4: (new Object() == new Object()) === false"
+                  "value": "#4: (new Object() == new Object()) === false",
+                  "raw": "'#4: (new Object() == new Object()) === false'"
                 }
               ]
             }
@@ -495,7 +509,8 @@
           "type": "Literal",
           "start": 1019,
           "end": 1023,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -522,7 +537,8 @@
                   "type": "Literal",
                   "start": 1052,
                   "end": 1090,
-                  "value": "#5: x = {}; y = x; (x == y) === true"
+                  "value": "#5: x = {}; y = x; (x == y) === true",
+                  "raw": "'#5: x = {}; y = x; (x == y) === true'"
                 }
               ]
             }
@@ -562,7 +578,8 @@
                   "type": "Literal",
                   "start": 1123,
                   "end": 1127,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ]
             },
@@ -582,7 +599,8 @@
                   "type": "Literal",
                   "start": 1143,
                   "end": 1144,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -593,7 +611,8 @@
           "type": "Literal",
           "start": 1151,
           "end": 1156,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -620,7 +639,8 @@
                   "type": "Literal",
                   "start": 1185,
                   "end": 1236,
-                  "value": "#6 (new Boolean(true) == new Number(1)) === false"
+                  "value": "#6 (new Boolean(true) == new Number(1)) === false",
+                  "raw": "'#6 (new Boolean(true) == new Number(1)) === false'"
                 }
               ]
             }
@@ -660,7 +680,8 @@
                   "type": "Literal",
                   "start": 1268,
                   "end": 1269,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -680,7 +701,8 @@
                   "type": "Literal",
                   "start": 1285,
                   "end": 1288,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ]
             }
@@ -691,7 +713,8 @@
           "type": "Literal",
           "start": 1295,
           "end": 1300,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -718,7 +741,8 @@
                   "type": "Literal",
                   "start": 1329,
                   "end": 1379,
-                  "value": "#7: (new Number(1) == new String(\"1\")) === false"
+                  "value": "#7: (new Number(1) == new String(\"1\")) === false",
+                  "raw": "'#7: (new Number(1) == new String(\"1\")) === false'"
                 }
               ]
             }
@@ -758,7 +782,8 @@
                   "type": "Literal",
                   "start": 1411,
                   "end": 1414,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ]
             },
@@ -778,7 +803,8 @@
                   "type": "Literal",
                   "start": 1431,
                   "end": 1435,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ]
             }
@@ -789,7 +815,8 @@
           "type": "Literal",
           "start": 1442,
           "end": 1447,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -816,7 +843,8 @@
                   "type": "Literal",
                   "start": 1476,
                   "end": 1530,
-                  "value": "#8: (new String(\"x\") == new Boolean(true)) === false"
+                  "value": "#8: (new String(\"x\") == new Boolean(true)) === false",
+                  "raw": "'#8: (new String(\"x\") == new Boolean(true)) === false'"
                 }
               ]
             }

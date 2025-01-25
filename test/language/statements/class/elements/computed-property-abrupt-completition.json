@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 1101,
             "end": 1106,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -173,7 +174,8 @@
                             "type": "Literal",
                             "start": 1209,
                             "end": 1213,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         },
                         "value": null
@@ -188,7 +190,8 @@
             "type": "Literal",
             "start": 1223,
             "end": 1272,
-            "value": "computed property should have abrupt completion"
+            "value": "computed property should have abrupt completion",
+            "raw": "'computed property should have abrupt completion'"
           }
         ],
         "optional": false
@@ -232,7 +235,8 @@
             "type": "Literal",
             "start": 1307,
             "end": 1312,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -344,7 +348,8 @@
                             "type": "Literal",
                             "start": 1423,
                             "end": 1427,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         },
                         "value": null
@@ -359,7 +364,8 @@
             "type": "Literal",
             "start": 1437,
             "end": 1493,
-            "value": "static computed property should have abrupt completion"
+            "value": "static computed property should have abrupt completion",
+            "raw": "'static computed property should have abrupt completion'"
           }
         ],
         "optional": false
@@ -403,7 +409,8 @@
             "type": "Literal",
             "start": 1528,
             "end": 1533,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

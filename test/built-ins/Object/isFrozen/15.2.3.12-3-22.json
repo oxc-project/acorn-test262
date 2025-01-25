@@ -93,13 +93,15 @@
             "type": "Literal",
             "start": 310,
             "end": 315,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 320,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           }
         ],
         "optional": false

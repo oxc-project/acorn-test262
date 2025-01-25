@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 343,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -127,7 +130,8 @@
                       "type": "Literal",
                       "start": 392,
                       "end": 393,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -184,31 +188,36 @@
             "type": "Literal",
             "start": 446,
             "end": 450,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 453,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 460,
-            "value": "M06"
+            "value": "M06",
+            "raw": "\"M06\""
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 463,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 505,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -275,7 +284,8 @@
                       "type": "Literal",
                       "start": 549,
                       "end": 550,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -342,31 +352,36 @@
             "type": "Literal",
             "start": 609,
             "end": 613,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 616,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 618,
             "end": 623,
-            "value": "M06"
+            "value": "M06",
+            "raw": "\"M06\""
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 626,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 664,
-            "value": "options may be a function object"
+            "value": "options may be a function object",
+            "raw": "\"options may be a function object\""
           }
         ],
         "optional": false

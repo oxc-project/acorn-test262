@@ -1,49 +1,50 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 562,
+  "end": 559,
   "body": [
     {
       "type": "IfStatement",
-      "start": 522,
-      "end": 561,
+      "start": 519,
+      "end": 558,
       "test": {
         "type": "Literal",
-        "start": 526,
-        "end": 531,
-        "value": false
+        "start": 523,
+        "end": 528,
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 533,
-        "end": 561,
+        "start": 530,
+        "end": 558,
         "body": [
           {
             "type": "LabeledStatement",
-            "start": 539,
-            "end": 545,
+            "start": 536,
+            "end": 542,
             "body": {
               "type": "ExpressionStatement",
-              "start": 542,
-              "end": 545,
+              "start": 539,
+              "end": 542,
               "expression": {
                 "type": "Identifier",
-                "start": 542,
-                "end": 545,
+                "start": 539,
+                "end": 542,
                 "name": "let"
               }
             },
             "label": {
               "type": "Identifier",
-              "start": 539,
-              "end": 540,
+              "start": 536,
+              "end": 537,
               "name": "L"
             }
           },
           {
             "type": "BlockStatement",
-            "start": 557,
-            "end": 559,
+            "start": 554,
+            "end": 556,
             "body": []
           }
         ]

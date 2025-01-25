@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 370,
             "end": 375,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 415,
-            "value": "Boolean(undefined) must return false"
+            "value": "Boolean(undefined) must return false",
+            "raw": "'Boolean(undefined) must return false'"
           }
         ],
         "optional": false
@@ -116,7 +118,8 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 449,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -126,13 +129,15 @@
             "type": "Literal",
             "start": 452,
             "end": 457,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 494,
-            "value": "Boolean(void 0) must return false"
+            "value": "Boolean(void 0) must return false",
+            "raw": "'Boolean(void 0) must return false'"
           }
         ],
         "optional": false
@@ -192,7 +197,8 @@
                     "type": "Literal",
                     "start": 527,
                     "end": 534,
-                    "value": "var x"
+                    "value": "var x",
+                    "raw": "\"var x\""
                   }
                 ],
                 "optional": false
@@ -204,13 +210,15 @@
             "type": "Literal",
             "start": 538,
             "end": 543,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 587,
-            "value": "Boolean(eval(\"var x\")) must return false"
+            "value": "Boolean(eval(\"var x\")) must return false",
+            "raw": "'Boolean(eval(\"var x\")) must return false'"
           }
         ],
         "optional": false
@@ -261,13 +269,15 @@
             "type": "Literal",
             "start": 618,
             "end": 623,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 654,
-            "value": "Boolean() must return false"
+            "value": "Boolean() must return false",
+            "raw": "'Boolean() must return false'"
           }
         ],
         "optional": false

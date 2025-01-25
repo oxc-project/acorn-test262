@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 424,
             "end": 462,
-            "value": "She sells seashells by the seashore."
+            "value": "She sells seashells by the seashore.",
+            "raw": "'She sells seashells by the seashore.'"
           }
         }
       ],
@@ -48,6 +49,7 @@
             "start": 475,
             "end": 480,
             "value": {},
+            "raw": "/sh/g",
             "regex": {
               "pattern": "sh",
               "flags": "g"
@@ -103,14 +105,16 @@
                 "type": "Literal",
                 "start": 596,
                 "end": 600,
-                "value": "$$"
+                "value": "$$",
+                "raw": "\"$$\""
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 603,
                 "end": 608,
-                "value": "sch"
+                "value": "sch",
+                "raw": "'sch'"
               }
             }
           ],
@@ -121,7 +125,8 @@
           "type": "Literal",
           "start": 614,
           "end": 656,
-          "value": "She sells sea$schells by the sea$schore."
+          "value": "She sells sea$schells by the sea$schore.",
+          "raw": "'She sells sea$schells by the sea$schore.'"
         }
       },
       "consequent": {
@@ -152,7 +157,8 @@
                     "type": "Literal",
                     "start": 685,
                     "end": 854,
-                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/g; __str.replace(__re,\"$$\" + 'sch')==='She sells sea$schells by the sea$schore.'. Actual: "
+                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/g; __str.replace(__re,\"$$\" + 'sch')==='She sells sea$schells by the sea$schore.'. Actual: ",
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/g; __str.replace(__re,\"$$\" + \\'sch\\')===\\'She sells sea$schells by the sea$schore.\\'. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -193,14 +199,16 @@
                           "type": "Literal",
                           "start": 877,
                           "end": 881,
-                          "value": "$$"
+                          "value": "$$",
+                          "raw": "\"$$\""
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 884,
                           "end": 889,
-                          "value": "sch"
+                          "value": "sch",
+                          "raw": "'sch'"
                         }
                       }
                     ],

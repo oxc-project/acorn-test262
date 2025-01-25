@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 376,
-                  "value": 86
+                  "value": 86,
+                  "raw": "86"
                 },
                 "kind": "init"
               },
@@ -282,13 +283,15 @@
             "type": "Literal",
             "start": 566,
             "end": 567,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 607,
-            "value": "`lastIndex` property is not restored"
+            "value": "`lastIndex` property is not restored",
+            "raw": "'`lastIndex` property is not restored'"
           }
         ],
         "optional": false

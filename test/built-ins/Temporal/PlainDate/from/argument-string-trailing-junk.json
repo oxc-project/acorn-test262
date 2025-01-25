@@ -87,7 +87,8 @@
                   "type": "Literal",
                   "start": 353,
                   "end": 369,
-                  "value": "1976-11-18junk"
+                  "value": "1976-11-18junk",
+                  "raw": "\"1976-11-18junk\""
                 }
               ],
               "optional": false
@@ -97,7 +98,8 @@
             "type": "Literal",
             "start": 374,
             "end": 436,
-            "value": "String with trailing junk should not be valid as a PlainDate"
+            "value": "String with trailing junk should not be valid as a PlainDate",
+            "raw": "\"String with trailing junk should not be valid as a PlainDate\""
           }
         ],
         "optional": false

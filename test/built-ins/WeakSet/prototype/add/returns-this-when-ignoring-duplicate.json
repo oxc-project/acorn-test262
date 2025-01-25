@@ -144,7 +144,8 @@
             "type": "Literal",
             "start": 534,
             "end": 560,
-            "value": "`s.add(foo)` returns `s`"
+            "value": "`s.add(foo)` returns `s`",
+            "raw": "'`s.add(foo)` returns `s`'"
           }
         ],
         "optional": false

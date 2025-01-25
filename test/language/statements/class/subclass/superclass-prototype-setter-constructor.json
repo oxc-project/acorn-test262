@@ -111,7 +111,8 @@
                             "type": "Literal",
                             "start": 311,
                             "end": 357,
-                            "value": "`Base.prototype.constructor` is unreachable."
+                            "value": "`Base.prototype.constructor` is unreachable.",
+                            "raw": "\"`Base.prototype.constructor` is unreachable.\""
                           }
                         ]
                       }

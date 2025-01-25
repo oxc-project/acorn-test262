@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 747,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -74,7 +75,8 @@
             "type": "Literal",
             "start": 756,
             "end": 805,
-            "value": "Object.getOwnPropertyNames(true) must return []"
+            "value": "Object.getOwnPropertyNames(true) must return []",
+            "raw": "'Object.getOwnPropertyNames(true) must return []'"
           }
         ],
         "optional": false
@@ -136,7 +138,8 @@
                 "type": "Literal",
                 "start": 859,
                 "end": 864,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -151,7 +154,8 @@
             "type": "Literal",
             "start": 873,
             "end": 923,
-            "value": "Object.getOwnPropertyNames(false) must return []"
+            "value": "Object.getOwnPropertyNames(false) must return []",
+            "raw": "'Object.getOwnPropertyNames(false) must return []'"
           }
         ],
         "optional": false
@@ -213,7 +217,8 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 978,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -228,7 +233,8 @@
             "type": "Literal",
             "start": 987,
             "end": 1033,
-            "value": "Object.getOwnPropertyNames(1) must return []"
+            "value": "Object.getOwnPropertyNames(1) must return []",
+            "raw": "'Object.getOwnPropertyNames(1) must return []'"
           }
         ],
         "optional": false
@@ -290,7 +296,8 @@
                 "type": "Literal",
                 "start": 1087,
                 "end": 1088,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -305,7 +312,8 @@
             "type": "Literal",
             "start": 1097,
             "end": 1143,
-            "value": "Object.getOwnPropertyNames(0) must return []"
+            "value": "Object.getOwnPropertyNames(0) must return []",
+            "raw": "'Object.getOwnPropertyNames(0) must return []'"
           }
         ],
         "optional": false
@@ -367,7 +375,8 @@
                 "type": "Literal",
                 "start": 1197,
                 "end": 1199,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -381,7 +390,8 @@
                 "type": "Literal",
                 "start": 1203,
                 "end": 1211,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ]
           },
@@ -389,7 +399,8 @@
             "type": "Literal",
             "start": 1216,
             "end": 1271,
-            "value": "Object.getOwnPropertyNames(\"\") must return [\"length\"]"
+            "value": "Object.getOwnPropertyNames(\"\") must return [\"length\"]",
+            "raw": "'Object.getOwnPropertyNames(\"\") must return [\"length\"]'"
           }
         ],
         "optional": false
@@ -473,7 +484,8 @@
             "type": "Literal",
             "start": 1342,
             "end": 1395,
-            "value": "Object.getOwnPropertyNames(Symbol()) must return []"
+            "value": "Object.getOwnPropertyNames(Symbol()) must return []",
+            "raw": "'Object.getOwnPropertyNames(Symbol()) must return []'"
           }
         ],
         "optional": false

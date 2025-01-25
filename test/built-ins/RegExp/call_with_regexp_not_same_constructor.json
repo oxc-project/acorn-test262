@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 740,
+  "end": 739,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 605,
-      "end": 628,
+      "start": 604,
+      "end": 627,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 609,
-          "end": 627,
+          "start": 608,
+          "end": 626,
           "id": {
             "type": "Identifier",
-            "start": 609,
-            "end": 618,
+            "start": 608,
+            "end": 617,
             "name": "regExpObj"
           },
           "init": {
             "type": "Literal",
-            "start": 621,
-            "end": 627,
+            "start": 620,
+            "end": 626,
             "value": {},
+            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -34,27 +35,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 629,
-      "end": 658,
+      "start": 628,
+      "end": 657,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 629,
-        "end": 657,
+        "start": 628,
+        "end": 656,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 629,
-          "end": 650,
+          "start": 628,
+          "end": 649,
           "object": {
             "type": "Identifier",
-            "start": 629,
-            "end": 638,
+            "start": 628,
+            "end": 637,
             "name": "regExpObj"
           },
           "property": {
             "type": "Identifier",
-            "start": 639,
-            "end": 650,
+            "start": 638,
+            "end": 649,
             "name": "constructor"
           },
           "computed": false,
@@ -62,34 +63,35 @@
         },
         "right": {
           "type": "Literal",
-          "start": 653,
-          "end": 657,
-          "value": null
+          "start": 652,
+          "end": 656,
+          "value": null,
+          "raw": "null"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 660,
-      "end": 739,
+      "start": 659,
+      "end": 738,
       "expression": {
         "type": "CallExpression",
-        "start": 660,
-        "end": 738,
+        "start": 659,
+        "end": 737,
         "callee": {
           "type": "MemberExpression",
-          "start": 660,
-          "end": 679,
+          "start": 659,
+          "end": 678,
           "object": {
             "type": "Identifier",
-            "start": 660,
-            "end": 666,
+            "start": 659,
+            "end": 665,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 667,
-            "end": 679,
+            "start": 666,
+            "end": 678,
             "name": "notSameValue"
           },
           "computed": false,
@@ -98,19 +100,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 680,
-            "end": 697,
+            "start": 679,
+            "end": 696,
             "callee": {
               "type": "Identifier",
-              "start": 680,
-              "end": 686,
+              "start": 679,
+              "end": 685,
               "name": "RegExp"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 687,
-                "end": 696,
+                "start": 686,
+                "end": 695,
                 "name": "regExpObj"
               }
             ],
@@ -118,15 +120,16 @@
           },
           {
             "type": "Identifier",
-            "start": 699,
-            "end": 708,
+            "start": 698,
+            "end": 707,
             "name": "regExpObj"
           },
           {
             "type": "Literal",
-            "start": 710,
-            "end": 737,
-            "value": "RegExp returns new object"
+            "start": 709,
+            "end": 736,
+            "value": "RegExp returns new object",
+            "raw": "\"RegExp returns new object\""
           }
         ],
         "optional": false

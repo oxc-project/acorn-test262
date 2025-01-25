@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 339,
-                "value": "217175010123456789n"
+                "value": "217175010123456789n",
+                "raw": "217175010_123_456_789n"
               }
             ]
           }
@@ -105,13 +106,15 @@
             "type": "Literal",
             "start": 389,
             "end": 402,
-            "value": 217175010123
+            "value": 217175010123,
+            "raw": "217175010_123"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 434,
-            "value": "epochMilliseconds post epoch"
+            "value": "epochMilliseconds post epoch",
+            "raw": "\"epochMilliseconds post epoch\""
           }
         ],
         "optional": false
@@ -175,13 +178,15 @@
             "type": "Literal",
             "start": 491,
             "end": 499,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 538,
-            "value": "epochMilliseconds value is a number"
+            "value": "epochMilliseconds value is a number",
+            "raw": "\"epochMilliseconds value is a number\""
           }
         ],
         "optional": false
@@ -236,7 +241,8 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 606,
-                  "value": "217175010876543211n"
+                  "value": "217175010876543211n",
+                  "raw": "217175010_876_543_211n"
                 }
               }
             ]
@@ -302,14 +308,16 @@
               "type": "Literal",
               "start": 658,
               "end": 671,
-              "value": 217175010877
+              "value": 217175010877,
+              "raw": "217175010_877"
             }
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 702,
-            "value": "epochMilliseconds pre epoch"
+            "value": "epochMilliseconds pre epoch",
+            "raw": "\"epochMilliseconds pre epoch\""
           }
         ],
         "optional": false
@@ -373,13 +381,15 @@
             "type": "Literal",
             "start": 760,
             "end": 768,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 807,
-            "value": "epochMilliseconds value is a number"
+            "value": "epochMilliseconds value is a number",
+            "raw": "\"epochMilliseconds value is a number\""
           }
         ],
         "optional": false

@@ -157,7 +157,8 @@
                                 "type": "Literal",
                                 "start": 364,
                                 "end": 409,
-                                "value": "Should not be called - promise is fulfilled"
+                                "value": "Should not be called - promise is fulfilled",
+                                "raw": "\"Should not be called - promise is fulfilled\""
                               }
                             ]
                           }
@@ -243,7 +244,8 @@
                             "type": "Literal",
                             "start": 471,
                             "end": 530,
-                            "value": "The value of result is expected to equal the value of arg"
+                            "value": "The value of result is expected to equal the value of arg",
+                            "raw": "'The value of result is expected to equal the value of arg'"
                           }
                         ],
                         "optional": false

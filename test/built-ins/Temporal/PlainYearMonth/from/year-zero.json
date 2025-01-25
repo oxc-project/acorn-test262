@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 305,
                 "end": 317,
-                "value": "-000000-06"
+                "value": "-000000-06",
+                "raw": "\"-000000-06\""
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 336,
-                "value": "-000000-06-24"
+                "value": "-000000-06-24",
+                "raw": "\"-000000-06-24\""
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 364,
-                "value": "-000000-06-24T15:43:27"
+                "value": "-000000-06-24T15:43:27",
+                "raw": "\"-000000-06-24T15:43:27\""
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 398,
-                "value": "-000000-06-24T15:43:27+01:00"
+                "value": "-000000-06-24T15:43:27+01:00",
+                "raw": "\"-000000-06-24T15:43:27+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 437,
-                "value": "-000000-06-24T15:43:27+00:00[UTC]"
+                "value": "-000000-06-24T15:43:27+00:00[UTC]",
+                "raw": "\"-000000-06-24T15:43:27+00:00[UTC]\""
               }
             ]
           }
@@ -202,7 +207,8 @@
                         "type": "Literal",
                         "start": 559,
                         "end": 595,
-                        "value": "reject minus zero as extended year"
+                        "value": "reject minus zero as extended year",
+                        "raw": "\"reject minus zero as extended year\""
                       }
                     ],
                     "optional": false

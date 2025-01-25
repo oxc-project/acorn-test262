@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 373,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 380,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 450,
-                "value": "1000090061987654321n"
+                "value": "1000090061987654321n",
+                "raw": "1_000_090_061_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 457,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -141,67 +145,78 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 487,
-                "value": "era"
+                "value": "era",
+                "raw": "\"era\""
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 500,
-                "value": "eraYear"
+                "value": "eraYear",
+                "raw": "\"eraYear\""
               },
               {
                 "type": "Literal",
                 "start": 504,
                 "end": 519,
-                "value": "millisecond\u0000"
+                "value": "millisecond\u0000",
+                "raw": "\"millisecond\\0\""
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 541,
-                "value": "millısecond"
+                "value": "millısecond",
+                "raw": "\"mill\\u0131second\""
               },
               {
                 "type": "Literal",
                 "start": 545,
                 "end": 553,
-                "value": "SECOND"
+                "value": "SECOND",
+                "raw": "\"SECOND\""
               },
               {
                 "type": "Literal",
                 "start": 557,
                 "end": 563,
-                "value": "eras"
+                "value": "eras",
+                "raw": "\"eras\""
               },
               {
                 "type": "Literal",
                 "start": 567,
                 "end": 577,
-                "value": "eraYears"
+                "value": "eraYears",
+                "raw": "\"eraYears\""
               },
               {
                 "type": "Literal",
                 "start": 581,
                 "end": 597,
-                "value": "milliseconds\u0000"
+                "value": "milliseconds\u0000",
+                "raw": "\"milliseconds\\0\""
               },
               {
                 "type": "Literal",
                 "start": 601,
                 "end": 620,
-                "value": "millıseconds"
+                "value": "millıseconds",
+                "raw": "\"mill\\u0131seconds\""
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 633,
-                "value": "SECONDS"
+                "value": "SECONDS",
+                "raw": "\"SECONDS\""
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 651,
-                "value": "other string"
+                "value": "other string",
+                "raw": "\"other string\""
               }
             ]
           }

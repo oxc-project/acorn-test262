@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 383,
             "end": 388,
-            "value": "get"
+            "value": "get",
+            "raw": "\"get\""
           },
           {
             "type": "ObjectExpression",
@@ -366,13 +367,15 @@
             "type": "Literal",
             "start": 588,
             "end": 599,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 624,
-            "value": "typeof (obj.property)"
+            "value": "typeof (obj.property)",
+            "raw": "'typeof (obj.property)'"
           }
         ],
         "optional": false

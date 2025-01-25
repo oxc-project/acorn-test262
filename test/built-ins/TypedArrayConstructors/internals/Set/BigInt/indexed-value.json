@@ -107,7 +107,8 @@
                               "type": "Literal",
                               "start": 769,
                               "end": 794,
-                              "value": "OrdinarySet was called!"
+                              "value": "OrdinarySet was called!",
+                              "raw": "'OrdinarySet was called!'"
                             }
                           ]
                         }
@@ -161,7 +162,8 @@
             "type": "Literal",
             "start": 834,
             "end": 837,
-            "value": "0"
+            "value": "0",
+            "raw": "'0'"
           },
           {
             "type": "Identifier",
@@ -211,7 +213,8 @@
             "type": "Literal",
             "start": 880,
             "end": 883,
-            "value": "1"
+            "value": "1",
+            "raw": "'1'"
           },
           {
             "type": "Identifier",
@@ -289,7 +292,8 @@
                             "type": "Literal",
                             "start": 972,
                             "end": 973,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -359,13 +363,15 @@
                             "type": "Literal",
                             "start": 1015,
                             "end": 1018,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "'0'"
                           },
                           {
                             "type": "Literal",
                             "start": 1020,
                             "end": 1022,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           }
                         ],
                         "optional": false
@@ -374,13 +380,15 @@
                         "type": "Literal",
                         "start": 1025,
                         "end": 1029,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1031,
                         "end": 1078,
-                        "value": "Reflect.set(sample, \"0\", 1n) must return true"
+                        "value": "Reflect.set(sample, \"0\", 1n) must return true",
+                        "raw": "'Reflect.set(sample, \"0\", 1n) must return true'"
                       }
                     ],
                     "optional": false
@@ -428,7 +436,8 @@
                           "type": "Literal",
                           "start": 1107,
                           "end": 1108,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -437,13 +446,15 @@
                         "type": "Literal",
                         "start": 1111,
                         "end": 1113,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       },
                       {
                         "type": "Literal",
                         "start": 1115,
                         "end": 1145,
-                        "value": "The value of sample[0] is 1n"
+                        "value": "The value of sample[0] is 1n",
+                        "raw": "'The value of sample[0] is 1n'"
                       }
                     ],
                     "optional": false
@@ -511,13 +522,15 @@
                             "type": "Literal",
                             "start": 1187,
                             "end": 1190,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "'1'"
                           },
                           {
                             "type": "Literal",
                             "start": 1192,
                             "end": 1195,
-                            "value": "42n"
+                            "value": "42n",
+                            "raw": "42n"
                           }
                         ],
                         "optional": false
@@ -526,13 +539,15 @@
                         "type": "Literal",
                         "start": 1198,
                         "end": 1202,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1204,
                         "end": 1252,
-                        "value": "Reflect.set(sample, \"1\", 42n) must return true"
+                        "value": "Reflect.set(sample, \"1\", 42n) must return true",
+                        "raw": "'Reflect.set(sample, \"1\", 42n) must return true'"
                       }
                     ],
                     "optional": false
@@ -580,7 +595,8 @@
                           "type": "Literal",
                           "start": 1281,
                           "end": 1282,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -589,13 +605,15 @@
                         "type": "Literal",
                         "start": 1285,
                         "end": 1288,
-                        "value": "42n"
+                        "value": "42n",
+                        "raw": "42n"
                       },
                       {
                         "type": "Literal",
                         "start": 1290,
                         "end": 1321,
-                        "value": "The value of sample[1] is 42n"
+                        "value": "The value of sample[1] is 42n",
+                        "raw": "'The value of sample[1] is 42n'"
                       }
                     ],
                     "optional": false

@@ -1,129 +1,146 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 941,
+  "end": 939,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 528,
-      "end": 750,
+      "start": 526,
+      "end": 748,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 534,
-          "end": 749,
+          "start": 532,
+          "end": 747,
           "id": {
             "type": "Identifier",
-            "start": 534,
-            "end": 548,
+            "start": 532,
+            "end": 546,
             "name": "invalidOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 551,
-            "end": 749,
+            "start": 549,
+            "end": 747,
             "elements": [
               {
                 "type": "Literal",
-                "start": 555,
-                "end": 559,
-                "value": null
+                "start": 553,
+                "end": 557,
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
-                "start": 563,
-                "end": 564,
-                "value": 1
+                "start": 561,
+                "end": 562,
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
-                "start": 568,
-                "end": 570,
-                "value": ""
+                "start": 566,
+                "end": 568,
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
-                "start": 574,
-                "end": 584,
-                "value": "standard"
+                "start": 572,
+                "end": 582,
+                "value": "standard",
+                "raw": "\"standard\""
               },
               {
                 "type": "Literal",
-                "start": 588,
-                "end": 598,
-                "value": "Grapheme"
+                "start": 586,
+                "end": 596,
+                "value": "Grapheme",
+                "raw": "\"Grapheme\""
               },
               {
                 "type": "Literal",
-                "start": 602,
-                "end": 612,
-                "value": "GRAPHEME"
+                "start": 600,
+                "end": 610,
+                "value": "GRAPHEME",
+                "raw": "\"GRAPHEME\""
               },
               {
                 "type": "Literal",
-                "start": 616,
-                "end": 628,
-                "value": "grapheme\u0000"
+                "start": 614,
+                "end": 626,
+                "value": "grapheme\u0000",
+                "raw": "\"grapheme\\0\""
               },
               {
                 "type": "Literal",
-                "start": 632,
-                "end": 638,
-                "value": "Word"
+                "start": 630,
+                "end": 636,
+                "value": "Word",
+                "raw": "\"Word\""
               },
               {
                 "type": "Literal",
-                "start": 642,
-                "end": 648,
-                "value": "WORD"
+                "start": 640,
+                "end": 646,
+                "value": "WORD",
+                "raw": "\"WORD\""
               },
               {
                 "type": "Literal",
-                "start": 652,
-                "end": 660,
-                "value": "word\u0000"
+                "start": 650,
+                "end": 658,
+                "value": "word\u0000",
+                "raw": "\"word\\0\""
               },
               {
                 "type": "Literal",
-                "start": 664,
-                "end": 674,
-                "value": "Sentence"
+                "start": 662,
+                "end": 672,
+                "value": "Sentence",
+                "raw": "\"Sentence\""
               },
               {
                 "type": "Literal",
-                "start": 678,
-                "end": 688,
-                "value": "SENTENCE"
+                "start": 676,
+                "end": 686,
+                "value": "SENTENCE",
+                "raw": "\"SENTENCE\""
               },
               {
                 "type": "Literal",
-                "start": 692,
-                "end": 704,
-                "value": "sentence\u0000"
+                "start": 690,
+                "end": 702,
+                "value": "sentence\u0000",
+                "raw": "\"sentence\\0\""
               },
               {
                 "type": "Literal",
-                "start": 708,
-                "end": 714,
-                "value": "line"
+                "start": 706,
+                "end": 712,
+                "value": "line",
+                "raw": "\"line\""
               },
               {
                 "type": "Literal",
-                "start": 718,
-                "end": 724,
-                "value": "Line"
+                "start": 716,
+                "end": 722,
+                "value": "Line",
+                "raw": "\"Line\""
               },
               {
                 "type": "Literal",
-                "start": 728,
-                "end": 734,
-                "value": "LINE"
+                "start": 726,
+                "end": 732,
+                "value": "LINE",
+                "raw": "\"LINE\""
               },
               {
                 "type": "Literal",
-                "start": 738,
-                "end": 746,
-                "value": "line\u0000"
+                "start": 736,
+                "end": 744,
+                "value": "line\u0000",
+                "raw": "\"line\\0\""
               }
             ]
           }
@@ -133,22 +150,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 752,
-      "end": 940,
+      "start": 750,
+      "end": 938,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 757,
-        "end": 774,
+        "start": 755,
+        "end": 772,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 763,
-            "end": 774,
+            "start": 761,
+            "end": 772,
             "id": {
               "type": "Identifier",
-              "start": 763,
-              "end": 774,
+              "start": 761,
+              "end": 772,
               "name": "granularity"
             },
             "init": null
@@ -158,37 +175,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 778,
-        "end": 792,
+        "start": 776,
+        "end": 790,
         "name": "invalidOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 794,
-        "end": 940,
+        "start": 792,
+        "end": 938,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 798,
-            "end": 938,
+            "start": 796,
+            "end": 936,
             "expression": {
               "type": "CallExpression",
-              "start": 798,
-              "end": 937,
+              "start": 796,
+              "end": 935,
               "callee": {
                 "type": "MemberExpression",
-                "start": 798,
-                "end": 811,
+                "start": 796,
+                "end": 809,
                 "object": {
                   "type": "Identifier",
-                  "start": 798,
-                  "end": 804,
+                  "start": 796,
+                  "end": 802,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 805,
-                  "end": 811,
+                  "start": 803,
+                  "end": 809,
                   "name": "throws"
                 },
                 "computed": false,
@@ -197,14 +214,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 812,
-                  "end": 822,
+                  "start": 810,
+                  "end": 820,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 824,
-                  "end": 885,
+                  "start": 822,
+                  "end": 883,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -212,31 +229,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 835,
-                    "end": 885,
+                    "start": 833,
+                    "end": 883,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 841,
-                        "end": 881,
+                        "start": 839,
+                        "end": 879,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 841,
-                          "end": 880,
+                          "start": 839,
+                          "end": 878,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 845,
-                            "end": 859,
+                            "start": 843,
+                            "end": 857,
                             "object": {
                               "type": "Identifier",
-                              "start": 845,
-                              "end": 849,
+                              "start": 843,
+                              "end": 847,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 850,
-                              "end": 859,
+                              "start": 848,
+                              "end": 857,
                               "name": "Segmenter"
                             },
                             "computed": false,
@@ -245,33 +262,33 @@
                           "arguments": [
                             {
                               "type": "ArrayExpression",
-                              "start": 860,
-                              "end": 862,
+                              "start": 858,
+                              "end": 860,
                               "elements": []
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 864,
-                              "end": 879,
+                              "start": 862,
+                              "end": 877,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 866,
-                                  "end": 877,
+                                  "start": 864,
+                                  "end": 875,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 866,
-                                    "end": 877,
+                                    "start": 864,
+                                    "end": 875,
                                     "name": "granularity"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 866,
-                                    "end": 877,
+                                    "start": 864,
+                                    "end": 875,
                                     "name": "granularity"
                                   }
                                 }
@@ -285,21 +302,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 887,
-                  "end": 936,
+                  "start": 885,
+                  "end": 934,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 890,
-                      "end": 901,
+                      "start": 888,
+                      "end": 899,
                       "name": "granularity"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 888,
-                      "end": 888,
+                      "start": 886,
+                      "end": 886,
                       "value": {
                         "raw": "",
                         "cooked": ""
@@ -308,8 +325,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 902,
-                      "end": 935,
+                      "start": 900,
+                      "end": 933,
                       "value": {
                         "raw": " is an invalid style option value",
                         "cooked": " is an invalid style option value"

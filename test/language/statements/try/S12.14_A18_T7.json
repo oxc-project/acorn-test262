@@ -57,7 +57,8 @@
             "type": "Literal",
             "start": 283,
             "end": 284,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -66,7 +67,8 @@
           "type": "Literal",
           "start": 288,
           "end": 294,
-          "value": "Saab"
+          "value": "Saab",
+          "raw": "\"Saab\""
         }
       }
     },
@@ -93,7 +95,8 @@
             "type": "Literal",
             "start": 303,
             "end": 304,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -102,7 +105,8 @@
           "type": "Literal",
           "start": 308,
           "end": 315,
-          "value": "Volvo"
+          "value": "Volvo",
+          "raw": "\"Volvo\""
         }
       }
     },
@@ -129,7 +133,8 @@
             "type": "Literal",
             "start": 324,
             "end": 325,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -138,7 +143,8 @@
           "type": "Literal",
           "start": 329,
           "end": 334,
-          "value": "BMW"
+          "value": "BMW",
+          "raw": "\"BMW\""
         }
       }
     },
@@ -196,7 +202,8 @@
             "type": "Literal",
             "start": 372,
             "end": 373,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -205,7 +212,8 @@
           "type": "Literal",
           "start": 377,
           "end": 387,
-          "value": "Mercedes"
+          "value": "Mercedes",
+          "raw": "\"Mercedes\""
         }
       }
     },
@@ -232,7 +240,8 @@
             "type": "Literal",
             "start": 397,
             "end": 398,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -241,7 +250,8 @@
           "type": "Literal",
           "start": 402,
           "end": 408,
-          "value": "Jeep"
+          "value": "Jeep",
+          "raw": "\"Jeep\""
         }
       }
     },
@@ -268,7 +278,8 @@
             "type": "Literal",
             "start": 418,
             "end": 419,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -277,7 +288,8 @@
           "type": "Literal",
           "start": 423,
           "end": 431,
-          "value": "Suzuki"
+          "value": "Suzuki",
+          "raw": "\"Suzuki\""
         }
       }
     },
@@ -341,7 +353,8 @@
                       "type": "Literal",
                       "start": 491,
                       "end": 492,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -362,7 +375,8 @@
                   "type": "Literal",
                   "start": 495,
                   "end": 496,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "update": {
@@ -486,7 +500,8 @@
                                               "type": "Literal",
                                               "start": 552,
                                               "end": 557,
-                                              "value": "#1."
+                                              "value": "#1.",
+                                              "raw": "'#1.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -501,7 +516,8 @@
                                             "type": "Literal",
                                             "start": 560,
                                             "end": 574,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -517,7 +533,8 @@
                                         "type": "Literal",
                                         "start": 577,
                                         "end": 590,
-                                        "value": "]===mycars["
+                                        "value": "]===mycars[",
+                                        "raw": "']===mycars['"
                                       }
                                     },
                                     "operator": "+",
@@ -533,7 +550,8 @@
                                     "type": "Literal",
                                     "start": 593,
                                     "end": 617,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -549,7 +567,8 @@
                                 "type": "Literal",
                                 "start": 620,
                                 "end": 626,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",
@@ -673,7 +692,8 @@
                       "type": "Literal",
                       "start": 716,
                       "end": 717,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -694,7 +714,8 @@
                   "type": "Literal",
                   "start": 720,
                   "end": 721,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "update": {
@@ -818,7 +839,8 @@
                                               "type": "Literal",
                                               "start": 777,
                                               "end": 782,
-                                              "value": "#2."
+                                              "value": "#2.",
+                                              "raw": "'#2.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -833,7 +855,8 @@
                                             "type": "Literal",
                                             "start": 785,
                                             "end": 799,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -849,7 +872,8 @@
                                         "type": "Literal",
                                         "start": 802,
                                         "end": 815,
-                                        "value": "]===mycars["
+                                        "value": "]===mycars[",
+                                        "raw": "']===mycars['"
                                       }
                                     },
                                     "operator": "+",
@@ -865,7 +889,8 @@
                                     "type": "Literal",
                                     "start": 818,
                                     "end": 842,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -881,7 +906,8 @@
                                 "type": "Literal",
                                 "start": 845,
                                 "end": 851,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",
@@ -936,7 +962,8 @@
                       "type": "Literal",
                       "start": 878,
                       "end": 879,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   }
                 ],
@@ -957,7 +984,8 @@
                   "type": "Literal",
                   "start": 882,
                   "end": 883,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 }
               },
               "update": {
@@ -1031,7 +1059,8 @@
                             "type": "Literal",
                             "start": 915,
                             "end": 916,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         },
                         "computed": true,
@@ -1093,7 +1122,8 @@
                                               "type": "Literal",
                                               "start": 942,
                                               "end": 947,
-                                              "value": "#2."
+                                              "value": "#2.",
+                                              "raw": "'#2.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -1108,7 +1138,8 @@
                                             "type": "Literal",
                                             "start": 950,
                                             "end": 964,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -1124,7 +1155,8 @@
                                         "type": "Literal",
                                         "start": 967,
                                         "end": 981,
-                                        "value": "]===mycars2["
+                                        "value": "]===mycars2[",
+                                        "raw": "']===mycars2['"
                                       }
                                     },
                                     "operator": "+",
@@ -1140,7 +1172,8 @@
                                     "type": "Literal",
                                     "start": 984,
                                     "end": 1008,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -1156,7 +1189,8 @@
                                 "type": "Literal",
                                 "start": 1011,
                                 "end": 1017,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",
@@ -1221,19 +1255,22 @@
                   "type": "Literal",
                   "start": 1068,
                   "end": 1078,
-                  "value": "Mercedes"
+                  "value": "Mercedes",
+                  "raw": "\"Mercedes\""
                 },
                 {
                   "type": "Literal",
                   "start": 1079,
                   "end": 1085,
-                  "value": "Jeep"
+                  "value": "Jeep",
+                  "raw": "\"Jeep\""
                 },
                 {
                   "type": "Literal",
                   "start": 1086,
                   "end": 1094,
-                  "value": "Suzuki"
+                  "value": "Suzuki",
+                  "raw": "\"Suzuki\""
                 }
               ]
             }
@@ -1278,7 +1315,8 @@
                       "type": "Literal",
                       "start": 1122,
                       "end": 1123,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -1299,7 +1337,8 @@
                   "type": "Literal",
                   "start": 1126,
                   "end": 1127,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "update": {
@@ -1423,7 +1462,8 @@
                                               "type": "Literal",
                                               "start": 1184,
                                               "end": 1189,
-                                              "value": "#3."
+                                              "value": "#3.",
+                                              "raw": "'#3.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -1438,7 +1478,8 @@
                                             "type": "Literal",
                                             "start": 1192,
                                             "end": 1206,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -1454,7 +1495,8 @@
                                         "type": "Literal",
                                         "start": 1209,
                                         "end": 1223,
-                                        "value": "]===mycars2["
+                                        "value": "]===mycars2[",
+                                        "raw": "']===mycars2['"
                                       }
                                     },
                                     "operator": "+",
@@ -1470,7 +1512,8 @@
                                     "type": "Literal",
                                     "start": 1226,
                                     "end": 1250,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -1486,7 +1529,8 @@
                                 "type": "Literal",
                                 "start": 1253,
                                 "end": 1259,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",
@@ -1575,19 +1619,22 @@
                       "type": "Literal",
                       "start": 1323,
                       "end": 1333,
-                      "value": "Mercedes"
+                      "value": "Mercedes",
+                      "raw": "\"Mercedes\""
                     },
                     {
                       "type": "Literal",
                       "start": 1334,
                       "end": 1340,
-                      "value": "Jeep"
+                      "value": "Jeep",
+                      "raw": "\"Jeep\""
                     },
                     {
                       "type": "Literal",
                       "start": 1341,
                       "end": 1349,
-                      "value": "Suzuki"
+                      "value": "Suzuki",
+                      "raw": "\"Suzuki\""
                     }
                   ]
                 }
@@ -1635,7 +1682,8 @@
                       "type": "Literal",
                       "start": 1378,
                       "end": 1379,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -1656,7 +1704,8 @@
                   "type": "Literal",
                   "start": 1382,
                   "end": 1383,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "update": {
@@ -1780,7 +1829,8 @@
                                               "type": "Literal",
                                               "start": 1439,
                                               "end": 1444,
-                                              "value": "#4."
+                                              "value": "#4.",
+                                              "raw": "'#4.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -1795,7 +1845,8 @@
                                             "type": "Literal",
                                             "start": 1447,
                                             "end": 1461,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -1811,7 +1862,8 @@
                                         "type": "Literal",
                                         "start": 1464,
                                         "end": 1477,
-                                        "value": "]===mycars["
+                                        "value": "]===mycars[",
+                                        "raw": "']===mycars['"
                                       }
                                     },
                                     "operator": "+",
@@ -1827,7 +1879,8 @@
                                     "type": "Literal",
                                     "start": 1480,
                                     "end": 1504,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -1843,7 +1896,8 @@
                                 "type": "Literal",
                                 "start": 1507,
                                 "end": 1513,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",
@@ -1898,7 +1952,8 @@
                       "type": "Literal",
                       "start": 1540,
                       "end": 1541,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   }
                 ],
@@ -1919,7 +1974,8 @@
                   "type": "Literal",
                   "start": 1544,
                   "end": 1545,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 }
               },
               "update": {
@@ -1993,7 +2049,8 @@
                             "type": "Literal",
                             "start": 1577,
                             "end": 1578,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         },
                         "computed": true,
@@ -2055,7 +2112,8 @@
                                               "type": "Literal",
                                               "start": 1604,
                                               "end": 1609,
-                                              "value": "#4."
+                                              "value": "#4.",
+                                              "raw": "'#4.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -2070,7 +2128,8 @@
                                             "type": "Literal",
                                             "start": 1612,
                                             "end": 1626,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -2086,7 +2145,8 @@
                                         "type": "Literal",
                                         "start": 1629,
                                         "end": 1643,
-                                        "value": "]===mycars2["
+                                        "value": "]===mycars2[",
+                                        "raw": "']===mycars2['"
                                       }
                                     },
                                     "operator": "+",
@@ -2109,7 +2169,8 @@
                                           "type": "Literal",
                                           "start": 1647,
                                           "end": 1648,
-                                          "value": 3
+                                          "value": 3,
+                                          "raw": "3"
                                         }
                                       }
                                     }
@@ -2119,7 +2180,8 @@
                                     "type": "Literal",
                                     "start": 1650,
                                     "end": 1674,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -2135,7 +2197,8 @@
                                 "type": "Literal",
                                 "start": 1677,
                                 "end": 1683,
-                                "value": "]==="
+                                "value": "]===",
+                                "raw": "']==='"
                               }
                             },
                             "operator": "+",

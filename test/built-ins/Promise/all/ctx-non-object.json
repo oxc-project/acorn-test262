@@ -208,7 +208,8 @@
                         "type": "Literal",
                         "start": 487,
                         "end": 491,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ArrayExpression",
@@ -320,7 +321,8 @@
                         "type": "Literal",
                         "start": 560,
                         "end": 562,
-                        "value": 86
+                        "value": 86,
+                        "raw": "86"
                       },
                       {
                         "type": "ArrayExpression",
@@ -432,7 +434,8 @@
                         "type": "Literal",
                         "start": 631,
                         "end": 639,
-                        "value": "string"
+                        "value": "string",
+                        "raw": "'string'"
                       },
                       {
                         "type": "ArrayExpression",
@@ -544,7 +547,8 @@
                         "type": "Literal",
                         "start": 708,
                         "end": 712,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "ArrayExpression",

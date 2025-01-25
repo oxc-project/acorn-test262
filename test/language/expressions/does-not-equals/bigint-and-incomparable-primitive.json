@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 555,
               "end": 557,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!=",
             "right": {
@@ -53,13 +54,15 @@
             "type": "Literal",
             "start": 572,
             "end": 576,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 619,
-            "value": "The result of (0n != undefined) is true"
+            "value": "The result of (0n != undefined) is true",
+            "raw": "'The result of (0n != undefined) is true'"
           }
         ],
         "optional": false
@@ -108,20 +111,23 @@
               "type": "Literal",
               "start": 652,
               "end": 654,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 660,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 703,
-            "value": "The result of (undefined != 0n) is true"
+            "value": "The result of (undefined != 0n) is true",
+            "raw": "'The result of (undefined != 0n) is true'"
           }
         ],
         "optional": false
@@ -163,7 +169,8 @@
               "type": "Literal",
               "start": 723,
               "end": 725,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!=",
             "right": {
@@ -177,13 +184,15 @@
             "type": "Literal",
             "start": 740,
             "end": 744,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 746,
             "end": 787,
-            "value": "The result of (1n != undefined) is true"
+            "value": "The result of (1n != undefined) is true",
+            "raw": "'The result of (1n != undefined) is true'"
           }
         ],
         "optional": false
@@ -232,20 +241,23 @@
               "type": "Literal",
               "start": 820,
               "end": 822,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 824,
             "end": 828,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 830,
             "end": 871,
-            "value": "The result of (undefined != 1n) is true"
+            "value": "The result of (undefined != 1n) is true",
+            "raw": "'The result of (undefined != 1n) is true'"
           }
         ],
         "optional": false
@@ -287,27 +299,31 @@
               "type": "Literal",
               "start": 891,
               "end": 893,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!=",
             "right": {
               "type": "Literal",
               "start": 897,
               "end": 901,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 903,
             "end": 907,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 945,
-            "value": "The result of (0n != null) is true"
+            "value": "The result of (0n != null) is true",
+            "raw": "'The result of (0n != null) is true'"
           }
         ],
         "optional": false
@@ -349,27 +365,31 @@
               "type": "Literal",
               "start": 965,
               "end": 969,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             "operator": "!=",
             "right": {
               "type": "Literal",
               "start": 973,
               "end": 975,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 981,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1019,
-            "value": "The result of (null != 0n) is true"
+            "value": "The result of (null != 0n) is true",
+            "raw": "'The result of (null != 0n) is true'"
           }
         ],
         "optional": false
@@ -411,27 +431,31 @@
               "type": "Literal",
               "start": 1039,
               "end": 1041,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!=",
             "right": {
               "type": "Literal",
               "start": 1045,
               "end": 1049,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1055,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1057,
             "end": 1093,
-            "value": "The result of (1n != null) is true"
+            "value": "The result of (1n != null) is true",
+            "raw": "'The result of (1n != null) is true'"
           }
         ],
         "optional": false
@@ -473,27 +497,31 @@
               "type": "Literal",
               "start": 1113,
               "end": 1117,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             "operator": "!=",
             "right": {
               "type": "Literal",
               "start": 1121,
               "end": 1123,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1129,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1131,
             "end": 1167,
-            "value": "The result of (null != 1n) is true"
+            "value": "The result of (null != 1n) is true",
+            "raw": "'The result of (null != 1n) is true'"
           }
         ],
         "optional": false
@@ -535,7 +563,8 @@
               "type": "Literal",
               "start": 1187,
               "end": 1189,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!=",
             "right": {
@@ -553,7 +582,8 @@
                   "type": "Literal",
                   "start": 1200,
                   "end": 1203,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "'1'"
                 }
               ],
               "optional": false
@@ -563,13 +593,15 @@
             "type": "Literal",
             "start": 1206,
             "end": 1210,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1212,
             "end": 1255,
-            "value": "The result of (0n != Symbol(\"1\")) is true"
+            "value": "The result of (0n != Symbol(\"1\")) is true",
+            "raw": "'The result of (0n != Symbol(\"1\")) is true'"
           }
         ],
         "optional": false
@@ -622,7 +654,8 @@
                   "type": "Literal",
                   "start": 1282,
                   "end": 1285,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "'1'"
                 }
               ],
               "optional": false
@@ -632,20 +665,23 @@
               "type": "Literal",
               "start": 1290,
               "end": 1292,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1294,
             "end": 1298,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1300,
             "end": 1343,
-            "value": "The result of (Symbol(\"1\") != 0n) is true"
+            "value": "The result of (Symbol(\"1\") != 0n) is true",
+            "raw": "'The result of (Symbol(\"1\") != 0n) is true'"
           }
         ],
         "optional": false
@@ -687,7 +723,8 @@
               "type": "Literal",
               "start": 1363,
               "end": 1365,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!=",
             "right": {
@@ -705,7 +742,8 @@
                   "type": "Literal",
                   "start": 1376,
                   "end": 1379,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "'1'"
                 }
               ],
               "optional": false
@@ -715,13 +753,15 @@
             "type": "Literal",
             "start": 1382,
             "end": 1386,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1388,
             "end": 1431,
-            "value": "The result of (1n != Symbol(\"1\")) is true"
+            "value": "The result of (1n != Symbol(\"1\")) is true",
+            "raw": "'The result of (1n != Symbol(\"1\")) is true'"
           }
         ],
         "optional": false
@@ -774,7 +814,8 @@
                   "type": "Literal",
                   "start": 1458,
                   "end": 1461,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "'1'"
                 }
               ],
               "optional": false
@@ -784,20 +825,23 @@
               "type": "Literal",
               "start": 1466,
               "end": 1468,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1470,
             "end": 1474,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1476,
             "end": 1519,
-            "value": "The result of (Symbol(\"1\") != 1n) is true"
+            "value": "The result of (Symbol(\"1\") != 1n) is true",
+            "raw": "'The result of (Symbol(\"1\") != 1n) is true'"
           }
         ],
         "optional": false

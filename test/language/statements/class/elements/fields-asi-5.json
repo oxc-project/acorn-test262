@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 327,
             "end": 328,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 338,
             "end": 339,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -77,7 +79,8 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 352,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             ]
           }
@@ -248,13 +251,15 @@
             "type": "Literal",
             "start": 443,
             "end": 447,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 461,
-            "value": "a = x in z"
+            "value": "a = x in z",
+            "raw": "'a = x in z'"
           }
         ],
         "optional": false
@@ -311,13 +316,15 @@
             "type": "Literal",
             "start": 486,
             "end": 491,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 505,
-            "value": "b = y in z"
+            "value": "b = y in z",
+            "raw": "'b = y in z'"
           }
         ],
         "optional": false
@@ -404,7 +411,8 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 560,
-                  "value": "in"
+                  "value": "in",
+                  "raw": "\"in\""
                 }
               ],
               "optional": false
@@ -414,7 +422,8 @@
             "type": "Literal",
             "start": 563,
             "end": 606,
-            "value": "'in' is not parsed as a field declaration"
+            "value": "'in' is not parsed as a field declaration",
+            "raw": "\"'in' is not parsed as a field declaration\""
           }
         ],
         "optional": false
@@ -501,7 +510,8 @@
                   "type": "Literal",
                   "start": 657,
                   "end": 660,
-                  "value": "z"
+                  "value": "z",
+                  "raw": "\"z\""
                 }
               ],
               "optional": false
@@ -511,7 +521,8 @@
             "type": "Literal",
             "start": 663,
             "end": 705,
-            "value": "'z' is not parsed as a field declaration"
+            "value": "'z' is not parsed as a field declaration",
+            "raw": "\"'z' is not parsed as a field declaration\""
           }
         ],
         "optional": false

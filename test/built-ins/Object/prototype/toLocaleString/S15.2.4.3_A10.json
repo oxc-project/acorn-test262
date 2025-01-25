@@ -84,7 +84,8 @@
                     "type": "Literal",
                     "start": 450,
                     "end": 458,
-                    "value": "length"
+                    "value": "length",
+                    "raw": "'length'"
                   }
                 ],
                 "optional": false
@@ -95,7 +96,8 @@
             "type": "Literal",
             "start": 463,
             "end": 559,
-            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true"
+            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
           }
         ],
         "optional": false
@@ -216,13 +218,15 @@
             "type": "Literal",
             "start": 666,
             "end": 674,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 680,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -246,7 +250,8 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 713,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -339,7 +344,8 @@
             "type": "Literal",
             "start": 789,
             "end": 880,
-            "value": "The value of Object.prototype.toLocaleString.length is expected to equal the value of obj"
+            "value": "The value of Object.prototype.toLocaleString.length is expected to equal the value of obj",
+            "raw": "'The value of Object.prototype.toLocaleString.length is expected to equal the value of obj'"
           }
         ],
         "optional": false

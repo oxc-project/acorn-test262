@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 495,
             "end": 496,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -39,7 +40,8 @@
             "type": "Literal",
             "start": 500,
             "end": 501,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -101,7 +103,8 @@
               "type": "Literal",
               "start": 610,
               "end": 611,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         },
@@ -125,7 +128,8 @@
               "type": "Literal",
               "start": 618,
               "end": 619,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -154,7 +158,8 @@
                   "type": "Literal",
                   "start": 648,
                   "end": 720,
-                  "value": "#1: Check Postfix Increment Operator for automatic semicolon insertion"
+                  "value": "#1: Check Postfix Increment Operator for automatic semicolon insertion",
+                  "raw": "'#1: Check Postfix Increment Operator for automatic semicolon insertion'"
                 }
               ]
             }
@@ -219,7 +224,8 @@
               "type": "Literal",
               "start": 913,
               "end": 914,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         },
@@ -243,7 +249,8 @@
               "type": "Literal",
               "start": 921,
               "end": 922,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         }
@@ -272,7 +279,8 @@
                   "type": "Literal",
                   "start": 951,
                   "end": 1023,
-                  "value": "#2: Check Postfix Increment Operator for automatic semicolon insertion"
+                  "value": "#2: Check Postfix Increment Operator for automatic semicolon insertion",
+                  "raw": "'#2: Check Postfix Increment Operator for automatic semicolon insertion'"
                 }
               ]
             }

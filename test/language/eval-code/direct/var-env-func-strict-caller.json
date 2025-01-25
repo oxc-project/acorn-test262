@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 389,
-                  "value": "function fun(x){ return x }"
+                  "value": "function fun(x){ return x }",
+                  "raw": "\"function fun(x){ return x }\""
                 }
               ],
               "optional": false
@@ -97,7 +98,8 @@
                   "type": "Literal",
                   "start": 431,
                   "end": 442,
-                  "value": "undefined"
+                  "value": "undefined",
+                  "raw": "\"undefined\""
                 }
               ],
               "optional": false

@@ -169,7 +169,8 @@
             "type": "Literal",
             "start": 456,
             "end": 549,
-            "value": "Prototype of object constructed by Intl.DateTimeFormat isn't Intl.DateTimeFormat.prototype."
+            "value": "Prototype of object constructed by Intl.DateTimeFormat isn't Intl.DateTimeFormat.prototype.",
+            "raw": "\"Prototype of object constructed by Intl.DateTimeFormat isn't Intl.DateTimeFormat.prototype.\""
           }
         ],
         "optional": false
@@ -227,7 +228,8 @@
             "type": "Literal",
             "start": 586,
             "end": 649,
-            "value": "Object constructed by Intl.DateTimeFormat must be extensible."
+            "value": "Object constructed by Intl.DateTimeFormat must be extensible.",
+            "raw": "\"Object constructed by Intl.DateTimeFormat must be extensible.\""
           }
         ],
         "optional": false

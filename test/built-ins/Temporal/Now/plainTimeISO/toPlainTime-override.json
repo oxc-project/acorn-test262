@@ -117,7 +117,8 @@
             "type": "Literal",
             "start": 387,
             "end": 400,
-            "value": "toPlainTime"
+            "value": "toPlainTime",
+            "raw": "\"toPlainTime\""
           },
           {
             "type": "ObjectExpression",
@@ -184,7 +185,8 @@
                               "type": "Literal",
                               "start": 430,
                               "end": 480,
-                              "value": "get Temporal.PlainDateTime.prototype.toPlainTime"
+                              "value": "get Temporal.PlainDateTime.prototype.toPlainTime",
+                              "raw": "\"get Temporal.PlainDateTime.prototype.toPlainTime\""
                             }
                           ],
                           "optional": false
@@ -240,7 +242,8 @@
                                       "type": "Literal",
                                       "start": 525,
                                       "end": 576,
-                                      "value": "call Temporal.PlainDateTime.prototype.toPlainTime"
+                                      "value": "call Temporal.PlainDateTime.prototype.toPlainTime",
+                                      "raw": "\"call Temporal.PlainDateTime.prototype.toPlainTime\""
                                     }
                                   ],
                                   "optional": false
@@ -316,7 +319,8 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 642,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ],
             "optional": false
@@ -388,7 +392,8 @@
             "type": "Literal",
             "start": 700,
             "end": 704,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

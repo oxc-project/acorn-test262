@@ -98,7 +98,8 @@
                       "type": "Literal",
                       "start": 950,
                       "end": 954,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   }
                 }
@@ -213,7 +214,8 @@
                         "type": "Literal",
                         "start": 1021,
                         "end": 1025,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }
@@ -306,7 +308,8 @@
             "type": "Literal",
             "start": 1089,
             "end": 1099,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -375,7 +378,8 @@
             "type": "Literal",
             "start": 1147,
             "end": 1151,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -458,7 +462,8 @@
             "type": "Literal",
             "start": 1200,
             "end": 1221,
-            "value": "inner binding value"
+            "value": "inner binding value",
+            "raw": "'inner binding value'"
           }
         ],
         "optional": false
@@ -534,7 +539,8 @@
             "type": "Literal",
             "start": 1274,
             "end": 1310,
-            "value": "inner binding rejects modification"
+            "value": "inner binding rejects modification",
+            "raw": "'inner binding rejects modification'"
           }
         ],
         "optional": false
@@ -618,13 +624,15 @@
             "type": "Literal",
             "start": 1364,
             "end": 1374,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1376,
             "end": 1404,
-            "value": "inner binding is immutable"
+            "value": "inner binding is immutable",
+            "raw": "'inner binding is immutable'"
           }
         ],
         "optional": false

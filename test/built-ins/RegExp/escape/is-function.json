@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 339,
             "end": 349,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 380,
-            "value": "RegExp.escape is a function"
+            "value": "RegExp.escape is a function",
+            "raw": "'RegExp.escape is a function'"
           }
         ],
         "optional": false

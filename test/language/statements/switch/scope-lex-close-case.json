@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 800,
             "end": 809,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -68,7 +69,8 @@
         "type": "Literal",
         "start": 840,
         "end": 844,
-        "value": null
+        "value": null,
+        "raw": "null"
       },
       "cases": [
         {
@@ -95,7 +97,8 @@
                     "type": "Literal",
                     "start": 873,
                     "end": 881,
-                    "value": "inside"
+                    "value": "inside",
+                    "raw": "'inside'"
                   }
                 }
               ],
@@ -151,7 +154,8 @@
             "type": "Literal",
             "start": 855,
             "end": 859,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         },
         {
@@ -209,7 +213,8 @@
             "type": "Literal",
             "start": 929,
             "end": 933,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ]
@@ -259,13 +264,15 @@
             "type": "Literal",
             "start": 1004,
             "end": 1012,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1040,
-            "value": "from first `case` clause"
+            "value": "from first `case` clause",
+            "raw": "'from first `case` clause'"
           }
         ],
         "optional": false
@@ -316,13 +323,15 @@
             "type": "Literal",
             "start": 1070,
             "end": 1078,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1107,
-            "value": "from second `case` clause"
+            "value": "from second `case` clause",
+            "raw": "'from second `case` clause'"
           }
         ],
         "optional": false
@@ -366,7 +375,8 @@
             "type": "Literal",
             "start": 1130,
             "end": 1139,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false

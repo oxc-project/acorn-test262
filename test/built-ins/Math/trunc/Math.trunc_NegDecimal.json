@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 287,
                   "end": 289,
-                  "value": 0.9
+                  "value": 0.9,
+                  "raw": ".9"
                 }
               }
             ],
@@ -81,14 +82,16 @@
               "type": "Literal",
               "start": 293,
               "end": 294,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
             "type": "Literal",
             "start": 296,
             "end": 313,
-            "value": "Math.trunc(-.9)"
+            "value": "Math.trunc(-.9)",
+            "raw": "'Math.trunc(-.9)'"
           }
         ],
         "optional": false

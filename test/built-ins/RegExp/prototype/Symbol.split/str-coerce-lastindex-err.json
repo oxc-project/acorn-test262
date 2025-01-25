@@ -475,7 +475,8 @@
                         "type": "Literal",
                         "start": 1006,
                         "end": 1012,
-                        "value": "abcd"
+                        "value": "abcd",
+                        "raw": "'abcd'"
                       }
                     ],
                     "optional": false
@@ -686,7 +687,8 @@
                         "type": "Literal",
                         "start": 1176,
                         "end": 1182,
-                        "value": "abcd"
+                        "value": "abcd",
+                        "raw": "'abcd'"
                       }
                     ],
                     "optional": false

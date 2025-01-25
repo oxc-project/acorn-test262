@@ -1,25 +1,25 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 520,
+  "end": 517,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 482,
-      "end": 505,
+      "start": 479,
+      "end": 502,
       "left": {
         "type": "VariableDeclaration",
-        "start": 487,
-        "end": 492,
+        "start": 484,
+        "end": 489,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 491,
-            "end": 492,
+            "start": 488,
+            "end": 489,
             "id": {
               "type": "Identifier",
-              "start": 491,
-              "end": 492,
+              "start": 488,
+              "end": 489,
               "name": "x"
             },
             "init": null
@@ -29,42 +29,44 @@
       },
       "right": {
         "type": "Literal",
-        "start": 496,
-        "end": 500,
-        "value": null
+        "start": 493,
+        "end": 497,
+        "value": null,
+        "raw": "null"
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 502,
-        "end": 505,
+        "start": 499,
+        "end": 502,
         "expression": {
           "type": "Identifier",
-          "start": 502,
-          "end": 505,
+          "start": 499,
+          "end": 502,
           "name": "let"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 513,
-      "end": 519,
+      "start": 510,
+      "end": 516,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 513,
-        "end": 518,
+        "start": 510,
+        "end": 515,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 513,
-          "end": 514,
+          "start": 510,
+          "end": 511,
           "name": "x"
         },
         "right": {
           "type": "Literal",
-          "start": 517,
-          "end": 518,
-          "value": 1
+          "start": 514,
+          "end": 515,
+          "value": 1,
+          "raw": "1"
         }
       }
     }

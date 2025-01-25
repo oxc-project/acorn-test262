@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 406,
             "end": 410,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 429,
             "end": 434,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -163,7 +165,8 @@
               "type": "Literal",
               "start": 522,
               "end": 526,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -250,7 +253,8 @@
                       "type": "Literal",
                       "start": 599,
                       "end": 603,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -311,7 +315,8 @@
             "type": "Literal",
             "start": 655,
             "end": 697,
-            "value": "Template object defines a `raw` property"
+            "value": "Template object defines a `raw` property",
+            "raw": "'Template object defines a `raw` property'"
           }
         ],
         "optional": false
@@ -410,7 +415,8 @@
                       "type": "Literal",
                       "start": 775,
                       "end": 779,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }

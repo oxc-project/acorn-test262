@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 327,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -116,7 +117,8 @@
             "type": "Literal",
             "start": 348,
             "end": 409,
-            "value": "Array.prototype.flatMap.call(true, () => {}) must return []"
+            "value": "Array.prototype.flatMap.call(true, () => {}) must return []",
+            "raw": "'Array.prototype.flatMap.call(true, () => {}) must return []'"
           }
         ],
         "optional": false
@@ -204,7 +206,8 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 470,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 491,
             "end": 553,
-            "value": "Array.prototype.flatMap.call(false, () => {}) must return []"
+            "value": "Array.prototype.flatMap.call(false, () => {}) must return []",
+            "raw": "'Array.prototype.flatMap.call(false, () => {}) must return []'"
           }
         ],
         "optional": false

@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 347,
-                "value": "toExponential"
+                "value": "toExponential",
+                "raw": "\"toExponential\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 352,
             "end": 356,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 427,
-            "value": "Number.prototype.hasOwnProperty(\"toExponential\") must return true"
+            "value": "Number.prototype.hasOwnProperty(\"toExponential\") must return true",
+            "raw": "'Number.prototype.hasOwnProperty(\"toExponential\") must return true'"
           }
         ],
         "optional": false

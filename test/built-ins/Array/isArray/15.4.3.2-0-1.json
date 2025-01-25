@@ -86,13 +86,15 @@
             "type": "Literal",
             "start": 296,
             "end": 306,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 308,
             "end": 362,
-            "value": "The value of `typeof f` is expected to be \"function\""
+            "value": "The value of `typeof f` is expected to be \"function\"",
+            "raw": "'The value of `typeof f` is expected to be \"function\"'"
           }
         ],
         "optional": false

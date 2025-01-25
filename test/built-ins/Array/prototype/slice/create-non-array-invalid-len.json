@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 571,
             "end": 572,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 599,
                 "end": 600,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 602,
                 "end": 604,
-                "value": 32
+                "value": 32,
+                "raw": "32"
               }
             ],
             "optional": false
@@ -135,7 +138,8 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 651,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               },
               {
                 "type": "ObjectExpression",
@@ -231,7 +235,8 @@
                                 "type": "Literal",
                                 "start": 739,
                                 "end": 740,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -406,13 +411,15 @@
             "type": "Literal",
             "start": 863,
             "end": 864,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 868,
             "end": 936,
-            "value": "RangeError thrown during array creation, not property modification"
+            "value": "RangeError thrown during array creation, not property modification",
+            "raw": "'RangeError thrown during array creation, not property modification'"
           }
         ],
         "optional": false

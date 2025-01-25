@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1799,
             "end": 1800,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1819,
             "end": 1820,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -153,7 +155,8 @@
                                   "type": "Literal",
                                   "start": 1874,
                                   "end": 1875,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 }
                               }
                             }
@@ -180,7 +183,8 @@
                         "type": "Literal",
                         "start": 1886,
                         "end": 1888,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       }
                     ]
                   }
@@ -231,7 +235,8 @@
                       "type": "Literal",
                       "start": 1924,
                       "end": 1925,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ],
                   "optional": false
@@ -267,7 +272,8 @@
                       "type": "Literal",
                       "start": 1954,
                       "end": 1955,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -333,13 +339,15 @@
             "type": "Literal",
             "start": 1994,
             "end": 1995,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1997,
             "end": 2028,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

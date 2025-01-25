@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 614,
             "end": 677,
-            "value": "Object.getPrototypeOf(Map.prototype) returns Object.prototype"
+            "value": "Object.getPrototypeOf(Map.prototype) returns Object.prototype",
+            "raw": "'Object.getPrototypeOf(Map.prototype) returns Object.prototype'"
           }
         ],
         "optional": false

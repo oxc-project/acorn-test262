@@ -79,7 +79,8 @@
             "type": "Literal",
             "start": 451,
             "end": 452,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -151,7 +152,8 @@
                             "type": "Literal",
                             "start": 512,
                             "end": 513,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -217,7 +219,8 @@
                               "type": "Literal",
                               "start": 588,
                               "end": 606,
-                              "value": "valueOf() called"
+                              "value": "valueOf() called",
+                              "raw": "\"valueOf() called\""
                             }
                           ]
                         }
@@ -265,7 +268,8 @@
           "type": "Literal",
           "start": 627,
           "end": 628,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -340,13 +344,15 @@
             "type": "Literal",
             "start": 682,
             "end": 686,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 733,
-            "value": "Returns true if symbol own property found"
+            "value": "Returns true if symbol own property found",
+            "raw": "\"Returns true if symbol own property found\""
           }
         ],
         "optional": false
@@ -390,13 +396,15 @@
             "type": "Literal",
             "start": 766,
             "end": 767,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 806,
-            "value": "toString method called exactly once"
+            "value": "toString method called exactly once",
+            "raw": "\"toString method called exactly once\""
           }
         ],
         "optional": false

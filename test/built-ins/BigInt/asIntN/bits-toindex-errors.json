@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 402,
             "end": 412,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -112,7 +113,8 @@
             "type": "Literal",
             "start": 454,
             "end": 464,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -204,14 +206,16 @@
                           "type": "Literal",
                           "start": 524,
                           "end": 525,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 527,
                         "end": 529,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -224,7 +228,8 @@
             "type": "Literal",
             "start": 535,
             "end": 573,
-            "value": "ToIndex: throw when integerIndex < 0"
+            "value": "ToIndex: throw when integerIndex < 0",
+            "raw": "\"ToIndex: throw when integerIndex < 0\""
           }
         ],
         "optional": false
@@ -316,14 +321,16 @@
                           "type": "Literal",
                           "start": 632,
                           "end": 635,
-                          "value": 2.5
+                          "value": 2.5,
+                          "raw": "2.5"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 637,
                         "end": 639,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -336,7 +343,8 @@
             "type": "Literal",
             "start": 645,
             "end": 683,
-            "value": "ToIndex: throw when integerIndex < 0"
+            "value": "ToIndex: throw when integerIndex < 0",
+            "raw": "\"ToIndex: throw when integerIndex < 0\""
           }
         ],
         "optional": false
@@ -422,13 +430,15 @@
                         "type": "Literal",
                         "start": 741,
                         "end": 747,
-                        "value": "-2.5"
+                        "value": "-2.5",
+                        "raw": "\"-2.5\""
                       },
                       {
                         "type": "Literal",
                         "start": 749,
                         "end": 751,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -441,7 +451,8 @@
             "type": "Literal",
             "start": 757,
             "end": 811,
-            "value": "ToIndex: parse Number => throw when integerIndex < 0"
+            "value": "ToIndex: parse Number => throw when integerIndex < 0",
+            "raw": "\"ToIndex: parse Number => throw when integerIndex < 0\""
           }
         ],
         "optional": false
@@ -540,7 +551,8 @@
                         "type": "Literal",
                         "start": 880,
                         "end": 882,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -553,7 +565,8 @@
             "type": "Literal",
             "start": 888,
             "end": 926,
-            "value": "ToIndex: throw when integerIndex < 0"
+            "value": "ToIndex: throw when integerIndex < 0",
+            "raw": "\"ToIndex: throw when integerIndex < 0\""
           }
         ],
         "optional": false
@@ -639,13 +652,15 @@
                         "type": "Literal",
                         "start": 984,
                         "end": 1000,
-                        "value": 9007199254740992
+                        "value": 9007199254740992,
+                        "raw": "9007199254740992"
                       },
                       {
                         "type": "Literal",
                         "start": 1002,
                         "end": 1004,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -658,7 +673,8 @@
             "type": "Literal",
             "start": 1010,
             "end": 1054,
-            "value": "ToIndex: throw when integerIndex > 2**53-1"
+            "value": "ToIndex: throw when integerIndex > 2**53-1",
+            "raw": "\"ToIndex: throw when integerIndex > 2**53-1\""
           }
         ],
         "optional": false
@@ -750,7 +766,8 @@
                         "type": "Literal",
                         "start": 1122,
                         "end": 1124,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -763,7 +780,8 @@
             "type": "Literal",
             "start": 1130,
             "end": 1174,
-            "value": "ToIndex: throw when integerIndex > 2**53-1"
+            "value": "ToIndex: throw when integerIndex > 2**53-1",
+            "raw": "\"ToIndex: throw when integerIndex > 2**53-1\""
           }
         ],
         "optional": false
@@ -849,13 +867,15 @@
                         "type": "Literal",
                         "start": 1231,
                         "end": 1233,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1235,
                         "end": 1237,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -868,7 +888,8 @@
             "type": "Literal",
             "start": 1243,
             "end": 1273,
-            "value": "ToIndex: BigInt => TypeError"
+            "value": "ToIndex: BigInt => TypeError",
+            "raw": "\"ToIndex: BigInt => TypeError\""
           }
         ],
         "optional": false
@@ -965,7 +986,8 @@
                             "type": "Literal",
                             "start": 1337,
                             "end": 1339,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           }
                         ],
                         "optional": false
@@ -974,7 +996,8 @@
                         "type": "Literal",
                         "start": 1342,
                         "end": 1344,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -987,7 +1010,8 @@
             "type": "Literal",
             "start": 1350,
             "end": 1415,
-            "value": "ToIndex: unbox object with internal slot => BigInt => TypeError"
+            "value": "ToIndex: unbox object with internal slot => BigInt => TypeError",
+            "raw": "\"ToIndex: unbox object with internal slot => BigInt => TypeError\""
           }
         ],
         "optional": false
@@ -1122,7 +1146,8 @@
                                       "type": "Literal",
                                       "start": 1526,
                                       "end": 1528,
-                                      "value": "0n"
+                                      "value": "0n",
+                                      "raw": "0n"
                                     }
                                   }
                                 ]
@@ -1136,7 +1161,8 @@
                         "type": "Literal",
                         "start": 1541,
                         "end": 1543,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1149,7 +1175,8 @@
             "type": "Literal",
             "start": 1549,
             "end": 1596,
-            "value": "ToIndex: @@toPrimitive => BigInt => TypeError"
+            "value": "ToIndex: @@toPrimitive => BigInt => TypeError",
+            "raw": "\"ToIndex: @@toPrimitive => BigInt => TypeError\""
           }
         ],
         "optional": false
@@ -1271,7 +1298,8 @@
                                       "type": "Literal",
                                       "start": 1694,
                                       "end": 1696,
-                                      "value": "0n"
+                                      "value": "0n",
+                                      "raw": "0n"
                                     }
                                   }
                                 ]
@@ -1285,7 +1313,8 @@
                         "type": "Literal",
                         "start": 1709,
                         "end": 1711,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1298,7 +1327,8 @@
             "type": "Literal",
             "start": 1717,
             "end": 1758,
-            "value": "ToIndex: valueOf => BigInt => TypeError"
+            "value": "ToIndex: valueOf => BigInt => TypeError",
+            "raw": "\"ToIndex: valueOf => BigInt => TypeError\""
           }
         ],
         "optional": false
@@ -1420,7 +1450,8 @@
                                       "type": "Literal",
                                       "start": 1857,
                                       "end": 1859,
-                                      "value": "0n"
+                                      "value": "0n",
+                                      "raw": "0n"
                                     }
                                   }
                                 ]
@@ -1434,7 +1465,8 @@
                         "type": "Literal",
                         "start": 1872,
                         "end": 1874,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1447,7 +1479,8 @@
             "type": "Literal",
             "start": 1880,
             "end": 1922,
-            "value": "ToIndex: toString => BigInt => TypeError"
+            "value": "ToIndex: toString => BigInt => TypeError",
+            "raw": "\"ToIndex: toString => BigInt => TypeError\""
           }
         ],
         "optional": false
@@ -1544,7 +1577,8 @@
                             "type": "Literal",
                             "start": 1986,
                             "end": 1989,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "\"1\""
                           }
                         ],
                         "optional": false
@@ -1553,7 +1587,8 @@
                         "type": "Literal",
                         "start": 1992,
                         "end": 1994,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1566,7 +1601,8 @@
             "type": "Literal",
             "start": 2000,
             "end": 2030,
-            "value": "ToIndex: Symbol => TypeError"
+            "value": "ToIndex: Symbol => TypeError",
+            "raw": "\"ToIndex: Symbol => TypeError\""
           }
         ],
         "optional": false
@@ -1674,7 +1710,8 @@
                                 "type": "Literal",
                                 "start": 2101,
                                 "end": 2104,
-                                "value": "1"
+                                "value": "1",
+                                "raw": "\"1\""
                               }
                             ],
                             "optional": false
@@ -1686,7 +1723,8 @@
                         "type": "Literal",
                         "start": 2108,
                         "end": 2110,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1699,7 +1737,8 @@
             "type": "Literal",
             "start": 2116,
             "end": 2181,
-            "value": "ToIndex: unbox object with internal slot => Symbol => TypeError"
+            "value": "ToIndex: unbox object with internal slot => Symbol => TypeError",
+            "raw": "\"ToIndex: unbox object with internal slot => Symbol => TypeError\""
           }
         ],
         "optional": false
@@ -1845,7 +1884,8 @@
                                           "type": "Literal",
                                           "start": 2299,
                                           "end": 2302,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "\"1\""
                                         }
                                       ],
                                       "optional": false
@@ -1862,7 +1902,8 @@
                         "type": "Literal",
                         "start": 2316,
                         "end": 2318,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -1875,7 +1916,8 @@
             "type": "Literal",
             "start": 2324,
             "end": 2371,
-            "value": "ToIndex: @@toPrimitive => Symbol => TypeError"
+            "value": "ToIndex: @@toPrimitive => Symbol => TypeError",
+            "raw": "\"ToIndex: @@toPrimitive => Symbol => TypeError\""
           }
         ],
         "optional": false
@@ -2008,7 +2050,8 @@
                                           "type": "Literal",
                                           "start": 2476,
                                           "end": 2479,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "\"1\""
                                         }
                                       ],
                                       "optional": false
@@ -2025,7 +2068,8 @@
                         "type": "Literal",
                         "start": 2493,
                         "end": 2495,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -2038,7 +2082,8 @@
             "type": "Literal",
             "start": 2501,
             "end": 2542,
-            "value": "ToIndex: valueOf => Symbol => TypeError"
+            "value": "ToIndex: valueOf => Symbol => TypeError",
+            "raw": "\"ToIndex: valueOf => Symbol => TypeError\""
           }
         ],
         "optional": false
@@ -2171,7 +2216,8 @@
                                           "type": "Literal",
                                           "start": 2648,
                                           "end": 2651,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "\"1\""
                                         }
                                       ],
                                       "optional": false
@@ -2188,7 +2234,8 @@
                         "type": "Literal",
                         "start": 2665,
                         "end": 2667,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -2201,7 +2248,8 @@
             "type": "Literal",
             "start": 2673,
             "end": 2715,
-            "value": "ToIndex: toString => Symbol => TypeError"
+            "value": "ToIndex: toString => Symbol => TypeError",
+            "raw": "\"ToIndex: toString => Symbol => TypeError\""
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 409,
             "end": 411,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       ],
@@ -78,13 +79,15 @@
             "type": "Literal",
             "start": 444,
             "end": 452,
-            "value": "string"
+            "value": "string",
+            "raw": "'string'"
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 509,
-            "value": "The value of `typeof(str)` is expected to be \"string\""
+            "value": "The value of `typeof(str)` is expected to be \"string\"",
+            "raw": "'The value of `typeof(str)` is expected to be \"string\"'"
           }
         ],
         "optional": false
@@ -186,7 +189,8 @@
             "type": "Literal",
             "start": 579,
             "end": 650,
-            "value": "The value of obj.constructor is expected to equal the value of String"
+            "value": "The value of obj.constructor is expected to equal the value of String",
+            "raw": "'The value of obj.constructor is expected to equal the value of String'"
           }
         ],
         "optional": false
@@ -237,13 +241,15 @@
             "type": "Literal",
             "start": 682,
             "end": 690,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 746,
-            "value": "The value of `typeof obj` is expected to be \"object\""
+            "value": "The value of `typeof obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -279,14 +285,16 @@
               "type": "Literal",
               "start": 763,
               "end": 765,
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             }
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 828,
-            "value": "The result of evaluating (obj == \"\") is expected to be true"
+            "value": "The result of evaluating (obj == \"\") is expected to be true",
+            "raw": "'The result of evaluating (obj == \"\") is expected to be true'"
           }
         ],
         "optional": false
@@ -330,13 +338,15 @@
             "type": "Literal",
             "start": 856,
             "end": 858,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 860,
             "end": 888,
-            "value": "The value of obj is not \"\""
+            "value": "The value of obj is not \"\"",
+            "raw": "'The value of obj is not \"\"'"
           }
         ],
         "optional": false

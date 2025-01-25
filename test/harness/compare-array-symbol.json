@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 277,
             "end": 282,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -105,7 +106,8 @@
                           "type": "Literal",
                           "start": 333,
                           "end": 339,
-                          "value": "desc"
+                          "value": "desc",
+                          "raw": "'desc'"
                         }
                       ],
                       "optional": false
@@ -152,7 +154,8 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 374,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -273,7 +276,8 @@
                           "type": "Literal",
                           "start": 457,
                           "end": 469,
-                          "value": "[Symbol()]"
+                          "value": "[Symbol()]",
+                          "raw": "'[Symbol()]'"
                         }
                       ],
                       "optional": false
@@ -289,7 +293,8 @@
                         "type": "Literal",
                         "start": 476,
                         "end": 477,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -357,7 +362,8 @@
                           "type": "Literal",
                           "start": 509,
                           "end": 525,
-                          "value": "[Symbol(desc)]"
+                          "value": "[Symbol(desc)]",
+                          "raw": "'[Symbol(desc)]'"
                         }
                       ],
                       "optional": false
@@ -373,7 +379,8 @@
                         "type": "Literal",
                         "start": 532,
                         "end": 533,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }

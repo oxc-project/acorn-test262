@@ -71,7 +71,8 @@
                     "type": "Literal",
                     "start": 479,
                     "end": 578,
-                    "value": "#1: VariableDeclaration in \"var VariableDeclarationListNoIn\" of for IterationStatement is allowed"
+                    "value": "#1: VariableDeclaration in \"var VariableDeclarationListNoIn\" of for IterationStatement is allowed",
+                    "raw": "'#1: VariableDeclaration in \"var VariableDeclarationListNoIn\" of for IterationStatement is allowed'"
                   }
                 ]
               }
@@ -104,7 +105,8 @@
               "type": "Literal",
               "start": 681,
               "end": 682,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -125,7 +127,8 @@
           "type": "Literal",
           "start": 690,
           "end": 691,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "update": {

@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 799,
+  "end": 795,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 551,
-      "end": 725,
+      "start": 547,
+      "end": 721,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 555,
-          "end": 724,
+          "start": 551,
+          "end": 720,
           "id": {
             "type": "Identifier",
-            "start": 555,
-            "end": 556,
+            "start": 551,
+            "end": 552,
             "name": "P"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 559,
-            "end": 724,
+            "start": 555,
+            "end": 720,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,35 +29,35 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 568,
-                "end": 576,
+                "start": 564,
+                "end": 572,
                 "name": "executor"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 578,
-              "end": 724,
+              "start": 574,
+              "end": 720,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 582,
-                  "end": 722,
+                  "start": 578,
+                  "end": 718,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 589,
-                    "end": 721,
+                    "start": 585,
+                    "end": 717,
                     "callee": {
                       "type": "Identifier",
-                      "start": 593,
-                      "end": 600,
+                      "start": 589,
+                      "end": 596,
                       "name": "Promise"
                     },
                     "arguments": [
                       {
                         "type": "FunctionExpression",
-                        "start": 601,
-                        "end": 720,
+                        "start": 597,
+                        "end": 716,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -65,28 +65,28 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 612,
-                          "end": 720,
+                          "start": 608,
+                          "end": 716,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 618,
-                              "end": 716,
+                              "start": 614,
+                              "end": 712,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 618,
-                                "end": 715,
+                                "start": 614,
+                                "end": 711,
                                 "callee": {
                                   "type": "Identifier",
-                                  "start": 618,
-                                  "end": 626,
+                                  "start": 614,
+                                  "end": 622,
                                   "name": "executor"
                                 },
                                 "arguments": [
                                   {
                                     "type": "FunctionExpression",
-                                    "start": 634,
-                                    "end": 688,
+                                    "start": 630,
+                                    "end": 684,
                                     "id": null,
                                     "expression": false,
                                     "generator": false,
@@ -94,21 +94,21 @@
                                     "params": [],
                                     "body": {
                                       "type": "BlockStatement",
-                                      "start": 645,
-                                      "end": 688,
+                                      "start": 641,
+                                      "end": 684,
                                       "body": [
                                         {
                                           "type": "ThrowStatement",
-                                          "start": 655,
-                                          "end": 680,
+                                          "start": 651,
+                                          "end": 676,
                                           "argument": {
                                             "type": "NewExpression",
-                                            "start": 661,
-                                            "end": 679,
+                                            "start": 657,
+                                            "end": 675,
                                             "callee": {
                                               "type": "Identifier",
-                                              "start": 665,
-                                              "end": 677,
+                                              "start": 661,
+                                              "end": 673,
                                               "name": "Test262Error"
                                             },
                                             "arguments": []
@@ -119,8 +119,8 @@
                                   },
                                   {
                                     "type": "FunctionExpression",
-                                    "start": 696,
-                                    "end": 709,
+                                    "start": 692,
+                                    "end": 705,
                                     "id": null,
                                     "expression": false,
                                     "generator": false,
@@ -128,8 +128,8 @@
                                     "params": [],
                                     "body": {
                                       "type": "BlockStatement",
-                                      "start": 707,
-                                      "end": 709,
+                                      "start": 703,
+                                      "end": 705,
                                       "body": []
                                     }
                                   }
@@ -152,26 +152,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 727,
-      "end": 798,
+      "start": 723,
+      "end": 794,
       "expression": {
         "type": "CallExpression",
-        "start": 727,
-        "end": 797,
+        "start": 723,
+        "end": 793,
         "callee": {
           "type": "MemberExpression",
-          "start": 727,
-          "end": 740,
+          "start": 723,
+          "end": 736,
           "object": {
             "type": "Identifier",
-            "start": 727,
-            "end": 733,
+            "start": 723,
+            "end": 729,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 734,
-            "end": 740,
+            "start": 730,
+            "end": 736,
             "name": "throws"
           },
           "computed": false,
@@ -180,14 +180,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 741,
-            "end": 753,
+            "start": 737,
+            "end": 749,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 755,
-            "end": 796,
+            "start": 751,
+            "end": 792,
             "id": null,
             "expression": false,
             "generator": false,
@@ -195,35 +195,35 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 766,
-              "end": 796,
+              "start": 762,
+              "end": 792,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 770,
-                  "end": 794,
+                  "start": 766,
+                  "end": 790,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 770,
-                    "end": 793,
+                    "start": 766,
+                    "end": 789,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 770,
-                      "end": 790,
+                      "start": 766,
+                      "end": 786,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 770,
-                        "end": 785,
+                        "start": 766,
+                        "end": 781,
                         "object": {
                           "type": "Identifier",
-                          "start": 770,
-                          "end": 777,
+                          "start": 766,
+                          "end": 773,
                           "name": "Promise"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 778,
-                          "end": 785,
+                          "start": 774,
+                          "end": 781,
                           "name": "resolve"
                         },
                         "computed": false,
@@ -231,8 +231,8 @@
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 786,
-                        "end": 790,
+                        "start": 782,
+                        "end": 786,
                         "name": "call"
                       },
                       "computed": false,
@@ -241,8 +241,8 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 791,
-                        "end": 792,
+                        "start": 787,
+                        "end": 788,
                         "name": "P"
                       }
                     ],

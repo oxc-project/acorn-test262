@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 746,
             "end": 750,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 790,
-            "value": "isConstructor(Date) must return true"
+            "value": "isConstructor(Date) must return true",
+            "raw": "'isConstructor(Date) must return true'"
           }
         ],
         "optional": false
@@ -86,7 +88,8 @@
             "type": "Literal",
             "start": 802,
             "end": 803,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ]
       }

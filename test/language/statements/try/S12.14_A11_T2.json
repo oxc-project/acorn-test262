@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 346,
             "end": 347,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -51,7 +52,8 @@
               "type": "Literal",
               "start": 359,
               "end": 360,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -72,7 +74,8 @@
           "type": "Literal",
           "start": 363,
           "end": 364,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "update": {
@@ -121,7 +124,8 @@
                       "type": "Literal",
                       "start": 385,
                       "end": 386,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -174,7 +178,8 @@
                       "type": "Literal",
                       "start": 440,
                       "end": 441,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -206,7 +211,8 @@
                   "type": "Literal",
                   "start": 454,
                   "end": 455,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -233,7 +239,8 @@
           "type": "Literal",
           "start": 468,
           "end": 469,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -260,7 +267,8 @@
                   "type": "Literal",
                   "start": 497,
                   "end": 582,
-                  "value": "#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction"
+                  "value": "#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction",
+                  "raw": "'#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction'"
                 }
               ]
             }
@@ -288,7 +296,8 @@
             "type": "Literal",
             "start": 606,
             "end": 607,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -305,7 +314,8 @@
             "type": "Literal",
             "start": 613,
             "end": 614,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -334,7 +344,8 @@
               "type": "Literal",
               "start": 626,
               "end": 627,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -355,7 +366,8 @@
           "type": "Literal",
           "start": 630,
           "end": 631,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "update": {
@@ -393,7 +405,8 @@
                     "type": "Literal",
                     "start": 655,
                     "end": 660,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 }
               ]
@@ -432,7 +445,8 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 689,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   },
@@ -469,7 +483,8 @@
                       "type": "Literal",
                       "start": 729,
                       "end": 730,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -501,7 +516,8 @@
                   "type": "Literal",
                   "start": 744,
                   "end": 745,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -528,7 +544,8 @@
           "type": "Literal",
           "start": 759,
           "end": 760,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -555,7 +572,8 @@
                   "type": "Literal",
                   "start": 788,
                   "end": 829,
-                  "value": "#2.1: \"finally\" block must be evaluated"
+                  "value": "#2.1: \"finally\" block must be evaluated",
+                  "raw": "'#2.1: \"finally\" block must be evaluated'"
                 }
               ]
             }
@@ -583,7 +601,8 @@
           "type": "Literal",
           "start": 842,
           "end": 843,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -610,7 +629,8 @@
                   "type": "Literal",
                   "start": 871,
                   "end": 928,
-                  "value": "#2.1: \"try catch{continue} finally\" must work correctly"
+                  "value": "#2.1: \"try catch{continue} finally\" must work correctly",
+                  "raw": "'#2.1: \"try catch{continue} finally\" must work correctly'"
                 }
               ]
             }
@@ -638,7 +658,8 @@
             "type": "Literal",
             "start": 952,
             "end": 953,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -655,7 +676,8 @@
             "type": "Literal",
             "start": 959,
             "end": 960,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -684,7 +706,8 @@
               "type": "Literal",
               "start": 972,
               "end": 973,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -705,7 +728,8 @@
           "type": "Literal",
           "start": 976,
           "end": 977,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "update": {
@@ -743,7 +767,8 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1006,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 }
               ]
@@ -782,7 +807,8 @@
                         "type": "Literal",
                         "start": 1034,
                         "end": 1035,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -813,7 +839,8 @@
                       "type": "Literal",
                       "start": 1061,
                       "end": 1062,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -845,7 +872,8 @@
                 "type": "Literal",
                 "start": 1089,
                 "end": 1090,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           }
@@ -871,7 +899,8 @@
           "type": "Literal",
           "start": 1104,
           "end": 1105,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -898,7 +927,8 @@
                   "type": "Literal",
                   "start": 1133,
                   "end": 1174,
-                  "value": "#3.1: \"finally\" block must be evaluated"
+                  "value": "#3.1: \"finally\" block must be evaluated",
+                  "raw": "'#3.1: \"finally\" block must be evaluated'"
                 }
               ]
             }
@@ -926,7 +956,8 @@
           "type": "Literal",
           "start": 1187,
           "end": 1188,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -953,7 +984,8 @@
                   "type": "Literal",
                   "start": 1216,
                   "end": 1273,
-                  "value": "#3.2: \"try catch finally{continue}\" must work correctly"
+                  "value": "#3.2: \"try catch finally{continue}\" must work correctly",
+                  "raw": "'#3.2: \"try catch finally{continue}\" must work correctly'"
                 }
               ]
             }
@@ -981,7 +1013,8 @@
             "type": "Literal",
             "start": 1298,
             "end": 1299,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -1010,7 +1043,8 @@
               "type": "Literal",
               "start": 1311,
               "end": 1312,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -1031,7 +1065,8 @@
           "type": "Literal",
           "start": 1315,
           "end": 1316,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "update": {
@@ -1080,7 +1115,8 @@
                       "type": "Literal",
                       "start": 1337,
                       "end": 1338,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -1117,7 +1153,8 @@
                       "type": "Literal",
                       "start": 1377,
                       "end": 1378,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -1149,7 +1186,8 @@
                   "type": "Literal",
                   "start": 1391,
                   "end": 1392,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -1181,7 +1219,8 @@
           "type": "Literal",
           "start": 1406,
           "end": 1407,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -1208,7 +1247,8 @@
                   "type": "Literal",
                   "start": 1435,
                   "end": 1514,
-                  "value": "#4: \"finally\" block must be evaluated at \"try{continue} finally\" construction"
+                  "value": "#4: \"finally\" block must be evaluated at \"try{continue} finally\" construction",
+                  "raw": "'#4: \"finally\" block must be evaluated at \"try{continue} finally\" construction'"
                 }
               ]
             }
@@ -1236,7 +1276,8 @@
             "type": "Literal",
             "start": 1538,
             "end": 1539,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -1265,7 +1306,8 @@
               "type": "Literal",
               "start": 1552,
               "end": 1553,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -1286,7 +1328,8 @@
           "type": "Literal",
           "start": 1557,
           "end": 1559,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "update": null,
@@ -1312,7 +1355,8 @@
                     "type": "Literal",
                     "start": 1580,
                     "end": 1585,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 }
               ]
@@ -1351,7 +1395,8 @@
                         "type": "Literal",
                         "start": 1613,
                         "end": 1614,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   },
@@ -1385,7 +1430,8 @@
                 "type": "Literal",
                 "start": 1640,
                 "end": 1642,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             }
           }
@@ -1416,7 +1462,8 @@
           "type": "Literal",
           "start": 1655,
           "end": 1657,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "consequent": {
@@ -1443,7 +1490,8 @@
                   "type": "Literal",
                   "start": 1685,
                   "end": 1731,
-                  "value": "#5: \"try catch{continue} must work correctly"
+                  "value": "#5: \"try catch{continue} must work correctly",
+                  "raw": "'#5: \"try catch{continue} must work correctly'"
                 }
               ]
             }
@@ -1471,7 +1519,8 @@
             "type": "Literal",
             "start": 1755,
             "end": 1756,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -1488,7 +1537,8 @@
             "type": "Literal",
             "start": 1762,
             "end": 1763,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -1517,7 +1567,8 @@
               "type": "Literal",
               "start": 1776,
               "end": 1777,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -1538,7 +1589,8 @@
           "type": "Literal",
           "start": 1781,
           "end": 1783,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "update": null,
@@ -1575,7 +1627,8 @@
                       "type": "Literal",
                       "start": 1802,
                       "end": 1803,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -1587,7 +1640,8 @@
                     "type": "Literal",
                     "start": 1815,
                     "end": 1820,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 }
               ]
@@ -1617,7 +1671,8 @@
                       "type": "Literal",
                       "start": 1845,
                       "end": 1846,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -1655,7 +1710,8 @@
                   "type": "Literal",
                   "start": 1874,
                   "end": 1875,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -1687,7 +1743,8 @@
           "type": "Literal",
           "start": 1890,
           "end": 1891,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -1714,7 +1771,8 @@
                   "type": "Literal",
                   "start": 1919,
                   "end": 1960,
-                  "value": "#6.1: \"finally\" block must be evaluated"
+                  "value": "#6.1: \"finally\" block must be evaluated",
+                  "raw": "'#6.1: \"finally\" block must be evaluated'"
                 }
               ]
             }
@@ -1742,7 +1800,8 @@
           "type": "Literal",
           "start": 1973,
           "end": 1975,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "consequent": {
@@ -1769,7 +1828,8 @@
                   "type": "Literal",
                   "start": 2003,
                   "end": 2054,
-                  "value": "#6.2: \"try finally{continue}\" must work correctly"
+                  "value": "#6.2: \"try finally{continue}\" must work correctly",
+                  "raw": "'#6.2: \"try finally{continue}\" must work correctly'"
                 }
               ]
             }

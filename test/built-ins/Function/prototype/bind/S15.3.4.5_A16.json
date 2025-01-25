@@ -27,6 +27,7 @@
               "start": 429,
               "end": 432,
               "value": {},
+              "raw": "/x/",
               "regex": {
                 "pattern": "x",
                 "flags": ""
@@ -63,7 +64,8 @@
           "type": "Literal",
           "start": 453,
           "end": 463,
-          "value": "function"
+          "value": "function",
+          "raw": "'function'"
         }
       },
       "consequent": {
@@ -250,14 +252,16 @@
                           "type": "Literal",
                           "start": 607,
                           "end": 643,
-                          "value": "#1: If IsCallable(func) is false, "
+                          "value": "#1: If IsCallable(func) is false, ",
+                          "raw": "'#1: If IsCallable(func) is false, '"
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 652,
                           "end": 700,
-                          "value": "then (bind should) throw a TypeError exception"
+                          "value": "then (bind should) throw a TypeError exception",
+                          "raw": "'then (bind should) throw a TypeError exception'"
                         }
                       }
                     ]
@@ -317,7 +321,8 @@
                           "type": "Literal",
                           "start": 754,
                           "end": 828,
-                          "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                          "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                          "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                         }
                       ],
                       "optional": false

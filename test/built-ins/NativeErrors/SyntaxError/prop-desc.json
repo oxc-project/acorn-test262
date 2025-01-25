@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 511,
             "end": 524,
-            "value": "SyntaxError"
+            "value": "SyntaxError",
+            "raw": "\"SyntaxError\""
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 540,
                   "end": 544,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 565,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 583,
                   "end": 587,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

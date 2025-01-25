@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 426,
             "end": 431,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 446,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 460,
                   "end": 464,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 480,
                   "end": 484,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -153,7 +157,8 @@
                   "type": "Literal",
                   "start": 502,
                   "end": 506,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -298,7 +303,8 @@
                     "type": "Literal",
                     "start": 613,
                     "end": 654,
-                    "value": "Expected preCheck to be true, actually "
+                    "value": "Expected preCheck to be true, actually ",
+                    "raw": "'Expected preCheck to be true, actually '"
                   },
                   "operator": "+",
                   "right": {
@@ -340,7 +346,8 @@
             "type": "Literal",
             "start": 691,
             "end": 696,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -364,7 +371,8 @@
                   "type": "Literal",
                   "start": 709,
                   "end": 711,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -385,7 +393,8 @@
                   "type": "Literal",
                   "start": 725,
                   "end": 729,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -406,7 +415,8 @@
                   "type": "Literal",
                   "start": 745,
                   "end": 749,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -427,7 +437,8 @@
                   "type": "Literal",
                   "start": 767,
                   "end": 772,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

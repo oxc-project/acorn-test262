@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 971,
             "end": 972,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +73,8 @@
             "type": "Literal",
             "start": 992,
             "end": 993,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -97,7 +99,8 @@
             "type": "Literal",
             "start": 1018,
             "end": 1023,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -122,7 +125,8 @@
             "type": "Literal",
             "start": 1040,
             "end": 1045,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -147,7 +151,8 @@
             "type": "Literal",
             "start": 1064,
             "end": 1069,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -226,7 +231,8 @@
                                 "type": "Literal",
                                 "start": 1129,
                                 "end": 1134,
-                                "value": false
+                                "value": false,
+                                "raw": "false"
                               },
                               "kind": "init"
                             }
@@ -282,7 +288,8 @@
             "type": "Literal",
             "start": 1178,
             "end": 1185,
-            "value": "throw"
+            "value": "throw",
+            "raw": "'throw'"
           },
           {
             "type": "ObjectExpression",
@@ -335,7 +342,8 @@
                             "type": "Literal",
                             "start": 1227,
                             "end": 1228,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -388,7 +396,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1279,
-            "value": "return"
+            "value": "return",
+            "raw": "'return'"
           },
           {
             "type": "ObjectExpression",
@@ -441,7 +450,8 @@
                             "type": "Literal",
                             "start": 1322,
                             "end": 1323,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -591,7 +601,8 @@
                       "type": "Literal",
                       "start": 1464,
                       "end": 1468,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -631,7 +642,8 @@
                         "type": "Literal",
                         "start": 1501,
                         "end": 1505,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   }
@@ -662,7 +674,8 @@
                       "type": "Literal",
                       "start": 1538,
                       "end": 1542,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -804,13 +817,15 @@
             "type": "Literal",
             "start": 1625,
             "end": 1626,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1628,
             "end": 1653,
-            "value": "`throw` property access"
+            "value": "`throw` property access",
+            "raw": "'`throw` property access'"
           }
         ],
         "optional": false
@@ -854,13 +869,15 @@
             "type": "Literal",
             "start": 1686,
             "end": 1687,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1689,
             "end": 1715,
-            "value": "`return` property access"
+            "value": "`return` property access",
+            "raw": "'`return` property access'"
           }
         ],
         "optional": false
@@ -904,13 +921,15 @@
             "type": "Literal",
             "start": 1750,
             "end": 1754,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1756,
             "end": 1789,
-            "value": "Generator execution was resumed"
+            "value": "Generator execution was resumed",
+            "raw": "'Generator execution was resumed'"
           }
         ],
         "optional": false
@@ -954,13 +973,15 @@
             "type": "Literal",
             "start": 1831,
             "end": 1836,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1838,
             "end": 1882,
-            "value": "Abrupt completion interrupted control flow"
+            "value": "Abrupt completion interrupted control flow",
+            "raw": "'Abrupt completion interrupted control flow'"
           }
         ],
         "optional": false
@@ -1004,13 +1025,15 @@
             "type": "Literal",
             "start": 1916,
             "end": 1921,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1923,
             "end": 1969,
-            "value": "Abrupt completion not interpreted as \"throw\""
+            "value": "Abrupt completion not interpreted as \"throw\"",
+            "raw": "'Abrupt completion not interpreted as \"throw\"'"
           }
         ],
         "optional": false

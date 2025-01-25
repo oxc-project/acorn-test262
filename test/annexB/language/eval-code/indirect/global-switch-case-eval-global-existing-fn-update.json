@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 1097,
                 "end": 1098,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -52,14 +53,16 @@
                   "type": "Literal",
                   "start": 1108,
                   "end": 1122,
-                  "value": "switch (1) {"
+                  "value": "switch (1) {",
+                  "raw": "'switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1127,
                   "end": 1138,
-                  "value": "  case 1:"
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
                 }
               },
               "operator": "+",
@@ -67,7 +70,8 @@
                 "type": "Literal",
                 "start": 1143,
                 "end": 1193,
-                "value": "    function f() { return \"inner declaration\"; }"
+                "value": "    function f() { return \"inner declaration\"; }",
+                "raw": "'    function f() { return \"inner declaration\"; }'"
               }
             },
             "operator": "+",
@@ -75,7 +79,8 @@
               "type": "Literal",
               "start": 1198,
               "end": 1351,
-              "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }"
+              "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
+              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
             }
           }
         ],

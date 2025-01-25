@@ -38,7 +38,8 @@
                   "type": "Literal",
                   "start": 1551,
                   "end": 1577,
-                  "value": "./script-code_FIXTURE.js"
+                  "value": "./script-code_FIXTURE.js",
+                  "raw": "'./script-code_FIXTURE.js'"
                 },
                 "options": null
               }
@@ -182,7 +183,8 @@
                             "type": "Literal",
                             "start": 1643,
                             "end": 1656,
-                            "value": "SyntaxError"
+                            "value": "SyntaxError",
+                            "raw": "'SyntaxError'"
                           }
                         ],
                         "optional": false

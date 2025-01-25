@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 484,
             "end": 489,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 508,
-            "value": "ordinary object"
+            "value": "ordinary object",
+            "raw": "\"ordinary object\""
           }
         ],
         "optional": false
@@ -145,13 +147,15 @@
             "type": "Literal",
             "start": 552,
             "end": 557,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 566,
-            "value": "Array"
+            "value": "Array",
+            "raw": "\"Array\""
           }
         ],
         "optional": false

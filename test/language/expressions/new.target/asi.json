@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 321,
             "end": 325,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 447,
             "end": 479,
-            "value": "tokens seperated by whitespace"
+            "value": "tokens seperated by whitespace",
+            "raw": "'tokens seperated by whitespace'"
           }
         ],
         "optional": false
@@ -227,7 +229,8 @@
             "type": "Literal",
             "start": 541,
             "end": 574,
-            "value": "tokens separateed by whitespace"
+            "value": "tokens separateed by whitespace",
+            "raw": "'tokens separateed by whitespace'"
           }
         ],
         "optional": false
@@ -252,7 +255,8 @@
           "type": "Literal",
           "start": 590,
           "end": 594,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -388,7 +392,8 @@
             "type": "Literal",
             "start": 722,
             "end": 755,
-            "value": "tokens seperated by line breaks"
+            "value": "tokens seperated by line breaks",
+            "raw": "'tokens seperated by line breaks'"
           }
         ],
         "optional": false
@@ -455,7 +460,8 @@
             "type": "Literal",
             "start": 825,
             "end": 858,
-            "value": "tokens seperated by line breaks"
+            "value": "tokens seperated by line breaks",
+            "raw": "'tokens seperated by line breaks'"
           }
         ],
         "optional": false
@@ -593,7 +599,8 @@
             "type": "Literal",
             "start": 984,
             "end": 1033,
-            "value": "tokens separated by SingleLineDelimitedComments"
+            "value": "tokens separated by SingleLineDelimitedComments",
+            "raw": "'tokens separated by SingleLineDelimitedComments'"
           }
         ],
         "optional": false
@@ -660,7 +667,8 @@
             "type": "Literal",
             "start": 1095,
             "end": 1144,
-            "value": "tokens separated by SingleLineDelimitedComments"
+            "value": "tokens separated by SingleLineDelimitedComments",
+            "raw": "'tokens separated by SingleLineDelimitedComments'"
           }
         ],
         "optional": false
@@ -798,7 +806,8 @@
             "type": "Literal",
             "start": 1274,
             "end": 1313,
-            "value": "tokens separated by MultiLineComments"
+            "value": "tokens separated by MultiLineComments",
+            "raw": "'tokens separated by MultiLineComments'"
           }
         ],
         "optional": false
@@ -865,7 +874,8 @@
             "type": "Literal",
             "start": 1373,
             "end": 1412,
-            "value": "tokens separated by MultiLineComments"
+            "value": "tokens separated by MultiLineComments",
+            "raw": "'tokens separated by MultiLineComments'"
           }
         ],
         "optional": false

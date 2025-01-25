@@ -31,6 +31,7 @@
                 "start": 988,
                 "end": 992,
                 "value": {},
+                "raw": "/b./",
                 "regex": {
                   "pattern": "b.",
                   "flags": ""
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 1007,
                 "end": 1013,
-                "value": "abcd"
+                "value": "abcd",
+                "raw": "'abcd'"
               }
             ],
             "optional": false
@@ -175,7 +177,8 @@
             "type": "Literal",
             "start": 1079,
             "end": 1080,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -232,7 +235,8 @@
             "type": "Literal",
             "start": 1114,
             "end": 1120,
-            "value": "abcd"
+            "value": "abcd",
+            "raw": "'abcd'"
           }
         ],
         "optional": false
@@ -289,7 +293,8 @@
             "type": "Literal",
             "start": 1155,
             "end": 1156,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -337,7 +342,8 @@
               "type": "Literal",
               "start": 1183,
               "end": 1184,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -346,7 +352,8 @@
             "type": "Literal",
             "start": 1187,
             "end": 1191,
-            "value": "bc"
+            "value": "bc",
+            "raw": "'bc'"
           }
         ],
         "optional": false

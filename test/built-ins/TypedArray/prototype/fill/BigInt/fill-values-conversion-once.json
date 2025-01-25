@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 599,
                             "end": 600,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -96,7 +97,8 @@
                         "type": "Literal",
                         "start": 614,
                         "end": 616,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     }
                   ],
@@ -229,13 +231,15 @@
                         "type": "Literal",
                         "start": 687,
                         "end": 689,
-                        "value": "2n"
+                        "value": "2n",
+                        "raw": "2n"
                       },
                       {
                         "type": "Literal",
                         "start": 691,
                         "end": 731,
-                        "value": "additional unexpected ToBigInt() calls"
+                        "value": "additional unexpected ToBigInt() calls",
+                        "raw": "\"additional unexpected ToBigInt() calls\""
                       }
                     ],
                     "optional": false
@@ -283,7 +287,8 @@
                           "type": "Literal",
                           "start": 760,
                           "end": 761,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -292,13 +297,15 @@
                         "type": "Literal",
                         "start": 764,
                         "end": 766,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       },
                       {
                         "type": "Literal",
                         "start": 768,
                         "end": 806,
-                        "value": "incorrect ToNumber result in index 0"
+                        "value": "incorrect ToNumber result in index 0",
+                        "raw": "\"incorrect ToNumber result in index 0\""
                       }
                     ],
                     "optional": false
@@ -346,7 +353,8 @@
                           "type": "Literal",
                           "start": 835,
                           "end": 836,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -355,13 +363,15 @@
                         "type": "Literal",
                         "start": 839,
                         "end": 841,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       },
                       {
                         "type": "Literal",
                         "start": 843,
                         "end": 881,
-                        "value": "incorrect ToNumber result in index 1"
+                        "value": "incorrect ToNumber result in index 1",
+                        "raw": "\"incorrect ToNumber result in index 1\""
                       }
                     ],
                     "optional": false

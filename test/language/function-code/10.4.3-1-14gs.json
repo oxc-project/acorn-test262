@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 369,
-                "value": "\"use strict\";\nreturn typeof this;"
+                "value": "\"use strict\";\nreturn typeof this;",
+                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\""
               }
             ],
             "optional": false
@@ -68,7 +69,8 @@
           "type": "Literal",
           "start": 384,
           "end": 395,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -84,7 +86,8 @@
               "type": "Literal",
               "start": 409,
               "end": 438,
-              "value": "'this' had incorrect value!"
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
             }
           }
         ]

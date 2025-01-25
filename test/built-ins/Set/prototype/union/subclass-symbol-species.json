@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 369,
             "end": 370,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -160,13 +161,15 @@
                     "type": "Literal",
                     "start": 490,
                     "end": 491,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 493,
                     "end": 494,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -211,13 +214,15 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 519,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 522,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -251,19 +256,22 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 545,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 548,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 551,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -417,13 +425,15 @@
             "type": "Literal",
             "start": 656,
             "end": 657,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 691,
-            "value": "Symbol.species is never called"
+            "value": "Symbol.species is never called",
+            "raw": "\"Symbol.species is never called\""
           }
         ],
         "optional": false
@@ -479,13 +489,15 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 772,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -541,13 +553,15 @@
             "type": "Literal",
             "start": 824,
             "end": 829,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 879,
-            "value": "The returned object is a Set, not a subclass"
+            "value": "The returned object is a Set, not a subclass",
+            "raw": "\"The returned object is a Set, not a subclass\""
           }
         ],
         "optional": false

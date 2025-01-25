@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 493,
                         "end": 497,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -124,7 +125,8 @@
                           "type": "Literal",
                           "start": 505,
                           "end": 509,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       }
                     ],
@@ -189,7 +191,8 @@
             "type": "Literal",
             "start": 557,
             "end": 563,
-            "value": "next"
+            "value": "next",
+            "raw": "'next'"
           },
           {
             "type": "ObjectExpression",
@@ -357,7 +360,8 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 700,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -372,7 +376,8 @@
                           "type": "Literal",
                           "start": 708,
                           "end": 712,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       }
                     ],

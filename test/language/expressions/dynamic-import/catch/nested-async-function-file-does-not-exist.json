@@ -50,7 +50,8 @@
                         "type": "Literal",
                         "start": 1283,
                         "end": 1314,
-                        "value": "./THIS_FILE_DOES_NOT_EXIST.js"
+                        "value": "./THIS_FILE_DOES_NOT_EXIST.js",
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
                       },
                       "options": null
                     },
@@ -130,7 +131,8 @@
                                   "type": "Literal",
                                   "start": 1372,
                                   "end": 1383,
-                                  "value": "undefined"
+                                  "value": "undefined",
+                                  "raw": "'undefined'"
                                 }
                               ],
                               "optional": false

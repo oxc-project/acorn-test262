@@ -128,7 +128,8 @@
                             "type": "Literal",
                             "start": 749,
                             "end": 751,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         }
                       ]
@@ -165,7 +166,8 @@
                     "type": "Literal",
                     "start": 766,
                     "end": 768,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   }
                 }
               ]
@@ -287,7 +289,8 @@
                   "type": "Literal",
                   "start": 845,
                   "end": 848,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -297,7 +300,8 @@
             "type": "Literal",
             "start": 853,
             "end": 908,
-            "value": "m doesn't appear as an own property on the C instance"
+            "value": "m doesn't appear as an own property on the C instance",
+            "raw": "\"m doesn't appear as an own property on the C instance\""
           }
         ],
         "optional": false
@@ -397,7 +401,8 @@
                   "type": "Literal",
                   "start": 973,
                   "end": 976,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -407,7 +412,8 @@
             "type": "Literal",
             "start": 981,
             "end": 1037,
-            "value": "m doesn't appear as an own property on the C prototype"
+            "value": "m doesn't appear as an own property on the C prototype",
+            "raw": "\"m doesn't appear as an own property on the C prototype\""
           }
         ],
         "optional": false
@@ -438,7 +444,8 @@
             "type": "Literal",
             "start": 1060,
             "end": 1063,
-            "value": "m"
+            "value": "m",
+            "raw": "\"m\""
           },
           {
             "type": "ObjectExpression",
@@ -462,7 +469,8 @@
                   "type": "Literal",
                   "start": 1081,
                   "end": 1086,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -483,7 +491,8 @@
                   "type": "Literal",
                   "start": 1104,
                   "end": 1108,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -504,7 +513,8 @@
                   "type": "Literal",
                   "start": 1122,
                   "end": 1126,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -532,7 +542,8 @@
                   "type": "Literal",
                   "start": 1141,
                   "end": 1145,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -657,7 +668,8 @@
                             "type": "Literal",
                             "start": 1197,
                             "end": 1199,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -742,7 +754,8 @@
                                               "type": "Literal",
                                               "start": 1351,
                                               "end": 1377,
-                                              "value": "Test262:AsyncTestFailure"
+                                              "value": "Test262:AsyncTestFailure",
+                                              "raw": "'Test262:AsyncTestFailure'"
                                             }
                                           ]
                                         }
@@ -858,7 +871,8 @@
                                   "type": "Literal",
                                   "start": 1472,
                                   "end": 1531,
-                                  "value": "Symbol x doesn't appear as an own property on C prototype"
+                                  "value": "Symbol x doesn't appear as an own property on C prototype",
+                                  "raw": "\"Symbol x doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -955,7 +969,8 @@
                                   "type": "Literal",
                                   "start": 1608,
                                   "end": 1669,
-                                  "value": "Symbol x doesn't appear as an own property on C constructor"
+                                  "value": "Symbol x doesn't appear as an own property on C constructor",
+                                  "raw": "\"Symbol x doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -1031,7 +1046,8 @@
                                         "type": "Literal",
                                         "start": 1747,
                                         "end": 1751,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1052,7 +1068,8 @@
                                         "type": "Literal",
                                         "start": 1769,
                                         "end": 1773,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1073,7 +1090,8 @@
                                         "type": "Literal",
                                         "start": 1795,
                                         "end": 1799,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     }
@@ -1187,7 +1205,8 @@
                                   "type": "Literal",
                                   "start": 1888,
                                   "end": 1947,
-                                  "value": "Symbol y doesn't appear as an own property on C prototype"
+                                  "value": "Symbol y doesn't appear as an own property on C prototype",
+                                  "raw": "\"Symbol y doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -1284,7 +1303,8 @@
                                   "type": "Literal",
                                   "start": 2024,
                                   "end": 2085,
-                                  "value": "Symbol y doesn't appear as an own property on C constructor"
+                                  "value": "Symbol y doesn't appear as an own property on C constructor",
+                                  "raw": "\"Symbol y doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -1339,7 +1359,8 @@
                                         "type": "Literal",
                                         "start": 2134,
                                         "end": 2136,
-                                        "value": 42
+                                        "value": 42,
+                                        "raw": "42"
                                       },
                                       "kind": "init"
                                     },
@@ -1360,7 +1381,8 @@
                                         "type": "Literal",
                                         "start": 2156,
                                         "end": 2160,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1381,7 +1403,8 @@
                                         "type": "Literal",
                                         "start": 2178,
                                         "end": 2182,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -1402,7 +1425,8 @@
                                         "type": "Literal",
                                         "start": 2204,
                                         "end": 2208,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     }
@@ -1506,7 +1530,8 @@
                                         "type": "Literal",
                                         "start": 2287,
                                         "end": 2290,
-                                        "value": "x"
+                                        "value": "x",
+                                        "raw": "\"x\""
                                       }
                                     ],
                                     "optional": false
@@ -1516,7 +1541,8 @@
                                   "type": "Literal",
                                   "start": 2299,
                                   "end": 2351,
-                                  "value": "x doesn't appear as an own property on C prototype"
+                                  "value": "x doesn't appear as an own property on C prototype",
+                                  "raw": "\"x doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -1603,7 +1629,8 @@
                                         "type": "Literal",
                                         "start": 2418,
                                         "end": 2421,
-                                        "value": "x"
+                                        "value": "x",
+                                        "raw": "\"x\""
                                       }
                                     ],
                                     "optional": false
@@ -1613,7 +1640,8 @@
                                   "type": "Literal",
                                   "start": 2430,
                                   "end": 2484,
-                                  "value": "x doesn't appear as an own property on C constructor"
+                                  "value": "x doesn't appear as an own property on C constructor",
+                                  "raw": "\"x doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -1700,7 +1728,8 @@
                                         "type": "Literal",
                                         "start": 2551,
                                         "end": 2554,
-                                        "value": "x"
+                                        "value": "x",
+                                        "raw": "\"x\""
                                       }
                                     ],
                                     "optional": false
@@ -1710,7 +1739,8 @@
                                   "type": "Literal",
                                   "start": 2563,
                                   "end": 2614,
-                                  "value": "x doesn't appear as an own property on C instance"
+                                  "value": "x doesn't appear as an own property on C instance",
+                                  "raw": "\"x doesn't appear as an own property on C instance\""
                                 }
                               ],
                               "optional": false
@@ -1810,7 +1840,8 @@
                                         "type": "Literal",
                                         "start": 2692,
                                         "end": 2695,
-                                        "value": "y"
+                                        "value": "y",
+                                        "raw": "\"y\""
                                       }
                                     ],
                                     "optional": false
@@ -1820,7 +1851,8 @@
                                   "type": "Literal",
                                   "start": 2704,
                                   "end": 2756,
-                                  "value": "y doesn't appear as an own property on C prototype"
+                                  "value": "y doesn't appear as an own property on C prototype",
+                                  "raw": "\"y doesn't appear as an own property on C prototype\""
                                 }
                               ],
                               "optional": false
@@ -1907,7 +1939,8 @@
                                         "type": "Literal",
                                         "start": 2823,
                                         "end": 2826,
-                                        "value": "y"
+                                        "value": "y",
+                                        "raw": "\"y\""
                                       }
                                     ],
                                     "optional": false
@@ -1917,7 +1950,8 @@
                                   "type": "Literal",
                                   "start": 2835,
                                   "end": 2889,
-                                  "value": "y doesn't appear as an own property on C constructor"
+                                  "value": "y doesn't appear as an own property on C constructor",
+                                  "raw": "\"y doesn't appear as an own property on C constructor\""
                                 }
                               ],
                               "optional": false
@@ -2004,7 +2038,8 @@
                                         "type": "Literal",
                                         "start": 2956,
                                         "end": 2959,
-                                        "value": "y"
+                                        "value": "y",
+                                        "raw": "\"y\""
                                       }
                                     ],
                                     "optional": false
@@ -2014,7 +2049,8 @@
                                   "type": "Literal",
                                   "start": 2968,
                                   "end": 3019,
-                                  "value": "y doesn't appear as an own property on C instance"
+                                  "value": "y doesn't appear as an own property on C instance",
+                                  "raw": "\"y doesn't appear as an own property on C instance\""
                                 }
                               ],
                               "optional": false

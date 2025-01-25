@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 311,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 317,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -122,7 +125,8 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 379,
-                "value": "2000-05-02[u-ca=gregory]"
+                "value": "2000-05-02[u-ca=gregory]",
+                "raw": "\"2000-05-02[u-ca=gregory]\""
               }
             ],
             "optional": false
@@ -131,13 +135,15 @@
             "type": "Literal",
             "start": 382,
             "end": 387,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 409,
-            "value": "different calendar"
+            "value": "different calendar",
+            "raw": "\"different calendar\""
           }
         ],
         "optional": false

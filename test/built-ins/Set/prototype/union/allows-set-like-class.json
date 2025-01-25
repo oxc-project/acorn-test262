@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 512,
                     "end": 513,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 515,
                     "end": 516,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -119,7 +121,8 @@
                               "type": "Literal",
                               "start": 569,
                               "end": 570,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             }
                           }
                         ]
@@ -172,7 +175,8 @@
                                   "type": "Literal",
                                   "start": 613,
                                   "end": 673,
-                                  "value": "Set.prototype.union should not invoke .has on its argument"
+                                  "value": "Set.prototype.union should not invoke .has on its argument",
+                                  "raw": "\"Set.prototype.union should not invoke .has on its argument\""
                                 }
                               ]
                             }
@@ -221,7 +225,8 @@
                                 "type": "Literal",
                                 "start": 703,
                                 "end": 704,
-                                "value": 2
+                                "value": 2,
+                                "raw": "2"
                               }
                             }
                           },
@@ -238,7 +243,8 @@
                                 "type": "Literal",
                                 "start": 716,
                                 "end": 717,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               }
                             }
                           }
@@ -279,19 +285,22 @@
                 "type": "Literal",
                 "start": 744,
                 "end": 745,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 747,
                 "end": 748,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 751,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -457,13 +466,15 @@
             "type": "Literal",
             "start": 874,
             "end": 878,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 910,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 380,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 408,
-                "value": "hello world"
+                "value": "hello world",
+                "raw": "\"hello world\""
               }
             ],
             "optional": false
@@ -132,13 +134,15 @@
             "type": "Literal",
             "start": 432,
             "end": 445,
-            "value": "hello world"
+            "value": "hello world",
+            "raw": "\"hello world\""
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 450,
-            "value": "s"
+            "value": "s",
+            "raw": "'s'"
           }
         ],
         "optional": false

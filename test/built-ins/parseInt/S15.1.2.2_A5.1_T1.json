@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 518,
-                "value": "010"
+                "value": "010",
+                "raw": "'010'"
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 521,
             "end": 523,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 559,
-            "value": "parseInt('010') must return 10"
+            "value": "parseInt('010') must return 10",
+            "raw": "'parseInt(\\'010\\') must return 10'"
           }
         ],
         "optional": false

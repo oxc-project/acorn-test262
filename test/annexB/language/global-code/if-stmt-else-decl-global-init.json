@@ -79,7 +79,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1310,
-            "value": "binding is initialized to `undefined`"
+            "value": "binding is initialized to `undefined`",
+            "raw": "'binding is initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -110,7 +111,8 @@
             "type": "Literal",
             "start": 1337,
             "end": 1340,
-            "value": "f"
+            "value": "f",
+            "raw": "\"f\""
           },
           {
             "type": "ObjectExpression",
@@ -134,7 +136,8 @@
                   "type": "Literal",
                   "start": 1358,
                   "end": 1362,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -155,7 +158,8 @@
                   "type": "Literal",
                   "start": 1376,
                   "end": 1380,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -176,7 +180,8 @@
                   "type": "Literal",
                   "start": 1398,
                   "end": 1403,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -194,7 +199,8 @@
         "type": "Literal",
         "start": 1413,
         "end": 1418,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "EmptyStatement",

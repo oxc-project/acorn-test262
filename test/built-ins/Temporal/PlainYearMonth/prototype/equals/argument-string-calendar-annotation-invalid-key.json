@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 289,
                     "end": 321,
-                    "value": "1970-01-01T00:00[U-CA=iso8601]"
+                    "value": "1970-01-01T00:00[U-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 323,
                     "end": 348,
-                    "value": "invalid capitalized key"
+                    "value": "invalid capitalized key",
+                    "raw": "\"invalid capitalized key\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 386,
-                    "value": "1970-01-01T00:00[u-CA=iso8601]"
+                    "value": "1970-01-01T00:00[u-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 388,
                     "end": 423,
-                    "value": "invalid partially-capitalized key"
+                    "value": "invalid partially-capitalized key",
+                    "raw": "\"invalid partially-capitalized key\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 429,
                     "end": 456,
-                    "value": "1970-01-01T00:00[FOO=bar]"
+                    "value": "1970-01-01T00:00[FOO=bar]",
+                    "raw": "\"1970-01-01T00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 458,
                     "end": 496,
-                    "value": "invalid capitalized unrecognized key"
+                    "value": "invalid capitalized unrecognized key",
+                    "raw": "\"invalid capitalized unrecognized key\""
                   }
                 ]
               }
@@ -129,13 +135,15 @@
                 "type": "Literal",
                 "start": 547,
                 "end": 551,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 553,
                 "end": 554,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 408,
             "end": 412,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 431,
             "end": 436,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -163,7 +165,8 @@
               "type": "Literal",
               "start": 524,
               "end": 528,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -202,7 +205,8 @@
           "type": "Literal",
           "start": 560,
           "end": 564,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -263,7 +267,8 @@
             "type": "Literal",
             "start": 626,
             "end": 657,
-            "value": "The template object is frozen"
+            "value": "The template object is frozen",
+            "raw": "'The template object is frozen'"
           }
         ],
         "optional": false
@@ -314,7 +319,8 @@
           "type": "Literal",
           "start": 695,
           "end": 699,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -388,7 +394,8 @@
             "type": "Literal",
             "start": 765,
             "end": 793,
-            "value": "The \"raw\" object is frozen"
+            "value": "The \"raw\" object is frozen",
+            "raw": "'The \"raw\" object is frozen'"
           }
         ],
         "optional": false
@@ -444,7 +451,8 @@
             "type": "Literal",
             "start": 842,
             "end": 884,
-            "value": "Template object defines a `raw` property"
+            "value": "Template object defines a `raw` property",
+            "raw": "'Template object defines a `raw` property'"
           }
         ],
         "optional": false

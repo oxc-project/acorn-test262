@@ -58,7 +58,8 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -104,7 +105,8 @@
             "type": "Literal",
             "start": 391,
             "end": 397,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -146,7 +148,8 @@
                         "type": "Literal",
                         "start": 423,
                         "end": 425,
-                        "value": 13
+                        "value": 13,
+                        "raw": "13"
                       },
                       "kind": "init"
                     }
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 445,
                   "end": 449,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -268,7 +272,8 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 524,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -277,7 +282,8 @@
             "type": "Literal",
             "start": 527,
             "end": 564,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -334,13 +340,15 @@
             "type": "Literal",
             "start": 594,
             "end": 596,
-            "value": 13
+            "value": 13,
+            "raw": "13"
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 608,
-            "value": "obj.prop"
+            "value": "obj.prop",
+            "raw": "'obj.prop'"
           }
         ],
         "optional": false

@@ -79,7 +79,8 @@
           "type": "Literal",
           "start": 316,
           "end": 320,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -110,7 +111,8 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 400,
-                    "value": "#1: var x = {}; x++; x === Not-a-Number. Actual: "
+                    "value": "#1: var x = {}; x++; x === Not-a-Number. Actual: ",
+                    "raw": "'#1: var x = {}; x++; x === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -169,7 +171,8 @@
                     "type": "Literal",
                     "start": 448,
                     "end": 449,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               ]
@@ -230,7 +233,8 @@
           "type": "Literal",
           "start": 476,
           "end": 480,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -261,7 +265,8 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 578,
-                    "value": "#2: var x = function(){return 1}; x++; x === Not-a-Number. Actual: "
+                    "value": "#2: var x = function(){return 1}; x++; x === Not-a-Number. Actual: ",
+                    "raw": "'#2: var x = function(){return 1}; x++; x === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {

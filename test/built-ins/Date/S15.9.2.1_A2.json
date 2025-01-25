@@ -70,7 +70,8 @@
                     "type": "Literal",
                     "start": 546,
                     "end": 550,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 }
               ]
@@ -187,7 +188,8 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 614,
-                  "value": 1000
+                  "value": 1000,
+                  "raw": "1000"
                 }
               },
               "consequent": {
@@ -203,7 +205,8 @@
                       "type": "Literal",
                       "start": 629,
                       "end": 633,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 ]
@@ -221,7 +224,8 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 662,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 ]
@@ -314,7 +318,8 @@
             "type": "Literal",
             "start": 725,
             "end": 784,
-            "value": "isEqual(Date(), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -361,7 +366,8 @@
                     "type": "Literal",
                     "start": 812,
                     "end": 813,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -410,7 +416,8 @@
             "type": "Literal",
             "start": 844,
             "end": 904,
-            "value": "isEqual(Date(1), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -457,13 +464,15 @@
                     "type": "Literal",
                     "start": 932,
                     "end": 936,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 938,
                     "end": 939,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -512,7 +521,8 @@
             "type": "Literal",
             "start": 970,
             "end": 1036,
-            "value": "isEqual(Date(1970, 1), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -559,19 +569,22 @@
                     "type": "Literal",
                     "start": 1064,
                     "end": 1068,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1070,
                     "end": 1071,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1073,
                     "end": 1074,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -620,7 +633,8 @@
             "type": "Literal",
             "start": 1105,
             "end": 1174,
-            "value": "isEqual(Date(1970, 1, 1), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -667,25 +681,29 @@
                     "type": "Literal",
                     "start": 1202,
                     "end": 1206,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1208,
                     "end": 1209,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1211,
                     "end": 1212,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1214,
                     "end": 1215,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -734,7 +752,8 @@
             "type": "Literal",
             "start": 1246,
             "end": 1318,
-            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -781,25 +800,29 @@
                     "type": "Literal",
                     "start": 1346,
                     "end": 1350,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1352,
                     "end": 1353,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1355,
                     "end": 1356,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1358,
                     "end": 1359,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -848,7 +871,8 @@
             "type": "Literal",
             "start": 1390,
             "end": 1462,
-            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -895,31 +919,36 @@
                     "type": "Literal",
                     "start": 1490,
                     "end": 1494,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1496,
                     "end": 1497,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1499,
                     "end": 1500,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1502,
                     "end": 1503,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1505,
                     "end": 1506,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ],
                 "optional": false
@@ -968,7 +997,8 @@
             "type": "Literal",
             "start": 1537,
             "end": 1612,
-            "value": "isEqual(Date(1970, 1, 1, 1, 0), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1, 1, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1015,37 +1045,43 @@
                     "type": "Literal",
                     "start": 1640,
                     "end": 1644,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1646,
                     "end": 1647,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1649,
                     "end": 1650,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1652,
                     "end": 1653,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1655,
                     "end": 1656,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1658,
                     "end": 1659,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ],
                 "optional": false
@@ -1094,7 +1130,8 @@
             "type": "Literal",
             "start": 1690,
             "end": 1768,
-            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0, 0), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1141,43 +1178,50 @@
                     "type": "Literal",
                     "start": 1796,
                     "end": 1800,
-                    "value": 1970
+                    "value": 1970,
+                    "raw": "1970"
                   },
                   {
                     "type": "Literal",
                     "start": 1802,
                     "end": 1803,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1805,
                     "end": 1806,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1808,
                     "end": 1809,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 1811,
                     "end": 1812,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1814,
                     "end": 1815,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 1817,
                     "end": 1818,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ],
                 "optional": false
@@ -1226,7 +1270,8 @@
             "type": "Literal",
             "start": 1849,
             "end": 1930,
-            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0, 0), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0, 0, 0), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1335,7 +1380,8 @@
             "type": "Literal",
             "start": 1999,
             "end": 2068,
-            "value": "isEqual(Date(Number.NaN), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(Number.NaN), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.NaN), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1444,7 +1490,8 @@
             "type": "Literal",
             "start": 2151,
             "end": 2234,
-            "value": "isEqual(Date(Number.POSITIVE_INFINITY), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(Number.POSITIVE_INFINITY), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.POSITIVE_INFINITY), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1553,7 +1600,8 @@
             "type": "Literal",
             "start": 2317,
             "end": 2400,
-            "value": "isEqual(Date(Number.NEGATIVE_INFINITY), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(Number.NEGATIVE_INFINITY), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.NEGATIVE_INFINITY), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1649,7 +1697,8 @@
             "type": "Literal",
             "start": 2468,
             "end": 2536,
-            "value": "isEqual(Date(undefined), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(undefined), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(undefined), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false
@@ -1696,7 +1745,8 @@
                     "type": "Literal",
                     "start": 2564,
                     "end": 2568,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 ],
                 "optional": false
@@ -1745,7 +1795,8 @@
             "type": "Literal",
             "start": 2599,
             "end": 2662,
-            "value": "isEqual(Date(null), (new Date()).toString()) must return true"
+            "value": "isEqual(Date(null), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(null), (new Date()).toString()) must return true'"
           }
         ],
         "optional": false

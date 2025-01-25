@@ -150,7 +150,8 @@
                                   "type": "Literal",
                                   "start": 1715,
                                   "end": 1716,
-                                  "value": 4
+                                  "value": 4,
+                                  "raw": "4"
                                 },
                                 "kind": "init"
                               },
@@ -171,7 +172,8 @@
                                   "type": "Literal",
                                   "start": 1721,
                                   "end": 1722,
-                                  "value": 5
+                                  "value": 5,
+                                  "raw": "5"
                                 },
                                 "kind": "init"
                               },
@@ -192,7 +194,8 @@
                                   "type": "Literal",
                                   "start": 1727,
                                   "end": 1728,
-                                  "value": 6
+                                  "value": 6,
+                                  "raw": "6"
                                 },
                                 "kind": "init"
                               }
@@ -235,7 +238,8 @@
                         "type": "Literal",
                         "start": 1742,
                         "end": 1746,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "kind": "init"
                     }
@@ -363,7 +367,8 @@
                             "type": "Literal",
                             "start": 1827,
                             "end": 1877,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

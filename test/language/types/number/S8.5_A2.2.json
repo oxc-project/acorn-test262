@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 312,
             "end": 330,
-            "value": 9007199254740994
+            "value": 9007199254740994,
+            "raw": "9007199254740994.0"
           }
         }
       ],
@@ -51,7 +52,8 @@
               "type": "Literal",
               "start": 355,
               "end": 358,
-              "value": 1
+              "value": 1,
+              "raw": "1.0"
             },
             "operator": "-",
             "right": {
@@ -62,14 +64,16 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 362,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "operator": "/",
               "right": {
                 "type": "Literal",
                 "start": 363,
                 "end": 370,
-                "value": 65536
+                "value": 65536,
+                "raw": "65536.0"
               }
             }
           }
@@ -170,7 +174,8 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -197,7 +202,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 538,
-                  "value": "#1: var x = 9007199254740994.0; var y = 1.0 - 1/65536.0; var z = x + y; var d = z - x; d !== 2"
+                  "value": "#1: var x = 9007199254740994.0; var y = 1.0 - 1/65536.0; var z = x + y; var d = z - x; d !== 2",
+                  "raw": "'#1: var x = 9007199254740994.0; var y = 1.0 - 1/65536.0; var z = x + y; var d = z - x; d !== 2'"
                 }
               ]
             }

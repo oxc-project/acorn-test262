@@ -23,6 +23,7 @@
             "start": 692,
             "end": 700,
             "value": {},
+            "raw": "/abc/gim",
             "regex": {
               "pattern": "abc",
               "flags": "gim"
@@ -52,6 +53,7 @@
             "start": 716,
             "end": 721,
             "value": {},
+            "raw": "/def/",
             "regex": {
               "pattern": "def",
               "flags": ""
@@ -113,7 +115,8 @@
           "type": "Literal",
           "start": 755,
           "end": 757,
-          "value": 23
+          "value": 23,
+          "raw": "23"
         }
       }
     },
@@ -149,7 +152,8 @@
           "type": "Literal",
           "start": 779,
           "end": 781,
-          "value": 45
+          "value": 45,
+          "raw": "45"
         }
       }
     },
@@ -247,7 +251,8 @@
             "type": "Literal",
             "start": 854,
             "end": 875,
-            "value": "method return value"
+            "value": "method return value",
+            "raw": "'method return value'"
           }
         ],
         "optional": false
@@ -304,7 +309,8 @@
             "type": "Literal",
             "start": 914,
             "end": 915,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -361,7 +367,8 @@
             "type": "Literal",
             "start": 954,
             "end": 956,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           }
         ],
         "optional": false
@@ -444,7 +451,8 @@
                     "type": "Literal",
                     "start": 1008,
                     "end": 1013,
-                    "value": "def"
+                    "value": "def",
+                    "raw": "'def'"
                   }
                 ]
               },
@@ -520,7 +528,8 @@
                 "type": "Literal",
                 "start": 1061,
                 "end": 1066,
-                "value": "def"
+                "value": "def",
+                "raw": "'def'"
               }
             ],
             "optional": false
@@ -529,13 +538,15 @@
             "type": "Literal",
             "start": 1069,
             "end": 1073,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1075,
             "end": 1117,
-            "value": "[[RegExpMatcher]] internal slot (source)"
+            "value": "[[RegExpMatcher]] internal slot (source)",
+            "raw": "'[[RegExpMatcher]] internal slot (source)'"
           }
         ],
         "optional": false
@@ -597,7 +608,8 @@
                 "type": "Literal",
                 "start": 1154,
                 "end": 1159,
-                "value": "DEF"
+                "value": "DEF",
+                "raw": "'DEF'"
               }
             ],
             "optional": false
@@ -606,13 +618,15 @@
             "type": "Literal",
             "start": 1162,
             "end": 1167,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1169,
             "end": 1208,
-            "value": "[[RegExpMatch]] internal slot (flags)"
+            "value": "[[RegExpMatch]] internal slot (flags)",
+            "raw": "'[[RegExpMatch]] internal slot (flags)'"
           }
         ],
         "optional": false

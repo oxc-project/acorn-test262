@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 330,
             "end": 332,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           }
         }
       ],
@@ -115,7 +116,8 @@
             "type": "Literal",
             "start": 411,
             "end": 458,
-            "value": "[].reduceRight(function () { }, initialValue)"
+            "value": "[].reduceRight(function () { }, initialValue)",
+            "raw": "'[].reduceRight(function () { }, initialValue)'"
           }
         ],
         "optional": false

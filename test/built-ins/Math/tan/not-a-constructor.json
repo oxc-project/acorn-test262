@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 722,
             "end": 727,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.tan) must return false"
+            "value": "isConstructor(Math.tan) must return false",
+            "raw": "'isConstructor(Math.tan) must return false'"
           }
         ],
         "optional": false

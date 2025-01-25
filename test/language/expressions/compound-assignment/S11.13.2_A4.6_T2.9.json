@@ -42,7 +42,8 @@
           "type": "Literal",
           "start": 372,
           "end": 376,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -65,7 +66,8 @@
           "type": "Literal",
           "start": 384,
           "end": 388,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -88,7 +90,8 @@
           "type": "Literal",
           "start": 400,
           "end": 401,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -119,7 +122,8 @@
                     "type": "Literal",
                     "start": 430,
                     "end": 475,
-                    "value": "#1: x = true; x <<= null; x === 1. Actual: "
+                    "value": "#1: x = true; x <<= null; x === 1. Actual: ",
+                    "raw": "'#1: x = true; x <<= null; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -160,7 +164,8 @@
           "type": "Literal",
           "start": 501,
           "end": 505,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -183,7 +188,8 @@
           "type": "Literal",
           "start": 513,
           "end": 517,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -206,7 +212,8 @@
           "type": "Literal",
           "start": 529,
           "end": 530,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -237,7 +244,8 @@
                     "type": "Literal",
                     "start": 559,
                     "end": 604,
-                    "value": "#2: x = null; x <<= true; x === 0. Actual: "
+                    "value": "#2: x = null; x <<= true; x === 0. Actual: ",
+                    "raw": "'#2: x = null; x <<= true; x === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -289,7 +297,8 @@
               "type": "Literal",
               "start": 642,
               "end": 646,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ]
         }
@@ -314,7 +323,8 @@
           "type": "Literal",
           "start": 655,
           "end": 659,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -337,7 +347,8 @@
           "type": "Literal",
           "start": 671,
           "end": 672,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -368,7 +379,8 @@
                     "type": "Literal",
                     "start": 701,
                     "end": 759,
-                    "value": "#3: x = new Boolean(true); x <<= null; x === 1. Actual: "
+                    "value": "#3: x = new Boolean(true); x <<= null; x === 1. Actual: ",
+                    "raw": "'#3: x = new Boolean(true); x <<= null; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -409,7 +421,8 @@
           "type": "Literal",
           "start": 785,
           "end": 789,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -443,7 +456,8 @@
               "type": "Literal",
               "start": 809,
               "end": 813,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ]
         }
@@ -468,7 +482,8 @@
           "type": "Literal",
           "start": 826,
           "end": 827,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -499,7 +514,8 @@
                     "type": "Literal",
                     "start": 856,
                     "end": 914,
-                    "value": "#4: x = null; x <<= new Boolean(true); x === 0. Actual: "
+                    "value": "#4: x = null; x <<= new Boolean(true); x === 0. Actual: ",
+                    "raw": "'#4: x = null; x <<= new Boolean(true); x === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {

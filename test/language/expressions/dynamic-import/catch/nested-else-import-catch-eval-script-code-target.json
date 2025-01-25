@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1460,
         "end": 1465,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -52,7 +53,8 @@
                         "type": "Literal",
                         "start": 1488,
                         "end": 1514,
-                        "value": "./script-code_FIXTURE.js"
+                        "value": "./script-code_FIXTURE.js",
+                        "raw": "'./script-code_FIXTURE.js'"
                       },
                       "options": null
                     },
@@ -138,7 +140,8 @@
                                   "type": "Literal",
                                   "start": 1567,
                                   "end": 1580,
-                                  "value": "SyntaxError"
+                                  "value": "SyntaxError",
+                                  "raw": "'SyntaxError'"
                                 }
                               ],
                               "optional": false

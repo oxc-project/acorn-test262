@@ -66,7 +66,8 @@
           "type": "Literal",
           "start": 329,
           "end": 331,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       }
     },
@@ -102,7 +103,8 @@
           "type": "Literal",
           "start": 353,
           "end": 355,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -133,7 +135,8 @@
                     "type": "Literal",
                     "start": 384,
                     "end": 426,
-                    "value": "Expected errObj.name to be '', actually "
+                    "value": "Expected errObj.name to be '', actually ",
+                    "raw": "\"Expected errObj.name to be '', actually \""
                   },
                   "operator": "+",
                   "right": {
@@ -202,7 +205,8 @@
           "type": "Literal",
           "start": 471,
           "end": 473,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -233,7 +237,8 @@
                     "type": "Literal",
                     "start": 502,
                     "end": 550,
-                    "value": "Expected errObj.toString() to be '', actually "
+                    "value": "Expected errObj.toString() to be '', actually ",
+                    "raw": "\"Expected errObj.toString() to be '', actually \""
                   },
                   "operator": "+",
                   "right": {

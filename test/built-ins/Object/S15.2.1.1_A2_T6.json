@@ -73,13 +73,15 @@
             "type": "Literal",
             "start": 445,
             "end": 453,
-            "value": "number"
+            "value": "number",
+            "raw": "'number'"
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 509,
-            "value": "The value of `typeof num` is expected to be \"number\""
+            "value": "The value of `typeof num` is expected to be \"number\"",
+            "raw": "'The value of `typeof num` is expected to be \"number\"'"
           }
         ],
         "optional": false
@@ -181,7 +183,8 @@
             "type": "Literal",
             "start": 579,
             "end": 650,
-            "value": "The value of obj.constructor is expected to equal the value of Number"
+            "value": "The value of obj.constructor is expected to equal the value of Number",
+            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
           }
         ],
         "optional": false
@@ -232,13 +235,15 @@
             "type": "Literal",
             "start": 682,
             "end": 690,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 746,
-            "value": "The value of `typeof obj` is expected to be \"object\""
+            "value": "The value of `typeof obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -281,7 +286,8 @@
             "type": "Literal",
             "start": 773,
             "end": 840,
-            "value": "The result of evaluating (obj == Infinity) is expected to be true"
+            "value": "The result of evaluating (obj == Infinity) is expected to be true",
+            "raw": "'The result of evaluating (obj == Infinity) is expected to be true'"
           }
         ],
         "optional": false
@@ -331,7 +337,8 @@
             "type": "Literal",
             "start": 878,
             "end": 934,
-            "value": "The value of obj is expected to not equal ``Infinity``"
+            "value": "The value of obj is expected to not equal ``Infinity``",
+            "raw": "'The value of obj is expected to not equal ``Infinity``'"
           }
         ],
         "optional": false

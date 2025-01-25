@@ -1,63 +1,63 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 768,
+  "end": 766,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 556,
-      "end": 645,
+      "start": 554,
+      "end": 643,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 562,
-          "end": 644,
+          "start": 560,
+          "end": 642,
           "id": {
             "type": "Identifier",
-            "start": 562,
-            "end": 566,
+            "start": 560,
+            "end": 564,
             "name": "i32a"
           },
           "init": {
             "type": "NewExpression",
-            "start": 569,
-            "end": 644,
+            "start": 567,
+            "end": 642,
             "callee": {
               "type": "Identifier",
-              "start": 573,
-              "end": 583,
+              "start": 571,
+              "end": 581,
               "name": "Int32Array"
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 587,
-                "end": 642,
+                "start": 585,
+                "end": 640,
                 "callee": {
                   "type": "Identifier",
-                  "start": 591,
-                  "end": 608,
+                  "start": 589,
+                  "end": 606,
                   "name": "SharedArrayBuffer"
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 609,
-                    "end": 641,
+                    "start": 607,
+                    "end": 639,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 609,
-                      "end": 637,
+                      "start": 607,
+                      "end": 635,
                       "object": {
                         "type": "Identifier",
-                        "start": 609,
-                        "end": 619,
+                        "start": 607,
+                        "end": 617,
                         "name": "Int32Array"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 620,
-                        "end": 637,
+                        "start": 618,
+                        "end": 635,
                         "name": "BYTES_PER_ELEMENT"
                       },
                       "computed": false,
@@ -66,9 +66,10 @@
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 640,
-                      "end": 641,
-                      "value": 4
+                      "start": 638,
+                      "end": 639,
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -81,26 +82,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 767,
+      "start": 645,
+      "end": 765,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 766,
+        "start": 645,
+        "end": 764,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 659,
+          "start": 645,
+          "end": 657,
           "object": {
             "type": "Identifier",
-            "start": 647,
-            "end": 651,
+            "start": 645,
+            "end": 649,
             "name": "NaNs"
           },
           "property": {
             "type": "Identifier",
-            "start": 652,
-            "end": 659,
+            "start": 650,
+            "end": 657,
             "name": "forEach"
           },
           "computed": false,
@@ -109,8 +110,8 @@
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 660,
-            "end": 765,
+            "start": 658,
+            "end": 763,
             "id": null,
             "expression": false,
             "generator": false,
@@ -118,38 +119,38 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 660,
-                "end": 663,
+                "start": 658,
+                "end": 661,
                 "name": "nan"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 667,
-              "end": 765,
+              "start": 665,
+              "end": 763,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 671,
-                  "end": 763,
+                  "start": 669,
+                  "end": 761,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 671,
-                    "end": 762,
+                    "start": 669,
+                    "end": 760,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 671,
-                      "end": 687,
+                      "start": 669,
+                      "end": 685,
                       "object": {
                         "type": "Identifier",
-                        "start": 671,
-                        "end": 677,
+                        "start": 669,
+                        "end": 675,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 678,
-                        "end": 687,
+                        "start": 676,
+                        "end": 685,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -158,22 +159,22 @@
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 688,
-                        "end": 716,
+                        "start": 686,
+                        "end": 714,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 688,
-                          "end": 702,
+                          "start": 686,
+                          "end": 700,
                           "object": {
                             "type": "Identifier",
-                            "start": 688,
-                            "end": 695,
+                            "start": 686,
+                            "end": 693,
                             "name": "Atomics"
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 696,
-                            "end": 702,
+                            "start": 694,
+                            "end": 700,
                             "name": "notify"
                           },
                           "computed": false,
@@ -182,20 +183,21 @@
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 703,
-                            "end": 707,
+                            "start": 701,
+                            "end": 705,
                             "name": "i32a"
                           },
                           {
                             "type": "Literal",
-                            "start": 709,
-                            "end": 710,
-                            "value": 0
+                            "start": 707,
+                            "end": 708,
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
-                            "start": 712,
-                            "end": 715,
+                            "start": 710,
+                            "end": 713,
                             "name": "nan"
                           }
                         ],
@@ -203,15 +205,17 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 718,
-                        "end": 719,
-                        "value": 0
+                        "start": 716,
+                        "end": 717,
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
-                        "start": 721,
-                        "end": 761,
-                        "value": "Atomics.notify(i32a, 0, nan) returns 0"
+                        "start": 719,
+                        "end": 759,
+                        "value": "Atomics.notify(i32a, 0, nan) returns 0",
+                        "raw": "'Atomics.notify(i32a, 0, nan) returns 0'"
                       }
                     ],
                     "optional": false

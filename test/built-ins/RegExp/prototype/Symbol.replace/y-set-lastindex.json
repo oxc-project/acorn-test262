@@ -23,6 +23,7 @@
             "start": 686,
             "end": 692,
             "value": {},
+            "raw": "/abc/y",
             "regex": {
               "pattern": "abc",
               "flags": "y"
@@ -77,13 +78,15 @@
             "type": "Literal",
             "start": 713,
             "end": 718,
-            "value": "abc"
+            "value": "abc",
+            "raw": "'abc'"
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 723,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false
@@ -140,7 +143,8 @@
             "type": "Literal",
             "start": 757,
             "end": 758,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false

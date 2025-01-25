@@ -58,7 +58,8 @@
                       "type": "Literal",
                       "start": 323,
                       "end": 326,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -79,13 +80,15 @@
             "type": "Literal",
             "start": 340,
             "end": 345,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 347,
             "end": 394,
-            "value": "(new Number(\"a\")).toFixed() must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed() must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed() must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                       "type": "Literal",
                       "start": 426,
                       "end": 429,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -165,7 +169,8 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -174,13 +179,15 @@
             "type": "Literal",
             "start": 444,
             "end": 449,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 499,
-            "value": "(new Number(\"a\")).toFixed(0) must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(0) must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(0) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -241,7 +248,8 @@
                       "type": "Literal",
                       "start": 531,
                       "end": 534,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -260,7 +268,8 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 546,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -269,13 +278,15 @@
             "type": "Literal",
             "start": 549,
             "end": 554,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 604,
-            "value": "(new Number(\"a\")).toFixed(1) must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(1) must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(1) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -336,7 +347,8 @@
                       "type": "Literal",
                       "start": 636,
                       "end": 639,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -355,7 +367,8 @@
                 "type": "Literal",
                 "start": 650,
                 "end": 653,
-                "value": 1.1
+                "value": 1.1,
+                "raw": "1.1"
               }
             ],
             "optional": false
@@ -364,13 +377,15 @@
             "type": "Literal",
             "start": 656,
             "end": 661,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 713,
-            "value": "(new Number(\"a\")).toFixed(1.1) must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(1.1) must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(1.1) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -431,7 +446,8 @@
                       "type": "Literal",
                       "start": 745,
                       "end": 748,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -450,7 +466,8 @@
                 "type": "Literal",
                 "start": 759,
                 "end": 762,
-                "value": 0.9
+                "value": 0.9,
+                "raw": "0.9"
               }
             ],
             "optional": false
@@ -459,13 +476,15 @@
             "type": "Literal",
             "start": 765,
             "end": 770,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 822,
-            "value": "(new Number(\"a\")).toFixed(0.9) must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(0.9) must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(0.9) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -526,7 +545,8 @@
                       "type": "Literal",
                       "start": 854,
                       "end": 857,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -545,7 +565,8 @@
                 "type": "Literal",
                 "start": 868,
                 "end": 871,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -554,13 +575,15 @@
             "type": "Literal",
             "start": 874,
             "end": 879,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 931,
-            "value": "(new Number(\"a\")).toFixed(\"1\") must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(\"1\") must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(\"1\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -621,7 +644,8 @@
                       "type": "Literal",
                       "start": 963,
                       "end": 966,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -640,7 +664,8 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 982,
-                "value": "1.1"
+                "value": "1.1",
+                "raw": "\"1.1\""
               }
             ],
             "optional": false
@@ -649,13 +674,15 @@
             "type": "Literal",
             "start": 985,
             "end": 990,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 992,
             "end": 1044,
-            "value": "(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -716,7 +743,8 @@
                       "type": "Literal",
                       "start": 1076,
                       "end": 1079,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -735,7 +763,8 @@
                 "type": "Literal",
                 "start": 1090,
                 "end": 1095,
-                "value": "0.9"
+                "value": "0.9",
+                "raw": "\"0.9\""
               }
             ],
             "optional": false
@@ -744,13 +773,15 @@
             "type": "Literal",
             "start": 1098,
             "end": 1103,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1105,
             "end": 1157,
-            "value": "(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -811,7 +842,8 @@
                       "type": "Literal",
                       "start": 1193,
                       "end": 1196,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -852,13 +884,15 @@
             "type": "Literal",
             "start": 1222,
             "end": 1227,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1231,
             "end": 1288,
-            "value": "(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -919,7 +953,8 @@
                       "type": "Literal",
                       "start": 1325,
                       "end": 1328,
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   ]
                 }
@@ -938,7 +973,8 @@
                 "type": "Literal",
                 "start": 1339,
                 "end": 1352,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               }
             ],
             "optional": false
@@ -947,13 +983,15 @@
             "type": "Literal",
             "start": 1357,
             "end": 1362,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1426,
-            "value": "(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\""
+            "value": "(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\"",
+            "raw": "'(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\"'"
           }
         ],
         "optional": false
@@ -1010,7 +1048,8 @@
                           "type": "Literal",
                           "start": 1455,
                           "end": 1458,
-                          "value": "a"
+                          "value": "a",
+                          "raw": "\"a\""
                         }
                       ]
                     }
@@ -1068,7 +1107,8 @@
                   "type": "Literal",
                   "start": 1521,
                   "end": 1619,
-                  "value": "#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN"
+                  "value": "#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN",
+                  "raw": "'#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN'"
                 }
               ]
             }
@@ -1127,7 +1167,8 @@
                     "type": "Literal",
                     "start": 1670,
                     "end": 1745,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false

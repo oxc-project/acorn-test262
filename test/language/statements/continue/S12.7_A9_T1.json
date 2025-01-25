@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 325,
             "end": 326,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -39,7 +40,8 @@
             "type": "Literal",
             "start": 329,
             "end": 330,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -133,7 +135,8 @@
                                     "type": "Literal",
                                     "start": 383,
                                     "end": 385,
-                                    "value": 10
+                                    "value": 10,
+                                    "raw": "10"
                                   }
                                 },
                                 "consequent": {
@@ -152,7 +155,8 @@
                                   "type": "Literal",
                                   "start": 402,
                                   "end": 403,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 }
                               }
                             ]
@@ -225,7 +229,8 @@
           "type": "Literal",
           "start": 544,
           "end": 546,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       },
       "consequent": {
@@ -252,7 +257,8 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 634,
-                  "value": "#1: Continue inside of try-catch nested in loop is allowed"
+                  "value": "#1: Continue inside of try-catch nested in loop is allowed",
+                  "raw": "'#1: Continue inside of try-catch nested in loop is allowed'"
                 }
               ]
             }

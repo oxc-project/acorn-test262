@@ -60,14 +60,16 @@
                               "type": "Literal",
                               "start": 755,
                               "end": 1060,
-                              "value": "assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created prior to evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created prior to evaluation\"    );        for (let f of [0]) {switch (1) {"
+                              "value": "assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created prior to evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created prior to evaluation\"    );        for (let f of [0]) {switch (1) {",
+                              "raw": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f of [0]) {switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1067,
                               "end": 1078,
-                              "value": "  case 1:"
+                              "value": "  case 1:",
+                              "raw": "'  case 1:'"
                             }
                           },
                           "operator": "+",
@@ -75,7 +77,8 @@
                             "type": "Literal",
                             "start": 1085,
                             "end": 1108,
-                            "value": "    function f() {  }"
+                            "value": "    function f() {  }",
+                            "raw": "'    function f() {  }'"
                           }
                         },
                         "operator": "+",
@@ -83,7 +86,8 @@
                           "type": "Literal",
                           "start": 1115,
                           "end": 1398,
-                          "value": "}    }        assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created following evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created following evaluation\"    );"
+                          "value": "}    }        assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created following evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created following evaluation\"    );",
+                          "raw": "'}\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'"
                         }
                       }
                     ],

@@ -86,13 +86,15 @@
             "type": "Literal",
             "start": 561,
             "end": 566,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 571,
-            "value": "d"
+            "value": "d",
+            "raw": "'d'"
           }
         ],
         "optional": false

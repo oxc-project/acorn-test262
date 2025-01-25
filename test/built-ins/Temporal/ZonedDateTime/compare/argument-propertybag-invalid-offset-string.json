@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 312,
             "end": 317,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 389,
-                "value": "1000000000987654321n"
+                "value": "1000000000987654321n",
+                "raw": "1_000_000_000_987_654_321n"
               },
               {
                 "type": "Identifier",
@@ -109,43 +111,50 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 433,
-                "value": "00:00"
+                "value": "00:00",
+                "raw": "\"00:00\""
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 460,
-                "value": "+0"
+                "value": "+0",
+                "raw": "\"+0\""
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 492,
-                "value": "-000:00"
+                "value": "-000:00",
+                "raw": "\"-000:00\""
               },
               {
                 "type": "Literal",
                 "start": 509,
                 "end": 510,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 543,
                 "end": 547,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 577,
                 "end": 581,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 616,
-                "value": "1000n"
+                "value": "1000n",
+                "raw": "1000n"
               }
             ]
           }
@@ -239,7 +248,8 @@
                               "type": "Literal",
                               "start": 701,
                               "end": 705,
-                              "value": 2021
+                              "value": 2021,
+                              "raw": "2021"
                             },
                             "kind": "init"
                           },
@@ -260,7 +270,8 @@
                               "type": "Literal",
                               "start": 714,
                               "end": 716,
-                              "value": 10
+                              "value": 10,
+                              "raw": "10"
                             },
                             "kind": "init"
                           },
@@ -281,7 +292,8 @@
                               "type": "Literal",
                               "start": 723,
                               "end": 725,
-                              "value": 28
+                              "value": 28,
+                              "raw": "28"
                             },
                             "kind": "init"
                           },
@@ -392,7 +404,8 @@
                             "type": "Literal",
                             "start": 787,
                             "end": 795,
-                            "value": "string"
+                            "value": "string",
+                            "raw": "'string'"
                           }
                         },
                         "consequent": {
@@ -568,7 +581,8 @@
                             "type": "Literal",
                             "start": 988,
                             "end": 996,
-                            "value": "string"
+                            "value": "string",
+                            "raw": "'string'"
                           }
                         },
                         "consequent": {

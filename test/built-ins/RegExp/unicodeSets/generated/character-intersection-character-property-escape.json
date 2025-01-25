@@ -41,6 +41,7 @@
                   "start": 556,
                   "end": 586,
                   "value": {},
+                  "raw": "/^[_&&\\p{ASCII_Hex_Digit}]+$/v",
                   "regex": {
                     "pattern": "^[_&&\\p{ASCII_Hex_Digit}]+$",
                     "flags": "v"
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 602,
                   "end": 628,
-                  "value": "[_&&p{ASCII_Hex_Digit}]"
+                  "value": "[_&&p{ASCII_Hex_Digit}]",
+                  "raw": "\"[_&&\\p{ASCII_Hex_Digit}]\""
                 },
                 "kind": "init"
               },
@@ -112,49 +114,57 @@
                       "type": "Literal",
                       "start": 675,
                       "end": 690,
-                      "value": "6️⃣"
+                      "value": "6️⃣",
+                      "raw": "\"6\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 696,
                       "end": 699,
-                      "value": "7"
+                      "value": "7",
+                      "raw": "\"7\""
                     },
                     {
                       "type": "Literal",
                       "start": 705,
                       "end": 720,
-                      "value": "9️⃣"
+                      "value": "9️⃣",
+                      "raw": "\"9\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 726,
                       "end": 729,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "\"C\""
                     },
                     {
                       "type": "Literal",
                       "start": 735,
                       "end": 738,
-                      "value": "_"
+                      "value": "_",
+                      "raw": "\"_\""
                     },
                     {
                       "type": "Literal",
                       "start": 744,
                       "end": 752,
-                      "value": "☃"
+                      "value": "☃",
+                      "raw": "\"\\u2603\""
                     },
                     {
                       "type": "Literal",
                       "start": 758,
                       "end": 769,
-                      "value": "𝌆"
+                      "value": "𝌆",
+                      "raw": "\"\\u{1D306}\""
                     },
                     {
                       "type": "Literal",
                       "start": 775,
                       "end": 795,
-                      "value": "🇧🇪"
+                      "value": "🇧🇪",
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
                     }
                   ]
                 },

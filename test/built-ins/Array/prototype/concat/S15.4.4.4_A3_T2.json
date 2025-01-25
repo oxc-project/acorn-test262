@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 406,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -86,13 +87,15 @@
             "type": "Literal",
             "start": 437,
             "end": 438,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 483,
-            "value": "The value of a.length is expected to be 1"
+            "value": "The value of a.length is expected to be 1",
+            "raw": "'The value of a.length is expected to be 1'"
           }
         ],
         "optional": false
@@ -130,7 +133,8 @@
           "type": "Literal",
           "start": 498,
           "end": 499,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -176,7 +180,8 @@
               "type": "Literal",
               "start": 521,
               "end": 522,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -191,7 +196,8 @@
             "type": "Literal",
             "start": 536,
             "end": 586,
-            "value": "The value of a[1] is expected to equal undefined"
+            "value": "The value of a[1] is expected to equal undefined",
+            "raw": "'The value of a[1] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -239,7 +245,8 @@
               "type": "Literal",
               "start": 608,
               "end": 609,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -254,7 +261,8 @@
             "type": "Literal",
             "start": 623,
             "end": 673,
-            "value": "The value of a[2] is expected to equal undefined"
+            "value": "The value of a[2] is expected to equal undefined",
+            "raw": "'The value of a[2] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -296,7 +304,8 @@
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -305,7 +314,8 @@
           "type": "Literal",
           "start": 698,
           "end": 699,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -351,7 +361,8 @@
               "type": "Literal",
               "start": 721,
               "end": 722,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -366,7 +377,8 @@
             "type": "Literal",
             "start": 736,
             "end": 786,
-            "value": "The value of a[1] is expected to equal undefined"
+            "value": "The value of a[1] is expected to equal undefined",
+            "raw": "'The value of a[1] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -414,7 +426,8 @@
               "type": "Literal",
               "start": 808,
               "end": 809,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -423,13 +436,15 @@
             "type": "Literal",
             "start": 812,
             "end": 813,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 854,
-            "value": "The value of a[2] is expected to be 2"
+            "value": "The value of a[2] is expected to be 2",
+            "raw": "'The value of a[2] is expected to be 2'"
           }
         ],
         "optional": false
@@ -491,7 +506,8 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 894,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               }
             ],
             "optional": false
@@ -500,13 +516,15 @@
             "type": "Literal",
             "start": 897,
             "end": 902,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 945,
-            "value": "a.hasOwnProperty(\"1\") must return false"
+            "value": "a.hasOwnProperty(\"1\") must return false",
+            "raw": "'a.hasOwnProperty(\"1\") must return false'"
           }
         ],
         "optional": false
@@ -568,7 +586,8 @@
                 "type": "Literal",
                 "start": 982,
                 "end": 985,
-                "value": "2"
+                "value": "2",
+                "raw": "'2'"
               }
             ],
             "optional": false
@@ -577,13 +596,15 @@
             "type": "Literal",
             "start": 988,
             "end": 993,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1036,
-            "value": "a.hasOwnProperty(\"2\") must return false"
+            "value": "a.hasOwnProperty(\"2\") must return false",
+            "raw": "'a.hasOwnProperty(\"2\") must return false'"
           }
         ],
         "optional": false
@@ -685,13 +706,15 @@
             "type": "Literal",
             "start": 1088,
             "end": 1089,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1091,
             "end": 1134,
-            "value": "The value of b.length is expected to be 3"
+            "value": "The value of b.length is expected to be 3",
+            "raw": "'The value of b.length is expected to be 3'"
           }
         ],
         "optional": false
@@ -739,7 +762,8 @@
               "type": "Literal",
               "start": 1156,
               "end": 1157,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -748,13 +772,15 @@
             "type": "Literal",
             "start": 1160,
             "end": 1161,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1163,
             "end": 1202,
-            "value": "The value of b[0] is expected to be 0"
+            "value": "The value of b[0] is expected to be 0",
+            "raw": "'The value of b[0] is expected to be 0'"
           }
         ],
         "optional": false
@@ -802,7 +828,8 @@
               "type": "Literal",
               "start": 1224,
               "end": 1225,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -817,7 +844,8 @@
             "type": "Literal",
             "start": 1239,
             "end": 1289,
-            "value": "The value of b[1] is expected to equal undefined"
+            "value": "The value of b[1] is expected to equal undefined",
+            "raw": "'The value of b[1] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -865,7 +893,8 @@
               "type": "Literal",
               "start": 1311,
               "end": 1312,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -874,13 +903,15 @@
             "type": "Literal",
             "start": 1315,
             "end": 1316,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1318,
             "end": 1357,
-            "value": "The value of b[2] is expected to be 2"
+            "value": "The value of b[2] is expected to be 2",
+            "raw": "'The value of b[2] is expected to be 2'"
           }
         ],
         "optional": false
@@ -942,7 +973,8 @@
                 "type": "Literal",
                 "start": 1394,
                 "end": 1397,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               }
             ],
             "optional": false
@@ -951,13 +983,15 @@
             "type": "Literal",
             "start": 1400,
             "end": 1405,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1407,
             "end": 1448,
-            "value": "b.hasOwnProperty(\"1\") must return false"
+            "value": "b.hasOwnProperty(\"1\") must return false",
+            "raw": "'b.hasOwnProperty(\"1\") must return false'"
           }
         ],
         "optional": false
@@ -1019,7 +1053,8 @@
                 "type": "Literal",
                 "start": 1485,
                 "end": 1488,
-                "value": "2"
+                "value": "2",
+                "raw": "'2'"
               }
             ],
             "optional": false
@@ -1028,13 +1063,15 @@
             "type": "Literal",
             "start": 1491,
             "end": 1495,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1497,
             "end": 1537,
-            "value": "b.hasOwnProperty(\"2\") must return true"
+            "value": "b.hasOwnProperty(\"2\") must return true",
+            "raw": "'b.hasOwnProperty(\"2\") must return true'"
           }
         ],
         "optional": false

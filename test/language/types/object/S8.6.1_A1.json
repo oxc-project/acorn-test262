@@ -73,7 +73,8 @@
           "type": "Literal",
           "start": 305,
           "end": 306,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -136,7 +137,8 @@
                   "type": "Literal",
                   "start": 353,
                   "end": 396,
-                  "value": "#1: __e = Math.E; Math.E=1; Math.E ===__e"
+                  "value": "#1: __e = Math.E; Math.E=1; Math.E ===__e",
+                  "raw": "'#1: __e = Math.E; Math.E=1; Math.E ===__e'"
                 }
               ]
             }

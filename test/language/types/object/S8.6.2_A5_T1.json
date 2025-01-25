@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 353,
           "end": 354,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -164,7 +165,8 @@
           "type": "Literal",
           "start": 525,
           "end": 526,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -195,7 +197,8 @@
                     "type": "Literal",
                     "start": 555,
                     "end": 658,
-                    "value": "#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: "
+                    "value": "#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: ",
+                    "raw": "'#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -239,7 +242,8 @@
             "type": "Literal",
             "start": 856,
             "end": 863,
-            "value": "touch"
+            "value": "touch",
+            "raw": "'touch'"
           },
           "computed": true,
           "optional": false
@@ -267,7 +271,8 @@
           "type": "Literal",
           "start": 881,
           "end": 882,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -298,7 +303,8 @@
                     "type": "Literal",
                     "start": 911,
                     "end": 1039,
-                    "value": "#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen['touch'](); count === 2. Actual: "
+                    "value": "#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen['touch'](); count === 2. Actual: ",
+                    "raw": "'#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen[\\'touch\\'](); count === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

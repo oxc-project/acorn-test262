@@ -50,7 +50,8 @@
             "type": "Literal",
             "start": 274,
             "end": 282,
-            "value": "caller"
+            "value": "caller",
+            "raw": "'caller'"
           }
         ],
         "optional": false

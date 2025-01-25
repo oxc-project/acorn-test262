@@ -167,7 +167,8 @@
             "type": "Literal",
             "start": 642,
             "end": 660,
-            "value": "[object Promise]"
+            "value": "[object Promise]",
+            "raw": "'[object Promise]'"
           }
         ],
         "optional": false
@@ -295,7 +296,8 @@
             "type": "Literal",
             "start": 751,
             "end": 768,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false

@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 366,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 369,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 372,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 427,
-                "value": "-PT24.567890123H"
+                "value": "-PT24.567890123H",
+                "raw": "\"-PT24.567890123H\""
               }
             ],
             "optional": false
@@ -156,31 +160,36 @@
             "type": "Literal",
             "start": 475,
             "end": 479,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 482,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 489,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 492,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 521,
-            "value": "negative fractional hours"
+            "value": "negative fractional hours",
+            "raw": "\"negative fractional hours\""
           }
         ],
         "optional": false
@@ -229,7 +238,8 @@
                 "type": "Literal",
                 "start": 560,
                 "end": 580,
-                "value": "-PT1440.567890123M"
+                "value": "-PT1440.567890123M",
+                "raw": "\"-PT1440.567890123M\""
               }
             ],
             "optional": false
@@ -276,31 +286,36 @@
             "type": "Literal",
             "start": 630,
             "end": 634,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 637,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 644,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 647,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 678,
-            "value": "negative fractional minutes"
+            "value": "negative fractional minutes",
+            "raw": "\"negative fractional minutes\""
           }
         ],
         "optional": false

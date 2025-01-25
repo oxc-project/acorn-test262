@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 356,
             "end": 362,
-            "value": "from"
+            "value": "from",
+            "raw": "\"from\""
           },
           {
             "type": "ArrayExpression",
@@ -65,7 +66,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 399,
-                "value": "1976-11-18T14:23:30.123456789Z"
+                "value": "1976-11-18T14:23:30.123456789Z",
+                "raw": "\"1976-11-18T14:23:30.123456789Z\""
               }
             ]
           },
@@ -132,13 +134,15 @@
                   "type": "Literal",
                   "start": 458,
                   "end": 482,
-                  "value": "217175010123456789n"
+                  "value": "217175010123456789n",
+                  "raw": "217_175_010_123_456_789n"
                 },
                 {
                   "type": "Literal",
                   "start": 484,
                   "end": 509,
-                  "value": "epochNanoseconds result"
+                  "value": "epochNanoseconds result",
+                  "raw": "\"epochNanoseconds result\""
                 }
               ],
               "optional": false

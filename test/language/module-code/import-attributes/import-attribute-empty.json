@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 622,
         "end": 655,
-        "value": "./import-attribute-1_FIXTURE.js"
+        "value": "./import-attribute-1_FIXTURE.js",
+        "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -37,7 +38,8 @@
         "type": "Literal",
         "start": 672,
         "end": 705,
-        "value": "./import-attribute-2_FIXTURE.js"
+        "value": "./import-attribute-2_FIXTURE.js",
+        "raw": "'./import-attribute-2_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -50,7 +52,8 @@
         "type": "Literal",
         "start": 729,
         "end": 762,
-        "value": "./import-attribute-3_FIXTURE.js"
+        "value": "./import-attribute-3_FIXTURE.js",
+        "raw": "'./import-attribute-3_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -92,7 +95,8 @@
             "type": "Literal",
             "start": 793,
             "end": 798,
-            "value": 262.1
+            "value": 262.1,
+            "raw": "262.1"
           }
         ],
         "optional": false

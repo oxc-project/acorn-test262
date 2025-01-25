@@ -67,13 +67,15 @@
             "type": "Literal",
             "start": 269,
             "end": 270,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 272,
             "end": 289,
-            "value": "Date.now.length"
+            "value": "Date.now.length",
+            "raw": "'Date.now.length'"
           }
         ],
         "optional": false

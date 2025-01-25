@@ -49,7 +49,8 @@
               "type": "Literal",
               "start": 637,
               "end": 638,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ],
@@ -70,7 +71,8 @@
           "type": "Literal",
           "start": 645,
           "end": 646,
-          "value": 9
+          "value": 9,
+          "raw": "9"
         }
       },
       "update": {
@@ -114,7 +116,8 @@
                     "type": "Literal",
                     "start": 674,
                     "end": 677,
-                    "value": "$"
+                    "value": "$",
+                    "raw": "\"$\""
                   },
                   "operator": "+",
                   "right": {
@@ -215,7 +218,8 @@
                       "type": "Literal",
                       "start": 770,
                       "end": 779,
-                      "value": "RegExp."
+                      "value": "RegExp.",
+                      "raw": "\"RegExp.\""
                     },
                     "operator": "+",
                     "right": {
@@ -230,7 +234,8 @@
                     "type": "Literal",
                     "start": 793,
                     "end": 831,
-                    "value": " getter throws for subclass receiver"
+                    "value": " getter throws for subclass receiver",
+                    "raw": "\" getter throws for subclass receiver\""
                   }
                 }
               ],

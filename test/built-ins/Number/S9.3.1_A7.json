@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 533,
                 "end": 544,
-                "value": "1234.5678"
+                "value": "1234.5678",
+                "raw": "\"1234.5678\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 549,
             "end": 558,
-            "value": 1234.5678
+            "value": 1234.5678,
+            "raw": "1234.5678"
           },
           {
             "type": "Literal",
             "start": 562,
             "end": 631,
-            "value": "Number(\"1234.5678\") must return Number(\"1234\") + (+(\"5678\") * 1e-4)"
+            "value": "Number(\"1234.5678\") must return Number(\"1234\") + (+(\"5678\") * 1e-4)",
+            "raw": "'Number(\"1234.5678\") must return Number(\"1234\") + (+(\"5678\") * 1e-4)'"
           }
         ],
         "optional": false

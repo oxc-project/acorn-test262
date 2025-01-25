@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 580,
             "end": 601,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -84,7 +85,8 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 642,
-                "value": "!"
+                "value": "!",
+                "raw": "'!'"
               },
               {
                 "type": "MemberExpression",
@@ -112,13 +114,15 @@
             "type": "Literal",
             "start": 657,
             "end": 662,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 713,
-            "value": "str.startsWith(\"!\", str.length) returns false"
+            "value": "str.startsWith(\"!\", str.length) returns false",
+            "raw": "'str.startsWith(\"!\", str.length) returns false'"
           }
         ],
         "optional": false
@@ -180,13 +184,15 @@
                 "type": "Literal",
                 "start": 753,
                 "end": 756,
-                "value": "!"
+                "value": "!",
+                "raw": "'!'"
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 761,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             ],
             "optional": false
@@ -195,13 +201,15 @@
             "type": "Literal",
             "start": 764,
             "end": 769,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 773,
             "end": 813,
-            "value": "str.startsWith(\"!\", 100) returns false"
+            "value": "str.startsWith(\"!\", 100) returns false",
+            "raw": "'str.startsWith(\"!\", 100) returns false'"
           }
         ],
         "optional": false
@@ -263,7 +271,8 @@
                 "type": "Literal",
                 "start": 853,
                 "end": 856,
-                "value": "!"
+                "value": "!",
+                "raw": "'!'"
               },
               {
                 "type": "Identifier",
@@ -278,13 +287,15 @@
             "type": "Literal",
             "start": 869,
             "end": 874,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 923,
-            "value": "str.startsWith(\"!\", Infinity) returns false"
+            "value": "str.startsWith(\"!\", Infinity) returns false",
+            "raw": "'str.startsWith(\"!\", Infinity) returns false'"
           }
         ],
         "optional": false
@@ -333,7 +344,8 @@
                 "type": "Literal",
                 "start": 953,
                 "end": 965,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "UnaryExpression",
@@ -345,7 +357,8 @@
                   "type": "Literal",
                   "start": 968,
                   "end": 969,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -355,7 +368,8 @@
             "type": "Literal",
             "start": 974,
             "end": 1043,
-            "value": "position argument < 0 will search from the start of the string (-1)"
+            "value": "position argument < 0 will search from the start of the string (-1)",
+            "raw": "'position argument < 0 will search from the start of the string (-1)'"
           }
         ],
         "optional": false
@@ -404,7 +418,8 @@
                 "type": "Literal",
                 "start": 1073,
                 "end": 1085,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "UnaryExpression",
@@ -426,7 +441,8 @@
             "type": "Literal",
             "start": 1101,
             "end": 1177,
-            "value": "position argument < 0 will search from the start of the string (-Infinity)"
+            "value": "position argument < 0 will search from the start of the string (-Infinity)",
+            "raw": "'position argument < 0 will search from the start of the string (-Infinity)'"
           }
         ],
         "optional": false

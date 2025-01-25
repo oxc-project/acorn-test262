@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 755,
             "end": 760,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 815,
-            "value": "isConstructor(ArrayBuffer.isView) must return false"
+            "value": "isConstructor(ArrayBuffer.isView) must return false",
+            "raw": "'isConstructor(ArrayBuffer.isView) must return false'"
           }
         ],
         "optional": false

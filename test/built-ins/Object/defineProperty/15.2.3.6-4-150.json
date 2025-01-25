@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 477,
             "end": 482,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -72,7 +73,8 @@
             "type": "Literal",
             "start": 506,
             "end": 511,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -164,7 +166,8 @@
                         "type": "Literal",
                         "start": 583,
                         "end": 591,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -235,7 +238,8 @@
                                               "type": "Literal",
                                               "start": 664,
                                               "end": 668,
-                                              "value": true
+                                              "value": true,
+                                              "raw": "true"
                                             }
                                           }
                                         },
@@ -301,7 +305,8 @@
                                               "type": "Literal",
                                               "start": 753,
                                               "end": 757,
-                                              "value": true
+                                              "value": true,
+                                              "raw": "true"
                                             }
                                           }
                                         },
@@ -363,7 +368,8 @@
             "type": "Literal",
             "start": 827,
             "end": 854,
-            "value": "toStringAccessed !== true"
+            "value": "toStringAccessed !== true",
+            "raw": "'toStringAccessed !== true'"
           }
         ],
         "optional": false
@@ -394,7 +400,8 @@
             "type": "Literal",
             "start": 881,
             "end": 907,
-            "value": "valueOfAccessed !== true"
+            "value": "valueOfAccessed !== true",
+            "raw": "'valueOfAccessed !== true'"
           }
         ],
         "optional": false

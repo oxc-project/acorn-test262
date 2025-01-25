@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 542,
             "end": 552,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 583,
-            "value": "Array.fromAsync is callable"
+            "value": "Array.fromAsync is callable",
+            "raw": "\"Array.fromAsync is callable\""
           }
         ],
         "optional": false
@@ -98,7 +100,8 @@
             "type": "Literal",
             "start": 609,
             "end": 620,
-            "value": "fromAsync"
+            "value": "fromAsync",
+            "raw": "'fromAsync'"
           },
           {
             "type": "ObjectExpression",
@@ -122,7 +125,8 @@
                   "type": "Literal",
                   "start": 636,
                   "end": 640,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -143,7 +147,8 @@
                   "type": "Literal",
                   "start": 656,
                   "end": 661,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -164,7 +169,8 @@
                   "type": "Literal",
                   "start": 679,
                   "end": 683,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

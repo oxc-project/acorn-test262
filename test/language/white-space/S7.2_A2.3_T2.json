@@ -15,14 +15,16 @@
           "type": "Literal",
           "start": 261,
           "end": 272,
-          "value": "\fstr\fing\f"
+          "value": "\fstr\fing\f",
+          "raw": "\"\fstr\fing\f\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 277,
           "end": 303,
-          "value": "\fstr\fing\f"
+          "value": "\fstr\fing\f",
+          "raw": "\"\\u000Cstr\\u000Cing\\u000C\""
         }
       },
       "consequent": {
@@ -49,7 +51,8 @@
                   "type": "Literal",
                   "start": 332,
                   "end": 383,
-                  "value": "#1: \"\fstr\fing\f\" === \"\\u000Cstr\\u000Cing\\u000C\""
+                  "value": "#1: \"\fstr\fing\f\" === \"\\u000Cstr\\u000Cing\\u000C\"",
+                  "raw": "'#1: \"\fstr\fing\f\" === \"\\\\u000Cstr\\\\u000Cing\\\\u000C\"'"
                 }
               ]
             }

@@ -96,7 +96,8 @@
                     "type": "Literal",
                     "start": 327,
                     "end": 332,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               }
@@ -107,13 +108,15 @@
             "type": "Literal",
             "start": 336,
             "end": 343,
-            "value": "false"
+            "value": "false",
+            "raw": "\"false\""
           },
           {
             "type": "Literal",
             "start": 345,
             "end": 393,
-            "value": "String.prototype.trim.call(new Boolean(false))"
+            "value": "String.prototype.trim.call(new Boolean(false))",
+            "raw": "'String.prototype.trim.call(new Boolean(false))'"
           }
         ],
         "optional": false

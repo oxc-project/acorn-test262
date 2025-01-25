@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 349,
             "end": 350,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -161,7 +162,8 @@
           "type": "Literal",
           "start": 546,
           "end": 547,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -192,7 +194,8 @@
                     "type": "Literal",
                     "start": 576,
                     "end": 702,
-                    "value": "#1: var n = 1; var m = n; function addFirst2Second(first, second){first += second;} addFirst2Second(n, m); m === 1. Actual: "
+                    "value": "#1: var n = 1; var m = n; function addFirst2Second(first, second){first += second;} addFirst2Second(n, m); m === 1. Actual: ",
+                    "raw": "'#1: var n = 1; var m = n; function addFirst2Second(first, second){first += second;} addFirst2Second(n, m); m === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

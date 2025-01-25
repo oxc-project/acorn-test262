@@ -120,7 +120,8 @@
             "type": "Literal",
             "start": 777,
             "end": 801,
-            "value": "[object Intl.Collator]"
+            "value": "[object Intl.Collator]",
+            "raw": "\"[object Intl.Collator]\""
           }
         ],
         "optional": false
@@ -236,7 +237,8 @@
             "type": "Literal",
             "start": 874,
             "end": 898,
-            "value": "[object Intl.Collator]"
+            "value": "[object Intl.Collator]",
+            "raw": "\"[object Intl.Collator]\""
           }
         ],
         "optional": false

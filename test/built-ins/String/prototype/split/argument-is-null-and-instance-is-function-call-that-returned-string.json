@@ -52,7 +52,8 @@
                           "type": "Literal",
                           "start": 669,
                           "end": 679,
-                          "value": "gnulluna"
+                          "value": "gnulluna",
+                          "raw": "\"gnulluna\""
                         }
                       }
                     ]
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 694,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -129,13 +131,15 @@
             "type": "Literal",
             "start": 731,
             "end": 739,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 784,
-            "value": "The value of `typeof __split` is \"object\""
+            "value": "The value of `typeof __split` is \"object\"",
+            "raw": "'The value of `typeof __split` is \"object\"'"
           }
         ],
         "optional": false
@@ -198,7 +202,8 @@
             "type": "Literal",
             "start": 840,
             "end": 914,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -255,13 +260,15 @@
             "type": "Literal",
             "start": 952,
             "end": 953,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 955,
             "end": 989,
-            "value": "The value of __split.length is 2"
+            "value": "The value of __split.length is 2",
+            "raw": "'The value of __split.length is 2'"
           }
         ],
         "optional": false
@@ -309,7 +316,8 @@
               "type": "Literal",
               "start": 1017,
               "end": 1018,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -318,13 +326,15 @@
             "type": "Literal",
             "start": 1021,
             "end": 1024,
-            "value": "g"
+            "value": "g",
+            "raw": "\"g\""
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1058,
-            "value": "The value of __split[0] is \"g\""
+            "value": "The value of __split[0] is \"g\"",
+            "raw": "'The value of __split[0] is \"g\"'"
           }
         ],
         "optional": false
@@ -372,7 +382,8 @@
               "type": "Literal",
               "start": 1086,
               "end": 1087,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -381,13 +392,15 @@
             "type": "Literal",
             "start": 1090,
             "end": 1095,
-            "value": "una"
+            "value": "una",
+            "raw": "\"una\""
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1131,
-            "value": "The value of __split[1] is \"una\""
+            "value": "The value of __split[1] is \"una\"",
+            "raw": "'The value of __split[1] is \"una\"'"
           }
         ],
         "optional": false

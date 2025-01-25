@@ -112,13 +112,15 @@
                     "type": "Literal",
                     "start": 450,
                     "end": 456,
-                    "value": "latn"
+                    "value": "latn",
+                    "raw": "\"latn\""
                   },
                   {
                     "type": "Literal",
                     "start": 458,
                     "end": 464,
-                    "value": "arab"
+                    "value": "arab",
+                    "raw": "\"arab\""
                   }
                 ]
               },
@@ -207,7 +209,8 @@
                                   "type": "Literal",
                                   "start": 521,
                                   "end": 529,
-                                  "value": "-u-nu-"
+                                  "value": "-u-nu-",
+                                  "raw": "\"-u-nu-\""
                                 }
                               },
                               "operator": "+",
@@ -289,7 +292,8 @@
             "type": "Literal",
             "start": 625,
             "end": 631,
-            "value": "latn"
+            "value": "latn",
+            "raw": "\"latn\""
           }
         ],
         "optional": false
@@ -353,7 +357,8 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 711,
-                        "value": "-u-nu-lATn"
+                        "value": "-u-nu-lATn",
+                        "raw": "\"-u-nu-lATn\""
                       }
                     }
                   ]
@@ -433,13 +438,15 @@
                   "type": "Literal",
                   "start": 783,
                   "end": 789,
-                  "value": "latn"
+                  "value": "latn",
+                  "raw": "\"latn\""
                 },
                 {
                   "type": "Literal",
                   "start": 791,
                   "end": 840,
-                  "value": "Numbering system option should be in lower case"
+                  "value": "Numbering system option should be in lower case",
+                  "raw": "\"Numbering system option should be in lower case\""
                 }
               ],
               "optional": false
@@ -481,7 +488,8 @@
             "type": "Literal",
             "start": 885,
             "end": 891,
-            "value": "arab"
+            "value": "arab",
+            "raw": "\"arab\""
           }
         ],
         "optional": false
@@ -545,7 +553,8 @@
                         "type": "Literal",
                         "start": 959,
                         "end": 971,
-                        "value": "-u-nu-Arab"
+                        "value": "-u-nu-Arab",
+                        "raw": "\"-u-nu-Arab\""
                       }
                     }
                   ]
@@ -625,13 +634,15 @@
                   "type": "Literal",
                   "start": 1043,
                   "end": 1049,
-                  "value": "arab"
+                  "value": "arab",
+                  "raw": "\"arab\""
                 },
                 {
                   "type": "Literal",
                   "start": 1051,
                   "end": 1100,
-                  "value": "Numbering system option should be in lower case"
+                  "value": "Numbering system option should be in lower case",
+                  "raw": "\"Numbering system option should be in lower case\""
                 }
               ],
               "optional": false
@@ -673,13 +684,15 @@
                     "type": "Literal",
                     "start": 1132,
                     "end": 1141,
-                    "value": "gregory"
+                    "value": "gregory",
+                    "raw": "\"gregory\""
                   },
                   {
                     "type": "Literal",
                     "start": 1143,
                     "end": 1152,
-                    "value": "chinese"
+                    "value": "chinese",
+                    "raw": "\"chinese\""
                   }
                 ]
               },
@@ -768,7 +781,8 @@
                                   "type": "Literal",
                                   "start": 1209,
                                   "end": 1217,
-                                  "value": "-u-ca-"
+                                  "value": "-u-ca-",
+                                  "raw": "\"-u-ca-\""
                                 }
                               },
                               "operator": "+",
@@ -850,7 +864,8 @@
             "type": "Literal",
             "start": 1299,
             "end": 1308,
-            "value": "gregory"
+            "value": "gregory",
+            "raw": "\"gregory\""
           }
         ],
         "optional": false
@@ -914,7 +929,8 @@
                         "type": "Literal",
                         "start": 1376,
                         "end": 1391,
-                        "value": "-u-ca-Gregory"
+                        "value": "-u-ca-Gregory",
+                        "raw": "\"-u-ca-Gregory\""
                       }
                     }
                   ]
@@ -994,13 +1010,15 @@
                   "type": "Literal",
                   "start": 1456,
                   "end": 1465,
-                  "value": "gregory"
+                  "value": "gregory",
+                  "raw": "\"gregory\""
                 },
                 {
                   "type": "Literal",
                   "start": 1467,
                   "end": 1508,
-                  "value": "Calendar option should be in lower case"
+                  "value": "Calendar option should be in lower case",
+                  "raw": "\"Calendar option should be in lower case\""
                 }
               ],
               "optional": false
@@ -1042,7 +1060,8 @@
             "type": "Literal",
             "start": 1546,
             "end": 1555,
-            "value": "chinese"
+            "value": "chinese",
+            "raw": "\"chinese\""
           }
         ],
         "optional": false
@@ -1106,7 +1125,8 @@
                         "type": "Literal",
                         "start": 1623,
                         "end": 1638,
-                        "value": "-u-ca-CHINESE"
+                        "value": "-u-ca-CHINESE",
+                        "raw": "\"-u-ca-CHINESE\""
                       }
                     }
                   ]
@@ -1186,13 +1206,15 @@
                   "type": "Literal",
                   "start": 1703,
                   "end": 1712,
-                  "value": "chinese"
+                  "value": "chinese",
+                  "raw": "\"chinese\""
                 },
                 {
                   "type": "Literal",
                   "start": 1714,
                   "end": 1755,
-                  "value": "Calendar option should be in lower case"
+                  "value": "Calendar option should be in lower case",
+                  "raw": "\"Calendar option should be in lower case\""
                 }
               ],
               "optional": false

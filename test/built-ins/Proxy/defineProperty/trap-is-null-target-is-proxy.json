@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 720,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -93,7 +94,8 @@
             "type": "Literal",
             "start": 758,
             "end": 763,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -117,7 +119,8 @@
                   "type": "Literal",
                   "start": 783,
                   "end": 788,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -225,7 +228,8 @@
                       "type": "Literal",
                       "start": 919,
                       "end": 923,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -323,7 +327,8 @@
                         "type": "Literal",
                         "start": 1010,
                         "end": 1015,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "\"foo\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -347,7 +352,8 @@
                               "type": "Literal",
                               "start": 1037,
                               "end": 1041,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -402,7 +408,8 @@
             "type": "Literal",
             "start": 1094,
             "end": 1099,
-            "value": "bar"
+            "value": "bar",
+            "raw": "\"bar\""
           },
           {
             "type": "ObjectExpression",
@@ -444,7 +451,8 @@
                           "type": "Literal",
                           "start": 1134,
                           "end": 1135,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -509,7 +517,8 @@
             "type": "Literal",
             "start": 1180,
             "end": 1181,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -535,6 +544,7 @@
             "start": 1199,
             "end": 1206,
             "value": {},
+            "raw": "/(?:)/g",
             "regex": {
               "pattern": "(?:)",
               "flags": "g"
@@ -642,7 +652,8 @@
                       "type": "Literal",
                       "start": 1312,
                       "end": 1316,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -703,7 +714,8 @@
                 "type": "Literal",
                 "start": 1369,
                 "end": 1380,
-                "value": "lastIndex"
+                "value": "lastIndex",
+                "raw": "\"lastIndex\""
               },
               {
                 "type": "ObjectExpression",
@@ -727,7 +739,8 @@
                       "type": "Literal",
                       "start": 1398,
                       "end": 1403,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     },
                     "kind": "init"
                   }
@@ -765,7 +778,8 @@
             "type": "Literal",
             "start": 1440,
             "end": 1451,
-            "value": "lastIndex"
+            "value": "lastIndex",
+            "raw": "\"lastIndex\""
           }
         ],
         "optional": false

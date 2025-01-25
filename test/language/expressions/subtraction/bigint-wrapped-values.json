@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 359,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 363,
               "end": 365,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 369,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 371,
             "end": 410,
-            "value": "The result of (Object(2n) - 1n) is 1n"
+            "value": "The result of (Object(2n) - 1n) is 1n",
+            "raw": "'The result of (Object(2n) - 1n) is 1n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 430,
               "end": 432,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "-",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 444,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 447,
             "end": 449,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 490,
-            "value": "The result of (3n - Object(2n)) is 1n"
+            "value": "The result of (3n - Object(2n)) is 1n",
+            "raw": "'The result of (3n - Object(2n)) is 1n'"
           }
         ],
         "optional": false
@@ -240,7 +248,8 @@
                             "type": "Literal",
                             "start": 561,
                             "end": 563,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -255,20 +264,23 @@
               "type": "Literal",
               "start": 573,
               "end": 575,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 579,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 659,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) - 1n) is 1n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) - 1n) is 1n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) - 1n) is 1n'"
           }
         ],
         "optional": false
@@ -310,7 +322,8 @@
               "type": "Literal",
               "start": 680,
               "end": 682,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "-",
             "right": {
@@ -366,7 +379,8 @@
                             "type": "Literal",
                             "start": 735,
                             "end": 737,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -381,13 +395,15 @@
             "type": "Literal",
             "start": 746,
             "end": 748,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 826,
-            "value": "The result of (3n - {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n - {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n - {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -465,7 +481,8 @@
                             "type": "Literal",
                             "start": 884,
                             "end": 886,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -480,20 +497,23 @@
               "type": "Literal",
               "start": 896,
               "end": 898,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 900,
             "end": 902,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 969,
-            "value": "The result of (({valueOf: function() {return 2n;}}) - 1n) is 1n"
+            "value": "The result of (({valueOf: function() {return 2n;}}) - 1n) is 1n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) - 1n) is 1n'"
           }
         ],
         "optional": false
@@ -535,7 +555,8 @@
               "type": "Literal",
               "start": 990,
               "end": 992,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "-",
             "right": {
@@ -578,7 +599,8 @@
                             "type": "Literal",
                             "start": 1032,
                             "end": 1034,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -593,13 +615,15 @@
             "type": "Literal",
             "start": 1043,
             "end": 1045,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1047,
             "end": 1110,
-            "value": "The result of (3n - {valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n - {valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n - {valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -677,7 +701,8 @@
                             "type": "Literal",
                             "start": 1169,
                             "end": 1171,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -692,20 +717,23 @@
               "type": "Literal",
               "start": 1181,
               "end": 1183,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1187,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1189,
             "end": 1255,
-            "value": "The result of (({toString: function() {return 2n;}}) - 1n) is 1n"
+            "value": "The result of (({toString: function() {return 2n;}}) - 1n) is 1n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) - 1n) is 1n'"
           }
         ],
         "optional": false
@@ -747,7 +775,8 @@
               "type": "Literal",
               "start": 1276,
               "end": 1278,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "-",
             "right": {
@@ -790,7 +819,8 @@
                             "type": "Literal",
                             "start": 1319,
                             "end": 1321,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -805,13 +835,15 @@
             "type": "Literal",
             "start": 1330,
             "end": 1332,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1334,
             "end": 1398,
-            "value": "The result of (3n - {toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n - {toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n - {toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false

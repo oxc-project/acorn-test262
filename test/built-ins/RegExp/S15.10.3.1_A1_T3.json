@@ -111,7 +111,8 @@
           "type": "Literal",
           "start": 473,
           "end": 474,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -166,13 +167,15 @@
             "type": "Literal",
             "start": 516,
             "end": 517,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 574,
-            "value": "The value of __instance.indicator is expected to be 1"
+            "value": "The value of __instance.indicator is expected to be 1",
+            "raw": "'The value of __instance.indicator is expected to be 1'"
           }
         ],
         "optional": false

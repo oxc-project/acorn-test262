@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 398,
             "end": 403,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 452,
-            "value": "Object.prototype.toString() must return false"
+            "value": "Object.prototype.toString() must return false",
+            "raw": "'Object.prototype.toString() must return false'"
           }
         ],
         "optional": false
@@ -202,7 +204,8 @@
                   "type": "Literal",
                   "start": 553,
                   "end": 600,
-                  "value": "#2: Object prototype object has not prototype"
+                  "value": "#2: Object prototype object has not prototype",
+                  "raw": "'#2: Object prototype object has not prototype'"
                 }
               ]
             }
@@ -274,13 +277,15 @@
                     "type": "Literal",
                     "start": 669,
                     "end": 673,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 679,
                     "end": 753,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

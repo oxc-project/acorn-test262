@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 356,
               "end": 358,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "===",
             "right": {
@@ -53,13 +54,15 @@
             "type": "Literal",
             "start": 373,
             "end": 378,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 422,
-            "value": "The result of (0n === Infinity) is false"
+            "value": "The result of (0n === Infinity) is false",
+            "raw": "'The result of (0n === Infinity) is false'"
           }
         ],
         "optional": false
@@ -108,20 +111,23 @@
               "type": "Literal",
               "start": 455,
               "end": 457,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 464,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 508,
-            "value": "The result of (Infinity === 0n) is false"
+            "value": "The result of (Infinity === 0n) is false",
+            "raw": "'The result of (Infinity === 0n) is false'"
           }
         ],
         "optional": false
@@ -163,7 +169,8 @@
               "type": "Literal",
               "start": 528,
               "end": 530,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "===",
             "right": {
@@ -177,13 +184,15 @@
             "type": "Literal",
             "start": 545,
             "end": 550,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 594,
-            "value": "The result of (1n === Infinity) is false"
+            "value": "The result of (1n === Infinity) is false",
+            "raw": "'The result of (1n === Infinity) is false'"
           }
         ],
         "optional": false
@@ -232,20 +241,23 @@
               "type": "Literal",
               "start": 627,
               "end": 629,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 636,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 680,
-            "value": "The result of (Infinity === 1n) is false"
+            "value": "The result of (Infinity === 1n) is false",
+            "raw": "'The result of (Infinity === 1n) is false'"
           }
         ],
         "optional": false
@@ -293,7 +305,8 @@
                 "type": "Literal",
                 "start": 701,
                 "end": 703,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "===",
@@ -308,13 +321,15 @@
             "type": "Literal",
             "start": 718,
             "end": 723,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 768,
-            "value": "The result of (-1n === Infinity) is false"
+            "value": "The result of (-1n === Infinity) is false",
+            "raw": "'The result of (-1n === Infinity) is false'"
           }
         ],
         "optional": false
@@ -369,7 +384,8 @@
                 "type": "Literal",
                 "start": 802,
                 "end": 804,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -377,13 +393,15 @@
             "type": "Literal",
             "start": 806,
             "end": 811,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 856,
-            "value": "The result of (Infinity === -1n) is false"
+            "value": "The result of (Infinity === -1n) is false",
+            "raw": "'The result of (Infinity === -1n) is false'"
           }
         ],
         "optional": false
@@ -425,7 +443,8 @@
               "type": "Literal",
               "start": 876,
               "end": 878,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "===",
             "right": {
@@ -446,13 +465,15 @@
             "type": "Literal",
             "start": 894,
             "end": 899,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 901,
             "end": 944,
-            "value": "The result of (0n === -Infinity) is false"
+            "value": "The result of (0n === -Infinity) is false",
+            "raw": "'The result of (0n === -Infinity) is false'"
           }
         ],
         "optional": false
@@ -508,20 +529,23 @@
               "type": "Literal",
               "start": 978,
               "end": 980,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 982,
             "end": 987,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 989,
             "end": 1032,
-            "value": "The result of (-Infinity === 0n) is false"
+            "value": "The result of (-Infinity === 0n) is false",
+            "raw": "'The result of (-Infinity === 0n) is false'"
           }
         ],
         "optional": false
@@ -563,7 +587,8 @@
               "type": "Literal",
               "start": 1052,
               "end": 1054,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "===",
             "right": {
@@ -584,13 +609,15 @@
             "type": "Literal",
             "start": 1070,
             "end": 1075,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1077,
             "end": 1120,
-            "value": "The result of (1n === -Infinity) is false"
+            "value": "The result of (1n === -Infinity) is false",
+            "raw": "'The result of (1n === -Infinity) is false'"
           }
         ],
         "optional": false
@@ -646,20 +673,23 @@
               "type": "Literal",
               "start": 1154,
               "end": 1156,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1158,
             "end": 1163,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1165,
             "end": 1208,
-            "value": "The result of (-Infinity === 1n) is false"
+            "value": "The result of (-Infinity === 1n) is false",
+            "raw": "'The result of (-Infinity === 1n) is false'"
           }
         ],
         "optional": false
@@ -707,7 +737,8 @@
                 "type": "Literal",
                 "start": 1229,
                 "end": 1231,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "===",
@@ -729,13 +760,15 @@
             "type": "Literal",
             "start": 1247,
             "end": 1252,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1298,
-            "value": "The result of (-1n === -Infinity) is false"
+            "value": "The result of (-1n === -Infinity) is false",
+            "raw": "'The result of (-1n === -Infinity) is false'"
           }
         ],
         "optional": false
@@ -797,7 +830,8 @@
                 "type": "Literal",
                 "start": 1333,
                 "end": 1335,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -805,13 +839,15 @@
             "type": "Literal",
             "start": 1337,
             "end": 1342,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1388,
-            "value": "The result of (-Infinity === -1n) is false"
+            "value": "The result of (-Infinity === -1n) is false",
+            "raw": "'The result of (-Infinity === -1n) is false'"
           }
         ],
         "optional": false
@@ -853,7 +889,8 @@
               "type": "Literal",
               "start": 1408,
               "end": 1410,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "===",
             "right": {
@@ -867,13 +904,15 @@
             "type": "Literal",
             "start": 1420,
             "end": 1425,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1427,
             "end": 1464,
-            "value": "The result of (0n === NaN) is false"
+            "value": "The result of (0n === NaN) is false",
+            "raw": "'The result of (0n === NaN) is false'"
           }
         ],
         "optional": false
@@ -922,20 +961,23 @@
               "type": "Literal",
               "start": 1492,
               "end": 1494,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1496,
             "end": 1501,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1503,
             "end": 1540,
-            "value": "The result of (NaN === 0n) is false"
+            "value": "The result of (NaN === 0n) is false",
+            "raw": "'The result of (NaN === 0n) is false'"
           }
         ],
         "optional": false
@@ -977,7 +1019,8 @@
               "type": "Literal",
               "start": 1560,
               "end": 1562,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "===",
             "right": {
@@ -991,13 +1034,15 @@
             "type": "Literal",
             "start": 1572,
             "end": 1577,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1579,
             "end": 1616,
-            "value": "The result of (1n === NaN) is false"
+            "value": "The result of (1n === NaN) is false",
+            "raw": "'The result of (1n === NaN) is false'"
           }
         ],
         "optional": false
@@ -1046,20 +1091,23 @@
               "type": "Literal",
               "start": 1644,
               "end": 1646,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1648,
             "end": 1653,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1655,
             "end": 1692,
-            "value": "The result of (NaN === 1n) is false"
+            "value": "The result of (NaN === 1n) is false",
+            "raw": "'The result of (NaN === 1n) is false'"
           }
         ],
         "optional": false
@@ -1107,7 +1155,8 @@
                 "type": "Literal",
                 "start": 1713,
                 "end": 1715,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "===",
@@ -1122,13 +1171,15 @@
             "type": "Literal",
             "start": 1725,
             "end": 1730,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1732,
             "end": 1770,
-            "value": "The result of (-1n === NaN) is false"
+            "value": "The result of (-1n === NaN) is false",
+            "raw": "'The result of (-1n === NaN) is false'"
           }
         ],
         "optional": false
@@ -1183,7 +1234,8 @@
                 "type": "Literal",
                 "start": 1799,
                 "end": 1801,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -1191,13 +1243,15 @@
             "type": "Literal",
             "start": 1803,
             "end": 1808,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1810,
             "end": 1848,
-            "value": "The result of (NaN === -1n) is false"
+            "value": "The result of (NaN === -1n) is false",
+            "raw": "'The result of (NaN === -1n) is false'"
           }
         ],
         "optional": false

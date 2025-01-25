@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 864,
             "end": 867,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -72,7 +73,8 @@
                   "type": "Literal",
                   "start": 880,
                   "end": 883,
-                  "value": "x"
+                  "value": "x",
+                  "raw": "'x'"
                 },
                 "kind": "init"
               },
@@ -93,7 +95,8 @@
                   "type": "Literal",
                   "start": 899,
                   "end": 904,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -114,7 +117,8 @@
                   "type": "Literal",
                   "start": 918,
                   "end": 922,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -135,7 +139,8 @@
                   "type": "Literal",
                   "start": 940,
                   "end": 944,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -176,14 +181,16 @@
                   "type": "Literal",
                   "start": 958,
                   "end": 1195,
-                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: false,    writable: true,    configurable: true  }, { restore: true });switch (1) {"
+                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: false,    writable: true,    configurable: true  }, { restore: true });switch (1) {",
+                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: false,\\\n    writable: true,\\\n    configurable: true\\\n  }, { restore: true });switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1200,
                   "end": 1211,
-                  "value": "  case 1:"
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
                 }
               },
               "operator": "+",
@@ -191,7 +198,8 @@
                 "type": "Literal",
                 "start": 1216,
                 "end": 1239,
-                "value": "    function f() {  }"
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
               }
             },
             "operator": "+",
@@ -199,7 +207,8 @@
               "type": "Literal",
               "start": 1244,
               "end": 1251,
-              "value": "}  "
+              "value": "}  ",
+              "raw": "'}\\\n  '"
             }
           }
         ],
@@ -251,7 +260,8 @@
             "type": "Literal",
             "start": 1283,
             "end": 1293,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -282,7 +292,8 @@
             "type": "Literal",
             "start": 1319,
             "end": 1322,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -306,7 +317,8 @@
                   "type": "Literal",
                   "start": 1340,
                   "end": 1345,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -327,7 +339,8 @@
                   "type": "Literal",
                   "start": 1359,
                   "end": 1363,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -348,7 +361,8 @@
                   "type": "Literal",
                   "start": 1381,
                   "end": 1385,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

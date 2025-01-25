@@ -23,6 +23,7 @@
             "start": 2170,
             "end": 2180,
             "value": null,
+            "raw": "/(?s:.es)/",
             "regex": {
               "pattern": "(?s:.es)",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2198,
                 "end": 2203,
-                "value": "aes"
+                "value": "aes",
+                "raw": "\"aes\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2206,
             "end": 2242,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2261,
                 "end": 2267,
-                "value": "\nes"
+                "value": "\nes",
+                "raw": "\"\\nes\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2270,
             "end": 2306,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -197,7 +202,8 @@
                   "type": "Literal",
                   "start": 2326,
                   "end": 2331,
-                  "value": "aeS"
+                  "value": "aeS",
+                  "raw": "\"aeS\""
                 }
               ],
               "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 2334,
             "end": 2374,
-            "value": "s should not match S in modified group"
+            "value": "s should not match S in modified group",
+            "raw": "\"s should not match S in modified group\""
           }
         ],
         "optional": false
@@ -262,7 +269,8 @@
                   "type": "Literal",
                   "start": 2394,
                   "end": 2400,
-                  "value": "\neS"
+                  "value": "\neS",
+                  "raw": "\"\\neS\""
                 }
               ],
               "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2403,
             "end": 2443,
-            "value": "s should not match S in modified group"
+            "value": "s should not match S in modified group",
+            "raw": "\"s should not match S in modified group\""
           }
         ],
         "optional": false
@@ -298,6 +307,7 @@
             "start": 2457,
             "end": 2468,
             "value": null,
+            "raw": "/(?s:.es)/i",
             "regex": {
               "pattern": "(?s:.es)",
               "flags": "i"
@@ -350,7 +360,8 @@
                 "type": "Literal",
                 "start": 2486,
                 "end": 2491,
-                "value": "aes"
+                "value": "aes",
+                "raw": "\"aes\""
               }
             ],
             "optional": false
@@ -359,7 +370,8 @@
             "type": "Literal",
             "start": 2494,
             "end": 2530,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -408,7 +420,8 @@
                 "type": "Literal",
                 "start": 2549,
                 "end": 2554,
-                "value": "aeS"
+                "value": "aeS",
+                "raw": "\"aeS\""
               }
             ],
             "optional": false
@@ -417,7 +430,8 @@
             "type": "Literal",
             "start": 2557,
             "end": 2593,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -466,7 +480,8 @@
                 "type": "Literal",
                 "start": 2612,
                 "end": 2618,
-                "value": "\nes"
+                "value": "\nes",
+                "raw": "\"\\nes\""
               }
             ],
             "optional": false
@@ -475,7 +490,8 @@
             "type": "Literal",
             "start": 2621,
             "end": 2657,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -524,7 +540,8 @@
                 "type": "Literal",
                 "start": 2676,
                 "end": 2682,
-                "value": "\neS"
+                "value": "\neS",
+                "raw": "\"\\neS\""
               }
             ],
             "optional": false
@@ -533,7 +550,8 @@
             "type": "Literal",
             "start": 2685,
             "end": 2721,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -559,6 +577,7 @@
             "start": 2735,
             "end": 2746,
             "value": null,
+            "raw": "/(?s-:.es)/",
             "regex": {
               "pattern": "(?s-:.es)",
               "flags": ""
@@ -611,7 +630,8 @@
                 "type": "Literal",
                 "start": 2764,
                 "end": 2769,
-                "value": "aes"
+                "value": "aes",
+                "raw": "\"aes\""
               }
             ],
             "optional": false
@@ -620,7 +640,8 @@
             "type": "Literal",
             "start": 2772,
             "end": 2808,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -669,7 +690,8 @@
                 "type": "Literal",
                 "start": 2827,
                 "end": 2833,
-                "value": "\nes"
+                "value": "\nes",
+                "raw": "\"\\nes\""
               }
             ],
             "optional": false
@@ -678,7 +700,8 @@
             "type": "Literal",
             "start": 2836,
             "end": 2872,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -733,7 +756,8 @@
                   "type": "Literal",
                   "start": 2892,
                   "end": 2897,
-                  "value": "aeS"
+                  "value": "aeS",
+                  "raw": "\"aeS\""
                 }
               ],
               "optional": false
@@ -743,7 +767,8 @@
             "type": "Literal",
             "start": 2900,
             "end": 2940,
-            "value": "s should not match S in modified group"
+            "value": "s should not match S in modified group",
+            "raw": "\"s should not match S in modified group\""
           }
         ],
         "optional": false
@@ -798,7 +823,8 @@
                   "type": "Literal",
                   "start": 2960,
                   "end": 2966,
-                  "value": "\neS"
+                  "value": "\neS",
+                  "raw": "\"\\neS\""
                 }
               ],
               "optional": false
@@ -808,7 +834,8 @@
             "type": "Literal",
             "start": 2969,
             "end": 3009,
-            "value": "s should not match S in modified group"
+            "value": "s should not match S in modified group",
+            "raw": "\"s should not match S in modified group\""
           }
         ],
         "optional": false
@@ -834,6 +861,7 @@
             "start": 3023,
             "end": 3035,
             "value": null,
+            "raw": "/(?s-:.es)/i",
             "regex": {
               "pattern": "(?s-:.es)",
               "flags": "i"
@@ -886,7 +914,8 @@
                 "type": "Literal",
                 "start": 3053,
                 "end": 3058,
-                "value": "aes"
+                "value": "aes",
+                "raw": "\"aes\""
               }
             ],
             "optional": false
@@ -895,7 +924,8 @@
             "type": "Literal",
             "start": 3061,
             "end": 3097,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -944,7 +974,8 @@
                 "type": "Literal",
                 "start": 3116,
                 "end": 3121,
-                "value": "aeS"
+                "value": "aeS",
+                "raw": "\"aeS\""
               }
             ],
             "optional": false
@@ -953,7 +984,8 @@
             "type": "Literal",
             "start": 3124,
             "end": 3160,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false
@@ -1002,7 +1034,8 @@
                 "type": "Literal",
                 "start": 3179,
                 "end": 3185,
-                "value": "\nes"
+                "value": "\nes",
+                "raw": "\"\\nes\""
               }
             ],
             "optional": false
@@ -1011,7 +1044,8 @@
             "type": "Literal",
             "start": 3188,
             "end": 3224,
-            "value": "s should match s in modified group"
+            "value": "s should match s in modified group",
+            "raw": "\"s should match s in modified group\""
           }
         ],
         "optional": false
@@ -1060,7 +1094,8 @@
                 "type": "Literal",
                 "start": 3243,
                 "end": 3249,
-                "value": "\neS"
+                "value": "\neS",
+                "raw": "\"\\neS\""
               }
             ],
             "optional": false
@@ -1069,7 +1104,8 @@
             "type": "Literal",
             "start": 3252,
             "end": 3288,
-            "value": "s should match S in modified group"
+            "value": "s should match S in modified group",
+            "raw": "\"s should match S in modified group\""
           }
         ],
         "optional": false

@@ -1,40 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 934,
+  "end": 932,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 918,
-      "end": 928,
+      "start": 916,
+      "end": 926,
       "id": {
         "type": "Identifier",
-        "start": 924,
-        "end": 925,
+        "start": 922,
+        "end": 923,
         "name": "C"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 926,
-        "end": 928,
+        "start": 924,
+        "end": 926,
         "body": []
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 928,
-      "end": 933,
+      "start": 926,
+      "end": 931,
       "expression": {
         "type": "ArrayExpression",
-        "start": 928,
-        "end": 932,
+        "start": 926,
+        "end": 930,
         "elements": [
           {
             "type": "Literal",
-            "start": 929,
-            "end": 931,
-            "value": 42
+            "start": 927,
+            "end": 929,
+            "value": 42,
+            "raw": "42"
           }
         ]
       }

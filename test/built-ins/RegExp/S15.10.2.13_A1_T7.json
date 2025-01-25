@@ -31,6 +31,7 @@
                 "start": 450,
                 "end": 462,
                 "value": {},
+                "raw": "/ab[erst]de/",
                 "regex": {
                   "pattern": "ab[erst]de",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 468,
                 "end": 475,
-                "value": "abcde"
+                "value": "abcde",
+                "raw": "\"abcde\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 499,
             "end": 548,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 405,
             "end": 411,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -132,7 +133,8 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 469,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -153,7 +155,8 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 492,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -206,7 +209,8 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 551,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -264,7 +268,8 @@
                 "type": "Literal",
                 "start": 602,
                 "end": 608,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -298,7 +303,8 @@
             "type": "Literal",
             "start": 642,
             "end": 674,
-            "value": "propertyDefineCorrect !== true"
+            "value": "propertyDefineCorrect !== true",
+            "raw": "'propertyDefineCorrect !== true'"
           }
         ],
         "optional": false
@@ -362,13 +368,15 @@
             "type": "Literal",
             "start": 711,
             "end": 722,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 724,
             "end": 741,
-            "value": "typeof desc.get"
+            "value": "typeof desc.get",
+            "raw": "'typeof desc.get'"
           }
         ],
         "optional": false

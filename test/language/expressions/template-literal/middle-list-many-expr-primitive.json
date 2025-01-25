@@ -40,19 +40,22 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 592,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 596,
                 "end": 597,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 601,
                 "end": 602,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ],
             "quasis": [
@@ -102,13 +105,15 @@
             "type": "Literal",
             "start": 610,
             "end": 621,
-            "value": "0 1 5 bar"
+            "value": "0 1 5 bar",
+            "raw": "'0 1 5 bar'"
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 637,
-            "value": "number value"
+            "value": "number value",
+            "raw": "'number value'"
           }
         ],
         "optional": false
@@ -151,19 +156,22 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 661,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 665,
                 "end": 666,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 670,
                 "end": 678,
-                "value": "string"
+                "value": "string",
+                "raw": "'string'"
               }
             ],
             "quasis": [
@@ -213,13 +221,15 @@
             "type": "Literal",
             "start": 686,
             "end": 702,
-            "value": "0 1 string bar"
+            "value": "0 1 string bar",
+            "raw": "'0 1 string bar'"
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 718,
-            "value": "string value"
+            "value": "string value",
+            "raw": "'string value'"
           }
         ],
         "optional": false

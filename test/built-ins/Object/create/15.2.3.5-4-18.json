@@ -280,7 +280,8 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 524,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -289,13 +290,15 @@
             "type": "Literal",
             "start": 527,
             "end": 532,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 565,
-            "value": "newObj.hasOwnProperty(\"prop\")"
+            "value": "newObj.hasOwnProperty(\"prop\")",
+            "raw": "'newObj.hasOwnProperty(\"prop\")'"
           }
         ],
         "optional": false

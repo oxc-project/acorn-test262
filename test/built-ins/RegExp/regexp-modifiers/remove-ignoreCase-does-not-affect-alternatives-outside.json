@@ -23,6 +23,7 @@
             "start": 1782,
             "end": 1800,
             "value": null,
+            "raw": "/a|b|(?-i:c)|d|e/i",
             "regex": {
               "pattern": "a|b|(?-i:c)|d|e",
               "flags": "i"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 1818,
                 "end": 1821,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 1824,
             "end": 1858,
-            "value": "Alternative `a` should match `A`"
+            "value": "Alternative `a` should match `A`",
+            "raw": "\"Alternative `a` should match `A`\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 1877,
                 "end": 1880,
-                "value": "B"
+                "value": "B",
+                "raw": "\"B\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 1883,
             "end": 1917,
-            "value": "Alternative `b` should match `B`"
+            "value": "Alternative `b` should match `B`",
+            "raw": "\"Alternative `b` should match `B`\""
           }
         ],
         "optional": false
@@ -197,7 +202,8 @@
                   "type": "Literal",
                   "start": 1937,
                   "end": 1940,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "\"C\""
                 }
               ],
               "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 1943,
             "end": 2005,
-            "value": "Alternative `(?-i:c)` should not match `C` in modified group"
+            "value": "Alternative `(?-i:c)` should not match `C` in modified group",
+            "raw": "\"Alternative `(?-i:c)` should not match `C` in modified group\""
           }
         ],
         "optional": false
@@ -256,7 +263,8 @@
                 "type": "Literal",
                 "start": 2024,
                 "end": 2027,
-                "value": "D"
+                "value": "D",
+                "raw": "\"D\""
               }
             ],
             "optional": false
@@ -265,7 +273,8 @@
             "type": "Literal",
             "start": 2030,
             "end": 2064,
-            "value": "Alternative `d` should match `D`"
+            "value": "Alternative `d` should match `D`",
+            "raw": "\"Alternative `d` should match `D`\""
           }
         ],
         "optional": false
@@ -314,7 +323,8 @@
                 "type": "Literal",
                 "start": 2083,
                 "end": 2086,
-                "value": "E"
+                "value": "E",
+                "raw": "\"E\""
               }
             ],
             "optional": false
@@ -323,7 +333,8 @@
             "type": "Literal",
             "start": 2089,
             "end": 2123,
-            "value": "Alternative `e` should match `E`"
+            "value": "Alternative `e` should match `E`",
+            "raw": "\"Alternative `e` should match `E`\""
           }
         ],
         "optional": false
@@ -349,6 +360,7 @@
             "start": 2137,
             "end": 2167,
             "value": null,
+            "raw": "/(a)|(?:b)|(?-i:c)|(?:d)|(e)/i",
             "regex": {
               "pattern": "(a)|(?:b)|(?-i:c)|(?:d)|(e)",
               "flags": "i"
@@ -401,7 +413,8 @@
                 "type": "Literal",
                 "start": 2185,
                 "end": 2188,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -410,7 +423,8 @@
             "type": "Literal",
             "start": 2191,
             "end": 2227,
-            "value": "Alternative `(a)` should match `A`"
+            "value": "Alternative `(a)` should match `A`",
+            "raw": "\"Alternative `(a)` should match `A`\""
           }
         ],
         "optional": false
@@ -459,7 +473,8 @@
                 "type": "Literal",
                 "start": 2246,
                 "end": 2249,
-                "value": "B"
+                "value": "B",
+                "raw": "\"B\""
               }
             ],
             "optional": false
@@ -468,7 +483,8 @@
             "type": "Literal",
             "start": 2252,
             "end": 2290,
-            "value": "Alternative `(?:b)` should match `B`"
+            "value": "Alternative `(?:b)` should match `B`",
+            "raw": "\"Alternative `(?:b)` should match `B`\""
           }
         ],
         "optional": false
@@ -523,7 +539,8 @@
                   "type": "Literal",
                   "start": 2310,
                   "end": 2313,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "\"C\""
                 }
               ],
               "optional": false
@@ -533,7 +550,8 @@
             "type": "Literal",
             "start": 2316,
             "end": 2378,
-            "value": "Alternative `(?-i:c)` should not match `C` in modified group"
+            "value": "Alternative `(?-i:c)` should not match `C` in modified group",
+            "raw": "\"Alternative `(?-i:c)` should not match `C` in modified group\""
           }
         ],
         "optional": false
@@ -582,7 +600,8 @@
                 "type": "Literal",
                 "start": 2397,
                 "end": 2400,
-                "value": "D"
+                "value": "D",
+                "raw": "\"D\""
               }
             ],
             "optional": false
@@ -591,7 +610,8 @@
             "type": "Literal",
             "start": 2403,
             "end": 2441,
-            "value": "Alternative `(?:d)` should match `D`"
+            "value": "Alternative `(?:d)` should match `D`",
+            "raw": "\"Alternative `(?:d)` should match `D`\""
           }
         ],
         "optional": false
@@ -640,7 +660,8 @@
                 "type": "Literal",
                 "start": 2460,
                 "end": 2463,
-                "value": "E"
+                "value": "E",
+                "raw": "\"E\""
               }
             ],
             "optional": false
@@ -649,7 +670,8 @@
             "type": "Literal",
             "start": 2466,
             "end": 2502,
-            "value": "Alternative `(e)` should match `E`"
+            "value": "Alternative `(e)` should match `E`",
+            "raw": "\"Alternative `(e)` should match `E`\""
           }
         ],
         "optional": false

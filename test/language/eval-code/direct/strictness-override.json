@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 523,
                         "end": 559,
-                        "value": "\"use strict\"; unresolvable = null;"
+                        "value": "\"use strict\"; unresolvable = null;",
+                        "raw": "'\"use strict\"; unresolvable = null;'"
                       }
                     ],
                     "optional": false

@@ -31,6 +31,7 @@
                 "start": 788,
                 "end": 795,
                 "value": {},
+                "raw": "/^\\S$/u",
                 "regex": {
                   "pattern": "^\\S$",
                   "flags": "u"
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 815,
-                "value": "𐀀"
+                "value": "𐀀",
+                "raw": "'\\ud800\\udc00'"
               }
             ],
             "optional": false

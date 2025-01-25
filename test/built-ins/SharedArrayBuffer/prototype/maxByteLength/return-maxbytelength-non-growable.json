@@ -1,39 +1,40 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 859,
+  "end": 857,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 704,
-      "end": 739,
+      "start": 702,
+      "end": 737,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 708,
-          "end": 738,
+          "start": 706,
+          "end": 736,
           "id": {
             "type": "Identifier",
-            "start": 708,
-            "end": 711,
+            "start": 706,
+            "end": 709,
             "name": "ab1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 714,
-            "end": 738,
+            "start": 712,
+            "end": 736,
             "callee": {
               "type": "Identifier",
-              "start": 718,
-              "end": 735,
+              "start": 716,
+              "end": 733,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 736,
-                "end": 737,
-                "value": 0
+                "start": 734,
+                "end": 735,
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -43,26 +44,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 740,
-      "end": 779,
+      "start": 738,
+      "end": 777,
       "expression": {
         "type": "CallExpression",
-        "start": 740,
-        "end": 778,
+        "start": 738,
+        "end": 776,
         "callee": {
           "type": "MemberExpression",
-          "start": 740,
-          "end": 756,
+          "start": 738,
+          "end": 754,
           "object": {
             "type": "Identifier",
-            "start": 740,
-            "end": 746,
+            "start": 738,
+            "end": 744,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 747,
-            "end": 756,
+            "start": 745,
+            "end": 754,
             "name": "sameValue"
           },
           "computed": false,
@@ -71,18 +72,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 757,
-            "end": 774,
+            "start": 755,
+            "end": 772,
             "object": {
               "type": "Identifier",
-              "start": 757,
-              "end": 760,
+              "start": 755,
+              "end": 758,
               "name": "ab1"
             },
             "property": {
               "type": "Identifier",
-              "start": 761,
-              "end": 774,
+              "start": 759,
+              "end": 772,
               "name": "maxByteLength"
             },
             "computed": false,
@@ -90,9 +91,10 @@
           },
           {
             "type": "Literal",
-            "start": 776,
-            "end": 777,
-            "value": 0
+            "start": 774,
+            "end": 775,
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -100,35 +102,36 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 781,
-      "end": 817,
+      "start": 779,
+      "end": 815,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 785,
-          "end": 816,
+          "start": 783,
+          "end": 814,
           "id": {
             "type": "Identifier",
-            "start": 785,
-            "end": 788,
+            "start": 783,
+            "end": 786,
             "name": "ab2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 791,
-            "end": 816,
+            "start": 789,
+            "end": 814,
             "callee": {
               "type": "Identifier",
-              "start": 795,
-              "end": 812,
+              "start": 793,
+              "end": 810,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 813,
-                "end": 815,
-                "value": 42
+                "start": 811,
+                "end": 813,
+                "value": 42,
+                "raw": "42"
               }
             ]
           }
@@ -138,26 +141,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 818,
-      "end": 858,
+      "start": 816,
+      "end": 856,
       "expression": {
         "type": "CallExpression",
-        "start": 818,
-        "end": 857,
+        "start": 816,
+        "end": 855,
         "callee": {
           "type": "MemberExpression",
-          "start": 818,
-          "end": 834,
+          "start": 816,
+          "end": 832,
           "object": {
             "type": "Identifier",
-            "start": 818,
-            "end": 824,
+            "start": 816,
+            "end": 822,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 825,
-            "end": 834,
+            "start": 823,
+            "end": 832,
             "name": "sameValue"
           },
           "computed": false,
@@ -166,18 +169,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 835,
-            "end": 852,
+            "start": 833,
+            "end": 850,
             "object": {
               "type": "Identifier",
-              "start": 835,
-              "end": 838,
+              "start": 833,
+              "end": 836,
               "name": "ab2"
             },
             "property": {
               "type": "Identifier",
-              "start": 839,
-              "end": 852,
+              "start": 837,
+              "end": 850,
               "name": "maxByteLength"
             },
             "computed": false,
@@ -185,9 +188,10 @@
           },
           {
             "type": "Literal",
-            "start": 854,
-            "end": 856,
-            "value": 42
+            "start": 852,
+            "end": 854,
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false

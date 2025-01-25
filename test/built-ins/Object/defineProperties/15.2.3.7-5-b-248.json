@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 346,
             "end": 352,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -58,7 +59,8 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 384,
-                "value": "test"
+                "value": "test",
+                "raw": "\"test\""
               }
             ]
           }
@@ -116,7 +118,8 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 422,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               "kind": "init"
             }
@@ -174,7 +177,8 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 457,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               "kind": "init"
             }
@@ -232,7 +236,8 @@
                 "type": "Literal",
                 "start": 487,
                 "end": 489,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               "kind": "init"
             }
@@ -465,7 +470,8 @@
           "type": "Literal",
           "start": 643,
           "end": 654,
-          "value": "errorData"
+          "value": "errorData",
+          "raw": "\"errorData\""
         }
       }
     },
@@ -512,7 +518,8 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 689,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -521,7 +528,8 @@
             "type": "Literal",
             "start": 692,
             "end": 729,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -565,13 +573,15 @@
             "type": "Literal",
             "start": 755,
             "end": 766,
-            "value": "errorData"
+            "value": "errorData",
+            "raw": "\"errorData\""
           },
           {
             "type": "Literal",
             "start": 768,
             "end": 774,
-            "value": "data"
+            "value": "data",
+            "raw": "'data'"
           }
         ],
         "optional": false

@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 572,
             "end": 577,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "Identifier",
@@ -152,7 +153,8 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 642,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -218,7 +220,8 @@
             "type": "Literal",
             "start": 690,
             "end": 706,
-            "value": "propDesc.value"
+            "value": "propDesc.value",
+            "raw": "'propDesc.value'"
           }
         ],
         "optional": false
@@ -275,13 +278,15 @@
             "type": "Literal",
             "start": 769,
             "end": 774,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 795,
-            "value": "propDesc.writable"
+            "value": "propDesc.writable",
+            "raw": "'propDesc.writable'"
           }
         ],
         "optional": false
@@ -338,13 +343,15 @@
             "type": "Literal",
             "start": 856,
             "end": 861,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 884,
-            "value": "propDesc.enumerable"
+            "value": "propDesc.enumerable",
+            "raw": "'propDesc.enumerable'"
           }
         ],
         "optional": false
@@ -401,13 +408,15 @@
             "type": "Literal",
             "start": 947,
             "end": 952,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 977,
-            "value": "propDesc.configurable"
+            "value": "propDesc.configurable",
+            "raw": "'propDesc.configurable'"
           }
         ],
         "optional": false

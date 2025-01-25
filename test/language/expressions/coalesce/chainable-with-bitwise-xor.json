@@ -46,7 +46,8 @@
             "type": "Literal",
             "start": 1072,
             "end": 1076,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": "??",
           "right": {
@@ -57,14 +58,16 @@
               "type": "Literal",
               "start": 1080,
               "end": 1081,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "^",
             "right": {
               "type": "Literal",
               "start": 1084,
               "end": 1086,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         }
@@ -108,13 +111,15 @@
             "type": "Literal",
             "start": 1108,
             "end": 1110,
-            "value": 43
+            "value": 43,
+            "raw": "43"
           },
           {
             "type": "Literal",
             "start": 1112,
             "end": 1128,
-            "value": "null ?? 1 ^ 42"
+            "value": "null ?? 1 ^ 42",
+            "raw": "'null ?? 1 ^ 42'"
           }
         ],
         "optional": false
@@ -154,14 +159,16 @@
               "type": "Literal",
               "start": 1149,
               "end": 1150,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "^",
             "right": {
               "type": "Literal",
               "start": 1153,
               "end": 1155,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         }
@@ -205,13 +212,15 @@
             "type": "Literal",
             "start": 1177,
             "end": 1179,
-            "value": 43
+            "value": 43,
+            "raw": "43"
           },
           {
             "type": "Literal",
             "start": 1181,
             "end": 1197,
-            "value": "null ?? 1 ^ 42"
+            "value": "null ?? 1 ^ 42",
+            "raw": "'null ?? 1 ^ 42'"
           }
         ],
         "optional": false
@@ -240,7 +249,8 @@
             "type": "Literal",
             "start": 1205,
             "end": 1210,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           "operator": "??",
           "right": {
@@ -251,14 +261,16 @@
               "type": "Literal",
               "start": 1214,
               "end": 1215,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "^",
             "right": {
               "type": "Literal",
               "start": 1218,
               "end": 1220,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         }
@@ -302,13 +314,15 @@
             "type": "Literal",
             "start": 1242,
             "end": 1247,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1266,
-            "value": "false ?? 1 ^ 42"
+            "value": "false ?? 1 ^ 42",
+            "raw": "'false ?? 1 ^ 42'"
           }
         ],
         "optional": false
@@ -337,7 +351,8 @@
             "type": "Literal",
             "start": 1274,
             "end": 1278,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           "operator": "??",
           "right": {
@@ -348,14 +363,16 @@
               "type": "Literal",
               "start": 1282,
               "end": 1283,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "^",
             "right": {
               "type": "Literal",
               "start": 1286,
               "end": 1288,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         }
@@ -399,13 +416,15 @@
             "type": "Literal",
             "start": 1310,
             "end": 1314,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1316,
             "end": 1332,
-            "value": "true ?? 1 ^ 42"
+            "value": "true ?? 1 ^ 42",
+            "raw": "'true ?? 1 ^ 42'"
           }
         ],
         "optional": false

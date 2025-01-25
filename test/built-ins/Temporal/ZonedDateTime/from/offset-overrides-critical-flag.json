@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 372,
-                "value": "2022-10-07T18:37-07:00[!UTC]"
+                "value": "2022-10-07T18:37-07:00[!UTC]",
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
               },
               {
                 "type": "ObjectExpression",
@@ -83,7 +84,8 @@
                       "type": "Literal",
                       "start": 384,
                       "end": 389,
-                      "value": "use"
+                      "value": "use",
+                      "raw": "\"use\""
                     },
                     "kind": "init"
                   }
@@ -147,13 +149,15 @@
             "type": "Literal",
             "start": 444,
             "end": 464,
-            "value": "1665193020000000000n"
+            "value": "1665193020000000000n",
+            "raw": "1665193020000000000n"
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 534,
-            "value": "exact time is unchanged with offset = use, despite critical flag"
+            "value": "exact time is unchanged with offset = use, despite critical flag",
+            "raw": "\"exact time is unchanged with offset = use, despite critical flag\""
           }
         ],
         "optional": false
@@ -215,7 +219,8 @@
                 "type": "Literal",
                 "start": 588,
                 "end": 618,
-                "value": "2022-10-07T18:37-07:00[!UTC]"
+                "value": "2022-10-07T18:37-07:00[!UTC]",
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
               },
               {
                 "type": "ObjectExpression",
@@ -239,7 +244,8 @@
                       "type": "Literal",
                       "start": 630,
                       "end": 638,
-                      "value": "ignore"
+                      "value": "ignore",
+                      "raw": "\"ignore\""
                     },
                     "kind": "init"
                   }
@@ -303,13 +309,15 @@
             "type": "Literal",
             "start": 696,
             "end": 716,
-            "value": "1665167820000000000n"
+            "value": "1665167820000000000n",
+            "raw": "1665167820000000000n"
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 788,
-            "value": "wall time is unchanged with offset = ignore, despite critical flag"
+            "value": "wall time is unchanged with offset = ignore, despite critical flag",
+            "raw": "\"wall time is unchanged with offset = ignore, despite critical flag\""
           }
         ],
         "optional": false
@@ -371,7 +379,8 @@
                 "type": "Literal",
                 "start": 842,
                 "end": 872,
-                "value": "2022-10-07T18:37-07:00[!UTC]"
+                "value": "2022-10-07T18:37-07:00[!UTC]",
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
               },
               {
                 "type": "ObjectExpression",
@@ -395,7 +404,8 @@
                       "type": "Literal",
                       "start": 884,
                       "end": 892,
-                      "value": "prefer"
+                      "value": "prefer",
+                      "raw": "\"prefer\""
                     },
                     "kind": "init"
                   }
@@ -459,13 +469,15 @@
             "type": "Literal",
             "start": 947,
             "end": 967,
-            "value": "1665193020000000000n"
+            "value": "1665193020000000000n",
+            "raw": "1665193020000000000n"
           },
           {
             "type": "Literal",
             "start": 971,
             "end": 1039,
-            "value": "offset is recalculated with offset = prefer, despite critical flag"
+            "value": "offset is recalculated with offset = prefer, despite critical flag",
+            "raw": "\"offset is recalculated with offset = prefer, despite critical flag\""
           }
         ],
         "optional": false

@@ -31,6 +31,7 @@
                 "start": 361,
                 "end": 365,
                 "value": {},
+                "raw": "/a/d",
                 "regex": {
                   "pattern": "a",
                   "flags": "d"
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 374,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false

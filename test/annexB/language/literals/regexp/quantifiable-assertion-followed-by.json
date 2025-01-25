@@ -51,6 +51,7 @@
               "start": 1013,
               "end": 1022,
               "value": {},
+              "raw": "/.(?=Z)*/",
               "regex": {
                 "pattern": ".(?=Z)*",
                 "flags": ""
@@ -70,7 +71,8 @@
               "type": "Literal",
               "start": 1028,
               "end": 1049,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -119,7 +121,8 @@
               "type": "Literal",
               "start": 1075,
               "end": 1076,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -128,13 +131,15 @@
             "type": "Literal",
             "start": 1079,
             "end": 1082,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1099,
-            "value": "quantifier: *"
+            "value": "quantifier: *",
+            "raw": "'quantifier: *'"
           }
         ],
         "optional": false
@@ -168,6 +173,7 @@
               "start": 1111,
               "end": 1120,
               "value": {},
+              "raw": "/.(?=Z)+/",
               "regex": {
                 "pattern": ".(?=Z)+",
                 "flags": ""
@@ -187,7 +193,8 @@
               "type": "Literal",
               "start": 1126,
               "end": 1147,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -236,7 +243,8 @@
               "type": "Literal",
               "start": 1173,
               "end": 1174,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -245,13 +253,15 @@
             "type": "Literal",
             "start": 1177,
             "end": 1180,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 1182,
             "end": 1197,
-            "value": "quantifier: +"
+            "value": "quantifier: +",
+            "raw": "'quantifier: +'"
           }
         ],
         "optional": false
@@ -285,6 +295,7 @@
               "start": 1209,
               "end": 1218,
               "value": {},
+              "raw": "/.(?=Z)?/",
               "regex": {
                 "pattern": ".(?=Z)?",
                 "flags": ""
@@ -304,7 +315,8 @@
               "type": "Literal",
               "start": 1224,
               "end": 1245,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -353,7 +365,8 @@
               "type": "Literal",
               "start": 1271,
               "end": 1272,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -362,13 +375,15 @@
             "type": "Literal",
             "start": 1275,
             "end": 1278,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 1280,
             "end": 1295,
-            "value": "quantifier: ?"
+            "value": "quantifier: ?",
+            "raw": "'quantifier: ?'"
           }
         ],
         "optional": false
@@ -402,6 +417,7 @@
               "start": 1307,
               "end": 1318,
               "value": {},
+              "raw": "/.(?=Z){2}/",
               "regex": {
                 "pattern": ".(?=Z){2}",
                 "flags": ""
@@ -421,7 +437,8 @@
               "type": "Literal",
               "start": 1324,
               "end": 1345,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -470,7 +487,8 @@
               "type": "Literal",
               "start": 1371,
               "end": 1372,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -479,13 +497,15 @@
             "type": "Literal",
             "start": 1375,
             "end": 1378,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 1380,
             "end": 1411,
-            "value": "quantifier: { DecimalDigits }"
+            "value": "quantifier: { DecimalDigits }",
+            "raw": "'quantifier: { DecimalDigits }'"
           }
         ],
         "optional": false
@@ -519,6 +539,7 @@
               "start": 1423,
               "end": 1435,
               "value": {},
+              "raw": "/.(?=Z){2,}/",
               "regex": {
                 "pattern": ".(?=Z){2,}",
                 "flags": ""
@@ -538,7 +559,8 @@
               "type": "Literal",
               "start": 1441,
               "end": 1462,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -587,7 +609,8 @@
               "type": "Literal",
               "start": 1488,
               "end": 1489,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -596,13 +619,15 @@
             "type": "Literal",
             "start": 1492,
             "end": 1495,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 1497,
             "end": 1530,
-            "value": "quantifier: { DecimalDigits , }"
+            "value": "quantifier: { DecimalDigits , }",
+            "raw": "'quantifier: { DecimalDigits , }'"
           }
         ],
         "optional": false
@@ -636,6 +661,7 @@
               "start": 1542,
               "end": 1555,
               "value": {},
+              "raw": "/.(?=Z){2,3}/",
               "regex": {
                 "pattern": ".(?=Z){2,3}",
                 "flags": ""
@@ -655,7 +681,8 @@
               "type": "Literal",
               "start": 1561,
               "end": 1582,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -704,7 +731,8 @@
               "type": "Literal",
               "start": 1611,
               "end": 1612,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -713,13 +741,15 @@
             "type": "Literal",
             "start": 1615,
             "end": 1618,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 1620,
             "end": 1667,
-            "value": "quantifier: { DecimalDigits , DecimalDigits }"
+            "value": "quantifier: { DecimalDigits , DecimalDigits }",
+            "raw": "'quantifier: { DecimalDigits , DecimalDigits }'"
           }
         ],
         "optional": false
@@ -753,6 +783,7 @@
               "start": 1680,
               "end": 1690,
               "value": {},
+              "raw": "/.(?=Z)*?/",
               "regex": {
                 "pattern": ".(?=Z)*?",
                 "flags": ""
@@ -772,7 +803,8 @@
               "type": "Literal",
               "start": 1696,
               "end": 1717,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -821,7 +853,8 @@
               "type": "Literal",
               "start": 1743,
               "end": 1744,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -830,13 +863,15 @@
             "type": "Literal",
             "start": 1747,
             "end": 1750,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 1752,
             "end": 1769,
-            "value": "quantifier: * ?"
+            "value": "quantifier: * ?",
+            "raw": "'quantifier: * ?'"
           }
         ],
         "optional": false
@@ -870,6 +905,7 @@
               "start": 1781,
               "end": 1791,
               "value": {},
+              "raw": "/.(?=Z)+?/",
               "regex": {
                 "pattern": ".(?=Z)+?",
                 "flags": ""
@@ -889,7 +925,8 @@
               "type": "Literal",
               "start": 1797,
               "end": 1818,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -938,7 +975,8 @@
               "type": "Literal",
               "start": 1844,
               "end": 1845,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -947,13 +985,15 @@
             "type": "Literal",
             "start": 1848,
             "end": 1851,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 1853,
             "end": 1870,
-            "value": "quantifier: + ?"
+            "value": "quantifier: + ?",
+            "raw": "'quantifier: + ?'"
           }
         ],
         "optional": false
@@ -987,6 +1027,7 @@
               "start": 1882,
               "end": 1892,
               "value": {},
+              "raw": "/.(?=Z)??/",
               "regex": {
                 "pattern": ".(?=Z)??",
                 "flags": ""
@@ -1006,7 +1047,8 @@
               "type": "Literal",
               "start": 1898,
               "end": 1919,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -1055,7 +1097,8 @@
               "type": "Literal",
               "start": 1945,
               "end": 1946,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -1064,13 +1107,15 @@
             "type": "Literal",
             "start": 1949,
             "end": 1952,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 1954,
             "end": 1971,
-            "value": "quantifier: ? ?"
+            "value": "quantifier: ? ?",
+            "raw": "'quantifier: ? ?'"
           }
         ],
         "optional": false
@@ -1104,6 +1149,7 @@
               "start": 1983,
               "end": 1995,
               "value": {},
+              "raw": "/.(?=Z){2}?/",
               "regex": {
                 "pattern": ".(?=Z){2}?",
                 "flags": ""
@@ -1123,7 +1169,8 @@
               "type": "Literal",
               "start": 2001,
               "end": 2022,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -1172,7 +1219,8 @@
               "type": "Literal",
               "start": 2048,
               "end": 2049,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -1181,13 +1229,15 @@
             "type": "Literal",
             "start": 2052,
             "end": 2055,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 2057,
             "end": 2090,
-            "value": "quantifier: { DecimalDigits } ?"
+            "value": "quantifier: { DecimalDigits } ?",
+            "raw": "'quantifier: { DecimalDigits } ?'"
           }
         ],
         "optional": false
@@ -1221,6 +1271,7 @@
               "start": 2102,
               "end": 2115,
               "value": {},
+              "raw": "/.(?=Z){2,}?/",
               "regex": {
                 "pattern": ".(?=Z){2,}?",
                 "flags": ""
@@ -1240,7 +1291,8 @@
               "type": "Literal",
               "start": 2121,
               "end": 2142,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -1289,7 +1341,8 @@
               "type": "Literal",
               "start": 2168,
               "end": 2169,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -1298,13 +1351,15 @@
             "type": "Literal",
             "start": 2172,
             "end": 2175,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 2177,
             "end": 2212,
-            "value": "quantifier: { DecimalDigits , } ?"
+            "value": "quantifier: { DecimalDigits , } ?",
+            "raw": "'quantifier: { DecimalDigits , } ?'"
           }
         ],
         "optional": false
@@ -1338,6 +1393,7 @@
               "start": 2224,
               "end": 2238,
               "value": {},
+              "raw": "/.(?=Z){2,3}?/",
               "regex": {
                 "pattern": ".(?=Z){2,3}?",
                 "flags": ""
@@ -1357,7 +1413,8 @@
               "type": "Literal",
               "start": 2244,
               "end": 2265,
-              "value": "a bZ cZZ dZZZ eZZZZ"
+              "value": "a bZ cZZ dZZZ eZZZZ",
+              "raw": "'a bZ cZZ dZZZ eZZZZ'"
             }
           ],
           "optional": false
@@ -1406,7 +1463,8 @@
               "type": "Literal",
               "start": 2294,
               "end": 2295,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -1415,13 +1473,15 @@
             "type": "Literal",
             "start": 2298,
             "end": 2301,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 2303,
             "end": 2352,
-            "value": "quantifier: { DecimalDigits , DecimalDigits } ?"
+            "value": "quantifier: { DecimalDigits , DecimalDigits } ?",
+            "raw": "'quantifier: { DecimalDigits , DecimalDigits } ?'"
           }
         ],
         "optional": false

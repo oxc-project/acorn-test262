@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 525,
                   "end": 530,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -133,7 +134,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 585,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -201,7 +203,8 @@
                   "type": "Literal",
                   "start": 634,
                   "end": 638,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -580,7 +583,8 @@
               "type": "Literal",
               "start": 1037,
               "end": 1038,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -608,7 +612,8 @@
             "type": "Literal",
             "start": 1068,
             "end": 1148,
-            "value": "The value of result[0] is expected to equal the value of firstIterResult.value"
+            "value": "The value of result[0] is expected to equal the value of firstIterResult.value",
+            "raw": "'The value of result[0] is expected to equal the value of firstIterResult.value'"
           }
         ],
         "optional": false
@@ -656,7 +661,8 @@
               "type": "Literal",
               "start": 1179,
               "end": 1180,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -684,7 +690,8 @@
             "type": "Literal",
             "start": 1211,
             "end": 1292,
-            "value": "The value of result[1] is expected to equal the value of secondIterResult.value"
+            "value": "The value of result[1] is expected to equal the value of secondIterResult.value",
+            "raw": "'The value of result[1] is expected to equal the value of secondIterResult.value'"
           }
         ],
         "optional": false

@@ -229,7 +229,8 @@
             "type": "Literal",
             "start": 714,
             "end": 739,
-            "value": "[object Array Iterator]"
+            "value": "[object Array Iterator]",
+            "raw": "'[object Array Iterator]'"
           }
         ],
         "optional": false
@@ -310,7 +311,8 @@
                   "type": "Literal",
                   "start": 814,
                   "end": 818,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -331,7 +333,8 @@
                   "type": "Literal",
                   "start": 827,
                   "end": 831,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -406,7 +409,8 @@
             "type": "Literal",
             "start": 876,
             "end": 893,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false
@@ -521,7 +525,8 @@
             "type": "Literal",
             "start": 979,
             "end": 998,
-            "value": "[object Iterator]"
+            "value": "[object Iterator]",
+            "raw": "'[object Iterator]'"
           }
         ],
         "optional": false

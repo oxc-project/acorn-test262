@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 318,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 322,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 326,
-                "value": 14
+                "value": 14,
+                "raw": "14"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 339,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 344,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 349,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               }
             ]
           }
@@ -191,7 +200,8 @@
                         "type": "Literal",
                         "start": 420,
                         "end": 421,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -212,7 +222,8 @@
                         "type": "Literal",
                         "start": 437,
                         "end": 443,
-                        "value": "ceil"
+                        "value": "ceil",
+                        "raw": "\"ceil\""
                       },
                       "kind": "init"
                     }
@@ -226,7 +237,8 @@
             "type": "Literal",
             "start": 450,
             "end": 498,
-            "value": "throws without required smallestUnit parameter"
+            "value": "throws without required smallestUnit parameter",
+            "raw": "\"throws without required smallestUnit parameter\""
           }
         ],
         "optional": false

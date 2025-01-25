@@ -49,7 +49,8 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 464,
-                  "value": "var #x  = 1;"
+                  "value": "var #x  = 1;",
+                  "raw": "\"var #x  = 1;\""
                 }
               ],
               "optional": false
@@ -109,7 +110,8 @@
                     "type": "Literal",
                     "start": 525,
                     "end": 601,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
                   }
                 ],
                 "optional": false

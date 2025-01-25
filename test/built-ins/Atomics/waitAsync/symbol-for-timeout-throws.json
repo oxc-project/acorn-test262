@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 683,
             "end": 693,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 750,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -138,7 +140,8 @@
                       "type": "Literal",
                       "start": 837,
                       "end": 838,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -216,7 +219,8 @@
                               "type": "Literal",
                               "start": 911,
                               "end": 942,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -311,7 +315,8 @@
                               "type": "Literal",
                               "start": 1037,
                               "end": 1084,
-                              "value": "passing a poisoned object using @@ToPrimitive"
+                              "value": "passing a poisoned object using @@ToPrimitive",
+                              "raw": "'passing a poisoned object using @@ToPrimitive'"
                             }
                           ]
                         }
@@ -412,13 +417,15 @@
                         "type": "Literal",
                         "start": 1162,
                         "end": 1163,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1165,
                         "end": 1166,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
@@ -437,7 +444,8 @@
             "type": "Literal",
             "start": 1189,
             "end": 1271,
-            "value": "`Atomics.waitAsync(i32a, 0, 0, poisonedValueOf)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i32a, 0, 0, poisonedValueOf)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i32a, 0, 0, poisonedValueOf)` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -529,13 +537,15 @@
                         "type": "Literal",
                         "start": 1342,
                         "end": 1343,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1345,
                         "end": 1346,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
@@ -554,7 +564,8 @@
             "type": "Literal",
             "start": 1373,
             "end": 1459,
-            "value": "`Atomics.waitAsync(i32a, 0, 0, poisonedToPrimitive)` throws a Test262Error exception"
+            "value": "`Atomics.waitAsync(i32a, 0, 0, poisonedToPrimitive)` throws a Test262Error exception",
+            "raw": "'`Atomics.waitAsync(i32a, 0, 0, poisonedToPrimitive)` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -646,13 +657,15 @@
                         "type": "Literal",
                         "start": 1527,
                         "end": 1528,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1530,
                         "end": 1531,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "CallExpression",
@@ -669,7 +682,8 @@
                             "type": "Literal",
                             "start": 1540,
                             "end": 1545,
-                            "value": "foo"
+                            "value": "foo",
+                            "raw": "\"foo\""
                           }
                         ],
                         "optional": false
@@ -685,7 +699,8 @@
             "type": "Literal",
             "start": 1552,
             "end": 1629,
-            "value": "`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception"
+            "value": "`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -777,13 +792,15 @@
                         "type": "Literal",
                         "start": 1697,
                         "end": 1698,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1700,
                         "end": 1701,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "CallExpression",
@@ -800,7 +817,8 @@
                             "type": "Literal",
                             "start": 1710,
                             "end": 1715,
-                            "value": "foo"
+                            "value": "foo",
+                            "raw": "\"foo\""
                           }
                         ],
                         "optional": false
@@ -816,7 +834,8 @@
             "type": "Literal",
             "start": 1722,
             "end": 1799,
-            "value": "`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception"
+            "value": "`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync(i32a, 0, 0, Symbol(\"foo\"))` throws a TypeError exception'"
           }
         ],
         "optional": false

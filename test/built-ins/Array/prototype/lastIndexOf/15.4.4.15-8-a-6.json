@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 317,
             "end": 319,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 323,
           "end": 327,
-          "value": "10"
+          "value": "10",
+          "raw": "\"10\""
         }
       }
     },
@@ -96,7 +98,8 @@
           "type": "Literal",
           "start": 342,
           "end": 344,
-          "value": 20
+          "value": 20,
+          "raw": "20"
         }
       }
     },
@@ -171,7 +174,8 @@
                               "type": "Literal",
                               "start": 404,
                               "end": 406,
-                              "value": 10
+                              "value": 10,
+                              "raw": "10"
                             },
                             "computed": true,
                             "optional": false
@@ -186,7 +190,8 @@
                           "type": "Literal",
                           "start": 420,
                           "end": 422,
-                          "value": 11
+                          "value": 11,
+                          "raw": "11"
                         }
                       }
                     ]
@@ -256,7 +261,8 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 469,
-                "value": "10"
+                "value": "10",
+                "raw": "\"10\""
               },
               {
                 "type": "Identifier",
@@ -277,14 +283,16 @@
               "type": "Literal",
               "start": 484,
               "end": 485,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 521,
-            "value": "arr.lastIndexOf(\"10\", fromIndex)"
+            "value": "arr.lastIndexOf(\"10\", fromIndex)",
+            "raw": "'arr.lastIndexOf(\"10\", fromIndex)'"
           }
         ],
         "optional": false

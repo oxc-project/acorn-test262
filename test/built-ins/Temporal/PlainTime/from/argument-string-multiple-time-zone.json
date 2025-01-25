@@ -27,43 +27,50 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 307,
-                "value": "00:00[UTC][UTC]"
+                "value": "00:00[UTC][UTC]",
+                "raw": "\"00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 329,
-                "value": "T00:00[UTC][UTC]"
+                "value": "T00:00[UTC][UTC]",
+                "raw": "\"T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 361,
-                "value": "1970-01-01T00:00[UTC][UTC]"
+                "value": "1970-01-01T00:00[UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 394,
-                "value": "1970-01-01T00:00[!UTC][UTC]"
+                "value": "1970-01-01T00:00[!UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[!UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 427,
-                "value": "1970-01-01T00:00[UTC][!UTC]"
+                "value": "1970-01-01T00:00[UTC][!UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 473,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 477,
                 "end": 514,
-                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]"
+                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][foo=bar][UTC]\""
               }
             ]
           }

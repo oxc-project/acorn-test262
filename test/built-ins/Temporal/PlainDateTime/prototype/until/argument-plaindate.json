@@ -95,61 +95,71 @@
                             "type": "Literal",
                             "start": 860,
                             "end": 864,
-                            "value": 2000
+                            "value": 2000,
+                            "raw": "2000"
                           },
                           {
                             "type": "Literal",
                             "start": 866,
                             "end": 867,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           },
                           {
                             "type": "Literal",
                             "start": 869,
                             "end": 870,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 872,
                             "end": 873,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 875,
                             "end": 876,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 878,
                             "end": 879,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 881,
                             "end": 884,
-                            "value": 987
+                            "value": 987,
+                            "raw": "987"
                           },
                           {
                             "type": "Literal",
                             "start": 886,
                             "end": 889,
-                            "value": 654
+                            "value": 654,
+                            "raw": "654"
                           },
                           {
                             "type": "Literal",
                             "start": 891,
                             "end": 894,
-                            "value": 321
+                            "value": 321,
+                            "raw": "321"
                           },
                           {
                             "type": "Literal",
                             "start": 896,
                             "end": 905,
-                            "value": "iso8601"
+                            "value": "iso8601",
+                            "raw": "\"iso8601\""
                           }
                         ]
                       }
@@ -283,7 +293,8 @@
                                   "type": "Literal",
                                   "start": 987,
                                   "end": 1000,
-                                  "value": "nanoseconds"
+                                  "value": "nanoseconds",
+                                  "raw": "\"nanoseconds\""
                                 },
                                 "kind": "init"
                               }
@@ -302,14 +313,16 @@
                           "type": "Literal",
                           "start": 1006,
                           "end": 1015,
-                          "value": 987654321
+                          "value": 987654321,
+                          "raw": "987654321"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 1017,
                         "end": 1053,
-                        "value": "PlainDate is converted to midnight"
+                        "value": "PlainDate is converted to midnight",
+                        "raw": "\"PlainDate is converted to midnight\""
                       }
                     ],
                     "optional": false

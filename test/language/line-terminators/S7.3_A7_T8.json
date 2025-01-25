@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 282,
             "end": 283,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 291,
             "end": 292,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -109,7 +111,8 @@
           "type": "Literal",
           "start": 320,
           "end": 324,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -140,7 +143,8 @@
                     "type": "Literal",
                     "start": 353,
                     "end": 407,
-                    "value": "#1: var\\nx\\n=\\ny\\n<\\nz\\n; x === true. Actual: "
+                    "value": "#1: var\\nx\\n=\\ny\\n<\\nz\\n; x === true. Actual: ",
+                    "raw": "'#1: var\\\\nx\\\\n=\\\\ny\\\\n<\\\\nz\\\\n; x === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -181,7 +185,8 @@
           "type": "Literal",
           "start": 420,
           "end": 421,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -204,7 +209,8 @@
             "type": "Literal",
             "start": 441,
             "end": 442,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -229,7 +235,8 @@
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -291,7 +298,8 @@
           "type": "Literal",
           "start": 479,
           "end": 483,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -322,7 +330,8 @@
                     "type": "Literal",
                     "start": 512,
                     "end": 566,
-                    "value": "#2: var\\nx\\n=\\ny\\n<\\nz\\n; x === true. Actual: "
+                    "value": "#2: var\\nx\\n=\\ny\\n<\\nz\\n; x === true. Actual: ",
+                    "raw": "'#2: var\\\\nx\\\\n=\\\\ny\\\\n<\\\\nz\\\\n; x === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -363,7 +372,8 @@
           "type": "Literal",
           "start": 579,
           "end": 580,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -406,7 +416,8 @@
             "type": "Literal",
             "start": 612,
             "end": 613,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -431,7 +442,8 @@
             "type": "Literal",
             "start": 621,
             "end": 622,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -456,7 +468,8 @@
             "type": "Literal",
             "start": 629,
             "end": 694,
-            "value": " var x = y < z ; result = x;"
+            "value": " var x = y < z ; result = x;",
+            "raw": "\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<\\u2028z\\u2028; result = x;\""
           }
         ],
         "optional": false
@@ -481,7 +494,8 @@
           "type": "Literal",
           "start": 712,
           "end": 716,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -512,7 +526,8 @@
                     "type": "Literal",
                     "start": 745,
                     "end": 856,
-                    "value": "#3: eval(\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<\\u2028z\\u2028; result = x;\"); result === true. Actual: "
+                    "value": "#3: eval(\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<\\u2028z\\u2028; result = x;\"); result === true. Actual: ",
+                    "raw": "'#3: eval(\"\\\\u2028var\\\\u2028x\\\\u2028=\\\\u2028y\\\\u2028<\\\\u2028z\\\\u2028; result = x;\"); result === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -553,7 +568,8 @@
           "type": "Literal",
           "start": 879,
           "end": 880,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -576,7 +592,8 @@
             "type": "Literal",
             "start": 900,
             "end": 901,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -601,7 +618,8 @@
             "type": "Literal",
             "start": 909,
             "end": 910,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -626,7 +644,8 @@
             "type": "Literal",
             "start": 917,
             "end": 982,
-            "value": " var x = y < z ; result = x;"
+            "value": " var x = y < z ; result = x;",
+            "raw": "\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<\\u2029z\\u2029; result = x;\""
           }
         ],
         "optional": false
@@ -651,7 +670,8 @@
           "type": "Literal",
           "start": 1000,
           "end": 1004,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -682,7 +702,8 @@
                     "type": "Literal",
                     "start": 1033,
                     "end": 1144,
-                    "value": "#4: eval(\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<\\u2029z\\u2029; result = x;\"); result === true. Actual: "
+                    "value": "#4: eval(\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<\\u2029z\\u2029; result = x;\"); result === true. Actual: ",
+                    "raw": "'#4: eval(\"\\\\u2029var\\\\u2029x\\\\u2029=\\\\u2029y\\\\u2029<\\\\u2029z\\\\u2029; result = x;\"); result === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {

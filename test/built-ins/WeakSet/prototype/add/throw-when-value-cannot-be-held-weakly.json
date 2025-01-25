@@ -114,7 +114,8 @@
                         "type": "Literal",
                         "start": 463,
                         "end": 464,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -207,7 +208,8 @@
                         "type": "Literal",
                         "start": 518,
                         "end": 523,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -386,7 +388,8 @@
                         "type": "Literal",
                         "start": 631,
                         "end": 639,
-                        "value": "string"
+                        "value": "string",
+                        "raw": "'string'"
                       }
                     ],
                     "optional": false
@@ -479,7 +482,8 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 697,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -596,7 +600,8 @@
                             "type": "Literal",
                             "start": 762,
                             "end": 781,
-                            "value": "registered symbol"
+                            "value": "registered symbol",
+                            "raw": "'registered symbol'"
                           }
                         ],
                         "optional": false
@@ -612,7 +617,8 @@
             "type": "Literal",
             "start": 788,
             "end": 836,
-            "value": "Registered symbol not allowed as WeakSet value"
+            "value": "Registered symbol not allowed as WeakSet value",
+            "raw": "'Registered symbol not allowed as WeakSet value'"
           }
         ],
         "optional": false

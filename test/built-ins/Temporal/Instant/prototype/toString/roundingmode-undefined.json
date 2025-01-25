@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 323,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               }
             ]
           }
@@ -115,7 +116,8 @@
                       "type": "Literal",
                       "start": 378,
                       "end": 391,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   },
@@ -187,13 +189,15 @@
             "type": "Literal",
             "start": 449,
             "end": 478,
-            "value": "2001-09-09T01:46:40.123987Z"
+            "value": "2001-09-09T01:46:40.123987Z",
+            "raw": "\"2001-09-09T01:46:40.123987Z\""
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 511,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false
@@ -260,7 +264,8 @@
                       "type": "Literal",
                       "start": 565,
                       "end": 578,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   }
@@ -311,13 +316,15 @@
             "type": "Literal",
             "start": 611,
             "end": 640,
-            "value": "2001-09-09T01:46:40.123987Z"
+            "value": "2001-09-09T01:46:40.123987Z",
+            "raw": "\"2001-09-09T01:46:40.123987Z\""
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 673,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false
@@ -384,7 +391,8 @@
                       "type": "Literal",
                       "start": 728,
                       "end": 741,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   },
@@ -456,13 +464,15 @@
             "type": "Literal",
             "start": 799,
             "end": 825,
-            "value": "2001-09-09T01:46:40.123Z"
+            "value": "2001-09-09T01:46:40.123Z",
+            "raw": "\"2001-09-09T01:46:40.123Z\""
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 858,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false
@@ -529,7 +539,8 @@
                       "type": "Literal",
                       "start": 912,
                       "end": 925,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   }
@@ -580,13 +591,15 @@
             "type": "Literal",
             "start": 958,
             "end": 984,
-            "value": "2001-09-09T01:46:40.123Z"
+            "value": "2001-09-09T01:46:40.123Z",
+            "raw": "\"2001-09-09T01:46:40.123Z\""
           },
           {
             "type": "Literal",
             "start": 986,
             "end": 1017,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false
@@ -653,7 +666,8 @@
                       "type": "Literal",
                       "start": 1072,
                       "end": 1080,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -725,13 +739,15 @@
             "type": "Literal",
             "start": 1138,
             "end": 1160,
-            "value": "2001-09-09T01:46:40Z"
+            "value": "2001-09-09T01:46:40Z",
+            "raw": "\"2001-09-09T01:46:40Z\""
           },
           {
             "type": "Literal",
             "start": 1162,
             "end": 1193,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false
@@ -798,7 +814,8 @@
                       "type": "Literal",
                       "start": 1247,
                       "end": 1255,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   }
@@ -849,13 +866,15 @@
             "type": "Literal",
             "start": 1288,
             "end": 1310,
-            "value": "2001-09-09T01:46:40Z"
+            "value": "2001-09-09T01:46:40Z",
+            "raw": "\"2001-09-09T01:46:40Z\""
           },
           {
             "type": "Literal",
             "start": 1312,
             "end": 1343,
-            "value": "default roundingMode is trunc"
+            "value": "default roundingMode is trunc",
+            "raw": "\"default roundingMode is trunc\""
           }
         ],
         "optional": false

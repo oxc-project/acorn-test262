@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 353,
             "end": 358,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -175,7 +176,8 @@
                             "type": "Literal",
                             "start": 469,
                             "end": 473,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           "kind": "init"
                         }
@@ -235,7 +237,8 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 528,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -298,7 +301,8 @@
                 "type": "Literal",
                 "start": 567,
                 "end": 573,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             },
             "consequent": {
@@ -325,7 +329,8 @@
                       "type": "Literal",
                       "start": 596,
                       "end": 600,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -361,7 +366,8 @@
             "type": "Literal",
             "start": 629,
             "end": 651,
-            "value": "hasProperty !== true"
+            "value": "hasProperty !== true",
+            "raw": "'hasProperty !== true'"
           }
         ],
         "optional": false
@@ -405,13 +411,15 @@
             "type": "Literal",
             "start": 685,
             "end": 690,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 706,
-            "value": "isEnumerable"
+            "value": "isEnumerable",
+            "raw": "'isEnumerable'"
           }
         ],
         "optional": false

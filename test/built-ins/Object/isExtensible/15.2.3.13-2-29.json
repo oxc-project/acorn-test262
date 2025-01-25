@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 273,
             "end": 309,
-            "value": "Object.isExtensible(this) !== true"
+            "value": "Object.isExtensible(this) !== true",
+            "raw": "'Object.isExtensible(this) !== true'"
           }
         ],
         "optional": false

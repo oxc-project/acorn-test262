@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 270,
                 "end": 271,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -73,7 +74,8 @@
           "type": "Literal",
           "start": 287,
           "end": 288,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -100,7 +102,8 @@
             "type": "Literal",
             "start": 294,
             "end": 295,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -109,7 +112,8 @@
           "type": "Literal",
           "start": 299,
           "end": 300,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -132,7 +136,8 @@
             "type": "Literal",
             "start": 317,
             "end": 322,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -201,7 +206,8 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 391,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -312,7 +318,8 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 484,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -321,7 +328,8 @@
             "type": "Literal",
             "start": 487,
             "end": 550,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true",
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true'"
           }
         ],
         "optional": false
@@ -352,7 +360,8 @@
             "type": "Literal",
             "start": 570,
             "end": 589,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

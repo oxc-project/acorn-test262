@@ -95,14 +95,16 @@
                         "type": "Literal",
                         "start": 736,
                         "end": 763,
-                        "value": "0, class extends Object {"
+                        "value": "0, class extends Object {",
+                        "raw": "'0, class extends Object {'"
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
                         "start": 768,
                         "end": 787,
-                        "value": "  constructor() {"
+                        "value": "  constructor() {",
+                        "raw": "'  constructor() {'"
                       }
                     },
                     "operator": "+",
@@ -110,7 +112,8 @@
                       "type": "Literal",
                       "start": 792,
                       "end": 810,
-                      "value": "    return null;"
+                      "value": "    return null;",
+                      "raw": "'    return null;'"
                     }
                   },
                   "operator": "+",
@@ -118,7 +121,8 @@
                     "type": "Literal",
                     "start": 815,
                     "end": 820,
-                    "value": "  }"
+                    "value": "  }",
+                    "raw": "'  }'"
                   }
                 },
                 "operator": "+",
@@ -126,7 +130,8 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 828,
-                  "value": "}"
+                  "value": "}",
+                  "raw": "'}'"
                 }
               }
             ],

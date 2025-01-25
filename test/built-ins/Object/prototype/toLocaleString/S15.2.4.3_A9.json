@@ -84,7 +84,8 @@
                     "type": "Literal",
                     "start": 435,
                     "end": 443,
-                    "value": "length"
+                    "value": "length",
+                    "raw": "'length'"
                   }
                 ],
                 "optional": false
@@ -95,7 +96,8 @@
             "type": "Literal",
             "start": 448,
             "end": 544,
-            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true"
+            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
           }
         ],
         "optional": false
@@ -186,7 +188,8 @@
             "type": "Literal",
             "start": 610,
             "end": 695,
-            "value": "The value of !!delete Object.prototype.toLocaleString.length is expected to be true"
+            "value": "The value of !!delete Object.prototype.toLocaleString.length is expected to be true",
+            "raw": "'The value of !!delete Object.prototype.toLocaleString.length is expected to be true'"
           }
         ],
         "optional": false
@@ -267,7 +270,8 @@
                   "type": "Literal",
                   "start": 758,
                   "end": 766,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -277,7 +281,8 @@
             "type": "Literal",
             "start": 771,
             "end": 866,
-            "value": "The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true"
+            "value": "The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
           }
         ],
         "optional": false

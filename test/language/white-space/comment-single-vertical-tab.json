@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 279,
             "end": 323,
-            "value": "//\u000b single line \u000b comment \u000b"
+            "value": "//\u000b single line \u000b comment \u000b",
+            "raw": "\"//\\u000B single line \\u000B comment \\u000B\""
           }
         ],
         "optional": false
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 345,
             "end": 346,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 353,
             "end": 404,
-            "value": "//\u000b single line \u000b comment \u000b x = 1;"
+            "value": "//\u000b single line \u000b comment \u000b x = 1;",
+            "raw": "\"//\\u000B single line \\u000B comment \\u000B x = 1;\""
           }
         ],
         "optional": false
@@ -97,7 +100,8 @@
           "type": "Literal",
           "start": 417,
           "end": 418,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -128,7 +132,8 @@
                     "type": "Literal",
                     "start": 447,
                     "end": 543,
-                    "value": "#1: var x = 0; eval(\"//\\u000B single line \\u000B comment \\u000B x = 1;\"); x === 0. Actual: "
+                    "value": "#1: var x = 0; eval(\"//\\u000B single line \\u000B comment \\u000B x = 1;\"); x === 0. Actual: ",
+                    "raw": "'#1: var x = 0; eval(\"//\\\\u000B single line \\\\u000B comment \\\\u000B x = 1;\"); x === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {

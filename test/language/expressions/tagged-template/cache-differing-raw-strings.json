@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 720,
+  "end": 716,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 427,
             "end": 431,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 451,
             "end": 455,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -169,7 +171,8 @@
               "type": "Literal",
               "start": 572,
               "end": 576,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -218,18 +221,19 @@
           "type": "Literal",
           "start": 626,
           "end": 630,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 633,
-      "end": 645,
+      "end": 641,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 633,
-        "end": 644,
+        "end": 640,
         "tag": {
           "type": "Identifier",
           "start": 633,
@@ -239,13 +243,13 @@
         "quasi": {
           "type": "TemplateLiteral",
           "start": 636,
-          "end": 644,
+          "end": 640,
           "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
               "start": 637,
-              "end": 643,
+              "end": 639,
               "value": {
                 "raw": "안녕",
                 "cooked": "안녕"
@@ -258,35 +262,36 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 679,
+      "start": 643,
+      "end": 675,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 678,
+        "start": 643,
+        "end": 674,
         "callee": {
           "type": "Identifier",
-          "start": 647,
-          "end": 653,
+          "start": 643,
+          "end": 649,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 654,
-            "end": 677,
+            "start": 650,
+            "end": 673,
             "left": {
               "type": "Identifier",
-              "start": 654,
-              "end": 668,
+              "start": 650,
+              "end": 664,
               "name": "previousObject"
             },
             "operator": "!==",
             "right": {
               "type": "Literal",
-              "start": 673,
-              "end": 677,
-              "value": null
+              "start": 669,
+              "end": 673,
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -295,34 +300,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 680,
-      "end": 719,
+      "start": 676,
+      "end": 715,
       "expression": {
         "type": "CallExpression",
-        "start": 680,
-        "end": 718,
+        "start": 676,
+        "end": 714,
         "callee": {
           "type": "Identifier",
-          "start": 680,
-          "end": 686,
+          "start": 676,
+          "end": 682,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 687,
-            "end": 717,
+            "start": 683,
+            "end": 713,
             "left": {
               "type": "Identifier",
-              "start": 687,
-              "end": 698,
+              "start": 683,
+              "end": 694,
               "name": "firstObject"
             },
             "operator": "!==",
             "right": {
               "type": "Identifier",
-              "start": 703,
-              "end": 717,
+              "start": 699,
+              "end": 713,
               "name": "previousObject"
             }
           }

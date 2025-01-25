@@ -80,14 +80,16 @@
                               "type": "Literal",
                               "start": 610,
                               "end": 676,
-                              "value": "init = f;        {      function f() {}    }switch (1) {"
+                              "value": "init = f;        {      function f() {}    }switch (1) {",
+                              "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 683,
                               "end": 694,
-                              "value": "  case 1:"
+                              "value": "  case 1:",
+                              "raw": "'  case 1:'"
                             }
                           },
                           "operator": "+",
@@ -95,7 +97,8 @@
                             "type": "Literal",
                             "start": 701,
                             "end": 724,
-                            "value": "    function f() {  }"
+                            "value": "    function f() {  }",
+                            "raw": "'    function f() {  }'"
                           }
                         },
                         "operator": "+",
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 731,
                           "end": 740,
-                          "value": "}    "
+                          "value": "}    ",
+                          "raw": "'}\\\n    '"
                         }
                       }
                     ],

@@ -54,7 +54,8 @@
                     "type": "Literal",
                     "start": 376,
                     "end": 389,
-                    "value": "some string"
+                    "value": "some string",
+                    "raw": "\"some string\""
                   }
                 ],
                 "optional": false
@@ -75,13 +76,15 @@
             "type": "Literal",
             "start": 404,
             "end": 417,
-            "value": "some string"
+            "value": "some string",
+            "raw": "\"some string\""
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 480,
-            "value": "Object(\"some string\").valueOf() must return \"some string\""
+            "value": "Object(\"some string\").valueOf() must return \"some string\"",
+            "raw": "'Object(\"some string\").valueOf() must return \"some string\"'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 532,
-                  "value": "some string"
+                  "value": "some string",
+                  "raw": "\"some string\""
                 }
               ],
               "optional": false
@@ -146,13 +150,15 @@
             "type": "Literal",
             "start": 537,
             "end": 545,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 621,
-            "value": "The value of `typeof Object(\"some string\")` is expected to be \"object\""
+            "value": "The value of `typeof Object(\"some string\")` is expected to be \"object\"",
+            "raw": "'The value of `typeof Object(\"some string\")` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -209,7 +215,8 @@
                     "type": "Literal",
                     "start": 653,
                     "end": 666,
-                    "value": "some string"
+                    "value": "some string",
+                    "raw": "\"some string\""
                   }
                 ],
                 "optional": false
@@ -255,7 +262,8 @@
             "type": "Literal",
             "start": 713,
             "end": 822,
-            "value": "The value of Object(\"some string\").constructor.prototype is expected to equal the value of String.prototype"
+            "value": "The value of Object(\"some string\").constructor.prototype is expected to equal the value of String.prototype",
+            "raw": "'The value of Object(\"some string\").constructor.prototype is expected to equal the value of String.prototype'"
           }
         ],
         "optional": false
@@ -312,7 +320,8 @@
                     "type": "Literal",
                     "start": 851,
                     "end": 853,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ],
                 "optional": false
@@ -333,13 +342,15 @@
             "type": "Literal",
             "start": 866,
             "end": 868,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 870,
             "end": 907,
-            "value": "Object(\"\").valueOf() must return \"\""
+            "value": "Object(\"\").valueOf() must return \"\"",
+            "raw": "'Object(\"\").valueOf() must return \"\"'"
           }
         ],
         "optional": false
@@ -394,7 +405,8 @@
                   "type": "Literal",
                   "start": 941,
                   "end": 943,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 }
               ],
               "optional": false
@@ -404,13 +416,15 @@
             "type": "Literal",
             "start": 946,
             "end": 954,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1017,
-            "value": "The value of `typeof Object(\"\")` is expected to be \"object\""
+            "value": "The value of `typeof Object(\"\")` is expected to be \"object\"",
+            "raw": "'The value of `typeof Object(\"\")` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -467,7 +481,8 @@
                     "type": "Literal",
                     "start": 1048,
                     "end": 1050,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ],
                 "optional": false
@@ -513,7 +528,8 @@
             "type": "Literal",
             "start": 1097,
             "end": 1195,
-            "value": "The value of Object(\"\").constructor.prototype is expected to equal the value of String.prototype"
+            "value": "The value of Object(\"\").constructor.prototype is expected to equal the value of String.prototype",
+            "raw": "'The value of Object(\"\").constructor.prototype is expected to equal the value of String.prototype'"
           }
         ],
         "optional": false
@@ -570,7 +586,8 @@
                     "type": "Literal",
                     "start": 1224,
                     "end": 1238,
-                    "value": "\r\t\b\n\u000b\f"
+                    "value": "\r\t\b\n\u000b\f",
+                    "raw": "\"\\r\\t\\b\\n\\v\\f\""
                   }
                 ],
                 "optional": false
@@ -591,13 +608,15 @@
             "type": "Literal",
             "start": 1251,
             "end": 1265,
-            "value": "\r\t\b\n\u000b\f"
+            "value": "\r\t\b\n\u000b\f",
+            "raw": "\"\\r\\t\\b\\n\\v\\f\""
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1316,
-            "value": "Object(\"rtbnvf\").valueOf() must return \"rtbnvf\""
+            "value": "Object(\"rtbnvf\").valueOf() must return \"rtbnvf\"",
+            "raw": "'Object(\"rtbnvf\").valueOf() must return \"rtbnvf\"'"
           }
         ],
         "optional": false
@@ -652,7 +671,8 @@
                   "type": "Literal",
                   "start": 1354,
                   "end": 1368,
-                  "value": "\r\t\b\n\u000b\f"
+                  "value": "\r\t\b\n\u000b\f",
+                  "raw": "\"\\r\\t\\b\\n\\v\\f\""
                 }
               ],
               "optional": false
@@ -662,13 +682,15 @@
             "type": "Literal",
             "start": 1373,
             "end": 1381,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 1385,
             "end": 1452,
-            "value": "The value of `typeof Object(\"rtbnvf\")` is expected to be \"object\""
+            "value": "The value of `typeof Object(\"rtbnvf\")` is expected to be \"object\"",
+            "raw": "'The value of `typeof Object(\"rtbnvf\")` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -725,7 +747,8 @@
                     "type": "Literal",
                     "start": 1484,
                     "end": 1498,
-                    "value": "\r\t\b\n\u000b\f"
+                    "value": "\r\t\b\n\u000b\f",
+                    "raw": "\"\\r\\t\\b\\n\\v\\f\""
                   }
                 ],
                 "optional": false
@@ -771,7 +794,8 @@
             "type": "Literal",
             "start": 1545,
             "end": 1649,
-            "value": "The value of Object(\"rtbnvf\").constructor.prototype is expected to equal the value of String.prototype"
+            "value": "The value of Object(\"rtbnvf\").constructor.prototype is expected to equal the value of String.prototype",
+            "raw": "'The value of Object(\"rtbnvf\").constructor.prototype is expected to equal the value of String.prototype'"
           }
         ],
         "optional": false
@@ -839,7 +863,8 @@
                         "type": "Literal",
                         "start": 1685,
                         "end": 1687,
-                        "value": 10
+                        "value": 10,
+                        "raw": "10"
                       }
                     ],
                     "optional": false
@@ -863,13 +888,15 @@
             "type": "Literal",
             "start": 1701,
             "end": 1705,
-            "value": "10"
+            "value": "10",
+            "raw": "\"10\""
           },
           {
             "type": "Literal",
             "start": 1707,
             "end": 1754,
-            "value": "Object(String(10)).valueOf() must return \"10\""
+            "value": "Object(String(10)).valueOf() must return \"10\"",
+            "raw": "'Object(String(10)).valueOf() must return \"10\"'"
           }
         ],
         "optional": false
@@ -935,7 +962,8 @@
                       "type": "Literal",
                       "start": 1799,
                       "end": 1801,
-                      "value": 10
+                      "value": 10,
+                      "raw": "10"
                     }
                   ],
                   "optional": false
@@ -948,13 +976,15 @@
             "type": "Literal",
             "start": 1807,
             "end": 1815,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 1819,
             "end": 1888,
-            "value": "The value of `typeof Object(String(10))` is expected to be \"object\""
+            "value": "The value of `typeof Object(String(10))` is expected to be \"object\"",
+            "raw": "'The value of `typeof Object(String(10))` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -1022,7 +1052,8 @@
                         "type": "Literal",
                         "start": 1927,
                         "end": 1929,
-                        "value": 10
+                        "value": 10,
+                        "raw": "10"
                       }
                     ],
                     "optional": false
@@ -1071,7 +1102,8 @@
             "type": "Literal",
             "start": 1977,
             "end": 2083,
-            "value": "The value of Object(String(10)).constructor.prototype is expected to equal the value of String.prototype"
+            "value": "The value of Object(String(10)).constructor.prototype is expected to equal the value of String.prototype",
+            "raw": "'The value of Object(String(10)).constructor.prototype is expected to equal the value of String.prototype'"
           }
         ],
         "optional": false

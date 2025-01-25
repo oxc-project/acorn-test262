@@ -142,7 +142,8 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 1017,
-                  "value": "#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true"
+                  "value": "#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true",
+                  "raw": "'#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true'"
                 }
               ]
             }
@@ -258,7 +259,8 @@
                   "type": "Literal",
                   "start": 1145,
                   "end": 1257,
-                  "value": "#2: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true"
+                  "value": "#2: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true",
+                  "raw": "'#2: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true'"
                 }
               ]
             }

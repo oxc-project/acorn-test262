@@ -67,7 +67,8 @@
                     "type": "Literal",
                     "start": 571,
                     "end": 575,
-                    "value": "en"
+                    "value": "en",
+                    "raw": "'en'"
                   }
                 ]
               },

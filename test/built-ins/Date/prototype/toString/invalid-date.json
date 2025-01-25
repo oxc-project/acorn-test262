@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 361,
             "end": 375,
-            "value": "Invalid Date"
+            "value": "Invalid Date",
+            "raw": "\"Invalid Date\""
           }
         ],
         "optional": false

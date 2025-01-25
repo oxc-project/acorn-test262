@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 347,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 354,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -120,7 +122,8 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 397,
-                  "value": "PT1.03125H"
+                  "value": "PT1.03125H",
+                  "raw": "\"PT1.03125H\""
                 }
               ],
               "optional": false
@@ -138,13 +141,15 @@
             "type": "Literal",
             "start": 417,
             "end": 434,
-            "value": "3712500000000n"
+            "value": "3712500000000n",
+            "raw": "3712_500_000_000n"
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 500,
-            "value": "positive fractional units rounded with correct rounding mode"
+            "value": "positive fractional units rounded with correct rounding mode",
+            "raw": "\"positive fractional units rounded with correct rounding mode\""
           }
         ],
         "optional": false
@@ -210,7 +215,8 @@
                   "type": "Literal",
                   "start": 530,
                   "end": 543,
-                  "value": "-PT1.03125H"
+                  "value": "-PT1.03125H",
+                  "raw": "\"-PT1.03125H\""
                 }
               ],
               "optional": false
@@ -234,14 +240,16 @@
               "type": "Literal",
               "start": 564,
               "end": 581,
-              "value": "3712500000000n"
+              "value": "3712500000000n",
+              "raw": "3712_500_000_000n"
             }
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 647,
-            "value": "negative fractional units rounded with correct rounding mode"
+            "value": "negative fractional units rounded with correct rounding mode",
+            "raw": "\"negative fractional units rounded with correct rounding mode\""
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 1553,
               "end": 1559,
-              "value": 12
+              "value": 12,
+              "raw": "0b1100"
             }
           },
           {
@@ -96,7 +97,8 @@
                         "type": "Literal",
                         "start": 1613,
                         "end": 1614,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     }
                   }
@@ -250,13 +252,15 @@
             "type": "Literal",
             "start": 1728,
             "end": 1734,
-            "value": 3
+            "value": 3,
+            "raw": "0b0011"
           },
           {
             "type": "Literal",
             "start": 1736,
             "end": 1782,
-            "value": "The expression should evaluate to the result"
+            "value": "The expression should evaluate to the result",
+            "raw": "\"The expression should evaluate to the result\""
           }
         ],
         "optional": false
@@ -320,13 +324,15 @@
             "type": "Literal",
             "start": 1818,
             "end": 1824,
-            "value": 3
+            "value": 3,
+            "raw": "0b0011"
           },
           {
             "type": "Literal",
             "start": 1826,
             "end": 1885,
-            "value": "PutValue should store the result in the private reference"
+            "value": "PutValue should store the result in the private reference",
+            "raw": "\"PutValue should store the result in the private reference\""
           }
         ],
         "optional": false

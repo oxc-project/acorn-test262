@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 486,
             "end": 487,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 489,
             "end": 525,
-            "value": "Number(new Number()) must return 0"
+            "value": "Number(new Number()) must return 0",
+            "raw": "'Number(new Number()) must return 0'"
           }
         ],
         "optional": false
@@ -127,7 +129,8 @@
                     "type": "Literal",
                     "start": 563,
                     "end": 564,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ]
               }
@@ -138,13 +141,15 @@
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 608,
-            "value": "Number(new Number(0)) must return 0"
+            "value": "Number(new Number(0)) must return 0",
+            "raw": "'Number(new Number(0)) must return 0'"
           }
         ],
         "optional": false
@@ -221,7 +226,8 @@
             "type": "Literal",
             "start": 670,
             "end": 707,
-            "value": "Number(new Number(NaN)) returns NaN"
+            "value": "Number(new Number(NaN)) returns NaN",
+            "raw": "'Number(new Number(NaN)) returns NaN'"
           }
         ],
         "optional": false
@@ -281,7 +287,8 @@
                     "type": "Literal",
                     "start": 746,
                     "end": 750,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 ]
               }
@@ -292,13 +299,15 @@
             "type": "Literal",
             "start": 754,
             "end": 755,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 797,
-            "value": "Number(new Number(null)) must return 0"
+            "value": "Number(new Number(null)) must return 0",
+            "raw": "'Number(new Number(null)) must return 0'"
           }
         ],
         "optional": false
@@ -364,7 +373,8 @@
                       "type": "Literal",
                       "start": 852,
                       "end": 853,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ]
@@ -382,7 +392,8 @@
             "type": "Literal",
             "start": 862,
             "end": 902,
-            "value": "Number(new Number(void 0)) returns NaN"
+            "value": "Number(new Number(void 0)) returns NaN",
+            "raw": "'Number(new Number(void 0)) returns NaN'"
           }
         ],
         "optional": false
@@ -442,7 +453,8 @@
                     "type": "Literal",
                     "start": 941,
                     "end": 945,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               }
@@ -453,13 +465,15 @@
             "type": "Literal",
             "start": 949,
             "end": 950,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 952,
             "end": 992,
-            "value": "Number(new Number(true)) must return 1"
+            "value": "Number(new Number(true)) must return 1",
+            "raw": "'Number(new Number(true)) must return 1'"
           }
         ],
         "optional": false
@@ -519,7 +533,8 @@
                     "type": "Literal",
                     "start": 1030,
                     "end": 1035,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               }
@@ -536,14 +551,16 @@
               "type": "Literal",
               "start": 1040,
               "end": 1041,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1085,
-            "value": "Number(new Number(false)) must return +0"
+            "value": "Number(new Number(false)) must return +0",
+            "raw": "'Number(new Number(false)) must return +0'"
           }
         ],
         "optional": false
@@ -603,7 +620,8 @@
                     "type": "Literal",
                     "start": 1124,
                     "end": 1128,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               }
@@ -614,13 +632,15 @@
             "type": "Literal",
             "start": 1132,
             "end": 1133,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1176,
-            "value": "Number(new Boolean(true)) must return 1"
+            "value": "Number(new Boolean(true)) must return 1",
+            "raw": "'Number(new Boolean(true)) must return 1'"
           }
         ],
         "optional": false
@@ -680,7 +700,8 @@
                     "type": "Literal",
                     "start": 1215,
                     "end": 1220,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               }
@@ -697,14 +718,16 @@
               "type": "Literal",
               "start": 1225,
               "end": 1226,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1271,
-            "value": "Number(new Boolean(false)) must return +0"
+            "value": "Number(new Boolean(false)) must return +0",
+            "raw": "'Number(new Boolean(false)) must return +0'"
           }
         ],
         "optional": false
@@ -764,31 +787,36 @@
                     "type": "Literal",
                     "start": 1321,
                     "end": 1322,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 1324,
                     "end": 1325,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   },
                   {
                     "type": "Literal",
                     "start": 1327,
                     "end": 1328,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   },
                   {
                     "type": "Literal",
                     "start": 1330,
                     "end": 1332,
-                    "value": 16
+                    "value": 16,
+                    "raw": "16"
                   },
                   {
                     "type": "Literal",
                     "start": 1334,
                     "end": 1336,
-                    "value": 32
+                    "value": 32,
+                    "raw": "32"
                   }
                 ]
               }
@@ -805,7 +833,8 @@
             "type": "Literal",
             "start": 1345,
             "end": 1393,
-            "value": "Number(new Array(2, 4, 8, 16, 32)) returns NaN"
+            "value": "Number(new Array(2, 4, 8, 16, 32)) returns NaN",
+            "raw": "'Number(new Array(2, 4, 8, 16, 32)) returns NaN'"
           }
         ],
         "optional": false
@@ -866,7 +895,8 @@
                           "type": "Literal",
                           "start": 1460,
                           "end": 1465,
-                          "value": 12345
+                          "value": 12345,
+                          "raw": "12345"
                         }
                       }
                     ]
@@ -909,7 +939,8 @@
                           "type": "Literal",
                           "start": 1508,
                           "end": 1515,
-                          "value": "67890"
+                          "value": "67890",
+                          "raw": "\"67890\""
                         }
                       }
                     ]
@@ -952,7 +983,8 @@
                           "type": "Literal",
                           "start": 1557,
                           "end": 1573,
-                          "value": "[object MyObj]"
+                          "value": "[object MyObj]",
+                          "raw": "\"[object MyObj]\""
                         }
                       }
                     ]
@@ -1024,7 +1056,8 @@
             "type": "Literal",
             "start": 1621,
             "end": 1770,
-            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"[object MyObj]\";}}) returns NaN"
+            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"[object MyObj]\";}}) returns NaN",
+            "raw": "'Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"[object MyObj]\";}}) returns NaN'"
           }
         ],
         "optional": false
@@ -1085,7 +1118,8 @@
                           "type": "Literal",
                           "start": 1837,
                           "end": 1842,
-                          "value": 12345
+                          "value": 12345,
+                          "raw": "12345"
                         }
                       }
                     ]
@@ -1128,7 +1162,8 @@
                           "type": "Literal",
                           "start": 1885,
                           "end": 1892,
-                          "value": "67890"
+                          "value": "67890",
+                          "raw": "\"67890\""
                         }
                       }
                     ]
@@ -1171,7 +1206,8 @@
                           "type": "Literal",
                           "start": 1934,
                           "end": 1946,
-                          "value": "9876543210"
+                          "value": "9876543210",
+                          "raw": "\"9876543210\""
                         }
                       }
                     ]
@@ -1237,13 +1273,15 @@
             "type": "Literal",
             "start": 1994,
             "end": 2004,
-            "value": 9876543210
+            "value": 9876543210,
+            "raw": "9876543210"
           },
           {
             "type": "Literal",
             "start": 2008,
             "end": 2164,
-            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"9876543210\";}}) must return 9876543210"
+            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"9876543210\";}}) must return 9876543210",
+            "raw": "'Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}, valueOf: function() {return \"9876543210\";}}) must return 9876543210'"
           }
         ],
         "optional": false
@@ -1304,7 +1342,8 @@
                           "type": "Literal",
                           "start": 2233,
                           "end": 2238,
-                          "value": 12345
+                          "value": 12345,
+                          "raw": "12345"
                         }
                       }
                     ]
@@ -1347,7 +1386,8 @@
                           "type": "Literal",
                           "start": 2281,
                           "end": 2297,
-                          "value": "[object MyObj]"
+                          "value": "[object MyObj]",
+                          "raw": "\"[object MyObj]\""
                         }
                       }
                     ]
@@ -1419,7 +1459,8 @@
             "type": "Literal",
             "start": 2345,
             "end": 2455,
-            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"[object MyObj]\";}}) returns NaN"
+            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"[object MyObj]\";}}) returns NaN",
+            "raw": "'Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"[object MyObj]\";}}) returns NaN'"
           }
         ],
         "optional": false
@@ -1480,7 +1521,8 @@
                           "type": "Literal",
                           "start": 2522,
                           "end": 2527,
-                          "value": 12345
+                          "value": 12345,
+                          "raw": "12345"
                         }
                       }
                     ]
@@ -1523,7 +1565,8 @@
                           "type": "Literal",
                           "start": 2570,
                           "end": 2577,
-                          "value": "67890"
+                          "value": "67890",
+                          "raw": "\"67890\""
                         }
                       }
                     ]
@@ -1589,13 +1632,15 @@
             "type": "Literal",
             "start": 2625,
             "end": 2630,
-            "value": 67890
+            "value": 67890,
+            "raw": "67890"
           },
           {
             "type": "Literal",
             "start": 2634,
             "end": 2741,
-            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}}) must return 67890"
+            "value": "Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}}) must return 67890",
+            "raw": "'Number(\"{ToNumber: function() {return 12345;}, toString: function() {return \"67890\";}}) must return 67890'"
           }
         ],
         "optional": false
@@ -1656,7 +1701,8 @@
                           "type": "Literal",
                           "start": 2809,
                           "end": 2814,
-                          "value": 12345
+                          "value": 12345,
+                          "raw": "12345"
                         }
                       }
                     ]
@@ -1728,7 +1774,8 @@
             "type": "Literal",
             "start": 2862,
             "end": 2922,
-            "value": "Number({ToNumber: function() {return 12345;}}) returns NaN"
+            "value": "Number({ToNumber: function() {return 12345;}}) returns NaN",
+            "raw": "'Number({ToNumber: function() {return 12345;}}) returns NaN'"
           }
         ],
         "optional": false

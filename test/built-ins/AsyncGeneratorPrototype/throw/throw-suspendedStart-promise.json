@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 1053,
                         "end": 1085,
-                        "value": "Generator must not be resumed."
+                        "value": "Generator must not be resumed.",
+                        "raw": "'Generator must not be resumed.'"
                       }
                     ]
                   }
@@ -277,7 +278,8 @@
                             "type": "Literal",
                             "start": 1228,
                             "end": 1283,
-                            "value": "AsyncGeneratorReject(generator, completion.[[Value]])"
+                            "value": "AsyncGeneratorReject(generator, completion.[[Value]])",
+                            "raw": "'AsyncGeneratorReject(generator, completion.[[Value]])'"
                           }
                         ],
                         "optional": false
@@ -417,7 +419,8 @@
                                             "type": "Literal",
                                             "start": 1363,
                                             "end": 1384,
-                                            "value": "Generator is closed"
+                                            "value": "Generator is closed",
+                                            "raw": "'Generator is closed'"
                                           }
                                         ],
                                         "optional": false
@@ -474,13 +477,15 @@
                                             "type": "Literal",
                                             "start": 1418,
                                             "end": 1422,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1424,
                                             "end": 1445,
-                                            "value": "Generator is closed"
+                                            "value": "Generator is closed",
+                                            "raw": "'Generator is closed'"
                                           }
                                         ],
                                         "optional": false

@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 914,
             "end": 915,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -170,7 +171,8 @@
                                       "type": "Literal",
                                       "start": 1014,
                                       "end": 1019,
-                                      "value": false
+                                      "value": false,
+                                      "raw": "false"
                                     },
                                     "kind": "init"
                                   },
@@ -191,7 +193,8 @@
                                       "type": "Literal",
                                       "start": 1028,
                                       "end": 1032,
-                                      "value": null
+                                      "value": null,
+                                      "raw": "null"
                                     },
                                     "kind": "init"
                                   }
@@ -220,7 +223,8 @@
                         "type": "Literal",
                         "start": 1055,
                         "end": 1056,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -335,7 +339,8 @@
                             "type": "Literal",
                             "start": 1155,
                             "end": 1156,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -393,13 +398,15 @@
             "type": "Literal",
             "start": 1211,
             "end": 1212,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1242,
-            "value": "The loop body is evaluated"
+            "value": "The loop body is evaluated",
+            "raw": "'The loop body is evaluated'"
           }
         ],
         "optional": false

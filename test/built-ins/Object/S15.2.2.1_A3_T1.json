@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 362,
             "end": 378,
-            "value": "Obi-Wan Kenobi"
+            "value": "Obi-Wan Kenobi",
+            "raw": "'Obi-Wan Kenobi'"
           }
         }
       ],
@@ -73,13 +74,15 @@
             "type": "Literal",
             "start": 410,
             "end": 418,
-            "value": "string"
+            "value": "string",
+            "raw": "'string'"
           },
           {
             "type": "Literal",
             "start": 420,
             "end": 474,
-            "value": "The value of `typeof str` is expected to be \"string\""
+            "value": "The value of `typeof str` is expected to be \"string\"",
+            "raw": "'The value of `typeof str` is expected to be \"string\"'"
           }
         ],
         "optional": false
@@ -180,7 +183,8 @@
             "type": "Literal",
             "start": 553,
             "end": 626,
-            "value": "The value of n_obj.constructor is expected to equal the value of String"
+            "value": "The value of n_obj.constructor is expected to equal the value of String",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of String'"
           }
         ],
         "optional": false
@@ -231,13 +235,15 @@
             "type": "Literal",
             "start": 660,
             "end": 668,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 726,
-            "value": "The value of `typeof n_obj` is expected to be \"object\""
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -280,7 +286,8 @@
             "type": "Literal",
             "start": 750,
             "end": 814,
-            "value": "The result of evaluating (n_obj == str) is expected to be true"
+            "value": "The result of evaluating (n_obj == str) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == str) is expected to be true'"
           }
         ],
         "optional": false
@@ -330,7 +337,8 @@
             "type": "Literal",
             "start": 849,
             "end": 913,
-            "value": "The value of n_obj is expected to not equal the value of `str`"
+            "value": "The value of n_obj is expected to not equal the value of `str`",
+            "raw": "'The value of n_obj is expected to not equal the value of `str`'"
           }
         ],
         "optional": false

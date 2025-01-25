@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 778,
             "end": 783,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 849,
-            "value": "isConstructor(ArrayBuffer.prototype.slice) must return false"
+            "value": "isConstructor(ArrayBuffer.prototype.slice) must return false",
+            "raw": "'isConstructor(ArrayBuffer.prototype.slice) must return false'"
           }
         ],
         "optional": false

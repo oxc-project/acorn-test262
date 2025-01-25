@@ -99,7 +99,8 @@
             "type": "Literal",
             "start": 362,
             "end": 444,
-            "value": "Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat"
+            "value": "Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat",
+            "raw": "\"Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat\""
           }
         ],
         "optional": false

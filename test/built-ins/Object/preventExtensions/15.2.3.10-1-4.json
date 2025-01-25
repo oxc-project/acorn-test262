@@ -35,7 +35,8 @@
             "type": "Literal",
             "start": 303,
             "end": 308,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         ],
         "optional": false

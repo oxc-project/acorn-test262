@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 285,
             "end": 290,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 331,
-            "value": "Array.isArray(Math) must return false"
+            "value": "Array.isArray(Math) must return false",
+            "raw": "'Array.isArray(Math) must return false'"
           }
         ],
         "optional": false

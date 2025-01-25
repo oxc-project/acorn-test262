@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 411,
+  "end": 410,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 269,
-      "end": 314,
+      "start": 268,
+      "end": 313,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 275,
-          "end": 313,
+          "start": 274,
+          "end": 312,
           "id": {
             "type": "Identifier",
-            "start": 275,
-            "end": 278,
+            "start": 274,
+            "end": 277,
             "name": "pmd"
           },
           "init": {
             "type": "NewExpression",
-            "start": 281,
-            "end": 313,
+            "start": 280,
+            "end": 312,
             "callee": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 307,
+              "start": 284,
+              "end": 306,
               "object": {
                 "type": "Identifier",
-                "start": 285,
-                "end": 293,
+                "start": 284,
+                "end": 292,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 294,
-                "end": 307,
+                "start": 293,
+                "end": 306,
                 "name": "PlainMonthDay"
               },
               "computed": false,
@@ -44,15 +44,17 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 308,
-                "end": 309,
-                "value": 1
+                "start": 307,
+                "end": 308,
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
-                "start": 311,
-                "end": 312,
-                "value": 1
+                "start": 310,
+                "end": 311,
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -62,26 +64,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 410,
+      "start": 315,
+      "end": 409,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 409,
+        "start": 315,
+        "end": 408,
         "callee": {
           "type": "MemberExpression",
-          "start": 316,
-          "end": 332,
+          "start": 315,
+          "end": 331,
           "object": {
             "type": "Identifier",
-            "start": 316,
-            "end": 322,
+            "start": 315,
+            "end": 321,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 323,
-            "end": 332,
+            "start": 322,
+            "end": 331,
             "name": "sameValue"
           },
           "computed": false,
@@ -90,28 +92,28 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 336,
-            "end": 395,
+            "start": 335,
+            "end": 394,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "CallExpression",
-              "start": 343,
-              "end": 395,
+              "start": 342,
+              "end": 394,
               "callee": {
                 "type": "MemberExpression",
-                "start": 343,
-                "end": 361,
+                "start": 342,
+                "end": 360,
                 "object": {
                   "type": "Identifier",
-                  "start": 343,
-                  "end": 346,
+                  "start": 342,
+                  "end": 345,
                   "name": "pmd"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 347,
-                  "end": 361,
+                  "start": 346,
+                  "end": 360,
                   "name": "toLocaleString"
                 },
                 "computed": false,
@@ -120,33 +122,34 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 362,
-                  "end": 371,
+                  "start": 361,
+                  "end": 370,
                   "name": "undefined"
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 373,
-                  "end": 394,
+                  "start": 372,
+                  "end": 393,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 374,
-                      "end": 393,
+                      "start": 373,
+                      "end": 392,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 374,
-                        "end": 382,
+                        "start": 373,
+                        "end": 381,
                         "name": "calendar"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 384,
-                        "end": 393,
-                        "value": "iso8601"
+                        "start": 383,
+                        "end": 392,
+                        "value": "iso8601",
+                        "raw": "\"iso8601\""
                       },
                       "kind": "init"
                     }
@@ -158,9 +161,10 @@
           },
           {
             "type": "Literal",
-            "start": 399,
-            "end": 407,
-            "value": "string"
+            "start": 398,
+            "end": 406,
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 352,
-                "value": "0xc"
+                "value": "0xc",
+                "raw": "\"0xc\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 355,
             "end": 357,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 389,
-            "value": "Number(\"0xc\") must return 12"
+            "value": "Number(\"0xc\") must return 12",
+            "raw": "'Number(\"0xc\") must return 12'"
           }
         ],
         "optional": false
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 416,
-                "value": "0xC"
+                "value": "0xC",
+                "raw": "\"0xC\""
               }
             }
           },
@@ -117,13 +121,15 @@
             "type": "Literal",
             "start": 419,
             "end": 421,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 469,
-            "value": "The value of `+(\"0xC\")` is expected to be 12"
+            "value": "The value of `+(\"0xC\")` is expected to be 12",
+            "raw": "'The value of `+(\"0xC\")` is expected to be 12'"
           }
         ],
         "optional": false
@@ -172,7 +178,8 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 501,
-                "value": "0Xc"
+                "value": "0Xc",
+                "raw": "\"0Xc\""
               }
             ],
             "optional": false
@@ -181,13 +188,15 @@
             "type": "Literal",
             "start": 504,
             "end": 506,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 538,
-            "value": "Number(\"0Xc\") must return 12"
+            "value": "Number(\"0Xc\") must return 12",
+            "raw": "'Number(\"0Xc\") must return 12'"
           }
         ],
         "optional": false
@@ -236,7 +245,8 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 570,
-                "value": "0XC"
+                "value": "0XC",
+                "raw": "\"0XC\""
               }
             ],
             "optional": false
@@ -245,13 +255,15 @@
             "type": "Literal",
             "start": 573,
             "end": 575,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 607,
-            "value": "Number(\"0XC\") must return 12"
+            "value": "Number(\"0XC\") must return 12",
+            "raw": "'Number(\"0XC\") must return 12'"
           }
         ],
         "optional": false

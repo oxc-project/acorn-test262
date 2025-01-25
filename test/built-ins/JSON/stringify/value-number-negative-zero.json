@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 626,
                   "end": 627,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -75,7 +76,8 @@
             "type": "Literal",
             "start": 630,
             "end": 633,
-            "value": "0"
+            "value": "0",
+            "raw": "'0'"
           }
         ],
         "optional": false
@@ -142,13 +144,15 @@
                     "type": "Literal",
                     "start": 669,
                     "end": 673,
-                    "value": "-0"
+                    "value": "-0",
+                    "raw": "'-0'"
                   },
                   {
                     "type": "Literal",
                     "start": 675,
                     "end": 676,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "UnaryExpression",
@@ -160,7 +164,8 @@
                       "type": "Literal",
                       "start": 679,
                       "end": 680,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ]
@@ -172,7 +177,8 @@
             "type": "Literal",
             "start": 684,
             "end": 696,
-            "value": "[\"-0\",0,0]"
+            "value": "[\"-0\",0,0]",
+            "raw": "'[\"-0\",0,0]'"
           }
         ],
         "optional": false
@@ -258,7 +264,8 @@
                         "type": "Literal",
                         "start": 738,
                         "end": 739,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     },
                     "kind": "init"
@@ -272,7 +279,8 @@
             "type": "Literal",
             "start": 743,
             "end": 754,
-            "value": "{\"key\":0}"
+            "value": "{\"key\":0}",
+            "raw": "'{\"key\":0}'"
           }
         ],
         "optional": false

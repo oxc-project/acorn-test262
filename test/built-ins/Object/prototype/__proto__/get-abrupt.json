@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 446,
-                  "value": "__proto__"
+                  "value": "__proto__",
+                  "raw": "'__proto__'"
                 }
               ],
               "optional": false

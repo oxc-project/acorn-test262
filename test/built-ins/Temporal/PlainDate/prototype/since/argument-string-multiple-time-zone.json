@@ -27,37 +27,43 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 323,
-                "value": "1970-01-01[UTC][UTC]"
+                "value": "1970-01-01[UTC][UTC]",
+                "raw": "\"1970-01-01[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 355,
-                "value": "1970-01-01T00:00[UTC][UTC]"
+                "value": "1970-01-01T00:00[UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 388,
-                "value": "1970-01-01T00:00[!UTC][UTC]"
+                "value": "1970-01-01T00:00[!UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[!UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 421,
-                "value": "1970-01-01T00:00[UTC][!UTC]"
+                "value": "1970-01-01T00:00[UTC][!UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 467,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 508,
-                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]"
+                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][foo=bar][UTC]\""
               }
             ]
           }
@@ -108,19 +114,22 @@
                 "type": "Literal",
                 "start": 553,
                 "end": 557,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 559,
                 "end": 560,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 562,
                 "end": 563,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }

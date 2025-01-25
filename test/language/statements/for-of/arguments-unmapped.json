@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 353,
             "end": 354,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -62,7 +63,8 @@
                     "type": "Literal",
                     "start": 373,
                     "end": 385,
-                    "value": "use strict"
+                    "value": "use strict",
+                    "raw": "'use strict'"
                   },
                   "directive": "use strict"
                 },
@@ -163,7 +165,8 @@
                                 "type": "Literal",
                                 "start": 462,
                                 "end": 482,
-                                "value": "argument at index "
+                                "value": "argument at index ",
+                                "raw": "'argument at index '"
                               },
                               "operator": "+",
                               "right": {
@@ -206,31 +209,36 @@
               "type": "Literal",
               "start": 504,
               "end": 505,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 507,
               "end": 510,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             },
             {
               "type": "Literal",
               "start": 512,
               "end": 516,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             {
               "type": "Literal",
               "start": 518,
               "end": 523,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             {
               "type": "Literal",
               "start": 525,
               "end": 529,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "Identifier",
@@ -287,13 +295,15 @@
             "type": "Literal",
             "start": 570,
             "end": 571,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 595,
-            "value": "Visits all arguments"
+            "value": "Visits all arguments",
+            "raw": "'Visits all arguments'"
           }
         ],
         "optional": false

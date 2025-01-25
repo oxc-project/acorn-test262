@@ -87,13 +87,15 @@
             "type": "Literal",
             "start": 401,
             "end": 411,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 476,
-            "value": "`typeof ZonedDateTime.prototype.withTimeZone` is `function`"
+            "value": "`typeof ZonedDateTime.prototype.withTimeZone` is `function`",
+            "raw": "\"`typeof ZonedDateTime.prototype.withTimeZone` is `function`\""
           }
         ],
         "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 530,
             "end": 544,
-            "value": "withTimeZone"
+            "value": "withTimeZone",
+            "raw": "\"withTimeZone\""
           },
           {
             "type": "ObjectExpression",
@@ -174,7 +177,8 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 564,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -195,7 +199,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 585,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -216,7 +221,8 @@
                   "type": "Literal",
                   "start": 603,
                   "end": 607,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

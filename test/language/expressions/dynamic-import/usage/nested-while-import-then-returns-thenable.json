@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1047,
             "end": 1048,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -104,7 +105,8 @@
                             "type": "Literal",
                             "start": 1079,
                             "end": 1115,
-                            "value": "./dynamic-import-module_FIXTURE.js"
+                            "value": "./dynamic-import-module_FIXTURE.js",
+                            "raw": "'./dynamic-import-module_FIXTURE.js'"
                           },
                           "options": null
                         },
@@ -190,7 +192,8 @@
                                       "type": "Literal",
                                       "start": 1170,
                                       "end": 1171,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ],
                                   "optional": false

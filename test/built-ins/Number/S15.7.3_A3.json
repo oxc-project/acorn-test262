@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 320,
-                "value": "MIN_VALUE"
+                "value": "MIN_VALUE",
+                "raw": "\"MIN_VALUE\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 323,
             "end": 376,
-            "value": "Number.hasOwnProperty(\"MIN_VALUE\") must return true"
+            "value": "Number.hasOwnProperty(\"MIN_VALUE\") must return true",
+            "raw": "'Number.hasOwnProperty(\"MIN_VALUE\") must return true'"
           }
         ],
         "optional": false

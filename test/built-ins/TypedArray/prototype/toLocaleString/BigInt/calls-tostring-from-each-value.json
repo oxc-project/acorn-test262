@@ -35,13 +35,15 @@
                     "type": "Literal",
                     "start": 1378,
                     "end": 1380,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   },
                   {
                     "type": "Literal",
                     "start": 1382,
                     "end": 1384,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ]
               },
@@ -202,7 +204,8 @@
                                   "type": "Literal",
                                   "start": 1529,
                                   "end": 1536,
-                                  "value": "hacks"
+                                  "value": "hacks",
+                                  "raw": "\"hacks\""
                                 },
                                 "operator": "+",
                                 "right": {
@@ -264,7 +267,8 @@
                                     "type": "Literal",
                                     "start": 1608,
                                     "end": 1656,
-                                    "value": "should not call valueOf if toString is present"
+                                    "value": "should not call valueOf if toString is present",
+                                    "raw": "\"should not call valueOf if toString is present\""
                                   }
                                 ]
                               }
@@ -306,13 +310,15 @@
                 "type": "Literal",
                 "start": 1685,
                 "end": 1688,
-                "value": "42n"
+                "value": "42n",
+                "raw": "42n"
               },
               {
                 "type": "Literal",
                 "start": 1690,
                 "end": 1692,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -352,13 +358,15 @@
                     "type": "Literal",
                     "start": 1711,
                     "end": 1719,
-                    "value": "hacks1"
+                    "value": "hacks1",
+                    "raw": "\"hacks1\""
                   },
                   {
                     "type": "Literal",
                     "start": 1721,
                     "end": 1729,
-                    "value": "hacks2"
+                    "value": "hacks2",
+                    "raw": "\"hacks2\""
                   }
                 ]
               },
@@ -478,7 +486,8 @@
                       "type": "Literal",
                       "start": 1839,
                       "end": 1840,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 },
@@ -546,7 +555,8 @@
                         "type": "Literal",
                         "start": 1896,
                         "end": 1920,
-                        "value": "returns expected value"
+                        "value": "returns expected value",
+                        "raw": "\"returns expected value\""
                       }
                     ],
                     "optional": false
@@ -590,13 +600,15 @@
                         "type": "Literal",
                         "start": 1949,
                         "end": 1950,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 1952,
                         "end": 1988,
-                        "value": "toString called once for each item"
+                        "value": "toString called once for each item",
+                        "raw": "\"toString called once for each item\""
                       }
                     ],
                     "optional": false

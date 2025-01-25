@@ -31,6 +31,7 @@
                 "start": 801,
                 "end": 813,
                 "value": {},
+                "raw": "/^|\\udf06/ug",
                 "regex": {
                   "pattern": "^|\\udf06",
                   "flags": "ug"
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 828,
                 "end": 842,
-                "value": "𝌆"
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
               }
             ],
             "optional": false
@@ -102,7 +104,8 @@
               "type": "Literal",
               "start": 863,
               "end": 867,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -160,7 +163,8 @@
             "type": "Literal",
             "start": 901,
             "end": 902,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -208,7 +212,8 @@
               "type": "Literal",
               "start": 928,
               "end": 929,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -217,7 +222,8 @@
             "type": "Literal",
             "start": 932,
             "end": 934,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ],
         "optional": false

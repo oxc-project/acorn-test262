@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 541,
             "end": 542,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -275,7 +276,8 @@
                               "type": "Literal",
                               "start": 771,
                               "end": 772,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         },
@@ -580,13 +582,15 @@
             "type": "Literal",
             "start": 1010,
             "end": 1011,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1054,
-            "value": "The constructor is invoked exactly once"
+            "value": "The constructor is invoked exactly once",
+            "raw": "'The constructor is invoked exactly once'"
           }
         ],
         "optional": false
@@ -667,13 +671,15 @@
             "type": "Literal",
             "start": 1137,
             "end": 1138,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1191,
-            "value": "The constructor is invoked with a single argument"
+            "value": "The constructor is invoked with a single argument",
+            "raw": "'The constructor is invoked with a single argument'"
           }
         ],
         "optional": false
@@ -724,7 +730,8 @@
             "type": "Literal",
             "start": 1244,
             "end": 1254,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -781,13 +788,15 @@
             "type": "Literal",
             "start": 1311,
             "end": 1312,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1316,
             "end": 1397,
-            "value": "ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2."
+            "value": "ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2.",
+            "raw": "'ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2.'"
           }
         ],
         "optional": false
@@ -830,7 +839,8 @@
             "type": "Literal",
             "start": 1447,
             "end": 1502,
-            "value": "The returned object is an instance of the constructor"
+            "value": "The returned object is an instance of the constructor",
+            "raw": "'The returned object is an instance of the constructor'"
           }
         ],
         "optional": false

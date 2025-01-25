@@ -31,7 +31,8 @@
                 "type": "Literal",
                 "start": 285,
                 "end": 289,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -58,7 +59,8 @@
                     "type": "Literal",
                     "start": 316,
                     "end": 364,
-                    "value": "#1.1: x || true throw ReferenceError. Actual: "
+                    "value": "#1.1: x || true throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: x || true throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -80,7 +82,8 @@
                         "type": "Literal",
                         "start": 373,
                         "end": 377,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   }
@@ -141,7 +144,8 @@
                   "type": "Literal",
                   "start": 437,
                   "end": 441,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -172,7 +176,8 @@
                             "type": "Literal",
                             "start": 472,
                             "end": 520,
-                            "value": "#1.2: x || true throw ReferenceError. Actual: "
+                            "value": "#1.2: x || true throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: x || true throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

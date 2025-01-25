@@ -90,7 +90,8 @@
           "type": "Literal",
           "start": 447,
           "end": 448,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -121,7 +122,8 @@
                     "type": "Literal",
                     "start": 476,
                     "end": 557,
-                    "value": "#1: function __mFunc(){return arguments.length;}; __mFunc([,,]) === 1. Actual: "
+                    "value": "#1: function __mFunc(){return arguments.length;}; __mFunc([,,]) === 1. Actual: ",
+                    "raw": "'#1: function __mFunc(){return arguments.length;}; __mFunc([,,]) === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

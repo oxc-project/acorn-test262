@@ -58,7 +58,8 @@
                             "type": "Literal",
                             "start": 1063,
                             "end": 1064,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -74,7 +75,8 @@
                         "type": "Literal",
                         "start": 1072,
                         "end": 1091,
-                        "value": "() => new.target;"
+                        "value": "() => new.target;",
+                        "raw": "'() => new.target;'"
                       }
                     ],
                     "optional": false

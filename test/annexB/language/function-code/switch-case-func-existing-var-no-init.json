@@ -68,7 +68,8 @@
                         "type": "Literal",
                         "start": 579,
                         "end": 582,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     }
                   ],
@@ -105,7 +106,8 @@
                     "type": "Literal",
                     "start": 607,
                     "end": 608,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   "cases": [
                     {
@@ -139,7 +141,8 @@
                         "type": "Literal",
                         "start": 621,
                         "end": 622,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ]
@@ -190,7 +193,8 @@
             "type": "Literal",
             "start": 686,
             "end": 689,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         ],
         "optional": false

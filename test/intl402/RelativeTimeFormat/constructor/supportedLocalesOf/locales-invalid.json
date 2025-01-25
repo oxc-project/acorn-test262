@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 555,
             "end": 565,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 644,
-            "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf."
+            "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf.",
+            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\""
           }
         ],
         "optional": false

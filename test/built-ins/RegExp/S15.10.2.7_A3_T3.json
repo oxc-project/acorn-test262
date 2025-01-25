@@ -31,6 +31,7 @@
                 "start": 368,
                 "end": 380,
                 "value": {},
+                "raw": "/\\s+java\\s+/",
                 "regex": {
                   "pattern": "\\s+java\\s+",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 404,
-                "value": "\t javax package"
+                "value": "\t javax package",
+                "raw": "\"\\t javax package\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 428,
             "end": 477,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

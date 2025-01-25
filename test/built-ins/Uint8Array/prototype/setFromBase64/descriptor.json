@@ -41,7 +41,8 @@
             "type": "Literal",
             "start": 386,
             "end": 401,
-            "value": "setFromBase64"
+            "value": "setFromBase64",
+            "raw": "'setFromBase64'"
           },
           {
             "type": "ObjectExpression",
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 419,
                   "end": 424,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 442,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -107,7 +110,8 @@
                   "type": "Literal",
                   "start": 460,
                   "end": 464,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

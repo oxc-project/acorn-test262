@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 235,
                 "end": 236,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 238,
                 "end": 241,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Identifier",
@@ -98,7 +100,8 @@
                   "type": "Literal",
                   "start": 332,
                   "end": 337,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               }
             ],
@@ -167,7 +170,8 @@
                         "type": "Literal",
                         "start": 396,
                         "end": 400,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   },
@@ -533,7 +537,8 @@
                               "type": "Literal",
                               "start": 764,
                               "end": 782,
-                              "value": "arguments and []"
+                              "value": "arguments and []",
+                              "raw": "'arguments and []'"
                             }
                           ],
                           "optional": false
@@ -546,7 +551,8 @@
                   "type": "Literal",
                   "start": 790,
                   "end": 880,
-                  "value": "Actual [0, a, undefined] and expected [] should have the same contents. arguments and []"
+                  "value": "Actual [0, a, undefined] and expected [] should have the same contents. arguments and []",
+                  "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. arguments and []'"
                 }
               ],
               "optional": false
@@ -625,7 +631,8 @@
                               "type": "Literal",
                               "start": 963,
                               "end": 981,
-                              "value": "[] and arguments"
+                              "value": "[] and arguments",
+                              "raw": "'[] and arguments'"
                             }
                           ],
                           "optional": false
@@ -638,7 +645,8 @@
                   "type": "Literal",
                   "start": 989,
                   "end": 1079,
-                  "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments"
+                  "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments",
+                  "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments'"
                 }
               ],
               "optional": false

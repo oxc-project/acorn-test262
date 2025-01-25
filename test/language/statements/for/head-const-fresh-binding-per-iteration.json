@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 255,
             "end": 256,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 266,
             "end": 267,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -76,7 +78,8 @@
               "type": "Literal",
               "start": 284,
               "end": 285,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ],
@@ -97,7 +100,8 @@
           "type": "Literal",
           "start": 291,
           "end": 292,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "update": {
@@ -194,13 +198,15 @@
             "type": "Literal",
             "start": 337,
             "end": 338,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 340,
             "end": 365,
-            "value": "The value of `s` is `2`"
+            "value": "The value of `s` is `2`",
+            "raw": "\"The value of `s` is `2`\""
           }
         ],
         "optional": false

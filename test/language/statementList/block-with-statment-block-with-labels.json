@@ -1,32 +1,33 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 947,
+  "end": 945,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 924,
-      "end": 938,
+      "start": 922,
+      "end": 936,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 925,
-          "end": 937,
+          "start": 923,
+          "end": 935,
           "body": {
             "type": "ExpressionStatement",
-            "start": 933,
-            "end": 937,
+            "start": 931,
+            "end": 935,
             "expression": {
               "type": "Literal",
-              "start": 933,
-              "end": 937,
-              "value": 3000
+              "start": 931,
+              "end": 935,
+              "value": 3000,
+              "raw": "3000"
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 925,
-            "end": 931,
+            "start": 923,
+            "end": 929,
             "name": "length"
           }
         }
@@ -34,28 +35,29 @@
     },
     {
       "type": "BlockStatement",
-      "start": 938,
-      "end": 945,
+      "start": 936,
+      "end": 943,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 939,
-          "end": 944,
+          "start": 937,
+          "end": 942,
           "body": {
             "type": "ExpressionStatement",
-            "start": 942,
-            "end": 944,
+            "start": 940,
+            "end": 942,
             "expression": {
               "type": "Literal",
-              "start": 942,
-              "end": 944,
-              "value": 42
+              "start": 940,
+              "end": 942,
+              "value": 42,
+              "raw": "42"
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 939,
-            "end": 940,
+            "start": 937,
+            "end": 938,
             "name": "x"
           }
         }
@@ -63,8 +65,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 945,
-      "end": 946
+      "start": 943,
+      "end": 944
     }
   ],
   "sourceType": "script"

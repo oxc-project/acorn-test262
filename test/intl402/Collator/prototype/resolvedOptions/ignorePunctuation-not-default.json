@@ -24,19 +24,22 @@
                 "type": "Literal",
                 "start": 285,
                 "end": 289,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "Literal",
                 "start": 291,
                 "end": 295,
-                "value": "th"
+                "value": "th",
+                "raw": "'th'"
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 301,
-                "value": "ja"
+                "value": "ja",
+                "raw": "'ja'"
               }
             ]
           },
@@ -92,13 +95,15 @@
                             "type": "Literal",
                             "start": 328,
                             "end": 332,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           {
                             "type": "Literal",
                             "start": 334,
                             "end": 339,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           }
                         ]
                       },

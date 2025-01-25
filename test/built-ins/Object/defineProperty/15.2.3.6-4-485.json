@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 400,
             "end": 406,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -157,7 +158,8 @@
             "type": "Literal",
             "start": 496,
             "end": 502,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +225,8 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 559,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -244,7 +247,8 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 582,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -297,7 +301,8 @@
                 "type": "Literal",
                 "start": 635,
                 "end": 641,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -355,7 +360,8 @@
                 "type": "Literal",
                 "start": 692,
                 "end": 698,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -389,7 +395,8 @@
             "type": "Literal",
             "start": 732,
             "end": 764,
-            "value": "propertyDefineCorrect !== true"
+            "value": "propertyDefineCorrect !== true",
+            "raw": "'propertyDefineCorrect !== true'"
           }
         ],
         "optional": false
@@ -453,13 +460,15 @@
             "type": "Literal",
             "start": 801,
             "end": 812,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 814,
             "end": 831,
-            "value": "typeof desc.get"
+            "value": "typeof desc.get",
+            "raw": "'typeof desc.get'"
           }
         ],
         "optional": false

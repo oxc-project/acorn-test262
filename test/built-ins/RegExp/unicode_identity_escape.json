@@ -1,36 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2522,
+  "end": 2521,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 488,
-      "end": 551,
+      "start": 487,
+      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 488,
-        "end": 550,
+        "start": 487,
+        "end": 549,
         "callee": {
           "type": "Identifier",
-          "start": 488,
-          "end": 494,
+          "start": 487,
+          "end": 493,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 495,
-            "end": 510,
+            "start": 494,
+            "end": 509,
             "callee": {
               "type": "MemberExpression",
-              "start": 495,
-              "end": 505,
+              "start": 494,
+              "end": 504,
               "object": {
                 "type": "Literal",
-                "start": 495,
-                "end": 500,
+                "start": 494,
+                "end": 499,
                 "value": {},
+                "raw": "/\\^/u",
                 "regex": {
                   "pattern": "\\^",
                   "flags": "u"
@@ -38,8 +39,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 501,
-                "end": 505,
+                "start": 500,
+                "end": 504,
                 "name": "test"
               },
               "computed": false,
@@ -48,18 +49,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 506,
-                "end": 509,
-                "value": "^"
+                "start": 505,
+                "end": 508,
+                "value": "^",
+                "raw": "\"^\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 512,
-            "end": 549,
-            "value": "IdentityEscape in AtomEscape: /\\^/"
+            "start": 511,
+            "end": 548,
+            "value": "IdentityEscape in AtomEscape: /\\^/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\^/\""
           }
         ],
         "optional": false
@@ -67,32 +70,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 552,
-      "end": 615,
+      "start": 551,
+      "end": 614,
       "expression": {
         "type": "CallExpression",
-        "start": 552,
-        "end": 614,
+        "start": 551,
+        "end": 613,
         "callee": {
           "type": "Identifier",
-          "start": 552,
-          "end": 558,
+          "start": 551,
+          "end": 557,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 559,
-            "end": 574,
+            "start": 558,
+            "end": 573,
             "callee": {
               "type": "MemberExpression",
-              "start": 559,
-              "end": 569,
+              "start": 558,
+              "end": 568,
               "object": {
                 "type": "Literal",
-                "start": 559,
-                "end": 564,
+                "start": 558,
+                "end": 563,
                 "value": {},
+                "raw": "/\\$/u",
                 "regex": {
                   "pattern": "\\$",
                   "flags": "u"
@@ -100,8 +104,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 565,
-                "end": 569,
+                "start": 564,
+                "end": 568,
                 "name": "test"
               },
               "computed": false,
@@ -110,18 +114,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 570,
-                "end": 573,
-                "value": "$"
+                "start": 569,
+                "end": 572,
+                "value": "$",
+                "raw": "\"$\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 576,
-            "end": 613,
-            "value": "IdentityEscape in AtomEscape: /\\$/"
+            "start": 575,
+            "end": 612,
+            "value": "IdentityEscape in AtomEscape: /\\$/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\$/\""
           }
         ],
         "optional": false
@@ -129,32 +135,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 616,
-      "end": 681,
+      "start": 615,
+      "end": 680,
       "expression": {
         "type": "CallExpression",
-        "start": 616,
-        "end": 680,
+        "start": 615,
+        "end": 679,
         "callee": {
           "type": "Identifier",
-          "start": 616,
-          "end": 622,
+          "start": 615,
+          "end": 621,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 623,
-            "end": 639,
+            "start": 622,
+            "end": 638,
             "callee": {
               "type": "MemberExpression",
-              "start": 623,
-              "end": 633,
+              "start": 622,
+              "end": 632,
               "object": {
                 "type": "Literal",
-                "start": 623,
-                "end": 628,
+                "start": 622,
+                "end": 627,
                 "value": {},
+                "raw": "/\\\\/u",
                 "regex": {
                   "pattern": "\\\\",
                   "flags": "u"
@@ -162,8 +169,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 629,
-                "end": 633,
+                "start": 628,
+                "end": 632,
                 "name": "test"
               },
               "computed": false,
@@ -172,18 +179,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 634,
-                "end": 638,
-                "value": "\\"
+                "start": 633,
+                "end": 637,
+                "value": "\\",
+                "raw": "\"\\\\\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 641,
-            "end": 679,
-            "value": "IdentityEscape in AtomEscape: /\\\\/"
+            "start": 640,
+            "end": 678,
+            "value": "IdentityEscape in AtomEscape: /\\\\/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\\\\\/\""
           }
         ],
         "optional": false
@@ -191,32 +200,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 745,
+      "start": 681,
+      "end": 744,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 744,
+        "start": 681,
+        "end": 743,
         "callee": {
           "type": "Identifier",
-          "start": 682,
-          "end": 688,
+          "start": 681,
+          "end": 687,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 689,
-            "end": 704,
+            "start": 688,
+            "end": 703,
             "callee": {
               "type": "MemberExpression",
-              "start": 689,
-              "end": 699,
+              "start": 688,
+              "end": 698,
               "object": {
                 "type": "Literal",
-                "start": 689,
-                "end": 694,
+                "start": 688,
+                "end": 693,
                 "value": {},
+                "raw": "/\\./u",
                 "regex": {
                   "pattern": "\\.",
                   "flags": "u"
@@ -224,8 +234,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 695,
-                "end": 699,
+                "start": 694,
+                "end": 698,
                 "name": "test"
               },
               "computed": false,
@@ -234,18 +244,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 700,
-                "end": 703,
-                "value": "."
+                "start": 699,
+                "end": 702,
+                "value": ".",
+                "raw": "\".\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 743,
-            "value": "IdentityEscape in AtomEscape: /\\./"
+            "start": 705,
+            "end": 742,
+            "value": "IdentityEscape in AtomEscape: /\\./",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\./\""
           }
         ],
         "optional": false
@@ -253,32 +265,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 746,
-      "end": 809,
+      "start": 745,
+      "end": 808,
       "expression": {
         "type": "CallExpression",
-        "start": 746,
-        "end": 808,
+        "start": 745,
+        "end": 807,
         "callee": {
           "type": "Identifier",
-          "start": 746,
-          "end": 752,
+          "start": 745,
+          "end": 751,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 753,
-            "end": 768,
+            "start": 752,
+            "end": 767,
             "callee": {
               "type": "MemberExpression",
-              "start": 753,
-              "end": 763,
+              "start": 752,
+              "end": 762,
               "object": {
                 "type": "Literal",
-                "start": 753,
-                "end": 758,
+                "start": 752,
+                "end": 757,
                 "value": {},
+                "raw": "/\\*/u",
                 "regex": {
                   "pattern": "\\*",
                   "flags": "u"
@@ -286,8 +299,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 759,
-                "end": 763,
+                "start": 758,
+                "end": 762,
                 "name": "test"
               },
               "computed": false,
@@ -296,18 +309,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 764,
-                "end": 767,
-                "value": "*"
+                "start": 763,
+                "end": 766,
+                "value": "*",
+                "raw": "\"*\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 770,
-            "end": 807,
-            "value": "IdentityEscape in AtomEscape: /\\*/"
+            "start": 769,
+            "end": 806,
+            "value": "IdentityEscape in AtomEscape: /\\*/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\*/\""
           }
         ],
         "optional": false
@@ -315,32 +330,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 810,
-      "end": 873,
+      "start": 809,
+      "end": 872,
       "expression": {
         "type": "CallExpression",
-        "start": 810,
-        "end": 872,
+        "start": 809,
+        "end": 871,
         "callee": {
           "type": "Identifier",
-          "start": 810,
-          "end": 816,
+          "start": 809,
+          "end": 815,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 817,
-            "end": 832,
+            "start": 816,
+            "end": 831,
             "callee": {
               "type": "MemberExpression",
-              "start": 817,
-              "end": 827,
+              "start": 816,
+              "end": 826,
               "object": {
                 "type": "Literal",
-                "start": 817,
-                "end": 822,
+                "start": 816,
+                "end": 821,
                 "value": {},
+                "raw": "/\\+/u",
                 "regex": {
                   "pattern": "\\+",
                   "flags": "u"
@@ -348,8 +364,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 823,
-                "end": 827,
+                "start": 822,
+                "end": 826,
                 "name": "test"
               },
               "computed": false,
@@ -358,18 +374,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 828,
-                "end": 831,
-                "value": "+"
+                "start": 827,
+                "end": 830,
+                "value": "+",
+                "raw": "\"+\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 834,
-            "end": 871,
-            "value": "IdentityEscape in AtomEscape: /\\+/"
+            "start": 833,
+            "end": 870,
+            "value": "IdentityEscape in AtomEscape: /\\+/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\+/\""
           }
         ],
         "optional": false
@@ -377,32 +395,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 874,
-      "end": 937,
+      "start": 873,
+      "end": 936,
       "expression": {
         "type": "CallExpression",
-        "start": 874,
-        "end": 936,
+        "start": 873,
+        "end": 935,
         "callee": {
           "type": "Identifier",
-          "start": 874,
-          "end": 880,
+          "start": 873,
+          "end": 879,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 881,
-            "end": 896,
+            "start": 880,
+            "end": 895,
             "callee": {
               "type": "MemberExpression",
-              "start": 881,
-              "end": 891,
+              "start": 880,
+              "end": 890,
               "object": {
                 "type": "Literal",
-                "start": 881,
-                "end": 886,
+                "start": 880,
+                "end": 885,
                 "value": {},
+                "raw": "/\\?/u",
                 "regex": {
                   "pattern": "\\?",
                   "flags": "u"
@@ -410,8 +429,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 887,
-                "end": 891,
+                "start": 886,
+                "end": 890,
                 "name": "test"
               },
               "computed": false,
@@ -420,18 +439,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 892,
-                "end": 895,
-                "value": "?"
+                "start": 891,
+                "end": 894,
+                "value": "?",
+                "raw": "\"?\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 898,
-            "end": 935,
-            "value": "IdentityEscape in AtomEscape: /\\?/"
+            "start": 897,
+            "end": 934,
+            "value": "IdentityEscape in AtomEscape: /\\?/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\?/\""
           }
         ],
         "optional": false
@@ -439,32 +460,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 938,
-      "end": 1001,
+      "start": 937,
+      "end": 1000,
       "expression": {
         "type": "CallExpression",
-        "start": 938,
-        "end": 1000,
+        "start": 937,
+        "end": 999,
         "callee": {
           "type": "Identifier",
-          "start": 938,
-          "end": 944,
+          "start": 937,
+          "end": 943,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 945,
-            "end": 960,
+            "start": 944,
+            "end": 959,
             "callee": {
               "type": "MemberExpression",
-              "start": 945,
-              "end": 955,
+              "start": 944,
+              "end": 954,
               "object": {
                 "type": "Literal",
-                "start": 945,
-                "end": 950,
+                "start": 944,
+                "end": 949,
                 "value": {},
+                "raw": "/\\(/u",
                 "regex": {
                   "pattern": "\\(",
                   "flags": "u"
@@ -472,8 +494,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 951,
-                "end": 955,
+                "start": 950,
+                "end": 954,
                 "name": "test"
               },
               "computed": false,
@@ -482,18 +504,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 956,
-                "end": 959,
-                "value": "("
+                "start": 955,
+                "end": 958,
+                "value": "(",
+                "raw": "\"(\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 962,
-            "end": 999,
-            "value": "IdentityEscape in AtomEscape: /\\(/"
+            "start": 961,
+            "end": 998,
+            "value": "IdentityEscape in AtomEscape: /\\(/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\(/\""
           }
         ],
         "optional": false
@@ -501,32 +525,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1002,
-      "end": 1065,
+      "start": 1001,
+      "end": 1064,
       "expression": {
         "type": "CallExpression",
-        "start": 1002,
-        "end": 1064,
+        "start": 1001,
+        "end": 1063,
         "callee": {
           "type": "Identifier",
-          "start": 1002,
-          "end": 1008,
+          "start": 1001,
+          "end": 1007,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1009,
-            "end": 1024,
+            "start": 1008,
+            "end": 1023,
             "callee": {
               "type": "MemberExpression",
-              "start": 1009,
-              "end": 1019,
+              "start": 1008,
+              "end": 1018,
               "object": {
                 "type": "Literal",
-                "start": 1009,
-                "end": 1014,
+                "start": 1008,
+                "end": 1013,
                 "value": {},
+                "raw": "/\\)/u",
                 "regex": {
                   "pattern": "\\)",
                   "flags": "u"
@@ -534,8 +559,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1015,
-                "end": 1019,
+                "start": 1014,
+                "end": 1018,
                 "name": "test"
               },
               "computed": false,
@@ -544,18 +569,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1020,
-                "end": 1023,
-                "value": ")"
+                "start": 1019,
+                "end": 1022,
+                "value": ")",
+                "raw": "\")\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1026,
-            "end": 1063,
-            "value": "IdentityEscape in AtomEscape: /\\)/"
+            "start": 1025,
+            "end": 1062,
+            "value": "IdentityEscape in AtomEscape: /\\)/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\)/\""
           }
         ],
         "optional": false
@@ -563,32 +590,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1066,
-      "end": 1129,
+      "start": 1065,
+      "end": 1128,
       "expression": {
         "type": "CallExpression",
-        "start": 1066,
-        "end": 1128,
+        "start": 1065,
+        "end": 1127,
         "callee": {
           "type": "Identifier",
-          "start": 1066,
-          "end": 1072,
+          "start": 1065,
+          "end": 1071,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1073,
-            "end": 1088,
+            "start": 1072,
+            "end": 1087,
             "callee": {
               "type": "MemberExpression",
-              "start": 1073,
-              "end": 1083,
+              "start": 1072,
+              "end": 1082,
               "object": {
                 "type": "Literal",
-                "start": 1073,
-                "end": 1078,
+                "start": 1072,
+                "end": 1077,
                 "value": {},
+                "raw": "/\\[/u",
                 "regex": {
                   "pattern": "\\[",
                   "flags": "u"
@@ -596,8 +624,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1079,
-                "end": 1083,
+                "start": 1078,
+                "end": 1082,
                 "name": "test"
               },
               "computed": false,
@@ -606,18 +634,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1084,
-                "end": 1087,
-                "value": "["
+                "start": 1083,
+                "end": 1086,
+                "value": "[",
+                "raw": "\"[\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1090,
-            "end": 1127,
-            "value": "IdentityEscape in AtomEscape: /\\[/"
+            "start": 1089,
+            "end": 1126,
+            "value": "IdentityEscape in AtomEscape: /\\[/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\[/\""
           }
         ],
         "optional": false
@@ -625,32 +655,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1130,
-      "end": 1193,
+      "start": 1129,
+      "end": 1192,
       "expression": {
         "type": "CallExpression",
-        "start": 1130,
-        "end": 1192,
+        "start": 1129,
+        "end": 1191,
         "callee": {
           "type": "Identifier",
-          "start": 1130,
-          "end": 1136,
+          "start": 1129,
+          "end": 1135,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1137,
-            "end": 1152,
+            "start": 1136,
+            "end": 1151,
             "callee": {
               "type": "MemberExpression",
-              "start": 1137,
-              "end": 1147,
+              "start": 1136,
+              "end": 1146,
               "object": {
                 "type": "Literal",
-                "start": 1137,
-                "end": 1142,
+                "start": 1136,
+                "end": 1141,
                 "value": {},
+                "raw": "/\\]/u",
                 "regex": {
                   "pattern": "\\]",
                   "flags": "u"
@@ -658,8 +689,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1143,
-                "end": 1147,
+                "start": 1142,
+                "end": 1146,
                 "name": "test"
               },
               "computed": false,
@@ -668,18 +699,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1148,
-                "end": 1151,
-                "value": "]"
+                "start": 1147,
+                "end": 1150,
+                "value": "]",
+                "raw": "\"]\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1154,
-            "end": 1191,
-            "value": "IdentityEscape in AtomEscape: /\\]/"
+            "start": 1153,
+            "end": 1190,
+            "value": "IdentityEscape in AtomEscape: /\\]/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\]/\""
           }
         ],
         "optional": false
@@ -687,32 +720,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1194,
-      "end": 1257,
+      "start": 1193,
+      "end": 1256,
       "expression": {
         "type": "CallExpression",
-        "start": 1194,
-        "end": 1256,
+        "start": 1193,
+        "end": 1255,
         "callee": {
           "type": "Identifier",
-          "start": 1194,
-          "end": 1200,
+          "start": 1193,
+          "end": 1199,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1201,
-            "end": 1216,
+            "start": 1200,
+            "end": 1215,
             "callee": {
               "type": "MemberExpression",
-              "start": 1201,
-              "end": 1211,
+              "start": 1200,
+              "end": 1210,
               "object": {
                 "type": "Literal",
-                "start": 1201,
-                "end": 1206,
+                "start": 1200,
+                "end": 1205,
                 "value": {},
+                "raw": "/\\{/u",
                 "regex": {
                   "pattern": "\\{",
                   "flags": "u"
@@ -720,8 +754,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1207,
-                "end": 1211,
+                "start": 1206,
+                "end": 1210,
                 "name": "test"
               },
               "computed": false,
@@ -730,18 +764,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1212,
-                "end": 1215,
-                "value": "{"
+                "start": 1211,
+                "end": 1214,
+                "value": "{",
+                "raw": "\"{\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1218,
-            "end": 1255,
-            "value": "IdentityEscape in AtomEscape: /\\{/"
+            "start": 1217,
+            "end": 1254,
+            "value": "IdentityEscape in AtomEscape: /\\{/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\{/\""
           }
         ],
         "optional": false
@@ -749,32 +785,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1258,
-      "end": 1321,
+      "start": 1257,
+      "end": 1320,
       "expression": {
         "type": "CallExpression",
-        "start": 1258,
-        "end": 1320,
+        "start": 1257,
+        "end": 1319,
         "callee": {
           "type": "Identifier",
-          "start": 1258,
-          "end": 1264,
+          "start": 1257,
+          "end": 1263,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1265,
-            "end": 1280,
+            "start": 1264,
+            "end": 1279,
             "callee": {
               "type": "MemberExpression",
-              "start": 1265,
-              "end": 1275,
+              "start": 1264,
+              "end": 1274,
               "object": {
                 "type": "Literal",
-                "start": 1265,
-                "end": 1270,
+                "start": 1264,
+                "end": 1269,
                 "value": {},
+                "raw": "/\\}/u",
                 "regex": {
                   "pattern": "\\}",
                   "flags": "u"
@@ -782,8 +819,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1271,
-                "end": 1275,
+                "start": 1270,
+                "end": 1274,
                 "name": "test"
               },
               "computed": false,
@@ -792,18 +829,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1276,
-                "end": 1279,
-                "value": "}"
+                "start": 1275,
+                "end": 1278,
+                "value": "}",
+                "raw": "\"}\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1282,
-            "end": 1319,
-            "value": "IdentityEscape in AtomEscape: /\\}/"
+            "start": 1281,
+            "end": 1318,
+            "value": "IdentityEscape in AtomEscape: /\\}/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\}/\""
           }
         ],
         "optional": false
@@ -811,32 +850,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1322,
-      "end": 1385,
+      "start": 1321,
+      "end": 1384,
       "expression": {
         "type": "CallExpression",
-        "start": 1322,
-        "end": 1384,
+        "start": 1321,
+        "end": 1383,
         "callee": {
           "type": "Identifier",
-          "start": 1322,
-          "end": 1328,
+          "start": 1321,
+          "end": 1327,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1329,
-            "end": 1344,
+            "start": 1328,
+            "end": 1343,
             "callee": {
               "type": "MemberExpression",
-              "start": 1329,
-              "end": 1339,
+              "start": 1328,
+              "end": 1338,
               "object": {
                 "type": "Literal",
-                "start": 1329,
-                "end": 1334,
+                "start": 1328,
+                "end": 1333,
                 "value": {},
+                "raw": "/\\|/u",
                 "regex": {
                   "pattern": "\\|",
                   "flags": "u"
@@ -844,8 +884,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1335,
-                "end": 1339,
+                "start": 1334,
+                "end": 1338,
                 "name": "test"
               },
               "computed": false,
@@ -854,18 +894,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1340,
-                "end": 1343,
-                "value": "|"
+                "start": 1339,
+                "end": 1342,
+                "value": "|",
+                "raw": "\"|\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1346,
-            "end": 1383,
-            "value": "IdentityEscape in AtomEscape: /\\|/"
+            "start": 1345,
+            "end": 1382,
+            "value": "IdentityEscape in AtomEscape: /\\|/",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\|/\""
           }
         ],
         "optional": false
@@ -873,32 +915,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1386,
-      "end": 1449,
+      "start": 1385,
+      "end": 1448,
       "expression": {
         "type": "CallExpression",
-        "start": 1386,
-        "end": 1448,
+        "start": 1385,
+        "end": 1447,
         "callee": {
           "type": "Identifier",
-          "start": 1386,
-          "end": 1392,
+          "start": 1385,
+          "end": 1391,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1393,
-            "end": 1408,
+            "start": 1392,
+            "end": 1407,
             "callee": {
               "type": "MemberExpression",
-              "start": 1393,
-              "end": 1403,
+              "start": 1392,
+              "end": 1402,
               "object": {
                 "type": "Literal",
-                "start": 1393,
-                "end": 1398,
+                "start": 1392,
+                "end": 1397,
                 "value": {},
+                "raw": "/\\//u",
                 "regex": {
                   "pattern": "\\/",
                   "flags": "u"
@@ -906,8 +949,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1399,
-                "end": 1403,
+                "start": 1398,
+                "end": 1402,
                 "name": "test"
               },
               "computed": false,
@@ -916,18 +959,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1404,
-                "end": 1407,
-                "value": "/"
+                "start": 1403,
+                "end": 1406,
+                "value": "/",
+                "raw": "\"/\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1410,
-            "end": 1447,
-            "value": "IdentityEscape in AtomEscape: /\\//"
+            "start": 1409,
+            "end": 1446,
+            "value": "IdentityEscape in AtomEscape: /\\//",
+            "raw": "\"IdentityEscape in AtomEscape: /\\\\//\""
           }
         ],
         "optional": false
@@ -935,32 +980,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1485,
-      "end": 1553,
+      "start": 1484,
+      "end": 1552,
       "expression": {
         "type": "CallExpression",
-        "start": 1485,
-        "end": 1552,
+        "start": 1484,
+        "end": 1551,
         "callee": {
           "type": "Identifier",
-          "start": 1485,
-          "end": 1491,
+          "start": 1484,
+          "end": 1490,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1492,
-            "end": 1509,
+            "start": 1491,
+            "end": 1508,
             "callee": {
               "type": "MemberExpression",
-              "start": 1492,
-              "end": 1504,
+              "start": 1491,
+              "end": 1503,
               "object": {
                 "type": "Literal",
-                "start": 1492,
-                "end": 1499,
+                "start": 1491,
+                "end": 1498,
                 "value": {},
+                "raw": "/[\\^]/u",
                 "regex": {
                   "pattern": "[\\^]",
                   "flags": "u"
@@ -968,8 +1014,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1500,
-                "end": 1504,
+                "start": 1499,
+                "end": 1503,
                 "name": "test"
               },
               "computed": false,
@@ -978,18 +1024,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1505,
-                "end": 1508,
-                "value": "^"
+                "start": 1504,
+                "end": 1507,
+                "value": "^",
+                "raw": "\"^\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1511,
-            "end": 1551,
-            "value": "IdentityEscape in ClassEscape: /[\\^]/"
+            "start": 1510,
+            "end": 1550,
+            "value": "IdentityEscape in ClassEscape: /[\\^]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\^]/\""
           }
         ],
         "optional": false
@@ -997,32 +1045,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1554,
-      "end": 1622,
+      "start": 1553,
+      "end": 1621,
       "expression": {
         "type": "CallExpression",
-        "start": 1554,
-        "end": 1621,
+        "start": 1553,
+        "end": 1620,
         "callee": {
           "type": "Identifier",
-          "start": 1554,
-          "end": 1560,
+          "start": 1553,
+          "end": 1559,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1561,
-            "end": 1578,
+            "start": 1560,
+            "end": 1577,
             "callee": {
               "type": "MemberExpression",
-              "start": 1561,
-              "end": 1573,
+              "start": 1560,
+              "end": 1572,
               "object": {
                 "type": "Literal",
-                "start": 1561,
-                "end": 1568,
+                "start": 1560,
+                "end": 1567,
                 "value": {},
+                "raw": "/[\\$]/u",
                 "regex": {
                   "pattern": "[\\$]",
                   "flags": "u"
@@ -1030,8 +1079,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1569,
-                "end": 1573,
+                "start": 1568,
+                "end": 1572,
                 "name": "test"
               },
               "computed": false,
@@ -1040,18 +1089,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1574,
-                "end": 1577,
-                "value": "$"
+                "start": 1573,
+                "end": 1576,
+                "value": "$",
+                "raw": "\"$\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1580,
-            "end": 1620,
-            "value": "IdentityEscape in ClassEscape: /[\\$]/"
+            "start": 1579,
+            "end": 1619,
+            "value": "IdentityEscape in ClassEscape: /[\\$]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\$]/\""
           }
         ],
         "optional": false
@@ -1059,32 +1110,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1623,
-      "end": 1693,
+      "start": 1622,
+      "end": 1692,
       "expression": {
         "type": "CallExpression",
-        "start": 1623,
-        "end": 1692,
+        "start": 1622,
+        "end": 1691,
         "callee": {
           "type": "Identifier",
-          "start": 1623,
-          "end": 1629,
+          "start": 1622,
+          "end": 1628,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1630,
-            "end": 1648,
+            "start": 1629,
+            "end": 1647,
             "callee": {
               "type": "MemberExpression",
-              "start": 1630,
-              "end": 1642,
+              "start": 1629,
+              "end": 1641,
               "object": {
                 "type": "Literal",
-                "start": 1630,
-                "end": 1637,
+                "start": 1629,
+                "end": 1636,
                 "value": {},
+                "raw": "/[\\\\]/u",
                 "regex": {
                   "pattern": "[\\\\]",
                   "flags": "u"
@@ -1092,8 +1144,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1638,
-                "end": 1642,
+                "start": 1637,
+                "end": 1641,
                 "name": "test"
               },
               "computed": false,
@@ -1102,18 +1154,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1643,
-                "end": 1647,
-                "value": "\\"
+                "start": 1642,
+                "end": 1646,
+                "value": "\\",
+                "raw": "\"\\\\\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1650,
-            "end": 1691,
-            "value": "IdentityEscape in ClassEscape: /[\\\\]/"
+            "start": 1649,
+            "end": 1690,
+            "value": "IdentityEscape in ClassEscape: /[\\\\]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\\\\\]/\""
           }
         ],
         "optional": false
@@ -1121,32 +1175,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1694,
-      "end": 1762,
+      "start": 1693,
+      "end": 1761,
       "expression": {
         "type": "CallExpression",
-        "start": 1694,
-        "end": 1761,
+        "start": 1693,
+        "end": 1760,
         "callee": {
           "type": "Identifier",
-          "start": 1694,
-          "end": 1700,
+          "start": 1693,
+          "end": 1699,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1701,
-            "end": 1718,
+            "start": 1700,
+            "end": 1717,
             "callee": {
               "type": "MemberExpression",
-              "start": 1701,
-              "end": 1713,
+              "start": 1700,
+              "end": 1712,
               "object": {
                 "type": "Literal",
-                "start": 1701,
-                "end": 1708,
+                "start": 1700,
+                "end": 1707,
                 "value": {},
+                "raw": "/[\\.]/u",
                 "regex": {
                   "pattern": "[\\.]",
                   "flags": "u"
@@ -1154,8 +1209,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1709,
-                "end": 1713,
+                "start": 1708,
+                "end": 1712,
                 "name": "test"
               },
               "computed": false,
@@ -1164,18 +1219,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1714,
-                "end": 1717,
-                "value": "."
+                "start": 1713,
+                "end": 1716,
+                "value": ".",
+                "raw": "\".\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1720,
-            "end": 1760,
-            "value": "IdentityEscape in ClassEscape: /[\\.]/"
+            "start": 1719,
+            "end": 1759,
+            "value": "IdentityEscape in ClassEscape: /[\\.]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\.]/\""
           }
         ],
         "optional": false
@@ -1183,32 +1240,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1763,
-      "end": 1831,
+      "start": 1762,
+      "end": 1830,
       "expression": {
         "type": "CallExpression",
-        "start": 1763,
-        "end": 1830,
+        "start": 1762,
+        "end": 1829,
         "callee": {
           "type": "Identifier",
-          "start": 1763,
-          "end": 1769,
+          "start": 1762,
+          "end": 1768,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1770,
-            "end": 1787,
+            "start": 1769,
+            "end": 1786,
             "callee": {
               "type": "MemberExpression",
-              "start": 1770,
-              "end": 1782,
+              "start": 1769,
+              "end": 1781,
               "object": {
                 "type": "Literal",
-                "start": 1770,
-                "end": 1777,
+                "start": 1769,
+                "end": 1776,
                 "value": {},
+                "raw": "/[\\*]/u",
                 "regex": {
                   "pattern": "[\\*]",
                   "flags": "u"
@@ -1216,8 +1274,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1778,
-                "end": 1782,
+                "start": 1777,
+                "end": 1781,
                 "name": "test"
               },
               "computed": false,
@@ -1226,18 +1284,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1783,
-                "end": 1786,
-                "value": "*"
+                "start": 1782,
+                "end": 1785,
+                "value": "*",
+                "raw": "\"*\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1789,
-            "end": 1829,
-            "value": "IdentityEscape in ClassEscape: /[\\*]/"
+            "start": 1788,
+            "end": 1828,
+            "value": "IdentityEscape in ClassEscape: /[\\*]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\*]/\""
           }
         ],
         "optional": false
@@ -1245,32 +1305,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1832,
-      "end": 1900,
+      "start": 1831,
+      "end": 1899,
       "expression": {
         "type": "CallExpression",
-        "start": 1832,
-        "end": 1899,
+        "start": 1831,
+        "end": 1898,
         "callee": {
           "type": "Identifier",
-          "start": 1832,
-          "end": 1838,
+          "start": 1831,
+          "end": 1837,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1839,
-            "end": 1856,
+            "start": 1838,
+            "end": 1855,
             "callee": {
               "type": "MemberExpression",
-              "start": 1839,
-              "end": 1851,
+              "start": 1838,
+              "end": 1850,
               "object": {
                 "type": "Literal",
-                "start": 1839,
-                "end": 1846,
+                "start": 1838,
+                "end": 1845,
                 "value": {},
+                "raw": "/[\\+]/u",
                 "regex": {
                   "pattern": "[\\+]",
                   "flags": "u"
@@ -1278,8 +1339,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1847,
-                "end": 1851,
+                "start": 1846,
+                "end": 1850,
                 "name": "test"
               },
               "computed": false,
@@ -1288,18 +1349,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1852,
-                "end": 1855,
-                "value": "+"
+                "start": 1851,
+                "end": 1854,
+                "value": "+",
+                "raw": "\"+\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1858,
-            "end": 1898,
-            "value": "IdentityEscape in ClassEscape: /[\\+]/"
+            "start": 1857,
+            "end": 1897,
+            "value": "IdentityEscape in ClassEscape: /[\\+]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\+]/\""
           }
         ],
         "optional": false
@@ -1307,32 +1370,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1901,
-      "end": 1969,
+      "start": 1900,
+      "end": 1968,
       "expression": {
         "type": "CallExpression",
-        "start": 1901,
-        "end": 1968,
+        "start": 1900,
+        "end": 1967,
         "callee": {
           "type": "Identifier",
-          "start": 1901,
-          "end": 1907,
+          "start": 1900,
+          "end": 1906,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1908,
-            "end": 1925,
+            "start": 1907,
+            "end": 1924,
             "callee": {
               "type": "MemberExpression",
-              "start": 1908,
-              "end": 1920,
+              "start": 1907,
+              "end": 1919,
               "object": {
                 "type": "Literal",
-                "start": 1908,
-                "end": 1915,
+                "start": 1907,
+                "end": 1914,
                 "value": {},
+                "raw": "/[\\?]/u",
                 "regex": {
                   "pattern": "[\\?]",
                   "flags": "u"
@@ -1340,8 +1404,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1916,
-                "end": 1920,
+                "start": 1915,
+                "end": 1919,
                 "name": "test"
               },
               "computed": false,
@@ -1350,18 +1414,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1921,
-                "end": 1924,
-                "value": "?"
+                "start": 1920,
+                "end": 1923,
+                "value": "?",
+                "raw": "\"?\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1927,
-            "end": 1967,
-            "value": "IdentityEscape in ClassEscape: /[\\?]/"
+            "start": 1926,
+            "end": 1966,
+            "value": "IdentityEscape in ClassEscape: /[\\?]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\?]/\""
           }
         ],
         "optional": false
@@ -1369,32 +1435,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1970,
-      "end": 2038,
+      "start": 1969,
+      "end": 2037,
       "expression": {
         "type": "CallExpression",
-        "start": 1970,
-        "end": 2037,
+        "start": 1969,
+        "end": 2036,
         "callee": {
           "type": "Identifier",
-          "start": 1970,
-          "end": 1976,
+          "start": 1969,
+          "end": 1975,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1977,
-            "end": 1994,
+            "start": 1976,
+            "end": 1993,
             "callee": {
               "type": "MemberExpression",
-              "start": 1977,
-              "end": 1989,
+              "start": 1976,
+              "end": 1988,
               "object": {
                 "type": "Literal",
-                "start": 1977,
-                "end": 1984,
+                "start": 1976,
+                "end": 1983,
                 "value": {},
+                "raw": "/[\\(]/u",
                 "regex": {
                   "pattern": "[\\(]",
                   "flags": "u"
@@ -1402,8 +1469,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1985,
-                "end": 1989,
+                "start": 1984,
+                "end": 1988,
                 "name": "test"
               },
               "computed": false,
@@ -1412,18 +1479,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1990,
-                "end": 1993,
-                "value": "("
+                "start": 1989,
+                "end": 1992,
+                "value": "(",
+                "raw": "\"(\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1996,
-            "end": 2036,
-            "value": "IdentityEscape in ClassEscape: /[\\(]/"
+            "start": 1995,
+            "end": 2035,
+            "value": "IdentityEscape in ClassEscape: /[\\(]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\(]/\""
           }
         ],
         "optional": false
@@ -1431,32 +1500,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2039,
-      "end": 2107,
+      "start": 2038,
+      "end": 2106,
       "expression": {
         "type": "CallExpression",
-        "start": 2039,
-        "end": 2106,
+        "start": 2038,
+        "end": 2105,
         "callee": {
           "type": "Identifier",
-          "start": 2039,
-          "end": 2045,
+          "start": 2038,
+          "end": 2044,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2046,
-            "end": 2063,
+            "start": 2045,
+            "end": 2062,
             "callee": {
               "type": "MemberExpression",
-              "start": 2046,
-              "end": 2058,
+              "start": 2045,
+              "end": 2057,
               "object": {
                 "type": "Literal",
-                "start": 2046,
-                "end": 2053,
+                "start": 2045,
+                "end": 2052,
                 "value": {},
+                "raw": "/[\\)]/u",
                 "regex": {
                   "pattern": "[\\)]",
                   "flags": "u"
@@ -1464,8 +1534,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2054,
-                "end": 2058,
+                "start": 2053,
+                "end": 2057,
                 "name": "test"
               },
               "computed": false,
@@ -1474,18 +1544,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2059,
-                "end": 2062,
-                "value": ")"
+                "start": 2058,
+                "end": 2061,
+                "value": ")",
+                "raw": "\")\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2065,
-            "end": 2105,
-            "value": "IdentityEscape in ClassEscape: /[\\)]/"
+            "start": 2064,
+            "end": 2104,
+            "value": "IdentityEscape in ClassEscape: /[\\)]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\)]/\""
           }
         ],
         "optional": false
@@ -1493,32 +1565,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2108,
-      "end": 2176,
+      "start": 2107,
+      "end": 2175,
       "expression": {
         "type": "CallExpression",
-        "start": 2108,
-        "end": 2175,
+        "start": 2107,
+        "end": 2174,
         "callee": {
           "type": "Identifier",
-          "start": 2108,
-          "end": 2114,
+          "start": 2107,
+          "end": 2113,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2115,
-            "end": 2132,
+            "start": 2114,
+            "end": 2131,
             "callee": {
               "type": "MemberExpression",
-              "start": 2115,
-              "end": 2127,
+              "start": 2114,
+              "end": 2126,
               "object": {
                 "type": "Literal",
-                "start": 2115,
-                "end": 2122,
+                "start": 2114,
+                "end": 2121,
                 "value": {},
+                "raw": "/[\\[]/u",
                 "regex": {
                   "pattern": "[\\[]",
                   "flags": "u"
@@ -1526,8 +1599,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2123,
-                "end": 2127,
+                "start": 2122,
+                "end": 2126,
                 "name": "test"
               },
               "computed": false,
@@ -1536,18 +1609,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2128,
-                "end": 2131,
-                "value": "["
+                "start": 2127,
+                "end": 2130,
+                "value": "[",
+                "raw": "\"[\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2134,
-            "end": 2174,
-            "value": "IdentityEscape in ClassEscape: /[\\[]/"
+            "start": 2133,
+            "end": 2173,
+            "value": "IdentityEscape in ClassEscape: /[\\[]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\[]/\""
           }
         ],
         "optional": false
@@ -1555,32 +1630,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2177,
-      "end": 2245,
+      "start": 2176,
+      "end": 2244,
       "expression": {
         "type": "CallExpression",
-        "start": 2177,
-        "end": 2244,
+        "start": 2176,
+        "end": 2243,
         "callee": {
           "type": "Identifier",
-          "start": 2177,
-          "end": 2183,
+          "start": 2176,
+          "end": 2182,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2184,
-            "end": 2201,
+            "start": 2183,
+            "end": 2200,
             "callee": {
               "type": "MemberExpression",
-              "start": 2184,
-              "end": 2196,
+              "start": 2183,
+              "end": 2195,
               "object": {
                 "type": "Literal",
-                "start": 2184,
-                "end": 2191,
+                "start": 2183,
+                "end": 2190,
                 "value": {},
+                "raw": "/[\\]]/u",
                 "regex": {
                   "pattern": "[\\]]",
                   "flags": "u"
@@ -1588,8 +1664,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2192,
-                "end": 2196,
+                "start": 2191,
+                "end": 2195,
                 "name": "test"
               },
               "computed": false,
@@ -1598,18 +1674,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2197,
-                "end": 2200,
-                "value": "]"
+                "start": 2196,
+                "end": 2199,
+                "value": "]",
+                "raw": "\"]\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2203,
-            "end": 2243,
-            "value": "IdentityEscape in ClassEscape: /[\\]]/"
+            "start": 2202,
+            "end": 2242,
+            "value": "IdentityEscape in ClassEscape: /[\\]]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\]]/\""
           }
         ],
         "optional": false
@@ -1617,32 +1695,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2246,
-      "end": 2314,
+      "start": 2245,
+      "end": 2313,
       "expression": {
         "type": "CallExpression",
-        "start": 2246,
-        "end": 2313,
+        "start": 2245,
+        "end": 2312,
         "callee": {
           "type": "Identifier",
-          "start": 2246,
-          "end": 2252,
+          "start": 2245,
+          "end": 2251,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2253,
-            "end": 2270,
+            "start": 2252,
+            "end": 2269,
             "callee": {
               "type": "MemberExpression",
-              "start": 2253,
-              "end": 2265,
+              "start": 2252,
+              "end": 2264,
               "object": {
                 "type": "Literal",
-                "start": 2253,
-                "end": 2260,
+                "start": 2252,
+                "end": 2259,
                 "value": {},
+                "raw": "/[\\{]/u",
                 "regex": {
                   "pattern": "[\\{]",
                   "flags": "u"
@@ -1650,8 +1729,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2261,
-                "end": 2265,
+                "start": 2260,
+                "end": 2264,
                 "name": "test"
               },
               "computed": false,
@@ -1660,18 +1739,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2266,
-                "end": 2269,
-                "value": "{"
+                "start": 2265,
+                "end": 2268,
+                "value": "{",
+                "raw": "\"{\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2272,
-            "end": 2312,
-            "value": "IdentityEscape in ClassEscape: /[\\{]/"
+            "start": 2271,
+            "end": 2311,
+            "value": "IdentityEscape in ClassEscape: /[\\{]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\{]/\""
           }
         ],
         "optional": false
@@ -1679,32 +1760,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2315,
-      "end": 2383,
+      "start": 2314,
+      "end": 2382,
       "expression": {
         "type": "CallExpression",
-        "start": 2315,
-        "end": 2382,
+        "start": 2314,
+        "end": 2381,
         "callee": {
           "type": "Identifier",
-          "start": 2315,
-          "end": 2321,
+          "start": 2314,
+          "end": 2320,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2322,
-            "end": 2339,
+            "start": 2321,
+            "end": 2338,
             "callee": {
               "type": "MemberExpression",
-              "start": 2322,
-              "end": 2334,
+              "start": 2321,
+              "end": 2333,
               "object": {
                 "type": "Literal",
-                "start": 2322,
-                "end": 2329,
+                "start": 2321,
+                "end": 2328,
                 "value": {},
+                "raw": "/[\\}]/u",
                 "regex": {
                   "pattern": "[\\}]",
                   "flags": "u"
@@ -1712,8 +1794,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2330,
-                "end": 2334,
+                "start": 2329,
+                "end": 2333,
                 "name": "test"
               },
               "computed": false,
@@ -1722,18 +1804,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2335,
-                "end": 2338,
-                "value": "}"
+                "start": 2334,
+                "end": 2337,
+                "value": "}",
+                "raw": "\"}\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2341,
-            "end": 2381,
-            "value": "IdentityEscape in ClassEscape: /[\\}]/"
+            "start": 2340,
+            "end": 2380,
+            "value": "IdentityEscape in ClassEscape: /[\\}]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\}]/\""
           }
         ],
         "optional": false
@@ -1741,32 +1825,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2384,
-      "end": 2452,
+      "start": 2383,
+      "end": 2451,
       "expression": {
         "type": "CallExpression",
-        "start": 2384,
-        "end": 2451,
+        "start": 2383,
+        "end": 2450,
         "callee": {
           "type": "Identifier",
-          "start": 2384,
-          "end": 2390,
+          "start": 2383,
+          "end": 2389,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2391,
-            "end": 2408,
+            "start": 2390,
+            "end": 2407,
             "callee": {
               "type": "MemberExpression",
-              "start": 2391,
-              "end": 2403,
+              "start": 2390,
+              "end": 2402,
               "object": {
                 "type": "Literal",
-                "start": 2391,
-                "end": 2398,
+                "start": 2390,
+                "end": 2397,
                 "value": {},
+                "raw": "/[\\|]/u",
                 "regex": {
                   "pattern": "[\\|]",
                   "flags": "u"
@@ -1774,8 +1859,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2399,
-                "end": 2403,
+                "start": 2398,
+                "end": 2402,
                 "name": "test"
               },
               "computed": false,
@@ -1784,18 +1869,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2404,
-                "end": 2407,
-                "value": "|"
+                "start": 2403,
+                "end": 2406,
+                "value": "|",
+                "raw": "\"|\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2410,
-            "end": 2450,
-            "value": "IdentityEscape in ClassEscape: /[\\|]/"
+            "start": 2409,
+            "end": 2449,
+            "value": "IdentityEscape in ClassEscape: /[\\|]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\|]/\""
           }
         ],
         "optional": false
@@ -1803,32 +1890,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2453,
-      "end": 2521,
+      "start": 2452,
+      "end": 2520,
       "expression": {
         "type": "CallExpression",
-        "start": 2453,
-        "end": 2520,
+        "start": 2452,
+        "end": 2519,
         "callee": {
           "type": "Identifier",
-          "start": 2453,
-          "end": 2459,
+          "start": 2452,
+          "end": 2458,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2460,
-            "end": 2477,
+            "start": 2459,
+            "end": 2476,
             "callee": {
               "type": "MemberExpression",
-              "start": 2460,
-              "end": 2472,
+              "start": 2459,
+              "end": 2471,
               "object": {
                 "type": "Literal",
-                "start": 2460,
-                "end": 2467,
+                "start": 2459,
+                "end": 2466,
                 "value": {},
+                "raw": "/[\\/]/u",
                 "regex": {
                   "pattern": "[\\/]",
                   "flags": "u"
@@ -1836,8 +1924,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 2468,
-                "end": 2472,
+                "start": 2467,
+                "end": 2471,
                 "name": "test"
               },
               "computed": false,
@@ -1846,18 +1934,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2473,
-                "end": 2476,
-                "value": "/"
+                "start": 2472,
+                "end": 2475,
+                "value": "/",
+                "raw": "\"/\""
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2479,
-            "end": 2519,
-            "value": "IdentityEscape in ClassEscape: /[\\/]/"
+            "start": 2478,
+            "end": 2518,
+            "value": "IdentityEscape in ClassEscape: /[\\/]/",
+            "raw": "\"IdentityEscape in ClassEscape: /[\\\\/]/\""
           }
         ],
         "optional": false

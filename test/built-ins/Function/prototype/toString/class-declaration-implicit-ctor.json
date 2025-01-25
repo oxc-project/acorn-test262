@@ -123,7 +123,8 @@
             "type": "Literal",
             "start": 645,
             "end": 682,
-            "value": "class /* a */ A /* b */ { /* c */ }"
+            "value": "class /* a */ A /* b */ { /* c */ }",
+            "raw": "\"class /* a */ A /* b */ { /* c */ }\""
           }
         ],
         "optional": false
@@ -154,7 +155,8 @@
             "type": "Literal",
             "start": 719,
             "end": 782,
-            "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }"
+            "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }",
+            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\""
           }
         ],
         "optional": false
@@ -185,7 +187,8 @@
             "type": "Literal",
             "start": 819,
             "end": 932,
-            "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }"
+            "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }",
+            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\""
           }
         ],
         "optional": false

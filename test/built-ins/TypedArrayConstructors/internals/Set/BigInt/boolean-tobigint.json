@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 2071,
                             "end": 2072,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -100,7 +101,8 @@
                         "type": "Literal",
                         "start": 2088,
                         "end": 2089,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -109,7 +111,8 @@
                       "type": "Literal",
                       "start": 2093,
                       "end": 2098,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 },
@@ -136,7 +139,8 @@
                         "type": "Literal",
                         "start": 2113,
                         "end": 2114,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -145,7 +149,8 @@
                       "type": "Literal",
                       "start": 2118,
                       "end": 2122,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 },
@@ -191,7 +196,8 @@
                           "type": "Literal",
                           "start": 2154,
                           "end": 2155,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -200,13 +206,15 @@
                         "type": "Literal",
                         "start": 2158,
                         "end": 2160,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 2162,
                         "end": 2196,
-                        "value": "The value of typedArray[0] is 0n"
+                        "value": "The value of typedArray[0] is 0n",
+                        "raw": "'The value of typedArray[0] is 0n'"
                       }
                     ],
                     "optional": false
@@ -254,7 +262,8 @@
                           "type": "Literal",
                           "start": 2229,
                           "end": 2230,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -263,13 +272,15 @@
                         "type": "Literal",
                         "start": 2233,
                         "end": 2235,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       },
                       {
                         "type": "Literal",
                         "start": 2237,
                         "end": 2271,
-                        "value": "The value of typedArray[1] is 1n"
+                        "value": "The value of typedArray[1] is 1n",
+                        "raw": "'The value of typedArray[1] is 1n'"
                       }
                     ],
                     "optional": false

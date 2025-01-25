@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 578,
+  "end": 576,
   "body": [
     {
       "type": "ImportDeclaration",
@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 439,
         "end": 468,
-        "value": "./export-expname_FIXTURE.js"
+        "value": "./export-expname_FIXTURE.js",
+        "raw": "\"./export-expname_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -101,11 +102,11 @@
     {
       "type": "ExpressionStatement",
       "start": 525,
-      "end": 577,
+      "end": 575,
       "expression": {
         "type": "CallExpression",
         "start": 525,
-        "end": 576,
+        "end": 574,
         "callee": {
           "type": "MemberExpression",
           "start": 525,
@@ -129,7 +130,7 @@
           {
             "type": "MemberExpression",
             "start": 542,
-            "end": 555,
+            "end": 553,
             "object": {
               "type": "Identifier",
               "start": 542,
@@ -139,26 +140,27 @@
             "property": {
               "type": "Literal",
               "start": 549,
-              "end": 554,
-              "value": "☿"
+              "end": 552,
+              "value": "☿",
+              "raw": "\"☿\""
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "MemberExpression",
-            "start": 557,
-            "end": 575,
+            "start": 555,
+            "end": 573,
             "object": {
               "type": "Identifier",
-              "start": 557,
-              "end": 567,
+              "start": 555,
+              "end": 565,
               "name": "globalThis"
             },
             "property": {
               "type": "Identifier",
-              "start": 568,
-              "end": 575,
+              "start": 566,
+              "end": 573,
               "name": "Mercury"
             },
             "computed": false,

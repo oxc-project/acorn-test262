@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 419,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -92,13 +95,15 @@
             "type": "Literal",
             "start": 458,
             "end": 466,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 522,
-            "value": "The value of `typeof arr` is expected to be \"object\""
+            "value": "The value of `typeof arr` is expected to be \"object\"",
+            "raw": "'The value of `typeof arr` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -175,7 +180,8 @@
             "type": "Literal",
             "start": 561,
             "end": 562,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         ],
         "optional": false
@@ -225,7 +231,8 @@
             "type": "Literal",
             "start": 595,
             "end": 653,
-            "value": "The value of n_obj is expected to equal the value of arr"
+            "value": "The value of n_obj is expected to equal the value of arr",
+            "raw": "'The value of n_obj is expected to equal the value of arr'"
           }
         ],
         "optional": false
@@ -273,7 +280,8 @@
               "type": "Literal",
               "start": 679,
               "end": 680,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
@@ -282,13 +290,15 @@
             "type": "Literal",
             "start": 683,
             "end": 684,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 729,
-            "value": "The value of n_obj[3] is expected to be 4"
+            "value": "The value of n_obj[3] is expected to be 4",
+            "raw": "'The value of n_obj[3] is expected to be 4'"
           }
         ],
         "optional": false

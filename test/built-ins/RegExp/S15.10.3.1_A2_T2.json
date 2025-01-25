@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 536,
             "end": 537,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -60,7 +61,8 @@
                     "type": "Literal",
                     "start": 573,
                     "end": 639,
-                    "value": "#1.1: var x = 1; RegExp(/[a-b]?/, x) throw SyntaxError. Actual: "
+                    "value": "#1.1: var x = 1; RegExp(/[a-b]?/, x) throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: var x = 1; RegExp(/[a-b]?/, x) throw SyntaxError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -83,6 +85,7 @@
                           "start": 650,
                           "end": 658,
                           "value": {},
+                          "raw": "/[a-b]?/",
                           "regex": {
                             "pattern": "[a-b]?",
                             "flags": ""
@@ -169,13 +172,15 @@
                     "type": "Literal",
                     "start": 734,
                     "end": 738,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 744,
                     "end": 820,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
                   }
                 ],
                 "optional": false

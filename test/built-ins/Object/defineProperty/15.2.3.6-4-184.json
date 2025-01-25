@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 382,
             "end": 392,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 408,
-                  "value": 100
+                  "value": 100,
+                  "raw": "100"
                 },
                 "kind": "init"
               }
@@ -143,7 +145,8 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 455,
-                "value": "4294967295"
+                "value": "4294967295",
+                "raw": "\"4294967295\""
               }
             ],
             "optional": false
@@ -152,7 +155,8 @@
             "type": "Literal",
             "start": 458,
             "end": 504,
-            "value": "arrObj.hasOwnProperty(\"4294967295\") !== true"
+            "value": "arrObj.hasOwnProperty(\"4294967295\") !== true",
+            "raw": "'arrObj.hasOwnProperty(\"4294967295\") !== true'"
           }
         ],
         "optional": false
@@ -209,13 +213,15 @@
             "type": "Literal",
             "start": 539,
             "end": 540,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 557,
-            "value": "arrObj.length"
+            "value": "arrObj.length",
+            "raw": "'arrObj.length'"
           }
         ],
         "optional": false
@@ -263,7 +269,8 @@
               "type": "Literal",
               "start": 584,
               "end": 594,
-              "value": 4294967295
+              "value": 4294967295,
+              "raw": "4294967295"
             },
             "computed": true,
             "optional": false
@@ -272,13 +279,15 @@
             "type": "Literal",
             "start": 597,
             "end": 600,
-            "value": 100
+            "value": 100,
+            "raw": "100"
           },
           {
             "type": "Literal",
             "start": 602,
             "end": 622,
-            "value": "arrObj[4294967295]"
+            "value": "arrObj[4294967295]",
+            "raw": "'arrObj[4294967295]'"
           }
         ],
         "optional": false

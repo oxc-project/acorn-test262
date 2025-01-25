@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 378,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 385,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -141,7 +143,8 @@
             "type": "Literal",
             "start": 450,
             "end": 494,
-            "value": "Throws TypeError if no property is present"
+            "value": "Throws TypeError if no property is present",
+            "raw": "\"Throws TypeError if no property is present\""
           }
         ],
         "optional": false
@@ -236,7 +239,8 @@
                         "type": "Literal",
                         "start": 565,
                         "end": 569,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -250,7 +254,8 @@
             "type": "Literal",
             "start": 576,
             "end": 631,
-            "value": "Throws TypeError if no recognized property is present"
+            "value": "Throws TypeError if no recognized property is present",
+            "raw": "\"Throws TypeError if no recognized property is present\""
           }
         ],
         "optional": false
@@ -345,7 +350,8 @@
                         "type": "Literal",
                         "start": 698,
                         "end": 699,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -359,7 +365,8 @@
             "type": "Literal",
             "start": 706,
             "end": 739,
-            "value": "Sign property is not recognized"
+            "value": "Sign property is not recognized",
+            "raw": "\"Sign property is not recognized\""
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 725,
             "end": 746,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 771,
                 "end": 777,
-                "value": "The "
+                "value": "The ",
+                "raw": "'The '"
               }
             ],
             "optional": false
@@ -80,7 +82,8 @@
             "type": "Literal",
             "start": 780,
             "end": 813,
-            "value": "str.startsWith(\"The \") === true"
+            "value": "str.startsWith(\"The \") === true",
+            "raw": "'str.startsWith(\"The \") === true'"
           }
         ],
         "optional": false
@@ -129,7 +132,8 @@
                 "type": "Literal",
                 "start": 838,
                 "end": 850,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               }
             ],
             "optional": false
@@ -138,7 +142,8 @@
             "type": "Literal",
             "start": 853,
             "end": 892,
-            "value": "str.startsWith(\"The future\") === true"
+            "value": "str.startsWith(\"The future\") === true",
+            "raw": "'str.startsWith(\"The future\") === true'"
           }
         ],
         "optional": false
@@ -196,7 +201,8 @@
             "type": "Literal",
             "start": 923,
             "end": 953,
-            "value": "str.startsWith(str) === true"
+            "value": "str.startsWith(str) === true",
+            "raw": "'str.startsWith(str) === true'"
           }
         ],
         "optional": false

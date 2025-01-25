@@ -55,19 +55,22 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 331,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -167,13 +170,15 @@
             "type": "Literal",
             "start": 388,
             "end": 408,
-            "value": "[object Arguments]"
+            "value": "[object Arguments]",
+            "raw": "\"[object Arguments]\""
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 446,
-            "value": "String.prototype.trim.call(argObj)"
+            "value": "String.prototype.trim.call(argObj)",
+            "raw": "'String.prototype.trim.call(argObj)'"
           }
         ],
         "optional": false

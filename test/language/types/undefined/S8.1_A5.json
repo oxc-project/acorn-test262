@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 427,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "\"undefined\""
               }
             },
             "consequent": {
@@ -91,7 +92,8 @@
                           "type": "Literal",
                           "start": 458,
                           "end": 537,
-                          "value": "#1: Function argument that isn't provided has a value of undefined. Actual: "
+                          "value": "#1: Function argument that isn't provided has a value of undefined. Actual: ",
+                          "raw": "'#1: Function argument that isn\\'t provided has a value of undefined. Actual: '"
                         },
                         "operator": "+",
                         "right": {

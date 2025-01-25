@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 874,
+  "end": 870,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 642,
-      "end": 873,
+      "start": 638,
+      "end": 869,
       "expression": {
         "type": "CallExpression",
-        "start": 642,
-        "end": 872,
+        "start": 638,
+        "end": 868,
         "callee": {
           "type": "Identifier",
-          "start": 642,
-          "end": 651,
+          "start": 638,
+          "end": 647,
           "name": "asyncTest"
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 652,
-            "end": 871,
+            "start": 648,
+            "end": 867,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,35 +29,35 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 664,
-              "end": 871,
+              "start": 660,
+              "end": 867,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 668,
-                  "end": 869,
+                  "start": 664,
+                  "end": 865,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 668,
-                    "end": 868,
+                    "start": 664,
+                    "end": 864,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 674,
-                      "end": 868,
+                      "start": 670,
+                      "end": 864,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 674,
-                        "end": 689,
+                        "start": 670,
+                        "end": 685,
                         "object": {
                           "type": "Identifier",
-                          "start": 674,
-                          "end": 679,
+                          "start": 670,
+                          "end": 675,
                           "name": "Array"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 680,
-                          "end": 689,
+                          "start": 676,
+                          "end": 685,
                           "name": "fromAsync"
                         },
                         "computed": false,
@@ -66,33 +66,36 @@
                       "arguments": [
                         {
                           "type": "ArrayExpression",
-                          "start": 690,
-                          "end": 699,
+                          "start": 686,
+                          "end": 695,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 691,
-                              "end": 692,
-                              "value": 1
+                              "start": 687,
+                              "end": 688,
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
-                              "start": 694,
-                              "end": 695,
-                              "value": 2
+                              "start": 690,
+                              "end": 691,
+                              "value": 2,
+                              "raw": "2"
                             },
                             {
                               "type": "Literal",
-                              "start": 697,
-                              "end": 698,
-                              "value": 3
+                              "start": 693,
+                              "end": 694,
+                              "value": 3,
+                              "raw": "3"
                             }
                           ]
                         },
                         {
                           "type": "FunctionExpression",
-                          "start": 701,
-                          "end": 867,
+                          "start": 697,
+                          "end": 863,
                           "id": null,
                           "expression": false,
                           "generator": false,
@@ -100,31 +103,31 @@
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 719,
-                            "end": 867,
+                            "start": 715,
+                            "end": 863,
                             "body": [
                               {
                                 "type": "ExpressionStatement",
-                                "start": 725,
-                                "end": 863,
+                                "start": 721,
+                                "end": 859,
                                 "expression": {
                                   "type": "CallExpression",
-                                  "start": 725,
-                                  "end": 862,
+                                  "start": 721,
+                                  "end": 858,
                                   "callee": {
                                     "type": "MemberExpression",
-                                    "start": 725,
-                                    "end": 741,
+                                    "start": 721,
+                                    "end": 737,
                                     "object": {
                                       "type": "Identifier",
-                                      "start": 725,
-                                      "end": 731,
+                                      "start": 721,
+                                      "end": 727,
                                       "name": "assert"
                                     },
                                     "property": {
                                       "type": "Identifier",
-                                      "start": 732,
-                                      "end": 741,
+                                      "start": 728,
+                                      "end": 737,
                                       "name": "sameValue"
                                     },
                                     "computed": false,
@@ -133,20 +136,21 @@
                                   "arguments": [
                                     {
                                       "type": "ThisExpression",
-                                      "start": 749,
-                                      "end": 753
+                                      "start": 745,
+                                      "end": 749
                                     },
                                     {
                                       "type": "Identifier",
-                                      "start": 761,
-                                      "end": 770,
+                                      "start": 757,
+                                      "end": 766,
                                       "name": "undefined"
                                     },
                                     {
                                       "type": "Literal",
-                                      "start": 778,
-                                      "end": 856,
-                                      "value": "undefined should be bound as the this-value of mapfn when thisArg is omitted"
+                                      "start": 774,
+                                      "end": 852,
+                                      "value": "undefined should be bound as the this-value of mapfn when thisArg is omitted",
+                                      "raw": "\"undefined should be bound as the this-value of mapfn when thisArg is omitted\""
                                     }
                                   ],
                                   "optional": false

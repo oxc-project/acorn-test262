@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 402,
             "end": 484,
-            "value": "Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype"
+            "value": "Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype",
+            "raw": "'Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype'"
           }
         ],
         "optional": false

@@ -20,6 +20,7 @@
             "start": 349,
             "end": 354,
             "value": {},
+            "raw": "/,\\;/",
             "regex": {
               "pattern": ",\\;",
               "flags": ""
@@ -39,7 +40,8 @@
           "type": "Literal",
           "start": 366,
           "end": 372,
-          "value": ",\\;"
+          "value": ",\\;",
+          "raw": "\",\\\\;\""
         }
       },
       "consequent": {
@@ -66,7 +68,8 @@
                   "type": "Literal",
                   "start": 401,
                   "end": 413,
-                  "value": "#1: /,\\;/"
+                  "value": "#1: /,\\;/",
+                  "raw": "'#1: /,\\\\;/'"
                 }
               ]
             }
@@ -92,6 +95,7 @@
             "start": 433,
             "end": 438,
             "value": {},
+            "raw": "/ \\ /",
             "regex": {
               "pattern": " \\ ",
               "flags": ""
@@ -111,7 +115,8 @@
           "type": "Literal",
           "start": 450,
           "end": 456,
-          "value": " \\ "
+          "value": " \\ ",
+          "raw": "\" \\\\ \""
         }
       },
       "consequent": {
@@ -138,7 +143,8 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 497,
-                  "value": "#2: / \\ /"
+                  "value": "#2: / \\ /",
+                  "raw": "'#2: / \\\\ /'"
                 }
               ]
             }

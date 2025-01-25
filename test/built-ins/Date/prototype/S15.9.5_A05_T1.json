@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 370,
                 "end": 386,
-                "value": "toLocaleString"
+                "value": "toLocaleString",
+                "raw": "\"toLocaleString\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 391,
             "end": 395,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 465,
-            "value": "Date.prototype.hasOwnProperty(\"toLocaleString\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"toLocaleString\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"toLocaleString\") must return true'"
           }
         ],
         "optional": false

@@ -76,7 +76,8 @@
             "type": "Literal",
             "start": 323,
             "end": 336,
-            "value": "0 arguments"
+            "value": "0 arguments",
+            "raw": "\"0 arguments\""
           }
         ],
         "optional": false
@@ -162,7 +163,8 @@
             "type": "Literal",
             "start": 405,
             "end": 417,
-            "value": "1 argument"
+            "value": "1 argument",
+            "raw": "\"1 argument\""
           }
         ],
         "optional": false
@@ -241,7 +243,8 @@
                         "type": "Literal",
                         "start": 482,
                         "end": 487,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       }
                     ],
                     "optional": false
@@ -254,7 +257,8 @@
             "type": "Literal",
             "start": 493,
             "end": 506,
-            "value": "2 arguments"
+            "value": "2 arguments",
+            "raw": "\"2 arguments\""
           }
         ],
         "optional": false

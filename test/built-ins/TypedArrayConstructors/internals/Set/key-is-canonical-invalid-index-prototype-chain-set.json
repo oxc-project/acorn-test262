@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 755,
             "end": 756,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -101,7 +102,8 @@
                           "type": "Literal",
                           "start": 827,
                           "end": 830,
-                          "value": 2.3
+                          "value": 2.3,
+                          "raw": "2.3"
                         }
                       }
                     ]
@@ -204,13 +206,15 @@
                             "type": "Literal",
                             "start": 915,
                             "end": 916,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 918,
                             "end": 921,
-                            "value": 1.5
+                            "value": 1.5,
+                            "raw": "1.5"
                           },
                           {
                             "type": "UnaryExpression",
@@ -222,7 +226,8 @@
                               "type": "Literal",
                               "start": 924,
                               "end": 925,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -373,7 +378,8 @@
                                                         "type": "Literal",
                                                         "start": 1051,
                                                         "end": 1083,
-                                                        "value": " getter should be unreachable!"
+                                                        "value": " getter should be unreachable!",
+                                                        "raw": "\" getter should be unreachable!\""
                                                       }
                                                     }
                                                   ]
@@ -448,7 +454,8 @@
                                                         "type": "Literal",
                                                         "start": 1144,
                                                         "end": 1176,
-                                                        "value": " setter should be unreachable!"
+                                                        "value": " setter should be unreachable!",
+                                                        "raw": "\" setter should be unreachable!\""
                                                       }
                                                     }
                                                   ]
@@ -476,7 +483,8 @@
                                           "type": "Literal",
                                           "start": 1202,
                                           "end": 1206,
-                                          "value": true
+                                          "value": true,
+                                          "raw": "true"
                                         },
                                         "kind": "init"
                                       }
@@ -521,7 +529,8 @@
                                           "type": "Literal",
                                           "start": 1239,
                                           "end": 1240,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -682,7 +691,8 @@
                                         "type": "Literal",
                                         "start": 1349,
                                         "end": 1358,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -697,7 +707,8 @@
                                       "type": "Literal",
                                       "start": 1367,
                                       "end": 1417,
-                                      "value": "] should not be created (receiver: empty object)"
+                                      "value": "] should not be created (receiver: empty object)",
+                                      "raw": "\"] should not be created (receiver: empty object)\""
                                     }
                                   }
                                 ],
@@ -771,7 +782,8 @@
                                         "type": "Literal",
                                         "start": 1462,
                                         "end": 1473,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -786,7 +798,8 @@
                                       "type": "Literal",
                                       "start": 1482,
                                       "end": 1532,
-                                      "value": "] should not be created (receiver: empty object)"
+                                      "value": "] should not be created (receiver: empty object)",
+                                      "raw": "\"] should not be created (receiver: empty object)\""
                                     }
                                   }
                                 ],
@@ -812,7 +825,8 @@
                                     "type": "Literal",
                                     "start": 1562,
                                     "end": 1563,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   }
                                 }
                               ],
@@ -853,7 +867,8 @@
                                           "type": "Literal",
                                           "start": 1586,
                                           "end": 1587,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -1048,7 +1063,8 @@
                                                     "type": "Literal",
                                                     "start": 1776,
                                                     "end": 1780,
-                                                    "value": true
+                                                    "value": true,
+                                                    "raw": "true"
                                                   }
                                                 }
                                               ]
@@ -1164,7 +1180,8 @@
                                         "type": "Literal",
                                         "start": 1866,
                                         "end": 1875,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1179,7 +1196,8 @@
                                       "type": "Literal",
                                       "start": 1884,
                                       "end": 1946,
-                                      "value": "] should not be created (receiver: proxy of an empty object)"
+                                      "value": "] should not be created (receiver: proxy of an empty object)",
+                                      "raw": "\"] should not be created (receiver: proxy of an empty object)\""
                                     }
                                   }
                                 ],
@@ -1253,7 +1271,8 @@
                                         "type": "Literal",
                                         "start": 1991,
                                         "end": 2002,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1268,7 +1287,8 @@
                                       "type": "Literal",
                                       "start": 2011,
                                       "end": 2073,
-                                      "value": "] should not be created (receiver: proxy of an empty object)"
+                                      "value": "] should not be created (receiver: proxy of an empty object)",
+                                      "raw": "\"] should not be created (receiver: proxy of an empty object)\""
                                     }
                                   }
                                 ],
@@ -1313,7 +1333,8 @@
                                     "type": "Literal",
                                     "start": 2113,
                                     "end": 2114,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1327,7 +1348,8 @@
                                         "type": "Literal",
                                         "start": 2116,
                                         "end": 2189,
-                                        "value": "Proxy's [[DefineOwnProperty]] exotic method should not be called (key: "
+                                        "value": "Proxy's [[DefineOwnProperty]] exotic method should not be called (key: ",
+                                        "raw": "\"Proxy's [[DefineOwnProperty]] exotic method should not be called (key: \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1342,7 +1364,8 @@
                                       "type": "Literal",
                                       "start": 2198,
                                       "end": 2201,
-                                      "value": ")"
+                                      "value": ")",
+                                      "raw": "\")\""
                                     }
                                   }
                                 ],
@@ -1384,7 +1407,8 @@
                                           "type": "Literal",
                                           "start": 2227,
                                           "end": 2228,
-                                          "value": 0
+                                          "value": 0,
+                                          "raw": "0"
                                         }
                                       ]
                                     }
@@ -1572,7 +1596,8 @@
                                         "type": "Literal",
                                         "start": 2363,
                                         "end": 2372,
-                                        "value": "target["
+                                        "value": "target[",
+                                        "raw": "\"target[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1587,7 +1612,8 @@
                                       "type": "Literal",
                                       "start": 2381,
                                       "end": 2446,
-                                      "value": "] should not be created (receiver: non-extensible empty object)"
+                                      "value": "] should not be created (receiver: non-extensible empty object)",
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
                                     }
                                   }
                                 ],
@@ -1661,7 +1687,8 @@
                                         "type": "Literal",
                                         "start": 2491,
                                         "end": 2502,
-                                        "value": "receiver["
+                                        "value": "receiver[",
+                                        "raw": "\"receiver[\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1676,7 +1703,8 @@
                                       "type": "Literal",
                                       "start": 2511,
                                       "end": 2576,
-                                      "value": "] should not be created (receiver: non-extensible empty object)"
+                                      "value": "] should not be created (receiver: non-extensible empty object)",
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
                                     }
                                   }
                                 ],
@@ -1783,7 +1811,8 @@
                               "type": "Literal",
                               "start": 2646,
                               "end": 2647,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -1870,7 +1899,8 @@
                         "type": "Literal",
                         "start": 2710,
                         "end": 2711,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -1932,7 +1962,8 @@
                               "type": "Literal",
                               "start": 2754,
                               "end": 2755,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -1942,7 +1973,8 @@
                         "type": "Literal",
                         "start": 2758,
                         "end": 2817,
-                        "value": "target[1] should not be created (receiver: regular array)"
+                        "value": "target[1] should not be created (receiver: regular array)",
+                        "raw": "\"target[1] should not be created (receiver: regular array)\""
                       }
                     ],
                     "optional": false
@@ -1997,7 +2029,8 @@
                               "type": "Literal",
                               "start": 2854,
                               "end": 2855,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -2007,7 +2040,8 @@
                         "type": "Literal",
                         "start": 2858,
                         "end": 2919,
-                        "value": "receiver[1] should not be created (receiver: regular array)"
+                        "value": "receiver[1] should not be created (receiver: regular array)",
+                        "raw": "\"receiver[1] should not be created (receiver: regular array)\""
                       }
                     ],
                     "optional": false
@@ -2064,13 +2098,15 @@
                         "type": "Literal",
                         "start": 2958,
                         "end": 2959,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 2961,
                         "end": 3027,
-                        "value": "Array's [[DefineOwnProperty]] exotic method should not be called"
+                        "value": "Array's [[DefineOwnProperty]] exotic method should not be called",
+                        "raw": "\"Array's [[DefineOwnProperty]] exotic method should not be called\""
                       }
                     ],
                     "optional": false
@@ -2111,7 +2147,8 @@
                               "type": "Literal",
                               "start": 3051,
                               "end": 3052,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -2173,7 +2210,8 @@
                               "type": "Literal",
                               "start": 3102,
                               "end": 3104,
-                              "value": ""
+                              "value": "",
+                              "raw": "\"\""
                             }
                           ]
                         },
@@ -2211,7 +2249,8 @@
                         "type": "Literal",
                         "start": 3127,
                         "end": 3128,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -2273,7 +2312,8 @@
                               "type": "Literal",
                               "start": 3171,
                               "end": 3172,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -2283,7 +2323,8 @@
                         "type": "Literal",
                         "start": 3175,
                         "end": 3240,
-                        "value": "target[1] should not be created (receiver: empty String object)"
+                        "value": "target[1] should not be created (receiver: empty String object)",
+                        "raw": "\"target[1] should not be created (receiver: empty String object)\""
                       }
                     ],
                     "optional": false
@@ -2338,7 +2379,8 @@
                               "type": "Literal",
                               "start": 3277,
                               "end": 3278,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -2348,7 +2390,8 @@
                         "type": "Literal",
                         "start": 3281,
                         "end": 3350,
-                        "value": "receiver[1] should remain unchanged (receiver: empty String object)"
+                        "value": "receiver[1] should remain unchanged (receiver: empty String object)",
+                        "raw": "\"receiver[1] should remain unchanged (receiver: empty String object)\""
                       }
                     ],
                     "optional": false
@@ -2399,13 +2442,15 @@
             "type": "Literal",
             "start": 3389,
             "end": 3390,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 3392,
             "end": 3421,
-            "value": "value should not be coerced"
+            "value": "value should not be coerced",
+            "raw": "\"value should not be coerced\""
           }
         ],
         "optional": false

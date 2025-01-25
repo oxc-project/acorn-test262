@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 829,
             "end": 834,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 838,
             "end": 907,
-            "value": "isConstructor(TypedArray.prototype.findLastIndex) must return false"
+            "value": "isConstructor(TypedArray.prototype.findLastIndex) must return false",
+            "raw": "'isConstructor(TypedArray.prototype.findLastIndex) must return false'"
           }
         ],
         "optional": false
@@ -171,7 +173,8 @@
                             "type": "Literal",
                             "start": 971,
                             "end": 972,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }

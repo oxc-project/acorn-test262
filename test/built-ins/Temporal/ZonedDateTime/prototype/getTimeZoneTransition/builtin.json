@@ -107,13 +107,15 @@
             "type": "Literal",
             "start": 1168,
             "end": 1172,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1174,
             "end": 1212,
-            "value": "Built-in objects must be extensible."
+            "value": "Built-in objects must be extensible.",
+            "raw": "\"Built-in objects must be extensible.\""
           }
         ],
         "optional": false
@@ -249,13 +251,15 @@
             "type": "Literal",
             "start": 1323,
             "end": 1342,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "\"[object Function]\""
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1371,
-            "value": "Object.prototype.toString"
+            "value": "Object.prototype.toString",
+            "raw": "\"Object.prototype.toString\""
           }
         ],
         "optional": false
@@ -384,7 +388,8 @@
             "type": "Literal",
             "start": 1493,
             "end": 1504,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "\"prototype\""
           }
         ],
         "optional": false
@@ -485,7 +490,8 @@
                 "type": "Literal",
                 "start": 1595,
                 "end": 1606,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -494,13 +500,15 @@
             "type": "Literal",
             "start": 1611,
             "end": 1616,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1618,
             "end": 1638,
-            "value": "prototype property"
+            "value": "prototype property",
+            "raw": "\"prototype property\""
           }
         ],
         "optional": false

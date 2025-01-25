@@ -510,14 +510,16 @@
                                                                                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                                                                                 "start": 506,
                                                                                                                                                                                                                                                                 "end": 570,
-                                                                                                                                                                                                                                                                "value": "\tOnce upon a midnight dreary, while I pondered weak and weary,"
+                                                                                                                                                                                                                                                                "value": "\tOnce upon a midnight dreary, while I pondered weak and weary,",
+                                                                                                                                                                                                                                                                "raw": "\"\tOnce upon a midnight dreary, while I pondered weak and weary,\""
                                                                                                                                                                                                                                                               },
                                                                                                                                                                                                                                                               "operator": "+",
                                                                                                                                                                                                                                                               "right": {
                                                                                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                                                                                 "start": 581,
                                                                                                                                                                                                                                                                 "end": 639,
-                                                                                                                                                                                                                                                                "value": "Over many a quaint and curious volume of forgotten lore,"
+                                                                                                                                                                                                                                                                "value": "Over many a quaint and curious volume of forgotten lore,",
+                                                                                                                                                                                                                                                                "raw": "\"Over many a quaint and curious volume of forgotten lore,\""
                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                             },
                                                                                                                                                                                                                                                             "operator": "+",
@@ -525,7 +527,8 @@
                                                                                                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                                                                                                               "start": 650,
                                                                                                                                                                                                                                                               "end": 714,
-                                                                                                                                                                                                                                                              "value": "While I nodded, nearly napping, suddenly there came a tapping,"
+                                                                                                                                                                                                                                                              "value": "While I nodded, nearly napping, suddenly there came a tapping,",
+                                                                                                                                                                                                                                                              "raw": "\"While I nodded, nearly napping, suddenly there came a tapping,\""
                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                                           "operator": "+",
@@ -533,7 +536,8 @@
                                                                                                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                                                                                                             "start": 725,
                                                                                                                                                                                                                                                             "end": 785,
-                                                                                                                                                                                                                                                            "value": "As of some one gently rapping, rapping at my chamber door."
+                                                                                                                                                                                                                                                            "value": "As of some one gently rapping, rapping at my chamber door.",
+                                                                                                                                                                                                                                                            "raw": "\"As of some one gently rapping, rapping at my chamber door.\""
                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                         },
                                                                                                                                                                                                                                                         "operator": "+",
@@ -541,7 +545,8 @@
                                                                                                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                                                                                                           "start": 796,
                                                                                                                                                                                                                                                           "end": 860,
-                                                                                                                                                                                                                                                          "value": "`'Tis some visitor,' I muttered, `tapping at my chamber door -"
+                                                                                                                                                                                                                                                          "value": "`'Tis some visitor,' I muttered, `tapping at my chamber door -",
+                                                                                                                                                                                                                                                          "raw": "\"`'Tis some visitor,' I muttered, `tapping at my chamber door -\""
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                                       "operator": "+",
@@ -549,7 +554,8 @@
                                                                                                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                                                                                                         "start": 871,
                                                                                                                                                                                                                                                         "end": 902,
-                                                                                                                                                                                                                                                        "value": "Only this, and nothing more.'"
+                                                                                                                                                                                                                                                        "value": "Only this, and nothing more.'",
+                                                                                                                                                                                                                                                        "raw": "\"Only this, and nothing more.'\""
                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                     },
                                                                                                                                                                                                                                                     "operator": "+",
@@ -557,7 +563,8 @@
                                                                                                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                                                                                                       "start": 913,
                                                                                                                                                                                                                                                       "end": 970,
-                                                                                                                                                                                                                                                      "value": "Ah, distinctly I remember it was in the bleak December,"
+                                                                                                                                                                                                                                                      "value": "Ah, distinctly I remember it was in the bleak December,",
+                                                                                                                                                                                                                                                      "raw": "\"Ah, distinctly I remember it was in the bleak December,\""
                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                                   "operator": "+",
@@ -565,7 +572,8 @@
                                                                                                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                                                                                                     "start": 981,
                                                                                                                                                                                                                                                     "end": 1046,
-                                                                                                                                                                                                                                                    "value": "And each separate dying ember wrought its ghost upon the floor."
+                                                                                                                                                                                                                                                    "value": "And each separate dying ember wrought its ghost upon the floor.",
+                                                                                                                                                                                                                                                    "raw": "\"And each separate dying ember wrought its ghost upon the floor.\""
                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                                 "operator": "+",
@@ -573,7 +581,8 @@
                                                                                                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                                                                                                   "start": 1057,
                                                                                                                                                                                                                                                   "end": 1119,
-                                                                                                                                                                                                                                                  "value": "Eagerly I wished the morrow; - vainly I had sought to borrow"
+                                                                                                                                                                                                                                                  "value": "Eagerly I wished the morrow; - vainly I had sought to borrow",
+                                                                                                                                                                                                                                                  "raw": "\"Eagerly I wished the morrow; - vainly I had sought to borrow\""
                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                               },
                                                                                                                                                                                                                                               "operator": "+",
@@ -581,7 +590,8 @@
                                                                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                                                                 "start": 1130,
                                                                                                                                                                                                                                                 "end": 1195,
-                                                                                                                                                                                                                                                "value": "From my books surcease of sorrow - sorrow for the lost Lenore -"
+                                                                                                                                                                                                                                                "value": "From my books surcease of sorrow - sorrow for the lost Lenore -",
+                                                                                                                                                                                                                                                "raw": "\"From my books surcease of sorrow - sorrow for the lost Lenore -\""
                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                             },
                                                                                                                                                                                                                                             "operator": "+",
@@ -589,7 +599,8 @@
                                                                                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                                                                                               "start": 1206,
                                                                                                                                                                                                                                               "end": 1270,
-                                                                                                                                                                                                                                              "value": "For the rare and radiant maiden whom the angels named Lenore -"
+                                                                                                                                                                                                                                              "value": "For the rare and radiant maiden whom the angels named Lenore -",
+                                                                                                                                                                                                                                              "raw": "\"For the rare and radiant maiden whom the angels named Lenore -\""
                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                           "operator": "+",
@@ -597,7 +608,8 @@
                                                                                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                                                                                             "start": 1281,
                                                                                                                                                                                                                                             "end": 1310,
-                                                                                                                                                                                                                                            "value": "Nameless here for evermore."
+                                                                                                                                                                                                                                            "value": "Nameless here for evermore.",
+                                                                                                                                                                                                                                            "raw": "\"Nameless here for evermore.\""
                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                         },
                                                                                                                                                                                                                                         "operator": "+",
@@ -605,7 +617,8 @@
                                                                                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                                                                                           "start": 1321,
                                                                                                                                                                                                                                           "end": 1325,
-                                                                                                                                                                                                                                          "value": "\n"
+                                                                                                                                                                                                                                          "value": "\n",
+                                                                                                                                                                                                                                          "raw": "\"\\n\""
                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                       "operator": "+",
@@ -613,7 +626,8 @@
                                                                                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                                                                                         "start": 1336,
                                                                                                                                                                                                                                         "end": 1398,
-                                                                                                                                                                                                                                        "value": "And the silken sad uncertain rustling of each purple curtain"
+                                                                                                                                                                                                                                        "value": "And the silken sad uncertain rustling of each purple curtain",
+                                                                                                                                                                                                                                        "raw": "\"And the silken sad uncertain rustling of each purple curtain\""
                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                     },
                                                                                                                                                                                                                                     "operator": "+",
@@ -621,7 +635,8 @@
                                                                                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                                                                                       "start": 1409,
                                                                                                                                                                                                                                       "end": 1476,
-                                                                                                                                                                                                                                      "value": "Thrilled me - filled me with fantastic terrors never felt before;"
+                                                                                                                                                                                                                                      "value": "Thrilled me - filled me with fantastic terrors never felt before;",
+                                                                                                                                                                                                                                      "raw": "\"Thrilled me - filled me with fantastic terrors never felt before;\""
                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                   "operator": "+",
@@ -629,7 +644,8 @@
                                                                                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                                                                                     "start": 1487,
                                                                                                                                                                                                                                     "end": 1553,
-                                                                                                                                                                                                                                    "value": "So that now, to still the beating of my heart, I stood repeating"
+                                                                                                                                                                                                                                    "value": "So that now, to still the beating of my heart, I stood repeating",
+                                                                                                                                                                                                                                    "raw": "\"So that now, to still the beating of my heart, I stood repeating\""
                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                 "operator": "+",
@@ -637,7 +653,8 @@
                                                                                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                                                                                   "start": 1564,
                                                                                                                                                                                                                                   "end": 1625,
-                                                                                                                                                                                                                                  "value": "`'Tis some visitor entreating entrance at my chamber door -"
+                                                                                                                                                                                                                                  "value": "`'Tis some visitor entreating entrance at my chamber door -",
+                                                                                                                                                                                                                                  "raw": "\"`'Tis some visitor entreating entrance at my chamber door -\""
                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                               },
                                                                                                                                                                                                                               "operator": "+",
@@ -645,7 +662,8 @@
                                                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                                                 "start": 1636,
                                                                                                                                                                                                                                 "end": 1697,
-                                                                                                                                                                                                                                "value": "Some late visitor entreating entrance at my chamber door; -"
+                                                                                                                                                                                                                                "value": "Some late visitor entreating entrance at my chamber door; -",
+                                                                                                                                                                                                                                "raw": "\"Some late visitor entreating entrance at my chamber door; -\""
                                                                                                                                                                                                                               }
                                                                                                                                                                                                                             },
                                                                                                                                                                                                                             "operator": "+",
@@ -653,7 +671,8 @@
                                                                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                                                                               "start": 1708,
                                                                                                                                                                                                                               "end": 1740,
-                                                                                                                                                                                                                              "value": "This it is, and nothing more,'"
+                                                                                                                                                                                                                              "value": "This it is, and nothing more,'",
+                                                                                                                                                                                                                              "raw": "\"This it is, and nothing more,'\""
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           "operator": "+",
@@ -661,7 +680,8 @@
                                                                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                                                                             "start": 1751,
                                                                                                                                                                                                                             "end": 1812,
-                                                                                                                                                                                                                            "value": "Presently my soul grew stronger; hesitating then no longer,"
+                                                                                                                                                                                                                            "value": "Presently my soul grew stronger; hesitating then no longer,",
+                                                                                                                                                                                                                            "raw": "\"Presently my soul grew stronger; hesitating then no longer,\""
                                                                                                                                                                                                                           }
                                                                                                                                                                                                                         },
                                                                                                                                                                                                                         "operator": "+",
@@ -669,7 +689,8 @@
                                                                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                                                                           "start": 1823,
                                                                                                                                                                                                                           "end": 1884,
-                                                                                                                                                                                                                          "value": "`Sir,' said I, `or Madam, truly your forgiveness I implore;"
+                                                                                                                                                                                                                          "value": "`Sir,' said I, `or Madam, truly your forgiveness I implore;",
+                                                                                                                                                                                                                          "raw": "\"`Sir,' said I, `or Madam, truly your forgiveness I implore;\""
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       },
                                                                                                                                                                                                                       "operator": "+",
@@ -677,7 +698,8 @@
                                                                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                                                                         "start": 1895,
                                                                                                                                                                                                                         "end": 1959,
-                                                                                                                                                                                                                        "value": "But the fact is I was napping, and so gently you came rapping,"
+                                                                                                                                                                                                                        "value": "But the fact is I was napping, and so gently you came rapping,",
+                                                                                                                                                                                                                        "raw": "\"But the fact is I was napping, and so gently you came rapping,\""
                                                                                                                                                                                                                       }
                                                                                                                                                                                                                     },
                                                                                                                                                                                                                     "operator": "+",
@@ -685,7 +707,8 @@
                                                                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                                                                       "start": 1970,
                                                                                                                                                                                                                       "end": 2032,
-                                                                                                                                                                                                                      "value": "And so faintly you came tapping, tapping at my chamber door,"
+                                                                                                                                                                                                                      "value": "And so faintly you came tapping, tapping at my chamber door,",
+                                                                                                                                                                                                                      "raw": "\"And so faintly you came tapping, tapping at my chamber door,\""
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                   },
                                                                                                                                                                                                                   "operator": "+",
@@ -693,7 +716,8 @@
                                                                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                                                                     "start": 2043,
                                                                                                                                                                                                                     "end": 2113,
-                                                                                                                                                                                                                    "value": "That I scarce was sure I heard you' - here I opened wide the door; -"
+                                                                                                                                                                                                                    "value": "That I scarce was sure I heard you' - here I opened wide the door; -",
+                                                                                                                                                                                                                    "raw": "\"That I scarce was sure I heard you' - here I opened wide the door; -\""
                                                                                                                                                                                                                   }
                                                                                                                                                                                                                 },
                                                                                                                                                                                                                 "operator": "+",
@@ -701,7 +725,8 @@
                                                                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                                                                   "start": 2124,
                                                                                                                                                                                                                   "end": 2159,
-                                                                                                                                                                                                                  "value": "Darkness there, and nothing more."
+                                                                                                                                                                                                                  "value": "Darkness there, and nothing more.",
+                                                                                                                                                                                                                  "raw": "\"Darkness there, and nothing more.\""
                                                                                                                                                                                                                 }
                                                                                                                                                                                                               },
                                                                                                                                                                                                               "operator": "+",
@@ -709,7 +734,8 @@
                                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                                 "start": 2170,
                                                                                                                                                                                                                 "end": 2174,
-                                                                                                                                                                                                                "value": "\n"
+                                                                                                                                                                                                                "value": "\n",
+                                                                                                                                                                                                                "raw": "\"\\n\""
                                                                                                                                                                                                               }
                                                                                                                                                                                                             },
                                                                                                                                                                                                             "operator": "+",
@@ -717,7 +743,8 @@
                                                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                                                               "start": 2185,
                                                                                                                                                                                                               "end": 2258,
-                                                                                                                                                                                                              "value": "Deep into that darkness peering, long I stood there wondering, fearing,"
+                                                                                                                                                                                                              "value": "Deep into that darkness peering, long I stood there wondering, fearing,",
+                                                                                                                                                                                                              "raw": "\"Deep into that darkness peering, long I stood there wondering, fearing,\""
                                                                                                                                                                                                             }
                                                                                                                                                                                                           },
                                                                                                                                                                                                           "operator": "+",
@@ -725,7 +752,8 @@
                                                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                                                             "start": 2269,
                                                                                                                                                                                                             "end": 2333,
-                                                                                                                                                                                                            "value": "Doubting, dreaming dreams no mortal ever dared to dream before"
+                                                                                                                                                                                                            "value": "Doubting, dreaming dreams no mortal ever dared to dream before",
+                                                                                                                                                                                                            "raw": "\"Doubting, dreaming dreams no mortal ever dared to dream before\""
                                                                                                                                                                                                           }
                                                                                                                                                                                                         },
                                                                                                                                                                                                         "operator": "+",
@@ -733,7 +761,8 @@
                                                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                                                           "start": 2344,
                                                                                                                                                                                                           "end": 2407,
-                                                                                                                                                                                                          "value": "But the silence was unbroken, and the darkness gave no token,"
+                                                                                                                                                                                                          "value": "But the silence was unbroken, and the darkness gave no token,",
+                                                                                                                                                                                                          "raw": "\"But the silence was unbroken, and the darkness gave no token,\""
                                                                                                                                                                                                         }
                                                                                                                                                                                                       },
                                                                                                                                                                                                       "operator": "+",
@@ -741,7 +770,8 @@
                                                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                                                         "start": 2418,
                                                                                                                                                                                                         "end": 2484,
-                                                                                                                                                                                                        "value": "And the only word there spoken was the whispered word, `Lenore!'"
+                                                                                                                                                                                                        "value": "And the only word there spoken was the whispered word, `Lenore!'",
+                                                                                                                                                                                                        "raw": "\"And the only word there spoken was the whispered word, `Lenore!'\""
                                                                                                                                                                                                       }
                                                                                                                                                                                                     },
                                                                                                                                                                                                     "operator": "+",
@@ -749,7 +779,8 @@
                                                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                                                       "start": 2495,
                                                                                                                                                                                                       "end": 2560,
-                                                                                                                                                                                                      "value": "This I whispered, and an echo murmured back the word, `Lenore!'"
+                                                                                                                                                                                                      "value": "This I whispered, and an echo murmured back the word, `Lenore!'",
+                                                                                                                                                                                                      "raw": "\"This I whispered, and an echo murmured back the word, `Lenore!'\""
                                                                                                                                                                                                     }
                                                                                                                                                                                                   },
                                                                                                                                                                                                   "operator": "+",
@@ -757,7 +788,8 @@
                                                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                                                     "start": 2571,
                                                                                                                                                                                                     "end": 2602,
-                                                                                                                                                                                                    "value": "Merely this and nothing more."
+                                                                                                                                                                                                    "value": "Merely this and nothing more.",
+                                                                                                                                                                                                    "raw": "\"Merely this and nothing more.\""
                                                                                                                                                                                                   }
                                                                                                                                                                                                 },
                                                                                                                                                                                                 "operator": "+",
@@ -765,7 +797,8 @@
                                                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                                                   "start": 2613,
                                                                                                                                                                                                   "end": 2617,
-                                                                                                                                                                                                  "value": "\n"
+                                                                                                                                                                                                  "value": "\n",
+                                                                                                                                                                                                  "raw": "\"\\n\""
                                                                                                                                                                                                 }
                                                                                                                                                                                               },
                                                                                                                                                                                               "operator": "+",
@@ -773,7 +806,8 @@
                                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                                 "start": 2628,
                                                                                                                                                                                                 "end": 2691,
-                                                                                                                                                                                                "value": "Back into the chamber turning, all my soul within me burning,"
+                                                                                                                                                                                                "value": "Back into the chamber turning, all my soul within me burning,",
+                                                                                                                                                                                                "raw": "\"Back into the chamber turning, all my soul within me burning,\""
                                                                                                                                                                                               }
                                                                                                                                                                                             },
                                                                                                                                                                                             "operator": "+",
@@ -781,7 +815,8 @@
                                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                                               "start": 2702,
                                                                                                                                                                                               "end": 2761,
-                                                                                                                                                                                              "value": "Soon again I heard a tapping somewhat louder than before."
+                                                                                                                                                                                              "value": "Soon again I heard a tapping somewhat louder than before.",
+                                                                                                                                                                                              "raw": "\"Soon again I heard a tapping somewhat louder than before.\""
                                                                                                                                                                                             }
                                                                                                                                                                                           },
                                                                                                                                                                                           "operator": "+",
@@ -789,7 +824,8 @@
                                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                                             "start": 2772,
                                                                                                                                                                                             "end": 2839,
-                                                                                                                                                                                            "value": "`Surely,' said I, `surely that is something at my window lattice;"
+                                                                                                                                                                                            "value": "`Surely,' said I, `surely that is something at my window lattice;",
+                                                                                                                                                                                            "raw": "\"`Surely,' said I, `surely that is something at my window lattice;\""
                                                                                                                                                                                           }
                                                                                                                                                                                         },
                                                                                                                                                                                         "operator": "+",
@@ -797,7 +833,8 @@
                                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                                           "start": 2850,
                                                                                                                                                                                           "end": 2912,
-                                                                                                                                                                                          "value": "Let me see then, what thereat is, and this mystery explore -"
+                                                                                                                                                                                          "value": "Let me see then, what thereat is, and this mystery explore -",
+                                                                                                                                                                                          "raw": "\"Let me see then, what thereat is, and this mystery explore -\""
                                                                                                                                                                                         }
                                                                                                                                                                                       },
                                                                                                                                                                                       "operator": "+",
@@ -805,7 +842,8 @@
                                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                                         "start": 2923,
                                                                                                                                                                                         "end": 2983,
-                                                                                                                                                                                        "value": "Let my heart be still a moment and this mystery explore; -"
+                                                                                                                                                                                        "value": "Let my heart be still a moment and this mystery explore; -",
+                                                                                                                                                                                        "raw": "\"Let my heart be still a moment and this mystery explore; -\""
                                                                                                                                                                                       }
                                                                                                                                                                                     },
                                                                                                                                                                                     "operator": "+",
@@ -813,7 +851,8 @@
                                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                                       "start": 2994,
                                                                                                                                                                                       "end": 3028,
-                                                                                                                                                                                      "value": "'Tis the wind and nothing more!'"
+                                                                                                                                                                                      "value": "'Tis the wind and nothing more!'",
+                                                                                                                                                                                      "raw": "\"'Tis the wind and nothing more!'\""
                                                                                                                                                                                     }
                                                                                                                                                                                   },
                                                                                                                                                                                   "operator": "+",
@@ -821,7 +860,8 @@
                                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                                     "start": 3039,
                                                                                                                                                                                     "end": 3043,
-                                                                                                                                                                                    "value": "\n"
+                                                                                                                                                                                    "value": "\n",
+                                                                                                                                                                                    "raw": "\"\\n\""
                                                                                                                                                                                   }
                                                                                                                                                                                 },
                                                                                                                                                                                 "operator": "+",
@@ -829,7 +869,8 @@
                                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                                   "start": 3054,
                                                                                                                                                                                   "end": 3123,
-                                                                                                                                                                                  "value": "Open here I flung the shutter, when, with many a flirt and flutter,"
+                                                                                                                                                                                  "value": "Open here I flung the shutter, when, with many a flirt and flutter,",
+                                                                                                                                                                                  "raw": "\"Open here I flung the shutter, when, with many a flirt and flutter,\""
                                                                                                                                                                                 }
                                                                                                                                                                               },
                                                                                                                                                                               "operator": "+",
@@ -837,7 +878,8 @@
                                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                                 "start": 3134,
                                                                                                                                                                                 "end": 3197,
-                                                                                                                                                                                "value": "In there stepped a stately raven of the saintly days of yore."
+                                                                                                                                                                                "value": "In there stepped a stately raven of the saintly days of yore.",
+                                                                                                                                                                                "raw": "\"In there stepped a stately raven of the saintly days of yore.\""
                                                                                                                                                                               }
                                                                                                                                                                             },
                                                                                                                                                                             "operator": "+",
@@ -845,7 +887,8 @@
                                                                                                                                                                               "type": "Literal",
                                                                                                                                                                               "start": 3208,
                                                                                                                                                                               "end": 3277,
-                                                                                                                                                                              "value": "Not the least obeisance made he; not a minute stopped or stayed he;"
+                                                                                                                                                                              "value": "Not the least obeisance made he; not a minute stopped or stayed he;",
+                                                                                                                                                                              "raw": "\"Not the least obeisance made he; not a minute stopped or stayed he;\""
                                                                                                                                                                             }
                                                                                                                                                                           },
                                                                                                                                                                           "operator": "+",
@@ -853,7 +896,8 @@
                                                                                                                                                                             "type": "Literal",
                                                                                                                                                                             "start": 3288,
                                                                                                                                                                             "end": 3353,
-                                                                                                                                                                            "value": "But, with mien of lord or lady, perched above my chamber door -"
+                                                                                                                                                                            "value": "But, with mien of lord or lady, perched above my chamber door -",
+                                                                                                                                                                            "raw": "\"But, with mien of lord or lady, perched above my chamber door -\""
                                                                                                                                                                           }
                                                                                                                                                                         },
                                                                                                                                                                         "operator": "+",
@@ -861,7 +905,8 @@
                                                                                                                                                                           "type": "Literal",
                                                                                                                                                                           "start": 3364,
                                                                                                                                                                           "end": 3424,
-                                                                                                                                                                          "value": "Perched upon a bust of Pallas just above my chamber door -"
+                                                                                                                                                                          "value": "Perched upon a bust of Pallas just above my chamber door -",
+                                                                                                                                                                          "raw": "\"Perched upon a bust of Pallas just above my chamber door -\""
                                                                                                                                                                         }
                                                                                                                                                                       },
                                                                                                                                                                       "operator": "+",
@@ -869,7 +914,8 @@
                                                                                                                                                                         "type": "Literal",
                                                                                                                                                                         "start": 3435,
                                                                                                                                                                         "end": 3472,
-                                                                                                                                                                        "value": "Perched, and sat, and nothing more."
+                                                                                                                                                                        "value": "Perched, and sat, and nothing more.",
+                                                                                                                                                                        "raw": "\"Perched, and sat, and nothing more.\""
                                                                                                                                                                       }
                                                                                                                                                                     },
                                                                                                                                                                     "operator": "+",
@@ -877,7 +923,8 @@
                                                                                                                                                                       "type": "Literal",
                                                                                                                                                                       "start": 3483,
                                                                                                                                                                       "end": 3487,
-                                                                                                                                                                      "value": "\n"
+                                                                                                                                                                      "value": "\n",
+                                                                                                                                                                      "raw": "\"\\n\""
                                                                                                                                                                     }
                                                                                                                                                                   },
                                                                                                                                                                   "operator": "+",
@@ -885,7 +932,8 @@
                                                                                                                                                                     "type": "Literal",
                                                                                                                                                                     "start": 3498,
                                                                                                                                                                     "end": 3557,
-                                                                                                                                                                    "value": "Then this ebony bird beguiling my sad fancy into smiling,"
+                                                                                                                                                                    "value": "Then this ebony bird beguiling my sad fancy into smiling,",
+                                                                                                                                                                    "raw": "\"Then this ebony bird beguiling my sad fancy into smiling,\""
                                                                                                                                                                   }
                                                                                                                                                                 },
                                                                                                                                                                 "operator": "+",
@@ -893,7 +941,8 @@
                                                                                                                                                                   "type": "Literal",
                                                                                                                                                                   "start": 3568,
                                                                                                                                                                   "end": 3628,
-                                                                                                                                                                  "value": "By the grave and stern decorum of the countenance it wore,"
+                                                                                                                                                                  "value": "By the grave and stern decorum of the countenance it wore,",
+                                                                                                                                                                  "raw": "\"By the grave and stern decorum of the countenance it wore,\""
                                                                                                                                                                 }
                                                                                                                                                               },
                                                                                                                                                               "operator": "+",
@@ -901,7 +950,8 @@
                                                                                                                                                                 "type": "Literal",
                                                                                                                                                                 "start": 3639,
                                                                                                                                                                 "end": 3715,
-                                                                                                                                                                "value": "`Though thy crest be shorn and shaven, thou,' I said, `art sure no craven."
+                                                                                                                                                                "value": "`Though thy crest be shorn and shaven, thou,' I said, `art sure no craven.",
+                                                                                                                                                                "raw": "\"`Though thy crest be shorn and shaven, thou,' I said, `art sure no craven.\""
                                                                                                                                                               }
                                                                                                                                                             },
                                                                                                                                                             "operator": "+",
@@ -909,7 +959,8 @@
                                                                                                                                                               "type": "Literal",
                                                                                                                                                               "start": 3726,
                                                                                                                                                               "end": 3793,
-                                                                                                                                                              "value": "Ghastly grim and ancient raven wandering from the nightly shore -"
+                                                                                                                                                              "value": "Ghastly grim and ancient raven wandering from the nightly shore -",
+                                                                                                                                                              "raw": "\"Ghastly grim and ancient raven wandering from the nightly shore -\""
                                                                                                                                                             }
                                                                                                                                                           },
                                                                                                                                                           "operator": "+",
@@ -917,7 +968,8 @@
                                                                                                                                                             "type": "Literal",
                                                                                                                                                             "start": 3804,
                                                                                                                                                             "end": 3870,
-                                                                                                                                                            "value": "Tell me what thy lordly name is on the Night's Plutonian shore!'"
+                                                                                                                                                            "value": "Tell me what thy lordly name is on the Night's Plutonian shore!'",
+                                                                                                                                                            "raw": "\"Tell me what thy lordly name is on the Night's Plutonian shore!'\""
                                                                                                                                                           }
                                                                                                                                                         },
                                                                                                                                                         "operator": "+",
@@ -925,7 +977,8 @@
                                                                                                                                                           "type": "Literal",
                                                                                                                                                           "start": 3881,
                                                                                                                                                           "end": 3912,
-                                                                                                                                                          "value": "Quoth the raven, `Nevermore.'"
+                                                                                                                                                          "value": "Quoth the raven, `Nevermore.'",
+                                                                                                                                                          "raw": "\"Quoth the raven, `Nevermore.'\""
                                                                                                                                                         }
                                                                                                                                                       },
                                                                                                                                                       "operator": "+",
@@ -933,7 +986,8 @@
                                                                                                                                                         "type": "Literal",
                                                                                                                                                         "start": 3923,
                                                                                                                                                         "end": 3927,
-                                                                                                                                                        "value": "-n"
+                                                                                                                                                        "value": "-n",
+                                                                                                                                                        "raw": "\"-n\""
                                                                                                                                                       }
                                                                                                                                                     },
                                                                                                                                                     "operator": "+",
@@ -941,7 +995,8 @@
                                                                                                                                                       "type": "Literal",
                                                                                                                                                       "start": 3938,
                                                                                                                                                       "end": 4005,
-                                                                                                                                                      "value": "Much I marvelled this ungainly fowl to hear discourse so plainly,"
+                                                                                                                                                      "value": "Much I marvelled this ungainly fowl to hear discourse so plainly,",
+                                                                                                                                                      "raw": "\"Much I marvelled this ungainly fowl to hear discourse so plainly,\""
                                                                                                                                                     }
                                                                                                                                                   },
                                                                                                                                                   "operator": "+",
@@ -949,7 +1004,8 @@
                                                                                                                                                     "type": "Literal",
                                                                                                                                                     "start": 4016,
                                                                                                                                                     "end": 4075,
-                                                                                                                                                    "value": "Though its answer little meaning - little relevancy bore;"
+                                                                                                                                                    "value": "Though its answer little meaning - little relevancy bore;",
+                                                                                                                                                    "raw": "\"Though its answer little meaning - little relevancy bore;\""
                                                                                                                                                   }
                                                                                                                                                 },
                                                                                                                                                 "operator": "+",
@@ -957,7 +1013,8 @@
                                                                                                                                                   "type": "Literal",
                                                                                                                                                   "start": 4086,
                                                                                                                                                   "end": 4142,
-                                                                                                                                                  "value": "For we cannot help agreeing that no living human being"
+                                                                                                                                                  "value": "For we cannot help agreeing that no living human being",
+                                                                                                                                                  "raw": "\"For we cannot help agreeing that no living human being\""
                                                                                                                                                 }
                                                                                                                                               },
                                                                                                                                               "operator": "+",
@@ -965,7 +1022,8 @@
                                                                                                                                                 "type": "Literal",
                                                                                                                                                 "start": 4153,
                                                                                                                                                 "end": 4217,
-                                                                                                                                                "value": "Ever yet was blessed with seeing bird above his chamber door -"
+                                                                                                                                                "value": "Ever yet was blessed with seeing bird above his chamber door -",
+                                                                                                                                                "raw": "\"Ever yet was blessed with seeing bird above his chamber door -\""
                                                                                                                                               }
                                                                                                                                             },
                                                                                                                                             "operator": "+",
@@ -973,7 +1031,8 @@
                                                                                                                                               "type": "Literal",
                                                                                                                                               "start": 4228,
                                                                                                                                               "end": 4293,
-                                                                                                                                              "value": "Bird or beast above the sculptured bust above his chamber door,"
+                                                                                                                                              "value": "Bird or beast above the sculptured bust above his chamber door,",
+                                                                                                                                              "raw": "\"Bird or beast above the sculptured bust above his chamber door,\""
                                                                                                                                             }
                                                                                                                                           },
                                                                                                                                           "operator": "+",
@@ -981,7 +1040,8 @@
                                                                                                                                             "type": "Literal",
                                                                                                                                             "start": 4304,
                                                                                                                                             "end": 4336,
-                                                                                                                                            "value": "With such name as `Nevermore.'"
+                                                                                                                                            "value": "With such name as `Nevermore.'",
+                                                                                                                                            "raw": "\"With such name as `Nevermore.'\""
                                                                                                                                           }
                                                                                                                                         },
                                                                                                                                         "operator": "+",
@@ -989,7 +1049,8 @@
                                                                                                                                           "type": "Literal",
                                                                                                                                           "start": 4347,
                                                                                                                                           "end": 4351,
-                                                                                                                                          "value": "\n"
+                                                                                                                                          "value": "\n",
+                                                                                                                                          "raw": "\"\\n\""
                                                                                                                                         }
                                                                                                                                       },
                                                                                                                                       "operator": "+",
@@ -997,7 +1058,8 @@
                                                                                                                                         "type": "Literal",
                                                                                                                                         "start": 4362,
                                                                                                                                         "end": 4425,
-                                                                                                                                        "value": "But the raven, sitting lonely on the placid bust, spoke only,"
+                                                                                                                                        "value": "But the raven, sitting lonely on the placid bust, spoke only,",
+                                                                                                                                        "raw": "\"But the raven, sitting lonely on the placid bust, spoke only,\""
                                                                                                                                       }
                                                                                                                                     },
                                                                                                                                     "operator": "+",
@@ -1005,7 +1067,8 @@
                                                                                                                                       "type": "Literal",
                                                                                                                                       "start": 4436,
                                                                                                                                       "end": 4500,
-                                                                                                                                      "value": "That one word, as if his soul in that one word he did outpour."
+                                                                                                                                      "value": "That one word, as if his soul in that one word he did outpour.",
+                                                                                                                                      "raw": "\"That one word, as if his soul in that one word he did outpour.\""
                                                                                                                                     }
                                                                                                                                   },
                                                                                                                                   "operator": "+",
@@ -1013,7 +1076,8 @@
                                                                                                                                     "type": "Literal",
                                                                                                                                     "start": 4511,
                                                                                                                                     "end": 4580,
-                                                                                                                                    "value": "Nothing further then he uttered - not a feather then he fluttered -"
+                                                                                                                                    "value": "Nothing further then he uttered - not a feather then he fluttered -",
+                                                                                                                                    "raw": "\"Nothing further then he uttered - not a feather then he fluttered -\""
                                                                                                                                   }
                                                                                                                                 },
                                                                                                                                 "operator": "+",
@@ -1021,7 +1085,8 @@
                                                                                                                                   "type": "Literal",
                                                                                                                                   "start": 4591,
                                                                                                                                   "end": 4662,
-                                                                                                                                  "value": "Till I scarcely more than muttered `Other friends have flown before -"
+                                                                                                                                  "value": "Till I scarcely more than muttered `Other friends have flown before -",
+                                                                                                                                  "raw": "\"Till I scarcely more than muttered `Other friends have flown before -\""
                                                                                                                                 }
                                                                                                                               },
                                                                                                                               "operator": "+",
@@ -1029,7 +1094,8 @@
                                                                                                                                 "type": "Literal",
                                                                                                                                 "start": 4673,
                                                                                                                                 "end": 4738,
-                                                                                                                                "value": "On the morrow he will leave me, as my hopes have flown before.'"
+                                                                                                                                "value": "On the morrow he will leave me, as my hopes have flown before.'",
+                                                                                                                                "raw": "\"On the morrow he will leave me, as my hopes have flown before.'\""
                                                                                                                               }
                                                                                                                             },
                                                                                                                             "operator": "+",
@@ -1037,7 +1103,8 @@
                                                                                                                               "type": "Literal",
                                                                                                                               "start": 4749,
                                                                                                                               "end": 4783,
-                                                                                                                              "value": "Then the bird said, `Nevermore.'"
+                                                                                                                              "value": "Then the bird said, `Nevermore.'",
+                                                                                                                              "raw": "\"Then the bird said, `Nevermore.'\""
                                                                                                                             }
                                                                                                                           },
                                                                                                                           "operator": "+",
@@ -1045,7 +1112,8 @@
                                                                                                                             "type": "Literal",
                                                                                                                             "start": 4794,
                                                                                                                             "end": 4798,
-                                                                                                                            "value": "\n"
+                                                                                                                            "value": "\n",
+                                                                                                                            "raw": "\"\\n\""
                                                                                                                           }
                                                                                                                         },
                                                                                                                         "operator": "+",
@@ -1053,7 +1121,8 @@
                                                                                                                           "type": "Literal",
                                                                                                                           "start": 4809,
                                                                                                                           "end": 4869,
-                                                                                                                          "value": "Startled at the stillness broken by reply so aptly spoken,"
+                                                                                                                          "value": "Startled at the stillness broken by reply so aptly spoken,",
+                                                                                                                          "raw": "\"Startled at the stillness broken by reply so aptly spoken,\""
                                                                                                                         }
                                                                                                                       },
                                                                                                                       "operator": "+",
@@ -1061,7 +1130,8 @@
                                                                                                                         "type": "Literal",
                                                                                                                         "start": 4880,
                                                                                                                         "end": 4947,
-                                                                                                                        "value": "`Doubtless,' said I, `what it utters is its only stock and store,"
+                                                                                                                        "value": "`Doubtless,' said I, `what it utters is its only stock and store,",
+                                                                                                                        "raw": "\"`Doubtless,' said I, `what it utters is its only stock and store,\""
                                                                                                                       }
                                                                                                                     },
                                                                                                                     "operator": "+",
@@ -1069,7 +1139,8 @@
                                                                                                                       "type": "Literal",
                                                                                                                       "start": 4958,
                                                                                                                       "end": 5016,
-                                                                                                                      "value": "Caught from some unhappy master whom unmerciful disaster"
+                                                                                                                      "value": "Caught from some unhappy master whom unmerciful disaster",
+                                                                                                                      "raw": "\"Caught from some unhappy master whom unmerciful disaster\""
                                                                                                                     }
                                                                                                                   },
                                                                                                                   "operator": "+",
@@ -1077,7 +1148,8 @@
                                                                                                                     "type": "Literal",
                                                                                                                     "start": 5027,
                                                                                                                     "end": 5095,
-                                                                                                                    "value": "Followed fast and followed faster till his songs one burden bore -"
+                                                                                                                    "value": "Followed fast and followed faster till his songs one burden bore -",
+                                                                                                                    "raw": "\"Followed fast and followed faster till his songs one burden bore -\""
                                                                                                                   }
                                                                                                                 },
                                                                                                                 "operator": "+",
@@ -1085,7 +1157,8 @@
                                                                                                                   "type": "Literal",
                                                                                                                   "start": 5106,
                                                                                                                   "end": 5163,
-                                                                                                                  "value": "Till the dirges of his hope that melancholy burden bore"
+                                                                                                                  "value": "Till the dirges of his hope that melancholy burden bore",
+                                                                                                                  "raw": "\"Till the dirges of his hope that melancholy burden bore\""
                                                                                                                 }
                                                                                                               },
                                                                                                               "operator": "+",
@@ -1093,7 +1166,8 @@
                                                                                                                 "type": "Literal",
                                                                                                                 "start": 5174,
                                                                                                                 "end": 5200,
-                                                                                                                "value": "Of \"Never-nevermore.\"'"
+                                                                                                                "value": "Of \"Never-nevermore.\"'",
+                                                                                                                "raw": "\"Of \\\"Never-nevermore.\\\"'\""
                                                                                                               }
                                                                                                             },
                                                                                                             "operator": "+",
@@ -1101,7 +1175,8 @@
                                                                                                               "type": "Literal",
                                                                                                               "start": 5211,
                                                                                                               "end": 5215,
-                                                                                                              "value": "\n"
+                                                                                                              "value": "\n",
+                                                                                                              "raw": "\"\\n\""
                                                                                                             }
                                                                                                           },
                                                                                                           "operator": "+",
@@ -1109,7 +1184,8 @@
                                                                                                             "type": "Literal",
                                                                                                             "start": 5226,
                                                                                                             "end": 5287,
-                                                                                                            "value": "But the raven still beguiling all my sad soul into smiling,"
+                                                                                                            "value": "But the raven still beguiling all my sad soul into smiling,",
+                                                                                                            "raw": "\"But the raven still beguiling all my sad soul into smiling,\""
                                                                                                           }
                                                                                                         },
                                                                                                         "operator": "+",
@@ -1117,7 +1193,8 @@
                                                                                                           "type": "Literal",
                                                                                                           "start": 5298,
                                                                                                           "end": 5371,
-                                                                                                          "value": "Straight I wheeled a cushioned seat in front of bird and bust and door;"
+                                                                                                          "value": "Straight I wheeled a cushioned seat in front of bird and bust and door;",
+                                                                                                          "raw": "\"Straight I wheeled a cushioned seat in front of bird and bust and door;\""
                                                                                                         }
                                                                                                       },
                                                                                                       "operator": "+",
@@ -1125,7 +1202,8 @@
                                                                                                         "type": "Literal",
                                                                                                         "start": 5382,
                                                                                                         "end": 5441,
-                                                                                                        "value": "Then, upon the velvet sinking, I betook myself to linking"
+                                                                                                        "value": "Then, upon the velvet sinking, I betook myself to linking",
+                                                                                                        "raw": "\"Then, upon the velvet sinking, I betook myself to linking\""
                                                                                                       }
                                                                                                     },
                                                                                                     "operator": "+",
@@ -1133,7 +1211,8 @@
                                                                                                       "type": "Literal",
                                                                                                       "start": 5452,
                                                                                                       "end": 5513,
-                                                                                                      "value": "Fancy unto fancy, thinking what this ominous bird of yore -"
+                                                                                                      "value": "Fancy unto fancy, thinking what this ominous bird of yore -",
+                                                                                                      "raw": "\"Fancy unto fancy, thinking what this ominous bird of yore -\""
                                                                                                     }
                                                                                                   },
                                                                                                   "operator": "+",
@@ -1141,7 +1220,8 @@
                                                                                                     "type": "Literal",
                                                                                                     "start": 5524,
                                                                                                     "end": 5592,
-                                                                                                    "value": "What this grim, ungainly, ghastly, gaunt, and ominous bird of yore"
+                                                                                                    "value": "What this grim, ungainly, ghastly, gaunt, and ominous bird of yore",
+                                                                                                    "raw": "\"What this grim, ungainly, ghastly, gaunt, and ominous bird of yore\""
                                                                                                   }
                                                                                                 },
                                                                                                 "operator": "+",
@@ -1149,7 +1229,8 @@
                                                                                                   "type": "Literal",
                                                                                                   "start": 5603,
                                                                                                   "end": 5635,
-                                                                                                  "value": "Meant in croaking `Nevermore.'"
+                                                                                                  "value": "Meant in croaking `Nevermore.'",
+                                                                                                  "raw": "\"Meant in croaking `Nevermore.'\""
                                                                                                 }
                                                                                               },
                                                                                               "operator": "+",
@@ -1157,7 +1238,8 @@
                                                                                                 "type": "Literal",
                                                                                                 "start": 5646,
                                                                                                 "end": 5650,
-                                                                                                "value": "\n"
+                                                                                                "value": "\n",
+                                                                                                "raw": "\"\\n\""
                                                                                               }
                                                                                             },
                                                                                             "operator": "+",
@@ -1165,7 +1247,8 @@
                                                                                               "type": "Literal",
                                                                                               "start": 5661,
                                                                                               "end": 5721,
-                                                                                              "value": "This I sat engaged in guessing, but no syllable expressing"
+                                                                                              "value": "This I sat engaged in guessing, but no syllable expressing",
+                                                                                              "raw": "\"This I sat engaged in guessing, but no syllable expressing\""
                                                                                             }
                                                                                           },
                                                                                           "operator": "+",
@@ -1173,7 +1256,8 @@
                                                                                             "type": "Literal",
                                                                                             "start": 5732,
                                                                                             "end": 5795,
-                                                                                            "value": "To the fowl whose fiery eyes now burned into my bosom's core;"
+                                                                                            "value": "To the fowl whose fiery eyes now burned into my bosom's core;",
+                                                                                            "raw": "\"To the fowl whose fiery eyes now burned into my bosom's core;\""
                                                                                           }
                                                                                         },
                                                                                         "operator": "+",
@@ -1181,7 +1265,8 @@
                                                                                           "type": "Literal",
                                                                                           "start": 5806,
                                                                                           "end": 5868,
-                                                                                          "value": "This and more I sat divining, with my head at ease reclining"
+                                                                                          "value": "This and more I sat divining, with my head at ease reclining",
+                                                                                          "raw": "\"This and more I sat divining, with my head at ease reclining\""
                                                                                         }
                                                                                       },
                                                                                       "operator": "+",
@@ -1189,7 +1274,8 @@
                                                                                         "type": "Literal",
                                                                                         "start": 5879,
                                                                                         "end": 5945,
-                                                                                        "value": "On the cushion's velvet lining that the lamp-light gloated o'er,"
+                                                                                        "value": "On the cushion's velvet lining that the lamp-light gloated o'er,",
+                                                                                        "raw": "\"On the cushion's velvet lining that the lamp-light gloated o'er,\""
                                                                                       }
                                                                                     },
                                                                                     "operator": "+",
@@ -1197,7 +1283,8 @@
                                                                                       "type": "Literal",
                                                                                       "start": 5956,
                                                                                       "end": 6023,
-                                                                                      "value": "But whose velvet violet lining with the lamp-light gloating o'er,"
+                                                                                      "value": "But whose velvet violet lining with the lamp-light gloating o'er,",
+                                                                                      "raw": "\"But whose velvet violet lining with the lamp-light gloating o'er,\""
                                                                                     }
                                                                                   },
                                                                                   "operator": "+",
@@ -1205,7 +1292,8 @@
                                                                                     "type": "Literal",
                                                                                     "start": 6034,
                                                                                     "end": 6067,
-                                                                                    "value": "She shall press, ah, nevermore!"
+                                                                                    "value": "She shall press, ah, nevermore!",
+                                                                                    "raw": "\"She shall press, ah, nevermore!\""
                                                                                   }
                                                                                 },
                                                                                 "operator": "+",
@@ -1213,7 +1301,8 @@
                                                                                   "type": "Literal",
                                                                                   "start": 6078,
                                                                                   "end": 6082,
-                                                                                  "value": "\n"
+                                                                                  "value": "\n",
+                                                                                  "raw": "\"\\n\""
                                                                                 }
                                                                               },
                                                                               "operator": "+",
@@ -1221,7 +1310,8 @@
                                                                                 "type": "Literal",
                                                                                 "start": 6093,
                                                                                 "end": 6163,
-                                                                                "value": "Then, methought, the air grew denser, perfumed from an unseen censer"
+                                                                                "value": "Then, methought, the air grew denser, perfumed from an unseen censer",
+                                                                                "raw": "\"Then, methought, the air grew denser, perfumed from an unseen censer\""
                                                                               }
                                                                             },
                                                                             "operator": "+",
@@ -1229,7 +1319,8 @@
                                                                               "type": "Literal",
                                                                               "start": 6174,
                                                                               "end": 6239,
-                                                                              "value": "Swung by Seraphim whose foot-falls tinkled on the tufted floor."
+                                                                              "value": "Swung by Seraphim whose foot-falls tinkled on the tufted floor.",
+                                                                              "raw": "\"Swung by Seraphim whose foot-falls tinkled on the tufted floor.\""
                                                                             }
                                                                           },
                                                                           "operator": "+",
@@ -1237,7 +1328,8 @@
                                                                             "type": "Literal",
                                                                             "start": 6250,
                                                                             "end": 6329,
-                                                                            "value": "`Wretch,' I cried, `thy God hath lent thee - by these angels he has sent thee"
+                                                                            "value": "`Wretch,' I cried, `thy God hath lent thee - by these angels he has sent thee",
+                                                                            "raw": "\"`Wretch,' I cried, `thy God hath lent thee - by these angels he has sent thee\""
                                                                           }
                                                                         },
                                                                         "operator": "+",
@@ -1245,7 +1337,8 @@
                                                                           "type": "Literal",
                                                                           "start": 6340,
                                                                           "end": 6401,
-                                                                          "value": "Respite - respite and nepenthe from thy memories of Lenore!"
+                                                                          "value": "Respite - respite and nepenthe from thy memories of Lenore!",
+                                                                          "raw": "\"Respite - respite and nepenthe from thy memories of Lenore!\""
                                                                         }
                                                                       },
                                                                       "operator": "+",
@@ -1253,7 +1346,8 @@
                                                                         "type": "Literal",
                                                                         "start": 6412,
                                                                         "end": 6479,
-                                                                        "value": "Quaff, oh quaff this kind nepenthe, and forget this lost Lenore!'"
+                                                                        "value": "Quaff, oh quaff this kind nepenthe, and forget this lost Lenore!'",
+                                                                        "raw": "\"Quaff, oh quaff this kind nepenthe, and forget this lost Lenore!'\""
                                                                       }
                                                                     },
                                                                     "operator": "+",
@@ -1261,7 +1355,8 @@
                                                                       "type": "Literal",
                                                                       "start": 6490,
                                                                       "end": 6521,
-                                                                      "value": "Quoth the raven, `Nevermore.'"
+                                                                      "value": "Quoth the raven, `Nevermore.'",
+                                                                      "raw": "\"Quoth the raven, `Nevermore.'\""
                                                                     }
                                                                   },
                                                                   "operator": "+",
@@ -1269,7 +1364,8 @@
                                                                     "type": "Literal",
                                                                     "start": 6532,
                                                                     "end": 6536,
-                                                                    "value": "\n"
+                                                                    "value": "\n",
+                                                                    "raw": "\"\\n\""
                                                                   }
                                                                 },
                                                                 "operator": "+",
@@ -1277,7 +1373,8 @@
                                                                   "type": "Literal",
                                                                   "start": 6547,
                                                                   "end": 6620,
-                                                                  "value": "`Prophet!' said I, `thing of evil! - prophet still, if bird or devil! -"
+                                                                  "value": "`Prophet!' said I, `thing of evil! - prophet still, if bird or devil! -",
+                                                                  "raw": "\"`Prophet!' said I, `thing of evil! - prophet still, if bird or devil! -\""
                                                                 }
                                                               },
                                                               "operator": "+",
@@ -1285,7 +1382,8 @@
                                                                 "type": "Literal",
                                                                 "start": 6631,
                                                                 "end": 6698,
-                                                                "value": "Whether tempter sent, or whether tempest tossed thee here ashore,"
+                                                                "value": "Whether tempter sent, or whether tempest tossed thee here ashore,",
+                                                                "raw": "\"Whether tempter sent, or whether tempest tossed thee here ashore,\""
                                                               }
                                                             },
                                                             "operator": "+",
@@ -1293,7 +1391,8 @@
                                                               "type": "Literal",
                                                               "start": 6709,
                                                               "end": 6770,
-                                                              "value": "Desolate yet all undaunted, on this desert land enchanted -"
+                                                              "value": "Desolate yet all undaunted, on this desert land enchanted -",
+                                                              "raw": "\"Desolate yet all undaunted, on this desert land enchanted -\""
                                                             }
                                                           },
                                                           "operator": "+",
@@ -1301,7 +1400,8 @@
                                                             "type": "Literal",
                                                             "start": 6781,
                                                             "end": 6842,
-                                                            "value": "On this home by horror haunted - tell me truly, I implore -"
+                                                            "value": "On this home by horror haunted - tell me truly, I implore -",
+                                                            "raw": "\"On this home by horror haunted - tell me truly, I implore -\""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1309,7 +1409,8 @@
                                                           "type": "Literal",
                                                           "start": 6853,
                                                           "end": 6923,
-                                                          "value": "Is there - is there balm in Gilead? - tell me - tell me, I implore!'"
+                                                          "value": "Is there - is there balm in Gilead? - tell me - tell me, I implore!'",
+                                                          "raw": "\"Is there - is there balm in Gilead? - tell me - tell me, I implore!'\""
                                                         }
                                                       },
                                                       "operator": "+",
@@ -1317,7 +1418,8 @@
                                                         "type": "Literal",
                                                         "start": 6934,
                                                         "end": 6965,
-                                                        "value": "Quoth the raven, `Nevermore.'"
+                                                        "value": "Quoth the raven, `Nevermore.'",
+                                                        "raw": "\"Quoth the raven, `Nevermore.'\""
                                                       }
                                                     },
                                                     "operator": "+",
@@ -1325,7 +1427,8 @@
                                                       "type": "Literal",
                                                       "start": 6976,
                                                       "end": 6980,
-                                                      "value": "\n"
+                                                      "value": "\n",
+                                                      "raw": "\"\\n\""
                                                     }
                                                   },
                                                   "operator": "+",
@@ -1333,7 +1436,8 @@
                                                     "type": "Literal",
                                                     "start": 6991,
                                                     "end": 7062,
-                                                    "value": "`Prophet!' said I, `thing of evil! - prophet still, if bird or devil!"
+                                                    "value": "`Prophet!' said I, `thing of evil! - prophet still, if bird or devil!",
+                                                    "raw": "\"`Prophet!' said I, `thing of evil! - prophet still, if bird or devil!\""
                                                   }
                                                 },
                                                 "operator": "+",
@@ -1341,7 +1445,8 @@
                                                   "type": "Literal",
                                                   "start": 7073,
                                                   "end": 7139,
-                                                  "value": "By that Heaven that bends above us - by that God we both adore -"
+                                                  "value": "By that Heaven that bends above us - by that God we both adore -",
+                                                  "raw": "\"By that Heaven that bends above us - by that God we both adore -\""
                                                 }
                                               },
                                               "operator": "+",
@@ -1349,7 +1454,8 @@
                                                 "type": "Literal",
                                                 "start": 7150,
                                                 "end": 7215,
-                                                "value": "Tell this soul with sorrow laden if, within the distant Aidenn,"
+                                                "value": "Tell this soul with sorrow laden if, within the distant Aidenn,",
+                                                "raw": "\"Tell this soul with sorrow laden if, within the distant Aidenn,\""
                                               }
                                             },
                                             "operator": "+",
@@ -1357,7 +1463,8 @@
                                               "type": "Literal",
                                               "start": 7226,
                                               "end": 7290,
-                                              "value": "It shall clasp a sainted maiden whom the angels named Lenore -"
+                                              "value": "It shall clasp a sainted maiden whom the angels named Lenore -",
+                                              "raw": "\"It shall clasp a sainted maiden whom the angels named Lenore -\""
                                             }
                                           },
                                           "operator": "+",
@@ -1365,7 +1472,8 @@
                                             "type": "Literal",
                                             "start": 7301,
                                             "end": 7366,
-                                            "value": "Clasp a rare and radiant maiden, whom the angels named Lenore?'"
+                                            "value": "Clasp a rare and radiant maiden, whom the angels named Lenore?'",
+                                            "raw": "\"Clasp a rare and radiant maiden, whom the angels named Lenore?'\""
                                           }
                                         },
                                         "operator": "+",
@@ -1373,7 +1481,8 @@
                                           "type": "Literal",
                                           "start": 7377,
                                           "end": 7408,
-                                          "value": "Quoth the raven, `Nevermore.'"
+                                          "value": "Quoth the raven, `Nevermore.'",
+                                          "raw": "\"Quoth the raven, `Nevermore.'\""
                                         }
                                       },
                                       "operator": "+",
@@ -1381,7 +1490,8 @@
                                         "type": "Literal",
                                         "start": 7419,
                                         "end": 7423,
-                                        "value": "\n"
+                                        "value": "\n",
+                                        "raw": "\"\\n\""
                                       }
                                     },
                                     "operator": "+",
@@ -1389,7 +1499,8 @@
                                       "type": "Literal",
                                       "start": 7434,
                                       "end": 7510,
-                                      "value": "`Be that word our sign of parting, bird or fiend!' I shrieked upstarting -"
+                                      "value": "`Be that word our sign of parting, bird or fiend!' I shrieked upstarting -",
+                                      "raw": "\"`Be that word our sign of parting, bird or fiend!' I shrieked upstarting -\""
                                     }
                                   },
                                   "operator": "+",
@@ -1397,7 +1508,8 @@
                                     "type": "Literal",
                                     "start": 7521,
                                     "end": 7587,
-                                    "value": "`Get thee back into the tempest and the Night's Plutonian shore!"
+                                    "value": "`Get thee back into the tempest and the Night's Plutonian shore!",
+                                    "raw": "\"`Get thee back into the tempest and the Night's Plutonian shore!\""
                                   }
                                 },
                                 "operator": "+",
@@ -1405,7 +1517,8 @@
                                   "type": "Literal",
                                   "start": 7598,
                                   "end": 7665,
-                                  "value": "Leave no black plume as a token of that lie thy soul hath spoken!"
+                                  "value": "Leave no black plume as a token of that lie thy soul hath spoken!",
+                                  "raw": "\"Leave no black plume as a token of that lie thy soul hath spoken!\""
                                 }
                               },
                               "operator": "+",
@@ -1413,7 +1526,8 @@
                                 "type": "Literal",
                                 "start": 7676,
                                 "end": 7738,
-                                "value": "Leave my loneliness unbroken! - quit the bust above my door!"
+                                "value": "Leave my loneliness unbroken! - quit the bust above my door!",
+                                "raw": "\"Leave my loneliness unbroken! - quit the bust above my door!\""
                               }
                             },
                             "operator": "+",
@@ -1421,7 +1535,8 @@
                               "type": "Literal",
                               "start": 7749,
                               "end": 7820,
-                              "value": "Take thy beak from out my heart, and take thy form from off my door!'"
+                              "value": "Take thy beak from out my heart, and take thy form from off my door!'",
+                              "raw": "\"Take thy beak from out my heart, and take thy form from off my door!'\""
                             }
                           },
                           "operator": "+",
@@ -1429,7 +1544,8 @@
                             "type": "Literal",
                             "start": 7831,
                             "end": 7862,
-                            "value": "Quoth the raven, `Nevermore.'"
+                            "value": "Quoth the raven, `Nevermore.'",
+                            "raw": "\"Quoth the raven, `Nevermore.'\""
                           }
                         },
                         "operator": "+",
@@ -1437,7 +1553,8 @@
                           "type": "Literal",
                           "start": 7873,
                           "end": 7877,
-                          "value": "\n"
+                          "value": "\n",
+                          "raw": "\"\\n\""
                         }
                       },
                       "operator": "+",
@@ -1445,7 +1562,8 @@
                         "type": "Literal",
                         "start": 7888,
                         "end": 7955,
-                        "value": "And the raven, never flitting, still is sitting, still is sitting"
+                        "value": "And the raven, never flitting, still is sitting, still is sitting",
+                        "raw": "\"And the raven, never flitting, still is sitting, still is sitting\""
                       }
                     },
                     "operator": "+",
@@ -1453,7 +1571,8 @@
                       "type": "Literal",
                       "start": 7966,
                       "end": 8024,
-                      "value": "On the pallid bust of Pallas just above my chamber door;"
+                      "value": "On the pallid bust of Pallas just above my chamber door;",
+                      "raw": "\"On the pallid bust of Pallas just above my chamber door;\""
                     }
                   },
                   "operator": "+",
@@ -1461,7 +1580,8 @@
                     "type": "Literal",
                     "start": 8035,
                     "end": 8101,
-                    "value": "And his eyes have all the seeming of a demon's that is dreaming,"
+                    "value": "And his eyes have all the seeming of a demon's that is dreaming,",
+                    "raw": "\"And his eyes have all the seeming of a demon's that is dreaming,\""
                   }
                 },
                 "operator": "+",
@@ -1469,7 +1589,8 @@
                   "type": "Literal",
                   "start": 8112,
                   "end": 8183,
-                  "value": "And the lamp-light o'er him streaming throws his shadow on the floor;"
+                  "value": "And the lamp-light o'er him streaming throws his shadow on the floor;",
+                  "raw": "\"And the lamp-light o'er him streaming throws his shadow on the floor;\""
                 }
               },
               "operator": "+",
@@ -1477,7 +1598,8 @@
                 "type": "Literal",
                 "start": 8194,
                 "end": 8260,
-                "value": "And my soul from out that shadow that lies floating on the floor"
+                "value": "And my soul from out that shadow that lies floating on the floor",
+                "raw": "\"And my soul from out that shadow that lies floating on the floor\""
               }
             },
             "operator": "+",
@@ -1485,7 +1607,8 @@
               "type": "Literal",
               "start": 8271,
               "end": 8301,
-              "value": "Shall be lifted - nevermore!"
+              "value": "Shall be lifted - nevermore!",
+              "raw": "\"Shall be lifted - nevermore!\""
             }
           }
         }
@@ -1511,7 +1634,8 @@
             "type": "Literal",
             "start": 8329,
             "end": 8331,
-            "value": 18
+            "value": 18,
+            "raw": "18"
           }
         }
       ],
@@ -1537,6 +1661,7 @@
             "start": 8345,
             "end": 8382,
             "value": {},
+            "raw": "/([Nn]?ever|([Nn]othing\\s{1,}))more/g",
             "regex": {
               "pattern": "([Nn]?ever|([Nn]othing\\s{1,}))more",
               "flags": "g"
@@ -1565,7 +1690,8 @@
             "type": "Literal",
             "start": 8398,
             "end": 8399,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -1651,7 +1777,8 @@
                 "type": "Literal",
                 "start": 8475,
                 "end": 8479,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             },
             "consequent": {
@@ -1699,7 +1826,8 @@
         "type": "Literal",
         "start": 8545,
         "end": 8546,
-        "value": 1
+        "value": 1,
+        "raw": "1"
       }
     },
     {
@@ -1746,7 +1874,8 @@
             "type": "Literal",
             "start": 8608,
             "end": 8688,
-            "value": "The value of __matched is expected to equal the value of ALL_THE_HOPELESS_MORE"
+            "value": "The value of __matched is expected to equal the value of ALL_THE_HOPELESS_MORE",
+            "raw": "'The value of __matched is expected to equal the value of ALL_THE_HOPELESS_MORE'"
           }
         ],
         "optional": false

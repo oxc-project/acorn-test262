@@ -132,7 +132,8 @@
               "type": "Literal",
               "start": 488,
               "end": 493,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           ],
           "optional": false
@@ -142,7 +143,8 @@
           "type": "Literal",
           "start": 499,
           "end": 503,
-          "value": 102
+          "value": 102,
+          "raw": "0x66"
         }
       },
       "consequent": {
@@ -173,7 +175,8 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 662,
-                    "value": "#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: "
+                    "value": "#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: ",
+                    "raw": "'#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -204,7 +207,8 @@
                         "type": "Literal",
                         "start": 687,
                         "end": 692,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -253,7 +257,8 @@
               "type": "Literal",
               "start": 896,
               "end": 900,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ],
           "optional": false
@@ -263,7 +268,8 @@
           "type": "Literal",
           "start": 906,
           "end": 910,
-          "value": 97
+          "value": 97,
+          "raw": "0x61"
         }
       },
       "consequent": {
@@ -294,7 +300,8 @@
                     "type": "Literal",
                     "start": 939,
                     "end": 1068,
-                    "value": "#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: "
+                    "value": "#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: ",
+                    "raw": "'#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -325,7 +332,8 @@
                         "type": "Literal",
                         "start": 1093,
                         "end": 1097,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -378,14 +386,16 @@
                 "type": "Literal",
                 "start": 1301,
                 "end": 1305,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 1308,
                 "end": 1309,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -396,7 +406,8 @@
           "type": "Literal",
           "start": 1315,
           "end": 1319,
-          "value": 108
+          "value": 108,
+          "raw": "0x6C"
         }
       },
       "consequent": {
@@ -427,7 +438,8 @@
                     "type": "Literal",
                     "start": 1348,
                     "end": 1481,
-                    "value": "#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: "
+                    "value": "#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: ",
+                    "raw": "'#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -462,14 +474,16 @@
                           "type": "Literal",
                           "start": 1506,
                           "end": 1510,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 1513,
                           "end": 1514,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ],

@@ -74,25 +74,29 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 348,
-                  "value": 2000
+                  "value": 2000,
+                  "raw": "2000"
                 },
                 {
                   "type": "Literal",
                   "start": 350,
                   "end": 351,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Literal",
                   "start": 353,
                   "end": 354,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "Literal",
                   "start": 356,
                   "end": 382,
-                  "value": "1997-12-04[u-ca=iso8601]"
+                  "value": "1997-12-04[u-ca=iso8601]",
+                  "raw": "\"1997-12-04[u-ca=iso8601]\""
                 }
               ]
             }
@@ -101,7 +105,8 @@
             "type": "Literal",
             "start": 387,
             "end": 455,
-            "value": "An ISO string is not a valid calendar ID for constructor parameter"
+            "value": "An ISO string is not a valid calendar ID for constructor parameter",
+            "raw": "\"An ISO string is not a valid calendar ID for constructor parameter\""
           }
         ],
         "optional": false

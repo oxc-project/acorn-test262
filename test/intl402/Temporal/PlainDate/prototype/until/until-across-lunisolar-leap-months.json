@@ -58,19 +58,22 @@
                       "type": "Literal",
                       "start": 483,
                       "end": 487,
-                      "value": 2000
+                      "value": 2000,
+                      "raw": "2000"
                     },
                     {
                       "type": "Literal",
                       "start": 489,
                       "end": 490,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     {
                       "type": "Literal",
                       "start": 492,
                       "end": 493,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -88,7 +91,8 @@
                   "type": "Literal",
                   "start": 508,
                   "end": 517,
-                  "value": "chinese"
+                  "value": "chinese",
+                  "raw": "\"chinese\""
                 }
               ],
               "optional": false
@@ -161,19 +165,22 @@
                       "type": "Literal",
                       "start": 565,
                       "end": 569,
-                      "value": 2001
+                      "value": 2001,
+                      "raw": "2001"
                     },
                     {
                       "type": "Literal",
                       "start": 571,
                       "end": 572,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     {
                       "type": "Literal",
                       "start": 574,
                       "end": 575,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -191,7 +198,8 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 599,
-                  "value": "chinese"
+                  "value": "chinese",
+                  "raw": "\"chinese\""
                 }
               ],
               "optional": false
@@ -304,7 +312,8 @@
                       "type": "Literal",
                       "start": 669,
                       "end": 670,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   },
@@ -325,7 +334,8 @@
                       "type": "Literal",
                       "start": 677,
                       "end": 678,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -346,7 +356,8 @@
                       "type": "Literal",
                       "start": 690,
                       "end": 699,
-                      "value": "chinese"
+                      "value": "chinese",
+                      "raw": "'chinese'"
                     },
                     "kind": "init"
                   }
@@ -454,7 +465,8 @@
                       "type": "Literal",
                       "start": 765,
                       "end": 766,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   },
@@ -475,7 +487,8 @@
                       "type": "Literal",
                       "start": 773,
                       "end": 774,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -496,7 +509,8 @@
                       "type": "Literal",
                       "start": 786,
                       "end": 795,
-                      "value": "chinese"
+                      "value": "chinese",
+                      "raw": "'chinese'"
                     },
                     "kind": "init"
                   }
@@ -560,13 +574,15 @@
             "type": "Literal",
             "start": 834,
             "end": 839,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 871,
-            "value": "year 2000 is not a leap year"
+            "value": "year 2000 is not a leap year",
+            "raw": "\"year 2000 is not a leap year\""
           }
         ],
         "optional": false
@@ -623,13 +639,15 @@
             "type": "Literal",
             "start": 906,
             "end": 911,
-            "value": "M06"
+            "value": "M06",
+            "raw": "\"M06\""
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 958,
-            "value": "sixth month in year 2000 has month code M06"
+            "value": "sixth month in year 2000 has month code M06",
+            "raw": "\"sixth month in year 2000 has month code M06\""
           }
         ],
         "optional": false
@@ -686,13 +704,15 @@
             "type": "Literal",
             "start": 995,
             "end": 999,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1027,
-            "value": "year 2001 is a leap year"
+            "value": "year 2001 is a leap year",
+            "raw": "\"year 2001 is a leap year\""
           }
         ],
         "optional": false
@@ -749,13 +769,15 @@
             "type": "Literal",
             "start": 1062,
             "end": 1067,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 1069,
             "end": 1114,
-            "value": "sixth month in year 2001 has month code M05"
+            "value": "sixth month in year 2001 has month code M05",
+            "raw": "\"sixth month in year 2001 has month code M05\""
           }
         ],
         "optional": false
@@ -798,7 +820,8 @@
                   "type": "Literal",
                   "start": 1144,
                   "end": 1150,
-                  "value": "P12M"
+                  "value": "P12M",
+                  "raw": "'P12M'"
                 },
                 "kind": "init"
               },
@@ -819,7 +842,8 @@
                   "type": "Literal",
                   "start": 1160,
                   "end": 1166,
-                  "value": "P12M"
+                  "value": "P12M",
+                  "raw": "'P12M'"
                 },
                 "kind": "init"
               },
@@ -840,7 +864,8 @@
                   "type": "Literal",
                   "start": 1175,
                   "end": 1183,
-                  "value": "P50W4D"
+                  "value": "P50W4D",
+                  "raw": "'P50W4D'"
                 },
                 "kind": "init"
               },
@@ -861,7 +886,8 @@
                   "type": "Literal",
                   "start": 1191,
                   "end": 1198,
-                  "value": "P354D"
+                  "value": "P354D",
+                  "raw": "'P354D'"
                 },
                 "kind": "init"
               }

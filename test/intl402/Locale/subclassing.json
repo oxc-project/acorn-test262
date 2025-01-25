@@ -138,7 +138,8 @@
                         "type": "Literal",
                         "start": 506,
                         "end": 510,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   }
@@ -179,7 +180,8 @@
                 "type": "Literal",
                 "start": 549,
                 "end": 553,
-                "value": "de"
+                "value": "de",
+                "raw": "\"de\""
               }
             ]
           }
@@ -238,13 +240,15 @@
             "type": "Literal",
             "start": 590,
             "end": 594,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 613,
-            "value": "Custom property"
+            "value": "Custom property",
+            "raw": "\"Custom property\""
           }
         ],
         "optional": false
@@ -308,13 +312,15 @@
             "type": "Literal",
             "start": 652,
             "end": 656,
-            "value": "de"
+            "value": "de",
+            "raw": "\"de\""
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 671,
-            "value": "Direct call"
+            "value": "Direct call",
+            "raw": "\"Direct call\""
           }
         ],
         "optional": false
@@ -424,13 +430,15 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": "de"
+            "value": "de",
+            "raw": "\"de\""
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 757,
-            "value": "Indirect call"
+            "value": "Indirect call",
+            "raw": "\"Indirect call\""
           }
         ],
         "optional": false
@@ -520,7 +528,8 @@
             "type": "Literal",
             "start": 832,
             "end": 843,
-            "value": "Prototype"
+            "value": "Prototype",
+            "raw": "\"Prototype\""
           }
         ],
         "optional": false

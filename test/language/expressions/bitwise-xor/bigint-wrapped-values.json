@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 357,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 361,
               "end": 363,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             }
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 367,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 369,
             "end": 408,
-            "value": "The result of (Object(2n) ^ 3n) is 1n"
+            "value": "The result of (Object(2n) ^ 3n) is 1n",
+            "raw": "'The result of (Object(2n) ^ 3n) is 1n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 428,
               "end": 430,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "^",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 442,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 445,
             "end": 447,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 488,
-            "value": "The result of (3n ^ Object(2n)) is 1n"
+            "value": "The result of (3n ^ Object(2n)) is 1n",
+            "raw": "'The result of (3n ^ Object(2n)) is 1n'"
           }
         ],
         "optional": false
@@ -240,7 +248,8 @@
                             "type": "Literal",
                             "start": 559,
                             "end": 561,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -255,20 +264,23 @@
               "type": "Literal",
               "start": 571,
               "end": 573,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             }
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 577,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 579,
             "end": 657,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ^ 3n) is 1n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ^ 3n) is 1n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ^ 3n) is 1n'"
           }
         ],
         "optional": false
@@ -310,7 +322,8 @@
               "type": "Literal",
               "start": 678,
               "end": 680,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "^",
             "right": {
@@ -366,7 +379,8 @@
                             "type": "Literal",
                             "start": 733,
                             "end": 735,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -381,13 +395,15 @@
             "type": "Literal",
             "start": 744,
             "end": 746,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 748,
             "end": 824,
-            "value": "The result of (3n ^ {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n ^ {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n ^ {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -465,7 +481,8 @@
                             "type": "Literal",
                             "start": 882,
                             "end": 884,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -480,20 +497,23 @@
               "type": "Literal",
               "start": 894,
               "end": 896,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             }
           },
           {
             "type": "Literal",
             "start": 898,
             "end": 900,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 902,
             "end": 967,
-            "value": "The result of (({valueOf: function() {return 2n;}}) ^ 3n) is 1n"
+            "value": "The result of (({valueOf: function() {return 2n;}}) ^ 3n) is 1n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) ^ 3n) is 1n'"
           }
         ],
         "optional": false
@@ -535,7 +555,8 @@
               "type": "Literal",
               "start": 988,
               "end": 990,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "^",
             "right": {
@@ -578,7 +599,8 @@
                             "type": "Literal",
                             "start": 1030,
                             "end": 1032,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -593,13 +615,15 @@
             "type": "Literal",
             "start": 1041,
             "end": 1043,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1045,
             "end": 1108,
-            "value": "The result of (3n ^ {valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n ^ {valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n ^ {valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -677,7 +701,8 @@
                             "type": "Literal",
                             "start": 1167,
                             "end": 1169,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -692,20 +717,23 @@
               "type": "Literal",
               "start": 1179,
               "end": 1181,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             }
           },
           {
             "type": "Literal",
             "start": 1183,
             "end": 1185,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1187,
             "end": 1253,
-            "value": "The result of (({toString: function() {return 2n;}}) ^ 3n) is 1n"
+            "value": "The result of (({toString: function() {return 2n;}}) ^ 3n) is 1n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) ^ 3n) is 1n'"
           }
         ],
         "optional": false
@@ -747,7 +775,8 @@
               "type": "Literal",
               "start": 1274,
               "end": 1276,
-              "value": "3n"
+              "value": "3n",
+              "raw": "3n"
             },
             "operator": "^",
             "right": {
@@ -790,7 +819,8 @@
                             "type": "Literal",
                             "start": 1317,
                             "end": 1319,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -805,13 +835,15 @@
             "type": "Literal",
             "start": 1328,
             "end": 1330,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1332,
             "end": 1396,
-            "value": "The result of (3n ^ {toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (3n ^ {toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (3n ^ {toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false

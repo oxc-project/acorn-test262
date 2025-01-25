@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 287,
             "end": 292,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -58,14 +59,16 @@
             "type": "Literal",
             "start": 307,
             "end": 308,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "operator": "+",
           "right": {
             "type": "Literal",
             "start": 311,
             "end": 312,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -97,7 +100,8 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 385,
-                    "value": "#1: var x = false; ++x === 0 + 1. Actual: "
+                    "value": "#1: var x = false; ++x === 0 + 1. Actual: ",
+                    "raw": "'#1: var x = false; ++x === 0 + 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -156,7 +160,8 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 433,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -194,14 +199,16 @@
             "type": "Literal",
             "start": 448,
             "end": 449,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "operator": "+",
           "right": {
             "type": "Literal",
             "start": 452,
             "end": 453,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -233,7 +240,8 @@
                     "type": "Literal",
                     "start": 482,
                     "end": 538,
-                    "value": "#2: var x = new Boolean(true); ++x === 1 + 1. Actual: "
+                    "value": "#2: var x = new Boolean(true); ++x === 1 + 1. Actual: ",
+                    "raw": "'#2: var x = new Boolean(true); ++x === 1 + 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 758,
             "end": 763,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 823,
-            "value": "isConstructor(Set.prototype.entries) must return false"
+            "value": "isConstructor(Set.prototype.entries) must return false",
+            "raw": "'isConstructor(Set.prototype.entries) must return false'"
           }
         ],
         "optional": false

@@ -81,7 +81,8 @@
             "type": "Literal",
             "start": 334,
             "end": 403,
-            "value": "Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true"
+            "value": "Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true",
+            "raw": "'Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true'"
           }
         ],
         "optional": false

@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 335,
             "end": 345,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 388,
-            "value": "`typeof PlainYearMonth` is `function`"
+            "value": "`typeof PlainYearMonth` is `function`",
+            "raw": "\"`typeof PlainYearMonth` is `function`\""
           }
         ],
         "optional": false
@@ -98,7 +100,8 @@
             "type": "Literal",
             "start": 418,
             "end": 434,
-            "value": "PlainYearMonth"
+            "value": "PlainYearMonth",
+            "raw": "\"PlainYearMonth\""
           },
           {
             "type": "ObjectExpression",
@@ -122,7 +125,8 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 454,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -143,7 +147,8 @@
                   "type": "Literal",
                   "start": 470,
                   "end": 475,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -164,7 +169,8 @@
                   "type": "Literal",
                   "start": 493,
                   "end": 497,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

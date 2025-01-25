@@ -79,7 +79,8 @@
                             "type": "Literal",
                             "start": 1995,
                             "end": 1999,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

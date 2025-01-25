@@ -67,7 +67,8 @@
                     "type": "Literal",
                     "start": 1065,
                     "end": 1069,
-                    "value": "en"
+                    "value": "en",
+                    "raw": "'en'"
                   },
                   {
                     "type": "ObjectExpression",
@@ -115,7 +116,8 @@
             "type": "Literal",
             "start": 1106,
             "end": 1110,
-            "value": "en"
+            "value": "en",
+            "raw": "'en'"
           },
           {
             "type": "TemplateLiteral",
@@ -203,7 +205,8 @@
                     "type": "Literal",
                     "start": 1223,
                     "end": 1230,
-                    "value": "en-DK"
+                    "value": "en-DK",
+                    "raw": "'en-DK'"
                   },
                   {
                     "type": "ObjectExpression",
@@ -251,7 +254,8 @@
             "type": "Literal",
             "start": 1267,
             "end": 1274,
-            "value": "en-DK"
+            "value": "en-DK",
+            "raw": "'en-DK'"
           },
           {
             "type": "TemplateLiteral",
@@ -339,7 +343,8 @@
                     "type": "Literal",
                     "start": 1393,
                     "end": 1402,
-                    "value": "en-Cyrl"
+                    "value": "en-Cyrl",
+                    "raw": "'en-Cyrl'"
                   },
                   {
                     "type": "ObjectExpression",
@@ -387,7 +392,8 @@
             "type": "Literal",
             "start": 1439,
             "end": 1448,
-            "value": "en-Cyrl"
+            "value": "en-Cyrl",
+            "raw": "'en-Cyrl'"
           },
           {
             "type": "TemplateLiteral",

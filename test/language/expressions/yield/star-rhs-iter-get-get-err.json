@@ -356,7 +356,8 @@
             "type": "Literal",
             "start": 980,
             "end": 1014,
-            "value": "property is not accessed eagerly"
+            "value": "property is not accessed eagerly",
+            "raw": "'property is not accessed eagerly'"
           }
         ],
         "optional": false
@@ -462,7 +463,8 @@
             "type": "Literal",
             "start": 1083,
             "end": 1100,
-            "value": "iteration value"
+            "value": "iteration value",
+            "raw": "'iteration value'"
           }
         ],
         "optional": false
@@ -519,13 +521,15 @@
             "type": "Literal",
             "start": 1133,
             "end": 1137,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1139,
             "end": 1157,
-            "value": "iteration status"
+            "value": "iteration status",
+            "raw": "'iteration status'"
           }
         ],
         "optional": false
@@ -575,7 +579,8 @@
             "type": "Literal",
             "start": 1193,
             "end": 1206,
-            "value": "error value"
+            "value": "error value",
+            "raw": "'error value'"
           }
         ],
         "optional": false

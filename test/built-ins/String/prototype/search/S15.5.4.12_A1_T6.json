@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 507,
-                  "value": "undefined"
+                  "value": "undefined",
+                  "raw": "\"undefined\""
                 }
               ]
             },
@@ -62,7 +63,8 @@
           "type": "Literal",
           "start": 523,
           "end": 524,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -93,7 +95,8 @@
                     "type": "Literal",
                     "start": 553,
                     "end": 615,
-                    "value": "#1: var x; new String(\"undefined\").search(x) === 0. Actual: "
+                    "value": "#1: var x; new String(\"undefined\").search(x) === 0. Actual: ",
+                    "raw": "'#1: var x; new String(\"undefined\").search(x) === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -119,7 +122,8 @@
                             "type": "Literal",
                             "start": 629,
                             "end": 640,
-                            "value": "undefined"
+                            "value": "undefined",
+                            "raw": "\"undefined\""
                           }
                         ]
                       },

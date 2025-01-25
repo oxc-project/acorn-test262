@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 312,
               "end": 313,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
@@ -43,7 +44,8 @@
               "type": "Literal",
               "start": 317,
               "end": 318,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -92,7 +94,8 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 360,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 }
               },
@@ -132,7 +135,8 @@
                       "type": "Literal",
                       "start": 397,
                       "end": 398,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   }
                 ],
@@ -172,7 +176,8 @@
           "type": "Literal",
           "start": 441,
           "end": 442,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "label": {
@@ -206,7 +211,8 @@
           "type": "Literal",
           "start": 486,
           "end": 487,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "label": {
@@ -264,7 +270,8 @@
               "type": "Literal",
               "start": 612,
               "end": 613,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           }
         },
@@ -288,7 +295,8 @@
               "type": "Literal",
               "start": 621,
               "end": 622,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         }
@@ -329,7 +337,8 @@
                         "type": "Literal",
                         "start": 651,
                         "end": 692,
-                        "value": "#1: x === 2 and y === 0. Actual:  x ==="
+                        "value": "#1: x === 2 and y === 0. Actual:  x ===",
+                        "raw": "'#1: x === 2 and y === 0. Actual:  x ==='"
                       },
                       "operator": "+",
                       "right": {
@@ -344,7 +353,8 @@
                       "type": "Literal",
                       "start": 695,
                       "end": 707,
-                      "value": " and y ==="
+                      "value": " and y ===",
+                      "raw": "' and y ==='"
                     }
                   },
                   "operator": "+",

@@ -57,7 +57,8 @@
                     "type": "Literal",
                     "start": 284,
                     "end": 286,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   }
                 ]
               }
@@ -184,13 +185,15 @@
             "type": "Literal",
             "start": 361,
             "end": 378,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "'[object Number]'"
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 383,
-            "value": "s"
+            "value": "s",
+            "raw": "'s'"
           }
         ],
         "optional": false

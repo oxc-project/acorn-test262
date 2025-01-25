@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 322,
-                "value": "new"
+                "value": "new",
+                "raw": "'new'"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 329,
-                "value": "zoo"
+                "value": "zoo",
+                "raw": "'zoo'"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 338,
-                "value": "revue"
+                "value": "revue",
+                "raw": "'revue'"
               }
             ]
           }
@@ -89,7 +92,8 @@
               "type": "Literal",
               "start": 454,
               "end": 459,
-              "value": "new"
+              "value": "new",
+              "raw": "'new'"
             }
           ],
           "optional": false
@@ -99,7 +103,8 @@
           "type": "Literal",
           "start": 465,
           "end": 466,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -130,7 +135,8 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 595,
-                    "value": "#1: __instance = new Array('new','zoo','revue'); __instance.indexOf('new') === 0. Actual: "
+                    "value": "#1: __instance = new Array('new','zoo','revue'); __instance.indexOf('new') === 0. Actual: ",
+                    "raw": "'#1: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.indexOf(\\'new\\') === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -161,7 +167,8 @@
                         "type": "Literal",
                         "start": 617,
                         "end": 622,
-                        "value": "new"
+                        "value": "new",
+                        "raw": "'new'"
                       }
                     ],
                     "optional": false
@@ -210,7 +217,8 @@
               "type": "Literal",
               "start": 823,
               "end": 828,
-              "value": "zoo"
+              "value": "zoo",
+              "raw": "'zoo'"
             }
           ],
           "optional": false
@@ -220,7 +228,8 @@
           "type": "Literal",
           "start": 834,
           "end": 835,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -251,7 +260,8 @@
                     "type": "Literal",
                     "start": 864,
                     "end": 964,
-                    "value": "#2: __instance = new Array('new','zoo','revue'); __instance.indexOf('zoo') === 1. Actual: "
+                    "value": "#2: __instance = new Array('new','zoo','revue'); __instance.indexOf('zoo') === 1. Actual: ",
+                    "raw": "'#2: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.indexOf(\\'zoo\\') === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -282,7 +292,8 @@
                         "type": "Literal",
                         "start": 986,
                         "end": 991,
-                        "value": "zoo"
+                        "value": "zoo",
+                        "raw": "'zoo'"
                       }
                     ],
                     "optional": false

@@ -112,7 +112,8 @@
             "type": "Literal",
             "start": 355,
             "end": 365,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -142,7 +143,8 @@
                 "type": "Literal",
                 "start": 383,
                 "end": 389,
-                "value": "hour"
+                "value": "hour",
+                "raw": "\"hour\""
               }
             ]
           }
@@ -237,7 +239,8 @@
             "type": "Literal",
             "start": 454,
             "end": 465,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -314,7 +317,8 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 515,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "Identifier",
@@ -330,7 +334,8 @@
             "type": "Literal",
             "start": 524,
             "end": 530,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           }
         ],
         "optional": false
@@ -407,7 +412,8 @@
                   "type": "Literal",
                   "start": 576,
                   "end": 580,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 {
                   "type": "Identifier",
@@ -423,7 +429,8 @@
             "type": "Literal",
             "start": 589,
             "end": 595,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           }
         ],
         "optional": false
@@ -500,7 +507,8 @@
                   "type": "Literal",
                   "start": 641,
                   "end": 643,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 },
                 {
                   "type": "Identifier",
@@ -516,7 +524,8 @@
             "type": "Literal",
             "start": 652,
             "end": 666,
-            "value": "empty string"
+            "value": "empty string",
+            "raw": "\"empty string\""
           }
         ],
         "optional": false
@@ -616,7 +625,8 @@
             "type": "Literal",
             "start": 729,
             "end": 737,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "\"symbol\""
           }
         ],
         "optional": false
@@ -693,7 +703,8 @@
                   "type": "Literal",
                   "start": 783,
                   "end": 784,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Identifier",
@@ -709,7 +720,8 @@
             "type": "Literal",
             "start": 793,
             "end": 796,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           }
         ],
         "optional": false
@@ -802,7 +814,8 @@
             "type": "Literal",
             "start": 853,
             "end": 867,
-            "value": "plain object"
+            "value": "plain object",
+            "raw": "\"plain object\""
           }
         ],
         "optional": false
@@ -908,7 +921,8 @@
             "type": "Literal",
             "start": 940,
             "end": 960,
-            "value": "Temporal.PlainTime"
+            "value": "Temporal.PlainTime",
+            "raw": "\"Temporal.PlainTime\""
           }
         ],
         "optional": false
@@ -1027,7 +1041,8 @@
             "type": "Literal",
             "start": 1043,
             "end": 1073,
-            "value": "Temporal.PlainTime.prototype"
+            "value": "Temporal.PlainTime.prototype",
+            "raw": "\"Temporal.PlainTime.prototype\""
           }
         ],
         "optional": false

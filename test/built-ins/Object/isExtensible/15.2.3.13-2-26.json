@@ -233,13 +233,15 @@
             "type": "Literal",
             "start": 479,
             "end": 484,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 512,
-            "value": "Object.isExtensible(obj)"
+            "value": "Object.isExtensible(obj)",
+            "raw": "'Object.isExtensible(obj)'"
           }
         ],
         "optional": false

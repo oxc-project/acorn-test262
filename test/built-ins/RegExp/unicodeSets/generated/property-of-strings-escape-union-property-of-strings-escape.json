@@ -41,6 +41,7 @@
                   "start": 556,
                   "end": 614,
                   "value": {},
+                  "raw": "/^[\\p{Emoji_Keycap_Sequence}\\p{Emoji_Keycap_Sequence}]+$/v",
                   "regex": {
                     "pattern": "^[\\p{Emoji_Keycap_Sequence}\\p{Emoji_Keycap_Sequence}]+$",
                     "flags": "v"
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 684,
-                  "value": "[p{Emoji_Keycap_Sequence}p{Emoji_Keycap_Sequence}]"
+                  "value": "[p{Emoji_Keycap_Sequence}p{Emoji_Keycap_Sequence}]",
+                  "raw": "\"[\\p{Emoji_Keycap_Sequence}\\p{Emoji_Keycap_Sequence}]\""
                 },
                 "kind": "init"
               },
@@ -91,73 +93,85 @@
                       "type": "Literal",
                       "start": 708,
                       "end": 723,
-                      "value": "#️⃣"
+                      "value": "#️⃣",
+                      "raw": "\"#\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 729,
                       "end": 744,
-                      "value": "*️⃣"
+                      "value": "*️⃣",
+                      "raw": "\"*\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 750,
                       "end": 765,
-                      "value": "0️⃣"
+                      "value": "0️⃣",
+                      "raw": "\"0\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 771,
                       "end": 786,
-                      "value": "1️⃣"
+                      "value": "1️⃣",
+                      "raw": "\"1\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 792,
                       "end": 807,
-                      "value": "2️⃣"
+                      "value": "2️⃣",
+                      "raw": "\"2\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 813,
                       "end": 828,
-                      "value": "3️⃣"
+                      "value": "3️⃣",
+                      "raw": "\"3\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 834,
                       "end": 849,
-                      "value": "4️⃣"
+                      "value": "4️⃣",
+                      "raw": "\"4\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 855,
                       "end": 870,
-                      "value": "5️⃣"
+                      "value": "5️⃣",
+                      "raw": "\"5\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 876,
                       "end": 891,
-                      "value": "6️⃣"
+                      "value": "6️⃣",
+                      "raw": "\"6\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 897,
                       "end": 912,
-                      "value": "7️⃣"
+                      "value": "7️⃣",
+                      "raw": "\"7\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 918,
                       "end": 933,
-                      "value": "8️⃣"
+                      "value": "8️⃣",
+                      "raw": "\"8\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 939,
                       "end": 954,
-                      "value": "9️⃣"
+                      "value": "9️⃣",
+                      "raw": "\"9\\uFE0F\\u20E3\""
                     }
                   ]
                 },
@@ -185,31 +199,36 @@
                       "type": "Literal",
                       "start": 985,
                       "end": 988,
-                      "value": "7"
+                      "value": "7",
+                      "raw": "\"7\""
                     },
                     {
                       "type": "Literal",
                       "start": 994,
                       "end": 997,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "\"C\""
                     },
                     {
                       "type": "Literal",
                       "start": 1003,
                       "end": 1011,
-                      "value": "☃"
+                      "value": "☃",
+                      "raw": "\"\\u2603\""
                     },
                     {
                       "type": "Literal",
                       "start": 1017,
                       "end": 1028,
-                      "value": "𝌆"
+                      "value": "𝌆",
+                      "raw": "\"\\u{1D306}\""
                     },
                     {
                       "type": "Literal",
                       "start": 1034,
                       "end": 1054,
-                      "value": "🇧🇪"
+                      "value": "🇧🇪",
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
                     }
                   ]
                 },

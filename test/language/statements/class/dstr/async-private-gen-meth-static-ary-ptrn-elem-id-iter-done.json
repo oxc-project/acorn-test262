@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2020,
             "end": 2021,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -165,7 +166,8 @@
                           "type": "Literal",
                           "start": 2132,
                           "end": 2133,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -371,13 +373,15 @@
                             "type": "Literal",
                             "start": 2262,
                             "end": 2263,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2265,
                             "end": 2287,
-                            "value": "invoked exactly once"
+                            "value": "invoked exactly once",
+                            "raw": "'invoked exactly once'"
                           }
                         ],
                         "optional": false

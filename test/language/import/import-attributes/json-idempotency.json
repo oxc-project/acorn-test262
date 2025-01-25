@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 379,
         "end": 412,
-        "value": "./json-idempotency_FIXTURE.json"
+        "value": "./json-idempotency_FIXTURE.json",
+        "raw": "'./json-idempotency_FIXTURE.json'"
       },
       "attributes": [
         {
@@ -41,7 +42,8 @@
             "type": "Literal",
             "start": 426,
             "end": 432,
-            "value": "json"
+            "value": "json",
+            "raw": "'json'"
           }
         }
       ]
@@ -73,7 +75,8 @@
         "type": "Literal",
         "start": 478,
         "end": 511,
-        "value": "./json-idempotency_FIXTURE.json"
+        "value": "./json-idempotency_FIXTURE.json",
+        "raw": "'./json-idempotency_FIXTURE.json'"
       },
       "attributes": [
         {
@@ -90,7 +93,8 @@
             "type": "Literal",
             "start": 525,
             "end": 531,
-            "value": "json"
+            "value": "json",
+            "raw": "'json'"
           }
         }
       ]
@@ -104,7 +108,8 @@
         "type": "Literal",
         "start": 542,
         "end": 582,
-        "value": "./json-idempotency-indirect_FIXTURE.js"
+        "value": "./json-idempotency-indirect_FIXTURE.js",
+        "raw": "'./json-idempotency-indirect_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -237,7 +242,8 @@
                   "type": "Literal",
                   "start": 711,
                   "end": 744,
-                  "value": "./json-idempotency_FIXTURE.json"
+                  "value": "./json-idempotency_FIXTURE.json",
+                  "raw": "'./json-idempotency_FIXTURE.json'"
                 },
                 "options": {
                   "type": "ObjectExpression",
@@ -279,7 +285,8 @@
                               "type": "Literal",
                               "start": 762,
                               "end": 768,
-                              "value": "json"
+                              "value": "json",
+                              "raw": "'json'"
                             },
                             "kind": "init"
                           }

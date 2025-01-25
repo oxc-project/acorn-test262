@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 401,
-                "value": "get options.calendarName"
+                "value": "get options.calendarName",
+                "raw": "\"get options.calendarName\""
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 440,
-                "value": "get options.calendarName.toString"
+                "value": "get options.calendarName.toString",
+                "raw": "\"get options.calendarName.toString\""
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 480,
-                "value": "call options.calendarName.toString"
+                "value": "call options.calendarName.toString",
+                "raw": "\"call options.calendarName.toString\""
               }
             ]
           }
@@ -115,19 +118,22 @@
                 "type": "Literal",
                 "start": 549,
                 "end": 550,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 552,
                 "end": 553,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 564,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -202,7 +208,8 @@
                       "type": "Literal",
                       "start": 646,
                       "end": 652,
-                      "value": "auto"
+                      "value": "auto",
+                      "raw": "\"auto\""
                     },
                     "kind": "init"
                   }
@@ -212,7 +219,8 @@
                 "type": "Literal",
                 "start": 657,
                 "end": 666,
-                "value": "options"
+                "value": "options",
+                "raw": "\"options\""
               }
             ],
             "optional": false
@@ -303,7 +311,8 @@
             "type": "Literal",
             "start": 736,
             "end": 757,
-            "value": "order of operations"
+            "value": "order of operations",
+            "raw": "\"order of operations\""
           }
         ],
         "optional": false

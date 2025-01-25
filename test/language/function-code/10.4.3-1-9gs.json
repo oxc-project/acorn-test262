@@ -82,7 +82,8 @@
           "type": "Literal",
           "start": 365,
           "end": 376,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -98,7 +99,8 @@
               "type": "Literal",
               "start": 390,
               "end": 419,
-              "value": "'this' had incorrect value!"
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
             }
           }
         ]

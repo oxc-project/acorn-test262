@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 398,
                       "end": 402,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     {
                       "type": "UnaryExpression",
@@ -80,7 +81,8 @@
                         "type": "Literal",
                         "start": 409,
                         "end": 410,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ],
@@ -96,7 +98,8 @@
                   "type": "Literal",
                   "start": 424,
                   "end": 476,
-                  "value": "Function.prototype(null, void 0) returns undefined"
+                  "value": "Function.prototype(null, void 0) returns undefined",
+                  "raw": "'Function.prototype(null, void 0) returns undefined'"
                 }
               ],
               "optional": false
@@ -142,7 +145,8 @@
                       "type": "Literal",
                       "start": 518,
                       "end": 649,
-                      "value": "#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: "
+                      "value": "#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: ",
+                      "raw": "'#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: '"
                     },
                     "operator": "+",
                     "right": {

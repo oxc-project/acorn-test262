@@ -38,7 +38,8 @@
                       "type": "Literal",
                       "start": 310,
                       "end": 313,
-                      "value": 987
+                      "value": 987,
+                      "raw": "987"
                     }
                   },
                   {
@@ -57,13 +58,15 @@
                           "type": "Literal",
                           "start": 327,
                           "end": 334,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 336,
                           "end": 347,
-                          "value": "-987 km/h"
+                          "value": "-987 km/h",
+                          "raw": "\"-987 km/h\""
                         },
                         "kind": "init"
                       },
@@ -78,13 +81,15 @@
                           "type": "Literal",
                           "start": 355,
                           "end": 363,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 365,
                           "end": 375,
-                          "value": "-987km/h"
+                          "value": "-987km/h",
+                          "raw": "\"-987km/h\""
                         },
                         "kind": "init"
                       },
@@ -99,13 +104,15 @@
                           "type": "Literal",
                           "start": 383,
                           "end": 389,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 391,
                           "end": 417,
-                          "value": "-987 kilometers per hour"
+                          "value": "-987 kilometers per hour",
+                          "raw": "\"-987 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -128,7 +135,8 @@
                       "type": "Literal",
                       "start": 439,
                       "end": 444,
-                      "value": 0.001
+                      "value": 0.001,
+                      "raw": "0.001"
                     }
                   },
                   {
@@ -147,13 +155,15 @@
                           "type": "Literal",
                           "start": 458,
                           "end": 465,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 467,
                           "end": 480,
-                          "value": "-0.001 km/h"
+                          "value": "-0.001 km/h",
+                          "raw": "\"-0.001 km/h\""
                         },
                         "kind": "init"
                       },
@@ -168,13 +178,15 @@
                           "type": "Literal",
                           "start": 488,
                           "end": 496,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 498,
                           "end": 510,
-                          "value": "-0.001km/h"
+                          "value": "-0.001km/h",
+                          "raw": "\"-0.001km/h\""
                         },
                         "kind": "init"
                       },
@@ -189,13 +201,15 @@
                           "type": "Literal",
                           "start": 518,
                           "end": 524,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 526,
                           "end": 554,
-                          "value": "-0.001 kilometers per hour"
+                          "value": "-0.001 kilometers per hour",
+                          "raw": "\"-0.001 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -218,7 +232,8 @@
                       "type": "Literal",
                       "start": 576,
                       "end": 577,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   },
                   {
@@ -237,13 +252,15 @@
                           "type": "Literal",
                           "start": 591,
                           "end": 598,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 600,
                           "end": 609,
-                          "value": "-0 km/h"
+                          "value": "-0 km/h",
+                          "raw": "\"-0 km/h\""
                         },
                         "kind": "init"
                       },
@@ -258,13 +275,15 @@
                           "type": "Literal",
                           "start": 617,
                           "end": 625,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 627,
                           "end": 635,
-                          "value": "-0km/h"
+                          "value": "-0km/h",
+                          "raw": "\"-0km/h\""
                         },
                         "kind": "init"
                       },
@@ -279,13 +298,15 @@
                           "type": "Literal",
                           "start": 643,
                           "end": 649,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 651,
                           "end": 675,
-                          "value": "-0 kilometers per hour"
+                          "value": "-0 kilometers per hour",
+                          "raw": "\"-0 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -302,7 +323,8 @@
                     "type": "Literal",
                     "start": 696,
                     "end": 697,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "ObjectExpression",
@@ -320,13 +342,15 @@
                           "type": "Literal",
                           "start": 711,
                           "end": 718,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 720,
                           "end": 728,
-                          "value": "0 km/h"
+                          "value": "0 km/h",
+                          "raw": "\"0 km/h\""
                         },
                         "kind": "init"
                       },
@@ -341,13 +365,15 @@
                           "type": "Literal",
                           "start": 736,
                           "end": 744,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 746,
                           "end": 753,
-                          "value": "0km/h"
+                          "value": "0km/h",
+                          "raw": "\"0km/h\""
                         },
                         "kind": "init"
                       },
@@ -362,13 +388,15 @@
                           "type": "Literal",
                           "start": 761,
                           "end": 767,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 769,
                           "end": 792,
-                          "value": "0 kilometers per hour"
+                          "value": "0 kilometers per hour",
+                          "raw": "\"0 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -385,7 +413,8 @@
                     "type": "Literal",
                     "start": 813,
                     "end": 818,
-                    "value": 0.001
+                    "value": 0.001,
+                    "raw": "0.001"
                   },
                   {
                     "type": "ObjectExpression",
@@ -403,13 +432,15 @@
                           "type": "Literal",
                           "start": 832,
                           "end": 839,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 841,
                           "end": 853,
-                          "value": "0.001 km/h"
+                          "value": "0.001 km/h",
+                          "raw": "\"0.001 km/h\""
                         },
                         "kind": "init"
                       },
@@ -424,13 +455,15 @@
                           "type": "Literal",
                           "start": 861,
                           "end": 869,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 871,
                           "end": 882,
-                          "value": "0.001km/h"
+                          "value": "0.001km/h",
+                          "raw": "\"0.001km/h\""
                         },
                         "kind": "init"
                       },
@@ -445,13 +478,15 @@
                           "type": "Literal",
                           "start": 890,
                           "end": 896,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 898,
                           "end": 925,
-                          "value": "0.001 kilometers per hour"
+                          "value": "0.001 kilometers per hour",
+                          "raw": "\"0.001 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -468,7 +503,8 @@
                     "type": "Literal",
                     "start": 946,
                     "end": 949,
-                    "value": 987
+                    "value": 987,
+                    "raw": "987"
                   },
                   {
                     "type": "ObjectExpression",
@@ -486,13 +522,15 @@
                           "type": "Literal",
                           "start": 963,
                           "end": 970,
-                          "value": "short"
+                          "value": "short",
+                          "raw": "\"short\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 972,
                           "end": 982,
-                          "value": "987 km/h"
+                          "value": "987 km/h",
+                          "raw": "\"987 km/h\""
                         },
                         "kind": "init"
                       },
@@ -507,13 +545,15 @@
                           "type": "Literal",
                           "start": 990,
                           "end": 998,
-                          "value": "narrow"
+                          "value": "narrow",
+                          "raw": "\"narrow\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 1000,
                           "end": 1009,
-                          "value": "987km/h"
+                          "value": "987km/h",
+                          "raw": "\"987km/h\""
                         },
                         "kind": "init"
                       },
@@ -528,13 +568,15 @@
                           "type": "Literal",
                           "start": 1017,
                           "end": 1023,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "value": {
                           "type": "Literal",
                           "start": 1025,
                           "end": 1050,
-                          "value": "987 kilometers per hour"
+                          "value": "987 kilometers per hour",
+                          "raw": "\"987 kilometers per hour\""
                         },
                         "kind": "init"
                       }
@@ -716,7 +758,8 @@
                             "type": "Literal",
                             "start": 1222,
                             "end": 1229,
-                            "value": "en-US"
+                            "value": "en-US",
+                            "raw": "\"en-US\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -740,7 +783,8 @@
                                   "type": "Literal",
                                   "start": 1240,
                                   "end": 1246,
-                                  "value": "unit"
+                                  "value": "unit",
+                                  "raw": "\"unit\""
                                 },
                                 "kind": "init"
                               },
@@ -761,7 +805,8 @@
                                   "type": "Literal",
                                   "start": 1254,
                                   "end": 1274,
-                                  "value": "kilometer-per-hour"
+                                  "value": "kilometer-per-hour",
+                                  "raw": "\"kilometer-per-hour\""
                                 },
                                 "kind": "init"
                               },

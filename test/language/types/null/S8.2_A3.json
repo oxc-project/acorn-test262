@@ -25,7 +25,8 @@
               "type": "Literal",
               "start": 545,
               "end": 549,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -34,7 +35,8 @@
           "type": "Literal",
           "start": 555,
           "end": 563,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -65,7 +67,8 @@
                     "type": "Literal",
                     "start": 592,
                     "end": 632,
-                    "value": "#1: typeof null === \"object\". Actual: "
+                    "value": "#1: typeof null === \"object\". Actual: ",
+                    "raw": "'#1: typeof null === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -82,7 +85,8 @@
                         "type": "Literal",
                         "start": 643,
                         "end": 647,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }

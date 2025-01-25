@@ -29,7 +29,8 @@
           "type": "Literal",
           "start": 475,
           "end": 481,
-          "value": "both"
+          "value": "both",
+          "raw": "\"both\""
         }
       },
       "consequent": {
@@ -60,7 +61,8 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 557,
-                    "value": "#1: __func() === \"both\". Actual:  __func() ==="
+                    "value": "#1: __func() === \"both\". Actual:  __func() ===",
+                    "raw": "'#1: __func() === \"both\". Actual:  __func() ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -111,7 +113,8 @@
               "type": "Literal",
               "start": 682,
               "end": 689,
-              "value": "ascii"
+              "value": "ascii",
+              "raw": "\"ascii\""
             }
           }
         ]
@@ -149,7 +152,8 @@
               "type": "Literal",
               "start": 747,
               "end": 756,
-              "value": "unicode"
+              "value": "unicode",
+              "raw": "\"unicode\""
             }
           }
         ]
@@ -187,7 +191,8 @@
               "type": "Literal",
               "start": 823,
               "end": 829,
-              "value": "both"
+              "value": "both",
+              "raw": "\"both\""
             }
           }
         ]

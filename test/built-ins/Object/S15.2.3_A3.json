@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 323,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -87,7 +88,8 @@
             "type": "Literal",
             "start": 328,
             "end": 380,
-            "value": "The Object constructor has a 'length' own property"
+            "value": "The Object constructor has a 'length' own property",
+            "raw": "\"The Object constructor has a 'length' own property\""
           }
         ],
         "optional": false
@@ -144,13 +146,15 @@
             "type": "Literal",
             "start": 417,
             "end": 418,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 420,
             "end": 468,
-            "value": "The value of Object.length is expected to be 1"
+            "value": "The value of Object.length is expected to be 1",
+            "raw": "'The value of Object.length is expected to be 1'"
           }
         ],
         "optional": false

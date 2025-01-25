@@ -153,7 +153,8 @@
             "type": "Literal",
             "start": 700,
             "end": 719,
-            "value": "this is an Object"
+            "value": "this is an Object",
+            "raw": "\"this is an Object\""
           }
         ],
         "optional": false
@@ -258,7 +259,8 @@
             "type": "Literal",
             "start": 784,
             "end": 802,
-            "value": "this is an Array"
+            "value": "this is an Array",
+            "raw": "\"this is an Array\""
           }
         ],
         "optional": false
@@ -294,7 +296,8 @@
                 "type": "Literal",
                 "start": 832,
                 "end": 833,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }
@@ -401,7 +404,8 @@
             "type": "Literal",
             "start": 898,
             "end": 931,
-            "value": "this is an ArrayBuffer instance"
+            "value": "this is an ArrayBuffer instance",
+            "raw": "\"this is an ArrayBuffer instance\""
           }
         ],
         "optional": false
@@ -448,7 +452,8 @@
                     "type": "Literal",
                     "start": 974,
                     "end": 975,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ]
               },
@@ -456,13 +461,15 @@
                 "type": "Literal",
                 "start": 978,
                 "end": 979,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 981,
                 "end": 982,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -569,7 +576,8 @@
             "type": "Literal",
             "start": 1047,
             "end": 1076,
-            "value": "this is a DataView instance"
+            "value": "this is a DataView instance",
+            "raw": "\"this is a DataView instance\""
           }
         ],
         "optional": false
@@ -680,7 +688,8 @@
             "type": "Literal",
             "start": 1154,
             "end": 1173,
-            "value": "this is an Object"
+            "value": "this is an Object",
+            "raw": "\"this is an Object\""
           }
         ],
         "optional": false
@@ -791,7 +800,8 @@
             "type": "Literal",
             "start": 1251,
             "end": 1269,
-            "value": "this is an Array"
+            "value": "this is an Array",
+            "raw": "\"this is an Array\""
           }
         ],
         "optional": false
@@ -827,7 +837,8 @@
                 "type": "Literal",
                 "start": 1299,
                 "end": 1300,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }
@@ -940,7 +951,8 @@
             "type": "Literal",
             "start": 1378,
             "end": 1411,
-            "value": "this is an ArrayBuffer instance"
+            "value": "this is an ArrayBuffer instance",
+            "raw": "\"this is an ArrayBuffer instance\""
           }
         ],
         "optional": false
@@ -987,7 +999,8 @@
                     "type": "Literal",
                     "start": 1454,
                     "end": 1455,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ]
               },
@@ -995,13 +1008,15 @@
                 "type": "Literal",
                 "start": 1458,
                 "end": 1459,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 1461,
                 "end": 1462,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -1114,7 +1129,8 @@
             "type": "Literal",
             "start": 1540,
             "end": 1569,
-            "value": "this is a DataView instance"
+            "value": "this is a DataView instance",
+            "raw": "\"this is a DataView instance\""
           }
         ],
         "optional": false

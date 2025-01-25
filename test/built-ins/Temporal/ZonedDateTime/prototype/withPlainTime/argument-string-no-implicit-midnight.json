@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 333,
             "end": 345,
-            "value": "2019-10-01"
+            "value": "2019-10-01",
+            "raw": "\"2019-10-01\""
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 417,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 424,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -166,7 +169,8 @@
             "type": "Literal",
             "start": 495,
             "end": 561,
-            "value": "Date-only string throws, does not implicitly convert to midnight"
+            "value": "Date-only string throws, does not implicitly convert to midnight",
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
           }
         ],
         "optional": false

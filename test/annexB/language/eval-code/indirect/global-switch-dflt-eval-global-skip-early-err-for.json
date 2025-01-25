@@ -69,7 +69,8 @@
             "type": "Literal",
             "start": 801,
             "end": 860,
-            "value": "An initialized binding is not created prior to evaluation"
+            "value": "An initialized binding is not created prior to evaluation",
+            "raw": "'An initialized binding is not created prior to evaluation'"
           }
         ],
         "optional": false
@@ -120,13 +121,15 @@
             "type": "Literal",
             "start": 895,
             "end": 906,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 910,
             "end": 971,
-            "value": "An uninitialized binding is not created prior to evaluation"
+            "value": "An uninitialized binding is not created prior to evaluation",
+            "raw": "'An uninitialized binding is not created prior to evaluation'"
           }
         ],
         "optional": false
@@ -153,7 +156,8 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 978,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -181,14 +185,16 @@
                   "type": "Literal",
                   "start": 988,
                   "end": 1019,
-                  "value": "for (let f; ; ) {switch (1) {"
+                  "value": "for (let f; ; ) {switch (1) {",
+                  "raw": "'for (let f; ; ) {switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1024,
                   "end": 1036,
-                  "value": "  default:"
+                  "value": "  default:",
+                  "raw": "'  default:'"
                 }
               },
               "operator": "+",
@@ -196,7 +202,8 @@
                 "type": "Literal",
                 "start": 1041,
                 "end": 1064,
-                "value": "    function f() {  }"
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
               }
             },
             "operator": "+",
@@ -204,7 +211,8 @@
               "type": "Literal",
               "start": 1069,
               "end": 1087,
-              "value": "}  break;  }"
+              "value": "}  break;  }",
+              "raw": "'}\\\n  break;\\\n  }'"
             }
           }
         ],
@@ -277,7 +285,8 @@
             "type": "Literal",
             "start": 1143,
             "end": 1203,
-            "value": "An initialized binding is not created following evaluation"
+            "value": "An initialized binding is not created following evaluation",
+            "raw": "'An initialized binding is not created following evaluation'"
           }
         ],
         "optional": false
@@ -328,13 +337,15 @@
             "type": "Literal",
             "start": 1238,
             "end": 1249,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 1253,
             "end": 1315,
-            "value": "An uninitialized binding is not created following evaluation"
+            "value": "An uninitialized binding is not created following evaluation",
+            "raw": "'An uninitialized binding is not created following evaluation'"
           }
         ],
         "optional": false

@@ -56,7 +56,8 @@
                         "type": "Literal",
                         "start": 293,
                         "end": 317,
-                        "value": "192258181000000000n"
+                        "value": "192258181000000000n",
+                        "raw": "192_258_181_000_000_000n"
                       }
                     ]
                   },
@@ -64,7 +65,8 @@
                     "type": "Literal",
                     "start": 320,
                     "end": 342,
-                    "value": "1976-02-04T05:03:01Z"
+                    "value": "1976-02-04T05:03:01Z",
+                    "raw": "\"1976-02-04T05:03:01Z\""
                   }
                 ]
               },
@@ -101,7 +103,8 @@
                         "type": "Literal",
                         "start": 369,
                         "end": 371,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ]
                   },
@@ -109,7 +112,8 @@
                     "type": "Literal",
                     "start": 374,
                     "end": 396,
-                    "value": "1970-01-01T00:00:00Z"
+                    "value": "1970-01-01T00:00:00Z",
+                    "raw": "\"1970-01-01T00:00:00Z\""
                   }
                 ]
               },
@@ -146,7 +150,8 @@
                         "type": "Literal",
                         "start": 423,
                         "end": 438,
-                        "value": "30000000000n"
+                        "value": "30000000000n",
+                        "raw": "30_000_000_000n"
                       }
                     ]
                   },
@@ -154,7 +159,8 @@
                     "type": "Literal",
                     "start": 441,
                     "end": 463,
-                    "value": "1970-01-01T00:00:30Z"
+                    "value": "1970-01-01T00:00:30Z",
+                    "raw": "\"1970-01-01T00:00:30Z\""
                   }
                 ]
               },
@@ -191,7 +197,8 @@
                         "type": "Literal",
                         "start": 490,
                         "end": 505,
-                        "value": "30123400000n"
+                        "value": "30123400000n",
+                        "raw": "30_123_400_000n"
                       }
                     ]
                   },
@@ -199,7 +206,8 @@
                     "type": "Literal",
                     "start": 508,
                     "end": 535,
-                    "value": "1970-01-01T00:00:30.1234Z"
+                    "value": "1970-01-01T00:00:30.1234Z",
+                    "raw": "\"1970-01-01T00:00:30.1234Z\""
                   }
                 ]
               }
@@ -293,7 +301,8 @@
                                   "type": "Literal",
                                   "start": 607,
                                   "end": 647,
-                                  "value": "should not get properties off argument"
+                                  "value": "should not get properties off argument",
+                                  "raw": "\"should not get properties off argument\""
                                 }
                               ]
                             }
@@ -423,7 +432,8 @@
                   "type": "Literal",
                   "start": 745,
                   "end": 770,
-                  "value": "toJSON without argument"
+                  "value": "toJSON without argument",
+                  "raw": "\"toJSON without argument\""
                 }
               ],
               "optional": false
@@ -500,7 +510,8 @@
                   "type": "Literal",
                   "start": 827,
                   "end": 849,
-                  "value": "toJSON with argument"
+                  "value": "toJSON with argument",
+                  "raw": "\"toJSON with argument\""
                 }
               ],
               "optional": false

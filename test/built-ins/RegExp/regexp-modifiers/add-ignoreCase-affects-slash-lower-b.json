@@ -23,6 +23,7 @@
             "start": 2699,
             "end": 2708,
             "value": null,
+            "raw": "/(?i:\\b)/",
             "regex": {
               "pattern": "(?i:\\b)",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2726,
                 "end": 2729,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2732,
             "end": 2758,
-            "value": "\\b should match after A"
+            "value": "\\b should match after A",
+            "raw": "\"\\\\b should match after A\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2777,
                 "end": 2780,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2783,
             "end": 2809,
-            "value": "\\b should match after a"
+            "value": "\\b should match after a",
+            "raw": "\"\\\\b should match after a\""
           }
         ],
         "optional": false
@@ -191,7 +196,8 @@
                 "type": "Literal",
                 "start": 2828,
                 "end": 2831,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -200,7 +206,8 @@
             "type": "Literal",
             "start": 2834,
             "end": 2860,
-            "value": "\\b should match after z"
+            "value": "\\b should match after z",
+            "raw": "\"\\\\b should match after z\""
           }
         ],
         "optional": false
@@ -249,7 +256,8 @@
                 "type": "Literal",
                 "start": 2879,
                 "end": 2882,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -258,7 +266,8 @@
             "type": "Literal",
             "start": 2885,
             "end": 2911,
-            "value": "\\b should match after Z"
+            "value": "\\b should match after Z",
+            "raw": "\"\\\\b should match after Z\""
           }
         ],
         "optional": false
@@ -284,6 +293,7 @@
             "start": 2925,
             "end": 2935,
             "value": null,
+            "raw": "/(?i:\\b)/u",
             "regex": {
               "pattern": "(?i:\\b)",
               "flags": "u"
@@ -336,7 +346,8 @@
                 "type": "Literal",
                 "start": 2953,
                 "end": 2956,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -345,7 +356,8 @@
             "type": "Literal",
             "start": 2959,
             "end": 2985,
-            "value": "\\b should match after A"
+            "value": "\\b should match after A",
+            "raw": "\"\\\\b should match after A\""
           }
         ],
         "optional": false
@@ -394,7 +406,8 @@
                 "type": "Literal",
                 "start": 3004,
                 "end": 3007,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -403,7 +416,8 @@
             "type": "Literal",
             "start": 3010,
             "end": 3036,
-            "value": "\\b should match after a"
+            "value": "\\b should match after a",
+            "raw": "\"\\\\b should match after a\""
           }
         ],
         "optional": false
@@ -452,7 +466,8 @@
                 "type": "Literal",
                 "start": 3055,
                 "end": 3058,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -461,7 +476,8 @@
             "type": "Literal",
             "start": 3061,
             "end": 3087,
-            "value": "\\b should match after z"
+            "value": "\\b should match after z",
+            "raw": "\"\\\\b should match after z\""
           }
         ],
         "optional": false
@@ -510,7 +526,8 @@
                 "type": "Literal",
                 "start": 3106,
                 "end": 3109,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -519,7 +536,8 @@
             "type": "Literal",
             "start": 3112,
             "end": 3138,
-            "value": "\\b should match after Z"
+            "value": "\\b should match after Z",
+            "raw": "\"\\\\b should match after Z\""
           }
         ],
         "optional": false
@@ -568,7 +586,8 @@
                 "type": "Literal",
                 "start": 3157,
                 "end": 3165,
-                "value": "ſ"
+                "value": "ſ",
+                "raw": "\"\\u017f\""
               }
             ],
             "optional": false
@@ -577,7 +596,8 @@
             "type": "Literal",
             "start": 3168,
             "end": 3199,
-            "value": "\\b should match after ſ"
+            "value": "\\b should match after ſ",
+            "raw": "\"\\\\b should match after \\u017f\""
           }
         ],
         "optional": false
@@ -626,7 +646,8 @@
                 "type": "Literal",
                 "start": 3218,
                 "end": 3226,
-                "value": "K"
+                "value": "K",
+                "raw": "\"\\u212a\""
               }
             ],
             "optional": false
@@ -635,7 +656,8 @@
             "type": "Literal",
             "start": 3229,
             "end": 3260,
-            "value": "\\b should match after K"
+            "value": "\\b should match after K",
+            "raw": "\"\\\\b should match after \\u212a\""
           }
         ],
         "optional": false
@@ -661,6 +683,7 @@
             "start": 3274,
             "end": 3284,
             "value": null,
+            "raw": "/(?i-:\\b)/",
             "regex": {
               "pattern": "(?i-:\\b)",
               "flags": ""
@@ -713,7 +736,8 @@
                 "type": "Literal",
                 "start": 3302,
                 "end": 3305,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -722,7 +746,8 @@
             "type": "Literal",
             "start": 3308,
             "end": 3334,
-            "value": "\\b should match after A"
+            "value": "\\b should match after A",
+            "raw": "\"\\\\b should match after A\""
           }
         ],
         "optional": false
@@ -771,7 +796,8 @@
                 "type": "Literal",
                 "start": 3353,
                 "end": 3356,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -780,7 +806,8 @@
             "type": "Literal",
             "start": 3359,
             "end": 3385,
-            "value": "\\b should match after a"
+            "value": "\\b should match after a",
+            "raw": "\"\\\\b should match after a\""
           }
         ],
         "optional": false
@@ -829,7 +856,8 @@
                 "type": "Literal",
                 "start": 3404,
                 "end": 3407,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -838,7 +866,8 @@
             "type": "Literal",
             "start": 3410,
             "end": 3436,
-            "value": "\\b should match after z"
+            "value": "\\b should match after z",
+            "raw": "\"\\\\b should match after z\""
           }
         ],
         "optional": false
@@ -887,7 +916,8 @@
                 "type": "Literal",
                 "start": 3455,
                 "end": 3458,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -896,7 +926,8 @@
             "type": "Literal",
             "start": 3461,
             "end": 3487,
-            "value": "\\b should match after Z"
+            "value": "\\b should match after Z",
+            "raw": "\"\\\\b should match after Z\""
           }
         ],
         "optional": false
@@ -922,6 +953,7 @@
             "start": 3501,
             "end": 3512,
             "value": null,
+            "raw": "/(?i-:\\b)/u",
             "regex": {
               "pattern": "(?i-:\\b)",
               "flags": "u"
@@ -974,7 +1006,8 @@
                 "type": "Literal",
                 "start": 3530,
                 "end": 3533,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -983,7 +1016,8 @@
             "type": "Literal",
             "start": 3536,
             "end": 3562,
-            "value": "\\b should match after A"
+            "value": "\\b should match after A",
+            "raw": "\"\\\\b should match after A\""
           }
         ],
         "optional": false
@@ -1032,7 +1066,8 @@
                 "type": "Literal",
                 "start": 3581,
                 "end": 3584,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -1041,7 +1076,8 @@
             "type": "Literal",
             "start": 3587,
             "end": 3613,
-            "value": "\\b should match after a"
+            "value": "\\b should match after a",
+            "raw": "\"\\\\b should match after a\""
           }
         ],
         "optional": false
@@ -1090,7 +1126,8 @@
                 "type": "Literal",
                 "start": 3632,
                 "end": 3635,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -1099,7 +1136,8 @@
             "type": "Literal",
             "start": 3638,
             "end": 3664,
-            "value": "\\b should match after z"
+            "value": "\\b should match after z",
+            "raw": "\"\\\\b should match after z\""
           }
         ],
         "optional": false
@@ -1148,7 +1186,8 @@
                 "type": "Literal",
                 "start": 3683,
                 "end": 3686,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -1157,7 +1196,8 @@
             "type": "Literal",
             "start": 3689,
             "end": 3715,
-            "value": "\\b should match after Z"
+            "value": "\\b should match after Z",
+            "raw": "\"\\\\b should match after Z\""
           }
         ],
         "optional": false
@@ -1206,7 +1246,8 @@
                 "type": "Literal",
                 "start": 3734,
                 "end": 3742,
-                "value": "ſ"
+                "value": "ſ",
+                "raw": "\"\\u017f\""
               }
             ],
             "optional": false
@@ -1215,7 +1256,8 @@
             "type": "Literal",
             "start": 3745,
             "end": 3776,
-            "value": "\\b should match after ſ"
+            "value": "\\b should match after ſ",
+            "raw": "\"\\\\b should match after \\u017f\""
           }
         ],
         "optional": false
@@ -1264,7 +1306,8 @@
                 "type": "Literal",
                 "start": 3795,
                 "end": 3803,
-                "value": "K"
+                "value": "K",
+                "raw": "\"\\u212a\""
               }
             ],
             "optional": false
@@ -1273,7 +1316,8 @@
             "type": "Literal",
             "start": 3806,
             "end": 3837,
-            "value": "\\b should match after K"
+            "value": "\\b should match after K",
+            "raw": "\"\\\\b should match after \\u212a\""
           }
         ],
         "optional": false

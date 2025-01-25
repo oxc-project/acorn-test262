@@ -90,7 +90,8 @@
                     "type": "Literal",
                     "start": 1199,
                     "end": 1207,
-                    "value": "caller"
+                    "value": "caller",
+                    "raw": "\"caller\""
                   }
                 ],
                 "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 1290,
             "end": 1291,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -212,7 +214,8 @@
                   "type": "Literal",
                   "start": 1328,
                   "end": 1340,
-                  "value": "use strict"
+                  "value": "use strict",
+                  "raw": "\"use strict\""
                 },
                 "directive": "use strict"
               },
@@ -265,7 +268,8 @@
                           "type": "Literal",
                           "start": 1685,
                           "end": 1693,
-                          "value": "caller"
+                          "value": "caller",
+                          "raw": "\"caller\""
                         }
                       ],
                       "optional": false
@@ -318,7 +322,8 @@
                     "type": "Literal",
                     "start": 1743,
                     "end": 1747,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 },
                 "consequent": {
@@ -364,7 +369,8 @@
                             "type": "Literal",
                             "start": 1784,
                             "end": 1792,
-                            "value": "caller"
+                            "value": "caller",
+                            "raw": "\"caller\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -407,7 +413,8 @@
                                           "type": "Literal",
                                           "start": 1808,
                                           "end": 1809,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       }
                                     ]
@@ -500,7 +507,8 @@
                     "type": "Literal",
                     "start": 1889,
                     "end": 1893,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 },
                 "consequent": {
@@ -546,13 +554,15 @@
                             "type": "Literal",
                             "start": 1926,
                             "end": 1927,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1929,
                             "end": 2071,
-                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
+                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
+                            "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
                           }
                         ],
                         "optional": false
@@ -775,13 +785,15 @@
                             "type": "Literal",
                             "start": 2634,
                             "end": 2635,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2637,
                             "end": 2662,
-                            "value": "function body evaluated"
+                            "value": "function body evaluated",
+                            "raw": "'function body evaluated'"
                           }
                         ],
                         "optional": false

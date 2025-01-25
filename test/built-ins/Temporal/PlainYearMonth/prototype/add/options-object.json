@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 353,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 357,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 400,
                       "end": 401,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -178,25 +181,29 @@
             "type": "Literal",
             "start": 459,
             "end": 463,
-            "value": 2019
+            "value": 2019,
+            "raw": "2019"
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 467,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 474,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 516,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -263,7 +270,8 @@
                       "type": "Literal",
                       "start": 560,
                       "end": 561,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -330,25 +338,29 @@
             "type": "Literal",
             "start": 625,
             "end": 629,
-            "value": 2019
+            "value": 2019,
+            "raw": "2019"
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 633,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 640,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 678,
-            "value": "options may be a function object"
+            "value": "options may be a function object",
+            "raw": "\"options may be a function object\""
           }
         ],
         "optional": false

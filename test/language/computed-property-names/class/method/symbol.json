@@ -158,7 +158,8 @@
                       "type": "Literal",
                       "start": 383,
                       "end": 386,
-                      "value": "A"
+                      "value": "A",
+                      "raw": "'A'"
                     }
                   }
                 ]
@@ -200,7 +201,8 @@
                       "type": "Literal",
                       "start": 410,
                       "end": 413,
-                      "value": "B"
+                      "value": "B",
+                      "raw": "'B'"
                     }
                   }
                 ]
@@ -242,7 +244,8 @@
                       "type": "Literal",
                       "start": 432,
                       "end": 435,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "'C'"
                     }
                   }
                 ]
@@ -298,7 +301,8 @@
                       "type": "Literal",
                       "start": 463,
                       "end": 466,
-                      "value": "D"
+                      "value": "D",
+                      "raw": "'D'"
                     }
                   }
                 ]
@@ -372,13 +376,15 @@
             "type": "Literal",
             "start": 502,
             "end": 505,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 570,
-            "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`"
+            "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`",
+            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`\""
           }
         ],
         "optional": false
@@ -448,13 +454,15 @@
             "type": "Literal",
             "start": 607,
             "end": 610,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 684,
-            "value": "`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`"
+            "value": "`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`",
+            "raw": "\"`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`\""
           }
         ],
         "optional": false
@@ -524,13 +532,15 @@
             "type": "Literal",
             "start": 717,
             "end": 720,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 722,
             "end": 785,
-            "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`"
+            "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`",
+            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
           }
         ],
         "optional": false
@@ -600,13 +610,15 @@
             "type": "Literal",
             "start": 822,
             "end": 825,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 903,
-            "value": "`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`"
+            "value": "`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`",
+            "raw": "\"`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`\""
           }
         ],
         "optional": false
@@ -703,13 +715,15 @@
             "type": "Literal",
             "start": 956,
             "end": 957,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 990,
-            "value": "No enum keys from C.prototype"
+            "value": "No enum keys from C.prototype",
+            "raw": "\"No enum keys from C.prototype\""
           }
         ],
         "optional": false
@@ -798,19 +812,22 @@
                 "type": "Literal",
                 "start": 1060,
                 "end": 1073,
-                "value": "constructor"
+                "value": "constructor",
+                "raw": "'constructor'"
               },
               {
                 "type": "Literal",
                 "start": 1075,
                 "end": 1078,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 1080,
                 "end": 1083,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }

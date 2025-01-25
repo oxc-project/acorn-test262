@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 488,
             "end": 498,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -242,7 +243,8 @@
             "type": "Literal",
             "start": 871,
             "end": 891,
-            "value": "en-emodeng-emodeng"
+            "value": "en-emodeng-emodeng",
+            "raw": "\"en-emodeng-emodeng\""
           }
         ],
         "optional": false
@@ -267,7 +269,8 @@
             "type": "Literal",
             "start": 952,
             "end": 972,
-            "value": "en-Emodeng-emodeng"
+            "value": "en-Emodeng-emodeng",
+            "raw": "\"en-Emodeng-emodeng\""
           }
         ],
         "optional": false
@@ -292,7 +295,8 @@
             "type": "Literal",
             "start": 1013,
             "end": 1033,
-            "value": "en-emodeng-Emodeng"
+            "value": "en-emodeng-Emodeng",
+            "raw": "\"en-emodeng-Emodeng\""
           }
         ],
         "optional": false
@@ -317,7 +321,8 @@
             "type": "Literal",
             "start": 1147,
             "end": 1175,
-            "value": "en-variant-emodeng-emodeng"
+            "value": "en-variant-emodeng-emodeng",
+            "raw": "\"en-variant-emodeng-emodeng\""
           }
         ],
         "optional": false
@@ -342,7 +347,8 @@
             "type": "Literal",
             "start": 1189,
             "end": 1217,
-            "value": "en-variant-Emodeng-emodeng"
+            "value": "en-variant-Emodeng-emodeng",
+            "raw": "\"en-variant-Emodeng-emodeng\""
           }
         ],
         "optional": false
@@ -367,7 +373,8 @@
             "type": "Literal",
             "start": 1231,
             "end": 1259,
-            "value": "en-variant-emodeng-Emodeng"
+            "value": "en-variant-emodeng-Emodeng",
+            "raw": "\"en-variant-emodeng-Emodeng\""
           }
         ],
         "optional": false
@@ -392,7 +399,8 @@
             "type": "Literal",
             "start": 1273,
             "end": 1301,
-            "value": "en-emodeng-variant-emodeng"
+            "value": "en-emodeng-variant-emodeng",
+            "raw": "\"en-emodeng-variant-emodeng\""
           }
         ],
         "optional": false
@@ -417,7 +425,8 @@
             "type": "Literal",
             "start": 1315,
             "end": 1343,
-            "value": "en-Emodeng-variant-emodeng"
+            "value": "en-Emodeng-variant-emodeng",
+            "raw": "\"en-Emodeng-variant-emodeng\""
           }
         ],
         "optional": false
@@ -442,7 +451,8 @@
             "type": "Literal",
             "start": 1357,
             "end": 1385,
-            "value": "en-emodeng-variant-Emodeng"
+            "value": "en-emodeng-variant-Emodeng",
+            "raw": "\"en-emodeng-variant-Emodeng\""
           }
         ],
         "optional": false
@@ -467,7 +477,8 @@
             "type": "Literal",
             "start": 1399,
             "end": 1427,
-            "value": "en-emodeng-emodeng-variant"
+            "value": "en-emodeng-emodeng-variant",
+            "raw": "\"en-emodeng-emodeng-variant\""
           }
         ],
         "optional": false
@@ -492,7 +503,8 @@
             "type": "Literal",
             "start": 1441,
             "end": 1469,
-            "value": "en-Emodeng-emodeng-variant"
+            "value": "en-Emodeng-emodeng-variant",
+            "raw": "\"en-Emodeng-emodeng-variant\""
           }
         ],
         "optional": false
@@ -517,7 +529,8 @@
             "type": "Literal",
             "start": 1483,
             "end": 1511,
-            "value": "en-emodeng-Emodeng-variant"
+            "value": "en-emodeng-Emodeng-variant",
+            "raw": "\"en-emodeng-Emodeng-variant\""
           }
         ],
         "optional": false

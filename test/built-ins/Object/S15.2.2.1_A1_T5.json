@@ -85,7 +85,8 @@
             "type": "Literal",
             "start": 854,
             "end": 911,
-            "value": "The value of obj is expected to not equal ``undefined``"
+            "value": "The value of obj is expected to not equal ``undefined``",
+            "raw": "'The value of obj is expected to not equal ``undefined``'"
           }
         ],
         "optional": false
@@ -148,7 +149,8 @@
             "type": "Literal",
             "start": 956,
             "end": 1027,
-            "value": "The value of obj.constructor is expected to equal the value of Object"
+            "value": "The value of obj.constructor is expected to equal the value of Object",
+            "raw": "'The value of obj.constructor is expected to equal the value of Object'"
           }
         ],
         "optional": false
@@ -233,7 +235,8 @@
             "type": "Literal",
             "start": 1082,
             "end": 1157,
-            "value": "The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true"
+            "value": "The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true",
+            "raw": "'The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true'"
           }
         ],
         "optional": false
@@ -266,14 +269,16 @@
                 "type": "Literal",
                 "start": 1185,
                 "end": 1195,
-                "value": "[object "
+                "value": "[object ",
+                "raw": "'[object '"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 1198,
                 "end": 1206,
-                "value": "Object"
+                "value": "Object",
+                "raw": "'Object'"
               }
             },
             "operator": "+",
@@ -281,7 +286,8 @@
               "type": "Literal",
               "start": 1209,
               "end": 1212,
-              "value": "]"
+              "value": "]",
+              "raw": "']'"
             }
           }
         }
@@ -352,7 +358,8 @@
             "type": "Literal",
             "start": 1265,
             "end": 1306,
-            "value": "obj.toString() returns to_string_result"
+            "value": "obj.toString() returns to_string_result",
+            "raw": "'obj.toString() returns to_string_result'"
           }
         ],
         "optional": false
@@ -462,7 +469,8 @@
             "type": "Literal",
             "start": 1389,
             "end": 1482,
-            "value": "obj.valueOf().toString() must return the same value returned by to_string_result.toString()"
+            "value": "obj.valueOf().toString() must return the same value returned by to_string_result.toString()",
+            "raw": "'obj.valueOf().toString() must return the same value returned by to_string_result.toString()'"
           }
         ],
         "optional": false

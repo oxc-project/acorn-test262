@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 494,
                     "end": 495,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 497,
                     "end": 498,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -91,7 +93,8 @@
                   "type": "Literal",
                   "start": 523,
                   "end": 524,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -148,7 +151,8 @@
                             "type": "Literal",
                             "start": 556,
                             "end": 557,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         },
                         "consequent": {
@@ -159,7 +163,8 @@
                             "type": "Literal",
                             "start": 566,
                             "end": 571,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           }
                         },
                         "alternate": null
@@ -183,7 +188,8 @@
                             "type": "Literal",
                             "start": 587,
                             "end": 588,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         },
                         "consequent": {
@@ -194,7 +200,8 @@
                             "type": "Literal",
                             "start": 597,
                             "end": 601,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         },
                         "alternate": null
@@ -218,7 +225,8 @@
                               "type": "Literal",
                               "start": 630,
                               "end": 721,
-                              "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this"
+                              "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this",
+                              "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\""
                             }
                           ]
                         }
@@ -279,7 +287,8 @@
                               "type": "Literal",
                               "start": 783,
                               "end": 854,
-                              "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator"
+                              "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator",
+                              "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator\""
                             }
                           ]
                         }
@@ -360,7 +369,8 @@
             "type": "Literal",
             "start": 902,
             "end": 907,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

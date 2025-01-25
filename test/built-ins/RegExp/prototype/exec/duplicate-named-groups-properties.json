@@ -23,6 +23,7 @@
             "start": 326,
             "end": 373,
             "value": null,
+            "raw": "/(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))/",
             "regex": {
               "pattern": "(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 414,
                 "end": 419,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -148,13 +150,15 @@
             "type": "Literal",
             "start": 466,
             "end": 469,
-            "value": "b"
+            "value": "b",
+            "raw": "\"b\""
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 490,
-            "value": "group x matches b"
+            "value": "group x matches b",
+            "raw": "\"group x matches b\""
           }
         ],
         "optional": false
@@ -224,13 +228,15 @@
             "type": "Literal",
             "start": 537,
             "end": 540,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 561,
-            "value": "group y matches a"
+            "value": "group y matches a",
+            "raw": "\"group y matches a\""
           }
         ],
         "optional": false
@@ -300,13 +306,15 @@
             "type": "Literal",
             "start": 608,
             "end": 611,
-            "value": "c"
+            "value": "c",
+            "raw": "\"c\""
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 632,
-            "value": "group z matches c"
+            "value": "group z matches c",
+            "raw": "\"group z matches c\""
           }
         ],
         "optional": false
@@ -395,19 +403,22 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 702,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Literal",
                 "start": 704,
                 "end": 707,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 709,
                 "end": 712,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ]
           },
@@ -415,7 +426,8 @@
             "type": "Literal",
             "start": 717,
             "end": 822,
-            "value": "Properties of groups are ordered in RegExp source order despite y matching before x in this alternative"
+            "value": "Properties of groups are ordered in RegExp source order despite y matching before x in this alternative",
+            "raw": "\"Properties of groups are ordered in RegExp source order despite y matching before x in this alternative\""
           }
         ],
         "optional": false
@@ -464,7 +476,8 @@
                 "type": "Literal",
                 "start": 863,
                 "end": 867,
-                "value": "ad"
+                "value": "ad",
+                "raw": "\"ad\""
               }
             ],
             "optional": false
@@ -537,13 +550,15 @@
             "type": "Literal",
             "start": 912,
             "end": 915,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 917,
             "end": 936,
-            "value": "group x matches a"
+            "value": "group x matches a",
+            "raw": "\"group x matches a\""
           }
         ],
         "optional": false
@@ -619,7 +634,8 @@
             "type": "Literal",
             "start": 992,
             "end": 1016,
-            "value": "group y does not match"
+            "value": "group y does not match",
+            "raw": "\"group y does not match\""
           }
         ],
         "optional": false
@@ -689,13 +705,15 @@
             "type": "Literal",
             "start": 1061,
             "end": 1064,
-            "value": "d"
+            "value": "d",
+            "raw": "\"d\""
           },
           {
             "type": "Literal",
             "start": 1066,
             "end": 1085,
-            "value": "group z matches d"
+            "value": "group z matches d",
+            "raw": "\"group z matches d\""
           }
         ],
         "optional": false
@@ -784,19 +802,22 @@
                 "type": "Literal",
                 "start": 1150,
                 "end": 1153,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Literal",
                 "start": 1155,
                 "end": 1158,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 1160,
                 "end": 1163,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ]
           },
@@ -804,7 +825,8 @@
             "type": "Literal",
             "start": 1168,
             "end": 1247,
-            "value": "y is still present on groups object, in the right order, despite not matching"
+            "value": "y is still present on groups object, in the right order, despite not matching",
+            "raw": "\"y is still present on groups object, in the right order, despite not matching\""
           }
         ],
         "optional": false
@@ -830,6 +852,7 @@
             "start": 1276,
             "end": 1311,
             "value": null,
+            "raw": "/(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}/",
             "regex": {
               "pattern": "(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}",
               "flags": ""
@@ -882,7 +905,8 @@
                 "type": "Literal",
                 "start": 1372,
                 "end": 1377,
-                "value": "aac"
+                "value": "aac",
+                "raw": "\"aac\""
               }
             ],
             "optional": false
@@ -961,7 +985,8 @@
             "type": "Literal",
             "start": 1447,
             "end": 1493,
-            "value": "group x does not match in the last iteration"
+            "value": "group x does not match in the last iteration",
+            "raw": "\"group x does not match in the last iteration\""
           }
         ],
         "optional": false

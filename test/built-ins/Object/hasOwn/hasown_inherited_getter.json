@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 329,
                           "end": 331,
-                          "value": 42
+                          "value": 42,
+                          "raw": "42"
                         }
                       }
                     ]
@@ -186,7 +187,8 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 409,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -195,13 +197,15 @@
             "type": "Literal",
             "start": 412,
             "end": 417,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 444,
-            "value": "Object.hasOwn(o, \"foo\")"
+            "value": "Object.hasOwn(o, \"foo\")",
+            "raw": "'Object.hasOwn(o, \"foo\")'"
           }
         ],
         "optional": false

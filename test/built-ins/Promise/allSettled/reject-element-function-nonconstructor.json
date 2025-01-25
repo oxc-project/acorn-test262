@@ -414,7 +414,8 @@
                 "type": "Literal",
                 "start": 916,
                 "end": 927,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -423,7 +424,8 @@
             "type": "Literal",
             "start": 930,
             "end": 935,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

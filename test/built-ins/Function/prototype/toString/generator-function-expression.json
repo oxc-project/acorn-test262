@@ -151,7 +151,8 @@
             "type": "Literal",
             "start": 653,
             "end": 773,
-            "value": "function /* a */ * /* b */ F /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }"
+            "value": "function /* a */ * /* b */ F /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }",
+            "raw": "\"function /* a */ * /* b */ F /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }\""
           }
         ],
         "optional": false
@@ -182,7 +183,8 @@
             "type": "Literal",
             "start": 810,
             "end": 920,
-            "value": "function /* a */ * /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }"
+            "value": "function /* a */ * /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
+            "raw": "\"function /* a */ * /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
           }
         ],
         "optional": false

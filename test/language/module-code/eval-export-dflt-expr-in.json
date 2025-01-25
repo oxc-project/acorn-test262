@@ -1,46 +1,47 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 644,
+  "end": 642,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 522,
-      "end": 542,
+      "start": 520,
+      "end": 540,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 526,
-          "end": 541,
+          "start": 524,
+          "end": 539,
           "id": {
             "type": "Identifier",
-            "start": 526,
-            "end": 527,
+            "start": 524,
+            "end": 525,
             "name": "x"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 530,
-            "end": 541,
+            "start": 528,
+            "end": 539,
             "properties": [
               {
                 "type": "Property",
-                "start": 532,
-                "end": 539,
+                "start": 530,
+                "end": 537,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 532,
-                  "end": 533,
+                  "start": 530,
+                  "end": 531,
                   "name": "x"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 535,
-                  "end": 539,
-                  "value": true
+                  "start": 533,
+                  "end": 537,
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -52,74 +53,76 @@
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 544,
-      "end": 568,
+      "start": 542,
+      "end": 566,
       "declaration": {
         "type": "BinaryExpression",
-        "start": 559,
-        "end": 567,
+        "start": 557,
+        "end": 565,
         "left": {
           "type": "Literal",
-          "start": 559,
-          "end": 562,
-          "value": "x"
+          "start": 557,
+          "end": 560,
+          "value": "x",
+          "raw": "'x'"
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
-          "start": 566,
-          "end": 567,
+          "start": 564,
+          "end": 565,
           "name": "x"
         }
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 569,
-      "end": 615,
+      "start": 567,
+      "end": 613,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 576,
-          "end": 577,
+          "start": 574,
+          "end": 575,
           "local": {
             "type": "Identifier",
-            "start": 576,
-            "end": 577,
+            "start": 574,
+            "end": 575,
             "name": "f"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 583,
-        "end": 614,
-        "value": "./eval-export-dflt-expr-in.js"
+        "start": 581,
+        "end": 612,
+        "value": "./eval-export-dflt-expr-in.js",
+        "raw": "'./eval-export-dflt-expr-in.js'"
       },
       "attributes": []
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 643,
+      "start": 615,
+      "end": 641,
       "expression": {
         "type": "CallExpression",
-        "start": 617,
-        "end": 642,
+        "start": 615,
+        "end": 640,
         "callee": {
           "type": "MemberExpression",
-          "start": 617,
-          "end": 633,
+          "start": 615,
+          "end": 631,
           "object": {
             "type": "Identifier",
-            "start": 617,
-            "end": 623,
+            "start": 615,
+            "end": 621,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 624,
-            "end": 633,
+            "start": 622,
+            "end": 631,
             "name": "sameValue"
           },
           "computed": false,
@@ -128,15 +131,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 634,
-            "end": 635,
+            "start": 632,
+            "end": 633,
             "name": "f"
           },
           {
             "type": "Literal",
-            "start": 637,
-            "end": 641,
-            "value": true
+            "start": 635,
+            "end": 639,
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

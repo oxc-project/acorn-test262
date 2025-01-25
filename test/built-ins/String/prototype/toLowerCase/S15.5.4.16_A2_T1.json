@@ -23,7 +23,8 @@
               "type": "Literal",
               "start": 378,
               "end": 393,
-              "value": "Hello, WoRlD!"
+              "value": "Hello, WoRlD!",
+              "raw": "\"Hello, WoRlD!\""
             },
             "property": {
               "type": "Identifier",
@@ -42,7 +43,8 @@
           "type": "Literal",
           "start": 412,
           "end": 427,
-          "value": "hello, world!"
+          "value": "hello, world!",
+          "raw": "\"hello, world!\""
         }
       },
       "consequent": {
@@ -73,7 +75,8 @@
                     "type": "Literal",
                     "start": 456,
                     "end": 521,
-                    "value": "#1: \"Hello, WoRlD!\".toLowerCase() === \"hello, world!\". Actual: "
+                    "value": "#1: \"Hello, WoRlD!\".toLowerCase() === \"hello, world!\". Actual: ",
+                    "raw": "'#1: \"Hello, WoRlD!\".toLowerCase() === \"hello, world!\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +95,8 @@
                           "type": "Literal",
                           "start": 525,
                           "end": 540,
-                          "value": "Hello, WoRlD!"
+                          "value": "Hello, WoRlD!",
+                          "raw": "\"Hello, WoRlD!\""
                         },
                         "property": {
                           "type": "Identifier",
@@ -135,7 +139,8 @@
               "type": "Literal",
               "start": 736,
               "end": 751,
-              "value": "Hello, WoRlD!"
+              "value": "Hello, WoRlD!",
+              "raw": "\"Hello, WoRlD!\""
             },
             "property": {
               "type": "Identifier",
@@ -165,7 +170,8 @@
               "type": "Literal",
               "start": 777,
               "end": 792,
-              "value": "hello, world!"
+              "value": "hello, world!",
+              "raw": "\"hello, world!\""
             }
           ],
           "optional": false
@@ -199,7 +205,8 @@
                     "type": "Literal",
                     "start": 822,
                     "end": 895,
-                    "value": "#2: \"Hello, WoRlD!\".toLowerCase() === String(\"hello, world!\"). Actual: "
+                    "value": "#2: \"Hello, WoRlD!\".toLowerCase() === String(\"hello, world!\"). Actual: ",
+                    "raw": "'#2: \"Hello, WoRlD!\".toLowerCase() === String(\"hello, world!\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -218,7 +225,8 @@
                           "type": "Literal",
                           "start": 899,
                           "end": 914,
-                          "value": "Hello, WoRlD!"
+                          "value": "Hello, WoRlD!",
+                          "raw": "\"Hello, WoRlD!\""
                         },
                         "property": {
                           "type": "Identifier",
@@ -261,7 +269,8 @@
               "type": "Literal",
               "start": 1110,
               "end": 1125,
-              "value": "Hello, WoRlD!"
+              "value": "Hello, WoRlD!",
+              "raw": "\"Hello, WoRlD!\""
             },
             "property": {
               "type": "Identifier",
@@ -291,7 +300,8 @@
               "type": "Literal",
               "start": 1155,
               "end": 1170,
-              "value": "hello, world!"
+              "value": "hello, world!",
+              "raw": "\"hello, world!\""
             }
           ]
         }
@@ -320,7 +330,8 @@
                   "type": "Literal",
                   "start": 1200,
                   "end": 1267,
-                  "value": "#3: \"Hello, WoRlD!\".toLowerCase() !== new String(\"hello, world!\")"
+                  "value": "#3: \"Hello, WoRlD!\".toLowerCase() !== new String(\"hello, world!\")",
+                  "raw": "'#3: \"Hello, WoRlD!\".toLowerCase() !== new String(\"hello, world!\")'"
                 }
               ]
             }

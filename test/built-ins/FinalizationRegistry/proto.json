@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 536,
             "end": 623,
-            "value": "Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`"
+            "value": "Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`",
+            "raw": "'Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`'"
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 363,
-                "value": "var x = 0; typeof\tx"
+                "value": "var x = 0; typeof\tx",
+                "raw": "\"var x = 0; typeof\\u0009x\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 368,
             "end": 376,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 428,
-            "value": "#1: var x = 0; typeof\\u0009x; x === \"number\"."
+            "value": "#1: var x = 0; typeof\\u0009x; x === \"number\".",
+            "raw": "'#1: var x = 0; typeof\\\\u0009x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -110,7 +113,8 @@
                 "type": "Literal",
                 "start": 458,
                 "end": 484,
-                "value": "var x = 0; typeof\u000bx"
+                "value": "var x = 0; typeof\u000bx",
+                "raw": "\"var x = 0; typeof\\u000Bx\""
               }
             ],
             "optional": false
@@ -119,13 +123,15 @@
             "type": "Literal",
             "start": 489,
             "end": 497,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 549,
-            "value": "#2: var x = 0; typeof\\u000Bx; x === \"number\"."
+            "value": "#2: var x = 0; typeof\\u000Bx; x === \"number\".",
+            "raw": "'#2: var x = 0; typeof\\\\u000Bx; x === \"number\".'"
           }
         ],
         "optional": false
@@ -174,7 +180,8 @@
                 "type": "Literal",
                 "start": 579,
                 "end": 605,
-                "value": "var x = 0; typeof\fx"
+                "value": "var x = 0; typeof\fx",
+                "raw": "\"var x = 0; typeof\\u000Cx\""
               }
             ],
             "optional": false
@@ -183,13 +190,15 @@
             "type": "Literal",
             "start": 610,
             "end": 618,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 670,
-            "value": "#3: var x = 0; typeof\\u000Cx; x === \"number\"."
+            "value": "#3: var x = 0; typeof\\u000Cx; x === \"number\".",
+            "raw": "'#3: var x = 0; typeof\\\\u000Cx; x === \"number\".'"
           }
         ],
         "optional": false
@@ -238,7 +247,8 @@
                 "type": "Literal",
                 "start": 700,
                 "end": 726,
-                "value": "var x = 0; typeof x"
+                "value": "var x = 0; typeof x",
+                "raw": "\"var x = 0; typeof\\u0020x\""
               }
             ],
             "optional": false
@@ -247,13 +257,15 @@
             "type": "Literal",
             "start": 731,
             "end": 739,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 791,
-            "value": "#4: var x = 0; typeof\\u0020x; x === \"number\"."
+            "value": "#4: var x = 0; typeof\\u0020x; x === \"number\".",
+            "raw": "'#4: var x = 0; typeof\\\\u0020x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -302,7 +314,8 @@
                 "type": "Literal",
                 "start": 821,
                 "end": 847,
-                "value": "var x = 0; typeof x"
+                "value": "var x = 0; typeof x",
+                "raw": "\"var x = 0; typeof\\u00A0x\""
               }
             ],
             "optional": false
@@ -311,13 +324,15 @@
             "type": "Literal",
             "start": 852,
             "end": 860,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 864,
             "end": 912,
-            "value": "#5: var x = 0; typeof\\u00A0x; x === \"number\"."
+            "value": "#5: var x = 0; typeof\\u00A0x; x === \"number\".",
+            "raw": "'#5: var x = 0; typeof\\\\u00A0x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -366,7 +381,8 @@
                 "type": "Literal",
                 "start": 942,
                 "end": 968,
-                "value": "var x = 0; typeof\nx"
+                "value": "var x = 0; typeof\nx",
+                "raw": "\"var x = 0; typeof\\u000Ax\""
               }
             ],
             "optional": false
@@ -375,13 +391,15 @@
             "type": "Literal",
             "start": 973,
             "end": 981,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 985,
             "end": 1033,
-            "value": "#6: var x = 0; typeof\\u000Ax; x === \"number\"."
+            "value": "#6: var x = 0; typeof\\u000Ax; x === \"number\".",
+            "raw": "'#6: var x = 0; typeof\\\\u000Ax; x === \"number\".'"
           }
         ],
         "optional": false
@@ -430,7 +448,8 @@
                 "type": "Literal",
                 "start": 1063,
                 "end": 1089,
-                "value": "var x = 0; typeof\rx"
+                "value": "var x = 0; typeof\rx",
+                "raw": "\"var x = 0; typeof\\u000Dx\""
               }
             ],
             "optional": false
@@ -439,13 +458,15 @@
             "type": "Literal",
             "start": 1094,
             "end": 1102,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 1106,
             "end": 1154,
-            "value": "#7: var x = 0; typeof\\u000Dx; x === \"number\"."
+            "value": "#7: var x = 0; typeof\\u000Dx; x === \"number\".",
+            "raw": "'#7: var x = 0; typeof\\\\u000Dx; x === \"number\".'"
           }
         ],
         "optional": false
@@ -494,7 +515,8 @@
                 "type": "Literal",
                 "start": 1184,
                 "end": 1210,
-                "value": "var x = 0; typeof x"
+                "value": "var x = 0; typeof x",
+                "raw": "\"var x = 0; typeof\\u2028x\""
               }
             ],
             "optional": false
@@ -503,13 +525,15 @@
             "type": "Literal",
             "start": 1215,
             "end": 1223,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 1227,
             "end": 1275,
-            "value": "#8: var x = 0; typeof\\u2028x; x === \"number\"."
+            "value": "#8: var x = 0; typeof\\u2028x; x === \"number\".",
+            "raw": "'#8: var x = 0; typeof\\\\u2028x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -558,7 +582,8 @@
                 "type": "Literal",
                 "start": 1305,
                 "end": 1331,
-                "value": "var x = 0; typeof x"
+                "value": "var x = 0; typeof x",
+                "raw": "\"var x = 0; typeof\\u2029x\""
               }
             ],
             "optional": false
@@ -567,13 +592,15 @@
             "type": "Literal",
             "start": 1336,
             "end": 1344,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 1348,
             "end": 1396,
-            "value": "#9: var x = 0; typeof\\u2029x; x === \"number\"."
+            "value": "#9: var x = 0; typeof\\u2029x; x === \"number\".",
+            "raw": "'#9: var x = 0; typeof\\\\u2029x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -622,7 +649,8 @@
                 "type": "Literal",
                 "start": 1426,
                 "end": 1500,
-                "value": "var x = 0; typeof\t\u000b\f  \n\r  x"
+                "value": "var x = 0; typeof\t\u000b\f  \n\r  x",
+                "raw": "\"var x = 0; typeof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029x\""
               }
             ],
             "optional": false
@@ -631,13 +659,15 @@
             "type": "Literal",
             "start": 1505,
             "end": 1513,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 1517,
             "end": 1622,
-            "value": "#10: var x = 0; typeof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029x; x === \"number\"."
+            "value": "#10: var x = 0; typeof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029x; x === \"number\".",
+            "raw": "'#10: var x = 0; typeof\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029x; x === \"number\".'"
           }
         ],
         "optional": false
@@ -686,7 +716,8 @@
                 "type": "Literal",
                 "start": 1652,
                 "end": 1663,
-                "value": "typeof(0)"
+                "value": "typeof(0)",
+                "raw": "\"typeof(0)\""
               }
             ],
             "optional": false
@@ -695,13 +726,15 @@
             "type": "Literal",
             "start": 1668,
             "end": 1676,
-            "value": "number"
+            "value": "number",
+            "raw": "\"number\""
           },
           {
             "type": "Literal",
             "start": 1680,
             "end": 1730,
-            "value": "applied with grouping operator enclosing operand"
+            "value": "applied with grouping operator enclosing operand",
+            "raw": "'applied with grouping operator enclosing operand'"
           }
         ],
         "optional": false

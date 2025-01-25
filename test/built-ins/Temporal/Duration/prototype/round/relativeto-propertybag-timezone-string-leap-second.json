@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 305,
                 "end": 306,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 324,
             "end": 356,
-            "value": "2016-12-31T23:59:60+00:00[UTC]"
+            "value": "2016-12-31T23:59:60+00:00[UTC]",
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
           }
         }
       ],
@@ -129,7 +131,8 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 499,
-                  "value": "months"
+                  "value": "months",
+                  "raw": "\"months\""
                 },
                 "kind": "init"
               },
@@ -168,7 +171,8 @@
                         "type": "Literal",
                         "start": 521,
                         "end": 525,
-                        "value": 2000
+                        "value": 2000,
+                        "raw": "2000"
                       },
                       "kind": "init"
                     },
@@ -189,7 +193,8 @@
                         "type": "Literal",
                         "start": 534,
                         "end": 535,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       "kind": "init"
                     },
@@ -210,7 +215,8 @@
                         "type": "Literal",
                         "start": 542,
                         "end": 543,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "kind": "init"
                     },
@@ -264,7 +270,8 @@
           "type": "Literal",
           "start": 572,
           "end": 620,
-          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]"
+          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
         }
       }
     },
@@ -357,7 +364,8 @@
                         "type": "Literal",
                         "start": 684,
                         "end": 692,
-                        "value": "months"
+                        "value": "months",
+                        "raw": "\"months\""
                       },
                       "kind": "init"
                     },
@@ -396,7 +404,8 @@
                               "type": "Literal",
                               "start": 714,
                               "end": 718,
-                              "value": 2000
+                              "value": 2000,
+                              "raw": "2000"
                             },
                             "kind": "init"
                           },
@@ -417,7 +426,8 @@
                               "type": "Literal",
                               "start": 727,
                               "end": 728,
-                              "value": 5
+                              "value": 5,
+                              "raw": "5"
                             },
                             "kind": "init"
                           },
@@ -438,7 +448,8 @@
                               "type": "Literal",
                               "start": 735,
                               "end": 736,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "kind": "init"
                           },
@@ -477,7 +488,8 @@
             "type": "Literal",
             "start": 753,
             "end": 794,
-            "value": "leap second in time zone name not valid"
+            "value": "leap second in time zone name not valid",
+            "raw": "\"leap second in time zone name not valid\""
           }
         ],
         "optional": false

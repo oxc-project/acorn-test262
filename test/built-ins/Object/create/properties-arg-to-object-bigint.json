@@ -97,7 +97,8 @@
               "type": "Literal",
               "start": 681,
               "end": 683,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           ],
           "optional": false
@@ -175,7 +176,8 @@
             "type": "Literal",
             "start": 738,
             "end": 774,
-            "value": "Properties is 1n: prototype is set"
+            "value": "Properties is 1n: prototype is set",
+            "raw": "'Properties is 1n: prototype is set'"
           }
         ],
         "optional": false
@@ -259,13 +261,15 @@
             "type": "Literal",
             "start": 834,
             "end": 835,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 837,
             "end": 868,
-            "value": "Properties is 1n: no keys set"
+            "value": "Properties is 1n: no keys set",
+            "raw": "'Properties is 1n: no keys set'"
           }
         ],
         "optional": false
@@ -349,13 +353,15 @@
             "type": "Literal",
             "start": 930,
             "end": 931,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 971,
-            "value": "Properties is 1n: no symbol keys set"
+            "value": "Properties is 1n: no symbol keys set",
+            "raw": "'Properties is 1n: no symbol keys set'"
           }
         ],
         "optional": false
@@ -433,7 +439,8 @@
               "type": "Literal",
               "start": 1019,
               "end": 1021,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           ],
           "optional": false
@@ -511,7 +518,8 @@
             "type": "Literal",
             "start": 1076,
             "end": 1112,
-            "value": "Properties is 0n: prototype is set"
+            "value": "Properties is 0n: prototype is set",
+            "raw": "'Properties is 0n: prototype is set'"
           }
         ],
         "optional": false
@@ -595,13 +603,15 @@
             "type": "Literal",
             "start": 1172,
             "end": 1173,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1206,
-            "value": "Properties is 0n: no keys set"
+            "value": "Properties is 0n: no keys set",
+            "raw": "'Properties is 0n: no keys set'"
           }
         ],
         "optional": false
@@ -685,13 +695,15 @@
             "type": "Literal",
             "start": 1268,
             "end": 1269,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1309,
-            "value": "Properties is 0n: no symbol keys set"
+            "value": "Properties is 0n: no symbol keys set",
+            "raw": "'Properties is 0n: no symbol keys set'"
           }
         ],
         "optional": false

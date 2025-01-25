@@ -71,13 +71,15 @@
                 "type": "Literal",
                 "start": 822,
                 "end": 823,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 827,
-                "value": 32
+                "value": 32,
+                "raw": "32"
               }
             ],
             "optional": false
@@ -105,7 +107,8 @@
             "type": "Literal",
             "start": 846,
             "end": 847,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -207,7 +210,8 @@
                                 "type": "Literal",
                                 "start": 924,
                                 "end": 932,
-                                "value": "length"
+                                "value": "length",
+                                "raw": "'length'"
                               }
                             },
                             "consequent": {
@@ -305,7 +309,8 @@
                                 "type": "Literal",
                                 "start": 1032,
                                 "end": 1033,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           },
@@ -317,7 +322,8 @@
                               "type": "Literal",
                               "start": 1046,
                               "end": 1050,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         ]
@@ -445,7 +451,8 @@
                         "type": "Literal",
                         "start": 1137,
                         "end": 1138,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -496,13 +503,15 @@
             "type": "Literal",
             "start": 1179,
             "end": 1180,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1184,
             "end": 1252,
-            "value": "RangeError thrown during array creation, not property modification"
+            "value": "RangeError thrown during array creation, not property modification",
+            "raw": "'RangeError thrown during array creation, not property modification'"
           }
         ],
         "optional": false

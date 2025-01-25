@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 346,
             "end": 351,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 408,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -108,7 +110,8 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 428,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -146,13 +149,15 @@
                   "type": "Literal",
                   "start": 446,
                   "end": 447,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 449,
                   "end": 450,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -173,7 +178,8 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 464,
-                  "value": 20
+                  "value": 20,
+                  "raw": "20"
                 },
                 "kind": "init"
               }
@@ -221,7 +227,8 @@
             "type": "Literal",
             "start": 496,
             "end": 499,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -292,7 +299,8 @@
                               "type": "Literal",
                               "start": 551,
                               "end": 552,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "computed": true,
                             "optional": false
@@ -307,7 +315,8 @@
                           "type": "Literal",
                           "start": 566,
                           "end": 567,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -332,7 +341,8 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 594,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -378,7 +388,8 @@
             "type": "Literal",
             "start": 617,
             "end": 618,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -387,7 +398,8 @@
           "type": "Literal",
           "start": 622,
           "end": 623,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -488,13 +500,15 @@
             "type": "Literal",
             "start": 687,
             "end": 692,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 738,
-            "value": "Array.prototype.some.call(arr, callbackfn)"
+            "value": "Array.prototype.some.call(arr, callbackfn)",
+            "raw": "'Array.prototype.some.call(arr, callbackfn)'"
           }
         ],
         "optional": false
@@ -525,7 +539,8 @@
             "type": "Literal",
             "start": 758,
             "end": 777,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

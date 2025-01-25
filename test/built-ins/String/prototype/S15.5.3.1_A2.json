@@ -45,7 +45,8 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 429,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -80,7 +81,8 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 524,
-                    "value": "#0: String.hasOwnProperty('prototype') return true. Actual: "
+                    "value": "#0: String.hasOwnProperty('prototype') return true. Actual: ",
+                    "raw": "'#0: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -111,7 +113,8 @@
                         "type": "Literal",
                         "start": 549,
                         "end": 560,
-                        "value": "prototype"
+                        "value": "prototype",
+                        "raw": "'prototype'"
                       }
                     ],
                     "optional": false
@@ -156,7 +159,8 @@
             "type": "Literal",
             "start": 772,
             "end": 783,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "'prototype'"
           }
         ],
         "optional": false
@@ -189,7 +193,8 @@
                     "type": "Literal",
                     "start": 813,
                     "end": 884,
-                    "value": "#1: String.propertyIsEnumerable('prototype') return false. Actual: "
+                    "value": "#1: String.propertyIsEnumerable('prototype') return false. Actual: ",
+                    "raw": "'#1: String.propertyIsEnumerable(\\'prototype\\') return false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -220,7 +225,8 @@
                         "type": "Literal",
                         "start": 915,
                         "end": 926,
-                        "value": "prototype"
+                        "value": "prototype",
+                        "raw": "'prototype'"
                       }
                     ],
                     "optional": false
@@ -252,7 +258,8 @@
             "type": "Literal",
             "start": 1118,
             "end": 1119,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -312,7 +319,8 @@
                 "type": "Literal",
                 "start": 1158,
                 "end": 1169,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             },
             "consequent": {
@@ -357,7 +365,8 @@
           "type": "Literal",
           "start": 1197,
           "end": 1198,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -388,7 +397,8 @@
                     "type": "Literal",
                     "start": 1227,
                     "end": 1323,
-                    "value": "#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ==="
+                    "value": "#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ===",
+                    "raw": "'#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ==='"
                   },
                   "operator": "+",
                   "right": {

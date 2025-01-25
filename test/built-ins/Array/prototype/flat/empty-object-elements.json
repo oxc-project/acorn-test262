@@ -123,7 +123,8 @@
             "type": "Literal",
             "start": 365,
             "end": 393,
-            "value": "[a].flat() must return [a]"
+            "value": "[a].flat() must return [a]",
+            "raw": "'[a].flat() must return [a]'"
           }
         ],
         "optional": false
@@ -226,7 +227,8 @@
             "type": "Literal",
             "start": 441,
             "end": 477,
-            "value": "[a, [b]].flat() must return [a, b]"
+            "value": "[a, [b]].flat() must return [a, b]",
+            "raw": "'[a, [b]].flat() must return [a, b]'"
           }
         ],
         "optional": false
@@ -329,7 +331,8 @@
             "type": "Literal",
             "start": 529,
             "end": 567,
-            "value": "[ [a], b ].flat() must return [a, b]"
+            "value": "[ [a], b ].flat() must return [a, b]",
+            "raw": "'[ [a], b ].flat() must return [a, b]'"
           }
         ],
         "optional": false
@@ -439,7 +442,8 @@
             "type": "Literal",
             "start": 623,
             "end": 663,
-            "value": "[ [a], [b] ].flat() must return [a, b]"
+            "value": "[ [a], [b] ].flat() must return [a, b]",
+            "raw": "'[ [a], [b] ].flat() must return [a, b]'"
           }
         ],
         "optional": false

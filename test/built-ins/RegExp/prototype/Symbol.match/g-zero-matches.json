@@ -44,6 +44,7 @@
                 "start": 565,
                 "end": 569,
                 "value": {},
+                "raw": "/a/g",
                 "regex": {
                   "pattern": "a",
                   "flags": "g"
@@ -76,7 +77,8 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 587,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               }
             ],
             "optional": false
@@ -85,7 +87,8 @@
             "type": "Literal",
             "start": 590,
             "end": 594,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false

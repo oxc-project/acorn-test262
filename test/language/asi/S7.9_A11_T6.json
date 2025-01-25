@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 300,
             "end": 301,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -36,7 +37,8 @@
         "type": "Literal",
         "start": 307,
         "end": 312,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -57,7 +59,8 @@
             "type": "Literal",
             "start": 318,
             "end": 319,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -86,7 +89,8 @@
               "type": "Literal",
               "start": 330,
               "end": 331,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -117,7 +121,8 @@
             "type": "Literal",
             "start": 343,
             "end": 344,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -145,7 +150,8 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 431,
-                  "value": "#1: Check If Statement for automatic semicolon insertion"
+                  "value": "#1: Check If Statement for automatic semicolon insertion",
+                  "raw": "'#1: Check If Statement for automatic semicolon insertion'"
                 }
               ]
             }

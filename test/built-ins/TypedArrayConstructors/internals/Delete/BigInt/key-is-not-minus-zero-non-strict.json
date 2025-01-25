@@ -115,7 +115,8 @@
                         "type": "Literal",
                         "start": 1096,
                         "end": 1100,
-                        "value": "-0"
+                        "value": "-0",
+                        "raw": "\"-0\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -139,7 +140,8 @@
                               "type": "Literal",
                               "start": 1122,
                               "end": 1126,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           },
@@ -190,7 +192,8 @@
                                           "type": "Literal",
                                           "start": 1169,
                                           "end": 1194,
-                                          "value": "OrdinaryGet was called!"
+                                          "value": "OrdinaryGet was called!",
+                                          "raw": "\"OrdinaryGet was called!\""
                                         }
                                       ]
                                     }
@@ -235,7 +238,8 @@
                             "type": "Literal",
                             "start": 1231,
                             "end": 1232,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -291,7 +295,8 @@
                             "type": "Literal",
                             "start": 1269,
                             "end": 1273,
-                            "value": "-0"
+                            "value": "-0",
+                            "raw": "\"-0\""
                           },
                           "computed": true,
                           "optional": false
@@ -301,13 +306,15 @@
                         "type": "Literal",
                         "start": 1276,
                         "end": 1280,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1282,
                         "end": 1326,
-                        "value": "The value of `delete sample[\"-0\"]` is true"
+                        "value": "The value of `delete sample[\"-0\"]` is true",
+                        "raw": "'The value of `delete sample[\"-0\"]` is true'"
                       }
                     ],
                     "optional": false
@@ -367,7 +374,8 @@
                               "type": "Literal",
                               "start": 1363,
                               "end": 1364,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           },
                           "computed": true,
@@ -378,13 +386,15 @@
                         "type": "Literal",
                         "start": 1367,
                         "end": 1372,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 1374,
                         "end": 1417,
-                        "value": "The value of `delete sample[-0]` is false"
+                        "value": "The value of `delete sample[-0]` is false",
+                        "raw": "'The value of `delete sample[-0]` is false'"
                       }
                     ],
                     "optional": false

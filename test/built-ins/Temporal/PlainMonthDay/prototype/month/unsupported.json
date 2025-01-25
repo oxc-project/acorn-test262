@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               }
             ]
           }
@@ -153,7 +155,8 @@
               "type": "Literal",
               "start": 389,
               "end": 396,
-              "value": "month"
+              "value": "month",
+              "raw": "\"month\""
             },
             "operator": "in",
             "right": {
@@ -167,7 +170,8 @@
             "type": "Literal",
             "start": 404,
             "end": 409,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

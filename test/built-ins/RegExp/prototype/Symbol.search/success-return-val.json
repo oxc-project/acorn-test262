@@ -44,6 +44,7 @@
                 "start": 319,
                 "end": 322,
                 "value": {},
+                "raw": "/a/",
                 "regex": {
                   "pattern": "a",
                   "flags": ""
@@ -76,7 +77,8 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 343,
-                "value": "abc"
+                "value": "abc",
+                "raw": "'abc'"
               }
             ],
             "optional": false
@@ -85,7 +87,8 @@
             "type": "Literal",
             "start": 346,
             "end": 347,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -132,6 +135,7 @@
                 "start": 367,
                 "end": 370,
                 "value": {},
+                "raw": "/b/",
                 "regex": {
                   "pattern": "b",
                   "flags": ""
@@ -164,7 +168,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 391,
-                "value": "abc"
+                "value": "abc",
+                "raw": "'abc'"
               }
             ],
             "optional": false
@@ -173,7 +178,8 @@
             "type": "Literal",
             "start": 394,
             "end": 395,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -220,6 +226,7 @@
                 "start": 415,
                 "end": 418,
                 "value": {},
+                "raw": "/c/",
                 "regex": {
                   "pattern": "c",
                   "flags": ""
@@ -252,7 +259,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 439,
-                "value": "abc"
+                "value": "abc",
+                "raw": "'abc'"
               }
             ],
             "optional": false
@@ -261,7 +269,8 @@
             "type": "Literal",
             "start": 442,
             "end": 443,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false

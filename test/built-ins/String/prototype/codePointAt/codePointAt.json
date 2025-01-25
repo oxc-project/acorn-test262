@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 402,
             "end": 412,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 416,
             "end": 469,
-            "value": "`typeof String.prototype.codePointAt` is `function`"
+            "value": "`typeof String.prototype.codePointAt` is `function`",
+            "raw": "'`typeof String.prototype.codePointAt` is `function`'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 507,
             "end": 520,
-            "value": "codePointAt"
+            "value": "codePointAt",
+            "raw": "'codePointAt'"
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 540,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 561,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 583,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

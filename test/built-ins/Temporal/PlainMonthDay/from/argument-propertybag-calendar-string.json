@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 303,
             "end": 312,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 345,
-                  "value": "M11"
+                  "value": "M11",
+                  "raw": "\"M11\""
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 352,
                   "end": 354,
-                  "value": 18
+                  "value": 18,
+                  "raw": "18"
                 },
                 "kind": "init"
               },
@@ -220,13 +223,15 @@
             "type": "Literal",
             "start": 461,
             "end": 466,
-            "value": "M11"
+            "value": "M11",
+            "raw": "\"M11\""
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 470,
-            "value": 18
+            "value": 18,
+            "raw": "18"
           },
           {
             "type": "TemplateLiteral",
@@ -318,13 +323,15 @@
             "type": "Literal",
             "start": 555,
             "end": 564,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 594,
-            "value": "calendar string is iso8601"
+            "value": "calendar string is iso8601",
+            "raw": "\"calendar string is iso8601\""
           }
         ],
         "optional": false

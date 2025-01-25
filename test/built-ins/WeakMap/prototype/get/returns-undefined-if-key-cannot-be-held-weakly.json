@@ -90,7 +90,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 438,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -105,7 +106,8 @@
             "type": "Literal",
             "start": 452,
             "end": 486,
-            "value": "Returns undefined if key is null"
+            "value": "Returns undefined if key is null",
+            "raw": "'Returns undefined if key is null'"
           }
         ],
         "optional": false
@@ -182,7 +184,8 @@
             "type": "Literal",
             "start": 532,
             "end": 565,
-            "value": "Returns undefined if key is NaN"
+            "value": "Returns undefined if key is NaN",
+            "raw": "'Returns undefined if key is NaN'"
           }
         ],
         "optional": false
@@ -244,7 +247,8 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 602,
-                "value": "foo"
+                "value": "foo",
+                "raw": "'foo'"
               }
             ],
             "optional": false
@@ -259,7 +263,8 @@
             "type": "Literal",
             "start": 618,
             "end": 656,
-            "value": "Returns undefined if key is a String"
+            "value": "Returns undefined if key is a String",
+            "raw": "'Returns undefined if key is a String'"
           }
         ],
         "optional": false
@@ -321,7 +326,8 @@
                 "type": "Literal",
                 "start": 689,
                 "end": 690,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -336,7 +342,8 @@
             "type": "Literal",
             "start": 706,
             "end": 744,
-            "value": "Returns undefined if key is a Number"
+            "value": "Returns undefined if key is a Number",
+            "raw": "'Returns undefined if key is a Number'"
           }
         ],
         "optional": false
@@ -413,7 +420,8 @@
             "type": "Literal",
             "start": 802,
             "end": 841,
-            "value": "Returns undefined if key is undefined"
+            "value": "Returns undefined if key is undefined",
+            "raw": "'Returns undefined if key is undefined'"
           }
         ],
         "optional": false
@@ -499,7 +507,8 @@
                     "type": "Literal",
                     "start": 885,
                     "end": 904,
-                    "value": "registered symbol"
+                    "value": "registered symbol",
+                    "raw": "'registered symbol'"
                   }
                 ],
                 "optional": false
@@ -517,7 +526,8 @@
             "type": "Literal",
             "start": 921,
             "end": 970,
-            "value": "Returns undefined if key is a registered Symbol"
+            "value": "Returns undefined if key is a registered Symbol",
+            "raw": "'Returns undefined if key is a registered Symbol'"
           }
         ],
         "optional": false

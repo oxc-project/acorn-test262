@@ -68,7 +68,8 @@
                         "type": "Literal",
                         "start": 1052,
                         "end": 1055,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     }
                   ],
@@ -105,7 +106,8 @@
                     "type": "Literal",
                     "start": 1076,
                     "end": 1081,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   },
                   "consequent": {
                     "type": "EmptyStatement",
@@ -180,7 +182,8 @@
             "type": "Literal",
             "start": 1142,
             "end": 1145,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         ],
         "optional": false

@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 446,
                   "end": 457,
-                  "value": "__proto__"
+                  "value": "__proto__",
+                  "raw": "'__proto__'"
                 }
               ],
               "optional": false
@@ -207,7 +208,8 @@
                 "type": "Literal",
                 "start": 558,
                 "end": 562,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -300,7 +302,8 @@
             "type": "Literal",
             "start": 615,
             "end": 632,
-            "value": "Ordinary object"
+            "value": "Ordinary object",
+            "raw": "'Ordinary object'"
           }
         ],
         "optional": false
@@ -377,7 +380,8 @@
             "type": "Literal",
             "start": 686,
             "end": 711,
-            "value": "custom prototype object"
+            "value": "custom prototype object",
+            "raw": "'custom prototype object'"
           }
         ],
         "optional": false
@@ -448,13 +452,15 @@
             "type": "Literal",
             "start": 756,
             "end": 760,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 778,
-            "value": "null prototype"
+            "value": "null prototype",
+            "raw": "'null prototype'"
           }
         ],
         "optional": false

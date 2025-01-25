@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 470,
         "end": 494,
-        "value": "./get-sym-not-found.js"
+        "value": "./get-sym-not-found.js",
+        "raw": "'./get-sym-not-found.js'"
       },
       "attributes": []
     },
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 533,
-                  "value": "test262"
+                  "value": "test262",
+                  "raw": "'test262'"
                 }
               ],
               "optional": false
@@ -99,7 +101,8 @@
             "type": "Literal",
             "start": 548,
             "end": 565,
-            "value": "Symbol: test262"
+            "value": "Symbol: test262",
+            "raw": "'Symbol: test262'"
           }
         ],
         "optional": false

@@ -57,7 +57,8 @@
                         "type": "Literal",
                         "start": 421,
                         "end": 422,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     },
                     "kind": "init"
@@ -97,7 +98,8 @@
                               "type": "Literal",
                               "start": 449,
                               "end": 456,
-                              "value": "[z-z]"
+                              "value": "[z-z]",
+                              "raw": "\"[z-z]\""
                             }
                           }
                         ]
@@ -135,7 +137,8 @@
                         "type": "Literal",
                         "start": 476,
                         "end": 477,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     },
                     "kind": "init"
@@ -175,7 +178,8 @@
                               "type": "Literal",
                               "start": 504,
                               "end": 509,
-                              "value": "mig"
+                              "value": "mig",
+                              "raw": "\"mig\""
                             }
                           }
                         ]
@@ -242,13 +246,15 @@
             "type": "Literal",
             "start": 550,
             "end": 554,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 609,
-            "value": "The value of __re.ignoreCase is expected to be true"
+            "value": "The value of __re.ignoreCase is expected to be true",
+            "raw": "'The value of __re.ignoreCase is expected to be true'"
           }
         ],
         "optional": false
@@ -305,13 +311,15 @@
             "type": "Literal",
             "start": 645,
             "end": 649,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 651,
             "end": 703,
-            "value": "The value of __re.multiline is expected to be true"
+            "value": "The value of __re.multiline is expected to be true",
+            "raw": "'The value of __re.multiline is expected to be true'"
           }
         ],
         "optional": false
@@ -368,13 +376,15 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 791,
-            "value": "The value of __re.global is expected to be true"
+            "value": "The value of __re.global is expected to be true",
+            "raw": "'The value of __re.global is expected to be true'"
           }
         ],
         "optional": false
@@ -431,13 +441,15 @@
             "type": "Literal",
             "start": 827,
             "end": 828,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 830,
             "end": 879,
-            "value": "The value of __re.lastIndex is expected to be 0"
+            "value": "The value of __re.lastIndex is expected to be 0",
+            "raw": "'The value of __re.lastIndex is expected to be 0'"
           }
         ],
         "optional": false
@@ -501,13 +513,15 @@
             "type": "Literal",
             "start": 922,
             "end": 933,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 935,
             "end": 987,
-            "value": "The value of typeof __re.source is not \"undefined\""
+            "value": "The value of typeof __re.source is not \"undefined\"",
+            "raw": "'The value of typeof __re.source is not \"undefined\"'"
           }
         ],
         "optional": false

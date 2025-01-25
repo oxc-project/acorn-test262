@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 778,
+  "end": 762,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -49,37 +49,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 650,
-      "end": 683,
+      "start": 634,
+      "end": 667,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 656,
-          "end": 682,
+          "start": 640,
+          "end": 666,
           "id": {
             "type": "Identifier",
-            "start": 656,
-            "end": 665,
+            "start": 640,
+            "end": 649,
             "name": "resultNaN"
           },
           "init": {
             "type": "CallExpression",
-            "start": 668,
-            "end": 682,
+            "start": 652,
+            "end": 666,
             "callee": {
               "type": "MemberExpression",
-              "start": 668,
-              "end": 677,
+              "start": 652,
+              "end": 661,
               "object": {
                 "type": "Identifier",
-                "start": 668,
-                "end": 670,
+                "start": 652,
+                "end": 654,
                 "name": "nf"
               },
               "property": {
                 "type": "Identifier",
-                "start": 671,
-                "end": 677,
+                "start": 655,
+                "end": 661,
                 "name": "format"
               },
               "computed": false,
@@ -88,8 +88,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 678,
-                "end": 681,
+                "start": 662,
+                "end": 665,
                 "name": "NaN"
               }
             ],
@@ -101,26 +101,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 685,
-      "end": 726,
+      "start": 669,
+      "end": 710,
       "expression": {
         "type": "CallExpression",
-        "start": 685,
-        "end": 725,
+        "start": 669,
+        "end": 709,
         "callee": {
           "type": "MemberExpression",
-          "start": 685,
-          "end": 701,
+          "start": 669,
+          "end": 685,
           "object": {
             "type": "Identifier",
-            "start": 685,
-            "end": 691,
+            "start": 669,
+            "end": 675,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 692,
-            "end": 701,
+            "start": 676,
+            "end": 685,
             "name": "sameValue"
           },
           "computed": false,
@@ -129,22 +129,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 702,
-            "end": 713,
+            "start": 686,
+            "end": 697,
             "callee": {
               "type": "MemberExpression",
-              "start": 702,
-              "end": 711,
+              "start": 686,
+              "end": 695,
               "object": {
                 "type": "Identifier",
-                "start": 702,
-                "end": 704,
+                "start": 686,
+                "end": 688,
                 "name": "nf"
               },
               "property": {
                 "type": "Identifier",
-                "start": 705,
-                "end": 711,
+                "start": 689,
+                "end": 695,
                 "name": "format"
               },
               "computed": false,
@@ -155,8 +155,8 @@
           },
           {
             "type": "Identifier",
-            "start": 715,
-            "end": 724,
+            "start": 699,
+            "end": 708,
             "name": "resultNaN"
           }
         ],
@@ -165,26 +165,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 727,
-      "end": 777,
+      "start": 711,
+      "end": 761,
       "expression": {
         "type": "CallExpression",
-        "start": 727,
-        "end": 776,
+        "start": 711,
+        "end": 760,
         "callee": {
           "type": "MemberExpression",
-          "start": 727,
-          "end": 743,
+          "start": 711,
+          "end": 727,
           "object": {
             "type": "Identifier",
-            "start": 727,
-            "end": 733,
+            "start": 711,
+            "end": 717,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 734,
-            "end": 743,
+            "start": 718,
+            "end": 727,
             "name": "sameValue"
           },
           "computed": false,
@@ -193,22 +193,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 744,
-            "end": 764,
+            "start": 728,
+            "end": 748,
             "callee": {
               "type": "MemberExpression",
-              "start": 744,
-              "end": 753,
+              "start": 728,
+              "end": 737,
               "object": {
                 "type": "Identifier",
-                "start": 744,
-                "end": 746,
+                "start": 728,
+                "end": 730,
                 "name": "nf"
               },
               "property": {
                 "type": "Identifier",
-                "start": 747,
-                "end": 753,
+                "start": 731,
+                "end": 737,
                 "name": "format"
               },
               "computed": false,
@@ -217,8 +217,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 754,
-                "end": 763,
+                "start": 738,
+                "end": 747,
                 "name": "undefined"
               }
             ],
@@ -226,8 +226,8 @@
           },
           {
             "type": "Identifier",
-            "start": 766,
-            "end": 775,
+            "start": 750,
+            "end": 759,
             "name": "resultNaN"
           }
         ],

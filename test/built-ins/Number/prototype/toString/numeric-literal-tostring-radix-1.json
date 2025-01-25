@@ -67,7 +67,8 @@
                         "type": "Literal",
                         "start": 298,
                         "end": 300,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0."
                       },
                       "property": {
                         "type": "Identifier",
@@ -83,7 +84,8 @@
                         "type": "Literal",
                         "start": 310,
                         "end": 311,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -160,7 +162,8 @@
                         "type": "Literal",
                         "start": 354,
                         "end": 356,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1."
                       },
                       "property": {
                         "type": "Identifier",
@@ -176,7 +179,8 @@
                         "type": "Literal",
                         "start": 366,
                         "end": 367,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -269,7 +273,8 @@
                         "type": "Literal",
                         "start": 423,
                         "end": 424,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -362,7 +367,8 @@
                         "type": "Literal",
                         "start": 485,
                         "end": 486,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false

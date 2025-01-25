@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 248,
                 "end": 249,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -156,7 +157,8 @@
             "type": "Literal",
             "start": 337,
             "end": 356,
-            "value": "preCheck !== true"
+            "value": "preCheck !== true",
+            "raw": "'preCheck !== true'"
           }
         ],
         "optional": false
@@ -214,7 +216,8 @@
             "type": "Literal",
             "start": 392,
             "end": 427,
-            "value": "Object.isSealed(dateObj) !== true"
+            "value": "Object.isSealed(dateObj) !== true",
+            "raw": "'Object.isSealed(dateObj) !== true'"
           }
         ],
         "optional": false

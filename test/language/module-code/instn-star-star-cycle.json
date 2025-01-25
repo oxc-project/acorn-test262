@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 2147,
         "end": 2185,
-        "value": "./instn-star-star-cycle-2_FIXTURE.js"
+        "value": "./instn-star-star-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-star-cycle-2_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 2211,
             "end": 2213,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           }
         ],
         "optional": false
@@ -136,7 +138,8 @@
             "type": "Literal",
             "start": 2239,
             "end": 2241,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           }
         ],
         "optional": false

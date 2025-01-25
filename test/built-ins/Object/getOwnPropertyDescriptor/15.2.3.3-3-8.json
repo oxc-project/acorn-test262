@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 346,
             "end": 356,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +109,8 @@
                           "type": "Literal",
                           "start": 391,
                           "end": 418,
-                          "value": "inheritedAccessorProperty"
+                          "value": "inheritedAccessorProperty",
+                          "raw": "\"inheritedAccessorProperty\""
                         }
                       }
                     ]
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 441,
                   "end": 445,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -282,7 +285,8 @@
                     "type": "Literal",
                     "start": 555,
                     "end": 576,
-                    "value": "ownAccessorProperty"
+                    "value": "ownAccessorProperty",
+                    "raw": "\"ownAccessorProperty\""
                   }
                 }
               ]
@@ -330,7 +334,8 @@
             "type": "Literal",
             "start": 610,
             "end": 620,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -375,7 +380,8 @@
                   "type": "Literal",
                   "start": 652,
                   "end": 656,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -434,7 +440,8 @@
                 "type": "Literal",
                 "start": 712,
                 "end": 722,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -500,7 +507,8 @@
             "type": "Literal",
             "start": 758,
             "end": 768,
-            "value": "desc.get"
+            "value": "desc.get",
+            "raw": "'desc.get'"
           }
         ],
         "optional": false

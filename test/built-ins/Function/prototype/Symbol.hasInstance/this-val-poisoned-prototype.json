@@ -88,7 +88,8 @@
                   "type": "Literal",
                   "start": 587,
                   "end": 590,
-                  "value": "f"
+                  "value": "f",
+                  "raw": "'f'"
                 }
               ],
               "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 623,
             "end": 634,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "'prototype'"
           },
           {
             "type": "ObjectExpression",

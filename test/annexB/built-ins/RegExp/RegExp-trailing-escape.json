@@ -40,6 +40,7 @@
               "start": 366,
               "end": 371,
               "value": {},
+              "raw": "/a\\1/",
               "regex": {
                 "pattern": "a\\1",
                 "flags": ""
@@ -58,7 +59,8 @@
             "type": "Literal",
             "start": 380,
             "end": 386,
-            "value": "a\\1"
+            "value": "a\\1",
+            "raw": "\"a\\\\1\""
           }
         ],
         "optional": false
@@ -101,6 +103,7 @@
               "start": 406,
               "end": 411,
               "value": {},
+              "raw": "/a\\a/",
               "regex": {
                 "pattern": "a\\a",
                 "flags": ""
@@ -119,7 +122,8 @@
             "type": "Literal",
             "start": 420,
             "end": 426,
-            "value": "a\\a"
+            "value": "a\\a",
+            "raw": "\"a\\\\a\""
           }
         ],
         "optional": false

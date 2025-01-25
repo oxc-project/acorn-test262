@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 390,
             "end": 391,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -77,19 +78,22 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 444,
-                "value": "Await: 1"
+                "value": "Await: 1",
+                "raw": "'Await: 1'"
               },
               {
                 "type": "Literal",
                 "start": 448,
                 "end": 460,
-                "value": "Promise: 1"
+                "value": "Promise: 1",
+                "raw": "'Promise: 1'"
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 476,
-                "value": "Promise: 2"
+                "value": "Promise: 2",
+                "raw": "'Promise: 2'"
               }
             ]
           }
@@ -159,7 +163,8 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 537,
-                    "value": "Await: "
+                    "value": "Await: ",
+                    "raw": "'Await: '"
                   },
                   "operator": "+",
                   "right": {
@@ -291,7 +296,8 @@
                   "type": "Literal",
                   "start": 684,
                   "end": 732,
-                  "value": "Async/await and promises should be interleaved"
+                  "value": "Async/await and promises should be interleaved",
+                  "raw": "'Async/await and promises should be interleaved'"
                 }
               ],
               "optional": false
@@ -454,7 +460,8 @@
                             "type": "Literal",
                             "start": 838,
                             "end": 850,
-                            "value": "Promise: 1"
+                            "value": "Promise: 1",
+                            "raw": "'Promise: 1'"
                           }
                         ],
                         "optional": false
@@ -539,7 +546,8 @@
                         "type": "Literal",
                         "start": 902,
                         "end": 914,
-                        "value": "Promise: 2"
+                        "value": "Promise: 2",
+                        "raw": "'Promise: 2'"
                       }
                     ],
                     "optional": false

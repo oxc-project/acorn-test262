@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1984,
             "end": 1985,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -112,7 +113,8 @@
                                   "type": "Literal",
                                   "start": 2037,
                                   "end": 2039,
-                                  "value": 33
+                                  "value": 33,
+                                  "raw": "33"
                                 }
                               },
                               "kind": "init"
@@ -170,7 +172,8 @@
                                 "type": "Literal",
                                 "start": 2075,
                                 "end": 2077,
-                                "value": 33
+                                "value": 33,
+                                "raw": "33"
                               }
                             ],
                             "optional": false
@@ -272,7 +275,8 @@
                                 "type": "Literal",
                                 "start": 2172,
                                 "end": 2173,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -470,13 +474,15 @@
                             "type": "Literal",
                             "start": 2300,
                             "end": 2301,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2303,
                             "end": 2325,
-                            "value": "invoked exactly once"
+                            "value": "invoked exactly once",
+                            "raw": "'invoked exactly once'"
                           }
                         ],
                         "optional": false

@@ -105,7 +105,8 @@
                         "type": "Literal",
                         "start": 376,
                         "end": 378,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     },
@@ -126,7 +127,8 @@
                         "type": "Literal",
                         "start": 385,
                         "end": 387,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     },
@@ -147,7 +149,8 @@
                         "type": "Literal",
                         "start": 399,
                         "end": 408,
-                        "value": "gregory"
+                        "value": "gregory",
+                        "raw": "\"gregory\""
                       },
                       "kind": "init"
                     }
@@ -161,7 +164,8 @@
             "type": "Literal",
             "start": 413,
             "end": 451,
-            "value": "month, day with non-iso8601 calendar"
+            "value": "month, day with non-iso8601 calendar",
+            "raw": "\"month, day with non-iso8601 calendar\""
           }
         ],
         "optional": false

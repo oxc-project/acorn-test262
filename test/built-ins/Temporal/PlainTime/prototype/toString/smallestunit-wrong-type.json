@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 350,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 358,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 363,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 368,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 373,
-                "value": 500
+                "value": 500,
+                "raw": "500"
               }
             ]
           }
@@ -116,13 +122,15 @@
             "type": "Literal",
             "start": 419,
             "end": 433,
-            "value": "smallestUnit"
+            "value": "smallestUnit",
+            "raw": "\"smallestUnit\""
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 448,
-            "value": "microsecond"
+            "value": "microsecond",
+            "raw": "\"microsecond\""
           },
           {
             "type": "ArrowFunctionExpression",
@@ -252,7 +260,8 @@
                   "type": "Literal",
                   "start": 549,
                   "end": 566,
-                  "value": "12:34:56.123987"
+                  "value": "12:34:56.123987",
+                  "raw": "\"12:34:56.123987\""
                 },
                 {
                   "type": "Identifier",

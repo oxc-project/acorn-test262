@@ -75,7 +75,8 @@
                         "type": "Literal",
                         "start": 318,
                         "end": 322,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "\"en\""
                       }
                     ]
                   }
@@ -105,13 +106,15 @@
             "type": "Literal",
             "start": 364,
             "end": 369,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 371,
             "end": 415,
-            "value": "English default ignorePunctuation to false"
+            "value": "English default ignorePunctuation to false",
+            "raw": "\"English default ignorePunctuation to false\""
           }
         ],
         "optional": false
@@ -189,7 +192,8 @@
                         "type": "Literal",
                         "start": 457,
                         "end": 461,
-                        "value": "th"
+                        "value": "th",
+                        "raw": "\"th\""
                       }
                     ]
                   }
@@ -219,13 +223,15 @@
             "type": "Literal",
             "start": 503,
             "end": 507,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 549,
-            "value": "Thai default ignorePunctuation to true"
+            "value": "Thai default ignorePunctuation to true",
+            "raw": "\"Thai default ignorePunctuation to true\""
           }
         ],
         "optional": false
@@ -303,7 +309,8 @@
                         "type": "Literal",
                         "start": 591,
                         "end": 595,
-                        "value": "ja"
+                        "value": "ja",
+                        "raw": "\"ja\""
                       }
                     ]
                   }
@@ -333,13 +340,15 @@
             "type": "Literal",
             "start": 637,
             "end": 642,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 689,
-            "value": "Japanese default ignorePunctuation to false"
+            "value": "Japanese default ignorePunctuation to false",
+            "raw": "\"Japanese default ignorePunctuation to false\""
           }
         ],
         "optional": false

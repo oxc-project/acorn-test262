@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 840,
                 "end": 848,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -60,6 +61,7 @@
                 "start": 855,
                 "end": 871,
                 "value": {},
+                "raw": "/(?<!abc)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<!abc)\\w\\w\\w",
                   "flags": ""
@@ -77,7 +79,8 @@
                 "type": "Literal",
                 "start": 875,
                 "end": 880,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           },
@@ -85,7 +88,8 @@
             "type": "Literal",
             "start": 883,
             "end": 887,
-            "value": "#1"
+            "value": "#1",
+            "raw": "\"#1\""
           }
         ],
         "optional": false
@@ -131,7 +135,8 @@
                 "type": "Literal",
                 "start": 910,
                 "end": 918,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -148,6 +153,7 @@
                 "start": 925,
                 "end": 941,
                 "value": {},
+                "raw": "/(?<!a.c)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<!a.c)\\w\\w\\w",
                   "flags": ""
@@ -165,7 +171,8 @@
                 "type": "Literal",
                 "start": 945,
                 "end": 950,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           },
@@ -173,7 +180,8 @@
             "type": "Literal",
             "start": 953,
             "end": 957,
-            "value": "#2"
+            "value": "#2",
+            "raw": "\"#2\""
           }
         ],
         "optional": false
@@ -219,7 +227,8 @@
                 "type": "Literal",
                 "start": 980,
                 "end": 988,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -236,6 +245,7 @@
                 "start": 995,
                 "end": 1012,
                 "value": {},
+                "raw": "/(?<!a\\wc)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<!a\\wc)\\w\\w\\w",
                   "flags": ""
@@ -253,7 +263,8 @@
                 "type": "Literal",
                 "start": 1016,
                 "end": 1021,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           },
@@ -261,7 +272,8 @@
             "type": "Literal",
             "start": 1024,
             "end": 1028,
-            "value": "#3"
+            "value": "#3",
+            "raw": "\"#3\""
           }
         ],
         "optional": false
@@ -307,7 +319,8 @@
                 "type": "Literal",
                 "start": 1051,
                 "end": 1059,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -324,6 +337,7 @@
                 "start": 1066,
                 "end": 1085,
                 "value": {},
+                "raw": "/(?<!a[a-z])\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<!a[a-z])\\w\\w\\w",
                   "flags": ""
@@ -341,7 +355,8 @@
                 "type": "Literal",
                 "start": 1089,
                 "end": 1094,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           },
@@ -349,7 +364,8 @@
             "type": "Literal",
             "start": 1097,
             "end": 1101,
-            "value": "#4"
+            "value": "#4",
+            "raw": "\"#4\""
           }
         ],
         "optional": false
@@ -395,7 +411,8 @@
                 "type": "Literal",
                 "start": 1124,
                 "end": 1132,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -412,6 +429,7 @@
                 "start": 1139,
                 "end": 1161,
                 "value": {},
+                "raw": "/(?<!a[a-z]{2})\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<!a[a-z]{2})\\w\\w\\w",
                   "flags": ""
@@ -429,7 +447,8 @@
                 "type": "Literal",
                 "start": 1165,
                 "end": 1170,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           },
@@ -437,7 +456,8 @@
             "type": "Literal",
             "start": 1173,
             "end": 1177,
-            "value": "#5"
+            "value": "#5",
+            "raw": "\"#5\""
           }
         ],
         "optional": false
@@ -483,7 +503,8 @@
                 "type": "Literal",
                 "start": 1197,
                 "end": 1205,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -500,6 +521,7 @@
                 "start": 1212,
                 "end": 1225,
                 "value": {},
+                "raw": "/(?<!abc)def/",
                 "regex": {
                   "pattern": "(?<!abc)def",
                   "flags": ""
@@ -512,13 +534,15 @@
             "type": "Literal",
             "start": 1228,
             "end": 1232,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1234,
             "end": 1238,
-            "value": "#6"
+            "value": "#6",
+            "raw": "\"#6\""
           }
         ],
         "optional": false
@@ -564,7 +588,8 @@
                 "type": "Literal",
                 "start": 1258,
                 "end": 1266,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -581,6 +606,7 @@
                 "start": 1273,
                 "end": 1286,
                 "value": {},
+                "raw": "/(?<!a.c)def/",
                 "regex": {
                   "pattern": "(?<!a.c)def",
                   "flags": ""
@@ -593,13 +619,15 @@
             "type": "Literal",
             "start": 1289,
             "end": 1293,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1295,
             "end": 1299,
-            "value": "#7"
+            "value": "#7",
+            "raw": "\"#7\""
           }
         ],
         "optional": false
@@ -645,7 +673,8 @@
                 "type": "Literal",
                 "start": 1319,
                 "end": 1327,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -662,6 +691,7 @@
                 "start": 1334,
                 "end": 1348,
                 "value": {},
+                "raw": "/(?<!a\\wc)def/",
                 "regex": {
                   "pattern": "(?<!a\\wc)def",
                   "flags": ""
@@ -674,13 +704,15 @@
             "type": "Literal",
             "start": 1351,
             "end": 1355,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1357,
             "end": 1361,
-            "value": "#8"
+            "value": "#8",
+            "raw": "\"#8\""
           }
         ],
         "optional": false
@@ -726,7 +758,8 @@
                 "type": "Literal",
                 "start": 1381,
                 "end": 1389,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -743,6 +776,7 @@
                 "start": 1396,
                 "end": 1417,
                 "value": {},
+                "raw": "/(?<!a[a-z][a-z])def/",
                 "regex": {
                   "pattern": "(?<!a[a-z][a-z])def",
                   "flags": ""
@@ -755,13 +789,15 @@
             "type": "Literal",
             "start": 1420,
             "end": 1424,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1426,
             "end": 1430,
-            "value": "#9"
+            "value": "#9",
+            "raw": "\"#9\""
           }
         ],
         "optional": false
@@ -807,7 +843,8 @@
                 "type": "Literal",
                 "start": 1450,
                 "end": 1458,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -824,6 +861,7 @@
                 "start": 1465,
                 "end": 1484,
                 "value": {},
+                "raw": "/(?<!a[a-z]{2})def/",
                 "regex": {
                   "pattern": "(?<!a[a-z]{2})def",
                   "flags": ""
@@ -836,13 +874,15 @@
             "type": "Literal",
             "start": 1487,
             "end": 1491,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1493,
             "end": 1498,
-            "value": "#10"
+            "value": "#10",
+            "raw": "\"#10\""
           }
         ],
         "optional": false
@@ -888,7 +928,8 @@
                 "type": "Literal",
                 "start": 1518,
                 "end": 1526,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -905,6 +946,7 @@
                 "start": 1533,
                 "end": 1551,
                 "value": {},
+                "raw": "/(?<!a{1}b{1})cde/",
                 "regex": {
                   "pattern": "(?<!a{1}b{1})cde",
                   "flags": ""
@@ -917,13 +959,15 @@
             "type": "Literal",
             "start": 1554,
             "end": 1558,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1560,
             "end": 1565,
-            "value": "#11"
+            "value": "#11",
+            "raw": "\"#11\""
           }
         ],
         "optional": false
@@ -969,7 +1013,8 @@
                 "type": "Literal",
                 "start": 1585,
                 "end": 1593,
-                "value": "abcdef"
+                "value": "abcdef",
+                "raw": "\"abcdef\""
               },
               "property": {
                 "type": "Identifier",
@@ -986,6 +1031,7 @@
                 "start": 1600,
                 "end": 1622,
                 "value": {},
+                "raw": "/(?<!a{1}[a-z]{2})def/",
                 "regex": {
                   "pattern": "(?<!a{1}[a-z]{2})def",
                   "flags": ""
@@ -998,13 +1044,15 @@
             "type": "Literal",
             "start": 1625,
             "end": 1629,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 1631,
             "end": 1636,
-            "value": "#12"
+            "value": "#12",
+            "raw": "\"#12\""
           }
         ],
         "optional": false

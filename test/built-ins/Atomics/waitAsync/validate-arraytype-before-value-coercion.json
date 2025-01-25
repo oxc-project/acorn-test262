@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 1371,
             "end": 1381,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1438,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -318,7 +320,8 @@
                           "type": "Literal",
                           "start": 1734,
                           "end": 1735,
-                          "value": 8
+                          "value": 8,
+                          "raw": "8"
                         }
                       ]
                     }
@@ -414,7 +417,8 @@
                               "type": "Literal",
                               "start": 1813,
                               "end": 1814,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Identifier",
@@ -426,7 +430,8 @@
                               "type": "Literal",
                               "start": 1823,
                               "end": 1824,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ],
                           "optional": false
@@ -439,7 +444,8 @@
                   "type": "Literal",
                   "start": 1832,
                   "end": 1907,
-                  "value": "`Atomics.waitAsync(typedArray, 0, value, 0)` throws a TypeError exception"
+                  "value": "`Atomics.waitAsync(typedArray, 0, value, 0)` throws a TypeError exception",
+                  "raw": "'`Atomics.waitAsync(typedArray, 0, value, 0)` throws a TypeError exception'"
                 }
               ],
               "optional": false

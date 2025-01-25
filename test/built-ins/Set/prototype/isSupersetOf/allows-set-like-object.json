@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 497,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 499,
                     "end": 500,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -91,7 +93,8 @@
                   "type": "Literal",
                   "start": 525,
                   "end": 526,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -148,7 +151,8 @@
                               "type": "Literal",
                               "start": 571,
                               "end": 641,
-                              "value": "Set.prototype.isSupersetOf should not call its argument's has method"
+                              "value": "Set.prototype.isSupersetOf should not call its argument's has method",
+                              "raw": "\"Set.prototype.isSupersetOf should not call its argument's has method\""
                             }
                           ]
                         }
@@ -203,7 +207,8 @@
                             "type": "Literal",
                             "start": 686,
                             "end": 687,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -283,7 +288,8 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

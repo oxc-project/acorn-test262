@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 321,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 337,
-                "value": "Asia/Kolkata"
+                "value": "Asia/Kolkata",
+                "raw": "\"Asia/Kolkata\""
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 387,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 404,
-                "value": "Asia/Calcutta"
+                "value": "Asia/Calcutta",
+                "raw": "\"Asia/Calcutta\""
               }
             ]
           }
@@ -201,7 +205,8 @@
             "type": "Literal",
             "start": 481,
             "end": 549,
-            "value": "Time zone names are canonicalized before passing to DateTimeFormat"
+            "value": "Time zone names are canonicalized before passing to DateTimeFormat",
+            "raw": "\"Time zone names are canonicalized before passing to DateTimeFormat\""
           }
         ],
         "optional": false

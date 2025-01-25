@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 320,
             "end": 328,
-            "value": "\ud834"
+            "value": "\ud834",
+            "raw": "'\\uD834'"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 339,
             "end": 347,
-            "value": "\udf06"
+            "value": "\udf06",
+            "raw": "'\\uDF06'"
           }
         }
       ],
@@ -133,7 +135,8 @@
                         "type": "Literal",
                         "start": 382,
                         "end": 385,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       },
                       "operator": "+",
                       "right": {
@@ -148,7 +151,8 @@
                       "type": "Literal",
                       "start": 395,
                       "end": 398,
-                      "value": "b"
+                      "value": "b",
+                      "raw": "'b'"
                     }
                   },
                   "operator": "+",
@@ -359,13 +363,15 @@
             "type": "Literal",
             "start": 534,
             "end": 537,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 572,
-            "value": "First normal code point `value`"
+            "value": "First normal code point `value`",
+            "raw": "'First normal code point `value`'"
           }
         ],
         "optional": false
@@ -422,13 +428,15 @@
             "type": "Literal",
             "start": 605,
             "end": 610,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 649,
-            "value": "First normal code point `done` flag"
+            "value": "First normal code point `done` flag",
+            "raw": "'First normal code point `done` flag'"
           }
         ],
         "optional": false
@@ -534,7 +542,8 @@
             "type": "Literal",
             "start": 719,
             "end": 772,
-            "value": "Surrogate pair `value` (between normal code points)"
+            "value": "Surrogate pair `value` (between normal code points)",
+            "raw": "'Surrogate pair `value` (between normal code points)'"
           }
         ],
         "optional": false
@@ -591,13 +600,15 @@
             "type": "Literal",
             "start": 809,
             "end": 814,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 816,
             "end": 873,
-            "value": "Surrogate pair `done` flag (between normal code points)"
+            "value": "Surrogate pair `done` flag (between normal code points)",
+            "raw": "'Surrogate pair `done` flag (between normal code points)'"
           }
         ],
         "optional": false
@@ -697,13 +708,15 @@
             "type": "Literal",
             "start": 935,
             "end": 938,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 974,
-            "value": "Second normal code point `value`"
+            "value": "Second normal code point `value`",
+            "raw": "'Second normal code point `value`'"
           }
         ],
         "optional": false
@@ -760,13 +773,15 @@
             "type": "Literal",
             "start": 1007,
             "end": 1012,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1052,
-            "value": "Second normal code point `done` flag"
+            "value": "Second normal code point `done` flag",
+            "raw": "'Second normal code point `done` flag'"
           }
         ],
         "optional": false
@@ -872,7 +887,8 @@
             "type": "Literal",
             "start": 1124,
             "end": 1185,
-            "value": "Lone lower code point `value` (following normal code point)"
+            "value": "Lone lower code point `value` (following normal code point)",
+            "raw": "'Lone lower code point `value` (following normal code point)'"
           }
         ],
         "optional": false
@@ -929,13 +945,15 @@
             "type": "Literal",
             "start": 1224,
             "end": 1229,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1298,
-            "value": "Lone lower code point `done` flag (following normal code point)"
+            "value": "Lone lower code point `done` flag (following normal code point)",
+            "raw": "'Lone lower code point `done` flag (following normal code point)'"
           }
         ],
         "optional": false
@@ -1041,7 +1059,8 @@
             "type": "Literal",
             "start": 1373,
             "end": 1442,
-            "value": "Surrogate pair `value` (between lone lower- and upper- code points)"
+            "value": "Surrogate pair `value` (between lone lower- and upper- code points)",
+            "raw": "'Surrogate pair `value` (between lone lower- and upper- code points)'"
           }
         ],
         "optional": false
@@ -1098,13 +1117,15 @@
             "type": "Literal",
             "start": 1481,
             "end": 1486,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1490,
             "end": 1563,
-            "value": "Surrogate pair `done` flag (between lone lower- and upper- code points)"
+            "value": "Surrogate pair `done` flag (between lone lower- and upper- code points)",
+            "raw": "'Surrogate pair `done` flag (between lone lower- and upper- code points)'"
           }
         ],
         "optional": false
@@ -1210,7 +1231,8 @@
             "type": "Literal",
             "start": 1629,
             "end": 1660,
-            "value": "Lone upper code point `value`"
+            "value": "Lone upper code point `value`",
+            "raw": "'Lone upper code point `value`'"
           }
         ],
         "optional": false
@@ -1267,13 +1289,15 @@
             "type": "Literal",
             "start": 1693,
             "end": 1698,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1700,
             "end": 1735,
-            "value": "Lone upper code point `done` flag"
+            "value": "Lone upper code point `done` flag",
+            "raw": "'Lone upper code point `done` flag'"
           }
         ],
         "optional": false
@@ -1379,7 +1403,8 @@
             "type": "Literal",
             "start": 1807,
             "end": 1872,
-            "value": "Lone lower code point `value` (following lone upper code point)"
+            "value": "Lone lower code point `value` (following lone upper code point)",
+            "raw": "'Lone lower code point `value` (following lone upper code point)'"
           }
         ],
         "optional": false
@@ -1436,13 +1461,15 @@
             "type": "Literal",
             "start": 1911,
             "end": 1916,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1920,
             "end": 1989,
-            "value": "Lone lower code point `done` flag (following lone upper code point)"
+            "value": "Lone lower code point `done` flag (following lone upper code point)",
+            "raw": "'Lone lower code point `done` flag (following lone upper code point)'"
           }
         ],
         "optional": false
@@ -1548,7 +1575,8 @@
             "type": "Literal",
             "start": 2062,
             "end": 2088,
-            "value": "Exhausted result `value`"
+            "value": "Exhausted result `value`",
+            "raw": "'Exhausted result `value`'"
           }
         ],
         "optional": false
@@ -1605,13 +1633,15 @@
             "type": "Literal",
             "start": 2121,
             "end": 2125,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2127,
             "end": 2157,
-            "value": "Exhausted result `done` flag"
+            "value": "Exhausted result `done` flag",
+            "raw": "'Exhausted result `done` flag'"
           }
         ],
         "optional": false
@@ -1717,7 +1747,8 @@
             "type": "Literal",
             "start": 2232,
             "end": 2277,
-            "value": "Exhausted result `value` (repeated request)"
+            "value": "Exhausted result `value` (repeated request)",
+            "raw": "'Exhausted result `value` (repeated request)'"
           }
         ],
         "optional": false
@@ -1774,13 +1805,15 @@
             "type": "Literal",
             "start": 2314,
             "end": 2318,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2320,
             "end": 2368,
-            "value": "Exhausted result `done` flag (repeated request"
+            "value": "Exhausted result `done` flag (repeated request",
+            "raw": "'Exhausted result `done` flag (repeated request'"
           }
         ],
         "optional": false

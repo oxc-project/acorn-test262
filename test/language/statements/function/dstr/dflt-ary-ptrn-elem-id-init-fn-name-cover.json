@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1941,
             "end": 1942,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -106,7 +107,8 @@
                         "type": "Literal",
                         "start": 1992,
                         "end": 1993,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "FunctionExpression",
@@ -194,7 +196,8 @@
                   "type": "Literal",
                   "start": 2050,
                   "end": 2057,
-                  "value": "cover"
+                  "value": "cover",
+                  "raw": "'cover'"
                 }
               ],
               "optional": false
@@ -251,7 +254,8 @@
                   "type": "Literal",
                   "start": 2095,
                   "end": 2103,
-                  "value": "xCover"
+                  "value": "xCover",
+                  "raw": "'xCover'"
                 }
               ],
               "optional": false
@@ -287,7 +291,8 @@
                   "type": "Literal",
                   "start": 2132,
                   "end": 2133,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -356,13 +361,15 @@
             "type": "Literal",
             "start": 2171,
             "end": 2172,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2174,
             "end": 2205,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

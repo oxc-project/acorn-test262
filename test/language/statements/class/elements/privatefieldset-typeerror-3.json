@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 1215,
               "end": 1217,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           },
           {
@@ -143,7 +144,8 @@
                                         "type": "Literal",
                                         "start": 1425,
                                         "end": 1426,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       }
                                     }
                                   }
@@ -381,7 +383,8 @@
             "type": "Literal",
             "start": 1597,
             "end": 1599,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -445,7 +448,8 @@
             "type": "Literal",
             "start": 1630,
             "end": 1632,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -540,13 +544,15 @@
             "type": "Literal",
             "start": 1676,
             "end": 1678,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1680,
             "end": 1723,
-            "value": "value is set on inner class instance only"
+            "value": "value is set on inner class instance only",
+            "raw": "\"value is set on inner class instance only\""
           }
         ],
         "optional": false
@@ -610,13 +616,15 @@
             "type": "Literal",
             "start": 1754,
             "end": 1755,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1797,
-            "value": "value is set from inner class instance"
+            "value": "value is set from inner class instance",
+            "raw": "\"value is set from inner class instance\""
           }
         ],
         "optional": false

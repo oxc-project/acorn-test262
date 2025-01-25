@@ -35,13 +35,15 @@
             "type": "Literal",
             "start": 535,
             "end": 539,
-            "value": "8"
+            "value": "8",
+            "raw": "'\\8'"
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 544,
-            "value": "8"
+            "value": "8",
+            "raw": "'8'"
           }
         ],
         "optional": false

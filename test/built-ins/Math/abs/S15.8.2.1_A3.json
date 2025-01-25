@@ -113,7 +113,8 @@
             "type": "Literal",
             "start": 351,
             "end": 394,
-            "value": "Math.abs(-Infinity) must return +Infinity"
+            "value": "Math.abs(-Infinity) must return +Infinity",
+            "raw": "'Math.abs(-Infinity) must return +Infinity'"
           }
         ],
         "optional": false

@@ -1,31 +1,31 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3430,
+  "end": 3422,
   "body": [
     {
       "type": "ForStatement",
-      "start": 2498,
-      "end": 2724,
+      "start": 2490,
+      "end": 2716,
       "init": {
         "type": "AwaitExpression",
-        "start": 2504,
-        "end": 2553,
+        "start": 2496,
+        "end": 2545,
         "argument": {
           "type": "NewExpression",
-          "start": 2510,
-          "end": 2553,
+          "start": 2502,
+          "end": 2545,
           "callee": {
             "type": "Identifier",
-            "start": 2514,
-            "end": 2521,
+            "start": 2506,
+            "end": 2513,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 2522,
-              "end": 2552,
+              "start": 2514,
+              "end": 2544,
               "id": null,
               "expression": false,
               "generator": false,
@@ -33,42 +33,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 2531,
-                  "end": 2534,
+                  "start": 2523,
+                  "end": 2526,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2536,
-                  "end": 2539,
+                  "start": 2528,
+                  "end": 2531,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 2541,
-                "end": 2552,
+                "start": 2533,
+                "end": 2544,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 2543,
-                    "end": 2550,
+                    "start": 2535,
+                    "end": 2542,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 2543,
-                      "end": 2549,
+                      "start": 2535,
+                      "end": 2541,
                       "callee": {
                         "type": "Identifier",
-                        "start": 2543,
-                        "end": 2546,
+                        "start": 2535,
+                        "end": 2538,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 2547,
-                          "end": 2548,
-                          "value": 1
+                          "start": 2539,
+                          "end": 2540,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -82,23 +83,23 @@
       },
       "test": {
         "type": "AwaitExpression",
-        "start": 2556,
-        "end": 2605,
+        "start": 2548,
+        "end": 2597,
         "argument": {
           "type": "NewExpression",
-          "start": 2562,
-          "end": 2605,
+          "start": 2554,
+          "end": 2597,
           "callee": {
             "type": "Identifier",
-            "start": 2566,
-            "end": 2573,
+            "start": 2558,
+            "end": 2565,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 2574,
-              "end": 2604,
+              "start": 2566,
+              "end": 2596,
               "id": null,
               "expression": false,
               "generator": false,
@@ -106,42 +107,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 2583,
-                  "end": 2586,
+                  "start": 2575,
+                  "end": 2578,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2588,
-                  "end": 2591,
+                  "start": 2580,
+                  "end": 2583,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 2593,
-                "end": 2604,
+                "start": 2585,
+                "end": 2596,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 2595,
-                    "end": 2602,
+                    "start": 2587,
+                    "end": 2594,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 2595,
-                      "end": 2601,
+                      "start": 2587,
+                      "end": 2593,
                       "callee": {
                         "type": "Identifier",
-                        "start": 2595,
-                        "end": 2598,
+                        "start": 2587,
+                        "end": 2590,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 2599,
-                          "end": 2600,
-                          "value": 1
+                          "start": 2591,
+                          "end": 2592,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -155,23 +157,23 @@
       },
       "update": {
         "type": "AwaitExpression",
-        "start": 2607,
-        "end": 2656,
+        "start": 2599,
+        "end": 2648,
         "argument": {
           "type": "NewExpression",
-          "start": 2613,
-          "end": 2656,
+          "start": 2605,
+          "end": 2648,
           "callee": {
             "type": "Identifier",
-            "start": 2617,
-            "end": 2624,
+            "start": 2609,
+            "end": 2616,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 2625,
-              "end": 2655,
+              "start": 2617,
+              "end": 2647,
               "id": null,
               "expression": false,
               "generator": false,
@@ -179,42 +181,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 2634,
-                  "end": 2637,
+                  "start": 2626,
+                  "end": 2629,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2639,
-                  "end": 2642,
+                  "start": 2631,
+                  "end": 2634,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 2644,
-                "end": 2655,
+                "start": 2636,
+                "end": 2647,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 2646,
-                    "end": 2653,
+                    "start": 2638,
+                    "end": 2645,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 2646,
-                      "end": 2652,
+                      "start": 2638,
+                      "end": 2644,
                       "callee": {
                         "type": "Identifier",
-                        "start": 2646,
-                        "end": 2649,
+                        "start": 2638,
+                        "end": 2641,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 2650,
-                          "end": 2651,
-                          "value": 1
+                          "start": 2642,
+                          "end": 2643,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -228,32 +231,32 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2659,
-        "end": 2724,
+        "start": 2651,
+        "end": 2716,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2663,
-            "end": 2713,
+            "start": 2655,
+            "end": 2705,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2663,
-              "end": 2712,
+              "start": 2655,
+              "end": 2704,
               "argument": {
                 "type": "NewExpression",
-                "start": 2669,
-                "end": 2712,
+                "start": 2661,
+                "end": 2704,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2673,
-                  "end": 2680,
+                  "start": 2665,
+                  "end": 2672,
                   "name": "Promise"
                 },
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 2681,
-                    "end": 2711,
+                    "start": 2673,
+                    "end": 2703,
                     "id": null,
                     "expression": false,
                     "generator": false,
@@ -261,42 +264,43 @@
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 2690,
-                        "end": 2693,
+                        "start": 2682,
+                        "end": 2685,
                         "name": "res"
                       },
                       {
                         "type": "Identifier",
-                        "start": 2695,
-                        "end": 2698,
+                        "start": 2687,
+                        "end": 2690,
                         "name": "rej"
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 2700,
-                      "end": 2711,
+                      "start": 2692,
+                      "end": 2703,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 2702,
-                          "end": 2709,
+                          "start": 2694,
+                          "end": 2701,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 2702,
-                            "end": 2708,
+                            "start": 2694,
+                            "end": 2700,
                             "callee": {
                               "type": "Identifier",
-                              "start": 2702,
-                              "end": 2705,
+                              "start": 2694,
+                              "end": 2697,
                               "name": "res"
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 2706,
-                                "end": 2707,
-                                "value": 1
+                                "start": 2698,
+                                "end": 2699,
+                                "value": 1,
+                                "raw": "1"
                               }
                             ],
                             "optional": false
@@ -311,8 +315,8 @@
           },
           {
             "type": "BreakStatement",
-            "start": 2716,
-            "end": 2722,
+            "start": 2708,
+            "end": 2714,
             "label": null
           }
         ]
@@ -320,21 +324,21 @@
     },
     {
       "type": "ForStatement",
-      "start": 2895,
-      "end": 3082,
+      "start": 2887,
+      "end": 3074,
       "init": {
         "type": "VariableDeclaration",
-        "start": 2901,
-        "end": 2912,
+        "start": 2893,
+        "end": 2904,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2905,
-            "end": 2912,
+            "start": 2897,
+            "end": 2904,
             "id": {
               "type": "Identifier",
-              "start": 2905,
-              "end": 2912,
+              "start": 2897,
+              "end": 2904,
               "name": "binding"
             },
             "init": null
@@ -344,23 +348,23 @@
       },
       "test": {
         "type": "AwaitExpression",
-        "start": 2914,
-        "end": 2963,
+        "start": 2906,
+        "end": 2955,
         "argument": {
           "type": "NewExpression",
-          "start": 2920,
-          "end": 2963,
+          "start": 2912,
+          "end": 2955,
           "callee": {
             "type": "Identifier",
-            "start": 2924,
-            "end": 2931,
+            "start": 2916,
+            "end": 2923,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 2932,
-              "end": 2962,
+              "start": 2924,
+              "end": 2954,
               "id": null,
               "expression": false,
               "generator": false,
@@ -368,42 +372,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 2941,
-                  "end": 2944,
+                  "start": 2933,
+                  "end": 2936,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2946,
-                  "end": 2949,
+                  "start": 2938,
+                  "end": 2941,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 2951,
-                "end": 2962,
+                "start": 2943,
+                "end": 2954,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 2953,
-                    "end": 2960,
+                    "start": 2945,
+                    "end": 2952,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 2953,
-                      "end": 2959,
+                      "start": 2945,
+                      "end": 2951,
                       "callee": {
                         "type": "Identifier",
-                        "start": 2953,
-                        "end": 2956,
+                        "start": 2945,
+                        "end": 2948,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 2957,
-                          "end": 2958,
-                          "value": 1
+                          "start": 2949,
+                          "end": 2950,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -417,23 +422,23 @@
       },
       "update": {
         "type": "AwaitExpression",
-        "start": 2965,
-        "end": 3014,
+        "start": 2957,
+        "end": 3006,
         "argument": {
           "type": "NewExpression",
-          "start": 2971,
-          "end": 3014,
+          "start": 2963,
+          "end": 3006,
           "callee": {
             "type": "Identifier",
-            "start": 2975,
-            "end": 2982,
+            "start": 2967,
+            "end": 2974,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 2983,
-              "end": 3013,
+              "start": 2975,
+              "end": 3005,
               "id": null,
               "expression": false,
               "generator": false,
@@ -441,42 +446,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 2992,
-                  "end": 2995,
+                  "start": 2984,
+                  "end": 2987,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2997,
-                  "end": 3000,
+                  "start": 2989,
+                  "end": 2992,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 3002,
-                "end": 3013,
+                "start": 2994,
+                "end": 3005,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 3004,
-                    "end": 3011,
+                    "start": 2996,
+                    "end": 3003,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 3004,
-                      "end": 3010,
+                      "start": 2996,
+                      "end": 3002,
                       "callee": {
                         "type": "Identifier",
-                        "start": 3004,
-                        "end": 3007,
+                        "start": 2996,
+                        "end": 2999,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 3008,
-                          "end": 3009,
-                          "value": 1
+                          "start": 3000,
+                          "end": 3001,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -490,32 +496,32 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 3017,
-        "end": 3082,
+        "start": 3009,
+        "end": 3074,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 3021,
-            "end": 3071,
+            "start": 3013,
+            "end": 3063,
             "expression": {
               "type": "AwaitExpression",
-              "start": 3021,
-              "end": 3070,
+              "start": 3013,
+              "end": 3062,
               "argument": {
                 "type": "NewExpression",
-                "start": 3027,
-                "end": 3070,
+                "start": 3019,
+                "end": 3062,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3031,
-                  "end": 3038,
+                  "start": 3023,
+                  "end": 3030,
                   "name": "Promise"
                 },
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 3039,
-                    "end": 3069,
+                    "start": 3031,
+                    "end": 3061,
                     "id": null,
                     "expression": false,
                     "generator": false,
@@ -523,42 +529,43 @@
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 3048,
-                        "end": 3051,
+                        "start": 3040,
+                        "end": 3043,
                         "name": "res"
                       },
                       {
                         "type": "Identifier",
-                        "start": 3053,
-                        "end": 3056,
+                        "start": 3045,
+                        "end": 3048,
                         "name": "rej"
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 3058,
-                      "end": 3069,
+                      "start": 3050,
+                      "end": 3061,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 3060,
-                          "end": 3067,
+                          "start": 3052,
+                          "end": 3059,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 3060,
-                            "end": 3066,
+                            "start": 3052,
+                            "end": 3058,
                             "callee": {
                               "type": "Identifier",
-                              "start": 3060,
-                              "end": 3063,
+                              "start": 3052,
+                              "end": 3055,
                               "name": "res"
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 3064,
-                                "end": 3065,
-                                "value": 1
+                                "start": 3056,
+                                "end": 3057,
+                                "value": 1,
+                                "raw": "1"
                               }
                             ],
                             "optional": false
@@ -573,8 +580,8 @@
           },
           {
             "type": "BreakStatement",
-            "start": 3074,
-            "end": 3080,
+            "start": 3066,
+            "end": 3072,
             "label": null
           }
         ]
@@ -582,21 +589,21 @@
     },
     {
       "type": "ForStatement",
-      "start": 3242,
-      "end": 3429,
+      "start": 3234,
+      "end": 3421,
       "init": {
         "type": "VariableDeclaration",
-        "start": 3248,
-        "end": 3259,
+        "start": 3240,
+        "end": 3251,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 3252,
-            "end": 3259,
+            "start": 3244,
+            "end": 3251,
             "id": {
               "type": "Identifier",
-              "start": 3252,
-              "end": 3259,
+              "start": 3244,
+              "end": 3251,
               "name": "binding"
             },
             "init": null
@@ -606,23 +613,23 @@
       },
       "test": {
         "type": "AwaitExpression",
-        "start": 3261,
-        "end": 3310,
+        "start": 3253,
+        "end": 3302,
         "argument": {
           "type": "NewExpression",
-          "start": 3267,
-          "end": 3310,
+          "start": 3259,
+          "end": 3302,
           "callee": {
             "type": "Identifier",
-            "start": 3271,
-            "end": 3278,
+            "start": 3263,
+            "end": 3270,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 3279,
-              "end": 3309,
+              "start": 3271,
+              "end": 3301,
               "id": null,
               "expression": false,
               "generator": false,
@@ -630,42 +637,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 3288,
-                  "end": 3291,
+                  "start": 3280,
+                  "end": 3283,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 3293,
-                  "end": 3296,
+                  "start": 3285,
+                  "end": 3288,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 3298,
-                "end": 3309,
+                "start": 3290,
+                "end": 3301,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 3300,
-                    "end": 3307,
+                    "start": 3292,
+                    "end": 3299,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 3300,
-                      "end": 3306,
+                      "start": 3292,
+                      "end": 3298,
                       "callee": {
                         "type": "Identifier",
-                        "start": 3300,
-                        "end": 3303,
+                        "start": 3292,
+                        "end": 3295,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 3304,
-                          "end": 3305,
-                          "value": 1
+                          "start": 3296,
+                          "end": 3297,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -679,23 +687,23 @@
       },
       "update": {
         "type": "AwaitExpression",
-        "start": 3312,
-        "end": 3361,
+        "start": 3304,
+        "end": 3353,
         "argument": {
           "type": "NewExpression",
-          "start": 3318,
-          "end": 3361,
+          "start": 3310,
+          "end": 3353,
           "callee": {
             "type": "Identifier",
-            "start": 3322,
-            "end": 3329,
+            "start": 3314,
+            "end": 3321,
             "name": "Promise"
           },
           "arguments": [
             {
               "type": "FunctionExpression",
-              "start": 3330,
-              "end": 3360,
+              "start": 3322,
+              "end": 3352,
               "id": null,
               "expression": false,
               "generator": false,
@@ -703,42 +711,43 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 3339,
-                  "end": 3342,
+                  "start": 3331,
+                  "end": 3334,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 3344,
-                  "end": 3347,
+                  "start": 3336,
+                  "end": 3339,
                   "name": "rej"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 3349,
-                "end": 3360,
+                "start": 3341,
+                "end": 3352,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 3351,
-                    "end": 3358,
+                    "start": 3343,
+                    "end": 3350,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 3351,
-                      "end": 3357,
+                      "start": 3343,
+                      "end": 3349,
                       "callee": {
                         "type": "Identifier",
-                        "start": 3351,
-                        "end": 3354,
+                        "start": 3343,
+                        "end": 3346,
                         "name": "res"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 3355,
-                          "end": 3356,
-                          "value": 1
+                          "start": 3347,
+                          "end": 3348,
+                          "value": 1,
+                          "raw": "1"
                         }
                       ],
                       "optional": false
@@ -752,32 +761,32 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 3364,
-        "end": 3429,
+        "start": 3356,
+        "end": 3421,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 3368,
-            "end": 3418,
+            "start": 3360,
+            "end": 3410,
             "expression": {
               "type": "AwaitExpression",
-              "start": 3368,
-              "end": 3417,
+              "start": 3360,
+              "end": 3409,
               "argument": {
                 "type": "NewExpression",
-                "start": 3374,
-                "end": 3417,
+                "start": 3366,
+                "end": 3409,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3378,
-                  "end": 3385,
+                  "start": 3370,
+                  "end": 3377,
                   "name": "Promise"
                 },
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 3386,
-                    "end": 3416,
+                    "start": 3378,
+                    "end": 3408,
                     "id": null,
                     "expression": false,
                     "generator": false,
@@ -785,42 +794,43 @@
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 3395,
-                        "end": 3398,
+                        "start": 3387,
+                        "end": 3390,
                         "name": "res"
                       },
                       {
                         "type": "Identifier",
-                        "start": 3400,
-                        "end": 3403,
+                        "start": 3392,
+                        "end": 3395,
                         "name": "rej"
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 3405,
-                      "end": 3416,
+                      "start": 3397,
+                      "end": 3408,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 3407,
-                          "end": 3414,
+                          "start": 3399,
+                          "end": 3406,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 3407,
-                            "end": 3413,
+                            "start": 3399,
+                            "end": 3405,
                             "callee": {
                               "type": "Identifier",
-                              "start": 3407,
-                              "end": 3410,
+                              "start": 3399,
+                              "end": 3402,
                               "name": "res"
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 3411,
-                                "end": 3412,
-                                "value": 1
+                                "start": 3403,
+                                "end": 3404,
+                                "value": 1,
+                                "raw": "1"
                               }
                             ],
                             "optional": false
@@ -835,8 +845,8 @@
           },
           {
             "type": "BreakStatement",
-            "start": 3421,
-            "end": 3427,
+            "start": 3413,
+            "end": 3419,
             "label": null
           }
         ]

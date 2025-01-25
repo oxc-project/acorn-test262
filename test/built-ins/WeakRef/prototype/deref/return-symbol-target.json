@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 589,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 664,
             "end": 697,
-            "value": "returns a regular symbol target"
+            "value": "returns a regular symbol target",
+            "raw": "'returns a regular symbol target'"
           }
         ],
         "optional": false
@@ -278,7 +280,8 @@
             "type": "Literal",
             "start": 799,
             "end": 835,
-            "value": "returns a well-known symbol target"
+            "value": "returns a well-known symbol target",
+            "raw": "'returns a well-known symbol target'"
           }
         ],
         "optional": false

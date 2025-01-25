@@ -117,7 +117,8 @@
                     "type": "Literal",
                     "start": 476,
                     "end": 547,
-                    "value": "#1.1: __FACTORY = RegExp.prototype.toString throw TypeError. Actual: "
+                    "value": "#1.1: __FACTORY = RegExp.prototype.toString throw TypeError. Actual: ",
+                    "raw": "'#1.1: __FACTORY = RegExp.prototype.toString throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -202,13 +203,15 @@
                     "type": "Literal",
                     "start": 631,
                     "end": 635,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 641,
                     "end": 715,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -297,13 +300,15 @@
             "type": "Literal",
             "start": 788,
             "end": 793,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 857,
-            "value": "isConstructor(RegExp.prototype.toString) must return false"
+            "value": "isConstructor(RegExp.prototype.toString) must return false",
+            "raw": "'isConstructor(RegExp.prototype.toString) must return false'"
           }
         ],
         "optional": false

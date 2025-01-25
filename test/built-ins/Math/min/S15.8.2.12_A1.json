@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 318,
             "end": 352,
-            "value": "Math.min() must return +Infinity"
+            "value": "Math.min() must return +Infinity",
+            "raw": "'Math.min() must return +Infinity'"
           }
         ],
         "optional": false

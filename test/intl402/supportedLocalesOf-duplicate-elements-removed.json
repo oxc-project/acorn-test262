@@ -224,20 +224,23 @@
                           "type": "Literal",
                           "start": 566,
                           "end": 567,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 569,
                         "end": 574,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 576,
                         "end": 650,
-                        "value": "Canonicalization didn't remove duplicate language tags from locale list."
+                        "value": "Canonicalization didn't remove duplicate language tags from locale list.",
+                        "raw": "\"Canonicalization didn't remove duplicate language tags from locale list.\""
                       }
                     ],
                     "optional": false

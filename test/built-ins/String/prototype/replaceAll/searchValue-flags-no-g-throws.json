@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 812,
             "end": 822,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 847,
-            "value": "function must exist"
+            "value": "function must exist",
+            "raw": "'function must exist'"
           }
         ],
         "optional": false
@@ -105,7 +107,8 @@
             "type": "Literal",
             "start": 867,
             "end": 868,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -178,7 +181,8 @@
                             "type": "Literal",
                             "start": 916,
                             "end": 917,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -190,7 +194,8 @@
                           "type": "Literal",
                           "start": 929,
                           "end": 976,
-                          "value": "Should not call toString on this/replaceValue"
+                          "value": "Should not call toString on this/replaceValue",
+                          "raw": "'Should not call toString on this/replaceValue'"
                         }
                       }
                     ]
@@ -223,6 +228,7 @@
             "start": 1005,
             "end": 1008,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -300,7 +306,8 @@
                           "type": "Literal",
                           "start": 1051,
                           "end": 1053,
-                          "value": ""
+                          "value": "",
+                          "raw": "''"
                         },
                         "property": {
                           "type": "Identifier",
@@ -350,7 +357,8 @@
             "type": "Literal",
             "start": 1103,
             "end": 1130,
-            "value": "flags is the empty string"
+            "value": "flags is the empty string",
+            "raw": "'flags is the empty string'"
           }
         ],
         "optional": false
@@ -394,7 +402,8 @@
             "type": "Literal",
             "start": 1169,
             "end": 1176,
-            "value": "flags"
+            "value": "flags",
+            "raw": "'flags'"
           },
           {
             "type": "ObjectExpression",
@@ -418,7 +427,8 @@
                   "type": "Literal",
                   "start": 1189,
                   "end": 1192,
-                  "value": "G"
+                  "value": "G",
+                  "raw": "'G'"
                 },
                 "kind": "init"
               },
@@ -439,7 +449,8 @@
                   "type": "Literal",
                   "start": 1206,
                   "end": 1210,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -460,7 +471,8 @@
                   "type": "Literal",
                   "start": 1228,
                   "end": 1232,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -538,7 +550,8 @@
                           "type": "Literal",
                           "start": 1279,
                           "end": 1281,
-                          "value": ""
+                          "value": "",
+                          "raw": "''"
                         },
                         "property": {
                           "type": "Identifier",
@@ -588,7 +601,8 @@
             "type": "Literal",
             "start": 1331,
             "end": 1349,
-            "value": "case sensitive G"
+            "value": "case sensitive G",
+            "raw": "'case sensitive G'"
           }
         ],
         "optional": false
@@ -632,7 +646,8 @@
             "type": "Literal",
             "start": 1388,
             "end": 1395,
-            "value": "flags"
+            "value": "flags",
+            "raw": "'flags'"
           },
           {
             "type": "ObjectExpression",
@@ -656,7 +671,8 @@
                   "type": "Literal",
                   "start": 1408,
                   "end": 1411,
-                  "value": "i"
+                  "value": "i",
+                  "raw": "'i'"
                 },
                 "kind": "init"
               },
@@ -677,7 +693,8 @@
                   "type": "Literal",
                   "start": 1425,
                   "end": 1429,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -698,7 +715,8 @@
                   "type": "Literal",
                   "start": 1447,
                   "end": 1451,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -776,7 +794,8 @@
                           "type": "Literal",
                           "start": 1498,
                           "end": 1500,
-                          "value": ""
+                          "value": "",
+                          "raw": "''"
                         },
                         "property": {
                           "type": "Identifier",
@@ -826,7 +845,8 @@
             "type": "Literal",
             "start": 1550,
             "end": 1553,
-            "value": "i"
+            "value": "i",
+            "raw": "'i'"
           }
         ],
         "optional": false
@@ -870,7 +890,8 @@
             "type": "Literal",
             "start": 1584,
             "end": 1585,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

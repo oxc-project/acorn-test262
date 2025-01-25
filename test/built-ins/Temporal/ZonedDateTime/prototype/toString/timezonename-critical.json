@@ -32,19 +32,22 @@
                     "type": "Literal",
                     "start": 337,
                     "end": 342,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   },
                   {
                     "type": "Literal",
                     "start": 344,
                     "end": 387,
-                    "value": "1970-01-01T01:01:01.987654321+00:00[!UTC]"
+                    "value": "1970-01-01T01:01:01.987654321+00:00[!UTC]",
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[!UTC]\""
                   },
                   {
                     "type": "Literal",
                     "start": 389,
                     "end": 403,
-                    "value": "built-in UTC"
+                    "value": "built-in UTC",
+                    "raw": "\"built-in UTC\""
                   }
                 ]
               },
@@ -57,19 +60,22 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 417,
-                    "value": "+01:00"
+                    "value": "+01:00",
+                    "raw": "\"+01:00\""
                   },
                   {
                     "type": "Literal",
                     "start": 419,
                     "end": 465,
-                    "value": "1970-01-01T02:01:01.987654321+01:00[!+01:00]"
+                    "value": "1970-01-01T02:01:01.987654321+01:00[!+01:00]",
+                    "raw": "\"1970-01-01T02:01:01.987654321+01:00[!+01:00]\""
                   },
                   {
                     "type": "Literal",
                     "start": 467,
                     "end": 484,
-                    "value": "built-in offset"
+                    "value": "built-in offset",
+                    "raw": "\"built-in offset\""
                   }
                 ]
               }
@@ -177,7 +183,8 @@
                       "type": "Literal",
                       "start": 590,
                       "end": 607,
-                      "value": "3661987654321n"
+                      "value": "3661987654321n",
+                      "raw": "3661_987_654_321n"
                     },
                     {
                       "type": "Identifier",
@@ -252,7 +259,8 @@
                             "type": "Literal",
                             "start": 667,
                             "end": 677,
-                            "value": "critical"
+                            "value": "critical",
+                            "raw": "\"critical\""
                           },
                           "kind": "init"
                         }

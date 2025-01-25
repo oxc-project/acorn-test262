@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 405,
-                "value": "multiline"
+                "value": "multiline",
+                "raw": "'multiline'"
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 408,
             "end": 412,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 467,
-            "value": "__re.hasOwnProperty('multiline') must return true"
+            "value": "__re.hasOwnProperty('multiline') must return true",
+            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'"
           }
         ],
         "optional": false
@@ -176,13 +179,15 @@
             "type": "Literal",
             "start": 510,
             "end": 514,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 577,
-            "value": "The value of `delete __re.multiline` is expected to be true"
+            "value": "The value of `delete __re.multiline` is expected to be true",
+            "raw": "'The value of `delete __re.multiline` is expected to be true'"
           }
         ],
         "optional": false
@@ -244,7 +249,8 @@
                 "type": "Literal",
                 "start": 617,
                 "end": 628,
-                "value": "multiline"
+                "value": "multiline",
+                "raw": "'multiline'"
               }
             ],
             "optional": false
@@ -253,13 +259,15 @@
             "type": "Literal",
             "start": 631,
             "end": 636,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 692,
-            "value": "__re.hasOwnProperty('multiline') must return false"
+            "value": "__re.hasOwnProperty('multiline') must return false",
+            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return false'"
           }
         ],
         "optional": false

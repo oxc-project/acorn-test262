@@ -52,7 +52,8 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 392,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -62,13 +63,15 @@
             "type": "Literal",
             "start": 395,
             "end": 400,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 433,
-            "value": "Boolean(+0) must return false"
+            "value": "Boolean(+0) must return false",
+            "raw": "'Boolean(+0) must return false'"
           }
         ],
         "optional": false
@@ -123,7 +126,8 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 463,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -133,13 +137,15 @@
             "type": "Literal",
             "start": 466,
             "end": 471,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 504,
-            "value": "Boolean(-0) must return false"
+            "value": "Boolean(-0) must return false",
+            "raw": "'Boolean(-0) must return false'"
           }
         ],
         "optional": false
@@ -210,13 +216,15 @@
             "type": "Literal",
             "start": 545,
             "end": 550,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 591,
-            "value": "Boolean(Number.NaN) must return false"
+            "value": "Boolean(Number.NaN) must return false",
+            "raw": "'Boolean(Number.NaN) must return false'"
           }
         ],
         "optional": false

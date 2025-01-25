@@ -23,7 +23,8 @@
               "type": "Literal",
               "start": 384,
               "end": 392,
-              "value": "report"
+              "value": "report",
+              "raw": "\"report\""
             },
             "property": {
               "type": "Identifier",
@@ -66,7 +67,8 @@
           "type": "Literal",
           "start": 424,
           "end": 432,
-          "value": "report"
+          "value": "report",
+          "raw": "\"report\""
         }
       },
       "consequent": {
@@ -97,7 +99,8 @@
                     "type": "Literal",
                     "start": 461,
                     "end": 524,
-                    "value": "#1: \"report\".substring(function(){}()) === \"report\". Actual: "
+                    "value": "#1: \"report\".substring(function(){}()) === \"report\". Actual: ",
+                    "raw": "'#1: \"report\".substring(function(){}()) === \"report\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -112,7 +115,8 @@
                         "type": "Literal",
                         "start": 527,
                         "end": 535,
-                        "value": "report"
+                        "value": "report",
+                        "raw": "\"report\""
                       },
                       "property": {
                         "type": "Identifier",

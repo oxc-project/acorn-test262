@@ -76,7 +76,8 @@
                         "type": "Literal",
                         "start": 893,
                         "end": 896,
-                        "value": "0"
+                        "value": "0",
+                        "raw": "\"0\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -100,7 +101,8 @@
                               "type": "Literal",
                               "start": 914,
                               "end": 918,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           },
@@ -121,7 +123,8 @@
                               "type": "Literal",
                               "start": 938,
                               "end": 943,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           }
@@ -346,7 +349,8 @@
                             "type": "Literal",
                             "start": 1081,
                             "end": 1082,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -361,7 +365,8 @@
             "type": "Literal",
             "start": 1089,
             "end": 1135,
-            "value": "arr.concat([1]) throws a TypeError exception"
+            "value": "arr.concat([1]) throws a TypeError exception",
+            "raw": "'arr.concat([1]) throws a TypeError exception'"
           }
         ],
         "optional": false

@@ -57,7 +57,8 @@
                   "type": "Literal",
                   "start": 986,
                   "end": 987,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 }
               }
             ]
@@ -123,7 +124,8 @@
             "type": "Literal",
             "start": 1042,
             "end": 1076,
-            "value": 16810113
+            "value": 16810113,
+            "raw": "0b00000001000000001000000010000001"
           }
         }
       ],
@@ -152,7 +154,8 @@
             "type": "Literal",
             "start": 1084,
             "end": 1085,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -227,7 +230,8 @@
                 "type": "Literal",
                 "start": 1148,
                 "end": 1149,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -239,7 +243,8 @@
                 "type": "Literal",
                 "start": 1159,
                 "end": 1160,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -254,7 +259,8 @@
             "type": "Literal",
             "start": 1175,
             "end": 1287,
-            "value": "Atomics.compareExchange(i32a, 0, update, 0) returns the value of `update` (0b00000001000000001000000010000001)"
+            "value": "Atomics.compareExchange(i32a, 0, update, 0) returns the value of `update` (0b00000001000000001000000010000001)",
+            "raw": "'Atomics.compareExchange(i32a, 0, update, 0) returns the value of `update` (0b00000001000000001000000010000001)'"
           }
         ],
         "optional": false
@@ -302,7 +308,8 @@
               "type": "Literal",
               "start": 1313,
               "end": 1314,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -311,13 +318,15 @@
             "type": "Literal",
             "start": 1317,
             "end": 1318,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1320,
             "end": 1347,
-            "value": "The value of i32a[0] is 0"
+            "value": "The value of i32a[0] is 0",
+            "raw": "'The value of i32a[0] is 0'"
           }
         ],
         "optional": false

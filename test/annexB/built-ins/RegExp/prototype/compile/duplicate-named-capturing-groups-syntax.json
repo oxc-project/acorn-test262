@@ -23,6 +23,7 @@
             "start": 298,
             "end": 304,
             "value": {},
+            "raw": "/[ab]/",
             "regex": {
               "pattern": "[ab]",
               "flags": ""
@@ -103,7 +104,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 371,
-                  "value": "(?<x>a)(?<x>b)"
+                  "value": "(?<x>a)(?<x>b)",
+                  "raw": "\"(?<x>a)(?<x>b)\""
                 }
               ],
               "optional": false
@@ -113,7 +115,8 @@
             "type": "Literal",
             "start": 376,
             "end": 447,
-            "value": "Duplicate named capturing groups in the same alternative do not parse"
+            "value": "Duplicate named capturing groups in the same alternative do not parse",
+            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\""
           }
         ],
         "optional": false
@@ -138,7 +141,8 @@
             "type": "Literal",
             "start": 465,
             "end": 482,
-            "value": "(?<x>a)|(?<x>b)"
+            "value": "(?<x>a)|(?<x>b)",
+            "raw": "\"(?<x>a)|(?<x>b)\""
           }
         }
       ],
@@ -239,7 +243,8 @@
             "type": "Literal",
             "start": 538,
             "end": 613,
-            "value": "Duplicate named capturing groups in separate alternatives parse correctly"
+            "value": "Duplicate named capturing groups in separate alternatives parse correctly",
+            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\""
           }
         ],
         "optional": false

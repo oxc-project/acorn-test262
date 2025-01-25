@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 213,
               "end": 214,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -70,7 +71,8 @@
                   "type": "Literal",
                   "start": 228,
                   "end": 247,
-                  "value": 0.02047410048544407
+                  "value": 0.02047410048544407,
+                  "raw": "0.02047410048544407"
                 }
               ],
               "optional": false
@@ -99,7 +101,8 @@
             "type": "Literal",
             "start": 278,
             "end": 335,
-            "value": "Math.trunc should produce +0 for values between 0 and 1"
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
           }
         ],
         "optional": false
@@ -141,7 +144,8 @@
               "type": "Literal",
               "start": 355,
               "end": 356,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -172,7 +176,8 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 389,
-                  "value": 1e-17
+                  "value": 1e-17,
+                  "raw": "0.00000000000000001"
                 }
               ],
               "optional": false
@@ -201,7 +206,8 @@
             "type": "Literal",
             "start": 420,
             "end": 477,
-            "value": "Math.trunc should produce +0 for values between 0 and 1"
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
           }
         ],
         "optional": false
@@ -243,7 +249,8 @@
               "type": "Literal",
               "start": 497,
               "end": 498,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -274,7 +281,8 @@
                   "type": "Literal",
                   "start": 512,
                   "end": 530,
-                  "value": 0.9999999999999999
+                  "value": 0.9999999999999999,
+                  "raw": "0.9999999999999999"
                 }
               ],
               "optional": false
@@ -303,7 +311,8 @@
             "type": "Literal",
             "start": 561,
             "end": 618,
-            "value": "Math.trunc should produce +0 for values between 0 and 1"
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
           }
         ],
         "optional": false
@@ -345,7 +354,8 @@
               "type": "Literal",
               "start": 638,
               "end": 639,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -418,7 +428,8 @@
             "type": "Literal",
             "start": 698,
             "end": 755,
-            "value": "Math.trunc should produce +0 for values between 0 and 1"
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
           }
         ],
         "optional": false
@@ -460,7 +471,8 @@
               "type": "Literal",
               "start": 775,
               "end": 776,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -533,7 +545,8 @@
             "type": "Literal",
             "start": 837,
             "end": 894,
-            "value": "Math.trunc should produce +0 for values between 0 and 1"
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
           }
         ],
         "optional": false
@@ -575,7 +588,8 @@
               "type": "Literal",
               "start": 915,
               "end": 916,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -612,7 +626,8 @@
                     "type": "Literal",
                     "start": 931,
                     "end": 950,
-                    "value": 0.02047410048544407
+                    "value": 0.02047410048544407,
+                    "raw": "0.02047410048544407"
                   }
                 }
               ],
@@ -642,7 +657,8 @@
             "type": "Literal",
             "start": 981,
             "end": 1039,
-            "value": "Math.trunc should produce -0 for values between -1 and 0"
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
           }
         ],
         "optional": false
@@ -684,7 +700,8 @@
               "type": "Literal",
               "start": 1059,
               "end": 1060,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -721,7 +738,8 @@
                     "type": "Literal",
                     "start": 1075,
                     "end": 1094,
-                    "value": 1e-17
+                    "value": 1e-17,
+                    "raw": "0.00000000000000001"
                   }
                 }
               ],
@@ -751,7 +769,8 @@
             "type": "Literal",
             "start": 1125,
             "end": 1183,
-            "value": "Math.trunc should produce -0 for values between -1 and 0"
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
           }
         ],
         "optional": false
@@ -793,7 +812,8 @@
               "type": "Literal",
               "start": 1203,
               "end": 1204,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -830,7 +850,8 @@
                     "type": "Literal",
                     "start": 1219,
                     "end": 1237,
-                    "value": 0.9999999999999999
+                    "value": 0.9999999999999999,
+                    "raw": "0.9999999999999999"
                   }
                 }
               ],
@@ -860,7 +881,8 @@
             "type": "Literal",
             "start": 1268,
             "end": 1326,
-            "value": "Math.trunc should produce -0 for values between -1 and 0"
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
           }
         ],
         "optional": false
@@ -902,7 +924,8 @@
               "type": "Literal",
               "start": 1346,
               "end": 1347,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -982,7 +1005,8 @@
             "type": "Literal",
             "start": 1407,
             "end": 1465,
-            "value": "Math.trunc should produce -0 for values between -1 and 0"
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
           }
         ],
         "optional": false
@@ -1024,7 +1048,8 @@
               "type": "Literal",
               "start": 1485,
               "end": 1486,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -1104,7 +1129,8 @@
             "type": "Literal",
             "start": 1548,
             "end": 1606,
-            "value": "Math.trunc should produce -0 for values between -1 and 0"
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
           }
         ],
         "optional": false
@@ -1234,7 +1260,8 @@
             "type": "Literal",
             "start": 1689,
             "end": 1748,
-            "value": "Math.trunc produces incorrect result for Number.MAX_VALUE"
+            "value": "Math.trunc produces incorrect result for Number.MAX_VALUE",
+            "raw": "\"Math.trunc produces incorrect result for Number.MAX_VALUE\""
           }
         ],
         "optional": false
@@ -1296,7 +1323,8 @@
                 "type": "Literal",
                 "start": 1779,
                 "end": 1781,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -1329,7 +1357,8 @@
                 "type": "Literal",
                 "start": 1795,
                 "end": 1797,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -1338,7 +1367,8 @@
             "type": "Literal",
             "start": 1802,
             "end": 1847,
-            "value": "Math.trunc produces incorrect result for 10"
+            "value": "Math.trunc produces incorrect result for 10",
+            "raw": "\"Math.trunc produces incorrect result for 10\""
           }
         ],
         "optional": false
@@ -1400,7 +1430,8 @@
                 "type": "Literal",
                 "start": 1878,
                 "end": 1881,
-                "value": 3.9
+                "value": 3.9,
+                "raw": "3.9"
               }
             ],
             "optional": false
@@ -1433,7 +1464,8 @@
                 "type": "Literal",
                 "start": 1895,
                 "end": 1898,
-                "value": 3.9
+                "value": 3.9,
+                "raw": "3.9"
               }
             ],
             "optional": false
@@ -1442,7 +1474,8 @@
             "type": "Literal",
             "start": 1903,
             "end": 1949,
-            "value": "Math.trunc produces incorrect result for 3.9"
+            "value": "Math.trunc produces incorrect result for 3.9",
+            "raw": "\"Math.trunc produces incorrect result for 3.9\""
           }
         ],
         "optional": false
@@ -1504,7 +1537,8 @@
                 "type": "Literal",
                 "start": 1980,
                 "end": 1983,
-                "value": 4.9
+                "value": 4.9,
+                "raw": "4.9"
               }
             ],
             "optional": false
@@ -1537,7 +1571,8 @@
                 "type": "Literal",
                 "start": 1997,
                 "end": 2000,
-                "value": 4.9
+                "value": 4.9,
+                "raw": "4.9"
               }
             ],
             "optional": false
@@ -1546,7 +1581,8 @@
             "type": "Literal",
             "start": 2005,
             "end": 2051,
-            "value": "Math.trunc produces incorrect result for 4.9"
+            "value": "Math.trunc produces incorrect result for 4.9",
+            "raw": "\"Math.trunc produces incorrect result for 4.9\""
           }
         ],
         "optional": false
@@ -1690,7 +1726,8 @@
             "type": "Literal",
             "start": 2135,
             "end": 2195,
-            "value": "Math.trunc produces incorrect result for -Number.MAX_VALUE"
+            "value": "Math.trunc produces incorrect result for -Number.MAX_VALUE",
+            "raw": "\"Math.trunc produces incorrect result for -Number.MAX_VALUE\""
           }
         ],
         "optional": false
@@ -1758,7 +1795,8 @@
                   "type": "Literal",
                   "start": 2227,
                   "end": 2229,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             ],
@@ -1798,7 +1836,8 @@
                   "type": "Literal",
                   "start": 2243,
                   "end": 2245,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             ],
@@ -1808,7 +1847,8 @@
             "type": "Literal",
             "start": 2250,
             "end": 2296,
-            "value": "Math.trunc produces incorrect result for -10"
+            "value": "Math.trunc produces incorrect result for -10",
+            "raw": "\"Math.trunc produces incorrect result for -10\""
           }
         ],
         "optional": false
@@ -1876,7 +1916,8 @@
                   "type": "Literal",
                   "start": 2328,
                   "end": 2331,
-                  "value": 3.9
+                  "value": 3.9,
+                  "raw": "3.9"
                 }
               }
             ],
@@ -1916,7 +1957,8 @@
                   "type": "Literal",
                   "start": 2345,
                   "end": 2348,
-                  "value": 3.9
+                  "value": 3.9,
+                  "raw": "3.9"
                 }
               }
             ],
@@ -1926,7 +1968,8 @@
             "type": "Literal",
             "start": 2353,
             "end": 2400,
-            "value": "Math.trunc produces incorrect result for -3.9"
+            "value": "Math.trunc produces incorrect result for -3.9",
+            "raw": "\"Math.trunc produces incorrect result for -3.9\""
           }
         ],
         "optional": false
@@ -1994,7 +2037,8 @@
                   "type": "Literal",
                   "start": 2432,
                   "end": 2435,
-                  "value": 4.9
+                  "value": 4.9,
+                  "raw": "4.9"
                 }
               }
             ],
@@ -2034,7 +2078,8 @@
                   "type": "Literal",
                   "start": 2449,
                   "end": 2452,
-                  "value": 4.9
+                  "value": 4.9,
+                  "raw": "4.9"
                 }
               }
             ],
@@ -2044,7 +2089,8 @@
             "type": "Literal",
             "start": 2457,
             "end": 2504,
-            "value": "Math.trunc produces incorrect result for -4.9"
+            "value": "Math.trunc produces incorrect result for -4.9",
+            "raw": "\"Math.trunc produces incorrect result for -4.9\""
           }
         ],
         "optional": false

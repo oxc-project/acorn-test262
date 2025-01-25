@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 1391,
                     "end": 1396,
-                    "value": "abc"
+                    "value": "abc",
+                    "raw": "\"abc\""
                   },
                   {
                     "type": "Literal",
                     "start": 1398,
                     "end": 1411,
-                    "value": "en-u-nu-abc"
+                    "value": "en-u-nu-abc",
+                    "raw": "\"en-u-nu-abc\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 1417,
                     "end": 1423,
-                    "value": "abcd"
+                    "value": "abcd",
+                    "raw": "\"abcd\""
                   },
                   {
                     "type": "Literal",
                     "start": 1425,
                     "end": 1439,
-                    "value": "en-u-nu-abcd"
+                    "value": "en-u-nu-abcd",
+                    "raw": "\"en-u-nu-abcd\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 1445,
                     "end": 1452,
-                    "value": "abcde"
+                    "value": "abcde",
+                    "raw": "\"abcde\""
                   },
                   {
                     "type": "Literal",
                     "start": 1454,
                     "end": 1469,
-                    "value": "en-u-nu-abcde"
+                    "value": "en-u-nu-abcde",
+                    "raw": "\"en-u-nu-abcde\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 1475,
                     "end": 1483,
-                    "value": "abcdef"
+                    "value": "abcdef",
+                    "raw": "\"abcdef\""
                   },
                   {
                     "type": "Literal",
                     "start": 1485,
                     "end": 1501,
-                    "value": "en-u-nu-abcdef"
+                    "value": "en-u-nu-abcdef",
+                    "raw": "\"en-u-nu-abcdef\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 1507,
                     "end": 1516,
-                    "value": "abcdefg"
+                    "value": "abcdefg",
+                    "raw": "\"abcdefg\""
                   },
                   {
                     "type": "Literal",
                     "start": 1518,
                     "end": 1535,
-                    "value": "en-u-nu-abcdefg"
+                    "value": "en-u-nu-abcdefg",
+                    "raw": "\"en-u-nu-abcdefg\""
                   }
                 ]
               },
@@ -127,13 +137,15 @@
                     "type": "Literal",
                     "start": 1541,
                     "end": 1551,
-                    "value": "abcdefgh"
+                    "value": "abcdefgh",
+                    "raw": "\"abcdefgh\""
                   },
                   {
                     "type": "Literal",
                     "start": 1553,
                     "end": 1571,
-                    "value": "en-u-nu-abcdefgh"
+                    "value": "en-u-nu-abcdefgh",
+                    "raw": "\"en-u-nu-abcdefgh\""
                   }
                 ]
               },
@@ -146,13 +158,15 @@
                     "type": "Literal",
                     "start": 1577,
                     "end": 1587,
-                    "value": "12345678"
+                    "value": "12345678",
+                    "raw": "\"12345678\""
                   },
                   {
                     "type": "Literal",
                     "start": 1589,
                     "end": 1607,
-                    "value": "en-u-nu-12345678"
+                    "value": "en-u-nu-12345678",
+                    "raw": "\"en-u-nu-12345678\""
                   }
                 ]
               },
@@ -165,13 +179,15 @@
                     "type": "Literal",
                     "start": 1613,
                     "end": 1623,
-                    "value": "1234abcd"
+                    "value": "1234abcd",
+                    "raw": "\"1234abcd\""
                   },
                   {
                     "type": "Literal",
                     "start": 1625,
                     "end": 1643,
-                    "value": "en-u-nu-1234abcd"
+                    "value": "en-u-nu-1234abcd",
+                    "raw": "\"en-u-nu-1234abcd\""
                   }
                 ]
               },
@@ -184,13 +200,15 @@
                     "type": "Literal",
                     "start": 1649,
                     "end": 1666,
-                    "value": "1234abcd-abc123"
+                    "value": "1234abcd-abc123",
+                    "raw": "\"1234abcd-abc123\""
                   },
                   {
                     "type": "Literal",
                     "start": 1668,
                     "end": 1693,
-                    "value": "en-u-nu-1234abcd-abc123"
+                    "value": "en-u-nu-1234abcd-abc123",
+                    "raw": "\"en-u-nu-1234abcd-abc123\""
                   }
                 ]
               }
@@ -313,7 +331,8 @@
                           "type": "Literal",
                           "start": 1812,
                           "end": 1816,
-                          "value": "en"
+                          "value": "en",
+                          "raw": "'en'"
                         },
                         {
                           "type": "ObjectExpression",
@@ -482,7 +501,8 @@
                           "type": "Literal",
                           "start": 2012,
                           "end": 2026,
-                          "value": "en-u-nu-latn"
+                          "value": "en-u-nu-latn",
+                          "raw": "'en-u-nu-latn'"
                         },
                         {
                           "type": "ObjectExpression",

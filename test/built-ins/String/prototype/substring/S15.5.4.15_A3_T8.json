@@ -155,7 +155,8 @@
           "type": "Literal",
           "start": 635,
           "end": 640,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       },
       "consequent": {
@@ -186,7 +187,8 @@
                     "type": "Literal",
                     "start": 669,
                     "end": 812,
-                    "value": "#1: __instance = new Number(NaN); __instance.substring = String.prototype.substring;  __instance.substring(Infinity, NaN) === \"NaN\". Actual: "
+                    "value": "#1: __instance = new Number(NaN); __instance.substring = String.prototype.substring;  __instance.substring(Infinity, NaN) === \"NaN\". Actual: ",
+                    "raw": "'#1: __instance = new Number(NaN); __instance.substring = String.prototype.substring;  __instance.substring(Infinity, NaN) === \"NaN\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

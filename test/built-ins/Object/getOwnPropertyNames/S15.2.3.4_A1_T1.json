@@ -99,7 +99,8 @@
               "type": "Literal",
               "start": 540,
               "end": 541,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
@@ -250,7 +251,8 @@
                   "type": "Literal",
                   "start": 620,
                   "end": 688,
-                  "value": "The value of !!foo.hasOwnProperty(names[i]) is expected to be true"
+                  "value": "The value of !!foo.hasOwnProperty(names[i]) is expected to be true",
+                  "raw": "'The value of !!foo.hasOwnProperty(names[i]) is expected to be true'"
                 }
               ],
               "optional": false

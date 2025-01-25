@@ -73,13 +73,15 @@
             "type": "Literal",
             "start": 393,
             "end": 401,
-            "value": "number"
+            "value": "number",
+            "raw": "'number'"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 457,
-            "value": "The value of `typeof num` is expected to be \"number\""
+            "value": "The value of `typeof num` is expected to be \"number\"",
+            "raw": "'The value of `typeof num` is expected to be \"number\"'"
           }
         ],
         "optional": false
@@ -180,7 +182,8 @@
             "type": "Literal",
             "start": 535,
             "end": 608,
-            "value": "The value of n_obj.constructor is expected to equal the value of Number"
+            "value": "The value of n_obj.constructor is expected to equal the value of Number",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Number'"
           }
         ],
         "optional": false
@@ -231,13 +234,15 @@
             "type": "Literal",
             "start": 642,
             "end": 650,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 652,
             "end": 708,
-            "value": "The value of `typeof n_obj` is expected to be \"object\""
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -280,7 +285,8 @@
             "type": "Literal",
             "start": 732,
             "end": 796,
-            "value": "The result of evaluating (n_obj == num) is expected to be true"
+            "value": "The result of evaluating (n_obj == num) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == num) is expected to be true'"
           }
         ],
         "optional": false
@@ -330,7 +336,8 @@
             "type": "Literal",
             "start": 831,
             "end": 895,
-            "value": "The value of n_obj is expected to not equal the value of `num`"
+            "value": "The value of n_obj is expected to not equal the value of `num`",
+            "raw": "'The value of n_obj is expected to not equal the value of `num`'"
           }
         ],
         "optional": false

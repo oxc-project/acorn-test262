@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 349,
-                "value": "3n"
+                "value": "3n",
+                "raw": "3n"
               }
             ],
             "optional": false
@@ -94,7 +95,8 @@
             "type": "Literal",
             "start": 352,
             "end": 369,
-            "value": "[object BigInt]"
+            "value": "[object BigInt]",
+            "raw": "\"[object BigInt]\""
           }
         ],
         "optional": false
@@ -193,7 +195,8 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 429,
-                    "value": "3n"
+                    "value": "3n",
+                    "raw": "3n"
                   }
                 ],
                 "optional": false
@@ -205,7 +208,8 @@
             "type": "Literal",
             "start": 433,
             "end": 450,
-            "value": "[object BigInt]"
+            "value": "[object BigInt]",
+            "raw": "\"[object BigInt]\""
           }
         ],
         "optional": false
@@ -304,7 +308,8 @@
                     "type": "Literal",
                     "start": 508,
                     "end": 510,
-                    "value": "3n"
+                    "value": "3n",
+                    "raw": "3n"
                   }
                 ],
                 "optional": false
@@ -316,7 +321,8 @@
             "type": "Literal",
             "start": 514,
             "end": 531,
-            "value": "[object BigInt]"
+            "value": "[object BigInt]",
+            "raw": "\"[object BigInt]\""
           }
         ],
         "optional": false
@@ -426,7 +432,8 @@
                         "type": "Literal",
                         "start": 596,
                         "end": 598,
-                        "value": "3n"
+                        "value": "3n",
+                        "raw": "3n"
                       }
                     ],
                     "optional": false
@@ -441,7 +448,8 @@
             "type": "Literal",
             "start": 603,
             "end": 620,
-            "value": "[object BigInt]"
+            "value": "[object BigInt]",
+            "raw": "\"[object BigInt]\""
           }
         ],
         "optional": false

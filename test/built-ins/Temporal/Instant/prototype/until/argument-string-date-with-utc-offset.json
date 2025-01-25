@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 351,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -78,49 +79,57 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 396,
-                "value": "1970-01-01T00Z"
+                "value": "1970-01-01T00Z",
+                "raw": "\"1970-01-01T00Z\""
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 421,
-                "value": "1970-01-01T00Z[UTC]"
+                "value": "1970-01-01T00Z[UTC]",
+                "raw": "\"1970-01-01T00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 447,
-                "value": "1970-01-01T00Z[!UTC]"
+                "value": "1970-01-01T00Z[!UTC]",
+                "raw": "\"1970-01-01T00Z[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 482,
-                "value": "1970-01-01T00Z[Europe/Vienna]"
+                "value": "1970-01-01T00Z[Europe/Vienna]",
+                "raw": "\"1970-01-01T00Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 507,
-                "value": "1970-01-01T00+00:00"
+                "value": "1970-01-01T00+00:00",
+                "raw": "\"1970-01-01T00+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 537,
-                "value": "1970-01-01T00+00:00[UTC]"
+                "value": "1970-01-01T00+00:00[UTC]",
+                "raw": "\"1970-01-01T00+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 568,
-                "value": "1970-01-01T00+00:00[!UTC]"
+                "value": "1970-01-01T00+00:00[!UTC]",
+                "raw": "\"1970-01-01T00+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 572,
                 "end": 612,
-                "value": "1969-12-31T16-08:00[America/Vancouver]"
+                "value": "1969-12-31T16-08:00[America/Vancouver]",
+                "raw": "\"1969-12-31T16-08:00[America/Vancouver]\""
               }
             ]
           }
@@ -254,61 +263,71 @@
                   "type": "Literal",
                   "start": 741,
                   "end": 742,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 744,
                   "end": 745,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 747,
                   "end": 748,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 750,
                   "end": 751,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 753,
                   "end": 754,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 756,
                   "end": 757,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 759,
                   "end": 760,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 762,
                   "end": 763,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 765,
                   "end": 766,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 768,
                   "end": 769,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -376,43 +395,50 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 878,
-                "value": "2022-09-15Z"
+                "value": "2022-09-15Z",
+                "raw": "\"2022-09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 882,
                 "end": 900,
-                "value": "2022-09-15Z[UTC]"
+                "value": "2022-09-15Z[UTC]",
+                "raw": "\"2022-09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 904,
                 "end": 932,
-                "value": "2022-09-15Z[Europe/Vienna]"
+                "value": "2022-09-15Z[Europe/Vienna]",
+                "raw": "\"2022-09-15Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 936,
                 "end": 954,
-                "value": "2022-09-15+00:00"
+                "value": "2022-09-15+00:00",
+                "raw": "\"2022-09-15+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 958,
                 "end": 981,
-                "value": "2022-09-15+00:00[UTC]"
+                "value": "2022-09-15+00:00[UTC]",
+                "raw": "\"2022-09-15+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 985,
                 "end": 1003,
-                "value": "2022-09-15-02:30"
+                "value": "2022-09-15-02:30",
+                "raw": "\"2022-09-15-02:30\""
               },
               {
                 "type": "Literal",
                 "start": 1007,
                 "end": 1043,
-                "value": "2022-09-15-02:30[America/St_Johns]"
+                "value": "2022-09-15-02:30[America/St_Johns]",
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
               }
             ]
           }

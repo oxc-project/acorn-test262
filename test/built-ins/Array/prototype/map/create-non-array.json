@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 483,
                   "end": 484,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -69,7 +70,8 @@
             "type": "Literal",
             "start": 504,
             "end": 505,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -133,7 +135,8 @@
             "type": "Literal",
             "start": 546,
             "end": 559,
-            "value": "constructor"
+            "value": "constructor",
+            "raw": "'constructor'"
           },
           {
             "type": "ObjectExpression",
@@ -186,7 +189,8 @@
                             "type": "Literal",
                             "start": 600,
                             "end": 601,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -331,13 +335,15 @@
             "type": "Literal",
             "start": 696,
             "end": 697,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 699,
             "end": 736,
-            "value": "`constructor` property not accessed"
+            "value": "`constructor` property not accessed",
+            "raw": "'`constructor` property not accessed'"
           }
         ],
         "optional": false
@@ -479,7 +485,8 @@
             "type": "Literal",
             "start": 835,
             "end": 869,
-            "value": "result is an Array exotic object"
+            "value": "result is an Array exotic object",
+            "raw": "'result is an Array exotic object'"
           }
         ],
         "optional": false

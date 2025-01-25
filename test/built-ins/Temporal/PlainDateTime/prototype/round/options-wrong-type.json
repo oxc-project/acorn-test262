@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 356,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 364,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "CallExpression",
@@ -58,13 +60,15 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 387,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -115,19 +119,22 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 441,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 447,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -209,7 +216,8 @@
             "type": "Literal",
             "start": 499,
             "end": 538,
-            "value": "TypeError on missing options argument"
+            "value": "TypeError on missing options argument",
+            "raw": "\"TypeError on missing options argument\""
           }
         ],
         "optional": false

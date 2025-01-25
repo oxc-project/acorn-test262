@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1860,
             "end": 1861,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1880,
             "end": 1881,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -123,7 +125,8 @@
                               "type": "Literal",
                               "start": 1927,
                               "end": 1928,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -150,7 +153,8 @@
                     "type": "Literal",
                     "start": 1939,
                     "end": 1941,
-                    "value": 23
+                    "value": 23,
+                    "raw": "23"
                   }
                 ]
               }
@@ -201,7 +205,8 @@
                   "type": "Literal",
                   "start": 1977,
                   "end": 1978,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -237,7 +242,8 @@
                   "type": "Literal",
                   "start": 2007,
                   "end": 2008,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -326,13 +332,15 @@
             "type": "Literal",
             "start": 2053,
             "end": 2054,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2056,
             "end": 2097,
-            "value": "generator function invoked exactly once"
+            "value": "generator function invoked exactly once",
+            "raw": "'generator function invoked exactly once'"
           }
         ],
         "optional": false

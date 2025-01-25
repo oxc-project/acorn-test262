@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 842,
             "end": 843,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -225,7 +226,8 @@
                             "type": "Literal",
                             "start": 982,
                             "end": 983,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -535,7 +537,8 @@
             "type": "Literal",
             "start": 1235,
             "end": 1303,
-            "value": "Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype"
+            "value": "Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype",
+            "raw": "'Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype'"
           }
         ],
         "optional": false
@@ -579,13 +582,15 @@
             "type": "Literal",
             "start": 1335,
             "end": 1336,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1338,
             "end": 1382,
-            "value": "The value of callCount is expected to be 0"
+            "value": "The value of callCount is expected to be 0",
+            "raw": "'The value of callCount is expected to be 0'"
           }
         ],
         "optional": false

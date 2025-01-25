@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 790,
             "end": 791,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -107,7 +108,8 @@
                             "type": "Literal",
                             "start": 871,
                             "end": 900,
-                            "value": "target should not be called"
+                            "value": "target should not be called",
+                            "raw": "'target should not be called'"
                           }
                         ]
                       }
@@ -185,7 +187,8 @@
                                 "type": "Literal",
                                 "start": 971,
                                 "end": 972,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           },
@@ -252,7 +255,8 @@
                                         "type": "Literal",
                                         "start": 1031,
                                         "end": 1032,
-                                        "value": 0
+                                        "value": 0,
+                                        "raw": "0"
                                       },
                                       "computed": true,
                                       "optional": false
@@ -272,7 +276,8 @@
                                         "type": "Literal",
                                         "start": 1041,
                                         "end": 1042,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       },
                                       "computed": true,
                                       "optional": false
@@ -350,7 +355,8 @@
                       "type": "Literal",
                       "start": 1100,
                       "end": 1104,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -451,13 +457,15 @@
                     "type": "Literal",
                     "start": 1173,
                     "end": 1174,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   },
                   {
                     "type": "Literal",
                     "start": 1176,
                     "end": 1177,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   }
                 ]
               },
@@ -512,13 +520,15 @@
             "type": "Literal",
             "start": 1217,
             "end": 1218,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1220,
             "end": 1270,
-            "value": "construct is null: [[Construct]] is invoked once"
+            "value": "construct is null: [[Construct]] is invoked once",
+            "raw": "\"construct is null: [[Construct]] is invoked once\""
           }
         ],
         "optional": false
@@ -568,7 +578,8 @@
             "type": "Literal",
             "start": 1313,
             "end": 1370,
-            "value": "construct is null: NewTarget is passed to [[Construct]]"
+            "value": "construct is null: NewTarget is passed to [[Construct]]",
+            "raw": "\"construct is null: NewTarget is passed to [[Construct]]\""
           }
         ],
         "optional": false
@@ -625,13 +636,15 @@
             "type": "Literal",
             "start": 1399,
             "end": 1400,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 1402,
             "end": 1458,
-            "value": "construct is null: result of [[Construct]] is returned"
+            "value": "construct is null: result of [[Construct]] is returned",
+            "raw": "\"construct is null: result of [[Construct]] is returned\""
           }
         ],
         "optional": false

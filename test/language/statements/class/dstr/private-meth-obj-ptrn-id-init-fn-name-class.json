@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2558,
             "end": 2559,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -283,7 +284,8 @@
                           "type": "Literal",
                           "start": 2689,
                           "end": 2694,
-                          "value": "cls"
+                          "value": "cls",
+                          "raw": "'cls'"
                         }
                       ],
                       "optional": false
@@ -340,7 +342,8 @@
                           "type": "Literal",
                           "start": 2732,
                           "end": 2738,
-                          "value": "xCls"
+                          "value": "xCls",
+                          "raw": "'xCls'"
                         }
                       ],
                       "optional": false
@@ -397,7 +400,8 @@
                           "type": "Literal",
                           "start": 2777,
                           "end": 2784,
-                          "value": "xCls2"
+                          "value": "xCls2",
+                          "raw": "'xCls2'"
                         }
                       ],
                       "optional": false
@@ -433,7 +437,8 @@
                           "type": "Literal",
                           "start": 2815,
                           "end": 2816,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -586,13 +591,15 @@
             "type": "Literal",
             "start": 2921,
             "end": 2922,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2924,
             "end": 2953,
-            "value": "method invoked exactly once"
+            "value": "method invoked exactly once",
+            "raw": "'method invoked exactly once'"
           }
         ],
         "optional": false

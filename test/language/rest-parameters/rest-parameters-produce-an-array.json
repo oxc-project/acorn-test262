@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 287,
                   "end": 328,
-                  "value": "The value of `a.constructor` is `Array`"
+                  "value": "The value of `a.constructor` is `Array`",
+                  "raw": "\"The value of `a.constructor` is `Array`\""
                 }
               ],
               "optional": false
@@ -149,7 +150,8 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 393,
-                  "value": "`Array.isArray(a)` returns `true`"
+                  "value": "`Array.isArray(a)` returns `true`",
+                  "raw": "\"`Array.isArray(a)` returns `true`\""
                 }
               ],
               "optional": false
@@ -177,7 +179,8 @@
             "type": "Literal",
             "start": 401,
             "end": 402,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

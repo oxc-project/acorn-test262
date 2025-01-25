@@ -120,7 +120,8 @@
                                     "type": "Literal",
                                     "start": 475,
                                     "end": 505,
-                                    "value": "Should not call style getter"
+                                    "value": "Should not call style getter",
+                                    "raw": "\"Should not call style getter\""
                                   }
                                 ]
                               }
@@ -198,7 +199,8 @@
                                     "type": "Literal",
                                     "start": 566,
                                     "end": 598,
-                                    "value": "Should not call numeric getter"
+                                    "value": "Should not call numeric getter",
+                                    "raw": "\"Should not call numeric getter\""
                                   }
                                 ]
                               }
@@ -469,7 +471,8 @@
                   "type": "Literal",
                   "start": 862,
                   "end": 868,
-                  "value": "long"
+                  "value": "long",
+                  "raw": "\"long\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -574,7 +577,8 @@
                   "type": "Literal",
                   "start": 1010,
                   "end": 1018,
-                  "value": "always"
+                  "value": "always",
+                  "raw": "\"always\""
                 },
                 {
                   "type": "TemplateLiteral",

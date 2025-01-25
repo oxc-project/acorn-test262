@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 314,
             "end": 324,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 405,
-            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\""
+            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\"",
+            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -116,7 +118,8 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 443,
-                "value": "greenfield"
+                "value": "greenfield",
+                "raw": "\"greenfield\""
               }
             ]
           }
@@ -182,13 +185,15 @@
             "type": "Literal",
             "start": 484,
             "end": 494,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 560,
-            "value": "The value of `typeof obj.valueOf` is expected to be \"function\""
+            "value": "The value of `typeof obj.valueOf` is expected to be \"function\"",
+            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -252,13 +257,15 @@
             "type": "Literal",
             "start": 595,
             "end": 607,
-            "value": "greenfield"
+            "value": "greenfield",
+            "raw": "\"greenfield\""
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 649,
-            "value": "obj.valueOf() must return \"greenfield\""
+            "value": "obj.valueOf() must return \"greenfield\"",
+            "raw": "'obj.valueOf() must return \"greenfield\"'"
           }
         ],
         "optional": false

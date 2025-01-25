@@ -220,7 +220,8 @@
             "type": "Literal",
             "start": 537,
             "end": 541,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

@@ -74,25 +74,29 @@
                                 "type": "Literal",
                                 "start": 864,
                                 "end": 867,
-                                "value": "40n"
+                                "value": "40n",
+                                "raw": "40n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 869,
                                 "end": 872,
-                                "value": "41n"
+                                "value": "41n",
+                                "raw": "41n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 874,
                                 "end": 877,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 879,
                                 "end": 882,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               }
                             ]
                           }
@@ -121,7 +125,8 @@
                         "type": "Literal",
                         "start": 900,
                         "end": 901,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ],
@@ -198,7 +203,8 @@
                         "type": "Literal",
                         "start": 956,
                         "end": 969,
-                        "value": "constructor"
+                        "value": "constructor",
+                        "raw": "\"constructor\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -304,7 +310,8 @@
                           "type": "Literal",
                           "start": 1050,
                           "end": 1051,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       ],
                       "optional": false
@@ -349,13 +356,15 @@
                         "type": "Literal",
                         "start": 1081,
                         "end": 1082,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 1084,
                         "end": 1122,
-                        "value": "called custom ctor get accessor once"
+                        "value": "called custom ctor get accessor once",
+                        "raw": "\"called custom ctor get accessor once\""
                       }
                     ],
                     "optional": false
@@ -459,7 +468,8 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1283,
-                        "value": "use defaultCtor on an undefined return - getPrototypeOf check"
+                        "value": "use defaultCtor on an undefined return - getPrototypeOf check",
+                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
                       }
                     ],
                     "optional": false
@@ -522,7 +532,8 @@
                         "type": "Literal",
                         "start": 1352,
                         "end": 1414,
-                        "value": "used defaultCtor but still checks the inherited .constructor"
+                        "value": "used defaultCtor but still checks the inherited .constructor",
+                        "raw": "\"used defaultCtor but still checks the inherited .constructor\""
                       }
                     ],
                     "optional": false
@@ -547,7 +558,8 @@
                       "type": "Literal",
                       "start": 1431,
                       "end": 1432,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     }
                   }
                 },
@@ -613,13 +625,15 @@
                         "type": "Literal",
                         "start": 1491,
                         "end": 1492,
-                        "value": 7
+                        "value": 7,
+                        "raw": "7"
                       },
                       {
                         "type": "Literal",
                         "start": 1498,
                         "end": 1559,
-                        "value": "result.constructor triggers the inherited accessor property"
+                        "value": "result.constructor triggers the inherited accessor property",
+                        "raw": "\"result.constructor triggers the inherited accessor property\""
                       }
                     ],
                     "optional": false

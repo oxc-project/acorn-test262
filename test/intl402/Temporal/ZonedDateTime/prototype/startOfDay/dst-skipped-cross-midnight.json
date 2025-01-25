@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 442,
                       "end": 446,
-                      "value": 1919
+                      "value": 1919,
+                      "raw": "1919"
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 457,
                       "end": 458,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 467,
                       "end": 469,
-                      "value": 31
+                      "value": 31,
+                      "raw": "31"
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,8 @@
                       "type": "Literal",
                       "start": 479,
                       "end": 481,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   },
@@ -161,7 +165,8 @@
                       "type": "Literal",
                       "start": 495,
                       "end": 512,
-                      "value": "America/Toronto"
+                      "value": "America/Toronto",
+                      "raw": "\"America/Toronto\""
                     },
                     "kind": "init"
                   }
@@ -270,13 +275,15 @@
             "type": "Literal",
             "start": 586,
             "end": 587,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 619,
-            "value": "1919-03-31 started at hour 0"
+            "value": "1919-03-31 started at hour 0",
+            "raw": "\"1919-03-31 started at hour 0\""
           }
         ],
         "optional": false
@@ -333,13 +340,15 @@
             "type": "Literal",
             "start": 654,
             "end": 656,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 691,
-            "value": "1919-03-31 started at minute 30"
+            "value": "1919-03-31 started at minute 30",
+            "raw": "\"1919-03-31 started at minute 30\""
           }
         ],
         "optional": false

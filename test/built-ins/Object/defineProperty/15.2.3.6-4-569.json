@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 309,
             "end": 311,
-            "value": 20
+            "value": 20,
+            "raw": "20"
           }
         }
       ],
@@ -101,7 +102,8 @@
                       "type": "Literal",
                       "start": 359,
                       "end": 363,
-                      "value": 2010
+                      "value": 2010,
+                      "raw": "2010"
                     }
                   }
                 },
@@ -161,7 +163,8 @@
             "type": "Literal",
             "start": 421,
             "end": 427,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -244,7 +247,8 @@
                 "type": "Literal",
                 "start": 498,
                 "end": 504,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -296,7 +300,8 @@
                 "type": "Literal",
                 "start": 534,
                 "end": 540,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -305,7 +310,8 @@
             "type": "Literal",
             "start": 543,
             "end": 580,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -368,7 +374,8 @@
             "type": "Literal",
             "start": 619,
             "end": 629,
-            "value": "desc.get"
+            "value": "desc.get",
+            "raw": "'desc.get'"
           }
         ],
         "optional": false
@@ -425,13 +432,15 @@
             "type": "Literal",
             "start": 659,
             "end": 663,
-            "value": 2010
+            "value": 2010,
+            "raw": "2010"
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 675,
-            "value": "obj.prop"
+            "value": "obj.prop",
+            "raw": "'obj.prop'"
           }
         ],
         "optional": false
@@ -475,13 +484,15 @@
             "type": "Literal",
             "start": 711,
             "end": 715,
-            "value": 2010
+            "value": 2010,
+            "raw": "2010"
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 733,
-            "value": "globalVariable"
+            "value": "globalVariable",
+            "raw": "'globalVariable'"
           }
         ],
         "optional": false

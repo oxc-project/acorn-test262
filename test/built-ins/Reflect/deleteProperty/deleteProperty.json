@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 433,
             "end": 449,
-            "value": "deleteProperty"
+            "value": "deleteProperty",
+            "raw": "'deleteProperty'"
           },
           {
             "type": "ObjectExpression",
@@ -52,7 +53,8 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 469,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -73,7 +75,8 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 490,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -94,7 +97,8 @@
                   "type": "Literal",
                   "start": 508,
                   "end": 512,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

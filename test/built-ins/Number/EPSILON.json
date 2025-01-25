@@ -46,14 +46,16 @@
               "type": "Literal",
               "start": 633,
               "end": 634,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 663,
-            "value": "value is greater than 0"
+            "value": "value is greater than 0",
+            "raw": "\"value is greater than 0\""
           }
         ],
         "optional": false
@@ -102,14 +104,16 @@
               "type": "Literal",
               "start": 694,
               "end": 702,
-              "value": 0.000001
+              "value": 0.000001,
+              "raw": "0.000001"
             }
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 738,
-            "value": "value is smaller than 0.000001"
+            "value": "value is smaller than 0.000001",
+            "raw": "\"value is smaller than 0.000001\""
           }
         ],
         "optional": false
@@ -140,7 +144,8 @@
             "type": "Literal",
             "start": 766,
             "end": 775,
-            "value": "EPSILON"
+            "value": "EPSILON",
+            "raw": "\"EPSILON\""
           },
           {
             "type": "ObjectExpression",
@@ -164,7 +169,8 @@
                   "type": "Literal",
                   "start": 791,
                   "end": 796,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -185,7 +191,8 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 817,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -206,7 +213,8 @@
                   "type": "Literal",
                   "start": 835,
                   "end": 840,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

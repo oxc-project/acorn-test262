@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 665,
                 "end": 669,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               {
                 "type": "Literal",
                 "start": 671,
                 "end": 672,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -122,13 +124,15 @@
               "type": "Literal",
               "start": 731,
               "end": 732,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             },
             {
               "type": "Literal",
               "start": 734,
               "end": 735,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             }
           ],
           "optional": false
@@ -173,19 +177,22 @@
                   "type": "Literal",
                   "start": 759,
                   "end": 763,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 765,
                   "end": 766,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 768,
                   "end": 769,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 }
               ]
             },
@@ -247,7 +254,8 @@
             "type": "Literal",
             "start": 825,
             "end": 867,
-            "value": "date within unit boundary (return value)"
+            "value": "date within unit boundary (return value)",
+            "raw": "'date within unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -317,7 +325,8 @@
             "type": "Literal",
             "start": 917,
             "end": 965,
-            "value": "date within unit boundary ([[DateValue]] slot)"
+            "value": "date within unit boundary ([[DateValue]] slot)",
+            "raw": "'date within unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -366,13 +375,15 @@
               "type": "Literal",
               "start": 998,
               "end": 999,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             },
             {
               "type": "Literal",
               "start": 1001,
               "end": 1002,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ],
           "optional": false
@@ -417,19 +428,22 @@
                   "type": "Literal",
                   "start": 1026,
                   "end": 1030,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1032,
                   "end": 1033,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Literal",
                   "start": 1035,
                   "end": 1037,
-                  "value": 30
+                  "value": 30,
+                  "raw": "30"
                 }
               ]
             },
@@ -491,7 +505,8 @@
             "type": "Literal",
             "start": 1093,
             "end": 1140,
-            "value": "date before time unit boundary (return value)"
+            "value": "date before time unit boundary (return value)",
+            "raw": "'date before time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -561,7 +576,8 @@
             "type": "Literal",
             "start": 1194,
             "end": 1247,
-            "value": "date before time unit boundary ([[DateValue]] slot)"
+            "value": "date before time unit boundary ([[DateValue]] slot)",
+            "raw": "'date before time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -610,13 +626,15 @@
               "type": "Literal",
               "start": 1280,
               "end": 1281,
-              "value": 5
+              "value": 5,
+              "raw": "5"
             },
             {
               "type": "Literal",
               "start": 1283,
               "end": 1285,
-              "value": 31
+              "value": 31,
+              "raw": "31"
             }
           ],
           "optional": false
@@ -661,19 +679,22 @@
                   "type": "Literal",
                   "start": 1309,
                   "end": 1313,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1315,
                   "end": 1316,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 1318,
                   "end": 1319,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -735,7 +756,8 @@
             "type": "Literal",
             "start": 1375,
             "end": 1421,
-            "value": "date after time unit boundary (return value)"
+            "value": "date after time unit boundary (return value)",
+            "raw": "'date after time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -805,7 +827,8 @@
             "type": "Literal",
             "start": 1475,
             "end": 1527,
-            "value": "date after time unit boundary ([[DateValue]] slot)"
+            "value": "date after time unit boundary ([[DateValue]] slot)",
+            "raw": "'date after time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false

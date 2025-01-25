@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 304,
             "end": 317,
-            "value": "aBc12 dEf34"
+            "value": "aBc12 dEf34",
+            "raw": "\"aBc12 dEf34\""
           }
         }
       ],
@@ -48,6 +49,7 @@
             "start": 335,
             "end": 355,
             "value": {},
+            "raw": "/([a-z]+)([0-9]+)/ig",
             "regex": {
               "pattern": "([a-z]+)([0-9]+)",
               "flags": "ig"
@@ -109,7 +111,8 @@
           "type": "Literal",
           "start": 490,
           "end": 503,
-          "value": "12aBc 34dEf"
+          "value": "12aBc 34dEf",
+          "raw": "'12aBc 34dEf'"
         }
       },
       "consequent": {
@@ -140,7 +143,8 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 724,
-                    "value": "#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)==='12aBc 34dEf'. Actual: "
+                    "value": "#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)==='12aBc 34dEf'. Actual: ",
+                    "raw": "'#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)===\\'12aBc 34dEf\\'. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -231,7 +235,8 @@
                   "type": "Literal",
                   "start": 890,
                   "end": 891,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "computed": true,
                 "optional": false
@@ -251,7 +256,8 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 906,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "computed": true,
                 "optional": false

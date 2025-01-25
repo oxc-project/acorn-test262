@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 424,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 426,
                     "end": 427,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -91,7 +93,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 453,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -161,7 +164,8 @@
                             "type": "Literal",
                             "start": 510,
                             "end": 511,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         }
                       },
@@ -178,7 +182,8 @@
                             "type": "Literal",
                             "start": 523,
                             "end": 524,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         }
                       }
@@ -286,7 +291,8 @@
             "type": "Literal",
             "start": 603,
             "end": 655,
-            "value": "GetSetRecord throws an error when has is undefined"
+            "value": "GetSetRecord throws an error when has is undefined",
+            "raw": "\"GetSetRecord throws an error when has is undefined\""
           }
         ],
         "optional": false
@@ -421,7 +427,8 @@
             "type": "Literal",
             "start": 742,
             "end": 797,
-            "value": "GetSetRecord throws an error when has is not callable"
+            "value": "GetSetRecord throws an error when has is not callable",
+            "raw": "\"GetSetRecord throws an error when has is not callable\""
           }
         ],
         "optional": false

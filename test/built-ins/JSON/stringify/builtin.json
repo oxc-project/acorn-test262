@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 418,
             "end": 472,
-            "value": "Object.isExtensible(JSON.stringify) must return true"
+            "value": "Object.isExtensible(JSON.stringify) must return true",
+            "raw": "'Object.isExtensible(JSON.stringify) must return true'"
           }
         ],
         "optional": false
@@ -178,13 +179,15 @@
             "type": "Literal",
             "start": 545,
             "end": 564,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 648,
-            "value": "Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\""
+            "value": "Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\"",
+            "raw": "'Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\"'"
           }
         ],
         "optional": false
@@ -287,7 +290,8 @@
             "type": "Literal",
             "start": 735,
             "end": 818,
-            "value": "Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype"
+            "value": "Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype",
+            "raw": "'Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype'"
           }
         ],
         "optional": false
@@ -362,7 +366,8 @@
                 "type": "Literal",
                 "start": 872,
                 "end": 883,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -371,13 +376,15 @@
             "type": "Literal",
             "start": 888,
             "end": 893,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 897,
             "end": 959,
-            "value": "JSON.stringify.hasOwnProperty(\"prototype\") must return false"
+            "value": "JSON.stringify.hasOwnProperty(\"prototype\") must return false",
+            "raw": "'JSON.stringify.hasOwnProperty(\"prototype\") must return false'"
           }
         ],
         "optional": false

@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 314,
             "end": 319,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 321,
             "end": 368,
-            "value": "Boolean.prototype.valueOf() must return false"
+            "value": "Boolean.prototype.valueOf() must return false",
+            "raw": "'Boolean.prototype.valueOf() must return false'"
           }
         ],
         "optional": false
@@ -155,13 +157,15 @@
             "type": "Literal",
             "start": 415,
             "end": 420,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 467,
-            "value": "(new Boolean()).valueOf() must return false"
+            "value": "(new Boolean()).valueOf() must return false",
+            "raw": "'(new Boolean()).valueOf() must return false'"
           }
         ],
         "optional": false
@@ -222,7 +226,8 @@
                       "type": "Literal",
                       "start": 500,
                       "end": 501,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ]
                 }
@@ -243,13 +248,15 @@
             "type": "Literal",
             "start": 515,
             "end": 520,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 568,
-            "value": "(new Boolean(0)).valueOf() must return false"
+            "value": "(new Boolean(0)).valueOf() must return false",
+            "raw": "'(new Boolean(0)).valueOf() must return false'"
           }
         ],
         "optional": false
@@ -316,7 +323,8 @@
                         "type": "Literal",
                         "start": 602,
                         "end": 603,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ]
@@ -338,13 +346,15 @@
             "type": "Literal",
             "start": 617,
             "end": 621,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 669,
-            "value": "(new Boolean(-1)).valueOf() must return true"
+            "value": "(new Boolean(-1)).valueOf() must return true",
+            "raw": "'(new Boolean(-1)).valueOf() must return true'"
           }
         ],
         "optional": false
@@ -405,7 +415,8 @@
                       "type": "Literal",
                       "start": 702,
                       "end": 703,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 }
@@ -426,13 +437,15 @@
             "type": "Literal",
             "start": 717,
             "end": 721,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 768,
-            "value": "(new Boolean(1)).valueOf() must return true"
+            "value": "(new Boolean(1)).valueOf() must return true",
+            "raw": "'(new Boolean(1)).valueOf() must return true'"
           }
         ],
         "optional": false
@@ -520,13 +533,15 @@
             "type": "Literal",
             "start": 833,
             "end": 837,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 897,
-            "value": "(new Boolean(new Object())).valueOf() must return true"
+            "value": "(new Boolean(new Object())).valueOf() must return true",
+            "raw": "'(new Boolean(new Object())).valueOf() must return true'"
           }
         ],
         "optional": false

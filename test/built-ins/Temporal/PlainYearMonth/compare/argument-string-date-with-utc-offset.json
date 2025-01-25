@@ -27,49 +27,57 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 329,
-                "value": "2019-12[Africa/Abidjan]"
+                "value": "2019-12[Africa/Abidjan]",
+                "raw": "\"2019-12[Africa/Abidjan]\""
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 359,
-                "value": "2019-12[!Africa/Abidjan]"
+                "value": "2019-12[!Africa/Abidjan]",
+                "raw": "\"2019-12[!Africa/Abidjan]\""
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 386,
-                "value": "2019-12[u-ca=iso8601]"
+                "value": "2019-12[u-ca=iso8601]",
+                "raw": "\"2019-12[u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 429,
-                "value": "2019-12[Africa/Abidjan][u-ca=iso8601]"
+                "value": "2019-12[Africa/Abidjan][u-ca=iso8601]",
+                "raw": "\"2019-12[Africa/Abidjan][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 454,
-                "value": "2019-12-15T00+00:00"
+                "value": "2019-12-15T00+00:00",
+                "raw": "\"2019-12-15T00+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 458,
                 "end": 484,
-                "value": "2019-12-15T00+00:00[UTC]"
+                "value": "2019-12-15T00+00:00[UTC]",
+                "raw": "\"2019-12-15T00+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 515,
-                "value": "2019-12-15T00+00:00[!UTC]"
+                "value": "2019-12-15T00+00:00[!UTC]",
+                "raw": "\"2019-12-15T00+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 519,
                 "end": 558,
-                "value": "2019-12-15T00-02:30[America/St_Johns]"
+                "value": "2019-12-15T00-02:30[America/St_Johns]",
+                "raw": "\"2019-12-15T00-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -222,7 +230,8 @@
                   "type": "Literal",
                   "start": 695,
                   "end": 696,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -290,61 +299,71 @@
                 "type": "Literal",
                 "start": 799,
                 "end": 821,
-                "value": "2022-09[u-ca=hebrew]"
+                "value": "2022-09[u-ca=hebrew]",
+                "raw": "\"2022-09[u-ca=hebrew]\""
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 835,
-                "value": "2022-09Z"
+                "value": "2022-09Z",
+                "raw": "\"2022-09Z\""
               },
               {
                 "type": "Literal",
                 "start": 839,
                 "end": 854,
-                "value": "2022-09+01:00"
+                "value": "2022-09+01:00",
+                "raw": "\"2022-09+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 858,
                 "end": 871,
-                "value": "2022-09-15Z"
+                "value": "2022-09-15Z",
+                "raw": "\"2022-09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 875,
                 "end": 893,
-                "value": "2022-09-15Z[UTC]"
+                "value": "2022-09-15Z[UTC]",
+                "raw": "\"2022-09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 897,
                 "end": 925,
-                "value": "2022-09-15Z[Europe/Vienna]"
+                "value": "2022-09-15Z[Europe/Vienna]",
+                "raw": "\"2022-09-15Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 929,
                 "end": 947,
-                "value": "2022-09-15+00:00"
+                "value": "2022-09-15+00:00",
+                "raw": "\"2022-09-15+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 951,
                 "end": 974,
-                "value": "2022-09-15+00:00[UTC]"
+                "value": "2022-09-15+00:00[UTC]",
+                "raw": "\"2022-09-15+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 978,
                 "end": 996,
-                "value": "2022-09-15-02:30"
+                "value": "2022-09-15-02:30",
+                "raw": "\"2022-09-15-02:30\""
               },
               {
                 "type": "Literal",
                 "start": 1000,
                 "end": 1036,
-                "value": "2022-09-15-02:30[America/St_Johns]"
+                "value": "2022-09-15-02:30[America/St_Johns]",
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -502,13 +521,15 @@
                             "type": "Literal",
                             "start": 1186,
                             "end": 1190,
-                            "value": 2019
+                            "value": 2019,
+                            "raw": "2019"
                           },
                           {
                             "type": "Literal",
                             "start": 1192,
                             "end": 1193,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -663,13 +684,15 @@
                             "type": "Literal",
                             "start": 1393,
                             "end": 1397,
-                            "value": 2019
+                            "value": 2019,
+                            "raw": "2019"
                           },
                           {
                             "type": "Literal",
                             "start": 1399,
                             "end": 1400,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       },

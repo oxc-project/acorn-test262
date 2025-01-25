@@ -198,7 +198,8 @@
             "type": "Literal",
             "start": 838,
             "end": 855,
-            "value": "top-level value"
+            "value": "top-level value",
+            "raw": "'top-level value'"
           }
         ],
         "optional": false
@@ -331,7 +332,8 @@
             "type": "Literal",
             "start": 938,
             "end": 952,
-            "value": "nested value"
+            "value": "nested value",
+            "raw": "'nested value'"
           }
         ],
         "optional": false

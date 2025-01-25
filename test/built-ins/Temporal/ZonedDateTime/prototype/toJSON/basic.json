@@ -56,13 +56,15 @@
                         "type": "Literal",
                         "start": 305,
                         "end": 329,
-                        "value": "192258181000000000n"
+                        "value": "192258181000000000n",
+                        "raw": "192_258_181_000_000_000n"
                       },
                       {
                         "type": "Literal",
                         "start": 331,
                         "end": 336,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       }
                     ]
                   },
@@ -70,7 +72,8 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 371,
-                    "value": "1976-02-04T05:03:01+00:00[UTC]"
+                    "value": "1976-02-04T05:03:01+00:00[UTC]",
+                    "raw": "\"1976-02-04T05:03:01+00:00[UTC]\""
                   }
                 ]
               },
@@ -107,13 +110,15 @@
                         "type": "Literal",
                         "start": 404,
                         "end": 406,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 408,
                         "end": 413,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       }
                     ]
                   },
@@ -121,7 +126,8 @@
                     "type": "Literal",
                     "start": 416,
                     "end": 448,
-                    "value": "1970-01-01T00:00:00+00:00[UTC]"
+                    "value": "1970-01-01T00:00:00+00:00[UTC]",
+                    "raw": "\"1970-01-01T00:00:00+00:00[UTC]\""
                   }
                 ]
               },
@@ -158,13 +164,15 @@
                         "type": "Literal",
                         "start": 481,
                         "end": 496,
-                        "value": "30000000000n"
+                        "value": "30000000000n",
+                        "raw": "30_000_000_000n"
                       },
                       {
                         "type": "Literal",
                         "start": 498,
                         "end": 503,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       }
                     ]
                   },
@@ -172,7 +180,8 @@
                     "type": "Literal",
                     "start": 506,
                     "end": 538,
-                    "value": "1970-01-01T00:00:30+00:00[UTC]"
+                    "value": "1970-01-01T00:00:30+00:00[UTC]",
+                    "raw": "\"1970-01-01T00:00:30+00:00[UTC]\""
                   }
                 ]
               },
@@ -209,13 +218,15 @@
                         "type": "Literal",
                         "start": 571,
                         "end": 586,
-                        "value": "30123400000n"
+                        "value": "30123400000n",
+                        "raw": "30_123_400_000n"
                       },
                       {
                         "type": "Literal",
                         "start": 588,
                         "end": 593,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       }
                     ]
                   },
@@ -223,7 +234,8 @@
                     "type": "Literal",
                     "start": 596,
                     "end": 633,
-                    "value": "1970-01-01T00:00:30.1234+00:00[UTC]"
+                    "value": "1970-01-01T00:00:30.1234+00:00[UTC]",
+                    "raw": "\"1970-01-01T00:00:30.1234+00:00[UTC]\""
                   }
                 ]
               }
@@ -317,7 +329,8 @@
                                   "type": "Literal",
                                   "start": 705,
                                   "end": 745,
-                                  "value": "should not get properties off argument"
+                                  "value": "should not get properties off argument",
+                                  "raw": "\"should not get properties off argument\""
                                 }
                               ]
                             }
@@ -447,7 +460,8 @@
                   "type": "Literal",
                   "start": 845,
                   "end": 870,
-                  "value": "toJSON without argument"
+                  "value": "toJSON without argument",
+                  "raw": "\"toJSON without argument\""
                 }
               ],
               "optional": false
@@ -524,7 +538,8 @@
                   "type": "Literal",
                   "start": 928,
                   "end": 950,
-                  "value": "toJSON with argument"
+                  "value": "toJSON with argument",
+                  "raw": "\"toJSON with argument\""
                 }
               ],
               "optional": false

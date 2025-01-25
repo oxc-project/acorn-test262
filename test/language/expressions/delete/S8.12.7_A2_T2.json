@@ -74,7 +74,8 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 500,
-                "value": 16711680
+                "value": 16711680,
+                "raw": "0xff0000"
               },
               "kind": "init"
             },
@@ -95,7 +96,8 @@
                 "type": "Literal",
                 "start": 511,
                 "end": 519,
-                "value": 65280
+                "value": 65280,
+                "raw": "0x00ff00"
               },
               "kind": "init"
             }
@@ -166,7 +168,8 @@
           "type": "Literal",
           "start": 667,
           "end": 675,
-          "value": 16711680
+          "value": 16711680,
+          "raw": "0xff0000"
         }
       },
       "consequent": {
@@ -197,7 +200,8 @@
                     "type": "Literal",
                     "start": 709,
                     "end": 850,
-                    "value": "#1: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: "
+                    "value": "#1: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: ",
+                    "raw": "'#1: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -266,7 +270,8 @@
           "type": "Literal",
           "start": 1079,
           "end": 1083,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -297,7 +302,8 @@
                     "type": "Literal",
                     "start": 1117,
                     "end": 1260,
-                    "value": "#2 function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; delete __palette.red === true. Actual: "
+                    "value": "#2 function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; delete __palette.red === true. Actual: ",
+                    "raw": "'#2 function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; delete __palette.red === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -366,7 +372,8 @@
           "type": "Literal",
           "start": 1489,
           "end": 1497,
-          "value": 16711680
+          "value": 16711680,
+          "raw": "0xff0000"
         }
       },
       "consequent": {
@@ -397,7 +404,8 @@
                     "type": "Literal",
                     "start": 1531,
                     "end": 1672,
-                    "value": "#3: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: "
+                    "value": "#3: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: ",
+                    "raw": "'#3: function Palette(){}; Palette.prototype = {red:0xFF0000, green:0x00FF00}; __palette = new Palette; __palette.red === 0xFF0000. Actual: '"
                   },
                   "operator": "+",
                   "right": {

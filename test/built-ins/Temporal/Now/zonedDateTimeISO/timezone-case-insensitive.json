@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 269,
             "end": 274,
-            "value": "UtC"
+            "value": "UtC",
+            "raw": "'UtC'"
           }
         }
       ],
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 368,
             "end": 373,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "'UTC'"
           },
           {
             "type": "TemplateLiteral",

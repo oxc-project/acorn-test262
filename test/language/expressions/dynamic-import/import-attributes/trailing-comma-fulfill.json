@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 603,
-                  "value": "./2nd-param_FIXTURE.js"
+                  "value": "./2nd-param_FIXTURE.js",
+                  "raw": "'./2nd-param_FIXTURE.js'"
                 },
                 "options": null
               },
@@ -117,7 +118,8 @@
                             "type": "Literal",
                             "start": 670,
                             "end": 673,
-                            "value": 262
+                            "value": 262,
+                            "raw": "262"
                           }
                         ],
                         "optional": false

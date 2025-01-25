@@ -56,19 +56,22 @@
                         "type": "Literal",
                         "start": 289,
                         "end": 290,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       {
                         "type": "Literal",
                         "start": 292,
                         "end": 293,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "Literal",
                         "start": 295,
                         "end": 296,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   },
@@ -76,7 +79,8 @@
                     "type": "Literal",
                     "start": 299,
                     "end": 309,
-                    "value": "05:03:01"
+                    "value": "05:03:01",
+                    "raw": "\"05:03:01\""
                   }
                 ]
               },
@@ -113,13 +117,15 @@
                         "type": "Literal",
                         "start": 338,
                         "end": 340,
-                        "value": 15
+                        "value": 15,
+                        "raw": "15"
                       },
                       {
                         "type": "Literal",
                         "start": 342,
                         "end": 344,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       }
                     ]
                   },
@@ -127,7 +133,8 @@
                     "type": "Literal",
                     "start": 347,
                     "end": 357,
-                    "value": "15:23:00"
+                    "value": "15:23:00",
+                    "raw": "\"15:23:00\""
                   }
                 ]
               },
@@ -164,19 +171,22 @@
                         "type": "Literal",
                         "start": 386,
                         "end": 388,
-                        "value": 15
+                        "value": 15,
+                        "raw": "15"
                       },
                       {
                         "type": "Literal",
                         "start": 390,
                         "end": 392,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       },
                       {
                         "type": "Literal",
                         "start": 394,
                         "end": 396,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       }
                     ]
                   },
@@ -184,7 +194,8 @@
                     "type": "Literal",
                     "start": 399,
                     "end": 409,
-                    "value": "15:23:30"
+                    "value": "15:23:30",
+                    "raw": "\"15:23:30\""
                   }
                 ]
               },
@@ -221,31 +232,36 @@
                         "type": "Literal",
                         "start": 438,
                         "end": 440,
-                        "value": 15
+                        "value": 15,
+                        "raw": "15"
                       },
                       {
                         "type": "Literal",
                         "start": 442,
                         "end": 444,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       },
                       {
                         "type": "Literal",
                         "start": 446,
                         "end": 448,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       },
                       {
                         "type": "Literal",
                         "start": 450,
                         "end": 453,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       },
                       {
                         "type": "Literal",
                         "start": 455,
                         "end": 458,
-                        "value": 400
+                        "value": 400,
+                        "raw": "400"
                       }
                     ]
                   },
@@ -253,7 +269,8 @@
                     "type": "Literal",
                     "start": 461,
                     "end": 476,
-                    "value": "15:23:30.1234"
+                    "value": "15:23:30.1234",
+                    "raw": "\"15:23:30.1234\""
                   }
                 ]
               }
@@ -347,7 +364,8 @@
                                   "type": "Literal",
                                   "start": 548,
                                   "end": 588,
-                                  "value": "should not get properties off argument"
+                                  "value": "should not get properties off argument",
+                                  "raw": "\"should not get properties off argument\""
                                 }
                               ]
                             }
@@ -477,7 +495,8 @@
                   "type": "Literal",
                   "start": 680,
                   "end": 705,
-                  "value": "toJSON without argument"
+                  "value": "toJSON without argument",
+                  "raw": "\"toJSON without argument\""
                 }
               ],
               "optional": false
@@ -554,7 +573,8 @@
                   "type": "Literal",
                   "start": 759,
                   "end": 781,
-                  "value": "toJSON with argument"
+                  "value": "toJSON with argument",
+                  "raw": "\"toJSON with argument\""
                 }
               ],
               "optional": false

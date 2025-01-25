@@ -122,7 +122,8 @@
           "type": "Literal",
           "start": 431,
           "end": 448,
-          "value": "[object Object]"
+          "value": "[object Object]",
+          "raw": "\"[object Object]\""
         }
       },
       "consequent": {
@@ -153,7 +154,8 @@
                     "type": "Literal",
                     "start": 477,
                     "end": 584,
-                    "value": "#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: "
+                    "value": "#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: ",
+                    "raw": "'#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -280,7 +282,8 @@
                     "type": "Literal",
                     "start": 677,
                     "end": 683,
-                    "value": "this"
+                    "value": "this",
+                    "raw": "\"this\""
                   }
                 ],
                 "optional": false
@@ -353,7 +356,8 @@
           "type": "Literal",
           "start": 730,
           "end": 747,
-          "value": "[object Object]"
+          "value": "[object Object]",
+          "raw": "\"[object Object]\""
         }
       },
       "consequent": {
@@ -384,7 +388,8 @@
                     "type": "Literal",
                     "start": 776,
                     "end": 899,
-                    "value": "#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: "
+                    "value": "#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: ",
+                    "raw": "'#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

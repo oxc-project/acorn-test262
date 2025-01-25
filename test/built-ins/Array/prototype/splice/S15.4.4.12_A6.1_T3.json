@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 337,
                           "end": 338,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -160,19 +161,22 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 400,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 402,
                   "end": 403,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "Literal",
                   "start": 405,
                   "end": 406,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 }
               ],
               "optional": false
@@ -197,7 +201,8 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 456,
-                  "value": "Expected a TypeError"
+                  "value": "Expected a TypeError",
+                  "raw": "\"Expected a TypeError\""
                 }
               ]
             }

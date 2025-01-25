@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 278,
                   "end": 281,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "'a'"
                 }
               ],
               "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 292,
             "end": 295,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 331,
-            "value": "The value of err1.message is \"a\""
+            "value": "The value of err1.message is \"a\"",
+            "raw": "'The value of err1.message is \"a\"'"
           }
         ],
         "optional": false
@@ -127,7 +130,8 @@
                   "type": "Literal",
                   "start": 361,
                   "end": 364,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "'a'"
                 }
               ]
             },
@@ -144,13 +148,15 @@
             "type": "Literal",
             "start": 375,
             "end": 378,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 414,
-            "value": "The value of err1.message is \"a\""
+            "value": "The value of err1.message is \"a\"",
+            "raw": "'The value of err1.message is \"a\"'"
           }
         ],
         "optional": false
@@ -212,7 +218,8 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 457,
-                  "value": "message"
+                  "value": "message",
+                  "raw": "'message'"
                 }
               ],
               "optional": false
@@ -277,7 +284,8 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 505,
-                  "value": "message"
+                  "value": "message",
+                  "raw": "'message'"
                 }
               ],
               "optional": false
@@ -376,7 +384,8 @@
             "type": "Literal",
             "start": 572,
             "end": 637,
-            "value": "The value of new Error().message equals Error.prototype.message"
+            "value": "The value of new Error().message equals Error.prototype.message",
+            "raw": "'The value of new Error().message equals Error.prototype.message'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 855,
             "end": 876,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -84,13 +85,15 @@
                 "type": "Literal",
                 "start": 912,
                 "end": 924,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 926,
                 "end": 927,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -99,13 +102,15 @@
             "type": "Literal",
             "start": 930,
             "end": 935,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 939,
             "end": 987,
-            "value": "Returns false on str.includes(\"The future\", 1)"
+            "value": "Returns false on str.includes(\"The future\", 1)",
+            "raw": "'Returns false on str.includes(\"The future\", 1)'"
           }
         ],
         "optional": false
@@ -173,7 +178,8 @@
                 "type": "Literal",
                 "start": 1030,
                 "end": 1031,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -182,13 +188,15 @@
             "type": "Literal",
             "start": 1034,
             "end": 1039,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1082,
-            "value": "Returns false on str.includes(str, 1)"
+            "value": "Returns false on str.includes(str, 1)",
+            "raw": "'Returns false on str.includes(str, 1)'"
           }
         ],
         "optional": false

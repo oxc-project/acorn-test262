@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 351,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 358,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -99,7 +101,8 @@
                       "type": "Literal",
                       "start": 374,
                       "end": 375,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -127,7 +130,8 @@
                       "type": "Literal",
                       "start": 390,
                       "end": 391,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   }
@@ -155,7 +159,8 @@
                       "type": "Literal",
                       "start": 405,
                       "end": 406,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -183,7 +188,8 @@
                       "type": "Literal",
                       "start": 419,
                       "end": 420,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     "kind": "init"
                   }
@@ -211,7 +217,8 @@
                       "type": "Literal",
                       "start": 434,
                       "end": 435,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -239,7 +246,8 @@
                       "type": "Literal",
                       "start": 451,
                       "end": 452,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -267,7 +275,8 @@
                       "type": "Literal",
                       "start": 468,
                       "end": 469,
-                      "value": 7
+                      "value": 7,
+                      "raw": "7"
                     },
                     "kind": "init"
                   }
@@ -295,7 +304,8 @@
                       "type": "Literal",
                       "start": 490,
                       "end": 491,
-                      "value": 8
+                      "value": 8,
+                      "raw": "8"
                     },
                     "kind": "init"
                   }
@@ -323,7 +333,8 @@
                       "type": "Literal",
                       "start": 512,
                       "end": 513,
-                      "value": 9
+                      "value": 9,
+                      "raw": "9"
                     },
                     "kind": "init"
                   }
@@ -351,7 +362,8 @@
                       "type": "Literal",
                       "start": 533,
                       "end": 535,
-                      "value": 10
+                      "value": 10,
+                      "raw": "10"
                     },
                     "kind": "init"
                   }
@@ -471,7 +483,8 @@
                         "type": "Literal",
                         "start": 628,
                         "end": 682,
-                        "value": "Throw TypeError if temporalDurationLike is not valid"
+                        "value": "Throw TypeError if temporalDurationLike is not valid",
+                        "raw": "\"Throw TypeError if temporalDurationLike is not valid\""
                       }
                     ],
                     "optional": false

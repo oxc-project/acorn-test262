@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 515,
               "end": 517,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!=",
             "right": {
@@ -66,13 +67,15 @@
             "type": "Literal",
             "start": 539,
             "end": 543,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 593,
-            "value": "The result of (1n != Number.MAX_VALUE) is true"
+            "value": "The result of (1n != Number.MAX_VALUE) is true",
+            "raw": "'The result of (1n != Number.MAX_VALUE) is true'"
           }
         ],
         "optional": false
@@ -134,20 +137,23 @@
               "type": "Literal",
               "start": 633,
               "end": 635,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 637,
             "end": 641,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 643,
             "end": 691,
-            "value": "The result of (Number.MAX_VALUE != 1n) is true"
+            "value": "The result of (Number.MAX_VALUE != 1n) is true",
+            "raw": "'The result of (Number.MAX_VALUE != 1n) is true'"
           }
         ],
         "optional": false
@@ -189,7 +195,8 @@
               "type": "Literal",
               "start": 711,
               "end": 713,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!=",
             "right": {
@@ -223,13 +230,15 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 791,
-            "value": "The result of (1n != -Number.MAX_VALUE) is true"
+            "value": "The result of (1n != -Number.MAX_VALUE) is true",
+            "raw": "'The result of (1n != -Number.MAX_VALUE) is true'"
           }
         ],
         "optional": false
@@ -298,20 +307,23 @@
               "type": "Literal",
               "start": 832,
               "end": 834,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 836,
             "end": 840,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 842,
             "end": 891,
-            "value": "The result of (-Number.MAX_VALUE != 1n) is true"
+            "value": "The result of (-Number.MAX_VALUE != 1n) is true",
+            "raw": "'The result of (-Number.MAX_VALUE != 1n) is true'"
           }
         ],
         "optional": false
@@ -353,7 +365,8 @@
               "type": "Literal",
               "start": 915,
               "end": 1174,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n",
+              "raw": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn"
             },
             "operator": "!=",
             "right": {
@@ -380,13 +393,15 @@
             "type": "Literal",
             "start": 1198,
             "end": 1202,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1206,
             "end": 1511,
-            "value": "The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn != Number.MAX_VALUE) is true"
+            "value": "The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn != Number.MAX_VALUE) is true",
+            "raw": "'The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn != Number.MAX_VALUE) is true'"
           }
         ],
         "optional": false
@@ -448,20 +463,23 @@
               "type": "Literal",
               "start": 1556,
               "end": 1815,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n",
+              "raw": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn"
             }
           },
           {
             "type": "Literal",
             "start": 1819,
             "end": 1823,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1827,
             "end": 2132,
-            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is true"
+            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is true",
+            "raw": "'The result of (Number.MAX_VALUE != 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is true'"
           }
         ],
         "optional": false
@@ -503,7 +521,8 @@
               "type": "Literal",
               "start": 2157,
               "end": 2416,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368n",
+              "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n"
             },
             "operator": "!=",
             "right": {
@@ -530,13 +549,15 @@
             "type": "Literal",
             "start": 2440,
             "end": 2445,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2449,
             "end": 2755,
-            "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n != Number.MAX_VALUE) is false"
+            "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n != Number.MAX_VALUE) is false",
+            "raw": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n != Number.MAX_VALUE) is false'"
           }
         ],
         "optional": false
@@ -598,20 +619,23 @@
               "type": "Literal",
               "start": 2800,
               "end": 3059,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368n",
+              "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 3063,
             "end": 3068,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3072,
             "end": 3378,
-            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n) is false"
+            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n) is false",
+            "raw": "'The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -653,7 +677,8 @@
               "type": "Literal",
               "start": 3403,
               "end": 3662,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n",
+              "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n"
             },
             "operator": "!=",
             "right": {
@@ -680,13 +705,15 @@
             "type": "Literal",
             "start": 3686,
             "end": 3690,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3694,
             "end": 3999,
-            "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n != Number.MAX_VALUE) is true"
+            "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n != Number.MAX_VALUE) is true",
+            "raw": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n != Number.MAX_VALUE) is true'"
           }
         ],
         "optional": false
@@ -748,20 +775,23 @@
               "type": "Literal",
               "start": 4044,
               "end": 4303,
-              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n"
+              "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n",
+              "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n"
             }
           },
           {
             "type": "Literal",
             "start": 4307,
             "end": 4311,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 4315,
             "end": 4620,
-            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true"
+            "value": "The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true",
+            "raw": "'The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true'"
           }
         ],
         "optional": false

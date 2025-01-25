@@ -28,7 +28,8 @@
                   "type": "Literal",
                   "start": 809,
                   "end": 814,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "'foo'"
                 },
                 "options": null
               }

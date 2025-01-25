@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 844,
                             "end": 845,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -109,7 +110,8 @@
                       "type": "Literal",
                       "start": 866,
                       "end": 875,
-                      "value": "test262"
+                      "value": "test262",
+                      "raw": "\"test262\""
                     }
                   }
                 },
@@ -209,13 +211,15 @@
                         "type": "Literal",
                         "start": 952,
                         "end": 956,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 958,
                         "end": 1003,
-                        "value": "The value of `delete sample.string` is true"
+                        "value": "The value of `delete sample.string` is true",
+                        "raw": "'The value of `delete sample.string` is true'"
                       }
                     ],
                     "optional": false
@@ -279,13 +283,15 @@
                         "type": "Literal",
                         "start": 1046,
                         "end": 1050,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1052,
                         "end": 1096,
-                        "value": "The value of `delete sample.undef` is true"
+                        "value": "The value of `delete sample.undef` is true",
+                        "raw": "'The value of `delete sample.undef` is true'"
                       }
                     ],
                     "optional": false
@@ -339,7 +345,8 @@
                             "type": "Literal",
                             "start": 1132,
                             "end": 1133,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "computed": true,
                           "optional": false
@@ -349,13 +356,15 @@
                         "type": "Literal",
                         "start": 1136,
                         "end": 1140,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1142,
                         "end": 1183,
-                        "value": "The value of `delete sample[0]` is true"
+                        "value": "The value of `delete sample[0]` is true",
+                        "raw": "'The value of `delete sample[0]` is true'"
                       }
                     ],
                     "optional": false

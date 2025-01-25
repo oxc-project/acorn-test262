@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 328,
                       "end": 332,
-                      "value": 2018
+                      "value": 2018,
+                      "raw": "2018"
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 343,
                       "end": 344,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 353,
                       "end": 355,
-                      "value": 17
+                      "value": 17,
+                      "raw": "17"
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,8 @@
                       "type": "Literal",
                       "start": 365,
                       "end": 367,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   },
@@ -161,7 +165,8 @@
                       "type": "Literal",
                       "start": 381,
                       "end": 400,
-                      "value": "America/Sao_Paulo"
+                      "value": "America/Sao_Paulo",
+                      "raw": "\"America/Sao_Paulo\""
                     },
                     "kind": "init"
                   }
@@ -225,13 +230,15 @@
             "type": "Literal",
             "start": 440,
             "end": 442,
-            "value": 25
+            "value": 25,
+            "raw": "25"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 488,
-            "value": "25-hour day with backward jump at midnight"
+            "value": "25-hour day with backward jump at midnight",
+            "raw": "\"25-hour day with backward jump at midnight\""
           }
         ],
         "optional": false
@@ -311,7 +318,8 @@
                       "type": "Literal",
                       "start": 545,
                       "end": 549,
-                      "value": 2018
+                      "value": 2018,
+                      "raw": "2018"
                     },
                     "kind": "init"
                   },
@@ -332,7 +340,8 @@
                       "type": "Literal",
                       "start": 560,
                       "end": 562,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     },
                     "kind": "init"
                   },
@@ -353,7 +362,8 @@
                       "type": "Literal",
                       "start": 571,
                       "end": 572,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     "kind": "init"
                   },
@@ -374,7 +384,8 @@
                       "type": "Literal",
                       "start": 582,
                       "end": 584,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   },
@@ -395,7 +406,8 @@
                       "type": "Literal",
                       "start": 598,
                       "end": 617,
-                      "value": "America/Sao_Paulo"
+                      "value": "America/Sao_Paulo",
+                      "raw": "\"America/Sao_Paulo\""
                     },
                     "kind": "init"
                   }
@@ -459,13 +471,15 @@
             "type": "Literal",
             "start": 659,
             "end": 661,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 706,
-            "value": "23-hour day with forward jump at midnight"
+            "value": "23-hour day with forward jump at midnight",
+            "raw": "\"23-hour day with forward jump at midnight\""
           }
         ],
         "optional": false

@@ -73,7 +73,8 @@
                         "type": "Literal",
                         "start": 1666,
                         "end": 1715,
-                        "value": "Initialized binding created prior to evaluation"
+                        "value": "Initialized binding created prior to evaluation",
+                        "raw": "'Initialized binding created prior to evaluation'"
                       }
                     ],
                     "optional": false
@@ -96,7 +97,8 @@
                           "type": "Literal",
                           "start": 1740,
                           "end": 1744,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       }
                     ]
@@ -124,7 +126,8 @@
                             "type": "Literal",
                             "start": 1769,
                             "end": 1773,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           "consequent": {
                             "type": "FunctionDeclaration",
@@ -153,7 +156,8 @@
                                     "type": "Literal",
                                     "start": 1797,
                                     "end": 1800,
-                                    "value": 123
+                                    "value": 123,
+                                    "raw": "123"
                                   }
                                 }
                               ]
@@ -211,13 +215,15 @@
                         "type": "Literal",
                         "start": 1848,
                         "end": 1858,
-                        "value": "function"
+                        "value": "function",
+                        "raw": "'function'"
                       },
                       {
                         "type": "Literal",
                         "start": 1864,
                         "end": 1911,
-                        "value": "binding value is updated following evaluation"
+                        "value": "binding value is updated following evaluation",
+                        "raw": "'binding value is updated following evaluation'"
                       }
                     ],
                     "optional": false
@@ -268,7 +274,8 @@
                         "type": "Literal",
                         "start": 1941,
                         "end": 1944,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     ],
                     "optional": false

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1163,
+  "end": 1160,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 992,
-      "end": 1038,
+      "start": 989,
+      "end": 1035,
       "expression": {
         "type": "CallExpression",
-        "start": 992,
-        "end": 1037,
+        "start": 989,
+        "end": 1034,
         "callee": {
           "type": "MemberExpression",
-          "start": 992,
-          "end": 1008,
+          "start": 989,
+          "end": 1005,
           "object": {
             "type": "Identifier",
-            "start": 992,
-            "end": 998,
+            "start": 989,
+            "end": 995,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 999,
-            "end": 1008,
+            "start": 996,
+            "end": 1005,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1009,
-            "end": 1033,
+            "start": 1006,
+            "end": 1030,
             "object": {
               "type": "MemberExpression",
-              "start": 1009,
-              "end": 1026,
+              "start": 1006,
+              "end": 1023,
               "object": {
                 "type": "Identifier",
-                "start": 1009,
-                "end": 1013,
+                "start": 1006,
+                "end": 1010,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1014,
-                "end": 1026,
+                "start": 1011,
+                "end": 1023,
                 "name": "NumberFormat"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1027,
-              "end": 1033,
+              "start": 1024,
+              "end": 1030,
               "name": "length"
             },
             "computed": false,
@@ -65,9 +65,10 @@
           },
           {
             "type": "Literal",
-            "start": 1035,
-            "end": 1036,
-            "value": 0
+            "start": 1032,
+            "end": 1033,
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -75,33 +76,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1040,
-      "end": 1162,
+      "start": 1037,
+      "end": 1159,
       "expression": {
         "type": "CallExpression",
-        "start": 1040,
-        "end": 1161,
+        "start": 1037,
+        "end": 1158,
         "callee": {
           "type": "Identifier",
-          "start": 1040,
-          "end": 1054,
+          "start": 1037,
+          "end": 1051,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1055,
-            "end": 1072,
+            "start": 1052,
+            "end": 1069,
             "object": {
               "type": "Identifier",
-              "start": 1055,
-              "end": 1059,
+              "start": 1052,
+              "end": 1056,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 1060,
-              "end": 1072,
+              "start": 1057,
+              "end": 1069,
               "name": "NumberFormat"
             },
             "computed": false,
@@ -109,96 +110,101 @@
           },
           {
             "type": "Literal",
-            "start": 1074,
-            "end": 1082,
-            "value": "length"
+            "start": 1071,
+            "end": 1079,
+            "value": "length",
+            "raw": "'length'"
           },
           {
             "type": "ObjectExpression",
-            "start": 1084,
-            "end": 1160,
+            "start": 1081,
+            "end": 1157,
             "properties": [
               {
                 "type": "Property",
-                "start": 1088,
-                "end": 1096,
+                "start": 1085,
+                "end": 1093,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1088,
-                  "end": 1093,
+                  "start": 1085,
+                  "end": 1090,
                   "name": "value"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1095,
-                  "end": 1096,
-                  "value": 0
+                  "start": 1092,
+                  "end": 1093,
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 1100,
-                "end": 1115,
+                "start": 1097,
+                "end": 1112,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1100,
-                  "end": 1108,
+                  "start": 1097,
+                  "end": 1105,
                   "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1110,
-                  "end": 1115,
-                  "value": false
+                  "start": 1107,
+                  "end": 1112,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 1119,
-                "end": 1136,
+                "start": 1116,
+                "end": 1133,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1119,
-                  "end": 1129,
+                  "start": 1116,
+                  "end": 1126,
                   "name": "enumerable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1131,
-                  "end": 1136,
-                  "value": false
+                  "start": 1128,
+                  "end": 1133,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 1140,
-                "end": 1158,
+                "start": 1137,
+                "end": 1155,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1140,
-                  "end": 1152,
+                  "start": 1137,
+                  "end": 1149,
                   "name": "configurable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1154,
-                  "end": 1158,
-                  "value": true
+                  "start": 1151,
+                  "end": 1155,
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

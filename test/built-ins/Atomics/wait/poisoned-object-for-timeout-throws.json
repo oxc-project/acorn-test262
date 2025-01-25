@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 649,
                       "end": 650,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -145,7 +146,8 @@
                               "type": "Literal",
                               "start": 733,
                               "end": 764,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -240,7 +242,8 @@
                               "type": "Literal",
                               "start": 869,
                               "end": 916,
-                              "value": "passing a poisoned object using @@ToPrimitive"
+                              "value": "passing a poisoned object using @@ToPrimitive",
+                              "raw": "\"passing a poisoned object using @@ToPrimitive\""
                             }
                           ]
                         }
@@ -342,13 +345,15 @@
                         "type": "Literal",
                         "start": 989,
                         "end": 990,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 992,
                         "end": 993,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",
@@ -453,13 +458,15 @@
                         "type": "Literal",
                         "start": 1080,
                         "end": 1081,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1083,
                         "end": 1084,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Identifier",

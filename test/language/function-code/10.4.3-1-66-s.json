@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 291,
               "end": 303,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "\"use strict\""
             },
             "directive": "use strict"
           },
@@ -109,7 +110,8 @@
             "type": "Literal",
             "start": 351,
             "end": 371,
-            "value": "f.apply() !== true"
+            "value": "f.apply() !== true",
+            "raw": "'f.apply() !== true'"
           }
         ],
         "optional": false

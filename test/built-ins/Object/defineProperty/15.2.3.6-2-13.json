@@ -128,7 +128,8 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 384,
-                "value": "-Infinity"
+                "value": "-Infinity",
+                "raw": "\"-Infinity\""
               }
             ],
             "optional": false
@@ -137,7 +138,8 @@
             "type": "Literal",
             "start": 387,
             "end": 429,
-            "value": "obj.hasOwnProperty(\"-Infinity\") !== true"
+            "value": "obj.hasOwnProperty(\"-Infinity\") !== true",
+            "raw": "'obj.hasOwnProperty(\"-Infinity\") !== true'"
           }
         ],
         "optional": false

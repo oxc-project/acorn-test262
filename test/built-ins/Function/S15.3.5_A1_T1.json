@@ -125,13 +125,15 @@
             "type": "Literal",
             "start": 357,
             "end": 376,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "\"[object Function]\""
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 458,
-            "value": "Object.prototype.toString.call(new Function) must return \"[object Function]\""
+            "value": "Object.prototype.toString.call(new Function) must return \"[object Function]\"",
+            "raw": "'Object.prototype.toString.call(new Function) must return \"[object Function]\"'"
           }
         ],
         "optional": false

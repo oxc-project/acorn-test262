@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 961,
             "end": 982,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 1005,
                 "end": 1017,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Identifier",
@@ -86,7 +88,8 @@
             "type": "Literal",
             "start": 1025,
             "end": 1043,
-            "value": "NaN coerced to 0"
+            "value": "NaN coerced to 0",
+            "raw": "'NaN coerced to 0'"
           }
         ],
         "optional": false
@@ -135,13 +138,15 @@
                 "type": "Literal",
                 "start": 1066,
                 "end": 1078,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1080,
                 "end": 1084,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -150,7 +155,8 @@
             "type": "Literal",
             "start": 1087,
             "end": 1106,
-            "value": "null coerced to 0"
+            "value": "null coerced to 0",
+            "raw": "'null coerced to 0'"
           }
         ],
         "optional": false
@@ -199,13 +205,15 @@
                 "type": "Literal",
                 "start": 1129,
                 "end": 1141,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1143,
                 "end": 1148,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -214,7 +222,8 @@
             "type": "Literal",
             "start": 1151,
             "end": 1171,
-            "value": "false coerced to 0"
+            "value": "false coerced to 0",
+            "raw": "'false coerced to 0'"
           }
         ],
         "optional": false
@@ -263,13 +272,15 @@
                 "type": "Literal",
                 "start": 1194,
                 "end": 1206,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1208,
                 "end": 1210,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -278,7 +289,8 @@
             "type": "Literal",
             "start": 1213,
             "end": 1230,
-            "value": "\"\" coerced to 0"
+            "value": "\"\" coerced to 0",
+            "raw": "'\"\" coerced to 0'"
           }
         ],
         "optional": false
@@ -327,13 +339,15 @@
                 "type": "Literal",
                 "start": 1253,
                 "end": 1265,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1267,
                 "end": 1270,
-                "value": "0"
+                "value": "0",
+                "raw": "'0'"
               }
             ],
             "optional": false
@@ -342,7 +356,8 @@
             "type": "Literal",
             "start": 1273,
             "end": 1291,
-            "value": "\"0\" coerced to 0"
+            "value": "\"0\" coerced to 0",
+            "raw": "'\"0\" coerced to 0'"
           }
         ],
         "optional": false
@@ -391,7 +406,8 @@
                 "type": "Literal",
                 "start": 1314,
                 "end": 1326,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Identifier",
@@ -406,7 +422,8 @@
             "type": "Literal",
             "start": 1340,
             "end": 1364,
-            "value": "undefined coerced to 0"
+            "value": "undefined coerced to 0",
+            "raw": "'undefined coerced to 0'"
           }
         ],
         "optional": false
@@ -455,13 +472,15 @@
                 "type": "Literal",
                 "start": 1387,
                 "end": 1399,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1401,
                 "end": 1404,
-                "value": 0.4
+                "value": 0.4,
+                "raw": "0.4"
               }
             ],
             "optional": false
@@ -470,7 +489,8 @@
             "type": "Literal",
             "start": 1407,
             "end": 1425,
-            "value": "0.4 coerced to 0"
+            "value": "0.4 coerced to 0",
+            "raw": "'0.4 coerced to 0'"
           }
         ],
         "optional": false
@@ -519,7 +539,8 @@
                 "type": "Literal",
                 "start": 1449,
                 "end": 1461,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "UnaryExpression",
@@ -531,7 +552,8 @@
                   "type": "Literal",
                   "start": 1464,
                   "end": 1465,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -597,13 +619,15 @@
                 "type": "Literal",
                 "start": 1500,
                 "end": 1512,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1514,
                 "end": 1518,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -612,13 +636,15 @@
             "type": "Literal",
             "start": 1521,
             "end": 1526,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1528,
             "end": 1547,
-            "value": "true coerced to 1"
+            "value": "true coerced to 1",
+            "raw": "'true coerced to 1'"
           }
         ],
         "optional": false
@@ -680,13 +706,15 @@
                 "type": "Literal",
                 "start": 1580,
                 "end": 1592,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1594,
                 "end": 1597,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               }
             ],
             "optional": false
@@ -695,13 +723,15 @@
             "type": "Literal",
             "start": 1600,
             "end": 1605,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1607,
             "end": 1625,
-            "value": "\"1\" coerced to 1"
+            "value": "\"1\" coerced to 1",
+            "raw": "'\"1\" coerced to 1'"
           }
         ],
         "optional": false
@@ -763,13 +793,15 @@
                 "type": "Literal",
                 "start": 1658,
                 "end": 1670,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 1672,
                 "end": 1675,
-                "value": 1.4
+                "value": 1.4,
+                "raw": "1.4"
               }
             ],
             "optional": false
@@ -778,13 +810,15 @@
             "type": "Literal",
             "start": 1678,
             "end": 1683,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1685,
             "end": 1703,
-            "value": "1.4 coerced to 1"
+            "value": "1.4 coerced to 1",
+            "raw": "'1.4 coerced to 1'"
           }
         ],
         "optional": false

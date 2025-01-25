@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 973,
             "end": 974,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -98,7 +99,8 @@
                   "type": "Literal",
                   "start": 1078,
                   "end": 1079,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -146,7 +148,8 @@
                     "type": "Literal",
                     "start": 1111,
                     "end": 1112,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -155,7 +158,8 @@
                   "type": "Literal",
                   "start": 1115,
                   "end": 1117,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ],
               "optional": false
@@ -191,7 +195,8 @@
                   "type": "Literal",
                   "start": 1146,
                   "end": 1147,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -218,7 +223,8 @@
             "type": "Literal",
             "start": 1156,
             "end": 1158,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -262,13 +268,15 @@
             "type": "Literal",
             "start": 1191,
             "end": 1192,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1194,
             "end": 1225,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

@@ -124,7 +124,8 @@
                         "type": "Literal",
                         "start": 511,
                         "end": 535,
-                        "value": "var x; let test262Var;"
+                        "value": "var x; let test262Var;",
+                        "raw": "'var x; let test262Var;'"
                       }
                     ],
                     "optional": false
@@ -137,7 +138,8 @@
             "type": "Literal",
             "start": 541,
             "end": 551,
-            "value": "variable"
+            "value": "variable",
+            "raw": "'variable'"
           }
         ],
         "optional": false
@@ -209,7 +211,8 @@
             "type": "Literal",
             "start": 606,
             "end": 655,
-            "value": "no bindings created (script shadowing variable)"
+            "value": "no bindings created (script shadowing variable)",
+            "raw": "'no bindings created (script shadowing variable)'"
           }
         ],
         "optional": false
@@ -295,7 +298,8 @@
                         "type": "Literal",
                         "start": 717,
                         "end": 740,
-                        "value": "var x; let test262Fn;"
+                        "value": "var x; let test262Fn;",
+                        "raw": "'var x; let test262Fn;'"
                       }
                     ],
                     "optional": false
@@ -308,7 +312,8 @@
             "type": "Literal",
             "start": 746,
             "end": 756,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -380,7 +385,8 @@
             "type": "Literal",
             "start": 811,
             "end": 860,
-            "value": "no bindings created (script shadowing function)"
+            "value": "no bindings created (script shadowing function)",
+            "raw": "'no bindings created (script shadowing function)'"
           }
         ],
         "optional": false

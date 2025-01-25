@@ -23,6 +23,7 @@
             "start": 535,
             "end": 539,
             "value": {},
+            "raw": "/\\w/",
             "regex": {
               "pattern": "\\w",
               "flags": ""
@@ -70,7 +71,8 @@
             "type": "Literal",
             "start": 571,
             "end": 578,
-            "value": "flags"
+            "value": "flags",
+            "raw": "'flags'"
           },
           {
             "type": "ObjectExpression",
@@ -94,7 +96,8 @@
                   "type": "Literal",
                   "start": 591,
                   "end": 594,
-                  "value": "g"
+                  "value": "g",
+                  "raw": "'g'"
                 },
                 "kind": "init"
               }
@@ -123,7 +126,8 @@
             "type": "Literal",
             "start": 609,
             "end": 614,
-            "value": "a*b"
+            "value": "a*b",
+            "raw": "'a*b'"
           }
         }
       ],
@@ -228,7 +232,8 @@
                         "type": "Literal",
                         "start": 690,
                         "end": 693,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       }
                     ]
                   },
@@ -236,7 +241,8 @@
                     "type": "Literal",
                     "start": 696,
                     "end": 697,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Identifier",
@@ -267,7 +273,8 @@
                         "type": "Literal",
                         "start": 723,
                         "end": 726,
-                        "value": "b"
+                        "value": "b",
+                        "raw": "'b'"
                       }
                     ]
                   },
@@ -275,7 +282,8 @@
                     "type": "Literal",
                     "start": 729,
                     "end": 730,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Identifier",

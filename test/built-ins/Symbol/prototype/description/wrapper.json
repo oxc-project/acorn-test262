@@ -44,7 +44,8 @@
                     "type": "Literal",
                     "start": 441,
                     "end": 447,
-                    "value": "test"
+                    "value": "test",
+                    "raw": "'test'"
                   }
                 ],
                 "optional": false
@@ -107,13 +108,15 @@
             "type": "Literal",
             "start": 493,
             "end": 499,
-            "value": "test"
+            "value": "test",
+            "raw": "'test'"
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 546,
-            "value": "The value of symbol.description is \"test\""
+            "value": "The value of symbol.description is \"test\"",
+            "raw": "'The value of symbol.description is \"test\"'"
           }
         ],
         "optional": false
@@ -222,7 +225,8 @@
             "type": "Literal",
             "start": 637,
             "end": 684,
-            "value": "The value of empty.description is `undefined`"
+            "value": "The value of empty.description is `undefined`",
+            "raw": "'The value of empty.description is `undefined`'"
           }
         ],
         "optional": false
@@ -338,7 +342,8 @@
             "type": "Literal",
             "start": 784,
             "end": 831,
-            "value": "The value of undef.description is `undefined`"
+            "value": "The value of undef.description is `undefined`",
+            "raw": "'The value of undef.description is `undefined`'"
           }
         ],
         "optional": false
@@ -385,7 +390,8 @@
                     "type": "Literal",
                     "start": 867,
                     "end": 869,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   }
                 ],
                 "optional": false
@@ -448,13 +454,15 @@
             "type": "Literal",
             "start": 917,
             "end": 919,
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
           {
             "type": "Literal",
             "start": 923,
             "end": 964,
-            "value": "The value of emptyStr.description is \"\""
+            "value": "The value of emptyStr.description is \"\"",
+            "raw": "'The value of emptyStr.description is \"\"'"
           }
         ],
         "optional": false

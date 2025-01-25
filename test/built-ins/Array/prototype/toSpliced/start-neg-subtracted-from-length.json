@@ -1,72 +1,77 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 727,
+  "end": 725,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 640,
-      "end": 686,
+      "start": 638,
+      "end": 684,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 644,
-          "end": 685,
+          "start": 642,
+          "end": 683,
           "id": {
             "type": "Identifier",
-            "start": 644,
-            "end": 650,
+            "start": 642,
+            "end": 648,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 653,
-            "end": 685,
+            "start": 651,
+            "end": 683,
             "callee": {
               "type": "MemberExpression",
-              "start": 653,
-              "end": 678,
+              "start": 651,
+              "end": 676,
               "object": {
                 "type": "ArrayExpression",
-                "start": 653,
-                "end": 668,
+                "start": 651,
+                "end": 666,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 654,
-                    "end": 655,
-                    "value": 0
+                    "start": 652,
+                    "end": 653,
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
-                    "start": 657,
-                    "end": 658,
-                    "value": 1
+                    "start": 655,
+                    "end": 656,
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
-                    "start": 660,
-                    "end": 661,
-                    "value": 2
+                    "start": 658,
+                    "end": 659,
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
-                    "start": 663,
-                    "end": 664,
-                    "value": 3
+                    "start": 661,
+                    "end": 662,
+                    "value": 3,
+                    "raw": "3"
                   },
                   {
                     "type": "Literal",
-                    "start": 666,
-                    "end": 667,
-                    "value": 4
+                    "start": 664,
+                    "end": 665,
+                    "value": 4,
+                    "raw": "4"
                   }
                 ]
               },
               "property": {
                 "type": "Identifier",
-                "start": 669,
-                "end": 678,
+                "start": 667,
+                "end": 676,
                 "name": "toSpliced"
               },
               "computed": false,
@@ -75,22 +80,24 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 679,
-                "end": 681,
+                "start": 677,
+                "end": 679,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 680,
-                  "end": 681,
-                  "value": 3
+                  "start": 678,
+                  "end": 679,
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               {
                 "type": "Literal",
-                "start": 683,
-                "end": 684,
-                "value": 2
+                "start": 681,
+                "end": 682,
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -101,26 +108,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 687,
-      "end": 726,
+      "start": 685,
+      "end": 724,
       "expression": {
         "type": "CallExpression",
-        "start": 687,
-        "end": 725,
+        "start": 685,
+        "end": 723,
         "callee": {
           "type": "MemberExpression",
-          "start": 687,
-          "end": 706,
+          "start": 685,
+          "end": 704,
           "object": {
             "type": "Identifier",
-            "start": 687,
-            "end": 693,
+            "start": 685,
+            "end": 691,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 694,
-            "end": 706,
+            "start": 692,
+            "end": 704,
             "name": "compareArray"
           },
           "computed": false,
@@ -129,32 +136,35 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 707,
-            "end": 713,
+            "start": 705,
+            "end": 711,
             "name": "result"
           },
           {
             "type": "ArrayExpression",
-            "start": 715,
-            "end": 724,
+            "start": 713,
+            "end": 722,
             "elements": [
               {
                 "type": "Literal",
-                "start": 716,
-                "end": 717,
-                "value": 0
+                "start": 714,
+                "end": 715,
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
-                "start": 719,
-                "end": 720,
-                "value": 1
+                "start": 717,
+                "end": 718,
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
-                "start": 722,
-                "end": 723,
-                "value": 4
+                "start": 720,
+                "end": 721,
+                "value": 4,
+                "raw": "4"
               }
             ]
           }

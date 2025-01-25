@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 799,
+  "end": 796,
   "body": [
     {
       "type": "FunctionDeclaration",
@@ -138,11 +138,11 @@
     {
       "type": "FunctionDeclaration",
       "start": 771,
-      "end": 792,
+      "end": 789,
       "id": {
         "type": "Identifier",
-        "start": 783,
-        "end": 784,
+        "start": 781,
+        "end": 782,
         "name": "w"
       },
       "expression": false,
@@ -151,23 +151,23 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 789,
-        "end": 792,
+        "start": 786,
+        "end": 789,
         "body": []
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 794,
-      "end": 798,
+      "start": 791,
+      "end": 795,
       "expression": {
         "type": "CallExpression",
-        "start": 794,
-        "end": 797,
+        "start": 791,
+        "end": 794,
         "callee": {
           "type": "Identifier",
-          "start": 794,
-          "end": 795,
+          "start": 791,
+          "end": 792,
           "name": "w"
         },
         "arguments": [],

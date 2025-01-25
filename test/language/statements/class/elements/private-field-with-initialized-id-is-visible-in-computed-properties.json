@@ -107,7 +107,8 @@
                           "type": "Literal",
                           "start": 2770,
                           "end": 2775,
-                          "value": "foo"
+                          "value": "foo",
+                          "raw": "'foo'"
                         }
                       },
                       {
@@ -139,7 +140,8 @@
                           "type": "Literal",
                           "start": 2793,
                           "end": 2802,
-                          "value": "Test262"
+                          "value": "Test262",
+                          "raw": "'Test262'"
                         }
                       }
                     ]
@@ -152,7 +154,8 @@
             "type": "Literal",
             "start": 2811,
             "end": 2885,
-            "value": "access to a not defined private field in object should throw a TypeError"
+            "value": "access to a not defined private field in object should throw a TypeError",
+            "raw": "'access to a not defined private field in object should throw a TypeError'"
           }
         ],
         "optional": false

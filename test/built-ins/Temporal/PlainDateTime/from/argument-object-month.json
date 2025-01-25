@@ -105,7 +105,8 @@
                         "type": "Literal",
                         "start": 334,
                         "end": 338,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -126,7 +127,8 @@
                         "type": "Literal",
                         "start": 347,
                         "end": 349,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     },
@@ -147,7 +149,8 @@
                         "type": "Literal",
                         "start": 362,
                         "end": 367,
-                        "value": "M12"
+                        "value": "M12",
+                        "raw": "\"M12\""
                       },
                       "kind": "init"
                     },
@@ -168,7 +171,8 @@
                         "type": "Literal",
                         "start": 374,
                         "end": 376,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     }
@@ -182,7 +186,8 @@
             "type": "Literal",
             "start": 382,
             "end": 414,
-            "value": "month and monthCode must agree"
+            "value": "month and monthCode must agree",
+            "raw": "\"month and monthCode must agree\""
           }
         ],
         "optional": false
@@ -290,7 +295,8 @@
                         "type": "Literal",
                         "start": 490,
                         "end": 494,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -353,7 +359,8 @@
                         "type": "Literal",
                         "start": 541,
                         "end": 543,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     }
@@ -367,7 +374,8 @@
             "type": "Literal",
             "start": 549,
             "end": 581,
-            "value": "required prop undefined throws"
+            "value": "required prop undefined throws",
+            "raw": "\"required prop undefined throws\""
           }
         ],
         "optional": false
@@ -475,7 +483,8 @@
                         "type": "Literal",
                         "start": 657,
                         "end": 661,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -496,7 +505,8 @@
                         "type": "Literal",
                         "start": 668,
                         "end": 670,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     },
@@ -517,7 +527,8 @@
                         "type": "Literal",
                         "start": 678,
                         "end": 680,
-                        "value": 15
+                        "value": 15,
+                        "raw": "15"
                       },
                       "kind": "init"
                     },
@@ -538,7 +549,8 @@
                         "type": "Literal",
                         "start": 690,
                         "end": 692,
-                        "value": 23
+                        "value": 23,
+                        "raw": "23"
                       },
                       "kind": "init"
                     },
@@ -559,7 +571,8 @@
                         "type": "Literal",
                         "start": 702,
                         "end": 704,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       },
                       "kind": "init"
                     },
@@ -580,7 +593,8 @@
                         "type": "Literal",
                         "start": 719,
                         "end": 722,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       },
                       "kind": "init"
                     }
@@ -594,7 +608,8 @@
             "type": "Literal",
             "start": 728,
             "end": 758,
-            "value": "required prop missing throws"
+            "value": "required prop missing throws",
+            "raw": "\"required prop missing throws\""
           }
         ],
         "optional": false
@@ -702,7 +717,8 @@
                         "type": "Literal",
                         "start": 834,
                         "end": 838,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -723,7 +739,8 @@
                         "type": "Literal",
                         "start": 848,
                         "end": 850,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     },
@@ -744,7 +761,8 @@
                         "type": "Literal",
                         "start": 857,
                         "end": 859,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     }
@@ -758,7 +776,8 @@
             "type": "Literal",
             "start": 865,
             "end": 902,
-            "value": "plural \"months\" is not acceptable"
+            "value": "plural \"months\" is not acceptable",
+            "raw": "\"plural \\\"months\\\" is not acceptable\""
           }
         ],
         "optional": false

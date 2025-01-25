@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 353,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 356,
             "end": 360,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 416,
-            "value": "parseInt.hasOwnProperty('length') must return true"
+            "value": "parseInt.hasOwnProperty('length') must return true",
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -167,7 +170,8 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 494,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -176,13 +180,15 @@
             "type": "Literal",
             "start": 497,
             "end": 502,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 559,
-            "value": "parseInt.hasOwnProperty('length') must return false"
+            "value": "parseInt.hasOwnProperty('length') must return false",
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return false'"
           }
         ],
         "optional": false
@@ -245,7 +251,8 @@
             "type": "Literal",
             "start": 610,
             "end": 679,
-            "value": "The value of parseInt.length is expected to not equal ``undefined``"
+            "value": "The value of parseInt.length is expected to not equal ``undefined``",
+            "raw": "'The value of parseInt.length is expected to not equal ``undefined``'"
           }
         ],
         "optional": false

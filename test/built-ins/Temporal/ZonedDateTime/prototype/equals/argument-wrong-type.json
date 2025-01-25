@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 375,
             "end": 380,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 428,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -120,7 +122,8 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 492,
-                    "value": "undefined"
+                    "value": "undefined",
+                    "raw": "\"undefined\""
                   }
                 ]
               },
@@ -133,13 +136,15 @@
                     "type": "Literal",
                     "start": 498,
                     "end": 502,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   {
                     "type": "Literal",
                     "start": 504,
                     "end": 510,
-                    "value": "null"
+                    "value": "null",
+                    "raw": "\"null\""
                   }
                 ]
               },
@@ -152,13 +157,15 @@
                     "type": "Literal",
                     "start": 516,
                     "end": 520,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 522,
                     "end": 531,
-                    "value": "boolean"
+                    "value": "boolean",
+                    "raw": "\"boolean\""
                   }
                 ]
               },
@@ -171,13 +178,15 @@
                     "type": "Literal",
                     "start": 537,
                     "end": 539,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   },
                   {
                     "type": "Literal",
                     "start": 541,
                     "end": 555,
-                    "value": "empty string"
+                    "value": "empty string",
+                    "raw": "\"empty string\""
                   }
                 ]
               },
@@ -190,13 +199,15 @@
                     "type": "Literal",
                     "start": 561,
                     "end": 562,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 564,
                     "end": 615,
-                    "value": "number that doesn't convert to a valid ISO string"
+                    "value": "number that doesn't convert to a valid ISO string",
+                    "raw": "\"number that doesn't convert to a valid ISO string\""
                   }
                 ]
               },
@@ -209,13 +220,15 @@
                     "type": "Literal",
                     "start": 621,
                     "end": 629,
-                    "value": 19761118
+                    "value": 19761118,
+                    "raw": "19761118"
                   },
                   {
                     "type": "Literal",
                     "start": 631,
                     "end": 698,
-                    "value": "number that would convert to a valid ISO string in other contexts"
+                    "value": "number that would convert to a valid ISO string in other contexts",
+                    "raw": "\"number that would convert to a valid ISO string in other contexts\""
                   }
                 ]
               },
@@ -228,13 +241,15 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 706,
-                    "value": "1n"
+                    "value": "1n",
+                    "raw": "1n"
                   },
                   {
                     "type": "Literal",
                     "start": 708,
                     "end": 716,
-                    "value": "bigint"
+                    "value": "bigint",
+                    "raw": "\"bigint\""
                   }
                 ]
               }
@@ -347,7 +362,8 @@
                       "type": "Literal",
                       "start": 810,
                       "end": 818,
-                      "value": "string"
+                      "value": "string",
+                      "raw": "'string'"
                     }
                   },
                   "consequent": {
@@ -490,7 +506,8 @@
                     "type": "Literal",
                     "start": 983,
                     "end": 991,
-                    "value": "symbol"
+                    "value": "symbol",
+                    "raw": "\"symbol\""
                   }
                 ]
               },
@@ -509,7 +526,8 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1015,
-                    "value": "plain object"
+                    "value": "plain object",
+                    "raw": "\"plain object\""
                   }
                 ]
               },
@@ -541,7 +559,8 @@
                     "type": "Literal",
                     "start": 1045,
                     "end": 1077,
-                    "value": "Temporal.ZonedDateTime, object"
+                    "value": "Temporal.ZonedDateTime, object",
+                    "raw": "\"Temporal.ZonedDateTime, object\""
                   }
                 ]
               },
@@ -586,7 +605,8 @@
                     "type": "Literal",
                     "start": 1117,
                     "end": 1159,
-                    "value": "Temporal.ZonedDateTime.prototype, object"
+                    "value": "Temporal.ZonedDateTime.prototype, object",
+                    "raw": "\"Temporal.ZonedDateTime.prototype, object\""
                   }
                 ]
               }

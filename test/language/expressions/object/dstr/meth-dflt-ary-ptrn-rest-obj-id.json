@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1810,
             "end": 1811,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -124,19 +125,22 @@
                             "type": "Literal",
                             "start": 1853,
                             "end": 1854,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1856,
                             "end": 1857,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 1859,
                             "end": 1860,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       }
@@ -185,7 +189,8 @@
                               "type": "Literal",
                               "start": 1894,
                               "end": 1895,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           ],
                           "optional": false
@@ -221,7 +226,8 @@
                               "type": "Literal",
                               "start": 1926,
                               "end": 1927,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -305,13 +311,15 @@
             "type": "Literal",
             "start": 1979,
             "end": 1980,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1982,
             "end": 2011,
-            "value": "method invoked exactly once"
+            "value": "method invoked exactly once",
+            "raw": "'method invoked exactly once'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 708,
             "end": 710,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 742,
                 "end": 745,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ],
             "optional": false
@@ -137,7 +139,8 @@
             "type": "Literal",
             "start": 801,
             "end": 875,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -194,13 +197,15 @@
             "type": "Literal",
             "start": 913,
             "end": 914,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 950,
-            "value": "The value of __split.length is 1"
+            "value": "The value of __split.length is 1",
+            "raw": "'The value of __split.length is 1'"
           }
         ],
         "optional": false
@@ -248,7 +253,8 @@
               "type": "Literal",
               "start": 978,
               "end": 979,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -257,13 +263,15 @@
             "type": "Literal",
             "start": 982,
             "end": 984,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 986,
             "end": 1017,
-            "value": "The value of __split[0] is \"\""
+            "value": "The value of __split[0] is \"\"",
+            "raw": "'The value of __split[0] is \"\"'"
           }
         ],
         "optional": false

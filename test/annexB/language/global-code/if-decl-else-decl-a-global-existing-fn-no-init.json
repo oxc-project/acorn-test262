@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1073,
             "end": 1092,
-            "value": "outer declaration"
+            "value": "outer declaration",
+            "raw": "'outer declaration'"
           }
         ],
         "optional": false
@@ -62,7 +63,8 @@
         "type": "Literal",
         "start": 1100,
         "end": 1104,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "FunctionDeclaration",
@@ -91,7 +93,8 @@
                 "type": "Literal",
                 "start": 1128,
                 "end": 1147,
-                "value": "inner declaration"
+                "value": "inner declaration",
+                "raw": "'inner declaration'"
               }
             }
           ]
@@ -146,7 +149,8 @@
               "type": "Literal",
               "start": 1198,
               "end": 1217,
-              "value": "outer declaration"
+              "value": "outer declaration",
+              "raw": "'outer declaration'"
             }
           }
         ]

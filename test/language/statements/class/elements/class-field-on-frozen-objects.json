@@ -80,7 +80,8 @@
               "type": "Literal",
               "start": 655,
               "end": 664,
-              "value": "Test262"
+              "value": "Test262",
+              "raw": "\"Test262\""
             }
           }
         ]
@@ -158,7 +159,8 @@
             "type": "Literal",
             "start": 724,
             "end": 757,
-            "value": "Frozen objects can't be changed"
+            "value": "Frozen objects can't be changed",
+            "raw": "\"Frozen objects can't be changed\""
           }
         ],
         "optional": false

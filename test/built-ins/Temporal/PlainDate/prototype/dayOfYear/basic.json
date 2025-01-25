@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 270,
               "end": 271,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ],
@@ -47,7 +48,8 @@
           "type": "Literal",
           "start": 278,
           "end": 279,
-          "value": 7
+          "value": 7,
+          "raw": "7"
         }
       },
       "update": {
@@ -111,13 +113,15 @@
                       "type": "Literal",
                       "start": 331,
                       "end": 335,
-                      "value": 1976
+                      "value": 1976,
+                      "raw": "1976"
                     },
                     {
                       "type": "Literal",
                       "start": 337,
                       "end": 339,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     },
                     {
                       "type": "BinaryExpression",
@@ -127,7 +131,8 @@
                         "type": "Literal",
                         "start": 341,
                         "end": 343,
-                        "value": 14
+                        "value": 14,
+                        "raw": "14"
                       },
                       "operator": "+",
                       "right": {
@@ -198,7 +203,8 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 393,
-                    "value": 319
+                    "value": 319,
+                    "raw": "319"
                   },
                   "operator": "+",
                   "right": {
@@ -227,7 +233,8 @@
                         "type": "Literal",
                         "start": 432,
                         "end": 435,
-                        "value": 319
+                        "value": 319,
+                        "raw": "319"
                       },
                       "operator": "+",
                       "right": {

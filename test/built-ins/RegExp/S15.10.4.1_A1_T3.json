@@ -23,6 +23,7 @@
             "start": 451,
             "end": 459,
             "value": {},
+            "raw": "/[a-b]/g",
             "regex": {
               "pattern": "[a-b]",
               "flags": "g"
@@ -74,7 +75,8 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 500,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ]
@@ -153,7 +155,8 @@
             "type": "Literal",
             "start": 559,
             "end": 636,
-            "value": "The value of __re.source is expected to equal the value of __pattern.source"
+            "value": "The value of __re.source is expected to equal the value of __pattern.source",
+            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'"
           }
         ],
         "optional": false
@@ -229,7 +232,8 @@
             "type": "Literal",
             "start": 702,
             "end": 785,
-            "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline"
+            "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline",
+            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'"
           }
         ],
         "optional": false
@@ -305,7 +309,8 @@
             "type": "Literal",
             "start": 845,
             "end": 922,
-            "value": "The value of __re.global is expected to equal the value of __pattern.global"
+            "value": "The value of __re.global is expected to equal the value of __pattern.global",
+            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'"
           }
         ],
         "optional": false
@@ -381,7 +386,8 @@
             "type": "Literal",
             "start": 990,
             "end": 1075,
-            "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase"
+            "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase",
+            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'"
           }
         ],
         "optional": false

@@ -74,7 +74,8 @@
                                 "type": "Literal",
                                 "start": 691,
                                 "end": 693,
-                                "value": "0n"
+                                "value": "0n",
+                                "raw": "0n"
                               }
                             ]
                           }
@@ -170,7 +171,8 @@
                                     "type": "Literal",
                                     "start": 772,
                                     "end": 775,
-                                    "value": "0"
+                                    "value": "0",
+                                    "raw": "\"0\""
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -212,7 +214,8 @@
                                                   "type": "Literal",
                                                   "start": 810,
                                                   "end": 813,
-                                                  "value": "42n"
+                                                  "value": "42n",
+                                                  "raw": "42n"
                                                 }
                                               }
                                             ]
@@ -233,7 +236,8 @@
                         "type": "Literal",
                         "start": 831,
                         "end": 845,
-                        "value": "get accessor"
+                        "value": "get accessor",
+                        "raw": "\"get accessor\""
                       }
                     ],
                     "optional": false
@@ -281,7 +285,8 @@
                           "type": "Literal",
                           "start": 874,
                           "end": 875,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -290,13 +295,15 @@
                         "type": "Literal",
                         "start": 878,
                         "end": 880,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 882,
                         "end": 916,
-                        "value": "get accessor - side effect check"
+                        "value": "get accessor - side effect check",
+                        "raw": "\"get accessor - side effect check\""
                       }
                     ],
                     "optional": false
@@ -388,7 +395,8 @@
                                     "type": "Literal",
                                     "start": 994,
                                     "end": 997,
-                                    "value": "0"
+                                    "value": "0",
+                                    "raw": "\"0\""
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -446,7 +454,8 @@
                         "type": "Literal",
                         "start": 1042,
                         "end": 1056,
-                        "value": "set accessor"
+                        "value": "set accessor",
+                        "raw": "\"set accessor\""
                       }
                     ],
                     "optional": false
@@ -494,7 +503,8 @@
                           "type": "Literal",
                           "start": 1085,
                           "end": 1086,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -503,13 +513,15 @@
                         "type": "Literal",
                         "start": 1089,
                         "end": 1091,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1093,
                         "end": 1127,
-                        "value": "set accessor - side effect check"
+                        "value": "set accessor - side effect check",
+                        "raw": "\"set accessor - side effect check\""
                       }
                     ],
                     "optional": false
@@ -601,7 +613,8 @@
                                     "type": "Literal",
                                     "start": 1205,
                                     "end": 1208,
-                                    "value": "0"
+                                    "value": "0",
+                                    "raw": "\"0\""
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -643,7 +656,8 @@
                                                   "type": "Literal",
                                                   "start": 1243,
                                                   "end": 1246,
-                                                  "value": "42n"
+                                                  "value": "42n",
+                                                  "raw": "42n"
                                                 }
                                               }
                                             ]
@@ -702,7 +716,8 @@
                         "type": "Literal",
                         "start": 1292,
                         "end": 1315,
-                        "value": "get and set accessors"
+                        "value": "get and set accessors",
+                        "raw": "\"get and set accessors\""
                       }
                     ],
                     "optional": false
@@ -750,7 +765,8 @@
                           "type": "Literal",
                           "start": 1344,
                           "end": 1345,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -759,13 +775,15 @@
                         "type": "Literal",
                         "start": 1348,
                         "end": 1350,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1352,
                         "end": 1395,
-                        "value": "get and set accessors - side effect check"
+                        "value": "get and set accessors - side effect check",
+                        "raw": "\"get and set accessors - side effect check\""
                       }
                     ],
                     "optional": false

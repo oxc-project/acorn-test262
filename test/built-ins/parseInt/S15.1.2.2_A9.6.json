@@ -91,7 +91,8 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 349,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -100,13 +101,15 @@
             "type": "Literal",
             "start": 352,
             "end": 357,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 438,
-            "value": "Object.prototype.hasOwnProperty.call(parseInt, \"prototype\") must return false"
+            "value": "Object.prototype.hasOwnProperty.call(parseInt, \"prototype\") must return false",
+            "raw": "'Object.prototype.hasOwnProperty.call(parseInt, \"prototype\") must return false'"
           }
         ],
         "optional": false

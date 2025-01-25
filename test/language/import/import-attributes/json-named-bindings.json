@@ -48,7 +48,8 @@
         "type": "Literal",
         "start": 634,
         "end": 670,
-        "value": "./json-named-bindings_FIXTURE.json"
+        "value": "./json-named-bindings_FIXTURE.json",
+        "raw": "'./json-named-bindings_FIXTURE.json'"
       },
       "attributes": [
         {
@@ -65,7 +66,8 @@
             "type": "Literal",
             "start": 684,
             "end": 690,
-            "value": "json"
+            "value": "json",
+            "raw": "'json'"
           }
         }
       ]

@@ -183,13 +183,15 @@
             "type": "Literal",
             "start": 481,
             "end": 489,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 501,
-            "value": "typeof d"
+            "value": "typeof d",
+            "raw": "'typeof d'"
           }
         ],
         "optional": false

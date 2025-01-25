@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 762,
             "end": 767,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 822,
-            "value": "isConstructor(Object.fromEntries) must return false"
+            "value": "isConstructor(Object.fromEntries) must return false",
+            "raw": "'isConstructor(Object.fromEntries) must return false'"
           }
         ],
         "optional": false

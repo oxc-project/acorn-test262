@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 766,
             "end": 771,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 832,
-            "value": "precondition: isConstructor(parseInt) must return false"
+            "value": "precondition: isConstructor(parseInt) must return false",
+            "raw": "'precondition: isConstructor(parseInt) must return false'"
           }
         ],
         "optional": false
@@ -276,7 +278,8 @@
             "type": "Literal",
             "start": 967,
             "end": 1007,
-            "value": "a.slice() throws a TypeError exception"
+            "value": "a.slice() throws a TypeError exception",
+            "raw": "'a.slice() throws a TypeError exception'"
           }
         ],
         "optional": false

@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 330,
             "end": 365,
-            "value": "Object.getPrototypeOf(RangeError)"
+            "value": "Object.getPrototypeOf(RangeError)",
+            "raw": "'Object.getPrototypeOf(RangeError)'"
           }
         ],
         "optional": false

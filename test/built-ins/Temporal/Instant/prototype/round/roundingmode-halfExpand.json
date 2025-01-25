@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 329,
-                "value": "217175010123987500n"
+                "value": "217175010123987500n",
+                "raw": "217175010_123_987_500n"
               }
             ]
           }
@@ -83,13 +84,15 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 396,
-                    "value": "hour"
+                    "value": "hour",
+                    "raw": "\"hour\""
                   },
                   {
                     "type": "Literal",
                     "start": 398,
                     "end": 420,
-                    "value": "217173600000000000n"
+                    "value": "217173600000000000n",
+                    "raw": "217173600_000_000_000n"
                   }
                 ]
               },
@@ -102,13 +105,15 @@
                     "type": "Literal",
                     "start": 453,
                     "end": 461,
-                    "value": "minute"
+                    "value": "minute",
+                    "raw": "\"minute\""
                   },
                   {
                     "type": "Literal",
                     "start": 463,
                     "end": 485,
-                    "value": "217175040000000000n"
+                    "value": "217175040000000000n",
+                    "raw": "217175040_000_000_000n"
                   }
                 ]
               },
@@ -121,13 +126,15 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 526,
-                    "value": "second"
+                    "value": "second",
+                    "raw": "\"second\""
                   },
                   {
                     "type": "Literal",
                     "start": 528,
                     "end": 550,
-                    "value": "217175010000000000n"
+                    "value": "217175010000000000n",
+                    "raw": "217175010_000_000_000n"
                   }
                 ]
               },
@@ -140,13 +147,15 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 596,
-                    "value": "millisecond"
+                    "value": "millisecond",
+                    "raw": "\"millisecond\""
                   },
                   {
                     "type": "Literal",
                     "start": 598,
                     "end": 620,
-                    "value": "217175010124000000n"
+                    "value": "217175010124000000n",
+                    "raw": "217175010_124_000_000n"
                   }
                 ]
               },
@@ -159,13 +168,15 @@
                     "type": "Literal",
                     "start": 657,
                     "end": 670,
-                    "value": "microsecond"
+                    "value": "microsecond",
+                    "raw": "\"microsecond\""
                   },
                   {
                     "type": "Literal",
                     "start": 672,
                     "end": 694,
-                    "value": "217175010123988000n"
+                    "value": "217175010123988000n",
+                    "raw": "217175010_123_988_000n"
                   }
                 ]
               },
@@ -178,13 +189,15 @@
                     "type": "Literal",
                     "start": 734,
                     "end": 746,
-                    "value": "nanosecond"
+                    "value": "nanosecond",
+                    "raw": "\"nanosecond\""
                   },
                   {
                     "type": "Literal",
                     "start": 748,
                     "end": 770,
-                    "value": "217175010123987500n"
+                    "value": "217175010123987500n",
+                    "raw": "217175010_123_987_500n"
                   }
                 ]
               }
@@ -213,7 +226,8 @@
             "type": "Literal",
             "start": 833,
             "end": 845,
-            "value": "halfExpand"
+            "value": "halfExpand",
+            "raw": "\"halfExpand\""
           }
         }
       ],

@@ -23,6 +23,7 @@
             "start": 2701,
             "end": 2713,
             "value": null,
+            "raw": "/(?-i:\\W)/ui",
             "regex": {
               "pattern": "(?-i:\\W)",
               "flags": "ui"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2731,
                 "end": 2739,
-                "value": "ſ"
+                "value": "ſ",
+                "raw": "\"\\u017f\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2742,
             "end": 2767,
-            "value": "\\W should match ſ"
+            "value": "\\W should match ſ",
+            "raw": "\"\\\\W should match \\u017f\""
           }
         ],
         "optional": false
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 2786,
                 "end": 2794,
-                "value": "K"
+                "value": "K",
+                "raw": "\"\\u212a\""
               }
             ],
             "optional": false
@@ -142,7 +146,8 @@
             "type": "Literal",
             "start": 2797,
             "end": 2822,
-            "value": "\\W should match K"
+            "value": "\\W should match K",
+            "raw": "\"\\\\W should match \\u212a\""
           }
         ],
         "optional": false

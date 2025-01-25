@@ -92,19 +92,22 @@
                                 "type": "Literal",
                                 "start": 1708,
                                 "end": 1709,
-                                "value": 4
+                                "value": 4,
+                                "raw": "4"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1711,
                                 "end": 1712,
-                                "value": 5
+                                "value": 5,
+                                "raw": "5"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1714,
                                 "end": 1715,
-                                "value": 6
+                                "value": 6,
+                                "raw": "6"
                               }
                             ]
                           }
@@ -145,7 +148,8 @@
                         "type": "Literal",
                         "start": 1728,
                         "end": 1732,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "kind": "init"
                     }
@@ -273,7 +277,8 @@
                             "type": "Literal",
                             "start": 1813,
                             "end": 1863,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

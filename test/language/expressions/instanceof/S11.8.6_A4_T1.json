@@ -15,7 +15,8 @@
           "type": "Literal",
           "start": 279,
           "end": 284,
-          "value": false
+          "value": false,
+          "raw": "false"
         },
         "operator": "instanceof",
         "right": {
@@ -49,7 +50,8 @@
                   "type": "Literal",
                   "start": 331,
                   "end": 368,
-                  "value": "#1: false is not instanceof Boolean"
+                  "value": "#1: false is not instanceof Boolean",
+                  "raw": "'#1: false is not instanceof Boolean'"
                 }
               ]
             }
@@ -81,7 +83,8 @@
               "type": "Literal",
               "start": 396,
               "end": 401,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           ],
           "optional": false
@@ -118,7 +121,8 @@
                   "type": "Literal",
                   "start": 449,
                   "end": 495,
-                  "value": "#2: Boolean(false) is not instanceof Boolean"
+                  "value": "#2: Boolean(false) is not instanceof Boolean",
+                  "raw": "'#2: Boolean(false) is not instanceof Boolean'"
                 }
               ]
             }
@@ -164,7 +168,8 @@
           "type": "Literal",
           "start": 550,
           "end": 554,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -191,7 +196,8 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 618,
-                  "value": "#3: new Boolean instanceof Boolean"
+                  "value": "#3: new Boolean instanceof Boolean",
+                  "raw": "'#3: new Boolean instanceof Boolean'"
                 }
               ]
             }

@@ -246,7 +246,8 @@
                     "type": "Literal",
                     "start": 632,
                     "end": 639,
-                    "value": "pt-BR"
+                    "value": "pt-BR",
+                    "raw": "\"pt-BR\""
                   }
                 ]
               }
@@ -355,7 +356,8 @@
             "type": "Literal",
             "start": 728,
             "end": 743,
-            "value": "valueOf start"
+            "value": "valueOf start",
+            "raw": "\"valueOf start\""
           }
         ],
         "optional": false
@@ -460,7 +462,8 @@
             "type": "Literal",
             "start": 831,
             "end": 844,
-            "value": "valueOf end"
+            "value": "valueOf end",
+            "raw": "\"valueOf end\""
           }
         ],
         "optional": false
@@ -565,7 +568,8 @@
             "type": "Literal",
             "start": 933,
             "end": 949,
-            "value": "toString start"
+            "value": "toString start",
+            "raw": "\"toString start\""
           }
         ],
         "optional": false
@@ -670,7 +674,8 @@
             "type": "Literal",
             "start": 1038,
             "end": 1052,
-            "value": "toString end"
+            "value": "toString end",
+            "raw": "\"toString end\""
           }
         ],
         "optional": false
@@ -706,7 +711,8 @@
                 "type": "Literal",
                 "start": 1073,
                 "end": 1076,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               }
             ],
             "optional": false
@@ -814,7 +820,8 @@
             "type": "Literal",
             "start": 1148,
             "end": 1162,
-            "value": "symbol start"
+            "value": "symbol start",
+            "raw": "\"symbol start\""
           }
         ],
         "optional": false
@@ -919,7 +926,8 @@
             "type": "Literal",
             "start": 1235,
             "end": 1247,
-            "value": "symbol end"
+            "value": "symbol end",
+            "raw": "\"symbol end\""
           }
         ],
         "optional": false

@@ -71,7 +71,8 @@
                 "type": "Literal",
                 "start": 501,
                 "end": 509,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +107,8 @@
                     "type": "Literal",
                     "start": 540,
                     "end": 618,
-                    "value": "#1: String.prototype.search.hasOwnProperty('length') return true. Actual: "
+                    "value": "#1: String.prototype.search.hasOwnProperty('length') return true. Actual: ",
+                    "raw": "'#1: String.prototype.search.hasOwnProperty(\\'length\\') return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +165,8 @@
                         "type": "Literal",
                         "start": 660,
                         "end": 668,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "'length'"
                       }
                     ],
                     "optional": false
@@ -291,13 +294,15 @@
             "type": "Literal",
             "start": 845,
             "end": 853,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 855,
             "end": 859,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -321,7 +326,8 @@
                     "type": "Literal",
                     "start": 883,
                     "end": 892,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -420,7 +426,8 @@
                     "type": "Literal",
                     "start": 1061,
                     "end": 1221,
-                    "value": "#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: "
+                    "value": "#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: ",
+                    "raw": "'#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 706,
         "end": 752,
-        "value": "../resources/ensure-linking-error_FIXTURE.js"
+        "value": "../resources/ensure-linking-error_FIXTURE.js",
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -55,7 +56,8 @@
         "type": "Literal",
         "start": 769,
         "end": 802,
-        "value": "./import-attribute-1_FIXTURE.js"
+        "value": "./import-attribute-1_FIXTURE.js",
+        "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 817,
             "end": 819,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       ]
@@ -86,7 +89,8 @@
         "type": "Literal",
         "start": 830,
         "end": 863,
-        "value": "./import-attribute-2_FIXTURE.js"
+        "value": "./import-attribute-2_FIXTURE.js",
+        "raw": "'./import-attribute-2_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -103,7 +107,8 @@
             "type": "Literal",
             "start": 878,
             "end": 880,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       ]
@@ -117,7 +122,8 @@
         "type": "Literal",
         "start": 898,
         "end": 931,
-        "value": "./import-attribute-3_FIXTURE.js"
+        "value": "./import-attribute-3_FIXTURE.js",
+        "raw": "'./import-attribute-3_FIXTURE.js'"
       },
       "attributes": [
         {
@@ -134,7 +140,8 @@
             "type": "Literal",
             "start": 946,
             "end": 948,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       ]

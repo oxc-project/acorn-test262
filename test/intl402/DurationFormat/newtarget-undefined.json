@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 449,
             "end": 459,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -233,7 +234,8 @@
                         "type": "Literal",
                         "start": 591,
                         "end": 595,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "\"en\""
                       }
                     ],
                     "optional": false
@@ -326,7 +328,8 @@
                         "type": "Literal",
                         "start": 663,
                         "end": 678,
-                        "value": "not-valid-tag"
+                        "value": "not-valid-tag",
+                        "raw": "\"not-valid-tag\""
                       }
                     ],
                     "optional": false

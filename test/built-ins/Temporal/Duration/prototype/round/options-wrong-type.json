@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 351,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 359,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "CallExpression",
@@ -58,13 +60,15 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 382,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -115,31 +119,36 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 428,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 440,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -221,7 +230,8 @@
             "type": "Literal",
             "start": 492,
             "end": 531,
-            "value": "TypeError on missing options argument"
+            "value": "TypeError on missing options argument",
+            "raw": "\"TypeError on missing options argument\""
           }
         ],
         "optional": false

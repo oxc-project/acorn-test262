@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 650,
             "end": 660,
-            "value": "fooValue"
+            "value": "fooValue",
+            "raw": "\"fooValue\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 672,
             "end": 682,
-            "value": "barValue"
+            "value": "barValue",
+            "raw": "\"barValue\""
           }
         }
       ],
@@ -122,7 +124,8 @@
               "type": "Literal",
               "start": 734,
               "end": 738,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
@@ -166,7 +169,8 @@
                   "type": "Literal",
                   "start": 760,
                   "end": 761,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "computed": true,
                 "optional": false
@@ -288,7 +292,8 @@
                     "type": "Literal",
                     "start": 945,
                     "end": 992,
-                    "value": "#1: __obj.foo === __FOO. Actual: __obj.foo==="
+                    "value": "#1: __obj.foo === __FOO. Actual: __obj.foo===",
+                    "raw": "'#1: __obj.foo === __FOO. Actual: __obj.foo==='"
                   },
                   "operator": "+",
                   "right": {
@@ -381,7 +386,8 @@
                     "type": "Literal",
                     "start": 1232,
                     "end": 1283,
-                    "value": "#2: __obj.bar === undefined. Actual: __obj.bar==="
+                    "value": "#2: __obj.bar === undefined. Actual: __obj.bar===",
+                    "raw": "'#2: __obj.bar === undefined. Actual: __obj.bar==='"
                   },
                   "operator": "+",
                   "right": {

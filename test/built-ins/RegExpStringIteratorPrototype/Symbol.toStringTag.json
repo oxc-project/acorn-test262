@@ -55,6 +55,7 @@
                     "start": 562,
                     "end": 565,
                     "value": {},
+                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -87,7 +88,8 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 585,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   }
                 ],
                 "optional": false
@@ -163,7 +165,8 @@
             "type": "Literal",
             "start": 654,
             "end": 678,
-            "value": "RegExp String Iterator"
+            "value": "RegExp String Iterator",
+            "raw": "'RegExp String Iterator'"
           }
         ],
         "optional": false
@@ -231,7 +234,8 @@
                   "type": "Literal",
                   "start": 758,
                   "end": 763,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -252,7 +256,8 @@
                   "type": "Literal",
                   "start": 779,
                   "end": 784,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -273,7 +278,8 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 806,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

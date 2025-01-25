@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 413,
-                "value": "8640000000000000000000n"
+                "value": "8640000000000000000000n",
+                "raw": "86400_0000_0000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 420,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -127,7 +129,8 @@
             "type": "Literal",
             "start": 469,
             "end": 504,
-            "value": "Next day boundary is out of range"
+            "value": "Next day boundary is out of range",
+            "raw": "\"Next day boundary is out of range\""
           }
         ],
         "optional": false

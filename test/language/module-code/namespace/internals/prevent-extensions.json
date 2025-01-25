@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 337,
         "end": 362,
-        "value": "./prevent-extensions.js"
+        "value": "./prevent-extensions.js",
+        "raw": "'./prevent-extensions.js'"
       },
       "attributes": []
     },
@@ -131,7 +132,8 @@
             "type": "Literal",
             "start": 493,
             "end": 497,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

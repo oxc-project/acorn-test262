@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 431,
             "end": 449,
-            "value": "Boston, MA 02134"
+            "value": "Boston, MA 02134",
+            "raw": "\"Boston, MA 02134\""
           }
         }
       ],
@@ -52,13 +53,15 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 476,
-                "value": "02134"
+                "value": "02134",
+                "raw": "\"02134\""
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 485,
-                "value": "02134"
+                "value": "02134",
+                "raw": "\"02134\""
               },
               {
                 "type": "Identifier",
@@ -92,6 +95,7 @@
             "start": 511,
             "end": 539,
             "value": {},
+            "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
               "flags": ""
@@ -161,7 +165,8 @@
                 "type": "Literal",
                 "start": 580,
                 "end": 583,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -171,7 +176,8 @@
             "type": "Literal",
             "start": 587,
             "end": 588,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       }
@@ -235,7 +241,8 @@
           "type": "Literal",
           "start": 716,
           "end": 717,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -266,7 +273,8 @@
                     "type": "Literal",
                     "start": 746,
                     "end": 794,
-                    "value": "#1: __string.match(__re).length=== 3. Actual: "
+                    "value": "#1: __string.match(__re).length=== 3. Actual: ",
+                    "raw": "'#1: __string.match(__re).length=== 3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -406,7 +414,8 @@
               "type": "Literal",
               "start": 1057,
               "end": 1060,
-              "value": "0"
+              "value": "0",
+              "raw": "\"0\""
             }
           ],
           "optional": false
@@ -440,7 +449,8 @@
                     "type": "Literal",
                     "start": 1090,
                     "end": 1161,
-                    "value": "#2: __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: "
+                    "value": "#2: __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: ",
+                    "raw": "'#2: __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -520,7 +530,8 @@
               "type": "Literal",
               "start": 1381,
               "end": 1382,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -702,7 +713,8 @@
                                       "type": "Literal",
                                       "start": 1494,
                                       "end": 1499,
-                                      "value": "#3."
+                                      "value": "#3.",
+                                      "raw": "'#3.'"
                                     },
                                     "operator": "+",
                                     "right": {
@@ -717,7 +729,8 @@
                                     "type": "Literal",
                                     "start": 1507,
                                     "end": 1532,
-                                    "value": ": __string.match(__re)["
+                                    "value": ": __string.match(__re)[",
+                                    "raw": "': __string.match(__re)['"
                                   }
                                 },
                                 "operator": "+",
@@ -733,7 +746,8 @@
                                 "type": "Literal",
                                 "start": 1540,
                                 "end": 1556,
-                                "value": "]===__matches["
+                                "value": "]===__matches[",
+                                "raw": "']===__matches['"
                               }
                             },
                             "operator": "+",
@@ -749,7 +763,8 @@
                             "type": "Literal",
                             "start": 1564,
                             "end": 1577,
-                            "value": "]. Actual: "
+                            "value": "]. Actual: ",
+                            "raw": "']. Actual: '"
                           }
                         },
                         "operator": "+",

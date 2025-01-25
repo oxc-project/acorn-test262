@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 562,
         "end": 603,
-        "value": "./instn-resolve-err-syntax-2_FIXTURE.js"
+        "value": "./instn-resolve-err-syntax-2_FIXTURE.js",
+        "raw": "'./instn-resolve-err-syntax-2_FIXTURE.js'"
       },
       "attributes": []
     }

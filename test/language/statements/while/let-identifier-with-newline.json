@@ -1,50 +1,52 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 501,
+  "end": 498,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 469,
-      "end": 486,
+      "start": 466,
+      "end": 483,
       "test": {
         "type": "Literal",
-        "start": 476,
-        "end": 481,
-        "value": false
+        "start": 473,
+        "end": 478,
+        "value": false,
+        "raw": "false"
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 483,
-        "end": 486,
+        "start": 480,
+        "end": 483,
         "expression": {
           "type": "Identifier",
-          "start": 483,
-          "end": 486,
+          "start": 480,
+          "end": 483,
           "name": "let"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 500,
+      "start": 491,
+      "end": 497,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 494,
-        "end": 499,
+        "start": 491,
+        "end": 496,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 494,
-          "end": 495,
+          "start": 491,
+          "end": 492,
           "name": "x"
         },
         "right": {
           "type": "Literal",
-          "start": 498,
-          "end": 499,
-          "value": 1
+          "start": 495,
+          "end": 496,
+          "value": 1,
+          "raw": "1"
         }
       }
     }

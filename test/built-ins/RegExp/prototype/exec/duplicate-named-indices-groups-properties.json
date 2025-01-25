@@ -23,6 +23,7 @@
             "start": 356,
             "end": 404,
             "value": null,
+            "raw": "/(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))/d",
             "regex": {
               "pattern": "(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))",
               "flags": "d"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 450,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -166,13 +168,15 @@
                 "type": "Literal",
                 "start": 509,
                 "end": 510,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 513,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           },
@@ -180,7 +184,8 @@
             "type": "Literal",
             "start": 516,
             "end": 535,
-            "value": "group x matches b"
+            "value": "group x matches b",
+            "raw": "\"group x matches b\""
           }
         ],
         "optional": false
@@ -268,13 +273,15 @@
                 "type": "Literal",
                 "start": 594,
                 "end": 595,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 597,
                 "end": 598,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -282,7 +289,8 @@
             "type": "Literal",
             "start": 601,
             "end": 620,
-            "value": "group y matches a"
+            "value": "group y matches a",
+            "raw": "\"group y matches a\""
           }
         ],
         "optional": false
@@ -370,13 +378,15 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 680,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 682,
                 "end": 683,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           },
@@ -384,7 +394,8 @@
             "type": "Literal",
             "start": 686,
             "end": 705,
-            "value": "group z matches c"
+            "value": "group z matches c",
+            "raw": "\"group z matches c\""
           }
         ],
         "optional": false
@@ -486,19 +497,22 @@
                 "type": "Literal",
                 "start": 780,
                 "end": 783,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Literal",
                 "start": 785,
                 "end": 788,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 793,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ]
           },
@@ -506,7 +520,8 @@
             "type": "Literal",
             "start": 798,
             "end": 903,
-            "value": "Properties of groups are ordered in RegExp source order despite y matching before x in this alternative"
+            "value": "Properties of groups are ordered in RegExp source order despite y matching before x in this alternative",
+            "raw": "\"Properties of groups are ordered in RegExp source order despite y matching before x in this alternative\""
           }
         ],
         "optional": false
@@ -555,7 +570,8 @@
                 "type": "Literal",
                 "start": 944,
                 "end": 948,
-                "value": "ad"
+                "value": "ad",
+                "raw": "\"ad\""
               }
             ],
             "optional": false
@@ -646,13 +662,15 @@
                 "type": "Literal",
                 "start": 1005,
                 "end": 1006,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 1008,
                 "end": 1009,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -660,7 +678,8 @@
             "type": "Literal",
             "start": 1012,
             "end": 1031,
-            "value": "group x matches a"
+            "value": "group x matches a",
+            "raw": "\"group x matches a\""
           }
         ],
         "optional": false
@@ -749,7 +768,8 @@
             "type": "Literal",
             "start": 1095,
             "end": 1119,
-            "value": "group y does not match"
+            "value": "group y does not match",
+            "raw": "\"group y does not match\""
           }
         ],
         "optional": false
@@ -837,13 +857,15 @@
                 "type": "Literal",
                 "start": 1176,
                 "end": 1177,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 1179,
                 "end": 1180,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           },
@@ -851,7 +873,8 @@
             "type": "Literal",
             "start": 1183,
             "end": 1202,
-            "value": "group z matches d"
+            "value": "group z matches d",
+            "raw": "\"group z matches d\""
           }
         ],
         "optional": false
@@ -953,19 +976,22 @@
                 "type": "Literal",
                 "start": 1275,
                 "end": 1278,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Literal",
                 "start": 1280,
                 "end": 1283,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 1285,
                 "end": 1288,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ]
           },
@@ -973,7 +999,8 @@
             "type": "Literal",
             "start": 1293,
             "end": 1372,
-            "value": "y is still present on groups object, in the right order, despite not matching"
+            "value": "y is still present on groups object, in the right order, despite not matching",
+            "raw": "\"y is still present on groups object, in the right order, despite not matching\""
           }
         ],
         "optional": false
@@ -999,6 +1026,7 @@
             "start": 1401,
             "end": 1437,
             "value": null,
+            "raw": "/(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}/d",
             "regex": {
               "pattern": "(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}",
               "flags": "d"
@@ -1051,7 +1079,8 @@
                 "type": "Literal",
                 "start": 1498,
                 "end": 1503,
-                "value": "aac"
+                "value": "aac",
+                "raw": "\"aac\""
               }
             ],
             "optional": false
@@ -1143,7 +1172,8 @@
             "type": "Literal",
             "start": 1581,
             "end": 1627,
-            "value": "group x does not match in the last iteration"
+            "value": "group x does not match in the last iteration",
+            "raw": "\"group x does not match in the last iteration\""
           }
         ],
         "optional": false

@@ -40,7 +40,8 @@
             "type": "Literal",
             "start": 305,
             "end": 320,
-            "value": "Symbol exists"
+            "value": "Symbol exists",
+            "raw": "\"Symbol exists\""
           }
         ],
         "optional": false
@@ -96,7 +97,8 @@
             "type": "Literal",
             "start": 360,
             "end": 383,
-            "value": "Symbol.species exists"
+            "value": "Symbol.species exists",
+            "raw": "\"Symbol.species exists\""
           }
         ],
         "optional": false
@@ -127,7 +129,8 @@
             "type": "Literal",
             "start": 410,
             "end": 419,
-            "value": "species"
+            "value": "species",
+            "raw": "\"species\""
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +154,8 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 440,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -172,7 +176,8 @@
                   "type": "Literal",
                   "start": 456,
                   "end": 461,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -193,7 +198,8 @@
                   "type": "Literal",
                   "start": 479,
                   "end": 484,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

@@ -74,7 +74,8 @@
                                 "type": "Literal",
                                 "start": 736,
                                 "end": 739,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               }
                             ]
                           }
@@ -146,13 +147,15 @@
                             "type": "Literal",
                             "start": 782,
                             "end": 786,
-                            "value": "-0"
+                            "value": "-0",
+                            "raw": "'-0'"
                           },
                           {
                             "type": "Literal",
                             "start": 788,
                             "end": 790,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           }
                         ],
                         "optional": false
@@ -161,13 +164,15 @@
                         "type": "Literal",
                         "start": 793,
                         "end": 797,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 799,
                         "end": 856,
-                        "value": "Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true"
+                        "value": "Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true",
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true'"
                       }
                     ],
                     "optional": false
@@ -229,7 +234,8 @@
                             "type": "Literal",
                             "start": 900,
                             "end": 904,
-                            "value": "-0"
+                            "value": "-0",
+                            "raw": "'-0'"
                           }
                         ],
                         "optional": false
@@ -238,13 +244,15 @@
                         "type": "Literal",
                         "start": 907,
                         "end": 912,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 914,
                         "end": 961,
-                        "value": "sample.hasOwnProperty(\"-0\") must return false"
+                        "value": "sample.hasOwnProperty(\"-0\") must return false",
+                        "raw": "'sample.hasOwnProperty(\"-0\") must return false'"
                       }
                     ],
                     "optional": false

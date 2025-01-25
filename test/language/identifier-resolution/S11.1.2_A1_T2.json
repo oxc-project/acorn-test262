@@ -69,7 +69,8 @@
                     "type": "Literal",
                     "start": 350,
                     "end": 412,
-                    "value": "#1.1: this.z; z === undefined throw ReferenceError. Actual: "
+                    "value": "#1.1: this.z; z === undefined throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: this.z; z === undefined throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -140,7 +141,8 @@
                   "type": "Literal",
                   "start": 474,
                   "end": 478,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -171,7 +173,8 @@
                             "type": "Literal",
                             "start": 509,
                             "end": 571,
-                            "value": "#1.2: this.z; z === undefined throw ReferenceError. Actual: "
+                            "value": "#1.2: this.z; z === undefined throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: this.z; z === undefined throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 457,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -59,7 +60,8 @@
                 "type": "Literal",
                 "start": 466,
                 "end": 468,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ],
             "optional": false
@@ -68,13 +70,15 @@
             "type": "Literal",
             "start": 471,
             "end": 472,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 474,
             "end": 502,
-            "value": "ToString: BigInt to String"
+            "value": "ToString: BigInt to String",
+            "raw": "\"ToString: BigInt to String\""
           }
         ],
         "optional": false
@@ -120,7 +124,8 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 529,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -147,7 +152,8 @@
                     "type": "Literal",
                     "start": 545,
                     "end": 547,
-                    "value": "0n"
+                    "value": "0n",
+                    "raw": "0n"
                   }
                 ],
                 "optional": false
@@ -159,13 +165,15 @@
             "type": "Literal",
             "start": 551,
             "end": 552,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 619,
-            "value": "ToString: unbox object with internal slot => BigInt to String"
+            "value": "ToString: unbox object with internal slot => BigInt to String",
+            "raw": "\"ToString: unbox object with internal slot => BigInt to String\""
           }
         ],
         "optional": false
@@ -211,7 +219,8 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 646,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -276,7 +285,8 @@
                               "type": "Literal",
                               "start": 705,
                               "end": 707,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -293,13 +303,15 @@
             "type": "Literal",
             "start": 717,
             "end": 718,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 765,
-            "value": "ToString: @@toPrimitive => BigInt to String"
+            "value": "ToString: @@toPrimitive => BigInt to String",
+            "raw": "\"ToString: @@toPrimitive => BigInt to String\""
           }
         ],
         "optional": false
@@ -345,7 +357,8 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 792,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -397,7 +410,8 @@
                               "type": "Literal",
                               "start": 838,
                               "end": 840,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -422,7 +436,8 @@
                       "type": "Literal",
                       "start": 859,
                       "end": 863,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -435,13 +450,15 @@
             "type": "Literal",
             "start": 868,
             "end": 869,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 871,
             "end": 910,
-            "value": "ToString: valueOf => BigInt to String"
+            "value": "ToString: valueOf => BigInt to String",
+            "raw": "\"ToString: valueOf => BigInt to String\""
           }
         ],
         "optional": false
@@ -487,7 +504,8 @@
                 "type": "Literal",
                 "start": 930,
                 "end": 937,
-                "value": "__0__"
+                "value": "__0__",
+                "raw": "\"__0__\""
               },
               "property": {
                 "type": "Identifier",
@@ -539,7 +557,8 @@
                               "type": "Literal",
                               "start": 984,
                               "end": 986,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           }
                         ]
@@ -556,13 +575,15 @@
             "type": "Literal",
             "start": 996,
             "end": 997,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 999,
             "end": 1039,
-            "value": "ToString: toString => BigInt to String"
+            "value": "ToString: toString => BigInt to String",
+            "raw": "\"ToString: toString => BigInt to String\""
           }
         ],
         "optional": false

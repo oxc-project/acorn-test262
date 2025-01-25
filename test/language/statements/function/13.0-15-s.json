@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 499,
                         "end": 552,
-                        "value": "'use strict'; function _13_0_15_fun() {eval = 42;};"
+                        "value": "'use strict'; function _13_0_15_fun() {eval = 42;};",
+                        "raw": "\"'use strict'; function _13_0_15_fun() {eval = 42;};\""
                       }
                     ],
                     "optional": false

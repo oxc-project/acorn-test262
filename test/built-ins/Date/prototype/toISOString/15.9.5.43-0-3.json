@@ -79,13 +79,15 @@
             "type": "Literal",
             "start": 304,
             "end": 314,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 316,
             "end": 353,
-            "value": "typeof (Date.prototype.toISOString)"
+            "value": "typeof (Date.prototype.toISOString)",
+            "raw": "'typeof (Date.prototype.toISOString)'"
           }
         ],
         "optional": false

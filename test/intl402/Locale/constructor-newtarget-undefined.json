@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 392,
             "end": 402,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -153,7 +154,8 @@
             "type": "Literal",
             "start": 464,
             "end": 496,
-            "value": "Intl.Locale() throws TypeError"
+            "value": "Intl.Locale() throws TypeError",
+            "raw": "'Intl.Locale() throws TypeError'"
           }
         ],
         "optional": false
@@ -239,7 +241,8 @@
                         "type": "Literal",
                         "start": 552,
                         "end": 556,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "\"en\""
                       }
                     ],
                     "optional": false
@@ -252,7 +255,8 @@
             "type": "Literal",
             "start": 562,
             "end": 598,
-            "value": "Intl.Locale(\"en\") throws TypeError"
+            "value": "Intl.Locale(\"en\") throws TypeError",
+            "raw": "'Intl.Locale(\"en\") throws TypeError'"
           }
         ],
         "optional": false

@@ -255,13 +255,15 @@
             "type": "Literal",
             "start": 526,
             "end": 542,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "\"[object Array]\""
           },
           {
             "type": "Literal",
             "start": 544,
             "end": 589,
-            "value": "arr.getClass() must return \"[object Array]\""
+            "value": "arr.getClass() must return \"[object Array]\"",
+            "raw": "'arr.getClass() must return \"[object Array]\"'"
           }
         ],
         "optional": false
@@ -309,7 +311,8 @@
               "type": "Literal",
               "start": 613,
               "end": 614,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -324,7 +327,8 @@
             "type": "Literal",
             "start": 620,
             "end": 677,
-            "value": "The value of arr[0] is expected to equal the value of x"
+            "value": "The value of arr[0] is expected to equal the value of x",
+            "raw": "'The value of arr[0] is expected to equal the value of x'"
           }
         ],
         "optional": false
@@ -381,13 +385,15 @@
             "type": "Literal",
             "start": 709,
             "end": 710,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 757,
-            "value": "The value of arr.length is expected to be 1"
+            "value": "The value of arr.length is expected to be 1",
+            "raw": "'The value of arr.length is expected to be 1'"
           }
         ],
         "optional": false

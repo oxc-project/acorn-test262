@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 277,
             "end": 324,
-            "value": "The value of `C` is `C.prototype.constructor`"
+            "value": "The value of `C` is `C.prototype.constructor`",
+            "raw": "\"The value of `C` is `C.prototype.constructor`\""
           }
         ],
         "optional": false
@@ -159,7 +160,8 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 397,
-                "value": "constructor"
+                "value": "constructor",
+                "raw": "'constructor'"
               }
             ],
             "optional": false
@@ -219,13 +221,15 @@
             "type": "Literal",
             "start": 436,
             "end": 440,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 577,
-            "value": "The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
+            "value": "The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
           }
         ],
         "optional": false
@@ -282,13 +286,15 @@
             "type": "Literal",
             "start": 614,
             "end": 619,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 755,
-            "value": "The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
+            "value": "The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
           }
         ],
         "optional": false
@@ -345,13 +351,15 @@
             "type": "Literal",
             "start": 790,
             "end": 794,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 796,
             "end": 927,
-            "value": "The value of `desc.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
+            "value": "The value of `desc.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `desc.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
           }
         ],
         "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 337,
-                "value": 1994
+                "value": 1994,
+                "raw": "1994"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
-                "value": 2013
+                "value": 2013,
+                "raw": "2013"
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 393,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -240,7 +244,8 @@
             "type": "Literal",
             "start": 493,
             "end": 520,
-            "value": "Since is inverse of until"
+            "value": "Since is inverse of until",
+            "raw": "'Since is inverse of until'"
           }
         ],
         "optional": false

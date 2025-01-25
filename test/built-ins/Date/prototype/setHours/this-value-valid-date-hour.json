@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 830,
                 "end": 834,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               {
                 "type": "Literal",
                 "start": 836,
                 "end": 837,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -122,7 +124,8 @@
               "type": "Literal",
               "start": 896,
               "end": 897,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             }
           ],
           "optional": false
@@ -167,25 +170,29 @@
                   "type": "Literal",
                   "start": 921,
                   "end": 925,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 927,
                   "end": 928,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 930,
                   "end": 931,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 933,
                   "end": 934,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 }
               ]
             },
@@ -247,7 +254,8 @@
             "type": "Literal",
             "start": 990,
             "end": 1032,
-            "value": "hour within unit boundary (return value)"
+            "value": "hour within unit boundary (return value)",
+            "raw": "'hour within unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -317,7 +325,8 @@
             "type": "Literal",
             "start": 1082,
             "end": 1130,
-            "value": "hour within unit boundary ([[DateValue]] slot)"
+            "value": "hour within unit boundary ([[DateValue]] slot)",
+            "raw": "'hour within unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -372,7 +381,8 @@
                 "type": "Literal",
                 "start": 1164,
                 "end": 1165,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -418,25 +428,29 @@
                   "type": "Literal",
                   "start": 1189,
                   "end": 1193,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1195,
                   "end": 1196,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Literal",
                   "start": 1198,
                   "end": 1200,
-                  "value": 30
+                  "value": 30,
+                  "raw": "30"
                 },
                 {
                   "type": "Literal",
                   "start": 1202,
                   "end": 1204,
-                  "value": 23
+                  "value": 23,
+                  "raw": "23"
                 }
               ]
             },
@@ -498,7 +512,8 @@
             "type": "Literal",
             "start": 1260,
             "end": 1307,
-            "value": "hour before time unit boundary (return value)"
+            "value": "hour before time unit boundary (return value)",
+            "raw": "'hour before time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -568,7 +583,8 @@
             "type": "Literal",
             "start": 1361,
             "end": 1414,
-            "value": "hour before time unit boundary ([[DateValue]] slot)"
+            "value": "hour before time unit boundary ([[DateValue]] slot)",
+            "raw": "'hour before time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -617,7 +633,8 @@
               "type": "Literal",
               "start": 1447,
               "end": 1449,
-              "value": 24
+              "value": 24,
+              "raw": "24"
             }
           ],
           "optional": false
@@ -662,19 +679,22 @@
                   "type": "Literal",
                   "start": 1473,
                   "end": 1477,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1479,
                   "end": 1480,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 1482,
                   "end": 1483,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -736,7 +756,8 @@
             "type": "Literal",
             "start": 1539,
             "end": 1585,
-            "value": "hour after time unit boundary (return value)"
+            "value": "hour after time unit boundary (return value)",
+            "raw": "'hour after time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -806,7 +827,8 @@
             "type": "Literal",
             "start": 1639,
             "end": 1691,
-            "value": "hour after time unit boundary ([[DateValue]] slot)"
+            "value": "hour after time unit boundary ([[DateValue]] slot)",
+            "raw": "'hour after time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false

@@ -33,25 +33,29 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 403,
-                "value": "arg1,arg2,arg3"
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 416,
-                "value": "arg1,arg2"
+                "value": "arg1,arg2",
+                "raw": "\"arg1,arg2\""
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 424,
-                "value": "arg3"
+                "value": "arg3",
+                "raw": "\"arg3\""
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 430,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -102,7 +106,8 @@
                 "type": "Literal",
                 "start": 458,
                 "end": 466,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -111,7 +116,8 @@
             "type": "Literal",
             "start": 469,
             "end": 516,
-            "value": "f.hasOwnProperty('length') must return true"
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -197,7 +203,8 @@
                   "type": "Literal",
                   "start": 563,
                   "end": 571,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -207,7 +214,8 @@
             "type": "Literal",
             "start": 574,
             "end": 641,
-            "value": "The value of !f.hasOwnProperty('length') is expected to be true"
+            "value": "The value of !f.hasOwnProperty('length') is expected to be true",
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
           }
         ],
         "optional": false
@@ -264,13 +272,15 @@
             "type": "Literal",
             "start": 674,
             "end": 675,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 709,
-            "value": "The value of f.length is not 6"
+            "value": "The value of f.length is not 6",
+            "raw": "'The value of f.length is not 6'"
           }
         ],
         "optional": false

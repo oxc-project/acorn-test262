@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 313,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 316,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -97,7 +99,8 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 344,
-                  "value": 2019
+                  "value": 2019,
+                  "raw": "2019"
                 },
                 "kind": "init"
               },
@@ -118,7 +121,8 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 362,
-                  "value": "M06"
+                  "value": "M06",
+                  "raw": "\"M06\""
                 },
                 "kind": "init"
               },
@@ -139,7 +143,8 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 383,
-                  "value": "IsO8601"
+                  "value": "IsO8601",
+                  "raw": "\"IsO8601\""
                 },
                 "kind": "init"
               }
@@ -239,13 +244,15 @@
             "type": "Literal",
             "start": 449,
             "end": 453,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 485,
-            "value": "Calendar is case-insensitive"
+            "value": "Calendar is case-insensitive",
+            "raw": "\"Calendar is case-insensitive\""
           }
         ],
         "optional": false
@@ -283,7 +290,8 @@
           "type": "Literal",
           "start": 504,
           "end": 518,
-          "value": "İSO8601"
+          "value": "İSO8601",
+          "raw": "\"\\u0130SO8601\""
         }
       }
     },
@@ -368,7 +376,8 @@
             "type": "Literal",
             "start": 581,
             "end": 632,
-            "value": "calendar ID is capital dotted I is not lowercased"
+            "value": "calendar ID is capital dotted I is not lowercased",
+            "raw": "\"calendar ID is capital dotted I is not lowercased\""
           }
         ],
         "optional": false

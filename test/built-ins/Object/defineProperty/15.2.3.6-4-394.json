@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 293,
             "end": 299,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -149,7 +150,8 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 381,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -201,7 +203,8 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 417,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -210,7 +213,8 @@
             "type": "Literal",
             "start": 420,
             "end": 457,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -274,13 +278,15 @@
             "type": "Literal",
             "start": 494,
             "end": 505,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 524,
-            "value": "typeof obj.prop"
+            "value": "typeof obj.prop",
+            "raw": "'typeof obj.prop'"
           }
         ],
         "optional": false
@@ -344,13 +350,15 @@
             "type": "Literal",
             "start": 563,
             "end": 574,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 595,
-            "value": "typeof desc.value"
+            "value": "typeof desc.value",
+            "raw": "'typeof desc.value'"
           }
         ],
         "optional": false

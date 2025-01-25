@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 365,
           "end": 371,
-          "value": "Math"
+          "value": "Math",
+          "raw": "\"Math\""
         }
       }
     },
@@ -181,13 +182,15 @@
             "type": "Literal",
             "start": 458,
             "end": 464,
-            "value": "Math"
+            "value": "Math",
+            "raw": "\"Math\""
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 480,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

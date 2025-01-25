@@ -54,55 +54,64 @@
                     "type": "Literal",
                     "start": 325,
                     "end": 329,
-                    "value": 1976
+                    "value": 1976,
+                    "raw": "1976"
                   },
                   {
                     "type": "Literal",
                     "start": 331,
                     "end": 333,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   },
                   {
                     "type": "Literal",
                     "start": 335,
                     "end": 337,
-                    "value": 18
+                    "value": 18,
+                    "raw": "18"
                   },
                   {
                     "type": "Literal",
                     "start": 339,
                     "end": 341,
-                    "value": 15
+                    "value": 15,
+                    "raw": "15"
                   },
                   {
                     "type": "Literal",
                     "start": 343,
                     "end": 345,
-                    "value": 23
+                    "value": 23,
+                    "raw": "23"
                   },
                   {
                     "type": "Literal",
                     "start": 347,
                     "end": 349,
-                    "value": 30
+                    "value": 30,
+                    "raw": "30"
                   },
                   {
                     "type": "Literal",
                     "start": 351,
                     "end": 354,
-                    "value": 123
+                    "value": 123,
+                    "raw": "123"
                   },
                   {
                     "type": "Literal",
                     "start": 356,
                     "end": 359,
-                    "value": 456
+                    "value": 456,
+                    "raw": "456"
                   },
                   {
                     "type": "Literal",
                     "start": 361,
                     "end": 364,
-                    "value": 789
+                    "value": 789,
+                    "raw": "789"
                   }
                 ]
               },
@@ -120,7 +129,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 387,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ],
             "optional": false
@@ -203,7 +213,8 @@
                       "type": "Literal",
                       "start": 488,
                       "end": 492,
-                      "value": 2019
+                      "value": 2019,
+                      "raw": "2019"
                     },
                     "kind": "init"
                   }
@@ -253,7 +264,8 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 571,
-                "value": "2019-11-18T15:23:30.123456789+00:00[UTC]"
+                "value": "2019-11-18T15:23:30.123456789+00:00[UTC]",
+                "raw": "\"2019-11-18T15:23:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -336,7 +348,8 @@
                       "type": "Literal",
                       "start": 672,
                       "end": 673,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -386,7 +399,8 @@
                 "type": "Literal",
                 "start": 710,
                 "end": 752,
-                "value": "1976-05-18T15:23:30.123456789+00:00[UTC]"
+                "value": "1976-05-18T15:23:30.123456789+00:00[UTC]",
+                "raw": "\"1976-05-18T15:23:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -469,7 +483,8 @@
                       "type": "Literal",
                       "start": 866,
                       "end": 871,
-                      "value": "M05"
+                      "value": "M05",
+                      "raw": "\"M05\""
                     },
                     "kind": "init"
                   }
@@ -519,7 +534,8 @@
                 "type": "Literal",
                 "start": 908,
                 "end": 950,
-                "value": "1976-05-18T15:23:30.123456789+00:00[UTC]"
+                "value": "1976-05-18T15:23:30.123456789+00:00[UTC]",
+                "raw": "\"1976-05-18T15:23:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -602,7 +618,8 @@
                       "type": "Literal",
                       "start": 1047,
                       "end": 1048,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -652,7 +669,8 @@
                 "type": "Literal",
                 "start": 1085,
                 "end": 1127,
-                "value": "1976-11-05T15:23:30.123456789+00:00[UTC]"
+                "value": "1976-11-05T15:23:30.123456789+00:00[UTC]",
+                "raw": "\"1976-11-05T15:23:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -735,7 +753,8 @@
                       "type": "Literal",
                       "start": 1226,
                       "end": 1227,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -785,7 +804,8 @@
                 "type": "Literal",
                 "start": 1264,
                 "end": 1306,
-                "value": "1976-11-18T05:23:30.123456789+00:00[UTC]"
+                "value": "1976-11-18T05:23:30.123456789+00:00[UTC]",
+                "raw": "\"1976-11-18T05:23:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -868,7 +888,8 @@
                       "type": "Literal",
                       "start": 1409,
                       "end": 1410,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -918,7 +939,8 @@
                 "type": "Literal",
                 "start": 1447,
                 "end": 1489,
-                "value": "1976-11-18T15:05:30.123456789+00:00[UTC]"
+                "value": "1976-11-18T15:05:30.123456789+00:00[UTC]",
+                "raw": "\"1976-11-18T15:05:30.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -1001,7 +1023,8 @@
                       "type": "Literal",
                       "start": 1592,
                       "end": 1593,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -1051,7 +1074,8 @@
                 "type": "Literal",
                 "start": 1630,
                 "end": 1672,
-                "value": "1976-11-18T15:23:05.123456789+00:00[UTC]"
+                "value": "1976-11-18T15:23:05.123456789+00:00[UTC]",
+                "raw": "\"1976-11-18T15:23:05.123456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -1134,7 +1158,8 @@
                       "type": "Literal",
                       "start": 1785,
                       "end": 1786,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -1184,7 +1209,8 @@
                 "type": "Literal",
                 "start": 1823,
                 "end": 1865,
-                "value": "1976-11-18T15:23:30.005456789+00:00[UTC]"
+                "value": "1976-11-18T15:23:30.005456789+00:00[UTC]",
+                "raw": "\"1976-11-18T15:23:30.005456789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -1267,7 +1293,8 @@
                       "type": "Literal",
                       "start": 1978,
                       "end": 1979,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -1317,7 +1344,8 @@
                 "type": "Literal",
                 "start": 2016,
                 "end": 2058,
-                "value": "1976-11-18T15:23:30.123005789+00:00[UTC]"
+                "value": "1976-11-18T15:23:30.123005789+00:00[UTC]",
+                "raw": "\"1976-11-18T15:23:30.123005789+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -1400,7 +1428,8 @@
                       "type": "Literal",
                       "start": 2169,
                       "end": 2170,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -1450,7 +1479,8 @@
                 "type": "Literal",
                 "start": 2207,
                 "end": 2249,
-                "value": "1976-11-18T15:23:30.123456005+00:00[UTC]"
+                "value": "1976-11-18T15:23:30.123456005+00:00[UTC]",
+                "raw": "\"1976-11-18T15:23:30.123456005+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -1533,7 +1563,8 @@
                       "type": "Literal",
                       "start": 2370,
                       "end": 2371,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   },
@@ -1554,7 +1585,8 @@
                       "type": "Literal",
                       "start": 2389,
                       "end": 2391,
-                      "value": 15
+                      "value": 15,
+                      "raw": "15"
                     },
                     "kind": "init"
                   }
@@ -1604,7 +1636,8 @@
                 "type": "Literal",
                 "start": 2432,
                 "end": 2474,
-                "value": "1976-05-18T15:23:15.123456789+00:00[UTC]"
+                "value": "1976-05-18T15:23:15.123456789+00:00[UTC]",
+                "raw": "\"1976-05-18T15:23:15.123456789+00:00[UTC]\""
               }
             ],
             "optional": false

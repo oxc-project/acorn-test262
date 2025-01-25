@@ -35,13 +35,15 @@
                     "type": "Literal",
                     "start": 1355,
                     "end": 1357,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   },
                   {
                     "type": "Literal",
                     "start": 1359,
                     "end": 1361,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ]
               },
@@ -185,7 +187,8 @@
                     "type": "Literal",
                     "start": 1469,
                     "end": 1476,
-                    "value": "hacks"
+                    "value": "hacks",
+                    "raw": "\"hacks\""
                   },
                   "operator": "+",
                   "right": {
@@ -238,13 +241,15 @@
                 "type": "Literal",
                 "start": 1508,
                 "end": 1510,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Literal",
                 "start": 1512,
                 "end": 1513,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -284,13 +289,15 @@
                     "type": "Literal",
                     "start": 1532,
                     "end": 1540,
-                    "value": "hacks1"
+                    "value": "hacks1",
+                    "raw": "\"hacks1\""
                   },
                   {
                     "type": "Literal",
                     "start": 1542,
                     "end": 1550,
-                    "value": "hacks2"
+                    "value": "hacks2",
+                    "raw": "\"hacks2\""
                   }
                 ]
               },
@@ -478,7 +485,8 @@
                         "type": "Literal",
                         "start": 1712,
                         "end": 1736,
-                        "value": "returns expected value"
+                        "value": "returns expected value",
+                        "raw": "\"returns expected value\""
                       }
                     ],
                     "optional": false
@@ -542,7 +550,8 @@
                         "type": "Literal",
                         "start": 1794,
                         "end": 1831,
-                        "value": "toLocaleString called for each item"
+                        "value": "toLocaleString called for each item",
+                        "raw": "\"toLocaleString called for each item\""
                       }
                     ],
                     "optional": false

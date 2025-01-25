@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 960,
           "end": 969,
-          "value": "value 1"
+          "value": "value 1",
+          "raw": "'value 1'"
         }
       }
     },
@@ -126,7 +127,8 @@
                 "type": "Literal",
                 "start": 1006,
                 "end": 1010,
-                "value": "p1"
+                "value": "p1",
+                "raw": "'p1'"
               }
             ],
             "optional": false
@@ -135,13 +137,15 @@
             "type": "Literal",
             "start": 1013,
             "end": 1022,
-            "value": "value 1"
+            "value": "value 1",
+            "raw": "'value 1'"
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1061,
-            "value": "Return value from data descriptor"
+            "value": "Return value from data descriptor",
+            "raw": "'Return value from data descriptor'"
           }
         ],
         "optional": false
@@ -185,7 +189,8 @@
             "type": "Literal",
             "start": 1091,
             "end": 1095,
-            "value": "p2"
+            "value": "p2",
+            "raw": "'p2'"
           },
           {
             "type": "ObjectExpression",
@@ -281,7 +286,8 @@
                 "type": "Literal",
                 "start": 1155,
                 "end": 1159,
-                "value": "p2"
+                "value": "p2",
+                "raw": "'p2'"
               }
             ],
             "optional": false
@@ -296,7 +302,8 @@
             "type": "Literal",
             "start": 1175,
             "end": 1216,
-            "value": "Return undefined if getter is undefined"
+            "value": "Return undefined if getter is undefined",
+            "raw": "'Return undefined if getter is undefined'"
           }
         ],
         "optional": false
@@ -340,7 +347,8 @@
             "type": "Literal",
             "start": 1246,
             "end": 1250,
-            "value": "p3"
+            "value": "p3",
+            "raw": "'p3'"
           },
           {
             "type": "ObjectExpression",
@@ -382,7 +390,8 @@
                           "type": "Literal",
                           "start": 1285,
                           "end": 1290,
-                          "value": "foo"
+                          "value": "foo",
+                          "raw": "'foo'"
                         }
                       }
                     ]
@@ -458,7 +467,8 @@
                 "type": "Literal",
                 "start": 1335,
                 "end": 1339,
-                "value": "p3"
+                "value": "p3",
+                "raw": "'p3'"
               }
             ],
             "optional": false
@@ -467,13 +477,15 @@
             "type": "Literal",
             "start": 1342,
             "end": 1347,
-            "value": "foo"
+            "value": "foo",
+            "raw": "'foo'"
           },
           {
             "type": "Literal",
             "start": 1351,
             "end": 1382,
-            "value": "Return Call(getter, Receiver)"
+            "value": "Return Call(getter, Receiver)",
+            "raw": "'Return Call(getter, Receiver)'"
           }
         ],
         "optional": false
@@ -540,7 +552,8 @@
                       "type": "Literal",
                       "start": 1417,
                       "end": 1419,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     },
                     "kind": "init"
                   }
@@ -615,7 +628,8 @@
                 "type": "Literal",
                 "start": 1460,
                 "end": 1463,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               }
             ],
             "optional": false
@@ -624,13 +638,15 @@
             "type": "Literal",
             "start": 1466,
             "end": 1468,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1472,
             "end": 1523,
-            "value": "Return value from prototype without own property."
+            "value": "Return value from prototype without own property.",
+            "raw": "'Return value from prototype without own property.'"
           }
         ],
         "optional": false
@@ -698,7 +714,8 @@
                 "type": "Literal",
                 "start": 1564,
                 "end": 1567,
-                "value": "u"
+                "value": "u",
+                "raw": "'u'"
               }
             ],
             "optional": false
@@ -713,7 +730,8 @@
             "type": "Literal",
             "start": 1583,
             "end": 1650,
-            "value": "Return undefined without property on the object and its prototype"
+            "value": "Return undefined without property on the object and its prototype",
+            "raw": "'Return undefined without property on the object and its prototype'"
           }
         ],
         "optional": false

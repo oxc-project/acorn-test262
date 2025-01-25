@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 314,
                         "end": 319,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   ],
@@ -141,7 +142,8 @@
                                     "type": "Literal",
                                     "start": 395,
                                     "end": 419,
-                                    "value": "it's-a-me, Chris Pratt"
+                                    "value": "it's-a-me, Chris Pratt",
+                                    "raw": "\"it's-a-me, Chris Pratt\""
                                   }
                                 ]
                               }
@@ -253,7 +255,8 @@
                               "type": "Literal",
                               "start": 511,
                               "end": 515,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -322,7 +325,8 @@
                                     "type": "Literal",
                                     "start": 588,
                                     "end": 622,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -363,7 +367,8 @@
                                   "type": "Literal",
                                   "start": 664,
                                   "end": 679,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -403,7 +408,8 @@
                               "type": "Literal",
                               "start": 733,
                               "end": 809,
-                              "value": "assert.throwsAsync did not reject when the thenable resolved with an error"
+                              "value": "assert.throwsAsync did not reject when the thenable resolved with an error",
+                              "raw": "\"assert.throwsAsync did not reject when the thenable resolved with an error\""
                             }
                           ],
                           "optional": false

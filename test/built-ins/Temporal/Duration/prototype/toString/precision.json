@@ -69,7 +69,8 @@
             "type": "Literal",
             "start": 337,
             "end": 353,
-            "value": "PT0.084000159S"
+            "value": "PT0.084000159S",
+            "raw": "'PT0.084000159S'"
           }
         }
       ],
@@ -188,7 +189,8 @@
                       "type": "Literal",
                       "start": 463,
                       "end": 477,
-                      "value": "milliseconds"
+                      "value": "milliseconds",
+                      "raw": "'milliseconds'"
                     },
                     "kind": "init"
                   }
@@ -303,7 +305,8 @@
             "type": "Literal",
             "start": 572,
             "end": 582,
-            "value": "PT0.084S"
+            "value": "PT0.084S",
+            "raw": "\"PT0.084S\""
           }
         ],
         "optional": false

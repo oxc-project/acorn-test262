@@ -106,7 +106,8 @@
                   "type": "Literal",
                   "start": 386,
                   "end": 425,
-                  "value": "#1: Infinity is the same as +Infinity"
+                  "value": "#1: Infinity is the same as +Infinity",
+                  "raw": "'#1: Infinity is the same as +Infinity'"
                 }
               ]
             }

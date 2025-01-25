@@ -193,7 +193,8 @@
                 "type": "Literal",
                 "start": 992,
                 "end": 1007,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -289,7 +290,8 @@
             "type": "Literal",
             "start": 1107,
             "end": 1157,
-            "value": "target and heldValue are the same regular symbol"
+            "value": "target and heldValue are the same regular symbol",
+            "raw": "'target and heldValue are the same regular symbol'"
           }
         ],
         "optional": false
@@ -408,7 +410,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1324,
-            "value": "target and heldValue are the same well-known symbol"
+            "value": "target and heldValue are the same well-known symbol",
+            "raw": "'target and heldValue are the same well-known symbol'"
           }
         ],
         "optional": false

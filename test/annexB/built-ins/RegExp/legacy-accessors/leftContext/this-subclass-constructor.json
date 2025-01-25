@@ -105,7 +105,8 @@
             "type": "Literal",
             "start": 717,
             "end": 773,
-            "value": "RegExp.leftContext getter throws for subclass receiver"
+            "value": "RegExp.leftContext getter throws for subclass receiver",
+            "raw": "\"RegExp.leftContext getter throws for subclass receiver\""
           }
         ],
         "optional": false
@@ -177,7 +178,8 @@
                       "type": "Literal",
                       "start": 835,
                       "end": 839,
-                      "value": "$`"
+                      "value": "$`",
+                      "raw": "\"$`\""
                     },
                     "computed": true,
                     "optional": false
@@ -190,7 +192,8 @@
             "type": "Literal",
             "start": 849,
             "end": 896,
-            "value": "RegExp.$` getter throws for subclass receiver"
+            "value": "RegExp.$` getter throws for subclass receiver",
+            "raw": "\"RegExp.$` getter throws for subclass receiver\""
           }
         ],
         "optional": false

@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 309,
           "end": 320,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "'undefined'"
         }
       }
     },
@@ -96,7 +97,8 @@
           "type": "Literal",
           "start": 339,
           "end": 344,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "'NaN'"
         }
       }
     },
@@ -132,7 +134,8 @@
           "type": "Literal",
           "start": 368,
           "end": 378,
-          "value": "Infinity"
+          "value": "Infinity",
+          "raw": "'Infinity'"
         }
       }
     },
@@ -160,19 +163,22 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 408,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "'undefined'"
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 419,
-                "value": "NaN"
+                "value": "NaN",
+                "raw": "'NaN'"
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 435,
-                "value": "Infinity"
+                "value": "Infinity",
+                "raw": "'Infinity'"
               }
             ]
           }
@@ -203,7 +209,8 @@
               "type": "Literal",
               "start": 454,
               "end": 455,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -356,7 +363,8 @@
                       "type": "Literal",
                       "start": 575,
                       "end": 587,
-                      "value": "Property \""
+                      "value": "Property \"",
+                      "raw": "'Property \"'"
                     },
                     "operator": "+",
                     "right": {
@@ -371,7 +379,8 @@
                     "type": "Literal",
                     "start": 605,
                     "end": 614,
-                    "value": "\" found"
+                    "value": "\" found",
+                    "raw": "'\" found'"
                   }
                 }
               ],
@@ -443,7 +452,8 @@
                       "type": "Literal",
                       "start": 700,
                       "end": 712,
-                      "value": "Property \""
+                      "value": "Property \"",
+                      "raw": "'Property \"'"
                     },
                     "operator": "+",
                     "right": {
@@ -458,7 +468,8 @@
                     "type": "Literal",
                     "start": 730,
                     "end": 751,
-                    "value": "\" has correct value"
+                    "value": "\" has correct value",
+                    "raw": "'\" has correct value'"
                   }
                 }
               ],

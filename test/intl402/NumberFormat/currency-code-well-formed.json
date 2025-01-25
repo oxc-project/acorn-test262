@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 288,
                 "end": 293,
-                "value": "BOB"
+                "value": "BOB",
+                "raw": "\"BOB\""
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 304,
-                "value": "EUR"
+                "value": "EUR",
+                "raw": "\"EUR\""
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 315,
-                "value": "usd"
+                "value": "usd",
+                "raw": "\"usd\""
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 365,
-                "value": "XdR"
+                "value": "XdR",
+                "raw": "\"XdR\""
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 376,
-                "value": "xTs"
+                "value": "xTs",
+                "raw": "\"xTs\""
               }
             ]
           }
@@ -156,7 +161,8 @@
                                 "type": "Literal",
                                 "start": 537,
                                 "end": 544,
-                                "value": "de-de"
+                                "value": "de-de",
+                                "raw": "\"de-de\""
                               }
                             ]
                           },
@@ -182,7 +188,8 @@
                                   "type": "Literal",
                                   "start": 555,
                                   "end": 565,
-                                  "value": "currency"
+                                  "value": "currency",
+                                  "raw": "\"currency\""
                                 },
                                 "kind": "init"
                               },
@@ -320,7 +327,8 @@
                             "type": "Literal",
                             "start": 661,
                             "end": 672,
-                            "value": "Currency "
+                            "value": "Currency ",
+                            "raw": "\"Currency \""
                           },
                           "operator": "+",
                           "right": {
@@ -335,7 +343,8 @@
                           "type": "Literal",
                           "start": 682,
                           "end": 712,
-                          "value": " was not correctly accepted."
+                          "value": " was not correctly accepted.",
+                          "raw": "\" was not correctly accepted.\""
                         }
                       }
                     ],

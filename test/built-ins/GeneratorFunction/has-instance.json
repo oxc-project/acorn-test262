@@ -171,7 +171,8 @@
             "type": "Literal",
             "start": 484,
             "end": 578,
-            "value": "Generators created via GeneratorDeclaration syntax are proper instances of GeneratorFunction"
+            "value": "Generators created via GeneratorDeclaration syntax are proper instances of GeneratorFunction",
+            "raw": "'Generators created via GeneratorDeclaration syntax are proper instances of GeneratorFunction'"
           }
         ],
         "optional": false
@@ -214,7 +215,8 @@
             "type": "Literal",
             "start": 631,
             "end": 724,
-            "value": "Generators created via GeneratorExpression syntax are proper instances of GeneratorFunction"
+            "value": "Generators created via GeneratorExpression syntax are proper instances of GeneratorFunction",
+            "raw": "'Generators created via GeneratorExpression syntax are proper instances of GeneratorFunction'"
           }
         ],
         "optional": false
@@ -263,7 +265,8 @@
             "type": "Literal",
             "start": 795,
             "end": 905,
-            "value": "Generators created via constructor invocation of GeneratorFunction are proper instances of GeneratorFunction"
+            "value": "Generators created via constructor invocation of GeneratorFunction are proper instances of GeneratorFunction",
+            "raw": "'Generators created via constructor invocation of GeneratorFunction are proper instances of GeneratorFunction'"
           }
         ],
         "optional": false
@@ -313,7 +316,8 @@
             "type": "Literal",
             "start": 972,
             "end": 1079,
-            "value": "Generators created via function invocation of GeneratorFunction are proper instances of GeneratorFunction"
+            "value": "Generators created via function invocation of GeneratorFunction are proper instances of GeneratorFunction",
+            "raw": "'Generators created via function invocation of GeneratorFunction are proper instances of GeneratorFunction'"
           }
         ],
         "optional": false

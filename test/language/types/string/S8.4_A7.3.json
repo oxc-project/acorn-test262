@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 438,
                         "end": 462,
-                        "value": "var x = asdf ghjk"
+                        "value": "var x = asdf ghjk",
+                        "raw": "\"var x = asdf\\u2028ghjk\""
                       }
                     ],
                     "optional": false

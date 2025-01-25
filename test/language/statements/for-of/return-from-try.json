@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 334,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -58,7 +59,8 @@
                   "type": "Literal",
                   "start": 361,
                   "end": 418,
-                  "value": "This code is unreachable (following `yield` statement)."
+                  "value": "This code is unreachable (following `yield` statement).",
+                  "raw": "'This code is unreachable (following `yield` statement).'"
                 }
               ]
             }
@@ -117,7 +119,8 @@
             "type": "Literal",
             "start": 456,
             "end": 457,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -231,7 +234,8 @@
                                     "type": "Literal",
                                     "start": 549,
                                     "end": 551,
-                                    "value": 34
+                                    "value": 34,
+                                    "raw": "34"
                                   }
                                 },
                                 {
@@ -253,7 +257,8 @@
                                         "type": "Literal",
                                         "start": 583,
                                         "end": 641,
-                                        "value": "This code is unreachable (following `return` statement)."
+                                        "value": "This code is unreachable (following `return` statement).",
+                                        "raw": "'This code is unreachable (following `return` statement).'"
                                       }
                                     ]
                                   }
@@ -294,7 +299,8 @@
                                           "type": "Literal",
                                           "start": 692,
                                           "end": 742,
-                                          "value": "This code is unreachable (within `catch` block)."
+                                          "value": "This code is unreachable (within `catch` block).",
+                                          "raw": "'This code is unreachable (within `catch` block).'"
                                         }
                                       ]
                                     }
@@ -323,7 +329,8 @@
                                   "type": "Literal",
                                   "start": 779,
                                   "end": 834,
-                                  "value": "This code is unreachable (following `try` statement)."
+                                  "value": "This code is unreachable (following `try` statement).",
+                                  "raw": "'This code is unreachable (following `try` statement).'"
                                 }
                               ]
                             }
@@ -350,7 +357,8 @@
                             "type": "Literal",
                             "start": 867,
                             "end": 926,
-                            "value": "This code is unreachable (following `for..in` statement)."
+                            "value": "This code is unreachable (following `for..in` statement).",
+                            "raw": "'This code is unreachable (following `for..in` statement).'"
                           }
                         ]
                       }
@@ -404,7 +412,8 @@
             "type": "Literal",
             "start": 961,
             "end": 963,
-            "value": 34
+            "value": 34,
+            "raw": "34"
           }
         ],
         "optional": false
@@ -448,7 +457,8 @@
             "type": "Literal",
             "start": 986,
             "end": 987,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

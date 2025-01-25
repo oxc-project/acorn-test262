@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 392,
                 "end": 410,
-                "value": "epochNanoseconds"
+                "value": "epochNanoseconds",
+                "raw": "\"epochNanoseconds\""
               }
             ],
             "optional": false
@@ -145,7 +146,8 @@
             "type": "Literal",
             "start": 453,
             "end": 463,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -259,7 +261,8 @@
             "type": "Literal",
             "start": 551,
             "end": 556,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -316,7 +319,8 @@
             "type": "Literal",
             "start": 601,
             "end": 605,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

@@ -65,7 +65,8 @@
                   "type": "Literal",
                   "start": 538,
                   "end": 539,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -86,7 +87,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 562,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -134,7 +136,8 @@
             "type": "Literal",
             "start": 633,
             "end": 638,
-            "value": "foo"
+            "value": "foo",
+            "raw": "'foo'"
           },
           {
             "type": "Identifier",
@@ -229,13 +232,15 @@
             "type": "Literal",
             "start": 768,
             "end": 773,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 778,
-            "value": "d"
+            "value": "d",
+            "raw": "'d'"
           }
         ],
         "optional": false
@@ -297,7 +302,8 @@
                 "type": "Literal",
                 "start": 815,
                 "end": 820,
-                "value": "foo"
+                "value": "foo",
+                "raw": "'foo'"
               }
             ],
             "optional": false
@@ -306,13 +312,15 @@
             "type": "Literal",
             "start": 823,
             "end": 827,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 854,
-            "value": "o.hasOwnProperty(\"foo\")"
+            "value": "o.hasOwnProperty(\"foo\")",
+            "raw": "'o.hasOwnProperty(\"foo\")'"
           }
         ],
         "optional": false

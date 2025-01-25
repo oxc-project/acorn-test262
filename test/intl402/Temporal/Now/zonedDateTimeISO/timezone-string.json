@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 303,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "\"America/Los_Angeles\""
               }
             ],
             "optional": false
@@ -169,7 +170,8 @@
             "type": "Literal",
             "start": 386,
             "end": 395,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         ],
         "optional": false
@@ -226,7 +228,8 @@
             "type": "Literal",
             "start": 431,
             "end": 452,
-            "value": "America/Los_Angeles"
+            "value": "America/Los_Angeles",
+            "raw": "\"America/Los_Angeles\""
           }
         ],
         "optional": false

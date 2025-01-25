@@ -39,7 +39,8 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -110,7 +111,8 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -141,7 +143,8 @@
                     "type": "Literal",
                     "start": 443,
                     "end": 516,
-                    "value": "#1: var x = new Array(undefined, 1); x.sort(); x.length === 2. Actual: "
+                    "value": "#1: var x = new Array(undefined, 1); x.sort(); x.length === 2. Actual: ",
+                    "raw": "'#1: var x = new Array(undefined, 1); x.sort(); x.length === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -198,7 +201,8 @@
             "type": "Literal",
             "start": 541,
             "end": 542,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -208,7 +212,8 @@
           "type": "Literal",
           "start": 548,
           "end": 549,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -239,7 +244,8 @@
                     "type": "Literal",
                     "start": 578,
                     "end": 647,
-                    "value": "#2: var x = new Array(undefined, 1); x.sort(); x[0] === 1. Actual: "
+                    "value": "#2: var x = new Array(undefined, 1); x.sort(); x[0] === 1. Actual: ",
+                    "raw": "'#2: var x = new Array(undefined, 1); x.sort(); x[0] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -260,7 +266,8 @@
                         "type": "Literal",
                         "start": 653,
                         "end": 654,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -296,7 +303,8 @@
             "type": "Literal",
             "start": 668,
             "end": 669,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -337,7 +345,8 @@
                     "type": "Literal",
                     "start": 713,
                     "end": 790,
-                    "value": "#3: var x = new Array(undefined, 1); x.sort(); x[1] === undefined. Actual: "
+                    "value": "#3: var x = new Array(undefined, 1); x.sort(); x[1] === undefined. Actual: ",
+                    "raw": "'#3: var x = new Array(undefined, 1); x.sort(); x[1] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -358,7 +367,8 @@
                         "type": "Literal",
                         "start": 796,
                         "end": 797,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -402,7 +412,8 @@
                 "type": "Literal",
                 "start": 823,
                 "end": 824,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Identifier",
@@ -479,7 +490,8 @@
           "type": "Literal",
           "start": 866,
           "end": 867,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -510,7 +522,8 @@
                     "type": "Literal",
                     "start": 896,
                     "end": 969,
-                    "value": "#4: var x = new Array(1, undefined); x.sort(); x.length === 2. Actual: "
+                    "value": "#4: var x = new Array(1, undefined); x.sort(); x.length === 2. Actual: ",
+                    "raw": "'#4: var x = new Array(1, undefined); x.sort(); x.length === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -567,7 +580,8 @@
             "type": "Literal",
             "start": 994,
             "end": 995,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -577,7 +591,8 @@
           "type": "Literal",
           "start": 1001,
           "end": 1002,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -608,7 +623,8 @@
                     "type": "Literal",
                     "start": 1031,
                     "end": 1100,
-                    "value": "#5: var x = new Array(1, undefined); x.sort(); x[0] === 1. Actual: "
+                    "value": "#5: var x = new Array(1, undefined); x.sort(); x[0] === 1. Actual: ",
+                    "raw": "'#5: var x = new Array(1, undefined); x.sort(); x[0] === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -629,7 +645,8 @@
                         "type": "Literal",
                         "start": 1106,
                         "end": 1107,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -665,7 +682,8 @@
             "type": "Literal",
             "start": 1121,
             "end": 1122,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -706,7 +724,8 @@
                     "type": "Literal",
                     "start": 1166,
                     "end": 1243,
-                    "value": "#6: var x = new Array(1, undefined); x.sort(); x[1] === undefined. Actual: "
+                    "value": "#6: var x = new Array(1, undefined); x.sort(); x[1] === undefined. Actual: ",
+                    "raw": "'#6: var x = new Array(1, undefined); x.sort(); x[1] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -727,7 +746,8 @@
                         "type": "Literal",
                         "start": 1249,
                         "end": 1250,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false

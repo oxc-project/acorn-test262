@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 890,
                       "end": 891,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -98,7 +99,8 @@
             "type": "Literal",
             "start": 911,
             "end": 945,
-            "value": 16810113
+            "value": 16810113,
+            "raw": "0b00000001000000001000000010000001"
           }
         }
       ],
@@ -166,7 +168,8 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 992,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -181,13 +184,15 @@
             "type": "Literal",
             "start": 1005,
             "end": 1006,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1010,
             "end": 1055,
-            "value": "Atomics.exchange(i32a, 0, update) returns 0"
+            "value": "Atomics.exchange(i32a, 0, update) returns 0",
+            "raw": "'Atomics.exchange(i32a, 0, update) returns 0'"
           }
         ],
         "optional": false
@@ -235,7 +240,8 @@
               "type": "Literal",
               "start": 1084,
               "end": 1085,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -250,7 +256,8 @@
             "type": "Literal",
             "start": 1100,
             "end": 1188,
-            "value": "The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)"
+            "value": "The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)",
+            "raw": "'The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)'"
           }
         ],
         "optional": false

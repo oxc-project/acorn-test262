@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 342,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 349,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 360,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -90,7 +93,8 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -102,20 +106,23 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 398,
-                  "value": 19761118
+                  "value": 19761118,
+                  "raw": "19761118"
                 }
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 410,
-                "value": 19761118
+                "value": 19761118,
+                "raw": "19761118"
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 424,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -240,7 +247,8 @@
                   "type": "Literal",
                   "start": 533,
                   "end": 582,
-                  "value": "A number is not a valid ISO string for Calendar"
+                  "value": "A number is not a valid ISO string for Calendar",
+                  "raw": "\"A number is not a valid ISO string for Calendar\""
                 }
               ],
               "optional": false

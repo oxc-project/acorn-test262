@@ -90,7 +90,8 @@
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -99,13 +100,15 @@
             "type": "Literal",
             "start": 304,
             "end": 309,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 311,
             "end": 339,
-            "value": "`s.has(0)` returns `false`"
+            "value": "`s.has(0)` returns `false`",
+            "raw": "\"`s.has(0)` returns `false`\""
           }
         ],
         "optional": false

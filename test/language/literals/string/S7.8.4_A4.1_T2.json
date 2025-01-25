@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 310,
               "end": 316,
-              "value": 39
+              "value": 39,
+              "raw": "0x0027"
             }
           ],
           "optional": false
@@ -49,7 +50,8 @@
           "type": "Literal",
           "start": 322,
           "end": 326,
-          "value": "'"
+          "value": "'",
+          "raw": "\"\\'\""
         }
       },
       "consequent": {
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 399,
-                  "value": "#1: String.fromCharCode(0x0027) === \"\\'\""
+                  "value": "#1: String.fromCharCode(0x0027) === \"\\'\"",
+                  "raw": "'#1: String.fromCharCode(0x0027) === \"\\\\\\'\"'"
                 }
               ]
             }
@@ -121,7 +124,8 @@
               "type": "Literal",
               "start": 439,
               "end": 445,
-              "value": 34
+              "value": 34,
+              "raw": "0x0022"
             }
           ],
           "optional": false
@@ -131,7 +135,8 @@
           "type": "Literal",
           "start": 451,
           "end": 455,
-          "value": "\""
+          "value": "\"",
+          "raw": "'\\\"'"
         }
       },
       "consequent": {
@@ -158,7 +163,8 @@
                   "type": "Literal",
                   "start": 484,
                   "end": 530,
-                  "value": "#2: String.fromCharCode(0x0027) === '\\\"'"
+                  "value": "#2: String.fromCharCode(0x0027) === '\\\"'",
+                  "raw": "'#2: String.fromCharCode(0x0027) === \\'\\\\\\\"\\''"
                 }
               ]
             }
@@ -203,7 +209,8 @@
               "type": "Literal",
               "start": 570,
               "end": 576,
-              "value": 92
+              "value": 92,
+              "raw": "0x005C"
             }
           ],
           "optional": false
@@ -213,7 +220,8 @@
           "type": "Literal",
           "start": 582,
           "end": 586,
-          "value": "\\"
+          "value": "\\",
+          "raw": "\"\\\\\""
         }
       },
       "consequent": {
@@ -240,7 +248,8 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 658,
-                  "value": "#3: String.fromCharCode(0x005C) === \"\\\""
+                  "value": "#3: String.fromCharCode(0x005C) === \"\\\"",
+                  "raw": "'#3: String.fromCharCode(0x005C) === \"\\\\\\\"'"
                 }
               ]
             }
@@ -261,14 +270,16 @@
           "type": "Literal",
           "start": 678,
           "end": 682,
-          "value": "'"
+          "value": "'",
+          "raw": "\"\\'\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 687,
           "end": 690,
-          "value": "'"
+          "value": "'",
+          "raw": "\"'\""
         }
       },
       "consequent": {
@@ -295,7 +306,8 @@
                   "type": "Literal",
                   "start": 719,
                   "end": 740,
-                  "value": "#4: \"'\" === \"\\'\""
+                  "value": "#4: \"'\" === \"\\'\"",
+                  "raw": "'#4: \"\\'\" === \"\\\\\\'\"'"
                 }
               ]
             }
@@ -316,14 +328,16 @@
           "type": "Literal",
           "start": 760,
           "end": 764,
-          "value": "\""
+          "value": "\"",
+          "raw": "'\\\"'"
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 769,
           "end": 772,
-          "value": "\""
+          "value": "\"",
+          "raw": "'\"'"
         }
       },
       "consequent": {
@@ -350,7 +364,8 @@
                   "type": "Literal",
                   "start": 801,
                   "end": 826,
-                  "value": "#5: '\"' === '\\\"'"
+                  "value": "#5: '\"' === '\\\"'",
+                  "raw": "'#5: \\'\\\"\\' === \\'\\\\\\\"\\''"
                 }
               ]
             }

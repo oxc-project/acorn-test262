@@ -22,7 +22,8 @@
           "type": "Literal",
           "start": 311,
           "end": 312,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -45,7 +46,8 @@
           "type": "Literal",
           "start": 324,
           "end": 325,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -76,7 +78,8 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 384,
-                    "value": "#1: x = 1; x === 1. Actual: "
+                    "value": "#1: x = 1; x === 1. Actual: ",
+                    "raw": "'#1: x = 1; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +120,8 @@
             "type": "Literal",
             "start": 414,
             "end": 415,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -142,7 +146,8 @@
           "type": "Literal",
           "start": 427,
           "end": 428,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -173,7 +178,8 @@
                     "type": "Literal",
                     "start": 457,
                     "end": 491,
-                    "value": "#2: var x = 1; x === 1. Actual: "
+                    "value": "#2: var x = 1; x === 1. Actual: ",
+                    "raw": "'#2: var x = 1; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -214,7 +220,8 @@
           "type": "Literal",
           "start": 517,
           "end": 518,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -260,7 +267,8 @@
           "type": "Literal",
           "start": 537,
           "end": 538,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -291,7 +299,8 @@
                     "type": "Literal",
                     "start": 567,
                     "end": 604,
-                    "value": "#3: y = 1; x = y; x === 1. Actual: "
+                    "value": "#3: y = 1; x = y; x === 1. Actual: ",
+                    "raw": "'#3: y = 1; x = y; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -332,7 +341,8 @@
             "type": "Literal",
             "start": 634,
             "end": 635,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -382,7 +392,8 @@
           "type": "Literal",
           "start": 658,
           "end": 659,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -413,7 +424,8 @@
                     "type": "Literal",
                     "start": 688,
                     "end": 733,
-                    "value": "#4: var y = 1; var x = y; x === 1. Actual: "
+                    "value": "#4: var y = 1; var x = y; x === 1. Actual: ",
+                    "raw": "'#4: var y = 1; var x = y; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -529,7 +541,8 @@
           "type": "Literal",
           "start": 826,
           "end": 829,
-          "value": 1.1
+          "value": 1.1,
+          "raw": "1.1"
         }
       }
     },
@@ -658,7 +671,8 @@
                     "type": "Literal",
                     "start": 922,
                     "end": 1070,
-                    "value": "#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx.prop === objecty.prop. Actual: "
+                    "value": "#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx.prop === objecty.prop. Actual: ",
+                    "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx.prop === objecty.prop. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -742,7 +756,8 @@
                         "type": "Literal",
                         "start": 1155,
                         "end": 1283,
-                        "value": "#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx !== objecty"
+                        "value": "#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx !== objecty",
+                        "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objecty.prop = 1; objectx.prop = objecty.prop; objectx !== objecty'"
                       }
                     ]
                   }

@@ -61,13 +61,15 @@
                     "type": "Literal",
                     "start": 400,
                     "end": 401,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 403,
                     "end": 404,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -112,13 +114,15 @@
                     "type": "Literal",
                     "start": 428,
                     "end": 429,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 431,
                     "end": 432,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -152,7 +156,8 @@
                 "type": "Literal",
                 "start": 454,
                 "end": 455,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -318,13 +323,15 @@
             "type": "Literal",
             "start": 585,
             "end": 589,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 621,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -380,13 +387,15 @@
             "type": "Literal",
             "start": 673,
             "end": 678,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 682,
             "end": 728,
-            "value": "The returned object is a Set, not a subclass"
+            "value": "The returned object is a Set, not a subclass",
+            "raw": "\"The returned object is a Set, not a subclass\""
           }
         ],
         "optional": false

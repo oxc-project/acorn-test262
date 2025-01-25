@@ -92,7 +92,8 @@
                           "type": "Literal",
                           "start": 701,
                           "end": 731,
-                          "value": "./eval-rqstd-once_FIXTURE.js"
+                          "value": "./eval-rqstd-once_FIXTURE.js",
+                          "raw": "'./eval-rqstd-once_FIXTURE.js'"
                         },
                         "options": null
                       },
@@ -104,7 +105,8 @@
                           "type": "Literal",
                           "start": 743,
                           "end": 773,
-                          "value": "./eval-rqstd-once_FIXTURE.js"
+                          "value": "./eval-rqstd-once_FIXTURE.js",
+                          "raw": "'./eval-rqstd-once_FIXTURE.js'"
                         },
                         "options": null
                       }
@@ -153,7 +155,8 @@
                             "type": "Literal",
                             "start": 849,
                             "end": 879,
-                            "value": "./eval-rqstd-once_FIXTURE.js"
+                            "value": "./eval-rqstd-once_FIXTURE.js",
+                            "raw": "'./eval-rqstd-once_FIXTURE.js'"
                           },
                           "options": null
                         }
@@ -175,7 +178,8 @@
                             "type": "Literal",
                             "start": 897,
                             "end": 927,
-                            "value": "./eval-rqstd-once_FIXTURE.js"
+                            "value": "./eval-rqstd-once_FIXTURE.js",
+                            "raw": "'./eval-rqstd-once_FIXTURE.js'"
                           },
                           "options": null
                         }
@@ -232,13 +236,15 @@
                             "type": "Literal",
                             "start": 966,
                             "end": 969,
-                            "value": 262
+                            "value": 262,
+                            "raw": "262"
                           },
                           {
                             "type": "Literal",
                             "start": 971,
                             "end": 1000,
-                            "value": "global property was defined"
+                            "value": "global property was defined",
+                            "raw": "'global property was defined'"
                           }
                         ],
                         "optional": false

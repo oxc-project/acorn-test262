@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 916,
+  "end": 915,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 688,
-      "end": 749,
+      "start": 687,
+      "end": 748,
       "expression": {
         "type": "CallExpression",
-        "start": 688,
-        "end": 748,
+        "start": 687,
+        "end": 747,
         "callee": {
           "type": "MemberExpression",
-          "start": 688,
-          "end": 704,
+          "start": 687,
+          "end": 703,
           "object": {
             "type": "Identifier",
-            "start": 688,
-            "end": 694,
+            "start": 687,
+            "end": 693,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 695,
-            "end": 704,
+            "start": 694,
+            "end": 703,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 705,
-            "end": 736,
+            "start": 704,
+            "end": 735,
             "object": {
               "type": "MemberExpression",
-              "start": 705,
-              "end": 724,
+              "start": 704,
+              "end": 723,
               "object": {
                 "type": "Identifier",
-                "start": 705,
-                "end": 714,
+                "start": 704,
+                "end": 713,
                 "name": "Int8Array"
               },
               "property": {
                 "type": "Identifier",
-                "start": 715,
-                "end": 724,
+                "start": 714,
+                "end": 723,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 725,
-              "end": 736,
+              "start": 724,
+              "end": 735,
               "name": "constructor"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Identifier",
-            "start": 738,
-            "end": 747,
+            "start": 737,
+            "end": 746,
             "name": "Int8Array"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 751,
-      "end": 807,
+      "start": 750,
+      "end": 806,
       "expression": {
         "type": "CallExpression",
-        "start": 751,
-        "end": 806,
+        "start": 750,
+        "end": 805,
         "callee": {
           "type": "Identifier",
-          "start": 751,
-          "end": 770,
+          "start": 750,
+          "end": 769,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 771,
-            "end": 790,
+            "start": 770,
+            "end": 789,
             "object": {
               "type": "Identifier",
-              "start": 771,
-              "end": 780,
+              "start": 770,
+              "end": 779,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 781,
-              "end": 790,
+              "start": 780,
+              "end": 789,
               "name": "prototype"
             },
             "computed": false,
@@ -109,9 +109,10 @@
           },
           {
             "type": "Literal",
-            "start": 792,
-            "end": 805,
-            "value": "constructor"
+            "start": 791,
+            "end": 804,
+            "value": "constructor",
+            "raw": "\"constructor\""
           }
         ],
         "optional": false
@@ -119,33 +120,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 808,
-      "end": 859,
+      "start": 807,
+      "end": 858,
       "expression": {
         "type": "CallExpression",
-        "start": 808,
-        "end": 858,
+        "start": 807,
+        "end": 857,
         "callee": {
           "type": "Identifier",
-          "start": 808,
-          "end": 822,
+          "start": 807,
+          "end": 821,
           "name": "verifyWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 823,
-            "end": 842,
+            "start": 822,
+            "end": 841,
             "object": {
               "type": "Identifier",
-              "start": 823,
-              "end": 832,
+              "start": 822,
+              "end": 831,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 833,
-              "end": 842,
+              "start": 832,
+              "end": 841,
               "name": "prototype"
             },
             "computed": false,
@@ -153,9 +154,10 @@
           },
           {
             "type": "Literal",
-            "start": 844,
-            "end": 857,
-            "value": "constructor"
+            "start": 843,
+            "end": 856,
+            "value": "constructor",
+            "raw": "\"constructor\""
           }
         ],
         "optional": false
@@ -163,33 +165,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 860,
-      "end": 915,
+      "start": 859,
+      "end": 914,
       "expression": {
         "type": "CallExpression",
-        "start": 860,
-        "end": 914,
+        "start": 859,
+        "end": 913,
         "callee": {
           "type": "Identifier",
-          "start": 860,
-          "end": 878,
+          "start": 859,
+          "end": 877,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 879,
-            "end": 898,
+            "start": 878,
+            "end": 897,
             "object": {
               "type": "Identifier",
-              "start": 879,
-              "end": 888,
+              "start": 878,
+              "end": 887,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 889,
-              "end": 898,
+              "start": 888,
+              "end": 897,
               "name": "prototype"
             },
             "computed": false,
@@ -197,9 +199,10 @@
           },
           {
             "type": "Literal",
-            "start": 900,
-            "end": 913,
-            "value": "constructor"
+            "start": 899,
+            "end": 912,
+            "value": "constructor",
+            "raw": "\"constructor\""
           }
         ],
         "optional": false

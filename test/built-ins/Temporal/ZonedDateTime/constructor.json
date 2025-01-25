@@ -74,13 +74,15 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 401,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 },
                 {
                   "type": "Literal",
                   "start": 403,
                   "end": 408,
-                  "value": "UTC"
+                  "value": "UTC",
+                  "raw": "\"UTC\""
                 }
               ],
               "optional": false

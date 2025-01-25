@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 311,
             "end": 316,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 337,
             "end": 342,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -120,7 +122,8 @@
                             "type": "Literal",
                             "start": 405,
                             "end": 409,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       }
@@ -175,7 +178,8 @@
                             "type": "Literal",
                             "start": 455,
                             "end": 459,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       }
@@ -283,7 +287,8 @@
             "type": "Literal",
             "start": 551,
             "end": 621,
-            "value": "year should be checked after fetching but before resolving the month"
+            "value": "year should be checked after fetching but before resolving the month",
+            "raw": "\"year should be checked after fetching but before resolving the month\""
           }
         ],
         "optional": false
@@ -314,7 +319,8 @@
             "type": "Literal",
             "start": 641,
             "end": 670,
-            "value": "year is fetched after month"
+            "value": "year is fetched after month",
+            "raw": "\"year is fetched after month\""
           }
         ],
         "optional": false
@@ -345,7 +351,8 @@
             "type": "Literal",
             "start": 694,
             "end": 727,
-            "value": "year is fetched after monthCode"
+            "value": "year is fetched after monthCode",
+            "raw": "\"year is fetched after monthCode\""
           }
         ],
         "optional": false
@@ -453,7 +460,8 @@
                         "type": "Literal",
                         "start": 799,
                         "end": 803,
-                        "value": 2000
+                        "value": 2000,
+                        "raw": "2000"
                       },
                       "kind": "init"
                     }
@@ -467,7 +475,8 @@
             "type": "Literal",
             "start": 808,
             "end": 839,
-            "value": "month should be resolved last"
+            "value": "month should be resolved last",
+            "raw": "\"month should be resolved last\""
           }
         ],
         "optional": false

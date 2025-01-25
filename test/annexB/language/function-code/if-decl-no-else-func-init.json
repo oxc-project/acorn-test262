@@ -103,7 +103,8 @@
                       "type": "Literal",
                       "start": 1209,
                       "end": 1212,
-                      "value": 123
+                      "value": 123,
+                      "raw": "123"
                     }
                   }
                 },
@@ -138,7 +139,8 @@
                     "type": "Literal",
                     "start": 1236,
                     "end": 1240,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   "consequent": {
                     "type": "FunctionDeclaration",
@@ -215,7 +217,8 @@
             "type": "Literal",
             "start": 1305,
             "end": 1344,
-            "value": "binding is initialized to `undefined`"
+            "value": "binding is initialized to `undefined`",
+            "raw": "'binding is initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -259,13 +262,15 @@
             "type": "Literal",
             "start": 1373,
             "end": 1376,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1378,
             "end": 1398,
-            "value": "binding is mutable"
+            "value": "binding is mutable",
+            "raw": "'binding is mutable'"
           }
         ],
         "optional": false
@@ -337,7 +342,8 @@
             "type": "Literal",
             "start": 1452,
             "end": 1483,
-            "value": "global binding is not created"
+            "value": "global binding is not created",
+            "raw": "'global binding is not created'"
           }
         ],
         "optional": false

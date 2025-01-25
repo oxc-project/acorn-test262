@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 763,
             "end": 768,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 829,
-            "value": "precondition: isConstructor(parseInt) must return false"
+            "value": "precondition: isConstructor(parseInt) must return false",
+            "raw": "'precondition: isConstructor(parseInt) must return false'"
           }
         ],
         "optional": false
@@ -111,7 +113,8 @@
             "type": "Literal",
             "start": 862,
             "end": 863,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -165,7 +168,8 @@
                       "type": "Literal",
                       "start": 902,
                       "end": 903,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -367,7 +371,8 @@
             "type": "Literal",
             "start": 1029,
             "end": 1072,
-            "value": "a.filter(cb) throws a TypeError exception"
+            "value": "a.filter(cb) throws a TypeError exception",
+            "raw": "'a.filter(cb) throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -411,7 +416,8 @@
             "type": "Literal",
             "start": 1103,
             "end": 1104,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

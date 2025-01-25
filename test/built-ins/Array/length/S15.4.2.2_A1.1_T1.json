@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 501,
           "end": 502,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -82,7 +83,8 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 523,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -141,13 +143,15 @@
             "type": "Literal",
             "start": 557,
             "end": 558,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 607,
-            "value": "The value of x.myproperty is expected to be 1"
+            "value": "The value of x.myproperty is expected to be 1",
+            "raw": "'The value of x.myproperty is expected to be 1'"
           }
         ],
         "optional": false

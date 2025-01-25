@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 525,
         "end": 550,
-        "value": "./Symbol.toStringTag.js"
+        "value": "./Symbol.toStringTag.js",
+        "raw": "'./Symbol.toStringTag.js'"
       },
       "attributes": []
     },
@@ -92,7 +93,8 @@
             "type": "Literal",
             "start": 593,
             "end": 601,
-            "value": "Module"
+            "value": "Module",
+            "raw": "'Module'"
           }
         ],
         "optional": false
@@ -220,13 +222,15 @@
             "type": "Literal",
             "start": 960,
             "end": 965,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 967,
             "end": 994,
-            "value": "reports as non-enumerable"
+            "value": "reports as non-enumerable",
+            "raw": "'reports as non-enumerable'"
           }
         ],
         "optional": false
@@ -283,13 +287,15 @@
             "type": "Literal",
             "start": 1029,
             "end": 1034,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1061,
-            "value": "reports as non-writable"
+            "value": "reports as non-writable",
+            "raw": "'reports as non-writable'"
           }
         ],
         "optional": false
@@ -346,13 +352,15 @@
             "type": "Literal",
             "start": 1100,
             "end": 1105,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1107,
             "end": 1136,
-            "value": "reports as non-configurable"
+            "value": "reports as non-configurable",
+            "raw": "'reports as non-configurable'"
           }
         ],
         "optional": false

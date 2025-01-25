@@ -179,25 +179,29 @@
                 "type": "Literal",
                 "start": 572,
                 "end": 576,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 582,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 600,
-                "value": "PluralRules"
+                "value": "PluralRules",
+                "raw": "\"PluralRules\""
               },
               {
                 "type": "ArrayExpression",
@@ -489,7 +493,8 @@
                                             "type": "Literal",
                                             "start": 854,
                                             "end": 864,
-                                            "value": "Calling "
+                                            "value": "Calling ",
+                                            "raw": "\"Calling \""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -504,7 +509,8 @@
                                           "type": "Literal",
                                           "start": 882,
                                           "end": 888,
-                                          "value": " on "
+                                          "value": " on ",
+                                          "raw": "\" on \""
                                         }
                                       },
                                       "operator": "+",
@@ -520,7 +526,8 @@
                                       "type": "Literal",
                                       "start": 900,
                                       "end": 920,
-                                      "value": " was not rejected."
+                                      "value": " was not rejected.",
+                                      "raw": "\" was not rejected.\""
                                     }
                                   }
                                 ],

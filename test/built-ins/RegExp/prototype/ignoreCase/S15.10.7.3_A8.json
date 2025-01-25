@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 416,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "'ignoreCase'"
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 419,
             "end": 423,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 479,
-            "value": "__re.hasOwnProperty('ignoreCase') must return true"
+            "value": "__re.hasOwnProperty('ignoreCase') must return true",
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
           }
         ],
         "optional": false
@@ -174,7 +177,8 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 541,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "'ignoreCase'"
               }
             ],
             "optional": false
@@ -183,13 +187,15 @@
             "type": "Literal",
             "start": 546,
             "end": 551,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 616,
-            "value": "__re.propertyIsEnumerable('ignoreCase') must return false"
+            "value": "__re.propertyIsEnumerable('ignoreCase') must return false",
+            "raw": "'__re.propertyIsEnumerable(\\'ignoreCase\\') must return false'"
           }
         ],
         "optional": false
@@ -214,7 +220,8 @@
             "type": "Literal",
             "start": 633,
             "end": 634,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -274,7 +281,8 @@
                 "type": "Literal",
                 "start": 666,
                 "end": 678,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "\"ignoreCase\""
               }
             },
             "consequent": {
@@ -345,13 +353,15 @@
             "type": "Literal",
             "start": 728,
             "end": 729,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 771,
-            "value": "The value of count is expected to be 0"
+            "value": "The value of count is expected to be 0",
+            "raw": "'The value of count is expected to be 0'"
           }
         ],
         "optional": false

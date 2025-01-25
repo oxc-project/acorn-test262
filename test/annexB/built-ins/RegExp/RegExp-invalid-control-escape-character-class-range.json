@@ -23,6 +23,7 @@
             "start": 411,
             "end": 420,
             "value": {},
+            "raw": "/[\\\\c-f]/",
             "regex": {
               "pattern": "[\\\\c-f]",
               "flags": ""
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 441,
-                "value": "\\"
+                "value": "\\",
+                "raw": "\"\\\\\""
               }
             ],
             "optional": false
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 460,
                   "end": 463,
-                  "value": "b"
+                  "value": "b",
+                  "raw": "\"b\""
                 }
               ],
               "optional": false
@@ -186,7 +189,8 @@
                 "type": "Literal",
                 "start": 481,
                 "end": 484,
-                "value": "c"
+                "value": "c",
+                "raw": "\"c\""
               }
             ],
             "optional": false
@@ -238,7 +242,8 @@
                 "type": "Literal",
                 "start": 502,
                 "end": 505,
-                "value": "d"
+                "value": "d",
+                "raw": "\"d\""
               }
             ],
             "optional": false
@@ -290,7 +295,8 @@
                 "type": "Literal",
                 "start": 523,
                 "end": 526,
-                "value": "e"
+                "value": "e",
+                "raw": "\"e\""
               }
             ],
             "optional": false
@@ -342,7 +348,8 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 547,
-                "value": "f"
+                "value": "f",
+                "raw": "\"f\""
               }
             ],
             "optional": false
@@ -400,7 +407,8 @@
                   "type": "Literal",
                   "start": 566,
                   "end": 569,
-                  "value": "g"
+                  "value": "g",
+                  "raw": "\"g\""
                 }
               ],
               "optional": false
@@ -459,7 +467,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 591,
-                  "value": "-"
+                  "value": "-",
+                  "raw": "\"-\""
                 }
               ],
               "optional": false

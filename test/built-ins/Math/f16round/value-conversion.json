@@ -285,7 +285,8 @@
                           "type": "Literal",
                           "start": 564,
                           "end": 573,
-                          "value": "value: "
+                          "value": "value: ",
+                          "raw": "\"value: \""
                         },
                         "operator": "+",
                         "right": {

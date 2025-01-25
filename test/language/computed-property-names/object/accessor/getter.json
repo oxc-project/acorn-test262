@@ -66,7 +66,8 @@
                   "type": "Literal",
                   "start": 254,
                   "end": 257,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 },
                 "kind": "get",
                 "value": {
@@ -91,7 +92,8 @@
                           "type": "Literal",
                           "start": 274,
                           "end": 277,
-                          "value": "A"
+                          "value": "A",
+                          "raw": "\"A\""
                         }
                       }
                     ]
@@ -109,7 +111,8 @@
                   "type": "Literal",
                   "start": 291,
                   "end": 292,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "get",
                 "value": {
@@ -134,7 +137,8 @@
                           "type": "Literal",
                           "start": 309,
                           "end": 310,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -241,13 +245,15 @@
             "type": "Literal",
             "start": 374,
             "end": 377,
-            "value": "A"
+            "value": "A",
+            "raw": "\"A\""
           },
           {
             "type": "Literal",
             "start": 379,
             "end": 408,
-            "value": "The value of `A.a` is `'A'`"
+            "value": "The value of `A.a` is `'A'`",
+            "raw": "\"The value of `A.a` is `'A'`\""
           }
         ],
         "optional": false
@@ -295,7 +301,8 @@
               "type": "Literal",
               "start": 430,
               "end": 431,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -304,13 +311,15 @@
             "type": "Literal",
             "start": 434,
             "end": 435,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 465,
-            "value": "The value of `A[1]` is `1`"
+            "value": "The value of `A[1]` is `1`",
+            "raw": "\"The value of `A[1]` is `1`\""
           }
         ],
         "optional": false
@@ -373,7 +382,8 @@
             "type": "Literal",
             "start": 494,
             "end": 529,
-            "value": "The value of `A[s]` is `Symbol()`"
+            "value": "The value of `A[s]` is `Symbol()`",
+            "raw": "\"The value of `A[s]` is `Symbol()`\""
           }
         ],
         "optional": false

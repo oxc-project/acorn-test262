@@ -91,7 +91,8 @@
                                 "type": "Literal",
                                 "start": 430,
                                 "end": 455,
-                                "value": "Should not be evaluated"
+                                "value": "Should not be evaluated",
+                                "raw": "\"Should not be evaluated\""
                               }
                             ]
                           }
@@ -161,7 +162,8 @@
                   "type": "Literal",
                   "start": 509,
                   "end": 516,
-                  "value": "$DONE"
+                  "value": "$DONE",
+                  "raw": "\"$DONE\""
                 }
               ],
               "optional": false
@@ -171,7 +173,8 @@
             "type": "Literal",
             "start": 521,
             "end": 572,
-            "value": "Without 'async' flag, $DONE should not be defined"
+            "value": "Without 'async' flag, $DONE should not be defined",
+            "raw": "\"Without 'async' flag, $DONE should not be defined\""
           }
         ],
         "optional": false

@@ -52,7 +52,8 @@
                     "type": "Literal",
                     "start": 361,
                     "end": 383,
-                    "value": "\"use strict\"; var x;"
+                    "value": "\"use strict\"; var x;",
+                    "raw": "'\"use strict\"; var x;'"
                   }
                 ],
                 "optional": false

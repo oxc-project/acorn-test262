@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 799,
             "end": 804,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 875,
-            "value": "isConstructor(RegExp.prototype[Symbol.replace]) must return false"
+            "value": "isConstructor(RegExp.prototype[Symbol.replace]) must return false",
+            "raw": "'isConstructor(RegExp.prototype[Symbol.replace]) must return false'"
           }
         ],
         "optional": false
@@ -184,7 +186,8 @@
                             "type": "Literal",
                             "start": 935,
                             "end": 937,
-                            "value": ""
+                            "value": "",
+                            "raw": "''"
                           }
                         ]
                       }

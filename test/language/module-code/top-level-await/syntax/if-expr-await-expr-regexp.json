@@ -16,6 +16,7 @@
           "start": 1344,
           "end": 1347,
           "value": {},
+          "raw": "/1/",
           "regex": {
             "pattern": "1",
             "flags": ""

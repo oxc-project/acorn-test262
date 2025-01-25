@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 289,
             "end": 292,
-            "value": 1.1
+            "value": 1.1,
+            "raw": "1.1"
           }
         }
       ],
@@ -69,14 +70,16 @@
             "type": "Literal",
             "start": 310,
             "end": 313,
-            "value": 1.1
+            "value": 1.1,
+            "raw": "1.1"
           },
           "operator": "-",
           "right": {
             "type": "Literal",
             "start": 316,
             "end": 317,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -108,7 +111,8 @@
                     "type": "Literal",
                     "start": 346,
                     "end": 393,
-                    "value": "#1: var x = 1.1; x--; x === 1.1 - 1. Actual: "
+                    "value": "#1: var x = 1.1; x--; x === 1.1 - 1. Actual: ",
+                    "raw": "'#1: var x = 1.1; x--; x === 1.1 - 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,8 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 438,
-                  "value": 0.1
+                  "value": 0.1,
+                  "raw": "0.1"
                 }
               }
             ]
@@ -222,7 +227,8 @@
               "type": "Literal",
               "start": 459,
               "end": 462,
-              "value": 0.1
+              "value": 0.1,
+              "raw": "0.1"
             }
           },
           "operator": "-",
@@ -230,7 +236,8 @@
             "type": "Literal",
             "start": 465,
             "end": 466,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -262,7 +269,8 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 556,
-                    "value": "#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: "
+                    "value": "#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: ",
+                    "raw": "'#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

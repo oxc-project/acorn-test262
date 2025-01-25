@@ -35,7 +35,8 @@
           "type": "Literal",
           "start": 322,
           "end": 323,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -71,7 +72,8 @@
           "type": "Literal",
           "start": 345,
           "end": 346,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -98,7 +100,8 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 452,
-                  "value": "#1: Globally defined variable NaN has not been altered by program execution"
+                  "value": "#1: Globally defined variable NaN has not been altered by program execution",
+                  "raw": "'#1: Globally defined variable NaN has not been altered by program execution'"
                 }
               ]
             }

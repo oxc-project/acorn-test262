@@ -39,7 +39,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 427,
-                  "value": 1234567890
+                  "value": 1234567890,
+                  "raw": "1234567890"
                 }
               }
             ]
@@ -212,7 +213,8 @@
             "type": "Literal",
             "start": 562,
             "end": 636,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -269,13 +271,15 @@
             "type": "Literal",
             "start": 674,
             "end": 675,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 711,
-            "value": "The value of __split.length is 1"
+            "value": "The value of __split.length is 1",
+            "raw": "'The value of __split.length is 1'"
           }
         ],
         "optional": false
@@ -323,7 +327,8 @@
               "type": "Literal",
               "start": 739,
               "end": 740,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -332,13 +337,15 @@
             "type": "Literal",
             "start": 743,
             "end": 756,
-            "value": "-1234567890"
+            "value": "-1234567890",
+            "raw": "\"-1234567890\""
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 800,
-            "value": "The value of __split[0] is \"-1234567890\""
+            "value": "The value of __split[0] is \"-1234567890\"",
+            "raw": "'The value of __split[0] is \"-1234567890\"'"
           }
         ],
         "optional": false

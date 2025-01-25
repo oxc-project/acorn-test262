@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 729,
             "end": 762,
-            "value": "this123is123a123string123object"
+            "value": "this123is123a123string123object",
+            "raw": "\"this123is123a123string123object\""
           }
         }
       ],
@@ -52,31 +53,36 @@
                 "type": "Literal",
                 "start": 782,
                 "end": 788,
-                "value": "this"
+                "value": "this",
+                "raw": "\"this\""
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 794,
-                "value": "is"
+                "value": "is",
+                "raw": "\"is\""
               },
               {
                 "type": "Literal",
                 "start": 796,
                 "end": 799,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 809,
-                "value": "string"
+                "value": "string",
+                "raw": "\"string\""
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 819,
-                "value": "object"
+                "value": "object",
+                "raw": "\"object\""
               }
             ]
           }
@@ -127,7 +133,8 @@
                 "type": "Literal",
                 "start": 852,
                 "end": 855,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               }
             ],
             "optional": false
@@ -193,7 +200,8 @@
             "type": "Literal",
             "start": 911,
             "end": 985,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -269,7 +277,8 @@
             "type": "Literal",
             "start": 1049,
             "end": 1130,
-            "value": "The value of __split.length is expected to equal the value of __expected.length"
+            "value": "The value of __split.length is expected to equal the value of __expected.length",
+            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
           }
         ],
         "optional": false
@@ -298,7 +307,8 @@
               "type": "Literal",
               "start": 1320,
               "end": 1321,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -423,7 +433,8 @@
                   "type": "Literal",
                   "start": 1399,
                   "end": 1472,
-                  "value": "The value of __expected[i] is expected to equal the value of __split[i]"
+                  "value": "The value of __expected[i] is expected to equal the value of __split[i]",
+                  "raw": "'The value of __expected[i] is expected to equal the value of __split[i]'"
                 }
               ],
               "optional": false

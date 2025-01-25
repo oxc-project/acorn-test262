@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 400,
                     "end": 413,
-                    "value": "en-u-fw-mon"
+                    "value": "en-u-fw-mon",
+                    "raw": "\"en-u-fw-mon\""
                   },
                   {
                     "type": "Literal",
                     "start": 415,
                     "end": 420,
-                    "value": "mon"
+                    "value": "mon",
+                    "raw": "\"mon\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 426,
                     "end": 439,
-                    "value": "en-u-fw-tue"
+                    "value": "en-u-fw-tue",
+                    "raw": "\"en-u-fw-tue\""
                   },
                   {
                     "type": "Literal",
                     "start": 441,
                     "end": 446,
-                    "value": "tue"
+                    "value": "tue",
+                    "raw": "\"tue\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 452,
                     "end": 465,
-                    "value": "en-u-fw-wed"
+                    "value": "en-u-fw-wed",
+                    "raw": "\"en-u-fw-wed\""
                   },
                   {
                     "type": "Literal",
                     "start": 467,
                     "end": 472,
-                    "value": "wed"
+                    "value": "wed",
+                    "raw": "\"wed\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 478,
                     "end": 491,
-                    "value": "en-u-fw-thu"
+                    "value": "en-u-fw-thu",
+                    "raw": "\"en-u-fw-thu\""
                   },
                   {
                     "type": "Literal",
                     "start": 493,
                     "end": 498,
-                    "value": "thu"
+                    "value": "thu",
+                    "raw": "\"thu\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 504,
                     "end": 517,
-                    "value": "en-u-fw-fri"
+                    "value": "en-u-fw-fri",
+                    "raw": "\"en-u-fw-fri\""
                   },
                   {
                     "type": "Literal",
                     "start": 519,
                     "end": 524,
-                    "value": "fri"
+                    "value": "fri",
+                    "raw": "\"fri\""
                   }
                 ]
               },
@@ -127,13 +137,15 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 543,
-                    "value": "en-u-fw-sat"
+                    "value": "en-u-fw-sat",
+                    "raw": "\"en-u-fw-sat\""
                   },
                   {
                     "type": "Literal",
                     "start": 545,
                     "end": 550,
-                    "value": "sat"
+                    "value": "sat",
+                    "raw": "\"sat\""
                   }
                 ]
               },
@@ -146,13 +158,15 @@
                     "type": "Literal",
                     "start": 556,
                     "end": 569,
-                    "value": "en-u-fw-sun"
+                    "value": "en-u-fw-sun",
+                    "raw": "\"en-u-fw-sun\""
                   },
                   {
                     "type": "Literal",
                     "start": 571,
                     "end": 576,
-                    "value": "sun"
+                    "value": "sun",
+                    "raw": "\"sun\""
                   }
                 ]
               }

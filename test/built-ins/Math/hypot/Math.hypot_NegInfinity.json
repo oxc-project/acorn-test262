@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 309,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "UnaryExpression",
@@ -87,7 +88,8 @@
             "type": "Literal",
             "start": 333,
             "end": 359,
-            "value": "Math.hypot(3, -Infinity)"
+            "value": "Math.hypot(3, -Infinity)",
+            "raw": "'Math.hypot(3, -Infinity)'"
           }
         ],
         "optional": false

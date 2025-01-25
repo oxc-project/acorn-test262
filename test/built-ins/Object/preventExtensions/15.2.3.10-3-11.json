@@ -254,13 +254,15 @@
             "type": "Literal",
             "start": 502,
             "end": 505,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 516,
-            "value": "nocheck"
+            "value": "nocheck",
+            "raw": "\"nocheck\""
           }
         ],
         "optional": false
@@ -315,7 +317,8 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 553,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 }
               ],
               "optional": false

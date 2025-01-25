@@ -68,7 +68,8 @@
                         "type": "Literal",
                         "start": 1084,
                         "end": 1187,
-                        "value": "init = f;        {      function f() {}    }if (true) function f() {  } else function _f() {}"
+                        "value": "init = f;        {      function f() {}    }if (true) function f() {  } else function _f() {}",
+                        "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }if (true) function f() {  } else function _f() {}'"
                       }
                     ],
                     "optional": false

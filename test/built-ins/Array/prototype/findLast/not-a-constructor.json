@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 774,
             "end": 779,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 840,
-            "value": "isConstructor(Array.prototype.findLast) must return false"
+            "value": "isConstructor(Array.prototype.findLast) must return false",
+            "raw": "'isConstructor(Array.prototype.findLast) must return false'"
           }
         ],
         "optional": false

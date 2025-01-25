@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 456,
-                "value": "valueOf"
+                "value": "valueOf",
+                "raw": "\"valueOf\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 461,
             "end": 466,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 534,
-            "value": "Function.prototype.hasOwnProperty(\"valueOf\") must return false"
+            "value": "Function.prototype.hasOwnProperty(\"valueOf\") must return false",
+            "raw": "'Function.prototype.hasOwnProperty(\"valueOf\") must return false'"
           }
         ],
         "optional": false
@@ -164,13 +167,15 @@
             "type": "Literal",
             "start": 599,
             "end": 610,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 681,
-            "value": "The value of typeof Function.prototype.valueOf is not \"undefined\""
+            "value": "The value of typeof Function.prototype.valueOf is not \"undefined\"",
+            "raw": "'The value of typeof Function.prototype.valueOf is not \"undefined\"'"
           }
         ],
         "optional": false
@@ -272,7 +277,8 @@
             "type": "Literal",
             "start": 764,
             "end": 864,
-            "value": "The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf"
+            "value": "The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf",
+            "raw": "'The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 388,
             "end": 389,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 425,
             "end": 426,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -446,13 +449,15 @@
                     "type": "Literal",
                     "start": 692,
                     "end": 693,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 695,
                     "end": 696,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -497,13 +502,15 @@
                     "type": "Literal",
                     "start": 720,
                     "end": 721,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 723,
                     "end": 724,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -537,7 +544,8 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 747,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -703,13 +711,15 @@
             "type": "Literal",
             "start": 877,
             "end": 881,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 913,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -765,13 +775,15 @@
             "type": "Literal",
             "start": 965,
             "end": 970,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 974,
             "end": 1020,
-            "value": "The returned object is a Set, not a subclass"
+            "value": "The returned object is a Set, not a subclass",
+            "raw": "\"The returned object is a Set, not a subclass\""
           }
         ],
         "optional": false
@@ -815,13 +827,15 @@
             "type": "Literal",
             "start": 1052,
             "end": 1053,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1055,
             "end": 1098,
-            "value": "size should not be called on the receiver"
+            "value": "size should not be called on the receiver",
+            "raw": "\"size should not be called on the receiver\""
           }
         ],
         "optional": false
@@ -865,13 +879,15 @@
             "type": "Literal",
             "start": 1128,
             "end": 1129,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1131,
             "end": 1173,
-            "value": "has should not be called on the receiver"
+            "value": "has should not be called on the receiver",
+            "raw": "\"has should not be called on the receiver\""
           }
         ],
         "optional": false
@@ -915,13 +931,15 @@
             "type": "Literal",
             "start": 1204,
             "end": 1205,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1207,
             "end": 1250,
-            "value": "keys should not be called on the receiver"
+            "value": "keys should not be called on the receiver",
+            "raw": "\"keys should not be called on the receiver\""
           }
         ],
         "optional": false

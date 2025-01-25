@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 483,
             "end": 498,
-            "value": "findLastIndex"
+            "value": "findLastIndex",
+            "raw": "'findLastIndex'"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 574,
-            "value": "The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`"
+            "value": "The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`",
+            "raw": "'The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`'"
           }
         ],
         "optional": false
@@ -143,7 +145,8 @@
             "type": "Literal",
             "start": 625,
             "end": 631,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -167,7 +170,8 @@
                   "type": "Literal",
                   "start": 649,
                   "end": 654,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 668,
                   "end": 673,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +214,8 @@
                   "type": "Literal",
                   "start": 691,
                   "end": 695,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

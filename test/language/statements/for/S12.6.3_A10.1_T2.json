@@ -127,7 +127,8 @@
                     "type": "Literal",
                     "start": 546,
                     "end": 629,
-                    "value": "#1: \"__in__deepest__loop=__in__deepest__loop\" does not lead to throwing exception"
+                    "value": "#1: \"__in__deepest__loop=__in__deepest__loop\" does not lead to throwing exception",
+                    "raw": "'#1: \"__in__deepest__loop=__in__deepest__loop\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -205,7 +206,8 @@
                     "type": "Literal",
                     "start": 866,
                     "end": 923,
-                    "value": "#2: \"index0=index0\" does not lead to throwing exception"
+                    "value": "#2: \"index0=index0\" does not lead to throwing exception",
+                    "raw": "'#2: \"index0=index0\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -283,7 +285,8 @@
                     "type": "Literal",
                     "start": 1160,
                     "end": 1217,
-                    "value": "#3: \"index1=index1\" does not lead to throwing exception"
+                    "value": "#3: \"index1=index1\" does not lead to throwing exception",
+                    "raw": "'#3: \"index1=index1\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -361,7 +364,8 @@
                     "type": "Literal",
                     "start": 1454,
                     "end": 1511,
-                    "value": "#4: \"index4=index4\" does not lead to throwing exception"
+                    "value": "#4: \"index4=index4\" does not lead to throwing exception",
+                    "raw": "'#4: \"index4=index4\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -439,7 +443,8 @@
                     "type": "Literal",
                     "start": 1748,
                     "end": 1805,
-                    "value": "#4: \"index5=index5\" does not lead to throwing exception"
+                    "value": "#4: \"index5=index5\" does not lead to throwing exception",
+                    "raw": "'#4: \"index5=index5\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -517,7 +522,8 @@
                     "type": "Literal",
                     "start": 2042,
                     "end": 2099,
-                    "value": "#6: \"index7=index7\" does not lead to throwing exception"
+                    "value": "#6: \"index7=index7\" does not lead to throwing exception",
+                    "raw": "'#6: \"index7=index7\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -595,7 +601,8 @@
                     "type": "Literal",
                     "start": 2336,
                     "end": 2393,
-                    "value": "#7: \"index8=index8\" does not lead to throwing exception"
+                    "value": "#7: \"index8=index8\" does not lead to throwing exception",
+                    "raw": "'#7: \"index8=index8\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -624,7 +631,8 @@
           "type": "Literal",
           "start": 2487,
           "end": 2489,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       }
     },
@@ -651,7 +659,8 @@
               "type": "Literal",
               "start": 2508,
               "end": 2509,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -672,7 +681,8 @@
           "type": "Literal",
           "start": 2519,
           "end": 2520,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "update": {
@@ -716,7 +726,8 @@
                     "type": "Literal",
                     "start": 2550,
                     "end": 2551,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -777,7 +788,8 @@
                       "type": "Literal",
                       "start": 2595,
                       "end": 2596,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   },
                   "test": {
@@ -835,7 +847,8 @@
                             "type": "Literal",
                             "start": 2641,
                             "end": 2642,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         },
                         "test": {
@@ -897,7 +910,8 @@
                                       "type": "Literal",
                                       "start": 2691,
                                       "end": 2692,
-                                      "value": 0
+                                      "value": 0,
+                                      "raw": "0"
                                     }
                                   }
                                 ],
@@ -962,7 +976,8 @@
                                             "type": "Literal",
                                             "start": 2742,
                                             "end": 2743,
-                                            "value": 0
+                                            "value": 0,
+                                            "raw": "0"
                                           }
                                         }
                                       ],
@@ -1023,7 +1038,8 @@
                                               "type": "Literal",
                                               "start": 2791,
                                               "end": 2792,
-                                              "value": 0
+                                              "value": 0,
+                                              "raw": "0"
                                             }
                                           },
                                           "test": {
@@ -1085,7 +1101,8 @@
                                                         "type": "Literal",
                                                         "start": 2844,
                                                         "end": 2845,
-                                                        "value": 0
+                                                        "value": 0,
+                                                        "raw": "0"
                                                       }
                                                     }
                                                   ],
@@ -1150,7 +1167,8 @@
                                                               "type": "Literal",
                                                               "start": 2898,
                                                               "end": 2899,
-                                                              "value": 0
+                                                              "value": 0,
+                                                              "raw": "0"
                                                             }
                                                           }
                                                         ],
@@ -1271,7 +1289,8 @@
                                                                                     "type": "Literal",
                                                                                     "start": 2979,
                                                                                     "end": 2981,
-                                                                                    "value": ""
+                                                                                    "value": "",
+                                                                                    "raw": "\"\""
                                                                                   },
                                                                                   "operator": "+",
                                                                                   "right": {
@@ -1350,7 +1369,8 @@
                                                                   "type": "Literal",
                                                                   "start": 3045,
                                                                   "end": 3049,
-                                                                  "value": "\n"
+                                                                  "value": "\n",
+                                                                  "raw": "'\\n'"
                                                                 }
                                                               }
                                                             }
@@ -1401,7 +1421,8 @@
           "type": "Literal",
           "start": 3208,
           "end": 3386,
-          "value": "000000000\n100000000\n110000000\n110000001\n111000000\n111000001\n111100000\n111100001\n111110000\n111110001\n111111000\n111111001\n111111100\n111111101\n111111110\n111111111\n"
+          "value": "000000000\n100000000\n110000000\n110000001\n111000000\n111000001\n111100000\n111100001\n111110000\n111110001\n111111000\n111111001\n111111100\n111111101\n111111110\n111111111\n",
+          "raw": "\"000000000\\n100000000\\n110000000\\n110000001\\n111000000\\n111000001\\n111100000\\n111100001\\n111110000\\n111110001\\n111111000\\n111111001\\n111111100\\n111111101\\n111111110\\n111111111\\n\""
         }
       },
       "consequent": {
@@ -1432,7 +1453,8 @@
                     "type": "Literal",
                     "start": 3414,
                     "end": 3644,
-                    "value": "#2: __str === \"000000000\\n100000000\\n110000000\\n110000001\\n111000000\\n111000001\\n111100000\\n111100001\\n111110000\\n111110001\\n111111000\\n111111001\\n111111100\\n111111101\\n111111110\\n111111111\\n\". Actual:  __str ==="
+                    "value": "#2: __str === \"000000000\\n100000000\\n110000000\\n110000001\\n111000000\\n111000001\\n111100000\\n111100001\\n111110000\\n111110001\\n111111000\\n111111001\\n111111100\\n111111101\\n111111110\\n111111111\\n\". Actual:  __str ===",
+                    "raw": "'#2: __str === \"000000000\\\\n100000000\\\\n110000000\\\\n110000001\\\\n111000000\\\\n111000001\\\\n111100000\\\\n111100001\\\\n111110000\\\\n111110001\\\\n111111000\\\\n111111001\\\\n111111100\\\\n111111101\\\\n111111110\\\\n111111111\\\\n\". Actual:  __str ==='"
                   },
                   "operator": "+",
                   "right": {

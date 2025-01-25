@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 1073,
                         "end": 1077,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   ],
@@ -142,7 +143,8 @@
                                           "type": "Literal",
                                           "start": 1150,
                                           "end": 1174,
-                                          "value": "property key evaluated"
+                                          "value": "property key evaluated",
+                                          "raw": "\"property key evaluated\""
                                         }
                                       ]
                                     }
@@ -328,7 +330,8 @@
                                           "type": "Literal",
                                           "start": 1341,
                                           "end": 1365,
-                                          "value": "property key evaluated"
+                                          "value": "property key evaluated",
+                                          "raw": "\"property key evaluated\""
                                         }
                                       ]
                                     }

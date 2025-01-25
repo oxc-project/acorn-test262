@@ -23,7 +23,8 @@
               "type": "Literal",
               "start": 293,
               "end": 297,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "operator": "||",
             "right": {
@@ -39,7 +40,8 @@
           "type": "Literal",
           "start": 308,
           "end": 312,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -66,7 +68,8 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 367,
-                  "value": "#1: (true || x) === true"
+                  "value": "#1: (true || x) === true",
+                  "raw": "'#1: (true || x) === true'"
                 }
               ]
             }

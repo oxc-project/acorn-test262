@@ -45,7 +45,8 @@
                     "type": "Literal",
                     "start": 685,
                     "end": 694,
-                    "value": "test262"
+                    "value": "test262",
+                    "raw": "'test262'"
                   }
                 },
                 {
@@ -218,7 +219,8 @@
             "type": "Literal",
             "start": 795,
             "end": 804,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -280,7 +282,8 @@
                 "type": "Literal",
                 "start": 834,
                 "end": 838,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -459,7 +462,8 @@
             "type": "Literal",
             "start": 961,
             "end": 1009,
-            "value": "accessed private field from an ordinary object"
+            "value": "accessed private field from an ordinary object",
+            "raw": "'accessed private field from an ordinary object'"
           }
         ],
         "optional": false

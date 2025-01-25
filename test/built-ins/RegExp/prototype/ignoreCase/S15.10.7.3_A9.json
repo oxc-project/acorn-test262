@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 408,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "'ignoreCase'"
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 411,
             "end": 415,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 471,
-            "value": "__re.hasOwnProperty('ignoreCase') must return true"
+            "value": "__re.hasOwnProperty('ignoreCase') must return true",
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
           }
         ],
         "optional": false
@@ -176,13 +179,15 @@
             "type": "Literal",
             "start": 515,
             "end": 519,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 583,
-            "value": "The value of `delete __re.ignoreCase` is expected to be true"
+            "value": "The value of `delete __re.ignoreCase` is expected to be true",
+            "raw": "'The value of `delete __re.ignoreCase` is expected to be true'"
           }
         ],
         "optional": false
@@ -244,7 +249,8 @@
                 "type": "Literal",
                 "start": 623,
                 "end": 635,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "'ignoreCase'"
               }
             ],
             "optional": false
@@ -253,13 +259,15 @@
             "type": "Literal",
             "start": 638,
             "end": 643,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 700,
-            "value": "__re.hasOwnProperty('ignoreCase') must return false"
+            "value": "__re.hasOwnProperty('ignoreCase') must return false",
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'"
           }
         ],
         "optional": false

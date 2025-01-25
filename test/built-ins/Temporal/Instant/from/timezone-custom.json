@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 352,
-                "value": "1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]"
+                "value": "1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]",
+                "raw": "\"1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]\""
               }
             ],
             "optional": false
@@ -119,7 +120,8 @@
             "type": "Literal",
             "start": 399,
             "end": 411,
-            "value": 160579536123
+            "value": 160579536123,
+            "raw": "160579536123"
           }
         ],
         "optional": false

@@ -39,7 +39,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 377,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 }
               }
             ]
@@ -86,7 +87,8 @@
             "type": "Literal",
             "start": 408,
             "end": 414,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,8 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 429,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -131,7 +134,8 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 452,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -224,7 +228,8 @@
                               "type": "Literal",
                               "start": 522,
                               "end": 524,
-                              "value": 12
+                              "value": 12,
+                              "raw": "12"
                             },
                             "kind": "init"
                           },
@@ -245,7 +250,8 @@
                               "type": "Literal",
                               "start": 546,
                               "end": 550,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -278,7 +284,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 612,
-                  "value": "Expected an exception."
+                  "value": "Expected an exception.",
+                  "raw": "\"Expected an exception.\""
                 }
               ]
             }
@@ -362,7 +369,8 @@
                             "type": "Literal",
                             "start": 691,
                             "end": 717,
-                            "value": "Expected TypeError, got "
+                            "value": "Expected TypeError, got ",
+                            "raw": "\"Expected TypeError, got \""
                           },
                           "operator": "+",
                           "right": {
@@ -409,7 +417,8 @@
             "type": "Literal",
             "start": 751,
             "end": 757,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -433,7 +442,8 @@
                   "type": "Literal",
                   "start": 770,
                   "end": 772,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -454,7 +464,8 @@
                   "type": "Literal",
                   "start": 786,
                   "end": 791,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -475,7 +486,8 @@
                   "type": "Literal",
                   "start": 807,
                   "end": 812,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -496,7 +508,8 @@
                   "type": "Literal",
                   "start": 830,
                   "end": 835,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

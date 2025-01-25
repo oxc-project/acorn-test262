@@ -80,7 +80,8 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1309,
-                        "value": "let f = 123;    init = f;if (false) function _f() {} else function f() {  }after = f;"
+                        "value": "let f = 123;    init = f;if (false) function _f() {} else function f() {  }after = f;",
+                        "raw": "'let f = 123;\\\n    init = f;if (false) function _f() {} else function f() {  }after = f;'"
                       }
                     ],
                     "optional": false
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 1345,
             "end": 1348,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1350,
             "end": 1393,
-            "value": "binding is not initialized to `undefined`"
+            "value": "binding is not initialized to `undefined`",
+            "raw": "'binding is not initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -182,13 +185,15 @@
             "type": "Literal",
             "start": 1420,
             "end": 1423,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1425,
             "end": 1468,
-            "value": "value is not updated following evaluation"
+            "value": "value is not updated following evaluation",
+            "raw": "'value is not updated following evaluation'"
           }
         ],
         "optional": false

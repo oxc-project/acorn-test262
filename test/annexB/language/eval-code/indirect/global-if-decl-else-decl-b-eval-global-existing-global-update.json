@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1644,
             "end": 1647,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                           "type": "Literal",
                           "start": 1680,
                           "end": 1698,
-                          "value": "Another function"
+                          "value": "Another function",
+                          "raw": "'Another function'"
                         }
                       }
                     ]
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 1717,
                   "end": 1721,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -136,7 +139,8 @@
                   "type": "Literal",
                   "start": 1735,
                   "end": 1739,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -157,7 +161,8 @@
                   "type": "Literal",
                   "start": 1757,
                   "end": 1762,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -188,7 +193,8 @@
                 "type": "Literal",
                 "start": 1769,
                 "end": 1770,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -204,7 +210,8 @@
             "type": "Literal",
             "start": 1780,
             "end": 1862,
-            "value": "if (false) function _f() {} else function f() { return \"function declaration\"; }"
+            "value": "if (false) function _f() {} else function f() { return \"function declaration\"; }",
+            "raw": "'if (false) function _f() {} else function f() { return \"function declaration\"; }'"
           }
         ],
         "optional": false
@@ -255,7 +262,8 @@
             "type": "Literal",
             "start": 1894,
             "end": 1904,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -306,7 +314,8 @@
             "type": "Literal",
             "start": 1929,
             "end": 1951,
-            "value": "function declaration"
+            "value": "function declaration",
+            "raw": "'function declaration'"
           }
         ],
         "optional": false

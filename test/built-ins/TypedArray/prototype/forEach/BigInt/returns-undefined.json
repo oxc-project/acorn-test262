@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 715,
                             "end": 717,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ]
                       }
@@ -138,7 +139,8 @@
                                     "type": "Literal",
                                     "start": 777,
                                     "end": 779,
-                                    "value": 42
+                                    "value": 42,
+                                    "raw": "42"
                                   }
                                 }
                               ]
@@ -195,7 +197,8 @@
                         "type": "Literal",
                         "start": 827,
                         "end": 836,
-                        "value": "result1"
+                        "value": "result1",
+                        "raw": "\"result1\""
                       }
                     ],
                     "optional": false
@@ -231,7 +234,8 @@
                             "type": "Literal",
                             "start": 863,
                             "end": 864,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -300,7 +304,8 @@
                                     "type": "Literal",
                                     "start": 923,
                                     "end": 927,
-                                    "value": null
+                                    "value": null,
+                                    "raw": "null"
                                   }
                                 }
                               ]
@@ -357,7 +362,8 @@
                         "type": "Literal",
                         "start": 975,
                         "end": 984,
-                        "value": "result2"
+                        "value": "result2",
+                        "raw": "\"result2\""
                       }
                     ],
                     "optional": false

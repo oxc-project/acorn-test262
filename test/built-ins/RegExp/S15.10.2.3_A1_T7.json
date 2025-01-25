@@ -31,6 +31,7 @@
                 "start": 543,
                 "end": 553,
                 "value": {},
+                "raw": "/ab|cd|ef/",
                 "regex": {
                   "pattern": "ab|cd|ef",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 567,
-                "value": "AEKFCD"
+                "value": "AEKFCD",
+                "raw": "\"AEKFCD\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 591,
             "end": 640,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

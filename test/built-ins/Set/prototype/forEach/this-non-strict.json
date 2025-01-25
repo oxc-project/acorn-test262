@@ -38,7 +38,8 @@
                     "type": "Literal",
                     "start": 381,
                     "end": 382,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               }
@@ -67,7 +68,8 @@
             "type": "Literal",
             "start": 400,
             "end": 401,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -182,7 +184,8 @@
                         "type": "Literal",
                         "start": 491,
                         "end": 544,
-                        "value": "`this` is the global object in non-strict mode code"
+                        "value": "`this` is the global object in non-strict mode code",
+                        "raw": "\"`this` is the global object in non-strict mode code\""
                       }
                     ],
                     "optional": false
@@ -251,13 +254,15 @@
             "type": "Literal",
             "start": 591,
             "end": 592,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 594,
             "end": 620,
-            "value": "`forEach` is not a no-op"
+            "value": "`forEach` is not a no-op",
+            "raw": "\"`forEach` is not a no-op\""
           }
         ],
         "optional": false

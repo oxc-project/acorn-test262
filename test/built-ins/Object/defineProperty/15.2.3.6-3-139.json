@@ -132,7 +132,8 @@
           "type": "Literal",
           "start": 425,
           "end": 435,
-          "value": "Function"
+          "value": "Function",
+          "raw": "\"Function\""
         }
       }
     },
@@ -174,7 +175,8 @@
             "type": "Literal",
             "start": 465,
             "end": 475,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -237,13 +239,15 @@
             "type": "Literal",
             "start": 518,
             "end": 528,
-            "value": "Function"
+            "value": "Function",
+            "raw": "\"Function\""
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 544,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

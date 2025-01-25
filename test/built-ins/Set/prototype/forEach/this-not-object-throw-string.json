@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 416,
                         "end": 418,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "FunctionExpression",
@@ -262,7 +263,8 @@
                         "type": "Literal",
                         "start": 517,
                         "end": 519,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "FunctionExpression",

@@ -115,7 +115,8 @@
                   "type": "Literal",
                   "start": 564,
                   "end": 610,
-                  "value": "#1: Function.prototype.isPrototypeOf(__func)"
+                  "value": "#1: Function.prototype.isPrototypeOf(__func)",
+                  "raw": "'#1: Function.prototype.isPrototypeOf(__func)'"
                 }
               ]
             }
@@ -245,7 +246,8 @@
                   "type": "Literal",
                   "start": 891,
                   "end": 937,
-                  "value": "#1: Function.prototype.isPrototypeOf(__gunc)"
+                  "value": "#1: Function.prototype.isPrototypeOf(__gunc)",
+                  "raw": "'#1: Function.prototype.isPrototypeOf(__gunc)'"
                 }
               ]
             }

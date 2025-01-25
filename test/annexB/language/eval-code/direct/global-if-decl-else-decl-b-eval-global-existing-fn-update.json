@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1576,
             "end": 1801,
-            "value": "if (false) function _f() {} else function f() { return \"inner declaration\"; }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }"
+            "value": "if (false) function _f() {} else function f() { return \"inner declaration\"; }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
+            "raw": "'if (false) function _f() {} else function f() { return \"inner declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
           }
         ],
         "optional": false

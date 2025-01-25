@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 708,
+  "end": 707,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 586,
-      "end": 600,
+      "start": 585,
+      "end": 599,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 590,
-          "end": 599,
+          "start": 589,
+          "end": 598,
           "id": {
             "type": "Identifier",
-            "start": 590,
-            "end": 599,
+            "start": 589,
+            "end": 598,
             "name": "className"
           },
           "init": null
@@ -25,59 +25,59 @@
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 602,
-      "end": 666,
+      "start": 601,
+      "end": 665,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 617,
-        "end": 666,
+        "start": 616,
+        "end": 665,
         "id": null,
         "superClass": null,
         "body": {
           "type": "ClassBody",
-          "start": 623,
-          "end": 666,
+          "start": 622,
+          "end": 665,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 629,
-              "end": 664,
+              "start": 628,
+              "end": 663,
               "static": true,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 636,
-                "end": 637,
+                "start": 635,
+                "end": 636,
                 "name": "f"
               },
               "value": {
                 "type": "ParenthesizedExpression",
-                "start": 640,
-                "end": 663,
+                "start": 639,
+                "end": 662,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 641,
-                  "end": 662,
+                  "start": 640,
+                  "end": 661,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 641,
-                    "end": 650,
+                    "start": 640,
+                    "end": 649,
                     "name": "className"
                   },
                   "right": {
                     "type": "MemberExpression",
-                    "start": 653,
-                    "end": 662,
+                    "start": 652,
+                    "end": 661,
                     "object": {
                       "type": "ThisExpression",
-                      "start": 653,
-                      "end": 657
+                      "start": 652,
+                      "end": 656
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 658,
-                      "end": 662,
+                      "start": 657,
+                      "end": 661,
                       "name": "name"
                     },
                     "computed": false,
@@ -92,26 +92,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 668,
-      "end": 707,
+      "start": 667,
+      "end": 706,
       "expression": {
         "type": "CallExpression",
-        "start": 668,
-        "end": 706,
+        "start": 667,
+        "end": 705,
         "callee": {
           "type": "MemberExpression",
-          "start": 668,
-          "end": 684,
+          "start": 667,
+          "end": 683,
           "object": {
             "type": "Identifier",
-            "start": 668,
-            "end": 674,
+            "start": 667,
+            "end": 673,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 675,
-            "end": 684,
+            "start": 674,
+            "end": 683,
             "name": "sameValue"
           },
           "computed": false,
@@ -120,15 +120,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 685,
-            "end": 694,
+            "start": 684,
+            "end": 693,
             "name": "className"
           },
           {
             "type": "Literal",
-            "start": 696,
-            "end": 705,
-            "value": "default"
+            "start": 695,
+            "end": 704,
+            "value": "default",
+            "raw": "\"default\""
           }
         ],
         "optional": false

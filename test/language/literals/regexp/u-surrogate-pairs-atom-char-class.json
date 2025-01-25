@@ -31,6 +31,7 @@
                 "start": 772,
                 "end": 791,
                 "value": {},
+                "raw": "/^[\\ud800\\udc00]$/u",
                 "regex": {
                   "pattern": "^[\\ud800\\udc00]$",
                   "flags": "u"
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 797,
                 "end": 811,
-                "value": "𐀀"
+                "value": "𐀀",
+                "raw": "'\\ud800\\udc00'"
               }
             ],
             "optional": false
@@ -100,6 +102,7 @@
                 "start": 835,
                 "end": 852,
                 "value": {},
+                "raw": "/[\\ud800\\udc00]/u",
                 "regex": {
                   "pattern": "[\\ud800\\udc00]",
                   "flags": "u"
@@ -119,7 +122,8 @@
                 "type": "Literal",
                 "start": 858,
                 "end": 866,
-                "value": "\ud800"
+                "value": "\ud800",
+                "raw": "'\\ud800'"
               }
             ],
             "optional": false
@@ -128,13 +132,15 @@
             "type": "Literal",
             "start": 871,
             "end": 876,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 924,
-            "value": "\\ud800 does not qualify as a class member"
+            "value": "\\ud800 does not qualify as a class member",
+            "raw": "'\\\\ud800 does not qualify as a class member'"
           }
         ],
         "optional": false
@@ -181,6 +187,7 @@
                 "start": 948,
                 "end": 965,
                 "value": {},
+                "raw": "/[\\ud800\\udc00]/u",
                 "regex": {
                   "pattern": "[\\ud800\\udc00]",
                   "flags": "u"
@@ -200,7 +207,8 @@
                 "type": "Literal",
                 "start": 971,
                 "end": 979,
-                "value": "\udc00"
+                "value": "\udc00",
+                "raw": "'\\udc00'"
               }
             ],
             "optional": false
@@ -209,13 +217,15 @@
             "type": "Literal",
             "start": 984,
             "end": 989,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 993,
             "end": 1037,
-            "value": "\\udc00 does not qualify as a class member"
+            "value": "\\udc00 does not qualify as a class member",
+            "raw": "'\\\\udc00 does not qualify as a class member'"
           }
         ],
         "optional": false

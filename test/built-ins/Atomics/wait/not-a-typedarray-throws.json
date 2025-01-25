@@ -69,7 +69,8 @@
                               "type": "Literal",
                               "start": 579,
                               "end": 610,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -171,19 +172,22 @@
                         "type": "Literal",
                         "start": 678,
                         "end": 679,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 681,
                         "end": 682,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 684,
                         "end": 685,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false

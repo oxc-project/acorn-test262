@@ -114,7 +114,8 @@
                     "type": "Literal",
                     "start": 1416,
                     "end": 1420,
-                    "value": "en"
+                    "value": "en",
+                    "raw": "'en'"
                   },
                   {
                     "type": "Identifier",
@@ -140,13 +141,15 @@
             "type": "Literal",
             "start": 1445,
             "end": 1449,
-            "value": "en"
+            "value": "en",
+            "raw": "\"en\""
           },
           {
             "type": "Literal",
             "start": 1453,
             "end": 1522,
-            "value": "new Intl.Locale(\"en\", {numeric: undefined}).toString() returns \"en\""
+            "value": "new Intl.Locale(\"en\", {numeric: undefined}).toString() returns \"en\"",
+            "raw": "'new Intl.Locale(\"en\", {numeric: undefined}).toString() returns \"en\"'"
           }
         ],
         "optional": false
@@ -216,7 +219,8 @@
                     "type": "Literal",
                     "start": 1563,
                     "end": 1577,
-                    "value": "en-u-kn-true"
+                    "value": "en-u-kn-true",
+                    "raw": "'en-u-kn-true'"
                   },
                   {
                     "type": "Identifier",
@@ -242,13 +246,15 @@
             "type": "Literal",
             "start": 1602,
             "end": 1611,
-            "value": "en-u-kn"
+            "value": "en-u-kn",
+            "raw": "\"en-u-kn\""
           },
           {
             "type": "Literal",
             "start": 1615,
             "end": 1699,
-            "value": "new Intl.Locale(\"en-u-kn-true\", {numeric: undefined}).toString() returns \"en-u-kn\""
+            "value": "new Intl.Locale(\"en-u-kn-true\", {numeric: undefined}).toString() returns \"en-u-kn\"",
+            "raw": "'new Intl.Locale(\"en-u-kn-true\", {numeric: undefined}).toString() returns \"en-u-kn\"'"
           }
         ],
         "optional": false
@@ -314,7 +320,8 @@
                   "type": "Literal",
                   "start": 1740,
                   "end": 1755,
-                  "value": "en-u-kf-lower"
+                  "value": "en-u-kf-lower",
+                  "raw": "'en-u-kf-lower'"
                 },
                 {
                   "type": "Identifier",
@@ -337,13 +344,15 @@
             "type": "Literal",
             "start": 1777,
             "end": 1782,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1786,
             "end": 1878,
-            "value": "The value of new Intl.Locale(\"en-u-kf-lower\", {numeric: undefined}).numeric equals `false`"
+            "value": "The value of new Intl.Locale(\"en-u-kf-lower\", {numeric: undefined}).numeric equals `false`",
+            "raw": "'The value of new Intl.Locale(\"en-u-kf-lower\", {numeric: undefined}).numeric equals `false`'"
           }
         ],
         "optional": false

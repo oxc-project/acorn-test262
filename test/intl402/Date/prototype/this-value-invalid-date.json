@@ -487,7 +487,8 @@
                                     "type": "Literal",
                                     "start": 743,
                                     "end": 757,
-                                    "value": "Invalid Date"
+                                    "value": "Invalid Date",
+                                    "raw": "\"Invalid Date\""
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -505,7 +506,8 @@
                                           "type": "Literal",
                                           "start": 759,
                                           "end": 776,
-                                          "value": "Date.prototype."
+                                          "value": "Date.prototype.",
+                                          "raw": "\"Date.prototype.\""
                                         },
                                         "operator": "+",
                                         "right": {
@@ -520,7 +522,8 @@
                                         "type": "Literal",
                                         "start": 783,
                                         "end": 822,
-                                        "value": " did not return \"Invalid Date\" for "
+                                        "value": " did not return \"Invalid Date\" for ",
+                                        "raw": "\" did not return \\\"Invalid Date\\\" for \""
                                       }
                                     },
                                     "operator": "+",

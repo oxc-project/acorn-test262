@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 326,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 329,
             "end": 380,
-            "value": "Date.hasOwnProperty(\"prototype\") must return true"
+            "value": "Date.hasOwnProperty(\"prototype\") must return true",
+            "raw": "'Date.hasOwnProperty(\"prototype\") must return true'"
           }
         ],
         "optional": false

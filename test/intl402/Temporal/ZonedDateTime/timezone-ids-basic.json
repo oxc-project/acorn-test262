@@ -32,7 +32,8 @@
                     "type": "Literal",
                     "start": 271,
                     "end": 286,
-                    "value": "Europe/Vienna"
+                    "value": "Europe/Vienna",
+                    "raw": "\"Europe/Vienna\""
                   }
                 ]
               },
@@ -45,7 +46,8 @@
                     "type": "Literal",
                     "start": 292,
                     "end": 310,
-                    "value": "America/New_York"
+                    "value": "America/New_York",
+                    "raw": "\"America/New_York\""
                   }
                 ]
               },
@@ -58,13 +60,15 @@
                     "type": "Literal",
                     "start": 316,
                     "end": 330,
-                    "value": "Africa/CAIRO"
+                    "value": "Africa/CAIRO",
+                    "raw": "\"Africa/CAIRO\""
                   },
                   {
                     "type": "Literal",
                     "start": 332,
                     "end": 346,
-                    "value": "Africa/Cairo"
+                    "value": "Africa/Cairo",
+                    "raw": "\"Africa/Cairo\""
                   }
                 ]
               },
@@ -77,13 +81,15 @@
                     "type": "Literal",
                     "start": 352,
                     "end": 366,
-                    "value": "africa/cairo"
+                    "value": "africa/cairo",
+                    "raw": "\"africa/cairo\""
                   },
                   {
                     "type": "Literal",
                     "start": 368,
                     "end": 382,
-                    "value": "Africa/Cairo"
+                    "value": "Africa/Cairo",
+                    "raw": "\"Africa/Cairo\""
                   }
                 ]
               },
@@ -96,7 +102,8 @@
                     "type": "Literal",
                     "start": 388,
                     "end": 406,
-                    "value": "Asia/Ulaanbaatar"
+                    "value": "Asia/Ulaanbaatar",
+                    "raw": "\"Asia/Ulaanbaatar\""
                   }
                 ]
               },
@@ -109,7 +116,8 @@
                     "type": "Literal",
                     "start": 412,
                     "end": 429,
-                    "value": "Asia/Ulan_Bator"
+                    "value": "Asia/Ulan_Bator",
+                    "raw": "\"Asia/Ulan_Bator\""
                   }
                 ]
               },
@@ -122,7 +130,8 @@
                     "type": "Literal",
                     "start": 435,
                     "end": 440,
-                    "value": "UTC"
+                    "value": "UTC",
+                    "raw": "\"UTC\""
                   }
                 ]
               },
@@ -135,7 +144,8 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 451,
-                    "value": "GMT"
+                    "value": "GMT",
+                    "raw": "\"GMT\""
                   }
                 ]
               }
@@ -248,7 +258,8 @@
                       "type": "Literal",
                       "start": 541,
                       "end": 543,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     {
                       "type": "Identifier",
@@ -307,7 +318,8 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 594,
-                  "value": "object"
+                  "value": "object",
+                  "raw": "\"object\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -483,13 +495,15 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 744,
-                "value": "+00:01.1"
+                "value": "+00:01.1",
+                "raw": "\"+00:01.1\""
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 753,
-                "value": "-01.1"
+                "value": "-01.1",
+                "raw": "\"-01.1\""
               }
             ]
           }
@@ -604,7 +618,8 @@
                         "type": "Literal",
                         "start": 847,
                         "end": 849,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Identifier",

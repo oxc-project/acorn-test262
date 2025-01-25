@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 357,
                       "end": 365,
-                      "value": "foobar"
+                      "value": "foobar",
+                      "raw": "\"foobar\""
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 378,
                       "end": 379,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 389,
                       "end": 393,
-                      "value": 1970
+                      "value": 1970,
+                      "raw": "1970"
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,8 @@
                       "type": "Literal",
                       "start": 408,
                       "end": 413,
-                      "value": "M01"
+                      "value": "M01",
+                      "raw": "\"M01\""
                     },
                     "kind": "init"
                   },
@@ -161,7 +165,8 @@
                       "type": "Literal",
                       "start": 427,
                       "end": 436,
-                      "value": "iso8601"
+                      "value": "iso8601",
+                      "raw": "\"iso8601\""
                     },
                     "kind": "init"
                   }
@@ -212,25 +217,29 @@
             "type": "Literal",
             "start": 487,
             "end": 491,
-            "value": 1970
+            "value": 1970,
+            "raw": "1970"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 494,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 501,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 572,
-            "value": "era and eraYear are ignored for calendar not using eras (iso8601)"
+            "value": "era and eraYear are ignored for calendar not using eras (iso8601)",
+            "raw": "\"era and eraYear are ignored for calendar not using eras (iso8601)\""
           }
         ],
         "optional": false
@@ -338,7 +347,8 @@
                         "type": "Literal",
                         "start": 645,
                         "end": 653,
-                        "value": "foobar"
+                        "value": "foobar",
+                        "raw": "\"foobar\""
                       },
                       "kind": "init"
                     },
@@ -359,7 +369,8 @@
                         "type": "Literal",
                         "start": 666,
                         "end": 667,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -380,7 +391,8 @@
                         "type": "Literal",
                         "start": 682,
                         "end": 687,
-                        "value": "M01"
+                        "value": "M01",
+                        "raw": "\"M01\""
                       },
                       "kind": "init"
                     },
@@ -401,7 +413,8 @@
                         "type": "Literal",
                         "start": 701,
                         "end": 710,
-                        "value": "iso8601"
+                        "value": "iso8601",
+                        "raw": "\"iso8601\""
                       },
                       "kind": "init"
                     }
@@ -415,7 +428,8 @@
             "type": "Literal",
             "start": 716,
             "end": 791,
-            "value": "era and eraYear cannot replace year for calendar not using eras (iso8601)"
+            "value": "era and eraYear cannot replace year for calendar not using eras (iso8601)",
+            "raw": "\"era and eraYear cannot replace year for calendar not using eras (iso8601)\""
           }
         ],
         "optional": false
@@ -495,7 +509,8 @@
                       "type": "Literal",
                       "start": 854,
                       "end": 862,
-                      "value": "foobar"
+                      "value": "foobar",
+                      "raw": "\"foobar\""
                     },
                     "kind": "init"
                   },
@@ -516,7 +531,8 @@
                       "type": "Literal",
                       "start": 875,
                       "end": 876,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -537,7 +553,8 @@
                       "type": "Literal",
                       "start": 886,
                       "end": 890,
-                      "value": 5780
+                      "value": 5780,
+                      "raw": "5780"
                     },
                     "kind": "init"
                   },
@@ -558,7 +575,8 @@
                       "type": "Literal",
                       "start": 905,
                       "end": 910,
-                      "value": "M01"
+                      "value": "M01",
+                      "raw": "\"M01\""
                     },
                     "kind": "init"
                   },
@@ -579,7 +597,8 @@
                       "type": "Literal",
                       "start": 924,
                       "end": 932,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -630,25 +649,29 @@
             "type": "Literal",
             "start": 989,
             "end": 993,
-            "value": 5780
+            "value": 5780,
+            "raw": "5780"
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 996,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 998,
             "end": 1003,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1073,
-            "value": "era and eraYear are ignored for calendar not using eras (Hebrew)"
+            "value": "era and eraYear are ignored for calendar not using eras (Hebrew)",
+            "raw": "\"era and eraYear are ignored for calendar not using eras (Hebrew)\""
           },
           {
             "type": "Identifier",
@@ -666,7 +689,8 @@
             "type": "Literal",
             "start": 1099,
             "end": 1101,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           }
         ],
         "optional": false
@@ -723,7 +747,8 @@
             "type": "Literal",
             "start": 1146,
             "end": 1154,
-            "value": "hebrew"
+            "value": "hebrew",
+            "raw": "\"hebrew\""
           }
         ],
         "optional": false
@@ -831,7 +856,8 @@
                         "type": "Literal",
                         "start": 1227,
                         "end": 1235,
-                        "value": "foobar"
+                        "value": "foobar",
+                        "raw": "\"foobar\""
                       },
                       "kind": "init"
                     },
@@ -852,7 +878,8 @@
                         "type": "Literal",
                         "start": 1248,
                         "end": 1249,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -873,7 +900,8 @@
                         "type": "Literal",
                         "start": 1264,
                         "end": 1269,
-                        "value": "M01"
+                        "value": "M01",
+                        "raw": "\"M01\""
                       },
                       "kind": "init"
                     },
@@ -894,7 +922,8 @@
                         "type": "Literal",
                         "start": 1278,
                         "end": 1279,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -915,7 +944,8 @@
                         "type": "Literal",
                         "start": 1293,
                         "end": 1301,
-                        "value": "hebrew"
+                        "value": "hebrew",
+                        "raw": "\"hebrew\""
                       },
                       "kind": "init"
                     }
@@ -929,7 +959,8 @@
             "type": "Literal",
             "start": 1307,
             "end": 1381,
-            "value": "era and eraYear cannot replace year for calendar not using eras (Hebrew)"
+            "value": "era and eraYear cannot replace year for calendar not using eras (Hebrew)",
+            "raw": "\"era and eraYear cannot replace year for calendar not using eras (Hebrew)\""
           }
         ],
         "optional": false

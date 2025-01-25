@@ -46,7 +46,8 @@
                           "type": "Literal",
                           "start": 474,
                           "end": 475,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -105,7 +106,8 @@
                   "type": "Literal",
                   "start": 518,
                   "end": 519,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -136,7 +138,8 @@
                             "type": "Literal",
                             "start": 548,
                             "end": 593,
-                            "value": "#1: Exception === 1. Actual:  Exception ==="
+                            "value": "#1: Exception === 1. Actual:  Exception ===",
+                            "raw": "'#1: Exception === 1. Actual:  Exception ==='"
                           },
                           "operator": "+",
                           "right": {
@@ -201,7 +204,8 @@
                           "type": "Literal",
                           "start": 805,
                           "end": 806,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -270,7 +274,8 @@
                   "type": "Literal",
                   "start": 867,
                   "end": 868,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -301,7 +306,8 @@
                             "type": "Literal",
                             "start": 897,
                             "end": 942,
-                            "value": "#2: Exception === 1. Actual:  Exception ==="
+                            "value": "#2: Exception === 1. Actual:  Exception ===",
+                            "raw": "'#2: Exception === 1. Actual:  Exception ==='"
                           },
                           "operator": "+",
                           "right": {

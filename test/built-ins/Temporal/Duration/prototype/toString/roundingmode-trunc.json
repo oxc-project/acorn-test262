@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 298,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 303,
                 "end": 304,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 307,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 310,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 313,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 316,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 321,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 326,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 331,
-                "value": 500
+                "value": 500,
+                "raw": "500"
               }
             ]
           }
@@ -169,7 +179,8 @@
                       "type": "Literal",
                       "start": 385,
                       "end": 398,
-                      "value": "microsecond"
+                      "value": "microsecond",
+                      "raw": "\"microsecond\""
                     },
                     "kind": "init"
                   },
@@ -190,7 +201,8 @@
                       "type": "Literal",
                       "start": 414,
                       "end": 421,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -241,13 +253,15 @@
             "type": "Literal",
             "start": 452,
             "end": 477,
-            "value": "P1Y2M3W4DT5H6M7.123987S"
+            "value": "P1Y2M3W4DT5H6M7.123987S",
+            "raw": "\"P1Y2M3W4DT5H6M7.123987S\""
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 538,
-            "value": "roundingMode is trunc (with 6 digits from smallestUnit)"
+            "value": "roundingMode is trunc (with 6 digits from smallestUnit)",
+            "raw": "\"roundingMode is trunc (with 6 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -314,7 +328,8 @@
                       "type": "Literal",
                       "start": 602,
                       "end": 603,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   },
@@ -335,7 +350,8 @@
                       "type": "Literal",
                       "start": 619,
                       "end": 626,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -386,13 +402,15 @@
             "type": "Literal",
             "start": 657,
             "end": 682,
-            "value": "P1Y2M3W4DT5H6M7.123987S"
+            "value": "P1Y2M3W4DT5H6M7.123987S",
+            "raw": "\"P1Y2M3W4DT5H6M7.123987S\""
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 753,
-            "value": "roundingMode is trunc (with 6 digits from fractionalSecondDigits)"
+            "value": "roundingMode is trunc (with 6 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is trunc (with 6 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false
@@ -459,7 +477,8 @@
                       "type": "Literal",
                       "start": 807,
                       "end": 820,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   },
@@ -480,7 +499,8 @@
                       "type": "Literal",
                       "start": 836,
                       "end": 843,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -531,13 +551,15 @@
             "type": "Literal",
             "start": 874,
             "end": 896,
-            "value": "P1Y2M3W4DT5H6M7.123S"
+            "value": "P1Y2M3W4DT5H6M7.123S",
+            "raw": "\"P1Y2M3W4DT5H6M7.123S\""
           },
           {
             "type": "Literal",
             "start": 900,
             "end": 957,
-            "value": "roundingMode is trunc (with 3 digits from smallestUnit)"
+            "value": "roundingMode is trunc (with 3 digits from smallestUnit)",
+            "raw": "\"roundingMode is trunc (with 3 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -604,7 +626,8 @@
                       "type": "Literal",
                       "start": 1021,
                       "end": 1022,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   },
@@ -625,7 +648,8 @@
                       "type": "Literal",
                       "start": 1038,
                       "end": 1045,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -676,13 +700,15 @@
             "type": "Literal",
             "start": 1076,
             "end": 1098,
-            "value": "P1Y2M3W4DT5H6M7.123S"
+            "value": "P1Y2M3W4DT5H6M7.123S",
+            "raw": "\"P1Y2M3W4DT5H6M7.123S\""
           },
           {
             "type": "Literal",
             "start": 1102,
             "end": 1169,
-            "value": "roundingMode is trunc (with 3 digits from fractionalSecondDigits)"
+            "value": "roundingMode is trunc (with 3 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is trunc (with 3 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false
@@ -749,7 +775,8 @@
                       "type": "Literal",
                       "start": 1223,
                       "end": 1231,
-                      "value": "second"
+                      "value": "second",
+                      "raw": "\"second\""
                     },
                     "kind": "init"
                   },
@@ -770,7 +797,8 @@
                       "type": "Literal",
                       "start": 1247,
                       "end": 1254,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -821,13 +849,15 @@
             "type": "Literal",
             "start": 1285,
             "end": 1303,
-            "value": "P1Y2M3W4DT5H6M7S"
+            "value": "P1Y2M3W4DT5H6M7S",
+            "raw": "\"P1Y2M3W4DT5H6M7S\""
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1364,
-            "value": "roundingMode is trunc (with 0 digits from smallestUnit)"
+            "value": "roundingMode is trunc (with 0 digits from smallestUnit)",
+            "raw": "\"roundingMode is trunc (with 0 digits from smallestUnit)\""
           }
         ],
         "optional": false
@@ -894,7 +924,8 @@
                       "type": "Literal",
                       "start": 1428,
                       "end": 1429,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "kind": "init"
                   },
@@ -915,7 +946,8 @@
                       "type": "Literal",
                       "start": 1445,
                       "end": 1452,
-                      "value": "trunc"
+                      "value": "trunc",
+                      "raw": "\"trunc\""
                     },
                     "kind": "init"
                   }
@@ -966,13 +998,15 @@
             "type": "Literal",
             "start": 1483,
             "end": 1501,
-            "value": "P1Y2M3W4DT5H6M7S"
+            "value": "P1Y2M3W4DT5H6M7S",
+            "raw": "\"P1Y2M3W4DT5H6M7S\""
           },
           {
             "type": "Literal",
             "start": 1505,
             "end": 1572,
-            "value": "roundingMode is trunc (with 0 digits from fractionalSecondDigits)"
+            "value": "roundingMode is trunc (with 0 digits from fractionalSecondDigits)",
+            "raw": "\"roundingMode is trunc (with 0 digits from fractionalSecondDigits)\""
           }
         ],
         "optional": false

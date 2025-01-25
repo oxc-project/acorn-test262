@@ -60,13 +60,15 @@
                             "type": "Literal",
                             "start": 437,
                             "end": 445,
-                            "value": "lookup"
+                            "value": "lookup",
+                            "raw": "\"lookup\""
                           },
                           {
                             "type": "Literal",
                             "start": 447,
                             "end": 457,
-                            "value": "best fit"
+                            "value": "best fit",
+                            "raw": "\"best fit\""
                           }
                         ]
                       },
@@ -232,7 +234,8 @@
                                     "type": "Literal",
                                     "start": 617,
                                     "end": 618,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -246,7 +249,8 @@
                                         "type": "Literal",
                                         "start": 620,
                                         "end": 652,
-                                        "value": "SupportedLocales with matcher "
+                                        "value": "SupportedLocales with matcher ",
+                                        "raw": "\"SupportedLocales with matcher \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -261,7 +265,8 @@
                                       "type": "Literal",
                                       "start": 665,
                                       "end": 712,
-                                      "value": " returned a non-empty list for an empty list."
+                                      "value": " returned a non-empty list for an empty list.",
+                                      "raw": "\" returned a non-empty list for an empty list.\""
                                     }
                                   }
                                 ],

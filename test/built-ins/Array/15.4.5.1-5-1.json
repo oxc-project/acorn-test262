@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 275,
             "end": 285,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 289,
           "end": 311,
-          "value": "not an array element"
+          "value": "not an array element",
+          "raw": "\"not an array element\""
         }
       }
     },
@@ -106,7 +108,8 @@
               "type": "Literal",
               "start": 333,
               "end": 343,
-              "value": 4294967295
+              "value": 4294967295,
+              "raw": "4294967295"
             },
             "computed": true,
             "optional": false
@@ -115,13 +118,15 @@
             "type": "Literal",
             "start": 346,
             "end": 368,
-            "value": "not an array element"
+            "value": "not an array element",
+            "raw": "\"not an array element\""
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 439,
-            "value": "The value of a[4294967295] is expected to be \"not an array element\""
+            "value": "The value of a[4294967295] is expected to be \"not an array element\"",
+            "raw": "'The value of a[4294967295] is expected to be \"not an array element\"'"
           }
         ],
         "optional": false

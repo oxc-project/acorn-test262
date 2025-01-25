@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 526,
                     "end": 527,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 529,
                     "end": 530,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -171,7 +173,8 @@
                             "type": "Literal",
                             "start": 620,
                             "end": 621,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         }
                       },
@@ -188,7 +191,8 @@
                             "type": "Literal",
                             "start": 633,
                             "end": 634,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         }
                       }
@@ -296,7 +300,8 @@
             "type": "Literal",
             "start": 713,
             "end": 766,
-            "value": "GetSetRecord throws an error when size is undefined"
+            "value": "GetSetRecord throws an error when size is undefined",
+            "raw": "\"GetSetRecord throws an error when size is undefined\""
           }
         ],
         "optional": false
@@ -431,7 +436,8 @@
             "type": "Literal",
             "start": 855,
             "end": 902,
-            "value": "GetSetRecord throws an error when size is NaN"
+            "value": "GetSetRecord throws an error when size is NaN",
+            "raw": "\"GetSetRecord throws an error when size is NaN\""
           }
         ],
         "optional": false
@@ -456,7 +462,8 @@
             "type": "Literal",
             "start": 927,
             "end": 928,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -653,7 +660,8 @@
             "type": "Literal",
             "start": 1080,
             "end": 1135,
-            "value": "GetSetRecord throws an error when size coerces to NaN"
+            "value": "GetSetRecord throws an error when size coerces to NaN",
+            "raw": "\"GetSetRecord throws an error when size coerces to NaN\""
           }
         ],
         "optional": false
@@ -697,13 +705,15 @@
             "type": "Literal",
             "start": 1171,
             "end": 1172,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1174,
             "end": 1201,
-            "value": "GetSetRecord coerces size"
+            "value": "GetSetRecord coerces size",
+            "raw": "\"GetSetRecord coerces size\""
           }
         ],
         "optional": false
@@ -741,7 +751,8 @@
           "type": "Literal",
           "start": 1215,
           "end": 1217,
-          "value": "0n"
+          "value": "0n",
+          "raw": "0n"
         }
       }
     },
@@ -838,7 +849,8 @@
             "type": "Literal",
             "start": 1288,
             "end": 1340,
-            "value": "GetSetRecord throws an error when size is a BigInt"
+            "value": "GetSetRecord throws an error when size is a BigInt",
+            "raw": "\"GetSetRecord throws an error when size is a BigInt\""
           }
         ],
         "optional": false
@@ -876,7 +888,8 @@
           "type": "Literal",
           "start": 1355,
           "end": 1363,
-          "value": "string"
+          "value": "string",
+          "raw": "\"string\""
         }
       }
     },
@@ -973,7 +986,8 @@
             "type": "Literal",
             "start": 1434,
             "end": 1498,
-            "value": "GetSetRecord throws an error when size is a non-numeric string"
+            "value": "GetSetRecord throws an error when size is a non-numeric string",
+            "raw": "\"GetSetRecord throws an error when size is a non-numeric string\""
           }
         ],
         "optional": false

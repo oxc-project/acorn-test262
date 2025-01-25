@@ -23,6 +23,7 @@
             "start": 744,
             "end": 748,
             "value": {},
+            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -138,7 +139,8 @@
                     "type": "Literal",
                     "start": 837,
                     "end": 841,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 },
                 "consequent": {
@@ -154,7 +156,8 @@
                         "type": "Literal",
                         "start": 856,
                         "end": 860,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   ]
@@ -180,7 +183,8 @@
                     "type": "Literal",
                     "start": 880,
                     "end": 884,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 }
               },
@@ -204,7 +208,8 @@
                         "type": "Literal",
                         "start": 905,
                         "end": 906,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "kind": "get",
                       "value": {
@@ -300,7 +305,8 @@
                                                     "type": "Literal",
                                                     "start": 996,
                                                     "end": 1034,
-                                                    "value": "This function should not be invoked."
+                                                    "value": "This function should not be invoked.",
+                                                    "raw": "'This function should not be invoked.'"
                                                   }
                                                 ]
                                               }
@@ -356,7 +362,8 @@
           "type": "Literal",
           "start": 1107,
           "end": 1127,
-          "value": "a non-empty string"
+          "value": "a non-empty string",
+          "raw": "'a non-empty string'"
         }
       }
     },
@@ -405,7 +412,8 @@
             "type": "Literal",
             "start": 1145,
             "end": 1147,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ],
         "optional": false

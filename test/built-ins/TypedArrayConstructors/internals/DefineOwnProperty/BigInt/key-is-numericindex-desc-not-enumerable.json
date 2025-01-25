@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 772,
                             "end": 773,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -139,7 +140,8 @@
                             "type": "Literal",
                             "start": 832,
                             "end": 835,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "\"0\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -163,7 +165,8 @@
                                   "type": "Literal",
                                   "start": 852,
                                   "end": 855,
-                                  "value": "42n"
+                                  "value": "42n",
+                                  "raw": "42n"
                                 },
                                 "kind": "init"
                               },
@@ -184,7 +187,8 @@
                                   "type": "Literal",
                                   "start": 877,
                                   "end": 882,
-                                  "value": false
+                                  "value": false,
+                                  "raw": "false"
                                 },
                                 "kind": "init"
                               },
@@ -205,7 +209,8 @@
                                   "type": "Literal",
                                   "start": 902,
                                   "end": 907,
-                                  "value": false
+                                  "value": false,
+                                  "raw": "false"
                                 },
                                 "kind": "init"
                               },
@@ -226,7 +231,8 @@
                                   "type": "Literal",
                                   "start": 925,
                                   "end": 929,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               }
@@ -239,13 +245,15 @@
                         "type": "Literal",
                         "start": 942,
                         "end": 947,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 953,
                         "end": 978,
-                        "value": "defineProperty's result"
+                        "value": "defineProperty's result",
+                        "raw": "\"defineProperty's result\""
                       }
                     ],
                     "optional": false
@@ -293,7 +301,8 @@
                           "type": "Literal",
                           "start": 1010,
                           "end": 1011,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -302,13 +311,15 @@
                         "type": "Literal",
                         "start": 1014,
                         "end": 1016,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1018,
                         "end": 1037,
-                        "value": "side effect check"
+                        "value": "side effect check",
+                        "raw": "\"side effect check\""
                       }
                     ],
                     "optional": false

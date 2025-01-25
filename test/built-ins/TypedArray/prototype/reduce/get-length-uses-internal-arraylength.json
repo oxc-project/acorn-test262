@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 823,
             "end": 824,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -106,7 +107,8 @@
                           "type": "Literal",
                           "start": 893,
                           "end": 894,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -171,7 +173,8 @@
             "type": "Literal",
             "start": 948,
             "end": 956,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Identifier",
@@ -254,13 +257,15 @@
                                 "type": "Literal",
                                 "start": 1035,
                                 "end": 1037,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1039,
                                 "end": 1041,
-                                "value": 43
+                                "value": 43,
+                                "raw": "43"
                               }
                             ]
                           }
@@ -289,7 +294,8 @@
                         "type": "Literal",
                         "start": 1059,
                         "end": 1060,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ],
@@ -346,7 +352,8 @@
                         "type": "Literal",
                         "start": 1101,
                         "end": 1109,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "Identifier",
@@ -396,7 +403,8 @@
                         "type": "Literal",
                         "start": 1150,
                         "end": 1158,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "Identifier",
@@ -475,7 +483,8 @@
                         "type": "Literal",
                         "start": 1215,
                         "end": 1216,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -519,13 +528,15 @@
                         "type": "Literal",
                         "start": 1249,
                         "end": 1250,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1252,
                         "end": 1279,
-                        "value": "ignores length properties"
+                        "value": "ignores length properties",
+                        "raw": "\"ignores length properties\""
                       }
                     ],
                     "optional": false
@@ -569,13 +580,15 @@
                         "type": "Literal",
                         "start": 1308,
                         "end": 1309,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 1311,
                         "end": 1357,
-                        "value": "iterations are not affected by custom length"
+                        "value": "iterations are not affected by custom length",
+                        "raw": "\"iterations are not affected by custom length\""
                       }
                     ],
                     "optional": false

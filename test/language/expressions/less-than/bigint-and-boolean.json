@@ -39,27 +39,31 @@
               "type": "Literal",
               "start": 278,
               "end": 280,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 283,
               "end": 288,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           },
           {
             "type": "Literal",
             "start": 290,
             "end": 295,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 334,
-            "value": "The result of (0n < false) is false"
+            "value": "The result of (0n < false) is false",
+            "raw": "'The result of (0n < false) is false'"
           }
         ],
         "optional": false
@@ -101,27 +105,31 @@
               "type": "Literal",
               "start": 354,
               "end": 359,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 362,
               "end": 364,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 366,
             "end": 371,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 410,
-            "value": "The result of (false < 0n) is false"
+            "value": "The result of (false < 0n) is false",
+            "raw": "'The result of (false < 0n) is false'"
           }
         ],
         "optional": false
@@ -163,27 +171,31 @@
               "type": "Literal",
               "start": 430,
               "end": 432,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 435,
               "end": 439,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 445,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 482,
-            "value": "The result of (0n < true) is true"
+            "value": "The result of (0n < true) is true",
+            "raw": "'The result of (0n < true) is true'"
           }
         ],
         "optional": false
@@ -225,27 +237,31 @@
               "type": "Literal",
               "start": 502,
               "end": 506,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 509,
               "end": 511,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 513,
             "end": 518,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 556,
-            "value": "The result of (true < 0n) is false"
+            "value": "The result of (true < 0n) is false",
+            "raw": "'The result of (true < 0n) is false'"
           }
         ],
         "optional": false
@@ -287,27 +303,31 @@
               "type": "Literal",
               "start": 576,
               "end": 578,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 581,
               "end": 586,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 593,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 632,
-            "value": "The result of (1n < false) is false"
+            "value": "The result of (1n < false) is false",
+            "raw": "'The result of (1n < false) is false'"
           }
         ],
         "optional": false
@@ -349,27 +369,31 @@
               "type": "Literal",
               "start": 652,
               "end": 657,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 660,
               "end": 662,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 668,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 706,
-            "value": "The result of (false < 1n) is true"
+            "value": "The result of (false < 1n) is true",
+            "raw": "'The result of (false < 1n) is true'"
           }
         ],
         "optional": false
@@ -411,27 +435,31 @@
               "type": "Literal",
               "start": 726,
               "end": 728,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 731,
               "end": 735,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 742,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 780,
-            "value": "The result of (1n < true) is false"
+            "value": "The result of (1n < true) is false",
+            "raw": "'The result of (1n < true) is false'"
           }
         ],
         "optional": false
@@ -473,27 +501,31 @@
               "type": "Literal",
               "start": 800,
               "end": 804,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 807,
               "end": 809,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 811,
             "end": 816,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 854,
-            "value": "The result of (true < 1n) is false"
+            "value": "The result of (true < 1n) is false",
+            "raw": "'The result of (true < 1n) is false'"
           }
         ],
         "optional": false
@@ -535,27 +567,31 @@
               "type": "Literal",
               "start": 874,
               "end": 877,
-              "value": "31n"
+              "value": "31n",
+              "raw": "31n"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 880,
               "end": 884,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
             "type": "Literal",
             "start": 886,
             "end": 891,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 930,
-            "value": "The result of (31n < true) is false"
+            "value": "The result of (31n < true) is false",
+            "raw": "'The result of (31n < true) is false'"
           }
         ],
         "optional": false
@@ -597,27 +633,31 @@
               "type": "Literal",
               "start": 950,
               "end": 954,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 957,
               "end": 960,
-              "value": "31n"
+              "value": "31n",
+              "raw": "31n"
             }
           },
           {
             "type": "Literal",
             "start": 962,
             "end": 966,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 1004,
-            "value": "The result of (true < 31n) is true"
+            "value": "The result of (true < 31n) is true",
+            "raw": "'The result of (true < 31n) is true'"
           }
         ],
         "optional": false
@@ -665,7 +705,8 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1027,
-                "value": "3n"
+                "value": "3n",
+                "raw": "3n"
               }
             },
             "operator": "<",
@@ -673,20 +714,23 @@
               "type": "Literal",
               "start": 1030,
               "end": 1034,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1040,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1042,
             "end": 1078,
-            "value": "The result of (-3n < true) is true"
+            "value": "The result of (-3n < true) is true",
+            "raw": "'The result of (-3n < true) is true'"
           }
         ],
         "optional": false
@@ -728,7 +772,8 @@
               "type": "Literal",
               "start": 1098,
               "end": 1102,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "operator": "<",
             "right": {
@@ -741,7 +786,8 @@
                 "type": "Literal",
                 "start": 1106,
                 "end": 1108,
-                "value": "3n"
+                "value": "3n",
+                "raw": "3n"
               }
             }
           },
@@ -749,13 +795,15 @@
             "type": "Literal",
             "start": 1110,
             "end": 1115,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1117,
             "end": 1154,
-            "value": "The result of (true < -3n) is false"
+            "value": "The result of (true < -3n) is false",
+            "raw": "'The result of (true < -3n) is false'"
           }
         ],
         "optional": false
@@ -803,7 +851,8 @@
                 "type": "Literal",
                 "start": 1175,
                 "end": 1177,
-                "value": "3n"
+                "value": "3n",
+                "raw": "3n"
               }
             },
             "operator": "<",
@@ -811,20 +860,23 @@
               "type": "Literal",
               "start": 1180,
               "end": 1185,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           },
           {
             "type": "Literal",
             "start": 1187,
             "end": 1191,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1193,
             "end": 1230,
-            "value": "The result of (-3n < false) is true"
+            "value": "The result of (-3n < false) is true",
+            "raw": "'The result of (-3n < false) is true'"
           }
         ],
         "optional": false
@@ -866,7 +918,8 @@
               "type": "Literal",
               "start": 1250,
               "end": 1255,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             "operator": "<",
             "right": {
@@ -879,7 +932,8 @@
                 "type": "Literal",
                 "start": 1259,
                 "end": 1261,
-                "value": "3n"
+                "value": "3n",
+                "raw": "3n"
               }
             }
           },
@@ -887,13 +941,15 @@
             "type": "Literal",
             "start": 1263,
             "end": 1268,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1270,
             "end": 1308,
-            "value": "The result of (false < -3n) is false"
+            "value": "The result of (false < -3n) is false",
+            "raw": "'The result of (false < -3n) is false'"
           }
         ],
         "optional": false

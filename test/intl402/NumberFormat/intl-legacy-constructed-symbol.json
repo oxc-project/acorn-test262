@@ -196,7 +196,8 @@
           "type": "Literal",
           "start": 523,
           "end": 524,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -255,7 +256,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 566,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -307,7 +309,8 @@
                       "type": "Literal",
                       "start": 598,
                       "end": 599,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "computed": true,
                     "optional": false
@@ -325,7 +328,8 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 643,
-                  "value": "IntlLegacyConstructedSymbol"
+                  "value": "IntlLegacyConstructedSymbol",
+                  "raw": "\"IntlLegacyConstructedSymbol\""
                 }
               ],
               "optional": false

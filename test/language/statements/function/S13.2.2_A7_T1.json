@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 647,
             "end": 652,
-            "value": "one"
+            "value": "one",
+            "raw": "\"one\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 665,
             "end": 670,
-            "value": "two"
+            "value": "two",
+            "raw": "\"two\""
           }
         }
       ],
@@ -293,7 +295,8 @@
                     "type": "Literal",
                     "start": 962,
                     "end": 1021,
-                    "value": "#1: __obj__.first === undefined. Actual: __obj__.first==="
+                    "value": "#1: __obj__.first === undefined. Actual: __obj__.first===",
+                    "raw": "'#1: __obj__.first === undefined. Actual: __obj__.first==='"
                   },
                   "operator": "+",
                   "right": {
@@ -386,7 +389,8 @@
                     "type": "Literal",
                     "start": 1269,
                     "end": 1328,
-                    "value": "#2: __obj__.second === __SCND. Actual: __obj__.second ==="
+                    "value": "#2: __obj__.second === __SCND. Actual: __obj__.second ===",
+                    "raw": "'#2: __obj__.second === __SCND. Actual: __obj__.second ==='"
                   },
                   "operator": "+",
                   "right": {

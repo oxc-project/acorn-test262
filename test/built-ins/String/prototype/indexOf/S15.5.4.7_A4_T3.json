@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 484,
-                          "value": "AB"
+                          "value": "AB",
+                          "raw": "\"\\u0041B\""
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 587,
                           "end": 590,
-                          "value": "1"
+                          "value": "1",
+                          "raw": "\"1\""
                         }
                       }
                     ]
@@ -204,7 +206,8 @@
               "type": "Literal",
               "start": 692,
               "end": 708,
-              "value": "ABBABABAB"
+              "value": "ABBABABAB",
+              "raw": "\"ABB\\u0041BABAB\""
             },
             "property": {
               "type": "Identifier",
@@ -236,7 +239,8 @@
           "type": "Literal",
           "start": 736,
           "end": 737,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -267,7 +271,8 @@
                     "type": "Literal",
                     "start": 766,
                     "end": 960,
-                    "value": "#1: var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){return \"1\";}}; \"ABB\\u0041BABAB\".indexOf(__obj, __obj2)===3. Actual: "
+                    "value": "#1: var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){return \"1\";}}; \"ABB\\u0041BABAB\".indexOf(__obj, __obj2)===3. Actual: ",
+                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){return \"1\";}}; \"ABB\\\\u0041BABAB\".indexOf(__obj, __obj2)===3. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -286,7 +291,8 @@
                           "type": "Literal",
                           "start": 964,
                           "end": 980,
-                          "value": "ABBABABAB"
+                          "value": "ABBABABAB",
+                          "raw": "\"ABB\\u0041BABAB\""
                         },
                         "property": {
                           "type": "Identifier",

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 370,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 377,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -103,7 +105,8 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 437,
-                "value": "-PT24.567890123H"
+                "value": "-PT24.567890123H",
+                "raw": "\"-PT24.567890123H\""
               }
             ],
             "optional": false
@@ -163,13 +166,15 @@
             "type": "Literal",
             "start": 487,
             "end": 513,
-            "value": "1000088444404442800n"
+            "value": "1000088444404442800n",
+            "raw": "1_000_088_444_404_442_800n"
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 542,
-            "value": "negative fractional hours"
+            "value": "negative fractional hours",
+            "raw": "\"negative fractional hours\""
           }
         ],
         "optional": false
@@ -218,7 +223,8 @@
                 "type": "Literal",
                 "start": 586,
                 "end": 606,
-                "value": "-PT1440.567890123M"
+                "value": "-PT1440.567890123M",
+                "raw": "\"-PT1440.567890123M\""
               }
             ],
             "optional": false
@@ -278,13 +284,15 @@
             "type": "Literal",
             "start": 658,
             "end": 684,
-            "value": "1000086434073407380n"
+            "value": "1000086434073407380n",
+            "raw": "1_000_086_434_073_407_380n"
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 715,
-            "value": "negative fractional minutes"
+            "value": "negative fractional minutes",
+            "raw": "\"negative fractional minutes\""
           }
         ],
         "optional": false

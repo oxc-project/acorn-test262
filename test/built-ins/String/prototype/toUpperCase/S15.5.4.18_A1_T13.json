@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 414,
                           "end": 415,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -216,7 +217,8 @@
           "type": "Literal",
           "start": 591,
           "end": 594,
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
       },
       "consequent": {
@@ -247,7 +249,8 @@
                     "type": "Literal",
                     "start": 623,
                     "end": 792,
-                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"1\". Actual: "
+                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"1\". Actual: ",
+                    "raw": "'#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -336,7 +339,8 @@
           "type": "Literal",
           "start": 1026,
           "end": 1027,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -367,7 +371,8 @@
                     "type": "Literal",
                     "start": 1056,
                     "end": 1231,
-                    "value": "#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase().length === 1. Actual: "
+                    "value": "#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase().length === 1. Actual: ",
+                    "raw": "'#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase().length === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

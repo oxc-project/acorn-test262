@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 830,
             "end": 838,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           }
         ],
         "optional": false
@@ -127,7 +128,8 @@
             "type": "Literal",
             "start": 893,
             "end": 906,
-            "value": "no [[Call]]"
+            "value": "no [[Call]]",
+            "raw": "\"no [[Call]]\""
           }
         ],
         "optional": false
@@ -205,7 +207,8 @@
             "type": "Literal",
             "start": 965,
             "end": 983,
-            "value": "no [[Construct]]"
+            "value": "no [[Construct]]",
+            "raw": "\"no [[Construct]]\""
           }
         ],
         "optional": false
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 1008,
             "end": 1014,
-            "value": "Math"
+            "value": "Math",
+            "raw": "\"Math\""
           },
           {
             "type": "ObjectExpression",
@@ -259,7 +263,8 @@
                   "type": "Literal",
                   "start": 1032,
                   "end": 1037,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -280,7 +285,8 @@
                   "type": "Literal",
                   "start": 1051,
                   "end": 1055,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -301,7 +307,8 @@
                   "type": "Literal",
                   "start": 1073,
                   "end": 1077,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

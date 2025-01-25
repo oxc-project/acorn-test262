@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 460,
+  "end": 447,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 313,
-      "end": 321,
+      "start": 312,
+      "end": 318,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 317,
-          "end": 320,
+          "start": 316,
+          "end": 317,
           "id": {
             "type": "Identifier",
-            "start": 317,
-            "end": 320,
+            "start": 316,
+            "end": 317,
             "name": "℘"
           },
           "init": null
@@ -25,17 +25,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 332,
-      "end": 340,
+      "start": 329,
+      "end": 335,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 336,
-          "end": 339,
+          "start": 333,
+          "end": 334,
           "id": {
             "type": "Identifier",
-            "start": 336,
-            "end": 339,
+            "start": 333,
+            "end": 334,
             "name": "℮"
           },
           "init": null
@@ -45,17 +45,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 351,
-      "end": 359,
+      "start": 346,
+      "end": 352,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 355,
-          "end": 358,
+          "start": 350,
+          "end": 351,
           "id": {
             "type": "Identifier",
-            "start": 355,
-            "end": 358,
+            "start": 350,
+            "end": 351,
             "name": "゛"
           },
           "init": null
@@ -65,17 +65,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 370,
-      "end": 378,
+      "start": 363,
+      "end": 369,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 374,
-          "end": 377,
+          "start": 367,
+          "end": 368,
           "id": {
             "type": "Identifier",
-            "start": 374,
-            "end": 377,
+            "start": 367,
+            "end": 368,
             "name": "゜"
           },
           "init": null
@@ -85,17 +85,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 422,
-      "end": 430,
+      "start": 413,
+      "end": 419,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 426,
-          "end": 429,
+          "start": 417,
+          "end": 418,
           "id": {
             "type": "Identifier",
-            "start": 426,
-            "end": 429,
+            "start": 417,
+            "end": 418,
             "name": "ᢅ"
           },
           "init": null
@@ -105,17 +105,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 441,
-      "end": 449,
+      "start": 430,
+      "end": 436,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 445,
-          "end": 448,
+          "start": 434,
+          "end": 435,
           "id": {
             "type": "Identifier",
-            "start": 445,
-            "end": 448,
+            "start": 434,
+            "end": 435,
             "name": "ᢆ"
           },
           "init": null

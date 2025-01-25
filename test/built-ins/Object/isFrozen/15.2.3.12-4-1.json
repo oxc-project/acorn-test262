@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 273,
             "end": 278,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 280,
             "end": 301,
-            "value": "Object.isFrozen({})"
+            "value": "Object.isFrozen({})",
+            "raw": "'Object.isFrozen({})'"
           }
         ],
         "optional": false

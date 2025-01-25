@@ -198,7 +198,8 @@
             "type": "Literal",
             "start": 636,
             "end": 709,
-            "value": "Array.from(itemsPoisonedSymbolIterator) throws a Test262Error exception"
+            "value": "Array.from(itemsPoisonedSymbolIterator) throws a Test262Error exception",
+            "raw": "'Array.from(itemsPoisonedSymbolIterator) throws a Test262Error exception'"
           }
         ],
         "optional": false

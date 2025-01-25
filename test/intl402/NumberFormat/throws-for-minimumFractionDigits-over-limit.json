@@ -70,7 +70,8 @@
                       "type": "Literal",
                       "start": 641,
                       "end": 644,
-                      "value": 100
+                      "value": 100,
+                      "raw": "100"
                     },
                     "kind": "init"
                   }
@@ -186,7 +187,8 @@
                               "type": "Literal",
                               "start": 761,
                               "end": 764,
-                              "value": 101
+                              "value": 101,
+                              "raw": "101"
                             },
                             "kind": "init"
                           }
@@ -202,7 +204,8 @@
             "type": "Literal",
             "start": 771,
             "end": 835,
-            "value": "Throws RangeError when minimumFractionDigits is more than 100."
+            "value": "Throws RangeError when minimumFractionDigits is more than 100.",
+            "raw": "\"Throws RangeError when minimumFractionDigits is more than 100.\""
           }
         ],
         "optional": false

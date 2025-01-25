@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -63,7 +64,8 @@
                   "type": "Literal",
                   "start": 301,
                   "end": 302,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             },
@@ -81,7 +83,8 @@
           "type": "Literal",
           "start": 314,
           "end": 318,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -108,7 +111,8 @@
                   "type": "Literal",
                   "start": 347,
                   "end": 387,
-                  "value": "#1: var x = 0; ((x = 1) == x) === true"
+                  "value": "#1: var x = 0; ((x = 1) == x) === true",
+                  "raw": "'#1: var x = 0; ((x = 1) == x) === true'"
                 }
               ]
             }
@@ -136,7 +140,8 @@
             "type": "Literal",
             "start": 411,
             "end": 412,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -184,7 +189,8 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 431,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -195,7 +201,8 @@
           "type": "Literal",
           "start": 438,
           "end": 443,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -222,7 +229,8 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 513,
-                  "value": "#2: var x = 0; (x == (x = 1)) === false"
+                  "value": "#2: var x = 0; (x == (x = 1)) === false",
+                  "raw": "'#2: var x = 0; (x == (x = 1)) === false'"
                 }
               ]
             }

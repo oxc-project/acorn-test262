@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 362,
-                "value": 1989
+                "value": 1989,
+                "raw": "1989"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 380,
-                "value": "japanese"
+                "value": "japanese",
+                "raw": "\"japanese\""
               }
             ]
           }
@@ -133,7 +137,8 @@
                       "type": "Literal",
                       "start": 421,
                       "end": 423,
-                      "value": 10
+                      "value": 10,
+                      "raw": "10"
                     },
                     "kind": "init"
                   }
@@ -216,7 +221,8 @@
             "type": "Literal",
             "start": 475,
             "end": 526,
-            "value": "resulting day should have crossed an era boundary"
+            "value": "resulting day should have crossed an era boundary",
+            "raw": "\"resulting day should have crossed an era boundary\""
           }
         ],
         "optional": false
@@ -283,7 +289,8 @@
                       "type": "Literal",
                       "start": 569,
                       "end": 570,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   }
@@ -366,7 +373,8 @@
             "type": "Literal",
             "start": 622,
             "end": 675,
-            "value": "resulting month should have crossed an era boundary"
+            "value": "resulting month should have crossed an era boundary",
+            "raw": "\"resulting month should have crossed an era boundary\""
           }
         ],
         "optional": false

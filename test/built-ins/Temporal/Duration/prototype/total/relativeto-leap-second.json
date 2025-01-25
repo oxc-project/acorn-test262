@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -97,7 +102,8 @@
             "type": "Literal",
             "start": 361,
             "end": 382,
-            "value": "2016-12-31T23:59:60"
+            "value": "2016-12-31T23:59:60",
+            "raw": "\"2016-12-31T23:59:60\""
           }
         }
       ],
@@ -164,7 +170,8 @@
                       "type": "Literal",
                       "start": 423,
                       "end": 429,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -236,13 +243,15 @@
             "type": "Literal",
             "start": 477,
             "end": 480,
-            "value": 366
+            "value": 366,
+            "raw": "366"
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 544,
-            "value": "leap second is a valid ISO string for PlainDate relativeTo"
+            "value": "leap second is a valid ISO string for PlainDate relativeTo",
+            "raw": "\"leap second is a valid ISO string for PlainDate relativeTo\""
           }
         ],
         "optional": false
@@ -267,7 +276,8 @@
           "type": "Literal",
           "start": 562,
           "end": 594,
-          "value": "2016-12-31T23:59:60+00:00[UTC]"
+          "value": "2016-12-31T23:59:60+00:00[UTC]",
+          "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
         }
       }
     },
@@ -332,7 +342,8 @@
                       "type": "Literal",
                       "start": 635,
                       "end": 641,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -404,13 +415,15 @@
             "type": "Literal",
             "start": 689,
             "end": 692,
-            "value": 366
+            "value": 366,
+            "raw": "366"
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 760,
-            "value": "leap second is a valid ISO string for ZonedDateTime relativeTo"
+            "value": "leap second is a valid ISO string for ZonedDateTime relativeTo",
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime relativeTo\""
           }
         ],
         "optional": false
@@ -453,7 +466,8 @@
                 "type": "Literal",
                 "start": 786,
                 "end": 790,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               "kind": "init"
             },
@@ -474,7 +488,8 @@
                 "type": "Literal",
                 "start": 799,
                 "end": 801,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -495,7 +510,8 @@
                 "type": "Literal",
                 "start": 808,
                 "end": 810,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               "kind": "init"
             },
@@ -516,7 +532,8 @@
                 "type": "Literal",
                 "start": 818,
                 "end": 820,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               "kind": "init"
             },
@@ -537,7 +554,8 @@
                 "type": "Literal",
                 "start": 830,
                 "end": 832,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               },
               "kind": "init"
             },
@@ -558,7 +576,8 @@
                 "type": "Literal",
                 "start": 842,
                 "end": 844,
-                "value": 60
+                "value": 60,
+                "raw": "60"
               },
               "kind": "init"
             }
@@ -627,7 +646,8 @@
                       "type": "Literal",
                       "start": 887,
                       "end": 893,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -699,13 +719,15 @@
             "type": "Literal",
             "start": 941,
             "end": 944,
-            "value": 366
+            "value": 366,
+            "raw": "366"
           },
           {
             "type": "Literal",
             "start": 948,
             "end": 1012,
-            "value": "second: 60 is valid in a property bag for PlainDate relativeTo"
+            "value": "second: 60 is valid in a property bag for PlainDate relativeTo",
+            "raw": "\"second: 60 is valid in a property bag for PlainDate relativeTo\""
           }
         ],
         "optional": false
@@ -748,7 +770,8 @@
                 "type": "Literal",
                 "start": 1038,
                 "end": 1042,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               "kind": "init"
             },
@@ -769,7 +792,8 @@
                 "type": "Literal",
                 "start": 1051,
                 "end": 1053,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -790,7 +814,8 @@
                 "type": "Literal",
                 "start": 1060,
                 "end": 1062,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               "kind": "init"
             },
@@ -811,7 +836,8 @@
                 "type": "Literal",
                 "start": 1070,
                 "end": 1072,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               "kind": "init"
             },
@@ -832,7 +858,8 @@
                 "type": "Literal",
                 "start": 1082,
                 "end": 1084,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               },
               "kind": "init"
             },
@@ -853,7 +880,8 @@
                 "type": "Literal",
                 "start": 1094,
                 "end": 1096,
-                "value": 60
+                "value": 60,
+                "raw": "60"
               },
               "kind": "init"
             },
@@ -874,7 +902,8 @@
                 "type": "Literal",
                 "start": 1108,
                 "end": 1113,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               "kind": "init"
             }
@@ -943,7 +972,8 @@
                       "type": "Literal",
                       "start": 1156,
                       "end": 1162,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -1015,13 +1045,15 @@
             "type": "Literal",
             "start": 1210,
             "end": 1213,
-            "value": 366
+            "value": 366,
+            "raw": "366"
           },
           {
             "type": "Literal",
             "start": 1217,
             "end": 1285,
-            "value": "second: 60 is valid in a property bag for ZonedDateTime relativeTo"
+            "value": "second: 60 is valid in a property bag for ZonedDateTime relativeTo",
+            "raw": "\"second: 60 is valid in a property bag for ZonedDateTime relativeTo\""
           }
         ],
         "optional": false

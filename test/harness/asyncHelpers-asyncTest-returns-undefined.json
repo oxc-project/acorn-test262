@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 316,
             "end": 317,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -285,7 +286,8 @@
                                             "type": "Literal",
                                             "start": 514,
                                             "end": 528,
-                                            "value": "non-thenable"
+                                            "value": "non-thenable",
+                                            "raw": "\"non-thenable\""
                                           }
                                         }
                                       ]
@@ -389,7 +391,8 @@
                                                 "type": "Literal",
                                                 "start": 634,
                                                 "end": 638,
-                                                "value": true
+                                                "value": true,
+                                                "raw": "true"
                                               }
                                             ],
                                             "optional": false
@@ -507,7 +510,8 @@
                                                     "type": "Literal",
                                                     "start": 761,
                                                     "end": 768,
-                                                    "value": "oh no"
+                                                    "value": "oh no",
+                                                    "raw": "\"oh no\""
                                                   }
                                                 ]
                                               }
@@ -594,13 +598,15 @@
                             "type": "Literal",
                             "start": 837,
                             "end": 838,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           },
                           {
                             "type": "Literal",
                             "start": 840,
                             "end": 867,
-                            "value": "asyncTest must call $DONE"
+                            "value": "asyncTest must call $DONE",
+                            "raw": "\"asyncTest must call $DONE\""
                           }
                         ],
                         "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 337,
-                "value": 1994
+                "value": 1994,
+                "raw": "1994"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
-                "value": 2013
+                "value": 2013,
+                "raw": "2013"
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 393,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -243,7 +247,8 @@
                       "type": "Literal",
                       "start": 487,
                       "end": 491,
-                      "value": 2013
+                      "value": 2013,
+                      "raw": "2013"
                     },
                     "kind": "init"
                   },
@@ -264,7 +269,8 @@
                       "type": "Literal",
                       "start": 500,
                       "end": 501,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -283,7 +289,8 @@
             "type": "Literal",
             "start": 512,
             "end": 535,
-            "value": "Casts object argument"
+            "value": "Casts object argument",
+            "raw": "\"Casts object argument\""
           }
         ],
         "optional": false
@@ -345,7 +352,8 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 596,
-                "value": "2013-06"
+                "value": "2013-06",
+                "raw": "\"2013-06\""
               }
             ],
             "optional": false
@@ -360,7 +368,8 @@
             "type": "Literal",
             "start": 605,
             "end": 628,
-            "value": "Casts string argument"
+            "value": "Casts string argument",
+            "raw": "\"Casts string argument\""
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 900,
               "end": 909,
-              "value": "test262"
+              "value": "test262",
+              "raw": "'test262'"
             }
           },
           {
@@ -184,7 +185,8 @@
             "type": "Literal",
             "start": 1012,
             "end": 1021,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false

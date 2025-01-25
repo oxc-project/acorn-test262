@@ -83,7 +83,8 @@
                           "type": "Literal",
                           "start": 340,
                           "end": 345,
-                          "value": "abc"
+                          "value": "abc",
+                          "raw": "\"abc\""
                         }
                       }
                     ]
@@ -211,7 +212,8 @@
                 "type": "Literal",
                 "start": 446,
                 "end": 451,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -220,7 +222,8 @@
             "type": "Literal",
             "start": 454,
             "end": 490,
-            "value": "obj.hasOwnProperty(\"abc\") !== true"
+            "value": "obj.hasOwnProperty(\"abc\") !== true",
+            "raw": "'obj.hasOwnProperty(\"abc\") !== true'"
           }
         ],
         "optional": false

@@ -181,7 +181,8 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 395,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -190,13 +191,15 @@
             "type": "Literal",
             "start": 398,
             "end": 403,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 430,
-            "value": "Object.hasOwn(o, \"foo\")"
+            "value": "Object.hasOwn(o, \"foo\")",
+            "raw": "'Object.hasOwn(o, \"foo\")'"
           }
         ],
         "optional": false

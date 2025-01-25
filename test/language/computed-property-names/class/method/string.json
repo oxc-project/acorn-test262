@@ -94,7 +94,8 @@
                       "type": "Literal",
                       "start": 322,
                       "end": 325,
-                      "value": "A"
+                      "value": "A",
+                      "raw": "'A'"
                     }
                   }
                 ]
@@ -111,7 +112,8 @@
               "type": "Literal",
               "start": 330,
               "end": 333,
-              "value": "b"
+              "value": "b",
+              "raw": "'b'"
             },
             "kind": "method",
             "value": {
@@ -136,7 +138,8 @@
                       "type": "Literal",
                       "start": 346,
                       "end": 349,
-                      "value": "B"
+                      "value": "B",
+                      "raw": "'B'"
                     }
                   }
                 ]
@@ -178,7 +181,8 @@
                       "type": "Literal",
                       "start": 368,
                       "end": 371,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "'C'"
                     }
                   }
                 ]
@@ -206,7 +210,8 @@
                   "type": "Literal",
                   "start": 381,
                   "end": 384,
-                  "value": "d"
+                  "value": "d",
+                  "raw": "'d'"
                 }
               ],
               "optional": false
@@ -234,7 +239,8 @@
                       "type": "Literal",
                       "start": 398,
                       "end": 401,
-                      "value": "D"
+                      "value": "D",
+                      "raw": "'D'"
                     }
                   }
                 ]
@@ -308,13 +314,15 @@
             "type": "Literal",
             "start": 437,
             "end": 440,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 503,
-            "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'}`"
+            "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'}`",
+            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'}`\""
           }
         ],
         "optional": false
@@ -384,13 +392,15 @@
             "type": "Literal",
             "start": 536,
             "end": 539,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 608,
-            "value": "`new C().b()` returns `'B'`. Defined as `['b']() { return 'B'; }`"
+            "value": "`new C().b()` returns `'B'`. Defined as `['b']() { return 'B'; }`",
+            "raw": "\"`new C().b()` returns `'B'`. Defined as `['b']() { return 'B'; }`\""
           }
         ],
         "optional": false
@@ -460,13 +470,15 @@
             "type": "Literal",
             "start": 641,
             "end": 644,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 709,
-            "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`"
+            "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`",
+            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
           }
         ],
         "optional": false
@@ -536,13 +548,15 @@
             "type": "Literal",
             "start": 742,
             "end": 745,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 818,
-            "value": "`new C().d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`"
+            "value": "`new C().d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`",
+            "raw": "\"`new C().d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`\""
           }
         ],
         "optional": false
@@ -639,13 +653,15 @@
             "type": "Literal",
             "start": 871,
             "end": 872,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 874,
             "end": 905,
-            "value": "No enum keys from C.prototype"
+            "value": "No enum keys from C.prototype",
+            "raw": "\"No enum keys from C.prototype\""
           }
         ],
         "optional": false
@@ -734,31 +750,36 @@
                 "type": "Literal",
                 "start": 975,
                 "end": 988,
-                "value": "constructor"
+                "value": "constructor",
+                "raw": "'constructor'"
               },
               {
                 "type": "Literal",
                 "start": 990,
                 "end": 993,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 995,
                 "end": 998,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               },
               {
                 "type": "Literal",
                 "start": 1000,
                 "end": 1003,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               },
               {
                 "type": "Literal",
                 "start": 1005,
                 "end": 1008,
-                "value": "d"
+                "value": "d",
+                "raw": "'d'"
               }
             ]
           }

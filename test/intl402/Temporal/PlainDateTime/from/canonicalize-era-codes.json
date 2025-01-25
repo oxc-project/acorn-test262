@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 335,
                       "end": 344,
-                      "value": "gregory"
+                      "value": "gregory",
+                      "raw": "\"gregory\""
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 353,
                       "end": 357,
-                      "value": "ce"
+                      "value": "ce",
+                      "raw": "\"ce\""
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 370,
                       "end": 374,
-                      "value": 2024
+                      "value": 2024,
+                      "raw": "2024"
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,8 @@
                       "type": "Literal",
                       "start": 384,
                       "end": 388,
-                      "value": 2024
+                      "value": 2024,
+                      "raw": "2024"
                     },
                     "kind": "init"
                   },
@@ -161,7 +165,8 @@
                       "type": "Literal",
                       "start": 399,
                       "end": 400,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -182,7 +187,8 @@
                       "type": "Literal",
                       "start": 409,
                       "end": 410,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -233,79 +239,92 @@
             "type": "Literal",
             "start": 463,
             "end": 467,
-            "value": 2024
+            "value": 2024,
+            "raw": "2024"
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 470,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 477,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 480,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 483,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 489,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 492,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 495,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 498,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 543,
-            "value": "'ce' is accepted as alias for 'gregory'"
+            "value": "'ce' is accepted as alias for 'gregory'",
+            "raw": "\"'ce' is accepted as alias for 'gregory'\""
           },
           {
             "type": "Literal",
             "start": 547,
             "end": 556,
-            "value": "gregory"
+            "value": "gregory",
+            "raw": "\"gregory\""
           },
           {
             "type": "Literal",
             "start": 558,
             "end": 562,
-            "value": 2024
+            "value": 2024,
+            "raw": "2024"
           }
         ],
         "optional": false
@@ -385,7 +404,8 @@
                       "type": "Literal",
                       "start": 623,
                       "end": 632,
-                      "value": "gregory"
+                      "value": "gregory",
+                      "raw": "\"gregory\""
                     },
                     "kind": "init"
                   },
@@ -406,7 +426,8 @@
                       "type": "Literal",
                       "start": 641,
                       "end": 646,
-                      "value": "bce"
+                      "value": "bce",
+                      "raw": "\"bce\""
                     },
                     "kind": "init"
                   },
@@ -427,7 +448,8 @@
                       "type": "Literal",
                       "start": 659,
                       "end": 661,
-                      "value": 44
+                      "value": 44,
+                      "raw": "44"
                     },
                     "kind": "init"
                   },
@@ -454,7 +476,8 @@
                         "type": "Literal",
                         "start": 672,
                         "end": 674,
-                        "value": 43
+                        "value": 43,
+                        "raw": "43"
                       }
                     },
                     "kind": "init"
@@ -476,7 +499,8 @@
                       "type": "Literal",
                       "start": 685,
                       "end": 686,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   },
@@ -497,7 +521,8 @@
                       "type": "Literal",
                       "start": 695,
                       "end": 697,
-                      "value": 15
+                      "value": 15,
+                      "raw": "15"
                     },
                     "kind": "init"
                   }
@@ -554,80 +579,93 @@
               "type": "Literal",
               "start": 751,
               "end": 753,
-              "value": 43
+              "value": 43,
+              "raw": "43"
             }
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 756,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 763,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 767,
-            "value": 15
+            "value": 15,
+            "raw": "15"
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 770,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 773,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 776,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 779,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 782,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 785,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 839,
-            "value": "'bce' is accepted as alias for 'gregory-inverse'"
+            "value": "'bce' is accepted as alias for 'gregory-inverse'",
+            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\""
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 860,
-            "value": "gregory-inverse"
+            "value": "gregory-inverse",
+            "raw": "\"gregory-inverse\""
           },
           {
             "type": "Literal",
             "start": 862,
             "end": 864,
-            "value": 44
+            "value": 44,
+            "raw": "44"
           }
         ],
         "optional": false

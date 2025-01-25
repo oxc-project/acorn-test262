@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1130,
         "end": 1134,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -62,7 +63,8 @@
                                 "type": "Literal",
                                 "start": 1147,
                                 "end": 1183,
-                                "value": "./dynamic-import-module_FIXTURE.js"
+                                "value": "./dynamic-import-module_FIXTURE.js",
+                                "raw": "'./dynamic-import-module_FIXTURE.js'"
                               },
                               "options": null
                             },
@@ -70,7 +72,8 @@
                               "type": "Literal",
                               "start": 1185,
                               "end": 1191,
-                              "value": "then"
+                              "value": "then",
+                              "raw": "'then'"
                             },
                             "computed": true,
                             "optional": false
@@ -184,7 +187,8 @@
                                       "type": "Literal",
                                       "start": 1254,
                                       "end": 1255,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ],
                                   "optional": false

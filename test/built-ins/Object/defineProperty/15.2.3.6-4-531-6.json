@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 416,
             "end": 422,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -138,7 +139,8 @@
             "type": "Literal",
             "start": 506,
             "end": 509,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -183,7 +185,8 @@
                   "type": "Literal",
                   "start": 543,
                   "end": 547,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -204,7 +207,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 569,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -239,7 +243,8 @@
             "type": "Literal",
             "start": 598,
             "end": 601,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           }
         ],
         "optional": false
@@ -288,7 +293,8 @@
                 "type": "Literal",
                 "start": 631,
                 "end": 634,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -346,7 +352,8 @@
                 "type": "Literal",
                 "start": 686,
                 "end": 689,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -413,7 +420,8 @@
             "type": "Literal",
             "start": 727,
             "end": 738,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false

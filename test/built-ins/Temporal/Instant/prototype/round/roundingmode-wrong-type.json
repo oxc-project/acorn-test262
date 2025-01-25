@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 370,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               }
             ]
           }
@@ -86,13 +87,15 @@
             "type": "Literal",
             "start": 416,
             "end": 430,
-            "value": "roundingMode"
+            "value": "roundingMode",
+            "raw": "\"roundingMode\""
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 444,
-            "value": "halfExpand"
+            "value": "halfExpand",
+            "raw": "\"halfExpand\""
           },
           {
             "type": "ArrowFunctionExpression",
@@ -156,7 +159,8 @@
                         "type": "Literal",
                         "start": 496,
                         "end": 509,
-                        "value": "microsecond"
+                        "value": "microsecond",
+                        "raw": "\"microsecond\""
                       },
                       "kind": "init"
                     },
@@ -256,7 +260,8 @@
                   "type": "Literal",
                   "start": 591,
                   "end": 617,
-                  "value": "1000000000123988000n"
+                  "value": "1000000000123988000n",
+                  "raw": "1_000_000_000_123_988_000n"
                 },
                 {
                   "type": "Identifier",

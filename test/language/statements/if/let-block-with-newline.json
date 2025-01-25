@@ -1,26 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 472,
+  "end": 469,
   "body": [
     {
       "type": "IfStatement",
-      "start": 447,
-      "end": 461,
+      "start": 444,
+      "end": 458,
       "test": {
         "type": "Literal",
-        "start": 451,
-        "end": 456,
-        "value": false
+        "start": 448,
+        "end": 453,
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "ExpressionStatement",
-        "start": 458,
-        "end": 461,
+        "start": 455,
+        "end": 458,
         "expression": {
           "type": "Identifier",
-          "start": 458,
-          "end": 461,
+          "start": 455,
+          "end": 458,
           "name": "let"
         }
       },
@@ -28,8 +29,8 @@
     },
     {
       "type": "BlockStatement",
-      "start": 469,
-      "end": 471,
+      "start": 466,
+      "end": 468,
       "body": []
     }
   ],

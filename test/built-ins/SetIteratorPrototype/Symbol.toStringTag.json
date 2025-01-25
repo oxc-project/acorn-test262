@@ -126,7 +126,8 @@
             "type": "Literal",
             "start": 623,
             "end": 637,
-            "value": "Set Iterator"
+            "value": "Set Iterator",
+            "raw": "'Set Iterator'"
           },
           {
             "type": "MemberExpression",
@@ -164,7 +165,8 @@
             "type": "Literal",
             "start": 681,
             "end": 739,
-            "value": "`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`"
+            "value": "`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`",
+            "raw": "'`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`'"
           }
         ],
         "optional": false
@@ -232,7 +234,8 @@
                   "type": "Literal",
                   "start": 811,
                   "end": 816,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -253,7 +256,8 @@
                   "type": "Literal",
                   "start": 832,
                   "end": 837,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -274,7 +278,8 @@
                   "type": "Literal",
                   "start": 855,
                   "end": 859,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

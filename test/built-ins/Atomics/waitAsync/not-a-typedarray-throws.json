@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 929,
             "end": 939,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 996,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -140,7 +142,8 @@
                               "type": "Literal",
                               "start": 1059,
                               "end": 1090,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -241,19 +244,22 @@
                         "type": "Literal",
                         "start": 1158,
                         "end": 1159,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1161,
                         "end": 1162,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1164,
                         "end": 1165,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -266,7 +272,8 @@
             "type": "Literal",
             "start": 1171,
             "end": 1234,
-            "value": "`Atomics.waitAsync({}, 0, 0, 0)` throws a TypeError exception"
+            "value": "`Atomics.waitAsync({}, 0, 0, 0)` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync({}, 0, 0, 0)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -383,7 +390,8 @@
             "type": "Literal",
             "start": 1329,
             "end": 1413,
-            "value": "`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception"
+            "value": "`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception",
+            "raw": "'`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception'"
           }
         ],
         "optional": false

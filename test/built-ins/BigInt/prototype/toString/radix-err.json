@@ -37,25 +37,29 @@
             "type": "Literal",
             "start": 441,
             "end": 442,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 449,
-            "value": 37
+            "value": 37,
+            "raw": "37"
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 455,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ]
       },
@@ -132,7 +136,8 @@
                                 "type": "Literal",
                                 "start": 506,
                                 "end": 508,
-                                "value": "0n"
+                                "value": "0n",
+                                "raw": "0n"
                               }
                             },
                             "property": {
@@ -166,7 +171,8 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 539,
-                    "value": "0, radix "
+                    "value": "0, radix ",
+                    "raw": "\"0, radix \""
                   },
                   "operator": "+",
                   "right": {
@@ -254,7 +260,8 @@
                                   "type": "Literal",
                                   "start": 593,
                                   "end": 595,
-                                  "value": "1n"
+                                  "value": "1n",
+                                  "raw": "1n"
                                 }
                               }
                             },
@@ -289,7 +296,8 @@
                     "type": "Literal",
                     "start": 615,
                     "end": 627,
-                    "value": "-1, radix "
+                    "value": "-1, radix ",
+                    "raw": "\"-1, radix \""
                   },
                   "operator": "+",
                   "right": {
@@ -371,7 +379,8 @@
                                 "type": "Literal",
                                 "start": 680,
                                 "end": 682,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               }
                             },
                             "property": {
@@ -405,7 +414,8 @@
                     "type": "Literal",
                     "start": 702,
                     "end": 713,
-                    "value": "1, radix "
+                    "value": "1, radix ",
+                    "raw": "\"1, radix \""
                   },
                   "operator": "+",
                   "right": {

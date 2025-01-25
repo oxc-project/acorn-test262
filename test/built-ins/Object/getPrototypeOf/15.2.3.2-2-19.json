@@ -112,7 +112,8 @@
             "type": "Literal",
             "start": 352,
             "end": 380,
-            "value": "Object.getPrototypeOf(obj)"
+            "value": "Object.getPrototypeOf(obj)",
+            "raw": "'Object.getPrototypeOf(obj)'"
           }
         ],
         "optional": false

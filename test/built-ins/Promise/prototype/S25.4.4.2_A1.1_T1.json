@@ -60,7 +60,8 @@
             "type": "Literal",
             "start": 341,
             "end": 412,
-            "value": "The value of Promise.prototype is expected to not equal ``undefined``"
+            "value": "The value of Promise.prototype is expected to not equal ``undefined``",
+            "raw": "'The value of Promise.prototype is expected to not equal ``undefined``'"
           }
         ],
         "optional": false

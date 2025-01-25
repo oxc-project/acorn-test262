@@ -148,7 +148,8 @@
                             "type": "Literal",
                             "start": 476,
                             "end": 478,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -205,20 +206,23 @@
               "type": "Literal",
               "start": 523,
               "end": 525,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 529,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 531,
             "end": 639,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) ** 1n) is 2n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) ** 1n) is 2n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -260,7 +264,8 @@
               "type": "Literal",
               "start": 660,
               "end": 662,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -316,7 +321,8 @@
                             "type": "Literal",
                             "start": 716,
                             "end": 718,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -373,13 +379,15 @@
             "type": "Literal",
             "start": 761,
             "end": 763,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 871,
-            "value": "The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 1n"
+            "value": "The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 1n",
+            "raw": "'The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 1n'"
           }
         ],
         "optional": false
@@ -457,7 +465,8 @@
                             "type": "Literal",
                             "start": 929,
                             "end": 931,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -493,20 +502,23 @@
               "type": "Literal",
               "start": 960,
               "end": 962,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 964,
             "end": 966,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 1049,
-            "value": "The result of (({valueOf: function() {return 2n;}, toString: err}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: function() {return 2n;}, toString: err}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}, toString: err}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -548,7 +560,8 @@
               "type": "Literal",
               "start": 1070,
               "end": 1072,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -591,7 +604,8 @@
                             "type": "Literal",
                             "start": 1113,
                             "end": 1115,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -627,13 +641,15 @@
             "type": "Literal",
             "start": 1142,
             "end": 1144,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1225,
-            "value": "The result of (1n ** {valueOf: function() {return 2n;}, toString: err}) is 1n"
+            "value": "The result of (1n ** {valueOf: function() {return 2n;}, toString: err}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: function() {return 2n;}, toString: err}) is 1n'"
           }
         ],
         "optional": false
@@ -711,7 +727,8 @@
                             "type": "Literal",
                             "start": 1284,
                             "end": 1286,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -726,20 +743,23 @@
               "type": "Literal",
               "start": 1297,
               "end": 1299,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1301,
             "end": 1303,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1305,
             "end": 1372,
-            "value": "The result of (({toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -781,7 +801,8 @@
               "type": "Literal",
               "start": 1393,
               "end": 1395,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -824,7 +845,8 @@
                             "type": "Literal",
                             "start": 1437,
                             "end": 1439,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -839,13 +861,15 @@
             "type": "Literal",
             "start": 1448,
             "end": 1450,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1452,
             "end": 1517,
-            "value": "The result of (1n ** {toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -957,7 +981,8 @@
                             "type": "Literal",
                             "start": 1611,
                             "end": 1613,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -972,20 +997,23 @@
               "type": "Literal",
               "start": 1624,
               "end": 1626,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1628,
             "end": 1630,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1632,
             "end": 1731,
-            "value": "The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -1027,7 +1055,8 @@
               "type": "Literal",
               "start": 1752,
               "end": 1754,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -1104,7 +1133,8 @@
                             "type": "Literal",
                             "start": 1831,
                             "end": 1833,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1119,13 +1149,15 @@
             "type": "Literal",
             "start": 1842,
             "end": 1844,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1846,
             "end": 1943,
-            "value": "The result of (1n ** {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -1198,7 +1230,8 @@
                     "type": "Literal",
                     "start": 1990,
                     "end": 1994,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   "kind": "init"
                 },
@@ -1237,7 +1270,8 @@
                             "type": "Literal",
                             "start": 2032,
                             "end": 2034,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1252,20 +1286,23 @@
               "type": "Literal",
               "start": 2045,
               "end": 2047,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 2049,
             "end": 2051,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 2053,
             "end": 2147,
-            "value": "The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -1307,7 +1344,8 @@
               "type": "Literal",
               "start": 2168,
               "end": 2170,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -1345,7 +1383,8 @@
                     "type": "Literal",
                     "start": 2200,
                     "end": 2204,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   "kind": "init"
                 },
@@ -1384,7 +1423,8 @@
                             "type": "Literal",
                             "start": 2242,
                             "end": 2244,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1399,13 +1439,15 @@
             "type": "Literal",
             "start": 2253,
             "end": 2255,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 2257,
             "end": 2349,
-            "value": "The result of (1n ** {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -1465,7 +1507,8 @@
                     "type": "Literal",
                     "start": 2383,
                     "end": 2387,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   "kind": "init"
                 },
@@ -1504,7 +1547,8 @@
                             "type": "Literal",
                             "start": 2426,
                             "end": 2428,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1519,20 +1563,23 @@
               "type": "Literal",
               "start": 2439,
               "end": 2441,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 2443,
             "end": 2445,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 2447,
             "end": 2529,
-            "value": "The result of (({valueOf: null, toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: null, toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: null, toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -1574,7 +1621,8 @@
               "type": "Literal",
               "start": 2550,
               "end": 2552,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -1599,7 +1647,8 @@
                     "type": "Literal",
                     "start": 2569,
                     "end": 2573,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   "kind": "init"
                 },
@@ -1638,7 +1687,8 @@
                             "type": "Literal",
                             "start": 2612,
                             "end": 2614,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1653,13 +1703,15 @@
             "type": "Literal",
             "start": 2623,
             "end": 2625,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 2627,
             "end": 2707,
-            "value": "The result of (1n ** {valueOf: null, toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: null, toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: null, toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -1719,7 +1771,8 @@
                     "type": "Literal",
                     "start": 2741,
                     "end": 2742,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   "kind": "init"
                 },
@@ -1758,7 +1811,8 @@
                             "type": "Literal",
                             "start": 2781,
                             "end": 2783,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1773,20 +1827,23 @@
               "type": "Literal",
               "start": 2794,
               "end": 2796,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 2798,
             "end": 2800,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 2802,
             "end": 2881,
-            "value": "The result of (({valueOf: 1, toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: 1, toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: 1, toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -1828,7 +1885,8 @@
               "type": "Literal",
               "start": 2902,
               "end": 2904,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -1853,7 +1911,8 @@
                     "type": "Literal",
                     "start": 2921,
                     "end": 2922,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   "kind": "init"
                 },
@@ -1892,7 +1951,8 @@
                             "type": "Literal",
                             "start": 2961,
                             "end": 2963,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -1907,13 +1967,15 @@
             "type": "Literal",
             "start": 2972,
             "end": 2974,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 2976,
             "end": 3053,
-            "value": "The result of (1n ** {valueOf: 1, toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: 1, toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: 1, toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -2012,7 +2074,8 @@
                             "type": "Literal",
                             "start": 3128,
                             "end": 3130,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2027,20 +2090,23 @@
               "type": "Literal",
               "start": 3141,
               "end": 3143,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 3145,
             "end": 3147,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 3149,
             "end": 3229,
-            "value": "The result of (({valueOf: {}, toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: {}, toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: {}, toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -2082,7 +2148,8 @@
               "type": "Literal",
               "start": 3250,
               "end": 3252,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -2146,7 +2213,8 @@
                             "type": "Literal",
                             "start": 3310,
                             "end": 3312,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2161,13 +2229,15 @@
             "type": "Literal",
             "start": 3321,
             "end": 3323,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 3325,
             "end": 3403,
-            "value": "The result of (1n ** {valueOf: {}, toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: {}, toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: {}, toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -2288,7 +2358,8 @@
                             "type": "Literal",
                             "start": 3507,
                             "end": 3509,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2303,20 +2374,23 @@
               "type": "Literal",
               "start": 3520,
               "end": 3522,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 3524,
             "end": 3526,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 3528,
             "end": 3629,
-            "value": "The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -2358,7 +2432,8 @@
               "type": "Literal",
               "start": 3650,
               "end": 3652,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -2444,7 +2519,8 @@
                             "type": "Literal",
                             "start": 3739,
                             "end": 3741,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2459,13 +2535,15 @@
             "type": "Literal",
             "start": 3750,
             "end": 3752,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 3754,
             "end": 3853,
-            "value": "The result of (1n ** {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -2554,7 +2632,8 @@
                                 "type": "Literal",
                                 "start": 3918,
                                 "end": 3923,
-                                "value": 12345
+                                "value": 12345,
+                                "raw": "12345"
                               }
                             ],
                             "optional": false
@@ -2600,7 +2679,8 @@
                             "type": "Literal",
                             "start": 3968,
                             "end": 3970,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2615,20 +2695,23 @@
               "type": "Literal",
               "start": 3981,
               "end": 3983,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 3985,
             "end": 3987,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 3989,
             "end": 4101,
-            "value": "The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -2670,7 +2753,8 @@
               "type": "Literal",
               "start": 4122,
               "end": 4124,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -2724,7 +2808,8 @@
                                 "type": "Literal",
                                 "start": 4172,
                                 "end": 4177,
-                                "value": 12345
+                                "value": 12345,
+                                "raw": "12345"
                               }
                             ],
                             "optional": false
@@ -2770,7 +2855,8 @@
                             "type": "Literal",
                             "start": 4222,
                             "end": 4224,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -2785,13 +2871,15 @@
             "type": "Literal",
             "start": 4233,
             "end": 4235,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 4237,
             "end": 4347,
-            "value": "The result of (1n ** {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -2892,7 +2980,8 @@
                               "type": "Literal",
                               "start": 4420,
                               "end": 4421,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -2904,7 +2993,8 @@
                       "type": "Literal",
                       "start": 4430,
                       "end": 4432,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -2915,7 +3005,8 @@
             "type": "Literal",
             "start": 4437,
             "end": 4489,
-            "value": "({[Symbol.toPrimitive]: 1}) ** 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: 1}) ** 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: 1}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -2981,7 +3072,8 @@
                       "type": "Literal",
                       "start": 4533,
                       "end": 4535,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -3019,7 +3111,8 @@
                             "type": "Literal",
                             "start": 4567,
                             "end": 4568,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "kind": "init"
                         }
@@ -3034,7 +3127,8 @@
             "type": "Literal",
             "start": 4577,
             "end": 4627,
-            "value": "0n ** {[Symbol.toPrimitive]: 1} throws TypeError"
+            "value": "0n ** {[Symbol.toPrimitive]: 1} throws TypeError",
+            "raw": "'0n ** {[Symbol.toPrimitive]: 1} throws TypeError'"
           }
         ],
         "optional": false
@@ -3147,7 +3241,8 @@
                       "type": "Literal",
                       "start": 4711,
                       "end": 4713,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -3158,7 +3253,8 @@
             "type": "Literal",
             "start": 4718,
             "end": 4771,
-            "value": "({[Symbol.toPrimitive]: {}}) ** 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: {}}) ** 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: {}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -3224,7 +3320,8 @@
                       "type": "Literal",
                       "start": 4815,
                       "end": 4817,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -3277,7 +3374,8 @@
             "type": "Literal",
             "start": 4860,
             "end": 4911,
-            "value": "0n ** {[Symbol.toPrimitive]: {}} throws TypeError"
+            "value": "0n ** {[Symbol.toPrimitive]: {}} throws TypeError",
+            "raw": "'0n ** {[Symbol.toPrimitive]: {}} throws TypeError'"
           }
         ],
         "optional": false
@@ -3407,7 +3505,8 @@
                                           "type": "Literal",
                                           "start": 5017,
                                           "end": 5018,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -3426,7 +3525,8 @@
                       "type": "Literal",
                       "start": 5035,
                       "end": 5037,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -3437,7 +3537,8 @@
             "type": "Literal",
             "start": 5042,
             "end": 5123,
-            "value": "({[Symbol.toPrimitive]: function() {return Object(1);}}) ** 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: function() {return Object(1);}}) ** 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: function() {return Object(1);}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -3503,7 +3604,8 @@
                       "type": "Literal",
                       "start": 5167,
                       "end": 5169,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -3570,7 +3672,8 @@
                                         "type": "Literal",
                                         "start": 5234,
                                         "end": 5235,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       }
                                     ],
                                     "optional": false
@@ -3592,7 +3695,8 @@
             "type": "Literal",
             "start": 5252,
             "end": 5331,
-            "value": "0n ** {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError"
+            "value": "0n ** {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError",
+            "raw": "'0n ** {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError'"
           }
         ],
         "optional": false
@@ -3727,7 +3831,8 @@
                       "type": "Literal",
                       "start": 5448,
                       "end": 5450,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -3738,7 +3843,8 @@
             "type": "Literal",
             "start": 5455,
             "end": 5529,
-            "value": "({[Symbol.toPrimitive]: function() {return {};}}) ** 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: function() {return {};}}) ** 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: function() {return {};}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -3804,7 +3910,8 @@
                       "type": "Literal",
                       "start": 5573,
                       "end": 5575,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -3879,7 +3986,8 @@
             "type": "Literal",
             "start": 5651,
             "end": 5723,
-            "value": "0n ** {[Symbol.toPrimitive]: function() {return {};}} throws TypeError"
+            "value": "0n ** {[Symbol.toPrimitive]: function() {return {};}} throws TypeError",
+            "raw": "'0n ** {[Symbol.toPrimitive]: function() {return {};}} throws TypeError'"
           }
         ],
         "optional": false
@@ -4020,7 +4128,8 @@
                       "type": "Literal",
                       "start": 5848,
                       "end": 5850,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -4031,7 +4140,8 @@
             "type": "Literal",
             "start": 5855,
             "end": 5937,
-            "value": "({[Symbol.toPrimitive]: function() {throw new MyError();}}) ** 0n throws MyError"
+            "value": "({[Symbol.toPrimitive]: function() {throw new MyError();}}) ** 0n throws MyError",
+            "raw": "'({[Symbol.toPrimitive]: function() {throw new MyError();}}) ** 0n throws MyError'"
           }
         ],
         "optional": false
@@ -4097,7 +4207,8 @@
                       "type": "Literal",
                       "start": 5979,
                       "end": 5981,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -4178,7 +4289,8 @@
             "type": "Literal",
             "start": 6067,
             "end": 6147,
-            "value": "0n ** {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError"
+            "value": "0n ** {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError",
+            "raw": "'0n ** {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError'"
           }
         ],
         "optional": false
@@ -4306,7 +4418,8 @@
                       "type": "Literal",
                       "start": 6259,
                       "end": 6261,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -4317,7 +4430,8 @@
             "type": "Literal",
             "start": 6266,
             "end": 6335,
-            "value": "({valueOf: function() {throw new MyError();}}) ** 0n throws MyError"
+            "value": "({valueOf: function() {throw new MyError();}}) ** 0n throws MyError",
+            "raw": "'({valueOf: function() {throw new MyError();}}) ** 0n throws MyError'"
           }
         ],
         "optional": false
@@ -4383,7 +4497,8 @@
                       "type": "Literal",
                       "start": 6377,
                       "end": 6379,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -4451,7 +4566,8 @@
             "type": "Literal",
             "start": 6452,
             "end": 6519,
-            "value": "0n ** {valueOf: function() {throw new MyError();}} throws MyError"
+            "value": "0n ** {valueOf: function() {throw new MyError();}} throws MyError",
+            "raw": "'0n ** {valueOf: function() {throw new MyError();}} throws MyError'"
           }
         ],
         "optional": false
@@ -4579,7 +4695,8 @@
                       "type": "Literal",
                       "start": 6632,
                       "end": 6634,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -4590,7 +4707,8 @@
             "type": "Literal",
             "start": 6639,
             "end": 6709,
-            "value": "({toString: function() {throw new MyError();}}) ** 0n throws MyError"
+            "value": "({toString: function() {throw new MyError();}}) ** 0n throws MyError",
+            "raw": "'({toString: function() {throw new MyError();}}) ** 0n throws MyError'"
           }
         ],
         "optional": false
@@ -4656,7 +4774,8 @@
                       "type": "Literal",
                       "start": 6751,
                       "end": 6753,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -4724,7 +4843,8 @@
             "type": "Literal",
             "start": 6827,
             "end": 6895,
-            "value": "0n ** {toString: function() {throw new MyError();}} throws MyError"
+            "value": "0n ** {toString: function() {throw new MyError();}} throws MyError",
+            "raw": "'0n ** {toString: function() {throw new MyError();}} throws MyError'"
           }
         ],
         "optional": false
@@ -4812,7 +4932,8 @@
                               "type": "Literal",
                               "start": 6955,
                               "end": 6959,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             },
                             "kind": "init"
                           },
@@ -4833,7 +4954,8 @@
                               "type": "Literal",
                               "start": 6975,
                               "end": 6979,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             },
                             "kind": "init"
                           }
@@ -4845,7 +4967,8 @@
                       "type": "Literal",
                       "start": 6988,
                       "end": 6990,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -4856,7 +4979,8 @@
             "type": "Literal",
             "start": 6995,
             "end": 7053,
-            "value": "({valueOf: null, toString: null}) ** 0n throws TypeError"
+            "value": "({valueOf: null, toString: null}) ** 0n throws TypeError",
+            "raw": "'({valueOf: null, toString: null}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -4922,7 +5046,8 @@
                       "type": "Literal",
                       "start": 7097,
                       "end": 7099,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -4947,7 +5072,8 @@
                             "type": "Literal",
                             "start": 7118,
                             "end": 7122,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           },
                           "kind": "init"
                         },
@@ -4968,7 +5094,8 @@
                             "type": "Literal",
                             "start": 7138,
                             "end": 7142,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           },
                           "kind": "init"
                         }
@@ -4983,7 +5110,8 @@
             "type": "Literal",
             "start": 7151,
             "end": 7207,
-            "value": "0n ** {valueOf: null, toString: null} throws TypeError"
+            "value": "0n ** {valueOf: null, toString: null} throws TypeError",
+            "raw": "'0n ** {valueOf: null, toString: null} throws TypeError'"
           }
         ],
         "optional": false
@@ -5071,7 +5199,8 @@
                               "type": "Literal",
                               "start": 7267,
                               "end": 7268,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           },
@@ -5092,7 +5221,8 @@
                               "type": "Literal",
                               "start": 7284,
                               "end": 7285,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -5104,7 +5234,8 @@
                       "type": "Literal",
                       "start": 7294,
                       "end": 7296,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -5115,7 +5246,8 @@
             "type": "Literal",
             "start": 7301,
             "end": 7353,
-            "value": "({valueOf: 1, toString: 1}) ** 0n throws TypeError"
+            "value": "({valueOf: 1, toString: 1}) ** 0n throws TypeError",
+            "raw": "'({valueOf: 1, toString: 1}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -5181,7 +5313,8 @@
                       "type": "Literal",
                       "start": 7397,
                       "end": 7399,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -5206,7 +5339,8 @@
                             "type": "Literal",
                             "start": 7418,
                             "end": 7419,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "kind": "init"
                         },
@@ -5227,7 +5361,8 @@
                             "type": "Literal",
                             "start": 7435,
                             "end": 7436,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "kind": "init"
                         }
@@ -5242,7 +5377,8 @@
             "type": "Literal",
             "start": 7445,
             "end": 7495,
-            "value": "0n ** {valueOf: 1, toString: 1} throws TypeError"
+            "value": "0n ** {valueOf: 1, toString: 1} throws TypeError",
+            "raw": "'0n ** {valueOf: 1, toString: 1} throws TypeError'"
           }
         ],
         "optional": false
@@ -5363,7 +5499,8 @@
                       "type": "Literal",
                       "start": 7584,
                       "end": 7586,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -5374,7 +5511,8 @@
             "type": "Literal",
             "start": 7591,
             "end": 7645,
-            "value": "({valueOf: {}, toString: {}}) ** 0n throws TypeError"
+            "value": "({valueOf: {}, toString: {}}) ** 0n throws TypeError",
+            "raw": "'({valueOf: {}, toString: {}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -5440,7 +5578,8 @@
                       "type": "Literal",
                       "start": 7689,
                       "end": 7691,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -5501,7 +5640,8 @@
             "type": "Literal",
             "start": 7739,
             "end": 7791,
-            "value": "0n ** {valueOf: {}, toString: {}} throws TypeError"
+            "value": "0n ** {valueOf: {}, toString: {}} throws TypeError",
+            "raw": "'0n ** {valueOf: {}, toString: {}} throws TypeError'"
           }
         ],
         "optional": false
@@ -5618,7 +5758,8 @@
                                           "type": "Literal",
                                           "start": 7884,
                                           "end": 7885,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -5675,7 +5816,8 @@
                                           "type": "Literal",
                                           "start": 7943,
                                           "end": 7944,
-                                          "value": 1
+                                          "value": 1,
+                                          "raw": "1"
                                         }
                                       ],
                                       "optional": false
@@ -5694,7 +5836,8 @@
                       "type": "Literal",
                       "start": 7961,
                       "end": 7963,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -5705,7 +5848,8 @@
             "type": "Literal",
             "start": 7968,
             "end": 8078,
-            "value": "({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) ** 0n throws TypeError"
+            "value": "({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) ** 0n throws TypeError",
+            "raw": "'({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -5771,7 +5915,8 @@
                       "type": "Literal",
                       "start": 8122,
                       "end": 8124,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -5825,7 +5970,8 @@
                                         "type": "Literal",
                                         "start": 8176,
                                         "end": 8177,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       }
                                     ],
                                     "optional": false
@@ -5882,7 +6028,8 @@
                                         "type": "Literal",
                                         "start": 8235,
                                         "end": 8236,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       }
                                     ],
                                     "optional": false
@@ -5904,7 +6051,8 @@
             "type": "Literal",
             "start": 8253,
             "end": 8361,
-            "value": "0n ** {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError"
+            "value": "0n ** {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError",
+            "raw": "'0n ** {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError'"
           }
         ],
         "optional": false
@@ -6069,7 +6217,8 @@
                       "type": "Literal",
                       "start": 8517,
                       "end": 8519,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -6080,7 +6229,8 @@
             "type": "Literal",
             "start": 8524,
             "end": 8620,
-            "value": "({valueOf: function() {return {};}, toString: function() {return {};}}) ** 0n throws TypeError"
+            "value": "({valueOf: function() {return {};}, toString: function() {return {};}}) ** 0n throws TypeError",
+            "raw": "'({valueOf: function() {return {};}, toString: function() {return {};}}) ** 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -6146,7 +6296,8 @@
                       "type": "Literal",
                       "start": 8664,
                       "end": 8666,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "**",
                     "right": {
@@ -6251,7 +6402,8 @@
             "type": "Literal",
             "start": 8781,
             "end": 8875,
-            "value": "0n ** {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError"
+            "value": "0n ** {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError",
+            "raw": "'0n ** {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError'"
           }
         ],
         "optional": false

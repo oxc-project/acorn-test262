@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 481,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               }
             ],
@@ -142,7 +143,8 @@
                       "type": "Literal",
                       "start": 653,
                       "end": 732,
-                      "value": "#1: var x=__func() does not lead to throwing exception. Actual: exception is "
+                      "value": "#1: var x=__func() does not lead to throwing exception. Actual: exception is ",
+                      "raw": "'#1: var x=__func() does not lead to throwing exception. Actual: exception is '"
                     },
                     "operator": "+",
                     "right": {

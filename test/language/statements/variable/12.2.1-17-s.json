@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 428,
-                "value": "arguments = 42;"
+                "value": "arguments = 42;",
+                "raw": "'arguments = 42;'"
               }
             ],
             "optional": false

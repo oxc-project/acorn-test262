@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 645,
           "end": 654,
-          "value": "test262"
+          "value": "test262",
+          "raw": "\"test262\""
         }
       }
     },
@@ -123,13 +124,15 @@
                                 "type": "Literal",
                                 "start": 726,
                                 "end": 728,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 730,
                                 "end": 732,
-                                "value": 43
+                                "value": 43,
+                                "raw": "43"
                               }
                             ]
                           }
@@ -196,7 +199,8 @@
                         "type": "Literal",
                         "start": 788,
                         "end": 832,
-                        "value": "return undefined for inexistent properties"
+                        "value": "return undefined for inexistent properties",
+                        "raw": "\"return undefined for inexistent properties\""
                       }
                     ],
                     "optional": false
@@ -234,7 +238,8 @@
                       "type": "Literal",
                       "start": 854,
                       "end": 859,
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "\"bar\""
                     }
                   }
                 },
@@ -289,13 +294,15 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 897,
-                        "value": "bar"
+                        "value": "bar",
+                        "raw": "\"bar\""
                       },
                       {
                         "type": "Literal",
                         "start": 899,
                         "end": 913,
-                        "value": "return value"
+                        "value": "return value",
+                        "raw": "\"return value\""
                       }
                     ],
                     "optional": false
@@ -339,7 +346,8 @@
                         "type": "Literal",
                         "start": 949,
                         "end": 954,
-                        "value": "bar"
+                        "value": "bar",
+                        "raw": "\"bar\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -381,7 +389,8 @@
                                       "type": "Literal",
                                       "start": 987,
                                       "end": 992,
-                                      "value": "baz"
+                                      "value": "baz",
+                                      "raw": "\"baz\""
                                     }
                                   }
                                 ]
@@ -446,13 +455,15 @@
                         "type": "Literal",
                         "start": 1033,
                         "end": 1038,
-                        "value": "baz"
+                        "value": "baz",
+                        "raw": "\"baz\""
                       },
                       {
                         "type": "Literal",
                         "start": 1040,
                         "end": 1072,
-                        "value": "return value from get accessor"
+                        "value": "return value from get accessor",
+                        "raw": "\"return value from get accessor\""
                       }
                     ],
                     "optional": false
@@ -509,13 +520,15 @@
                         "type": "Literal",
                         "start": 1107,
                         "end": 1116,
-                        "value": "test262"
+                        "value": "test262",
+                        "raw": "\"test262\""
                       },
                       {
                         "type": "Literal",
                         "start": 1118,
                         "end": 1151,
-                        "value": "return value from inherited key"
+                        "value": "return value from inherited key",
+                        "raw": "\"return value from inherited key\""
                       }
                     ],
                     "optional": false

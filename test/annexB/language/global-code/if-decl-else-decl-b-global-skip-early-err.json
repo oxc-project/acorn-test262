@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1179,
             "end": 1182,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         }
       ],
@@ -66,13 +67,15 @@
             "type": "Literal",
             "start": 1204,
             "end": 1207,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1209,
             "end": 1252,
-            "value": "binding is not initialized to `undefined`"
+            "value": "binding is not initialized to `undefined`",
+            "raw": "'binding is not initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -86,7 +89,8 @@
         "type": "Literal",
         "start": 1260,
         "end": 1265,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "FunctionDeclaration",
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 1328,
             "end": 1331,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1333,
             "end": 1376,
-            "value": "value is not updated following evaluation"
+            "value": "value is not updated following evaluation",
+            "raw": "'value is not updated following evaluation'"
           }
         ],
         "optional": false

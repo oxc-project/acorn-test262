@@ -31,6 +31,7 @@
                 "start": 336,
                 "end": 340,
                 "value": {},
+                "raw": "/\\n/",
                 "regex": {
                   "pattern": "\\n",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 354,
-                "value": "\n"
+                "value": "\n",
+                "raw": "\"\\u000A\""
               }
             ],
             "optional": false
@@ -86,7 +88,8 @@
               "type": "Literal",
               "start": 370,
               "end": 374,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -113,7 +116,8 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "computed": true,
               "optional": false
@@ -123,7 +127,8 @@
               "type": "Literal",
               "start": 391,
               "end": 399,
-              "value": "\n"
+              "value": "\n",
+              "raw": "\"\\u000A\""
             }
           }
         }
@@ -156,7 +161,8 @@
                     "type": "Literal",
                     "start": 429,
                     "end": 498,
-                    "value": "#1: var arr = /\\n/.exec(\"\\u000A\"); arr[0] === \"\\u000A\". Actual. "
+                    "value": "#1: var arr = /\\n/.exec(\"\\u000A\"); arr[0] === \"\\u000A\". Actual. ",
+                    "raw": "'#1: var arr = /\\\\n/.exec(\"\\\\u000A\"); arr[0] === \"\\\\u000A\". Actual. '"
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +194,8 @@
                           "type": "Literal",
                           "start": 513,
                           "end": 514,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -231,6 +238,7 @@
                 "start": 532,
                 "end": 538,
                 "value": {},
+                "raw": "/\\n\\n/",
                 "regex": {
                   "pattern": "\\n\\n",
                   "flags": ""
@@ -250,7 +258,8 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 560,
-                "value": "a\n\nb"
+                "value": "a\n\nb",
+                "raw": "\"a\\u000A\\u000Ab\""
               }
             ],
             "optional": false
@@ -286,7 +295,8 @@
               "type": "Literal",
               "start": 576,
               "end": 580,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -313,7 +323,8 @@
                 "type": "Literal",
                 "start": 590,
                 "end": 591,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "computed": true,
               "optional": false
@@ -323,7 +334,8 @@
               "type": "Literal",
               "start": 597,
               "end": 611,
-              "value": "\n\n"
+              "value": "\n\n",
+              "raw": "\"\\u000A\\u000A\""
             }
           }
         }
@@ -356,7 +368,8 @@
                     "type": "Literal",
                     "start": 641,
                     "end": 729,
-                    "value": "#2: var arr = /\\n\\n/.exec(\"a\\u000A\\u000Ab\"); arr[0] === \"\\u000A\\u000A\". Actual. "
+                    "value": "#2: var arr = /\\n\\n/.exec(\"a\\u000A\\u000Ab\"); arr[0] === \"\\u000A\\u000A\". Actual. ",
+                    "raw": "'#2: var arr = /\\\\n\\\\n/.exec(\"a\\\\u000A\\\\u000Ab\"); arr[0] === \"\\\\u000A\\\\u000A\". Actual. '"
                   },
                   "operator": "+",
                   "right": {
@@ -388,7 +401,8 @@
                           "type": "Literal",
                           "start": 744,
                           "end": 745,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false

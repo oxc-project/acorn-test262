@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 362,
               "end": 364,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -57,7 +58,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 378,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -67,13 +69,15 @@
             "type": "Literal",
             "start": 381,
             "end": 385,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 430,
-            "value": "The result of (0n !== Object(0n)) is true"
+            "value": "The result of (0n !== Object(0n)) is true",
+            "raw": "'The result of (0n !== Object(0n)) is true'"
           }
         ],
         "optional": false
@@ -126,7 +130,8 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 459,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -136,20 +141,23 @@
               "type": "Literal",
               "start": 465,
               "end": 467,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 473,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 475,
             "end": 518,
-            "value": "The result of (Object(0n) !== 0n) is true"
+            "value": "The result of (Object(0n) !== 0n) is true",
+            "raw": "'The result of (Object(0n) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -191,7 +199,8 @@
               "type": "Literal",
               "start": 538,
               "end": 540,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -209,7 +218,8 @@
                   "type": "Literal",
                   "start": 552,
                   "end": 554,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -219,13 +229,15 @@
             "type": "Literal",
             "start": 557,
             "end": 561,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 606,
-            "value": "The result of (0n !== Object(1n)) is true"
+            "value": "The result of (0n !== Object(1n)) is true",
+            "raw": "'The result of (0n !== Object(1n)) is true'"
           }
         ],
         "optional": false
@@ -278,7 +290,8 @@
                   "type": "Literal",
                   "start": 633,
                   "end": 635,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -288,20 +301,23 @@
               "type": "Literal",
               "start": 641,
               "end": 643,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 649,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 651,
             "end": 694,
-            "value": "The result of (Object(1n) !== 0n) is true"
+            "value": "The result of (Object(1n) !== 0n) is true",
+            "raw": "'The result of (Object(1n) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -343,7 +359,8 @@
               "type": "Literal",
               "start": 714,
               "end": 716,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!==",
             "right": {
@@ -361,7 +378,8 @@
                   "type": "Literal",
                   "start": 728,
                   "end": 730,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -371,13 +389,15 @@
             "type": "Literal",
             "start": 733,
             "end": 737,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 782,
-            "value": "The result of (1n !== Object(0n)) is true"
+            "value": "The result of (1n !== Object(0n)) is true",
+            "raw": "'The result of (1n !== Object(0n)) is true'"
           }
         ],
         "optional": false
@@ -430,7 +450,8 @@
                   "type": "Literal",
                   "start": 809,
                   "end": 811,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -440,20 +461,23 @@
               "type": "Literal",
               "start": 817,
               "end": 819,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 821,
             "end": 825,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 870,
-            "value": "The result of (Object(0n) !== 1n) is true"
+            "value": "The result of (Object(0n) !== 1n) is true",
+            "raw": "'The result of (Object(0n) !== 1n) is true'"
           }
         ],
         "optional": false
@@ -495,7 +519,8 @@
               "type": "Literal",
               "start": 890,
               "end": 892,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "!==",
             "right": {
@@ -513,7 +538,8 @@
                   "type": "Literal",
                   "start": 904,
                   "end": 906,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -523,13 +549,15 @@
             "type": "Literal",
             "start": 909,
             "end": 913,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 958,
-            "value": "The result of (1n !== Object(1n)) is true"
+            "value": "The result of (1n !== Object(1n)) is true",
+            "raw": "'The result of (1n !== Object(1n)) is true'"
           }
         ],
         "optional": false
@@ -582,7 +610,8 @@
                   "type": "Literal",
                   "start": 985,
                   "end": 987,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -592,20 +621,23 @@
               "type": "Literal",
               "start": 993,
               "end": 995,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 997,
             "end": 1001,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1046,
-            "value": "The result of (Object(1n) !== 1n) is true"
+            "value": "The result of (Object(1n) !== 1n) is true",
+            "raw": "'The result of (Object(1n) !== 1n) is true'"
           }
         ],
         "optional": false
@@ -647,7 +679,8 @@
               "type": "Literal",
               "start": 1066,
               "end": 1068,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "!==",
             "right": {
@@ -665,7 +698,8 @@
                   "type": "Literal",
                   "start": 1080,
                   "end": 1082,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -675,13 +709,15 @@
             "type": "Literal",
             "start": 1085,
             "end": 1089,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1091,
             "end": 1134,
-            "value": "The result of (2n !== Object(0n)) is true"
+            "value": "The result of (2n !== Object(0n)) is true",
+            "raw": "'The result of (2n !== Object(0n)) is true'"
           }
         ],
         "optional": false
@@ -734,7 +770,8 @@
                   "type": "Literal",
                   "start": 1161,
                   "end": 1163,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -744,20 +781,23 @@
               "type": "Literal",
               "start": 1169,
               "end": 1171,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 1173,
             "end": 1177,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1179,
             "end": 1222,
-            "value": "The result of (Object(0n) !== 2n) is true"
+            "value": "The result of (Object(0n) !== 2n) is true",
+            "raw": "'The result of (Object(0n) !== 2n) is true'"
           }
         ],
         "optional": false
@@ -799,7 +839,8 @@
               "type": "Literal",
               "start": 1242,
               "end": 1244,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "!==",
             "right": {
@@ -817,7 +858,8 @@
                   "type": "Literal",
                   "start": 1256,
                   "end": 1258,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -827,13 +869,15 @@
             "type": "Literal",
             "start": 1261,
             "end": 1265,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1310,
-            "value": "The result of (2n !== Object(1n)) is true"
+            "value": "The result of (2n !== Object(1n)) is true",
+            "raw": "'The result of (2n !== Object(1n)) is true'"
           }
         ],
         "optional": false
@@ -886,7 +930,8 @@
                   "type": "Literal",
                   "start": 1337,
                   "end": 1339,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -896,20 +941,23 @@
               "type": "Literal",
               "start": 1345,
               "end": 1347,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 1349,
             "end": 1353,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1355,
             "end": 1398,
-            "value": "The result of (Object(1n) !== 2n) is true"
+            "value": "The result of (Object(1n) !== 2n) is true",
+            "raw": "'The result of (Object(1n) !== 2n) is true'"
           }
         ],
         "optional": false
@@ -951,7 +999,8 @@
               "type": "Literal",
               "start": 1418,
               "end": 1420,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "!==",
             "right": {
@@ -969,7 +1018,8 @@
                   "type": "Literal",
                   "start": 1432,
                   "end": 1434,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -979,13 +1029,15 @@
             "type": "Literal",
             "start": 1437,
             "end": 1441,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1443,
             "end": 1486,
-            "value": "The result of (2n !== Object(2n)) is true"
+            "value": "The result of (2n !== Object(2n)) is true",
+            "raw": "'The result of (2n !== Object(2n)) is true'"
           }
         ],
         "optional": false
@@ -1038,7 +1090,8 @@
                   "type": "Literal",
                   "start": 1513,
                   "end": 1515,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -1048,20 +1101,23 @@
               "type": "Literal",
               "start": 1521,
               "end": 1523,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 1525,
             "end": 1529,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1531,
             "end": 1574,
-            "value": "The result of (Object(2n) !== 2n) is true"
+            "value": "The result of (Object(2n) !== 2n) is true",
+            "raw": "'The result of (Object(2n) !== 2n) is true'"
           }
         ],
         "optional": false
@@ -1103,7 +1159,8 @@
               "type": "Literal",
               "start": 1594,
               "end": 1596,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -1117,13 +1174,15 @@
             "type": "Literal",
             "start": 1605,
             "end": 1609,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1611,
             "end": 1646,
-            "value": "The result of (0n !== {}) is true"
+            "value": "The result of (0n !== {}) is true",
+            "raw": "'The result of (0n !== {}) is true'"
           }
         ],
         "optional": false
@@ -1172,20 +1231,23 @@
               "type": "Literal",
               "start": 1673,
               "end": 1675,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1677,
             "end": 1681,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1683,
             "end": 1720,
-            "value": "The result of (({}) !== 0n) is true"
+            "value": "The result of (({}) !== 0n) is true",
+            "raw": "'The result of (({}) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -1227,7 +1289,8 @@
               "type": "Literal",
               "start": 1741,
               "end": 1743,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -1270,7 +1333,8 @@
                             "type": "Literal",
                             "start": 1785,
                             "end": 1787,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           }
                         }
                       ]
@@ -1285,13 +1349,15 @@
             "type": "Literal",
             "start": 1796,
             "end": 1800,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1802,
             "end": 1869,
-            "value": "The result of (0n !== {valueOf: function() {return 0n;}}) is true"
+            "value": "The result of (0n !== {valueOf: function() {return 0n;}}) is true",
+            "raw": "'The result of (0n !== {valueOf: function() {return 0n;}}) is true'"
           }
         ],
         "optional": false
@@ -1369,7 +1435,8 @@
                             "type": "Literal",
                             "start": 1927,
                             "end": 1929,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           }
                         }
                       ]
@@ -1384,20 +1451,23 @@
               "type": "Literal",
               "start": 1941,
               "end": 1943,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1945,
             "end": 1949,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1951,
             "end": 2020,
-            "value": "The result of (({valueOf: function() {return 0n;}}) !== 0n) is true"
+            "value": "The result of (({valueOf: function() {return 0n;}}) !== 0n) is true",
+            "raw": "'The result of (({valueOf: function() {return 0n;}}) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -1439,7 +1509,8 @@
               "type": "Literal",
               "start": 2041,
               "end": 2043,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -1482,7 +1553,8 @@
                             "type": "Literal",
                             "start": 2085,
                             "end": 2087,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           }
                         }
                       ]
@@ -1497,13 +1569,15 @@
             "type": "Literal",
             "start": 2096,
             "end": 2100,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2102,
             "end": 2169,
-            "value": "The result of (0n !== {valueOf: function() {return 1n;}}) is true"
+            "value": "The result of (0n !== {valueOf: function() {return 1n;}}) is true",
+            "raw": "'The result of (0n !== {valueOf: function() {return 1n;}}) is true'"
           }
         ],
         "optional": false
@@ -1581,7 +1655,8 @@
                             "type": "Literal",
                             "start": 2227,
                             "end": 2229,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           }
                         }
                       ]
@@ -1596,20 +1671,23 @@
               "type": "Literal",
               "start": 2241,
               "end": 2243,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2245,
             "end": 2249,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2251,
             "end": 2320,
-            "value": "The result of (({valueOf: function() {return 1n;}}) !== 0n) is true"
+            "value": "The result of (({valueOf: function() {return 1n;}}) !== 0n) is true",
+            "raw": "'The result of (({valueOf: function() {return 1n;}}) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -1651,7 +1729,8 @@
               "type": "Literal",
               "start": 2341,
               "end": 2343,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -1694,7 +1773,8 @@
                             "type": "Literal",
                             "start": 2386,
                             "end": 2389,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "'0'"
                           }
                         }
                       ]
@@ -1709,13 +1789,15 @@
             "type": "Literal",
             "start": 2398,
             "end": 2402,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2404,
             "end": 2473,
-            "value": "The result of (0n !== {toString: function() {return \"0\";}}) is true"
+            "value": "The result of (0n !== {toString: function() {return \"0\";}}) is true",
+            "raw": "'The result of (0n !== {toString: function() {return \"0\";}}) is true'"
           }
         ],
         "optional": false
@@ -1793,7 +1875,8 @@
                             "type": "Literal",
                             "start": 2532,
                             "end": 2535,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "'0'"
                           }
                         }
                       ]
@@ -1808,20 +1891,23 @@
               "type": "Literal",
               "start": 2547,
               "end": 2549,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2551,
             "end": 2555,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2557,
             "end": 2628,
-            "value": "The result of (({toString: function() {return \"0\";}}) !== 0n) is true"
+            "value": "The result of (({toString: function() {return \"0\";}}) !== 0n) is true",
+            "raw": "'The result of (({toString: function() {return \"0\";}}) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -1863,7 +1949,8 @@
               "type": "Literal",
               "start": 2649,
               "end": 2651,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "!==",
             "right": {
@@ -1906,7 +1993,8 @@
                             "type": "Literal",
                             "start": 2694,
                             "end": 2697,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "'1'"
                           }
                         }
                       ]
@@ -1921,13 +2009,15 @@
             "type": "Literal",
             "start": 2706,
             "end": 2710,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2712,
             "end": 2781,
-            "value": "The result of (0n !== {toString: function() {return \"1\";}}) is true"
+            "value": "The result of (0n !== {toString: function() {return \"1\";}}) is true",
+            "raw": "'The result of (0n !== {toString: function() {return \"1\";}}) is true'"
           }
         ],
         "optional": false
@@ -2005,7 +2095,8 @@
                             "type": "Literal",
                             "start": 2840,
                             "end": 2843,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "'1'"
                           }
                         }
                       ]
@@ -2020,20 +2111,23 @@
               "type": "Literal",
               "start": 2855,
               "end": 2857,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2859,
             "end": 2863,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 2865,
             "end": 2936,
-            "value": "The result of (({toString: function() {return \"1\";}}) !== 0n) is true"
+            "value": "The result of (({toString: function() {return \"1\";}}) !== 0n) is true",
+            "raw": "'The result of (({toString: function() {return \"1\";}}) !== 0n) is true'"
           }
         ],
         "optional": false
@@ -2075,7 +2169,8 @@
               "type": "Literal",
               "start": 2957,
               "end": 2976,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             },
             "operator": "!==",
             "right": {
@@ -2118,7 +2213,8 @@
                             "type": "Literal",
                             "start": 3018,
                             "end": 3037,
-                            "value": "900719925474099101n"
+                            "value": "900719925474099101n",
+                            "raw": "900719925474099101n"
                           }
                         }
                       ]
@@ -2133,13 +2229,15 @@
             "type": "Literal",
             "start": 3046,
             "end": 3050,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3052,
             "end": 3153,
-            "value": "The result of (900719925474099101n !== {valueOf: function() {return 900719925474099101n;}}) is true"
+            "value": "The result of (900719925474099101n !== {valueOf: function() {return 900719925474099101n;}}) is true",
+            "raw": "'The result of (900719925474099101n !== {valueOf: function() {return 900719925474099101n;}}) is true'"
           }
         ],
         "optional": false
@@ -2217,7 +2315,8 @@
                             "type": "Literal",
                             "start": 3211,
                             "end": 3230,
-                            "value": "900719925474099101n"
+                            "value": "900719925474099101n",
+                            "raw": "900719925474099101n"
                           }
                         }
                       ]
@@ -2232,20 +2331,23 @@
               "type": "Literal",
               "start": 3242,
               "end": 3261,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             }
           },
           {
             "type": "Literal",
             "start": 3263,
             "end": 3267,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3269,
             "end": 3372,
-            "value": "The result of (({valueOf: function() {return 900719925474099101n;}}) !== 900719925474099101n) is true"
+            "value": "The result of (({valueOf: function() {return 900719925474099101n;}}) !== 900719925474099101n) is true",
+            "raw": "'The result of (({valueOf: function() {return 900719925474099101n;}}) !== 900719925474099101n) is true'"
           }
         ],
         "optional": false
@@ -2287,7 +2389,8 @@
               "type": "Literal",
               "start": 3393,
               "end": 3412,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             },
             "operator": "!==",
             "right": {
@@ -2330,7 +2433,8 @@
                             "type": "Literal",
                             "start": 3454,
                             "end": 3473,
-                            "value": "900719925474099102n"
+                            "value": "900719925474099102n",
+                            "raw": "900719925474099102n"
                           }
                         }
                       ]
@@ -2345,13 +2449,15 @@
             "type": "Literal",
             "start": 3482,
             "end": 3486,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3488,
             "end": 3589,
-            "value": "The result of (900719925474099101n !== {valueOf: function() {return 900719925474099102n;}}) is true"
+            "value": "The result of (900719925474099101n !== {valueOf: function() {return 900719925474099102n;}}) is true",
+            "raw": "'The result of (900719925474099101n !== {valueOf: function() {return 900719925474099102n;}}) is true'"
           }
         ],
         "optional": false
@@ -2429,7 +2535,8 @@
                             "type": "Literal",
                             "start": 3647,
                             "end": 3666,
-                            "value": "900719925474099102n"
+                            "value": "900719925474099102n",
+                            "raw": "900719925474099102n"
                           }
                         }
                       ]
@@ -2444,20 +2551,23 @@
               "type": "Literal",
               "start": 3678,
               "end": 3697,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             }
           },
           {
             "type": "Literal",
             "start": 3699,
             "end": 3703,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3705,
             "end": 3808,
-            "value": "The result of (({valueOf: function() {return 900719925474099102n;}}) !== 900719925474099101n) is true"
+            "value": "The result of (({valueOf: function() {return 900719925474099102n;}}) !== 900719925474099101n) is true",
+            "raw": "'The result of (({valueOf: function() {return 900719925474099102n;}}) !== 900719925474099101n) is true'"
           }
         ],
         "optional": false
@@ -2499,7 +2609,8 @@
               "type": "Literal",
               "start": 3829,
               "end": 3848,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             },
             "operator": "!==",
             "right": {
@@ -2542,7 +2653,8 @@
                             "type": "Literal",
                             "start": 3891,
                             "end": 3911,
-                            "value": "900719925474099101"
+                            "value": "900719925474099101",
+                            "raw": "'900719925474099101'"
                           }
                         }
                       ]
@@ -2557,13 +2669,15 @@
             "type": "Literal",
             "start": 3920,
             "end": 3924,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3926,
             "end": 4029,
-            "value": "The result of (900719925474099101n !== {toString: function() {return \"900719925474099101\";}}) is true"
+            "value": "The result of (900719925474099101n !== {toString: function() {return \"900719925474099101\";}}) is true",
+            "raw": "'The result of (900719925474099101n !== {toString: function() {return \"900719925474099101\";}}) is true'"
           }
         ],
         "optional": false
@@ -2641,7 +2755,8 @@
                             "type": "Literal",
                             "start": 4088,
                             "end": 4108,
-                            "value": "900719925474099101"
+                            "value": "900719925474099101",
+                            "raw": "'900719925474099101'"
                           }
                         }
                       ]
@@ -2656,20 +2771,23 @@
               "type": "Literal",
               "start": 4120,
               "end": 4139,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             }
           },
           {
             "type": "Literal",
             "start": 4141,
             "end": 4145,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 4147,
             "end": 4252,
-            "value": "The result of (({toString: function() {return \"900719925474099101\";}}) !== 900719925474099101n) is true"
+            "value": "The result of (({toString: function() {return \"900719925474099101\";}}) !== 900719925474099101n) is true",
+            "raw": "'The result of (({toString: function() {return \"900719925474099101\";}}) !== 900719925474099101n) is true'"
           }
         ],
         "optional": false
@@ -2711,7 +2829,8 @@
               "type": "Literal",
               "start": 4273,
               "end": 4292,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             },
             "operator": "!==",
             "right": {
@@ -2754,7 +2873,8 @@
                             "type": "Literal",
                             "start": 4335,
                             "end": 4355,
-                            "value": "900719925474099102"
+                            "value": "900719925474099102",
+                            "raw": "'900719925474099102'"
                           }
                         }
                       ]
@@ -2769,13 +2889,15 @@
             "type": "Literal",
             "start": 4364,
             "end": 4368,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 4370,
             "end": 4473,
-            "value": "The result of (900719925474099101n !== {toString: function() {return \"900719925474099102\";}}) is true"
+            "value": "The result of (900719925474099101n !== {toString: function() {return \"900719925474099102\";}}) is true",
+            "raw": "'The result of (900719925474099101n !== {toString: function() {return \"900719925474099102\";}}) is true'"
           }
         ],
         "optional": false
@@ -2853,7 +2975,8 @@
                             "type": "Literal",
                             "start": 4532,
                             "end": 4552,
-                            "value": "900719925474099102"
+                            "value": "900719925474099102",
+                            "raw": "'900719925474099102'"
                           }
                         }
                       ]
@@ -2868,20 +2991,23 @@
               "type": "Literal",
               "start": 4564,
               "end": 4583,
-              "value": "900719925474099101n"
+              "value": "900719925474099101n",
+              "raw": "900719925474099101n"
             }
           },
           {
             "type": "Literal",
             "start": 4585,
             "end": 4589,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 4591,
             "end": 4696,
-            "value": "The result of (({toString: function() {return \"900719925474099102\";}}) !== 900719925474099101n) is true"
+            "value": "The result of (({toString: function() {return \"900719925474099102\";}}) !== 900719925474099101n) is true",
+            "raw": "'The result of (({toString: function() {return \"900719925474099102\";}}) !== 900719925474099101n) is true'"
           }
         ],
         "optional": false

@@ -77,7 +77,8 @@
                     "type": "Literal",
                     "start": 416,
                     "end": 417,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 },
                 "kind": "init"
@@ -153,7 +154,8 @@
           "type": "Literal",
           "start": 620,
           "end": 622,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -184,7 +186,8 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 785,
-                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; new String(__obj).slice(//*(function(){})()*//undefined,__obj) === \"\". Actual: "
+                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; new String(__obj).slice(//*(function(){})()*//undefined,__obj) === \"\". Actual: ",
+                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; new String(__obj).slice(//*(function(){})()*//undefined,__obj) === \"\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

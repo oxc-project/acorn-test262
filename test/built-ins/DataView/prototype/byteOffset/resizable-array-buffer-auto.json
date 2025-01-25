@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 721,
             "end": 731,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -110,7 +111,8 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 761,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "ObjectExpression",
@@ -134,7 +136,8 @@
                       "type": "Literal",
                       "start": 779,
                       "end": 780,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -182,7 +185,8 @@
                 "type": "Literal",
                 "start": 816,
                 "end": 817,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -241,7 +245,8 @@
             "type": "Literal",
             "start": 859,
             "end": 860,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -288,7 +293,8 @@
                   "type": "Literal",
                   "start": 882,
                   "end": 883,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 }
               ],
               "optional": false
@@ -366,13 +372,15 @@
             "type": "Literal",
             "start": 940,
             "end": 941,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 943,
             "end": 959,
-            "value": "following grow"
+            "value": "following grow",
+            "raw": "\"following grow\""
           }
         ],
         "optional": false
@@ -419,7 +427,8 @@
                   "type": "Literal",
                   "start": 981,
                   "end": 982,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               ],
               "optional": false
@@ -497,13 +506,15 @@
             "type": "Literal",
             "start": 1039,
             "end": 1040,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1042,
             "end": 1076,
-            "value": "following shrink (within bounds)"
+            "value": "following shrink (within bounds)",
+            "raw": "\"following shrink (within bounds)\""
           }
         ],
         "optional": false
@@ -550,7 +561,8 @@
                   "type": "Literal",
                   "start": 1098,
                   "end": 1099,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -628,13 +640,15 @@
             "type": "Literal",
             "start": 1156,
             "end": 1157,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1159,
             "end": 1191,
-            "value": "following shrink (on boundary)"
+            "value": "following shrink (on boundary)",
+            "raw": "\"following shrink (on boundary)\""
           }
         ],
         "optional": false
@@ -701,7 +715,8 @@
                   "type": "Literal",
                   "start": 1232,
                   "end": 1233,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -866,7 +881,8 @@
                         "type": "Literal",
                         "start": 1404,
                         "end": 1442,
-                        "value": "the operation completed successfully"
+                        "value": "the operation completed successfully",
+                        "raw": "'the operation completed successfully'"
                       }
                     ]
                   }

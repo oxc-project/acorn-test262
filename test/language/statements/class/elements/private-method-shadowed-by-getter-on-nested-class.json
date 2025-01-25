@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 944,
                       "end": 957,
-                      "value": "outer class"
+                      "value": "outer class",
+                      "raw": "'outer class'"
                     }
                   }
                 ]
@@ -242,7 +243,8 @@
                               "type": "Literal",
                               "start": 1074,
                               "end": 1083,
-                              "value": "test262"
+                              "value": "test262",
+                              "raw": "'test262'"
                             }
                           }
                         ]
@@ -396,7 +398,8 @@
             "type": "Literal",
             "start": 1175,
             "end": 1184,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -460,7 +463,8 @@
             "type": "Literal",
             "start": 1216,
             "end": 1229,
-            "value": "outer class"
+            "value": "outer class",
+            "raw": "'outer class'"
           }
         ],
         "optional": false
@@ -559,7 +563,8 @@
             "type": "Literal",
             "start": 1293,
             "end": 1352,
-            "value": "accessed inner class getter from an object of outer class"
+            "value": "accessed inner class getter from an object of outer class",
+            "raw": "'accessed inner class getter from an object of outer class'"
           }
         ],
         "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 308,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 331,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "\"America/Los_Angeles\""
               }
             ]
           }
@@ -111,7 +113,8 @@
             "type": "Literal",
             "start": 368,
             "end": 376,
-            "value": "-08:00"
+            "value": "-08:00",
+            "raw": "\"-08:00\""
           }
         ],
         "optional": false

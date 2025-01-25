@@ -103,7 +103,8 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 353,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           }
@@ -192,7 +193,8 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 410,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -201,7 +203,8 @@
             "type": "Literal",
             "start": 413,
             "end": 471,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, 1) !== true"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, 1) !== true",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'"
           }
         ],
         "optional": false

@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 352,
         "end": 396,
-        "value": "./instn-resolve-order-src-valid_FIXTURE.js"
+        "value": "./instn-resolve-order-src-valid_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-valid_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -43,7 +44,8 @@
         "type": "Literal",
         "start": 405,
         "end": 453,
-        "value": "./instn-resolve-order-src-reference_FIXTURE.js"
+        "value": "./instn-resolve-order-src-reference_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-reference_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -56,7 +58,8 @@
         "type": "Literal",
         "start": 462,
         "end": 507,
-        "value": "./instn-resolve-order-src-syntax_FIXTURE.js"
+        "value": "./instn-resolve-order-src-syntax_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-syntax_FIXTURE.js'"
       },
       "attributes": []
     }

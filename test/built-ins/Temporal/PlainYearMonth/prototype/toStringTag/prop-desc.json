@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 423,
-                  "value": "Temporal.PlainYearMonth"
+                  "value": "Temporal.PlainYearMonth",
+                  "raw": "\"Temporal.PlainYearMonth\""
                 },
                 "kind": "init"
               },
@@ -112,7 +113,8 @@
                   "type": "Literal",
                   "start": 437,
                   "end": 442,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 458,
                   "end": 463,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -154,7 +157,8 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 485,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -93,25 +93,29 @@
                                         "type": "Literal",
                                         "start": 1117,
                                         "end": 1119,
-                                        "value": "0n"
+                                        "value": "0n",
+                                        "raw": "0n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1121,
                                         "end": 1123,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1125,
                                         "end": 1127,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1129,
                                         "end": 1131,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       }
                                     ]
                                   }
@@ -131,13 +135,15 @@
                                 "type": "Literal",
                                 "start": 1145,
                                 "end": 1146,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1148,
                                 "end": 1149,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Identifier",
@@ -157,25 +163,29 @@
                                 "type": "Literal",
                                 "start": 1170,
                                 "end": 1172,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1174,
                                 "end": 1176,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1178,
                                 "end": 1180,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1182,
                                 "end": 1184,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               }
                             ]
                           }
@@ -186,7 +196,8 @@
                         "type": "Literal",
                         "start": 1197,
                         "end": 1252,
-                        "value": "[0, 1, 2, 3].copyWithin(0, 1, undefined) -> [1, 2, 3]"
+                        "value": "[0, 1, 2, 3].copyWithin(0, 1, undefined) -> [1, 2, 3]",
+                        "raw": "'[0, 1, 2, 3].copyWithin(0, 1, undefined) -> [1, 2, 3]'"
                       }
                     ],
                     "optional": false
@@ -246,25 +257,29 @@
                                         "type": "Literal",
                                         "start": 1301,
                                         "end": 1303,
-                                        "value": "0n"
+                                        "value": "0n",
+                                        "raw": "0n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1305,
                                         "end": 1307,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1309,
                                         "end": 1311,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1313,
                                         "end": 1315,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       }
                                     ]
                                   }
@@ -284,13 +299,15 @@
                                 "type": "Literal",
                                 "start": 1329,
                                 "end": 1330,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1332,
                                 "end": 1333,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             ],
                             "optional": false
@@ -304,25 +321,29 @@
                                 "type": "Literal",
                                 "start": 1343,
                                 "end": 1345,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1347,
                                 "end": 1349,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1351,
                                 "end": 1353,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1355,
                                 "end": 1357,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               }
                             ]
                           }
@@ -333,7 +354,8 @@
                         "type": "Literal",
                         "start": 1370,
                         "end": 1417,
-                        "value": "[0, 1, 2, 3].copyWithin(0, 1) -> [1, 2, 3, 3]"
+                        "value": "[0, 1, 2, 3].copyWithin(0, 1) -> [1, 2, 3, 3]",
+                        "raw": "'[0, 1, 2, 3].copyWithin(0, 1) -> [1, 2, 3, 3]'"
                       }
                     ],
                     "optional": false

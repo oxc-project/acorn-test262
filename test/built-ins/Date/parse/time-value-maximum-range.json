@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 894,
             "end": 923,
-            "value": "-271821-04-20T00:00:00.000Z"
+            "value": "-271821-04-20T00:00:00.000Z",
+            "raw": "\"-271821-04-20T00:00:00.000Z\""
           }
         }
       ],
@@ -64,7 +65,8 @@
                   "type": "Literal",
                   "start": 951,
                   "end": 967,
-                  "value": 8640000000000000
+                  "value": 8640000000000000,
+                  "raw": "8640000000000000"
                 }
               }
             ]
@@ -137,7 +139,8 @@
             "type": "Literal",
             "start": 1023,
             "end": 1035,
-            "value": "minDateStr"
+            "value": "minDateStr",
+            "raw": "\"minDateStr\""
           }
         ],
         "optional": false
@@ -234,7 +237,8 @@
             "type": "Literal",
             "start": 1098,
             "end": 1116,
-            "value": "parse minDateStr"
+            "value": "parse minDateStr",
+            "raw": "\"parse minDateStr\""
           }
         ],
         "optional": false
@@ -259,7 +263,8 @@
             "type": "Literal",
             "start": 1139,
             "end": 1168,
-            "value": "+275760-09-13T00:00:00.000Z"
+            "value": "+275760-09-13T00:00:00.000Z",
+            "raw": "\"+275760-09-13T00:00:00.000Z\""
           }
         }
       ],
@@ -295,7 +300,8 @@
                 "type": "Literal",
                 "start": 1195,
                 "end": 1211,
-                "value": 8640000000000000
+                "value": 8640000000000000,
+                "raw": "8640000000000000"
               }
             ]
           }
@@ -367,7 +373,8 @@
             "type": "Literal",
             "start": 1267,
             "end": 1279,
-            "value": "maxDateStr"
+            "value": "maxDateStr",
+            "raw": "\"maxDateStr\""
           }
         ],
         "optional": false
@@ -464,7 +471,8 @@
             "type": "Literal",
             "start": 1342,
             "end": 1360,
-            "value": "parse maxDateStr"
+            "value": "parse maxDateStr",
+            "raw": "\"parse maxDateStr\""
           }
         ],
         "optional": false
@@ -489,7 +497,8 @@
             "type": "Literal",
             "start": 1383,
             "end": 1412,
-            "value": "-271821-04-19T23:59:59.999Z"
+            "value": "-271821-04-19T23:59:59.999Z",
+            "raw": "\"-271821-04-19T23:59:59.999Z\""
           }
         }
       ],
@@ -514,7 +523,8 @@
             "type": "Literal",
             "start": 1433,
             "end": 1462,
-            "value": "+275760-09-13T00:00:00.001Z"
+            "value": "+275760-09-13T00:00:00.001Z",
+            "raw": "\"+275760-09-13T00:00:00.001Z\""
           }
         }
       ],
@@ -591,7 +601,8 @@
             "type": "Literal",
             "start": 1511,
             "end": 1543,
-            "value": "parse below minimum time value"
+            "value": "parse below minimum time value",
+            "raw": "\"parse below minimum time value\""
           }
         ],
         "optional": false
@@ -668,7 +679,8 @@
             "type": "Literal",
             "start": 1592,
             "end": 1624,
-            "value": "parse above maximum time value"
+            "value": "parse above maximum time value",
+            "raw": "\"parse above maximum time value\""
           }
         ],
         "optional": false

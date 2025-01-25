@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 356,
             "end": 361,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 398,
             "end": 403,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -110,13 +112,15 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 504,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 527,
                   "end": 575,
-                  "value": "minimumSignificantDigits getter already called"
+                  "value": "minimumSignificantDigits getter already called",
+                  "raw": "\"minimumSignificantDigits getter already called\""
                 }
               ],
               "optional": false
@@ -160,13 +164,15 @@
                   "type": "Literal",
                   "start": 629,
                   "end": 634,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 657,
                   "end": 729,
-                  "value": "maximumSignificantDigits getter called before minimumSignificantDigits"
+                  "value": "maximumSignificantDigits getter called before minimumSignificantDigits",
+                  "raw": "\"maximumSignificantDigits getter called before minimumSignificantDigits\""
                 }
               ],
               "optional": false
@@ -191,7 +197,8 @@
                 "type": "Literal",
                 "start": 767,
                 "end": 771,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -203,7 +210,8 @@
               "type": "Literal",
               "start": 784,
               "end": 785,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ]
@@ -266,13 +274,15 @@
                   "type": "Literal",
                   "start": 883,
                   "end": 888,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 911,
                   "end": 959,
-                  "value": "maximumSignificantDigits getter already called"
+                  "value": "maximumSignificantDigits getter already called",
+                  "raw": "\"maximumSignificantDigits getter already called\""
                 }
               ],
               "optional": false
@@ -297,7 +307,8 @@
                 "type": "Literal",
                 "start": 997,
                 "end": 1001,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -309,7 +320,8 @@
               "type": "Literal",
               "start": 1014,
               "end": 1015,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ]
@@ -378,7 +390,8 @@
             "type": "Literal",
             "start": 1069,
             "end": 1095,
-            "value": "minimumSignificantDigits"
+            "value": "minimumSignificantDigits",
+            "raw": "\"minimumSignificantDigits\""
           },
           {
             "type": "ObjectExpression",
@@ -450,7 +463,8 @@
             "type": "Literal",
             "start": 1172,
             "end": 1198,
-            "value": "maximumSignificantDigits"
+            "value": "maximumSignificantDigits",
+            "raw": "\"maximumSignificantDigits\""
           },
           {
             "type": "ObjectExpression",
@@ -516,7 +530,8 @@
             "type": "Literal",
             "start": 1267,
             "end": 1271,
-            "value": "de"
+            "value": "de",
+            "raw": "\"de\""
           },
           {
             "type": "Identifier",
@@ -552,7 +567,8 @@
             "type": "Literal",
             "start": 1321,
             "end": 1370,
-            "value": "minimumSignificantDigits getter was called once"
+            "value": "minimumSignificantDigits getter was called once",
+            "raw": "\"minimumSignificantDigits getter was called once\""
           }
         ],
         "optional": false
@@ -583,7 +599,8 @@
             "type": "Literal",
             "start": 1410,
             "end": 1459,
-            "value": "maximumSignificantDigits getter was called once"
+            "value": "maximumSignificantDigits getter was called once",
+            "raw": "\"maximumSignificantDigits getter was called once\""
           }
         ],
         "optional": false

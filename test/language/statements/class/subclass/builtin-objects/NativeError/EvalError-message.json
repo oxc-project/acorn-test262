@@ -71,7 +71,8 @@
           "type": "Literal",
           "start": 675,
           "end": 694,
-          "value": "custom-eval-error"
+          "value": "custom-eval-error",
+          "raw": "'custom-eval-error'"
         }
       }
     },
@@ -105,7 +106,8 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 724,
-                "value": "foo 42"
+                "value": "foo 42",
+                "raw": "'foo 42'"
               }
             ]
           }
@@ -138,7 +140,8 @@
             "type": "Literal",
             "start": 749,
             "end": 758,
-            "value": "message"
+            "value": "message",
+            "raw": "'message'"
           },
           {
             "type": "ObjectExpression",
@@ -162,7 +165,8 @@
                   "type": "Literal",
                   "start": 771,
                   "end": 779,
-                  "value": "foo 42"
+                  "value": "foo 42",
+                  "raw": "'foo 42'"
                 },
                 "kind": "init"
               },
@@ -183,7 +187,8 @@
                   "type": "Literal",
                   "start": 793,
                   "end": 797,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -204,7 +209,8 @@
                   "type": "Literal",
                   "start": 813,
                   "end": 818,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -225,7 +231,8 @@
                   "type": "Literal",
                   "start": 836,
                   "end": 840,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -322,7 +329,8 @@
                 "type": "Literal",
                 "start": 906,
                 "end": 915,
-                "value": "message"
+                "value": "message",
+                "raw": "'message'"
               }
             ],
             "optional": false
@@ -331,7 +339,8 @@
             "type": "Literal",
             "start": 918,
             "end": 923,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -388,7 +397,8 @@
             "type": "Literal",
             "start": 957,
             "end": 976,
-            "value": "custom-eval-error"
+            "value": "custom-eval-error",
+            "raw": "'custom-eval-error'"
           }
         ],
         "optional": false

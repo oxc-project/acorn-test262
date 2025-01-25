@@ -19,7 +19,8 @@
             "type": "Literal",
             "start": 306,
             "end": 310,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": ">>>",
           "right": {
@@ -34,7 +35,8 @@
           "type": "Literal",
           "start": 329,
           "end": 330,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -65,7 +67,8 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 399,
-                    "value": "#1: null >>> undefined === 0. Actual: "
+                    "value": "#1: null >>> undefined === 0. Actual: ",
+                    "raw": "'#1: null >>> undefined === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -80,7 +83,8 @@
                         "type": "Literal",
                         "start": 403,
                         "end": 407,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "operator": ">>>",
                       "right": {
@@ -122,7 +126,8 @@
             "type": "Literal",
             "start": 456,
             "end": 460,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         },
         "operator": "!==",
@@ -130,7 +135,8 @@
           "type": "Literal",
           "start": 465,
           "end": 466,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -161,7 +167,8 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 535,
-                    "value": "#2: undefined >>> null === 0. Actual: "
+                    "value": "#2: undefined >>> null === 0. Actual: ",
+                    "raw": "'#2: undefined >>> null === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -183,7 +190,8 @@
                         "type": "Literal",
                         "start": 553,
                         "end": 557,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }
@@ -226,7 +234,8 @@
           "type": "Literal",
           "start": 606,
           "end": 607,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -257,7 +266,8 @@
                     "type": "Literal",
                     "start": 636,
                     "end": 681,
-                    "value": "#3: undefined >>> undefined === 0. Actual: "
+                    "value": "#3: undefined >>> undefined === 0. Actual: ",
+                    "raw": "'#3: undefined >>> undefined === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -307,14 +317,16 @@
             "type": "Literal",
             "start": 729,
             "end": 733,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "operator": ">>>",
           "right": {
             "type": "Literal",
             "start": 738,
             "end": 742,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         },
         "operator": "!==",
@@ -322,7 +334,8 @@
           "type": "Literal",
           "start": 747,
           "end": 748,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -353,7 +366,8 @@
                     "type": "Literal",
                     "start": 777,
                     "end": 812,
-                    "value": "#4: null >>> null === 0. Actual: "
+                    "value": "#4: null >>> null === 0. Actual: ",
+                    "raw": "'#4: null >>> null === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -368,14 +382,16 @@
                         "type": "Literal",
                         "start": 816,
                         "end": 820,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "operator": ">>>",
                       "right": {
                         "type": "Literal",
                         "start": 825,
                         "end": 829,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   }

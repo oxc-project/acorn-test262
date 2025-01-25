@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 726,
             "end": 731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Date.parse) must return false"
+            "value": "isConstructor(Date.parse) must return false",
+            "raw": "'isConstructor(Date.parse) must return false'"
           }
         ],
         "optional": false

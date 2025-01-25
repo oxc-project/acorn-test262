@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 297,
                     "end": 323,
-                    "value": "2000-05-02[u-ca=iso8601]"
+                    "value": "2000-05-02[u-ca=iso8601]",
+                    "raw": "\"2000-05-02[u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 325,
                     "end": 352,
-                    "value": "without time or time zone"
+                    "value": "without time or time zone",
+                    "raw": "\"without time or time zone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 389,
-                    "value": "2000-05-02[UTC][u-ca=iso8601]"
+                    "value": "2000-05-02[UTC][u-ca=iso8601]",
+                    "raw": "\"2000-05-02[UTC][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 391,
                     "end": 419,
-                    "value": "with time zone and no time"
+                    "value": "with time zone and no time",
+                    "raw": "\"with time zone and no time\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 425,
                     "end": 457,
-                    "value": "2000-05-02T15:23[u-ca=iso8601]"
+                    "value": "2000-05-02T15:23[u-ca=iso8601]",
+                    "raw": "\"2000-05-02T15:23[u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 459,
                     "end": 478,
-                    "value": "without time zone"
+                    "value": "without time zone",
+                    "raw": "\"without time zone\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 484,
                     "end": 521,
-                    "value": "2000-05-02T15:23[UTC][u-ca=iso8601]"
+                    "value": "2000-05-02T15:23[UTC][u-ca=iso8601]",
+                    "raw": "\"2000-05-02T15:23[UTC][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 523,
                     "end": 539,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 545,
                     "end": 578,
-                    "value": "2000-05-02T15:23[!u-ca=iso8601]"
+                    "value": "2000-05-02T15:23[!u-ca=iso8601]",
+                    "raw": "\"2000-05-02T15:23[!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 580,
                     "end": 605,
-                    "value": "with ! and no time zone"
+                    "value": "with ! and no time zone",
+                    "raw": "\"with ! and no time zone\""
                   }
                 ]
               },
@@ -127,13 +137,15 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 649,
-                    "value": "2000-05-02T15:23[UTC][!u-ca=iso8601]"
+                    "value": "2000-05-02T15:23[UTC][!u-ca=iso8601]",
+                    "raw": "\"2000-05-02T15:23[UTC][!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 651,
                     "end": 673,
-                    "value": "with ! and time zone"
+                    "value": "with ! and time zone",
+                    "raw": "\"with ! and time zone\""
                   }
                 ]
               },
@@ -146,13 +158,15 @@
                     "type": "Literal",
                     "start": 679,
                     "end": 725,
-                    "value": "2000-05-02T15:23[u-ca=iso8601][u-ca=discord]"
+                    "value": "2000-05-02T15:23[u-ca=iso8601][u-ca=discord]",
+                    "raw": "\"2000-05-02T15:23[u-ca=iso8601][u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 727,
                     "end": 754,
-                    "value": "second annotation ignored"
+                    "value": "second annotation ignored",
+                    "raw": "\"second annotation ignored\""
                   }
                 ]
               }
@@ -333,7 +347,8 @@
                         "type": "Literal",
                         "start": 893,
                         "end": 894,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

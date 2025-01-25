@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 367,
             "end": 372,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 402,
                   "end": 406,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -215,7 +217,8 @@
             "type": "Literal",
             "start": 543,
             "end": 555,
-            "value": "enumerable"
+            "value": "enumerable",
+            "raw": "\"enumerable\""
           },
           {
             "type": "ObjectExpression",
@@ -257,7 +260,8 @@
                           "type": "Literal",
                           "start": 590,
                           "end": 595,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         }
                       }
                     ]
@@ -405,7 +409,8 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 715,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             },
             "consequent": {
@@ -432,7 +437,8 @@
                       "type": "Literal",
                       "start": 734,
                       "end": 738,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -481,13 +487,15 @@
             "type": "Literal",
             "start": 774,
             "end": 779,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 791,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

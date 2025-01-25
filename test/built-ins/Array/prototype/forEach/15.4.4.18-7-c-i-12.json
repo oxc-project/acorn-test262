@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 352,
             "end": 357,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 412,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "consequent": {
@@ -127,7 +129,8 @@
                           "type": "Literal",
                           "start": 442,
                           "end": 445,
-                          "value": 111
+                          "value": 111,
+                          "raw": "111"
                         }
                       }
                     }
@@ -201,7 +204,8 @@
             "type": "Literal",
             "start": 486,
             "end": 487,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -210,7 +214,8 @@
           "type": "Literal",
           "start": 491,
           "end": 493,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       }
     },
@@ -252,7 +257,8 @@
             "type": "Literal",
             "start": 523,
             "end": 526,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -294,7 +300,8 @@
                           "type": "Literal",
                           "start": 561,
                           "end": 564,
-                          "value": 111
+                          "value": 111,
+                          "raw": "111"
                         }
                       }
                     ]
@@ -319,7 +326,8 @@
                   "type": "Literal",
                   "start": 587,
                   "end": 591,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -392,7 +400,8 @@
             "type": "Literal",
             "start": 642,
             "end": 663,
-            "value": "testResult !== true"
+            "value": "testResult !== true",
+            "raw": "'testResult !== true'"
           }
         ],
         "optional": false

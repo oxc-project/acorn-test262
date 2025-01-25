@@ -79,7 +79,8 @@
             "type": "Literal",
             "start": 796,
             "end": 835,
-            "value": "binding is initialized to `undefined`"
+            "value": "binding is initialized to `undefined`",
+            "raw": "'binding is initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -110,7 +111,8 @@
             "type": "Literal",
             "start": 862,
             "end": 865,
-            "value": "f"
+            "value": "f",
+            "raw": "\"f\""
           },
           {
             "type": "ObjectExpression",
@@ -134,7 +136,8 @@
                   "type": "Literal",
                   "start": 883,
                   "end": 887,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -155,7 +158,8 @@
                   "type": "Literal",
                   "start": 901,
                   "end": 905,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -176,7 +180,8 @@
                   "type": "Literal",
                   "start": 923,
                   "end": 928,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -194,7 +199,8 @@
         "type": "Literal",
         "start": 942,
         "end": 943,
-        "value": 1
+        "value": 1,
+        "raw": "1"
       },
       "cases": [
         {
@@ -228,7 +234,8 @@
             "type": "Literal",
             "start": 954,
             "end": 955,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ]

@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 380,
-                "value": "toDateString"
+                "value": "toDateString",
+                "raw": "\"toDateString\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 385,
             "end": 389,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 457,
-            "value": "Date.prototype.hasOwnProperty(\"toDateString\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"toDateString\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"toDateString\") must return true'"
           }
         ],
         "optional": false

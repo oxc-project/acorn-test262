@@ -1,123 +1,139 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1595,
+  "end": 1594,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 1463,
+      "start": 291,
+      "end": 1462,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 298,
-          "end": 1462,
+          "start": 297,
+          "end": 1461,
           "id": {
             "type": "Identifier",
-            "start": 298,
-            "end": 307,
+            "start": 297,
+            "end": 306,
             "name": "testCases"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 310,
-            "end": 1462,
+            "start": 309,
+            "end": 1461,
             "elements": [
               {
                 "type": "Literal",
-                "start": 314,
-                "end": 329,
-                "value": "Europe/Jersey"
+                "start": 313,
+                "end": 328,
+                "value": "Europe/Jersey",
+                "raw": "\"Europe/Jersey\""
               },
               {
                 "type": "Literal",
-                "start": 375,
-                "end": 392,
-                "value": "Europe/Guernsey"
+                "start": 374,
+                "end": 391,
+                "value": "Europe/Guernsey",
+                "raw": "\"Europe/Guernsey\""
               },
               {
                 "type": "Literal",
-                "start": 440,
-                "end": 460,
-                "value": "Europe/Isle_of_Man"
+                "start": 439,
+                "end": 459,
+                "value": "Europe/Isle_of_Man",
+                "raw": "\"Europe/Isle_of_Man\""
               },
               {
                 "type": "Literal",
-                "start": 511,
-                "end": 529,
-                "value": "Europe/Mariehamn"
+                "start": 510,
+                "end": 528,
+                "value": "Europe/Mariehamn",
+                "raw": "\"Europe/Mariehamn\""
               },
               {
                 "type": "Literal",
-                "start": 578,
-                "end": 595,
-                "value": "Europe/Busingen"
+                "start": 577,
+                "end": 594,
+                "value": "Europe/Busingen",
+                "raw": "\"Europe/Busingen\""
               },
               {
                 "type": "Literal",
-                "start": 643,
-                "end": 659,
-                "value": "Europe/Vatican"
+                "start": 642,
+                "end": 658,
+                "value": "Europe/Vatican",
+                "raw": "\"Europe/Vatican\""
               },
               {
                 "type": "Literal",
-                "start": 706,
-                "end": 725,
-                "value": "Europe/San_Marino"
+                "start": 705,
+                "end": 724,
+                "value": "Europe/San_Marino",
+                "raw": "\"Europe/San_Marino\""
               },
               {
                 "type": "Literal",
-                "start": 775,
-                "end": 789,
-                "value": "Europe/Vaduz"
+                "start": 774,
+                "end": 788,
+                "value": "Europe/Vaduz",
+                "raw": "\"Europe/Vaduz\""
               },
               {
                 "type": "Literal",
-                "start": 829,
-                "end": 850,
-                "value": "Arctic/Longyearbyen"
+                "start": 828,
+                "end": 849,
+                "value": "Arctic/Longyearbyen",
+                "raw": "\"Arctic/Longyearbyen\""
               },
               {
                 "type": "Literal",
-                "start": 902,
-                "end": 920,
-                "value": "Europe/Ljubljana"
+                "start": 901,
+                "end": 919,
+                "value": "Europe/Ljubljana",
+                "raw": "\"Europe/Ljubljana\""
               },
               {
                 "type": "Literal",
-                "start": 979,
-                "end": 997,
-                "value": "Europe/Podgorica"
+                "start": 978,
+                "end": 996,
+                "value": "Europe/Podgorica",
+                "raw": "\"Europe/Podgorica\""
               },
               {
                 "type": "Literal",
-                "start": 1058,
-                "end": 1075,
-                "value": "Europe/Sarajevo"
+                "start": 1057,
+                "end": 1074,
+                "value": "Europe/Sarajevo",
+                "raw": "\"Europe/Sarajevo\""
               },
               {
                 "type": "Literal",
-                "start": 1148,
-                "end": 1163,
-                "value": "Europe/Skopje"
+                "start": 1147,
+                "end": 1162,
+                "value": "Europe/Skopje",
+                "raw": "\"Europe/Skopje\""
               },
               {
                 "type": "Literal",
-                "start": 1229,
-                "end": 1244,
-                "value": "Europe/Zagreb"
+                "start": 1228,
+                "end": 1243,
+                "value": "Europe/Zagreb",
+                "raw": "\"Europe/Zagreb\""
               },
               {
                 "type": "Literal",
-                "start": 1302,
-                "end": 1321,
-                "value": "Europe/Bratislava"
+                "start": 1301,
+                "end": 1320,
+                "value": "Europe/Bratislava",
+                "raw": "\"Europe/Bratislava\""
               },
               {
                 "type": "Literal",
-                "start": 1366,
-                "end": 1381,
-                "value": "Asia/Istanbul"
+                "start": 1365,
+                "end": 1380,
+                "value": "Asia/Istanbul",
+                "raw": "\"Asia/Istanbul\""
               }
             ]
           }
@@ -127,22 +143,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1465,
-      "end": 1594,
+      "start": 1464,
+      "end": 1593,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1470,
-        "end": 1476,
+        "start": 1469,
+        "end": 1475,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1474,
-            "end": 1476,
+            "start": 1473,
+            "end": 1475,
             "id": {
               "type": "Identifier",
-              "start": 1474,
-              "end": 1476,
+              "start": 1473,
+              "end": 1475,
               "name": "id"
             },
             "init": null
@@ -152,48 +168,48 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1480,
-        "end": 1489,
+        "start": 1479,
+        "end": 1488,
         "name": "testCases"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1491,
-        "end": 1594,
+        "start": 1490,
+        "end": 1593,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 1495,
-            "end": 1547,
+            "start": 1494,
+            "end": 1546,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1501,
-                "end": 1546,
+                "start": 1500,
+                "end": 1545,
                 "id": {
                   "type": "Identifier",
-                  "start": 1501,
-                  "end": 1509,
+                  "start": 1500,
+                  "end": 1508,
                   "name": "instance"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 1512,
-                  "end": 1546,
+                  "start": 1511,
+                  "end": 1545,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1516,
-                    "end": 1538,
+                    "start": 1515,
+                    "end": 1537,
                     "object": {
                       "type": "Identifier",
-                      "start": 1516,
-                      "end": 1524,
+                      "start": 1515,
+                      "end": 1523,
                       "name": "Temporal"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1525,
-                      "end": 1538,
+                      "start": 1524,
+                      "end": 1537,
                       "name": "ZonedDateTime"
                     },
                     "computed": false,
@@ -202,14 +218,15 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 1539,
-                      "end": 1541,
-                      "value": "0n"
+                      "start": 1538,
+                      "end": 1540,
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     {
                       "type": "Identifier",
-                      "start": 1543,
-                      "end": 1545,
+                      "start": 1542,
+                      "end": 1544,
                       "name": "id"
                     }
                   ]
@@ -220,26 +237,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1550,
-            "end": 1592,
+            "start": 1549,
+            "end": 1591,
             "expression": {
               "type": "CallExpression",
-              "start": 1550,
-              "end": 1591,
+              "start": 1549,
+              "end": 1590,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1550,
-                "end": 1566,
+                "start": 1549,
+                "end": 1565,
                 "object": {
                   "type": "Identifier",
-                  "start": 1550,
-                  "end": 1556,
+                  "start": 1549,
+                  "end": 1555,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1557,
-                  "end": 1566,
+                  "start": 1556,
+                  "end": 1565,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -248,18 +265,18 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1567,
-                  "end": 1586,
+                  "start": 1566,
+                  "end": 1585,
                   "object": {
                     "type": "Identifier",
-                    "start": 1567,
-                    "end": 1575,
+                    "start": 1566,
+                    "end": 1574,
                     "name": "instance"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1576,
-                    "end": 1586,
+                    "start": 1575,
+                    "end": 1585,
                     "name": "timeZoneId"
                   },
                   "computed": false,
@@ -267,8 +284,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1588,
-                  "end": 1590,
+                  "start": 1587,
+                  "end": 1589,
                   "name": "id"
                 }
               ],

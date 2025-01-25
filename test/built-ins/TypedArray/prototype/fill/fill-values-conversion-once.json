@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 514,
                             "end": 515,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -96,7 +97,8 @@
                         "type": "Literal",
                         "start": 529,
                         "end": 530,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ],
@@ -229,13 +231,15 @@
                         "type": "Literal",
                         "start": 601,
                         "end": 602,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 604,
                         "end": 644,
-                        "value": "additional unexpected ToNumber() calls"
+                        "value": "additional unexpected ToNumber() calls",
+                        "raw": "\"additional unexpected ToNumber() calls\""
                       }
                     ],
                     "optional": false
@@ -283,7 +287,8 @@
                           "type": "Literal",
                           "start": 673,
                           "end": 674,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -292,13 +297,15 @@
                         "type": "Literal",
                         "start": 677,
                         "end": 678,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 680,
                         "end": 718,
-                        "value": "incorrect ToNumber result in index 0"
+                        "value": "incorrect ToNumber result in index 0",
+                        "raw": "\"incorrect ToNumber result in index 0\""
                       }
                     ],
                     "optional": false
@@ -346,7 +353,8 @@
                           "type": "Literal",
                           "start": 747,
                           "end": 748,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -355,13 +363,15 @@
                         "type": "Literal",
                         "start": 751,
                         "end": 752,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 754,
                         "end": 792,
-                        "value": "incorrect ToNumber result in index 1"
+                        "value": "incorrect ToNumber result in index 1",
+                        "raw": "\"incorrect ToNumber result in index 1\""
                       }
                     ],
                     "optional": false

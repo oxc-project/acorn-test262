@@ -76,7 +76,8 @@
             "type": "Literal",
             "start": 1161,
             "end": 1202,
-            "value": "Binding is created but not initialized."
+            "value": "Binding is created but not initialized.",
+            "raw": "'Binding is created but not initialized.'"
           }
         ],
         "optional": false
@@ -126,7 +127,8 @@
         "type": "Literal",
         "start": 1245,
         "end": 1278,
-        "value": "./instn-named-bndng-dflt-cls.js"
+        "value": "./instn-named-bndng-dflt-cls.js",
+        "raw": "'./instn-named-bndng-dflt-cls.js'"
       },
       "attributes": []
     }

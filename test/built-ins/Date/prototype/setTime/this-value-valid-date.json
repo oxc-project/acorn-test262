@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 562,
                 "end": 566,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               {
                 "type": "Literal",
                 "start": 568,
                 "end": 569,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -110,7 +112,8 @@
               "type": "Literal",
               "start": 617,
               "end": 618,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             }
           ],
           "optional": false
@@ -155,13 +158,15 @@
             "type": "Literal",
             "start": 655,
             "end": 656,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 695,
-            "value": "within unit boundary (return value)"
+            "value": "within unit boundary (return value)",
+            "raw": "'within unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -225,13 +230,15 @@
             "type": "Literal",
             "start": 735,
             "end": 736,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 738,
             "end": 781,
-            "value": "within unit boundary ([[DateValue]] slot)"
+            "value": "within unit boundary ([[DateValue]] slot)",
+            "raw": "'within unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false

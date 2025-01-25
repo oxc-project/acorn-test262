@@ -74,7 +74,8 @@
           "type": "Literal",
           "start": 842,
           "end": 853,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "'undefined'"
         }
       },
       "consequent": {
@@ -114,7 +115,8 @@
                 "type": "Literal",
                 "start": 878,
                 "end": 879,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           }
@@ -210,7 +212,8 @@
                           "type": "Literal",
                           "start": 928,
                           "end": 956,
-                          "value": "./eval-self-once-module.js"
+                          "value": "./eval-self-once-module.js",
+                          "raw": "'./eval-self-once-module.js'"
                         },
                         "options": null
                       },
@@ -222,7 +225,8 @@
                           "type": "Literal",
                           "start": 968,
                           "end": 996,
-                          "value": "./eval-self-once-module.js"
+                          "value": "./eval-self-once-module.js",
+                          "raw": "'./eval-self-once-module.js'"
                         },
                         "options": null
                       }
@@ -271,7 +275,8 @@
                             "type": "Literal",
                             "start": 1072,
                             "end": 1100,
-                            "value": "./eval-self-once-module.js"
+                            "value": "./eval-self-once-module.js",
+                            "raw": "'./eval-self-once-module.js'"
                           },
                           "options": null
                         }
@@ -293,7 +298,8 @@
                             "type": "Literal",
                             "start": 1118,
                             "end": 1146,
-                            "value": "./eval-self-once-module.js"
+                            "value": "./eval-self-once-module.js",
+                            "raw": "'./eval-self-once-module.js'"
                           },
                           "options": null
                         }
@@ -350,13 +356,15 @@
                             "type": "Literal",
                             "start": 1187,
                             "end": 1188,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1190,
                             "end": 1245,
-                            "value": "global property was defined and incremented only once"
+                            "value": "global property was defined and incremented only once",
+                            "raw": "'global property was defined and incremented only once'"
                           }
                         ],
                         "optional": false

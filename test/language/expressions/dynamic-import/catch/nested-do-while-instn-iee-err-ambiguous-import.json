@@ -1,53 +1,54 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2475,
+  "end": 2471,
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 2304,
-      "end": 2474,
+      "start": 2300,
+      "end": 2470,
       "body": {
         "type": "BlockStatement",
-        "start": 2307,
-        "end": 2459,
+        "start": 2303,
+        "end": 2455,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2311,
-            "end": 2457,
+            "start": 2307,
+            "end": 2453,
             "expression": {
               "type": "CallExpression",
-              "start": 2311,
-              "end": 2456,
+              "start": 2307,
+              "end": 2452,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2311,
-                "end": 2442,
+                "start": 2307,
+                "end": 2438,
                 "object": {
                   "type": "CallExpression",
-                  "start": 2311,
-                  "end": 2437,
+                  "start": 2307,
+                  "end": 2433,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 2311,
-                    "end": 2370,
+                    "start": 2307,
+                    "end": 2366,
                     "object": {
                       "type": "ImportExpression",
-                      "start": 2311,
-                      "end": 2364,
+                      "start": 2307,
+                      "end": 2360,
                       "source": {
                         "type": "Literal",
-                        "start": 2318,
-                        "end": 2363,
-                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js"
+                        "start": 2314,
+                        "end": 2359,
+                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js",
+                        "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'"
                       },
                       "options": null
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2365,
-                      "end": 2370,
+                      "start": 2361,
+                      "end": 2366,
                       "name": "catch"
                     },
                     "computed": false,
@@ -56,8 +57,8 @@
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
-                      "start": 2371,
-                      "end": 2436,
+                      "start": 2367,
+                      "end": 2432,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -65,38 +66,38 @@
                       "params": [
                         {
                           "type": "Identifier",
-                          "start": 2371,
-                          "end": 2376,
+                          "start": 2367,
+                          "end": 2372,
                           "name": "error"
                         }
                       ],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 2380,
-                        "end": 2436,
+                        "start": 2376,
+                        "end": 2432,
                         "body": [
                           {
                             "type": "ExpressionStatement",
-                            "start": 2387,
-                            "end": 2431,
+                            "start": 2383,
+                            "end": 2427,
                             "expression": {
                               "type": "CallExpression",
-                              "start": 2387,
-                              "end": 2430,
+                              "start": 2383,
+                              "end": 2426,
                               "callee": {
                                 "type": "MemberExpression",
-                                "start": 2387,
-                                "end": 2403,
+                                "start": 2383,
+                                "end": 2399,
                                 "object": {
                                   "type": "Identifier",
-                                  "start": 2387,
-                                  "end": 2393,
+                                  "start": 2383,
+                                  "end": 2389,
                                   "name": "assert"
                                 },
                                 "property": {
                                   "type": "Identifier",
-                                  "start": 2394,
-                                  "end": 2403,
+                                  "start": 2390,
+                                  "end": 2399,
                                   "name": "sameValue"
                                 },
                                 "computed": false,
@@ -105,18 +106,18 @@
                               "arguments": [
                                 {
                                   "type": "MemberExpression",
-                                  "start": 2404,
-                                  "end": 2414,
+                                  "start": 2400,
+                                  "end": 2410,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 2404,
-                                    "end": 2409,
+                                    "start": 2400,
+                                    "end": 2405,
                                     "name": "error"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 2410,
-                                    "end": 2414,
+                                    "start": 2406,
+                                    "end": 2410,
                                     "name": "name"
                                   },
                                   "computed": false,
@@ -124,9 +125,10 @@
                                 },
                                 {
                                   "type": "Literal",
-                                  "start": 2416,
-                                  "end": 2429,
-                                  "value": "SyntaxError"
+                                  "start": 2412,
+                                  "end": 2425,
+                                  "value": "SyntaxError",
+                                  "raw": "'SyntaxError'"
                                 }
                               ],
                               "optional": false
@@ -140,8 +142,8 @@
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2438,
-                  "end": 2442,
+                  "start": 2434,
+                  "end": 2438,
                   "name": "then"
                 },
                 "computed": false,
@@ -150,14 +152,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 2443,
-                  "end": 2448,
+                  "start": 2439,
+                  "end": 2444,
                   "name": "$DONE"
                 },
                 {
                   "type": "Identifier",
-                  "start": 2450,
-                  "end": 2455,
+                  "start": 2446,
+                  "end": 2451,
                   "name": "$DONE"
                 }
               ],
@@ -168,9 +170,10 @@
       },
       "test": {
         "type": "Literal",
-        "start": 2467,
-        "end": 2472,
-        "value": false
+        "start": 2463,
+        "end": 2468,
+        "value": false,
+        "raw": "false"
       }
     }
   ],

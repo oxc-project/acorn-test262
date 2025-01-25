@@ -101,7 +101,8 @@
                             "type": "Literal",
                             "start": 1606,
                             "end": 1607,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -209,7 +210,8 @@
                         "type": "Literal",
                         "start": 1680,
                         "end": 1711,
-                        "value": "abrupt completion from Symbol"
+                        "value": "abrupt completion from Symbol",
+                        "raw": "\"abrupt completion from Symbol\""
                       }
                     ],
                     "optional": false

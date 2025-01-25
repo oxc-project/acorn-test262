@@ -111,7 +111,8 @@
                             "type": "Literal",
                             "start": 846,
                             "end": 854,
-                            "value": "string"
+                            "value": "string",
+                            "raw": "'string'"
                           }
                         },
                         "consequent": {
@@ -159,7 +160,8 @@
                               "type": "Literal",
                               "start": 922,
                               "end": 973,
-                              "value": "@@toPrimitive should be called with hint \"string\""
+                              "value": "@@toPrimitive should be called with hint \"string\"",
+                              "raw": "'@@toPrimitive should be called with hint \"string\"'"
                             }
                           ]
                         }
@@ -215,7 +217,8 @@
                               "type": "Literal",
                               "start": 1023,
                               "end": 1061,
-                              "value": "toString property should not be read"
+                              "value": "toString property should not be read",
+                              "raw": "'toString property should not be read'"
                             }
                           ]
                         }
@@ -271,7 +274,8 @@
                               "type": "Literal",
                               "start": 1108,
                               "end": 1145,
-                              "value": "valueOf property should not be read"
+                              "value": "valueOf property should not be read",
+                              "raw": "'valueOf property should not be read'"
                             }
                           ]
                         }
@@ -306,6 +310,7 @@
             "start": 1163,
             "end": 1167,
             "value": {},
+            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -484,7 +489,8 @@
                                     "type": "Literal",
                                     "start": 1299,
                                     "end": 1335,
-                                    "value": "global property should not be read"
+                                    "value": "global property should not be read",
+                                    "raw": "'global property should not be read'"
                                   }
                                 ]
                               }
@@ -562,7 +568,8 @@
                                     "type": "Literal",
                                     "start": 1393,
                                     "end": 1430,
-                                    "value": "unicode property should not be read"
+                                    "value": "unicode property should not be read",
+                                    "raw": "'unicode property should not be read'"
                                   }
                                 ]
                               }
@@ -674,7 +681,8 @@
                         "type": "Literal",
                         "start": 1505,
                         "end": 1507,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 379,
-                "value": "Europe/Vienna"
+                "value": "Europe/Vienna",
+                "raw": "\"Europe/Vienna\""
               }
             ]
           }
@@ -103,7 +105,8 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 434,
-                "value": "en-US"
+                "value": "en-US",
+                "raw": "\"en-US\""
               },
               {
                 "type": "ObjectExpression",
@@ -127,7 +130,8 @@
                       "type": "Literal",
                       "start": 452,
                       "end": 459,
-                      "value": "short"
+                      "value": "short",
+                      "raw": "\"short\""
                     },
                     "kind": "init"
                   }
@@ -183,7 +187,8 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 514,
-                "value": "en-US"
+                "value": "en-US",
+                "raw": "\"en-US\""
               },
               {
                 "type": "ObjectExpression",
@@ -207,7 +212,8 @@
                       "type": "Literal",
                       "start": 532,
                       "end": 538,
-                      "value": "long"
+                      "value": "long",
+                      "raw": "\"long\""
                     },
                     "kind": "init"
                   }
@@ -264,7 +270,8 @@
             "type": "Literal",
             "start": 588,
             "end": 653,
-            "value": "formats with different timeZoneName options should be different"
+            "value": "formats with different timeZoneName options should be different",
+            "raw": "\"formats with different timeZoneName options should be different\""
           }
         ],
         "optional": false
@@ -313,7 +320,8 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 715,
-                "value": "Central European Standard Time"
+                "value": "Central European Standard Time",
+                "raw": "\"Central European Standard Time\""
               }
             ],
             "optional": false
@@ -322,7 +330,8 @@
             "type": "Literal",
             "start": 718,
             "end": 761,
-            "value": "time zone name can be written out in full"
+            "value": "time zone name can be written out in full",
+            "raw": "\"time zone name can be written out in full\""
           }
         ],
         "optional": false

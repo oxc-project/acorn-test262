@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 474,
-                  "value": "5n"
+                  "value": "5n",
+                  "raw": "0b101n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 478,
               "end": 484,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             }
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 494,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 549,
-            "value": "The result of (Object(0b101n) & 0b011n) is 0b001n"
+            "value": "The result of (Object(0b101n) & 0b011n) is 0b001n",
+            "raw": "'The result of (Object(0b101n) & 0b011n) is 0b001n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 574,
               "end": 580,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             },
             "operator": "&",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 596,
-                  "value": "5n"
+                  "value": "5n",
+                  "raw": "0b101n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 601,
             "end": 607,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 611,
             "end": 662,
-            "value": "The result of (0b011n & Object(0b101n)) is 0b001n"
+            "value": "The result of (0b011n & Object(0b101n)) is 0b001n",
+            "raw": "'The result of (0b011n & Object(0b101n)) is 0b001n'"
           }
         ],
         "optional": false
@@ -202,7 +210,8 @@
                   "type": "Literal",
                   "start": 694,
                   "end": 700,
-                  "value": "5n"
+                  "value": "5n",
+                  "raw": "0b101n"
                 }
               ],
               "optional": false
@@ -223,7 +232,8 @@
                   "type": "Literal",
                   "start": 711,
                   "end": 717,
-                  "value": "3n"
+                  "value": "3n",
+                  "raw": "0b011n"
                 }
               ],
               "optional": false
@@ -233,13 +243,15 @@
             "type": "Literal",
             "start": 722,
             "end": 728,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 791,
-            "value": "The result of (Object(0b101n) & Object(0b011n)) is 0b001n"
+            "value": "The result of (Object(0b101n) & Object(0b011n)) is 0b001n",
+            "raw": "'The result of (Object(0b101n) & Object(0b011n)) is 0b001n'"
           }
         ],
         "optional": false
@@ -369,7 +381,8 @@
                             "type": "Literal",
                             "start": 911,
                             "end": 917,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -426,20 +439,23 @@
               "type": "Literal",
               "start": 961,
               "end": 967,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             }
           },
           {
             "type": "Literal",
             "start": 969,
             "end": 975,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 1096,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) & 0b011n) is 0b001n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) & 0b011n) is 0b001n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) & 0b011n) is 0b001n'"
           }
         ],
         "optional": false
@@ -481,7 +497,8 @@
               "type": "Literal",
               "start": 1117,
               "end": 1123,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             },
             "operator": "&",
             "right": {
@@ -537,7 +554,8 @@
                             "type": "Literal",
                             "start": 1176,
                             "end": 1182,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -594,13 +612,15 @@
             "type": "Literal",
             "start": 1225,
             "end": 1231,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1350,
-            "value": "The result of (0b011n & {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b001n"
+            "value": "The result of (0b011n & {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b001n",
+            "raw": "'The result of (0b011n & {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b001n'"
           }
         ],
         "optional": false
@@ -678,7 +698,8 @@
                             "type": "Literal",
                             "start": 1408,
                             "end": 1414,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -714,20 +735,23 @@
               "type": "Literal",
               "start": 1442,
               "end": 1448,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             }
           },
           {
             "type": "Literal",
             "start": 1450,
             "end": 1456,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 1458,
             "end": 1550,
-            "value": "The result of (({valueOf: function() {return 0b101n;}, toString: err}) & 0b011n) is 0b001n"
+            "value": "The result of (({valueOf: function() {return 0b101n;}, toString: err}) & 0b011n) is 0b001n",
+            "raw": "'The result of (({valueOf: function() {return 0b101n;}, toString: err}) & 0b011n) is 0b001n'"
           }
         ],
         "optional": false
@@ -769,7 +793,8 @@
               "type": "Literal",
               "start": 1571,
               "end": 1577,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             },
             "operator": "&",
             "right": {
@@ -812,7 +837,8 @@
                             "type": "Literal",
                             "start": 1617,
                             "end": 1623,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -848,13 +874,15 @@
             "type": "Literal",
             "start": 1650,
             "end": 1656,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 1658,
             "end": 1748,
-            "value": "The result of (0b011n & {valueOf: function() {return 0b101n;}, toString: err}) is 0b001n"
+            "value": "The result of (0b011n & {valueOf: function() {return 0b101n;}, toString: err}) is 0b001n",
+            "raw": "'The result of (0b011n & {valueOf: function() {return 0b101n;}, toString: err}) is 0b001n'"
           }
         ],
         "optional": false
@@ -932,7 +960,8 @@
                             "type": "Literal",
                             "start": 1807,
                             "end": 1813,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -947,20 +976,23 @@
               "type": "Literal",
               "start": 1823,
               "end": 1829,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             }
           },
           {
             "type": "Literal",
             "start": 1831,
             "end": 1837,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 1839,
             "end": 1917,
-            "value": "The result of (({toString: function() {return 0b101n;}}) & 0b011n) is 0b001n"
+            "value": "The result of (({toString: function() {return 0b101n;}}) & 0b011n) is 0b001n",
+            "raw": "'The result of (({toString: function() {return 0b101n;}}) & 0b011n) is 0b001n'"
           }
         ],
         "optional": false
@@ -1002,7 +1034,8 @@
               "type": "Literal",
               "start": 1938,
               "end": 1944,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0b011n"
             },
             "operator": "&",
             "right": {
@@ -1045,7 +1078,8 @@
                             "type": "Literal",
                             "start": 1985,
                             "end": 1991,
-                            "value": "5n"
+                            "value": "5n",
+                            "raw": "0b101n"
                           }
                         }
                       ]
@@ -1060,13 +1094,15 @@
             "type": "Literal",
             "start": 2000,
             "end": 2006,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0b001n"
           },
           {
             "type": "Literal",
             "start": 2008,
             "end": 2084,
-            "value": "The result of (0b011n & {toString: function() {return 0b101n;}}) is 0b001n"
+            "value": "The result of (0b011n & {toString: function() {return 0b101n;}}) is 0b001n",
+            "raw": "'The result of (0b011n & {toString: function() {return 0b101n;}}) is 0b001n'"
           }
         ],
         "optional": false

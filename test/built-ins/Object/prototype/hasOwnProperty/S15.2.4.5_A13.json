@@ -109,13 +109,15 @@
                         "type": "Literal",
                         "start": 346,
                         "end": 350,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 352,
                         "end": 357,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       }
                     ],
                     "optional": false
@@ -128,7 +130,8 @@
             "type": "Literal",
             "start": 363,
             "end": 443,
-            "value": "Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception"
+            "value": "Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception",
+            "raw": "'Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception'"
           }
         ],
         "optional": false

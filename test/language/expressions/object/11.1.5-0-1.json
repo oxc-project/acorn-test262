@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 404,
             "end": 415,
-            "value": "In getter"
+            "value": "In getter",
+            "raw": "\"In getter\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 428,
             "end": 439,
-            "value": "In setter"
+            "value": "In setter",
+            "raw": "\"In setter\""
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 452,
             "end": 472,
-            "value": "Modified by setter"
+            "value": "Modified by setter",
+            "raw": "\"Modified by setter\""
           }
         }
       ],
@@ -117,7 +120,8 @@
             "type": "Literal",
             "start": 490,
             "end": 550,
-            "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};"
+            "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};",
+            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};\""
           }
         ],
         "optional": false
@@ -180,7 +184,8 @@
             "type": "Literal",
             "start": 582,
             "end": 589,
-            "value": "o.foo"
+            "value": "o.foo",
+            "raw": "'o.foo'"
           }
         ],
         "optional": false
@@ -218,7 +223,8 @@
           "type": "Literal",
           "start": 601,
           "end": 603,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       }
     },
@@ -266,7 +272,8 @@
             "type": "Literal",
             "start": 631,
             "end": 635,
-            "value": "s2"
+            "value": "s2",
+            "raw": "'s2'"
           }
         ],
         "optional": false

@@ -43,19 +43,22 @@
                 "type": "Literal",
                 "start": 546,
                 "end": 556,
-                "value": "toString"
+                "value": "toString",
+                "raw": "\"toString\""
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 567,
-                "value": "valueOf"
+                "value": "valueOf",
+                "raw": "\"valueOf\""
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 582,
-                "value": "toISOString"
+                "value": "toISOString",
+                "raw": "\"toISOString\""
               }
             ]
           },
@@ -205,7 +208,8 @@
                                             "type": "Literal",
                                             "start": 722,
                                             "end": 755,
-                                            "value": " lookup should not be performed"
+                                            "value": " lookup should not be performed",
+                                            "raw": "\" lookup should not be performed\""
                                           }
                                         }
                                       ]

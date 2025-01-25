@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 311,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 325,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -115,25 +119,29 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 375,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 377,
                 "end": 378,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 389,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -193,7 +201,8 @@
             "type": "Literal",
             "start": 419,
             "end": 463,
-            "value": "Equal if calendars and ISO dates are equal"
+            "value": "Equal if calendars and ISO dates are equal",
+            "raw": "\"Equal if calendars and ISO dates are equal\""
           }
         ],
         "optional": false
@@ -242,25 +251,29 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 511,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 513,
                 "end": 514,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 525,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               },
               {
                 "type": "Literal",
                 "start": 527,
                 "end": 528,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -311,25 +324,29 @@
                 "type": "Literal",
                 "start": 571,
                 "end": 575,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 577,
                 "end": 578,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 580,
                 "end": 589,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 592,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -396,7 +413,8 @@
             "type": "Literal",
             "start": 620,
             "end": 674,
-            "value": "Unequal if ISO dates are equal but calendars are not"
+            "value": "Unequal if ISO dates are equal but calendars are not",
+            "raw": "\"Unequal if ISO dates are equal but calendars are not\""
           }
         ],
         "optional": false

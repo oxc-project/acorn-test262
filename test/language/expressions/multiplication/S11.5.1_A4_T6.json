@@ -39,7 +39,8 @@
             "type": "Literal",
             "start": 445,
             "end": 448,
-            "value": 1.1
+            "value": 1.1,
+            "raw": "1.1"
           }
         },
         "operator": "!==",
@@ -91,7 +92,8 @@
                     "type": "Literal",
                     "start": 506,
                     "end": 573,
-                    "value": "#1: Number.MAX_VALUE * 1.1 === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#1: Number.MAX_VALUE * 1.1 === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#1: Number.MAX_VALUE * 1.1 === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -126,7 +128,8 @@
                         "type": "Literal",
                         "start": 596,
                         "end": 599,
-                        "value": 1.1
+                        "value": 1.1,
+                        "raw": "1.1"
                       }
                     }
                   }
@@ -160,7 +163,8 @@
               "type": "Literal",
               "start": 621,
               "end": 624,
-              "value": 1.1
+              "value": 1.1,
+              "raw": "1.1"
             }
           },
           "operator": "*",
@@ -233,7 +237,8 @@
                     "type": "Literal",
                     "start": 701,
                     "end": 769,
-                    "value": "#2: -1.1 * Number.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: "
+                    "value": "#2: -1.1 * Number.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: ",
+                    "raw": "'#2: -1.1 * Number.MAX_VALUE === Number.NEGATIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -254,7 +259,8 @@
                           "type": "Literal",
                           "start": 774,
                           "end": 777,
-                          "value": 1.1
+                          "value": 1.1,
+                          "raw": "1.1"
                         }
                       },
                       "operator": "*",
@@ -323,7 +329,8 @@
             "type": "Literal",
             "start": 837,
             "end": 838,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "operator": "!==",
@@ -375,7 +382,8 @@
                     "type": "Literal",
                     "start": 888,
                     "end": 945,
-                    "value": "#3: Number.MAX_VALUE * 1 === Number.MAX_VALUE. Actual: "
+                    "value": "#3: Number.MAX_VALUE * 1 === Number.MAX_VALUE. Actual: ",
+                    "raw": "'#3: Number.MAX_VALUE * 1 === Number.MAX_VALUE. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -410,7 +418,8 @@
                         "type": "Literal",
                         "start": 968,
                         "end": 969,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -444,7 +453,8 @@
               "type": "Literal",
               "start": 991,
               "end": 992,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           "operator": "*",
@@ -524,7 +534,8 @@
                     "type": "Literal",
                     "start": 1062,
                     "end": 1121,
-                    "value": "#4: -1 * Number.MAX_VALUE === -Number.MAX_VALUE. Actual: "
+                    "value": "#4: -1 * Number.MAX_VALUE === -Number.MAX_VALUE. Actual: ",
+                    "raw": "'#4: -1 * Number.MAX_VALUE === -Number.MAX_VALUE. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -545,7 +556,8 @@
                           "type": "Literal",
                           "start": 1126,
                           "end": 1127,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       "operator": "*",

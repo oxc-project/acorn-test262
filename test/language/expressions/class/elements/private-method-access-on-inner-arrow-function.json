@@ -64,7 +64,8 @@
                             "type": "Literal",
                             "start": 921,
                             "end": 930,
-                            "value": "Test262"
+                            "value": "Test262",
+                            "raw": "'Test262'"
                           }
                         }
                       ]
@@ -282,7 +283,8 @@
             "type": "Literal",
             "start": 1092,
             "end": 1101,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "'Test262'"
           }
         ],
         "optional": false
@@ -419,7 +421,8 @@
             "type": "Literal",
             "start": 1177,
             "end": 1226,
-            "value": "accessed private method from an ordinary object"
+            "value": "accessed private method from an ordinary object",
+            "raw": "'accessed private method from an ordinary object'"
           }
         ],
         "optional": false

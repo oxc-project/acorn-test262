@@ -21,7 +21,8 @@
             "type": "Literal",
             "start": 277,
             "end": 280,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           }
         },
         "operator": "!==",
@@ -29,7 +30,8 @@
           "type": "Literal",
           "start": 285,
           "end": 286,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -60,7 +62,8 @@
                     "type": "Literal",
                     "start": 315,
                     "end": 341,
-                    "value": "#1: +\"1\" === 1. Actual: "
+                    "value": "#1: +\"1\" === 1. Actual: ",
+                    "raw": "'#1: +\"1\" === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -77,7 +80,8 @@
                         "type": "Literal",
                         "start": 346,
                         "end": 349,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       }
                     }
                   }
@@ -118,7 +122,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 386,
-                "value": "-1"
+                "value": "-1",
+                "raw": "\"-1\""
               }
             ]
           }
@@ -134,7 +139,8 @@
             "type": "Literal",
             "start": 393,
             "end": 394,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -166,7 +172,8 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 463,
-                    "value": "#2: +new String(\"-1\") === -1. Actual: "
+                    "value": "#2: +new String(\"-1\") === -1. Actual: ",
+                    "raw": "'#2: +new String(\"-1\") === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -194,7 +201,8 @@
                             "type": "Literal",
                             "start": 479,
                             "end": 483,
-                            "value": "-1"
+                            "value": "-1",
+                            "raw": "\"-1\""
                           }
                         ]
                       }
@@ -237,7 +245,8 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 515,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             }
           ],
@@ -248,7 +257,8 @@
           "type": "Literal",
           "start": 521,
           "end": 525,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -279,7 +289,8 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 591,
-                    "value": "#3: +\"x\" === Not-a-Number. Actual: "
+                    "value": "#3: +\"x\" === Not-a-Number. Actual: ",
+                    "raw": "'#3: +\"x\" === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -296,7 +307,8 @@
                         "type": "Literal",
                         "start": 596,
                         "end": 599,
-                        "value": "x"
+                        "value": "x",
+                        "raw": "\"x\""
                       }
                     }
                   }
@@ -337,7 +349,8 @@
                 "type": "Literal",
                 "start": 627,
                 "end": 637,
-                "value": "INFINITY"
+                "value": "INFINITY",
+                "raw": "\"INFINITY\""
               }
             }
           ],
@@ -348,7 +361,8 @@
           "type": "Literal",
           "start": 643,
           "end": 647,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -379,7 +393,8 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 720,
-                    "value": "#4: +\"INFINITY\" === Not-a-Number. Actual: "
+                    "value": "#4: +\"INFINITY\" === Not-a-Number. Actual: ",
+                    "raw": "'#4: +\"INFINITY\" === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -396,7 +411,8 @@
                         "type": "Literal",
                         "start": 725,
                         "end": 735,
-                        "value": "INFINITY"
+                        "value": "INFINITY",
+                        "raw": "\"INFINITY\""
                       }
                     }
                   }
@@ -437,7 +453,8 @@
                 "type": "Literal",
                 "start": 763,
                 "end": 773,
-                "value": "infinity"
+                "value": "infinity",
+                "raw": "\"infinity\""
               }
             }
           ],
@@ -448,7 +465,8 @@
           "type": "Literal",
           "start": 779,
           "end": 783,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -479,7 +497,8 @@
                     "type": "Literal",
                     "start": 812,
                     "end": 856,
-                    "value": "#5: +\"infinity\" === Not-a-Number. Actual: "
+                    "value": "#5: +\"infinity\" === Not-a-Number. Actual: ",
+                    "raw": "'#5: +\"infinity\" === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -496,7 +515,8 @@
                         "type": "Literal",
                         "start": 861,
                         "end": 871,
-                        "value": "infinity"
+                        "value": "infinity",
+                        "raw": "\"infinity\""
                       }
                     }
                   }

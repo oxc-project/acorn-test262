@@ -44,6 +44,7 @@
                 "start": 1202,
                 "end": 1207,
                 "value": {},
+                "raw": "/a/yg",
                 "regex": {
                   "pattern": "a",
                   "flags": "yg"
@@ -76,13 +77,15 @@
                 "type": "Literal",
                 "start": 1224,
                 "end": 1230,
-                "value": "aaba"
+                "value": "aaba",
+                "raw": "'aaba'"
               },
               {
                 "type": "Literal",
                 "start": 1232,
                 "end": 1235,
-                "value": "x"
+                "value": "x",
+                "raw": "'x'"
               }
             ],
             "optional": false
@@ -91,7 +94,8 @@
             "type": "Literal",
             "start": 1238,
             "end": 1244,
-            "value": "xxba"
+            "value": "xxba",
+            "raw": "'xxba'"
           }
         ],
         "optional": false

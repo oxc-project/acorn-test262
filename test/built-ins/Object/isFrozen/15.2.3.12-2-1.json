@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 321,
             "end": 329,
-            "value": "Father"
+            "value": "Father",
+            "raw": "\"Father\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 342,
                   "end": 344,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 363,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 381,
                   "end": 385,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -334,7 +338,8 @@
             "type": "Literal",
             "start": 529,
             "end": 562,
-            "value": "Object.isFrozen(child) !== true"
+            "value": "Object.isFrozen(child) !== true",
+            "raw": "'Object.isFrozen(child) !== true'"
           }
         ],
         "optional": false

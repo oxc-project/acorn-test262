@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 293,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -113,7 +114,8 @@
                   "type": "Literal",
                   "start": 306,
                   "end": 307,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -129,14 +131,16 @@
               "type": "Literal",
               "start": 313,
               "end": 314,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 382,
-            "value": "Array.prototype.reduce.call(true, () => {}, -1) must return -1"
+            "value": "Array.prototype.reduce.call(true, () => {}, -1) must return -1",
+            "raw": "'Array.prototype.reduce.call(true, () => {}, -1) must return -1'"
           }
         ],
         "optional": false
@@ -224,7 +228,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 439,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -252,7 +257,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 453,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -268,14 +274,16 @@
               "type": "Literal",
               "start": 459,
               "end": 460,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 529,
-            "value": "Array.prototype.reduce.call(false, () => {}, -1) must return -1"
+            "value": "Array.prototype.reduce.call(false, () => {}, -1) must return -1",
+            "raw": "'Array.prototype.reduce.call(false, () => {}, -1) must return -1'"
           }
         ],
         "optional": false

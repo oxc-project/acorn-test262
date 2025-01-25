@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 555,
             "end": 556,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -253,7 +254,8 @@
                         "type": "Literal",
                         "start": 745,
                         "end": 749,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -266,7 +268,8 @@
             "type": "Literal",
             "start": 755,
             "end": 770,
-            "value": "mapfn is null"
+            "value": "mapfn is null",
+            "raw": "\"mapfn is null\""
           }
         ],
         "optional": false
@@ -358,7 +361,8 @@
                         "type": "Literal",
                         "start": 841,
                         "end": 843,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -371,7 +375,8 @@
             "type": "Literal",
             "start": 849,
             "end": 868,
-            "value": "mapfn is a number"
+            "value": "mapfn is a number",
+            "raw": "\"mapfn is a number\""
           }
         ],
         "optional": false
@@ -463,7 +468,8 @@
                         "type": "Literal",
                         "start": 939,
                         "end": 941,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -476,7 +482,8 @@
             "type": "Literal",
             "start": 947,
             "end": 966,
-            "value": "mapfn is a string"
+            "value": "mapfn is a string",
+            "raw": "\"mapfn is a string\""
           }
         ],
         "optional": false
@@ -581,7 +588,8 @@
             "type": "Literal",
             "start": 1045,
             "end": 1074,
-            "value": "mapfn is an ordinary object"
+            "value": "mapfn is an ordinary object",
+            "raw": "\"mapfn is an ordinary object\""
           }
         ],
         "optional": false
@@ -686,7 +694,8 @@
             "type": "Literal",
             "start": 1153,
             "end": 1172,
-            "value": "mapfn is an array"
+            "value": "mapfn is an array",
+            "raw": "\"mapfn is an array\""
           }
         ],
         "optional": false
@@ -778,7 +787,8 @@
                         "type": "Literal",
                         "start": 1243,
                         "end": 1247,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -791,7 +801,8 @@
             "type": "Literal",
             "start": 1253,
             "end": 1273,
-            "value": "mapfn is a boolean"
+            "value": "mapfn is a boolean",
+            "raw": "\"mapfn is a boolean\""
           }
         ],
         "optional": false
@@ -827,7 +838,8 @@
                 "type": "Literal",
                 "start": 1292,
                 "end": 1295,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -935,7 +947,8 @@
             "type": "Literal",
             "start": 1372,
             "end": 1391,
-            "value": "mapfn is a symbol"
+            "value": "mapfn is a symbol",
+            "raw": "\"mapfn is a symbol\""
           }
         ],
         "optional": false
@@ -979,13 +992,15 @@
             "type": "Literal",
             "start": 1428,
             "end": 1429,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1433,
             "end": 1499,
-            "value": "IsCallable(mapfn) check occurs before getting source[@@iterator]"
+            "value": "IsCallable(mapfn) check occurs before getting source[@@iterator]",
+            "raw": "\"IsCallable(mapfn) check occurs before getting source[@@iterator]\""
           }
         ],
         "optional": false

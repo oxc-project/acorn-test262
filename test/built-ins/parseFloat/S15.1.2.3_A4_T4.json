@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 383,
               "end": 394,
-              "value": "Infinity1"
+              "value": "Infinity1",
+              "raw": "\"Infinity1\""
             }
           ],
           "optional": false
@@ -80,7 +81,8 @@
                     "type": "Literal",
                     "start": 453,
                     "end": 521,
-                    "value": "#1: parseFloat(\"Infinity1\") === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#1: parseFloat(\"Infinity1\") === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#1: parseFloat(\"Infinity1\") === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +104,8 @@
                           "type": "Literal",
                           "start": 536,
                           "end": 547,
-                          "value": "Infinity1"
+                          "value": "Infinity1",
+                          "raw": "\"Infinity1\""
                         }
                       ],
                       "optional": false
@@ -139,7 +142,8 @@
               "type": "Literal",
               "start": 580,
               "end": 591,
-              "value": "Infinityx"
+              "value": "Infinityx",
+              "raw": "\"Infinityx\""
             }
           ],
           "optional": false
@@ -193,7 +197,8 @@
                     "type": "Literal",
                     "start": 650,
                     "end": 718,
-                    "value": "#2: parseFloat(\"Infinityx\") === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#2: parseFloat(\"Infinityx\") === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#2: parseFloat(\"Infinityx\") === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -215,7 +220,8 @@
                           "type": "Literal",
                           "start": 733,
                           "end": 744,
-                          "value": "Infinityx"
+                          "value": "Infinityx",
+                          "raw": "\"Infinityx\""
                         }
                       ],
                       "optional": false
@@ -252,7 +258,8 @@
               "type": "Literal",
               "start": 777,
               "end": 789,
-              "value": "Infinity+1"
+              "value": "Infinity+1",
+              "raw": "\"Infinity+1\""
             }
           ],
           "optional": false
@@ -306,7 +313,8 @@
                     "type": "Literal",
                     "start": 848,
                     "end": 917,
-                    "value": "#3: parseFloat(\"Infinity+1\") === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#3: parseFloat(\"Infinity+1\") === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#3: parseFloat(\"Infinity+1\") === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -328,7 +336,8 @@
                           "type": "Literal",
                           "start": 932,
                           "end": 944,
-                          "value": "Infinity+1"
+                          "value": "Infinity+1",
+                          "raw": "\"Infinity+1\""
                         }
                       ],
                       "optional": false

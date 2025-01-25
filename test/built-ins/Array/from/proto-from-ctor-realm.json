@@ -137,7 +137,8 @@
           "type": "Literal",
           "start": 820,
           "end": 824,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -309,7 +310,8 @@
             "type": "Literal",
             "start": 934,
             "end": 1012,
-            "value": "Object.getPrototypeOf(Array.from.call(C, [])) returns other.Object.prototype"
+            "value": "Object.getPrototypeOf(Array.from.call(C, [])) returns other.Object.prototype",
+            "raw": "'Object.getPrototypeOf(Array.from.call(C, [])) returns other.Object.prototype'"
           }
         ],
         "optional": false

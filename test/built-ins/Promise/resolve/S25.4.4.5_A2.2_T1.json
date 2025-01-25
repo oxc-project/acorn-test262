@@ -199,7 +199,8 @@
             "type": "Literal",
             "start": 396,
             "end": 450,
-            "value": "The value of p1 is expected to equal the value of p2"
+            "value": "The value of p1 is expected to equal the value of p2",
+            "raw": "'The value of p1 is expected to equal the value of p2'"
           }
         ],
         "optional": false
@@ -306,7 +307,8 @@
                             "type": "Literal",
                             "start": 513,
                             "end": 572,
-                            "value": "The value of result is expected to equal the value of arg"
+                            "value": "The value of result is expected to equal the value of arg",
+                            "raw": "'The value of result is expected to equal the value of arg'"
                           }
                         ],
                         "optional": false

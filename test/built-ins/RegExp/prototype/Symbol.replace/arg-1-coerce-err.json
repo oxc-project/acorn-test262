@@ -143,6 +143,7 @@
                         "start": 536,
                         "end": 539,
                         "value": {},
+                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""

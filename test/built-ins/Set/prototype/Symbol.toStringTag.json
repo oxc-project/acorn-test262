@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 567,
             "end": 572,
-            "value": "Set"
+            "value": "Set",
+            "raw": "'Set'"
           }
         ],
         "optional": false
@@ -161,7 +162,8 @@
                   "type": "Literal",
                   "start": 640,
                   "end": 645,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -182,7 +184,8 @@
                   "type": "Literal",
                   "start": 661,
                   "end": 666,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -203,7 +206,8 @@
                   "type": "Literal",
                   "start": 684,
                   "end": 688,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 295,
                 "end": 306,
-                "value": "\"\\u0058\""
+                "value": "\"\\u0058\"",
+                "raw": "'\"\\\\u0058\"'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 309,
             "end": 312,
-            "value": "X"
+            "value": "X",
+            "raw": "'X'"
           },
           {
             "type": "Literal",
             "start": 314,
             "end": 341,
-            "value": "JSON.parse('\"\\u0058\"')"
+            "value": "JSON.parse('\"\\u0058\"')",
+            "raw": "'JSON.parse(\\'\"\\\\u0058\"\\')'"
           }
         ],
         "optional": false

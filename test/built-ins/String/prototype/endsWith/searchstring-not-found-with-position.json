@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 878,
             "end": 899,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -84,7 +85,8 @@
                 "type": "Literal",
                 "start": 935,
                 "end": 945,
-                "value": "is cool!"
+                "value": "is cool!",
+                "raw": "'is cool!'"
               },
               {
                 "type": "BinaryExpression",
@@ -114,7 +116,8 @@
                   "type": "Literal",
                   "start": 960,
                   "end": 961,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -124,13 +127,15 @@
             "type": "Literal",
             "start": 964,
             "end": 969,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 973,
             "end": 1025,
-            "value": "str.endsWith(\"is cool!\", str.length - 1) === false"
+            "value": "str.endsWith(\"is cool!\", str.length - 1) === false",
+            "raw": "'str.endsWith(\"is cool!\", str.length - 1) === false'"
           }
         ],
         "optional": false
@@ -192,13 +197,15 @@
                 "type": "Literal",
                 "start": 1063,
                 "end": 1066,
-                "value": "!"
+                "value": "!",
+                "raw": "'!'"
               },
               {
                 "type": "Literal",
                 "start": 1068,
                 "end": 1069,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -207,13 +214,15 @@
             "type": "Literal",
             "start": 1072,
             "end": 1077,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1081,
             "end": 1113,
-            "value": "str.endsWith(\"!\", 1) === false"
+            "value": "str.endsWith(\"!\", 1) === false",
+            "raw": "'str.endsWith(\"!\", 1) === false'"
           }
         ],
         "optional": false

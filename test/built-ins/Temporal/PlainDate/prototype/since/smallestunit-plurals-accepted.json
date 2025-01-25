@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 356,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 359,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 362,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -109,19 +112,22 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 406,
-                "value": 2001
+                "value": 2001,
+                "raw": "2001"
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 409,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 413,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -153,25 +159,29 @@
                 "type": "Literal",
                 "start": 439,
                 "end": 445,
-                "value": "year"
+                "value": "year",
+                "raw": "\"year\""
               },
               {
                 "type": "Literal",
                 "start": 449,
                 "end": 456,
-                "value": "month"
+                "value": "month",
+                "raw": "\"month\""
               },
               {
                 "type": "Literal",
                 "start": 460,
                 "end": 466,
-                "value": "week"
+                "value": "week",
+                "raw": "\"week\""
               },
               {
                 "type": "Literal",
                 "start": 470,
                 "end": 475,
-                "value": "day"
+                "value": "day",
+                "raw": "\"day\""
               }
             ]
           }

@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 391,
                         "end": 395,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -307,7 +308,8 @@
                               "type": "Literal",
                               "start": 562,
                               "end": 582,
-                              "value": "attempted toString"
+                              "value": "attempted toString",
+                              "raw": "'attempted toString'"
                             }
                           ]
                         }

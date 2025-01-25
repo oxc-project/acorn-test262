@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 313,
             "end": 324,
-            "value": "arguments"
+            "value": "arguments",
+            "raw": "'arguments'"
           }
         ],
         "optional": false

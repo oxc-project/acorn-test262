@@ -34,7 +34,8 @@
                 "type": "Literal",
                 "start": 798,
                 "end": 800,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               "operator": "in",
               "right": {
@@ -189,13 +190,15 @@
                         "type": "Literal",
                         "start": 883,
                         "end": 885,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "value": {
                         "type": "Literal",
                         "start": 887,
                         "end": 888,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "kind": "init"
                     }
@@ -217,7 +220,8 @@
             "type": "Literal",
             "start": 898,
             "end": 902,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false
@@ -364,7 +368,8 @@
             "type": "Literal",
             "start": 983,
             "end": 988,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

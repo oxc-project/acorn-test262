@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 350,
             "end": 351,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -151,7 +152,8 @@
                                 "type": "Literal",
                                 "start": 443,
                                 "end": 463,
-                                "value": "argument at index "
+                                "value": "argument at index ",
+                                "raw": "'argument at index '"
                               },
                               "operator": "+",
                               "right": {
@@ -194,31 +196,36 @@
               "type": "Literal",
               "start": 485,
               "end": 486,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 488,
               "end": 491,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             },
             {
               "type": "Literal",
               "start": 493,
               "end": 497,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             {
               "type": "Literal",
               "start": 499,
               "end": 504,
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             {
               "type": "Literal",
               "start": 506,
               "end": 510,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "Identifier",
@@ -275,13 +282,15 @@
             "type": "Literal",
             "start": 551,
             "end": 552,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 576,
-            "value": "Visits all arguments"
+            "value": "Visits all arguments",
+            "raw": "'Visits all arguments'"
           }
         ],
         "optional": false

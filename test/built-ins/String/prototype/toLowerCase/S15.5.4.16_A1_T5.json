@@ -45,7 +45,8 @@
                         "type": "Literal",
                         "start": 464,
                         "end": 474,
-                        "value": "GnulLuNa"
+                        "value": "GnulLuNa",
+                        "raw": "\"GnulLuNa\""
                       }
                     }
                   ]
@@ -71,7 +72,8 @@
           "type": "Literal",
           "start": 499,
           "end": 509,
-          "value": "gnulluna"
+          "value": "gnulluna",
+          "raw": "\"gnulluna\""
         }
       },
       "consequent": {
@@ -102,7 +104,8 @@
                     "type": "Literal",
                     "start": 538,
                     "end": 614,
-                    "value": "#1: function(){return \"GnulLuNa\"}().toLowerCase() === \"gnulluna\". Actual: "
+                    "value": "#1: function(){return \"GnulLuNa\"}().toLowerCase() === \"gnulluna\". Actual: ",
+                    "raw": "'#1: function(){return \"GnulLuNa\"}().toLowerCase() === \"gnulluna\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -139,7 +142,8 @@
                                   "type": "Literal",
                                   "start": 641,
                                   "end": 651,
-                                  "value": "GnulLuNa"
+                                  "value": "GnulLuNa",
+                                  "raw": "\"GnulLuNa\""
                                 }
                               }
                             ]

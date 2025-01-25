@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 539,
                 "end": 540,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 542,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -143,7 +146,8 @@
                     "type": "Literal",
                     "start": 607,
                     "end": 619,
-                    "value": "2020-02-28"
+                    "value": "2020-02-28",
+                    "raw": "\"2020-02-28\""
                   }
                 ],
                 "optional": false
@@ -171,31 +175,36 @@
             "type": "Literal",
             "start": 633,
             "end": 637,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 640,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 647,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 651,
-            "value": 14
+            "value": 14,
+            "raw": "14"
           },
           {
             "type": "Literal",
             "start": 657,
             "end": 736,
-            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year"
+            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year",
+            "raw": "\"add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year\""
           }
         ],
         "optional": false
@@ -278,7 +287,8 @@
                     "type": "Literal",
                     "start": 800,
                     "end": 812,
-                    "value": "2020-02-29"
+                    "value": "2020-02-29",
+                    "raw": "\"2020-02-29\""
                   }
                 ],
                 "optional": false
@@ -306,31 +316,36 @@
             "type": "Literal",
             "start": 826,
             "end": 830,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 833,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 840,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 842,
             "end": 844,
-            "value": 14
+            "value": 14,
+            "raw": "14"
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 929,
-            "value": "add 1 year and 2 weeks to Feb 29 and cause roll into March in a non leap year"
+            "value": "add 1 year and 2 weeks to Feb 29 and cause roll into March in a non leap year",
+            "raw": "\"add 1 year and 2 weeks to Feb 29 and cause roll into March in a non leap year\""
           }
         ],
         "optional": false
@@ -413,7 +428,8 @@
                     "type": "Literal",
                     "start": 993,
                     "end": 1005,
-                    "value": "2019-02-28"
+                    "value": "2019-02-28",
+                    "raw": "\"2019-02-28\""
                   }
                 ],
                 "optional": false
@@ -441,31 +457,36 @@
             "type": "Literal",
             "start": 1019,
             "end": 1023,
-            "value": 2020
+            "value": 2020,
+            "raw": "2020"
           },
           {
             "type": "Literal",
             "start": 1025,
             "end": 1026,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1033,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 1035,
             "end": 1037,
-            "value": 13
+            "value": 13,
+            "raw": "13"
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1118,
-            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a leap year"
+            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a leap year",
+            "raw": "\"add 1 year and 2 weeks to Feb 28 and cause roll into March in a leap year\""
           }
         ],
         "optional": false
@@ -548,7 +569,8 @@
                     "type": "Literal",
                     "start": 1182,
                     "end": 1194,
-                    "value": "2021-02-28"
+                    "value": "2021-02-28",
+                    "raw": "\"2021-02-28\""
                   }
                 ],
                 "optional": false
@@ -576,31 +598,36 @@
             "type": "Literal",
             "start": 1208,
             "end": 1212,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1215,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1217,
             "end": 1222,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 1224,
             "end": 1226,
-            "value": 14
+            "value": 14,
+            "raw": "14"
           },
           {
             "type": "Literal",
             "start": 1232,
             "end": 1311,
-            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year"
+            "value": "add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year",
+            "raw": "\"add 1 year and 2 weeks to Feb 28 and cause roll into March in a non leap year\""
           }
         ],
         "optional": false
@@ -683,7 +710,8 @@
                     "type": "Literal",
                     "start": 1375,
                     "end": 1387,
-                    "value": "2020-12-28"
+                    "value": "2020-12-28",
+                    "raw": "\"2020-12-28\""
                   }
                 ],
                 "optional": false
@@ -711,31 +739,36 @@
             "type": "Literal",
             "start": 1401,
             "end": 1405,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 1407,
             "end": 1408,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1410,
             "end": 1415,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 1417,
             "end": 1419,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 1425,
             "end": 1480,
-            "value": "add 1 year and 2 weeks and cause roll into a new year"
+            "value": "add 1 year and 2 weeks and cause roll into a new year",
+            "raw": "\"add 1 year and 2 weeks and cause roll into a new year\""
           }
         ],
         "optional": false

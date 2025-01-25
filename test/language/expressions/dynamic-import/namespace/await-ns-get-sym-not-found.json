@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 4043,
+  "end": 4035,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 3847,
-      "end": 4003,
+      "start": 3839,
+      "end": 3995,
       "id": {
         "type": "Identifier",
-        "start": 3862,
-        "end": 3864,
+        "start": 3854,
+        "end": 3856,
         "name": "fn"
       },
       "expression": false,
@@ -19,37 +19,38 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 3867,
-        "end": 4003,
+        "start": 3859,
+        "end": 3995,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 3873,
-            "end": 3925,
+            "start": 3865,
+            "end": 3917,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 3879,
-                "end": 3924,
+                "start": 3871,
+                "end": 3916,
                 "id": {
                   "type": "Identifier",
-                  "start": 3879,
-                  "end": 3881,
+                  "start": 3871,
+                  "end": 3873,
                   "name": "ns"
                 },
                 "init": {
                   "type": "AwaitExpression",
-                  "start": 3884,
-                  "end": 3924,
+                  "start": 3876,
+                  "end": 3916,
                   "argument": {
                     "type": "ImportExpression",
-                    "start": 3890,
-                    "end": 3924,
+                    "start": 3882,
+                    "end": 3916,
                     "source": {
                       "type": "Literal",
-                      "start": 3897,
-                      "end": 3923,
-                      "value": "./module-code_FIXTURE.js"
+                      "start": 3889,
+                      "end": 3915,
+                      "value": "./module-code_FIXTURE.js",
+                      "raw": "'./module-code_FIXTURE.js'"
                     },
                     "options": null
                   }
@@ -60,26 +61,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 3931,
-            "end": 4001,
+            "start": 3923,
+            "end": 3993,
             "expression": {
               "type": "CallExpression",
-              "start": 3931,
-              "end": 4000,
+              "start": 3923,
+              "end": 3992,
               "callee": {
                 "type": "MemberExpression",
-                "start": 3931,
-                "end": 3947,
+                "start": 3923,
+                "end": 3939,
                 "object": {
                   "type": "Identifier",
-                  "start": 3931,
-                  "end": 3937,
+                  "start": 3923,
+                  "end": 3929,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 3938,
-                  "end": 3947,
+                  "start": 3930,
+                  "end": 3939,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -88,30 +89,31 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 3948,
-                  "end": 3969,
+                  "start": 3940,
+                  "end": 3961,
                   "object": {
                     "type": "Identifier",
-                    "start": 3948,
-                    "end": 3950,
+                    "start": 3940,
+                    "end": 3942,
                     "name": "ns"
                   },
                   "property": {
                     "type": "CallExpression",
-                    "start": 3951,
-                    "end": 3968,
+                    "start": 3943,
+                    "end": 3960,
                     "callee": {
                       "type": "Identifier",
-                      "start": 3951,
-                      "end": 3957,
+                      "start": 3943,
+                      "end": 3949,
                       "name": "Symbol"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 3958,
-                        "end": 3967,
-                        "value": "test262"
+                        "start": 3950,
+                        "end": 3959,
+                        "value": "test262",
+                        "raw": "'test262'"
                       }
                     ],
                     "optional": false
@@ -121,15 +123,16 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 3971,
-                  "end": 3980,
+                  "start": 3963,
+                  "end": 3972,
                   "name": "undefined"
                 },
                 {
                   "type": "Literal",
-                  "start": 3982,
-                  "end": 3999,
-                  "value": "Symbol: test262"
+                  "start": 3974,
+                  "end": 3991,
+                  "value": "Symbol: test262",
+                  "raw": "'Symbol: test262'"
                 }
               ],
               "optional": false
@@ -140,32 +143,32 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4005,
-      "end": 4042,
+      "start": 3997,
+      "end": 4034,
       "expression": {
         "type": "CallExpression",
-        "start": 4005,
-        "end": 4041,
+        "start": 3997,
+        "end": 4033,
         "callee": {
           "type": "MemberExpression",
-          "start": 4005,
-          "end": 4034,
+          "start": 3997,
+          "end": 4026,
           "object": {
             "type": "CallExpression",
-            "start": 4005,
-            "end": 4028,
+            "start": 3997,
+            "end": 4020,
             "callee": {
               "type": "MemberExpression",
-              "start": 4005,
-              "end": 4014,
+              "start": 3997,
+              "end": 4006,
               "object": {
                 "type": "CallExpression",
-                "start": 4005,
-                "end": 4009,
+                "start": 3997,
+                "end": 4001,
                 "callee": {
                   "type": "Identifier",
-                  "start": 4005,
-                  "end": 4007,
+                  "start": 3997,
+                  "end": 3999,
                   "name": "fn"
                 },
                 "arguments": [],
@@ -173,8 +176,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 4010,
-                "end": 4014,
+                "start": 4002,
+                "end": 4006,
                 "name": "then"
               },
               "computed": false,
@@ -183,14 +186,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 4015,
-                "end": 4020,
+                "start": 4007,
+                "end": 4012,
                 "name": "$DONE"
               },
               {
                 "type": "Identifier",
-                "start": 4022,
-                "end": 4027,
+                "start": 4014,
+                "end": 4019,
                 "name": "$DONE"
               }
             ],
@@ -198,8 +201,8 @@
           },
           "property": {
             "type": "Identifier",
-            "start": 4029,
-            "end": 4034,
+            "start": 4021,
+            "end": 4026,
             "name": "catch"
           },
           "computed": false,
@@ -208,8 +211,8 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 4035,
-            "end": 4040,
+            "start": 4027,
+            "end": 4032,
             "name": "$DONE"
           }
         ],

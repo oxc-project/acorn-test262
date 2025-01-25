@@ -71,7 +71,8 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 391,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -84,7 +85,8 @@
                     "type": "Literal",
                     "start": 395,
                     "end": 396,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -203,13 +205,15 @@
                 "type": "Literal",
                 "start": 459,
                 "end": 460,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 463,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           },
@@ -217,7 +221,8 @@
             "type": "Literal",
             "start": 466,
             "end": 512,
-            "value": "The value of actual is expected to be [1, 2]"
+            "value": "The value of actual is expected to be [1, 2]",
+            "raw": "'The value of actual is expected to be [1, 2]'"
           }
         ],
         "optional": false
@@ -260,7 +265,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 533,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "kind": "init"
             },
@@ -275,7 +281,8 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "value": {
                 "type": "ArrayExpression",
@@ -286,7 +293,8 @@
                     "type": "Literal",
                     "start": 541,
                     "end": 542,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -402,7 +410,8 @@
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -410,7 +419,8 @@
             "type": "Literal",
             "start": 607,
             "end": 650,
-            "value": "The value of actual is expected to be [1]"
+            "value": "The value of actual is expected to be [1]",
+            "raw": "'The value of actual is expected to be [1]'"
           }
         ],
         "optional": false
@@ -468,7 +478,8 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 684,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "value": {
                 "type": "ArrayExpression",
@@ -479,7 +490,8 @@
                     "type": "Literal",
                     "start": 687,
                     "end": 688,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -596,7 +608,8 @@
             "type": "Literal",
             "start": 752,
             "end": 794,
-            "value": "The value of actual is expected to be []"
+            "value": "The value of actual is expected to be []",
+            "raw": "'The value of actual is expected to be []'"
           }
         ],
         "optional": false

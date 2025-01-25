@@ -79,7 +79,8 @@
                 "type": "Literal",
                 "start": 2486,
                 "end": 2488,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               }
             ]
           }
@@ -172,7 +173,8 @@
                                       "type": "Literal",
                                       "start": 2543,
                                       "end": 2581,
-                                      "value": "The property should not be accessed."
+                                      "value": "The property should not be accessed.",
+                                      "raw": "'The property should not be accessed.'"
                                     }
                                   ]
                                 }
@@ -258,7 +260,8 @@
                   "type": "Literal",
                   "start": 2634,
                   "end": 2636,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               }
             ]
@@ -310,7 +313,8 @@
             "type": "Literal",
             "start": 2674,
             "end": 2676,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           }
         ],
         "optional": false

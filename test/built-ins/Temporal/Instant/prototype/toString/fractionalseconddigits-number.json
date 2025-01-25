@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 334,
-                "value": "192258181000000000n"
+                "value": "192258181000000000n",
+                "raw": "192_258_181_000_000_000n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 380,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -148,7 +150,8 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 440,
-                "value": "30000000000n"
+                "value": "30000000000n",
+                "raw": "30_000_000_000n"
               }
             ]
           }
@@ -199,7 +202,8 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 498,
-                "value": "30123400000n"
+                "value": "30123400000n",
+                "raw": "30_123_400_000n"
               }
             ]
           }
@@ -281,7 +285,8 @@
                       "type": "Literal",
                       "start": 565,
                       "end": 566,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "kind": "init"
                   }
@@ -294,13 +299,15 @@
             "type": "Literal",
             "start": 571,
             "end": 593,
-            "value": "1976-02-04T05:03:01Z"
+            "value": "1976-02-04T05:03:01Z",
+            "raw": "\"1976-02-04T05:03:01Z\""
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 616,
-            "value": "pads parts with 0"
+            "value": "pads parts with 0",
+            "raw": "\"pads parts with 0\""
           }
         ],
         "optional": false
@@ -380,7 +387,8 @@
                       "type": "Literal",
                       "start": 682,
                       "end": 683,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "kind": "init"
                   }
@@ -393,13 +401,15 @@
             "type": "Literal",
             "start": 688,
             "end": 710,
-            "value": "1970-01-01T00:00:30Z"
+            "value": "1970-01-01T00:00:30Z",
+            "raw": "\"1970-01-01T00:00:30Z\""
           },
           {
             "type": "Literal",
             "start": 714,
             "end": 747,
-            "value": "truncates 4 decimal places to 0"
+            "value": "truncates 4 decimal places to 0",
+            "raw": "\"truncates 4 decimal places to 0\""
           }
         ],
         "optional": false
@@ -479,7 +489,8 @@
                       "type": "Literal",
                       "start": 814,
                       "end": 815,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   }
@@ -492,13 +503,15 @@
             "type": "Literal",
             "start": 820,
             "end": 845,
-            "value": "1970-01-01T00:00:00.00Z"
+            "value": "1970-01-01T00:00:00.00Z",
+            "raw": "\"1970-01-01T00:00:00.00Z\""
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 888,
-            "value": "pads zero seconds to 2 decimal places"
+            "value": "pads zero seconds to 2 decimal places",
+            "raw": "\"pads zero seconds to 2 decimal places\""
           }
         ],
         "optional": false
@@ -578,7 +591,8 @@
                       "type": "Literal",
                       "start": 956,
                       "end": 957,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   }
@@ -591,13 +605,15 @@
             "type": "Literal",
             "start": 962,
             "end": 987,
-            "value": "1970-01-01T00:00:30.00Z"
+            "value": "1970-01-01T00:00:30.00Z",
+            "raw": "\"1970-01-01T00:00:30.00Z\""
           },
           {
             "type": "Literal",
             "start": 991,
             "end": 1031,
-            "value": "pads whole seconds to 2 decimal places"
+            "value": "pads whole seconds to 2 decimal places",
+            "raw": "\"pads whole seconds to 2 decimal places\""
           }
         ],
         "optional": false
@@ -677,7 +693,8 @@
                       "type": "Literal",
                       "start": 1097,
                       "end": 1098,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   }
@@ -690,13 +707,15 @@
             "type": "Literal",
             "start": 1103,
             "end": 1128,
-            "value": "1970-01-01T00:00:30.12Z"
+            "value": "1970-01-01T00:00:30.12Z",
+            "raw": "\"1970-01-01T00:00:30.12Z\""
           },
           {
             "type": "Literal",
             "start": 1132,
             "end": 1165,
-            "value": "truncates 4 decimal places to 2"
+            "value": "truncates 4 decimal places to 2",
+            "raw": "\"truncates 4 decimal places to 2\""
           }
         ],
         "optional": false
@@ -776,7 +795,8 @@
                       "type": "Literal",
                       "start": 1231,
                       "end": 1232,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -789,13 +809,15 @@
             "type": "Literal",
             "start": 1237,
             "end": 1263,
-            "value": "1970-01-01T00:00:30.123Z"
+            "value": "1970-01-01T00:00:30.123Z",
+            "raw": "\"1970-01-01T00:00:30.123Z\""
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1300,
-            "value": "truncates 4 decimal places to 3"
+            "value": "truncates 4 decimal places to 3",
+            "raw": "\"truncates 4 decimal places to 3\""
           }
         ],
         "optional": false
@@ -875,7 +897,8 @@
                       "type": "Literal",
                       "start": 1366,
                       "end": 1367,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -888,13 +911,15 @@
             "type": "Literal",
             "start": 1372,
             "end": 1401,
-            "value": "1970-01-01T00:00:30.123400Z"
+            "value": "1970-01-01T00:00:30.123400Z",
+            "raw": "\"1970-01-01T00:00:30.123400Z\""
           },
           {
             "type": "Literal",
             "start": 1405,
             "end": 1433,
-            "value": "pads 4 decimal places to 6"
+            "value": "pads 4 decimal places to 6",
+            "raw": "\"pads 4 decimal places to 6\""
           }
         ],
         "optional": false
@@ -974,7 +999,8 @@
                       "type": "Literal",
                       "start": 1500,
                       "end": 1501,
-                      "value": 7
+                      "value": 7,
+                      "raw": "7"
                     },
                     "kind": "init"
                   }
@@ -987,13 +1013,15 @@
             "type": "Literal",
             "start": 1506,
             "end": 1536,
-            "value": "1970-01-01T00:00:00.0000000Z"
+            "value": "1970-01-01T00:00:00.0000000Z",
+            "raw": "\"1970-01-01T00:00:00.0000000Z\""
           },
           {
             "type": "Literal",
             "start": 1540,
             "end": 1579,
-            "value": "pads zero seconds to 7 decimal places"
+            "value": "pads zero seconds to 7 decimal places",
+            "raw": "\"pads zero seconds to 7 decimal places\""
           }
         ],
         "optional": false
@@ -1073,7 +1101,8 @@
                       "type": "Literal",
                       "start": 1647,
                       "end": 1648,
-                      "value": 7
+                      "value": 7,
+                      "raw": "7"
                     },
                     "kind": "init"
                   }
@@ -1086,13 +1115,15 @@
             "type": "Literal",
             "start": 1653,
             "end": 1683,
-            "value": "1970-01-01T00:00:30.0000000Z"
+            "value": "1970-01-01T00:00:30.0000000Z",
+            "raw": "\"1970-01-01T00:00:30.0000000Z\""
           },
           {
             "type": "Literal",
             "start": 1687,
             "end": 1727,
-            "value": "pads whole seconds to 7 decimal places"
+            "value": "pads whole seconds to 7 decimal places",
+            "raw": "\"pads whole seconds to 7 decimal places\""
           }
         ],
         "optional": false
@@ -1172,7 +1203,8 @@
                       "type": "Literal",
                       "start": 1793,
                       "end": 1794,
-                      "value": 7
+                      "value": 7,
+                      "raw": "7"
                     },
                     "kind": "init"
                   }
@@ -1185,13 +1217,15 @@
             "type": "Literal",
             "start": 1799,
             "end": 1829,
-            "value": "1970-01-01T00:00:30.1234000Z"
+            "value": "1970-01-01T00:00:30.1234000Z",
+            "raw": "\"1970-01-01T00:00:30.1234000Z\""
           },
           {
             "type": "Literal",
             "start": 1833,
             "end": 1861,
-            "value": "pads 4 decimal places to 7"
+            "value": "pads 4 decimal places to 7",
+            "raw": "\"pads 4 decimal places to 7\""
           }
         ],
         "optional": false
@@ -1271,7 +1305,8 @@
                       "type": "Literal",
                       "start": 1927,
                       "end": 1928,
-                      "value": 9
+                      "value": 9,
+                      "raw": "9"
                     },
                     "kind": "init"
                   }
@@ -1284,13 +1319,15 @@
             "type": "Literal",
             "start": 1933,
             "end": 1965,
-            "value": "1970-01-01T00:00:30.123400000Z"
+            "value": "1970-01-01T00:00:30.123400000Z",
+            "raw": "\"1970-01-01T00:00:30.123400000Z\""
           },
           {
             "type": "Literal",
             "start": 1969,
             "end": 1997,
-            "value": "pads 4 decimal places to 9"
+            "value": "pads 4 decimal places to 9",
+            "raw": "\"pads 4 decimal places to 9\""
           }
         ],
         "optional": false

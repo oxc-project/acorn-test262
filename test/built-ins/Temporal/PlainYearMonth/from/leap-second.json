@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 308,
             "end": 329,
-            "value": "2016-12-31T23:59:60"
+            "value": "2016-12-31T23:59:60",
+            "raw": "\"2016-12-31T23:59:60\""
           }
         }
       ],
@@ -131,25 +132,29 @@
             "type": "Literal",
             "start": 434,
             "end": 438,
-            "value": 2016
+            "value": 2016,
+            "raw": "2016"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 442,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 449,
-            "value": "M12"
+            "value": "M12",
+            "raw": "\"M12\""
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 507,
-            "value": "leap second is a valid ISO string for PlainYearMonth"
+            "value": "leap second is a valid ISO string for PlainYearMonth",
+            "raw": "\"leap second is a valid ISO string for PlainYearMonth\""
           }
         ],
         "optional": false
@@ -235,7 +240,8 @@
                       "type": "Literal",
                       "start": 574,
                       "end": 582,
-                      "value": "reject"
+                      "value": "reject",
+                      "raw": "\"reject\""
                     },
                     "kind": "init"
                   }
@@ -286,25 +292,29 @@
             "type": "Literal",
             "start": 638,
             "end": 642,
-            "value": 2016
+            "value": 2016,
+            "raw": "2016"
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 646,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 653,
-            "value": "M12"
+            "value": "M12",
+            "raw": "\"M12\""
           },
           {
             "type": "Literal",
             "start": 657,
             "end": 711,
-            "value": "leap second is a valid ISO string for PlainYearMonth"
+            "value": "leap second is a valid ISO string for PlainYearMonth",
+            "raw": "\"leap second is a valid ISO string for PlainYearMonth\""
           }
         ],
         "optional": false
@@ -347,7 +357,8 @@
                 "type": "Literal",
                 "start": 730,
                 "end": 734,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               "kind": "init"
             },
@@ -368,7 +379,8 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 745,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -389,7 +401,8 @@
                 "type": "Literal",
                 "start": 752,
                 "end": 754,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               "kind": "init"
             },
@@ -410,7 +423,8 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 764,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               "kind": "init"
             },
@@ -431,7 +445,8 @@
                 "type": "Literal",
                 "start": 774,
                 "end": 776,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               },
               "kind": "init"
             },
@@ -452,7 +467,8 @@
                 "type": "Literal",
                 "start": 786,
                 "end": 788,
-                "value": 60
+                "value": 60,
+                "raw": "60"
               },
               "kind": "init"
             }
@@ -563,25 +579,29 @@
             "type": "Literal",
             "start": 895,
             "end": 899,
-            "value": 2016
+            "value": 2016,
+            "raw": "2016"
           },
           {
             "type": "Literal",
             "start": 901,
             "end": 903,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 905,
             "end": 910,
-            "value": "M12"
+            "value": "M12",
+            "raw": "\"M12\""
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 972,
-            "value": "second: 60 is ignored in property bag for PlainYearMonth"
+            "value": "second: 60 is ignored in property bag for PlainYearMonth",
+            "raw": "\"second: 60 is ignored in property bag for PlainYearMonth\""
           }
         ],
         "optional": false
@@ -667,7 +687,8 @@
                       "type": "Literal",
                       "start": 1039,
                       "end": 1047,
-                      "value": "reject"
+                      "value": "reject",
+                      "raw": "\"reject\""
                     },
                     "kind": "init"
                   }
@@ -718,25 +739,29 @@
             "type": "Literal",
             "start": 1103,
             "end": 1107,
-            "value": 2016
+            "value": 2016,
+            "raw": "2016"
           },
           {
             "type": "Literal",
             "start": 1109,
             "end": 1111,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 1113,
             "end": 1118,
-            "value": "M12"
+            "value": "M12",
+            "raw": "\"M12\""
           },
           {
             "type": "Literal",
             "start": 1122,
             "end": 1207,
-            "value": "second: 60 is ignored in property bag for PlainYearMonth even with overflow: reject"
+            "value": "second: 60 is ignored in property bag for PlainYearMonth even with overflow: reject",
+            "raw": "\"second: 60 is ignored in property bag for PlainYearMonth even with overflow: reject\""
           }
         ],
         "optional": false

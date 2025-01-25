@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 344,
-                "value": 0.000001
+                "value": 0.000001,
+                "raw": "0.000001"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 347,
             "end": 357,
-            "value": "0.000001"
+            "value": "0.000001",
+            "raw": "\"0.000001\""
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 397,
-            "value": "String.prototype.trim.call(0.000001)"
+            "value": "String.prototype.trim.call(0.000001)",
+            "raw": "'String.prototype.trim.call(0.000001)'"
           }
         ],
         "optional": false

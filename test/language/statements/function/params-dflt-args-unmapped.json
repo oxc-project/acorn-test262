@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1742,
             "end": 1743,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -62,7 +63,8 @@
             "type": "Literal",
             "start": 1763,
             "end": 1764,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 1801,
                   "end": 1836,
-                  "value": "parameter binding value (initial)"
+                  "value": "parameter binding value (initial)",
+                  "raw": "'parameter binding value (initial)'"
                 }
               ],
               "optional": false
@@ -163,7 +166,8 @@
                     "type": "Literal",
                     "start": 1873,
                     "end": 1874,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -178,7 +182,8 @@
                   "type": "Literal",
                   "start": 1888,
                   "end": 1924,
-                  "value": "arguments property value (initial)"
+                  "value": "arguments property value (initial)",
+                  "raw": "'arguments property value (initial)'"
                 }
               ],
               "optional": false
@@ -207,7 +212,8 @@
                   "type": "Literal",
                   "start": 1943,
                   "end": 1944,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "computed": true,
                 "optional": false
@@ -216,7 +222,8 @@
                 "type": "Literal",
                 "start": 1948,
                 "end": 1949,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -264,7 +271,8 @@
                   "type": "Literal",
                   "start": 1990,
                   "end": 2046,
-                  "value": "parameter binding value (after arguments modification)"
+                  "value": "parameter binding value (after arguments modification)",
+                  "raw": "'parameter binding value (after arguments modification)'"
                 }
               ],
               "optional": false
@@ -312,7 +320,8 @@
                     "type": "Literal",
                     "start": 2086,
                     "end": 2087,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -321,13 +330,15 @@
                   "type": "Literal",
                   "start": 2090,
                   "end": 2091,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 2093,
                   "end": 2150,
-                  "value": "arguments property value (after arguments modification)"
+                  "value": "arguments property value (after arguments modification)",
+                  "raw": "'arguments property value (after arguments modification)'"
                 }
               ],
               "optional": false
@@ -352,7 +363,8 @@
                 "type": "Literal",
                 "start": 2163,
                 "end": 2164,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           },
@@ -394,13 +406,15 @@
                   "type": "Literal",
                   "start": 2194,
                   "end": 2195,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "Literal",
                   "start": 2197,
                   "end": 2261,
-                  "value": "parameter binding value (after parameter binding modification)"
+                  "value": "parameter binding value (after parameter binding modification)",
+                  "raw": "'parameter binding value (after parameter binding modification)'"
                 }
               ],
               "optional": false
@@ -448,7 +462,8 @@
                     "type": "Literal",
                     "start": 2301,
                     "end": 2302,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -457,13 +472,15 @@
                   "type": "Literal",
                   "start": 2309,
                   "end": 2310,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 2316,
                   "end": 2381,
-                  "value": "arguments property value (after parameter binding modification)"
+                  "value": "arguments property value (after parameter binding modification)",
+                  "raw": "'arguments property value (after parameter binding modification)'"
                 }
               ],
               "optional": false
@@ -499,7 +516,8 @@
                   "type": "Literal",
                   "start": 2413,
                   "end": 2414,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -563,13 +581,15 @@
             "type": "Literal",
             "start": 2453,
             "end": 2454,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2456,
             "end": 2487,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

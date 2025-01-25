@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 353,
             "end": 363,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 443,
-            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
           }
         ],
         "optional": false
@@ -136,7 +138,8 @@
             "type": "Literal",
             "start": 489,
             "end": 490,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -185,7 +188,8 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 529,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -255,7 +259,8 @@
                     "type": "Literal",
                     "start": 593,
                     "end": 594,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -374,7 +379,8 @@
             "type": "Literal",
             "start": 695,
             "end": 744,
-            "value": "ToString(specifier) returns abrupt from valueOf"
+            "value": "ToString(specifier) returns abrupt from valueOf",
+            "raw": "'ToString(specifier) returns abrupt from valueOf'"
           }
         ],
         "optional": false
@@ -418,13 +424,15 @@
             "type": "Literal",
             "start": 772,
             "end": 773,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 810,
-            "value": "ToString calls the valueOf method"
+            "value": "ToString calls the valueOf method",
+            "raw": "'ToString calls the valueOf method'"
           }
         ],
         "optional": false
@@ -449,7 +457,8 @@
           "type": "Literal",
           "start": 840,
           "end": 841,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -514,7 +523,8 @@
                     "type": "Literal",
                     "start": 888,
                     "end": 892,
-                    "value": 1000
+                    "value": 1000,
+                    "raw": "1000"
                   }
                 }
               },
@@ -537,7 +547,8 @@
                       "type": "Literal",
                       "start": 912,
                       "end": 959,
-                      "value": "valueOf is not reached if toString is present"
+                      "value": "valueOf is not reached if toString is present",
+                      "raw": "'valueOf is not reached if toString is present'"
                     }
                   ]
                 }
@@ -608,7 +619,8 @@
                     "type": "Literal",
                     "start": 1011,
                     "end": 1012,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -727,7 +739,8 @@
             "type": "Literal",
             "start": 1113,
             "end": 1163,
-            "value": "ToString(specifier) returns abrupt from toString"
+            "value": "ToString(specifier) returns abrupt from toString",
+            "raw": "'ToString(specifier) returns abrupt from toString'"
           }
         ],
         "optional": false
@@ -771,13 +784,15 @@
             "type": "Literal",
             "start": 1191,
             "end": 1192,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1194,
             "end": 1230,
-            "value": "ToString calls the toString method"
+            "value": "ToString calls the toString method",
+            "raw": "'ToString calls the toString method'"
           }
         ],
         "optional": false
@@ -802,7 +817,8 @@
           "type": "Literal",
           "start": 1264,
           "end": 1265,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -880,7 +896,8 @@
                     "type": "Literal",
                     "start": 1324,
                     "end": 1325,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -967,7 +984,8 @@
                     "type": "Literal",
                     "start": 1404,
                     "end": 1408,
-                    "value": 1000
+                    "value": 1000,
+                    "raw": "1000"
                   }
                 }
               },
@@ -990,7 +1008,8 @@
                       "type": "Literal",
                       "start": 1428,
                       "end": 1481,
-                      "value": "toString is not reached if @@toPrimitive is present"
+                      "value": "toString is not reached if @@toPrimitive is present",
+                      "raw": "'toString is not reached if @@toPrimitive is present'"
                     }
                   ]
                 }
@@ -1093,7 +1112,8 @@
             "type": "Literal",
             "start": 1555,
             "end": 1610,
-            "value": "ToString(specifier) returns abrupt from @@toPrimitive"
+            "value": "ToString(specifier) returns abrupt from @@toPrimitive",
+            "raw": "'ToString(specifier) returns abrupt from @@toPrimitive'"
           }
         ],
         "optional": false
@@ -1137,13 +1157,15 @@
             "type": "Literal",
             "start": 1638,
             "end": 1639,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1641,
             "end": 1682,
-            "value": "ToString calls the @@toPrimitive method"
+            "value": "ToString calls the @@toPrimitive method",
+            "raw": "'ToString calls the @@toPrimitive method'"
           }
         ],
         "optional": false

@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 705,
             "end": 717,
-            "value": "my-message"
+            "value": "my-message",
+            "raw": "\"my-message\""
           }
         }
       ],
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 742,
                   "end": 752,
-                  "value": "my-cause"
+                  "value": "my-cause",
+                  "raw": "\"my-cause\""
                 },
                 "kind": "init"
               }
@@ -197,7 +199,8 @@
             "type": "Literal",
             "start": 839,
             "end": 846,
-            "value": "cause"
+            "value": "cause",
+            "raw": "\"cause\""
           },
           {
             "type": "ObjectExpression",
@@ -221,7 +224,8 @@
                   "type": "Literal",
                   "start": 866,
                   "end": 870,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -242,7 +246,8 @@
                   "type": "Literal",
                   "start": 886,
                   "end": 891,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -263,7 +268,8 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 909,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -338,7 +344,8 @@
             "type": "Literal",
             "start": 984,
             "end": 991,
-            "value": "cause"
+            "value": "cause",
+            "raw": "\"cause\""
           },
           {
             "type": "Identifier",
@@ -422,7 +429,8 @@
             "type": "Literal",
             "start": 1079,
             "end": 1086,
-            "value": "cause"
+            "value": "cause",
+            "raw": "\"cause\""
           },
           {
             "type": "ObjectExpression",

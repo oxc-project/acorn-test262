@@ -93,25 +93,29 @@
                                         "type": "Literal",
                                         "start": 930,
                                         "end": 932,
-                                        "value": "0n"
+                                        "value": "0n",
+                                        "raw": "0n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 934,
                                         "end": 936,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 938,
                                         "end": 940,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 942,
                                         "end": 944,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       }
                                     ]
                                   }
@@ -131,19 +135,22 @@
                                 "type": "Literal",
                                 "start": 958,
                                 "end": 959,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 961,
                                 "end": 962,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Literal",
                                 "start": 964,
                                 "end": 965,
-                                "value": 6
+                                "value": 6,
+                                "raw": "6"
                               }
                             ],
                             "optional": false
@@ -157,25 +164,29 @@
                                 "type": "Literal",
                                 "start": 975,
                                 "end": 977,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 979,
                                 "end": 981,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 983,
                                 "end": 985,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 987,
                                 "end": 989,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               }
                             ]
                           }
@@ -186,7 +197,8 @@
                         "type": "Literal",
                         "start": 1002,
                         "end": 1052,
-                        "value": "[0, 1, 2, 3].copyWithin(0, 1, 6) -> [1, 2, 3, 3]"
+                        "value": "[0, 1, 2, 3].copyWithin(0, 1, 6) -> [1, 2, 3, 3]",
+                        "raw": "'[0, 1, 2, 3].copyWithin(0, 1, 6) -> [1, 2, 3, 3]'"
                       }
                     ],
                     "optional": false
@@ -246,31 +258,36 @@
                                         "type": "Literal",
                                         "start": 1101,
                                         "end": 1103,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1105,
                                         "end": 1107,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1109,
                                         "end": 1111,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1113,
                                         "end": 1115,
-                                        "value": "4n"
+                                        "value": "4n",
+                                        "raw": "4n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1117,
                                         "end": 1119,
-                                        "value": "5n"
+                                        "value": "5n",
+                                        "raw": "5n"
                                       }
                                     ]
                                   }
@@ -290,13 +307,15 @@
                                 "type": "Literal",
                                 "start": 1133,
                                 "end": 1134,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1136,
                                 "end": 1137,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Identifier",
@@ -316,31 +335,36 @@
                                 "type": "Literal",
                                 "start": 1157,
                                 "end": 1159,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1161,
                                 "end": 1163,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1165,
                                 "end": 1167,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1169,
                                 "end": 1171,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1173,
                                 "end": 1175,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               }
                             ]
                           }
@@ -351,7 +375,8 @@
                         "type": "Literal",
                         "start": 1188,
                         "end": 1251,
-                        "value": "[1, 2, 3, 4, 5].copyWithin(0, 1, Infinity) -> [2, 3, 4, 5, 5]"
+                        "value": "[1, 2, 3, 4, 5].copyWithin(0, 1, Infinity) -> [2, 3, 4, 5, 5]",
+                        "raw": "'[1, 2, 3, 4, 5].copyWithin(0, 1, Infinity) -> [2, 3, 4, 5, 5]'"
                       }
                     ],
                     "optional": false
@@ -411,37 +436,43 @@
                                         "type": "Literal",
                                         "start": 1300,
                                         "end": 1302,
-                                        "value": "0n"
+                                        "value": "0n",
+                                        "raw": "0n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1304,
                                         "end": 1306,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1308,
                                         "end": 1310,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1312,
                                         "end": 1314,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1316,
                                         "end": 1318,
-                                        "value": "4n"
+                                        "value": "4n",
+                                        "raw": "4n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1320,
                                         "end": 1322,
-                                        "value": "5n"
+                                        "value": "5n",
+                                        "raw": "5n"
                                       }
                                     ]
                                   }
@@ -461,19 +492,22 @@
                                 "type": "Literal",
                                 "start": 1336,
                                 "end": 1337,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1339,
                                 "end": 1340,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1342,
                                 "end": 1343,
-                                "value": 6
+                                "value": 6,
+                                "raw": "6"
                               }
                             ],
                             "optional": false
@@ -487,37 +521,43 @@
                                 "type": "Literal",
                                 "start": 1353,
                                 "end": 1355,
-                                "value": "0n"
+                                "value": "0n",
+                                "raw": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1357,
                                 "end": 1359,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1361,
                                 "end": 1363,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1365,
                                 "end": 1367,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1369,
                                 "end": 1371,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1373,
                                 "end": 1375,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               }
                             ]
                           }
@@ -528,7 +568,8 @@
                         "type": "Literal",
                         "start": 1388,
                         "end": 1450,
-                        "value": "[0, 1, 2, 3, 4, 5].copyWithin(1, 3, 6) -> [0, 3, 4, 5, 4, 5]"
+                        "value": "[0, 1, 2, 3, 4, 5].copyWithin(1, 3, 6) -> [0, 3, 4, 5, 4, 5]",
+                        "raw": "'[0, 1, 2, 3, 4, 5].copyWithin(1, 3, 6) -> [0, 3, 4, 5, 4, 5]'"
                       }
                     ],
                     "optional": false
@@ -588,31 +629,36 @@
                                         "type": "Literal",
                                         "start": 1499,
                                         "end": 1501,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "1n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1503,
                                         "end": 1505,
-                                        "value": "2n"
+                                        "value": "2n",
+                                        "raw": "2n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1507,
                                         "end": 1509,
-                                        "value": "3n"
+                                        "value": "3n",
+                                        "raw": "3n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1511,
                                         "end": 1513,
-                                        "value": "4n"
+                                        "value": "4n",
+                                        "raw": "4n"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1515,
                                         "end": 1517,
-                                        "value": "5n"
+                                        "value": "5n",
+                                        "raw": "5n"
                                       }
                                     ]
                                   }
@@ -632,13 +678,15 @@
                                 "type": "Literal",
                                 "start": 1531,
                                 "end": 1532,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1534,
                                 "end": 1535,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               },
                               {
                                 "type": "Identifier",
@@ -658,31 +706,36 @@
                                 "type": "Literal",
                                 "start": 1555,
                                 "end": 1557,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1559,
                                 "end": 1561,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1563,
                                 "end": 1565,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1567,
                                 "end": 1569,
-                                "value": "4n"
+                                "value": "4n",
+                                "raw": "4n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1571,
                                 "end": 1573,
-                                "value": "5n"
+                                "value": "5n",
+                                "raw": "5n"
                               }
                             ]
                           }
@@ -693,7 +746,8 @@
                         "type": "Literal",
                         "start": 1586,
                         "end": 1649,
-                        "value": "[1, 2, 3, 4, 5].copyWithin(1, 3, Infinity) -> [1, 4, 5, 4, 5]"
+                        "value": "[1, 2, 3, 4, 5].copyWithin(1, 3, Infinity) -> [1, 4, 5, 4, 5]",
+                        "raw": "'[1, 2, 3, 4, 5].copyWithin(1, 3, Infinity) -> [1, 4, 5, 4, 5]'"
                       }
                     ],
                     "optional": false

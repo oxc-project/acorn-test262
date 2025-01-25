@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 479,
         "end": 499,
-        "value": "./get-sym-found.js"
+        "value": "./get-sym-found.js",
+        "raw": "'./get-sym-found.js'"
       },
       "attributes": []
     },
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 550,
             "end": 558,
-            "value": "string"
+            "value": "string",
+            "raw": "'string'"
           }
         ],
         "optional": false

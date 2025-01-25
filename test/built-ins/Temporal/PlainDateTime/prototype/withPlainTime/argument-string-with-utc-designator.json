@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 370,
-                "value": "2019-10-01T09:00:00Z"
+                "value": "2019-10-01T09:00:00Z",
+                "raw": "\"2019-10-01T09:00:00Z\""
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 401,
-                "value": "2019-10-01T09:00:00Z[UTC]"
+                "value": "2019-10-01T09:00:00Z[UTC]",
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 421,
-                "value": "09:00:00Z[UTC]"
+                "value": "09:00:00Z[UTC]",
+                "raw": "\"09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 436,
-                "value": "09:00:00Z"
+                "value": "09:00:00Z",
+                "raw": "\"09:00:00Z\""
               }
             ]
           }
@@ -96,55 +100,64 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 489,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 492,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 494,
                 "end": 495,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 499,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 503,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 507,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 509,
                 "end": 512,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 517,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 519,
                 "end": 522,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -282,7 +295,8 @@
                         "type": "Literal",
                         "start": 635,
                         "end": 698,
-                        "value": "String with UTC designator should not be valid as a PlainTime"
+                        "value": "String with UTC designator should not be valid as a PlainTime",
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime\""
                       }
                     ],
                     "optional": false

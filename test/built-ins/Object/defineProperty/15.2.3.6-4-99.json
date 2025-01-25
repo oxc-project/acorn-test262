@@ -131,7 +131,8 @@
             "type": "Literal",
             "start": 489,
             "end": 494,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -176,7 +177,8 @@
                   "type": "Literal",
                   "start": 530,
                   "end": 535,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -213,7 +215,8 @@
               "type": "Literal",
               "start": 571,
               "end": 573,
-              "value": 10
+              "value": 10,
+              "raw": "10"
             }
           }
         ]
@@ -266,7 +269,8 @@
                   "type": "Literal",
                   "start": 613,
                   "end": 618,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -340,7 +344,8 @@
                   "type": "Literal",
                   "start": 688,
                   "end": 712,
-                  "value": "Expected an exception."
+                  "value": "Expected an exception.",
+                  "raw": "\"Expected an exception.\""
                 }
               ]
             }
@@ -387,13 +392,15 @@
                     "type": "Literal",
                     "start": 751,
                     "end": 756,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   },
                   {
                     "type": "Literal",
                     "start": 758,
                     "end": 777,
-                    "value": "setVerifyHelpProp"
+                    "value": "setVerifyHelpProp",
+                    "raw": "\"setVerifyHelpProp\""
                   }
                 ],
                 "optional": false
@@ -461,7 +468,8 @@
                             "type": "Literal",
                             "start": 843,
                             "end": 869,
-                            "value": "Expected TypeError, got "
+                            "value": "Expected TypeError, got ",
+                            "raw": "\"Expected TypeError, got \""
                           },
                           "operator": "+",
                           "right": {
@@ -508,7 +516,8 @@
             "type": "Literal",
             "start": 903,
             "end": 908,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -532,7 +541,8 @@
                   "type": "Literal",
                   "start": 926,
                   "end": 931,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -553,7 +563,8 @@
                   "type": "Literal",
                   "start": 949,
                   "end": 954,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

@@ -143,13 +143,15 @@
                     "type": "Literal",
                     "start": 564,
                     "end": 570,
-                    "value": "Infi"
+                    "value": "Infi",
+                    "raw": "\"Infi\""
                   },
                   {
                     "type": "Literal",
                     "start": 572,
                     "end": 578,
-                    "value": "nity"
+                    "value": "nity",
+                    "raw": "\"nity\""
                   }
                 ],
                 "optional": false
@@ -180,7 +182,8 @@
             "type": "Literal",
             "start": 612,
             "end": 681,
-            "value": "Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY"
+            "value": "Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY",
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY'"
           }
         ],
         "optional": false
@@ -240,13 +243,15 @@
                     "type": "Literal",
                     "start": 724,
                     "end": 730,
-                    "value": "Infi"
+                    "value": "Infi",
+                    "raw": "\"Infi\""
                   },
                   {
                     "type": "Literal",
                     "start": 732,
                     "end": 738,
-                    "value": "nity"
+                    "value": "nity",
+                    "raw": "\"nity\""
                   }
                 ],
                 "optional": false
@@ -258,13 +263,15 @@
             "type": "Literal",
             "start": 744,
             "end": 752,
-            "value": null
+            "value": null,
+            "raw": "10e10000"
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 813,
-            "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10e10000"
+            "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10e10000",
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10e10000'"
           }
         ],
         "optional": false
@@ -324,13 +331,15 @@
                     "type": "Literal",
                     "start": 856,
                     "end": 862,
-                    "value": "Infi"
+                    "value": "Infi",
+                    "raw": "\"Infi\""
                   },
                   {
                     "type": "Literal",
                     "start": 864,
                     "end": 870,
-                    "value": "nity"
+                    "value": "nity",
+                    "raw": "\"nity\""
                   }
                 ],
                 "optional": false
@@ -342,13 +351,15 @@
             "type": "Literal",
             "start": 876,
             "end": 884,
-            "value": null
+            "value": null,
+            "raw": "10E10000"
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 945,
-            "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10E10000"
+            "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10E10000",
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10E10000'"
           }
         ],
         "optional": false
@@ -408,13 +419,15 @@
                     "type": "Literal",
                     "start": 988,
                     "end": 994,
-                    "value": "Infi"
+                    "value": "Infi",
+                    "raw": "\"Infi\""
                   },
                   {
                     "type": "Literal",
                     "start": 996,
                     "end": 1002,
-                    "value": "nity"
+                    "value": "nity",
+                    "raw": "\"nity\""
                   }
                 ],
                 "optional": false
@@ -437,7 +450,8 @@
                 "type": "Literal",
                 "start": 1015,
                 "end": 1025,
-                "value": "10e10000"
+                "value": "10e10000",
+                "raw": "\"10e10000\""
               }
             ],
             "optional": false
@@ -446,7 +460,8 @@
             "type": "Literal",
             "start": 1030,
             "end": 1124,
-            "value": "Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")"
+            "value": "Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")",
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")'"
           }
         ],
         "optional": false

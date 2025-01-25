@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 306,
-                "value": "\fabc\f"
+                "value": "\fabc\f",
+                "raw": "\"\\u000Cabc\\u000C\""
               },
               "property": {
                 "type": "Identifier",
@@ -61,13 +62,15 @@
             "type": "Literal",
             "start": 315,
             "end": 320,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 348,
-            "value": "\"\fabc\f\".trim()"
+            "value": "\"\fabc\f\".trim()",
+            "raw": "'\"\\u000Cabc\\u000C\".trim()'"
           }
         ],
         "optional": false

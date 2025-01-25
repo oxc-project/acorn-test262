@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 298,
                 "end": 321,
-                "value": "1719923640000000000n"
+                "value": "1719923640000000000n",
+                "raw": "1719923640_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 328,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 345,
-                "value": "islamic-civil"
+                "value": "islamic-civil",
+                "raw": "\"islamic-civil\""
               }
             ]
           }
@@ -87,7 +90,8 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 397,
-                "value": "2024-07-02T12:34+00:00[UTC][u-ca=islamicc]"
+                "value": "2024-07-02T12:34+00:00[UTC][u-ca=islamicc]",
+                "raw": "\"2024-07-02T12:34+00:00[UTC][u-ca=islamicc]\""
               },
               {
                 "type": "ObjectExpression",
@@ -111,7 +115,8 @@
                       "type": "Literal",
                       "start": 409,
                       "end": 413,
-                      "value": 1445
+                      "value": 1445,
+                      "raw": "1445"
                     },
                     "kind": "init"
                   },
@@ -132,7 +137,8 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 424,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   },
@@ -153,7 +159,8 @@
                       "type": "Literal",
                       "start": 431,
                       "end": 433,
-                      "value": 25
+                      "value": 25,
+                      "raw": "25"
                     },
                     "kind": "init"
                   },
@@ -174,7 +181,8 @@
                       "type": "Literal",
                       "start": 441,
                       "end": 443,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   },
@@ -195,7 +203,8 @@
                       "type": "Literal",
                       "start": 453,
                       "end": 455,
-                      "value": 34
+                      "value": 34,
+                      "raw": "34"
                     },
                     "kind": "init"
                   },
@@ -216,7 +225,8 @@
                       "type": "Literal",
                       "start": 467,
                       "end": 477,
-                      "value": "islamicc"
+                      "value": "islamicc",
+                      "raw": "\"islamicc\""
                     },
                     "kind": "init"
                   },
@@ -237,7 +247,8 @@
                       "type": "Literal",
                       "start": 489,
                       "end": 494,
-                      "value": "UTC"
+                      "value": "UTC",
+                      "raw": "\"UTC\""
                     },
                     "kind": "init"
                   }
@@ -319,7 +330,8 @@
                   "type": "Literal",
                   "start": 546,
                   "end": 576,
-                  "value": "calendar ID is canonicalized"
+                  "value": "calendar ID is canonicalized",
+                  "raw": "\"calendar ID is canonicalized\""
                 }
               ],
               "optional": false

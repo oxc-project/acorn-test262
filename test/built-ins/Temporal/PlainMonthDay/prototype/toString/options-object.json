@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -150,13 +152,15 @@
             "type": "Literal",
             "start": 397,
             "end": 404,
-            "value": "05-02"
+            "value": "05-02",
+            "raw": "\"05-02\""
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 446,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -262,13 +266,15 @@
             "type": "Literal",
             "start": 525,
             "end": 532,
-            "value": "05-02"
+            "value": "05-02",
+            "raw": "\"05-02\""
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 570,
-            "value": "options may be a function object"
+            "value": "options may be a function object",
+            "raw": "\"options may be a function object\""
           }
         ],
         "optional": false

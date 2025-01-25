@@ -108,7 +108,8 @@
                               "type": "Literal",
                               "start": 1347,
                               "end": 1350,
-                              "value": "z"
+                              "value": "z",
+                              "raw": "'z'"
                             }
                           ],
                           "optional": false
@@ -178,7 +179,8 @@
                               "type": "Literal",
                               "start": 1376,
                               "end": 1379,
-                              "value": "a"
+                              "value": "a",
+                              "raw": "'a'"
                             }
                           ],
                           "optional": false
@@ -232,7 +234,8 @@
             "type": "Literal",
             "start": 1411,
             "end": 1412,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "ObjectExpression",
@@ -298,7 +301,8 @@
                               "type": "Literal",
                               "start": 1440,
                               "end": 1441,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -326,7 +330,8 @@
                   "type": "Literal",
                   "start": 1458,
                   "end": 1462,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -385,7 +390,8 @@
                 "type": "Literal",
                 "start": 1499,
                 "end": 1504,
-                "value": "foo"
+                "value": "foo",
+                "raw": "'foo'"
               }
             ],
             "optional": false
@@ -454,7 +460,8 @@
                               "type": "Literal",
                               "start": 1533,
                               "end": 1546,
-                              "value": "Symbol(foo)"
+                              "value": "Symbol(foo)",
+                              "raw": "\"Symbol(foo)\""
                             }
                           ],
                           "optional": false
@@ -482,7 +489,8 @@
                   "type": "Literal",
                   "start": 1563,
                   "end": 1567,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -511,7 +519,8 @@
             "type": "Literal",
             "start": 1590,
             "end": 1591,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -597,25 +606,29 @@
                               "type": "Literal",
                               "start": 1641,
                               "end": 1642,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 1644,
                               "end": 1647,
-                              "value": "z"
+                              "value": "z",
+                              "raw": "'z'"
                             },
                             {
                               "type": "Literal",
                               "start": 1649,
                               "end": 1652,
-                              "value": "a"
+                              "value": "a",
+                              "raw": "'a'"
                             },
                             {
                               "type": "Literal",
                               "start": 1654,
                               "end": 1667,
-                              "value": "Symbol(foo)"
+                              "value": "Symbol(foo)",
+                              "raw": "\"Symbol(foo)\""
                             }
                           ]
                         }
@@ -701,7 +714,8 @@
                           "type": "Literal",
                           "start": 1715,
                           "end": 1716,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       ],
                       "optional": false
@@ -726,7 +740,8 @@
                         "type": "Literal",
                         "start": 1734,
                         "end": 1735,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -747,7 +762,8 @@
               "type": "Literal",
               "start": 1745,
               "end": 1749,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "ArrayExpression",
@@ -817,7 +833,8 @@
             "type": "Literal",
             "start": 1792,
             "end": 1793,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

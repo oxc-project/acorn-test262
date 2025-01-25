@@ -37,7 +37,8 @@
             "type": "Literal",
             "start": 403,
             "end": 405,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         }
       ],
@@ -253,7 +254,8 @@
                             "type": "Literal",
                             "start": 643,
                             "end": 652,
-                            "value": "Symbol."
+                            "value": "Symbol.",
+                            "raw": "'Symbol.'"
                           }
                         ],
                         "optional": false
@@ -417,7 +419,8 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 458,
-                  "value": "symbol"
+                  "value": "symbol",
+                  "raw": "\"symbol\""
                 }
               },
               {
@@ -555,7 +558,8 @@
                   "type": "Literal",
                   "start": 818,
                   "end": 826,
-                  "value": "string"
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
               {
@@ -680,25 +684,29 @@
                             "type": "Literal",
                             "start": 1146,
                             "end": 1165,
-                            "value": "construct MyArray"
+                            "value": "construct MyArray",
+                            "raw": "\"construct MyArray\""
                           },
                           {
                             "type": "Literal",
                             "start": 1171,
                             "end": 1192,
-                            "value": "defineProperty A[0]"
+                            "value": "defineProperty A[0]",
+                            "raw": "\"defineProperty A[0]\""
                           },
                           {
                             "type": "Literal",
                             "start": 1198,
                             "end": 1219,
-                            "value": "defineProperty A[1]"
+                            "value": "defineProperty A[1]",
+                            "raw": "\"defineProperty A[1]\""
                           },
                           {
                             "type": "Literal",
                             "start": 1225,
                             "end": 1239,
-                            "value": "set A.length"
+                            "value": "set A.length",
+                            "raw": "\"set A.length\""
                           }
                         ]
                       }
@@ -794,7 +802,8 @@
                               "type": "Literal",
                               "start": 1323,
                               "end": 1342,
-                              "value": "construct MyArray"
+                              "value": "construct MyArray",
+                              "raw": "\"construct MyArray\""
                             }
                           ],
                           "optional": false
@@ -843,7 +852,8 @@
                                   "type": "Literal",
                                   "start": 1380,
                                   "end": 1384,
-                                  "value": null
+                                  "value": null,
+                                  "raw": "null"
                                 }
                               ],
                               "optional": false
@@ -954,7 +964,8 @@
                                                         "type": "Literal",
                                                         "start": 1477,
                                                         "end": 1480,
-                                                        "value": "A"
+                                                        "value": "A",
+                                                        "raw": "\"A\""
                                                       }
                                                     ],
                                                     "optional": false
@@ -1142,7 +1153,8 @@
                                                         "type": "Literal",
                                                         "start": 1658,
                                                         "end": 1661,
-                                                        "value": "A"
+                                                        "value": "A",
+                                                        "raw": "\"A\""
                                                       }
                                                     ],
                                                     "optional": false
@@ -1308,13 +1320,15 @@
                                   "type": "Literal",
                                   "start": 1804,
                                   "end": 1805,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1807,
                                   "end": 1808,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 }
                               ]
                             }
@@ -1370,7 +1384,8 @@
                         "type": "Literal",
                         "start": 1862,
                         "end": 1902,
-                        "value": "order of operations for array argument"
+                        "value": "order of operations for array argument",
+                        "raw": "\"order of operations for array argument\""
                       }
                     ],
                     "optional": false
@@ -1408,7 +1423,8 @@
                         "type": "Literal",
                         "start": 1927,
                         "end": 1928,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -1438,25 +1454,29 @@
                             "type": "Literal",
                             "start": 1984,
                             "end": 2003,
-                            "value": "construct MyArray"
+                            "value": "construct MyArray",
+                            "raw": "\"construct MyArray\""
                           },
                           {
                             "type": "Literal",
                             "start": 2009,
                             "end": 2030,
-                            "value": "defineProperty A[0]"
+                            "value": "defineProperty A[0]",
+                            "raw": "\"defineProperty A[0]\""
                           },
                           {
                             "type": "Literal",
                             "start": 2036,
                             "end": 2057,
-                            "value": "defineProperty A[1]"
+                            "value": "defineProperty A[1]",
+                            "raw": "\"defineProperty A[1]\""
                           },
                           {
                             "type": "Literal",
                             "start": 2063,
                             "end": 2077,
-                            "value": "set A.length"
+                            "value": "set A.length",
+                            "raw": "\"set A.length\""
                           }
                         ]
                       }
@@ -1548,7 +1568,8 @@
                                   "type": "Literal",
                                   "start": 2144,
                                   "end": 2145,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 },
                                 "kind": "init"
                               },
@@ -1563,13 +1584,15 @@
                                   "type": "Literal",
                                   "start": 2151,
                                   "end": 2152,
-                                  "value": 0
+                                  "value": 0,
+                                  "raw": "0"
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "start": 2154,
                                   "end": 2155,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 "kind": "init"
                               },
@@ -1584,13 +1607,15 @@
                                   "type": "Literal",
                                   "start": 2161,
                                   "end": 2162,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "start": 2164,
                                   "end": 2165,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 },
                                 "kind": "init"
                               }
@@ -1646,7 +1671,8 @@
                         "type": "Literal",
                         "start": 2234,
                         "end": 2279,
-                        "value": "order of operations for array-like argument"
+                        "value": "order of operations for array-like argument",
+                        "raw": "\"order of operations for array-like argument\""
                       }
                     ],
                     "optional": false

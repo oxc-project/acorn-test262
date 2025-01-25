@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1122,
             "end": 1123,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -120,7 +121,8 @@
                     "type": "Literal",
                     "start": 1198,
                     "end": 1199,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 },
                 "consequent": {
@@ -209,7 +211,8 @@
                       "type": "Literal",
                       "start": 1303,
                       "end": 1304,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 },
@@ -248,13 +251,15 @@
                                 "type": "Literal",
                                 "start": 1329,
                                 "end": 1332,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1334,
                                 "end": 1336,
-                                "value": "0n"
+                                "value": "0n",
+                                "raw": "0n"
                               }
                             ]
                           }
@@ -388,13 +393,15 @@
                         "type": "Literal",
                         "start": 1444,
                         "end": 1445,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 1447,
                         "end": 1475,
-                        "value": "abrupt from a next element"
+                        "value": "abrupt from a next element",
+                        "raw": "\"abrupt from a next element\""
                       }
                     ],
                     "optional": false

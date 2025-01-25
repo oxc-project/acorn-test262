@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 520,
                 "end": 523,
-                "value": " "
+                "value": " ",
+                "raw": "\" \""
               },
               {
                 "type": "Literal",
                 "start": 524,
                 "end": 536,
-                "value": "eval = 42;"
+                "value": "eval = 42;",
+                "raw": "\"eval = 42;\""
               }
             ]
           }

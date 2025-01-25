@@ -15,14 +15,16 @@
           "type": "Literal",
           "start": 271,
           "end": 282,
-          "value": "\tstr\ting\t"
+          "value": "\tstr\ting\t",
+          "raw": "\"\tstr\ting\t\""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 287,
           "end": 313,
-          "value": "\tstr\ting\t"
+          "value": "\tstr\ting\t",
+          "raw": "\"\\u0009str\\u0009ing\\u0009\""
         }
       },
       "consequent": {
@@ -49,7 +51,8 @@
                   "type": "Literal",
                   "start": 342,
                   "end": 393,
-                  "value": "#1: \"\tstr\ting\t\" === \"\\u0009str\\u0009ing\\u0009\""
+                  "value": "#1: \"\tstr\ting\t\" === \"\\u0009str\\u0009ing\\u0009\"",
+                  "raw": "'#1: \"\tstr\ting\t\" === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
                 }
               ]
             }

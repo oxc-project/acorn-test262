@@ -34,14 +34,16 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 645,
-                  "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {"
+                  "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {",
+                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 650,
                   "end": 662,
-                  "value": "  default:"
+                  "value": "  default:",
+                  "raw": "'  default:'"
                 }
               },
               "operator": "+",
@@ -49,7 +51,8 @@
                 "type": "Literal",
                 "start": 667,
                 "end": 717,
-                "value": "    function f() { return \"inner declaration\"; }"
+                "value": "    function f() { return \"inner declaration\"; }",
+                "raw": "'    function f() { return \"inner declaration\"; }'"
               }
             },
             "operator": "+",
@@ -57,7 +60,8 @@
               "type": "Literal",
               "start": 722,
               "end": 781,
-              "value": "}  function f() {    return \"outer declaration\";  }"
+              "value": "}  function f() {    return \"outer declaration\";  }",
+              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
             }
           }
         ],

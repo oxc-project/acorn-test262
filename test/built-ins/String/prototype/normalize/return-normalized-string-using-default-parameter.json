@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 556,
             "end": 588,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 600,
             "end": 648,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
           }
         }
       ],
@@ -117,7 +119,8 @@
             "type": "Literal",
             "start": 688,
             "end": 717,
-            "value": "Use NFC as the default form"
+            "value": "Use NFC as the default form",
+            "raw": "'Use NFC as the default form'"
           }
         ],
         "optional": false
@@ -194,7 +197,8 @@
             "type": "Literal",
             "start": 766,
             "end": 795,
-            "value": "Use NFC as the default form"
+            "value": "Use NFC as the default form",
+            "raw": "'Use NFC as the default form'"
           }
         ],
         "optional": false

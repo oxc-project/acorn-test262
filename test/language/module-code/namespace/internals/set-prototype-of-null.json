@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 336,
         "end": 364,
-        "value": "./set-prototype-of-null.js"
+        "value": "./set-prototype-of-null.js",
+        "raw": "'./set-prototype-of-null.js'"
       },
       "attributes": []
     },
@@ -86,7 +87,8 @@
             "type": "Literal",
             "start": 414,
             "end": 424,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -160,7 +162,8 @@
                 "type": "Literal",
                 "start": 474,
                 "end": 478,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false

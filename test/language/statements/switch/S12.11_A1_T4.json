@@ -48,7 +48,8 @@
                   "type": "Literal",
                   "start": 384,
                   "end": 385,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -89,7 +90,8 @@
                         "type": "Literal",
                         "start": 436,
                         "end": 437,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     }
                   }
@@ -98,7 +100,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 418,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -125,7 +128,8 @@
                         "type": "Literal",
                         "start": 467,
                         "end": 468,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       }
                     }
                   },
@@ -140,7 +144,8 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 449,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -167,7 +172,8 @@
                         "type": "Literal",
                         "start": 511,
                         "end": 512,
-                        "value": 8
+                        "value": 8,
+                        "raw": "8"
                       }
                     }
                   }
@@ -176,7 +182,8 @@
                   "type": "Literal",
                   "start": 492,
                   "end": 493,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
@@ -203,7 +210,8 @@
                         "type": "Literal",
                         "start": 553,
                         "end": 555,
-                        "value": 16
+                        "value": 16,
+                        "raw": "16"
                       }
                     }
                   }
@@ -253,7 +261,8 @@
                         "type": "Literal",
                         "start": 586,
                         "end": 588,
-                        "value": 32
+                        "value": 32,
+                        "raw": "32"
                       }
                     }
                   },
@@ -290,7 +299,8 @@
                         "type": "Literal",
                         "start": 634,
                         "end": 636,
-                        "value": 64
+                        "value": 64,
+                        "raw": "64"
                       }
                     }
                   }
@@ -299,7 +309,8 @@
                   "type": "Literal",
                   "start": 612,
                   "end": 616,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               },
               {
@@ -326,7 +337,8 @@
                         "type": "Literal",
                         "start": 670,
                         "end": 673,
-                        "value": 128
+                        "value": 128,
+                        "raw": "128"
                       }
                     }
                   },
@@ -368,7 +380,8 @@
                         "type": "Literal",
                         "start": 723,
                         "end": 726,
-                        "value": 256
+                        "value": 256,
+                        "raw": "256"
                       }
                     }
                   }
@@ -404,7 +417,8 @@
                         "type": "Literal",
                         "start": 758,
                         "end": 761,
-                        "value": 512
+                        "value": 512,
+                        "raw": "512"
                       }
                     }
                   },
@@ -423,14 +437,16 @@
                     "type": "Literal",
                     "start": 737,
                     "end": 738,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 739,
                     "end": 740,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 }
               },
@@ -458,7 +474,8 @@
                         "type": "Literal",
                         "start": 812,
                         "end": 816,
-                        "value": 1024
+                        "value": 1024,
+                        "raw": "1024"
                       }
                     }
                   }
@@ -516,7 +533,8 @@
                 "type": "Literal",
                 "start": 860,
                 "end": 865,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -568,7 +586,8 @@
               "type": "Literal",
               "start": 892,
               "end": 893,
-              "value": 6
+              "value": 6,
+              "raw": "6"
             }
           }
         }
@@ -601,7 +620,8 @@
                     "type": "Literal",
                     "start": 922,
                     "end": 999,
-                    "value": "#1: SwitchTest(Number(false)) === 6. Actual:  SwitchTest(Number(false)) ==="
+                    "value": "#1: SwitchTest(Number(false)) === 6. Actual:  SwitchTest(Number(false)) ===",
+                    "raw": "\"#1: SwitchTest(Number(false)) === 6. Actual:  SwitchTest(Number(false)) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -675,7 +695,8 @@
               "type": "Literal",
               "start": 1052,
               "end": 1054,
-              "value": 32
+              "value": 32,
+              "raw": "32"
             }
           }
         }
@@ -708,7 +729,8 @@
                     "type": "Literal",
                     "start": 1083,
                     "end": 1151,
-                    "value": "#2: SwitchTest(parseInt) === 32. Actual:  SwitchTest(parseInt) ==="
+                    "value": "#2: SwitchTest(parseInt) === 32. Actual:  SwitchTest(parseInt) ===",
+                    "raw": "\"#2: SwitchTest(parseInt) === 32. Actual:  SwitchTest(parseInt) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -782,7 +804,8 @@
               "type": "Literal",
               "start": 1208,
               "end": 1211,
-              "value": 128
+              "value": 128,
+              "raw": "128"
             }
           }
         }
@@ -815,7 +838,8 @@
                     "type": "Literal",
                     "start": 1240,
                     "end": 1303,
-                    "value": "#3: SwitchTest(isNaN) === 128. Actual:  SwitchTest(isNaN) ==="
+                    "value": "#3: SwitchTest(isNaN) === 128. Actual:  SwitchTest(isNaN) ===",
+                    "raw": "\"#3: SwitchTest(isNaN) === 128. Actual:  SwitchTest(isNaN) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -879,7 +903,8 @@
                   "type": "Literal",
                   "start": 1346,
                   "end": 1350,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ],
               "optional": false
@@ -889,7 +914,8 @@
               "type": "Literal",
               "start": 1356,
               "end": 1358,
-              "value": 32
+              "value": 32,
+              "raw": "32"
             }
           }
         }
@@ -922,7 +948,8 @@
                     "type": "Literal",
                     "start": 1387,
                     "end": 1447,
-                    "value": "#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ==="
+                    "value": "#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ===",
+                    "raw": "\"#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -940,7 +967,8 @@
                         "type": "Literal",
                         "start": 1460,
                         "end": 1464,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -986,7 +1014,8 @@
                   "type": "Literal",
                   "start": 1489,
                   "end": 1494,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               ],
               "optional": false
@@ -996,7 +1025,8 @@
               "type": "Literal",
               "start": 1500,
               "end": 1502,
-              "value": 48
+              "value": 48,
+              "raw": "48"
             }
           }
         }
@@ -1029,7 +1059,8 @@
                     "type": "Literal",
                     "start": 1531,
                     "end": 1593,
-                    "value": "#7: SwitchTest(false) === 48. Actual:  SwitchTest(false) ==="
+                    "value": "#7: SwitchTest(false) === 48. Actual:  SwitchTest(false) ===",
+                    "raw": "\"#7: SwitchTest(false) === 48. Actual:  SwitchTest(false) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -1047,7 +1078,8 @@
                         "type": "Literal",
                         "start": 1606,
                         "end": 1611,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -1093,7 +1125,8 @@
                   "type": "Literal",
                   "start": 1636,
                   "end": 1640,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               ],
               "optional": false
@@ -1103,7 +1136,8 @@
               "type": "Literal",
               "start": 1646,
               "end": 1649,
-              "value": 192
+              "value": 192,
+              "raw": "192"
             }
           }
         }
@@ -1136,7 +1170,8 @@
                     "type": "Literal",
                     "start": 1678,
                     "end": 1739,
-                    "value": "#8: SwitchTest(null) === 192. Actual:  SwitchTest(null) ==="
+                    "value": "#8: SwitchTest(null) === 192. Actual:  SwitchTest(null) ===",
+                    "raw": "\"#8: SwitchTest(null) === 192. Actual:  SwitchTest(null) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -1154,7 +1189,8 @@
                         "type": "Literal",
                         "start": 1752,
                         "end": 1756,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -1206,7 +1242,8 @@
                     "type": "Literal",
                     "start": 1786,
                     "end": 1787,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -1217,7 +1254,8 @@
               "type": "Literal",
               "start": 1793,
               "end": 1797,
-              "value": 1024
+              "value": 1024,
+              "raw": "1024"
             }
           }
         }
@@ -1250,7 +1288,8 @@
                     "type": "Literal",
                     "start": 1826,
                     "end": 1892,
-                    "value": "#9: SwitchTest(void 0) === 1024. Actual:  SwitchTest(void 0) ==="
+                    "value": "#9: SwitchTest(void 0) === 1024. Actual:  SwitchTest(void 0) ===",
+                    "raw": "\"#9: SwitchTest(void 0) === 1024. Actual:  SwitchTest(void 0) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -1274,7 +1313,8 @@
                           "type": "Literal",
                           "start": 1910,
                           "end": 1911,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ],
@@ -1331,7 +1371,8 @@
               "type": "Literal",
               "start": 1945,
               "end": 1947,
-              "value": 32
+              "value": 32,
+              "raw": "32"
             }
           }
         }
@@ -1364,7 +1405,8 @@
                     "type": "Literal",
                     "start": 1976,
                     "end": 2035,
-                    "value": "#10: SwitchTest(NaN) === 32. Actual:  SwitchTest(NaN) ==="
+                    "value": "#10: SwitchTest(NaN) === 32. Actual:  SwitchTest(NaN) ===",
+                    "raw": "\"#10: SwitchTest(NaN) === 32. Actual:  SwitchTest(NaN) ===\""
                   },
                   "operator": "+",
                   "right": {
@@ -1438,7 +1480,8 @@
               "type": "Literal",
               "start": 2090,
               "end": 2093,
-              "value": 768
+              "value": 768,
+              "raw": "768"
             }
           }
         }
@@ -1471,7 +1514,8 @@
                     "type": "Literal",
                     "start": 2122,
                     "end": 2182,
-                    "value": "#10: SwitchTest(NaN) === 768. Actual:  SwitchTest(NaN) ==="
+                    "value": "#10: SwitchTest(NaN) === 768. Actual:  SwitchTest(NaN) ===",
+                    "raw": "\"#10: SwitchTest(NaN) === 768. Actual:  SwitchTest(NaN) ===\""
                   },
                   "operator": "+",
                   "right": {

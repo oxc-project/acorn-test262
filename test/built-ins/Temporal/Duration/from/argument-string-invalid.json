@@ -27,103 +27,120 @@
                 "type": "Literal",
                 "start": 252,
                 "end": 283,
-                "value": "P1Y1M1W1DT1H1M1.123456789123S"
+                "value": "P1Y1M1W1DT1H1M1.123456789123S",
+                "raw": "\"P1Y1M1W1DT1H1M1.123456789123S\""
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 294,
-                "value": "P0.5Y"
+                "value": "P0.5Y",
+                "raw": "\"P0.5Y\""
               },
               {
                 "type": "Literal",
                 "start": 298,
                 "end": 307,
-                "value": "P1Y0,5M"
+                "value": "P1Y0,5M",
+                "raw": "\"P1Y0,5M\""
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 322,
-                "value": "P1Y1M0.5W"
+                "value": "P1Y1M0.5W",
+                "raw": "\"P1Y1M0.5W\""
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 339,
-                "value": "P1Y1M1W0,5D"
+                "value": "P1Y1M1W0,5D",
+                "raw": "\"P1Y1M1W0,5D\""
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 361,
-                "value": "P1Y1M1W1DT0.5H5S"
+                "value": "P1Y1M1W1DT0.5H5S",
+                "raw": "\"P1Y1M1W1DT0.5H5S\""
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 385,
-                "value": "P1Y1M1W1DT1.5H0,5M"
+                "value": "P1Y1M1W1DT1.5H0,5M",
+                "raw": "\"P1Y1M1W1DT1.5H0,5M\""
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 411,
-                "value": "P1Y1M1W1DT1H0.5M0.5S"
+                "value": "P1Y1M1W1DT1H0.5M0.5S",
+                "raw": "\"P1Y1M1W1DT1H0.5M0.5S\""
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 418,
-                "value": "P"
+                "value": "P",
+                "raw": "\"P\""
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 426,
-                "value": "PT"
+                "value": "PT",
+                "raw": "\"PT\""
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 434,
-                "value": "-P"
+                "value": "-P",
+                "raw": "\"-P\""
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 443,
-                "value": "-PT"
+                "value": "-PT",
+                "raw": "\"-PT\""
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 451,
-                "value": "+P"
+                "value": "+P",
+                "raw": "\"+P\""
               },
               {
                 "type": "Literal",
                 "start": 455,
                 "end": 460,
-                "value": "+PT"
+                "value": "+PT",
+                "raw": "\"+PT\""
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 489,
-                "value": "P1Y1M1W1DT1H1M1.01Sjunk"
+                "value": "P1Y1M1W1DT1H1M1.01Sjunk",
+                "raw": "\"P1Y1M1W1DT1H1M1.01Sjunk\""
               },
               {
                 "type": "Literal",
                 "start": 493,
                 "end": 501,
-                "value": "P-1Y1M"
+                "value": "P-1Y1M",
+                "raw": "\"P-1Y1M\""
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 513,
-                "value": "P1Y-1M"
+                "value": "P1Y-1M",
+                "raw": "\"P1Y-1M\""
               }
             ]
           }

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -215,13 +216,15 @@
             "type": "Literal",
             "start": 451,
             "end": 459,
-            "value": "exName"
+            "value": "exName",
+            "raw": "\"exName\""
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 470,
-            "value": "nocheck"
+            "value": "nocheck",
+            "raw": "\"nocheck\""
           }
         ],
         "optional": false
@@ -276,7 +279,8 @@
                   "type": "Literal",
                   "start": 501,
                   "end": 509,
-                  "value": "exName"
+                  "value": "exName",
+                  "raw": "\"exName\""
                 }
               ],
               "optional": false

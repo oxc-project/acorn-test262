@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 338,
             "end": 340,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         }
       ],
@@ -74,7 +75,8 @@
                   "type": "Literal",
                   "start": 463,
                   "end": 528,
-                  "value": "#1: Empty string and undefined are not equal (!=) to each other"
+                  "value": "#1: Empty string and undefined are not equal (!=) to each other",
+                  "raw": "'#1: Empty string and undefined are not equal (!=) to each other'"
                 }
               ]
             }
@@ -102,7 +104,8 @@
           "type": "Literal",
           "start": 682,
           "end": 686,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       },
       "consequent": {
@@ -129,7 +132,8 @@
                   "type": "Literal",
                   "start": 714,
                   "end": 774,
-                  "value": "#1: Empty string and Null are not equal (!=) to each other"
+                  "value": "#1: Empty string and Null are not equal (!=) to each other",
+                  "raw": "'#1: Empty string and Null are not equal (!=) to each other'"
                 }
               ]
             }
@@ -157,7 +161,8 @@
           "type": "Literal",
           "start": 928,
           "end": 929,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -184,7 +189,8 @@
                   "type": "Literal",
                   "start": 957,
                   "end": 1040,
-                  "value": "#3: Empty string and 0 are equal (==) to each other, since they all evaluate to 0"
+                  "value": "#3: Empty string and 0 are equal (==) to each other, since they all evaluate to 0",
+                  "raw": "'#3: Empty string and 0 are equal (==) to each other, since they all evaluate to 0'"
                 }
               ]
             }
@@ -212,7 +218,8 @@
           "type": "Literal",
           "start": 1194,
           "end": 1199,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -239,7 +246,8 @@
                   "type": "Literal",
                   "start": 1227,
                   "end": 1314,
-                  "value": "#4: Empty string and false are equal (==) to each other, since they all evaluate to 0"
+                  "value": "#4: Empty string and false are equal (==) to each other, since they all evaluate to 0",
+                  "raw": "'#4: Empty string and false are equal (==) to each other, since they all evaluate to 0'"
                 }
               ]
             }

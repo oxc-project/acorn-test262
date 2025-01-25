@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 357,
                           "end": 360,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -168,13 +169,15 @@
             "type": "Literal",
             "start": 422,
             "end": 439,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 481,
-            "value": "x.join() must return \"[object Object]\""
+            "value": "x.join() must return \"[object Object]\"",
+            "raw": "'x.join() must return \"[object Object]\"'"
           }
         ],
         "optional": false
@@ -235,7 +238,8 @@
                           "type": "Literal",
                           "start": 535,
                           "end": 538,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -278,7 +282,8 @@
                           "type": "Literal",
                           "start": 580,
                           "end": 583,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -388,13 +393,15 @@
             "type": "Literal",
             "start": 645,
             "end": 648,
-            "value": "*"
+            "value": "*",
+            "raw": "\"*\""
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 676,
-            "value": "x.join() must return \"*\""
+            "value": "x.join() must return \"*\"",
+            "raw": "'x.join() must return \"*\"'"
           }
         ],
         "optional": false
@@ -455,7 +462,8 @@
                           "type": "Literal",
                           "start": 730,
                           "end": 733,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -608,13 +616,15 @@
             "type": "Literal",
             "start": 839,
             "end": 842,
-            "value": "+"
+            "value": "+",
+            "raw": "\"+\""
           },
           {
             "type": "Literal",
             "start": 844,
             "end": 870,
-            "value": "x.join() must return \"+\""
+            "value": "x.join() must return \"+\"",
+            "raw": "'x.join() must return \"+\"'"
           }
         ],
         "optional": false
@@ -684,7 +694,8 @@
                                 "type": "Literal",
                                 "start": 935,
                                 "end": 942,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -727,7 +738,8 @@
                                 "type": "Literal",
                                 "start": 990,
                                 "end": 993,
-                                "value": "*"
+                                "value": "*",
+                                "raw": "\"*\""
                               }
                             }
                           ]
@@ -837,13 +849,15 @@
                   "type": "Literal",
                   "start": 1063,
                   "end": 1066,
-                  "value": "*"
+                  "value": "*",
+                  "raw": "\"*\""
                 },
                 {
                   "type": "Literal",
                   "start": 1068,
                   "end": 1094,
-                  "value": "x.join() must return \"*\""
+                  "value": "x.join() must return \"*\"",
+                  "raw": "'x.join() must return \"*\"'"
                 }
               ],
               "optional": false
@@ -904,13 +918,15 @@
                     "type": "Literal",
                     "start": 1136,
                     "end": 1143,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1145,
                     "end": 1176,
-                    "value": "The value of e is not \"error\""
+                    "value": "The value of e is not \"error\"",
+                    "raw": "'The value of e is not \"error\"'"
                   }
                 ],
                 "optional": false
@@ -976,7 +992,8 @@
                           "type": "Literal",
                           "start": 1233,
                           "end": 1236,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -1086,13 +1103,15 @@
             "type": "Literal",
             "start": 1298,
             "end": 1301,
-            "value": "*"
+            "value": "*",
+            "raw": "\"*\""
           },
           {
             "type": "Literal",
             "start": 1303,
             "end": 1329,
-            "value": "x.join() must return \"*\""
+            "value": "x.join() must return \"*\"",
+            "raw": "'x.join() must return \"*\"'"
           }
         ],
         "optional": false
@@ -1196,7 +1215,8 @@
                           "type": "Literal",
                           "start": 1427,
                           "end": 1430,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -1306,13 +1326,15 @@
             "type": "Literal",
             "start": 1491,
             "end": 1494,
-            "value": "*"
+            "value": "*",
+            "raw": "\"*\""
           },
           {
             "type": "Literal",
             "start": 1496,
             "end": 1522,
-            "value": "x.join() must return \"*\""
+            "value": "x.join() must return \"*\"",
+            "raw": "'x.join() must return \"*\"'"
           }
         ],
         "optional": false
@@ -1382,7 +1404,8 @@
                                 "type": "Literal",
                                 "start": 1588,
                                 "end": 1591,
-                                "value": "+"
+                                "value": "+",
+                                "raw": "\"+\""
                               }
                             }
                           ]
@@ -1425,7 +1448,8 @@
                                 "type": "Literal",
                                 "start": 1638,
                                 "end": 1645,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -1531,7 +1555,8 @@
                     "type": "Literal",
                     "start": 1723,
                     "end": 1876,
-                    "value": "#7.1: var object = {valueOf: function() {return \"+\"}, toString: function() {throw \"error\"}} var x = new Array(object); x.join() throw \"error\". Actual: "
+                    "value": "#7.1: var object = {valueOf: function() {return \"+\"}, toString: function() {throw \"error\"}} var x = new Array(object); x.join() throw \"error\". Actual: ",
+                    "raw": "'#7.1: var object = {valueOf: function() {return \"+\"}, toString: function() {throw \"error\"}} var x = new Array(object); x.join() throw \"error\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1624,13 +1649,15 @@
                     "type": "Literal",
                     "start": 1928,
                     "end": 1935,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1937,
                     "end": 1979,
-                    "value": "The value of e is expected to be \"error\""
+                    "value": "The value of e is expected to be \"error\"",
+                    "raw": "'The value of e is expected to be \"error\"'"
                   }
                 ],
                 "optional": false
@@ -1854,7 +1881,8 @@
                     "type": "Literal",
                     "start": 2177,
                     "end": 2327,
-                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}} var x = new Array(object); x.join() throw TypeError. Actual: "
+                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}} var x = new Array(object); x.join() throw TypeError. Actual: ",
+                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}} var x = new Array(object); x.join() throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1959,13 +1987,15 @@
                     "type": "Literal",
                     "start": 2409,
                     "end": 2413,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 2419,
                     "end": 2493,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

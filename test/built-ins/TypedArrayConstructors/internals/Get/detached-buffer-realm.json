@@ -178,7 +178,8 @@
                             "type": "Literal",
                             "start": 1108,
                             "end": 1109,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -266,7 +267,8 @@
                           "type": "Literal",
                           "start": 1172,
                           "end": 1173,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -281,7 +283,8 @@
                         "type": "Literal",
                         "start": 1187,
                         "end": 1244,
-                        "value": "The value of sample[0] is expected to equal `undefined`"
+                        "value": "The value of sample[0] is expected to equal `undefined`",
+                        "raw": "'The value of sample[0] is expected to equal `undefined`'"
                       }
                     ],
                     "optional": false

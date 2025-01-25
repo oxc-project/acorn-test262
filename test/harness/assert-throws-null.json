@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 251,
             "end": 256,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -93,7 +94,8 @@
                           "type": "Literal",
                           "start": 311,
                           "end": 315,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       }
                     ]
@@ -139,7 +141,8 @@
                   "type": "Literal",
                   "start": 348,
                   "end": 352,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -210,7 +213,8 @@
                               "type": "Literal",
                               "start": 423,
                               "end": 457,
-                              "value": "Expected a Test262Error, but a \""
+                              "value": "Expected a Test262Error, but a \"",
+                              "raw": "'Expected a Test262Error, but a \"'"
                             },
                             "operator": "+",
                             "right": {
@@ -251,7 +255,8 @@
                             "type": "Literal",
                             "start": 489,
                             "end": 504,
-                            "value": "\" was thrown."
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
                           }
                         }
                       ]
@@ -285,7 +290,8 @@
           "type": "Literal",
           "start": 533,
           "end": 538,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -312,7 +318,8 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 611,
-                  "value": "Expected a Test262Error, but no error was thrown."
+                  "value": "Expected a Test262Error, but no error was thrown.",
+                  "raw": "'Expected a Test262Error, but no error was thrown.'"
                 }
               ]
             }

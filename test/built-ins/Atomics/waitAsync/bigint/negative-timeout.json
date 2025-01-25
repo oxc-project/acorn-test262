@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 641,
             "end": 651,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 708,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -138,7 +140,8 @@
                       "type": "Literal",
                       "start": 798,
                       "end": 799,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -236,13 +239,15 @@
                               "type": "Literal",
                               "start": 841,
                               "end": 842,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Literal",
                               "start": 844,
                               "end": 846,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             },
                             {
                               "type": "UnaryExpression",
@@ -254,7 +259,8 @@
                                 "type": "Literal",
                                 "start": 849,
                                 "end": 850,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           ],
@@ -350,13 +356,15 @@
                             "type": "Literal",
                             "start": 910,
                             "end": 921,
-                            "value": "timed-out"
+                            "value": "timed-out",
+                            "raw": "'timed-out'"
                           },
                           {
                             "type": "Literal",
                             "start": 923,
                             "end": 962,
-                            "value": "The value of `outcome` is \"timed-out\""
+                            "value": "The value of `outcome` is \"timed-out\"",
+                            "raw": "'The value of `outcome` is \"timed-out\"'"
                           }
                         ],
                         "optional": false

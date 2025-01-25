@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 672,
                       "end": 673,
-                      "value": 8
+                      "value": 8,
+                      "raw": "8"
                     }
                   }
                 ]
@@ -145,7 +146,8 @@
                               "type": "Literal",
                               "start": 748,
                               "end": 779,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }

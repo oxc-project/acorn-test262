@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 260,
               "end": 265,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 271,
           "end": 276,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -67,7 +69,8 @@
                     "type": "Literal",
                     "start": 305,
                     "end": 364,
-                    "value": "#1: Boolean(false) === false. Actual: Boolean(false) === "
+                    "value": "#1: Boolean(false) === false. Actual: Boolean(false) === ",
+                    "raw": "'#1: Boolean(false) === false. Actual: Boolean(false) === '"
                   },
                   "operator": "+",
                   "right": {
@@ -89,7 +92,8 @@
                           "type": "Literal",
                           "start": 376,
                           "end": 381,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         }
                       ],
                       "optional": false

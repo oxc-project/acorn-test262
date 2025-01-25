@@ -35,7 +35,8 @@
                 "type": "Literal",
                 "start": 412,
                 "end": 413,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -47,7 +48,8 @@
               "type": "Literal",
               "start": 422,
               "end": 423,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           }
         ]
@@ -199,13 +201,15 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 534,
-            "value": "First result `value`"
+            "value": "First result `value`",
+            "raw": "'First result `value`'"
           }
         ],
         "optional": false
@@ -262,13 +266,15 @@
             "type": "Literal",
             "start": 567,
             "end": 572,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 600,
-            "value": "First result `done` flag"
+            "value": "First result `done` flag",
+            "raw": "'First result `done` flag'"
           }
         ],
         "optional": false
@@ -368,13 +374,15 @@
             "type": "Literal",
             "start": 657,
             "end": 658,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 660,
             "end": 683,
-            "value": "Second result `value`"
+            "value": "Second result `value`",
+            "raw": "'Second result `value`'"
           }
         ],
         "optional": false
@@ -431,13 +439,15 @@
             "type": "Literal",
             "start": 716,
             "end": 720,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 722,
             "end": 749,
-            "value": "Second result `done` flag"
+            "value": "Second result `done` flag",
+            "raw": "'Second result `done` flag'"
           }
         ],
         "optional": false

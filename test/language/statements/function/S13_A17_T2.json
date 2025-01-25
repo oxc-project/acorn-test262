@@ -63,7 +63,8 @@
                   "type": "Literal",
                   "start": 546,
                   "end": 602,
-                  "value": "#1: var __result = __func() lead to throwing exception"
+                  "value": "#1: var __result = __func() lead to throwing exception",
+                  "raw": "\"#1: var __result = __func() lead to throwing exception\""
                 }
               ]
             }
@@ -121,7 +122,8 @@
                   "type": "Literal",
                   "start": 653,
                   "end": 657,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -152,7 +154,8 @@
                             "type": "Literal",
                             "start": 688,
                             "end": 735,
-                            "value": "#1.2: func should throw a TypeError  Actual: "
+                            "value": "#1.2: func should throw a TypeError  Actual: ",
+                            "raw": "'#1.2: func should throw a TypeError  Actual: '"
                           },
                           "operator": "+",
                           "right": {
@@ -221,7 +224,8 @@
                     "type": "Literal",
                     "start": 930,
                     "end": 935,
-                    "value": "ONE"
+                    "value": "ONE",
+                    "raw": "\"ONE\""
                   }
                 }
               ]
@@ -282,7 +286,8 @@
           "type": "Literal",
           "start": 1071,
           "end": 1076,
-          "value": "ONE"
+          "value": "ONE",
+          "raw": "\"ONE\""
         }
       },
       "consequent": {
@@ -313,7 +318,8 @@
                     "type": "Literal",
                     "start": 1104,
                     "end": 1150,
-                    "value": "#2: __result === \"ONE\". Actual: __result ==="
+                    "value": "#2: __result === \"ONE\". Actual: __result ===",
+                    "raw": "'#2: __result === \"ONE\". Actual: __result ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +378,8 @@
                   "type": "Literal",
                   "start": 1281,
                   "end": 1286,
-                  "value": "TWO"
+                  "value": "TWO",
+                  "raw": "\"TWO\""
                 }
               }
             ]
@@ -431,7 +438,8 @@
           "type": "Literal",
           "start": 1422,
           "end": 1427,
-          "value": "TWO"
+          "value": "TWO",
+          "raw": "\"TWO\""
         }
       },
       "consequent": {
@@ -462,7 +470,8 @@
                     "type": "Literal",
                     "start": 1455,
                     "end": 1501,
-                    "value": "#3: __result === \"TWO\". Actual: __result ==="
+                    "value": "#3: __result === \"TWO\". Actual: __result ===",
+                    "raw": "'#3: __result === \"TWO\". Actual: __result ==='"
                   },
                   "operator": "+",
                   "right": {

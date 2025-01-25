@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 304,
             "end": 309,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -114,7 +115,8 @@
                   "type": "Literal",
                   "start": 386,
                   "end": 390,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -185,7 +187,8 @@
                               "type": "Literal",
                               "start": 458,
                               "end": 489,
-                              "value": "Expected a TypeError, but a \""
+                              "value": "Expected a TypeError, but a \"",
+                              "raw": "'Expected a TypeError, but a \"'"
                             },
                             "operator": "+",
                             "right": {
@@ -226,7 +229,8 @@
                             "type": "Literal",
                             "start": 521,
                             "end": 536,
-                            "value": "\" was thrown."
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
                           }
                         }
                       ]
@@ -260,7 +264,8 @@
           "type": "Literal",
           "start": 565,
           "end": 570,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -287,7 +292,8 @@
                   "type": "Literal",
                   "start": 592,
                   "end": 640,
-                  "value": "Expected a TypeError, but no error was thrown."
+                  "value": "Expected a TypeError, but no error was thrown.",
+                  "raw": "'Expected a TypeError, but no error was thrown.'"
                 }
               ]
             }

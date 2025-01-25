@@ -154,7 +154,8 @@
                   "type": "Literal",
                   "start": 347,
                   "end": 358,
-                  "value": "prototype"
+                  "value": "prototype",
+                  "raw": "'prototype'"
                 }
               ],
               "optional": false
@@ -164,7 +165,8 @@
             "type": "Literal",
             "start": 363,
             "end": 431,
-            "value": "Functions declared as methods do not define a 'prototype' property"
+            "value": "Functions declared as methods do not define a 'prototype' property",
+            "raw": "\"Functions declared as methods do not define a 'prototype' property\""
           }
         ],
         "optional": false

@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 1725,
                           "end": 1739,
-                          "value": "custom error"
+                          "value": "custom error",
+                          "raw": "'custom error'"
                         }
                       }
                     ]
@@ -80,7 +81,8 @@
         "type": "Literal",
         "start": 1756,
         "end": 1761,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -194,7 +196,8 @@
                                   "type": "Literal",
                                   "start": 1835,
                                   "end": 1849,
-                                  "value": "custom error"
+                                  "value": "custom error",
+                                  "raw": "'custom error'"
                                 }
                               ],
                               "optional": false

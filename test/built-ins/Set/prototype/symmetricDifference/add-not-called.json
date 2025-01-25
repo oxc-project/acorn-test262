@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 360,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 362,
                     "end": 363,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -89,13 +91,15 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 388,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 390,
                     "end": 391,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
@@ -129,13 +133,15 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 414,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -213,7 +219,8 @@
             "type": "Literal",
             "start": 472,
             "end": 473,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -510,13 +517,15 @@
             "type": "Literal",
             "start": 705,
             "end": 709,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 741,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false
@@ -560,13 +569,15 @@
             "type": "Literal",
             "start": 768,
             "end": 769,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 792,
-            "value": "Add is never called"
+            "value": "Add is never called",
+            "raw": "\"Add is never called\""
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1386,
             "end": 1387,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -77,7 +78,8 @@
                 "type": "Literal",
                 "start": 1438,
                 "end": 1448,
-                "value": "poisoned"
+                "value": "poisoned",
+                "raw": "'poisoned'"
               },
               {
                 "type": "ObjectExpression",
@@ -274,7 +276,8 @@
                       "type": "Literal",
                       "start": 1629,
                       "end": 1630,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   },
                   "update": null,
@@ -337,7 +340,8 @@
             "type": "Literal",
             "start": 1689,
             "end": 1690,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

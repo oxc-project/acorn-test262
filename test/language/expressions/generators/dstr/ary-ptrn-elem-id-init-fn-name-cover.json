@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1909,
             "end": 1910,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -132,7 +133,8 @@
                           "type": "Literal",
                           "start": 1970,
                           "end": 1971,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "FunctionExpression",
@@ -213,7 +215,8 @@
                       "type": "Literal",
                       "start": 2023,
                       "end": 2030,
-                      "value": "cover"
+                      "value": "cover",
+                      "raw": "'cover'"
                     }
                   ],
                   "optional": false
@@ -270,7 +273,8 @@
                       "type": "Literal",
                       "start": 2068,
                       "end": 2076,
-                      "value": "xCover"
+                      "value": "xCover",
+                      "raw": "'xCover'"
                     }
                   ],
                   "optional": false
@@ -306,7 +310,8 @@
                       "type": "Literal",
                       "start": 2105,
                       "end": 2106,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -399,13 +404,15 @@
             "type": "Literal",
             "start": 2154,
             "end": 2155,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2157,
             "end": 2198,
-            "value": "generator function invoked exactly once"
+            "value": "generator function invoked exactly once",
+            "raw": "'generator function invoked exactly once'"
           }
         ],
         "optional": false

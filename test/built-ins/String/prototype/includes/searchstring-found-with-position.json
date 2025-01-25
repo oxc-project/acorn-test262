@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 887,
             "end": 908,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 934,
                 "end": 946,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 948,
                 "end": 949,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -86,7 +89,8 @@
             "type": "Literal",
             "start": 954,
             "end": 1002,
-            "value": "Returns true for str.includes(\"The future\", 0)"
+            "value": "Returns true for str.includes(\"The future\", 0)",
+            "raw": "'Returns true for str.includes(\"The future\", 0)'"
           }
         ],
         "optional": false
@@ -135,13 +139,15 @@
                 "type": "Literal",
                 "start": 1026,
                 "end": 1032,
-                "value": " is "
+                "value": " is ",
+                "raw": "' is '"
               },
               {
                 "type": "Literal",
                 "start": 1034,
                 "end": 1035,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -150,7 +156,8 @@
             "type": "Literal",
             "start": 1038,
             "end": 1080,
-            "value": "Returns true for str.includes(\" is \", 1)"
+            "value": "Returns true for str.includes(\" is \", 1)",
+            "raw": "'Returns true for str.includes(\" is \", 1)'"
           }
         ],
         "optional": false
@@ -199,13 +206,15 @@
                 "type": "Literal",
                 "start": 1103,
                 "end": 1110,
-                "value": "cool!"
+                "value": "cool!",
+                "raw": "'cool!'"
               },
               {
                 "type": "Literal",
                 "start": 1112,
                 "end": 1114,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -214,7 +223,8 @@
             "type": "Literal",
             "start": 1117,
             "end": 1161,
-            "value": "Returns true for str.includes(\"cool!\", 10)"
+            "value": "Returns true for str.includes(\"cool!\", 10)",
+            "raw": "'Returns true for str.includes(\"cool!\", 10)'"
           }
         ],
         "optional": false

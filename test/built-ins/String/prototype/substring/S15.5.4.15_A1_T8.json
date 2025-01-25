@@ -116,7 +116,8 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 515,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             },
             {
@@ -129,7 +130,8 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 523,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ],
@@ -140,7 +142,8 @@
           "type": "Literal",
           "start": 529,
           "end": 540,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -171,7 +174,8 @@
                     "type": "Literal",
                     "start": 569,
                     "end": 668,
-                    "value": "#1: __obj = {toString:function(){}}; String(__obj).substring(-4,void 0) === \"undefined\". Actual: "
+                    "value": "#1: __obj = {toString:function(){}}; String(__obj).substring(-4,void 0) === \"undefined\". Actual: ",
+                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).substring(-4,void 0) === \"undefined\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -222,7 +226,8 @@
                           "type": "Literal",
                           "start": 696,
                           "end": 697,
-                          "value": 4
+                          "value": 4,
+                          "raw": "4"
                         }
                       },
                       {
@@ -235,7 +240,8 @@
                           "type": "Literal",
                           "start": 704,
                           "end": 705,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ],

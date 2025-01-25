@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 363,
             "end": 379,
-            "value": "DateTimeFormat"
+            "value": "DateTimeFormat",
+            "raw": "\"DateTimeFormat\""
           }
         ],
         "optional": false

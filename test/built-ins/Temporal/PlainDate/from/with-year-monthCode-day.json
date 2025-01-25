@@ -90,7 +90,8 @@
                       "type": "Literal",
                       "start": 801,
                       "end": 805,
-                      "value": 2021
+                      "value": 2021,
+                      "raw": "2021"
                     },
                     "kind": "init"
                   },
@@ -111,7 +112,8 @@
                       "type": "Literal",
                       "start": 818,
                       "end": 823,
-                      "value": "M07"
+                      "value": "M07",
+                      "raw": "\"M07\""
                     },
                     "kind": "init"
                   },
@@ -132,7 +134,8 @@
                       "type": "Literal",
                       "start": 830,
                       "end": 832,
-                      "value": 15
+                      "value": 15,
+                      "raw": "15"
                     },
                     "kind": "init"
                   }
@@ -145,31 +148,36 @@
             "type": "Literal",
             "start": 840,
             "end": 844,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 847,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 854,
-            "value": "M07"
+            "value": "M07",
+            "raw": "\"M07\""
           },
           {
             "type": "Literal",
             "start": 856,
             "end": 858,
-            "value": 15
+            "value": 15,
+            "raw": "15"
           },
           {
             "type": "Literal",
             "start": 864,
             "end": 884,
-            "value": "year/monthCode/day"
+            "value": "year/monthCode/day",
+            "raw": "\"year/monthCode/day\""
           }
         ],
         "optional": false

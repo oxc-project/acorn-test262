@@ -90,13 +90,15 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 464,
-                "value": "8640000000000000000000n"
+                "value": "8640000000000000000000n",
+                "raw": "86400_0000_0000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 471,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -193,7 +195,8 @@
                         "type": "Literal",
                         "start": 541,
                         "end": 547,
-                        "value": "days"
+                        "value": "days",
+                        "raw": "\"days\""
                       },
                       "kind": "init"
                     },
@@ -214,7 +217,8 @@
                         "type": "Literal",
                         "start": 563,
                         "end": 572,
-                        "value": "minutes"
+                        "value": "minutes",
+                        "raw": "\"minutes\""
                       },
                       "kind": "init"
                     },
@@ -249,7 +253,8 @@
             "type": "Literal",
             "start": 591,
             "end": 626,
-            "value": "Next day boundary is out of range"
+            "value": "Next day boundary is out of range",
+            "raw": "\"Next day boundary is out of range\""
           }
         ],
         "optional": false

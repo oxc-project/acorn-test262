@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 426,
             "end": 436,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -137,7 +138,8 @@
           "type": "Literal",
           "start": 468,
           "end": 472,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -227,7 +229,8 @@
             "type": "Literal",
             "start": 527,
             "end": 539,
-            "value": "null value"
+            "value": "null value",
+            "raw": "'null value'"
           }
         ],
         "optional": false
@@ -288,7 +291,8 @@
           "type": "Literal",
           "start": 567,
           "end": 568,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -378,7 +382,8 @@
             "type": "Literal",
             "start": 623,
             "end": 637,
-            "value": "number value"
+            "value": "number value",
+            "raw": "'number value'"
           }
         ],
         "optional": false
@@ -439,7 +444,8 @@
           "type": "Literal",
           "start": 665,
           "end": 673,
-          "value": "string"
+          "value": "string",
+          "raw": "'string'"
         }
       }
     },
@@ -529,7 +535,8 @@
             "type": "Literal",
             "start": 728,
             "end": 742,
-            "value": "string value"
+            "value": "string value",
+            "raw": "'string value'"
           }
         ],
         "optional": false
@@ -590,7 +597,8 @@
           "type": "Literal",
           "start": 770,
           "end": 774,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -680,7 +688,8 @@
             "type": "Literal",
             "start": 829,
             "end": 844,
-            "value": "boolean value"
+            "value": "boolean value",
+            "raw": "'boolean value'"
           }
         ],
         "optional": false

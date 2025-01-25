@@ -81,13 +81,15 @@
                             "type": "Literal",
                             "start": 520,
                             "end": 530,
-                            "value": "a1,a2,a3"
+                            "value": "a1,a2,a3",
+                            "raw": "\"a1,a2,a3\""
                           },
                           {
                             "type": "Literal",
                             "start": 532,
                             "end": 556,
-                            "value": "this.shifted=a1+a2+a3;"
+                            "value": "this.shifted=a1+a2+a3;",
+                            "raw": "\"this.shifted=a1+a2+a3;\""
                           }
                         ],
                         "optional": false
@@ -127,19 +129,22 @@
             "type": "Literal",
             "start": 584,
             "end": 586,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 592,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -187,7 +192,8 @@
               "type": "Literal",
               "start": 617,
               "end": 626,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -196,13 +202,15 @@
             "type": "Literal",
             "start": 629,
             "end": 633,
-            "value": "42"
+            "value": "42",
+            "raw": "\"42\""
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 687,
-            "value": "The value of obj[\"shifted\"] is expected to be \"42\""
+            "value": "The value of obj[\"shifted\"] is expected to be \"42\"",
+            "raw": "'The value of obj[\"shifted\"] is expected to be \"42\"'"
           }
         ],
         "optional": false
@@ -255,7 +263,8 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 732,
-                "value": "shifted"
+                "value": "shifted",
+                "raw": "\"shifted\""
               },
               "computed": true,
               "optional": false
@@ -265,13 +274,15 @@
             "type": "Literal",
             "start": 737,
             "end": 748,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 821,
-            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\""
+            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 721,
             "end": 722,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -94,7 +95,8 @@
                             "type": "Literal",
                             "start": 779,
                             "end": 780,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -106,7 +108,8 @@
                           "type": "Literal",
                           "start": 793,
                           "end": 810,
-                          "value": "valueOf test262"
+                          "value": "valueOf test262",
+                          "raw": "'valueOf test262'"
                         }
                       }
                     ]
@@ -131,7 +134,8 @@
                   "type": "Literal",
                   "start": 829,
                   "end": 833,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -242,7 +246,8 @@
                 "type": "Literal",
                 "start": 903,
                 "end": 912,
-                "value": "default"
+                "value": "default",
+                "raw": "'default'"
               }
             ],
             "optional": false
@@ -251,13 +256,15 @@
             "type": "Literal",
             "start": 917,
             "end": 934,
-            "value": "valueOf test262"
+            "value": "valueOf test262",
+            "raw": "'valueOf test262'"
           },
           {
             "type": "Literal",
             "start": 938,
             "end": 1003,
-            "value": "`valueOf` is used as a fallback when `toString` is not callable"
+            "value": "`valueOf` is used as a fallback when `toString` is not callable",
+            "raw": "'`valueOf` is used as a fallback when `toString` is not callable'"
           }
         ],
         "optional": false
@@ -301,13 +308,15 @@
             "type": "Literal",
             "start": 1037,
             "end": 1038,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1040,
             "end": 1083,
-            "value": "`valueOf` method was invoked exactly once"
+            "value": "`valueOf` method was invoked exactly once",
+            "raw": "'`valueOf` method was invoked exactly once'"
           }
         ],
         "optional": false

@@ -77,7 +77,8 @@
                             "type": "Literal",
                             "start": 448,
                             "end": 452,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           "kind": "init"
                         },

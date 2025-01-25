@@ -89,7 +89,8 @@
                   "type": "Literal",
                   "start": 292,
                   "end": 296,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ],
               "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 320,
             "end": 324,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 409,
-            "value": "The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true"
+            "value": "The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true",
+            "raw": "'The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true'"
           }
         ],
         "optional": false
@@ -204,7 +207,8 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 467,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               ],
               "optional": false
@@ -221,13 +225,15 @@
             "type": "Literal",
             "start": 491,
             "end": 495,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 581,
-            "value": "The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true"
+            "value": "The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true",
+            "raw": "'The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true'"
           }
         ],
         "optional": false

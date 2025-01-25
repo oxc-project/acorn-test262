@@ -234,7 +234,8 @@
             "type": "Literal",
             "start": 586,
             "end": 655,
-            "value": "[].concat(spreadablePoisonedGetter) throws a Test262Error exception"
+            "value": "[].concat(spreadablePoisonedGetter) throws a Test262Error exception",
+            "raw": "'[].concat(spreadablePoisonedGetter) throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -352,19 +353,22 @@
                         "type": "Literal",
                         "start": 756,
                         "end": 757,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 759,
                         "end": 760,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 762,
                         "end": 763,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     ],
                     "optional": false
@@ -377,7 +381,8 @@
             "type": "Literal",
             "start": 769,
             "end": 865,
-            "value": "Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception"
+            "value": "Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception",
+            "raw": "'Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception'"
           }
         ],
         "optional": false

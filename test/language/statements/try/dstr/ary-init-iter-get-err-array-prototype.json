@@ -130,19 +130,22 @@
                               "type": "Literal",
                               "start": 1047,
                               "end": 1048,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 1050,
                               "end": 1051,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             {
                               "type": "Literal",
                               "start": 1053,
                               "end": 1054,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           ]
                         }

@@ -226,7 +226,8 @@
             "type": "Literal",
             "start": 908,
             "end": 925,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false
@@ -323,13 +324,15 @@
             "type": "Literal",
             "start": 993,
             "end": 1009,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "'[object Array]'"
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1024,
-            "value": "array proxy"
+            "value": "array proxy",
+            "raw": "'array proxy'"
           }
         ],
         "optional": false
@@ -426,13 +429,15 @@
             "type": "Literal",
             "start": 1099,
             "end": 1115,
-            "value": "[object Array]"
+            "value": "[object Array]",
+            "raw": "'[object Array]'"
           },
           {
             "type": "Literal",
             "start": 1119,
             "end": 1142,
-            "value": "proxy for array proxy"
+            "value": "proxy for array proxy",
+            "raw": "'proxy for array proxy'"
           }
         ],
         "optional": false

@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 433,
-                "value": "description"
+                "value": "description",
+                "raw": "\"description\""
               }
             ],
             "optional": false
@@ -145,13 +146,15 @@
             "type": "Literal",
             "start": 471,
             "end": 475,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 511,
-            "value": "`Object.is(a, a)` returns `true`"
+            "value": "`Object.is(a, a)` returns `true`",
+            "raw": "\"`Object.is(a, a)` returns `true`\""
           }
         ],
         "optional": false
@@ -228,13 +231,15 @@
             "type": "Literal",
             "start": 548,
             "end": 552,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 588,
-            "value": "`Object.is(b, b)` returns `true`"
+            "value": "`Object.is(b, b)` returns `true`",
+            "raw": "\"`Object.is(b, b)` returns `true`\""
           }
         ],
         "optional": false

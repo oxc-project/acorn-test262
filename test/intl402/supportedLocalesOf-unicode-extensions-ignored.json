@@ -60,13 +60,15 @@
                             "type": "Literal",
                             "start": 483,
                             "end": 491,
-                            "value": "lookup"
+                            "value": "lookup",
+                            "raw": "\"lookup\""
                           },
                           {
                             "type": "Literal",
                             "start": 493,
                             "end": 503,
-                            "value": "best fit"
+                            "value": "best fit",
+                            "raw": "\"best fit\""
                           }
                         ]
                       },
@@ -358,7 +360,8 @@
                                                 "type": "Literal",
                                                 "start": 800,
                                                 "end": 823,
-                                                "value": "-u-co-phonebk-nu-latn"
+                                                "value": "-u-co-phonebk-nu-latn",
+                                                "raw": "\"-u-co-phonebk-nu-latn\""
                                               }
                                             }
                                           ],
@@ -383,7 +386,8 @@
                                                 "type": "Literal",
                                                 "start": 860,
                                                 "end": 875,
-                                                "value": "-u-nu-invalid"
+                                                "value": "-u-nu-invalid",
+                                                "raw": "\"-u-nu-invalid\""
                                               }
                                             }
                                           ],
@@ -640,7 +644,8 @@
                                               "type": "Literal",
                                               "start": 1179,
                                               "end": 1180,
-                                              "value": 1
+                                              "value": 1,
+                                              "raw": "1"
                                             }
                                           },
                                           "consequent": {
@@ -699,7 +704,8 @@
                                                       "type": "Literal",
                                                       "start": 1236,
                                                       "end": 1237,
-                                                      "value": 1
+                                                      "value": 1,
+                                                      "raw": "1"
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -721,7 +727,8 @@
                                                               "type": "Literal",
                                                               "start": 1239,
                                                               "end": 1316,
-                                                              "value": "#1.1: Presence of Unicode locale extension sequence affects whether locale "
+                                                              "value": "#1.1: Presence of Unicode locale extension sequence affects whether locale ",
+                                                              "raw": "\"#1.1: Presence of Unicode locale extension sequence affects whether locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -736,7 +743,8 @@
                                                             "type": "Literal",
                                                             "start": 1328,
                                                             "end": 1368,
-                                                            "value": " is considered supported with matcher "
+                                                            "value": " is considered supported with matcher ",
+                                                            "raw": "\" is considered supported with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -752,7 +760,8 @@
                                                         "type": "Literal",
                                                         "start": 1381,
                                                         "end": 1384,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],
@@ -810,7 +819,8 @@
                                                       "type": "Literal",
                                                       "start": 1439,
                                                       "end": 1440,
-                                                      "value": 1
+                                                      "value": 1,
+                                                      "raw": "1"
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -832,7 +842,8 @@
                                                               "type": "Literal",
                                                               "start": 1442,
                                                               "end": 1519,
-                                                              "value": "#1.2: Presence of Unicode locale extension sequence affects whether locale "
+                                                              "value": "#1.2: Presence of Unicode locale extension sequence affects whether locale ",
+                                                              "raw": "\"#1.2: Presence of Unicode locale extension sequence affects whether locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -847,7 +858,8 @@
                                                             "type": "Literal",
                                                             "start": 1531,
                                                             "end": 1571,
-                                                            "value": " is considered supported with matcher "
+                                                            "value": " is considered supported with matcher ",
+                                                            "raw": "\" is considered supported with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -863,7 +875,8 @@
                                                         "type": "Literal",
                                                         "start": 1584,
                                                         "end": 1587,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],
@@ -912,7 +925,8 @@
                                                         "type": "Literal",
                                                         "start": 1634,
                                                         "end": 1635,
-                                                        "value": 0
+                                                        "value": 0,
+                                                        "raw": "0"
                                                       },
                                                       "computed": true,
                                                       "optional": false
@@ -955,7 +969,8 @@
                                                               "type": "Literal",
                                                               "start": 1663,
                                                               "end": 1742,
-                                                              "value": "#2.1: Unicode locale extension sequence is not correctly returned for locale "
+                                                              "value": "#2.1: Unicode locale extension sequence is not correctly returned for locale ",
+                                                              "raw": "\"#2.1: Unicode locale extension sequence is not correctly returned for locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -970,7 +985,8 @@
                                                             "type": "Literal",
                                                             "start": 1754,
                                                             "end": 1770,
-                                                            "value": " with matcher "
+                                                            "value": " with matcher ",
+                                                            "raw": "\" with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -986,7 +1002,8 @@
                                                         "type": "Literal",
                                                         "start": 1783,
                                                         "end": 1786,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],
@@ -1035,7 +1052,8 @@
                                                         "type": "Literal",
                                                         "start": 1833,
                                                         "end": 1834,
-                                                        "value": 0
+                                                        "value": 0,
+                                                        "raw": "0"
                                                       },
                                                       "computed": true,
                                                       "optional": false
@@ -1078,7 +1096,8 @@
                                                               "type": "Literal",
                                                               "start": 1864,
                                                               "end": 1943,
-                                                              "value": "#2.2: Unicode locale extension sequence is not correctly returned for locale "
+                                                              "value": "#2.2: Unicode locale extension sequence is not correctly returned for locale ",
+                                                              "raw": "\"#2.2: Unicode locale extension sequence is not correctly returned for locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1093,7 +1112,8 @@
                                                             "type": "Literal",
                                                             "start": 1955,
                                                             "end": 1971,
-                                                            "value": " with matcher "
+                                                            "value": " with matcher ",
+                                                            "raw": "\" with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1109,7 +1129,8 @@
                                                         "type": "Literal",
                                                         "start": 1984,
                                                         "end": 1987,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],
@@ -1174,7 +1195,8 @@
                                                       "type": "Literal",
                                                       "start": 2063,
                                                       "end": 2064,
-                                                      "value": 0
+                                                      "value": 0,
+                                                      "raw": "0"
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1196,7 +1218,8 @@
                                                               "type": "Literal",
                                                               "start": 2066,
                                                               "end": 2143,
-                                                              "value": "#3.1: Presence of Unicode locale extension sequence affects whether locale "
+                                                              "value": "#3.1: Presence of Unicode locale extension sequence affects whether locale ",
+                                                              "raw": "\"#3.1: Presence of Unicode locale extension sequence affects whether locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1211,7 +1234,8 @@
                                                             "type": "Literal",
                                                             "start": 2155,
                                                             "end": 2195,
-                                                            "value": " is considered supported with matcher "
+                                                            "value": " is considered supported with matcher ",
+                                                            "raw": "\" is considered supported with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1227,7 +1251,8 @@
                                                         "type": "Literal",
                                                         "start": 2208,
                                                         "end": 2211,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],
@@ -1285,7 +1310,8 @@
                                                       "type": "Literal",
                                                       "start": 2266,
                                                       "end": 2267,
-                                                      "value": 0
+                                                      "value": 0,
+                                                      "raw": "0"
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1307,7 +1333,8 @@
                                                               "type": "Literal",
                                                               "start": 2269,
                                                               "end": 2346,
-                                                              "value": "#3.2: Presence of Unicode locale extension sequence affects whether locale "
+                                                              "value": "#3.2: Presence of Unicode locale extension sequence affects whether locale ",
+                                                              "raw": "\"#3.2: Presence of Unicode locale extension sequence affects whether locale \""
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1322,7 +1349,8 @@
                                                             "type": "Literal",
                                                             "start": 2358,
                                                             "end": 2398,
-                                                            "value": " is considered supported with matcher "
+                                                            "value": " is considered supported with matcher ",
+                                                            "raw": "\" is considered supported with matcher \""
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1338,7 +1366,8 @@
                                                         "type": "Literal",
                                                         "start": 2411,
                                                         "end": 2414,
-                                                        "value": "."
+                                                        "value": ".",
+                                                        "raw": "\".\""
                                                       }
                                                     }
                                                   ],

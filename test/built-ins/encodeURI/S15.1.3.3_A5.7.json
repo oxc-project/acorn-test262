@@ -52,7 +52,8 @@
                     "type": "Literal",
                     "start": 406,
                     "end": 455,
-                    "value": "#1.1: new encodeURI() throw TypeError. Actual: "
+                    "value": "#1.1: new encodeURI() throw TypeError. Actual: ",
+                    "raw": "'#1.1: new encodeURI() throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -129,7 +130,8 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 531,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -160,7 +162,8 @@
                             "type": "Literal",
                             "start": 562,
                             "end": 611,
-                            "value": "#1.2: new encodeURI() throw TypeError. Actual: "
+                            "value": "#1.2: new encodeURI() throw TypeError. Actual: ",
+                            "raw": "'#1.2: new encodeURI() throw TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

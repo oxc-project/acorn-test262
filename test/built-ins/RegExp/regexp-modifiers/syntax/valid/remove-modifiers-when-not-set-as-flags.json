@@ -12,6 +12,7 @@
         "start": 1763,
         "end": 1771,
         "value": null,
+        "raw": "/(?-i:)/",
         "regex": {
           "pattern": "(?-i:)",
           "flags": ""
@@ -27,6 +28,7 @@
         "start": 1773,
         "end": 1782,
         "value": null,
+        "raw": "/(?-is:)/",
         "regex": {
           "pattern": "(?-is:)",
           "flags": ""
@@ -42,6 +44,7 @@
         "start": 1784,
         "end": 1793,
         "value": null,
+        "raw": "/(?-im:)/",
         "regex": {
           "pattern": "(?-im:)",
           "flags": ""
@@ -57,6 +60,7 @@
         "start": 1795,
         "end": 1803,
         "value": null,
+        "raw": "/(?-s:)/",
         "regex": {
           "pattern": "(?-s:)",
           "flags": ""
@@ -72,6 +76,7 @@
         "start": 1805,
         "end": 1814,
         "value": null,
+        "raw": "/(?-si:)/",
         "regex": {
           "pattern": "(?-si:)",
           "flags": ""
@@ -87,6 +92,7 @@
         "start": 1816,
         "end": 1825,
         "value": null,
+        "raw": "/(?-sm:)/",
         "regex": {
           "pattern": "(?-sm:)",
           "flags": ""
@@ -102,6 +108,7 @@
         "start": 1827,
         "end": 1835,
         "value": null,
+        "raw": "/(?-m:)/",
         "regex": {
           "pattern": "(?-m:)",
           "flags": ""
@@ -117,6 +124,7 @@
         "start": 1837,
         "end": 1846,
         "value": null,
+        "raw": "/(?-mi:)/",
         "regex": {
           "pattern": "(?-mi:)",
           "flags": ""
@@ -132,6 +140,7 @@
         "start": 1848,
         "end": 1857,
         "value": null,
+        "raw": "/(?-ms:)/",
         "regex": {
           "pattern": "(?-ms:)",
           "flags": ""
@@ -147,6 +156,7 @@
         "start": 1859,
         "end": 1869,
         "value": null,
+        "raw": "/(?-ims:)/",
         "regex": {
           "pattern": "(?-ims:)",
           "flags": ""
@@ -162,6 +172,7 @@
         "start": 1871,
         "end": 1881,
         "value": null,
+        "raw": "/(?-ism:)/",
         "regex": {
           "pattern": "(?-ism:)",
           "flags": ""
@@ -177,6 +188,7 @@
         "start": 1883,
         "end": 1893,
         "value": null,
+        "raw": "/(?-smi:)/",
         "regex": {
           "pattern": "(?-smi:)",
           "flags": ""
@@ -192,6 +204,7 @@
         "start": 1895,
         "end": 1905,
         "value": null,
+        "raw": "/(?-sim:)/",
         "regex": {
           "pattern": "(?-sim:)",
           "flags": ""
@@ -207,6 +220,7 @@
         "start": 1907,
         "end": 1917,
         "value": null,
+        "raw": "/(?-mis:)/",
         "regex": {
           "pattern": "(?-mis:)",
           "flags": ""
@@ -222,6 +236,7 @@
         "start": 1919,
         "end": 1929,
         "value": null,
+        "raw": "/(?-msi:)/",
         "regex": {
           "pattern": "(?-msi:)",
           "flags": ""
@@ -247,7 +262,8 @@
             "type": "Literal",
             "start": 1942,
             "end": 1950,
-            "value": "(?-i:)"
+            "value": "(?-i:)",
+            "raw": "\"(?-i:)\""
           }
         ]
       }
@@ -271,7 +287,8 @@
             "type": "Literal",
             "start": 1964,
             "end": 1973,
-            "value": "(?-is:)"
+            "value": "(?-is:)",
+            "raw": "\"(?-is:)\""
           }
         ]
       }
@@ -295,7 +312,8 @@
             "type": "Literal",
             "start": 1987,
             "end": 1996,
-            "value": "(?-im:)"
+            "value": "(?-im:)",
+            "raw": "\"(?-im:)\""
           }
         ]
       }
@@ -319,7 +337,8 @@
             "type": "Literal",
             "start": 2010,
             "end": 2018,
-            "value": "(?-s:)"
+            "value": "(?-s:)",
+            "raw": "\"(?-s:)\""
           }
         ]
       }
@@ -343,7 +362,8 @@
             "type": "Literal",
             "start": 2032,
             "end": 2041,
-            "value": "(?-si:)"
+            "value": "(?-si:)",
+            "raw": "\"(?-si:)\""
           }
         ]
       }
@@ -367,7 +387,8 @@
             "type": "Literal",
             "start": 2055,
             "end": 2064,
-            "value": "(?-sm:)"
+            "value": "(?-sm:)",
+            "raw": "\"(?-sm:)\""
           }
         ]
       }
@@ -391,7 +412,8 @@
             "type": "Literal",
             "start": 2078,
             "end": 2086,
-            "value": "(?-m:)"
+            "value": "(?-m:)",
+            "raw": "\"(?-m:)\""
           }
         ]
       }
@@ -415,7 +437,8 @@
             "type": "Literal",
             "start": 2100,
             "end": 2109,
-            "value": "(?-mi:)"
+            "value": "(?-mi:)",
+            "raw": "\"(?-mi:)\""
           }
         ]
       }
@@ -439,7 +462,8 @@
             "type": "Literal",
             "start": 2123,
             "end": 2132,
-            "value": "(?-ms:)"
+            "value": "(?-ms:)",
+            "raw": "\"(?-ms:)\""
           }
         ]
       }
@@ -463,7 +487,8 @@
             "type": "Literal",
             "start": 2146,
             "end": 2156,
-            "value": "(?-ims:)"
+            "value": "(?-ims:)",
+            "raw": "\"(?-ims:)\""
           }
         ]
       }
@@ -487,7 +512,8 @@
             "type": "Literal",
             "start": 2170,
             "end": 2180,
-            "value": "(?-ism:)"
+            "value": "(?-ism:)",
+            "raw": "\"(?-ism:)\""
           }
         ]
       }
@@ -511,7 +537,8 @@
             "type": "Literal",
             "start": 2194,
             "end": 2204,
-            "value": "(?-smi:)"
+            "value": "(?-smi:)",
+            "raw": "\"(?-smi:)\""
           }
         ]
       }
@@ -535,7 +562,8 @@
             "type": "Literal",
             "start": 2218,
             "end": 2228,
-            "value": "(?-sim:)"
+            "value": "(?-sim:)",
+            "raw": "\"(?-sim:)\""
           }
         ]
       }
@@ -559,7 +587,8 @@
             "type": "Literal",
             "start": 2242,
             "end": 2252,
-            "value": "(?-mis:)"
+            "value": "(?-mis:)",
+            "raw": "\"(?-mis:)\""
           }
         ]
       }
@@ -583,7 +612,8 @@
             "type": "Literal",
             "start": 2266,
             "end": 2276,
-            "value": "(?-msi:)"
+            "value": "(?-msi:)",
+            "raw": "\"(?-msi:)\""
           }
         ]
       }

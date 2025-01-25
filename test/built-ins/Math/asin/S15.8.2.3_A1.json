@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 289,
             "end": 294,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 222,
             "end": 223,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 292,
             "end": 293,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 295,
             "end": 324,
-            "value": "The value of `calls` is `1`"
+            "value": "The value of `calls` is `1`",
+            "raw": "\"The value of `calls` is `1`\""
           }
         ],
         "optional": false
@@ -189,13 +192,15 @@
             "type": "Literal",
             "start": 354,
             "end": 364,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 366,
             "end": 394,
-            "value": "`typeof D` is `'function'`"
+            "value": "`typeof D` is `'function'`",
+            "raw": "\"`typeof D` is `'function'`\""
           }
         ],
         "optional": false
@@ -272,7 +277,8 @@
             "type": "Literal",
             "start": 443,
             "end": 483,
-            "value": "`Object.getPrototypeOf(D)` returns `C`"
+            "value": "`Object.getPrototypeOf(D)` returns `C`",
+            "raw": "\"`Object.getPrototypeOf(D)` returns `C`\""
           }
         ],
         "optional": false
@@ -375,7 +381,8 @@
             "type": "Literal",
             "start": 565,
             "end": 633,
-            "value": "The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`"
+            "value": "The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`",
+            "raw": "\"The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`\""
           }
         ],
         "optional": false

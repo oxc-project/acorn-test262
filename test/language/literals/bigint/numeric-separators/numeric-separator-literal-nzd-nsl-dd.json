@@ -35,13 +35,15 @@
             "type": "Literal",
             "start": 789,
             "end": 793,
-            "value": "11n"
+            "value": "11n",
+            "raw": "1_1n"
           },
           {
             "type": "Literal",
             "start": 795,
             "end": 798,
-            "value": "11n"
+            "value": "11n",
+            "raw": "11n"
           }
         ],
         "optional": false

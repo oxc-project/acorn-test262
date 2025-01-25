@@ -38,31 +38,36 @@
                     "type": "Literal",
                     "start": 402,
                     "end": 405,
-                    "value": "a"
+                    "value": "a",
+                    "raw": "\"a\""
                   },
                   {
                     "type": "Literal",
                     "start": 407,
                     "end": 410,
-                    "value": "b"
+                    "value": "b",
+                    "raw": "\"b\""
                   },
                   {
                     "type": "Literal",
                     "start": 412,
                     "end": 415,
-                    "value": "c"
+                    "value": "c",
+                    "raw": "\"c\""
                   },
                   {
                     "type": "Literal",
                     "start": 417,
                     "end": 420,
-                    "value": "d"
+                    "value": "d",
+                    "raw": "\"d\""
                   },
                   {
                     "type": "Literal",
                     "start": 422,
                     "end": 425,
-                    "value": "e"
+                    "value": "e",
+                    "raw": "\"e\""
                   }
                 ]
               }
@@ -110,7 +115,8 @@
                   "type": "Literal",
                   "start": 474,
                   "end": 475,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -140,25 +146,29 @@
                       "type": "Literal",
                       "start": 493,
                       "end": 496,
-                      "value": "x"
+                      "value": "x",
+                      "raw": "\"x\""
                     },
                     {
                       "type": "Literal",
                       "start": 498,
                       "end": 501,
-                      "value": "b"
+                      "value": "b",
+                      "raw": "\"b\""
                     },
                     {
                       "type": "Literal",
                       "start": 503,
                       "end": 506,
-                      "value": "c"
+                      "value": "c",
+                      "raw": "\"c\""
                     },
                     {
                       "type": "Literal",
                       "start": 508,
                       "end": 511,
-                      "value": "c"
+                      "value": "c",
+                      "raw": "\"c\""
                     }
                   ]
                 }
@@ -222,7 +232,8 @@
                               "type": "Literal",
                               "start": 558,
                               "end": 559,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           },
                           "consequent": {
@@ -262,7 +273,8 @@
                                       "type": "Literal",
                                       "start": 586,
                                       "end": 589,
-                                      "value": "b"
+                                      "value": "b",
+                                      "raw": "\"b\""
                                     }
                                   ],
                                   "optional": false
@@ -300,7 +312,8 @@
                                       "type": "Literal",
                                       "start": 615,
                                       "end": 618,
-                                      "value": "c"
+                                      "value": "c",
+                                      "raw": "\"c\""
                                     }
                                   ],
                                   "optional": false
@@ -338,7 +351,8 @@
                                       "type": "Literal",
                                       "start": 641,
                                       "end": 644,
-                                      "value": "b"
+                                      "value": "b",
+                                      "raw": "\"b\""
                                     }
                                   ],
                                   "optional": false
@@ -376,7 +390,8 @@
                                       "type": "Literal",
                                       "start": 667,
                                       "end": 670,
-                                      "value": "d"
+                                      "value": "d",
+                                      "raw": "\"d\""
                                     }
                                   ],
                                   "optional": false
@@ -532,7 +547,8 @@
                   "type": "Literal",
                   "start": 820,
                   "end": 821,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 },
                 "kind": "init"
               },
@@ -596,7 +612,8 @@
                               "type": "Literal",
                               "start": 853,
                               "end": 856,
-                              "value": "q"
+                              "value": "q",
+                              "raw": "\"q\""
                             }
                           ],
                           "optional": false
@@ -639,7 +656,8 @@
                                       "type": "Literal",
                                       "start": 913,
                                       "end": 987,
-                                      "value": "Set.prototype.symmetricDifference should not invoke .has on its argument"
+                                      "value": "Set.prototype.symmetricDifference should not invoke .has on its argument",
+                                      "raw": "\"Set.prototype.symmetricDifference should not invoke .has on its argument\""
                                     }
                                   ]
                                 }
@@ -784,37 +802,43 @@
                 "type": "Literal",
                 "start": 1138,
                 "end": 1141,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 1143,
                 "end": 1146,
-                "value": "c"
+                "value": "c",
+                "raw": "\"c\""
               },
               {
                 "type": "Literal",
                 "start": 1148,
                 "end": 1151,
-                "value": "d"
+                "value": "d",
+                "raw": "\"d\""
               },
               {
                 "type": "Literal",
                 "start": 1153,
                 "end": 1156,
-                "value": "e"
+                "value": "e",
+                "raw": "\"e\""
               },
               {
                 "type": "Literal",
                 "start": 1158,
                 "end": 1161,
-                "value": "q"
+                "value": "q",
+                "raw": "\"q\""
               },
               {
                 "type": "Literal",
                 "start": 1163,
                 "end": 1166,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ]
           }
@@ -902,31 +926,36 @@
                 "type": "Literal",
                 "start": 1249,
                 "end": 1252,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 1254,
                 "end": 1257,
-                "value": "d"
+                "value": "d",
+                "raw": "\"d\""
               },
               {
                 "type": "Literal",
                 "start": 1259,
                 "end": 1262,
-                "value": "e"
+                "value": "e",
+                "raw": "\"e\""
               },
               {
                 "type": "Literal",
                 "start": 1264,
                 "end": 1267,
-                "value": "q"
+                "value": "q",
+                "raw": "\"q\""
               },
               {
                 "type": "Literal",
                 "start": 1269,
                 "end": 1272,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ]
           }

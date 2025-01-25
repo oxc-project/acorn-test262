@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 523,
             "end": 526,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -124,7 +125,8 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 543,
-                  "value": 2010
+                  "value": 2010,
+                  "raw": "2010"
                 },
                 "kind": "init"
               },
@@ -145,7 +147,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 562,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -166,7 +169,8 @@
                   "type": "Literal",
                   "start": 578,
                   "end": 582,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -187,7 +191,8 @@
                   "type": "Literal",
                   "start": 600,
                   "end": 604,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -222,7 +227,8 @@
             "type": "Literal",
             "start": 630,
             "end": 633,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -246,7 +252,8 @@
                   "type": "Literal",
                   "start": 646,
                   "end": 650,
-                  "value": 2010
+                  "value": 2010,
+                  "raw": "2010"
                 },
                 "kind": "init"
               },
@@ -267,7 +274,8 @@
                   "type": "Literal",
                   "start": 664,
                   "end": 669,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

@@ -136,13 +136,15 @@
             "type": "Literal",
             "start": 458,
             "end": 477,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "\"[object Function]\""
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 531,
-            "value": "Array.toString() must return \"[object Function]\""
+            "value": "Array.toString() must return \"[object Function]\"",
+            "raw": "'Array.toString() must return \"[object Function]\"'"
           }
         ],
         "optional": false

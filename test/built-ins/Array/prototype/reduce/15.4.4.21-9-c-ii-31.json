@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 283,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -60,7 +61,8 @@
             "type": "Literal",
             "start": 302,
             "end": 307,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -129,7 +131,8 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 376,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -190,13 +193,15 @@
                   "type": "Literal",
                   "start": 425,
                   "end": 426,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 428,
                   "end": 430,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -217,7 +222,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 443,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -330,13 +336,15 @@
             "type": "Literal",
             "start": 520,
             "end": 524,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 581,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, objDate)"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, objDate)",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, objDate)'"
           }
         ],
         "optional": false
@@ -367,7 +375,8 @@
             "type": "Literal",
             "start": 601,
             "end": 620,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

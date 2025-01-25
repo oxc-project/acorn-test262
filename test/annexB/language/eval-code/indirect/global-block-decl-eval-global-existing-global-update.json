@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 1148,
             "end": 1151,
-            "value": "f"
+            "value": "f",
+            "raw": "'f'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                           "type": "Literal",
                           "start": 1184,
                           "end": 1202,
-                          "value": "Another function"
+                          "value": "Another function",
+                          "raw": "'Another function'"
                         }
                       }
                     ]
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 1221,
                   "end": 1225,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -136,7 +139,8 @@
                   "type": "Literal",
                   "start": 1239,
                   "end": 1243,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -157,7 +161,8 @@
                   "type": "Literal",
                   "start": 1261,
                   "end": 1266,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -188,7 +193,8 @@
                 "type": "Literal",
                 "start": 1273,
                 "end": 1274,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -204,7 +210,8 @@
             "type": "Literal",
             "start": 1284,
             "end": 1337,
-            "value": "{ function f() { return \"function declaration\"; } }"
+            "value": "{ function f() { return \"function declaration\"; } }",
+            "raw": "'{ function f() { return \"function declaration\"; } }'"
           }
         ],
         "optional": false
@@ -255,7 +262,8 @@
             "type": "Literal",
             "start": 1369,
             "end": 1379,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -306,7 +314,8 @@
             "type": "Literal",
             "start": 1404,
             "end": 1426,
-            "value": "function declaration"
+            "value": "function declaration",
+            "raw": "'function declaration'"
           }
         ],
         "optional": false

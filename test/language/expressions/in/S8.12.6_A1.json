@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 379,
-                  "value": "fooooooo"
+                  "value": "fooooooo",
+                  "raw": "\"fooooooo\""
                 },
                 "kind": "init"
               }
@@ -72,7 +73,8 @@
               "type": "Literal",
               "start": 478,
               "end": 487,
-              "value": "fooProp"
+              "value": "fooProp",
+              "raw": "\"fooProp\""
             },
             "operator": "in",
             "right": {
@@ -108,7 +110,8 @@
                   "type": "Literal",
                   "start": 526,
                   "end": 582,
-                  "value": "#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj"
+                  "value": "#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj",
+                  "raw": "'#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj'"
                 }
               ]
             }

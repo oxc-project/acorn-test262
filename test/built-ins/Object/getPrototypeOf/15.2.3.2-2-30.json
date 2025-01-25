@@ -118,13 +118,15 @@
             "type": "Literal",
             "start": 364,
             "end": 368,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 397,
-            "value": "proto.isPrototypeOf(this)"
+            "value": "proto.isPrototypeOf(this)",
+            "raw": "'proto.isPrototypeOf(this)'"
           }
         ],
         "optional": false

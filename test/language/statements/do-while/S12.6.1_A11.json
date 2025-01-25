@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 314,
                   "end": 315,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -83,7 +84,8 @@
           "type": "Literal",
           "start": 460,
           "end": 461,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -110,7 +112,8 @@
                   "type": "Literal",
                   "start": 489,
                   "end": 540,
-                  "value": "#1: \"{}\" in do-while expression evaluates to true"
+                  "value": "#1: \"{}\" in do-while expression evaluates to true",
+                  "raw": "'#1: \"{}\" in do-while expression evaluates to true'"
                 }
               ]
             }

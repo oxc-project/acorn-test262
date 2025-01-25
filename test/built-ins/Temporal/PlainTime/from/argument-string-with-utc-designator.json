@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 347,
-                "value": "2019-10-01T09:00:00Z"
+                "value": "2019-10-01T09:00:00Z",
+                "raw": "\"2019-10-01T09:00:00Z\""
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 378,
-                "value": "2019-10-01T09:00:00Z[UTC]"
+                "value": "2019-10-01T09:00:00Z[UTC]",
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 398,
-                "value": "09:00:00Z[UTC]"
+                "value": "09:00:00Z[UTC]",
+                "raw": "\"09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 413,
-                "value": "09:00:00Z"
+                "value": "09:00:00Z",
+                "raw": "\"09:00:00Z\""
               }
             ]
           }
@@ -196,7 +200,8 @@
                         "type": "Literal",
                         "start": 529,
                         "end": 592,
-                        "value": "String with UTC designator should not be valid as a PlainTime"
+                        "value": "String with UTC designator should not be valid as a PlainTime",
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime\""
                       }
                     ],
                     "optional": false

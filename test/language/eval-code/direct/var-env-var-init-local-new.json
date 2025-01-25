@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 838,
             "end": 842,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -93,7 +94,8 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 934,
-                        "value": "initial = x; x = 4; postAssignment = x; var x;"
+                        "value": "initial = x; x = 4; postAssignment = x; var x;",
+                        "raw": "'initial = x; x = 4; postAssignment = x; var x;'"
                       }
                     ],
                     "optional": false
@@ -189,13 +191,15 @@
             "type": "Literal",
             "start": 1015,
             "end": 1016,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1038,
-            "value": "binding is mutable"
+            "value": "binding is mutable",
+            "raw": "'binding is mutable'"
           }
         ],
         "optional": false

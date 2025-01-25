@@ -241,7 +241,8 @@
             "type": "Literal",
             "start": 1127,
             "end": 1136,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -312,7 +313,8 @@
             "type": "Literal",
             "start": 1171,
             "end": 1180,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -411,7 +413,8 @@
             "type": "Literal",
             "start": 1242,
             "end": 1279,
-            "value": "invalid access of c1 private method"
+            "value": "invalid access of c1 private method",
+            "raw": "'invalid access of c1 private method'"
           }
         ],
         "optional": false
@@ -510,7 +513,8 @@
             "type": "Literal",
             "start": 1341,
             "end": 1378,
-            "value": "invalid access of c2 private method"
+            "value": "invalid access of c2 private method",
+            "raw": "'invalid access of c2 private method'"
           }
         ],
         "optional": false

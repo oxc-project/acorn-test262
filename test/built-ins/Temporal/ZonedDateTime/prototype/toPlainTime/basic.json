@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 374,
-                "value": "2019-10-29T09:46:38.271986102Z[-07:00]"
+                "value": "2019-10-29T09:46:38.271986102Z[-07:00]",
+                "raw": "\"2019-10-29T09:46:38.271986102Z[-07:00]\""
               }
             ],
             "optional": false
@@ -126,37 +127,43 @@
             "type": "Literal",
             "start": 429,
             "end": 430,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 434,
-            "value": 46
+            "value": 46,
+            "raw": "46"
           },
           {
             "type": "Literal",
             "start": 436,
             "end": 438,
-            "value": 38
+            "value": 38,
+            "raw": "38"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 443,
-            "value": 271
+            "value": 271,
+            "raw": "271"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 448,
-            "value": 986
+            "value": 986,
+            "raw": "986"
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 453,
-            "value": 102
+            "value": 102,
+            "raw": "102"
           }
         ],
         "optional": false

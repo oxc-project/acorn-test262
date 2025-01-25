@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 354,
-                  "value": "throw 1;"
+                  "value": "throw 1;",
+                  "raw": "\"throw 1;\""
                 }
               ],
               "optional": false
@@ -60,7 +61,8 @@
                     "type": "Literal",
                     "start": 382,
                     "end": 430,
-                    "value": "#1.1: throw 1 must throw SyntaxError. Actual: "
+                    "value": "#1.1: throw 1 must throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: throw 1 must throw SyntaxError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -82,7 +84,8 @@
                           "type": "Literal",
                           "start": 439,
                           "end": 449,
-                          "value": "throw 1;"
+                          "value": "throw 1;",
+                          "raw": "\"throw 1;\""
                         }
                       ],
                       "optional": false
@@ -128,7 +131,8 @@
                   "type": "Literal",
                   "start": 479,
                   "end": 480,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "consequent": {
@@ -159,7 +163,8 @@
                             "type": "Literal",
                             "start": 511,
                             "end": 559,
-                            "value": "#1.2: throw 1 must throw SyntaxError. Actual: "
+                            "value": "#1.2: throw 1 must throw SyntaxError. Actual: ",
+                            "raw": "'#1.2: throw 1 must throw SyntaxError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

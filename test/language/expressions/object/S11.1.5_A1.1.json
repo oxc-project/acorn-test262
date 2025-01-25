@@ -54,7 +54,8 @@
           "type": "Literal",
           "start": 362,
           "end": 370,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -85,7 +86,8 @@
                     "type": "Literal",
                     "start": 399,
                     "end": 458,
-                    "value": "#1: var object = {}; typeof object === \"object\". Actual: "
+                    "value": "#1: var object = {}; typeof object === \"object\". Actual: ",
+                    "raw": "'#1: var object = {}; typeof object === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -145,7 +147,8 @@
           "type": "Literal",
           "start": 525,
           "end": 529,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -172,7 +175,8 @@
                   "type": "Literal",
                   "start": 558,
                   "end": 614,
-                  "value": "#2: var object = {}; object instanceof Object === true"
+                  "value": "#2: var object = {}; object instanceof Object === true",
+                  "raw": "'#2: var object = {}; object instanceof Object === true'"
                 }
               ]
             }
@@ -270,7 +274,8 @@
                     "type": "Literal",
                     "start": 708,
                     "end": 786,
-                    "value": "#3: var object = {}; object.toString === Object.prototype.toString. Actual: "
+                    "value": "#3: var object = {}; object.toString === Object.prototype.toString. Actual: ",
+                    "raw": "'#3: var object = {}; object.toString === Object.prototype.toString. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +349,8 @@
           "type": "Literal",
           "start": 848,
           "end": 865,
-          "value": "[object Object]"
+          "value": "[object Object]",
+          "raw": "\"[object Object]\""
         }
       },
       "consequent": {
@@ -375,7 +381,8 @@
                     "type": "Literal",
                     "start": 894,
                     "end": 964,
-                    "value": "#4: var object = {}; object.toString === \"[object Object]\". Actual: "
+                    "value": "#4: var object = {}; object.toString === \"[object Object]\". Actual: ",
+                    "raw": "'#4: var object = {}; object.toString === \"[object Object]\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

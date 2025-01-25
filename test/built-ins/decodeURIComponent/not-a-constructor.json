@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 742,
             "end": 747,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 802,
-            "value": "isConstructor(decodeURIComponent) must return false"
+            "value": "isConstructor(decodeURIComponent) must return false",
+            "raw": "'isConstructor(decodeURIComponent) must return false'"
           }
         ],
         "optional": false
@@ -134,7 +136,8 @@
                         "type": "Literal",
                         "start": 864,
                         "end": 866,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ]
                   }

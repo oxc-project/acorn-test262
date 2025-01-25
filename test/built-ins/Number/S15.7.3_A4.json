@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 302,
-                "value": "NaN"
+                "value": "NaN",
+                "raw": "\"NaN\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 305,
             "end": 352,
-            "value": "Number.hasOwnProperty(\"NaN\") must return true"
+            "value": "Number.hasOwnProperty(\"NaN\") must return true",
+            "raw": "'Number.hasOwnProperty(\"NaN\") must return true'"
           }
         ],
         "optional": false

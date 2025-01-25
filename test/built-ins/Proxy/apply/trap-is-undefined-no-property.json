@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 669,
             "end": 670,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -204,7 +205,8 @@
                                   "type": "Literal",
                                   "start": 824,
                                   "end": 825,
-                                  "value": 0
+                                  "value": 0,
+                                  "raw": "0"
                                 },
                                 "computed": true,
                                 "optional": false
@@ -224,7 +226,8 @@
                                   "type": "Literal",
                                   "start": 834,
                                   "end": 835,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 "computed": true,
                                 "optional": false
@@ -362,13 +365,15 @@
                 "type": "Literal",
                 "start": 921,
                 "end": 922,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 924,
                 "end": 925,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -415,13 +420,15 @@
             "type": "Literal",
             "start": 953,
             "end": 954,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1000,
-            "value": "apply is missing: [[Call]] is invoked once"
+            "value": "apply is missing: [[Call]] is invoked once",
+            "raw": "\"apply is missing: [[Call]] is invoked once\""
           }
         ],
         "optional": false
@@ -471,7 +478,8 @@
             "type": "Literal",
             "start": 1039,
             "end": 1088,
-            "value": "apply is missing: context is passed to [[Call]]"
+            "value": "apply is missing: context is passed to [[Call]]",
+            "raw": "\"apply is missing: context is passed to [[Call]]\""
           }
         ],
         "optional": false
@@ -515,13 +523,15 @@
             "type": "Literal",
             "start": 1113,
             "end": 1114,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1166,
-            "value": "apply is missing: result of [[Call]] is returned"
+            "value": "apply is missing: result of [[Call]] is returned",
+            "raw": "\"apply is missing: result of [[Call]] is returned\""
           }
         ],
         "optional": false

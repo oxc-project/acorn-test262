@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 267,
                 "end": 272,
-                "value": "abc"
+                "value": "abc",
+                "raw": "'abc'"
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 279,
-                "value": "gim"
+                "value": "gim",
+                "raw": "'gim'"
               }
             ]
           }

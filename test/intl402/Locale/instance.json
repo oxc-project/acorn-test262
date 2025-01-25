@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 447,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               }
             ]
           }
@@ -151,7 +152,8 @@
             "type": "Literal",
             "start": 533,
             "end": 605,
-            "value": "Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype"
+            "value": "Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype",
+            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype\""
           }
         ],
         "optional": false

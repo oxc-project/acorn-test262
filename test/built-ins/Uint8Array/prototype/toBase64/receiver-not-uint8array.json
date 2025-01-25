@@ -117,7 +117,8 @@
             "type": "Literal",
             "start": 436,
             "end": 446,
-            "value": "alphabet"
+            "value": "alphabet",
+            "raw": "\"alphabet\""
           },
           {
             "type": "ObjectExpression",
@@ -170,7 +171,8 @@
                               "type": "Literal",
                               "start": 497,
                               "end": 554,
-                              "value": "options.alphabet accessed despite incompatible receiver"
+                              "value": "options.alphabet accessed despite incompatible receiver",
+                              "raw": "\"options.alphabet accessed despite incompatible receiver\""
                             }
                           ]
                         }
@@ -282,7 +284,8 @@
                             "type": "Literal",
                             "start": 667,
                             "end": 668,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }

@@ -65,7 +65,8 @@
                     "type": "Literal",
                     "start": 366,
                     "end": 367,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               ]
@@ -160,7 +161,8 @@
             "type": "Literal",
             "start": 424,
             "end": 429,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "Identifier",
@@ -221,7 +223,8 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 487,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -287,7 +290,8 @@
             "type": "Literal",
             "start": 526,
             "end": 536,
-            "value": "desc.get"
+            "value": "desc.get",
+            "raw": "'desc.get'"
           }
         ],
         "optional": false
@@ -350,7 +354,8 @@
             "type": "Literal",
             "start": 577,
             "end": 587,
-            "value": "desc.set"
+            "value": "desc.set",
+            "raw": "'desc.set'"
           }
         ],
         "optional": false
@@ -407,13 +412,15 @@
             "type": "Literal",
             "start": 624,
             "end": 629,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 648,
-            "value": "desc.enumerable"
+            "value": "desc.enumerable",
+            "raw": "'desc.enumerable'"
           }
         ],
         "optional": false
@@ -470,13 +477,15 @@
             "type": "Literal",
             "start": 687,
             "end": 692,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 713,
-            "value": "desc.configurable"
+            "value": "desc.configurable",
+            "raw": "'desc.configurable'"
           }
         ],
         "optional": false

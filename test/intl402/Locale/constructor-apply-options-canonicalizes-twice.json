@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1029,
+  "end": 1028,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 936,
-      "end": 1028,
+      "start": 935,
+      "end": 1027,
       "expression": {
         "type": "CallExpression",
-        "start": 936,
-        "end": 1027,
+        "start": 935,
+        "end": 1026,
         "callee": {
           "type": "MemberExpression",
-          "start": 936,
-          "end": 952,
+          "start": 935,
+          "end": 951,
           "object": {
             "type": "Identifier",
-            "start": 936,
-            "end": 942,
+            "start": 935,
+            "end": 941,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 943,
-            "end": 952,
+            "start": 942,
+            "end": 951,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,30 +33,30 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 953,
-            "end": 1012,
+            "start": 952,
+            "end": 1011,
             "callee": {
               "type": "MemberExpression",
-              "start": 953,
-              "end": 1010,
+              "start": 952,
+              "end": 1009,
               "object": {
                 "type": "NewExpression",
-                "start": 953,
-                "end": 1001,
+                "start": 952,
+                "end": 1000,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 957,
-                  "end": 968,
+                  "start": 956,
+                  "end": 967,
                   "object": {
                     "type": "Identifier",
-                    "start": 957,
-                    "end": 961,
+                    "start": 956,
+                    "end": 960,
                     "name": "Intl"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 962,
-                    "end": 968,
+                    "start": 961,
+                    "end": 967,
                     "name": "Locale"
                   },
                   "computed": false,
@@ -65,33 +65,35 @@
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 969,
-                    "end": 982,
-                    "value": "und-Armn-SU"
+                    "start": 968,
+                    "end": 981,
+                    "value": "und-Armn-SU",
+                    "raw": "\"und-Armn-SU\""
                   },
                   {
                     "type": "ObjectExpression",
-                    "start": 984,
-                    "end": 1000,
+                    "start": 983,
+                    "end": 999,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 985,
-                        "end": 999,
+                        "start": 984,
+                        "end": 998,
                         "method": false,
                         "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 985,
-                          "end": 993,
+                          "start": 984,
+                          "end": 992,
                           "name": "language"
                         },
                         "value": {
                           "type": "Literal",
-                          "start": 995,
-                          "end": 999,
-                          "value": "ru"
+                          "start": 994,
+                          "end": 998,
+                          "value": "ru",
+                          "raw": "\"ru\""
                         },
                         "kind": "init"
                       }
@@ -101,8 +103,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 1002,
-                "end": 1010,
+                "start": 1001,
+                "end": 1009,
                 "name": "toString"
               },
               "computed": false,
@@ -113,9 +115,10 @@
           },
           {
             "type": "Literal",
-            "start": 1014,
-            "end": 1026,
-            "value": "ru-Armn-AM"
+            "start": 1013,
+            "end": 1025,
+            "value": "ru-Armn-AM",
+            "raw": "\"ru-Armn-AM\""
           }
         ],
         "optional": false

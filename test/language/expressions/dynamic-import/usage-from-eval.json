@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 939,
                 "end": 976,
-                "value": "import('./module-code_FIXTURE.js');"
+                "value": "import('./module-code_FIXTURE.js');",
+                "raw": "\"import('./module-code_FIXTURE.js');\""
               }
             ],
             "optional": false
@@ -113,7 +114,8 @@
             "type": "Literal",
             "start": 1020,
             "end": 1046,
-            "value": "constructor is %Promise%"
+            "value": "constructor is %Promise%",
+            "raw": "'constructor is %Promise%'"
           }
         ],
         "optional": false
@@ -203,7 +205,8 @@
             "type": "Literal",
             "start": 1111,
             "end": 1144,
-            "value": "prototype is %PromisePrototype%"
+            "value": "prototype is %PromisePrototype%",
+            "raw": "'prototype is %PromisePrototype%'"
           }
         ],
         "optional": false
@@ -317,7 +320,8 @@
                             "type": "Literal",
                             "start": 1208,
                             "end": 1210,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -374,7 +378,8 @@
                             "type": "Literal",
                             "start": 1251,
                             "end": 1260,
-                            "value": "Test262"
+                            "value": "Test262",
+                            "raw": "'Test262'"
                           }
                         ],
                         "optional": false
@@ -431,7 +436,8 @@
                             "type": "Literal",
                             "start": 1302,
                             "end": 1308,
-                            "value": "TC39"
+                            "value": "TC39",
+                            "raw": "'TC39'"
                           }
                         ],
                         "optional": false
@@ -488,7 +494,8 @@
                             "type": "Literal",
                             "start": 1351,
                             "end": 1360,
-                            "value": "Test262"
+                            "value": "Test262",
+                            "raw": "'Test262'"
                           }
                         ],
                         "optional": false

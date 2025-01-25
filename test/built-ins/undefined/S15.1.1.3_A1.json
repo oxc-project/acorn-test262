@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 294,
           "end": 305,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -65,7 +66,8 @@
                     "type": "Literal",
                     "start": 334,
                     "end": 383,
-                    "value": "#1: typeof(undefined) === \"undefined\". Actual: "
+                    "value": "#1: typeof(undefined) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof(undefined) === \"undefined\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 445,
             "end": 446,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       },
@@ -156,7 +159,8 @@
                     "type": "Literal",
                     "start": 475,
                     "end": 511,
-                    "value": "#2: undefined === void 0. Actual: "
+                    "value": "#2: undefined === void 0. Actual: ",
+                    "raw": "'#2: undefined === void 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -208,7 +212,8 @@
               "type": "Literal",
               "start": 565,
               "end": 572,
-              "value": "var x"
+              "value": "var x",
+              "raw": "\"var x\""
             }
           ],
           "optional": false
@@ -242,7 +247,8 @@
                     "type": "Literal",
                     "start": 602,
                     "end": 645,
-                    "value": "#3: undefined === eval(\"var x\"). Actual: "
+                    "value": "#3: undefined === eval(\"var x\"). Actual: ",
+                    "raw": "'#3: undefined === eval(\"var x\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {

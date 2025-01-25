@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 366,
             "end": 376,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 436,
-            "value": "supportedLocalesOf should be supported."
+            "value": "supportedLocalesOf should be supported.",
+            "raw": "\"supportedLocalesOf should be supported.\""
           }
         ],
         "optional": false
@@ -182,7 +184,8 @@
             "type": "Literal",
             "start": 530,
             "end": 535,
-            "value": "zxx"
+            "value": "zxx",
+            "raw": "\"zxx\""
           }
         }
       ],
@@ -342,13 +345,15 @@
             "type": "Literal",
             "start": 741,
             "end": 742,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 792,
-            "value": "The length of supported locales list is not 1."
+            "value": "The length of supported locales list is not 1.",
+            "raw": "\"The length of supported locales list is not 1.\""
           }
         ],
         "optional": false
@@ -396,7 +401,8 @@
               "type": "Literal",
               "start": 829,
               "end": 830,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -411,7 +417,8 @@
             "type": "Literal",
             "start": 848,
             "end": 907,
-            "value": "The default locale is not returned in the supported list."
+            "value": "The default locale is not returned in the supported list.",
+            "raw": "\"The default locale is not returned in the supported list.\""
           }
         ],
         "optional": false

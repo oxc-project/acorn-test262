@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 341,
-                "value": "2020-03-31T15:00+00:00[UTC]"
+                "value": "2020-03-31T15:00+00:00[UTC]",
+                "raw": "\"2020-03-31T15:00+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -157,7 +158,8 @@
                         "type": "Literal",
                         "start": 402,
                         "end": 403,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -185,7 +187,8 @@
                         "type": "Literal",
                         "start": 419,
                         "end": 427,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }

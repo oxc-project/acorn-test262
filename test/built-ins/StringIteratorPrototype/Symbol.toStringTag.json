@@ -54,7 +54,8 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 574,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   },
                   "property": {
                     "type": "MemberExpression",
@@ -152,7 +153,8 @@
             "type": "Literal",
             "start": 655,
             "end": 672,
-            "value": "String Iterator"
+            "value": "String Iterator",
+            "raw": "'String Iterator'"
           }
         ],
         "optional": false
@@ -220,7 +222,8 @@
                   "type": "Literal",
                   "start": 746,
                   "end": 751,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -241,7 +244,8 @@
                   "type": "Literal",
                   "start": 767,
                   "end": 772,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -262,7 +266,8 @@
                   "type": "Literal",
                   "start": 790,
                   "end": 794,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

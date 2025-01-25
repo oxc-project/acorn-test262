@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 305,
             "end": 309,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 311,
             "end": 353,
-            "value": "Function.prototype.isPrototypeOf(Number)"
+            "value": "Function.prototype.isPrototypeOf(Number)",
+            "raw": "'Function.prototype.isPrototypeOf(Number)'"
           }
         ],
         "optional": false

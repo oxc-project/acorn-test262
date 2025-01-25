@@ -182,7 +182,8 @@
                             "type": "Literal",
                             "start": 396,
                             "end": 443,
-                            "value": "Should not be called -- promise was rejected."
+                            "value": "Should not be called -- promise was rejected.",
+                            "raw": "\"Should not be called -- promise was rejected.\""
                           }
                         ]
                       }
@@ -255,7 +256,8 @@
                             "type": "Literal",
                             "start": 500,
                             "end": 559,
-                            "value": "The value of result is expected to equal the value of arg"
+                            "value": "The value of result is expected to equal the value of arg",
+                            "raw": "'The value of result is expected to equal the value of arg'"
                           }
                         ],
                         "optional": false

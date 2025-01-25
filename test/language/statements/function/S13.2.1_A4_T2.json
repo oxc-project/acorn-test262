@@ -61,7 +61,8 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 434,
-                "value": "whiskey gogo"
+                "value": "whiskey gogo",
+                "raw": "\"whiskey gogo\""
               }
             }
           }
@@ -150,7 +151,8 @@
           "type": "Literal",
           "start": 578,
           "end": 592,
-          "value": "whiskey gogo"
+          "value": "whiskey gogo",
+          "raw": "\"whiskey gogo\""
         }
       },
       "consequent": {
@@ -181,7 +183,8 @@
                     "type": "Literal",
                     "start": 620,
                     "end": 677,
-                    "value": "#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==="
+                    "value": "#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ===",
+                    "raw": "'#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==='"
                   },
                   "operator": "+",
                   "right": {

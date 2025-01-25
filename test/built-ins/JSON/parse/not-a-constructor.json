@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 726,
             "end": 731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(JSON.parse) must return false"
+            "value": "isConstructor(JSON.parse) must return false",
+            "raw": "'isConstructor(JSON.parse) must return false'"
           }
         ],
         "optional": false
@@ -160,7 +162,8 @@
                         "type": "Literal",
                         "start": 832,
                         "end": 836,
-                        "value": "{}"
+                        "value": "{}",
+                        "raw": "'{}'"
                       }
                     ]
                   }

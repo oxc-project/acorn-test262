@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 378,
             "end": 385,
-            "value": "prop1"
+            "value": "prop1",
+            "raw": "\"prop1\""
           },
           {
             "type": "ObjectExpression",
@@ -136,7 +137,8 @@
                   "type": "Literal",
                   "start": 416,
                   "end": 421,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -184,7 +186,8 @@
             "type": "Literal",
             "start": 456,
             "end": 463,
-            "value": "prop2"
+            "value": "prop2",
+            "raw": "\"prop2\""
           },
           {
             "type": "ObjectExpression",
@@ -251,7 +254,8 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 526,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -361,7 +365,8 @@
                 "type": "Literal",
                 "start": 606,
                 "end": 613,
-                "value": "prop1"
+                "value": "prop1",
+                "raw": "\"prop1\""
               }
             ],
             "optional": false
@@ -370,13 +375,15 @@
             "type": "Literal",
             "start": 616,
             "end": 621,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 652,
-            "value": "obj.hasOwnProperty(\"prop1\")"
+            "value": "obj.hasOwnProperty(\"prop1\")",
+            "raw": "'obj.hasOwnProperty(\"prop1\")'"
           }
         ],
         "optional": false
@@ -438,7 +445,8 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 698,
-                "value": "prop2"
+                "value": "prop2",
+                "raw": "\"prop2\""
               }
             ],
             "optional": false
@@ -447,13 +455,15 @@
             "type": "Literal",
             "start": 701,
             "end": 706,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 737,
-            "value": "obj.hasOwnProperty(\"prop2\")"
+            "value": "obj.hasOwnProperty(\"prop2\")",
+            "raw": "'obj.hasOwnProperty(\"prop2\")'"
           }
         ],
         "optional": false

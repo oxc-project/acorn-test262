@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 747,
             "end": 752,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 807,
-            "value": "isConstructor(Map.prototype.keys) must return false"
+            "value": "isConstructor(Map.prototype.keys) must return false",
+            "raw": "'isConstructor(Map.prototype.keys) must return false'"
           }
         ],
         "optional": false

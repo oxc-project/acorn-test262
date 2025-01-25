@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 340,
             "end": 345,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 347,
             "end": 393,
-            "value": "isConstructor(Promise.all) must return false"
+            "value": "isConstructor(Promise.all) must return false",
+            "raw": "'isConstructor(Promise.all) must return false'"
           }
         ],
         "optional": false

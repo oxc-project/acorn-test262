@@ -100,13 +100,15 @@
             "type": "Literal",
             "start": 284,
             "end": 286,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 288,
             "end": 330,
-            "value": "String.prototype.trim.call(new String())"
+            "value": "String.prototype.trim.call(new String())",
+            "raw": "'String.prototype.trim.call(new String())'"
           }
         ],
         "optional": false

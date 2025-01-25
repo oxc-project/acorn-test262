@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 450,
             "end": 460,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 525,
-            "value": "The value of `typeof TypedArray.prototype.at` is \"function\""
+            "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 567,
             "end": 571,
-            "value": "at"
+            "value": "at",
+            "raw": "'at'"
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 594,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 612,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 634,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

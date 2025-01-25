@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 286,
             "end": 291,
-            "value": "str"
+            "value": "str",
+            "raw": "\"str\""
           }
         }
       ],
@@ -66,7 +67,8 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 352,
-                  "value": "str1"
+                  "value": "str1",
+                  "raw": "\"str1\""
                 }
               }
             ],
@@ -102,7 +104,8 @@
                       "type": "Literal",
                       "start": 379,
                       "end": 575,
-                      "value": "                          var _eval = eval;                           var __10_4_2_1_5 = 'str2';                           _eval(\"'str' === __10_4_2_1_5 \")                         "
+                      "value": "                          var _eval = eval;                           var __10_4_2_1_5 = 'str2';                           _eval(\"'str' === __10_4_2_1_5 \")                         ",
+                      "raw": "\"\\\n                          var _eval = eval; \\\n                          var __10_4_2_1_5 = \\'str2\\'; \\\n                          _eval(\\\"\\'str\\' === __10_4_2_1_5 \\\") \\\n                        \""
                     }
                   ],
                   "optional": false

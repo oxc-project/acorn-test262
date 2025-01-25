@@ -134,7 +134,8 @@
             "type": "Literal",
             "start": 787,
             "end": 790,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           }
         }
       ],
@@ -344,7 +345,8 @@
             "type": "Literal",
             "start": 943,
             "end": 953,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -408,7 +410,8 @@
             "type": "Literal",
             "start": 985,
             "end": 995,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -491,7 +494,8 @@
                   "type": "Literal",
                   "start": 1128,
                   "end": 1130,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
               "optional": false
@@ -572,13 +576,15 @@
                   "type": "Literal",
                   "start": 1174,
                   "end": 1178,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "Literal",
                   "start": 1180,
                   "end": 1182,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
               "optional": false
@@ -659,13 +665,15 @@
                   "type": "Literal",
                   "start": 1226,
                   "end": 1230,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 {
                   "type": "Literal",
                   "start": 1232,
                   "end": 1234,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
               "optional": false
@@ -752,7 +760,8 @@
                   "type": "Literal",
                   "start": 1491,
                   "end": 1493,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
               "optional": false
@@ -846,7 +855,8 @@
                 "type": "Literal",
                 "start": 1568,
                 "end": 1570,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             }
           }
@@ -931,7 +941,8 @@
             "type": "Literal",
             "start": 1631,
             "end": 1641,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -995,7 +1006,8 @@
             "type": "Literal",
             "start": 1673,
             "end": 1683,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -1287,7 +1299,8 @@
             "type": "Literal",
             "start": 2069,
             "end": 2079,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -1351,7 +1364,8 @@
             "type": "Literal",
             "start": 2111,
             "end": 2121,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -1418,7 +1432,8 @@
                     "type": "Literal",
                     "start": 2229,
                     "end": 2232,
-                    "value": "a"
+                    "value": "a",
+                    "raw": "'a'"
                   }
                 },
                 "kind": "init"
@@ -1620,7 +1635,8 @@
             "type": "Literal",
             "start": 2368,
             "end": 2378,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false
@@ -1684,7 +1700,8 @@
             "type": "Literal",
             "start": 2410,
             "end": 2420,
-            "value": "Iterator"
+            "value": "Iterator",
+            "raw": "'Iterator'"
           }
         ],
         "optional": false

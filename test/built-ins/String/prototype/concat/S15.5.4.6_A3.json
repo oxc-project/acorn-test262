@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 346,
-                "value": "one"
+                "value": "one",
+                "raw": "\"one\""
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 368,
             "end": 373,
-            "value": "two"
+            "value": "two",
+            "raw": "\"two\""
           }
         ],
         "optional": false
@@ -98,7 +100,8 @@
           "type": "Literal",
           "start": 484,
           "end": 489,
-          "value": "one"
+          "value": "one",
+          "raw": "\"one\""
         }
       },
       "consequent": {
@@ -129,7 +132,8 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 670,
-                    "value": "#1: __instance = new String(\"one\"); __instance.concat(\"two\");  __instance = new String(\"one\"); __instance.concat(\"two\"); __instance == \"one\". Actual: "
+                    "value": "#1: __instance = new String(\"one\"); __instance.concat(\"two\");  __instance = new String(\"one\"); __instance.concat(\"two\"); __instance == \"one\". Actual: ",
+                    "raw": "'#1: __instance = new String(\"one\"); __instance.concat(\"two\");  __instance = new String(\"one\"); __instance.concat(\"two\"); __instance == \"one\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

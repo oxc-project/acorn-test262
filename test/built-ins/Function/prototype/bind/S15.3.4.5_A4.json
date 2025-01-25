@@ -67,13 +67,15 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 318,
-                "value": 33
+                "value": 33,
+                "raw": "33"
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 322,
-                "value": 44
+                "value": 44,
+                "raw": "44"
               }
             ],
             "optional": false
@@ -143,7 +145,8 @@
                       "type": "Literal",
                       "start": 375,
                       "end": 432,
-                      "value": "Function.prototype.bind called original's .apply method"
+                      "value": "Function.prototype.bind called original's .apply method",
+                      "raw": "\"Function.prototype.bind called original's .apply method\""
                     }
                   ]
                 }
@@ -172,13 +175,15 @@
             "type": "Literal",
             "start": 440,
             "end": 442,
-            "value": 55
+            "value": 55,
+            "raw": "55"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 446,
-            "value": 66
+            "value": 66,
+            "raw": "66"
           }
         ],
         "optional": false

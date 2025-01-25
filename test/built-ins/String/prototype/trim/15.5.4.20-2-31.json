@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 313,
-                "value": "null"
+                "value": "null",
+                "raw": "\"null\""
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 316,
             "end": 322,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 360,
-            "value": "String.prototype.trim.call(\"null\")"
+            "value": "String.prototype.trim.call(\"null\")",
+            "raw": "'String.prototype.trim.call(\"null\")'"
           }
         ],
         "optional": false

@@ -70,13 +70,15 @@
                         "type": "Literal",
                         "start": 606,
                         "end": 618,
-                        "value": "(?ims-m:a)"
+                        "value": "(?ims-m:a)",
+                        "raw": "\"(?ims-m:a)\""
                       },
                       {
                         "type": "Literal",
                         "start": 620,
                         "end": 622,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -89,7 +91,8 @@
             "type": "Literal",
             "start": 628,
             "end": 656,
-            "value": "RegExp(\"(?ims-m:a)\", \"\"): "
+            "value": "RegExp(\"(?ims-m:a)\", \"\"): ",
+            "raw": "'RegExp(\"(?ims-m:a)\", \"\"): '"
           }
         ],
         "optional": false

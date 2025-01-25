@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 302,
                     "end": 314,
-                    "value": "2000-05-02"
+                    "value": "2000-05-02",
+                    "raw": "\"2000-05-02\""
                   },
                   {
                     "type": "Literal",
                     "start": 316,
                     "end": 330,
-                    "value": "built-in ISO"
+                    "value": "built-in ISO",
+                    "raw": "\"built-in ISO\""
                   }
                 ]
               },
@@ -62,7 +64,8 @@
                         "type": "Literal",
                         "start": 337,
                         "end": 346,
-                        "value": "gregory"
+                        "value": "gregory",
+                        "raw": "\"gregory\""
                       }
                     ]
                   },
@@ -70,13 +73,15 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 375,
-                    "value": "2000-05-02[u-ca=gregory]"
+                    "value": "2000-05-02[u-ca=gregory]",
+                    "raw": "\"2000-05-02[u-ca=gregory]\""
                   },
                   {
                     "type": "Literal",
                     "start": 377,
                     "end": 397,
-                    "value": "built-in Gregorian"
+                    "value": "built-in Gregorian",
+                    "raw": "\"built-in Gregorian\""
                   }
                 ]
               }
@@ -184,19 +189,22 @@
                       "type": "Literal",
                       "start": 495,
                       "end": 499,
-                      "value": 2000
+                      "value": 2000,
+                      "raw": "2000"
                     },
                     {
                       "type": "Literal",
                       "start": 501,
                       "end": 502,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     {
                       "type": "Literal",
                       "start": 504,
                       "end": 505,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     {
                       "type": "SpreadElement",
@@ -276,7 +284,8 @@
                             "type": "Literal",
                             "start": 564,
                             "end": 570,
-                            "value": "auto"
+                            "value": "auto",
+                            "raw": "\"auto\""
                           },
                           "kind": "init"
                         }

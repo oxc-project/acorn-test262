@@ -84,7 +84,8 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 476,
-                    "value": "length"
+                    "value": "length",
+                    "raw": "'length'"
                   }
                 ],
                 "optional": false
@@ -95,7 +96,8 @@
             "type": "Literal",
             "start": 481,
             "end": 583,
-            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true"
+            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true'"
           }
         ],
         "optional": false
@@ -216,13 +218,15 @@
             "type": "Literal",
             "start": 702,
             "end": 710,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 716,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -246,7 +250,8 @@
                     "type": "Literal",
                     "start": 740,
                     "end": 749,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -339,7 +344,8 @@
             "type": "Literal",
             "start": 831,
             "end": 928,
-            "value": "The value of Object.prototype.propertyIsEnumerable.length is expected to equal the value of obj"
+            "value": "The value of Object.prototype.propertyIsEnumerable.length is expected to equal the value of obj",
+            "raw": "'The value of Object.prototype.propertyIsEnumerable.length is expected to equal the value of obj'"
           }
         ],
         "optional": false

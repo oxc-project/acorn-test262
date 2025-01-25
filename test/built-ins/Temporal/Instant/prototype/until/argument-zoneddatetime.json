@@ -95,7 +95,8 @@
                             "type": "Literal",
                             "start": 742,
                             "end": 768,
-                            "value": "1000000000000000000n"
+                            "value": "1000000000000000000n",
+                            "raw": "1_000_000_000_000_000_000n"
                           }
                         ]
                       }
@@ -229,7 +230,8 @@
                                   "type": "Literal",
                                   "start": 853,
                                   "end": 866,
-                                  "value": "nanoseconds"
+                                  "value": "nanoseconds",
+                                  "raw": "\"nanoseconds\""
                                 },
                                 "kind": "init"
                               }
@@ -242,13 +244,15 @@
                         "type": "Literal",
                         "start": 871,
                         "end": 880,
-                        "value": 987654321
+                        "value": 987654321,
+                        "raw": "987654321"
                       },
                       {
                         "type": "Literal",
                         "start": 882,
                         "end": 902,
-                        "value": "nanoseconds result"
+                        "value": "nanoseconds result",
+                        "raw": "\"nanoseconds result\""
                       }
                     ],
                     "optional": false

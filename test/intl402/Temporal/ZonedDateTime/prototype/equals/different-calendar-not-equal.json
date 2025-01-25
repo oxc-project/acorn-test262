@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 344,
-                "value": "-05:00"
+                "value": "-05:00",
+                "raw": "\"-05:00\""
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 355,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -109,19 +112,22 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 405,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 415,
-                "value": "-05:00"
+                "value": "-05:00",
+                "raw": "\"-05:00\""
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 426,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -188,7 +194,8 @@
             "type": "Literal",
             "start": 465,
             "end": 515,
-            "value": "Instances with different calendars are not equal"
+            "value": "Instances with different calendars are not equal",
+            "raw": "\"Instances with different calendars are not equal\""
           }
         ],
         "optional": false

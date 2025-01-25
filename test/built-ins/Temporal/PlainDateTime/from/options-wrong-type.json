@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 310,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 314,
                 "end": 318,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 335,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 358,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -210,7 +215,8 @@
                               "type": "Literal",
                               "start": 467,
                               "end": 471,
-                              "value": 1976
+                              "value": 1976,
+                              "raw": "1976"
                             },
                             "kind": "init"
                           },
@@ -231,7 +237,8 @@
                               "type": "Literal",
                               "start": 480,
                               "end": 482,
-                              "value": 11
+                              "value": 11,
+                              "raw": "11"
                             },
                             "kind": "init"
                           },
@@ -252,7 +259,8 @@
                               "type": "Literal",
                               "start": 489,
                               "end": 491,
-                              "value": 18
+                              "value": 18,
+                              "raw": "18"
                             },
                             "kind": "init"
                           }
@@ -422,19 +430,22 @@
                             "type": "Literal",
                             "start": 647,
                             "end": 651,
-                            "value": 1976
+                            "value": 1976,
+                            "raw": "1976"
                           },
                           {
                             "type": "Literal",
                             "start": 653,
                             "end": 655,
-                            "value": 11
+                            "value": 11,
+                            "raw": "11"
                           },
                           {
                             "type": "Literal",
                             "start": 657,
                             "end": 659,
-                            "value": 18
+                            "value": 18,
+                            "raw": "18"
                           }
                         ]
                       },
@@ -452,7 +463,8 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 732,
-                  "value": "TypeError thrown before cloning PlainDateTime instance"
+                  "value": "TypeError thrown before cloning PlainDateTime instance",
+                  "raw": "\"TypeError thrown before cloning PlainDateTime instance\""
                 }
               ],
               "optional": false
@@ -566,13 +578,15 @@
                             "type": "Literal",
                             "start": 823,
                             "end": 825,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           },
                           {
                             "type": "Literal",
                             "start": 827,
                             "end": 832,
-                            "value": "UTC"
+                            "value": "UTC",
+                            "raw": "\"UTC\""
                           }
                         ]
                       },
@@ -590,7 +604,8 @@
                   "type": "Literal",
                   "start": 847,
                   "end": 906,
-                  "value": "TypeError thrown before converting ZonedDateTime instance"
+                  "value": "TypeError thrown before converting ZonedDateTime instance",
+                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\""
                 }
               ],
               "optional": false
@@ -704,19 +719,22 @@
                             "type": "Literal",
                             "start": 993,
                             "end": 997,
-                            "value": 1976
+                            "value": 1976,
+                            "raw": "1976"
                           },
                           {
                             "type": "Literal",
                             "start": 999,
                             "end": 1001,
-                            "value": 11
+                            "value": 11,
+                            "raw": "11"
                           },
                           {
                             "type": "Literal",
                             "start": 1003,
                             "end": 1005,
-                            "value": 18
+                            "value": 18,
+                            "raw": "18"
                           }
                         ]
                       },
@@ -734,7 +752,8 @@
                   "type": "Literal",
                   "start": 1020,
                   "end": 1075,
-                  "value": "TypeError thrown before converting PlainDate instance"
+                  "value": "TypeError thrown before converting PlainDate instance",
+                  "raw": "\"TypeError thrown before converting PlainDate instance\""
                 }
               ],
               "optional": false
@@ -824,7 +843,8 @@
                         "type": "Literal",
                         "start": 1140,
                         "end": 1159,
-                        "value": "1976-11-18T12:34Z"
+                        "value": "1976-11-18T12:34Z",
+                        "raw": "\"1976-11-18T12:34Z\""
                       },
                       {
                         "type": "Identifier",
@@ -840,7 +860,8 @@
                   "type": "Literal",
                   "start": 1173,
                   "end": 1225,
-                  "value": "Invalid string processed before throwing TypeError"
+                  "value": "Invalid string processed before throwing TypeError",
+                  "raw": "\"Invalid string processed before throwing TypeError\""
                 }
               ],
               "optional": false

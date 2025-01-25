@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 341,
                           "end": 342,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -115,7 +116,8 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 384,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -141,13 +143,15 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 410,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 413,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 418,
             "end": 525,
-            "value": "parseInt(\"11\", {valueOf: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)"
+            "value": "parseInt(\"11\", {valueOf: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", {valueOf: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)'"
           }
         ],
         "optional": false
@@ -217,7 +222,8 @@
                           "type": "Literal",
                           "start": 590,
                           "end": 591,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -260,7 +266,8 @@
                           "type": "Literal",
                           "start": 633,
                           "end": 634,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -317,7 +324,8 @@
                 "type": "Literal",
                 "start": 672,
                 "end": 676,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -343,13 +351,15 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 702,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 704,
                 "end": 705,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -358,7 +368,8 @@
             "type": "Literal",
             "start": 710,
             "end": 850,
-            "value": "parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return 1}}) must return the same value returned by parseInt(\"11\", 2)"
+            "value": "parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return 1}}) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return 1}}) must return the same value returned by parseInt(\"11\", 2)'"
           }
         ],
         "optional": false
@@ -419,7 +430,8 @@
                           "type": "Literal",
                           "start": 915,
                           "end": 916,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -519,7 +531,8 @@
                 "type": "Literal",
                 "start": 998,
                 "end": 1002,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -545,13 +558,15 @@
                 "type": "Literal",
                 "start": 1024,
                 "end": 1028,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 1030,
                 "end": 1031,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -560,7 +575,8 @@
             "type": "Literal",
             "start": 1036,
             "end": 1177,
-            "value": "parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return {}}}) must return the same value returned by parseInt(\"11\", 2)"
+            "value": "parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return {}}}) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", {valueOf: function() {return 2}, toString: function() {return {}}}) must return the same value returned by parseInt(\"11\", 2)'"
           }
         ],
         "optional": false
@@ -630,7 +646,8 @@
                                 "type": "Literal",
                                 "start": 1254,
                                 "end": 1255,
-                                "value": 2
+                                "value": 2,
+                                "raw": "2"
                               }
                             }
                           ]
@@ -673,7 +690,8 @@
                                 "type": "Literal",
                                 "start": 1302,
                                 "end": 1309,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -730,7 +748,8 @@
                       "type": "Literal",
                       "start": 1355,
                       "end": 1359,
-                      "value": "11"
+                      "value": "11",
+                      "raw": "\"11\""
                     },
                     {
                       "type": "Identifier",
@@ -756,13 +775,15 @@
                       "type": "Literal",
                       "start": 1383,
                       "end": 1387,
-                      "value": "11"
+                      "value": "11",
+                      "raw": "\"11\""
                     },
                     {
                       "type": "Literal",
                       "start": 1389,
                       "end": 1390,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ],
                   "optional": false
@@ -771,7 +792,8 @@
                   "type": "Literal",
                   "start": 1397,
                   "end": 1548,
-                  "value": "parseInt( \"11\", {valueOf: function() {return 2}, toString: function() {throw \\\"error\\\"}} ) must return the same value returned by parseInt(\"11\", 2)"
+                  "value": "parseInt( \"11\", {valueOf: function() {return 2}, toString: function() {throw \\\"error\\\"}} ) must return the same value returned by parseInt(\"11\", 2)",
+                  "raw": "'parseInt( \"11\", {valueOf: function() {return 2}, toString: function() {throw \\\\\"error\\\\\"}} ) must return the same value returned by parseInt(\"11\", 2)'"
                 }
               ],
               "optional": false
@@ -832,13 +854,15 @@
                     "type": "Literal",
                     "start": 1593,
                     "end": 1600,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1602,
                     "end": 1635,
-                    "value": "The value of `e` is not \"error\""
+                    "value": "The value of `e` is not \"error\"",
+                    "raw": "'The value of `e` is not \"error\"'"
                   }
                 ],
                 "optional": false
@@ -904,7 +928,8 @@
                           "type": "Literal",
                           "start": 1702,
                           "end": 1703,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -961,7 +986,8 @@
                 "type": "Literal",
                 "start": 1741,
                 "end": 1745,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -987,13 +1013,15 @@
                 "type": "Literal",
                 "start": 1767,
                 "end": 1771,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 1773,
                 "end": 1774,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -1002,7 +1030,8 @@
             "type": "Literal",
             "start": 1779,
             "end": 1887,
-            "value": "parseInt(\"11\", {toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)"
+            "value": "parseInt(\"11\", {toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", {toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)'"
           }
         ],
         "optional": false
@@ -1106,7 +1135,8 @@
                           "type": "Literal",
                           "start": 1996,
                           "end": 1997,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -1163,7 +1193,8 @@
                 "type": "Literal",
                 "start": 2034,
                 "end": 2038,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -1189,13 +1220,15 @@
                 "type": "Literal",
                 "start": 2060,
                 "end": 2064,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 2066,
                 "end": 2067,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -1204,7 +1237,8 @@
             "type": "Literal",
             "start": 2072,
             "end": 2213,
-            "value": "parseInt(\"11\", {valueOf: function() {return {}}, toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)"
+            "value": "parseInt(\"11\", {valueOf: function() {return {}}, toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", {valueOf: function() {return {}}, toString: function() {return 2}}) must return the same value returned by parseInt(\"11\", 2)'"
           }
         ],
         "optional": false
@@ -1274,7 +1308,8 @@
                                 "type": "Literal",
                                 "start": 2289,
                                 "end": 2296,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -1317,7 +1352,8 @@
                                 "type": "Literal",
                                 "start": 2344,
                                 "end": 2345,
-                                "value": 2
+                                "value": 2,
+                                "raw": "2"
                               }
                             }
                           ]
@@ -1350,7 +1386,8 @@
                   "type": "Literal",
                   "start": 2368,
                   "end": 2372,
-                  "value": "11"
+                  "value": "11",
+                  "raw": "\"11\""
                 },
                 {
                   "type": "Identifier",
@@ -1398,7 +1435,8 @@
                     "type": "Literal",
                     "start": 2406,
                     "end": 2545,
-                    "value": "#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 2}}; parseInt(\"11\", object) throw \"error\". Actual: "
+                    "value": "#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 2}}; parseInt(\"11\", object) throw \"error\". Actual: ",
+                    "raw": "'#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 2}}; parseInt(\"11\", object) throw \"error\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1420,7 +1458,8 @@
                           "type": "Literal",
                           "start": 2558,
                           "end": 2562,
-                          "value": "11"
+                          "value": "11",
+                          "raw": "\"11\""
                         },
                         {
                           "type": "Identifier",
@@ -1492,13 +1531,15 @@
                     "type": "Literal",
                     "start": 2611,
                     "end": 2618,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 2620,
                     "end": 2649,
-                    "value": "The value of `e` is \"error\""
+                    "value": "The value of `e` is \"error\"",
+                    "raw": "'The value of `e` is \"error\"'"
                   }
                 ],
                 "optional": false
@@ -1649,7 +1690,8 @@
                   "type": "Literal",
                   "start": 2802,
                   "end": 2806,
-                  "value": "11"
+                  "value": "11",
+                  "raw": "\"11\""
                 },
                 {
                   "type": "Identifier",
@@ -1697,7 +1739,8 @@
                     "type": "Literal",
                     "start": 2840,
                     "end": 2978,
-                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(\"11\", object) throw TypeError. Actual: "
+                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(\"11\", object) throw TypeError. Actual: ",
+                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(\"11\", object) throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1719,7 +1762,8 @@
                           "type": "Literal",
                           "start": 2991,
                           "end": 2995,
-                          "value": "11"
+                          "value": "11",
+                          "raw": "\"11\""
                         },
                         {
                           "type": "Identifier",
@@ -1803,13 +1847,15 @@
                     "type": "Literal",
                     "start": 3065,
                     "end": 3069,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 3071,
                     "end": 3121,
-                    "value": "The result of `(e instanceof TypeError)` is true"
+                    "value": "The result of `(e instanceof TypeError)` is true",
+                    "raw": "'The result of `(e instanceof TypeError)` is true'"
                   }
                 ],
                 "optional": false

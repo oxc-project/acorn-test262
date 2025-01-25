@@ -90,7 +90,8 @@
                       "type": "Literal",
                       "start": 576,
                       "end": 601,
-                      "value": "var arguments = 'param'"
+                      "value": "var arguments = 'param'",
+                      "raw": "\"var arguments = 'param'\""
                     }
                   ],
                   "optional": false
@@ -272,7 +273,8 @@
                             "type": "Literal",
                             "start": 729,
                             "end": 761,
-                            "value": "globalThis.arguments unchanged"
+                            "value": "globalThis.arguments unchanged",
+                            "raw": "\"globalThis.arguments unchanged\""
                           }
                         ],
                         "optional": false

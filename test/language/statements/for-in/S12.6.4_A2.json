@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 386,
               "end": 390,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             "body": {
               "type": "BlockStatement",
@@ -102,7 +103,8 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 519,
-                    "value": "#1: \"for(__key in null){}\" does not lead to throwing exception"
+                    "value": "#1: \"for(__key in null){}\" does not lead to throwing exception",
+                    "raw": "'#1: \"for(__key in null){}\" does not lead to throwing exception'"
                   }
                 ]
               }
@@ -162,7 +164,8 @@
                     "type": "Literal",
                     "start": 743,
                     "end": 783,
-                    "value": "#2: key === undefined. Actual: key ==="
+                    "value": "#2: key === undefined. Actual: key ===",
+                    "raw": "'#2: key === undefined. Actual: key ==='"
                   },
                   "operator": "+",
                   "right": {

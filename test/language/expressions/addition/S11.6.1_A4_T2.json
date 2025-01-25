@@ -74,7 +74,8 @@
           "type": "Literal",
           "start": 419,
           "end": 423,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -105,7 +106,8 @@
                     "type": "Literal",
                     "start": 453,
                     "end": 506,
-                    "value": "#1: Infinity + -Infinity === Not-a-Number. Actual: "
+                    "value": "#1: Infinity + -Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#1: Infinity + -Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +219,8 @@
           "type": "Literal",
           "start": 614,
           "end": 618,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -248,7 +251,8 @@
                     "type": "Literal",
                     "start": 648,
                     "end": 701,
-                    "value": "#2: -Infinity + Infinity === Not-a-Number. Actual: "
+                    "value": "#2: -Infinity + Infinity === Not-a-Number. Actual: ",
+                    "raw": "'#2: -Infinity + Infinity === Not-a-Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {

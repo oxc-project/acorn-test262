@@ -177,7 +177,8 @@
                       "type": "Literal",
                       "start": 1402,
                       "end": 1404,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     }
                   }
                 ]
@@ -243,7 +244,8 @@
                 "type": "Literal",
                 "start": 1445,
                 "end": 1448,
-                "value": "g"
+                "value": "g",
+                "raw": "'g'"
               }
             ],
             "optional": false
@@ -338,7 +340,8 @@
             "type": "Literal",
             "start": 1514,
             "end": 1570,
-            "value": "private methods are not installed before super returns"
+            "value": "private methods are not installed before super returns",
+            "raw": "'private methods are not installed before super returns'"
           }
         ],
         "optional": false

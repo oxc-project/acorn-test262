@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1316,
         "end": 1321,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -52,7 +53,8 @@
                         "type": "Literal",
                         "start": 1344,
                         "end": 1384,
-                        "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js"
+                        "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
+                        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
                       },
                       "options": null
                     },
@@ -138,7 +140,8 @@
                                   "type": "Literal",
                                   "start": 1437,
                                   "end": 1447,
-                                  "value": "URIError"
+                                  "value": "URIError",
+                                  "raw": "'URIError'"
                                 }
                               ],
                               "optional": false

@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 549,
-                              "value": 93760
+                              "value": 93760,
+                              "raw": "0x016E40"
                             },
                             {
                               "type": "Literal",
                               "start": 551,
                               "end": 559,
-                              "value": 93850
+                              "value": 93850,
+                              "raw": "0x016E9A"
                             }
                           ]
                         }
@@ -125,6 +127,7 @@
             "start": 592,
             "end": 631,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Medefaidrin}+$",
               "flags": "u"
@@ -140,7 +143,8 @@
             "type": "Literal",
             "start": 651,
             "end": 687,
-            "value": "\\p{Script_Extensions=Medefaidrin}"
+            "value": "\\p{Script_Extensions=Medefaidrin}",
+            "raw": "\"\\\\p{Script_Extensions=Medefaidrin}\""
           }
         ],
         "optional": false
@@ -166,6 +170,7 @@
             "start": 714,
             "end": 746,
             "value": {},
+            "raw": "/^\\p{Script_Extensions=Medf}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Medf}+$",
               "flags": "u"
@@ -181,7 +186,8 @@
             "type": "Literal",
             "start": 766,
             "end": 795,
-            "value": "\\p{Script_Extensions=Medf}"
+            "value": "\\p{Script_Extensions=Medf}",
+            "raw": "\"\\\\p{Script_Extensions=Medf}\""
           }
         ],
         "optional": false
@@ -207,6 +213,7 @@
             "start": 822,
             "end": 847,
             "value": {},
+            "raw": "/^\\p{scx=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Medefaidrin}+$",
               "flags": "u"
@@ -222,7 +229,8 @@
             "type": "Literal",
             "start": 867,
             "end": 889,
-            "value": "\\p{scx=Medefaidrin}"
+            "value": "\\p{scx=Medefaidrin}",
+            "raw": "\"\\\\p{scx=Medefaidrin}\""
           }
         ],
         "optional": false
@@ -248,6 +256,7 @@
             "start": 916,
             "end": 934,
             "value": {},
+            "raw": "/^\\p{scx=Medf}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Medf}+$",
               "flags": "u"
@@ -263,7 +272,8 @@
             "type": "Literal",
             "start": 954,
             "end": 969,
-            "value": "\\p{scx=Medf}"
+            "value": "\\p{scx=Medf}",
+            "raw": "\"\\\\p{scx=Medf}\""
           }
         ],
         "optional": false
@@ -348,13 +358,15 @@
                               "type": "Literal",
                               "start": 1051,
                               "end": 1059,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1061,
                               "end": 1069,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1077,
                               "end": 1085,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1087,
                               "end": 1095,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1103,
                               "end": 1111,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1113,
                               "end": 1121,
-                              "value": 93759
+                              "value": 93759,
+                              "raw": "0x016E3F"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1129,
                               "end": 1137,
-                              "value": 93851
+                              "value": 93851,
+                              "raw": "0x016E9B"
                             },
                             {
                               "type": "Literal",
                               "start": 1139,
                               "end": 1147,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -448,6 +466,7 @@
             "start": 1180,
             "end": 1219,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Medefaidrin}+$",
               "flags": "u"
@@ -463,7 +482,8 @@
             "type": "Literal",
             "start": 1242,
             "end": 1278,
-            "value": "\\P{Script_Extensions=Medefaidrin}"
+            "value": "\\P{Script_Extensions=Medefaidrin}",
+            "raw": "\"\\\\P{Script_Extensions=Medefaidrin}\""
           }
         ],
         "optional": false
@@ -489,6 +509,7 @@
             "start": 1305,
             "end": 1337,
             "value": {},
+            "raw": "/^\\P{Script_Extensions=Medf}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Medf}+$",
               "flags": "u"
@@ -504,7 +525,8 @@
             "type": "Literal",
             "start": 1360,
             "end": 1389,
-            "value": "\\P{Script_Extensions=Medf}"
+            "value": "\\P{Script_Extensions=Medf}",
+            "raw": "\"\\\\P{Script_Extensions=Medf}\""
           }
         ],
         "optional": false
@@ -530,6 +552,7 @@
             "start": 1416,
             "end": 1441,
             "value": {},
+            "raw": "/^\\P{scx=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Medefaidrin}+$",
               "flags": "u"
@@ -545,7 +568,8 @@
             "type": "Literal",
             "start": 1464,
             "end": 1486,
-            "value": "\\P{scx=Medefaidrin}"
+            "value": "\\P{scx=Medefaidrin}",
+            "raw": "\"\\\\P{scx=Medefaidrin}\""
           }
         ],
         "optional": false
@@ -571,6 +595,7 @@
             "start": 1513,
             "end": 1531,
             "value": {},
+            "raw": "/^\\P{scx=Medf}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Medf}+$",
               "flags": "u"
@@ -586,7 +611,8 @@
             "type": "Literal",
             "start": 1554,
             "end": 1569,
-            "value": "\\P{scx=Medf}"
+            "value": "\\P{scx=Medf}",
+            "raw": "\"\\\\P{scx=Medf}\""
           }
         ],
         "optional": false

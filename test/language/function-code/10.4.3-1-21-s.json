@@ -89,7 +89,8 @@
             "type": "Literal",
             "start": 383,
             "end": 394,
-            "value": "(new f())"
+            "value": "(new f())",
+            "raw": "'(new f())'"
           }
         ],
         "optional": false
@@ -151,13 +152,15 @@
             "type": "Literal",
             "start": 435,
             "end": 446,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 466,
-            "value": "typeof (new f())"
+            "value": "typeof (new f())",
+            "raw": "'typeof (new f())'"
           }
         ],
         "optional": false

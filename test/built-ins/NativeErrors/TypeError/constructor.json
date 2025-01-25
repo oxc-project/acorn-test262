@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 296,
+  "end": 295,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 214,
-      "end": 295,
+      "start": 213,
+      "end": 294,
       "expression": {
         "type": "CallExpression",
-        "start": 214,
-        "end": 294,
+        "start": 213,
+        "end": 293,
         "callee": {
           "type": "MemberExpression",
-          "start": 214,
-          "end": 230,
+          "start": 213,
+          "end": 229,
           "object": {
             "type": "Identifier",
-            "start": 214,
-            "end": 220,
+            "start": 213,
+            "end": 219,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 221,
-            "end": 230,
+            "start": 220,
+            "end": 229,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,28 +33,30 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 231,
-            "end": 247,
+            "start": 230,
+            "end": 246,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 238,
-              "end": 247,
+              "start": 237,
+              "end": 246,
               "name": "TypeError"
             }
           },
           {
             "type": "Literal",
-            "start": 249,
-            "end": 259,
-            "value": "function"
+            "start": 248,
+            "end": 258,
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
-            "start": 261,
-            "end": 293,
-            "value": "typeof TypeError is \"function\""
+            "start": 260,
+            "end": 292,
+            "value": "typeof TypeError is \"function\"",
+            "raw": "'typeof TypeError is \"function\"'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2046,
             "end": 2047,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -95,7 +96,8 @@
                           "type": "Literal",
                           "start": 2085,
                           "end": 2086,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         "computed": true,
                         "optional": false
@@ -125,7 +127,8 @@
                           "type": "Literal",
                           "start": 2103,
                           "end": 2104,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         },
                         "computed": true,
                         "optional": false
@@ -181,13 +184,15 @@
                               "type": "Literal",
                               "start": 2136,
                               "end": 2143,
-                              "value": "third"
+                              "value": "third",
+                              "raw": "'third'"
                             },
                             {
                               "type": "Literal",
                               "start": 2145,
                               "end": 2162,
-                              "value": "first parameter"
+                              "value": "first parameter",
+                              "raw": "'first parameter'"
                             }
                           ],
                           "optional": false
@@ -231,13 +236,15 @@
                               "type": "Literal",
                               "start": 2189,
                               "end": 2197,
-                              "value": "fourth"
+                              "value": "fourth",
+                              "raw": "'fourth'"
                             },
                             {
                               "type": "Literal",
                               "start": 2199,
                               "end": 2217,
-                              "value": "second parameter"
+                              "value": "second parameter",
+                              "raw": "'second parameter'"
                             }
                           ],
                           "optional": false
@@ -281,13 +288,15 @@
                               "type": "Literal",
                               "start": 2244,
                               "end": 2251,
-                              "value": "third"
+                              "value": "third",
+                              "raw": "'third'"
                             },
                             {
                               "type": "Literal",
                               "start": 2253,
                               "end": 2270,
-                              "value": "third parameter"
+                              "value": "third parameter",
+                              "raw": "'third parameter'"
                             }
                           ],
                           "optional": false
@@ -323,7 +332,8 @@
                               "type": "Literal",
                               "start": 2301,
                               "end": 2302,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -390,13 +400,15 @@
                 "type": "Literal",
                 "start": 2345,
                 "end": 2352,
-                "value": "third"
+                "value": "third",
+                "raw": "'third'"
               },
               {
                 "type": "Literal",
                 "start": 2354,
                 "end": 2362,
-                "value": "fourth"
+                "value": "fourth",
+                "raw": "'fourth'"
               }
             ],
             "optional": false
@@ -452,13 +464,15 @@
             "type": "Literal",
             "start": 2401,
             "end": 2402,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2404,
             "end": 2443,
-            "value": "generator method invoked exactly once"
+            "value": "generator method invoked exactly once",
+            "raw": "'generator method invoked exactly once'"
           }
         ],
         "optional": false

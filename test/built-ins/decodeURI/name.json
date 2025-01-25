@@ -1,121 +1,126 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 809,
+  "end": 808,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 686,
-      "end": 808,
+      "start": 685,
+      "end": 807,
       "expression": {
         "type": "CallExpression",
-        "start": 686,
-        "end": 807,
+        "start": 685,
+        "end": 806,
         "callee": {
           "type": "Identifier",
-          "start": 686,
-          "end": 700,
+          "start": 685,
+          "end": 699,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 701,
-            "end": 710,
+            "start": 700,
+            "end": 709,
             "name": "decodeURI"
           },
           {
             "type": "Literal",
-            "start": 712,
-            "end": 718,
-            "value": "name"
+            "start": 711,
+            "end": 717,
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
-            "start": 720,
-            "end": 806,
+            "start": 719,
+            "end": 805,
             "properties": [
               {
                 "type": "Property",
-                "start": 724,
-                "end": 742,
+                "start": 723,
+                "end": 741,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 724,
-                  "end": 729,
+                  "start": 723,
+                  "end": 728,
                   "name": "value"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 731,
-                  "end": 742,
-                  "value": "decodeURI"
+                  "start": 730,
+                  "end": 741,
+                  "value": "decodeURI",
+                  "raw": "\"decodeURI\""
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 746,
-                "end": 761,
+                "start": 745,
+                "end": 760,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 746,
-                  "end": 754,
+                  "start": 745,
+                  "end": 753,
                   "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 756,
-                  "end": 761,
-                  "value": false
+                  "start": 755,
+                  "end": 760,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 765,
-                "end": 782,
+                "start": 764,
+                "end": 781,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 765,
-                  "end": 775,
+                  "start": 764,
+                  "end": 774,
                   "name": "enumerable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 777,
-                  "end": 782,
-                  "value": false
+                  "start": 776,
+                  "end": 781,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 786,
-                "end": 804,
+                "start": 785,
+                "end": 803,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 786,
-                  "end": 798,
+                  "start": 785,
+                  "end": 797,
                   "name": "configurable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 800,
-                  "end": 804,
-                  "value": true
+                  "start": 799,
+                  "end": 803,
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

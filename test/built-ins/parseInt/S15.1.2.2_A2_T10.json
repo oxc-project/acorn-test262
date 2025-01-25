@@ -27,91 +27,106 @@
                 "type": "Literal",
                 "start": 278,
                 "end": 286,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u1680\""
               },
               {
                 "type": "Literal",
                 "start": 288,
                 "end": 296,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2000\""
               },
               {
                 "type": "Literal",
                 "start": 298,
                 "end": 306,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2001\""
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 316,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2002\""
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 326,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2003\""
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 336,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2004\""
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 346,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2005\""
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 356,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2006\""
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 366,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2007\""
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 376,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2008\""
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 386,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u2009\""
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 396,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u200A\""
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 406,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u202F\""
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 416,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u205F\""
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 426,
-                "value": "　"
+                "value": "　",
+                "raw": "\"\\u3000\""
               }
             ]
           }
@@ -143,91 +158,106 @@
                 "type": "Literal",
                 "start": 441,
                 "end": 447,
-                "value": "1680"
+                "value": "1680",
+                "raw": "\"1680\""
               },
               {
                 "type": "Literal",
                 "start": 449,
                 "end": 455,
-                "value": "2000"
+                "value": "2000",
+                "raw": "\"2000\""
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 463,
-                "value": "2001"
+                "value": "2001",
+                "raw": "\"2001\""
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 471,
-                "value": "2002"
+                "value": "2002",
+                "raw": "\"2002\""
               },
               {
                 "type": "Literal",
                 "start": 473,
                 "end": 479,
-                "value": "2003"
+                "value": "2003",
+                "raw": "\"2003\""
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 487,
-                "value": "2004"
+                "value": "2004",
+                "raw": "\"2004\""
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 495,
-                "value": "2005"
+                "value": "2005",
+                "raw": "\"2005\""
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 503,
-                "value": "2006"
+                "value": "2006",
+                "raw": "\"2006\""
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 511,
-                "value": "2007"
+                "value": "2007",
+                "raw": "\"2007\""
               },
               {
                 "type": "Literal",
                 "start": 513,
                 "end": 519,
-                "value": "2008"
+                "value": "2008",
+                "raw": "\"2008\""
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 527,
-                "value": "2009"
+                "value": "2009",
+                "raw": "\"2009\""
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 535,
-                "value": "200A"
+                "value": "200A",
+                "raw": "\"200A\""
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 543,
-                "value": "202F"
+                "value": "202F",
+                "raw": "\"202F\""
               },
               {
                 "type": "Literal",
                 "start": 545,
                 "end": 551,
-                "value": "205F"
+                "value": "205F",
+                "raw": "\"205F\""
               },
               {
                 "type": "Literal",
                 "start": 553,
                 "end": 559,
-                "value": "3000"
+                "value": "3000",
+                "raw": "\"3000\""
               }
             ]
           }
@@ -258,7 +288,8 @@
               "type": "Literal",
               "start": 580,
               "end": 581,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -380,7 +411,8 @@
                         "type": "Literal",
                         "start": 662,
                         "end": 665,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       }
                     }
                   ],
@@ -401,7 +433,8 @@
                       "type": "Literal",
                       "start": 681,
                       "end": 684,
-                      "value": "1"
+                      "value": "1",
+                      "raw": "\"1\""
                     }
                   ],
                   "optional": false
@@ -410,7 +443,8 @@
                   "type": "Literal",
                   "start": 691,
                   "end": 773,
-                  "value": "parseInt(uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")"
+                  "value": "parseInt(uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")",
+                  "raw": "'parseInt(uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")'"
                 }
               ],
               "optional": false
@@ -533,7 +567,8 @@
                         "type": "Literal",
                         "start": 855,
                         "end": 858,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       }
                     }
                   ],
@@ -554,7 +589,8 @@
                       "type": "Literal",
                       "start": 874,
                       "end": 877,
-                      "value": "1"
+                      "value": "1",
+                      "raw": "\"1\""
                     }
                   ],
                   "optional": false
@@ -563,7 +599,8 @@
                   "type": "Literal",
                   "start": 884,
                   "end": 994,
-                  "value": "parseInt(uspU[index] + uspU[index] + uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")"
+                  "value": "parseInt(uspU[index] + uspU[index] + uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")",
+                  "raw": "'parseInt(uspU[index] + uspU[index] + uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")'"
                 }
               ],
               "optional": false
@@ -658,7 +695,8 @@
                   "type": "Literal",
                   "start": 1052,
                   "end": 1087,
-                  "value": "The result of `(n !== n)` is true"
+                  "value": "The result of `(n !== n)` is true",
+                  "raw": "'The result of `(n !== n)` is true'"
                 }
               ],
               "optional": false

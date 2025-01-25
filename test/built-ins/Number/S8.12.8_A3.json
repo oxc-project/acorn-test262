@@ -67,7 +67,8 @@
                                 "type": "Literal",
                                 "start": 485,
                                 "end": 488,
-                                "value": "1"
+                                "value": "1",
+                                "raw": "\"1\""
                               }
                             }
                           ]
@@ -182,13 +183,15 @@
                   "type": "Literal",
                   "start": 603,
                   "end": 604,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 610,
                   "end": 714,
-                  "value": "Number(\"{toString: function() {return \"1\"}, valueOf: function() {return new Object();}}) must return 1"
+                  "value": "Number(\"{toString: function() {return \"1\"}, valueOf: function() {return new Object();}}) must return 1",
+                  "raw": "'Number(\"{toString: function() {return \"1\"}, valueOf: function() {return new Object();}}) must return 1'"
                 }
               ],
               "optional": false
@@ -234,7 +237,8 @@
                       "type": "Literal",
                       "start": 759,
                       "end": 889,
-                      "value": "#1.2: var __obj = {toNumber: function() {return \"1\"}, valueOf: function() {return new Object();}}; Number(__obj) === 1. Actual: "
+                      "value": "#1.2: var __obj = {toNumber: function() {return \"1\"}, valueOf: function() {return new Object();}}; Number(__obj) === 1. Actual: ",
+                      "raw": "'#1.2: var __obj = {toNumber: function() {return \"1\"}, valueOf: function() {return new Object();}}; Number(__obj) === 1. Actual: '"
                     },
                     "operator": "+",
                     "right": {

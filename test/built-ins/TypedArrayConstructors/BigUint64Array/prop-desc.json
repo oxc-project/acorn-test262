@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 338,
             "end": 354,
-            "value": "BigUint64Array"
+            "value": "BigUint64Array",
+            "raw": "\"BigUint64Array\""
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 374,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 395,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 413,
                   "end": 417,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

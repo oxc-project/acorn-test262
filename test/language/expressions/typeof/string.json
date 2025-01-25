@@ -41,20 +41,23 @@
               "type": "Literal",
               "start": 411,
               "end": 414,
-              "value": "1"
+              "value": "1",
+              "raw": "\"1\""
             }
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 426,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 455,
-            "value": "typeof \"1\" === \"string\""
+            "value": "typeof \"1\" === \"string\"",
+            "raw": "'typeof \"1\" === \"string\"'"
           }
         ],
         "optional": false
@@ -98,20 +101,23 @@
               "type": "Literal",
               "start": 487,
               "end": 492,
-              "value": "NaN"
+              "value": "NaN",
+              "raw": "\"NaN\""
             }
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 504,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 535,
-            "value": "typeof \"NaN\" === \"string\""
+            "value": "typeof \"NaN\" === \"string\"",
+            "raw": "'typeof \"NaN\" === \"string\"'"
           }
         ],
         "optional": false
@@ -155,20 +161,23 @@
               "type": "Literal",
               "start": 567,
               "end": 577,
-              "value": "Infinity"
+              "value": "Infinity",
+              "raw": "\"Infinity\""
             }
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 589,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 625,
-            "value": "typeof \"Infinity\" === \"string\""
+            "value": "typeof \"Infinity\" === \"string\"",
+            "raw": "'typeof \"Infinity\" === \"string\"'"
           }
         ],
         "optional": false
@@ -212,20 +221,23 @@
               "type": "Literal",
               "start": 657,
               "end": 659,
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             }
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 671,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 699,
-            "value": "typeof \"\" === \"string\""
+            "value": "typeof \"\" === \"string\"",
+            "raw": "'typeof \"\" === \"string\"'"
           }
         ],
         "optional": false
@@ -269,20 +281,23 @@
               "type": "Literal",
               "start": 731,
               "end": 737,
-              "value": "true"
+              "value": "true",
+              "raw": "\"true\""
             }
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 749,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 753,
             "end": 781,
-            "value": "typeof \"true\" === \"string\""
+            "value": "typeof \"true\" === \"string\"",
+            "raw": "'typeof \"true\" === \"string\"'"
           }
         ],
         "optional": false
@@ -340,13 +355,15 @@
             "type": "Literal",
             "start": 823,
             "end": 831,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 863,
-            "value": "typeof Date() === \"string\""
+            "value": "typeof Date() === \"string\"",
+            "raw": "'typeof Date() === \"string\"'"
           }
         ],
         "optional": false

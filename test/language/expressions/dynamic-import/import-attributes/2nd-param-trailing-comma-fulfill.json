@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 603,
-                  "value": "./2nd-param_FIXTURE.js"
+                  "value": "./2nd-param_FIXTURE.js",
+                  "raw": "'./2nd-param_FIXTURE.js'"
                 },
                 "options": {
                   "type": "ObjectExpression",
@@ -122,7 +123,8 @@
                             "type": "Literal",
                             "start": 674,
                             "end": 677,
-                            "value": 262
+                            "value": 262,
+                            "raw": "262"
                           }
                         ],
                         "optional": false

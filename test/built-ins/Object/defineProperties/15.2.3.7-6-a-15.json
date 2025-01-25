@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 382,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ]
           }
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 413,
             "end": 419,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -103,7 +105,8 @@
                   "type": "Literal",
                   "start": 432,
                   "end": 434,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -124,7 +127,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 457,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -217,7 +221,8 @@
                               "type": "Literal",
                               "start": 527,
                               "end": 529,
-                              "value": 12
+                              "value": 12,
+                              "raw": "12"
                             },
                             "kind": "init"
                           },
@@ -238,7 +243,8 @@
                               "type": "Literal",
                               "start": 551,
                               "end": 555,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -271,7 +277,8 @@
                   "type": "Literal",
                   "start": 593,
                   "end": 617,
-                  "value": "Expected an exception."
+                  "value": "Expected an exception.",
+                  "raw": "\"Expected an exception.\""
                 }
               ]
             }
@@ -355,7 +362,8 @@
                             "type": "Literal",
                             "start": 696,
                             "end": 722,
-                            "value": "Expected TypeError, got "
+                            "value": "Expected TypeError, got ",
+                            "raw": "\"Expected TypeError, got \""
                           },
                           "operator": "+",
                           "right": {
@@ -402,7 +410,8 @@
             "type": "Literal",
             "start": 756,
             "end": 762,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -426,7 +435,8 @@
                   "type": "Literal",
                   "start": 775,
                   "end": 777,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -447,7 +457,8 @@
                   "type": "Literal",
                   "start": 791,
                   "end": 796,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -468,7 +479,8 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 817,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -489,7 +501,8 @@
                   "type": "Literal",
                   "start": 835,
                   "end": 840,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

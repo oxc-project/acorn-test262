@@ -46,7 +46,8 @@
             "type": "Literal",
             "start": 581,
             "end": 605,
-            "value": "./2nd-param_FIXTURE.js"
+            "value": "./2nd-param_FIXTURE.js",
+            "raw": "'./2nd-param_FIXTURE.js'"
           },
           "options": {
             "type": "LogicalExpression",
@@ -60,7 +61,8 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 616,
-                "value": "test262"
+                "value": "test262",
+                "raw": "'test262'"
               },
               "operator": "in",
               "right": {
@@ -84,7 +86,8 @@
         "type": "Literal",
         "start": 638,
         "end": 643,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "update": null,
       "body": {
@@ -201,7 +204,8 @@
                             "type": "Literal",
                             "start": 722,
                             "end": 725,
-                            "value": 262
+                            "value": 262,
+                            "raw": "262"
                           }
                         ],
                         "optional": false

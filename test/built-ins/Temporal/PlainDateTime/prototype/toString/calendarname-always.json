@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 336,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 352,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -163,7 +172,8 @@
                       "type": "Literal",
                       "start": 412,
                       "end": 420,
-                      "value": "always"
+                      "value": "always",
+                      "raw": "\"always\""
                     },
                     "kind": "init"
                   }
@@ -214,7 +224,8 @@
             "type": "Literal",
             "start": 450,
             "end": 485,
-            "value": "1976-11-18T15:23:00[u-ca=iso8601]"
+            "value": "1976-11-18T15:23:00[u-ca=iso8601]",
+            "raw": "\"1976-11-18T15:23:00[u-ca=iso8601]\""
           },
           {
             "type": "TemplateLiteral",

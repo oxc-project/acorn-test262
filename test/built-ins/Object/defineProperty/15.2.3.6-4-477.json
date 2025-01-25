@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 411,
             "end": 417,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -157,7 +158,8 @@
             "type": "Literal",
             "start": 507,
             "end": 513,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +225,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 570,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -244,7 +247,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 592,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -286,7 +290,8 @@
           "type": "Literal",
           "start": 609,
           "end": 623,
-          "value": "overrideData"
+          "value": "overrideData",
+          "raw": "\"overrideData\""
         }
       }
     },
@@ -333,7 +338,8 @@
                 "type": "Literal",
                 "start": 672,
                 "end": 678,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -391,7 +397,8 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 735,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -425,7 +432,8 @@
             "type": "Literal",
             "start": 769,
             "end": 801,
-            "value": "propertyDefineCorrect !== true"
+            "value": "propertyDefineCorrect !== true",
+            "raw": "'propertyDefineCorrect !== true'"
           }
         ],
         "optional": false
@@ -488,7 +496,8 @@
             "type": "Literal",
             "start": 840,
             "end": 850,
-            "value": "desc.set"
+            "value": "desc.set",
+            "raw": "'desc.set'"
           }
         ],
         "optional": false
@@ -532,13 +541,15 @@
             "type": "Literal",
             "start": 885,
             "end": 899,
-            "value": "overrideData"
+            "value": "overrideData",
+            "raw": "\"overrideData\""
           },
           {
             "type": "Literal",
             "start": 901,
             "end": 916,
-            "value": "verifySetFunc"
+            "value": "verifySetFunc",
+            "raw": "'verifySetFunc'"
           }
         ],
         "optional": false

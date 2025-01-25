@@ -89,7 +89,8 @@
                   "type": "Literal",
                   "start": 301,
                   "end": 305,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               ],
               "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 329,
             "end": 333,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 445,
-            "value": "The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true"
+            "value": "The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true",
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true'"
           }
         ],
         "optional": false
@@ -204,7 +207,8 @@
                   "type": "Literal",
                   "start": 501,
                   "end": 506,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               ],
               "optional": false
@@ -221,13 +225,15 @@
             "type": "Literal",
             "start": 530,
             "end": 534,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 647,
-            "value": "The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true"
+            "value": "The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true",
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true'"
           }
         ],
         "optional": false

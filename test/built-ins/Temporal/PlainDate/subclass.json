@@ -69,19 +69,22 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 371,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 374,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 377,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -127,25 +130,29 @@
             "type": "Literal",
             "start": 422,
             "end": 426,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 429,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 436,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 439,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -235,7 +242,8 @@
             "type": "Literal",
             "start": 519,
             "end": 548,
-            "value": "Instance of CustomPlainDate"
+            "value": "Instance of CustomPlainDate",
+            "raw": "\"Instance of CustomPlainDate\""
           }
         ],
         "optional": false
@@ -278,7 +286,8 @@
             "type": "Literal",
             "start": 595,
             "end": 624,
-            "value": "Instance of CustomPlainDate"
+            "value": "Instance of CustomPlainDate",
+            "raw": "\"Instance of CustomPlainDate\""
           }
         ],
         "optional": false
@@ -334,7 +343,8 @@
             "type": "Literal",
             "start": 674,
             "end": 706,
-            "value": "Instance of Temporal.PlainDate"
+            "value": "Instance of Temporal.PlainDate",
+            "raw": "\"Instance of Temporal.PlainDate\""
           }
         ],
         "optional": false

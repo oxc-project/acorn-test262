@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 251,
             "end": 261,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 263,
             "end": 328,
-            "value": "The value of `typeof Promise.race` is expected to be \"function\""
+            "value": "The value of `typeof Promise.race` is expected to be \"function\"",
+            "raw": "'The value of `typeof Promise.race` is expected to be \"function\"'"
           }
         ],
         "optional": false

@@ -27,55 +27,64 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 359,
-                "value": "weekday"
+                "value": "weekday",
+                "raw": "\"weekday\""
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 366,
-                "value": "era"
+                "value": "era",
+                "raw": "\"era\""
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 374,
-                "value": "year"
+                "value": "year",
+                "raw": "\"year\""
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 383,
-                "value": "month"
+                "value": "month",
+                "raw": "\"month\""
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 390,
-                "value": "day"
+                "value": "day",
+                "raw": "\"day\""
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 398,
-                "value": "hour"
+                "value": "hour",
+                "raw": "\"hour\""
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 408,
-                "value": "minute"
+                "value": "minute",
+                "raw": "\"minute\""
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 418,
-                "value": "second"
+                "value": "second",
+                "raw": "\"second\""
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 430,
-                "value": "timeZone"
+                "value": "timeZone",
+                "raw": "\"timeZone\""
               }
             ]
           }
@@ -162,7 +171,8 @@
                             "type": "Literal",
                             "start": 499,
                             "end": 507,
-                            "value": "lookup"
+                            "value": "lookup",
+                            "raw": "\"lookup\""
                           },
                           "kind": "init"
                         }
@@ -242,7 +252,8 @@
                 "type": "Literal",
                 "start": 596,
                 "end": 636,
-                "value": "DateTimeFormat returns invalid locale "
+                "value": "DateTimeFormat returns invalid locale ",
+                "raw": "\"DateTimeFormat returns invalid locale \""
               },
               "operator": "+",
               "right": {
@@ -257,7 +268,8 @@
               "type": "Literal",
               "start": 648,
               "end": 651,
-              "value": "."
+              "value": ".",
+              "raw": "\".\""
             }
           }
         ],

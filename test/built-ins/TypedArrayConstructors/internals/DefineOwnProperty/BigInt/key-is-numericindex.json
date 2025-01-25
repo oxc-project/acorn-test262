@@ -74,13 +74,15 @@
                                 "type": "Literal",
                                 "start": 846,
                                 "end": 849,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 851,
                                 "end": 854,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               }
                             ]
                           }
@@ -152,7 +154,8 @@
                             "type": "Literal",
                             "start": 909,
                             "end": 912,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "'0'"
                           },
                           {
                             "type": "ObjectExpression",
@@ -176,7 +179,8 @@
                                   "type": "Literal",
                                   "start": 927,
                                   "end": 929,
-                                  "value": "8n"
+                                  "value": "8n",
+                                  "raw": "8n"
                                 },
                                 "kind": "init"
                               },
@@ -197,7 +201,8 @@
                                   "type": "Literal",
                                   "start": 949,
                                   "end": 953,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               },
@@ -218,7 +223,8 @@
                                   "type": "Literal",
                                   "start": 971,
                                   "end": 975,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               },
@@ -239,7 +245,8 @@
                                   "type": "Literal",
                                   "start": 991,
                                   "end": 995,
-                                  "value": true
+                                  "value": true,
+                                  "raw": "true"
                                 },
                                 "kind": "init"
                               }
@@ -252,13 +259,15 @@
                         "type": "Literal",
                         "start": 1002,
                         "end": 1006,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1008,
                         "end": 1129,
-                        "value": "Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true"
+                        "value": "Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true",
+                        "raw": "'Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true'"
                       }
                     ],
                     "optional": false
@@ -306,7 +315,8 @@
                           "type": "Literal",
                           "start": 1159,
                           "end": 1160,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -315,13 +325,15 @@
                         "type": "Literal",
                         "start": 1163,
                         "end": 1165,
-                        "value": "8n"
+                        "value": "8n",
+                        "raw": "8n"
                       },
                       {
                         "type": "Literal",
                         "start": 1167,
                         "end": 1197,
-                        "value": "The value of sample[0] is 8n"
+                        "value": "The value of sample[0] is 8n",
+                        "raw": "'The value of sample[0] is 8n'"
                       }
                     ],
                     "optional": false
@@ -376,7 +388,8 @@
                             "type": "Literal",
                             "start": 1253,
                             "end": 1256,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "'0'"
                           }
                         ],
                         "optional": false
@@ -436,13 +449,15 @@
                         "type": "Literal",
                         "start": 1290,
                         "end": 1292,
-                        "value": "8n"
+                        "value": "8n",
+                        "raw": "8n"
                       },
                       {
                         "type": "Literal",
                         "start": 1294,
                         "end": 1325,
-                        "value": "The value of desc.value is 8n"
+                        "value": "The value of desc.value is 8n",
+                        "raw": "'The value of desc.value is 8n'"
                       }
                     ],
                     "optional": false
@@ -499,13 +514,15 @@
                         "type": "Literal",
                         "start": 1366,
                         "end": 1370,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1372,
                         "end": 1412,
-                        "value": "The value of desc.configurable is true"
+                        "value": "The value of desc.configurable is true",
+                        "raw": "'The value of desc.configurable is true'"
                       }
                     ],
                     "optional": false
@@ -562,13 +579,15 @@
                         "type": "Literal",
                         "start": 1451,
                         "end": 1455,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1457,
                         "end": 1495,
-                        "value": "The value of desc.enumerable is true"
+                        "value": "The value of desc.enumerable is true",
+                        "raw": "'The value of desc.enumerable is true'"
                       }
                     ],
                     "optional": false
@@ -625,13 +644,15 @@
                         "type": "Literal",
                         "start": 1532,
                         "end": 1536,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1538,
                         "end": 1574,
-                        "value": "The value of desc.writable is true"
+                        "value": "The value of desc.writable is true",
+                        "raw": "'The value of desc.writable is true'"
                       }
                     ],
                     "optional": false

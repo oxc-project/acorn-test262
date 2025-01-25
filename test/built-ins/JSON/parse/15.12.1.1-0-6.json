@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 328,
                         "end": 340,
-                        "value": "﻿1234"
+                        "value": "﻿1234",
+                        "raw": "'\\ufeff1234'"
                       }
                     ],
                     "optional": false

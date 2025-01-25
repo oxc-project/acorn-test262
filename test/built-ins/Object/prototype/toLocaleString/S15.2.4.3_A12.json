@@ -122,7 +122,8 @@
             "type": "Literal",
             "start": 361,
             "end": 439,
-            "value": "Object.prototype.toLocaleString.call(undefined) throws a TypeError exception"
+            "value": "Object.prototype.toLocaleString.call(undefined) throws a TypeError exception",
+            "raw": "'Object.prototype.toLocaleString.call(undefined) throws a TypeError exception'"
           }
         ],
         "optional": false

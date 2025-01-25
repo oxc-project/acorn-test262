@@ -90,7 +90,8 @@
                     "type": "Literal",
                     "start": 1082,
                     "end": 1090,
-                    "value": "caller"
+                    "value": "caller",
+                    "raw": "\"caller\""
                   }
                 ],
                 "optional": false
@@ -144,7 +145,8 @@
             "type": "Literal",
             "start": 1172,
             "end": 1173,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -206,7 +208,8 @@
                           "type": "Literal",
                           "start": 1205,
                           "end": 1217,
-                          "value": "use strict"
+                          "value": "use strict",
+                          "raw": "\"use strict\""
                         },
                         "directive": "use strict"
                       },
@@ -259,7 +262,8 @@
                                   "type": "Literal",
                                   "start": 1547,
                                   "end": 1555,
-                                  "value": "caller"
+                                  "value": "caller",
+                                  "raw": "\"caller\""
                                 }
                               ],
                               "optional": false
@@ -312,7 +316,8 @@
                             "type": "Literal",
                             "start": 1607,
                             "end": 1612,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           }
                         },
                         "consequent": {
@@ -358,7 +363,8 @@
                                     "type": "Literal",
                                     "start": 1651,
                                     "end": 1659,
-                                    "value": "caller"
+                                    "value": "caller",
+                                    "raw": "\"caller\""
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -450,7 +456,8 @@
                             "type": "Literal",
                             "start": 1747,
                             "end": 1752,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           }
                         },
                         "consequent": {
@@ -496,13 +503,15 @@
                                     "type": "Literal",
                                     "start": 1787,
                                     "end": 1788,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1790,
                                     "end": 1932,
-                                    "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
+                                    "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
+                                    "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
                                   }
                                 ],
                                 "optional": false
@@ -729,13 +738,15 @@
             "type": "Literal",
             "start": 2534,
             "end": 2535,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2537,
             "end": 2574,
-            "value": "generator method body was evaluated"
+            "value": "generator method body was evaluated",
+            "raw": "'generator method body was evaluated'"
           }
         ],
         "optional": false

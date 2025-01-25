@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 325,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 329,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 333,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 337,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 345,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               }
             ]
           }
@@ -103,7 +109,8 @@
             "type": "Literal",
             "start": 359,
             "end": 380,
-            "value": "2016-12-31T23:59:60"
+            "value": "2016-12-31T23:59:60",
+            "raw": "\"2016-12-31T23:59:60\""
           }
         }
       ],
@@ -199,13 +206,15 @@
             "type": "Literal",
             "start": 451,
             "end": 455,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 512,
-            "value": "leap second is a valid ISO string for PlainDateTime"
+            "value": "leap second is a valid ISO string for PlainDateTime",
+            "raw": "\"leap second is a valid ISO string for PlainDateTime\""
           }
         ],
         "optional": false
@@ -248,7 +257,8 @@
                 "type": "Literal",
                 "start": 531,
                 "end": 535,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               "kind": "init"
             },
@@ -269,7 +279,8 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 546,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -290,7 +301,8 @@
                 "type": "Literal",
                 "start": 553,
                 "end": 555,
-                "value": 31
+                "value": 31,
+                "raw": "31"
               },
               "kind": "init"
             },
@@ -311,7 +323,8 @@
                 "type": "Literal",
                 "start": 563,
                 "end": 565,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               "kind": "init"
             },
@@ -332,7 +345,8 @@
                 "type": "Literal",
                 "start": 575,
                 "end": 577,
-                "value": 59
+                "value": 59,
+                "raw": "59"
               },
               "kind": "init"
             },
@@ -353,7 +367,8 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 589,
-                "value": 60
+                "value": 60,
+                "raw": "60"
               },
               "kind": "init"
             }
@@ -451,13 +466,15 @@
             "type": "Literal",
             "start": 662,
             "end": 666,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 727,
-            "value": "second: 60 is ignored in property bag for PlainDateTime"
+            "value": "second: 60 is ignored in property bag for PlainDateTime",
+            "raw": "\"second: 60 is ignored in property bag for PlainDateTime\""
           }
         ],
         "optional": false

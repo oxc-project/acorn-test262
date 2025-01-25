@@ -12,6 +12,7 @@
         "start": 1680,
         "end": 1688,
         "value": null,
+        "raw": "/(?i:)/i",
         "regex": {
           "pattern": "(?i:)",
           "flags": "i"
@@ -27,6 +28,7 @@
         "start": 1690,
         "end": 1698,
         "value": null,
+        "raw": "/(?s:)/s",
         "regex": {
           "pattern": "(?s:)",
           "flags": "s"
@@ -42,6 +44,7 @@
         "start": 1700,
         "end": 1708,
         "value": null,
+        "raw": "/(?m:)/m",
         "regex": {
           "pattern": "(?m:)",
           "flags": "m"
@@ -57,6 +60,7 @@
         "start": 1710,
         "end": 1722,
         "value": null,
+        "raw": "/(?ims:)/ims",
         "regex": {
           "pattern": "(?ims:)",
           "flags": "ims"
@@ -82,13 +86,15 @@
             "type": "Literal",
             "start": 1735,
             "end": 1742,
-            "value": "(?i:)"
+            "value": "(?i:)",
+            "raw": "\"(?i:)\""
           },
           {
             "type": "Literal",
             "start": 1744,
             "end": 1747,
-            "value": "i"
+            "value": "i",
+            "raw": "\"i\""
           }
         ]
       }
@@ -112,13 +118,15 @@
             "type": "Literal",
             "start": 1761,
             "end": 1768,
-            "value": "(?s:)"
+            "value": "(?s:)",
+            "raw": "\"(?s:)\""
           },
           {
             "type": "Literal",
             "start": 1770,
             "end": 1773,
-            "value": "s"
+            "value": "s",
+            "raw": "\"s\""
           }
         ]
       }
@@ -142,13 +150,15 @@
             "type": "Literal",
             "start": 1787,
             "end": 1794,
-            "value": "(?m:)"
+            "value": "(?m:)",
+            "raw": "\"(?m:)\""
           },
           {
             "type": "Literal",
             "start": 1796,
             "end": 1799,
-            "value": "m"
+            "value": "m",
+            "raw": "\"m\""
           }
         ]
       }
@@ -172,13 +182,15 @@
             "type": "Literal",
             "start": 1813,
             "end": 1822,
-            "value": "(?ims:)"
+            "value": "(?ims:)",
+            "raw": "\"(?ims:)\""
           },
           {
             "type": "Literal",
             "start": 1824,
             "end": 1829,
-            "value": "ims"
+            "value": "ims",
+            "raw": "\"ims\""
           }
         ]
       }

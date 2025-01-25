@@ -121,7 +121,8 @@
             "type": "Literal",
             "start": 1206,
             "end": 1211,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -191,7 +192,8 @@
                       "type": "Literal",
                       "start": 1273,
                       "end": 1277,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -277,7 +279,8 @@
                 "type": "Literal",
                 "start": 1333,
                 "end": 1335,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             ],
             "optional": false
@@ -324,7 +327,8 @@
             "type": "Literal",
             "start": 1375,
             "end": 1388,
-            "value": "constructor"
+            "value": "constructor",
+            "raw": "'constructor'"
           },
           {
             "type": "ObjectExpression",
@@ -377,7 +381,8 @@
                               "type": "Literal",
                               "start": 1433,
                               "end": 1449,
-                              "value": "broken promise"
+                              "value": "broken promise",
+                              "raw": "'broken promise'"
                             }
                           ]
                         }
@@ -520,7 +525,8 @@
                             "type": "Literal",
                             "start": 1547,
                             "end": 1567,
-                            "value": "Expected rejection"
+                            "value": "Expected rejection",
+                            "raw": "\"Expected rejection\""
                           }
                         ]
                       }
@@ -574,13 +580,15 @@
                             "type": "Literal",
                             "start": 1614,
                             "end": 1619,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 1621,
                             "end": 1676,
-                            "value": "return should be rejected before generator is resumed"
+                            "value": "return should be rejected before generator is resumed",
+                            "raw": "'return should be rejected before generator is resumed'"
                           }
                         ],
                         "optional": false
@@ -637,7 +645,8 @@
                             "type": "Literal",
                             "start": 1715,
                             "end": 1731,
-                            "value": "broken promise"
+                            "value": "broken promise",
+                            "raw": "'broken promise'"
                           }
                         ],
                         "optional": false

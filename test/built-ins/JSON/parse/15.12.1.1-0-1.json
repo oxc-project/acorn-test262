@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 300,
                         "end": 313,
-                        "value": "12\t\r\n 34"
+                        "value": "12\t\r\n 34",
+                        "raw": "'12\\t\\r\\n 34'"
                       }
                     ],
                     "optional": false

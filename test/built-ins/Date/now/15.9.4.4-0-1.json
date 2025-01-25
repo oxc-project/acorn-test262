@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 249,
             "end": 259,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 261,
             "end": 278,
-            "value": "typeof Date.now"
+            "value": "typeof Date.now",
+            "raw": "'typeof Date.now'"
           }
         ],
         "optional": false

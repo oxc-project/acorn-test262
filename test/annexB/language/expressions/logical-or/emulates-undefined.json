@@ -59,14 +59,16 @@
               "type": "Literal",
               "start": 838,
               "end": 839,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 842,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false

@@ -71,7 +71,8 @@
                       "type": "Literal",
                       "start": 678,
                       "end": 682,
-                      "value": "ar"
+                      "value": "ar",
+                      "raw": "'ar'"
                     }
                   ]
                 },
@@ -105,37 +106,43 @@
                 "type": "Literal",
                 "start": 721,
                 "end": 727,
-                "value": "zero"
+                "value": "zero",
+                "raw": "'zero'"
               },
               {
                 "type": "Literal",
                 "start": 729,
                 "end": 734,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 736,
                 "end": 741,
-                "value": "two"
+                "value": "two",
+                "raw": "'two'"
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 748,
-                "value": "few"
+                "value": "few",
+                "raw": "'few'"
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 756,
-                "value": "many"
+                "value": "many",
+                "raw": "'many'"
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 765,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -143,7 +150,8 @@
             "type": "Literal",
             "start": 768,
             "end": 830,
-            "value": "pluralCategories order or contents incorrect for 'ar' locale"
+            "value": "pluralCategories order or contents incorrect for 'ar' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'ar' locale\""
           }
         ],
         "optional": false
@@ -217,7 +225,8 @@
                       "type": "Literal",
                       "start": 874,
                       "end": 878,
-                      "value": "en"
+                      "value": "en",
+                      "raw": "'en'"
                     }
                   ]
                 },
@@ -251,13 +260,15 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 922,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 924,
                 "end": 931,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -265,7 +276,8 @@
             "type": "Literal",
             "start": 934,
             "end": 996,
-            "value": "pluralCategories order or contents incorrect for 'en' locale"
+            "value": "pluralCategories order or contents incorrect for 'en' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'en' locale\""
           }
         ],
         "optional": false
@@ -339,7 +351,8 @@
                       "type": "Literal",
                       "start": 1040,
                       "end": 1044,
-                      "value": "fa"
+                      "value": "fa",
+                      "raw": "'fa'"
                     }
                   ]
                 },
@@ -373,13 +386,15 @@
                 "type": "Literal",
                 "start": 1083,
                 "end": 1088,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 1090,
                 "end": 1097,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -387,7 +402,8 @@
             "type": "Literal",
             "start": 1100,
             "end": 1162,
-            "value": "pluralCategories order or contents incorrect for 'fa' locale"
+            "value": "pluralCategories order or contents incorrect for 'fa' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'fa' locale\""
           }
         ],
         "optional": false
@@ -461,7 +477,8 @@
                       "type": "Literal",
                       "start": 1206,
                       "end": 1210,
-                      "value": "fr"
+                      "value": "fr",
+                      "raw": "'fr'"
                     }
                   ]
                 },
@@ -495,19 +512,22 @@
                 "type": "Literal",
                 "start": 1249,
                 "end": 1254,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 1256,
                 "end": 1262,
-                "value": "many"
+                "value": "many",
+                "raw": "'many'"
               },
               {
                 "type": "Literal",
                 "start": 1264,
                 "end": 1271,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -515,7 +535,8 @@
             "type": "Literal",
             "start": 1274,
             "end": 1336,
-            "value": "pluralCategories order or contents incorrect for 'fr' locale"
+            "value": "pluralCategories order or contents incorrect for 'fr' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'fr' locale\""
           }
         ],
         "optional": false
@@ -589,7 +610,8 @@
                       "type": "Literal",
                       "start": 1380,
                       "end": 1384,
-                      "value": "gv"
+                      "value": "gv",
+                      "raw": "'gv'"
                     }
                   ]
                 },
@@ -623,31 +645,36 @@
                 "type": "Literal",
                 "start": 1423,
                 "end": 1428,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 1430,
                 "end": 1435,
-                "value": "two"
+                "value": "two",
+                "raw": "'two'"
               },
               {
                 "type": "Literal",
                 "start": 1437,
                 "end": 1442,
-                "value": "few"
+                "value": "few",
+                "raw": "'few'"
               },
               {
                 "type": "Literal",
                 "start": 1444,
                 "end": 1450,
-                "value": "many"
+                "value": "many",
+                "raw": "'many'"
               },
               {
                 "type": "Literal",
                 "start": 1452,
                 "end": 1459,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -655,7 +682,8 @@
             "type": "Literal",
             "start": 1462,
             "end": 1524,
-            "value": "pluralCategories order or contents incorrect for 'gv' locale"
+            "value": "pluralCategories order or contents incorrect for 'gv' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'gv' locale\""
           }
         ],
         "optional": false
@@ -729,7 +757,8 @@
                       "type": "Literal",
                       "start": 1568,
                       "end": 1572,
-                      "value": "ko"
+                      "value": "ko",
+                      "raw": "'ko'"
                     }
                   ]
                 },
@@ -763,7 +792,8 @@
                 "type": "Literal",
                 "start": 1611,
                 "end": 1618,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -771,7 +801,8 @@
             "type": "Literal",
             "start": 1621,
             "end": 1683,
-            "value": "pluralCategories order or contents incorrect for 'ko' locale"
+            "value": "pluralCategories order or contents incorrect for 'ko' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'ko' locale\""
           }
         ],
         "optional": false
@@ -845,7 +876,8 @@
                       "type": "Literal",
                       "start": 1727,
                       "end": 1731,
-                      "value": "sl"
+                      "value": "sl",
+                      "raw": "'sl'"
                     }
                   ]
                 },
@@ -879,25 +911,29 @@
                 "type": "Literal",
                 "start": 1770,
                 "end": 1775,
-                "value": "one"
+                "value": "one",
+                "raw": "'one'"
               },
               {
                 "type": "Literal",
                 "start": 1777,
                 "end": 1782,
-                "value": "two"
+                "value": "two",
+                "raw": "'two'"
               },
               {
                 "type": "Literal",
                 "start": 1784,
                 "end": 1789,
-                "value": "few"
+                "value": "few",
+                "raw": "'few'"
               },
               {
                 "type": "Literal",
                 "start": 1791,
                 "end": 1798,
-                "value": "other"
+                "value": "other",
+                "raw": "'other'"
               }
             ]
           },
@@ -905,7 +941,8 @@
             "type": "Literal",
             "start": 1801,
             "end": 1863,
-            "value": "pluralCategories order or contents incorrect for 'sl' locale"
+            "value": "pluralCategories order or contents incorrect for 'sl' locale",
+            "raw": "\"pluralCategories order or contents incorrect for 'sl' locale\""
           }
         ],
         "optional": false

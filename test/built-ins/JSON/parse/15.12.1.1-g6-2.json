@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 315,
-                "value": "\"\\\\\""
+                "value": "\"\\\\\"",
+                "raw": "'\"\\\\\\\\\"'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 318,
             "end": 322,
-            "value": "\\"
+            "value": "\\",
+            "raw": "'\\\\'"
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 348,
-            "value": "JSON.parse('\"\\\\\"')"
+            "value": "JSON.parse('\"\\\\\"')",
+            "raw": "'JSON.parse(\\'\"\\\\\\\\\"\\')'"
           }
         ],
         "optional": false

@@ -48,13 +48,15 @@
             "type": "Literal",
             "start": 266,
             "end": 271,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 273,
             "end": 324,
-            "value": "The value of `delete NaN` is expected to be false"
+            "value": "The value of `delete NaN` is expected to be false",
+            "raw": "'The value of `delete NaN` is expected to be false'"
           }
         ],
         "optional": false

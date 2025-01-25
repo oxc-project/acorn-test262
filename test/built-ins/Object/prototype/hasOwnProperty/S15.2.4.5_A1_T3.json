@@ -63,7 +63,8 @@
                       "type": "Literal",
                       "start": 577,
                       "end": 578,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -176,13 +177,15 @@
             "type": "Literal",
             "start": 675,
             "end": 685,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 773,
-            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\""
+            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"",
+            "raw": "'The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -246,13 +249,15 @@
             "type": "Literal",
             "start": 832,
             "end": 842,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 922,
-            "value": "The value of `typeof instance.hasOwnProperty` is expected to be \"function\""
+            "value": "The value of `typeof instance.hasOwnProperty` is expected to be \"function\"",
+            "raw": "'The value of `typeof instance.hasOwnProperty` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -307,7 +312,8 @@
                   "type": "Literal",
                   "start": 962,
                   "end": 972,
-                  "value": "toString"
+                  "value": "toString",
+                  "raw": "\"toString\""
                 }
               ],
               "optional": false
@@ -317,7 +323,8 @@
             "type": "Literal",
             "start": 977,
             "end": 1051,
-            "value": "The value of !instance.hasOwnProperty(\"toString\") is expected to be true"
+            "value": "The value of !instance.hasOwnProperty(\"toString\") is expected to be true",
+            "raw": "'The value of !instance.hasOwnProperty(\"toString\") is expected to be true'"
           }
         ],
         "optional": false
@@ -378,7 +385,8 @@
                     "type": "Literal",
                     "start": 1092,
                     "end": 1103,
-                    "value": "aproperty"
+                    "value": "aproperty",
+                    "raw": "\"aproperty\""
                   }
                 ],
                 "optional": false
@@ -389,7 +397,8 @@
             "type": "Literal",
             "start": 1108,
             "end": 1184,
-            "value": "The value of !!instance.hasOwnProperty(\"aproperty\") is expected to be true"
+            "value": "The value of !!instance.hasOwnProperty(\"aproperty\") is expected to be true",
+            "raw": "'The value of !!instance.hasOwnProperty(\"aproperty\") is expected to be true'"
           }
         ],
         "optional": false

@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 286,
             "end": 291,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 332,
-            "value": "Array.isArray(JSON) must return false"
+            "value": "Array.isArray(JSON) must return false",
+            "raw": "'Array.isArray(JSON) must return false'"
           }
         ],
         "optional": false

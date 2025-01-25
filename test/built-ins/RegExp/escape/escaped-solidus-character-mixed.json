@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 501,
-                "value": ".a/b"
+                "value": ".a/b",
+                "raw": "'.a/b'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 504,
             "end": 514,
-            "value": "\\.a\\/b"
+            "value": "\\.a\\/b",
+            "raw": "'\\\\.a\\\\/b'"
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 574,
-            "value": "mixed string with solidus character is escaped correctly"
+            "value": "mixed string with solidus character is escaped correctly",
+            "raw": "'mixed string with solidus character is escaped correctly'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 608,
                 "end": 613,
-                "value": "/./"
+                "value": "/./",
+                "raw": "'/./'"
               }
             ],
             "optional": false
@@ -145,13 +149,15 @@
             "type": "Literal",
             "start": 616,
             "end": 627,
-            "value": "\\/\\.\\/"
+            "value": "\\/\\.\\/",
+            "raw": "'\\\\/\\\\.\\\\/'"
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 686,
-            "value": "solidus character is escaped correctly - regexp similar"
+            "value": "solidus character is escaped correctly - regexp similar",
+            "raw": "'solidus character is escaped correctly - regexp similar'"
           }
         ],
         "optional": false
@@ -213,7 +219,8 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 751,
-                "value": "./a\\/*b+c?d^e$f|g{2}h[i]j\\k"
+                "value": "./a\\/*b+c?d^e$f|g{2}h[i]j\\k",
+                "raw": "'./a\\\\/*b+c?d^e$f|g{2}h[i]j\\\\k'"
               }
             ],
             "optional": false
@@ -222,13 +229,15 @@
             "type": "Literal",
             "start": 754,
             "end": 815,
-            "value": "\\.\\/a\\\\\\/\\*b\\+c\\?d\\^e\\$f\\|g\\{2\\}h\\[i\\]j\\\\k"
+            "value": "\\.\\/a\\\\\\/\\*b\\+c\\?d\\^e\\$f\\|g\\{2\\}h\\[i\\]j\\\\k",
+            "raw": "'\\\\.\\\\/a\\\\\\\\\\\\/\\\\*b\\\\+c\\\\?d\\\\^e\\\\$f\\\\|g\\\\{2\\\\}h\\\\[i\\\\]j\\\\\\\\k'"
           },
           {
             "type": "Literal",
             "start": 817,
             "end": 887,
-            "value": "complex string with multiple special characters is escaped correctly"
+            "value": "complex string with multiple special characters is escaped correctly",
+            "raw": "'complex string with multiple special characters is escaped correctly'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 275,
             "end": 307,
-            "value": "2016-12-31T23:59:60+00:00[UTC]"
+            "value": "2016-12-31T23:59:60+00:00[UTC]",
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
           }
         }
       ],
@@ -144,13 +145,15 @@
             "type": "Literal",
             "start": 405,
             "end": 431,
-            "value": "1483228799000000000n"
+            "value": "1483228799000000000n",
+            "raw": "1_483_228_799_000_000_000n"
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 488,
-            "value": "leap second is a valid ISO string for ZonedDateTime"
+            "value": "leap second is a valid ISO string for ZonedDateTime",
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime\""
           }
         ],
         "optional": false
@@ -175,7 +178,8 @@
           "type": "Literal",
           "start": 499,
           "end": 537,
-          "value": "2000-05-02T12:34:56+23:59[+23:59:60]"
+          "value": "2000-05-02T12:34:56+23:59[+23:59:60]",
+          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\""
         }
       }
     },
@@ -273,7 +277,8 @@
             "type": "Literal",
             "start": 612,
             "end": 653,
-            "value": "leap second in time zone name not valid"
+            "value": "leap second in time zone name not valid",
+            "raw": "\"leap second in time zone name not valid\""
           }
         ],
         "optional": false

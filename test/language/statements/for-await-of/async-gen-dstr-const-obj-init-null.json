@@ -56,7 +56,8 @@
                   "type": "Literal",
                   "start": 1532,
                   "end": 1536,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               ]
             },
@@ -180,7 +181,8 @@
                             "type": "Literal",
                             "start": 1615,
                             "end": 1665,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

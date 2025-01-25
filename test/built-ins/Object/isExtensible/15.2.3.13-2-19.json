@@ -106,13 +106,15 @@
             "type": "Literal",
             "start": 335,
             "end": 339,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 344,
-            "value": "e"
+            "value": "e",
+            "raw": "'e'"
           }
         ],
         "optional": false

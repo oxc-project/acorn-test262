@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1170,
             "end": 1175,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -135,7 +136,8 @@
                   "type": "Literal",
                   "start": 1259,
                   "end": 1263,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             }
@@ -169,7 +171,8 @@
             "type": "Literal",
             "start": 1285,
             "end": 1309,
-            "value": "executed `catch` block"
+            "value": "executed `catch` block",
+            "raw": "'executed `catch` block'"
           }
         ],
         "optional": false

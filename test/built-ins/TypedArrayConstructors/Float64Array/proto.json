@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 513,
+  "end": 512,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 446,
-      "end": 512,
+      "start": 445,
+      "end": 511,
       "expression": {
         "type": "CallExpression",
-        "start": 446,
-        "end": 511,
+        "start": 445,
+        "end": 510,
         "callee": {
           "type": "MemberExpression",
-          "start": 446,
-          "end": 462,
+          "start": 445,
+          "end": 461,
           "object": {
             "type": "Identifier",
-            "start": 446,
-            "end": 452,
+            "start": 445,
+            "end": 451,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 453,
-            "end": 462,
+            "start": 452,
+            "end": 461,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 463,
-            "end": 498,
+            "start": 462,
+            "end": 497,
             "callee": {
               "type": "MemberExpression",
-              "start": 463,
-              "end": 484,
+              "start": 462,
+              "end": 483,
               "object": {
                 "type": "Identifier",
-                "start": 463,
-                "end": 469,
+                "start": 462,
+                "end": 468,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 470,
-                "end": 484,
+                "start": 469,
+                "end": 483,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 485,
-                "end": 497,
+                "start": 484,
+                "end": 496,
                 "name": "Float64Array"
               }
             ],
@@ -66,8 +66,8 @@
           },
           {
             "type": "Identifier",
-            "start": 500,
-            "end": 510,
+            "start": 499,
+            "end": 509,
             "name": "TypedArray"
           }
         ],

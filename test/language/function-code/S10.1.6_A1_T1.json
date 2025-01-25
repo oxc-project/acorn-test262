@@ -84,7 +84,8 @@
               "type": "Literal",
               "start": 425,
               "end": 426,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -94,7 +95,8 @@
           "type": "Literal",
           "start": 432,
           "end": 433,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -116,7 +118,8 @@
               "type": "Literal",
               "start": 460,
               "end": 496,
-              "value": "#1: Function parameter was deleted"
+              "value": "#1: Function parameter was deleted",
+              "raw": "'#1: Function parameter was deleted'"
             }
           ]
         }

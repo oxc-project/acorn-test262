@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 330,
             "end": 335,
-            "value": "bar"
+            "value": "bar",
+            "raw": "\"bar\""
           },
           {
             "type": "ObjectExpression",
@@ -104,7 +105,8 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 357,
-                  "value": "unwritable"
+                  "value": "unwritable",
+                  "raw": "\"unwritable\""
                 },
                 "kind": "init"
               }
@@ -225,7 +227,8 @@
                       "type": "Literal",
                       "start": 445,
                       "end": 457,
-                      "value": "overridden"
+                      "value": "overridden",
+                      "raw": "\"overridden\""
                     }
                   }
                 }
@@ -287,13 +290,15 @@
             "type": "Literal",
             "start": 487,
             "end": 499,
-            "value": "unwritable"
+            "value": "unwritable",
+            "raw": "\"unwritable\""
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 508,
-            "value": "o.bar"
+            "value": "o.bar",
+            "raw": "'o.bar'"
           }
         ],
         "optional": false

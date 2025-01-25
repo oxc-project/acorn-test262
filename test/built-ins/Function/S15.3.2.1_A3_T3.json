@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 1047,
                             "end": 1048,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -81,7 +82,8 @@
                           "type": "Literal",
                           "start": 1061,
                           "end": 1064,
-                          "value": "a"
+                          "value": "a",
+                          "raw": "\"a\""
                         }
                       }
                     ]
@@ -150,7 +152,8 @@
                           "type": "Literal",
                           "start": 1121,
                           "end": 1127,
-                          "value": "body"
+                          "value": "body",
+                          "raw": "\"body\""
                         }
                       }
                     ]
@@ -236,7 +239,8 @@
                   "type": "Literal",
                   "start": 1201,
                   "end": 1218,
-                  "value": "#1: test failed"
+                  "value": "#1: test failed",
+                  "raw": "'#1: test failed'"
                 }
               ]
             }
@@ -296,13 +300,15 @@
                     "type": "Literal",
                     "start": 1257,
                     "end": 1263,
-                    "value": "body"
+                    "value": "body",
+                    "raw": "\"body\""
                   },
                   {
                     "type": "Literal",
                     "start": 1265,
                     "end": 1306,
-                    "value": "The value of e is expected to be \"body\""
+                    "value": "The value of e is expected to be \"body\"",
+                    "raw": "'The value of e is expected to be \"body\"'"
                   }
                 ],
                 "optional": false
@@ -351,13 +357,15 @@
             "type": "Literal",
             "start": 1332,
             "end": 1333,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1335,
             "end": 1371,
-            "value": "The value of p is expected to be 1"
+            "value": "The value of p is expected to be 1",
+            "raw": "'The value of p is expected to be 1'"
           }
         ],
         "optional": false

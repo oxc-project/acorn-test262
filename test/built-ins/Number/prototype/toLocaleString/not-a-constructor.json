@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 773,
             "end": 778,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 848,
-            "value": "isConstructor(Number.prototype.toLocaleString) must return false"
+            "value": "isConstructor(Number.prototype.toLocaleString) must return false",
+            "raw": "'isConstructor(Number.prototype.toLocaleString) must return false'"
           }
         ],
         "optional": false

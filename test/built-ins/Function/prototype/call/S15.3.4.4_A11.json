@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 396,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 401,
             "end": 470,
-            "value": "Function.prototype.call.hasOwnProperty('length') must return true"
+            "value": "Function.prototype.call.hasOwnProperty('length') must return true",
+            "raw": "'Function.prototype.call.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -162,7 +164,8 @@
                   "type": "Literal",
                   "start": 531,
                   "end": 539,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 544,
             "end": 639,
-            "value": "The value of !Function.prototype.call.propertyIsEnumerable('length') is expected to be true"
+            "value": "The value of !Function.prototype.call.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Function.prototype.call.propertyIsEnumerable(\\'length\\') is expected to be true'"
           }
         ],
         "optional": false
@@ -277,13 +281,15 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 729,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 },
                 {
                   "type": "Literal",
                   "start": 731,
                   "end": 763,
-                  "value": "The value of p is not \"length\""
+                  "value": "The value of p is not \"length\"",
+                  "raw": "'The value of p is not \"length\"'"
                 }
               ],
               "optional": false

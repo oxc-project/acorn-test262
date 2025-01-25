@@ -84,7 +84,8 @@
                       "type": "Literal",
                       "start": 392,
                       "end": 394,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     {
                       "type": "Identifier",
@@ -190,19 +191,22 @@
             "type": "Literal",
             "start": 487,
             "end": 492,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 526,
-            "value": "1970-01-01T00:00:00+00:00[UTC]"
+            "value": "1970-01-01T00:00:00+00:00[UTC]",
+            "raw": "\"1970-01-01T00:00:00+00:00[UTC]\""
           },
           {
             "type": "Literal",
             "start": 528,
             "end": 553,
-            "value": "offset of UTC is +00:00"
+            "value": "offset of UTC is +00:00",
+            "raw": "\"offset of UTC is +00:00\""
           }
         ],
         "optional": false
@@ -227,19 +231,22 @@
             "type": "Literal",
             "start": 561,
             "end": 569,
-            "value": "+01:00"
+            "value": "+01:00",
+            "raw": "\"+01:00\""
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 606,
-            "value": "1970-01-01T01:00:00+01:00[+01:00]"
+            "value": "1970-01-01T01:00:00+01:00[+01:00]",
+            "raw": "\"1970-01-01T01:00:00+01:00[+01:00]\""
           },
           {
             "type": "Literal",
             "start": 608,
             "end": 625,
-            "value": "positive offset"
+            "value": "positive offset",
+            "raw": "\"positive offset\""
           }
         ],
         "optional": false
@@ -264,19 +271,22 @@
             "type": "Literal",
             "start": 633,
             "end": 641,
-            "value": "-05:00"
+            "value": "-05:00",
+            "raw": "\"-05:00\""
           },
           {
             "type": "Literal",
             "start": 643,
             "end": 678,
-            "value": "1969-12-31T19:00:00-05:00[-05:00]"
+            "value": "1969-12-31T19:00:00-05:00[-05:00]",
+            "raw": "\"1969-12-31T19:00:00-05:00[-05:00]\""
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 697,
-            "value": "negative offset"
+            "value": "negative offset",
+            "raw": "\"negative offset\""
           }
         ],
         "optional": false

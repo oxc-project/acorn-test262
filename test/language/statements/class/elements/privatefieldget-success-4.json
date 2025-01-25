@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 905,
               "end": 913,
-              "value": "Avalue"
+              "value": "Avalue",
+              "raw": "'Avalue'"
             }
           },
           {
@@ -207,7 +208,8 @@
             "type": "Literal",
             "start": 1014,
             "end": 1022,
-            "value": "Avalue"
+            "value": "Avalue",
+            "raw": "'Avalue'"
           }
         ],
         "optional": false

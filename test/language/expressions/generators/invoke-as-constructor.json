@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 344,
+  "end": 343,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 252,
-      "end": 274,
+      "start": 251,
+      "end": 273,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 256,
-          "end": 273,
+          "start": 255,
+          "end": 272,
           "id": {
             "type": "Identifier",
-            "start": 256,
-            "end": 257,
+            "start": 255,
+            "end": 256,
             "name": "g"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 260,
-            "end": 273,
+            "start": 259,
+            "end": 272,
             "id": null,
             "expression": false,
             "generator": true,
@@ -29,8 +29,8 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 271,
-              "end": 273,
+              "start": 270,
+              "end": 272,
               "body": []
             }
           }
@@ -40,26 +40,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 276,
-      "end": 343,
+      "start": 275,
+      "end": 342,
       "expression": {
         "type": "CallExpression",
-        "start": 276,
-        "end": 342,
+        "start": 275,
+        "end": 341,
         "callee": {
           "type": "MemberExpression",
-          "start": 276,
-          "end": 289,
+          "start": 275,
+          "end": 288,
           "object": {
             "type": "Identifier",
-            "start": 276,
-            "end": 282,
+            "start": 275,
+            "end": 281,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 283,
-            "end": 289,
+            "start": 282,
+            "end": 288,
             "name": "throws"
           },
           "computed": false,
@@ -68,14 +68,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 290,
-            "end": 299,
+            "start": 289,
+            "end": 298,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 301,
-            "end": 341,
+            "start": 300,
+            "end": 340,
             "id": null,
             "expression": false,
             "generator": false,
@@ -83,32 +83,32 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 312,
-              "end": 341,
+              "start": 311,
+              "end": 340,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 316,
-                  "end": 339,
+                  "start": 315,
+                  "end": 338,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 320,
-                      "end": 338,
+                      "start": 319,
+                      "end": 337,
                       "id": {
                         "type": "Identifier",
-                        "start": 320,
-                        "end": 328,
+                        "start": 319,
+                        "end": 327,
                         "name": "instance"
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 331,
-                        "end": 338,
+                        "start": 330,
+                        "end": 337,
                         "callee": {
                           "type": "Identifier",
-                          "start": 335,
-                          "end": 336,
+                          "start": 334,
+                          "end": 335,
                           "name": "g"
                         },
                         "arguments": []

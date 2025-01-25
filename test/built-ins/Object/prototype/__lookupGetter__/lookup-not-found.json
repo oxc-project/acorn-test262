@@ -188,7 +188,8 @@
                 "type": "Literal",
                 "start": 764,
                 "end": 772,
-                "value": "target"
+                "value": "target",
+                "raw": "'target'"
               }
             ],
             "optional": false

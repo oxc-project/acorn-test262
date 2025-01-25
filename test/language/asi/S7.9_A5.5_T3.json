@@ -84,7 +84,8 @@
                           "type": "Literal",
                           "start": 375,
                           "end": 376,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     },
@@ -150,7 +151,8 @@
           "type": "Literal",
           "start": 422,
           "end": 423,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -177,7 +179,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 517,
-                  "value": "#1: Check Function Expression for automatic semicolon insertion"
+                  "value": "#1: Check Function Expression for automatic semicolon insertion",
+                  "raw": "'#1: Check Function Expression for automatic semicolon insertion'"
                 }
               ]
             }

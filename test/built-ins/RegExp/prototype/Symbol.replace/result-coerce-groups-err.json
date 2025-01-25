@@ -23,6 +23,7 @@
             "start": 698,
             "end": 701,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -69,7 +70,8 @@
                   "type": "Literal",
                   "start": 736,
                   "end": 737,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -84,13 +86,15 @@
                   "type": "Literal",
                   "start": 741,
                   "end": 742,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 744,
                   "end": 746,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 },
                 "kind": "init"
               },
@@ -111,7 +115,8 @@
                   "type": "Literal",
                   "start": 757,
                   "end": 758,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 770,
                   "end": 774,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "kind": "init"
               }
@@ -293,13 +299,15 @@
                         "type": "Literal",
                         "start": 889,
                         "end": 894,
-                        "value": "bar"
+                        "value": "bar",
+                        "raw": "'bar'"
                       },
                       {
                         "type": "Literal",
                         "start": 896,
                         "end": 898,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ],
                     "optional": false

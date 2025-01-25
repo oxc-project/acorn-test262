@@ -80,7 +80,8 @@
                         "type": "Literal",
                         "start": 1419,
                         "end": 1511,
-                        "value": "init = f;    f = 123;    changed = f;if (true) function f() {  } else function _f() {}"
+                        "value": "init = f;    f = 123;    changed = f;if (true) function f() {  } else function _f() {}",
+                        "raw": "'init = f;\\\n    f = 123;\\\n    changed = f;if (true) function f() {  } else function _f() {}'"
                       }
                     ],
                     "optional": false
@@ -138,7 +139,8 @@
             "type": "Literal",
             "start": 1558,
             "end": 1597,
-            "value": "binding is initialized to `undefined`"
+            "value": "binding is initialized to `undefined`",
+            "raw": "'binding is initialized to `undefined`'"
           }
         ],
         "optional": false
@@ -182,13 +184,15 @@
             "type": "Literal",
             "start": 1626,
             "end": 1629,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1631,
             "end": 1651,
-            "value": "binding is mutable"
+            "value": "binding is mutable",
+            "raw": "'binding is mutable'"
           }
         ],
         "optional": false
@@ -260,7 +264,8 @@
             "type": "Literal",
             "start": 1705,
             "end": 1736,
-            "value": "global binding is not created"
+            "value": "global binding is not created",
+            "raw": "'global binding is not created'"
           }
         ],
         "optional": false

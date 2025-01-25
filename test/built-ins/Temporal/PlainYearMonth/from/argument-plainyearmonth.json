@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 347,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 350,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Identifier",
@@ -64,7 +66,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               }
             ]
           }
@@ -175,25 +178,29 @@
             "type": "Literal",
             "start": 469,
             "end": 473,
-            "value": 2000
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
             "start": 475,
             "end": 476,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 483,
-            "value": "M05"
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 513,
-            "value": "PlainYearMonth is copied"
+            "value": "PlainYearMonth is copied",
+            "raw": "\"PlainYearMonth is copied\""
           },
           {
             "type": "Identifier",
@@ -211,7 +218,8 @@
             "type": "Literal",
             "start": 582,
             "end": 583,
-            "value": 7
+            "value": 7,
+            "raw": "7"
           }
         ],
         "optional": false
@@ -287,7 +295,8 @@
             "type": "Literal",
             "start": 641,
             "end": 661,
-            "value": "Calendar is copied"
+            "value": "Calendar is copied",
+            "raw": "\"Calendar is copied\""
           }
         ],
         "optional": false
@@ -337,7 +346,8 @@
             "type": "Literal",
             "start": 706,
             "end": 793,
-            "value": "When a PlainYearMonth is given, the returned value is not the original PlainYearMonth"
+            "value": "When a PlainYearMonth is given, the returned value is not the original PlainYearMonth",
+            "raw": "\"When a PlainYearMonth is given, the returned value is not the original PlainYearMonth\""
           }
         ],
         "optional": false

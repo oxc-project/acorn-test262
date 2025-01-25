@@ -95,13 +95,15 @@
                             "type": "Literal",
                             "start": 1304,
                             "end": 1330,
-                            "value": "1000000000000000000n"
+                            "value": "1000000000000000000n",
+                            "raw": "1_000_000_000_000_000_000n"
                           },
                           {
                             "type": "Literal",
                             "start": 1332,
                             "end": 1337,
-                            "value": "UTC"
+                            "value": "UTC",
+                            "raw": "\"UTC\""
                           }
                         ]
                       }
@@ -159,7 +161,8 @@
                               "type": "Literal",
                               "start": 1365,
                               "end": 1369,
-                              "value": 2005
+                              "value": 2005,
+                              "raw": "2005"
                             },
                             "kind": "init"
                           },
@@ -180,7 +183,8 @@
                               "type": "Literal",
                               "start": 1378,
                               "end": 1379,
-                              "value": 6
+                              "value": 6,
+                              "raw": "6"
                             },
                             "kind": "init"
                           },
@@ -201,7 +205,8 @@
                               "type": "Literal",
                               "start": 1386,
                               "end": 1387,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "kind": "init"
                           },
@@ -222,7 +227,8 @@
                               "type": "Literal",
                               "start": 1399,
                               "end": 1404,
-                              "value": "UTC"
+                              "value": "UTC",
+                              "raw": "\"UTC\""
                             },
                             "kind": "init"
                           },

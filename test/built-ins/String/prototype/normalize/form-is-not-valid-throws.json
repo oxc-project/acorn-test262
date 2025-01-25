@@ -67,7 +67,8 @@
                         "type": "Literal",
                         "start": 452,
                         "end": 457,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       },
                       "property": {
                         "type": "Identifier",
@@ -83,7 +84,8 @@
                         "type": "Literal",
                         "start": 468,
                         "end": 473,
-                        "value": "bar"
+                        "value": "bar",
+                        "raw": "'bar'"
                       }
                     ],
                     "optional": false
@@ -160,7 +162,8 @@
                         "type": "Literal",
                         "start": 522,
                         "end": 527,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       },
                       "property": {
                         "type": "Identifier",
@@ -176,7 +179,8 @@
                         "type": "Literal",
                         "start": 538,
                         "end": 544,
-                        "value": "NFC1"
+                        "value": "NFC1",
+                        "raw": "'NFC1'"
                       }
                     ],
                     "optional": false
@@ -253,7 +257,8 @@
                         "type": "Literal",
                         "start": 593,
                         "end": 598,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       },
                       "property": {
                         "type": "Identifier",
@@ -269,7 +274,8 @@
                         "type": "Literal",
                         "start": 609,
                         "end": 613,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

@@ -105,7 +105,8 @@
                 "type": "Literal",
                 "start": 619,
                 "end": 630,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "\"undefined\""
               }
             },
             "consequent": {
@@ -136,7 +137,8 @@
                         "type": "Literal",
                         "start": 734,
                         "end": 735,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     },
                     "operator": "&&",
@@ -175,7 +177,8 @@
                               "type": "Literal",
                               "start": 759,
                               "end": 760,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           "computed": true,
@@ -187,7 +190,8 @@
                         "type": "Literal",
                         "start": 766,
                         "end": 777,
-                        "value": "undefined"
+                        "value": "undefined",
+                        "raw": "\"undefined\""
                       }
                     }
                   },
@@ -204,7 +208,8 @@
                           "type": "Literal",
                           "start": 794,
                           "end": 798,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       }
                     ]
@@ -243,7 +248,8 @@
                       "type": "Literal",
                       "start": 824,
                       "end": 825,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -255,7 +261,8 @@
                     "type": "Literal",
                     "start": 838,
                     "end": 843,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 }
               ]
@@ -273,7 +280,8 @@
                     "type": "Literal",
                     "start": 867,
                     "end": 871,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 }
               ]
@@ -327,25 +335,29 @@
                     "type": "Literal",
                     "start": 898,
                     "end": 900,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   },
                   {
                     "type": "Literal",
                     "start": 902,
                     "end": 904,
-                    "value": 12
+                    "value": 12,
+                    "raw": "12"
                   },
                   {
                     "type": "Literal",
                     "start": 906,
                     "end": 908,
-                    "value": 13
+                    "value": 13,
+                    "raw": "13"
                   },
                   {
                     "type": "Literal",
                     "start": 910,
                     "end": 912,
-                    "value": 14
+                    "value": 14,
+                    "raw": "14"
                   }
                 ]
               },
@@ -378,13 +390,15 @@
             "type": "Literal",
             "start": 943,
             "end": 948,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 996,
-            "value": "[11, 12, 13, 14].some(callbackfn, undefined)"
+            "value": "[11, 12, 13, 14].some(callbackfn, undefined)",
+            "raw": "'[11, 12, 13, 14].some(callbackfn, undefined)'"
           }
         ],
         "optional": false

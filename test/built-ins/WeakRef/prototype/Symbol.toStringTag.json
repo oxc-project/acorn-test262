@@ -78,7 +78,8 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 594,
-                  "value": "WeakRef"
+                  "value": "WeakRef",
+                  "raw": "'WeakRef'"
                 },
                 "kind": "init"
               },
@@ -99,7 +100,8 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 613,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -120,7 +122,8 @@
                   "type": "Literal",
                   "start": 629,
                   "end": 634,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -141,7 +144,8 @@
                   "type": "Literal",
                   "start": 652,
                   "end": 656,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

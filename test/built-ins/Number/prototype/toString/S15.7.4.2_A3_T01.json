@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 297,
                       "end": 298,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -96,7 +97,8 @@
                   "type": "Literal",
                   "start": 326,
                   "end": 382,
-                  "value": "#1: Number.prototype.toString(1) should throw an Error"
+                  "value": "#1: Number.prototype.toString(1) should throw an Error",
+                  "raw": "'#1: Number.prototype.toString(1) should throw an Error'"
                 }
               ]
             }
@@ -185,7 +187,8 @@
                       "type": "Literal",
                       "start": 441,
                       "end": 442,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -213,7 +216,8 @@
                   "type": "Literal",
                   "start": 470,
                   "end": 524,
-                  "value": "#2: (new Number()).toString(1) should throw an Error"
+                  "value": "#2: (new Number()).toString(1) should throw an Error",
+                  "raw": "'#2: (new Number()).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -290,7 +294,8 @@
                             "type": "Literal",
                             "start": 571,
                             "end": 572,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ]
                       }
@@ -309,7 +314,8 @@
                       "type": "Literal",
                       "start": 584,
                       "end": 585,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -337,7 +343,8 @@
                   "type": "Literal",
                   "start": 613,
                   "end": 668,
-                  "value": "#3: (new Number(0)).toString(1) should throw an Error"
+                  "value": "#3: (new Number(0)).toString(1) should throw an Error",
+                  "raw": "'#3: (new Number(0)).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -420,7 +427,8 @@
                               "type": "Literal",
                               "start": 716,
                               "end": 717,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -440,7 +448,8 @@
                       "type": "Literal",
                       "start": 729,
                       "end": 730,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -468,7 +477,8 @@
                   "type": "Literal",
                   "start": 758,
                   "end": 814,
-                  "value": "#4: (new Number(-1)).toString(1) should throw an Error"
+                  "value": "#4: (new Number(-1)).toString(1) should throw an Error",
+                  "raw": "'#4: (new Number(-1)).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -545,7 +555,8 @@
                             "type": "Literal",
                             "start": 861,
                             "end": 862,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -564,7 +575,8 @@
                       "type": "Literal",
                       "start": 874,
                       "end": 875,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -592,7 +604,8 @@
                   "type": "Literal",
                   "start": 903,
                   "end": 958,
-                  "value": "#5: (new Number(1)).toString(1) should throw an Error"
+                  "value": "#5: (new Number(1)).toString(1) should throw an Error",
+                  "raw": "'#5: (new Number(1)).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -701,7 +714,8 @@
                       "type": "Literal",
                       "start": 1027,
                       "end": 1028,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -729,7 +743,8 @@
                   "type": "Literal",
                   "start": 1056,
                   "end": 1120,
-                  "value": "#6: (new Number(Number.NaN)).toString(1) should throw an Error"
+                  "value": "#6: (new Number(Number.NaN)).toString(1) should throw an Error",
+                  "raw": "'#6: (new Number(Number.NaN)).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -838,7 +853,8 @@
                       "type": "Literal",
                       "start": 1203,
                       "end": 1204,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -866,7 +882,8 @@
                   "type": "Literal",
                   "start": 1232,
                   "end": 1310,
-                  "value": "#7: (new Number(Number.POSITIVE_INFINITY)).toString(1) should throw an Error"
+                  "value": "#7: (new Number(Number.POSITIVE_INFINITY)).toString(1) should throw an Error",
+                  "raw": "'#7: (new Number(Number.POSITIVE_INFINITY)).toString(1) should throw an Error'"
                 }
               ]
             }
@@ -975,7 +992,8 @@
                       "type": "Literal",
                       "start": 1393,
                       "end": 1394,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
                   "optional": false
@@ -1003,7 +1021,8 @@
                   "type": "Literal",
                   "start": 1422,
                   "end": 1500,
-                  "value": "#8: (new Number(Number.NEGATIVE_INFINITY)).toString(1) should throw an Error"
+                  "value": "#8: (new Number(Number.NEGATIVE_INFINITY)).toString(1) should throw an Error",
+                  "raw": "'#8: (new Number(Number.NEGATIVE_INFINITY)).toString(1) should throw an Error'"
                 }
               ]
             }

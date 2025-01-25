@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 537,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "'0'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 539,
                   "end": 540,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -55,13 +57,15 @@
                   "type": "Literal",
                   "start": 544,
                   "end": 547,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "'1'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 549,
                   "end": 550,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -76,13 +80,15 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 558,
-                  "value": "-4"
+                  "value": "-4",
+                  "raw": "'-4'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 560,
                   "end": 561,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -97,13 +103,15 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 570,
-                  "value": "0.3"
+                  "value": "0.3",
+                  "raw": "'0.3'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 572,
                   "end": 573,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               },
@@ -118,13 +126,15 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 588,
-                  "value": "-Infinity"
+                  "value": "-Infinity",
+                  "raw": "'-Infinity'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 590,
                   "end": 591,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 },
                 "kind": "init"
               },
@@ -139,13 +149,15 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 600,
-                  "value": "NaN"
+                  "value": "NaN",
+                  "raw": "'NaN'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 602,
                   "end": 603,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 "kind": "init"
               }
@@ -185,14 +197,16 @@
                   "type": "Literal",
                   "start": 629,
                   "end": 630,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
                 "type": "Literal",
                 "start": 634,
                 "end": 635,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "UnaryExpression",
@@ -204,14 +218,16 @@
                   "type": "Literal",
                   "start": 640,
                   "end": 641,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 }
               },
               {
                 "type": "Literal",
                 "start": 645,
                 "end": 648,
-                "value": 0.3
+                "value": 0.3,
+                "raw": "0.3"
               },
               {
                 "type": "UnaryExpression",

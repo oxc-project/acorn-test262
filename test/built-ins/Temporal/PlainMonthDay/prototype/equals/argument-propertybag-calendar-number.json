@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 326,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               }
             ]
           }
@@ -84,13 +86,15 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 367,
-                "value": 19970327
+                "value": 19970327,
+                "raw": "19970327"
               },
               {
                 "type": "UnaryExpression",
@@ -102,14 +106,16 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 380,
-                  "value": 19970327
+                  "value": 19970327,
+                  "raw": "19970327"
                 }
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 394,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -190,7 +196,8 @@
                         "type": "Literal",
                         "start": 461,
                         "end": 466,
-                        "value": "M11"
+                        "value": "M11",
+                        "raw": "\"M11\""
                       },
                       "kind": "init"
                     },
@@ -211,7 +218,8 @@
                         "type": "Literal",
                         "start": 473,
                         "end": 475,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     },
@@ -323,7 +331,8 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 595,
-                  "value": "Numbers cannot be used as a calendar"
+                  "value": "Numbers cannot be used as a calendar",
+                  "raw": "\"Numbers cannot be used as a calendar\""
                 }
               ],
               "optional": false

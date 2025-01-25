@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1131,
             "end": 1136,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -225,7 +226,8 @@
                     "type": "Literal",
                     "start": 1270,
                     "end": 1275,
-                    "value": "cls"
+                    "value": "cls",
+                    "raw": "'cls'"
                   }
                 ],
                 "optional": false
@@ -282,7 +284,8 @@
                     "type": "Literal",
                     "start": 1311,
                     "end": 1317,
-                    "value": "xCls"
+                    "value": "xCls",
+                    "raw": "'xCls'"
                   }
                 ],
                 "optional": false
@@ -339,7 +342,8 @@
                     "type": "Literal",
                     "start": 1354,
                     "end": 1361,
-                    "value": "xCls2"
+                    "value": "xCls2",
+                    "raw": "'xCls2'"
                   }
                 ],
                 "optional": false
@@ -364,7 +368,8 @@
                   "type": "Literal",
                   "start": 1377,
                   "end": 1381,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             }
@@ -398,7 +403,8 @@
             "type": "Literal",
             "start": 1403,
             "end": 1427,
-            "value": "executed `catch` block"
+            "value": "executed `catch` block",
+            "raw": "'executed `catch` block'"
           }
         ],
         "optional": false

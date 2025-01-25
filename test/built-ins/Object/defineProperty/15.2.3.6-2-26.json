@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 326,
             "end": 329,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +122,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 368,
-                "value": "123"
+                "value": "123",
+                "raw": "\"123\""
               }
             ],
             "optional": false
@@ -130,7 +132,8 @@
             "type": "Literal",
             "start": 371,
             "end": 407,
-            "value": "obj.hasOwnProperty(\"123\") !== true"
+            "value": "obj.hasOwnProperty(\"123\") !== true",
+            "raw": "'obj.hasOwnProperty(\"123\") !== true'"
           }
         ],
         "optional": false

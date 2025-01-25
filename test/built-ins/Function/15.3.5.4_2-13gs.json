@@ -95,7 +95,8 @@
                         "type": "Literal",
                         "start": 405,
                         "end": 420,
-                        "value": "gNonStrict();"
+                        "value": "gNonStrict();",
+                        "raw": "\"gNonStrict();\""
                       }
                     ],
                     "optional": false

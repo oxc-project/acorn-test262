@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 805,
             "end": 814,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -125,7 +126,8 @@
             "type": "Literal",
             "start": 904,
             "end": 908,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ]
       },
@@ -199,7 +201,8 @@
                     "type": "Literal",
                     "start": 1021,
                     "end": 1029,
-                    "value": "inside"
+                    "value": "inside",
+                    "raw": "'inside'"
                   }
                 }
               ],
@@ -255,7 +258,8 @@
                 "type": "Literal",
                 "start": 961,
                 "end": 965,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -307,7 +311,8 @@
             "type": "Literal",
             "start": 1064,
             "end": 1073,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false
@@ -358,13 +363,15 @@
             "type": "Literal",
             "start": 1113,
             "end": 1121,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1161,
-            "value": "reference from \"selector\" Expression"
+            "value": "reference from \"selector\" Expression",
+            "raw": "'reference from \"selector\" Expression'"
           }
         ],
         "optional": false
@@ -415,13 +422,15 @@
             "type": "Literal",
             "start": 1195,
             "end": 1203,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1205,
             "end": 1240,
-            "value": "reference from Statement position"
+            "value": "reference from Statement position",
+            "raw": "'reference from Statement position'"
           }
         ],
         "optional": false

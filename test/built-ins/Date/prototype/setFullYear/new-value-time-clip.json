@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1468,
+  "end": 1467,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 900,
-      "end": 920,
+      "start": 899,
+      "end": 919,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 904,
-          "end": 919,
+          "start": 903,
+          "end": 918,
           "id": {
             "type": "Identifier",
-            "start": 904,
-            "end": 909,
+            "start": 903,
+            "end": 908,
             "name": "maxMs"
           },
           "init": {
             "type": "Literal",
-            "start": 912,
-            "end": 919,
-            "value": 8640000000000000
+            "start": 911,
+            "end": 918,
+            "value": 8640000000000000,
+            "raw": "8.64e15"
           }
         }
       ],
@@ -30,24 +31,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 921,
-      "end": 942,
+      "start": 920,
+      "end": 941,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 925,
-          "end": 941,
+          "start": 924,
+          "end": 940,
           "id": {
             "type": "Identifier",
-            "start": 925,
-            "end": 932,
+            "start": 924,
+            "end": 931,
             "name": "maxYear"
           },
           "init": {
             "type": "Literal",
-            "start": 935,
-            "end": 941,
-            "value": 275760
+            "start": 934,
+            "end": 940,
+            "value": 275760,
+            "raw": "275760"
           }
         }
       ],
@@ -55,24 +57,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 943,
-      "end": 960,
+      "start": 942,
+      "end": 959,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 947,
-          "end": 959,
+          "start": 946,
+          "end": 958,
           "id": {
             "type": "Identifier",
-            "start": 947,
-            "end": 954,
+            "start": 946,
+            "end": 953,
             "name": "maxDate"
           },
           "init": {
             "type": "Literal",
-            "start": 957,
-            "end": 959,
-            "value": 12
+            "start": 956,
+            "end": 958,
+            "value": 12,
+            "raw": "12"
           }
         }
       ],
@@ -80,24 +83,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 961,
-      "end": 978,
+      "start": 960,
+      "end": 977,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 965,
-          "end": 977,
+          "start": 964,
+          "end": 976,
           "id": {
             "type": "Identifier",
-            "start": 965,
-            "end": 973,
+            "start": 964,
+            "end": 972,
             "name": "maxMonth"
           },
           "init": {
             "type": "Literal",
-            "start": 976,
-            "end": 977,
-            "value": 8
+            "start": 975,
+            "end": 976,
+            "value": 8,
+            "raw": "8"
           }
         }
       ],
@@ -105,34 +109,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 979,
-      "end": 1006,
+      "start": 978,
+      "end": 1005,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 983,
-          "end": 1005,
+          "start": 982,
+          "end": 1004,
           "id": {
             "type": "Identifier",
-            "start": 983,
-            "end": 987,
+            "start": 982,
+            "end": 986,
             "name": "date"
           },
           "init": {
             "type": "NewExpression",
-            "start": 990,
-            "end": 1005,
+            "start": 989,
+            "end": 1004,
             "callee": {
               "type": "Identifier",
-              "start": 994,
-              "end": 998,
+              "start": 993,
+              "end": 997,
               "name": "Date"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 999,
-                "end": 1004,
+                "start": 998,
+                "end": 1003,
                 "name": "maxMs"
               }
             ]
@@ -143,17 +147,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1007,
-      "end": 1023,
+      "start": 1006,
+      "end": 1022,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1011,
-          "end": 1022,
+          "start": 1010,
+          "end": 1021,
           "id": {
             "type": "Identifier",
-            "start": 1011,
-            "end": 1022,
+            "start": 1010,
+            "end": 1021,
             "name": "returnValue"
           },
           "init": null
@@ -163,26 +167,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1025,
-      "end": 1066,
+      "start": 1024,
+      "end": 1065,
       "expression": {
         "type": "CallExpression",
-        "start": 1025,
-        "end": 1065,
+        "start": 1024,
+        "end": 1064,
         "callee": {
           "type": "MemberExpression",
-          "start": 1025,
-          "end": 1044,
+          "start": 1024,
+          "end": 1043,
           "object": {
             "type": "Identifier",
-            "start": 1025,
-            "end": 1031,
+            "start": 1024,
+            "end": 1030,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1032,
-            "end": 1044,
+            "start": 1031,
+            "end": 1043,
             "name": "notSameValue"
           },
           "computed": false,
@@ -191,22 +195,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1045,
-            "end": 1059,
+            "start": 1044,
+            "end": 1058,
             "callee": {
               "type": "MemberExpression",
-              "start": 1045,
-              "end": 1057,
+              "start": 1044,
+              "end": 1056,
               "object": {
                 "type": "Identifier",
-                "start": 1045,
-                "end": 1049,
+                "start": 1044,
+                "end": 1048,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1050,
-                "end": 1057,
+                "start": 1049,
+                "end": 1056,
                 "name": "getTime"
               },
               "computed": false,
@@ -217,8 +221,8 @@
           },
           {
             "type": "Identifier",
-            "start": 1061,
-            "end": 1064,
+            "start": 1060,
+            "end": 1063,
             "name": "NaN"
           }
         ],
@@ -227,37 +231,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1068,
-      "end": 1112,
+      "start": 1067,
+      "end": 1111,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1068,
-        "end": 1111,
+        "start": 1067,
+        "end": 1110,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1068,
-          "end": 1079,
+          "start": 1067,
+          "end": 1078,
           "name": "returnValue"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1082,
-          "end": 1111,
+          "start": 1081,
+          "end": 1110,
           "callee": {
             "type": "MemberExpression",
-            "start": 1082,
-            "end": 1098,
+            "start": 1081,
+            "end": 1097,
             "object": {
               "type": "Identifier",
-              "start": 1082,
-              "end": 1086,
+              "start": 1081,
+              "end": 1085,
               "name": "date"
             },
             "property": {
               "type": "Identifier",
-              "start": 1087,
-              "end": 1098,
+              "start": 1086,
+              "end": 1097,
               "name": "setFullYear"
             },
             "computed": false,
@@ -266,20 +270,21 @@
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1099,
-              "end": 1110,
+              "start": 1098,
+              "end": 1109,
               "left": {
                 "type": "Identifier",
-                "start": 1099,
-                "end": 1106,
+                "start": 1098,
+                "end": 1105,
                 "name": "maxYear"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1109,
-                "end": 1110,
-                "value": 1
+                "start": 1108,
+                "end": 1109,
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -289,26 +294,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1114,
-      "end": 1173,
+      "start": 1113,
+      "end": 1172,
       "expression": {
         "type": "CallExpression",
-        "start": 1114,
-        "end": 1172,
+        "start": 1113,
+        "end": 1171,
         "callee": {
           "type": "MemberExpression",
-          "start": 1114,
-          "end": 1130,
+          "start": 1113,
+          "end": 1129,
           "object": {
             "type": "Identifier",
-            "start": 1114,
-            "end": 1120,
+            "start": 1113,
+            "end": 1119,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1121,
-            "end": 1130,
+            "start": 1120,
+            "end": 1129,
             "name": "sameValue"
           },
           "computed": false,
@@ -317,21 +322,22 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1131,
-            "end": 1142,
+            "start": 1130,
+            "end": 1141,
             "name": "returnValue"
           },
           {
             "type": "Identifier",
-            "start": 1144,
-            "end": 1147,
+            "start": 1143,
+            "end": 1146,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 1149,
-            "end": 1171,
-            "value": "overflow due to year"
+            "start": 1148,
+            "end": 1170,
+            "value": "overflow due to year",
+            "raw": "'overflow due to year'"
           }
         ],
         "optional": false
@@ -339,34 +345,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1175,
-      "end": 1198,
+      "start": 1174,
+      "end": 1197,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1175,
-        "end": 1197,
+        "start": 1174,
+        "end": 1196,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1175,
-          "end": 1179,
+          "start": 1174,
+          "end": 1178,
           "name": "date"
         },
         "right": {
           "type": "NewExpression",
-          "start": 1182,
-          "end": 1197,
+          "start": 1181,
+          "end": 1196,
           "callee": {
             "type": "Identifier",
-            "start": 1186,
-            "end": 1190,
+            "start": 1185,
+            "end": 1189,
             "name": "Date"
           },
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1191,
-              "end": 1196,
+              "start": 1190,
+              "end": 1195,
               "name": "maxMs"
             }
           ]
@@ -375,37 +381,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1200,
-      "end": 1254,
+      "start": 1199,
+      "end": 1253,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1200,
-        "end": 1253,
+        "start": 1199,
+        "end": 1252,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1200,
-          "end": 1211,
+          "start": 1199,
+          "end": 1210,
           "name": "returnValue"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1214,
-          "end": 1253,
+          "start": 1213,
+          "end": 1252,
           "callee": {
             "type": "MemberExpression",
-            "start": 1214,
-            "end": 1230,
+            "start": 1213,
+            "end": 1229,
             "object": {
               "type": "Identifier",
-              "start": 1214,
-              "end": 1218,
+              "start": 1213,
+              "end": 1217,
               "name": "date"
             },
             "property": {
               "type": "Identifier",
-              "start": 1219,
-              "end": 1230,
+              "start": 1218,
+              "end": 1229,
               "name": "setFullYear"
             },
             "computed": false,
@@ -414,26 +420,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1231,
-              "end": 1238,
+              "start": 1230,
+              "end": 1237,
               "name": "maxYear"
             },
             {
               "type": "BinaryExpression",
-              "start": 1240,
-              "end": 1252,
+              "start": 1239,
+              "end": 1251,
               "left": {
                 "type": "Identifier",
-                "start": 1240,
-                "end": 1248,
+                "start": 1239,
+                "end": 1247,
                 "name": "maxMonth"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1251,
-                "end": 1252,
-                "value": 1
+                "start": 1250,
+                "end": 1251,
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -443,26 +450,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1256,
-      "end": 1316,
+      "start": 1255,
+      "end": 1315,
       "expression": {
         "type": "CallExpression",
-        "start": 1256,
-        "end": 1315,
+        "start": 1255,
+        "end": 1314,
         "callee": {
           "type": "MemberExpression",
-          "start": 1256,
-          "end": 1272,
+          "start": 1255,
+          "end": 1271,
           "object": {
             "type": "Identifier",
-            "start": 1256,
-            "end": 1262,
+            "start": 1255,
+            "end": 1261,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1263,
-            "end": 1272,
+            "start": 1262,
+            "end": 1271,
             "name": "sameValue"
           },
           "computed": false,
@@ -471,21 +478,22 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1273,
-            "end": 1284,
+            "start": 1272,
+            "end": 1283,
             "name": "returnValue"
           },
           {
             "type": "Identifier",
-            "start": 1286,
-            "end": 1289,
+            "start": 1285,
+            "end": 1288,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 1291,
-            "end": 1314,
-            "value": "overflow due to month"
+            "start": 1290,
+            "end": 1313,
+            "value": "overflow due to month",
+            "raw": "'overflow due to month'"
           }
         ],
         "optional": false
@@ -493,34 +501,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1318,
-      "end": 1341,
+      "start": 1317,
+      "end": 1340,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1318,
-        "end": 1340,
+        "start": 1317,
+        "end": 1339,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1318,
-          "end": 1322,
+          "start": 1317,
+          "end": 1321,
           "name": "date"
         },
         "right": {
           "type": "NewExpression",
-          "start": 1325,
-          "end": 1340,
+          "start": 1324,
+          "end": 1339,
           "callee": {
             "type": "Identifier",
-            "start": 1329,
-            "end": 1333,
+            "start": 1328,
+            "end": 1332,
             "name": "Date"
           },
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1334,
-              "end": 1339,
+              "start": 1333,
+              "end": 1338,
               "name": "maxMs"
             }
           ]
@@ -529,37 +537,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1343,
-      "end": 1406,
+      "start": 1342,
+      "end": 1405,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1343,
-        "end": 1405,
+        "start": 1342,
+        "end": 1404,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1343,
-          "end": 1354,
+          "start": 1342,
+          "end": 1353,
           "name": "returnValue"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1357,
-          "end": 1405,
+          "start": 1356,
+          "end": 1404,
           "callee": {
             "type": "MemberExpression",
-            "start": 1357,
-            "end": 1373,
+            "start": 1356,
+            "end": 1372,
             "object": {
               "type": "Identifier",
-              "start": 1357,
-              "end": 1361,
+              "start": 1356,
+              "end": 1360,
               "name": "date"
             },
             "property": {
               "type": "Identifier",
-              "start": 1362,
-              "end": 1373,
+              "start": 1361,
+              "end": 1372,
               "name": "setFullYear"
             },
             "computed": false,
@@ -568,32 +576,33 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1374,
-              "end": 1381,
+              "start": 1373,
+              "end": 1380,
               "name": "maxYear"
             },
             {
               "type": "Identifier",
-              "start": 1383,
-              "end": 1391,
+              "start": 1382,
+              "end": 1390,
               "name": "maxMonth"
             },
             {
               "type": "BinaryExpression",
-              "start": 1393,
-              "end": 1404,
+              "start": 1392,
+              "end": 1403,
               "left": {
                 "type": "Identifier",
-                "start": 1393,
-                "end": 1400,
+                "start": 1392,
+                "end": 1399,
                 "name": "maxDate"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1403,
-                "end": 1404,
-                "value": 2
+                "start": 1402,
+                "end": 1403,
+                "value": 2,
+                "raw": "2"
               }
             }
           ],
@@ -603,26 +612,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1408,
-      "end": 1467,
+      "start": 1407,
+      "end": 1466,
       "expression": {
         "type": "CallExpression",
-        "start": 1408,
-        "end": 1466,
+        "start": 1407,
+        "end": 1465,
         "callee": {
           "type": "MemberExpression",
-          "start": 1408,
-          "end": 1424,
+          "start": 1407,
+          "end": 1423,
           "object": {
             "type": "Identifier",
-            "start": 1408,
-            "end": 1414,
+            "start": 1407,
+            "end": 1413,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1415,
-            "end": 1424,
+            "start": 1414,
+            "end": 1423,
             "name": "sameValue"
           },
           "computed": false,
@@ -631,21 +640,22 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1425,
-            "end": 1436,
+            "start": 1424,
+            "end": 1435,
             "name": "returnValue"
           },
           {
             "type": "Identifier",
-            "start": 1438,
-            "end": 1441,
+            "start": 1437,
+            "end": 1440,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 1443,
-            "end": 1465,
-            "value": "overflow due to date"
+            "start": 1442,
+            "end": 1464,
+            "value": "overflow due to date",
+            "raw": "'overflow due to date'"
           }
         ],
         "optional": false

@@ -72,7 +72,8 @@
             "type": "Literal",
             "start": 418,
             "end": 423,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -116,7 +117,8 @@
             "type": "Literal",
             "start": 454,
             "end": 466,
-            "value": "enumerable"
+            "value": "enumerable",
+            "raw": "\"enumerable\""
           },
           {
             "type": "ObjectExpression",
@@ -158,7 +160,8 @@
                           "type": "Literal",
                           "start": 501,
                           "end": 506,
-                          "value": false
+                          "value": false,
+                          "raw": "false"
                         }
                       }
                     ]
@@ -312,7 +315,8 @@
             "type": "Literal",
             "start": 622,
             "end": 634,
-            "value": "enumerable"
+            "value": "enumerable",
+            "raw": "\"enumerable\""
           },
           {
             "type": "ObjectExpression",
@@ -476,7 +480,8 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 768,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             },
             "consequent": {
@@ -503,7 +508,8 @@
                       "type": "Literal",
                       "start": 787,
                       "end": 791,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -552,13 +558,15 @@
             "type": "Literal",
             "start": 827,
             "end": 832,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 834,
             "end": 844,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

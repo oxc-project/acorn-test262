@@ -31,6 +31,7 @@
                 "start": 576,
                 "end": 579,
                 "value": {},
+                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 594,
                 "end": 596,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -175,7 +177,8 @@
             "type": "Literal",
             "start": 663,
             "end": 664,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -223,7 +226,8 @@
               "type": "Literal",
               "start": 691,
               "end": 692,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -232,7 +236,8 @@
             "type": "Literal",
             "start": 695,
             "end": 697,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ],
         "optional": false

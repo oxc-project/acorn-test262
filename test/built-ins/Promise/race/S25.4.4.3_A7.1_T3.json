@@ -111,7 +111,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -209,7 +210,8 @@
             "type": "Literal",
             "start": 381,
             "end": 382,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -310,13 +312,15 @@
                             "type": "Literal",
                             "start": 439,
                             "end": 440,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 442,
                             "end": 483,
-                            "value": "The value of result is expected to be 2"
+                            "value": "The value of result is expected to be 2",
+                            "raw": "'The value of result is expected to be 2'"
                           }
                         ],
                         "optional": false
@@ -354,7 +358,8 @@
                             "type": "Literal",
                             "start": 503,
                             "end": 504,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ],
                         "optional": false
@@ -411,13 +416,15 @@
                             "type": "Literal",
                             "start": 543,
                             "end": 544,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           },
                           {
                             "type": "Literal",
                             "start": 546,
                             "end": 596,
-                            "value": "The value of sequence.length is expected to be 4"
+                            "value": "The value of sequence.length is expected to be 4",
+                            "raw": "'The value of sequence.length is expected to be 4'"
                           }
                         ],
                         "optional": false
@@ -448,7 +455,8 @@
                             "type": "Literal",
                             "start": 625,
                             "end": 646,
-                            "value": "This happens second"
+                            "value": "This happens second",
+                            "raw": "\"This happens second\""
                           }
                         ],
                         "optional": false
@@ -590,7 +598,8 @@
                                 "type": "Literal",
                                 "start": 719,
                                 "end": 720,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               }
                             ],
                             "optional": false
@@ -647,13 +656,15 @@
                                 "type": "Literal",
                                 "start": 759,
                                 "end": 760,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               },
                               {
                                 "type": "Literal",
                                 "start": 762,
                                 "end": 812,
-                                "value": "The value of sequence.length is expected to be 3"
+                                "value": "The value of sequence.length is expected to be 3",
+                                "raw": "'The value of sequence.length is expected to be 3'"
                               }
                             ],
                             "optional": false
@@ -684,7 +695,8 @@
                                 "type": "Literal",
                                 "start": 841,
                                 "end": 861,
-                                "value": "This happens first"
+                                "value": "This happens first",
+                                "raw": "\"This happens first\""
                               }
                             ],
                             "optional": false
@@ -752,7 +764,8 @@
                             "type": "Literal",
                             "start": 901,
                             "end": 902,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ],
                         "optional": false
@@ -809,13 +822,15 @@
                             "type": "Literal",
                             "start": 941,
                             "end": 942,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           },
                           {
                             "type": "Literal",
                             "start": 944,
                             "end": 994,
-                            "value": "The value of sequence.length is expected to be 5"
+                            "value": "The value of sequence.length is expected to be 5",
+                            "raw": "'The value of sequence.length is expected to be 5'"
                           }
                         ],
                         "optional": false
@@ -846,7 +861,8 @@
                             "type": "Literal",
                             "start": 1023,
                             "end": 1043,
-                            "value": "This happens third"
+                            "value": "This happens third",
+                            "raw": "\"This happens third\""
                           }
                         ],
                         "optional": false
@@ -916,7 +932,8 @@
             "type": "Literal",
             "start": 1084,
             "end": 1085,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false

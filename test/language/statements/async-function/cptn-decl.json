@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 473,
                 "end": 496,
-                "value": "async function f() {}"
+                "value": "async function f() {}",
+                "raw": "'async function f() {}'"
               }
             ],
             "optional": false
@@ -104,7 +105,8 @@
                 "type": "Literal",
                 "start": 533,
                 "end": 559,
-                "value": "1; async function f() {}"
+                "value": "1; async function f() {}",
+                "raw": "'1; async function f() {}'"
               }
             ],
             "optional": false
@@ -113,7 +115,8 @@
             "type": "Literal",
             "start": 562,
             "end": 563,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

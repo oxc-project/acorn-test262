@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 380,
-                "value": "arg1,arg2,arg3"
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 393,
-                "value": "arg5,arg4"
+                "value": "arg5,arg4",
+                "raw": "\"arg5,arg4\""
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 399,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -97,7 +100,8 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 435,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +110,8 @@
             "type": "Literal",
             "start": 438,
             "end": 485,
-            "value": "f.hasOwnProperty('length') must return true"
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -166,7 +171,8 @@
                 "type": "Literal",
                 "start": 523,
                 "end": 531,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -193,7 +199,8 @@
                         "type": "Literal",
                         "start": 558,
                         "end": 562,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   ],
@@ -238,7 +245,8 @@
             "type": "Literal",
             "start": 593,
             "end": 644,
-            "value": "The value of !lengthenumed is expected to be true"
+            "value": "The value of !lengthenumed is expected to be true",
+            "raw": "'The value of !lengthenumed is expected to be true'"
           }
         ],
         "optional": false

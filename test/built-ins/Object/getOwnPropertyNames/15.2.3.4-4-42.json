@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 315,
             "end": 320,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -58,7 +59,8 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 349,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           }
@@ -104,7 +106,8 @@
             "type": "Literal",
             "start": 380,
             "end": 393,
-            "value": "ownProperty"
+            "value": "ownProperty",
+            "raw": "\"ownProperty\""
           },
           {
             "type": "ObjectExpression",
@@ -128,7 +131,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 417,
-                  "value": "ownString"
+                  "value": "ownString",
+                  "raw": "\"ownString\""
                 },
                 "kind": "init"
               },
@@ -149,7 +153,8 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 439,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -278,7 +283,8 @@
                 "type": "Literal",
                 "start": 536,
                 "end": 549,
-                "value": "ownProperty"
+                "value": "ownProperty",
+                "raw": "\"ownProperty\""
               }
             },
             "consequent": {
@@ -305,7 +311,8 @@
                       "type": "Literal",
                       "start": 573,
                       "end": 577,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 },
@@ -347,7 +354,8 @@
             "type": "Literal",
             "start": 619,
             "end": 639,
-            "value": "Property not found"
+            "value": "Property not found",
+            "raw": "'Property not found'"
           }
         ],
         "optional": false

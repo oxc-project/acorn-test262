@@ -158,7 +158,8 @@
             "type": "Literal",
             "start": 689,
             "end": 699,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -257,7 +258,8 @@
             "type": "Literal",
             "start": 766,
             "end": 783,
-            "value": "ordinary object"
+            "value": "ordinary object",
+            "raw": "'ordinary object'"
           }
         ],
         "optional": false
@@ -356,7 +358,8 @@
             "type": "Literal",
             "start": 850,
             "end": 871,
-            "value": "array exotic object"
+            "value": "array exotic object",
+            "raw": "'array exotic object'"
           }
         ],
         "optional": false
@@ -455,7 +458,8 @@
             "type": "Literal",
             "start": 940,
             "end": 965,
-            "value": "arguments exotic object"
+            "value": "arguments exotic object",
+            "raw": "'arguments exotic object'"
           }
         ],
         "optional": false

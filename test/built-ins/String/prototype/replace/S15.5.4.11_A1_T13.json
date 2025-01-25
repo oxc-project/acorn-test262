@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 571,
                           "end": 572,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 631,
                           "end": 647,
-                          "value": "inreplaceValue"
+                          "value": "inreplaceValue",
+                          "raw": "\"inreplaceValue\""
                         }
                       }
                     ]
@@ -220,7 +222,8 @@
                       "type": "Literal",
                       "start": 762,
                       "end": 788,
-                      "value": "ABBABABAB1BBAA"
+                      "value": "ABBABABAB1BBAA",
+                      "raw": "\"ABB\\u0041BABAB\\u0031BBAA\""
                     },
                     "property": {
                       "type": "Identifier",
@@ -270,7 +273,8 @@
                   "type": "Literal",
                   "start": 838,
                   "end": 929,
-                  "value": "#1: var x = \"ABB\\u0041BABAB\\u0031BBAA\".replace(__obj,__obj2) lead to throwing exception"
+                  "value": "#1: var x = \"ABB\\u0041BABAB\\u0031BBAA\".replace(__obj,__obj2) lead to throwing exception",
+                  "raw": "'#1: var x = \"ABB\\\\u0041BABAB\\\\u0031BBAA\".replace(__obj,__obj2) lead to throwing exception'"
                 }
               ]
             }
@@ -311,7 +315,8 @@
                   "type": "Literal",
                   "start": 958,
                   "end": 974,
-                  "value": "inreplaceValue"
+                  "value": "inreplaceValue",
+                  "raw": "\"inreplaceValue\""
                 }
               },
               "consequent": {
@@ -342,7 +347,8 @@
                             "type": "Literal",
                             "start": 1005,
                             "end": 1053,
-                            "value": "#1.1: Exception === \"inreplaceValue\". Actual: "
+                            "value": "#1.1: Exception === \"inreplaceValue\". Actual: ",
+                            "raw": "'#1.1: Exception === \"inreplaceValue\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 326,
             "end": 334,
-            "value": "+01:35"
+            "value": "+01:35",
+            "raw": "\"+01:35\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 382,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -104,7 +106,8 @@
             "type": "Literal",
             "start": 405,
             "end": 453,
-            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]"
+            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
           }
         }
       ],
@@ -200,13 +203,15 @@
             "type": "Literal",
             "start": 518,
             "end": 523,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 572,
-            "value": "ISO offset, sub-minute offset trailing-zeroes"
+            "value": "ISO offset, sub-minute offset trailing-zeroes",
+            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\""
           }
         ],
         "optional": false
@@ -231,7 +236,8 @@
           "type": "Literal",
           "start": 582,
           "end": 643,
-          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]"
+          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
         }
       }
     },
@@ -316,7 +322,8 @@
             "type": "Literal",
             "start": 706,
             "end": 772,
-            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers"
+            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers",
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\""
           }
         ],
         "optional": false

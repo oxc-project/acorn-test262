@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 281,
                 "end": 295,
-                "value": "08:44:15.321"
+                "value": "08:44:15.321",
+                "raw": "\"08:44:15.321\""
               }
             ],
             "optional": false
@@ -124,7 +125,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 350,
-                "value": "08:44:15.321"
+                "value": "08:44:15.321",
+                "raw": "\"08:44:15.321\""
               }
             ],
             "optional": false
@@ -189,7 +191,8 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 402,
-                "value": "14:23:30.123"
+                "value": "14:23:30.123",
+                "raw": "\"14:23:30.123\""
               }
             ],
             "optional": false
@@ -263,13 +266,15 @@
             "type": "Literal",
             "start": 437,
             "end": 441,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 456,
-            "value": "same object"
+            "value": "same object",
+            "raw": "\"same object\""
           }
         ],
         "optional": false
@@ -340,13 +345,15 @@
             "type": "Literal",
             "start": 494,
             "end": 498,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 518,
-            "value": "different object"
+            "value": "different object",
+            "raw": "\"different object\""
           }
         ],
         "optional": false
@@ -417,13 +424,15 @@
             "type": "Literal",
             "start": 553,
             "end": 558,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 577,
-            "value": "different times"
+            "value": "different times",
+            "raw": "\"different times\""
           }
         ],
         "optional": false

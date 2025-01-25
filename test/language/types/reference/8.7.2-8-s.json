@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 330,
           "end": 332,
-          "value": 11
+          "value": 11,
+          "raw": "11"
         }
       }
     },
@@ -115,13 +116,15 @@
             "type": "Literal",
             "start": 364,
             "end": 366,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 368,
             "end": 380,
-            "value": "_8_7_2_8.b"
+            "value": "_8_7_2_8.b",
+            "raw": "'_8_7_2_8.b'"
           }
         ],
         "optional": false

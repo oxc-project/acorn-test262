@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 464,
             "end": 474,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 530,
-            "value": "`typeof String.prototype.replaceAll` is `function`"
+            "value": "`typeof String.prototype.replaceAll` is `function`",
+            "raw": "'`typeof String.prototype.replaceAll` is `function`'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 568,
             "end": 580,
-            "value": "replaceAll"
+            "value": "replaceAll",
+            "raw": "'replaceAll'"
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 598,
                   "end": 603,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 617,
                   "end": 621,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 639,
                   "end": 643,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

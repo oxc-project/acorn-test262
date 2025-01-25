@@ -42,14 +42,16 @@
                       "type": "Literal",
                       "start": 299,
                       "end": 312,
-                      "value": "//CHECK#1\n"
+                      "value": "//CHECK#1\n",
+                      "raw": "'//CHECK#1\\n'"
                     },
                     "operator": "+",
                     "right": {
                       "type": "Literal",
                       "start": 314,
                       "end": 339,
-                      "value": "for (var x in this) {\n"
+                      "value": "for (var x in this) {\n",
+                      "raw": "'for (var x in this) {\\n'"
                     }
                   },
                   "operator": "+",
@@ -57,7 +59,8 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 370,
-                    "value": "  if ( x === 'Math' ) {\n"
+                    "value": "  if ( x === 'Math' ) {\n",
+                    "raw": "'  if ( x === \\'Math\\' ) {\\n'"
                   }
                 },
                 "operator": "+",
@@ -65,7 +68,8 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 443,
-                  "value": "    throw new Test262Error(\"#1: 'Math' have attribute DontEnum\");\n"
+                  "value": "    throw new Test262Error(\"#1: 'Math' have attribute DontEnum\");\n",
+                  "raw": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'"
                 }
               },
               "operator": "+",
@@ -73,7 +77,8 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 452,
-                "value": "  }\n"
+                "value": "  }\n",
+                "raw": "'  }\\n'"
               }
             },
             "operator": "+",
@@ -81,7 +86,8 @@
               "type": "Literal",
               "start": 454,
               "end": 459,
-              "value": "}\n"
+              "value": "}\n",
+              "raw": "'}\\n'"
             }
           }
         }

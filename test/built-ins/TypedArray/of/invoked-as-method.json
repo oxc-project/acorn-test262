@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 603,
+  "end": 601,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 602,
+      "start": 540,
+      "end": 600,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 601,
+        "start": 540,
+        "end": 599,
         "callee": {
           "type": "MemberExpression",
-          "start": 542,
-          "end": 555,
+          "start": 540,
+          "end": 553,
           "object": {
             "type": "Identifier",
-            "start": 542,
-            "end": 548,
+            "start": 540,
+            "end": 546,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 549,
-            "end": 555,
+            "start": 547,
+            "end": 553,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 556,
-            "end": 565,
+            "start": 554,
+            "end": 563,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 567,
-            "end": 600,
+            "start": 565,
+            "end": 598,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,31 +48,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 578,
-              "end": 600,
+              "start": 576,
+              "end": 598,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 582,
-                  "end": 598,
+                  "start": 580,
+                  "end": 596,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 582,
-                    "end": 597,
+                    "start": 580,
+                    "end": 595,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 582,
-                      "end": 595,
+                      "start": 580,
+                      "end": 593,
                       "object": {
                         "type": "Identifier",
-                        "start": 582,
-                        "end": 592,
+                        "start": 580,
+                        "end": 590,
                         "name": "TypedArray"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 593,
-                        "end": 595,
+                        "start": 591,
+                        "end": 593,
                         "name": "of"
                       },
                       "computed": false,

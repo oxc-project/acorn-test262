@@ -60,7 +60,8 @@
             "type": "Literal",
             "start": 448,
             "end": 452,
-            "value": "en"
+            "value": "en",
+            "raw": "\"en\""
           },
           {
             "type": "ObjectExpression",
@@ -127,7 +128,8 @@
                               "type": "Literal",
                               "start": 497,
                               "end": 520,
-                              "value": "minimumFractionDigits"
+                              "value": "minimumFractionDigits",
+                              "raw": "'minimumFractionDigits'"
                             }
                           ],
                           "optional": false
@@ -197,7 +199,8 @@
                               "type": "Literal",
                               "start": 596,
                               "end": 619,
-                              "value": "maximumFractionDigits"
+                              "value": "maximumFractionDigits",
+                              "raw": "'maximumFractionDigits'"
                             }
                           ],
                           "optional": false
@@ -263,7 +266,8 @@
             "type": "Literal",
             "start": 658,
             "end": 659,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -311,7 +315,8 @@
               "type": "Literal",
               "start": 685,
               "end": 686,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -320,7 +325,8 @@
             "type": "Literal",
             "start": 689,
             "end": 712,
-            "value": "minimumFractionDigits"
+            "value": "minimumFractionDigits",
+            "raw": "'minimumFractionDigits'"
           }
         ],
         "optional": false
@@ -368,7 +374,8 @@
               "type": "Literal",
               "start": 738,
               "end": 739,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -377,7 +384,8 @@
             "type": "Literal",
             "start": 742,
             "end": 765,
-            "value": "maximumFractionDigits"
+            "value": "maximumFractionDigits",
+            "raw": "'maximumFractionDigits'"
           }
         ],
         "optional": false

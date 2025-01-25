@@ -23,6 +23,7 @@
             "start": 790,
             "end": 794,
             "value": {},
+            "raw": "/c/y",
             "regex": {
               "pattern": "c",
               "flags": "y"
@@ -64,7 +65,8 @@
           "type": "Literal",
           "start": 810,
           "end": 811,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -100,7 +102,8 @@
             "type": "Literal",
             "start": 821,
             "end": 826,
-            "value": "abc"
+            "value": "abc",
+            "raw": "'abc'"
           }
         ],
         "optional": false
@@ -157,7 +160,8 @@
             "type": "Literal",
             "start": 860,
             "end": 861,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

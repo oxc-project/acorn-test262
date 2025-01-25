@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 362,
                   "end": 364,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 369,
               "end": 371,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 375,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 417,
-            "value": "The result of (Object(2n) ** 1n) is 2n"
+            "value": "The result of (Object(2n) ** 1n) is 2n",
+            "raw": "'The result of (Object(2n) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 437,
               "end": 439,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 452,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 455,
             "end": 457,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 499,
-            "value": "The result of (1n ** Object(2n)) is 1n"
+            "value": "The result of (1n ** Object(2n)) is 1n",
+            "raw": "'The result of (1n ** Object(2n)) is 1n'"
           }
         ],
         "optional": false
@@ -240,7 +248,8 @@
                             "type": "Literal",
                             "start": 570,
                             "end": 572,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -255,20 +264,23 @@
               "type": "Literal",
               "start": 583,
               "end": 585,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 587,
             "end": 589,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 670,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -310,7 +322,8 @@
               "type": "Literal",
               "start": 691,
               "end": 693,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -366,7 +379,8 @@
                             "type": "Literal",
                             "start": 747,
                             "end": 749,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -381,13 +395,15 @@
             "type": "Literal",
             "start": 758,
             "end": 760,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 839,
-            "value": "The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -465,7 +481,8 @@
                             "type": "Literal",
                             "start": 897,
                             "end": 899,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -480,20 +497,23 @@
               "type": "Literal",
               "start": 910,
               "end": 912,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 916,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 984,
-            "value": "The result of (({valueOf: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({valueOf: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -535,7 +555,8 @@
               "type": "Literal",
               "start": 1005,
               "end": 1007,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -578,7 +599,8 @@
                             "type": "Literal",
                             "start": 1048,
                             "end": 1050,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -593,13 +615,15 @@
             "type": "Literal",
             "start": 1059,
             "end": 1061,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1127,
-            "value": "The result of (1n ** {valueOf: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {valueOf: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {valueOf: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false
@@ -677,7 +701,8 @@
                             "type": "Literal",
                             "start": 1186,
                             "end": 1188,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -692,20 +717,23 @@
               "type": "Literal",
               "start": 1199,
               "end": 1201,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1203,
             "end": 1205,
-            "value": "2n"
+            "value": "2n",
+            "raw": "2n"
           },
           {
             "type": "Literal",
             "start": 1207,
             "end": 1274,
-            "value": "The result of (({toString: function() {return 2n;}}) ** 1n) is 2n"
+            "value": "The result of (({toString: function() {return 2n;}}) ** 1n) is 2n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) ** 1n) is 2n'"
           }
         ],
         "optional": false
@@ -747,7 +775,8 @@
               "type": "Literal",
               "start": 1295,
               "end": 1297,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "**",
             "right": {
@@ -790,7 +819,8 @@
                             "type": "Literal",
                             "start": 1339,
                             "end": 1341,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -805,13 +835,15 @@
             "type": "Literal",
             "start": 1350,
             "end": 1352,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1419,
-            "value": "The result of (1n ** {toString: function() {return 2n;}}) is 1n"
+            "value": "The result of (1n ** {toString: function() {return 2n;}}) is 1n",
+            "raw": "'The result of (1n ** {toString: function() {return 2n;}}) is 1n'"
           }
         ],
         "optional": false

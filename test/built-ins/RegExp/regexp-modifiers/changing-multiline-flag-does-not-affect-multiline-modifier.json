@@ -34,6 +34,7 @@
                 "start": 2196,
                 "end": 2207,
                 "value": null,
+                "raw": "/(?m:es$)/m",
                 "regex": {
                   "pattern": "(?m:es$)",
                   "flags": "m"
@@ -43,7 +44,8 @@
                 "type": "Literal",
                 "start": 2209,
                 "end": 2211,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }
@@ -94,7 +96,8 @@
                 "type": "Literal",
                 "start": 2230,
                 "end": 2234,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -103,7 +106,8 @@
             "type": "Literal",
             "start": 2237,
             "end": 2290,
-            "value": "$ still should match end of input in modified group"
+            "value": "$ still should match end of input in modified group",
+            "raw": "\"$ still should match end of input in modified group\""
           }
         ],
         "optional": false
@@ -152,7 +156,8 @@
                 "type": "Literal",
                 "start": 2309,
                 "end": 2316,
-                "value": "es\ns"
+                "value": "es\ns",
+                "raw": "\"es\\ns\""
               }
             ],
             "optional": false
@@ -161,7 +166,8 @@
             "type": "Literal",
             "start": 2319,
             "end": 2367,
-            "value": "$ still should match newline in modified group"
+            "value": "$ still should match newline in modified group",
+            "raw": "\"$ still should match newline in modified group\""
           }
         ],
         "optional": false
@@ -198,6 +204,7 @@
                 "start": 2392,
                 "end": 2404,
                 "value": null,
+                "raw": "/^(?-m:es$)/",
                 "regex": {
                   "pattern": "^(?-m:es$)",
                   "flags": ""
@@ -207,7 +214,8 @@
                 "type": "Literal",
                 "start": 2406,
                 "end": 2409,
-                "value": "m"
+                "value": "m",
+                "raw": "\"m\""
               }
             ]
           }
@@ -258,7 +266,8 @@
                 "type": "Literal",
                 "start": 2428,
                 "end": 2432,
-                "value": "es"
+                "value": "es",
+                "raw": "\"es\""
               }
             ],
             "optional": false
@@ -267,7 +276,8 @@
             "type": "Literal",
             "start": 2435,
             "end": 2488,
-            "value": "$ still should match end of input in modified group"
+            "value": "$ still should match end of input in modified group",
+            "raw": "\"$ still should match end of input in modified group\""
           }
         ],
         "optional": false
@@ -322,7 +332,8 @@
                   "type": "Literal",
                   "start": 2508,
                   "end": 2515,
-                  "value": "es\ns"
+                  "value": "es\ns",
+                  "raw": "\"es\\ns\""
                 }
               ],
               "optional": false
@@ -332,7 +343,8 @@
             "type": "Literal",
             "start": 2518,
             "end": 2570,
-            "value": "$ still should not match newline in modified group"
+            "value": "$ still should not match newline in modified group",
+            "raw": "\"$ still should not match newline in modified group\""
           }
         ],
         "optional": false

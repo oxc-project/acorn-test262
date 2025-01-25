@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 322,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -201,7 +204,8 @@
                         "type": "Literal",
                         "start": 436,
                         "end": 441,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -215,7 +219,8 @@
             "type": "Literal",
             "start": 446,
             "end": 486,
-            "value": "TypeError if no properties are present"
+            "value": "TypeError if no properties are present",
+            "raw": "\"TypeError if no properties are present\""
           }
         ],
         "optional": false
@@ -253,7 +258,8 @@
           "type": "Literal",
           "start": 505,
           "end": 507,
-          "value": 30
+          "value": 30,
+          "raw": "30"
         }
       }
     },
@@ -339,7 +345,8 @@
                       "type": "Literal",
                       "start": 579,
                       "end": 584,
-                      "value": "UTC"
+                      "value": "UTC",
+                      "raw": "\"UTC\""
                     },
                     "kind": "init"
                   }
@@ -403,13 +410,15 @@
             "type": "Literal",
             "start": 631,
             "end": 653,
-            "value": "946686600000000000n"
+            "value": "946686600000000000n",
+            "raw": "946686600_000_000_000n"
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 688,
-            "value": "missing time units default to 0"
+            "value": "missing time units default to 0",
+            "raw": "\"missing time units default to 0\""
           }
         ],
         "optional": false

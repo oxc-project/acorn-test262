@@ -70,7 +70,8 @@
                       "type": "Literal",
                       "start": 635,
                       "end": 645,
-                      "value": "currency"
+                      "value": "currency",
+                      "raw": "\"currency\""
                     },
                     "kind": "init"
                   },
@@ -91,7 +92,8 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 662,
-                      "value": "USD"
+                      "value": "USD",
+                      "raw": "\"USD\""
                     },
                     "kind": "init"
                   }
@@ -264,7 +266,8 @@
             "type": "Literal",
             "start": 806,
             "end": 888,
-            "value": "Currency data not used; maximumFractionDigits should match minimumFractionDigits"
+            "value": "Currency data not used; maximumFractionDigits should match minimumFractionDigits",
+            "raw": "\"Currency data not used; maximumFractionDigits should match minimumFractionDigits\""
           }
         ],
         "optional": false

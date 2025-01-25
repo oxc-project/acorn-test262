@@ -70,7 +70,8 @@
                               "type": "Literal",
                               "start": 455,
                               "end": 491,
-                              "value": "This method should not be invoked."
+                              "value": "This method should not be invoked.",
+                              "raw": "'This method should not be invoked.'"
                             }
                           ]
                         }
@@ -126,7 +127,8 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 559,
-                              "value": "toString invoked"
+                              "value": "toString invoked",
+                              "raw": "'toString invoked'"
                             }
                           ]
                         }
@@ -206,6 +208,7 @@
                         "start": 613,
                         "end": 629,
                         "value": {},
+                        "raw": "/toString value/",
                         "regex": {
                           "pattern": "toString value",
                           "flags": ""

@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 371,
             "end": 412,
-            "value": "Uint8Array.fromHex is not a constructor"
+            "value": "Uint8Array.fromHex is not a constructor",
+            "raw": "\"Uint8Array.fromHex is not a constructor\""
           }
         ],
         "optional": false
@@ -148,7 +149,8 @@
                         "type": "Literal",
                         "start": 479,
                         "end": 481,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       }
                     ]
                   }

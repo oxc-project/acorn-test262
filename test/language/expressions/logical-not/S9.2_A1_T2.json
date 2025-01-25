@@ -34,7 +34,8 @@
           "type": "Literal",
           "start": 362,
           "end": 366,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -65,7 +66,8 @@
                     "type": "Literal",
                     "start": 395,
                     "end": 432,
-                    "value": "#1: !(undefined) === true. Actual: "
+                    "value": "#1: !(undefined) === true. Actual: ",
+                    "raw": "'#1: !(undefined) === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -127,7 +129,8 @@
                 "type": "Literal",
                 "start": 477,
                 "end": 478,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           }
@@ -137,7 +140,8 @@
           "type": "Literal",
           "start": 484,
           "end": 488,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -168,7 +172,8 @@
                     "type": "Literal",
                     "start": 517,
                     "end": 554,
-                    "value": "#2: !(undefined) === true. Actual: "
+                    "value": "#2: !(undefined) === true. Actual: ",
+                    "raw": "'#2: !(undefined) === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -235,7 +240,8 @@
                   "type": "Literal",
                   "start": 599,
                   "end": 606,
-                  "value": "var x"
+                  "value": "var x",
+                  "raw": "\"var x\""
                 }
               ],
               "optional": false
@@ -247,7 +253,8 @@
           "type": "Literal",
           "start": 613,
           "end": 617,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -278,7 +285,8 @@
                     "type": "Literal",
                     "start": 646,
                     "end": 687,
-                    "value": "#3: !(eval(\"var x\")) === true. Actual: "
+                    "value": "#3: !(eval(\"var x\")) === true. Actual: ",
+                    "raw": "'#3: !(eval(\"var x\")) === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -310,7 +318,8 @@
                               "type": "Literal",
                               "start": 698,
                               "end": 705,
-                              "value": "var x"
+                              "value": "var x",
+                              "raw": "\"var x\""
                             }
                           ],
                           "optional": false

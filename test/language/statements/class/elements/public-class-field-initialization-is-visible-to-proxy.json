@@ -160,7 +160,8 @@
               "type": "Literal",
               "start": 816,
               "end": 825,
-              "value": "Test262"
+              "value": "Test262",
+              "raw": "\"Test262\""
             }
           }
         ]

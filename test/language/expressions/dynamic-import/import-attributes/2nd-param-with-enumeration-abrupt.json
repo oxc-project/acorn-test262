@@ -172,7 +172,8 @@
                   "type": "Literal",
                   "start": 1302,
                   "end": 1326,
-                  "value": "./2nd-param_FIXTURE.js"
+                  "value": "./2nd-param_FIXTURE.js",
+                  "raw": "'./2nd-param_FIXTURE.js'"
                 },
                 "options": {
                   "type": "Identifier",
@@ -224,7 +225,8 @@
                             "type": "Literal",
                             "start": 1385,
                             "end": 1446,
-                            "value": "Expected promise to be rejected, but promise was fulfilled."
+                            "value": "Expected promise to be rejected, but promise was fulfilled.",
+                            "raw": "'Expected promise to be rejected, but promise was fulfilled.'"
                           }
                         ]
                       }

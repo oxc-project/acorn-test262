@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 297,
                     "end": 298,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 300,
                     "end": 301,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -94,13 +96,15 @@
                         "type": "Literal",
                         "start": 329,
                         "end": 330,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 332,
                         "end": 337,
-                        "value": "two"
+                        "value": "two",
+                        "raw": "\"two\""
                       }
                     ]
                   },
@@ -113,13 +117,15 @@
                         "type": "Literal",
                         "start": 343,
                         "end": 344,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "Literal",
                         "start": 346,
                         "end": 353,
-                        "value": "three"
+                        "value": "three",
+                        "raw": "\"three\""
                       }
                     ]
                   }
@@ -155,19 +161,22 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -333,13 +342,15 @@
             "type": "Literal",
             "start": 508,
             "end": 512,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 544,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false

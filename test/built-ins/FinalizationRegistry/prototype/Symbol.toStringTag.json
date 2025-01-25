@@ -78,7 +78,8 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 659,
-                  "value": "FinalizationRegistry"
+                  "value": "FinalizationRegistry",
+                  "raw": "'FinalizationRegistry'"
                 },
                 "kind": "init"
               },
@@ -99,7 +100,8 @@
                   "type": "Literal",
                   "start": 673,
                   "end": 678,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -120,7 +122,8 @@
                   "type": "Literal",
                   "start": 694,
                   "end": 699,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -141,7 +144,8 @@
                   "type": "Literal",
                   "start": 717,
                   "end": 721,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

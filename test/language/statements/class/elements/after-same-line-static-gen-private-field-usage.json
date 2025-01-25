@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 978,
                       "end": 980,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     }
                   }
                 ]
@@ -77,7 +78,8 @@
               "type": "Literal",
               "start": 989,
               "end": 998,
-              "value": "test262"
+              "value": "test262",
+              "raw": "'test262'"
             }
           },
           {
@@ -259,7 +261,8 @@
             "type": "Literal",
             "start": 1096,
             "end": 1098,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -346,7 +349,8 @@
                   "type": "Literal",
                   "start": 1152,
                   "end": 1155,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -356,7 +360,8 @@
             "type": "Literal",
             "start": 1160,
             "end": 1215,
-            "value": "m doesn't appear as an own property on the C instance"
+            "value": "m doesn't appear as an own property on the C instance",
+            "raw": "\"m doesn't appear as an own property on the C instance\""
           }
         ],
         "optional": false
@@ -456,7 +461,8 @@
                   "type": "Literal",
                   "start": 1280,
                   "end": 1283,
-                  "value": "m"
+                  "value": "m",
+                  "raw": "\"m\""
                 }
               ],
               "optional": false
@@ -466,7 +472,8 @@
             "type": "Literal",
             "start": 1288,
             "end": 1344,
-            "value": "m doesn't appear as an own property on the C prototype"
+            "value": "m doesn't appear as an own property on the C prototype",
+            "raw": "\"m doesn't appear as an own property on the C prototype\""
           }
         ],
         "optional": false
@@ -497,7 +504,8 @@
             "type": "Literal",
             "start": 1367,
             "end": 1370,
-            "value": "m"
+            "value": "m",
+            "raw": "\"m\""
           },
           {
             "type": "ObjectExpression",
@@ -521,7 +529,8 @@
                   "type": "Literal",
                   "start": 1388,
                   "end": 1393,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -542,7 +551,8 @@
                   "type": "Literal",
                   "start": 1411,
                   "end": 1415,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -563,7 +573,8 @@
                   "type": "Literal",
                   "start": 1429,
                   "end": 1433,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -631,7 +642,8 @@
             "type": "Literal",
             "start": 1469,
             "end": 1478,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false

@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 538,
         "end": 565,
-        "value": "./get-str-found-uninit.js"
+        "value": "./get-str-found-uninit.js",
+        "raw": "'./get-str-found-uninit.js'"
       },
       "attributes": []
     },
@@ -367,7 +368,8 @@
               "type": "Literal",
               "start": 833,
               "end": 835,
-              "value": 23
+              "value": 23,
+              "raw": "23"
             }
           }
         ],
@@ -395,7 +397,8 @@
             "type": "Literal",
             "start": 850,
             "end": 852,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           }
         }
       ],
@@ -455,7 +458,8 @@
         "type": "Literal",
         "start": 919,
         "end": 946,
-        "value": "./get-str-found-uninit.js"
+        "value": "./get-str-found-uninit.js",
+        "raw": "'./get-str-found-uninit.js'"
       },
       "attributes": []
     },
@@ -467,7 +471,8 @@
         "type": "Literal",
         "start": 963,
         "end": 967,
-        "value": null
+        "value": null,
+        "raw": "null"
       }
     }
   ],

@@ -164,7 +164,8 @@
             "type": "Literal",
             "start": 556,
             "end": 631,
-            "value": "__obj.toString() must return the same value returned by n__obj.toString()"
+            "value": "__obj.toString() must return the same value returned by n__obj.toString()",
+            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'"
           }
         ],
         "optional": false
@@ -240,7 +241,8 @@
             "type": "Literal",
             "start": 699,
             "end": 784,
-            "value": "The value of __obj.constructor is expected to equal the value of n__obj.constructor"
+            "value": "The value of __obj.constructor is expected to equal the value of n__obj.constructor",
+            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'"
           }
         ],
         "optional": false
@@ -316,7 +318,8 @@
             "type": "Literal",
             "start": 848,
             "end": 929,
-            "value": "The value of __obj.prototype is expected to equal the value of n__obj.prototype"
+            "value": "The value of __obj.prototype is expected to equal the value of n__obj.prototype",
+            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'"
           }
         ],
         "optional": false
@@ -406,7 +409,8 @@
             "type": "Literal",
             "start": 1007,
             "end": 1094,
-            "value": "__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()"
+            "value": "__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()",
+            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'"
           }
         ],
         "optional": false
@@ -470,7 +474,8 @@
             "type": "Literal",
             "start": 1145,
             "end": 1206,
-            "value": "The value of `typeof __obj` is expected to be typeof n__obj"
+            "value": "The value of `typeof __obj` is expected to be typeof n__obj",
+            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'"
           }
         ],
         "optional": false

@@ -48,13 +48,15 @@
             "type": "Literal",
             "start": 267,
             "end": 277,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 279,
             "end": 337,
-            "value": "The value of `typeof Array` is expected to be \"function\""
+            "value": "The value of `typeof Array` is expected to be \"function\"",
+            "raw": "'The value of `typeof Array` is expected to be \"function\"'"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 280,
                 "end": 285,
-                "value": "0,1"
+                "value": "0,1",
+                "raw": "\"0,1\""
               }
             ]
           }
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 307,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -83,13 +85,15 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 317,
-                "value": "0,1"
+                "value": "0,1",
+                "raw": "\"0,1\""
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 320,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -182,13 +186,15 @@
             "type": "Literal",
             "start": 370,
             "end": 371,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 402,
-            "value": "a.lastIndexOf(b.toString())"
+            "value": "a.lastIndexOf(b.toString())",
+            "raw": "'a.lastIndexOf(b.toString())'"
           }
         ],
         "optional": false
@@ -250,7 +256,8 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 441,
-                "value": "0,1"
+                "value": "0,1",
+                "raw": "\"0,1\""
               }
             ],
             "optional": false
@@ -259,13 +266,15 @@
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 469,
-            "value": "a.lastIndexOf(\"0,1\")"
+            "value": "a.lastIndexOf(\"0,1\")",
+            "raw": "'a.lastIndexOf(\"0,1\")'"
           }
         ],
         "optional": false

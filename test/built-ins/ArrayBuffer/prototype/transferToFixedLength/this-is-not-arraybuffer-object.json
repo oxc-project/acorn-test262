@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 576,
             "end": 586,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -179,7 +180,8 @@
             "type": "Literal",
             "start": 680,
             "end": 723,
-            "value": "`this` value is the ArrayBuffer prototype"
+            "value": "`this` value is the ArrayBuffer prototype",
+            "raw": "'`this` value is the ArrayBuffer prototype'"
           }
         ],
         "optional": false
@@ -304,7 +306,8 @@
             "type": "Literal",
             "start": 824,
             "end": 851,
-            "value": "`this` value is an object"
+            "value": "`this` value is an object",
+            "raw": "'`this` value is an object'"
           }
         ],
         "optional": false
@@ -429,7 +432,8 @@
             "type": "Literal",
             "start": 952,
             "end": 978,
-            "value": "`this` value is an array"
+            "value": "`this` value is an array",
+            "raw": "'`this` value is an array'"
           }
         ],
         "optional": false

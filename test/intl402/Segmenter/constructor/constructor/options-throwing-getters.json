@@ -48,13 +48,15 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 349,
-                "value": "localeMatcher"
+                "value": "localeMatcher",
+                "raw": "\"localeMatcher\""
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 366,
-                "value": "granularity"
+                "value": "granularity",
+                "raw": "\"granularity\""
               }
             ]
           }
@@ -178,7 +180,8 @@
                               "type": "Literal",
                               "start": 464,
                               "end": 468,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

@@ -23,6 +23,7 @@
             "start": 2703,
             "end": 2719,
             "value": null,
+            "raw": "/(?-i:\\p{Lu})/ui",
             "regex": {
               "pattern": "(?-i:\\p{Lu})",
               "flags": "ui"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2737,
                 "end": 2740,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2743,
             "end": 2767,
-            "value": "\\p{Lu} should match A"
+            "value": "\\p{Lu} should match A",
+            "raw": "\"\\\\p{Lu} should match A\""
           }
         ],
         "optional": false
@@ -139,7 +142,8 @@
                   "type": "Literal",
                   "start": 2787,
                   "end": 2790,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 }
               ],
               "optional": false
@@ -149,7 +153,8 @@
             "type": "Literal",
             "start": 2793,
             "end": 2821,
-            "value": "\\p{Lu} should not match a"
+            "value": "\\p{Lu} should not match a",
+            "raw": "\"\\\\p{Lu} should not match a\""
           }
         ],
         "optional": false
@@ -198,7 +203,8 @@
                 "type": "Literal",
                 "start": 2840,
                 "end": 2843,
-                "value": "Z"
+                "value": "Z",
+                "raw": "\"Z\""
               }
             ],
             "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 2846,
             "end": 2870,
-            "value": "\\p{Lu} should match Z"
+            "value": "\\p{Lu} should match Z",
+            "raw": "\"\\\\p{Lu} should match Z\""
           }
         ],
         "optional": false
@@ -262,7 +269,8 @@
                   "type": "Literal",
                   "start": 2890,
                   "end": 2893,
-                  "value": "z"
+                  "value": "z",
+                  "raw": "\"z\""
                 }
               ],
               "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2896,
             "end": 2924,
-            "value": "\\p{Lu} should not match z"
+            "value": "\\p{Lu} should not match z",
+            "raw": "\"\\\\p{Lu} should not match z\""
           }
         ],
         "optional": false

@@ -101,7 +101,8 @@
             "type": "Literal",
             "start": 624,
             "end": 648,
-            "value": "Calling as constructor"
+            "value": "Calling as constructor",
+            "raw": "\"Calling as constructor\""
           }
         ],
         "optional": false
@@ -185,13 +186,15 @@
             "type": "Literal",
             "start": 714,
             "end": 719,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 768,
-            "value": "isConstructor(Temporal.PlainYearMonth.from)"
+            "value": "isConstructor(Temporal.PlainYearMonth.from)",
+            "raw": "\"isConstructor(Temporal.PlainYearMonth.from)\""
           }
         ],
         "optional": false

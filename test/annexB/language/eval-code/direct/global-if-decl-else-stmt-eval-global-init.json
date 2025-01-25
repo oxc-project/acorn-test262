@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1171,
             "end": 1425,
-            "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });if (true) function f() {  } else ;"
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });if (true) function f() {  } else ;",
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });if (true) function f() {  } else ;'"
           }
         ],
         "optional": false

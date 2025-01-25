@@ -46,14 +46,16 @@
                         "type": "Literal",
                         "start": 320,
                         "end": 325,
-                        "value": "abc"
+                        "value": "abc",
+                        "raw": "\"abc\""
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
                         "start": 328,
                         "end": 333,
-                        "value": "   "
+                        "value": "   ",
+                        "raw": "\"   \""
                       }
                     },
                     "operator": "+",
@@ -61,7 +63,8 @@
                       "type": "Literal",
                       "start": 336,
                       "end": 339,
-                      "value": 123
+                      "value": 123,
+                      "raw": "123"
                     }
                   },
                   "operator": "+",
@@ -69,7 +72,8 @@
                     "type": "Literal",
                     "start": 342,
                     "end": 347,
-                    "value": "   "
+                    "value": "   ",
+                    "raw": "\"   \""
                   }
                 },
                 "operator": "+",
@@ -85,7 +89,8 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 361,
-                "value": "    "
+                "value": "    ",
+                "raw": "\"    \""
               }
             },
             "operator": "+",
@@ -93,7 +98,8 @@
               "type": "Literal",
               "start": 364,
               "end": 372,
-              "value": "\u0000"
+              "value": "\u0000",
+              "raw": "\"\\u0000\""
             }
           }
         }
@@ -127,7 +133,8 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 391,
-                "value": "    "
+                "value": "    ",
+                "raw": "\"    \""
               },
               "operator": "+",
               "right": {
@@ -142,7 +149,8 @@
               "type": "Literal",
               "start": 400,
               "end": 406,
-              "value": "    "
+              "value": "    ",
+              "raw": "\"    \""
             }
           }
         }
@@ -213,7 +221,8 @@
             "type": "Literal",
             "start": 444,
             "end": 457,
-            "value": "str1.trim()"
+            "value": "str1.trim()",
+            "raw": "'str1.trim()'"
           }
         ],
         "optional": false

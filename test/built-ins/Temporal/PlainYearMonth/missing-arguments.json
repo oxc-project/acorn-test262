@@ -27,7 +27,8 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 357,
-                "value": "valueOf year"
+                "value": "valueOf year",
+                "raw": "\"valueOf year\""
               }
             ]
           }
@@ -145,7 +146,8 @@
                                   "type": "Literal",
                                   "start": 424,
                                   "end": 438,
-                                  "value": "valueOf year"
+                                  "value": "valueOf year",
+                                  "raw": "\"valueOf year\""
                                 }
                               ],
                               "optional": false
@@ -159,7 +161,8 @@
                               "type": "Literal",
                               "start": 448,
                               "end": 449,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         ]
@@ -303,7 +306,8 @@
             "type": "Literal",
             "start": 569,
             "end": 590,
-            "value": "order of operations"
+            "value": "order of operations",
+            "raw": "\"order of operations\""
           }
         ],
         "optional": false

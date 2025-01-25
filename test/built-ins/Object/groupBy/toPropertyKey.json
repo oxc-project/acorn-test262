@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 570,
             "end": 571,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -88,7 +89,8 @@
                           "type": "Literal",
                           "start": 639,
                           "end": 640,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -126,13 +128,15 @@
                 "type": "Literal",
                 "start": 664,
                 "end": 665,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 667,
                 "end": 670,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               },
               {
                 "type": "Identifier",
@@ -303,7 +307,8 @@
                 "type": "Literal",
                 "start": 789,
                 "end": 792,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               }
             ]
           }
@@ -353,7 +358,8 @@
               "type": "Literal",
               "start": 820,
               "end": 823,
-              "value": "1"
+              "value": "1",
+              "raw": "'1'"
             },
             "computed": true,
             "optional": false
@@ -367,13 +373,15 @@
                 "type": "Literal",
                 "start": 827,
                 "end": 828,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 830,
                 "end": 833,
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               },
               {
                 "type": "Identifier",

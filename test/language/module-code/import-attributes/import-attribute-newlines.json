@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1230,
+  "end": 1170,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -30,14 +30,15 @@
         "type": "Literal",
         "start": 796,
         "end": 842,
-        "value": "../resources/ensure-linking-error_FIXTURE.js"
+        "value": "../resources/ensure-linking-error_FIXTURE.js",
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
       "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 845,
-      "end": 950,
+      "end": 930,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -55,112 +56,118 @@
         "type": "Literal",
         "start": 859,
         "end": 892,
-        "value": "./import-attribute-1_FIXTURE.js"
+        "value": "./import-attribute-1_FIXTURE.js",
+        "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 914,
-          "end": 940,
+          "start": 906,
+          "end": 924,
           "key": {
             "type": "Identifier",
-            "start": 914,
-            "end": 921,
+            "start": 906,
+            "end": 913,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 938,
-            "end": 940,
-            "value": ""
+            "start": 922,
+            "end": 924,
+            "value": "",
+            "raw": "''"
           }
         }
       ]
     },
     {
       "type": "ImportDeclaration",
-      "start": 951,
-      "end": 1049,
+      "start": 931,
+      "end": 1009,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 958,
-        "end": 991,
-        "value": "./import-attribute-2_FIXTURE.js"
+        "start": 938,
+        "end": 971,
+        "value": "./import-attribute-2_FIXTURE.js",
+        "raw": "'./import-attribute-2_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 1013,
-          "end": 1039,
+          "start": 985,
+          "end": 1003,
           "key": {
             "type": "Identifier",
-            "start": 1013,
-            "end": 1020,
+            "start": 985,
+            "end": 992,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 1037,
-            "end": 1039,
-            "value": ""
+            "start": 1001,
+            "end": 1003,
+            "value": "",
+            "raw": "''"
           }
         }
       ]
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 1050,
-      "end": 1155,
+      "start": 1010,
+      "end": 1095,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 1064,
-        "end": 1097,
-        "value": "./import-attribute-3_FIXTURE.js"
+        "start": 1024,
+        "end": 1057,
+        "value": "./import-attribute-3_FIXTURE.js",
+        "raw": "'./import-attribute-3_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 1119,
-          "end": 1145,
+          "start": 1071,
+          "end": 1089,
           "key": {
             "type": "Identifier",
-            "start": 1119,
-            "end": 1126,
+            "start": 1071,
+            "end": 1078,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 1143,
-            "end": 1145,
-            "value": ""
+            "start": 1087,
+            "end": 1089,
+            "value": "",
+            "raw": "''"
           }
         }
       ]
     },
     {
       "type": "ExpressionStatement",
-      "start": 1157,
-      "end": 1184,
+      "start": 1097,
+      "end": 1124,
       "expression": {
         "type": "CallExpression",
-        "start": 1157,
-        "end": 1183,
+        "start": 1097,
+        "end": 1123,
         "callee": {
           "type": "MemberExpression",
-          "start": 1157,
-          "end": 1173,
+          "start": 1097,
+          "end": 1113,
           "object": {
             "type": "Identifier",
-            "start": 1157,
-            "end": 1163,
+            "start": 1097,
+            "end": 1103,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1164,
-            "end": 1173,
+            "start": 1104,
+            "end": 1113,
             "name": "sameValue"
           },
           "computed": false,
@@ -169,15 +176,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1174,
-            "end": 1175,
+            "start": 1114,
+            "end": 1115,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 1177,
-            "end": 1182,
-            "value": 262.1
+            "start": 1117,
+            "end": 1122,
+            "value": 262.1,
+            "raw": "262.1"
           }
         ],
         "optional": false
@@ -185,26 +193,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1185,
-      "end": 1229,
+      "start": 1125,
+      "end": 1169,
       "expression": {
         "type": "CallExpression",
-        "start": 1185,
-        "end": 1228,
+        "start": 1125,
+        "end": 1168,
         "callee": {
           "type": "MemberExpression",
-          "start": 1185,
-          "end": 1201,
+          "start": 1125,
+          "end": 1141,
           "object": {
             "type": "Identifier",
-            "start": 1185,
-            "end": 1191,
+            "start": 1125,
+            "end": 1131,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1192,
-            "end": 1201,
+            "start": 1132,
+            "end": 1141,
             "name": "sameValue"
           },
           "computed": false,
@@ -213,18 +221,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1202,
-            "end": 1220,
+            "start": 1142,
+            "end": 1160,
             "object": {
               "type": "Identifier",
-              "start": 1202,
-              "end": 1212,
+              "start": 1142,
+              "end": 1152,
               "name": "globalThis"
             },
             "property": {
               "type": "Identifier",
-              "start": 1213,
-              "end": 1220,
+              "start": 1153,
+              "end": 1160,
               "name": "test262"
             },
             "computed": false,
@@ -232,9 +240,10 @@
           },
           {
             "type": "Literal",
-            "start": 1222,
-            "end": 1227,
-            "value": 262.2
+            "start": 1162,
+            "end": 1167,
+            "value": 262.2,
+            "raw": "262.2"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 270,
             "end": 299,
-            "value": "initialValue is not present"
+            "value": "initialValue is not present",
+            "raw": "\"initialValue is not present\""
           }
         }
       ],
@@ -116,7 +117,8 @@
             "type": "Literal",
             "start": 358,
             "end": 394,
-            "value": "[str].reduceRight(function () { })"
+            "value": "[str].reduceRight(function () { })",
+            "raw": "'[str].reduceRight(function () { })'"
           }
         ],
         "optional": false

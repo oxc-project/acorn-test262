@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 361,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 425,
-                "value": "1000090061123987500n"
+                "value": "1000090061123987500n",
+                "raw": "1_000_090_061_123_987_500n"
               }
             ]
           }
@@ -139,43 +141,50 @@
             "type": "Literal",
             "start": 456,
             "end": 470,
-            "value": "other string"
+            "value": "other string",
+            "raw": "\"other string\""
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 478,
-            "value": "cile"
+            "value": "cile",
+            "raw": "\"cile\""
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 486,
-            "value": "CEIL"
+            "value": "CEIL",
+            "raw": "\"CEIL\""
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 499,
-            "value": "ceıl"
+            "value": "ceıl",
+            "raw": "\"ce\\u0131l\""
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 507,
-            "value": "auto"
+            "value": "auto",
+            "raw": "\"auto\""
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 521,
-            "value": "halfexpand"
+            "value": "halfexpand",
+            "raw": "\"halfexpand\""
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 532,
-            "value": "floor\u0000"
+            "value": "floor\u0000",
+            "raw": "\"floor\\0\""
           }
         ]
       },
@@ -279,7 +288,8 @@
                               "type": "Literal",
                               "start": 608,
                               "end": 621,
-                              "value": "microsecond"
+                              "value": "microsecond",
+                              "raw": "\"microsecond\""
                             },
                             "kind": "init"
                           },

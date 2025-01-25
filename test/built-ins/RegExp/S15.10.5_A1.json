@@ -54,13 +54,15 @@
             "type": "Literal",
             "start": 302,
             "end": 303,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 353,
-            "value": "The value of RegExp.length is expected to be 2"
+            "value": "The value of RegExp.length is expected to be 2",
+            "raw": "'The value of RegExp.length is expected to be 2'"
           }
         ],
         "optional": false

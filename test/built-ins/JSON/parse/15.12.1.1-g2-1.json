@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 259,
                 "end": 266,
-                "value": "\"abc\""
+                "value": "\"abc\"",
+                "raw": "'\"abc\"'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 269,
             "end": 274,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           },
           {
             "type": "Literal",
             "start": 276,
             "end": 299,
-            "value": "JSON.parse('\"abc\"')"
+            "value": "JSON.parse('\"abc\"')",
+            "raw": "'JSON.parse(\\'\"abc\"\\')'"
           }
         ],
         "optional": false

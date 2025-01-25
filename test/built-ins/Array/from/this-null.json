@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 246,
                 "end": 250,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "ArrayExpression",
@@ -111,7 +112,8 @@
             "type": "Literal",
             "start": 290,
             "end": 365,
-            "value": "The result of evaluating (result instanceof Array) is expected to be true"
+            "value": "The result of evaluating (result instanceof Array) is expected to be true",
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
           }
         ],
         "optional": false
@@ -168,13 +170,15 @@
             "type": "Literal",
             "start": 400,
             "end": 401,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 451,
-            "value": "The value of result.length is expected to be 0"
+            "value": "The value of result.length is expected to be 0",
+            "raw": "'The value of result.length is expected to be 0'"
           }
         ],
         "optional": false

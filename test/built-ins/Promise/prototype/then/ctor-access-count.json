@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1144,
             "end": 1145,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -140,7 +141,8 @@
             "type": "Literal",
             "start": 1235,
             "end": 1248,
-            "value": "constructor"
+            "value": "constructor",
+            "raw": "'constructor'"
           },
           {
             "type": "ObjectExpression",
@@ -193,7 +195,8 @@
                             "type": "Literal",
                             "start": 1289,
                             "end": 1290,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -280,7 +283,8 @@
                       "type": "Literal",
                       "start": 1364,
                       "end": 1365,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   },
                   "consequent": {
@@ -311,7 +315,8 @@
                                 "type": "Literal",
                                 "start": 1379,
                                 "end": 1427,
-                                "value": "Expected constructor access count: 1. Actual: "
+                                "value": "Expected constructor access count: 1. Actual: ",
+                                "raw": "'Expected constructor access count: 1. Actual: '"
                               },
                               "operator": "+",
                               "right": {
@@ -389,7 +394,8 @@
                         "type": "Literal",
                         "start": 1494,
                         "end": 1531,
-                        "value": "The promise should not be rejected."
+                        "value": "The promise should not be rejected.",
+                        "raw": "'The promise should not be rejected.'"
                       }
                     ],
                     "optional": false

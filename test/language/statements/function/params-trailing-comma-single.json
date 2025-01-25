@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1482,
             "end": 1483,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -92,7 +93,8 @@
                   "type": "Literal",
                   "start": 1574,
                   "end": 1576,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ],
               "optional": false
@@ -128,7 +130,8 @@
                   "type": "Literal",
                   "start": 1605,
                   "end": 1606,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -155,13 +158,15 @@
             "type": "Literal",
             "start": 1615,
             "end": 1617,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 1619,
             "end": 1621,
-            "value": 39
+            "value": 39,
+            "raw": "39"
           }
         ],
         "optional": false
@@ -205,13 +210,15 @@
             "type": "Literal",
             "start": 1653,
             "end": 1654,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1656,
             "end": 1687,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false
@@ -268,13 +275,15 @@
             "type": "Literal",
             "start": 1720,
             "end": 1721,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1723,
             "end": 1747,
-            "value": "length is properly set"
+            "value": "length is properly set",
+            "raw": "'length is properly set'"
           }
         ],
         "optional": false

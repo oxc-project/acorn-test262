@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 361,
-                "value": "test"
+                "value": "test",
+                "raw": "\"test\""
               }
             ]
           }
@@ -172,7 +173,8 @@
                             "type": "Literal",
                             "start": 455,
                             "end": 457,
-                            "value": 11
+                            "value": 11,
+                            "raw": "11"
                           },
                           "kind": "init"
                         },
@@ -193,7 +195,8 @@
                             "type": "Literal",
                             "start": 477,
                             "end": 481,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           "kind": "init"
                         }
@@ -258,7 +261,8 @@
                 "type": "Literal",
                 "start": 528,
                 "end": 530,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -279,7 +283,8 @@
                 "type": "Literal",
                 "start": 546,
                 "end": 550,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "kind": "init"
             }
@@ -388,7 +393,8 @@
                 "type": "Literal",
                 "start": 623,
                 "end": 642,
-                "value": "prop15_2_3_5_4_37"
+                "value": "prop15_2_3_5_4_37",
+                "raw": "\"prop15_2_3_5_4_37\""
               }
             ],
             "optional": false
@@ -397,7 +403,8 @@
             "type": "Literal",
             "start": 645,
             "end": 698,
-            "value": "newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true"
+            "value": "newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true",
+            "raw": "'newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true'"
           }
         ],
         "optional": false

@@ -124,7 +124,8 @@
                             "type": "Literal",
                             "start": 276,
                             "end": 292,
-                            "value": "Never settles."
+                            "value": "Never settles.",
+                            "raw": "\"Never settles.\""
                           }
                         ]
                       }
@@ -165,7 +166,8 @@
                             "type": "Literal",
                             "start": 336,
                             "end": 352,
-                            "value": "Never settles."
+                            "value": "Never settles.",
+                            "raw": "\"Never settles.\""
                           }
                         ]
                       }

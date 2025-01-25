@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 280,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 282,
                 "end": 287,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -72,13 +74,15 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 303,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 307,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -87,7 +91,8 @@
             "type": "Literal",
             "start": 310,
             "end": 391,
-            "value": "parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false
@@ -136,13 +141,15 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 435,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 441,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -157,7 +164,8 @@
             "type": "Literal",
             "start": 449,
             "end": 487,
-            "value": "parseInt(\"11\", true) must return NaN"
+            "value": "parseInt(\"11\", true) must return NaN",
+            "raw": "'parseInt(\"11\", true) must return NaN'"
           }
         ],
         "optional": false

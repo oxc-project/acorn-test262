@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 585,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -59,7 +60,8 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 594,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               }
             ],
             "optional": false
@@ -68,7 +70,8 @@
             "type": "Literal",
             "start": 597,
             "end": 616,
-            "value": "<a href=\"b\">_</a>"
+            "value": "<a href=\"b\">_</a>",
+            "raw": "'<a href=\"b\">_</a>'"
           }
         ],
         "optional": false
@@ -114,7 +117,8 @@
                 "type": "Literal",
                 "start": 636,
                 "end": 639,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               },
               "property": {
                 "type": "Identifier",
@@ -130,7 +134,8 @@
                 "type": "Literal",
                 "start": 645,
                 "end": 648,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               }
             ],
             "optional": false
@@ -139,7 +144,8 @@
             "type": "Literal",
             "start": 651,
             "end": 670,
-            "value": "<a href=\"<\"><</a>"
+            "value": "<a href=\"<\"><</a>",
+            "raw": "'<a href=\"<\"><</a>'"
           }
         ],
         "optional": false
@@ -185,7 +191,8 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 693,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -201,7 +208,8 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 703,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -210,7 +218,8 @@
             "type": "Literal",
             "start": 706,
             "end": 726,
-            "value": "<a href=\"42\">_</a>"
+            "value": "<a href=\"42\">_</a>",
+            "raw": "'<a href=\"42\">_</a>'"
           }
         ],
         "optional": false
@@ -256,7 +265,8 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 749,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -272,7 +282,8 @@
                 "type": "Literal",
                 "start": 755,
                 "end": 761,
-                "value": "\""
+                "value": "\"",
+                "raw": "'\\x22'"
               }
             ],
             "optional": false
@@ -281,7 +292,8 @@
             "type": "Literal",
             "start": 764,
             "end": 788,
-            "value": "<a href=\"&quot;\">_</a>"
+            "value": "<a href=\"&quot;\">_</a>",
+            "raw": "'<a href=\"&quot;\">_</a>'"
           }
         ],
         "optional": false
@@ -369,13 +381,15 @@
                 "type": "Literal",
                 "start": 835,
                 "end": 839,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 845,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -384,7 +398,8 @@
             "type": "Literal",
             "start": 848,
             "end": 869,
-            "value": "<a href=\"42\">42</a>"
+            "value": "<a href=\"42\">42</a>",
+            "raw": "'<a href=\"42\">42</a>'"
           }
         ],
         "optional": false
@@ -615,7 +630,8 @@
                         "type": "Literal",
                         "start": 1022,
                         "end": 1026,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

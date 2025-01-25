@@ -46,49 +46,57 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 348,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 355,
-                "value": 52
+                "value": 52,
+                "raw": "52"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 360,
-                "value": 500
+                "value": 500,
+                "raw": "500"
               }
             ]
           }
@@ -139,25 +147,29 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 406,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 409,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 412,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 415,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "UnaryExpression",
@@ -169,7 +181,8 @@
                   "type": "Literal",
                   "start": 418,
                   "end": 419,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -182,7 +195,8 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 423,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -195,7 +209,8 @@
                   "type": "Literal",
                   "start": 426,
                   "end": 428,
-                  "value": 52
+                  "value": 52,
+                  "raw": "52"
                 }
               },
               {
@@ -208,7 +223,8 @@
                   "type": "Literal",
                   "start": 431,
                   "end": 434,
-                  "value": 500
+                  "value": 500,
+                  "raw": "500"
                 }
               }
             ]
@@ -286,7 +302,8 @@
                 "type": "Literal",
                 "start": 481,
                 "end": 493,
-                "value": "PT1.03125H"
+                "value": "PT1.03125H",
+                "raw": "\"PT1.03125H\""
               },
               {
                 "type": "Identifier",
@@ -301,13 +318,15 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 593,
-            "value": "positive fractional units rounded with correct rounding mode (first argument)"
+            "value": "positive fractional units rounded with correct rounding mode (first argument)",
+            "raw": "\"positive fractional units rounded with correct rounding mode (first argument)\""
           }
         ],
         "optional": false
@@ -382,7 +401,8 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 652,
-                "value": "-PT1.03125H"
+                "value": "-PT1.03125H",
+                "raw": "\"-PT1.03125H\""
               },
               {
                 "type": "Identifier",
@@ -397,13 +417,15 @@
             "type": "Literal",
             "start": 668,
             "end": 669,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 752,
-            "value": "negative fractional units rounded with correct rounding mode (first argument)"
+            "value": "negative fractional units rounded with correct rounding mode (first argument)",
+            "raw": "\"negative fractional units rounded with correct rounding mode (first argument)\""
           }
         ],
         "optional": false
@@ -484,7 +506,8 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 823,
-                "value": "PT1.03125H"
+                "value": "PT1.03125H",
+                "raw": "\"PT1.03125H\""
               }
             ],
             "optional": false
@@ -493,13 +516,15 @@
             "type": "Literal",
             "start": 826,
             "end": 827,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 831,
             "end": 911,
-            "value": "positive fractional units rounded with correct rounding mode (second argument)"
+            "value": "positive fractional units rounded with correct rounding mode (second argument)",
+            "raw": "\"positive fractional units rounded with correct rounding mode (second argument)\""
           }
         ],
         "optional": false
@@ -580,7 +605,8 @@
                 "type": "Literal",
                 "start": 970,
                 "end": 983,
-                "value": "-PT1.03125H"
+                "value": "-PT1.03125H",
+                "raw": "\"-PT1.03125H\""
               }
             ],
             "optional": false
@@ -589,13 +615,15 @@
             "type": "Literal",
             "start": 986,
             "end": 987,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 991,
             "end": 1071,
-            "value": "negative fractional units rounded with correct rounding mode (second argument)"
+            "value": "negative fractional units rounded with correct rounding mode (second argument)",
+            "raw": "\"negative fractional units rounded with correct rounding mode (second argument)\""
           }
         ],
         "optional": false

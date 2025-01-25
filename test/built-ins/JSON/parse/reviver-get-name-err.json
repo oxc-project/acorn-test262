@@ -136,7 +136,8 @@
                         "type": "Literal",
                         "start": 638,
                         "end": 645,
-                        "value": "[0,0]"
+                        "value": "[0,0]",
+                        "raw": "'[0,0]'"
                       },
                       {
                         "type": "FunctionExpression",
@@ -189,7 +190,8 @@
                                     "type": "Literal",
                                     "start": 692,
                                     "end": 695,
-                                    "value": "1"
+                                    "value": "1",
+                                    "raw": "'1'"
                                   },
                                   {
                                     "type": "ObjectExpression",

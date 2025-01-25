@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 377,
             "end": 382,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 435,
                 "end": 439,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -115,7 +117,8 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 476,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "\"undefined\""
               }
             }
           }
@@ -185,7 +188,8 @@
             "type": "Literal",
             "start": 523,
             "end": 526,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -240,7 +244,8 @@
                   "type": "Literal",
                   "start": 568,
                   "end": 572,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -286,7 +291,8 @@
             "type": "Literal",
             "start": 594,
             "end": 595,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -295,7 +301,8 @@
           "type": "Literal",
           "start": 599,
           "end": 602,
-          "value": 100
+          "value": 100,
+          "raw": "100"
         }
       }
     },
@@ -351,7 +358,8 @@
             "type": "Literal",
             "start": 635,
             "end": 667,
-            "value": "arr.every(callbackfn) !== true"
+            "value": "arr.every(callbackfn) !== true",
+            "raw": "'arr.every(callbackfn) !== true'"
           }
         ],
         "optional": false
@@ -382,7 +390,8 @@
             "type": "Literal",
             "start": 687,
             "end": 706,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

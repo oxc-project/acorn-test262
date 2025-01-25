@@ -52,7 +52,8 @@
         "type": "Literal",
         "start": 1297,
         "end": 1301,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -90,7 +91,8 @@
                         "type": "Literal",
                         "start": 1310,
                         "end": 1336,
-                        "value": "./module-code_FIXTURE.js"
+                        "value": "./module-code_FIXTURE.js",
+                        "raw": "'./module-code_FIXTURE.js'"
                       },
                       "options": null
                     },
@@ -176,7 +178,8 @@
                                   "type": "Literal",
                                   "start": 1395,
                                   "end": 1397,
-                                  "value": 42
+                                  "value": 42,
+                                  "raw": "42"
                                 }
                               ],
                               "optional": false
@@ -233,7 +236,8 @@
                                   "type": "Literal",
                                   "start": 1431,
                                   "end": 1440,
-                                  "value": "Test262"
+                                  "value": "Test262",
+                                  "raw": "'Test262'"
                                 }
                               ],
                               "optional": false
@@ -290,7 +294,8 @@
                                   "type": "Literal",
                                   "start": 1474,
                                   "end": 1476,
-                                  "value": 42
+                                  "value": 42,
+                                  "raw": "42"
                                 }
                               ],
                               "optional": false

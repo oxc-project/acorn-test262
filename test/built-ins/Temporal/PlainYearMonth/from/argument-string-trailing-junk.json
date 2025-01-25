@@ -87,7 +87,8 @@
                   "type": "Literal",
                   "start": 352,
                   "end": 365,
-                  "value": "1976-11junk"
+                  "value": "1976-11junk",
+                  "raw": "\"1976-11junk\""
                 }
               ],
               "optional": false

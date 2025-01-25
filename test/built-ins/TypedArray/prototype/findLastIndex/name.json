@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 891,
             "end": 906,
-            "value": "findLastIndex"
+            "value": "findLastIndex",
+            "raw": "\"findLastIndex\""
           }
         ],
         "optional": false
@@ -137,7 +138,8 @@
             "type": "Literal",
             "start": 961,
             "end": 967,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +163,8 @@
                   "type": "Literal",
                   "start": 985,
                   "end": 990,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -182,7 +185,8 @@
                   "type": "Literal",
                   "start": 1004,
                   "end": 1009,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -203,7 +207,8 @@
                   "type": "Literal",
                   "start": 1027,
                   "end": 1031,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

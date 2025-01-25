@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 388,
             "end": 391,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 437,
-            "value": "Number.prototype.toFixed() must return \"0\""
+            "value": "Number.prototype.toFixed() must return \"0\"",
+            "raw": "'Number.prototype.toFixed() must return \"0\"'"
           }
         ],
         "optional": false
@@ -155,7 +157,8 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -164,13 +167,15 @@
             "type": "Literal",
             "start": 486,
             "end": 489,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 536,
-            "value": "Number.prototype.toFixed(0) must return \"0\""
+            "value": "Number.prototype.toFixed(0) must return \"0\"",
+            "raw": "'Number.prototype.toFixed(0) must return \"0\"'"
           }
         ],
         "optional": false
@@ -245,7 +250,8 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 582,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -254,13 +260,15 @@
             "type": "Literal",
             "start": 585,
             "end": 590,
-            "value": "0.0"
+            "value": "0.0",
+            "raw": "\"0.0\""
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 639,
-            "value": "Number.prototype.toFixed(1) must return \"0.0\""
+            "value": "Number.prototype.toFixed(1) must return \"0.0\"",
+            "raw": "'Number.prototype.toFixed(1) must return \"0.0\"'"
           }
         ],
         "optional": false
@@ -335,7 +343,8 @@
                 "type": "Literal",
                 "start": 684,
                 "end": 687,
-                "value": 1.1
+                "value": 1.1,
+                "raw": "1.1"
               }
             ],
             "optional": false
@@ -344,13 +353,15 @@
             "type": "Literal",
             "start": 690,
             "end": 695,
-            "value": "0.0"
+            "value": "0.0",
+            "raw": "\"0.0\""
           },
           {
             "type": "Literal",
             "start": 697,
             "end": 746,
-            "value": "Number.prototype.toFixed(1.1) must return \"0.0\""
+            "value": "Number.prototype.toFixed(1.1) must return \"0.0\"",
+            "raw": "'Number.prototype.toFixed(1.1) must return \"0.0\"'"
           }
         ],
         "optional": false
@@ -425,7 +436,8 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 794,
-                "value": 0.9
+                "value": 0.9,
+                "raw": "0.9"
               }
             ],
             "optional": false
@@ -434,13 +446,15 @@
             "type": "Literal",
             "start": 797,
             "end": 800,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 802,
             "end": 849,
-            "value": "Number.prototype.toFixed(0.9) must return \"0\""
+            "value": "Number.prototype.toFixed(0.9) must return \"0\"",
+            "raw": "'Number.prototype.toFixed(0.9) must return \"0\"'"
           }
         ],
         "optional": false
@@ -515,7 +529,8 @@
                 "type": "Literal",
                 "start": 894,
                 "end": 897,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -524,13 +539,15 @@
             "type": "Literal",
             "start": 900,
             "end": 905,
-            "value": "0.0"
+            "value": "0.0",
+            "raw": "\"0.0\""
           },
           {
             "type": "Literal",
             "start": 907,
             "end": 956,
-            "value": "Number.prototype.toFixed(\"1\") must return \"0.0\""
+            "value": "Number.prototype.toFixed(\"1\") must return \"0.0\"",
+            "raw": "'Number.prototype.toFixed(\"1\") must return \"0.0\"'"
           }
         ],
         "optional": false
@@ -605,7 +622,8 @@
                 "type": "Literal",
                 "start": 1001,
                 "end": 1006,
-                "value": "1.1"
+                "value": "1.1",
+                "raw": "\"1.1\""
               }
             ],
             "optional": false
@@ -614,13 +632,15 @@
             "type": "Literal",
             "start": 1009,
             "end": 1014,
-            "value": "0.0"
+            "value": "0.0",
+            "raw": "\"0.0\""
           },
           {
             "type": "Literal",
             "start": 1016,
             "end": 1067,
-            "value": "Number.prototype.toFixed(\"1.1\") must return \"0.0\""
+            "value": "Number.prototype.toFixed(\"1.1\") must return \"0.0\"",
+            "raw": "'Number.prototype.toFixed(\"1.1\") must return \"0.0\"'"
           }
         ],
         "optional": false
@@ -695,7 +715,8 @@
                 "type": "Literal",
                 "start": 1112,
                 "end": 1117,
-                "value": "0.9"
+                "value": "0.9",
+                "raw": "\"0.9\""
               }
             ],
             "optional": false
@@ -704,13 +725,15 @@
             "type": "Literal",
             "start": 1120,
             "end": 1123,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1174,
-            "value": "Number.prototype.toFixed(\"0.9\") must return \"0\""
+            "value": "Number.prototype.toFixed(\"0.9\") must return \"0\"",
+            "raw": "'Number.prototype.toFixed(\"0.9\") must return \"0\"'"
           }
         ],
         "optional": false
@@ -807,13 +830,15 @@
             "type": "Literal",
             "start": 1232,
             "end": 1235,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 1237,
             "end": 1291,
-            "value": "Number.prototype.toFixed(Number.NaN) must return \"0\""
+            "value": "Number.prototype.toFixed(Number.NaN) must return \"0\"",
+            "raw": "'Number.prototype.toFixed(Number.NaN) must return \"0\"'"
           }
         ],
         "optional": false
@@ -888,7 +913,8 @@
                 "type": "Literal",
                 "start": 1340,
                 "end": 1353,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               }
             ],
             "optional": false
@@ -897,13 +923,15 @@
             "type": "Literal",
             "start": 1358,
             "end": 1361,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "Literal",
             "start": 1365,
             "end": 1422,
-            "value": "Number.prototype.toFixed(\"some string\") must return \"0\""
+            "value": "Number.prototype.toFixed(\"some string\") must return \"0\"",
+            "raw": "'Number.prototype.toFixed(\"some string\") must return \"0\"'"
           }
         ],
         "optional": false
@@ -993,7 +1021,8 @@
                         "type": "Literal",
                         "start": 1478,
                         "end": 1481,
-                        "value": 0.1
+                        "value": 0.1,
+                        "raw": "0.1"
                       }
                     }
                   ],
@@ -1003,13 +1032,15 @@
                   "type": "Literal",
                   "start": 1484,
                   "end": 1487,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 },
                 {
                   "type": "Literal",
                   "start": 1489,
                   "end": 1537,
-                  "value": "Number.prototype.toFixed(-0.1) must return \"0\""
+                  "value": "Number.prototype.toFixed(-0.1) must return \"0\"",
+                  "raw": "'Number.prototype.toFixed(-0.1) must return \"0\"'"
                 }
               ],
               "optional": false
@@ -1055,7 +1086,8 @@
                       "type": "Literal",
                       "start": 1579,
                       "end": 1634,
-                      "value": "#10: Number.prototype.toFixed(-0.1) should not throw "
+                      "value": "#10: Number.prototype.toFixed(-0.1) should not throw ",
+                      "raw": "'#10: Number.prototype.toFixed(-0.1) should not throw '"
                     },
                     "operator": "+",
                     "right": {

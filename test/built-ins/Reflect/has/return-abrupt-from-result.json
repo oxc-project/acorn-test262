@@ -208,7 +208,8 @@
                         "type": "Literal",
                         "start": 484,
                         "end": 488,
-                        "value": "p1"
+                        "value": "p1",
+                        "raw": "'p1'"
                       }
                     ],
                     "optional": false

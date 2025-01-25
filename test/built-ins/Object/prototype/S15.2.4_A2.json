@@ -99,13 +99,15 @@
             "type": "Literal",
             "start": 447,
             "end": 464,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 522,
-            "value": "The value of tostr is expected to be \"[object Object]\""
+            "value": "The value of tostr is expected to be \"[object Object]\"",
+            "raw": "'The value of tostr is expected to be \"[object Object]\"'"
           }
         ],
         "optional": false

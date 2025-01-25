@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 610,
-                "value": "1000000000000000789n"
+                "value": "1000000000000000789n",
+                "raw": "1_000_000_000_000_000_789n"
               },
               {
                 "type": "Literal",
                 "start": 612,
                 "end": 617,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 647,
                       "end": 648,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -142,7 +145,8 @@
                       "type": "Literal",
                       "start": 656,
                       "end": 658,
-                      "value": 10
+                      "value": 10,
+                      "raw": "10"
                     },
                     "kind": "init"
                   },
@@ -227,13 +231,15 @@
             "type": "Literal",
             "start": 707,
             "end": 711,
-            "value": 2001
+            "value": 2001,
+            "raw": "2001"
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 809,
-            "value": "only the properties that are present and defined in the plain object are copied (year value)"
+            "value": "only the properties that are present and defined in the plain object are copied (year value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (year value)\""
           }
         ],
         "optional": false
@@ -290,13 +296,15 @@
             "type": "Literal",
             "start": 841,
             "end": 842,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 941,
-            "value": "only the properties that are present and defined in the plain object are copied (month value)"
+            "value": "only the properties that are present and defined in the plain object are copied (month value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (month value)\""
           }
         ],
         "optional": false
@@ -353,13 +361,15 @@
             "type": "Literal",
             "start": 971,
             "end": 972,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 976,
             "end": 1069,
-            "value": "only the properties that are present and defined in the plain object are copied (day value)"
+            "value": "only the properties that are present and defined in the plain object are copied (day value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (day value)\""
           }
         ],
         "optional": false
@@ -416,13 +426,15 @@
             "type": "Literal",
             "start": 1100,
             "end": 1102,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 1106,
             "end": 1200,
-            "value": "only the properties that are present and defined in the plain object are copied (hour value)"
+            "value": "only the properties that are present and defined in the plain object are copied (hour value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (hour value)\""
           }
         ],
         "optional": false
@@ -479,13 +491,15 @@
             "type": "Literal",
             "start": 1232,
             "end": 1234,
-            "value": 46
+            "value": 46,
+            "raw": "46"
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1334,
-            "value": "only the properties that are present and defined in the plain object are copied (minute value)"
+            "value": "only the properties that are present and defined in the plain object are copied (minute value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (minute value)\""
           }
         ],
         "optional": false
@@ -542,13 +556,15 @@
             "type": "Literal",
             "start": 1366,
             "end": 1368,
-            "value": 40
+            "value": 40,
+            "raw": "40"
           },
           {
             "type": "Literal",
             "start": 1372,
             "end": 1468,
-            "value": "only the properties that are present and defined in the plain object are copied (second value)"
+            "value": "only the properties that are present and defined in the plain object are copied (second value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (second value)\""
           }
         ],
         "optional": false
@@ -605,13 +621,15 @@
             "type": "Literal",
             "start": 1505,
             "end": 1506,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1510,
             "end": 1611,
-            "value": "only the properties that are present and defined in the plain object are copied (millisecond value)"
+            "value": "only the properties that are present and defined in the plain object are copied (millisecond value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (millisecond value)\""
           }
         ],
         "optional": false
@@ -668,13 +686,15 @@
             "type": "Literal",
             "start": 1648,
             "end": 1649,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1653,
             "end": 1754,
-            "value": "only the properties that are present and defined in the plain object are copied (microsecond value)"
+            "value": "only the properties that are present and defined in the plain object are copied (microsecond value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (microsecond value)\""
           }
         ],
         "optional": false
@@ -731,13 +751,15 @@
             "type": "Literal",
             "start": 1790,
             "end": 1793,
-            "value": 789
+            "value": 789,
+            "raw": "789"
           },
           {
             "type": "Literal",
             "start": 1797,
             "end": 1897,
-            "value": "only the properties that are present and defined in the plain object are copied (nanosecond value)"
+            "value": "only the properties that are present and defined in the plain object are copied (nanosecond value)",
+            "raw": "\"only the properties that are present and defined in the plain object are copied (nanosecond value)\""
           }
         ],
         "optional": false

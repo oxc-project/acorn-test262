@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 596,
-                  "value": "multiline"
+                  "value": "multiline",
+                  "raw": "'multiline'"
                 }
               ],
               "optional": false

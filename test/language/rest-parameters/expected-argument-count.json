@@ -126,13 +126,15 @@
             "type": "Literal",
             "start": 441,
             "end": 442,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 477,
-            "value": "The value of `af.length` is `0`"
+            "value": "The value of `af.length` is `0`",
+            "raw": "\"The value of `af.length` is `0`\""
           }
         ],
         "optional": false
@@ -189,13 +191,15 @@
             "type": "Literal",
             "start": 508,
             "end": 509,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 544,
-            "value": "The value of `bf.length` is `1`"
+            "value": "The value of `bf.length` is `1`",
+            "raw": "\"The value of `bf.length` is `1`\""
           }
         ],
         "optional": false

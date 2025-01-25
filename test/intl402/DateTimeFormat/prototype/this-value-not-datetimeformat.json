@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 415,
-                  "value": "format getter"
+                  "value": "format getter",
+                  "raw": "\"format getter\""
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -100,7 +101,8 @@
                         "type": "Literal",
                         "start": 480,
                         "end": 488,
-                        "value": "format"
+                        "value": "format",
+                        "raw": "\"format\""
                       }
                     ],
                     "optional": false
@@ -212,25 +214,29 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 602,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 604,
                 "end": 608,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 610,
                 "end": 611,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 629,
-                "value": "DateTimeFormat"
+                "value": "DateTimeFormat",
+                "raw": "\"DateTimeFormat\""
               },
               {
                 "type": "ArrayExpression",
@@ -522,7 +528,8 @@
                                             "type": "Literal",
                                             "start": 882,
                                             "end": 892,
-                                            "value": "Calling "
+                                            "value": "Calling ",
+                                            "raw": "\"Calling \""
                                           },
                                           "operator": "+",
                                           "right": {
@@ -537,7 +544,8 @@
                                           "type": "Literal",
                                           "start": 910,
                                           "end": 916,
-                                          "value": " on "
+                                          "value": " on ",
+                                          "raw": "\" on \""
                                         }
                                       },
                                       "operator": "+",
@@ -553,7 +561,8 @@
                                       "type": "Literal",
                                       "start": 928,
                                       "end": 948,
-                                      "value": " was not rejected."
+                                      "value": " was not rejected.",
+                                      "raw": "\" was not rejected.\""
                                     }
                                   }
                                 ],

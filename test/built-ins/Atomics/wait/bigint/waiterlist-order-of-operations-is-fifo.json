@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 543,
             "end": 544,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 580,
             "end": 581,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -97,7 +100,8 @@
             "type": "Literal",
             "start": 598,
             "end": 599,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -168,7 +172,8 @@
                       "type": "Literal",
                       "start": 692,
                       "end": 693,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -202,7 +207,8 @@
               "type": "Literal",
               "start": 712,
               "end": 713,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -592,7 +598,8 @@
               "type": "Literal",
               "start": 1637,
               "end": 1638,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -691,7 +698,8 @@
                   "type": "Literal",
                   "start": 1757,
                   "end": 1759,
-                  "value": "1n"
+                  "value": "1n",
+                  "raw": "1n"
                 }
               ],
               "optional": false
@@ -856,7 +864,8 @@
                   "type": "Literal",
                   "start": 2117,
                   "end": 2119,
-                  "value": "0n"
+                  "value": "0n",
+                  "raw": "0n"
                 }
               ],
               "optional": false
@@ -888,7 +897,8 @@
               "type": "Literal",
               "start": 2186,
               "end": 2187,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -949,7 +959,8 @@
                   "type": "Literal",
                   "start": 2224,
                   "end": 2225,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -1018,7 +1029,8 @@
                         "type": "Literal",
                         "start": 2278,
                         "end": 2279,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -1030,7 +1042,8 @@
                 "type": "Literal",
                 "start": 2286,
                 "end": 2287,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "body": {
@@ -1077,7 +1090,8 @@
                   "type": "Literal",
                   "start": 2318,
                   "end": 2319,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "BinaryExpression",
@@ -1087,7 +1101,8 @@
                     "type": "Literal",
                     "start": 2340,
                     "end": 2400,
-                    "value": "Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = "
+                    "value": "Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = ",
+                    "raw": "'Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = '"
                   },
                   "operator": "+",
                   "right": {
@@ -1172,7 +1187,8 @@
                   "type": "Literal",
                   "start": 2451,
                   "end": 2455,
-                  "value": "ok"
+                  "value": "ok",
+                  "raw": "'ok'"
                 },
                 {
                   "type": "BinaryExpression",
@@ -1182,7 +1198,8 @@
                     "type": "Literal",
                     "start": 2476,
                     "end": 2526,
-                    "value": "$262.agent.getReport() returns \"ok\", at index = "
+                    "value": "$262.agent.getReport() returns \"ok\", at index = ",
+                    "raw": "'$262.agent.getReport() returns \"ok\", at index = '"
                   },
                   "operator": "+",
                   "right": {
@@ -1294,7 +1311,8 @@
                       "type": "Literal",
                       "start": 2608,
                       "end": 2663,
-                      "value": "$262.agent.getReport() returns the value of `started["
+                      "value": "$262.agent.getReport() returns the value of `started[",
+                      "raw": "'$262.agent.getReport() returns the value of `started['"
                     },
                     "operator": "+",
                     "right": {
@@ -1309,7 +1327,8 @@
                     "type": "Literal",
                     "start": 2670,
                     "end": 2674,
-                    "value": "]`"
+                    "value": "]`",
+                    "raw": "']`'"
                   }
                 }
               ],

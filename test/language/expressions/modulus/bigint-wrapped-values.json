@@ -50,7 +50,8 @@
                   "type": "Literal",
                   "start": 351,
                   "end": 353,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -60,20 +61,23 @@
               "type": "Literal",
               "start": 357,
               "end": 359,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 363,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 404,
-            "value": "The result of (Object(2n) % 2n) is 0n"
+            "value": "The result of (Object(2n) % 2n) is 0n",
+            "raw": "'The result of (Object(2n) % 2n) is 0n'"
           }
         ],
         "optional": false
@@ -115,7 +119,8 @@
               "type": "Literal",
               "start": 424,
               "end": 426,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "%",
             "right": {
@@ -133,7 +138,8 @@
                   "type": "Literal",
                   "start": 436,
                   "end": 438,
-                  "value": "2n"
+                  "value": "2n",
+                  "raw": "2n"
                 }
               ],
               "optional": false
@@ -143,13 +149,15 @@
             "type": "Literal",
             "start": 441,
             "end": 443,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 484,
-            "value": "The result of (2n % Object(2n)) is 0n"
+            "value": "The result of (2n % Object(2n)) is 0n",
+            "raw": "'The result of (2n % Object(2n)) is 0n'"
           }
         ],
         "optional": false
@@ -240,7 +248,8 @@
                             "type": "Literal",
                             "start": 555,
                             "end": 557,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -255,20 +264,23 @@
               "type": "Literal",
               "start": 567,
               "end": 569,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 573,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 653,
-            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n"
+            "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n",
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n'"
           }
         ],
         "optional": false
@@ -310,7 +322,8 @@
               "type": "Literal",
               "start": 674,
               "end": 676,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "%",
             "right": {
@@ -366,7 +379,8 @@
                             "type": "Literal",
                             "start": 729,
                             "end": 731,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -381,13 +395,15 @@
             "type": "Literal",
             "start": 740,
             "end": 742,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 820,
-            "value": "The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n"
+            "value": "The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n",
+            "raw": "'The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n'"
           }
         ],
         "optional": false
@@ -465,7 +481,8 @@
                             "type": "Literal",
                             "start": 878,
                             "end": 880,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -480,20 +497,23 @@
               "type": "Literal",
               "start": 890,
               "end": 892,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 896,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 898,
             "end": 963,
-            "value": "The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n"
+            "value": "The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n",
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n'"
           }
         ],
         "optional": false
@@ -535,7 +555,8 @@
               "type": "Literal",
               "start": 984,
               "end": 986,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "%",
             "right": {
@@ -578,7 +599,8 @@
                             "type": "Literal",
                             "start": 1026,
                             "end": 1028,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -593,13 +615,15 @@
             "type": "Literal",
             "start": 1037,
             "end": 1039,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 1041,
             "end": 1104,
-            "value": "The result of (2n % {valueOf: function() {return 2n;}}) is 0n"
+            "value": "The result of (2n % {valueOf: function() {return 2n;}}) is 0n",
+            "raw": "'The result of (2n % {valueOf: function() {return 2n;}}) is 0n'"
           }
         ],
         "optional": false
@@ -677,7 +701,8 @@
                             "type": "Literal",
                             "start": 1163,
                             "end": 1165,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -692,20 +717,23 @@
               "type": "Literal",
               "start": 1175,
               "end": 1177,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             }
           },
           {
             "type": "Literal",
             "start": 1179,
             "end": 1181,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 1183,
             "end": 1249,
-            "value": "The result of (({toString: function() {return 2n;}}) % 2n) is 0n"
+            "value": "The result of (({toString: function() {return 2n;}}) % 2n) is 0n",
+            "raw": "'The result of (({toString: function() {return 2n;}}) % 2n) is 0n'"
           }
         ],
         "optional": false
@@ -747,7 +775,8 @@
               "type": "Literal",
               "start": 1270,
               "end": 1272,
-              "value": "2n"
+              "value": "2n",
+              "raw": "2n"
             },
             "operator": "%",
             "right": {
@@ -790,7 +819,8 @@
                             "type": "Literal",
                             "start": 1313,
                             "end": 1315,
-                            "value": "2n"
+                            "value": "2n",
+                            "raw": "2n"
                           }
                         }
                       ]
@@ -805,13 +835,15 @@
             "type": "Literal",
             "start": 1324,
             "end": 1326,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 1328,
             "end": 1392,
-            "value": "The result of (2n % {toString: function() {return 2n;}}) is 0n"
+            "value": "The result of (2n % {toString: function() {return 2n;}}) is 0n",
+            "raw": "'The result of (2n % {toString: function() {return 2n;}}) is 0n'"
           }
         ],
         "optional": false

@@ -73,19 +73,22 @@
                       "type": "Literal",
                       "start": 1665,
                       "end": 1666,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     {
                       "type": "Literal",
                       "start": 1668,
                       "end": 1669,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     {
                       "type": "Literal",
                       "start": 1671,
                       "end": 1672,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     }
                   ]
                 }
@@ -187,7 +190,8 @@
                               "type": "Literal",
                               "start": 1728,
                               "end": 1732,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             },
                             "kind": "init"
                           }

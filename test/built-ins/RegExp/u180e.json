@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 731,
-                "value": "᠎"
+                "value": "᠎",
+                "raw": "\"\\u180E\""
               },
               "property": {
                 "type": "Identifier",
@@ -60,6 +61,7 @@
                 "start": 740,
                 "end": 746,
                 "value": {},
+                "raw": "/\\s+/g",
                 "regex": {
                   "pattern": "\\s+",
                   "flags": "g"
@@ -69,7 +71,8 @@
                 "type": "Literal",
                 "start": 748,
                 "end": 752,
-                "value": "42"
+                "value": "42",
+                "raw": "\"42\""
               }
             ],
             "optional": false
@@ -78,13 +81,15 @@
             "type": "Literal",
             "start": 755,
             "end": 763,
-            "value": "᠎"
+            "value": "᠎",
+            "raw": "\"\\u180E\""
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 794,
-            "value": "\\s should not match U+180E"
+            "value": "\\s should not match U+180E",
+            "raw": "\"\\\\s should not match U+180E\""
           }
         ],
         "optional": false
@@ -130,7 +135,8 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 822,
-                "value": "᠎"
+                "value": "᠎",
+                "raw": "\"\\u180E\""
               },
               "property": {
                 "type": "Identifier",
@@ -147,6 +153,7 @@
                 "start": 831,
                 "end": 837,
                 "value": {},
+                "raw": "/\\S+/g",
                 "regex": {
                   "pattern": "\\S+",
                   "flags": "g"
@@ -156,7 +163,8 @@
                 "type": "Literal",
                 "start": 839,
                 "end": 843,
-                "value": "42"
+                "value": "42",
+                "raw": "\"42\""
               }
             ],
             "optional": false
@@ -165,13 +173,15 @@
             "type": "Literal",
             "start": 846,
             "end": 850,
-            "value": "42"
+            "value": "42",
+            "raw": "\"42\""
           },
           {
             "type": "Literal",
             "start": 852,
             "end": 872,
-            "value": "\\S matches U+180E"
+            "value": "\\S matches U+180E",
+            "raw": "\"\\\\S matches U+180E\""
           }
         ],
         "optional": false

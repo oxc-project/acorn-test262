@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 267,
                 "end": 270,
-                "value": "A"
+                "value": "A",
+                "raw": "'A'"
               }
             ],
             "optional": false
@@ -132,7 +133,8 @@
             "type": "Literal",
             "start": 335,
             "end": 378,
-            "value": "The value of `Object(symA)` is not `symA`"
+            "value": "The value of `Object(symA)` is not `symA`",
+            "raw": "\"The value of `Object(symA)` is not `symA`\""
           }
         ],
         "optional": false
@@ -196,7 +198,8 @@
             "type": "Literal",
             "start": 421,
             "end": 464,
-            "value": "The value of `Object(symB)` is not `symB`"
+            "value": "The value of `Object(symB)` is not `symB`",
+            "raw": "\"The value of `Object(symB)` is not `symB`\""
           }
         ],
         "optional": false

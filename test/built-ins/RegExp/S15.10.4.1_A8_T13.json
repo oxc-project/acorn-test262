@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 357,
                     "end": 447,
-                    "value": "#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: "
+                    "value": "#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: ",
+                    "raw": "'#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -57,7 +58,8 @@
                           "type": "Literal",
                           "start": 462,
                           "end": 465,
-                          "value": "1"
+                          "value": "1",
+                          "raw": "\"1\""
                         },
                         {
                           "type": "ObjectExpression",
@@ -99,7 +101,8 @@
                                         "type": "Literal",
                                         "start": 494,
                                         "end": 503,
-                                        "value": "intostr"
+                                        "value": "intostr",
+                                        "raw": "\"intostr\""
                                       }
                                     }
                                   ]
@@ -171,13 +174,15 @@
                     "type": "Literal",
                     "start": 547,
                     "end": 556,
-                    "value": "intostr"
+                    "value": "intostr",
+                    "raw": "\"intostr\""
                   },
                   {
                     "type": "Literal",
                     "start": 558,
                     "end": 602,
-                    "value": "The value of e is expected to be \"intostr\""
+                    "value": "The value of e is expected to be \"intostr\"",
+                    "raw": "'The value of e is expected to be \"intostr\"'"
                   }
                 ],
                 "optional": false

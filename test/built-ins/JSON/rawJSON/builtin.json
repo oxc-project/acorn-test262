@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 1275,
             "end": 1303,
-            "value": "JSON.rawJSON is extensible"
+            "value": "JSON.rawJSON is extensible",
+            "raw": "\"JSON.rawJSON is extensible\""
           }
         ],
         "optional": false
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 1349,
             "end": 1359,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1363,
             "end": 1413,
-            "value": "The value of `typeof JSON.rawJSON` is \"function\""
+            "value": "The value of `typeof JSON.rawJSON` is \"function\"",
+            "raw": "'The value of `typeof JSON.rawJSON` is \"function\"'"
           }
         ],
         "optional": false
@@ -241,7 +244,8 @@
             "type": "Literal",
             "start": 1499,
             "end": 1548,
-            "value": "Prototype of JSON.rawJSON is Function.prototype"
+            "value": "Prototype of JSON.rawJSON is Function.prototype",
+            "raw": "\"Prototype of JSON.rawJSON is Function.prototype\""
           }
         ],
         "optional": false
@@ -322,7 +326,8 @@
                 "type": "Literal",
                 "start": 1619,
                 "end": 1630,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -337,7 +342,8 @@
             "type": "Literal",
             "start": 1648,
             "end": 1692,
-            "value": "JSON.rawJSON has no own prototype property"
+            "value": "JSON.rawJSON has no own prototype property",
+            "raw": "\"JSON.rawJSON has no own prototype property\""
           }
         ],
         "optional": false

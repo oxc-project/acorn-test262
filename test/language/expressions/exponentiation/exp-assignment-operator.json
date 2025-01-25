@@ -28,7 +28,8 @@
               "type": "Literal",
               "start": 844,
               "end": 845,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           }
         }
@@ -78,7 +79,8 @@
               "type": "Literal",
               "start": 874,
               "end": 875,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           },
           {
@@ -91,14 +93,16 @@
               "type": "Literal",
               "start": 878,
               "end": 880,
-              "value": 27
+              "value": 27,
+              "raw": "27"
             }
           },
           {
             "type": "Literal",
             "start": 882,
             "end": 922,
-            "value": "(base **= 3) === -27; where base is -3"
+            "value": "(base **= 3) === -27; where base is -3",
+            "raw": "\"(base **= 3) === -27; where base is -3\""
           }
         ],
         "optional": false

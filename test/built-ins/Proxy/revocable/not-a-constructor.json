@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 752,
             "end": 757,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 759,
             "end": 809,
-            "value": "isConstructor(Proxy.revocable) must return false"
+            "value": "isConstructor(Proxy.revocable) must return false",
+            "raw": "'isConstructor(Proxy.revocable) must return false'"
           }
         ],
         "optional": false

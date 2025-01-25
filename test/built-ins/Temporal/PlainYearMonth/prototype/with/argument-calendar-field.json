@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 316,
-                "value": "2019-10"
+                "value": "2019-10",
+                "raw": "\"2019-10\""
               }
             ],
             "optional": false
@@ -157,7 +158,8 @@
                         "type": "Literal",
                         "start": 366,
                         "end": 370,
-                        "value": 2021
+                        "value": 2021,
+                        "raw": "2021"
                       },
                       "kind": "init"
                     },
@@ -178,7 +180,8 @@
                         "type": "Literal",
                         "start": 382,
                         "end": 391,
-                        "value": "iso8601"
+                        "value": "iso8601",
+                        "raw": "\"iso8601\""
                       },
                       "kind": "init"
                     }

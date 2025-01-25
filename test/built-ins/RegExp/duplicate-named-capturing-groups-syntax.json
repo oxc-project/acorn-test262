@@ -61,7 +61,8 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 351,
-                  "value": "(?<x>a)(?<x>b)"
+                  "value": "(?<x>a)(?<x>b)",
+                  "raw": "\"(?<x>a)(?<x>b)\""
                 }
               ]
             }
@@ -70,7 +71,8 @@
             "type": "Literal",
             "start": 356,
             "end": 427,
-            "value": "Duplicate named capturing groups in the same alternative do not parse"
+            "value": "Duplicate named capturing groups in the same alternative do not parse",
+            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\""
           }
         ],
         "optional": false
@@ -95,7 +97,8 @@
             "type": "Literal",
             "start": 445,
             "end": 462,
-            "value": "(?<x>a)|(?<x>b)"
+            "value": "(?<x>a)|(?<x>b)",
+            "raw": "\"(?<x>a)|(?<x>b)\""
           }
         }
       ],
@@ -196,7 +199,8 @@
             "type": "Literal",
             "start": 537,
             "end": 612,
-            "value": "Duplicate named capturing groups in separate alternatives parse correctly"
+            "value": "Duplicate named capturing groups in separate alternatives parse correctly",
+            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\""
           }
         ],
         "optional": false

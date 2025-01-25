@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 295,
                 "end": 300,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           }
@@ -125,7 +126,8 @@
             "type": "Literal",
             "start": 367,
             "end": 395,
-            "value": "Object.getPrototypeOf(obj)"
+            "value": "Object.getPrototypeOf(obj)",
+            "raw": "'Object.getPrototypeOf(obj)'"
           }
         ],
         "optional": false

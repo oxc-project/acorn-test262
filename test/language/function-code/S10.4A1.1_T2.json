@@ -88,7 +88,8 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 305,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             },
             "consequent": {
@@ -153,7 +154,8 @@
                             "type": "Literal",
                             "start": 366,
                             "end": 367,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         }
                       }
@@ -183,7 +185,8 @@
                             "type": "Literal",
                             "start": 392,
                             "end": 393,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -209,7 +212,8 @@
                         "type": "Literal",
                         "start": 414,
                         "end": 415,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -251,7 +255,8 @@
               "type": "Literal",
               "start": 431,
               "end": 432,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ],
           "optional": false
@@ -316,7 +321,8 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 540,
-                  "value": "#1: Recursive function calls shares execution context"
+                  "value": "#1: Recursive function calls shares execution context",
+                  "raw": "\"#1: Recursive function calls shares execution context\""
                 }
               ]
             }

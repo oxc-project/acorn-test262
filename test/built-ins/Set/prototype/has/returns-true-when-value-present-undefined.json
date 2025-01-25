@@ -137,13 +137,15 @@
             "type": "Literal",
             "start": 450,
             "end": 454,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 491,
-            "value": "`s.has(undefined)` returns `true`"
+            "value": "`s.has(undefined)` returns `true`",
+            "raw": "\"`s.has(undefined)` returns `true`\""
           }
         ],
         "optional": false

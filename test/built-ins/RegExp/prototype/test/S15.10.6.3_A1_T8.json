@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 391,
                     "end": 494,
-                    "value": "#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: "
+                    "value": "#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
+                    "raw": "'#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -55,6 +56,7 @@
                           "start": 498,
                           "end": 505,
                           "value": {},
+                          "raw": "/[a-z]/",
                           "regex": {
                             "pattern": "[a-z]",
                             "flags": ""
@@ -98,7 +100,8 @@
                                   "type": "Literal",
                                   "start": 526,
                                   "end": 527,
-                                  "value": 0
+                                  "value": 0,
+                                  "raw": "0"
                                 }
                               },
                               "kind": "init"
@@ -138,7 +141,8 @@
                                         "type": "Literal",
                                         "start": 554,
                                         "end": 563,
-                                        "value": "invalof"
+                                        "value": "invalof",
+                                        "raw": "\"invalof\""
                                       }
                                     }
                                   ]
@@ -211,13 +215,15 @@
                     "type": "Literal",
                     "start": 607,
                     "end": 616,
-                    "value": "invalof"
+                    "value": "invalof",
+                    "raw": "\"invalof\""
                   },
                   {
                     "type": "Literal",
                     "start": 618,
                     "end": 662,
-                    "value": "The value of e is expected to be \"invalof\""
+                    "value": "The value of e is expected to be \"invalof\"",
+                    "raw": "'The value of e is expected to be \"invalof\"'"
                   }
                 ],
                 "optional": false

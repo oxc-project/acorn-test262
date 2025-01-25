@@ -86,7 +86,8 @@
                         "type": "Literal",
                         "start": 538,
                         "end": 555,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -128,7 +129,8 @@
                                       "type": "Literal",
                                       "start": 594,
                                       "end": 598,
-                                      "value": 1001
+                                      "value": 1001,
+                                      "raw": "1001"
                                     }
                                   }
                                 ]
@@ -227,7 +229,8 @@
                               "type": "Literal",
                               "start": 694,
                               "end": 698,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           },
@@ -248,7 +251,8 @@
                               "type": "Literal",
                               "start": 718,
                               "end": 722,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -285,7 +289,8 @@
                           "type": "Literal",
                           "start": 764,
                           "end": 783,
-                          "value": "getFunctionString"
+                          "value": "getFunctionString",
+                          "raw": "\"getFunctionString\""
                         }
                       }
                     ]
@@ -393,7 +398,8 @@
                         "type": "Literal",
                         "start": 891,
                         "end": 908,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -459,7 +465,8 @@
                               "type": "Literal",
                               "start": 964,
                               "end": 969,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           },
@@ -480,7 +487,8 @@
                               "type": "Literal",
                               "start": 989,
                               "end": 994,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           }
@@ -509,7 +517,8 @@
                       "type": "Literal",
                       "start": 1013,
                       "end": 1014,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   },
                   "consequent": {
@@ -540,7 +549,8 @@
                                 "type": "Literal",
                                 "start": 1045,
                                 "end": 1074,
-                                "value": "Expected c === 3, actually "
+                                "value": "Expected c === 3, actually ",
+                                "raw": "'Expected c === 3, actually '"
                               },
                               "operator": "+",
                               "right": {
@@ -582,7 +592,8 @@
                         "type": "Literal",
                         "start": 1113,
                         "end": 1130,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       {
                         "type": "CallExpression",
@@ -626,13 +637,15 @@
                         "type": "Literal",
                         "start": 1173,
                         "end": 1190,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       {
                         "type": "Literal",
                         "start": 1192,
                         "end": 1209,
-                        "value": "testgetFunction"
+                        "value": "testgetFunction",
+                        "raw": "\"testgetFunction\""
                       }
                     ],
                     "optional": false
@@ -663,7 +676,8 @@
                         "type": "Literal",
                         "start": 1241,
                         "end": 1258,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -687,7 +701,8 @@
                               "type": "Literal",
                               "start": 1278,
                               "end": 1283,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           },
@@ -708,7 +723,8 @@
                               "type": "Literal",
                               "start": 1303,
                               "end": 1308,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           }
@@ -726,19 +742,22 @@
               "type": "Literal",
               "start": 1318,
               "end": 1319,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 1321,
               "end": 1322,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 1324,
               "end": 1325,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ],
           "optional": false

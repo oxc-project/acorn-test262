@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 341,
                         "end": 359,
-                        "value": "  1234"
+                        "value": "  1234",
+                        "raw": "'\\u2028\\u20291234'"
                       }
                     ],
                     "optional": false

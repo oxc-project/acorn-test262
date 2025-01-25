@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 957,
             "end": 968,
-            "value": "return a;"
+            "value": "return a;",
+            "raw": "\"return a;\""
           }
         }
       ],
@@ -58,7 +59,8 @@
                 "type": "Literal",
                 "start": 986,
                 "end": 989,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -160,7 +162,8 @@
                       "type": "Literal",
                       "start": 1071,
                       "end": 1100,
-                      "value": "#1: test failed with error "
+                      "value": "#1: test failed with error ",
+                      "raw": "'#1: test failed with error '"
                     },
                     "operator": "+",
                     "right": {
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 1152,
             "end": 1223,
-            "value": "The value of f.constructor is expected to equal the value of Function"
+            "value": "The value of f.constructor is expected to equal the value of Function",
+            "raw": "'The value of f.constructor is expected to equal the value of Function'"
           }
         ],
         "optional": false
@@ -284,7 +288,8 @@
                 "type": "Literal",
                 "start": 1245,
                 "end": 1246,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -293,13 +298,15 @@
             "type": "Literal",
             "start": 1249,
             "end": 1250,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1252,
             "end": 1272,
-            "value": "f(1) must return 1"
+            "value": "f(1) must return 1",
+            "raw": "'f(1) must return 1'"
           }
         ],
         "optional": false

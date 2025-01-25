@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 581,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -190,7 +191,8 @@
                                   "type": "Literal",
                                   "start": 712,
                                   "end": 717,
-                                  "value": "bar"
+                                  "value": "bar",
+                                  "raw": "\"bar\""
                                 },
                                 {
                                   "type": "ObjectExpression",
@@ -214,7 +216,8 @@
                                         "type": "Literal",
                                         "start": 741,
                                         "end": 746,
-                                        "value": false
+                                        "value": false,
+                                        "raw": "false"
                                       },
                                       "kind": "init"
                                     },
@@ -235,7 +238,8 @@
                                         "type": "Literal",
                                         "start": 766,
                                         "end": 770,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       },
                                       "kind": "init"
                                     },
@@ -256,7 +260,8 @@
                                         "type": "Literal",
                                         "start": 785,
                                         "end": 786,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       },
                                       "kind": "init"
                                     }
@@ -409,7 +414,8 @@
                         "type": "Literal",
                         "start": 935,
                         "end": 940,
-                        "value": "bar"
+                        "value": "bar",
+                        "raw": "\"bar\""
                       }
                     ],
                     "optional": false

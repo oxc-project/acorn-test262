@@ -39,27 +39,31 @@
               "type": "Literal",
               "start": 630,
               "end": 632,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 636,
               "end": 638,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 644,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 680,
-            "value": "The result of (0n == 0n) is true"
+            "value": "The result of (0n == 0n) is true",
+            "raw": "'The result of (0n == 0n) is true'"
           }
         ],
         "optional": false
@@ -101,27 +105,31 @@
               "type": "Literal",
               "start": 700,
               "end": 702,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 706,
               "end": 708,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 710,
             "end": 714,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 750,
-            "value": "The result of (1n == 1n) is true"
+            "value": "The result of (1n == 1n) is true",
+            "raw": "'The result of (1n == 1n) is true'"
           }
         ],
         "optional": false
@@ -169,7 +177,8 @@
                 "type": "Literal",
                 "start": 771,
                 "end": 773,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "==",
@@ -183,7 +192,8 @@
                 "type": "Literal",
                 "start": 778,
                 "end": 780,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -191,13 +201,15 @@
             "type": "Literal",
             "start": 782,
             "end": 786,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 824,
-            "value": "The result of (-1n == -1n) is true"
+            "value": "The result of (-1n == -1n) is true",
+            "raw": "'The result of (-1n == -1n) is true'"
           }
         ],
         "optional": false
@@ -239,7 +251,8 @@
               "type": "Literal",
               "start": 844,
               "end": 846,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
@@ -252,7 +265,8 @@
                 "type": "Literal",
                 "start": 851,
                 "end": 853,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             }
           },
@@ -260,13 +274,15 @@
             "type": "Literal",
             "start": 855,
             "end": 859,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 896,
-            "value": "The result of (0n == -0n) is true"
+            "value": "The result of (0n == -0n) is true",
+            "raw": "'The result of (0n == -0n) is true'"
           }
         ],
         "optional": false
@@ -314,7 +330,8 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 919,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             },
             "operator": "==",
@@ -322,20 +339,23 @@
               "type": "Literal",
               "start": 923,
               "end": 925,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 927,
             "end": 931,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 968,
-            "value": "The result of (-0n == 0n) is true"
+            "value": "The result of (-0n == 0n) is true",
+            "raw": "'The result of (-0n == 0n) is true'"
           }
         ],
         "optional": false
@@ -377,27 +397,31 @@
               "type": "Literal",
               "start": 988,
               "end": 990,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 994,
               "end": 996,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 998,
             "end": 1003,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1005,
             "end": 1040,
-            "value": "The result of (0n == 1n) is false"
+            "value": "The result of (0n == 1n) is false",
+            "raw": "'The result of (0n == 1n) is false'"
           }
         ],
         "optional": false
@@ -439,27 +463,31 @@
               "type": "Literal",
               "start": 1060,
               "end": 1062,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 1066,
               "end": 1068,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1070,
             "end": 1075,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1077,
             "end": 1112,
-            "value": "The result of (1n == 0n) is false"
+            "value": "The result of (1n == 0n) is false",
+            "raw": "'The result of (1n == 0n) is false'"
           }
         ],
         "optional": false
@@ -501,7 +529,8 @@
               "type": "Literal",
               "start": 1132,
               "end": 1134,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
@@ -514,7 +543,8 @@
                 "type": "Literal",
                 "start": 1139,
                 "end": 1141,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -522,13 +552,15 @@
             "type": "Literal",
             "start": 1143,
             "end": 1148,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1150,
             "end": 1186,
-            "value": "The result of (0n == -1n) is false"
+            "value": "The result of (0n == -1n) is false",
+            "raw": "'The result of (0n == -1n) is false'"
           }
         ],
         "optional": false
@@ -576,7 +608,8 @@
                 "type": "Literal",
                 "start": 1207,
                 "end": 1209,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "==",
@@ -584,20 +617,23 @@
               "type": "Literal",
               "start": 1213,
               "end": 1215,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 1217,
             "end": 1222,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1224,
             "end": 1260,
-            "value": "The result of (-1n == 0n) is false"
+            "value": "The result of (-1n == 0n) is false",
+            "raw": "'The result of (-1n == 0n) is false'"
           }
         ],
         "optional": false
@@ -639,7 +675,8 @@
               "type": "Literal",
               "start": 1280,
               "end": 1282,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "==",
             "right": {
@@ -652,7 +689,8 @@
                 "type": "Literal",
                 "start": 1287,
                 "end": 1289,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -660,13 +698,15 @@
             "type": "Literal",
             "start": 1291,
             "end": 1296,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1334,
-            "value": "The result of (1n == -1n) is false"
+            "value": "The result of (1n == -1n) is false",
+            "raw": "'The result of (1n == -1n) is false'"
           }
         ],
         "optional": false
@@ -714,7 +754,8 @@
                 "type": "Literal",
                 "start": 1355,
                 "end": 1357,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "==",
@@ -722,20 +763,23 @@
               "type": "Literal",
               "start": 1361,
               "end": 1363,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 1365,
             "end": 1370,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1372,
             "end": 1408,
-            "value": "The result of (-1n == 1n) is false"
+            "value": "The result of (-1n == 1n) is false",
+            "raw": "'The result of (-1n == 1n) is false'"
           }
         ],
         "optional": false
@@ -777,27 +821,31 @@
               "type": "Literal",
               "start": 1432,
               "end": 1451,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 1455,
               "end": 1474,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             }
           },
           {
             "type": "Literal",
             "start": 1478,
             "end": 1482,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1486,
             "end": 1554,
-            "value": "The result of (0x1fffffffffffff01n == 0x1fffffffffffff01n) is true"
+            "value": "The result of (0x1fffffffffffff01n == 0x1fffffffffffff01n) is true",
+            "raw": "'The result of (0x1fffffffffffff01n == 0x1fffffffffffff01n) is true'"
           }
         ],
         "optional": false
@@ -839,27 +887,31 @@
               "type": "Literal",
               "start": 1579,
               "end": 1598,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 1602,
               "end": 1621,
-              "value": "2305843009213693698n"
+              "value": "2305843009213693698n",
+              "raw": "0x1fffffffffffff02n"
             }
           },
           {
             "type": "Literal",
             "start": 1625,
             "end": 1630,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1634,
             "end": 1703,
-            "value": "The result of (0x1fffffffffffff01n == 0x1fffffffffffff02n) is false"
+            "value": "The result of (0x1fffffffffffff01n == 0x1fffffffffffff02n) is false",
+            "raw": "'The result of (0x1fffffffffffff01n == 0x1fffffffffffff02n) is false'"
           }
         ],
         "optional": false
@@ -901,27 +953,31 @@
               "type": "Literal",
               "start": 1728,
               "end": 1747,
-              "value": "2305843009213693698n"
+              "value": "2305843009213693698n",
+              "raw": "0x1fffffffffffff02n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 1751,
               "end": 1770,
-              "value": "2305843009213693697n"
+              "value": "2305843009213693697n",
+              "raw": "0x1fffffffffffff01n"
             }
           },
           {
             "type": "Literal",
             "start": 1774,
             "end": 1779,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1783,
             "end": 1852,
-            "value": "The result of (0x1fffffffffffff02n == 0x1fffffffffffff01n) is false"
+            "value": "The result of (0x1fffffffffffff02n == 0x1fffffffffffff01n) is false",
+            "raw": "'The result of (0x1fffffffffffff02n == 0x1fffffffffffff01n) is false'"
           }
         ],
         "optional": false
@@ -969,7 +1025,8 @@
                 "type": "Literal",
                 "start": 1878,
                 "end": 1897,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             },
             "operator": "==",
@@ -983,7 +1040,8 @@
                 "type": "Literal",
                 "start": 1902,
                 "end": 1921,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             }
           },
@@ -991,13 +1049,15 @@
             "type": "Literal",
             "start": 1925,
             "end": 1929,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1933,
             "end": 2003,
-            "value": "The result of (-0x1fffffffffffff01n == -0x1fffffffffffff01n) is true"
+            "value": "The result of (-0x1fffffffffffff01n == -0x1fffffffffffff01n) is true",
+            "raw": "'The result of (-0x1fffffffffffff01n == -0x1fffffffffffff01n) is true'"
           }
         ],
         "optional": false
@@ -1045,7 +1105,8 @@
                 "type": "Literal",
                 "start": 2029,
                 "end": 2048,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             },
             "operator": "==",
@@ -1059,7 +1120,8 @@
                 "type": "Literal",
                 "start": 2053,
                 "end": 2072,
-                "value": "2305843009213693698n"
+                "value": "2305843009213693698n",
+                "raw": "0x1fffffffffffff02n"
               }
             }
           },
@@ -1067,13 +1129,15 @@
             "type": "Literal",
             "start": 2076,
             "end": 2081,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2085,
             "end": 2156,
-            "value": "The result of (-0x1fffffffffffff01n == -0x1fffffffffffff02n) is false"
+            "value": "The result of (-0x1fffffffffffff01n == -0x1fffffffffffff02n) is false",
+            "raw": "'The result of (-0x1fffffffffffff01n == -0x1fffffffffffff02n) is false'"
           }
         ],
         "optional": false
@@ -1121,7 +1185,8 @@
                 "type": "Literal",
                 "start": 2182,
                 "end": 2201,
-                "value": "2305843009213693698n"
+                "value": "2305843009213693698n",
+                "raw": "0x1fffffffffffff02n"
               }
             },
             "operator": "==",
@@ -1135,7 +1200,8 @@
                 "type": "Literal",
                 "start": 2206,
                 "end": 2225,
-                "value": "2305843009213693697n"
+                "value": "2305843009213693697n",
+                "raw": "0x1fffffffffffff01n"
               }
             }
           },
@@ -1143,13 +1209,15 @@
             "type": "Literal",
             "start": 2229,
             "end": 2234,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2238,
             "end": 2309,
-            "value": "The result of (-0x1fffffffffffff02n == -0x1fffffffffffff01n) is false"
+            "value": "The result of (-0x1fffffffffffff02n == -0x1fffffffffffff01n) is false",
+            "raw": "'The result of (-0x1fffffffffffff02n == -0x1fffffffffffff01n) is false'"
           }
         ],
         "optional": false
@@ -1191,27 +1259,31 @@
               "type": "Literal",
               "start": 2334,
               "end": 2354,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 2358,
               "end": 2360,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 2364,
             "end": 2369,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2373,
             "end": 2426,
-            "value": "The result of (0x10000000000000000n == 0n) is false"
+            "value": "The result of (0x10000000000000000n == 0n) is false",
+            "raw": "'The result of (0x10000000000000000n == 0n) is false'"
           }
         ],
         "optional": false
@@ -1253,27 +1325,31 @@
               "type": "Literal",
               "start": 2451,
               "end": 2453,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 2457,
               "end": 2477,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2481,
             "end": 2486,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2490,
             "end": 2543,
-            "value": "The result of (0n == 0x10000000000000000n) is false"
+            "value": "The result of (0n == 0x10000000000000000n) is false",
+            "raw": "'The result of (0n == 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1315,27 +1391,31 @@
               "type": "Literal",
               "start": 2568,
               "end": 2588,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 2592,
               "end": 2594,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 2598,
             "end": 2603,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2607,
             "end": 2660,
-            "value": "The result of (0x10000000000000000n == 1n) is false"
+            "value": "The result of (0x10000000000000000n == 1n) is false",
+            "raw": "'The result of (0x10000000000000000n == 1n) is false'"
           }
         ],
         "optional": false
@@ -1377,27 +1457,31 @@
               "type": "Literal",
               "start": 2685,
               "end": 2687,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 2691,
               "end": 2711,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2715,
             "end": 2720,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2724,
             "end": 2777,
-            "value": "The result of (1n == 0x10000000000000000n) is false"
+            "value": "The result of (1n == 0x10000000000000000n) is false",
+            "raw": "'The result of (1n == 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1439,7 +1523,8 @@
               "type": "Literal",
               "start": 2802,
               "end": 2822,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": "==",
             "right": {
@@ -1452,7 +1537,8 @@
                 "type": "Literal",
                 "start": 2827,
                 "end": 2829,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -1460,13 +1546,15 @@
             "type": "Literal",
             "start": 2833,
             "end": 2838,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2842,
             "end": 2896,
-            "value": "The result of (0x10000000000000000n == -1n) is false"
+            "value": "The result of (0x10000000000000000n == -1n) is false",
+            "raw": "'The result of (0x10000000000000000n == -1n) is false'"
           }
         ],
         "optional": false
@@ -1514,7 +1602,8 @@
                 "type": "Literal",
                 "start": 2922,
                 "end": 2924,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "==",
@@ -1522,20 +1611,23 @@
               "type": "Literal",
               "start": 2928,
               "end": 2948,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 2952,
             "end": 2957,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 2961,
             "end": 3015,
-            "value": "The result of (-1n == 0x10000000000000000n) is false"
+            "value": "The result of (-1n == 0x10000000000000000n) is false",
+            "raw": "'The result of (-1n == 0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1577,27 +1669,31 @@
               "type": "Literal",
               "start": 3040,
               "end": 3060,
-              "value": "18446744073709551617n"
+              "value": "18446744073709551617n",
+              "raw": "0x10000000000000001n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 3064,
               "end": 3066,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 3070,
             "end": 3075,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3079,
             "end": 3132,
-            "value": "The result of (0x10000000000000001n == 0n) is false"
+            "value": "The result of (0x10000000000000001n == 0n) is false",
+            "raw": "'The result of (0x10000000000000001n == 0n) is false'"
           }
         ],
         "optional": false
@@ -1639,27 +1735,31 @@
               "type": "Literal",
               "start": 3157,
               "end": 3159,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 3163,
               "end": 3183,
-              "value": "18446744073709551617n"
+              "value": "18446744073709551617n",
+              "raw": "0x10000000000000001n"
             }
           },
           {
             "type": "Literal",
             "start": 3187,
             "end": 3192,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3196,
             "end": 3249,
-            "value": "The result of (0n == 0x10000000000000001n) is false"
+            "value": "The result of (0n == 0x10000000000000001n) is false",
+            "raw": "'The result of (0n == 0x10000000000000001n) is false'"
           }
         ],
         "optional": false
@@ -1707,7 +1807,8 @@
                 "type": "Literal",
                 "start": 3275,
                 "end": 3295,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": "==",
@@ -1715,20 +1816,23 @@
               "type": "Literal",
               "start": 3299,
               "end": 3301,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 3305,
             "end": 3310,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3314,
             "end": 3368,
-            "value": "The result of (-0x10000000000000000n == 0n) is false"
+            "value": "The result of (-0x10000000000000000n == 0n) is false",
+            "raw": "'The result of (-0x10000000000000000n == 0n) is false'"
           }
         ],
         "optional": false
@@ -1770,7 +1874,8 @@
               "type": "Literal",
               "start": 3393,
               "end": 3395,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
@@ -1783,7 +1888,8 @@
                 "type": "Literal",
                 "start": 3400,
                 "end": 3420,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -1791,13 +1897,15 @@
             "type": "Literal",
             "start": 3424,
             "end": 3429,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3433,
             "end": 3487,
-            "value": "The result of (0n == -0x10000000000000000n) is false"
+            "value": "The result of (0n == -0x10000000000000000n) is false",
+            "raw": "'The result of (0n == -0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1845,7 +1953,8 @@
                 "type": "Literal",
                 "start": 3513,
                 "end": 3533,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": "==",
@@ -1853,20 +1962,23 @@
               "type": "Literal",
               "start": 3537,
               "end": 3539,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 3543,
             "end": 3548,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3552,
             "end": 3606,
-            "value": "The result of (-0x10000000000000000n == 1n) is false"
+            "value": "The result of (-0x10000000000000000n == 1n) is false",
+            "raw": "'The result of (-0x10000000000000000n == 1n) is false'"
           }
         ],
         "optional": false
@@ -1908,7 +2020,8 @@
               "type": "Literal",
               "start": 3631,
               "end": 3633,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             },
             "operator": "==",
             "right": {
@@ -1921,7 +2034,8 @@
                 "type": "Literal",
                 "start": 3638,
                 "end": 3658,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -1929,13 +2043,15 @@
             "type": "Literal",
             "start": 3662,
             "end": 3667,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3671,
             "end": 3725,
-            "value": "The result of (1n == -0x10000000000000000n) is false"
+            "value": "The result of (1n == -0x10000000000000000n) is false",
+            "raw": "'The result of (1n == -0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -1983,7 +2099,8 @@
                 "type": "Literal",
                 "start": 3751,
                 "end": 3771,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             },
             "operator": "==",
@@ -1997,7 +2114,8 @@
                 "type": "Literal",
                 "start": 3776,
                 "end": 3778,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             }
           },
@@ -2005,13 +2123,15 @@
             "type": "Literal",
             "start": 3782,
             "end": 3787,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3791,
             "end": 3846,
-            "value": "The result of (-0x10000000000000000n == -1n) is false"
+            "value": "The result of (-0x10000000000000000n == -1n) is false",
+            "raw": "'The result of (-0x10000000000000000n == -1n) is false'"
           }
         ],
         "optional": false
@@ -2059,7 +2179,8 @@
                 "type": "Literal",
                 "start": 3872,
                 "end": 3874,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             },
             "operator": "==",
@@ -2073,7 +2194,8 @@
                 "type": "Literal",
                 "start": 3879,
                 "end": 3899,
-                "value": "18446744073709551616n"
+                "value": "18446744073709551616n",
+                "raw": "0x10000000000000000n"
               }
             }
           },
@@ -2081,13 +2203,15 @@
             "type": "Literal",
             "start": 3903,
             "end": 3908,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3912,
             "end": 3967,
-            "value": "The result of (-1n == -0x10000000000000000n) is false"
+            "value": "The result of (-1n == -0x10000000000000000n) is false",
+            "raw": "'The result of (-1n == -0x10000000000000000n) is false'"
           }
         ],
         "optional": false
@@ -2135,7 +2259,8 @@
                 "type": "Literal",
                 "start": 3993,
                 "end": 4013,
-                "value": "18446744073709551617n"
+                "value": "18446744073709551617n",
+                "raw": "0x10000000000000001n"
               }
             },
             "operator": "==",
@@ -2143,20 +2268,23 @@
               "type": "Literal",
               "start": 4017,
               "end": 4019,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 4023,
             "end": 4028,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 4032,
             "end": 4086,
-            "value": "The result of (-0x10000000000000001n == 0n) is false"
+            "value": "The result of (-0x10000000000000001n == 0n) is false",
+            "raw": "'The result of (-0x10000000000000001n == 0n) is false'"
           }
         ],
         "optional": false
@@ -2198,7 +2326,8 @@
               "type": "Literal",
               "start": 4111,
               "end": 4113,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0n"
             },
             "operator": "==",
             "right": {
@@ -2211,7 +2340,8 @@
                 "type": "Literal",
                 "start": 4118,
                 "end": 4138,
-                "value": "18446744073709551617n"
+                "value": "18446744073709551617n",
+                "raw": "0x10000000000000001n"
               }
             }
           },
@@ -2219,13 +2349,15 @@
             "type": "Literal",
             "start": 4142,
             "end": 4147,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 4151,
             "end": 4205,
-            "value": "The result of (0n == -0x10000000000000001n) is false"
+            "value": "The result of (0n == -0x10000000000000001n) is false",
+            "raw": "'The result of (0n == -0x10000000000000001n) is false'"
           }
         ],
         "optional": false
@@ -2267,27 +2399,31 @@
               "type": "Literal",
               "start": 4230,
               "end": 4250,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 4254,
               "end": 4266,
-              "value": "4294967296n"
+              "value": "4294967296n",
+              "raw": "0x100000000n"
             }
           },
           {
             "type": "Literal",
             "start": 4270,
             "end": 4275,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 4279,
             "end": 4342,
-            "value": "The result of (0x10000000000000000n == 0x100000000n) is false"
+            "value": "The result of (0x10000000000000000n == 0x100000000n) is false",
+            "raw": "'The result of (0x10000000000000000n == 0x100000000n) is false'"
           }
         ],
         "optional": false
@@ -2329,27 +2465,31 @@
               "type": "Literal",
               "start": 4367,
               "end": 4379,
-              "value": "4294967296n"
+              "value": "4294967296n",
+              "raw": "0x100000000n"
             },
             "operator": "==",
             "right": {
               "type": "Literal",
               "start": 4383,
               "end": 4403,
-              "value": "18446744073709551616n"
+              "value": "18446744073709551616n",
+              "raw": "0x10000000000000000n"
             }
           },
           {
             "type": "Literal",
             "start": 4407,
             "end": 4412,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 4416,
             "end": 4479,
-            "value": "The result of (0x100000000n == 0x10000000000000000n) is false"
+            "value": "The result of (0x100000000n == 0x10000000000000000n) is false",
+            "raw": "'The result of (0x100000000n == 0x10000000000000000n) is false'"
           }
         ],
         "optional": false

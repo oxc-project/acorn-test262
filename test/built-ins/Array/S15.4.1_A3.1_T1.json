@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 373,
             "end": 381,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 441,
-            "value": "The value of `typeof Array()` is expected to be \"object\""
+            "value": "The value of `typeof Array()` is expected to be \"object\"",
+            "raw": "'The value of `typeof Array()` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -124,13 +126,15 @@
             "type": "Literal",
             "start": 493,
             "end": 497,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 577,
-            "value": "The result of evaluating (Array() instanceof Array) is expected to be true"
+            "value": "The result of evaluating (Array() instanceof Array) is expected to be true",
+            "raw": "'The result of evaluating (Array() instanceof Array) is expected to be true'"
           }
         ],
         "optional": false

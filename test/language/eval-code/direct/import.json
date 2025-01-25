@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 745,
-                        "value": "import v from \"./import.js\";"
+                        "value": "import v from \"./import.js\";",
+                        "raw": "'import v from \"./import.js\";'"
                       }
                     ],
                     "optional": false

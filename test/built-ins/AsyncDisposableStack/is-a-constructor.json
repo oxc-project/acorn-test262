@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 807,
             "end": 811,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 867,
-            "value": "isConstructor(AsyncDisposableStack) must return true"
+            "value": "isConstructor(AsyncDisposableStack) must return true",
+            "raw": "'isConstructor(AsyncDisposableStack) must return true'"
           }
         ],
         "optional": false

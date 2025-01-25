@@ -33,14 +33,16 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 493,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 499,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
           }
@@ -164,7 +166,8 @@
                               "type": "Literal",
                               "start": 622,
                               "end": 626,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

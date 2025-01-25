@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 338,
-                "value": "957270896987654321n"
+                "value": "957270896987654321n",
+                "raw": "957270896_987_654_321n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 398,
-                "value": "959949296987654322n"
+                "value": "959949296987654322n",
+                "raw": "959949296_987_654_322n"
               }
             ]
           }
@@ -214,13 +216,15 @@
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 521,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -277,13 +281,15 @@
             "type": "Literal",
             "start": 558,
             "end": 559,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 594,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -340,13 +346,15 @@
             "type": "Literal",
             "start": 630,
             "end": 631,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 666,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -403,13 +411,15 @@
             "type": "Literal",
             "start": 701,
             "end": 702,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 737,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -466,13 +476,15 @@
             "type": "Literal",
             "start": 773,
             "end": 774,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 809,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -529,13 +541,15 @@
             "type": "Literal",
             "start": 847,
             "end": 848,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 883,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -592,13 +606,15 @@
             "type": "Literal",
             "start": 921,
             "end": 928,
-            "value": 2678400
+            "value": 2678400,
+            "raw": "2678400"
           },
           {
             "type": "Literal",
             "start": 930,
             "end": 963,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -655,13 +671,15 @@
             "type": "Literal",
             "start": 1005,
             "end": 1006,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1062,
-            "value": "default smallest unit is nanoseconds and no rounding"
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\""
           }
         ],
         "optional": false
@@ -770,13 +788,15 @@
             "type": "Literal",
             "start": 1138,
             "end": 1139,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1141,
             "end": 1174,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -833,13 +853,15 @@
             "type": "Literal",
             "start": 1211,
             "end": 1212,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1247,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -896,13 +918,15 @@
             "type": "Literal",
             "start": 1283,
             "end": 1284,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1286,
             "end": 1319,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -959,13 +983,15 @@
             "type": "Literal",
             "start": 1354,
             "end": 1355,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1357,
             "end": 1390,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -1022,13 +1048,15 @@
             "type": "Literal",
             "start": 1426,
             "end": 1427,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1429,
             "end": 1462,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -1085,13 +1113,15 @@
             "type": "Literal",
             "start": 1500,
             "end": 1501,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1503,
             "end": 1536,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -1148,13 +1178,15 @@
             "type": "Literal",
             "start": 1574,
             "end": 1581,
-            "value": 2678400
+            "value": 2678400,
+            "raw": "2678400"
           },
           {
             "type": "Literal",
             "start": 1583,
             "end": 1616,
-            "value": "default largest unit is seconds"
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\""
           }
         ],
         "optional": false
@@ -1211,13 +1243,15 @@
             "type": "Literal",
             "start": 1658,
             "end": 1659,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1661,
             "end": 1715,
-            "value": "default smallest unit is nanoseconds and no rounding"
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\""
           }
         ],
         "optional": false

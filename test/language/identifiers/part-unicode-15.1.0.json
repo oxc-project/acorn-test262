@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 391,
+  "end": 383,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 372,
-      "end": 390,
+      "end": 382,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 376,
-          "end": 389,
+          "end": 381,
           "id": {
             "type": "Identifier",
             "start": 376,
-            "end": 389,
+            "end": 381,
             "name": "_‌‍・･"
           },
           "init": null

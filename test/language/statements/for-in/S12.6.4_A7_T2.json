@@ -78,7 +78,8 @@
               "type": "Literal",
               "start": 398,
               "end": 402,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           ],
           "optional": false
@@ -117,7 +118,8 @@
           "type": "Literal",
           "start": 416,
           "end": 417,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -153,7 +155,8 @@
           "type": "Literal",
           "start": 430,
           "end": 431,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -189,7 +192,8 @@
           "type": "Literal",
           "start": 444,
           "end": 445,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -212,7 +216,8 @@
           "type": "Literal",
           "start": 456,
           "end": 458,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       }
     },
@@ -276,7 +281,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 517,
-                  "value": "b"
+                  "value": "b",
+                  "raw": "\"b\""
                 }
               ],
               "optional": false
@@ -372,7 +378,8 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 595,
-                "value": "aa1ca3"
+                "value": "aa1ca3",
+                "raw": "\"aa1ca3\""
               }
             },
             "operator": "||",
@@ -391,7 +398,8 @@
                 "type": "Literal",
                 "start": 611,
                 "end": 619,
-                "value": "ca3aa1"
+                "value": "ca3aa1",
+                "raw": "\"ca3aa1\""
               }
             }
           },
@@ -407,7 +415,8 @@
                 "type": "Literal",
                 "start": 625,
                 "end": 646,
-                "value": "Unexpected value: '"
+                "value": "Unexpected value: '",
+                "raw": "\"Unexpected value: '\""
               },
               "operator": "+",
               "right": {
@@ -422,7 +431,8 @@
               "type": "Literal",
               "start": 659,
               "end": 662,
-              "value": "'"
+              "value": "'",
+              "raw": "\"'\""
             }
           }
         ],
@@ -542,7 +552,8 @@
                       "type": "Literal",
                       "start": 819,
                       "end": 820,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   },
                   "consequent": {

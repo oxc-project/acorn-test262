@@ -132,13 +132,15 @@
               "type": "Literal",
               "start": 494,
               "end": 502,
-              "value": "A"
+              "value": "A",
+              "raw": "\"\\u0041\""
             },
             {
               "type": "Literal",
               "start": 504,
               "end": 508,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             {
               "type": "BinaryExpression",
@@ -148,14 +150,16 @@
                 "type": "Literal",
                 "start": 510,
                 "end": 514,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 517,
                 "end": 518,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -166,7 +170,8 @@
           "type": "Literal",
           "start": 524,
           "end": 537,
-          "value": "falseAtrue2"
+          "value": "falseAtrue2",
+          "raw": "\"falseAtrue2\""
         }
       },
       "consequent": {
@@ -197,7 +202,8 @@
                     "type": "Literal",
                     "start": 566,
                     "end": 712,
-                    "value": "#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\u0041\",true,true+1) === \"falseAtrue2\". Actual: "
+                    "value": "#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\u0041\",true,true+1) === \"falseAtrue2\". Actual: ",
+                    "raw": "'#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\\\u0041\",true,true+1) === \"falseAtrue2\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -228,13 +234,15 @@
                         "type": "Literal",
                         "start": 733,
                         "end": 741,
-                        "value": "A"
+                        "value": "A",
+                        "raw": "\"\\u0041\""
                       },
                       {
                         "type": "Literal",
                         "start": 743,
                         "end": 747,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "BinaryExpression",
@@ -244,14 +252,16 @@
                           "type": "Literal",
                           "start": 749,
                           "end": 753,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 756,
                           "end": 757,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ],

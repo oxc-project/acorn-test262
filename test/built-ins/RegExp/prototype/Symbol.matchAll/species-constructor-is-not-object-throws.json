@@ -23,6 +23,7 @@
             "start": 717,
             "end": 720,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -96,7 +97,8 @@
                   "type": "Literal",
                   "start": 773,
                   "end": 775,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
               "optional": false
@@ -137,7 +139,8 @@
           "type": "Literal",
           "start": 802,
           "end": 806,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -185,7 +188,8 @@
             "type": "Literal",
             "start": 847,
             "end": 876,
-            "value": "`constructor` value is null"
+            "value": "`constructor` value is null",
+            "raw": "\"`constructor` value is null\""
           }
         ],
         "optional": false
@@ -223,7 +227,8 @@
           "type": "Literal",
           "start": 901,
           "end": 905,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -271,7 +276,8 @@
             "type": "Literal",
             "start": 946,
             "end": 978,
-            "value": "`constructor` value is Boolean"
+            "value": "`constructor` value is Boolean",
+            "raw": "\"`constructor` value is Boolean\""
           }
         ],
         "optional": false
@@ -309,7 +315,8 @@
           "type": "Literal",
           "start": 1003,
           "end": 1005,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       }
     },
@@ -357,7 +364,8 @@
             "type": "Literal",
             "start": 1046,
             "end": 1077,
-            "value": "`constructor` value is String"
+            "value": "`constructor` value is String",
+            "raw": "\"`constructor` value is String\""
           }
         ],
         "optional": false
@@ -450,7 +458,8 @@
             "type": "Literal",
             "start": 1151,
             "end": 1182,
-            "value": "`constructor` value is Symbol"
+            "value": "`constructor` value is Symbol",
+            "raw": "\"`constructor` value is Symbol\""
           }
         ],
         "optional": false
@@ -488,7 +497,8 @@
           "type": "Literal",
           "start": 1207,
           "end": 1208,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -536,7 +546,8 @@
             "type": "Literal",
             "start": 1249,
             "end": 1280,
-            "value": "`constructor` value is Number"
+            "value": "`constructor` value is Number",
+            "raw": "\"`constructor` value is Number\""
           }
         ],
         "optional": false

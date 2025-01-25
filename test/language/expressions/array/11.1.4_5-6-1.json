@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 748,
             "end": 751,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           },
           {
             "type": "ObjectExpression",
@@ -78,7 +79,8 @@
                   "type": "Literal",
                   "start": 778,
                   "end": 781,
-                  "value": 100
+                  "value": 100,
+                  "raw": "100"
                 },
                 "kind": "init"
               },
@@ -99,7 +101,8 @@
                   "type": "Literal",
                   "start": 809,
                   "end": 814,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -120,7 +123,8 @@
                   "type": "Literal",
                   "start": 846,
                   "end": 850,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -154,13 +158,15 @@
                 "type": "Literal",
                 "start": 890,
                 "end": 893,
-                "value": 101
+                "value": 101,
+                "raw": "101"
               },
               {
                 "type": "Literal",
                 "start": 895,
                 "end": 897,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -211,7 +217,8 @@
                 "type": "Literal",
                 "start": 927,
                 "end": 930,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -220,7 +227,8 @@
             "type": "Literal",
             "start": 933,
             "end": 967,
-            "value": "arr.hasOwnProperty(\"1\") !== true"
+            "value": "arr.hasOwnProperty(\"1\") !== true",
+            "raw": "'arr.hasOwnProperty(\"1\") !== true'"
           }
         ],
         "optional": false
@@ -268,7 +276,8 @@
               "type": "Literal",
               "start": 991,
               "end": 992,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -277,13 +286,15 @@
             "type": "Literal",
             "start": 995,
             "end": 997,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 999,
             "end": 1007,
-            "value": "arr[1]"
+            "value": "arr[1]",
+            "raw": "'arr[1]'"
           }
         ],
         "optional": false

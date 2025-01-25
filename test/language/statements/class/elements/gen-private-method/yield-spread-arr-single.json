@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 757,
                 "end": 760,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 762,
                 "end": 765,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 770,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }
@@ -66,7 +69,8 @@
             "type": "Literal",
             "start": 790,
             "end": 791,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -134,7 +138,8 @@
                         "type": "Literal",
                         "start": 839,
                         "end": 840,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   },
@@ -354,7 +359,8 @@
                   "type": "Literal",
                   "start": 1069,
                   "end": 1075,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -364,7 +370,8 @@
             "type": "Literal",
             "start": 1080,
             "end": 1152,
-            "value": "Private field '#gen' does not appear as an own property on C prototype"
+            "value": "Private field '#gen' does not appear as an own property on C prototype",
+            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -451,7 +458,8 @@
                   "type": "Literal",
                   "start": 1207,
                   "end": 1213,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -461,7 +469,8 @@
             "type": "Literal",
             "start": 1218,
             "end": 1292,
-            "value": "Private field '#gen' does not appear as an own property on C constructor"
+            "value": "Private field '#gen' does not appear as an own property on C constructor",
+            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\""
           }
         ],
         "optional": false
@@ -548,7 +557,8 @@
                   "type": "Literal",
                   "start": 1347,
                   "end": 1353,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -558,7 +568,8 @@
             "type": "Literal",
             "start": 1358,
             "end": 1429,
-            "value": "Private field '#gen' does not appear as an own property on C instance"
+            "value": "Private field '#gen' does not appear as an own property on C instance",
+            "raw": "\"Private field '#gen' does not appear as an own property on C instance\""
           }
         ],
         "optional": false
@@ -641,7 +652,8 @@
             "type": "Literal",
             "start": 1465,
             "end": 1470,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -781,7 +793,8 @@
             "type": "Literal",
             "start": 1557,
             "end": 1579,
-            "value": "value is a new array"
+            "value": "value is a new array",
+            "raw": "'value is a new array'"
           }
         ],
         "optional": false
@@ -839,7 +852,8 @@
             "type": "Literal",
             "start": 1611,
             "end": 1644,
-            "value": "value is an Array exotic object"
+            "value": "value is an Array exotic object",
+            "raw": "'value is an Array exotic object'"
           }
         ],
         "optional": false
@@ -896,7 +910,8 @@
             "type": "Literal",
             "start": 1678,
             "end": 1679,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -944,7 +959,8 @@
               "type": "Literal",
               "start": 1704,
               "end": 1705,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -953,7 +969,8 @@
             "type": "Literal",
             "start": 1708,
             "end": 1711,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           }
         ],
         "optional": false
@@ -1001,7 +1018,8 @@
               "type": "Literal",
               "start": 1737,
               "end": 1738,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -1010,7 +1028,8 @@
             "type": "Literal",
             "start": 1741,
             "end": 1744,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           }
         ],
         "optional": false
@@ -1058,7 +1077,8 @@
               "type": "Literal",
               "start": 1770,
               "end": 1771,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -1067,7 +1087,8 @@
             "type": "Literal",
             "start": 1774,
             "end": 1777,
-            "value": "c"
+            "value": "c",
+            "raw": "'c'"
           }
         ],
         "optional": false
@@ -1124,7 +1145,8 @@
             "type": "Literal",
             "start": 1808,
             "end": 1813,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -1168,7 +1190,8 @@
             "type": "Literal",
             "start": 1845,
             "end": 1846,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -1268,7 +1291,8 @@
                   "type": "Literal",
                   "start": 1985,
                   "end": 1991,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1278,7 +1302,8 @@
             "type": "Literal",
             "start": 1996,
             "end": 2068,
-            "value": "Private field '#gen' does not appear as an own property on C prototype"
+            "value": "Private field '#gen' does not appear as an own property on C prototype",
+            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -1365,7 +1390,8 @@
                   "type": "Literal",
                   "start": 2123,
                   "end": 2129,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1375,7 +1401,8 @@
             "type": "Literal",
             "start": 2134,
             "end": 2208,
-            "value": "Private field '#gen' does not appear as an own property on C constructor"
+            "value": "Private field '#gen' does not appear as an own property on C constructor",
+            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\""
           }
         ],
         "optional": false
@@ -1462,7 +1489,8 @@
                   "type": "Literal",
                   "start": 2263,
                   "end": 2269,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1472,7 +1500,8 @@
             "type": "Literal",
             "start": 2274,
             "end": 2345,
-            "value": "Private field '#gen' does not appear as an own property on C instance"
+            "value": "Private field '#gen' does not appear as an own property on C instance",
+            "raw": "\"Private field '#gen' does not appear as an own property on C instance\""
           }
         ],
         "optional": false

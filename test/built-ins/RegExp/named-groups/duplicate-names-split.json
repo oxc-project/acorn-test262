@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 339,
-                "value": "xab"
+                "value": "xab",
+                "raw": "\"xab\""
               },
               "property": {
                 "type": "Identifier",
@@ -60,6 +61,7 @@
                 "start": 346,
                 "end": 363,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -77,13 +79,15 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 370,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 375,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Identifier",
@@ -95,7 +99,8 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 390,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Identifier",
@@ -107,13 +112,15 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 406,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 410,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }
@@ -161,7 +168,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 439,
-                "value": "xba"
+                "value": "xba",
+                "raw": "\"xba\""
               },
               "property": {
                 "type": "Identifier",
@@ -178,6 +186,7 @@
                 "start": 446,
                 "end": 463,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -195,7 +204,8 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 470,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Identifier",
@@ -207,19 +217,22 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 486,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 490,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 495,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Identifier",
@@ -231,7 +244,8 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 510,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }

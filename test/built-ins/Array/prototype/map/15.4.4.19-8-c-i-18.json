@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             },
             "consequent": {
@@ -94,7 +95,8 @@
                       "type": "Literal",
                       "start": 390,
                       "end": 401,
-                      "value": "undefined"
+                      "value": "undefined",
+                      "raw": "\"undefined\""
                     }
                   }
                 }
@@ -110,7 +112,8 @@
               "type": "Literal",
               "start": 416,
               "end": 421,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           }
         ]
@@ -179,7 +182,8 @@
             "type": "Literal",
             "start": 468,
             "end": 471,
-            "value": "1"
+            "value": "1",
+            "raw": "\"1\""
           },
           {
             "type": "ObjectExpression",
@@ -234,7 +238,8 @@
                   "type": "Literal",
                   "start": 513,
                   "end": 517,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -338,7 +343,8 @@
               "type": "Literal",
               "start": 590,
               "end": 591,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -347,13 +353,15 @@
             "type": "Literal",
             "start": 594,
             "end": 598,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 600,
             "end": 615,
-            "value": "testResult[1]"
+            "value": "testResult[1]",
+            "raw": "'testResult[1]'"
           }
         ],
         "optional": false

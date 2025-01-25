@@ -74,7 +74,8 @@
                           "type": "Literal",
                           "start": 385,
                           "end": 388,
-                          "value": "1"
+                          "value": "1",
+                          "raw": "'1'"
                         }
                       ],
                       "optional": false
@@ -84,7 +85,8 @@
                       "type": "Literal",
                       "start": 392,
                       "end": 394,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -95,7 +97,8 @@
             "type": "Literal",
             "start": 399,
             "end": 434,
-            "value": "Symbol(\"1\") | 0n throws TypeError"
+            "value": "Symbol(\"1\") | 0n throws TypeError",
+            "raw": "'Symbol(\"1\") | 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -161,7 +164,8 @@
                       "type": "Literal",
                       "start": 478,
                       "end": 480,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "|",
                     "right": {
@@ -179,7 +183,8 @@
                           "type": "Literal",
                           "start": 490,
                           "end": 493,
-                          "value": "1"
+                          "value": "1",
+                          "raw": "'1'"
                         }
                       ],
                       "optional": false
@@ -193,7 +198,8 @@
             "type": "Literal",
             "start": 499,
             "end": 534,
-            "value": "0n | Symbol(\"1\") throws TypeError"
+            "value": "0n | Symbol(\"1\") throws TypeError",
+            "raw": "'0n | Symbol(\"1\") throws TypeError'"
           }
         ],
         "optional": false
@@ -281,7 +287,8 @@
                               "type": "Literal",
                               "start": 592,
                               "end": 595,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "'1'"
                             }
                           ],
                           "optional": false
@@ -294,7 +301,8 @@
                       "type": "Literal",
                       "start": 600,
                       "end": 602,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -305,7 +313,8 @@
             "type": "Literal",
             "start": 607,
             "end": 650,
-            "value": "Object(Symbol(\"1\")) | 0n throws TypeError"
+            "value": "Object(Symbol(\"1\")) | 0n throws TypeError",
+            "raw": "'Object(Symbol(\"1\")) | 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -371,7 +380,8 @@
                       "type": "Literal",
                       "start": 694,
                       "end": 696,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "|",
                     "right": {
@@ -400,7 +410,8 @@
                               "type": "Literal",
                               "start": 713,
                               "end": 716,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "'1'"
                             }
                           ],
                           "optional": false
@@ -417,7 +428,8 @@
             "type": "Literal",
             "start": 723,
             "end": 766,
-            "value": "0n | Object(Symbol(\"1\")) throws TypeError"
+            "value": "0n | Object(Symbol(\"1\")) throws TypeError",
+            "raw": "'0n | Object(Symbol(\"1\")) throws TypeError'"
           }
         ],
         "optional": false
@@ -547,7 +559,8 @@
                                           "type": "Literal",
                                           "start": 872,
                                           "end": 875,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "'1'"
                                         }
                                       ],
                                       "optional": false
@@ -566,7 +579,8 @@
                       "type": "Literal",
                       "start": 891,
                       "end": 893,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -577,7 +591,8 @@
             "type": "Literal",
             "start": 898,
             "end": 980,
-            "value": "({[Symbol.toPrimitive]: function() {return Symbol(\"1\");}}) | 0n throws TypeError"
+            "value": "({[Symbol.toPrimitive]: function() {return Symbol(\"1\");}}) | 0n throws TypeError",
+            "raw": "'({[Symbol.toPrimitive]: function() {return Symbol(\"1\");}}) | 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -643,7 +658,8 @@
                       "type": "Literal",
                       "start": 1024,
                       "end": 1026,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "|",
                     "right": {
@@ -710,7 +726,8 @@
                                         "type": "Literal",
                                         "start": 1090,
                                         "end": 1093,
-                                        "value": "1"
+                                        "value": "1",
+                                        "raw": "'1'"
                                       }
                                     ],
                                     "optional": false
@@ -732,7 +749,8 @@
             "type": "Literal",
             "start": 1110,
             "end": 1190,
-            "value": "0n | {[Symbol.toPrimitive]: function() {return Symbol(\"1\");}} throws TypeError"
+            "value": "0n | {[Symbol.toPrimitive]: function() {return Symbol(\"1\");}} throws TypeError",
+            "raw": "'0n | {[Symbol.toPrimitive]: function() {return Symbol(\"1\");}} throws TypeError'"
           }
         ],
         "optional": false
@@ -849,7 +867,8 @@
                                           "type": "Literal",
                                           "start": 1283,
                                           "end": 1286,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "'1'"
                                         }
                                       ],
                                       "optional": false
@@ -868,7 +887,8 @@
                       "type": "Literal",
                       "start": 1302,
                       "end": 1304,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -879,7 +899,8 @@
             "type": "Literal",
             "start": 1309,
             "end": 1378,
-            "value": "({valueOf: function() {return Symbol(\"1\");}}) | 0n throws TypeError"
+            "value": "({valueOf: function() {return Symbol(\"1\");}}) | 0n throws TypeError",
+            "raw": "'({valueOf: function() {return Symbol(\"1\");}}) | 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -945,7 +966,8 @@
                       "type": "Literal",
                       "start": 1422,
                       "end": 1424,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "|",
                     "right": {
@@ -999,7 +1021,8 @@
                                         "type": "Literal",
                                         "start": 1475,
                                         "end": 1478,
-                                        "value": "1"
+                                        "value": "1",
+                                        "raw": "'1'"
                                       }
                                     ],
                                     "optional": false
@@ -1021,7 +1044,8 @@
             "type": "Literal",
             "start": 1495,
             "end": 1562,
-            "value": "0n | {valueOf: function() {return Symbol(\"1\");}} throws TypeError"
+            "value": "0n | {valueOf: function() {return Symbol(\"1\");}} throws TypeError",
+            "raw": "'0n | {valueOf: function() {return Symbol(\"1\");}} throws TypeError'"
           }
         ],
         "optional": false
@@ -1138,7 +1162,8 @@
                                           "type": "Literal",
                                           "start": 1656,
                                           "end": 1659,
-                                          "value": "1"
+                                          "value": "1",
+                                          "raw": "'1'"
                                         }
                                       ],
                                       "optional": false
@@ -1157,7 +1182,8 @@
                       "type": "Literal",
                       "start": 1675,
                       "end": 1677,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -1168,7 +1194,8 @@
             "type": "Literal",
             "start": 1682,
             "end": 1752,
-            "value": "({toString: function() {return Symbol(\"1\");}}) | 0n throws TypeError"
+            "value": "({toString: function() {return Symbol(\"1\");}}) | 0n throws TypeError",
+            "raw": "'({toString: function() {return Symbol(\"1\");}}) | 0n throws TypeError'"
           }
         ],
         "optional": false
@@ -1234,7 +1261,8 @@
                       "type": "Literal",
                       "start": 1796,
                       "end": 1798,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": "|",
                     "right": {
@@ -1288,7 +1316,8 @@
                                         "type": "Literal",
                                         "start": 1850,
                                         "end": 1853,
-                                        "value": "1"
+                                        "value": "1",
+                                        "raw": "'1'"
                                       }
                                     ],
                                     "optional": false
@@ -1310,7 +1339,8 @@
             "type": "Literal",
             "start": 1870,
             "end": 1938,
-            "value": "0n | {toString: function() {return Symbol(\"1\");}} throws TypeError"
+            "value": "0n | {toString: function() {return Symbol(\"1\");}} throws TypeError",
+            "raw": "'0n | {toString: function() {return Symbol(\"1\");}} throws TypeError'"
           }
         ],
         "optional": false

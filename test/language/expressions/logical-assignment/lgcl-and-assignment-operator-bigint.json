@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 750,
             "end": 752,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           }
         }
       ],
@@ -71,20 +72,23 @@
               "type": "Literal",
               "start": 781,
               "end": 783,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 785,
             "end": 787,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 830,
-            "value": "(value &&= 1n) === 0n; where value = 0n"
+            "value": "(value &&= 1n) === 0n; where value = 0n",
+            "raw": "\"(value &&= 1n) === 0n; where value = 0n\""
           }
         ],
         "optional": false
@@ -109,7 +113,8 @@
           "type": "Literal",
           "start": 842,
           "end": 844,
-          "value": "2n"
+          "value": "2n",
+          "raw": "2n"
         }
       }
     },
@@ -156,20 +161,23 @@
               "type": "Literal",
               "start": 873,
               "end": 875,
-              "value": "1n"
+              "value": "1n",
+              "raw": "1n"
             }
           },
           {
             "type": "Literal",
             "start": 877,
             "end": 879,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 922,
-            "value": "(value &&= 1n) === 1n; where value = 2n"
+            "value": "(value &&= 1n) === 1n; where value = 2n",
+            "raw": "\"(value &&= 1n) === 1n; where value = 2n\""
           }
         ],
         "optional": false

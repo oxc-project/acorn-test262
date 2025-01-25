@@ -31,6 +31,7 @@
                 "start": 602,
                 "end": 605,
                 "value": {},
+                "raw": "/d/",
                 "regex": {
                   "pattern": "d",
                   "flags": ""
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 620,
                 "end": 629,
-                "value": "abcdefg"
+                "value": "abcdefg",
+                "raw": "'abcdefg'"
               }
             ],
             "optional": false
@@ -175,7 +177,8 @@
             "type": "Literal",
             "start": 696,
             "end": 697,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -223,7 +226,8 @@
               "type": "Literal",
               "start": 724,
               "end": 725,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -232,7 +236,8 @@
             "type": "Literal",
             "start": 728,
             "end": 733,
-            "value": "abc"
+            "value": "abc",
+            "raw": "'abc'"
           }
         ],
         "optional": false
@@ -280,7 +285,8 @@
               "type": "Literal",
               "start": 760,
               "end": 761,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -289,7 +295,8 @@
             "type": "Literal",
             "start": 764,
             "end": 769,
-            "value": "efg"
+            "value": "efg",
+            "raw": "'efg'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -157,7 +158,8 @@
                       "type": "Literal",
                       "start": 512,
                       "end": 513,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -372,7 +374,8 @@
             "type": "Literal",
             "start": 996,
             "end": 998,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           }
         ],
         "optional": false
@@ -460,19 +463,22 @@
             "type": "Literal",
             "start": 1126,
             "end": 1127,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1131,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 1133,
             "end": 1135,
-            "value": "1n"
+            "value": "1n",
+            "raw": "1n"
           }
         ],
         "optional": false
@@ -573,7 +579,8 @@
             "type": "Literal",
             "start": 1207,
             "end": 1251,
-            "value": "The result of `(lapse >= TIMEOUT)` is true"
+            "value": "The result of `(lapse >= TIMEOUT)` is true",
+            "raw": "'The result of `(lapse >= TIMEOUT)` is true'"
           }
         ],
         "optional": false
@@ -650,13 +657,15 @@
             "type": "Literal",
             "start": 1301,
             "end": 1312,
-            "value": "timed-out"
+            "value": "timed-out",
+            "raw": "'timed-out'"
           },
           {
             "type": "Literal",
             "start": 1316,
             "end": 1360,
-            "value": "$262.agent.getReport() returns \"timed-out\""
+            "value": "$262.agent.getReport() returns \"timed-out\"",
+            "raw": "'$262.agent.getReport() returns \"timed-out\"'"
           }
         ],
         "optional": false
@@ -724,7 +733,8 @@
                 "type": "Literal",
                 "start": 1402,
                 "end": 1403,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -733,13 +743,15 @@
             "type": "Literal",
             "start": 1406,
             "end": 1407,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1409,
             "end": 1444,
-            "value": "Atomics.notify(i64a, 0) returns 0"
+            "value": "Atomics.notify(i64a, 0) returns 0",
+            "raw": "'Atomics.notify(i64a, 0) returns 0'"
           }
         ],
         "optional": false

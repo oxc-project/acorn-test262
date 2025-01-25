@@ -35,7 +35,8 @@
           "type": "Literal",
           "start": 358,
           "end": 369,
-          "value": "JSONValue"
+          "value": "JSONValue",
+          "raw": "\"JSONValue\""
         }
       }
     },
@@ -170,13 +171,15 @@
             "type": "Literal",
             "start": 453,
             "end": 464,
-            "value": "JSONValue"
+            "value": "JSONValue",
+            "raw": "\"JSONValue\""
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 479,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

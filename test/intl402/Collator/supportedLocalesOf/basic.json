@@ -99,7 +99,8 @@
             "type": "Literal",
             "start": 347,
             "end": 352,
-            "value": "zxx"
+            "value": "zxx",
+            "raw": "'zxx'"
           }
         }
       ],
@@ -219,7 +220,8 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 515,
-                "value": "supportedLocalesOf"
+                "value": "supportedLocalesOf",
+                "raw": "'supportedLocalesOf'"
               }
             ],
             "optional": false
@@ -228,7 +230,8 @@
             "type": "Literal",
             "start": 518,
             "end": 577,
-            "value": "Intl.Collator doesn't have a supportedLocalesOf property."
+            "value": "Intl.Collator doesn't have a supportedLocalesOf property.",
+            "raw": "\"Intl.Collator doesn't have a supportedLocalesOf property.\""
           }
         ],
         "optional": false
@@ -348,13 +351,15 @@
             "type": "Literal",
             "start": 694,
             "end": 695,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 697,
             "end": 745,
-            "value": "The length of supported locales list is not 1."
+            "value": "The length of supported locales list is not 1.",
+            "raw": "'The length of supported locales list is not 1.'"
           }
         ],
         "optional": false
@@ -402,7 +407,8 @@
               "type": "Literal",
               "start": 783,
               "end": 784,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -417,7 +423,8 @@
             "type": "Literal",
             "start": 802,
             "end": 861,
-            "value": "The default locale is not returned in the supported list."
+            "value": "The default locale is not returned in the supported list.",
+            "raw": "'The default locale is not returned in the supported list.'"
           }
         ],
         "optional": false

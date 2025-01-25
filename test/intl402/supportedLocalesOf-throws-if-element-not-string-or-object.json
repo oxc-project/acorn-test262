@@ -33,31 +33,36 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 335,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 341,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 348,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "UnaryExpression",
@@ -69,7 +74,8 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 358,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 }
               },
               {
@@ -291,7 +297,8 @@
                                         "type": "Literal",
                                         "start": 592,
                                         "end": 594,
-                                        "value": ""
+                                        "value": "",
+                                        "raw": "\"\""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -306,7 +313,8 @@
                                       "type": "Literal",
                                       "start": 605,
                                       "end": 635,
-                                      "value": " as locale was not rejected."
+                                      "value": " as locale was not rejected.",
+                                      "raw": "\" as locale was not rejected.\""
                                     }
                                   }
                                 ],

@@ -46,7 +46,8 @@
                           "type": "Literal",
                           "start": 473,
                           "end": 489,
-                          "value": "NoInExpression"
+                          "value": "NoInExpression",
+                          "raw": "\"NoInExpression\""
                         }
                       }
                     ]
@@ -87,7 +88,8 @@
                           "type": "Literal",
                           "start": 514,
                           "end": 532,
-                          "value": "SecondExpression"
+                          "value": "SecondExpression",
+                          "raw": "\"SecondExpression\""
                         }
                       }
                     ]
@@ -110,7 +112,8 @@
                     "type": "Literal",
                     "start": 548,
                     "end": 559,
-                    "value": "Statement"
+                    "value": "Statement",
+                    "raw": "\"Statement\""
                   }
                 }
               ]
@@ -135,7 +138,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 659,
-                  "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception"
+                  "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception",
+                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'"
                 }
               ]
             }
@@ -176,7 +180,8 @@
                   "type": "Literal",
                   "start": 687,
                   "end": 703,
-                  "value": "NoInExpression"
+                  "value": "NoInExpression",
+                  "raw": "\"NoInExpression\""
                 }
               },
               "consequent": {
@@ -203,7 +208,8 @@
                           "type": "Literal",
                           "start": 732,
                           "end": 833,
-                          "value": "#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first"
+                          "value": "#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first",
+                          "raw": "'#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first'"
                         }
                       ]
                     }

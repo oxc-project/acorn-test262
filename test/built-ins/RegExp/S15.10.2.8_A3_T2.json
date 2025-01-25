@@ -31,6 +31,7 @@
                 "start": 690,
                 "end": 727,
                 "value": {},
+                "raw": "/([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)/",
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 733,
                 "end": 770,
-                "value": "Developing with Java is fun, try it"
+                "value": "Developing with Java is fun, try it",
+                "raw": "\"Developing with Java is fun, try it\""
               }
             ],
             "optional": false
@@ -83,13 +85,15 @@
                 "type": "Literal",
                 "start": 792,
                 "end": 805,
-                "value": "Java is fun"
+                "value": "Java is fun",
+                "raw": "\"Java is fun\""
               },
               {
                 "type": "Literal",
                 "start": 806,
                 "end": 812,
-                "value": "Java"
+                "value": "Java",
+                "raw": "\"Java\""
               },
               {
                 "type": "Identifier",
@@ -101,7 +105,8 @@
                 "type": "Literal",
                 "start": 823,
                 "end": 828,
-                "value": "fun"
+                "value": "fun",
+                "raw": "\"fun\""
               }
             ]
           }
@@ -141,7 +146,8 @@
           "type": "Literal",
           "start": 850,
           "end": 852,
-          "value": 16
+          "value": 16,
+          "raw": "16"
         }
       }
     },
@@ -177,7 +183,8 @@
           "type": "Literal",
           "start": 873,
           "end": 910,
-          "value": "Developing with Java is fun, try it"
+          "value": "Developing with Java is fun, try it",
+          "raw": "\"Developing with Java is fun, try it\""
         }
       }
     },
@@ -251,7 +258,8 @@
             "type": "Literal",
             "start": 975,
             "end": 1059,
-            "value": "The value of __executed.length is expected to equal the value of __expected.length"
+            "value": "The value of __executed.length is expected to equal the value of __expected.length",
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
           }
         ],
         "optional": false
@@ -327,7 +335,8 @@
             "type": "Literal",
             "start": 1124,
             "end": 1206,
-            "value": "The value of __executed.index is expected to equal the value of __expected.index"
+            "value": "The value of __executed.index is expected to equal the value of __expected.index",
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
           }
         ],
         "optional": false
@@ -403,7 +412,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1353,
-            "value": "The value of __executed.input is expected to equal the value of __expected.input"
+            "value": "The value of __executed.input is expected to equal the value of __expected.input",
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
           }
         ],
         "optional": false
@@ -432,7 +442,8 @@
               "type": "Literal",
               "start": 1372,
               "end": 1373,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -557,7 +568,8 @@
                   "type": "Literal",
                   "start": 1481,
                   "end": 1565,
-                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]"
+                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
                 }
               ],
               "optional": false

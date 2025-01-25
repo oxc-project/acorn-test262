@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 378,
             "end": 400,
-            "value": "fromEpochNanoseconds"
+            "value": "fromEpochNanoseconds",
+            "raw": "\"fromEpochNanoseconds\""
           },
           {
             "type": "ArrayExpression",
@@ -65,7 +66,8 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 408,
-                "value": "10n"
+                "value": "10n",
+                "raw": "10n"
               }
             ]
           },
@@ -141,13 +143,15 @@
                         "type": "Literal",
                         "start": 473,
                         "end": 476,
-                        "value": "10n"
+                        "value": "10n",
+                        "raw": "10n"
                       },
                       {
                         "type": "Literal",
                         "start": 478,
                         "end": 503,
-                        "value": "epochNanoseconds result"
+                        "value": "epochNanoseconds result",
+                        "raw": "\"epochNanoseconds result\""
                       }
                     ],
                     "optional": false

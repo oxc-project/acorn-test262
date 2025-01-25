@@ -136,7 +136,8 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 364,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               },
               {
                 "type": "Identifier",
@@ -193,7 +194,8 @@
               "type": "Literal",
               "start": 404,
               "end": 405,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -202,13 +204,15 @@
             "type": "Literal",
             "start": 408,
             "end": 411,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 424,
-            "value": "newArr[0]"
+            "value": "newArr[0]",
+            "raw": "'newArr[0]'"
           }
         ],
         "optional": false

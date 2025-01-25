@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 735,
             "end": 737,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           }
         }
       ],
@@ -67,7 +68,8 @@
             "type": "Literal",
             "start": 745,
             "end": 771,
-            "value": "initial = x; var x = 45;"
+            "value": "initial = x; var x = 45;",
+            "raw": "'initial = x; var x = 45;'"
           }
         ],
         "optional": false
@@ -97,7 +99,8 @@
             "type": "Literal",
             "start": 796,
             "end": 799,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +124,8 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 814,
-                  "value": 45
+                  "value": 45,
+                  "raw": "45"
                 },
                 "kind": "init"
               },
@@ -142,7 +146,8 @@
                   "type": "Literal",
                   "start": 828,
                   "end": 832,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -163,7 +168,8 @@
                   "type": "Literal",
                   "start": 848,
                   "end": 852,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -184,7 +190,8 @@
                   "type": "Literal",
                   "start": 870,
                   "end": 875,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -232,7 +239,8 @@
             "type": "Literal",
             "start": 908,
             "end": 910,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           }
         ],
         "optional": false

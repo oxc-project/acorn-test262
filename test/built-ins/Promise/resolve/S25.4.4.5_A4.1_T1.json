@@ -188,7 +188,8 @@
                             "type": "Literal",
                             "start": 385,
                             "end": 436,
-                            "value": "Should not fulfill: should reject with TypeError."
+                            "value": "Should not fulfill: should reject with TypeError.",
+                            "raw": "\"Should not fulfill: should reject with TypeError.\""
                           }
                         ]
                       }
@@ -273,7 +274,8 @@
                             "type": "Literal",
                             "start": 497,
                             "end": 563,
-                            "value": "The value of !!(err instanceof TypeError) is expected to be true"
+                            "value": "The value of !!(err instanceof TypeError) is expected to be true",
+                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
                           }
                         ],
                         "optional": false

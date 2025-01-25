@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 355,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 359,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 363,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 368,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 373,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 378,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -108,49 +114,57 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 433,
-                "value": "12:34:56.987654321+00:00"
+                "value": "12:34:56.987654321+00:00",
+                "raw": "\"12:34:56.987654321+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 468,
-                "value": "12:34:56.987654321+00:00[UTC]"
+                "value": "12:34:56.987654321+00:00[UTC]",
+                "raw": "\"12:34:56.987654321+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 504,
-                "value": "12:34:56.987654321+00:00[!UTC]"
+                "value": "12:34:56.987654321+00:00[!UTC]",
+                "raw": "\"12:34:56.987654321+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 552,
-                "value": "12:34:56.987654321-02:30[America/St_Johns]"
+                "value": "12:34:56.987654321-02:30[America/St_Johns]",
+                "raw": "\"12:34:56.987654321-02:30[America/St_Johns]\""
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 593,
-                "value": "1976-11-18T12:34:56.987654321+00:00"
+                "value": "1976-11-18T12:34:56.987654321+00:00",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 597,
                 "end": 639,
-                "value": "1976-11-18T12:34:56.987654321+00:00[UTC]"
+                "value": "1976-11-18T12:34:56.987654321+00:00[UTC]",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 643,
                 "end": 686,
-                "value": "1976-11-18T12:34:56.987654321+00:00[!UTC]"
+                "value": "1976-11-18T12:34:56.987654321+00:00[!UTC]",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 690,
                 "end": 745,
-                "value": "1976-11-18T12:34:56.987654321-02:30[America/St_Johns]"
+                "value": "1976-11-18T12:34:56.987654321-02:30[America/St_Johns]",
+                "raw": "\"1976-11-18T12:34:56.987654321-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -284,61 +298,71 @@
                   "type": "Literal",
                   "start": 874,
                   "end": 875,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 877,
                   "end": 878,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 880,
                   "end": 881,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 883,
                   "end": 884,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 886,
                   "end": 887,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 889,
                   "end": 890,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 892,
                   "end": 893,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 895,
                   "end": 896,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 898,
                   "end": 899,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 901,
                   "end": 902,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -406,43 +430,50 @@
                 "type": "Literal",
                 "start": 1000,
                 "end": 1013,
-                "value": "2022-09-15Z"
+                "value": "2022-09-15Z",
+                "raw": "\"2022-09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 1017,
                 "end": 1035,
-                "value": "2022-09-15Z[UTC]"
+                "value": "2022-09-15Z[UTC]",
+                "raw": "\"2022-09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1039,
                 "end": 1067,
-                "value": "2022-09-15Z[Europe/Vienna]"
+                "value": "2022-09-15Z[Europe/Vienna]",
+                "raw": "\"2022-09-15Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 1071,
                 "end": 1089,
-                "value": "2022-09-15+00:00"
+                "value": "2022-09-15+00:00",
+                "raw": "\"2022-09-15+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 1093,
                 "end": 1116,
-                "value": "2022-09-15+00:00[UTC]"
+                "value": "2022-09-15+00:00[UTC]",
+                "raw": "\"2022-09-15+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1120,
                 "end": 1138,
-                "value": "2022-09-15-02:30"
+                "value": "2022-09-15-02:30",
+                "raw": "\"2022-09-15-02:30\""
               },
               {
                 "type": "Literal",
                 "start": 1142,
                 "end": 1178,
-                "value": "2022-09-15-02:30[America/St_Johns]"
+                "value": "2022-09-15-02:30[America/St_Johns]",
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
               }
             ]
           }

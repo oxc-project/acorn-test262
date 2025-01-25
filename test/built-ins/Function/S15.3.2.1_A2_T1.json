@@ -42,25 +42,29 @@
                       "type": "Literal",
                       "start": 429,
                       "end": 435,
-                      "value": "arg1"
+                      "value": "arg1",
+                      "raw": "\"arg1\""
                     },
                     {
                       "type": "Literal",
                       "start": 437,
                       "end": 443,
-                      "value": "arg2"
+                      "value": "arg2",
+                      "raw": "\"arg2\""
                     },
                     {
                       "type": "Literal",
                       "start": 445,
                       "end": 451,
-                      "value": "arg3"
+                      "value": "arg3",
+                      "raw": "\"arg3\""
                     },
                     {
                       "type": "Literal",
                       "start": 453,
                       "end": 477,
-                      "value": "return arg1+arg2+arg3;"
+                      "value": "return arg1+arg2+arg3;",
+                      "raw": "\"return arg1+arg2+arg3;\""
                     }
                   ],
                   "optional": false
@@ -105,7 +109,8 @@
                     "type": "Literal",
                     "start": 519,
                     "end": 536,
-                    "value": "#1: test failed"
+                    "value": "#1: test failed",
+                    "raw": "'#1: test failed'"
                   }
                 ]
               }
@@ -152,7 +157,8 @@
             "type": "Literal",
             "start": 572,
             "end": 645,
-            "value": "The result of evaluating (f instanceof Function) is expected to be true"
+            "value": "The result of evaluating (f instanceof Function) is expected to be true",
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
           }
         ],
         "optional": false
@@ -201,19 +207,22 @@
                 "type": "Literal",
                 "start": 667,
                 "end": 668,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 670,
                 "end": 671,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 673,
                 "end": 674,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ],
             "optional": false
@@ -222,13 +231,15 @@
             "type": "Literal",
             "start": 677,
             "end": 678,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 706,
-            "value": "f(1, 2, 3) must return 6"
+            "value": "f(1, 2, 3) must return 6",
+            "raw": "'f(1, 2, 3) must return 6'"
           }
         ],
         "optional": false

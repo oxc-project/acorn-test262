@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 392,
-                "value": "arg1,arg2,arg3"
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 405,
-                "value": "arg4,arg5"
+                "value": "arg4,arg5",
+                "raw": "\"arg4,arg5\""
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 411,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -97,7 +100,8 @@
                 "type": "Literal",
                 "start": 439,
                 "end": 447,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +110,8 @@
             "type": "Literal",
             "start": 450,
             "end": 497,
-            "value": "f.hasOwnProperty('length') must return true"
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -192,7 +197,8 @@
                   "type": "Literal",
                   "start": 544,
                   "end": 552,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "'length'"
                 }
               ],
               "optional": false
@@ -202,7 +208,8 @@
             "type": "Literal",
             "start": 555,
             "end": 622,
-            "value": "The value of !f.hasOwnProperty('length') is expected to be true"
+            "value": "The value of !f.hasOwnProperty('length') is expected to be true",
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
           }
         ],
         "optional": false
@@ -259,13 +266,15 @@
             "type": "Literal",
             "start": 655,
             "end": 656,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 690,
-            "value": "The value of f.length is not 5"
+            "value": "The value of f.length is not 5",
+            "raw": "'The value of f.length is not 5'"
           }
         ],
         "optional": false

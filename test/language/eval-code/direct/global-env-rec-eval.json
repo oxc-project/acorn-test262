@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 279,
             "end": 284,
-            "value": "str"
+            "value": "str",
+            "raw": "\"str\""
           }
         }
       ],
@@ -66,7 +67,8 @@
                   "type": "Literal",
                   "start": 339,
                   "end": 345,
-                  "value": "str1"
+                  "value": "str1",
+                  "raw": "\"str1\""
                 }
               }
             ],
@@ -102,7 +104,8 @@
                       "type": "Literal",
                       "start": 372,
                       "end": 520,
-                      "value": "                          var __10_4_2_1_5 = 'str2';                           eval(\"'str2' === __10_4_2_1_5\")                        "
+                      "value": "                          var __10_4_2_1_5 = 'str2';                           eval(\"'str2' === __10_4_2_1_5\")                        ",
+                      "raw": "\"\\\n                          var __10_4_2_1_5 = \\'str2\\'; \\\n                          eval(\\\"\\'str2\\' === __10_4_2_1_5\\\")\\\n                        \""
                     }
                   ],
                   "optional": false

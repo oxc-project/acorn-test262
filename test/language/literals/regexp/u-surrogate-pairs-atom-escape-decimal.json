@@ -44,6 +44,7 @@
                 "start": 1011,
                 "end": 1022,
                 "value": {},
+                "raw": "/(.+).*\\1/u",
                 "regex": {
                   "pattern": "(.+).*\\1",
                   "flags": "u"
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 1028,
                 "end": 1048,
-                "value": "𐀀\ud800"
+                "value": "𐀀\ud800",
+                "raw": "'\\ud800\\udc00\\ud800'"
               }
             ],
             "optional": false
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 1051,
             "end": 1056,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

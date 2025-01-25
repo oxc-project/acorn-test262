@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 801,
             "end": 806,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 875,
-            "value": "isConstructor(Map.prototype[Symbol.iterator]) must return false"
+            "value": "isConstructor(Map.prototype[Symbol.iterator]) must return false",
+            "raw": "'isConstructor(Map.prototype[Symbol.iterator]) must return false'"
           }
         ],
         "optional": false

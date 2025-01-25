@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 4606,
+  "end": 4605,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 890,
-      "end": 984,
+      "start": 889,
+      "end": 983,
       "expression": {
         "type": "CallExpression",
-        "start": 890,
-        "end": 983,
+        "start": 889,
+        "end": 982,
         "callee": {
           "type": "MemberExpression",
-          "start": 890,
-          "end": 906,
+          "start": 889,
+          "end": 905,
           "object": {
             "type": "Identifier",
-            "start": 890,
-            "end": 896,
+            "start": 889,
+            "end": 895,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 897,
-            "end": 906,
+            "start": 896,
+            "end": 905,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 907,
-            "end": 935,
+            "start": 906,
+            "end": 934,
             "callee": {
               "type": "MemberExpression",
-              "start": 907,
-              "end": 933,
+              "start": 906,
+              "end": 932,
               "object": {
                 "type": "Literal",
-                "start": 907,
-                "end": 921,
-                "value": "𐐨"
+                "start": 906,
+                "end": 920,
+                "value": "𐐨",
+                "raw": "\"\\uD801\\uDC28\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 922,
-                "end": 933,
+                "start": 921,
+                "end": 932,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -59,15 +60,17 @@
           },
           {
             "type": "Literal",
-            "start": 937,
-            "end": 951,
-            "value": "𐐀"
+            "start": 936,
+            "end": 950,
+            "value": "𐐀",
+            "raw": "\"\\uD801\\uDC00\""
           },
           {
             "type": "Literal",
-            "start": 953,
-            "end": 982,
-            "value": "DESERET SMALL LETTER LONG I"
+            "start": 952,
+            "end": 981,
+            "value": "DESERET SMALL LETTER LONG I",
+            "raw": "\"DESERET SMALL LETTER LONG I\""
           }
         ],
         "optional": false
@@ -75,26 +78,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 985,
-      "end": 1079,
+      "start": 984,
+      "end": 1078,
       "expression": {
         "type": "CallExpression",
-        "start": 985,
-        "end": 1078,
+        "start": 984,
+        "end": 1077,
         "callee": {
           "type": "MemberExpression",
-          "start": 985,
-          "end": 1001,
+          "start": 984,
+          "end": 1000,
           "object": {
             "type": "Identifier",
-            "start": 985,
-            "end": 991,
+            "start": 984,
+            "end": 990,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 992,
-            "end": 1001,
+            "start": 991,
+            "end": 1000,
             "name": "sameValue"
           },
           "computed": false,
@@ -103,22 +106,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1002,
-            "end": 1030,
+            "start": 1001,
+            "end": 1029,
             "callee": {
               "type": "MemberExpression",
-              "start": 1002,
-              "end": 1028,
+              "start": 1001,
+              "end": 1027,
               "object": {
                 "type": "Literal",
-                "start": 1002,
-                "end": 1016,
-                "value": "𐐩"
+                "start": 1001,
+                "end": 1015,
+                "value": "𐐩",
+                "raw": "\"\\uD801\\uDC29\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1017,
-                "end": 1028,
+                "start": 1016,
+                "end": 1027,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -129,15 +133,17 @@
           },
           {
             "type": "Literal",
-            "start": 1032,
-            "end": 1046,
-            "value": "𐐁"
+            "start": 1031,
+            "end": 1045,
+            "value": "𐐁",
+            "raw": "\"\\uD801\\uDC01\""
           },
           {
             "type": "Literal",
-            "start": 1048,
-            "end": 1077,
-            "value": "DESERET SMALL LETTER LONG E"
+            "start": 1047,
+            "end": 1076,
+            "value": "DESERET SMALL LETTER LONG E",
+            "raw": "\"DESERET SMALL LETTER LONG E\""
           }
         ],
         "optional": false
@@ -145,26 +151,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1080,
-      "end": 1174,
+      "start": 1079,
+      "end": 1173,
       "expression": {
         "type": "CallExpression",
-        "start": 1080,
-        "end": 1173,
+        "start": 1079,
+        "end": 1172,
         "callee": {
           "type": "MemberExpression",
-          "start": 1080,
-          "end": 1096,
+          "start": 1079,
+          "end": 1095,
           "object": {
             "type": "Identifier",
-            "start": 1080,
-            "end": 1086,
+            "start": 1079,
+            "end": 1085,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1087,
-            "end": 1096,
+            "start": 1086,
+            "end": 1095,
             "name": "sameValue"
           },
           "computed": false,
@@ -173,22 +179,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1097,
-            "end": 1125,
+            "start": 1096,
+            "end": 1124,
             "callee": {
               "type": "MemberExpression",
-              "start": 1097,
-              "end": 1123,
+              "start": 1096,
+              "end": 1122,
               "object": {
                 "type": "Literal",
-                "start": 1097,
-                "end": 1111,
-                "value": "𐐪"
+                "start": 1096,
+                "end": 1110,
+                "value": "𐐪",
+                "raw": "\"\\uD801\\uDC2A\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1112,
-                "end": 1123,
+                "start": 1111,
+                "end": 1122,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -199,15 +206,17 @@
           },
           {
             "type": "Literal",
-            "start": 1127,
-            "end": 1141,
-            "value": "𐐂"
+            "start": 1126,
+            "end": 1140,
+            "value": "𐐂",
+            "raw": "\"\\uD801\\uDC02\""
           },
           {
             "type": "Literal",
-            "start": 1143,
-            "end": 1172,
-            "value": "DESERET SMALL LETTER LONG A"
+            "start": 1142,
+            "end": 1171,
+            "value": "DESERET SMALL LETTER LONG A",
+            "raw": "\"DESERET SMALL LETTER LONG A\""
           }
         ],
         "optional": false
@@ -215,26 +224,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1175,
-      "end": 1270,
+      "start": 1174,
+      "end": 1269,
       "expression": {
         "type": "CallExpression",
-        "start": 1175,
-        "end": 1269,
+        "start": 1174,
+        "end": 1268,
         "callee": {
           "type": "MemberExpression",
-          "start": 1175,
-          "end": 1191,
+          "start": 1174,
+          "end": 1190,
           "object": {
             "type": "Identifier",
-            "start": 1175,
-            "end": 1181,
+            "start": 1174,
+            "end": 1180,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1182,
-            "end": 1191,
+            "start": 1181,
+            "end": 1190,
             "name": "sameValue"
           },
           "computed": false,
@@ -243,22 +252,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1192,
-            "end": 1220,
+            "start": 1191,
+            "end": 1219,
             "callee": {
               "type": "MemberExpression",
-              "start": 1192,
-              "end": 1218,
+              "start": 1191,
+              "end": 1217,
               "object": {
                 "type": "Literal",
-                "start": 1192,
-                "end": 1206,
-                "value": "𐐫"
+                "start": 1191,
+                "end": 1205,
+                "value": "𐐫",
+                "raw": "\"\\uD801\\uDC2B\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1207,
-                "end": 1218,
+                "start": 1206,
+                "end": 1217,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -269,15 +279,17 @@
           },
           {
             "type": "Literal",
-            "start": 1222,
-            "end": 1236,
-            "value": "𐐃"
+            "start": 1221,
+            "end": 1235,
+            "value": "𐐃",
+            "raw": "\"\\uD801\\uDC03\""
           },
           {
             "type": "Literal",
-            "start": 1238,
-            "end": 1268,
-            "value": "DESERET SMALL LETTER LONG AH"
+            "start": 1237,
+            "end": 1267,
+            "value": "DESERET SMALL LETTER LONG AH",
+            "raw": "\"DESERET SMALL LETTER LONG AH\""
           }
         ],
         "optional": false
@@ -285,26 +297,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1271,
-      "end": 1365,
+      "start": 1270,
+      "end": 1364,
       "expression": {
         "type": "CallExpression",
-        "start": 1271,
-        "end": 1364,
+        "start": 1270,
+        "end": 1363,
         "callee": {
           "type": "MemberExpression",
-          "start": 1271,
-          "end": 1287,
+          "start": 1270,
+          "end": 1286,
           "object": {
             "type": "Identifier",
-            "start": 1271,
-            "end": 1277,
+            "start": 1270,
+            "end": 1276,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1278,
-            "end": 1287,
+            "start": 1277,
+            "end": 1286,
             "name": "sameValue"
           },
           "computed": false,
@@ -313,22 +325,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1288,
-            "end": 1316,
+            "start": 1287,
+            "end": 1315,
             "callee": {
               "type": "MemberExpression",
-              "start": 1288,
-              "end": 1314,
+              "start": 1287,
+              "end": 1313,
               "object": {
                 "type": "Literal",
-                "start": 1288,
-                "end": 1302,
-                "value": "𐐬"
+                "start": 1287,
+                "end": 1301,
+                "value": "𐐬",
+                "raw": "\"\\uD801\\uDC2C\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1303,
-                "end": 1314,
+                "start": 1302,
+                "end": 1313,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -339,15 +352,17 @@
           },
           {
             "type": "Literal",
-            "start": 1318,
-            "end": 1332,
-            "value": "𐐄"
+            "start": 1317,
+            "end": 1331,
+            "value": "𐐄",
+            "raw": "\"\\uD801\\uDC04\""
           },
           {
             "type": "Literal",
-            "start": 1334,
-            "end": 1363,
-            "value": "DESERET SMALL LETTER LONG O"
+            "start": 1333,
+            "end": 1362,
+            "value": "DESERET SMALL LETTER LONG O",
+            "raw": "\"DESERET SMALL LETTER LONG O\""
           }
         ],
         "optional": false
@@ -355,26 +370,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1366,
-      "end": 1461,
+      "start": 1365,
+      "end": 1460,
       "expression": {
         "type": "CallExpression",
-        "start": 1366,
-        "end": 1460,
+        "start": 1365,
+        "end": 1459,
         "callee": {
           "type": "MemberExpression",
-          "start": 1366,
-          "end": 1382,
+          "start": 1365,
+          "end": 1381,
           "object": {
             "type": "Identifier",
-            "start": 1366,
-            "end": 1372,
+            "start": 1365,
+            "end": 1371,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1373,
-            "end": 1382,
+            "start": 1372,
+            "end": 1381,
             "name": "sameValue"
           },
           "computed": false,
@@ -383,22 +398,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1383,
-            "end": 1411,
+            "start": 1382,
+            "end": 1410,
             "callee": {
               "type": "MemberExpression",
-              "start": 1383,
-              "end": 1409,
+              "start": 1382,
+              "end": 1408,
               "object": {
                 "type": "Literal",
-                "start": 1383,
-                "end": 1397,
-                "value": "𐐭"
+                "start": 1382,
+                "end": 1396,
+                "value": "𐐭",
+                "raw": "\"\\uD801\\uDC2D\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1398,
-                "end": 1409,
+                "start": 1397,
+                "end": 1408,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -409,15 +425,17 @@
           },
           {
             "type": "Literal",
-            "start": 1413,
-            "end": 1427,
-            "value": "𐐅"
+            "start": 1412,
+            "end": 1426,
+            "value": "𐐅",
+            "raw": "\"\\uD801\\uDC05\""
           },
           {
             "type": "Literal",
-            "start": 1429,
-            "end": 1459,
-            "value": "DESERET SMALL LETTER LONG OO"
+            "start": 1428,
+            "end": 1458,
+            "value": "DESERET SMALL LETTER LONG OO",
+            "raw": "\"DESERET SMALL LETTER LONG OO\""
           }
         ],
         "optional": false
@@ -425,26 +443,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1462,
-      "end": 1557,
+      "start": 1461,
+      "end": 1556,
       "expression": {
         "type": "CallExpression",
-        "start": 1462,
-        "end": 1556,
+        "start": 1461,
+        "end": 1555,
         "callee": {
           "type": "MemberExpression",
-          "start": 1462,
-          "end": 1478,
+          "start": 1461,
+          "end": 1477,
           "object": {
             "type": "Identifier",
-            "start": 1462,
-            "end": 1468,
+            "start": 1461,
+            "end": 1467,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1469,
-            "end": 1478,
+            "start": 1468,
+            "end": 1477,
             "name": "sameValue"
           },
           "computed": false,
@@ -453,22 +471,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1479,
-            "end": 1507,
+            "start": 1478,
+            "end": 1506,
             "callee": {
               "type": "MemberExpression",
-              "start": 1479,
-              "end": 1505,
+              "start": 1478,
+              "end": 1504,
               "object": {
                 "type": "Literal",
-                "start": 1479,
-                "end": 1493,
-                "value": "𐐮"
+                "start": 1478,
+                "end": 1492,
+                "value": "𐐮",
+                "raw": "\"\\uD801\\uDC2E\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1494,
-                "end": 1505,
+                "start": 1493,
+                "end": 1504,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -479,15 +498,17 @@
           },
           {
             "type": "Literal",
-            "start": 1509,
-            "end": 1523,
-            "value": "𐐆"
+            "start": 1508,
+            "end": 1522,
+            "value": "𐐆",
+            "raw": "\"\\uD801\\uDC06\""
           },
           {
             "type": "Literal",
-            "start": 1525,
-            "end": 1555,
-            "value": "DESERET SMALL LETTER SHORT I"
+            "start": 1524,
+            "end": 1554,
+            "value": "DESERET SMALL LETTER SHORT I",
+            "raw": "\"DESERET SMALL LETTER SHORT I\""
           }
         ],
         "optional": false
@@ -495,26 +516,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1558,
-      "end": 1653,
+      "start": 1557,
+      "end": 1652,
       "expression": {
         "type": "CallExpression",
-        "start": 1558,
-        "end": 1652,
+        "start": 1557,
+        "end": 1651,
         "callee": {
           "type": "MemberExpression",
-          "start": 1558,
-          "end": 1574,
+          "start": 1557,
+          "end": 1573,
           "object": {
             "type": "Identifier",
-            "start": 1558,
-            "end": 1564,
+            "start": 1557,
+            "end": 1563,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1565,
-            "end": 1574,
+            "start": 1564,
+            "end": 1573,
             "name": "sameValue"
           },
           "computed": false,
@@ -523,22 +544,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1575,
-            "end": 1603,
+            "start": 1574,
+            "end": 1602,
             "callee": {
               "type": "MemberExpression",
-              "start": 1575,
-              "end": 1601,
+              "start": 1574,
+              "end": 1600,
               "object": {
                 "type": "Literal",
-                "start": 1575,
-                "end": 1589,
-                "value": "𐐯"
+                "start": 1574,
+                "end": 1588,
+                "value": "𐐯",
+                "raw": "\"\\uD801\\uDC2F\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1590,
-                "end": 1601,
+                "start": 1589,
+                "end": 1600,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -549,15 +571,17 @@
           },
           {
             "type": "Literal",
-            "start": 1605,
-            "end": 1619,
-            "value": "𐐇"
+            "start": 1604,
+            "end": 1618,
+            "value": "𐐇",
+            "raw": "\"\\uD801\\uDC07\""
           },
           {
             "type": "Literal",
-            "start": 1621,
-            "end": 1651,
-            "value": "DESERET SMALL LETTER SHORT E"
+            "start": 1620,
+            "end": 1650,
+            "value": "DESERET SMALL LETTER SHORT E",
+            "raw": "\"DESERET SMALL LETTER SHORT E\""
           }
         ],
         "optional": false
@@ -565,26 +589,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1654,
-      "end": 1749,
+      "start": 1653,
+      "end": 1748,
       "expression": {
         "type": "CallExpression",
-        "start": 1654,
-        "end": 1748,
+        "start": 1653,
+        "end": 1747,
         "callee": {
           "type": "MemberExpression",
-          "start": 1654,
-          "end": 1670,
+          "start": 1653,
+          "end": 1669,
           "object": {
             "type": "Identifier",
-            "start": 1654,
-            "end": 1660,
+            "start": 1653,
+            "end": 1659,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1661,
-            "end": 1670,
+            "start": 1660,
+            "end": 1669,
             "name": "sameValue"
           },
           "computed": false,
@@ -593,22 +617,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1671,
-            "end": 1699,
+            "start": 1670,
+            "end": 1698,
             "callee": {
               "type": "MemberExpression",
-              "start": 1671,
-              "end": 1697,
+              "start": 1670,
+              "end": 1696,
               "object": {
                 "type": "Literal",
-                "start": 1671,
-                "end": 1685,
-                "value": "𐐰"
+                "start": 1670,
+                "end": 1684,
+                "value": "𐐰",
+                "raw": "\"\\uD801\\uDC30\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1686,
-                "end": 1697,
+                "start": 1685,
+                "end": 1696,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -619,15 +644,17 @@
           },
           {
             "type": "Literal",
-            "start": 1701,
-            "end": 1715,
-            "value": "𐐈"
+            "start": 1700,
+            "end": 1714,
+            "value": "𐐈",
+            "raw": "\"\\uD801\\uDC08\""
           },
           {
             "type": "Literal",
-            "start": 1717,
-            "end": 1747,
-            "value": "DESERET SMALL LETTER SHORT A"
+            "start": 1716,
+            "end": 1746,
+            "value": "DESERET SMALL LETTER SHORT A",
+            "raw": "\"DESERET SMALL LETTER SHORT A\""
           }
         ],
         "optional": false
@@ -635,26 +662,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1750,
-      "end": 1846,
+      "start": 1749,
+      "end": 1845,
       "expression": {
         "type": "CallExpression",
-        "start": 1750,
-        "end": 1845,
+        "start": 1749,
+        "end": 1844,
         "callee": {
           "type": "MemberExpression",
-          "start": 1750,
-          "end": 1766,
+          "start": 1749,
+          "end": 1765,
           "object": {
             "type": "Identifier",
-            "start": 1750,
-            "end": 1756,
+            "start": 1749,
+            "end": 1755,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1757,
-            "end": 1766,
+            "start": 1756,
+            "end": 1765,
             "name": "sameValue"
           },
           "computed": false,
@@ -663,22 +690,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1767,
-            "end": 1795,
+            "start": 1766,
+            "end": 1794,
             "callee": {
               "type": "MemberExpression",
-              "start": 1767,
-              "end": 1793,
+              "start": 1766,
+              "end": 1792,
               "object": {
                 "type": "Literal",
-                "start": 1767,
-                "end": 1781,
-                "value": "𐐱"
+                "start": 1766,
+                "end": 1780,
+                "value": "𐐱",
+                "raw": "\"\\uD801\\uDC31\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1782,
-                "end": 1793,
+                "start": 1781,
+                "end": 1792,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -689,15 +717,17 @@
           },
           {
             "type": "Literal",
-            "start": 1797,
-            "end": 1811,
-            "value": "𐐉"
+            "start": 1796,
+            "end": 1810,
+            "value": "𐐉",
+            "raw": "\"\\uD801\\uDC09\""
           },
           {
             "type": "Literal",
-            "start": 1813,
-            "end": 1844,
-            "value": "DESERET SMALL LETTER SHORT AH"
+            "start": 1812,
+            "end": 1843,
+            "value": "DESERET SMALL LETTER SHORT AH",
+            "raw": "\"DESERET SMALL LETTER SHORT AH\""
           }
         ],
         "optional": false
@@ -705,26 +735,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1847,
-      "end": 1942,
+      "start": 1846,
+      "end": 1941,
       "expression": {
         "type": "CallExpression",
-        "start": 1847,
-        "end": 1941,
+        "start": 1846,
+        "end": 1940,
         "callee": {
           "type": "MemberExpression",
-          "start": 1847,
-          "end": 1863,
+          "start": 1846,
+          "end": 1862,
           "object": {
             "type": "Identifier",
-            "start": 1847,
-            "end": 1853,
+            "start": 1846,
+            "end": 1852,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1854,
-            "end": 1863,
+            "start": 1853,
+            "end": 1862,
             "name": "sameValue"
           },
           "computed": false,
@@ -733,22 +763,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1864,
-            "end": 1892,
+            "start": 1863,
+            "end": 1891,
             "callee": {
               "type": "MemberExpression",
-              "start": 1864,
-              "end": 1890,
+              "start": 1863,
+              "end": 1889,
               "object": {
                 "type": "Literal",
-                "start": 1864,
-                "end": 1878,
-                "value": "𐐲"
+                "start": 1863,
+                "end": 1877,
+                "value": "𐐲",
+                "raw": "\"\\uD801\\uDC32\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1879,
-                "end": 1890,
+                "start": 1878,
+                "end": 1889,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -759,15 +790,17 @@
           },
           {
             "type": "Literal",
-            "start": 1894,
-            "end": 1908,
-            "value": "𐐊"
+            "start": 1893,
+            "end": 1907,
+            "value": "𐐊",
+            "raw": "\"\\uD801\\uDC0A\""
           },
           {
             "type": "Literal",
-            "start": 1910,
-            "end": 1940,
-            "value": "DESERET SMALL LETTER SHORT O"
+            "start": 1909,
+            "end": 1939,
+            "value": "DESERET SMALL LETTER SHORT O",
+            "raw": "\"DESERET SMALL LETTER SHORT O\""
           }
         ],
         "optional": false
@@ -775,26 +808,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1943,
-      "end": 2039,
+      "start": 1942,
+      "end": 2038,
       "expression": {
         "type": "CallExpression",
-        "start": 1943,
-        "end": 2038,
+        "start": 1942,
+        "end": 2037,
         "callee": {
           "type": "MemberExpression",
-          "start": 1943,
-          "end": 1959,
+          "start": 1942,
+          "end": 1958,
           "object": {
             "type": "Identifier",
-            "start": 1943,
-            "end": 1949,
+            "start": 1942,
+            "end": 1948,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1950,
-            "end": 1959,
+            "start": 1949,
+            "end": 1958,
             "name": "sameValue"
           },
           "computed": false,
@@ -803,22 +836,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1960,
-            "end": 1988,
+            "start": 1959,
+            "end": 1987,
             "callee": {
               "type": "MemberExpression",
-              "start": 1960,
-              "end": 1986,
+              "start": 1959,
+              "end": 1985,
               "object": {
                 "type": "Literal",
-                "start": 1960,
-                "end": 1974,
-                "value": "𐐳"
+                "start": 1959,
+                "end": 1973,
+                "value": "𐐳",
+                "raw": "\"\\uD801\\uDC33\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1975,
-                "end": 1986,
+                "start": 1974,
+                "end": 1985,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -829,15 +863,17 @@
           },
           {
             "type": "Literal",
-            "start": 1990,
-            "end": 2004,
-            "value": "𐐋"
+            "start": 1989,
+            "end": 2003,
+            "value": "𐐋",
+            "raw": "\"\\uD801\\uDC0B\""
           },
           {
             "type": "Literal",
-            "start": 2006,
-            "end": 2037,
-            "value": "DESERET SMALL LETTER SHORT OO"
+            "start": 2005,
+            "end": 2036,
+            "value": "DESERET SMALL LETTER SHORT OO",
+            "raw": "\"DESERET SMALL LETTER SHORT OO\""
           }
         ],
         "optional": false
@@ -845,26 +881,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2040,
-      "end": 2130,
+      "start": 2039,
+      "end": 2129,
       "expression": {
         "type": "CallExpression",
-        "start": 2040,
-        "end": 2129,
+        "start": 2039,
+        "end": 2128,
         "callee": {
           "type": "MemberExpression",
-          "start": 2040,
-          "end": 2056,
+          "start": 2039,
+          "end": 2055,
           "object": {
             "type": "Identifier",
-            "start": 2040,
-            "end": 2046,
+            "start": 2039,
+            "end": 2045,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2047,
-            "end": 2056,
+            "start": 2046,
+            "end": 2055,
             "name": "sameValue"
           },
           "computed": false,
@@ -873,22 +909,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2057,
-            "end": 2085,
+            "start": 2056,
+            "end": 2084,
             "callee": {
               "type": "MemberExpression",
-              "start": 2057,
-              "end": 2083,
+              "start": 2056,
+              "end": 2082,
               "object": {
                 "type": "Literal",
-                "start": 2057,
-                "end": 2071,
-                "value": "𐐴"
+                "start": 2056,
+                "end": 2070,
+                "value": "𐐴",
+                "raw": "\"\\uD801\\uDC34\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2072,
-                "end": 2083,
+                "start": 2071,
+                "end": 2082,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -899,15 +936,17 @@
           },
           {
             "type": "Literal",
-            "start": 2087,
-            "end": 2101,
-            "value": "𐐌"
+            "start": 2086,
+            "end": 2100,
+            "value": "𐐌",
+            "raw": "\"\\uD801\\uDC0C\""
           },
           {
             "type": "Literal",
-            "start": 2103,
-            "end": 2128,
-            "value": "DESERET SMALL LETTER AY"
+            "start": 2102,
+            "end": 2127,
+            "value": "DESERET SMALL LETTER AY",
+            "raw": "\"DESERET SMALL LETTER AY\""
           }
         ],
         "optional": false
@@ -915,26 +954,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2131,
-      "end": 2221,
+      "start": 2130,
+      "end": 2220,
       "expression": {
         "type": "CallExpression",
-        "start": 2131,
-        "end": 2220,
+        "start": 2130,
+        "end": 2219,
         "callee": {
           "type": "MemberExpression",
-          "start": 2131,
-          "end": 2147,
+          "start": 2130,
+          "end": 2146,
           "object": {
             "type": "Identifier",
-            "start": 2131,
-            "end": 2137,
+            "start": 2130,
+            "end": 2136,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2138,
-            "end": 2147,
+            "start": 2137,
+            "end": 2146,
             "name": "sameValue"
           },
           "computed": false,
@@ -943,22 +982,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2148,
-            "end": 2176,
+            "start": 2147,
+            "end": 2175,
             "callee": {
               "type": "MemberExpression",
-              "start": 2148,
-              "end": 2174,
+              "start": 2147,
+              "end": 2173,
               "object": {
                 "type": "Literal",
-                "start": 2148,
-                "end": 2162,
-                "value": "𐐵"
+                "start": 2147,
+                "end": 2161,
+                "value": "𐐵",
+                "raw": "\"\\uD801\\uDC35\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2163,
-                "end": 2174,
+                "start": 2162,
+                "end": 2173,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -969,15 +1009,17 @@
           },
           {
             "type": "Literal",
-            "start": 2178,
-            "end": 2192,
-            "value": "𐐍"
+            "start": 2177,
+            "end": 2191,
+            "value": "𐐍",
+            "raw": "\"\\uD801\\uDC0D\""
           },
           {
             "type": "Literal",
-            "start": 2194,
-            "end": 2219,
-            "value": "DESERET SMALL LETTER OW"
+            "start": 2193,
+            "end": 2218,
+            "value": "DESERET SMALL LETTER OW",
+            "raw": "\"DESERET SMALL LETTER OW\""
           }
         ],
         "optional": false
@@ -985,26 +1027,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2222,
-      "end": 2312,
+      "start": 2221,
+      "end": 2311,
       "expression": {
         "type": "CallExpression",
-        "start": 2222,
-        "end": 2311,
+        "start": 2221,
+        "end": 2310,
         "callee": {
           "type": "MemberExpression",
-          "start": 2222,
-          "end": 2238,
+          "start": 2221,
+          "end": 2237,
           "object": {
             "type": "Identifier",
-            "start": 2222,
-            "end": 2228,
+            "start": 2221,
+            "end": 2227,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2229,
-            "end": 2238,
+            "start": 2228,
+            "end": 2237,
             "name": "sameValue"
           },
           "computed": false,
@@ -1013,22 +1055,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2239,
-            "end": 2267,
+            "start": 2238,
+            "end": 2266,
             "callee": {
               "type": "MemberExpression",
-              "start": 2239,
-              "end": 2265,
+              "start": 2238,
+              "end": 2264,
               "object": {
                 "type": "Literal",
-                "start": 2239,
-                "end": 2253,
-                "value": "𐐶"
+                "start": 2238,
+                "end": 2252,
+                "value": "𐐶",
+                "raw": "\"\\uD801\\uDC36\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2254,
-                "end": 2265,
+                "start": 2253,
+                "end": 2264,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1039,15 +1082,17 @@
           },
           {
             "type": "Literal",
-            "start": 2269,
-            "end": 2283,
-            "value": "𐐎"
+            "start": 2268,
+            "end": 2282,
+            "value": "𐐎",
+            "raw": "\"\\uD801\\uDC0E\""
           },
           {
             "type": "Literal",
-            "start": 2285,
-            "end": 2310,
-            "value": "DESERET SMALL LETTER WU"
+            "start": 2284,
+            "end": 2309,
+            "value": "DESERET SMALL LETTER WU",
+            "raw": "\"DESERET SMALL LETTER WU\""
           }
         ],
         "optional": false
@@ -1055,26 +1100,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2313,
-      "end": 2404,
+      "start": 2312,
+      "end": 2403,
       "expression": {
         "type": "CallExpression",
-        "start": 2313,
-        "end": 2403,
+        "start": 2312,
+        "end": 2402,
         "callee": {
           "type": "MemberExpression",
-          "start": 2313,
-          "end": 2329,
+          "start": 2312,
+          "end": 2328,
           "object": {
             "type": "Identifier",
-            "start": 2313,
-            "end": 2319,
+            "start": 2312,
+            "end": 2318,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2320,
-            "end": 2329,
+            "start": 2319,
+            "end": 2328,
             "name": "sameValue"
           },
           "computed": false,
@@ -1083,22 +1128,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2330,
-            "end": 2358,
+            "start": 2329,
+            "end": 2357,
             "callee": {
               "type": "MemberExpression",
-              "start": 2330,
-              "end": 2356,
+              "start": 2329,
+              "end": 2355,
               "object": {
                 "type": "Literal",
-                "start": 2330,
-                "end": 2344,
-                "value": "𐐷"
+                "start": 2329,
+                "end": 2343,
+                "value": "𐐷",
+                "raw": "\"\\uD801\\uDC37\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2345,
-                "end": 2356,
+                "start": 2344,
+                "end": 2355,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1109,15 +1155,17 @@
           },
           {
             "type": "Literal",
-            "start": 2360,
-            "end": 2374,
-            "value": "𐐏"
+            "start": 2359,
+            "end": 2373,
+            "value": "𐐏",
+            "raw": "\"\\uD801\\uDC0F\""
           },
           {
             "type": "Literal",
-            "start": 2376,
-            "end": 2402,
-            "value": "DESERET SMALL LETTER YEE"
+            "start": 2375,
+            "end": 2401,
+            "value": "DESERET SMALL LETTER YEE",
+            "raw": "\"DESERET SMALL LETTER YEE\""
           }
         ],
         "optional": false
@@ -1125,26 +1173,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2405,
-      "end": 2494,
+      "start": 2404,
+      "end": 2493,
       "expression": {
         "type": "CallExpression",
-        "start": 2405,
-        "end": 2493,
+        "start": 2404,
+        "end": 2492,
         "callee": {
           "type": "MemberExpression",
-          "start": 2405,
-          "end": 2421,
+          "start": 2404,
+          "end": 2420,
           "object": {
             "type": "Identifier",
-            "start": 2405,
-            "end": 2411,
+            "start": 2404,
+            "end": 2410,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2412,
-            "end": 2421,
+            "start": 2411,
+            "end": 2420,
             "name": "sameValue"
           },
           "computed": false,
@@ -1153,22 +1201,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2422,
-            "end": 2450,
+            "start": 2421,
+            "end": 2449,
             "callee": {
               "type": "MemberExpression",
-              "start": 2422,
-              "end": 2448,
+              "start": 2421,
+              "end": 2447,
               "object": {
                 "type": "Literal",
-                "start": 2422,
-                "end": 2436,
-                "value": "𐐸"
+                "start": 2421,
+                "end": 2435,
+                "value": "𐐸",
+                "raw": "\"\\uD801\\uDC38\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2437,
-                "end": 2448,
+                "start": 2436,
+                "end": 2447,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1179,15 +1228,17 @@
           },
           {
             "type": "Literal",
-            "start": 2452,
-            "end": 2466,
-            "value": "𐐐"
+            "start": 2451,
+            "end": 2465,
+            "value": "𐐐",
+            "raw": "\"\\uD801\\uDC10\""
           },
           {
             "type": "Literal",
-            "start": 2468,
-            "end": 2492,
-            "value": "DESERET SMALL LETTER H"
+            "start": 2467,
+            "end": 2491,
+            "value": "DESERET SMALL LETTER H",
+            "raw": "\"DESERET SMALL LETTER H\""
           }
         ],
         "optional": false
@@ -1195,26 +1246,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2495,
-      "end": 2586,
+      "start": 2494,
+      "end": 2585,
       "expression": {
         "type": "CallExpression",
-        "start": 2495,
-        "end": 2585,
+        "start": 2494,
+        "end": 2584,
         "callee": {
           "type": "MemberExpression",
-          "start": 2495,
-          "end": 2511,
+          "start": 2494,
+          "end": 2510,
           "object": {
             "type": "Identifier",
-            "start": 2495,
-            "end": 2501,
+            "start": 2494,
+            "end": 2500,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2502,
-            "end": 2511,
+            "start": 2501,
+            "end": 2510,
             "name": "sameValue"
           },
           "computed": false,
@@ -1223,22 +1274,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2512,
-            "end": 2540,
+            "start": 2511,
+            "end": 2539,
             "callee": {
               "type": "MemberExpression",
-              "start": 2512,
-              "end": 2538,
+              "start": 2511,
+              "end": 2537,
               "object": {
                 "type": "Literal",
-                "start": 2512,
-                "end": 2526,
-                "value": "𐐹"
+                "start": 2511,
+                "end": 2525,
+                "value": "𐐹",
+                "raw": "\"\\uD801\\uDC39\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2527,
-                "end": 2538,
+                "start": 2526,
+                "end": 2537,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1249,15 +1301,17 @@
           },
           {
             "type": "Literal",
-            "start": 2542,
-            "end": 2556,
-            "value": "𐐑"
+            "start": 2541,
+            "end": 2555,
+            "value": "𐐑",
+            "raw": "\"\\uD801\\uDC11\""
           },
           {
             "type": "Literal",
-            "start": 2558,
-            "end": 2584,
-            "value": "DESERET SMALL LETTER PEE"
+            "start": 2557,
+            "end": 2583,
+            "value": "DESERET SMALL LETTER PEE",
+            "raw": "\"DESERET SMALL LETTER PEE\""
           }
         ],
         "optional": false
@@ -1265,26 +1319,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2587,
-      "end": 2678,
+      "start": 2586,
+      "end": 2677,
       "expression": {
         "type": "CallExpression",
-        "start": 2587,
-        "end": 2677,
+        "start": 2586,
+        "end": 2676,
         "callee": {
           "type": "MemberExpression",
-          "start": 2587,
-          "end": 2603,
+          "start": 2586,
+          "end": 2602,
           "object": {
             "type": "Identifier",
-            "start": 2587,
-            "end": 2593,
+            "start": 2586,
+            "end": 2592,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2594,
-            "end": 2603,
+            "start": 2593,
+            "end": 2602,
             "name": "sameValue"
           },
           "computed": false,
@@ -1293,22 +1347,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2604,
-            "end": 2632,
+            "start": 2603,
+            "end": 2631,
             "callee": {
               "type": "MemberExpression",
-              "start": 2604,
-              "end": 2630,
+              "start": 2603,
+              "end": 2629,
               "object": {
                 "type": "Literal",
-                "start": 2604,
-                "end": 2618,
-                "value": "𐐺"
+                "start": 2603,
+                "end": 2617,
+                "value": "𐐺",
+                "raw": "\"\\uD801\\uDC3A\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2619,
-                "end": 2630,
+                "start": 2618,
+                "end": 2629,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1319,15 +1374,17 @@
           },
           {
             "type": "Literal",
-            "start": 2634,
-            "end": 2648,
-            "value": "𐐒"
+            "start": 2633,
+            "end": 2647,
+            "value": "𐐒",
+            "raw": "\"\\uD801\\uDC12\""
           },
           {
             "type": "Literal",
-            "start": 2650,
-            "end": 2676,
-            "value": "DESERET SMALL LETTER BEE"
+            "start": 2649,
+            "end": 2675,
+            "value": "DESERET SMALL LETTER BEE",
+            "raw": "\"DESERET SMALL LETTER BEE\""
           }
         ],
         "optional": false
@@ -1335,26 +1392,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2679,
-      "end": 2770,
+      "start": 2678,
+      "end": 2769,
       "expression": {
         "type": "CallExpression",
-        "start": 2679,
-        "end": 2769,
+        "start": 2678,
+        "end": 2768,
         "callee": {
           "type": "MemberExpression",
-          "start": 2679,
-          "end": 2695,
+          "start": 2678,
+          "end": 2694,
           "object": {
             "type": "Identifier",
-            "start": 2679,
-            "end": 2685,
+            "start": 2678,
+            "end": 2684,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2686,
-            "end": 2695,
+            "start": 2685,
+            "end": 2694,
             "name": "sameValue"
           },
           "computed": false,
@@ -1363,22 +1420,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2696,
-            "end": 2724,
+            "start": 2695,
+            "end": 2723,
             "callee": {
               "type": "MemberExpression",
-              "start": 2696,
-              "end": 2722,
+              "start": 2695,
+              "end": 2721,
               "object": {
                 "type": "Literal",
-                "start": 2696,
-                "end": 2710,
-                "value": "𐐻"
+                "start": 2695,
+                "end": 2709,
+                "value": "𐐻",
+                "raw": "\"\\uD801\\uDC3B\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2711,
-                "end": 2722,
+                "start": 2710,
+                "end": 2721,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1389,15 +1447,17 @@
           },
           {
             "type": "Literal",
-            "start": 2726,
-            "end": 2740,
-            "value": "𐐓"
+            "start": 2725,
+            "end": 2739,
+            "value": "𐐓",
+            "raw": "\"\\uD801\\uDC13\""
           },
           {
             "type": "Literal",
-            "start": 2742,
-            "end": 2768,
-            "value": "DESERET SMALL LETTER TEE"
+            "start": 2741,
+            "end": 2767,
+            "value": "DESERET SMALL LETTER TEE",
+            "raw": "\"DESERET SMALL LETTER TEE\""
           }
         ],
         "optional": false
@@ -1405,26 +1465,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2771,
-      "end": 2862,
+      "start": 2770,
+      "end": 2861,
       "expression": {
         "type": "CallExpression",
-        "start": 2771,
-        "end": 2861,
+        "start": 2770,
+        "end": 2860,
         "callee": {
           "type": "MemberExpression",
-          "start": 2771,
-          "end": 2787,
+          "start": 2770,
+          "end": 2786,
           "object": {
             "type": "Identifier",
-            "start": 2771,
-            "end": 2777,
+            "start": 2770,
+            "end": 2776,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2778,
-            "end": 2787,
+            "start": 2777,
+            "end": 2786,
             "name": "sameValue"
           },
           "computed": false,
@@ -1433,22 +1493,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2788,
-            "end": 2816,
+            "start": 2787,
+            "end": 2815,
             "callee": {
               "type": "MemberExpression",
-              "start": 2788,
-              "end": 2814,
+              "start": 2787,
+              "end": 2813,
               "object": {
                 "type": "Literal",
-                "start": 2788,
-                "end": 2802,
-                "value": "𐐼"
+                "start": 2787,
+                "end": 2801,
+                "value": "𐐼",
+                "raw": "\"\\uD801\\uDC3C\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2803,
-                "end": 2814,
+                "start": 2802,
+                "end": 2813,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1459,15 +1520,17 @@
           },
           {
             "type": "Literal",
-            "start": 2818,
-            "end": 2832,
-            "value": "𐐔"
+            "start": 2817,
+            "end": 2831,
+            "value": "𐐔",
+            "raw": "\"\\uD801\\uDC14\""
           },
           {
             "type": "Literal",
-            "start": 2834,
-            "end": 2860,
-            "value": "DESERET SMALL LETTER DEE"
+            "start": 2833,
+            "end": 2859,
+            "value": "DESERET SMALL LETTER DEE",
+            "raw": "\"DESERET SMALL LETTER DEE\""
           }
         ],
         "optional": false
@@ -1475,26 +1538,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2863,
-      "end": 2955,
+      "start": 2862,
+      "end": 2954,
       "expression": {
         "type": "CallExpression",
-        "start": 2863,
-        "end": 2954,
+        "start": 2862,
+        "end": 2953,
         "callee": {
           "type": "MemberExpression",
-          "start": 2863,
-          "end": 2879,
+          "start": 2862,
+          "end": 2878,
           "object": {
             "type": "Identifier",
-            "start": 2863,
-            "end": 2869,
+            "start": 2862,
+            "end": 2868,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2870,
-            "end": 2879,
+            "start": 2869,
+            "end": 2878,
             "name": "sameValue"
           },
           "computed": false,
@@ -1503,22 +1566,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2880,
-            "end": 2908,
+            "start": 2879,
+            "end": 2907,
             "callee": {
               "type": "MemberExpression",
-              "start": 2880,
-              "end": 2906,
+              "start": 2879,
+              "end": 2905,
               "object": {
                 "type": "Literal",
-                "start": 2880,
-                "end": 2894,
-                "value": "𐐽"
+                "start": 2879,
+                "end": 2893,
+                "value": "𐐽",
+                "raw": "\"\\uD801\\uDC3D\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2895,
-                "end": 2906,
+                "start": 2894,
+                "end": 2905,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1529,15 +1593,17 @@
           },
           {
             "type": "Literal",
-            "start": 2910,
-            "end": 2924,
-            "value": "𐐕"
+            "start": 2909,
+            "end": 2923,
+            "value": "𐐕",
+            "raw": "\"\\uD801\\uDC15\""
           },
           {
             "type": "Literal",
-            "start": 2926,
-            "end": 2953,
-            "value": "DESERET SMALL LETTER CHEE"
+            "start": 2925,
+            "end": 2952,
+            "value": "DESERET SMALL LETTER CHEE",
+            "raw": "\"DESERET SMALL LETTER CHEE\""
           }
         ],
         "optional": false
@@ -1545,26 +1611,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2956,
-      "end": 3047,
+      "start": 2955,
+      "end": 3046,
       "expression": {
         "type": "CallExpression",
-        "start": 2956,
-        "end": 3046,
+        "start": 2955,
+        "end": 3045,
         "callee": {
           "type": "MemberExpression",
-          "start": 2956,
-          "end": 2972,
+          "start": 2955,
+          "end": 2971,
           "object": {
             "type": "Identifier",
-            "start": 2956,
-            "end": 2962,
+            "start": 2955,
+            "end": 2961,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2963,
-            "end": 2972,
+            "start": 2962,
+            "end": 2971,
             "name": "sameValue"
           },
           "computed": false,
@@ -1573,22 +1639,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2973,
-            "end": 3001,
+            "start": 2972,
+            "end": 3000,
             "callee": {
               "type": "MemberExpression",
-              "start": 2973,
-              "end": 2999,
+              "start": 2972,
+              "end": 2998,
               "object": {
                 "type": "Literal",
-                "start": 2973,
-                "end": 2987,
-                "value": "𐐾"
+                "start": 2972,
+                "end": 2986,
+                "value": "𐐾",
+                "raw": "\"\\uD801\\uDC3E\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2988,
-                "end": 2999,
+                "start": 2987,
+                "end": 2998,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1599,15 +1666,17 @@
           },
           {
             "type": "Literal",
-            "start": 3003,
-            "end": 3017,
-            "value": "𐐖"
+            "start": 3002,
+            "end": 3016,
+            "value": "𐐖",
+            "raw": "\"\\uD801\\uDC16\""
           },
           {
             "type": "Literal",
-            "start": 3019,
-            "end": 3045,
-            "value": "DESERET SMALL LETTER JEE"
+            "start": 3018,
+            "end": 3044,
+            "value": "DESERET SMALL LETTER JEE",
+            "raw": "\"DESERET SMALL LETTER JEE\""
           }
         ],
         "optional": false
@@ -1615,26 +1684,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3048,
-      "end": 3139,
+      "start": 3047,
+      "end": 3138,
       "expression": {
         "type": "CallExpression",
-        "start": 3048,
-        "end": 3138,
+        "start": 3047,
+        "end": 3137,
         "callee": {
           "type": "MemberExpression",
-          "start": 3048,
-          "end": 3064,
+          "start": 3047,
+          "end": 3063,
           "object": {
             "type": "Identifier",
-            "start": 3048,
-            "end": 3054,
+            "start": 3047,
+            "end": 3053,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3055,
-            "end": 3064,
+            "start": 3054,
+            "end": 3063,
             "name": "sameValue"
           },
           "computed": false,
@@ -1643,22 +1712,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3065,
-            "end": 3093,
+            "start": 3064,
+            "end": 3092,
             "callee": {
               "type": "MemberExpression",
-              "start": 3065,
-              "end": 3091,
+              "start": 3064,
+              "end": 3090,
               "object": {
                 "type": "Literal",
-                "start": 3065,
-                "end": 3079,
-                "value": "𐐿"
+                "start": 3064,
+                "end": 3078,
+                "value": "𐐿",
+                "raw": "\"\\uD801\\uDC3F\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3080,
-                "end": 3091,
+                "start": 3079,
+                "end": 3090,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1669,15 +1739,17 @@
           },
           {
             "type": "Literal",
-            "start": 3095,
-            "end": 3109,
-            "value": "𐐗"
+            "start": 3094,
+            "end": 3108,
+            "value": "𐐗",
+            "raw": "\"\\uD801\\uDC17\""
           },
           {
             "type": "Literal",
-            "start": 3111,
-            "end": 3137,
-            "value": "DESERET SMALL LETTER KAY"
+            "start": 3110,
+            "end": 3136,
+            "value": "DESERET SMALL LETTER KAY",
+            "raw": "\"DESERET SMALL LETTER KAY\""
           }
         ],
         "optional": false
@@ -1685,26 +1757,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3140,
-      "end": 3231,
+      "start": 3139,
+      "end": 3230,
       "expression": {
         "type": "CallExpression",
-        "start": 3140,
-        "end": 3230,
+        "start": 3139,
+        "end": 3229,
         "callee": {
           "type": "MemberExpression",
-          "start": 3140,
-          "end": 3156,
+          "start": 3139,
+          "end": 3155,
           "object": {
             "type": "Identifier",
-            "start": 3140,
-            "end": 3146,
+            "start": 3139,
+            "end": 3145,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3147,
-            "end": 3156,
+            "start": 3146,
+            "end": 3155,
             "name": "sameValue"
           },
           "computed": false,
@@ -1713,22 +1785,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3157,
-            "end": 3185,
+            "start": 3156,
+            "end": 3184,
             "callee": {
               "type": "MemberExpression",
-              "start": 3157,
-              "end": 3183,
+              "start": 3156,
+              "end": 3182,
               "object": {
                 "type": "Literal",
-                "start": 3157,
-                "end": 3171,
-                "value": "𐑀"
+                "start": 3156,
+                "end": 3170,
+                "value": "𐑀",
+                "raw": "\"\\uD801\\uDC40\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3172,
-                "end": 3183,
+                "start": 3171,
+                "end": 3182,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1739,15 +1812,17 @@
           },
           {
             "type": "Literal",
-            "start": 3187,
-            "end": 3201,
-            "value": "𐐘"
+            "start": 3186,
+            "end": 3200,
+            "value": "𐐘",
+            "raw": "\"\\uD801\\uDC18\""
           },
           {
             "type": "Literal",
-            "start": 3203,
-            "end": 3229,
-            "value": "DESERET SMALL LETTER GAY"
+            "start": 3202,
+            "end": 3228,
+            "value": "DESERET SMALL LETTER GAY",
+            "raw": "\"DESERET SMALL LETTER GAY\""
           }
         ],
         "optional": false
@@ -1755,26 +1830,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3232,
-      "end": 3322,
+      "start": 3231,
+      "end": 3321,
       "expression": {
         "type": "CallExpression",
-        "start": 3232,
-        "end": 3321,
+        "start": 3231,
+        "end": 3320,
         "callee": {
           "type": "MemberExpression",
-          "start": 3232,
-          "end": 3248,
+          "start": 3231,
+          "end": 3247,
           "object": {
             "type": "Identifier",
-            "start": 3232,
-            "end": 3238,
+            "start": 3231,
+            "end": 3237,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3239,
-            "end": 3248,
+            "start": 3238,
+            "end": 3247,
             "name": "sameValue"
           },
           "computed": false,
@@ -1783,22 +1858,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3249,
-            "end": 3277,
+            "start": 3248,
+            "end": 3276,
             "callee": {
               "type": "MemberExpression",
-              "start": 3249,
-              "end": 3275,
+              "start": 3248,
+              "end": 3274,
               "object": {
                 "type": "Literal",
-                "start": 3249,
-                "end": 3263,
-                "value": "𐑁"
+                "start": 3248,
+                "end": 3262,
+                "value": "𐑁",
+                "raw": "\"\\uD801\\uDC41\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3264,
-                "end": 3275,
+                "start": 3263,
+                "end": 3274,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1809,15 +1885,17 @@
           },
           {
             "type": "Literal",
-            "start": 3279,
-            "end": 3293,
-            "value": "𐐙"
+            "start": 3278,
+            "end": 3292,
+            "value": "𐐙",
+            "raw": "\"\\uD801\\uDC19\""
           },
           {
             "type": "Literal",
-            "start": 3295,
-            "end": 3320,
-            "value": "DESERET SMALL LETTER EF"
+            "start": 3294,
+            "end": 3319,
+            "value": "DESERET SMALL LETTER EF",
+            "raw": "\"DESERET SMALL LETTER EF\""
           }
         ],
         "optional": false
@@ -1825,26 +1903,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3323,
-      "end": 3414,
+      "start": 3322,
+      "end": 3413,
       "expression": {
         "type": "CallExpression",
-        "start": 3323,
-        "end": 3413,
+        "start": 3322,
+        "end": 3412,
         "callee": {
           "type": "MemberExpression",
-          "start": 3323,
-          "end": 3339,
+          "start": 3322,
+          "end": 3338,
           "object": {
             "type": "Identifier",
-            "start": 3323,
-            "end": 3329,
+            "start": 3322,
+            "end": 3328,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3330,
-            "end": 3339,
+            "start": 3329,
+            "end": 3338,
             "name": "sameValue"
           },
           "computed": false,
@@ -1853,22 +1931,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3340,
-            "end": 3368,
+            "start": 3339,
+            "end": 3367,
             "callee": {
               "type": "MemberExpression",
-              "start": 3340,
-              "end": 3366,
+              "start": 3339,
+              "end": 3365,
               "object": {
                 "type": "Literal",
-                "start": 3340,
-                "end": 3354,
-                "value": "𐑂"
+                "start": 3339,
+                "end": 3353,
+                "value": "𐑂",
+                "raw": "\"\\uD801\\uDC42\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3355,
-                "end": 3366,
+                "start": 3354,
+                "end": 3365,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1879,15 +1958,17 @@
           },
           {
             "type": "Literal",
-            "start": 3370,
-            "end": 3384,
-            "value": "𐐚"
+            "start": 3369,
+            "end": 3383,
+            "value": "𐐚",
+            "raw": "\"\\uD801\\uDC1A\""
           },
           {
             "type": "Literal",
-            "start": 3386,
-            "end": 3412,
-            "value": "DESERET SMALL LETTER VEE"
+            "start": 3385,
+            "end": 3411,
+            "value": "DESERET SMALL LETTER VEE",
+            "raw": "\"DESERET SMALL LETTER VEE\""
           }
         ],
         "optional": false
@@ -1895,26 +1976,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3415,
-      "end": 3506,
+      "start": 3414,
+      "end": 3505,
       "expression": {
         "type": "CallExpression",
-        "start": 3415,
-        "end": 3505,
+        "start": 3414,
+        "end": 3504,
         "callee": {
           "type": "MemberExpression",
-          "start": 3415,
-          "end": 3431,
+          "start": 3414,
+          "end": 3430,
           "object": {
             "type": "Identifier",
-            "start": 3415,
-            "end": 3421,
+            "start": 3414,
+            "end": 3420,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3422,
-            "end": 3431,
+            "start": 3421,
+            "end": 3430,
             "name": "sameValue"
           },
           "computed": false,
@@ -1923,22 +2004,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3432,
-            "end": 3460,
+            "start": 3431,
+            "end": 3459,
             "callee": {
               "type": "MemberExpression",
-              "start": 3432,
-              "end": 3458,
+              "start": 3431,
+              "end": 3457,
               "object": {
                 "type": "Literal",
-                "start": 3432,
-                "end": 3446,
-                "value": "𐑃"
+                "start": 3431,
+                "end": 3445,
+                "value": "𐑃",
+                "raw": "\"\\uD801\\uDC43\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3447,
-                "end": 3458,
+                "start": 3446,
+                "end": 3457,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -1949,15 +2031,17 @@
           },
           {
             "type": "Literal",
-            "start": 3462,
-            "end": 3476,
-            "value": "𐐛"
+            "start": 3461,
+            "end": 3475,
+            "value": "𐐛",
+            "raw": "\"\\uD801\\uDC1B\""
           },
           {
             "type": "Literal",
-            "start": 3478,
-            "end": 3504,
-            "value": "DESERET SMALL LETTER ETH"
+            "start": 3477,
+            "end": 3503,
+            "value": "DESERET SMALL LETTER ETH",
+            "raw": "\"DESERET SMALL LETTER ETH\""
           }
         ],
         "optional": false
@@ -1965,26 +2049,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3507,
-      "end": 3599,
+      "start": 3506,
+      "end": 3598,
       "expression": {
         "type": "CallExpression",
-        "start": 3507,
-        "end": 3598,
+        "start": 3506,
+        "end": 3597,
         "callee": {
           "type": "MemberExpression",
-          "start": 3507,
-          "end": 3523,
+          "start": 3506,
+          "end": 3522,
           "object": {
             "type": "Identifier",
-            "start": 3507,
-            "end": 3513,
+            "start": 3506,
+            "end": 3512,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3514,
-            "end": 3523,
+            "start": 3513,
+            "end": 3522,
             "name": "sameValue"
           },
           "computed": false,
@@ -1993,22 +2077,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3524,
-            "end": 3552,
+            "start": 3523,
+            "end": 3551,
             "callee": {
               "type": "MemberExpression",
-              "start": 3524,
-              "end": 3550,
+              "start": 3523,
+              "end": 3549,
               "object": {
                 "type": "Literal",
-                "start": 3524,
-                "end": 3538,
-                "value": "𐑄"
+                "start": 3523,
+                "end": 3537,
+                "value": "𐑄",
+                "raw": "\"\\uD801\\uDC44\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3539,
-                "end": 3550,
+                "start": 3538,
+                "end": 3549,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2019,15 +2104,17 @@
           },
           {
             "type": "Literal",
-            "start": 3554,
-            "end": 3568,
-            "value": "𐐜"
+            "start": 3553,
+            "end": 3567,
+            "value": "𐐜",
+            "raw": "\"\\uD801\\uDC1C\""
           },
           {
             "type": "Literal",
-            "start": 3570,
-            "end": 3597,
-            "value": "DESERET SMALL LETTER THEE"
+            "start": 3569,
+            "end": 3596,
+            "value": "DESERET SMALL LETTER THEE",
+            "raw": "\"DESERET SMALL LETTER THEE\""
           }
         ],
         "optional": false
@@ -2035,26 +2122,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3600,
-      "end": 3690,
+      "start": 3599,
+      "end": 3689,
       "expression": {
         "type": "CallExpression",
-        "start": 3600,
-        "end": 3689,
+        "start": 3599,
+        "end": 3688,
         "callee": {
           "type": "MemberExpression",
-          "start": 3600,
-          "end": 3616,
+          "start": 3599,
+          "end": 3615,
           "object": {
             "type": "Identifier",
-            "start": 3600,
-            "end": 3606,
+            "start": 3599,
+            "end": 3605,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3607,
-            "end": 3616,
+            "start": 3606,
+            "end": 3615,
             "name": "sameValue"
           },
           "computed": false,
@@ -2063,22 +2150,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3617,
-            "end": 3645,
+            "start": 3616,
+            "end": 3644,
             "callee": {
               "type": "MemberExpression",
-              "start": 3617,
-              "end": 3643,
+              "start": 3616,
+              "end": 3642,
               "object": {
                 "type": "Literal",
-                "start": 3617,
-                "end": 3631,
-                "value": "𐑅"
+                "start": 3616,
+                "end": 3630,
+                "value": "𐑅",
+                "raw": "\"\\uD801\\uDC45\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3632,
-                "end": 3643,
+                "start": 3631,
+                "end": 3642,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2089,15 +2177,17 @@
           },
           {
             "type": "Literal",
-            "start": 3647,
-            "end": 3661,
-            "value": "𐐝"
+            "start": 3646,
+            "end": 3660,
+            "value": "𐐝",
+            "raw": "\"\\uD801\\uDC1D\""
           },
           {
             "type": "Literal",
-            "start": 3663,
-            "end": 3688,
-            "value": "DESERET SMALL LETTER ES"
+            "start": 3662,
+            "end": 3687,
+            "value": "DESERET SMALL LETTER ES",
+            "raw": "\"DESERET SMALL LETTER ES\""
           }
         ],
         "optional": false
@@ -2105,26 +2195,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3691,
-      "end": 3782,
+      "start": 3690,
+      "end": 3781,
       "expression": {
         "type": "CallExpression",
-        "start": 3691,
-        "end": 3781,
+        "start": 3690,
+        "end": 3780,
         "callee": {
           "type": "MemberExpression",
-          "start": 3691,
-          "end": 3707,
+          "start": 3690,
+          "end": 3706,
           "object": {
             "type": "Identifier",
-            "start": 3691,
-            "end": 3697,
+            "start": 3690,
+            "end": 3696,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3698,
-            "end": 3707,
+            "start": 3697,
+            "end": 3706,
             "name": "sameValue"
           },
           "computed": false,
@@ -2133,22 +2223,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3708,
-            "end": 3736,
+            "start": 3707,
+            "end": 3735,
             "callee": {
               "type": "MemberExpression",
-              "start": 3708,
-              "end": 3734,
+              "start": 3707,
+              "end": 3733,
               "object": {
                 "type": "Literal",
-                "start": 3708,
-                "end": 3722,
-                "value": "𐑆"
+                "start": 3707,
+                "end": 3721,
+                "value": "𐑆",
+                "raw": "\"\\uD801\\uDC46\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3723,
-                "end": 3734,
+                "start": 3722,
+                "end": 3733,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2159,15 +2250,17 @@
           },
           {
             "type": "Literal",
-            "start": 3738,
-            "end": 3752,
-            "value": "𐐞"
+            "start": 3737,
+            "end": 3751,
+            "value": "𐐞",
+            "raw": "\"\\uD801\\uDC1E\""
           },
           {
             "type": "Literal",
-            "start": 3754,
-            "end": 3780,
-            "value": "DESERET SMALL LETTER ZEE"
+            "start": 3753,
+            "end": 3779,
+            "value": "DESERET SMALL LETTER ZEE",
+            "raw": "\"DESERET SMALL LETTER ZEE\""
           }
         ],
         "optional": false
@@ -2175,26 +2268,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3783,
-      "end": 3874,
+      "start": 3782,
+      "end": 3873,
       "expression": {
         "type": "CallExpression",
-        "start": 3783,
-        "end": 3873,
+        "start": 3782,
+        "end": 3872,
         "callee": {
           "type": "MemberExpression",
-          "start": 3783,
-          "end": 3799,
+          "start": 3782,
+          "end": 3798,
           "object": {
             "type": "Identifier",
-            "start": 3783,
-            "end": 3789,
+            "start": 3782,
+            "end": 3788,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3790,
-            "end": 3799,
+            "start": 3789,
+            "end": 3798,
             "name": "sameValue"
           },
           "computed": false,
@@ -2203,22 +2296,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3800,
-            "end": 3828,
+            "start": 3799,
+            "end": 3827,
             "callee": {
               "type": "MemberExpression",
-              "start": 3800,
-              "end": 3826,
+              "start": 3799,
+              "end": 3825,
               "object": {
                 "type": "Literal",
-                "start": 3800,
-                "end": 3814,
-                "value": "𐑇"
+                "start": 3799,
+                "end": 3813,
+                "value": "𐑇",
+                "raw": "\"\\uD801\\uDC47\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3815,
-                "end": 3826,
+                "start": 3814,
+                "end": 3825,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2229,15 +2323,17 @@
           },
           {
             "type": "Literal",
-            "start": 3830,
-            "end": 3844,
-            "value": "𐐟"
+            "start": 3829,
+            "end": 3843,
+            "value": "𐐟",
+            "raw": "\"\\uD801\\uDC1F\""
           },
           {
             "type": "Literal",
-            "start": 3846,
-            "end": 3872,
-            "value": "DESERET SMALL LETTER ESH"
+            "start": 3845,
+            "end": 3871,
+            "value": "DESERET SMALL LETTER ESH",
+            "raw": "\"DESERET SMALL LETTER ESH\""
           }
         ],
         "optional": false
@@ -2245,26 +2341,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3875,
-      "end": 3967,
+      "start": 3874,
+      "end": 3966,
       "expression": {
         "type": "CallExpression",
-        "start": 3875,
-        "end": 3966,
+        "start": 3874,
+        "end": 3965,
         "callee": {
           "type": "MemberExpression",
-          "start": 3875,
-          "end": 3891,
+          "start": 3874,
+          "end": 3890,
           "object": {
             "type": "Identifier",
-            "start": 3875,
-            "end": 3881,
+            "start": 3874,
+            "end": 3880,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3882,
-            "end": 3891,
+            "start": 3881,
+            "end": 3890,
             "name": "sameValue"
           },
           "computed": false,
@@ -2273,22 +2369,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3892,
-            "end": 3920,
+            "start": 3891,
+            "end": 3919,
             "callee": {
               "type": "MemberExpression",
-              "start": 3892,
-              "end": 3918,
+              "start": 3891,
+              "end": 3917,
               "object": {
                 "type": "Literal",
-                "start": 3892,
-                "end": 3906,
-                "value": "𐑈"
+                "start": 3891,
+                "end": 3905,
+                "value": "𐑈",
+                "raw": "\"\\uD801\\uDC48\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 3907,
-                "end": 3918,
+                "start": 3906,
+                "end": 3917,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2299,15 +2396,17 @@
           },
           {
             "type": "Literal",
-            "start": 3922,
-            "end": 3936,
-            "value": "𐐠"
+            "start": 3921,
+            "end": 3935,
+            "value": "𐐠",
+            "raw": "\"\\uD801\\uDC20\""
           },
           {
             "type": "Literal",
-            "start": 3938,
-            "end": 3965,
-            "value": "DESERET SMALL LETTER ZHEE"
+            "start": 3937,
+            "end": 3964,
+            "value": "DESERET SMALL LETTER ZHEE",
+            "raw": "\"DESERET SMALL LETTER ZHEE\""
           }
         ],
         "optional": false
@@ -2315,26 +2414,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3968,
-      "end": 4058,
+      "start": 3967,
+      "end": 4057,
       "expression": {
         "type": "CallExpression",
-        "start": 3968,
-        "end": 4057,
+        "start": 3967,
+        "end": 4056,
         "callee": {
           "type": "MemberExpression",
-          "start": 3968,
-          "end": 3984,
+          "start": 3967,
+          "end": 3983,
           "object": {
             "type": "Identifier",
-            "start": 3968,
-            "end": 3974,
+            "start": 3967,
+            "end": 3973,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3975,
-            "end": 3984,
+            "start": 3974,
+            "end": 3983,
             "name": "sameValue"
           },
           "computed": false,
@@ -2343,22 +2442,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3985,
-            "end": 4013,
+            "start": 3984,
+            "end": 4012,
             "callee": {
               "type": "MemberExpression",
-              "start": 3985,
-              "end": 4011,
+              "start": 3984,
+              "end": 4010,
               "object": {
                 "type": "Literal",
-                "start": 3985,
-                "end": 3999,
-                "value": "𐑉"
+                "start": 3984,
+                "end": 3998,
+                "value": "𐑉",
+                "raw": "\"\\uD801\\uDC49\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4000,
-                "end": 4011,
+                "start": 3999,
+                "end": 4010,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2369,15 +2469,17 @@
           },
           {
             "type": "Literal",
-            "start": 4015,
-            "end": 4029,
-            "value": "𐐡"
+            "start": 4014,
+            "end": 4028,
+            "value": "𐐡",
+            "raw": "\"\\uD801\\uDC21\""
           },
           {
             "type": "Literal",
-            "start": 4031,
-            "end": 4056,
-            "value": "DESERET SMALL LETTER ER"
+            "start": 4030,
+            "end": 4055,
+            "value": "DESERET SMALL LETTER ER",
+            "raw": "\"DESERET SMALL LETTER ER\""
           }
         ],
         "optional": false
@@ -2385,26 +2487,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4059,
-      "end": 4149,
+      "start": 4058,
+      "end": 4148,
       "expression": {
         "type": "CallExpression",
-        "start": 4059,
-        "end": 4148,
+        "start": 4058,
+        "end": 4147,
         "callee": {
           "type": "MemberExpression",
-          "start": 4059,
-          "end": 4075,
+          "start": 4058,
+          "end": 4074,
           "object": {
             "type": "Identifier",
-            "start": 4059,
-            "end": 4065,
+            "start": 4058,
+            "end": 4064,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4066,
-            "end": 4075,
+            "start": 4065,
+            "end": 4074,
             "name": "sameValue"
           },
           "computed": false,
@@ -2413,22 +2515,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4076,
-            "end": 4104,
+            "start": 4075,
+            "end": 4103,
             "callee": {
               "type": "MemberExpression",
-              "start": 4076,
-              "end": 4102,
+              "start": 4075,
+              "end": 4101,
               "object": {
                 "type": "Literal",
-                "start": 4076,
-                "end": 4090,
-                "value": "𐑊"
+                "start": 4075,
+                "end": 4089,
+                "value": "𐑊",
+                "raw": "\"\\uD801\\uDC4A\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4091,
-                "end": 4102,
+                "start": 4090,
+                "end": 4101,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2439,15 +2542,17 @@
           },
           {
             "type": "Literal",
-            "start": 4106,
-            "end": 4120,
-            "value": "𐐢"
+            "start": 4105,
+            "end": 4119,
+            "value": "𐐢",
+            "raw": "\"\\uD801\\uDC22\""
           },
           {
             "type": "Literal",
-            "start": 4122,
-            "end": 4147,
-            "value": "DESERET SMALL LETTER EL"
+            "start": 4121,
+            "end": 4146,
+            "value": "DESERET SMALL LETTER EL",
+            "raw": "\"DESERET SMALL LETTER EL\""
           }
         ],
         "optional": false
@@ -2455,26 +2560,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4150,
-      "end": 4240,
+      "start": 4149,
+      "end": 4239,
       "expression": {
         "type": "CallExpression",
-        "start": 4150,
-        "end": 4239,
+        "start": 4149,
+        "end": 4238,
         "callee": {
           "type": "MemberExpression",
-          "start": 4150,
-          "end": 4166,
+          "start": 4149,
+          "end": 4165,
           "object": {
             "type": "Identifier",
-            "start": 4150,
-            "end": 4156,
+            "start": 4149,
+            "end": 4155,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4157,
-            "end": 4166,
+            "start": 4156,
+            "end": 4165,
             "name": "sameValue"
           },
           "computed": false,
@@ -2483,22 +2588,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4167,
-            "end": 4195,
+            "start": 4166,
+            "end": 4194,
             "callee": {
               "type": "MemberExpression",
-              "start": 4167,
-              "end": 4193,
+              "start": 4166,
+              "end": 4192,
               "object": {
                 "type": "Literal",
-                "start": 4167,
-                "end": 4181,
-                "value": "𐑋"
+                "start": 4166,
+                "end": 4180,
+                "value": "𐑋",
+                "raw": "\"\\uD801\\uDC4B\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4182,
-                "end": 4193,
+                "start": 4181,
+                "end": 4192,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2509,15 +2615,17 @@
           },
           {
             "type": "Literal",
-            "start": 4197,
-            "end": 4211,
-            "value": "𐐣"
+            "start": 4196,
+            "end": 4210,
+            "value": "𐐣",
+            "raw": "\"\\uD801\\uDC23\""
           },
           {
             "type": "Literal",
-            "start": 4213,
-            "end": 4238,
-            "value": "DESERET SMALL LETTER EM"
+            "start": 4212,
+            "end": 4237,
+            "value": "DESERET SMALL LETTER EM",
+            "raw": "\"DESERET SMALL LETTER EM\""
           }
         ],
         "optional": false
@@ -2525,26 +2633,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4241,
-      "end": 4331,
+      "start": 4240,
+      "end": 4330,
       "expression": {
         "type": "CallExpression",
-        "start": 4241,
-        "end": 4330,
+        "start": 4240,
+        "end": 4329,
         "callee": {
           "type": "MemberExpression",
-          "start": 4241,
-          "end": 4257,
+          "start": 4240,
+          "end": 4256,
           "object": {
             "type": "Identifier",
-            "start": 4241,
-            "end": 4247,
+            "start": 4240,
+            "end": 4246,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4248,
-            "end": 4257,
+            "start": 4247,
+            "end": 4256,
             "name": "sameValue"
           },
           "computed": false,
@@ -2553,22 +2661,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4258,
-            "end": 4286,
+            "start": 4257,
+            "end": 4285,
             "callee": {
               "type": "MemberExpression",
-              "start": 4258,
-              "end": 4284,
+              "start": 4257,
+              "end": 4283,
               "object": {
                 "type": "Literal",
-                "start": 4258,
-                "end": 4272,
-                "value": "𐑌"
+                "start": 4257,
+                "end": 4271,
+                "value": "𐑌",
+                "raw": "\"\\uD801\\uDC4C\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4273,
-                "end": 4284,
+                "start": 4272,
+                "end": 4283,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2579,15 +2688,17 @@
           },
           {
             "type": "Literal",
-            "start": 4288,
-            "end": 4302,
-            "value": "𐐤"
+            "start": 4287,
+            "end": 4301,
+            "value": "𐐤",
+            "raw": "\"\\uD801\\uDC24\""
           },
           {
             "type": "Literal",
-            "start": 4304,
-            "end": 4329,
-            "value": "DESERET SMALL LETTER EN"
+            "start": 4303,
+            "end": 4328,
+            "value": "DESERET SMALL LETTER EN",
+            "raw": "\"DESERET SMALL LETTER EN\""
           }
         ],
         "optional": false
@@ -2595,26 +2706,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4332,
-      "end": 4423,
+      "start": 4331,
+      "end": 4422,
       "expression": {
         "type": "CallExpression",
-        "start": 4332,
-        "end": 4422,
+        "start": 4331,
+        "end": 4421,
         "callee": {
           "type": "MemberExpression",
-          "start": 4332,
-          "end": 4348,
+          "start": 4331,
+          "end": 4347,
           "object": {
             "type": "Identifier",
-            "start": 4332,
-            "end": 4338,
+            "start": 4331,
+            "end": 4337,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4339,
-            "end": 4348,
+            "start": 4338,
+            "end": 4347,
             "name": "sameValue"
           },
           "computed": false,
@@ -2623,22 +2734,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4349,
-            "end": 4377,
+            "start": 4348,
+            "end": 4376,
             "callee": {
               "type": "MemberExpression",
-              "start": 4349,
-              "end": 4375,
+              "start": 4348,
+              "end": 4374,
               "object": {
                 "type": "Literal",
-                "start": 4349,
-                "end": 4363,
-                "value": "𐑍"
+                "start": 4348,
+                "end": 4362,
+                "value": "𐑍",
+                "raw": "\"\\uD801\\uDC4D\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4364,
-                "end": 4375,
+                "start": 4363,
+                "end": 4374,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2649,15 +2761,17 @@
           },
           {
             "type": "Literal",
-            "start": 4379,
-            "end": 4393,
-            "value": "𐐥"
+            "start": 4378,
+            "end": 4392,
+            "value": "𐐥",
+            "raw": "\"\\uD801\\uDC25\""
           },
           {
             "type": "Literal",
-            "start": 4395,
-            "end": 4421,
-            "value": "DESERET SMALL LETTER ENG"
+            "start": 4394,
+            "end": 4420,
+            "value": "DESERET SMALL LETTER ENG",
+            "raw": "\"DESERET SMALL LETTER ENG\""
           }
         ],
         "optional": false
@@ -2665,26 +2779,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4424,
-      "end": 4514,
+      "start": 4423,
+      "end": 4513,
       "expression": {
         "type": "CallExpression",
-        "start": 4424,
-        "end": 4513,
+        "start": 4423,
+        "end": 4512,
         "callee": {
           "type": "MemberExpression",
-          "start": 4424,
-          "end": 4440,
+          "start": 4423,
+          "end": 4439,
           "object": {
             "type": "Identifier",
-            "start": 4424,
-            "end": 4430,
+            "start": 4423,
+            "end": 4429,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4431,
-            "end": 4440,
+            "start": 4430,
+            "end": 4439,
             "name": "sameValue"
           },
           "computed": false,
@@ -2693,22 +2807,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4441,
-            "end": 4469,
+            "start": 4440,
+            "end": 4468,
             "callee": {
               "type": "MemberExpression",
-              "start": 4441,
-              "end": 4467,
+              "start": 4440,
+              "end": 4466,
               "object": {
                 "type": "Literal",
-                "start": 4441,
-                "end": 4455,
-                "value": "𐑎"
+                "start": 4440,
+                "end": 4454,
+                "value": "𐑎",
+                "raw": "\"\\uD801\\uDC4E\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4456,
-                "end": 4467,
+                "start": 4455,
+                "end": 4466,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2719,15 +2834,17 @@
           },
           {
             "type": "Literal",
-            "start": 4471,
-            "end": 4485,
-            "value": "𐐦"
+            "start": 4470,
+            "end": 4484,
+            "value": "𐐦",
+            "raw": "\"\\uD801\\uDC26\""
           },
           {
             "type": "Literal",
-            "start": 4487,
-            "end": 4512,
-            "value": "DESERET SMALL LETTER OI"
+            "start": 4486,
+            "end": 4511,
+            "value": "DESERET SMALL LETTER OI",
+            "raw": "\"DESERET SMALL LETTER OI\""
           }
         ],
         "optional": false
@@ -2735,26 +2852,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4515,
-      "end": 4605,
+      "start": 4514,
+      "end": 4604,
       "expression": {
         "type": "CallExpression",
-        "start": 4515,
-        "end": 4604,
+        "start": 4514,
+        "end": 4603,
         "callee": {
           "type": "MemberExpression",
-          "start": 4515,
-          "end": 4531,
+          "start": 4514,
+          "end": 4530,
           "object": {
             "type": "Identifier",
-            "start": 4515,
-            "end": 4521,
+            "start": 4514,
+            "end": 4520,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4522,
-            "end": 4531,
+            "start": 4521,
+            "end": 4530,
             "name": "sameValue"
           },
           "computed": false,
@@ -2763,22 +2880,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4532,
-            "end": 4560,
+            "start": 4531,
+            "end": 4559,
             "callee": {
               "type": "MemberExpression",
-              "start": 4532,
-              "end": 4558,
+              "start": 4531,
+              "end": 4557,
               "object": {
                 "type": "Literal",
-                "start": 4532,
-                "end": 4546,
-                "value": "𐑏"
+                "start": 4531,
+                "end": 4545,
+                "value": "𐑏",
+                "raw": "\"\\uD801\\uDC4F\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 4547,
-                "end": 4558,
+                "start": 4546,
+                "end": 4557,
                 "name": "toUpperCase"
               },
               "computed": false,
@@ -2789,15 +2907,17 @@
           },
           {
             "type": "Literal",
-            "start": 4562,
-            "end": 4576,
-            "value": "𐐧"
+            "start": 4561,
+            "end": 4575,
+            "value": "𐐧",
+            "raw": "\"\\uD801\\uDC27\""
           },
           {
             "type": "Literal",
-            "start": 4578,
-            "end": 4603,
-            "value": "DESERET SMALL LETTER EW"
+            "start": 4577,
+            "end": 4602,
+            "value": "DESERET SMALL LETTER EW",
+            "raw": "\"DESERET SMALL LETTER EW\""
           }
         ],
         "optional": false

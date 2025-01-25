@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 360,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -61,7 +62,8 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 427,
-                  "value": "#1: new new Number(1) throw TypeError"
+                  "value": "#1: new new Number(1) throw TypeError",
+                  "raw": "'#1: new new Number(1) throw TypeError'"
                 }
               ]
             }
@@ -119,7 +121,8 @@
                   "type": "Literal",
                   "start": 479,
                   "end": 483,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -146,7 +149,8 @@
                           "type": "Literal",
                           "start": 514,
                           "end": 553,
-                          "value": "#1: new new Number(1) throw TypeError"
+                          "value": "#1: new new Number(1) throw TypeError",
+                          "raw": "'#1: new new Number(1) throw TypeError'"
                         }
                       ]
                     }
@@ -199,7 +203,8 @@
                       "type": "Literal",
                       "start": 600,
                       "end": 601,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 }
@@ -243,7 +248,8 @@
                   "type": "Literal",
                   "start": 638,
                   "end": 688,
-                  "value": "#2: var x = new Number(1); new x throw TypeError"
+                  "value": "#2: var x = new Number(1); new x throw TypeError",
+                  "raw": "'#2: var x = new Number(1); new x throw TypeError'"
                 }
               ]
             }
@@ -301,7 +307,8 @@
                   "type": "Literal",
                   "start": 740,
                   "end": 744,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -328,7 +335,8 @@
                           "type": "Literal",
                           "start": 775,
                           "end": 825,
-                          "value": "#2: var x = new Number(1); new x throw TypeError"
+                          "value": "#2: var x = new Number(1); new x throw TypeError",
+                          "raw": "'#2: var x = new Number(1); new x throw TypeError'"
                         }
                       ]
                     }
@@ -381,7 +389,8 @@
                       "type": "Literal",
                       "start": 872,
                       "end": 873,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 }
@@ -425,7 +434,8 @@
                   "type": "Literal",
                   "start": 912,
                   "end": 964,
-                  "value": "#3: var x = new Number(1); new x() throw TypeError"
+                  "value": "#3: var x = new Number(1); new x() throw TypeError",
+                  "raw": "'#3: var x = new Number(1); new x() throw TypeError'"
                 }
               ]
             }
@@ -483,7 +493,8 @@
                   "type": "Literal",
                   "start": 1016,
                   "end": 1020,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -510,7 +521,8 @@
                           "type": "Literal",
                           "start": 1051,
                           "end": 1103,
-                          "value": "#3: var x = new Number(1); new x() throw TypeError"
+                          "value": "#3: var x = new Number(1); new x() throw TypeError",
+                          "raw": "'#3: var x = new Number(1); new x() throw TypeError'"
                         }
                       ]
                     }

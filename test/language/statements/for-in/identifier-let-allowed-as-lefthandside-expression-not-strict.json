@@ -1,28 +1,28 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 451,
+  "end": 449,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 431,
-      "end": 450,
+      "start": 429,
+      "end": 448,
       "left": {
         "type": "Identifier",
-        "start": 436,
-        "end": 439,
+        "start": 434,
+        "end": 437,
         "name": "let"
       },
       "right": {
         "type": "ObjectExpression",
-        "start": 443,
-        "end": 445,
+        "start": 441,
+        "end": 443,
         "properties": []
       },
       "body": {
         "type": "BlockStatement",
-        "start": 447,
-        "end": 450,
+        "start": 445,
+        "end": 448,
         "body": []
       }
     }

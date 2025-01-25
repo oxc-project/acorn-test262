@@ -150,7 +150,8 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 443,
-                  "value": "Function"
+                  "value": "Function",
+                  "raw": "\"Function\""
                 }
               }
             ]
@@ -275,13 +276,15 @@
             "type": "Literal",
             "start": 533,
             "end": 543,
-            "value": "Function"
+            "value": "Function",
+            "raw": "\"Function\""
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 559,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

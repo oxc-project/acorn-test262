@@ -27,7 +27,8 @@
             "type": "Literal",
             "start": 368,
             "end": 381,
-            "value": "ShadowRealm"
+            "value": "ShadowRealm",
+            "raw": "\"ShadowRealm\""
           },
           {
             "type": "ObjectExpression",
@@ -51,7 +52,8 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 404,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -72,7 +74,8 @@
                   "type": "Literal",
                   "start": 418,
                   "end": 422,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -93,7 +96,8 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 444,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -205,7 +205,8 @@
             "type": "Literal",
             "start": 401,
             "end": 455,
-            "value": "The value of p1 is expected to equal the value of p2"
+            "value": "The value of p1 is expected to equal the value of p2",
+            "raw": "'The value of p1 is expected to equal the value of p2'"
           }
         ],
         "optional": false
@@ -280,7 +281,8 @@
                             "type": "Literal",
                             "start": 505,
                             "end": 549,
-                            "value": "Expected p2 to be rejected, not fulfilled."
+                            "value": "Expected p2 to be rejected, not fulfilled.",
+                            "raw": "\"Expected p2 to be rejected, not fulfilled.\""
                           }
                         ]
                       }
@@ -353,7 +355,8 @@
                             "type": "Literal",
                             "start": 606,
                             "end": 665,
-                            "value": "The value of result is expected to equal the value of arg"
+                            "value": "The value of result is expected to equal the value of arg",
+                            "raw": "'The value of result is expected to equal the value of arg'"
                           }
                         ],
                         "optional": false

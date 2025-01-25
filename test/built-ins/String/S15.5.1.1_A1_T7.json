@@ -68,7 +68,8 @@
           "type": "Literal",
           "start": 444,
           "end": 452,
-          "value": "string"
+          "value": "string",
+          "raw": "\"string\""
         }
       },
       "consequent": {
@@ -99,7 +100,8 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 558,
-                    "value": "#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ==="
+                    "value": "#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -150,14 +152,16 @@
               "type": "Literal",
               "start": 764,
               "end": 774,
-              "value": "[object "
+              "value": "[object ",
+              "raw": "\"[object \""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 777,
               "end": 785,
-              "value": "Object"
+              "value": "Object",
+              "raw": "\"Object\""
             }
           },
           "operator": "+",
@@ -165,7 +169,8 @@
             "type": "Literal",
             "start": 788,
             "end": 791,
-            "value": "]"
+            "value": "]",
+            "raw": "\"]\""
           }
         }
       },
@@ -197,7 +202,8 @@
                     "type": "Literal",
                     "start": 820,
                     "end": 892,
-                    "value": "#2: __str = String({}); __str === \"[object Object]\". Actual: __str ==="
+                    "value": "#2: __str = String({}); __str === \"[object Object]\". Actual: __str ===",
+                    "raw": "'#2: __str = String({}); __str === \"[object Object]\". Actual: __str ==='"
                   },
                   "operator": "+",
                   "right": {

@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 1954,
                 "end": 1958,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }

@@ -69,7 +69,8 @@
                               "type": "Literal",
                               "start": 395,
                               "end": 402,
-                              "value": "[0-9]"
+                              "value": "[0-9]",
+                              "raw": "\"[0-9]\""
                             }
                           }
                         ]
@@ -109,7 +110,8 @@
                             "type": "Literal",
                             "start": 426,
                             "end": 429,
-                            "value": "m"
+                            "value": "m",
+                            "raw": "\"m\""
                           }
                         }
                       ]
@@ -176,13 +178,15 @@
             "type": "Literal",
             "start": 472,
             "end": 477,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 533,
-            "value": "The value of __re.ignoreCase is expected to be false"
+            "value": "The value of __re.ignoreCase is expected to be false",
+            "raw": "'The value of __re.ignoreCase is expected to be false'"
           }
         ],
         "optional": false
@@ -239,13 +243,15 @@
             "type": "Literal",
             "start": 569,
             "end": 573,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 627,
-            "value": "The value of __re.multiline is expected to be true"
+            "value": "The value of __re.multiline is expected to be true",
+            "raw": "'The value of __re.multiline is expected to be true'"
           }
         ],
         "optional": false
@@ -302,13 +308,15 @@
             "type": "Literal",
             "start": 660,
             "end": 665,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 717,
-            "value": "The value of __re.global is expected to be false"
+            "value": "The value of __re.global is expected to be false",
+            "raw": "'The value of __re.global is expected to be false'"
           }
         ],
         "optional": false
@@ -365,13 +373,15 @@
             "type": "Literal",
             "start": 753,
             "end": 754,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 805,
-            "value": "The value of __re.lastIndex is expected to be 0"
+            "value": "The value of __re.lastIndex is expected to be 0",
+            "raw": "'The value of __re.lastIndex is expected to be 0'"
           }
         ],
         "optional": false
@@ -435,13 +445,15 @@
             "type": "Literal",
             "start": 848,
             "end": 859,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 913,
-            "value": "The value of typeof __re.source is not \"undefined\""
+            "value": "The value of typeof __re.source is not \"undefined\"",
+            "raw": "'The value of typeof __re.source is not \"undefined\"'"
           }
         ],
         "optional": false

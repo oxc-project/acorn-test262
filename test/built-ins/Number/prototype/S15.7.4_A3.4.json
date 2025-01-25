@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 335,
-                "value": "valueOf"
+                "value": "valueOf",
+                "raw": "\"valueOf\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 340,
             "end": 344,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 409,
-            "value": "Number.prototype.hasOwnProperty(\"valueOf\") must return true"
+            "value": "Number.prototype.hasOwnProperty(\"valueOf\") must return true",
+            "raw": "'Number.prototype.hasOwnProperty(\"valueOf\") must return true'"
           }
         ],
         "optional": false

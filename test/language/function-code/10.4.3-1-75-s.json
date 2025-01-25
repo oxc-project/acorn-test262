@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 302,
               "end": 314,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "\"use strict\""
             },
             "directive": "use strict"
           },
@@ -121,7 +122,8 @@
             "type": "Literal",
             "start": 369,
             "end": 383,
-            "value": "f.call(this)"
+            "value": "f.call(this)",
+            "raw": "'f.call(this)'"
           }
         ],
         "optional": false

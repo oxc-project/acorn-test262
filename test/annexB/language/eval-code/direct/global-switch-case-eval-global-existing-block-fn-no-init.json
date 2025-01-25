@@ -34,14 +34,16 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 666,
-                  "value": "assert.sameValue(f, undefined);    {    function f() {}  }switch (1) {"
+                  "value": "assert.sameValue(f, undefined);    {    function f() {}  }switch (1) {",
+                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 671,
                   "end": 682,
-                  "value": "  case 1:"
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
                 }
               },
               "operator": "+",
@@ -49,7 +51,8 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 710,
-                "value": "    function f() {  }"
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
               }
             },
             "operator": "+",
@@ -57,7 +60,8 @@
               "type": "Literal",
               "start": 715,
               "end": 722,
-              "value": "}  "
+              "value": "}  ",
+              "raw": "'}\\\n  '"
             }
           }
         ],

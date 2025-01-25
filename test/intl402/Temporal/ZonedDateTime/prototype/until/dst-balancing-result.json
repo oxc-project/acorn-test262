@@ -51,13 +51,15 @@
                     "type": "Literal",
                     "start": 443,
                     "end": 465,
-                    "value": "949132800000000000n"
+                    "value": "949132800000000000n",
+                    "raw": "949132800_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 498,
                     "end": 517,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -108,13 +110,15 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 633,
-                    "value": "972889200000000000n"
+                    "value": "972889200000000000n",
+                    "raw": "972889200_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 666,
                     "end": 685,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -189,7 +193,8 @@
                           "type": "Literal",
                           "start": 781,
                           "end": 788,
-                          "value": "years"
+                          "value": "years",
+                          "raw": "\"years\""
                         },
                         "kind": "init"
                       }
@@ -240,67 +245,78 @@
                 "type": "Literal",
                 "start": 838,
                 "end": 839,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 842,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               },
               {
                 "type": "Literal",
                 "start": 844,
                 "end": 845,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 847,
                 "end": 848,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 850,
                 "end": 852,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               },
               {
                 "type": "Literal",
                 "start": 854,
                 "end": 855,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 857,
                 "end": 858,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 860,
                 "end": 861,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 863,
                 "end": 864,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 866,
                 "end": 867,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 877,
                 "end": 928,
-                "value": "24 hours does not balance to 1 day in 25-hour day"
+                "value": "24 hours does not balance to 1 day in 25-hour day",
+                "raw": "\"24 hours does not balance to 1 day in 25-hour day\""
               }
             ],
             "optional": false

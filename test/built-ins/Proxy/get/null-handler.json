@@ -263,7 +263,8 @@
                       "type": "Literal",
                       "start": 434,
                       "end": 440,
-                      "value": "attr"
+                      "value": "attr",
+                      "raw": "'attr'"
                     },
                     "computed": true,
                     "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 259,
             "end": 264,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 321,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -151,7 +153,8 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -160,7 +163,8 @@
           "type": "Literal",
           "start": 380,
           "end": 381,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -209,7 +213,8 @@
           "type": "Literal",
           "start": 409,
           "end": 410,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -282,7 +287,8 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 450,
-                "value": 2.5
+                "value": 2.5,
+                "raw": "2.5"
               },
               {
                 "type": "Identifier",
@@ -297,7 +303,8 @@
             "type": "Literal",
             "start": 465,
             "end": 519,
-            "value": "Array.prototype.every.call(2.5, callbackfn) !== true"
+            "value": "Array.prototype.every.call(2.5, callbackfn) !== true",
+            "raw": "'Array.prototype.every.call(2.5, callbackfn) !== true'"
           }
         ],
         "optional": false
@@ -328,7 +335,8 @@
             "type": "Literal",
             "start": 539,
             "end": 558,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

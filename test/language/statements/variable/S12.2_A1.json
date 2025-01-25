@@ -64,13 +64,15 @@
                   "type": "Literal",
                   "start": 631,
                   "end": 644,
-                  "value": "good fellow"
+                  "value": "good fellow",
+                  "raw": "\"good fellow\""
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 647,
                   "end": 653,
-                  "value": "liar"
+                  "value": "liar",
+                  "raw": "\"liar\""
                 }
               }
             }
@@ -116,13 +118,15 @@
                   "type": "Literal",
                   "start": 725,
                   "end": 726,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 729,
                   "end": 730,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             }
@@ -163,7 +167,8 @@
                     "type": "Literal",
                     "start": 828,
                     "end": 893,
-                    "value": "#1: Using declarated variable before it declaration is admitted"
+                    "value": "#1: Using declarated variable before it declaration is admitted",
+                    "raw": "'#1: Using declarated variable before it declaration is admitted'"
                   }
                 ]
               }
@@ -278,7 +283,8 @@
               "type": "Literal",
               "start": 1355,
               "end": 1361,
-              "value": "liar"
+              "value": "liar",
+              "raw": "\"liar\""
             }
           }
         },
@@ -302,7 +308,8 @@
               "type": "Literal",
               "start": 1372,
               "end": 1373,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -343,7 +350,8 @@
                         "type": "Literal",
                         "start": 1402,
                         "end": 1458,
-                        "value": "#3: (__y === \"liar\") and (__z === 1). Actual:  __y ==="
+                        "value": "#3: (__y === \"liar\") and (__z === 1). Actual:  __y ===",
+                        "raw": "'#3: (__y === \"liar\") and (__z === 1). Actual:  __y ==='"
                       },
                       "operator": "+",
                       "right": {
@@ -358,7 +366,8 @@
                       "type": "Literal",
                       "start": 1463,
                       "end": 1477,
-                      "value": " and __z ==="
+                      "value": " and __z ===",
+                      "raw": "' and __z ==='"
                     }
                   },
                   "operator": "+",
@@ -407,7 +416,8 @@
             "type": "Literal",
             "start": 1586,
             "end": 1590,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         {
@@ -434,13 +444,15 @@
               "type": "Literal",
               "start": 1604,
               "end": 1613,
-              "value": "smeagol"
+              "value": "smeagol",
+              "raw": "\"smeagol\""
             },
             "alternate": {
               "type": "Literal",
               "start": 1616,
               "end": 1623,
-              "value": "golum"
+              "value": "golum",
+              "raw": "\"golum\""
             }
           }
         }
@@ -494,7 +506,8 @@
                 "type": "Literal",
                 "start": 1732,
                 "end": 1741,
-                "value": "smeagol"
+                "value": "smeagol",
+                "raw": "\"smeagol\""
               }
             }
           }
@@ -524,7 +537,8 @@
                   "type": "Literal",
                   "start": 1770,
                   "end": 1895,
-                  "value": "#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed"
+                  "value": "#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed",
+                  "raw": "'#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed'"
                 }
               ]
             }

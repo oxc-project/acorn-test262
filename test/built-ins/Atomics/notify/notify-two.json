@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 417,
             "end": 418,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 489,
             "end": 490,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -97,7 +100,8 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -122,7 +126,8 @@
             "type": "Literal",
             "start": 532,
             "end": 533,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         }
       ],
@@ -215,7 +220,8 @@
               "type": "Literal",
               "start": 592,
               "end": 593,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -668,7 +674,8 @@
                 "type": "Literal",
                 "start": 1469,
                 "end": 1470,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -689,7 +696,8 @@
             "type": "Literal",
             "start": 1503,
             "end": 1576,
-            "value": "Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`"
+            "value": "Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`",
+            "raw": "'Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`'"
           }
         ],
         "optional": false
@@ -794,7 +802,8 @@
               "type": "Literal",
               "start": 1708,
               "end": 1709,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -964,7 +973,8 @@
               "type": "Literal",
               "start": 1804,
               "end": 1805,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -1057,13 +1067,15 @@
                   "type": "Literal",
                   "start": 1862,
                   "end": 1866,
-                  "value": "ok"
+                  "value": "ok",
+                  "raw": "'ok'"
                 },
                 {
                   "type": "Literal",
                   "start": 1868,
                   "end": 1901,
-                  "value": "The value of reports[i] is \"ok\""
+                  "value": "The value of reports[i] is \"ok\"",
+                  "raw": "'The value of reports[i] is \"ok\"'"
                 }
               ],
               "optional": false
@@ -1188,13 +1200,15 @@
                   "type": "Literal",
                   "start": 1984,
                   "end": 1995,
-                  "value": "timed-out"
+                  "value": "timed-out",
+                  "raw": "'timed-out'"
                 },
                 {
                   "type": "Literal",
                   "start": 1997,
                   "end": 2037,
-                  "value": "The value of reports[i] is \"timed-out\""
+                  "value": "The value of reports[i] is \"timed-out\"",
+                  "raw": "'The value of reports[i] is \"timed-out\"'"
                 }
               ],
               "optional": false

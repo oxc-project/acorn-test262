@@ -15,7 +15,8 @@
           "type": "Literal",
           "start": 237,
           "end": 248,
-          "value": "arguments"
+          "value": "arguments",
+          "raw": "'arguments'"
         },
         "operator": "in",
         "right": {

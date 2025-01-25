@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 378,
         "end": 405,
-        "value": "./get-own-property-sym.js"
+        "value": "./get-own-property-sym.js",
+        "raw": "'./get-own-property-sym.js'"
       },
       "attributes": []
     },
@@ -58,7 +59,8 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 438,
-                "value": "test262"
+                "value": "test262",
+                "raw": "'test262'"
               }
             ],
             "optional": false
@@ -197,7 +199,8 @@
             "type": "Literal",
             "start": 534,
             "end": 538,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false
@@ -406,13 +409,15 @@
             "type": "Literal",
             "start": 694,
             "end": 699,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 732,
-            "value": "Symbol.toStringTag enumerable"
+            "value": "Symbol.toStringTag enumerable",
+            "raw": "'Symbol.toStringTag enumerable'"
           }
         ],
         "optional": false
@@ -469,13 +474,15 @@
             "type": "Literal",
             "start": 767,
             "end": 772,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 803,
-            "value": "Symbol.toStringTag writable"
+            "value": "Symbol.toStringTag writable",
+            "raw": "'Symbol.toStringTag writable'"
           }
         ],
         "optional": false
@@ -532,13 +539,15 @@
             "type": "Literal",
             "start": 842,
             "end": 847,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 882,
-            "value": "Symbol.toStringTag configurable"
+            "value": "Symbol.toStringTag configurable",
+            "raw": "'Symbol.toStringTag configurable'"
           }
         ],
         "optional": false
@@ -641,7 +650,8 @@
             "type": "Literal",
             "start": 955,
             "end": 960,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

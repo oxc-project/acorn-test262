@@ -98,7 +98,8 @@
             "type": "Literal",
             "start": 318,
             "end": 351,
-            "value": "`s.clear()` returns `undefined`"
+            "value": "`s.clear()` returns `undefined`",
+            "raw": "\"`s.clear()` returns `undefined`\""
           }
         ],
         "optional": false

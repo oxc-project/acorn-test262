@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 349,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 351,
                     "end": 352,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -78,13 +80,15 @@
                 "type": "Literal",
                 "start": 368,
                 "end": 369,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 372,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -124,7 +128,8 @@
           "type": "Literal",
           "start": 385,
           "end": 386,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -189,7 +194,8 @@
                       "type": "Literal",
                       "start": 436,
                       "end": 496,
-                      "value": "Set.prototype.union should not invoke .has on its argument"
+                      "value": "Set.prototype.union should not invoke .has on its argument",
+                      "raw": "\"Set.prototype.union should not invoke .has on its argument\""
                     }
                   ]
                 }
@@ -262,19 +268,22 @@
                           "type": "Literal",
                           "start": 536,
                           "end": 537,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         {
                           "type": "Literal",
                           "start": 539,
                           "end": 540,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         },
                         {
                           "type": "Literal",
                           "start": 542,
                           "end": 543,
-                          "value": 4
+                          "value": 4,
+                          "raw": "4"
                         }
                       ]
                     },
@@ -320,25 +329,29 @@
                 "type": "Literal",
                 "start": 577,
                 "end": 578,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 580,
                 "end": 581,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 583,
                 "end": 584,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 586,
                 "end": 587,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
           }
@@ -504,13 +517,15 @@
             "type": "Literal",
             "start": 710,
             "end": 714,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 746,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false

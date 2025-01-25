@@ -153,7 +153,8 @@
                             "type": "Literal",
                             "start": 703,
                             "end": 759,
-                            "value": "Expected promise to be rejected, but it was fulfilled."
+                            "value": "Expected promise to be rejected, but it was fulfilled.",
+                            "raw": "'Expected promise to be rejected, but it was fulfilled.'"
                           }
                         ]
                       }

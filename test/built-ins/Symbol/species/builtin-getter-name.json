@@ -229,7 +229,8 @@
             "type": "Literal",
             "start": 498,
             "end": 520,
-            "value": "get [Symbol.species]"
+            "value": "get [Symbol.species]",
+            "raw": "\"get [Symbol.species]\""
           }
         ],
         "optional": false
@@ -306,7 +307,8 @@
             "type": "Literal",
             "start": 576,
             "end": 598,
-            "value": "get [Symbol.species]"
+            "value": "get [Symbol.species]",
+            "raw": "\"get [Symbol.species]\""
           }
         ],
         "optional": false
@@ -383,7 +385,8 @@
             "type": "Literal",
             "start": 658,
             "end": 680,
-            "value": "get [Symbol.species]"
+            "value": "get [Symbol.species]",
+            "raw": "\"get [Symbol.species]\""
           }
         ],
         "optional": false
@@ -460,7 +463,8 @@
             "type": "Literal",
             "start": 739,
             "end": 761,
-            "value": "get [Symbol.species]"
+            "value": "get [Symbol.species]",
+            "raw": "\"get [Symbol.species]\""
           }
         ],
         "optional": false
@@ -537,7 +541,8 @@
             "type": "Literal",
             "start": 817,
             "end": 839,
-            "value": "get [Symbol.species]"
+            "value": "get [Symbol.species]",
+            "raw": "\"get [Symbol.species]\""
           }
         ],
         "optional": false

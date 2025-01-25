@@ -80,14 +80,16 @@
                               "type": "Literal",
                               "start": 1114,
                               "end": 1204,
-                              "value": "{      function f() {        return \"first declaration\";      }    }switch (1) {"
+                              "value": "{      function f() {        return \"first declaration\";      }    }switch (1) {",
+                              "raw": "'{\\\n      function f() {\\\n        return \"first declaration\";\\\n      }\\\n    }switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1211,
                               "end": 1222,
-                              "value": "  case 1:"
+                              "value": "  case 1:",
+                              "raw": "'  case 1:'"
                             }
                           },
                           "operator": "+",
@@ -95,7 +97,8 @@
                             "type": "Literal",
                             "start": 1229,
                             "end": 1280,
-                            "value": "    function f() { return \"second declaration\"; }"
+                            "value": "    function f() { return \"second declaration\"; }",
+                            "raw": "'    function f() { return \"second declaration\"; }'"
                           }
                         },
                         "operator": "+",
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 1287,
                           "end": 1308,
-                          "value": "}    updated = f;"
+                          "value": "}    updated = f;",
+                          "raw": "'}\\\n    updated = f;'"
                         }
                       }
                     ],
@@ -163,7 +167,8 @@
             "type": "Literal",
             "start": 1354,
             "end": 1364,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -214,7 +219,8 @@
             "type": "Literal",
             "start": 1395,
             "end": 1415,
-            "value": "second declaration"
+            "value": "second declaration",
+            "raw": "'second declaration'"
           }
         ],
         "optional": false

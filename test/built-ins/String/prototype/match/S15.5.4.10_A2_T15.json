@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 404,
             "end": 422,
-            "value": "Boston, MA 02134"
+            "value": "Boston, MA 02134",
+            "raw": "\"Boston, MA 02134\""
           }
         }
       ],
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 449,
-                "value": "02134"
+                "value": "02134",
+                "raw": "\"02134\""
               }
             ]
           }
@@ -80,6 +82,7 @@
             "start": 464,
             "end": 493,
             "value": {},
+            "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
               "flags": "g"
@@ -145,7 +148,8 @@
               "type": "Literal",
               "start": 534,
               "end": 537,
-              "value": "0"
+              "value": "0",
+              "raw": "\"0\""
             }
           ],
           "optional": false
@@ -255,7 +259,8 @@
                     "type": "Literal",
                     "start": 711,
                     "end": 774,
-                    "value": "#1: __string.match(__re).length=== __matches.length. Actual: "
+                    "value": "#1: __string.match(__re).length=== __matches.length. Actual: ",
+                    "raw": "'#1: __string.match(__re).length=== __matches.length. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -361,7 +366,8 @@
             "type": "Literal",
             "start": 1006,
             "end": 1007,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -381,7 +387,8 @@
             "type": "Literal",
             "start": 1023,
             "end": 1024,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -415,7 +422,8 @@
                     "type": "Literal",
                     "start": 1054,
                     "end": 1108,
-                    "value": "#3: __string.match(__re)[0]===__matches[0]. Actual: "
+                    "value": "#3: __string.match(__re)[0]===__matches[0]. Actual: ",
+                    "raw": "'#3: __string.match(__re)[0]===__matches[0]. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -459,7 +467,8 @@
                       "type": "Literal",
                       "start": 1132,
                       "end": 1133,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "computed": true,
                     "optional": false

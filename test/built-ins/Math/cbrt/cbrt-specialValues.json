@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 249,
             "end": 294,
-            "value": "Math.cbrt produces incorrect output for NaN"
+            "value": "Math.cbrt produces incorrect output for NaN",
+            "raw": "\"Math.cbrt produces incorrect output for NaN\""
           }
         ],
         "optional": false
@@ -190,7 +191,8 @@
             "type": "Literal",
             "start": 379,
             "end": 452,
-            "value": "Math.cbrt should produce negative infinity for Number.NEGATIVE_INFINITY"
+            "value": "Math.cbrt should produce negative infinity for Number.NEGATIVE_INFINITY",
+            "raw": "\"Math.cbrt should produce negative infinity for Number.NEGATIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -293,7 +295,8 @@
             "type": "Literal",
             "start": 537,
             "end": 610,
-            "value": "Math.cbrt should produce positive infinity for Number.POSITIVE_INFINITY"
+            "value": "Math.cbrt should produce positive infinity for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.cbrt should produce positive infinity for Number.POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -335,7 +338,8 @@
               "type": "Literal",
               "start": 630,
               "end": 631,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -372,7 +376,8 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 646,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -402,7 +407,8 @@
             "type": "Literal",
             "start": 677,
             "end": 713,
-            "value": "Math.cbrt should produce -0 for -0"
+            "value": "Math.cbrt should produce -0 for -0",
+            "raw": "\"Math.cbrt should produce -0 for -0\""
           }
         ],
         "optional": false
@@ -444,7 +450,8 @@
               "type": "Literal",
               "start": 733,
               "end": 734,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -475,7 +482,8 @@
                   "type": "Literal",
                   "start": 747,
                   "end": 748,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -504,7 +512,8 @@
             "type": "Literal",
             "start": 779,
             "end": 815,
-            "value": "Math.cbrt should produce +0 for +0"
+            "value": "Math.cbrt should produce +0 for +0",
+            "raw": "\"Math.cbrt should produce +0 for +0\""
           }
         ],
         "optional": false

@@ -52,7 +52,8 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 362,
-                "value": "caller"
+                "value": "caller",
+                "raw": "\"caller\""
               }
             ],
             "optional": false
@@ -105,7 +106,8 @@
             "type": "Literal",
             "start": 400,
             "end": 406,
-            "value": "desc"
+            "value": "desc",
+            "raw": "'desc'"
           }
         ],
         "optional": false

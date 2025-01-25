@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 561,
             "end": 571,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 648,
-            "value": "The value of `typeof Array.prototype.concat` is expected to be \"function\""
+            "value": "The value of `typeof Array.prototype.concat` is expected to be \"function\"",
+            "raw": "'The value of `typeof Array.prototype.concat` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 684,
             "end": 692,
-            "value": "concat"
+            "value": "concat",
+            "raw": "\"concat\""
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 708,
                   "end": 712,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 728,
                   "end": 733,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 751,
                   "end": 755,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

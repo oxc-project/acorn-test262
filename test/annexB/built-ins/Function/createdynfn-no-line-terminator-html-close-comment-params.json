@@ -61,13 +61,15 @@
                   "type": "Literal",
                   "start": 1105,
                   "end": 1110,
-                  "value": "-->"
+                  "value": "-->",
+                  "raw": "\"-->\""
                 },
                 {
                   "type": "Literal",
                   "start": 1112,
                   "end": 1114,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 }
               ],
               "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 383,
             "end": 393,
-            "value": "propName"
+            "value": "propName",
+            "raw": "'propName'"
           }
         }
       ],
@@ -160,7 +161,8 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 489,
-                "value": "propName"
+                "value": "propName",
+                "raw": "'propName'"
               }
             ],
             "optional": false
@@ -169,7 +171,8 @@
             "type": "Literal",
             "start": 494,
             "end": 548,
-            "value": "The property name is taken from the 'yield' variable"
+            "value": "The property name is taken from the 'yield' variable",
+            "raw": "\"The property name is taken from the 'yield' variable\""
           }
         ],
         "optional": false

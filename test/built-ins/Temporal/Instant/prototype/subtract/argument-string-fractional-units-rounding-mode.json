@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -114,7 +115,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 388,
-                  "value": "PT1.03125H"
+                  "value": "PT1.03125H",
+                  "raw": "\"PT1.03125H\""
                 }
               ],
               "optional": false
@@ -138,14 +140,16 @@
               "type": "Literal",
               "start": 409,
               "end": 426,
-              "value": "3712500000000n"
+              "value": "3712500000000n",
+              "raw": "3712_500_000_000n"
             }
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 492,
-            "value": "positive fractional units rounded with correct rounding mode"
+            "value": "positive fractional units rounded with correct rounding mode",
+            "raw": "\"positive fractional units rounded with correct rounding mode\""
           }
         ],
         "optional": false
@@ -211,7 +215,8 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 540,
-                  "value": "-PT1.03125H"
+                  "value": "-PT1.03125H",
+                  "raw": "\"-PT1.03125H\""
                 }
               ],
               "optional": false
@@ -229,13 +234,15 @@
             "type": "Literal",
             "start": 560,
             "end": 577,
-            "value": "3712500000000n"
+            "value": "3712500000000n",
+            "raw": "3712_500_000_000n"
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 643,
-            "value": "negative fractional units rounded with correct rounding mode"
+            "value": "negative fractional units rounded with correct rounding mode",
+            "raw": "\"negative fractional units rounded with correct rounding mode\""
           }
         ],
         "optional": false

@@ -144,7 +144,8 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 368,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "'A'"
                 },
                 "kind": "init"
               },
@@ -165,7 +166,8 @@
                   "type": "Literal",
                   "start": 380,
                   "end": 383,
-                  "value": "B"
+                  "value": "B",
+                  "raw": "'B'"
                 },
                 "kind": "init"
               },
@@ -186,7 +188,8 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 393,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "'C'"
                 },
                 "kind": "init"
               },
@@ -221,7 +224,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 412,
-                  "value": "D"
+                  "value": "D",
+                  "raw": "'D'"
                 },
                 "kind": "init"
               }
@@ -282,13 +286,15 @@
             "type": "Literal",
             "start": 444,
             "end": 447,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 516,
-            "value": "The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`"
+            "value": "The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`",
+            "raw": "\"The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`\""
           }
         ],
         "optional": false
@@ -345,13 +351,15 @@
             "type": "Literal",
             "start": 550,
             "end": 553,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 631,
-            "value": "The value of `object[sym1]` is `'B'`. Defined in `object` as `[sym1]: 'B'`"
+            "value": "The value of `object[sym1]` is `'B'`. Defined in `object` as `[sym1]: 'B'`",
+            "raw": "\"The value of `object[sym1]` is `'B'`. Defined in `object` as `[sym1]: 'B'`\""
           }
         ],
         "optional": false
@@ -408,13 +416,15 @@
             "type": "Literal",
             "start": 661,
             "end": 664,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 733,
-            "value": "The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`"
+            "value": "The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`",
+            "raw": "\"The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`\""
           }
         ],
         "optional": false
@@ -471,13 +481,15 @@
             "type": "Literal",
             "start": 767,
             "end": 770,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 852,
-            "value": "The value of `object[sym2]` is `'D'`. Defined in `object` as `[ID(sym2)]: 'D'`"
+            "value": "The value of `object[sym2]` is `'D'`. Defined in `object` as `[ID(sym2)]: 'D'`",
+            "raw": "\"The value of `object[sym2]` is `'D'`. Defined in `object` as `[ID(sym2)]: 'D'`\""
           }
         ],
         "optional": false
@@ -553,13 +565,15 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 920,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 922,
                 "end": 925,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }

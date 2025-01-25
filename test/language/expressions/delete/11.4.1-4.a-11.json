@@ -112,13 +112,15 @@
                         "type": "Literal",
                         "start": 579,
                         "end": 583,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 585,
                         "end": 588,
-                        "value": "d"
+                        "value": "d",
+                        "raw": "'d'"
                       }
                     ],
                     "optional": false
@@ -181,7 +183,8 @@
                         "type": "Literal",
                         "start": 639,
                         "end": 657,
-                        "value": "arguments.callee"
+                        "value": "arguments.callee",
+                        "raw": "'arguments.callee'"
                       }
                     ],
                     "optional": false

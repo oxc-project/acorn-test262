@@ -95,7 +95,8 @@
             "type": "Literal",
             "start": 380,
             "end": 381,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -120,7 +121,8 @@
             "type": "Literal",
             "start": 399,
             "end": 403,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -145,7 +147,8 @@
             "type": "Literal",
             "start": 420,
             "end": 424,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -170,7 +173,8 @@
             "type": "Literal",
             "start": 441,
             "end": 445,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -195,7 +199,8 @@
             "type": "Literal",
             "start": 463,
             "end": 467,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -220,7 +225,8 @@
             "type": "Literal",
             "start": 482,
             "end": 486,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -300,7 +306,8 @@
                     "type": "Literal",
                     "start": 535,
                     "end": 536,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               },
@@ -499,19 +506,22 @@
               "type": "Literal",
               "start": 698,
               "end": 699,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 701,
               "end": 702,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 704,
               "end": 705,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ],
           "optional": false
@@ -556,13 +566,15 @@
             "type": "Literal",
             "start": 737,
             "end": 738,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 776,
-            "value": "Invokes `then` method exactly once"
+            "value": "Invokes `then` method exactly once",
+            "raw": "'Invokes `then` method exactly once'"
           }
         ],
         "optional": false
@@ -612,7 +624,8 @@
             "type": "Literal",
             "start": 822,
             "end": 883,
-            "value": "Invokes `then` method with the instance as the `this` value"
+            "value": "Invokes `then` method with the instance as the `this` value",
+            "raw": "'Invokes `then` method with the instance as the `this` value'"
           }
         ],
         "optional": false
@@ -656,13 +669,15 @@
             "type": "Literal",
             "start": 914,
             "end": 915,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 917,
             "end": 974,
-            "value": "Invokes `then` method with exactly two single arguments"
+            "value": "Invokes `then` method with exactly two single arguments",
+            "raw": "'Invokes `then` method with exactly two single arguments'"
           }
         ],
         "optional": false
@@ -706,13 +721,15 @@
             "type": "Literal",
             "start": 1009,
             "end": 1010,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1083,
-            "value": "Invokes `then` method with the provided non-callable first argument"
+            "value": "Invokes `then` method with the provided non-callable first argument",
+            "raw": "'Invokes `then` method with the provided non-callable first argument'"
           }
         ],
         "optional": false
@@ -756,13 +773,15 @@
             "type": "Literal",
             "start": 1120,
             "end": 1121,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1194,
-            "value": "Invokes `then` method with the provided non-callable first argument"
+            "value": "Invokes `then` method with the provided non-callable first argument",
+            "raw": "'Invokes `then` method with the provided non-callable first argument'"
           }
         ],
         "optional": false
@@ -812,7 +831,8 @@
             "type": "Literal",
             "start": 1236,
             "end": 1284,
-            "value": "Returns the result of the invocation of `then`"
+            "value": "Returns the result of the invocation of `then`",
+            "raw": "'Returns the result of the invocation of `then`'"
           }
         ],
         "optional": false

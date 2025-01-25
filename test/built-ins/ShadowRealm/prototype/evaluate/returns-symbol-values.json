@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 337,
             "end": 347,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 424,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -160,7 +162,8 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 497,
-                "value": "Symbol(\"foobar\")"
+                "value": "Symbol(\"foobar\")",
+                "raw": "'Symbol(\"foobar\")'"
               }
             ],
             "optional": false
@@ -214,7 +217,8 @@
             "type": "Literal",
             "start": 528,
             "end": 536,
-            "value": "symbol"
+            "value": "symbol",
+            "raw": "'symbol'"
           }
         ],
         "optional": false
@@ -277,7 +281,8 @@
             "type": "Literal",
             "start": 579,
             "end": 636,
-            "value": "primitive does not expose other ShadowRealm constructor"
+            "value": "primitive does not expose other ShadowRealm constructor",
+            "raw": "'primitive does not expose other ShadowRealm constructor'"
           }
         ],
         "optional": false
@@ -458,7 +463,8 @@
             "type": "Literal",
             "start": 753,
             "end": 769,
-            "value": "Symbol(foobar)"
+            "value": "Symbol(foobar)",
+            "raw": "'Symbol(foobar)'"
           }
         ],
         "optional": false
@@ -507,7 +513,8 @@
                 "type": "Literal",
                 "start": 800,
                 "end": 830,
-                "value": "Symbol.for(\"my symbol name\")"
+                "value": "Symbol.for(\"my symbol name\")",
+                "raw": "'Symbol.for(\"my symbol name\")'"
               }
             ],
             "optional": false
@@ -559,7 +566,8 @@
                 "type": "Literal",
                 "start": 856,
                 "end": 872,
-                "value": "my symbol name"
+                "value": "my symbol name",
+                "raw": "'my symbol name'"
               }
             ],
             "optional": false
@@ -612,7 +620,8 @@
             "type": "Literal",
             "start": 913,
             "end": 987,
-            "value": "The shadow realms observes the symbol global registry used in Symbol.for"
+            "value": "The shadow realms observes the symbol global registry used in Symbol.for",
+            "raw": "'The shadow realms observes the symbol global registry used in Symbol.for'"
           }
         ],
         "optional": false
@@ -683,13 +692,15 @@
             "type": "Literal",
             "start": 1038,
             "end": 1054,
-            "value": "my symbol name"
+            "value": "my symbol name",
+            "raw": "'my symbol name'"
           },
           {
             "type": "Literal",
             "start": 1058,
             "end": 1156,
-            "value": "Symbol.keyFor observes the string key name of a symbol originally registered in the shadow realm"
+            "value": "Symbol.keyFor observes the string key name of a symbol originally registered in the shadow realm",
+            "raw": "'Symbol.keyFor observes the string key name of a symbol originally registered in the shadow realm'"
           }
         ],
         "optional": false
@@ -766,7 +777,8 @@
             "type": "Literal",
             "start": 1214,
             "end": 1296,
-            "value": "Symbol.keyFor cannot find a key for a regular symbol created in the shadow realm"
+            "value": "Symbol.keyFor cannot find a key for a regular symbol created in the shadow realm",
+            "raw": "'Symbol.keyFor cannot find a key for a regular symbol created in the shadow realm'"
           }
         ],
         "optional": false
@@ -856,7 +868,8 @@
                 "type": "Literal",
                 "start": 1380,
                 "end": 1393,
-                "value": "description"
+                "value": "description",
+                "raw": "'description'"
               }
             ],
             "optional": false
@@ -930,13 +943,15 @@
             "type": "Literal",
             "start": 1440,
             "end": 1448,
-            "value": "foobar"
+            "value": "foobar",
+            "raw": "'foobar'"
           },
           {
             "type": "Literal",
             "start": 1452,
             "end": 1512,
-            "value": "get description for the symbol created in the shadow realm"
+            "value": "get description for the symbol created in the shadow realm",
+            "raw": "'get description for the symbol created in the shadow realm'"
           }
         ],
         "optional": false

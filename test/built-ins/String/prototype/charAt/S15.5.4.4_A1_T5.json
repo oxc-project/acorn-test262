@@ -45,7 +45,8 @@
                         "type": "Literal",
                         "start": 465,
                         "end": 471,
-                        "value": "lego"
+                        "value": "lego",
+                        "raw": "\"lego\""
                       }
                     }
                   ]
@@ -68,7 +69,8 @@
               "type": "Literal",
               "start": 485,
               "end": 489,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           ],
           "optional": false
@@ -78,7 +80,8 @@
           "type": "Literal",
           "start": 495,
           "end": 498,
-          "value": "l"
+          "value": "l",
+          "raw": "\"l\""
         }
       },
       "consequent": {
@@ -109,7 +112,8 @@
                     "type": "Literal",
                     "start": 527,
                     "end": 635,
-                    "value": "#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ==="
+                    "value": "#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ===",
+                    "raw": "'#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -146,7 +150,8 @@
                                   "type": "Literal",
                                   "start": 662,
                                   "end": 668,
-                                  "value": "lego"
+                                  "value": "lego",
+                                  "raw": "\"lego\""
                                 }
                               }
                             ]
@@ -169,7 +174,8 @@
                         "type": "Literal",
                         "start": 682,
                         "end": 686,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

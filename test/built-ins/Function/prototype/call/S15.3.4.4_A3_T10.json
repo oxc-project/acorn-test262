@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 378,
             "end": 413,
-            "value": " (function(){this.feat=1}).call()"
+            "value": " (function(){this.feat=1}).call()",
+            "raw": "\" (function(){this.feat=1}).call()\""
           }
         ],
         "optional": false
@@ -69,7 +70,8 @@
               "type": "Literal",
               "start": 439,
               "end": 445,
-              "value": "feat"
+              "value": "feat",
+              "raw": "\"feat\""
             },
             "computed": true,
             "optional": false
@@ -78,13 +80,15 @@
             "type": "Literal",
             "start": 448,
             "end": 449,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 498,
-            "value": "The value of this[\"feat\"] is expected to be 1"
+            "value": "The value of this[\"feat\"] is expected to be 1",
+            "raw": "'The value of this[\"feat\"] is expected to be 1'"
           }
         ],
         "optional": false

@@ -130,7 +130,8 @@
                                         "type": "Literal",
                                         "start": 546,
                                         "end": 550,
-                                        "value": null
+                                        "value": null,
+                                        "raw": "null"
                                       }
                                     ],
                                     "optional": false
@@ -146,7 +147,8 @@
                         "type": "Literal",
                         "start": 560,
                         "end": 599,
-                        "value": "Null as locale list was not rejected."
+                        "value": "Null as locale list was not rejected.",
+                        "raw": "\"Null as locale list was not rejected.\""
                       }
                     ],
                     "optional": false
@@ -255,13 +257,15 @@
                         "type": "Literal",
                         "start": 861,
                         "end": 862,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 864,
                         "end": 930,
-                        "value": "Internal test error: Assumption about length being 0 is invalid."
+                        "value": "Internal test error: Assumption about length being 0 is invalid.",
+                        "raw": "\"Internal test error: Assumption about length being 0 is invalid.\""
                       }
                     ],
                     "optional": false
@@ -310,7 +314,8 @@
                             "type": "Literal",
                             "start": 1107,
                             "end": 1108,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ],
                         "optional": false
@@ -389,7 +394,8 @@
                         "type": "Literal",
                         "start": 1189,
                         "end": 1253,
-                        "value": "Supported locales differ between numeric and empty list input."
+                        "value": "Supported locales differ between numeric and empty list input.",
+                        "raw": "\"Supported locales differ between numeric and empty list input.\""
                       }
                     ],
                     "optional": false
@@ -438,7 +444,8 @@
                             "type": "Literal",
                             "start": 1317,
                             "end": 1321,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         ],
                         "optional": false
@@ -517,7 +524,8 @@
                         "type": "Literal",
                         "start": 1403,
                         "end": 1467,
-                        "value": "Supported locales differ between boolean and empty list input."
+                        "value": "Supported locales differ between boolean and empty list input.",
+                        "raw": "\"Supported locales differ between boolean and empty list input.\""
                       }
                     ],
                     "optional": false

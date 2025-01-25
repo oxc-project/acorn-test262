@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 308,
             "end": 350,
-            "value": "Instance created via function invocation"
+            "value": "Instance created via function invocation",
+            "raw": "'Instance created via function invocation'"
           }
         ],
         "optional": false

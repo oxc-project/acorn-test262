@@ -31,6 +31,7 @@
                 "start": 622,
                 "end": 626,
                 "value": {},
+                "raw": "/./g",
                 "regex": {
                   "pattern": ".",
                   "flags": "g"
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 646,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -225,7 +227,8 @@
                       "type": "Literal",
                       "start": 777,
                       "end": 779,
-                      "value": ""
+                      "value": "",
+                      "raw": "''"
                     }
                   ]
                 }

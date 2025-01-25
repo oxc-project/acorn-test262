@@ -30,7 +30,8 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 834,
-                "value": "aaab a a aac"
+                "value": "aaab a a aac",
+                "raw": "'aaab a a aac'"
               },
               "property": {
                 "type": "Identifier",
@@ -46,13 +47,15 @@
                 "type": "Literal",
                 "start": 846,
                 "end": 850,
-                "value": "aa"
+                "value": "aa",
+                "raw": "'aa'"
               },
               {
                 "type": "Literal",
                 "start": 852,
                 "end": 855,
-                "value": "z"
+                "value": "z",
+                "raw": "'z'"
               }
             ],
             "optional": false
@@ -99,7 +102,8 @@
             "type": "Literal",
             "start": 883,
             "end": 895,
-            "value": "zab a a zc"
+            "value": "zab a a zc",
+            "raw": "'zab a a zc'"
           }
         ],
         "optional": false
@@ -132,7 +136,8 @@
               "type": "Literal",
               "start": 908,
               "end": 922,
-              "value": "aaab a a aac"
+              "value": "aaab a a aac",
+              "raw": "'aaab a a aac'"
             },
             "property": {
               "type": "Identifier",
@@ -148,13 +153,15 @@
               "type": "Literal",
               "start": 934,
               "end": 938,
-              "value": "aa"
+              "value": "aa",
+              "raw": "'aa'"
             },
             {
               "type": "Literal",
               "start": 940,
               "end": 943,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             }
           ],
           "optional": false
@@ -199,7 +206,8 @@
             "type": "Literal",
             "start": 971,
             "end": 983,
-            "value": "aab a a ac"
+            "value": "aab a a ac",
+            "raw": "'aab a a ac'"
           }
         ],
         "optional": false
@@ -232,7 +240,8 @@
               "type": "Literal",
               "start": 996,
               "end": 1010,
-              "value": "aaab a a aac"
+              "value": "aaab a a aac",
+              "raw": "'aaab a a aac'"
             },
             "property": {
               "type": "Identifier",
@@ -248,13 +257,15 @@
               "type": "Literal",
               "start": 1022,
               "end": 1025,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             },
             {
               "type": "Literal",
               "start": 1027,
               "end": 1030,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             }
           ],
           "optional": false
@@ -299,7 +310,8 @@
             "type": "Literal",
             "start": 1058,
             "end": 1072,
-            "value": "aaab a a aac"
+            "value": "aaab a a aac",
+            "raw": "'aaab a a aac'"
           }
         ],
         "optional": false
@@ -332,7 +344,8 @@
               "type": "Literal",
               "start": 1085,
               "end": 1099,
-              "value": "aaab a a aac"
+              "value": "aaab a a aac",
+              "raw": "'aaab a a aac'"
             },
             "property": {
               "type": "Identifier",
@@ -348,13 +361,15 @@
               "type": "Literal",
               "start": 1111,
               "end": 1114,
-              "value": "a"
+              "value": "a",
+              "raw": "'a'"
             },
             {
               "type": "Literal",
               "start": 1116,
               "end": 1119,
-              "value": "z"
+              "value": "z",
+              "raw": "'z'"
             }
           ],
           "optional": false
@@ -399,7 +414,8 @@
             "type": "Literal",
             "start": 1147,
             "end": 1161,
-            "value": "zzzb z z zzc"
+            "value": "zzzb z z zzc",
+            "raw": "'zzzb z z zzc'"
           }
         ],
         "optional": false

@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 488,
             "end": 552,
-            "value": "  switch (1) {    default:      function f() {  }  }"
+            "value": "  switch (1) {    default:      function f() {  }  }",
+            "raw": "'\\\n  switch (1) {\\\n    default:\\\n      function f() {  }\\\n  }\\\n'"
           }
         ],
         "optional": false

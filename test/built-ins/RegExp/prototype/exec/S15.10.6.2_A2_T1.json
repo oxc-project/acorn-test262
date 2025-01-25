@@ -128,7 +128,8 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 606,
-                    "value": "#1.1: __instance = new Object; __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"). Actual: "
+                    "value": "#1.1: __instance = new Object; __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"). Actual: ",
+                    "raw": "'#1.1: __instance = new Object; __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +164,8 @@
                           "type": "Literal",
                           "start": 626,
                           "end": 650,
-                          "value": "message to investigate"
+                          "value": "message to investigate",
+                          "raw": "\"message to investigate\""
                         }
                       ],
                       "optional": false
@@ -240,13 +242,15 @@
                     "type": "Literal",
                     "start": 721,
                     "end": 725,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 731,
                     "end": 805,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
                   }
                 ],
                 "optional": false

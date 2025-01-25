@@ -66,7 +66,8 @@
           "type": "Literal",
           "start": 330,
           "end": 341,
-          "value": "ErrorName"
+          "value": "ErrorName",
+          "raw": "\"ErrorName\""
         }
       }
     },
@@ -128,13 +129,15 @@
             "type": "Literal",
             "start": 380,
             "end": 391,
-            "value": "ErrorName"
+            "value": "ErrorName",
+            "raw": "\"ErrorName\""
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 412,
-            "value": "errObj.toString()"
+            "value": "errObj.toString()",
+            "raw": "'errObj.toString()'"
           }
         ],
         "optional": false

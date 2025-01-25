@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 342,
             "end": 343,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 364,
             "end": 365,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 388,
             "end": 389,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -116,7 +119,8 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -160,7 +164,8 @@
                         "type": "Literal",
                         "start": 479,
                         "end": 526,
-                        "value": "This code is unreachable (within `try` block)"
+                        "value": "This code is unreachable (within `try` block)",
+                        "raw": "'This code is unreachable (within `try` block)'"
                       }
                     ]
                   }
@@ -192,7 +197,8 @@
                       "type": "Literal",
                       "start": 563,
                       "end": 564,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -218,7 +224,8 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 649,
-                  "value": "This code is unreachable (following `try` statement)"
+                  "value": "This code is unreachable (following `try` statement)",
+                  "raw": "'This code is unreachable (following `try` statement)'"
                 }
               ]
             }
@@ -296,13 +303,15 @@
             "type": "Literal",
             "start": 714,
             "end": 715,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 762,
-            "value": "Generator is initialized in suspended state"
+            "value": "Generator is initialized in suspended state",
+            "raw": "'Generator is initialized in suspended state'"
           }
         ],
         "optional": false
@@ -382,13 +391,15 @@
                   "type": "Literal",
                   "start": 831,
                   "end": 832,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 834,
                   "end": 879,
-                  "value": "Generator executes prior to first iteration"
+                  "value": "Generator executes prior to first iteration",
+                  "raw": "'Generator executes prior to first iteration'"
                 }
               ],
               "optional": false
@@ -432,13 +443,15 @@
                   "type": "Literal",
                   "start": 923,
                   "end": 924,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 926,
                   "end": 970,
-                  "value": "Generator is paused during first iteration"
+                  "value": "Generator is paused during first iteration",
+                  "raw": "'Generator is paused during first iteration'"
                 }
               ],
               "optional": false
@@ -463,7 +476,8 @@
                 "type": "Literal",
                 "start": 996,
                 "end": 997,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -514,13 +528,15 @@
             "type": "Literal",
             "start": 1045,
             "end": 1046,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1048,
             "end": 1099,
-            "value": "Generator does not restart following interruption"
+            "value": "Generator does not restart following interruption",
+            "raw": "'Generator does not restart following interruption'"
           }
         ],
         "optional": false
@@ -564,13 +580,15 @@
             "type": "Literal",
             "start": 1136,
             "end": 1137,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1139,
             "end": 1166,
-            "value": "A single iteration occurs"
+            "value": "A single iteration occurs",
+            "raw": "'A single iteration occurs'"
           }
         ],
         "optional": false
@@ -614,13 +632,15 @@
             "type": "Literal",
             "start": 1203,
             "end": 1204,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1206,
             "end": 1251,
-            "value": "Generator is closed after `break` statement"
+            "value": "Generator is closed after `break` statement",
+            "raw": "'Generator is closed after `break` statement'"
           }
         ],
         "optional": false

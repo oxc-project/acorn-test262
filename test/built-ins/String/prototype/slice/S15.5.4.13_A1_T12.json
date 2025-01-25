@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 545,
                           "end": 554,
-                          "value": "instart"
+                          "value": "instart",
+                          "raw": "\"instart\""
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 612,
                           "end": 619,
-                          "value": "inend"
+                          "value": "inend",
+                          "raw": "\"inend\""
                         }
                       }
                     ]
@@ -214,7 +216,8 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 667,
-                "value": "ABBABABAB"
+                "value": "ABBABABAB",
+                "raw": "\"ABB\\u0041BABAB\""
               }
             ]
           }
@@ -308,7 +311,8 @@
                   "type": "Literal",
                   "start": 829,
                   "end": 897,
-                  "value": "#1: \"var x = __str.slice(__obj,__obj2)\" lead to throwing exception"
+                  "value": "#1: \"var x = __str.slice(__obj,__obj2)\" lead to throwing exception",
+                  "raw": "'#1: \"var x = __str.slice(__obj,__obj2)\" lead to throwing exception'"
                 }
               ]
             }
@@ -349,7 +353,8 @@
                   "type": "Literal",
                   "start": 926,
                   "end": 935,
-                  "value": "instart"
+                  "value": "instart",
+                  "raw": "\"instart\""
                 }
               },
               "consequent": {
@@ -380,7 +385,8 @@
                             "type": "Literal",
                             "start": 966,
                             "end": 1007,
-                            "value": "#1.1: Exception === \"instart\". Actual: "
+                            "value": "#1.1: Exception === \"instart\". Actual: ",
+                            "raw": "'#1.1: Exception === \"instart\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 333,
-                "value": "globglob"
+                "value": "globglob",
+                "raw": "\"globglob\""
               }
             ]
           }
@@ -83,7 +84,8 @@
                 "type": "Literal",
                 "start": 463,
                 "end": 471,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -118,7 +120,8 @@
                     "type": "Literal",
                     "start": 502,
                     "end": 616,
-                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: "
+                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
+                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -149,7 +152,8 @@
                         "type": "Literal",
                         "start": 650,
                         "end": 658,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       }
                     ],
                     "optional": false
@@ -216,7 +220,8 @@
                 "type": "Literal",
                 "start": 887,
                 "end": 895,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -243,7 +248,8 @@
                         "type": "Literal",
                         "start": 926,
                         "end": 977,
-                        "value": "#2: length property has the attributes {DontEnum}"
+                        "value": "#2: length property has the attributes {DontEnum}",
+                        "raw": "'#2: length property has the attributes {DontEnum}'"
                       }
                     ]
                   }

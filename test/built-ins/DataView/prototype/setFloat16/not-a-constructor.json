@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 467,
             "end": 472,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 540,
-            "value": "isConstructor(DataView.prototype.setFloat16) must return false"
+            "value": "isConstructor(DataView.prototype.setFloat16) must return false",
+            "raw": "'isConstructor(DataView.prototype.setFloat16) must return false'"
           }
         ],
         "optional": false
@@ -182,7 +184,8 @@
                                 "type": "Literal",
                                 "start": 618,
                                 "end": 620,
-                                "value": 16
+                                "value": 16,
+                                "raw": "16"
                               }
                             ]
                           }
@@ -224,13 +227,15 @@
                         "type": "Literal",
                         "start": 642,
                         "end": 643,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 645,
                         "end": 646,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ]
                   }

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 293,
+  "end": 292,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 213,
-      "end": 292,
+      "start": 212,
+      "end": 291,
       "expression": {
         "type": "CallExpression",
-        "start": 213,
-        "end": 291,
+        "start": 212,
+        "end": 290,
         "callee": {
           "type": "MemberExpression",
-          "start": 213,
-          "end": 229,
+          "start": 212,
+          "end": 228,
           "object": {
             "type": "Identifier",
-            "start": 213,
-            "end": 219,
+            "start": 212,
+            "end": 218,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 220,
-            "end": 229,
+            "start": 219,
+            "end": 228,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,28 +33,30 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 230,
-            "end": 245,
+            "start": 229,
+            "end": 244,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 237,
-              "end": 245,
+              "start": 236,
+              "end": 244,
               "name": "URIError"
             }
           },
           {
             "type": "Literal",
-            "start": 247,
-            "end": 257,
-            "value": "function"
+            "start": 246,
+            "end": 256,
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
-            "start": 259,
-            "end": 290,
-            "value": "typeof URIError is \"function\""
+            "start": 258,
+            "end": 289,
+            "value": "typeof URIError is \"function\"",
+            "raw": "'typeof URIError is \"function\"'"
           }
         ],
         "optional": false

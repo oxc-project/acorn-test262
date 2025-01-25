@@ -46,7 +46,8 @@
                   "type": "Literal",
                   "start": 338,
                   "end": 349,
-                  "value": "MAX_VALUE"
+                  "value": "MAX_VALUE",
+                  "raw": "\"MAX_VALUE\""
                 }
               ]
             }
@@ -64,7 +65,8 @@
           "type": "Literal",
           "start": 365,
           "end": 369,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -91,7 +93,8 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 453,
-                  "value": "#1: (NUMBER = Number, \"MAX_VALUE\") in NUMBER !== true"
+                  "value": "#1: (NUMBER = Number, \"MAX_VALUE\") in NUMBER !== true",
+                  "raw": "'#1: (NUMBER = Number, \"MAX_VALUE\") in NUMBER !== true'"
                 }
               ]
             }

@@ -103,7 +103,8 @@
                         "type": "Literal",
                         "start": 867,
                         "end": 877,
-                        "value": "function"
+                        "value": "function",
+                        "raw": "'function'"
                       }
                     ],
                     "optional": false
@@ -256,7 +257,8 @@
                                             "type": "Literal",
                                             "start": 1035,
                                             "end": 1061,
-                                            "value": "[[AsyncDisposableState]]"
+                                            "value": "[[AsyncDisposableState]]",
+                                            "raw": "'[[AsyncDisposableState]]'"
                                           },
                                           "value": {
                                             "type": "ObjectExpression",
@@ -279,7 +281,8 @@
                           "type": "Literal",
                           "start": 1076,
                           "end": 1126,
-                          "value": "Ordinary object without [[AsyncDisposableState]]"
+                          "value": "Ordinary object without [[AsyncDisposableState]]",
+                          "raw": "'Ordinary object without [[AsyncDisposableState]]'"
                         }
                       ],
                       "optional": false
@@ -396,7 +399,8 @@
                           "type": "Literal",
                           "start": 1250,
                           "end": 1337,
-                          "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot"
+                          "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot",
+                          "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'"
                         }
                       ],
                       "optional": false
@@ -500,7 +504,8 @@
                           "type": "Literal",
                           "start": 1451,
                           "end": 1528,
-                          "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot"
+                          "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot",
+                          "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'"
                         }
                       ],
                       "optional": false
@@ -635,7 +640,8 @@
                           "type": "Literal",
                           "start": 1665,
                           "end": 1691,
-                          "value": "DisposableStack instance"
+                          "value": "DisposableStack instance",
+                          "raw": "'DisposableStack instance'"
                         }
                       ],
                       "optional": false

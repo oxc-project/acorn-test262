@@ -71,7 +71,8 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 487,
-                    "value": "#1: Declaration variable inside \"do-while\" statement is admitted"
+                    "value": "#1: Declaration variable inside \"do-while\" statement is admitted",
+                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'"
                   }
                 ]
               }
@@ -109,7 +110,8 @@
         "type": "Literal",
         "start": 592,
         "end": 597,
-        "value": false
+        "value": false,
+        "raw": "false"
       }
     }
   ],

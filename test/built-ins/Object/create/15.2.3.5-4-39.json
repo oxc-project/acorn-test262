@@ -78,7 +78,8 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 378,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               "kind": "init"
             },
@@ -99,7 +100,8 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 398,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "kind": "init"
             }
@@ -157,7 +159,8 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 431,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "kind": "init"
             },
@@ -178,7 +181,8 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 451,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "kind": "init"
             }
@@ -410,7 +414,8 @@
             "type": "Literal",
             "start": 613,
             "end": 614,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -560,13 +565,15 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 718,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 720,
                   "end": 774,
-                  "value": "tempArray[index++] !== q && newObj.hasOwnProperty(q)"
+                  "value": "tempArray[index++] !== q && newObj.hasOwnProperty(q)",
+                  "raw": "'tempArray[index++] !== q && newObj.hasOwnProperty(q)'"
                 }
               ],
               "optional": false

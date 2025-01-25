@@ -22,19 +22,22 @@
             "type": "Literal",
             "start": 287,
             "end": 290,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 295,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 306,
-            "value": "return;"
+            "value": "return;",
+            "raw": "'return;'"
           }
         ],
         "optional": false

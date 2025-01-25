@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 645,
+  "end": 643,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 450,
-      "end": 485,
+      "start": 448,
+      "end": 483,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 456,
-          "end": 484,
+          "start": 454,
+          "end": 482,
           "id": {
             "type": "Identifier",
-            "start": 456,
-            "end": 461,
+            "start": 454,
+            "end": 459,
             "name": "value"
           },
           "init": {
             "type": "NewExpression",
-            "start": 464,
-            "end": 484,
+            "start": 462,
+            "end": 482,
             "callee": {
               "type": "MemberExpression",
-              "start": 468,
-              "end": 482,
+              "start": 466,
+              "end": 480,
               "object": {
                 "type": "Identifier",
-                "start": 468,
-                "end": 472,
+                "start": 466,
+                "end": 470,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 473,
-                "end": 482,
+                "start": 471,
+                "end": 480,
                 "name": "Segmenter"
               },
               "computed": false,
@@ -49,26 +49,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 486,
-      "end": 644,
+      "start": 484,
+      "end": 642,
       "expression": {
         "type": "CallExpression",
-        "start": 486,
-        "end": 643,
+        "start": 484,
+        "end": 641,
         "callee": {
           "type": "MemberExpression",
-          "start": 486,
-          "end": 502,
+          "start": 484,
+          "end": 500,
           "object": {
             "type": "Identifier",
-            "start": 486,
-            "end": 492,
+            "start": 484,
+            "end": 490,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 493,
-            "end": 502,
+            "start": 491,
+            "end": 500,
             "name": "sameValue"
           },
           "computed": false,
@@ -77,22 +77,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 506,
-            "end": 534,
+            "start": 504,
+            "end": 532,
             "callee": {
               "type": "MemberExpression",
-              "start": 506,
-              "end": 527,
+              "start": 504,
+              "end": 525,
               "object": {
                 "type": "Identifier",
-                "start": 506,
-                "end": 512,
+                "start": 504,
+                "end": 510,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 513,
-                "end": 527,
+                "start": 511,
+                "end": 525,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -101,8 +101,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 528,
-                "end": 533,
+                "start": 526,
+                "end": 531,
                 "name": "value"
               }
             ],
@@ -110,22 +110,22 @@
           },
           {
             "type": "MemberExpression",
-            "start": 538,
-            "end": 562,
+            "start": 536,
+            "end": 560,
             "object": {
               "type": "MemberExpression",
-              "start": 538,
-              "end": 552,
+              "start": 536,
+              "end": 550,
               "object": {
                 "type": "Identifier",
-                "start": 538,
-                "end": 542,
+                "start": 536,
+                "end": 540,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 543,
-                "end": 552,
+                "start": 541,
+                "end": 550,
                 "name": "Segmenter"
               },
               "computed": false,
@@ -133,8 +133,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 553,
-              "end": 562,
+              "start": 551,
+              "end": 560,
               "name": "prototype"
             },
             "computed": false,
@@ -142,9 +142,10 @@
           },
           {
             "type": "Literal",
-            "start": 566,
-            "end": 641,
-            "value": "Object.getPrototypeOf(value) equals the value of Intl.Segmenter.prototype"
+            "start": 564,
+            "end": 639,
+            "value": "Object.getPrototypeOf(value) equals the value of Intl.Segmenter.prototype",
+            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.Segmenter.prototype\""
           }
         ],
         "optional": false

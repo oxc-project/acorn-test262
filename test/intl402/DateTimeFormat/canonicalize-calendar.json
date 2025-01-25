@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
-                "value": "en"
+                "value": "en",
+                "raw": "\"en\""
               },
               {
                 "type": "ObjectExpression",
@@ -70,7 +71,8 @@
                       "type": "Literal",
                       "start": 306,
                       "end": 316,
-                      "value": "islamicc"
+                      "value": "islamicc",
+                      "raw": "\"islamicc\""
                     },
                     "kind": "init"
                   }
@@ -153,13 +155,15 @@
             "type": "Literal",
             "start": 371,
             "end": 386,
-            "value": "islamic-civil"
+            "value": "islamic-civil",
+            "raw": "\"islamic-civil\""
           },
           {
             "type": "Literal",
             "start": 388,
             "end": 427,
-            "value": "calendar ID is canonicalized (option)"
+            "value": "calendar ID is canonicalized (option)",
+            "raw": "\"calendar ID is canonicalized (option)\""
           }
         ],
         "optional": false
@@ -208,7 +212,8 @@
                 "type": "Literal",
                 "start": 468,
                 "end": 486,
-                "value": "en-u-ca-islamicc"
+                "value": "en-u-ca-islamicc",
+                "raw": "\"en-u-ca-islamicc\""
               }
             ]
           }
@@ -287,13 +292,15 @@
             "type": "Literal",
             "start": 539,
             "end": 554,
-            "value": "islamic-civil"
+            "value": "islamic-civil",
+            "raw": "\"islamic-civil\""
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 599,
-            "value": "calendar ID is canonicalized (locale key)"
+            "value": "calendar ID is canonicalized (locale key)",
+            "raw": "\"calendar ID is canonicalized (locale key)\""
           }
         ],
         "optional": false
@@ -342,7 +349,8 @@
                 "type": "Literal",
                 "start": 640,
                 "end": 644,
-                "value": "en"
+                "value": "en",
+                "raw": "\"en\""
               },
               {
                 "type": "ObjectExpression",
@@ -366,7 +374,8 @@
                       "type": "Literal",
                       "start": 658,
                       "end": 667,
-                      "value": "ISO8601"
+                      "value": "ISO8601",
+                      "raw": "\"ISO8601\""
                     },
                     "kind": "init"
                   }
@@ -449,13 +458,15 @@
             "type": "Literal",
             "start": 722,
             "end": 731,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 760,
-            "value": "calendar ID is lowercased"
+            "value": "calendar ID is lowercased",
+            "raw": "\"calendar ID is lowercased\""
           }
         ],
         "optional": false
@@ -532,7 +543,8 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 829,
-                  "value": "en"
+                  "value": "en",
+                  "raw": "\"en\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -556,7 +568,8 @@
                         "type": "Literal",
                         "start": 843,
                         "end": 857,
-                        "value": "İSO8601"
+                        "value": "İSO8601",
+                        "raw": "\"\\u0130SO8601\""
                       },
                       "kind": "init"
                     }
@@ -569,7 +582,8 @@
             "type": "Literal",
             "start": 864,
             "end": 932,
-            "value": "calendar ID is capital dotted I is not lowercased (first argument)"
+            "value": "calendar ID is capital dotted I is not lowercased (first argument)",
+            "raw": "\"calendar ID is capital dotted I is not lowercased (first argument)\""
           }
         ],
         "optional": false

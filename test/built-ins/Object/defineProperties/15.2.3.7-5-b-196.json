@@ -91,7 +91,8 @@
             "type": "Literal",
             "start": 400,
             "end": 405,
-            "value": "get"
+            "value": "get",
+            "raw": "\"get\""
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +152,8 @@
                                   "type": "Literal",
                                   "start": 466,
                                   "end": 493,
-                                  "value": "inheritedAccessorProperty"
+                                  "value": "inheritedAccessorProperty",
+                                  "raw": "\"inheritedAccessorProperty\""
                                 }
                               }
                             ]
@@ -309,7 +311,8 @@
             "type": "Literal",
             "start": 617,
             "end": 622,
-            "value": "get"
+            "value": "get",
+            "raw": "\"get\""
           },
           {
             "type": "ObjectExpression",
@@ -351,7 +354,8 @@
                           "type": "Literal",
                           "start": 659,
                           "end": 676,
-                          "value": "ownDataProperty"
+                          "value": "ownDataProperty",
+                          "raw": "\"ownDataProperty\""
                         }
                       }
                     ]
@@ -482,13 +486,15 @@
             "type": "Literal",
             "start": 774,
             "end": 791,
-            "value": "ownDataProperty"
+            "value": "ownDataProperty",
+            "raw": "\"ownDataProperty\""
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 807,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

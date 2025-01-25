@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 392,
                         "end": 396,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -107,7 +108,8 @@
                               "type": "Literal",
                               "start": 414,
                               "end": 416,
-                              "value": ""
+                              "value": "",
+                              "raw": "''"
                             },
                             "kind": "init"
                           }
@@ -123,7 +125,8 @@
             "type": "Literal",
             "start": 424,
             "end": 438,
-            "value": "empty string"
+            "value": "empty string",
+            "raw": "'empty string'"
           }
         ],
         "optional": false
@@ -209,7 +212,8 @@
                         "type": "Literal",
                         "start": 508,
                         "end": 512,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -233,7 +237,8 @@
                               "type": "Literal",
                               "start": 530,
                               "end": 538,
-                              "value": "short "
+                              "value": "short ",
+                              "raw": "'short '"
                             },
                             "kind": "init"
                           }
@@ -249,7 +254,8 @@
             "type": "Literal",
             "start": 546,
             "end": 556,
-            "value": "\"short \""
+            "value": "\"short \"",
+            "raw": "'\"short \"'"
           }
         ],
         "optional": false
@@ -335,7 +341,8 @@
                         "type": "Literal",
                         "start": 626,
                         "end": 630,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -359,7 +366,8 @@
                               "type": "Literal",
                               "start": 648,
                               "end": 655,
-                              "value": " long"
+                              "value": " long",
+                              "raw": "' long'"
                             },
                             "kind": "init"
                           }
@@ -375,7 +383,8 @@
             "type": "Literal",
             "start": 663,
             "end": 672,
-            "value": "\" long\""
+            "value": "\" long\"",
+            "raw": "'\" long\"'"
           }
         ],
         "optional": false
@@ -461,7 +470,8 @@
                         "type": "Literal",
                         "start": 742,
                         "end": 746,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -485,7 +495,8 @@
                               "type": "Literal",
                               "start": 764,
                               "end": 772,
-                              "value": "offset"
+                              "value": "offset",
+                              "raw": "'offset'"
                             },
                             "kind": "init"
                           }
@@ -501,7 +512,8 @@
             "type": "Literal",
             "start": 780,
             "end": 790,
-            "value": "\"offset\""
+            "value": "\"offset\"",
+            "raw": "'\"offset\"'"
           }
         ],
         "optional": false
@@ -587,7 +599,8 @@
                         "type": "Literal",
                         "start": 860,
                         "end": 864,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -611,7 +624,8 @@
                               "type": "Literal",
                               "start": 882,
                               "end": 891,
-                              "value": "generic"
+                              "value": "generic",
+                              "raw": "'generic'"
                             },
                             "kind": "init"
                           }
@@ -627,7 +641,8 @@
             "type": "Literal",
             "start": 899,
             "end": 910,
-            "value": "\"generic\""
+            "value": "\"generic\"",
+            "raw": "'\"generic\"'"
           }
         ],
         "optional": false

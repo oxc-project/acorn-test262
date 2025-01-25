@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 275,
                 "end": 283,
-                "value": "\n1234"
+                "value": "\n1234",
+                "raw": "'\\n1234'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 286,
             "end": 290,
-            "value": 1234
+            "value": 1234,
+            "raw": "1234"
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 316,
-            "value": "<LF> should be ignored"
+            "value": "<LF> should be ignored",
+            "raw": "'<LF> should be ignored'"
           }
         ],
         "optional": false
@@ -160,7 +163,8 @@
                         "type": "Literal",
                         "start": 375,
                         "end": 383,
-                        "value": "12\n34"
+                        "value": "12\n34",
+                        "raw": "'12\\n34'"
                       }
                     ],
                     "optional": false
@@ -173,7 +177,8 @@
             "type": "Literal",
             "start": 389,
             "end": 461,
-            "value": "<LF> should produce a syntax error as whitespace results in two tokens"
+            "value": "<LF> should produce a syntax error as whitespace results in two tokens",
+            "raw": "'<LF> should produce a syntax error as whitespace results in two tokens'"
           }
         ],
         "optional": false

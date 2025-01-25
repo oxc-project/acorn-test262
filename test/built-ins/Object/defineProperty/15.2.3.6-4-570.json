@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 317,
             "end": 322,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -101,7 +102,8 @@
                       "type": "Literal",
                       "start": 369,
                       "end": 373,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 406,
             "end": 412,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -233,7 +236,8 @@
                 "type": "Literal",
                 "start": 484,
                 "end": 490,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -285,7 +289,8 @@
                 "type": "Literal",
                 "start": 520,
                 "end": 526,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -294,7 +299,8 @@
             "type": "Literal",
             "start": 529,
             "end": 566,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -357,7 +363,8 @@
             "type": "Literal",
             "start": 605,
             "end": 615,
-            "value": "desc.get"
+            "value": "desc.get",
+            "raw": "'desc.get'"
           }
         ],
         "optional": false
@@ -421,13 +428,15 @@
             "type": "Literal",
             "start": 652,
             "end": 663,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 682,
-            "value": "typeof obj.prop"
+            "value": "typeof obj.prop",
+            "raw": "'typeof obj.prop'"
           }
         ],
         "optional": false
@@ -458,7 +467,8 @@
             "type": "Literal",
             "start": 707,
             "end": 731,
-            "value": "verifyExecute !== true"
+            "value": "verifyExecute !== true",
+            "raw": "'verifyExecute !== true'"
           }
         ],
         "optional": false

@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 380,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               }
             ],
@@ -70,7 +71,8 @@
                     "type": "Literal",
                     "start": 397,
                     "end": 398,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -215,25 +217,29 @@
               "type": "Literal",
               "start": 599,
               "end": 602,
-              "value": "A"
+              "value": "A",
+              "raw": "\"A\""
             },
             {
               "type": "Literal",
               "start": 603,
               "end": 606,
-              "value": "B"
+              "value": "B",
+              "raw": "\"B\""
             },
             {
               "type": "Literal",
               "start": 607,
               "end": 608,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 609,
               "end": 610,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
           "optional": false
@@ -263,7 +269,8 @@
                   "type": "Literal",
                   "start": 639,
                   "end": 735,
-                  "value": "#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted"
+                  "value": "#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted",
+                  "raw": "'#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted'"
                 }
               ]
             }

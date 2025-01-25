@@ -35,7 +35,8 @@
                   "type": "Literal",
                   "start": 1110,
                   "end": 1129,
-                  "value": "first declaration"
+                  "value": "first declaration",
+                  "raw": "'first declaration'"
                 }
               }
             ]
@@ -64,7 +65,8 @@
                 "type": "Literal",
                 "start": 1139,
                 "end": 1140,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -92,14 +94,16 @@
                   "type": "Literal",
                   "start": 1150,
                   "end": 1164,
-                  "value": "switch (1) {"
+                  "value": "switch (1) {",
+                  "raw": "'switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1169,
                   "end": 1180,
-                  "value": "  case 1:"
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
                 }
               },
               "operator": "+",
@@ -107,7 +111,8 @@
                 "type": "Literal",
                 "start": 1185,
                 "end": 1236,
-                "value": "    function f() { return \"second declaration\"; }"
+                "value": "    function f() { return \"second declaration\"; }",
+                "raw": "'    function f() { return \"second declaration\"; }'"
               }
             },
             "operator": "+",
@@ -115,7 +120,8 @@
               "type": "Literal",
               "start": 1241,
               "end": 1248,
-              "value": "}  "
+              "value": "}  ",
+              "raw": "'}\\\n  '"
             }
           }
         ],
@@ -167,7 +173,8 @@
             "type": "Literal",
             "start": 1280,
             "end": 1290,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -218,7 +225,8 @@
             "type": "Literal",
             "start": 1315,
             "end": 1335,
-            "value": "second declaration"
+            "value": "second declaration",
+            "raw": "'second declaration'"
           }
         ],
         "optional": false

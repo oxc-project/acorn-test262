@@ -26,14 +26,16 @@
               "type": "Literal",
               "start": 365,
               "end": 409,
-              "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? "
+              "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? ",
+              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 412,
               "end": 415,
-              "value": "\""
+              "value": "\"",
+              "raw": "'\"'"
             }
           }
         }
@@ -81,6 +83,7 @@
                 "start": 438,
                 "end": 442,
                 "value": {},
+                "raw": "/\\w/",
                 "regex": {
                   "pattern": "\\w",
                   "flags": ""
@@ -109,13 +112,15 @@
             "type": "Literal",
             "start": 458,
             "end": 462,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 543,
-            "value": "/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;'<,>./? \" + '\"'\") must return null"
+            "value": "/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;'<,>./? \" + '\"'\") must return null",
+            "raw": "'/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;\\'<,>./? \" + \\'\"\\'\") must return null'"
           }
         ],
         "optional": false
@@ -140,7 +145,8 @@
             "type": "Literal",
             "start": 560,
             "end": 626,
-            "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\""
           }
         }
       ],
@@ -166,6 +172,7 @@
             "start": 643,
             "end": 648,
             "value": {},
+            "raw": "/\\w/g",
             "regex": {
               "pattern": "\\w",
               "flags": "g"
@@ -194,7 +201,8 @@
             "type": "Literal",
             "start": 658,
             "end": 659,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -246,7 +254,8 @@
           "type": "Literal",
           "start": 693,
           "end": 697,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       },
       "body": {
@@ -332,7 +341,8 @@
             "type": "Literal",
             "start": 746,
             "end": 809,
-            "value": "The value of non_W.length is expected to equal the value of k"
+            "value": "The value of non_W.length is expected to equal the value of k",
+            "raw": "'The value of non_W.length is expected to equal the value of k'"
           }
         ],
         "optional": false

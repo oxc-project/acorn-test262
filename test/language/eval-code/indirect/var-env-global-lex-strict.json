@@ -44,7 +44,8 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -60,7 +61,8 @@
             "type": "Literal",
             "start": 346,
             "end": 368,
-            "value": "\"use strict\"; var x;"
+            "value": "\"use strict\"; var x;",
+            "raw": "'\"use strict\"; var x;'"
           }
         ],
         "optional": false

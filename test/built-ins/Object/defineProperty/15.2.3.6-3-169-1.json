@@ -73,7 +73,8 @@
           "type": "Literal",
           "start": 405,
           "end": 409,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -113,7 +114,8 @@
                   "type": "Literal",
                   "start": 436,
                   "end": 437,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               }
             ]
@@ -160,7 +162,8 @@
             "type": "Literal",
             "start": 468,
             "end": 478,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -215,7 +218,8 @@
                 "type": "Literal",
                 "start": 527,
                 "end": 537,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -256,7 +260,8 @@
           "type": "Literal",
           "start": 556,
           "end": 568,
-          "value": "isWritable"
+          "value": "isWritable",
+          "raw": "\"isWritable\""
         }
       }
     },
@@ -307,7 +312,8 @@
                 "type": "Literal",
                 "start": 606,
                 "end": 618,
-                "value": "isWritable"
+                "value": "isWritable",
+                "raw": "\"isWritable\""
               }
             }
           }
@@ -353,13 +359,15 @@
             "type": "Literal",
             "start": 652,
             "end": 656,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 671,
-            "value": "beforeWrite"
+            "value": "beforeWrite",
+            "raw": "'beforeWrite'"
           }
         ],
         "optional": false
@@ -403,13 +411,15 @@
             "type": "Literal",
             "start": 703,
             "end": 707,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 721,
-            "value": "afterWrite"
+            "value": "afterWrite",
+            "raw": "'afterWrite'"
           }
         ],
         "optional": false

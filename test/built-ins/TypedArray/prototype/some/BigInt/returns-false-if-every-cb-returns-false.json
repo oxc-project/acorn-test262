@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 838,
                             "end": 840,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ]
                       }
@@ -98,19 +99,22 @@
                             "type": "Literal",
                             "start": 852,
                             "end": 857,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 863,
                             "end": 865,
-                            "value": ""
+                            "value": "",
+                            "raw": "\"\""
                           },
                           {
                             "type": "Literal",
                             "start": 871,
                             "end": 872,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "UnaryExpression",
@@ -122,7 +126,8 @@
                               "type": "Literal",
                               "start": 879,
                               "end": 880,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           },
                           {
@@ -141,7 +146,8 @@
                             "type": "Literal",
                             "start": 910,
                             "end": 914,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       },
@@ -195,7 +201,8 @@
                                     "type": "Literal",
                                     "start": 960,
                                     "end": 961,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   }
                                 }
                               ],
@@ -331,13 +338,15 @@
                                     "type": "Literal",
                                     "start": 1076,
                                     "end": 1078,
-                                    "value": 42
+                                    "value": 42,
+                                    "raw": "42"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1080,
                                     "end": 1123,
-                                    "value": "callbackfn called for each index property"
+                                    "value": "callbackfn called for each index property",
+                                    "raw": "\"callbackfn called for each index property\""
                                   }
                                 ],
                                 "optional": false
@@ -381,7 +390,8 @@
                                     "type": "Literal",
                                     "start": 1155,
                                     "end": 1160,
-                                    "value": false
+                                    "value": false,
+                                    "raw": "false"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -391,7 +401,8 @@
                                       "type": "Literal",
                                       "start": 1162,
                                       "end": 1182,
-                                      "value": "result is false - "
+                                      "value": "result is false - ",
+                                      "raw": "\"result is false - \""
                                     },
                                     "operator": "+",
                                     "right": {

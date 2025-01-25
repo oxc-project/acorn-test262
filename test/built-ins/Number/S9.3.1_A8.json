@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 469,
-                "value": "1234e5"
+                "value": "1234e5",
+                "raw": "\"1234e5\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 472,
             "end": 481,
-            "value": 123400000
+            "value": 123400000,
+            "raw": "123400000"
           },
           {
             "type": "Literal",
             "start": 483,
             "end": 523,
-            "value": "Number(\"1234e5\") must return 123400000"
+            "value": "Number(\"1234e5\") must return 123400000",
+            "raw": "'Number(\"1234e5\") must return 123400000'"
           }
         ],
         "optional": false
@@ -110,7 +113,8 @@
                 "type": "Literal",
                 "start": 550,
                 "end": 559,
-                "value": "1234.e5"
+                "value": "1234.e5",
+                "raw": "\"1234.e5\""
               }
             ],
             "optional": false
@@ -119,13 +123,15 @@
             "type": "Literal",
             "start": 562,
             "end": 571,
-            "value": 123400000
+            "value": 123400000,
+            "raw": "123400000"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 614,
-            "value": "Number(\"1234.e5\") must return 123400000"
+            "value": "Number(\"1234.e5\") must return 123400000",
+            "raw": "'Number(\"1234.e5\") must return 123400000'"
           }
         ],
         "optional": false

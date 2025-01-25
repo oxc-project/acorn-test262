@@ -46,37 +46,43 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -101,19 +107,22 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 377,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 380,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 404,
-                "value": 999999999
+                "value": 999999999,
+                "raw": "999_999_999"
               }
             ]
           }
@@ -179,13 +188,15 @@
             "type": "Literal",
             "start": 436,
             "end": 467,
-            "value": "PT9007199254740991.999999999S"
+            "value": "PT9007199254740991.999999999S",
+            "raw": "\"PT9007199254740991.999999999S\""
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 514,
-            "value": "max value ns and s does not go out of range"
+            "value": "max value ns and s does not go out of range",
+            "raw": "\"max value ns and s does not go out of range\""
           }
         ],
         "optional": false

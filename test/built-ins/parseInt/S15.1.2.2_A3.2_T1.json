@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 313,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Identifier",
@@ -72,13 +73,15 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 334,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -87,7 +90,8 @@
             "type": "Literal",
             "start": 341,
             "end": 420,
-            "value": "parseInt(\"11\", NaN) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", NaN) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", NaN) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false
@@ -136,7 +140,8 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 453,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "UnaryExpression",
@@ -148,7 +153,8 @@
                   "type": "Literal",
                   "start": 456,
                   "end": 457,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -169,13 +175,15 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 473,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 477,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -184,7 +192,8 @@
             "type": "Literal",
             "start": 480,
             "end": 558,
-            "value": "parseInt(\"11\", +0) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", +0) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", +0) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false
@@ -233,7 +242,8 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 591,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "UnaryExpression",
@@ -245,7 +255,8 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 595,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -266,13 +277,15 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 611,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 615,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -281,7 +294,8 @@
             "type": "Literal",
             "start": 618,
             "end": 696,
-            "value": "parseInt(\"11\", -0) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", -0) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", -0) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false
@@ -330,7 +344,8 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 733,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "MemberExpression",
@@ -369,13 +384,15 @@
                 "type": "Literal",
                 "start": 773,
                 "end": 777,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 779,
                 "end": 781,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -384,7 +401,8 @@
             "type": "Literal",
             "start": 786,
             "end": 886,
-            "value": "parseInt(\"11\", Number.POSITIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", Number.POSITIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", Number.POSITIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false
@@ -433,7 +451,8 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 924,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "MemberExpression",
@@ -472,13 +491,15 @@
                 "type": "Literal",
                 "start": 964,
                 "end": 968,
-                "value": "11"
+                "value": "11",
+                "raw": "\"11\""
               },
               {
                 "type": "Literal",
                 "start": 970,
                 "end": 972,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -487,7 +508,8 @@
             "type": "Literal",
             "start": 977,
             "end": 1077,
-            "value": "parseInt(\"11\", Number.NEGATIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)"
+            "value": "parseInt(\"11\", Number.NEGATIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)",
+            "raw": "'parseInt(\"11\", Number.NEGATIVE_INFINITY) must return the same value returned by parseInt(\"11\", 10)'"
           }
         ],
         "optional": false

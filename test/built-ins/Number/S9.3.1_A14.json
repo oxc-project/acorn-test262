@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 342,
-                "value": "+1234567890"
+                "value": "+1234567890",
+                "raw": "\"+1234567890\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 345,
             "end": 355,
-            "value": 1234567890
+            "value": 1234567890,
+            "raw": "1234567890"
           },
           {
             "type": "Literal",
             "start": 357,
             "end": 403,
-            "value": "Number(\"+1234567890\") must return 1234567890"
+            "value": "Number(\"+1234567890\") must return 1234567890",
+            "raw": "'Number(\"+1234567890\") must return 1234567890'"
           }
         ],
         "optional": false

@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 636,
                   "end": 648,
-                  "value": "hasIndices"
+                  "value": "hasIndices",
+                  "raw": "\"hasIndices\""
                 }
               ],
               "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 626,
                 "end": 627,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "ObjectExpression",
@@ -57,7 +58,8 @@
                       "type": "Literal",
                       "start": 646,
                       "end": 647,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     "kind": "init"
                   }
@@ -120,13 +122,15 @@
             "type": "Literal",
             "start": 683,
             "end": 688,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 753,
-            "value": "Resizable ArrayBuffer with maxByteLength of 0 is not detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 0 is not detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is not detached'"
           }
         ],
         "optional": false
@@ -208,13 +212,15 @@
             "type": "Literal",
             "start": 809,
             "end": 813,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 878,
-            "value": "Resizable ArrayBuffer with maxByteLength of 0 is now detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 0 is now detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is now detached'"
           }
         ],
         "optional": false
@@ -250,7 +256,8 @@
                 "type": "Literal",
                 "start": 908,
                 "end": 909,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "ObjectExpression",
@@ -274,7 +281,8 @@
                       "type": "Literal",
                       "start": 928,
                       "end": 930,
-                      "value": 23
+                      "value": 23,
+                      "raw": "23"
                     },
                     "kind": "init"
                   }
@@ -337,13 +345,15 @@
             "type": "Literal",
             "start": 966,
             "end": 971,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 973,
             "end": 1037,
-            "value": "Resizable ArrayBuffer with maxByteLength of 23 is not detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 23 is not detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is not detached'"
           }
         ],
         "optional": false
@@ -425,13 +435,15 @@
             "type": "Literal",
             "start": 1093,
             "end": 1097,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1099,
             "end": 1163,
-            "value": "Resizable ArrayBuffer with maxByteLength of 23 is now detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 23 is now detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is now detached'"
           }
         ],
         "optional": false
@@ -467,7 +479,8 @@
                 "type": "Literal",
                 "start": 1193,
                 "end": 1195,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "ObjectExpression",
@@ -491,7 +504,8 @@
                       "type": "Literal",
                       "start": 1214,
                       "end": 1216,
-                      "value": 42
+                      "value": 42,
+                      "raw": "42"
                     },
                     "kind": "init"
                   }
@@ -554,13 +568,15 @@
             "type": "Literal",
             "start": 1252,
             "end": 1257,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1323,
-            "value": "Resizable ArrayBuffer with maxByteLength of 42 is not detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 42 is not detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is not detached'"
           }
         ],
         "optional": false
@@ -642,13 +658,15 @@
             "type": "Literal",
             "start": 1379,
             "end": 1383,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1385,
             "end": 1449,
-            "value": "Resizable ArrayBuffer with maxByteLength of 42 is now detached"
+            "value": "Resizable ArrayBuffer with maxByteLength of 42 is now detached",
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is now detached'"
           }
         ],
         "optional": false

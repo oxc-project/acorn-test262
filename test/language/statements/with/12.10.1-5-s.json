@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 308,
             "end": 374,
-            "value": "'use strict'; var f1 = Function( \"var o = {}; with (o) {};\")"
+            "value": "'use strict'; var f1 = Function( \"var o = {}; with (o) {};\")",
+            "raw": "\"\\'use strict\\'; var f1 = Function( \\\"var o = {}; with (o) {};\\\")\""
           }
         ],
         "optional": false

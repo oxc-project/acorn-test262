@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 357,
-                "value": "return typeof this;"
+                "value": "return typeof this;",
+                "raw": "\"return typeof this;\""
               }
             ]
           }
@@ -67,7 +68,8 @@
           "type": "Literal",
           "start": 372,
           "end": 383,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -83,7 +85,8 @@
               "type": "Literal",
               "start": 397,
               "end": 426,
-              "value": "'this' had incorrect value!"
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
             }
           }
         ]

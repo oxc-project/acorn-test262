@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 750,
                             "end": 752,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ]
                       }
@@ -96,7 +97,8 @@
                         "type": "Literal",
                         "start": 768,
                         "end": 769,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ],
@@ -140,7 +142,8 @@
                         "type": "Literal",
                         "start": 805,
                         "end": 813,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -164,7 +167,8 @@
                               "type": "Literal",
                               "start": 823,
                               "end": 824,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -279,13 +283,15 @@
                         "type": "Literal",
                         "start": 904,
                         "end": 906,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       },
                       {
                         "type": "Literal",
                         "start": 908,
                         "end": 925,
-                        "value": "data descriptor"
+                        "value": "data descriptor",
+                        "raw": "\"data descriptor\""
                       }
                     ],
                     "optional": false
@@ -321,7 +327,8 @@
                             "type": "Literal",
                             "start": 952,
                             "end": 953,
-                            "value": 7
+                            "value": 7,
+                            "raw": "7"
                           }
                         ]
                       }
@@ -348,7 +355,8 @@
                       "type": "Literal",
                       "start": 965,
                       "end": 966,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 },
@@ -390,7 +398,8 @@
                         "type": "Literal",
                         "start": 1002,
                         "end": 1010,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -443,7 +452,8 @@
                                           "type": "Literal",
                                           "start": 1074,
                                           "end": 1122,
-                                          "value": "Does not return abrupt getting length property"
+                                          "value": "Does not return abrupt getting length property",
+                                          "raw": "\"Does not return abrupt getting length property\""
                                         }
                                       ]
                                     }
@@ -564,13 +574,15 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1221,
-                        "value": 7
+                        "value": 7,
+                        "raw": "7"
                       },
                       {
                         "type": "Literal",
                         "start": 1223,
                         "end": 1244,
-                        "value": "accessor descriptor"
+                        "value": "accessor descriptor",
+                        "raw": "\"accessor descriptor\""
                       }
                     ],
                     "optional": false

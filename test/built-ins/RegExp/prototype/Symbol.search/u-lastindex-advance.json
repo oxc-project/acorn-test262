@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 743,
+  "end": 741,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 679,
-      "end": 742,
+      "start": 677,
+      "end": 740,
       "expression": {
         "type": "CallExpression",
-        "start": 679,
-        "end": 741,
+        "start": 677,
+        "end": 739,
         "callee": {
           "type": "MemberExpression",
-          "start": 679,
-          "end": 695,
+          "start": 677,
+          "end": 693,
           "object": {
             "type": "Identifier",
-            "start": 679,
-            "end": 685,
+            "start": 677,
+            "end": 683,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 686,
-            "end": 695,
+            "start": 684,
+            "end": 693,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,17 +33,18 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 696,
-            "end": 736,
+            "start": 694,
+            "end": 734,
             "callee": {
               "type": "MemberExpression",
-              "start": 696,
-              "end": 720,
+              "start": 694,
+              "end": 718,
               "object": {
                 "type": "Literal",
-                "start": 696,
-                "end": 705,
+                "start": 694,
+                "end": 703,
                 "value": {},
+                "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
@@ -51,18 +52,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 706,
-                "end": 719,
+                "start": 704,
+                "end": 717,
                 "object": {
                   "type": "Identifier",
-                  "start": 706,
-                  "end": 712,
+                  "start": 704,
+                  "end": 710,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 713,
-                  "end": 719,
+                  "start": 711,
+                  "end": 717,
                   "name": "search"
                 },
                 "computed": false,
@@ -74,24 +75,26 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 721,
-                "end": 735,
-                "value": "𝌆"
+                "start": 719,
+                "end": 733,
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
               }
             ],
             "optional": false
           },
           {
             "type": "UnaryExpression",
-            "start": 738,
-            "end": 740,
+            "start": 736,
+            "end": 738,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 739,
-              "end": 740,
-              "value": 1
+              "start": 737,
+              "end": 738,
+              "value": 1,
+              "raw": "1"
             }
           }
         ],

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 640,
             "end": 641,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -101,7 +102,8 @@
                           "type": "Literal",
                           "start": 712,
                           "end": 715,
-                          "value": 2.3
+                          "value": 2.3,
+                          "raw": "2.3"
                         }
                       }
                     ]
@@ -215,7 +217,8 @@
                             "type": "Literal",
                             "start": 827,
                             "end": 828,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "computed": true,
                           "optional": false
@@ -307,7 +310,8 @@
                         "type": "Literal",
                         "start": 897,
                         "end": 898,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -360,7 +364,8 @@
                                           "type": "Literal",
                                           "start": 947,
                                           "end": 980,
-                                          "value": "0 getter should be unreachable!"
+                                          "value": "0 getter should be unreachable!",
+                                          "raw": "\"0 getter should be unreachable!\""
                                         }
                                       ]
                                     }
@@ -423,7 +428,8 @@
                                           "type": "Literal",
                                           "start": 1033,
                                           "end": 1066,
-                                          "value": "0 setter should be unreachable!"
+                                          "value": "0 setter should be unreachable!",
+                                          "raw": "\"0 setter should be unreachable!\""
                                         }
                                       ]
                                     }
@@ -450,7 +456,8 @@
                               "type": "Literal",
                               "start": 1090,
                               "end": 1094,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -495,7 +502,8 @@
                               "type": "Literal",
                               "start": 1123,
                               "end": 1124,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -575,7 +583,8 @@
                             "type": "Literal",
                             "start": 1174,
                             "end": 1175,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -596,7 +605,8 @@
                         "type": "Literal",
                         "start": 1195,
                         "end": 1248,
-                        "value": "Reflect.set should succeed (receiver: empty object)"
+                        "value": "Reflect.set should succeed (receiver: empty object)",
+                        "raw": "\"Reflect.set should succeed (receiver: empty object)\""
                       }
                     ],
                     "optional": false
@@ -644,7 +654,8 @@
                           "type": "Literal",
                           "start": 1277,
                           "end": 1278,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -653,13 +664,15 @@
                         "type": "Literal",
                         "start": 1281,
                         "end": 1282,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1284,
                         "end": 1344,
-                        "value": "target[0] should remain unchanged (receiver: empty object)"
+                        "value": "target[0] should remain unchanged (receiver: empty object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: empty object)\""
                       }
                     ],
                     "optional": false
@@ -707,7 +720,8 @@
                           "type": "Literal",
                           "start": 1375,
                           "end": 1376,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -722,7 +736,8 @@
                         "type": "Literal",
                         "start": 1386,
                         "end": 1442,
-                        "value": "receiver[0] should be created (receiver: empty object)"
+                        "value": "receiver[0] should be created (receiver: empty object)",
+                        "raw": "\"receiver[0] should be created (receiver: empty object)\""
                       }
                     ],
                     "optional": false
@@ -763,7 +778,8 @@
                               "type": "Literal",
                               "start": 1466,
                               "end": 1467,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -806,7 +822,8 @@
                               "type": "Literal",
                               "start": 1492,
                               "end": 1493,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ]
                         }
@@ -863,7 +880,8 @@
                             "type": "Literal",
                             "start": 1526,
                             "end": 1527,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "NewExpression",
@@ -880,7 +898,8 @@
                                 "type": "Literal",
                                 "start": 1540,
                                 "end": 1543,
-                                "value": 2.3
+                                "value": 2.3,
+                                "raw": "2.3"
                               }
                             ]
                           },
@@ -897,7 +916,8 @@
                         "type": "Literal",
                         "start": 1557,
                         "end": 1636,
-                        "value": "Reflect.set should succeed (receiver: another typed array of the same length)"
+                        "value": "Reflect.set should succeed (receiver: another typed array of the same length)",
+                        "raw": "\"Reflect.set should succeed (receiver: another typed array of the same length)\""
                       }
                     ],
                     "optional": false
@@ -945,7 +965,8 @@
                           "type": "Literal",
                           "start": 1665,
                           "end": 1666,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -954,13 +975,15 @@
                         "type": "Literal",
                         "start": 1669,
                         "end": 1670,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1672,
                         "end": 1758,
-                        "value": "target[0] should remain unchanged (receiver: another typed array of the same length)"
+                        "value": "target[0] should remain unchanged (receiver: another typed array of the same length)",
+                        "raw": "\"target[0] should remain unchanged (receiver: another typed array of the same length)\""
                       }
                     ],
                     "optional": false
@@ -1008,7 +1031,8 @@
                           "type": "Literal",
                           "start": 1789,
                           "end": 1790,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1039,7 +1063,8 @@
                                 "type": "Literal",
                                 "start": 1816,
                                 "end": 1819,
-                                "value": 2.3
+                                "value": 2.3,
+                                "raw": "2.3"
                               }
                             ]
                           }
@@ -1050,7 +1075,8 @@
                         "type": "Literal",
                         "start": 1823,
                         "end": 1905,
-                        "value": "receiver[0] should be updated (receiver: another typed array of the same length)"
+                        "value": "receiver[0] should be updated (receiver: another typed array of the same length)",
+                        "raw": "\"receiver[0] should be updated (receiver: another typed array of the same length)\""
                       }
                     ],
                     "optional": false
@@ -1091,13 +1117,15 @@
                               "type": "Literal",
                               "start": 1929,
                               "end": 1930,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Literal",
                               "start": 1932,
                               "end": 1933,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -1140,7 +1168,8 @@
                               "type": "Literal",
                               "start": 1958,
                               "end": 1959,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ]
                         }
@@ -1203,7 +1232,8 @@
                               "type": "Literal",
                               "start": 1993,
                               "end": 1994,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Identifier",
@@ -1225,7 +1255,8 @@
                         "type": "Literal",
                         "start": 2014,
                         "end": 2089,
-                        "value": "Reflect.set should fail (receiver: another typed array of shorter length)"
+                        "value": "Reflect.set should fail (receiver: another typed array of shorter length)",
+                        "raw": "\"Reflect.set should fail (receiver: another typed array of shorter length)\""
                       }
                     ],
                     "optional": false
@@ -1273,7 +1304,8 @@
                           "type": "Literal",
                           "start": 2118,
                           "end": 2119,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -1282,13 +1314,15 @@
                         "type": "Literal",
                         "start": 2122,
                         "end": 2123,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 2125,
                         "end": 2210,
-                        "value": "target[1] should remain unchanged (receiver: another typed array of shorter length)"
+                        "value": "target[1] should remain unchanged (receiver: another typed array of shorter length)",
+                        "raw": "\"target[1] should remain unchanged (receiver: another typed array of shorter length)\""
                       }
                     ],
                     "optional": false
@@ -1343,7 +1377,8 @@
                               "type": "Literal",
                               "start": 2247,
                               "end": 2248,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -1353,7 +1388,8 @@
                         "type": "Literal",
                         "start": 2251,
                         "end": 2336,
-                        "value": "receiver[1] should not be created (receiver: another typed array of shorter length)"
+                        "value": "receiver[1] should not be created (receiver: another typed array of shorter length)",
+                        "raw": "\"receiver[1] should not be created (receiver: another typed array of shorter length)\""
                       }
                     ],
                     "optional": false
@@ -1394,7 +1430,8 @@
                               "type": "Literal",
                               "start": 2360,
                               "end": 2361,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -1507,7 +1544,8 @@
                               "type": "Literal",
                               "start": 2438,
                               "end": 2439,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Identifier",
@@ -1529,7 +1567,8 @@
                         "type": "Literal",
                         "start": 2459,
                         "end": 2524,
-                        "value": "Reflect.set should fail (receiver: non-extensible empty object)"
+                        "value": "Reflect.set should fail (receiver: non-extensible empty object)",
+                        "raw": "\"Reflect.set should fail (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1577,7 +1616,8 @@
                           "type": "Literal",
                           "start": 2553,
                           "end": 2554,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1586,13 +1626,15 @@
                         "type": "Literal",
                         "start": 2557,
                         "end": 2558,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 2560,
                         "end": 2635,
-                        "value": "target[0] should remain unchanged (receiver: non-extensible empty object)"
+                        "value": "target[0] should remain unchanged (receiver: non-extensible empty object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1647,7 +1689,8 @@
                               "type": "Literal",
                               "start": 2672,
                               "end": 2673,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ],
                           "optional": false
@@ -1657,7 +1700,8 @@
                         "type": "Literal",
                         "start": 2676,
                         "end": 2751,
-                        "value": "receiver[0] should not be created (receiver: non-extensible empty object)"
+                        "value": "receiver[0] should not be created (receiver: non-extensible empty object)",
+                        "raw": "\"receiver[0] should not be created (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1698,7 +1742,8 @@
                               "type": "Literal",
                               "start": 2775,
                               "end": 2776,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -1737,7 +1782,8 @@
                             "type": "Literal",
                             "start": 2803,
                             "end": 2804,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "kind": "get",
                           "value": {
@@ -1762,7 +1808,8 @@
                                     "type": "Literal",
                                     "start": 2816,
                                     "end": 2817,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   }
                                 }
                               ]
@@ -1780,7 +1827,8 @@
                             "type": "Literal",
                             "start": 2830,
                             "end": 2831,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "kind": "set",
                           "value": {
@@ -1823,7 +1871,8 @@
                                         "type": "Literal",
                                         "start": 2861,
                                         "end": 2894,
-                                        "value": "0 setter should be unreachable!"
+                                        "value": "0 setter should be unreachable!",
+                                        "raw": "\"0 setter should be unreachable!\""
                                       }
                                     ]
                                   }
@@ -1891,7 +1940,8 @@
                               "type": "Literal",
                               "start": 2935,
                               "end": 2936,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Identifier",
@@ -1913,7 +1963,8 @@
                         "type": "Literal",
                         "start": 2956,
                         "end": 3022,
-                        "value": "Reflect.set should fail (receiver: plain object with 0 accessor)"
+                        "value": "Reflect.set should fail (receiver: plain object with 0 accessor)",
+                        "raw": "\"Reflect.set should fail (receiver: plain object with 0 accessor)\""
                       }
                     ],
                     "optional": false
@@ -1961,7 +2012,8 @@
                           "type": "Literal",
                           "start": 3051,
                           "end": 3052,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1970,13 +2022,15 @@
                         "type": "Literal",
                         "start": 3055,
                         "end": 3056,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 3058,
                         "end": 3134,
-                        "value": "target[0] should remain unchanged (receiver: plain object with 0 accessor)"
+                        "value": "target[0] should remain unchanged (receiver: plain object with 0 accessor)",
+                        "raw": "\"target[0] should remain unchanged (receiver: plain object with 0 accessor)\""
                       }
                     ],
                     "optional": false
@@ -2024,7 +2078,8 @@
                           "type": "Literal",
                           "start": 3165,
                           "end": 3166,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -2033,13 +2088,15 @@
                         "type": "Literal",
                         "start": 3169,
                         "end": 3170,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 3172,
                         "end": 3250,
-                        "value": "receiver[0] should remain unchanged (receiver: plain object with 0 accessor)"
+                        "value": "receiver[0] should remain unchanged (receiver: plain object with 0 accessor)",
+                        "raw": "\"receiver[0] should remain unchanged (receiver: plain object with 0 accessor)\""
                       }
                     ],
                     "optional": false
@@ -2080,7 +2137,8 @@
                               "type": "Literal",
                               "start": 3274,
                               "end": 3275,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ]
                         }
@@ -2137,7 +2195,8 @@
                           "type": "Literal",
                           "start": 3318,
                           "end": 3319,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "ObjectExpression",
@@ -2161,7 +2220,8 @@
                                 "type": "Literal",
                                 "start": 3330,
                                 "end": 3331,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               "kind": "init"
                             },
@@ -2182,7 +2242,8 @@
                                 "type": "Literal",
                                 "start": 3343,
                                 "end": 3348,
-                                "value": false
+                                "value": false,
+                                "raw": "false"
                               },
                               "kind": "init"
                             },
@@ -2203,7 +2264,8 @@
                                 "type": "Literal",
                                 "start": 3364,
                                 "end": 3368,
-                                "value": true
+                                "value": true,
+                                "raw": "true"
                               },
                               "kind": "init"
                             }
@@ -2269,7 +2331,8 @@
                               "type": "Literal",
                               "start": 3403,
                               "end": 3404,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Identifier",
@@ -2291,7 +2354,8 @@
                         "type": "Literal",
                         "start": 3424,
                         "end": 3494,
-                        "value": "Reflect.set should fail (receiver: plain object with non-writable 0)"
+                        "value": "Reflect.set should fail (receiver: plain object with non-writable 0)",
+                        "raw": "\"Reflect.set should fail (receiver: plain object with non-writable 0)\""
                       }
                     ],
                     "optional": false
@@ -2339,7 +2403,8 @@
                           "type": "Literal",
                           "start": 3523,
                           "end": 3524,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -2348,13 +2413,15 @@
                         "type": "Literal",
                         "start": 3527,
                         "end": 3528,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 3530,
                         "end": 3610,
-                        "value": "target[0] should remain unchanged (receiver: plain object with non-writable 0)"
+                        "value": "target[0] should remain unchanged (receiver: plain object with non-writable 0)",
+                        "raw": "\"target[0] should remain unchanged (receiver: plain object with non-writable 0)\""
                       }
                     ],
                     "optional": false
@@ -2402,7 +2469,8 @@
                           "type": "Literal",
                           "start": 3641,
                           "end": 3642,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -2411,13 +2479,15 @@
                         "type": "Literal",
                         "start": 3645,
                         "end": 3646,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 3648,
                         "end": 3730,
-                        "value": "receiver[0] should remain unchanged (receiver: plain object with non-writable 0)"
+                        "value": "receiver[0] should remain unchanged (receiver: plain object with non-writable 0)",
+                        "raw": "\"receiver[0] should remain unchanged (receiver: plain object with non-writable 0)\""
                       }
                     ],
                     "optional": false
@@ -2471,7 +2541,8 @@
                             "type": "Literal",
                             "start": 3764,
                             "end": 3765,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "computed": true,
                           "optional": false
@@ -2526,13 +2597,15 @@
             "type": "Literal",
             "start": 3805,
             "end": 3806,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 3808,
             "end": 3837,
-            "value": "value should not be coerced"
+            "value": "value should not be coerced",
+            "raw": "\"value should not be coerced\""
           }
         ],
         "optional": false

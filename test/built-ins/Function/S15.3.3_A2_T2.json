@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 388,
           "end": 389,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -103,13 +104,15 @@
             "type": "Literal",
             "start": 429,
             "end": 430,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 485,
-            "value": "The value of Function.indicator is expected to be 1"
+            "value": "The value of Function.indicator is expected to be 1",
+            "raw": "'The value of Function.indicator is expected to be 1'"
           }
         ],
         "optional": false

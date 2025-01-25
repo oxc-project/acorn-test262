@@ -37,7 +37,8 @@
                   "type": "Literal",
                   "start": 323,
                   "end": 324,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -88,7 +89,8 @@
           "type": "Literal",
           "start": 459,
           "end": 460,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -115,7 +117,8 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 536,
-                  "value": "#1: \"{}\" in while expression evaluates to true"
+                  "value": "#1: \"{}\" in while expression evaluates to true",
+                  "raw": "'#1: \"{}\" in while expression evaluates to true'"
                 }
               ]
             }

@@ -93,7 +93,8 @@
                       "type": "Literal",
                       "start": 434,
                       "end": 435,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -270,7 +271,8 @@
                             "type": "Literal",
                             "start": 545,
                             "end": 592,
-                            "value": "Without right-hand-side: first result `value`"
+                            "value": "Without right-hand-side: first result `value`",
+                            "raw": "\"Without right-hand-side: first result `value`\""
                           }
                         ],
                         "optional": false
@@ -327,13 +329,15 @@
                             "type": "Literal",
                             "start": 632,
                             "end": 637,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 639,
                             "end": 690,
-                            "value": "Without right-hand-side: first result `done` flag"
+                            "value": "Without right-hand-side: first result `done` flag",
+                            "raw": "\"Without right-hand-side: first result `done` flag\""
                           }
                         ],
                         "optional": false
@@ -505,7 +509,8 @@
                             "type": "Literal",
                             "start": 806,
                             "end": 854,
-                            "value": "Without right-hand-side: second result `value`"
+                            "value": "Without right-hand-side: second result `value`",
+                            "raw": "\"Without right-hand-side: second result `value`\""
                           }
                         ],
                         "optional": false
@@ -562,13 +567,15 @@
                             "type": "Literal",
                             "start": 894,
                             "end": 898,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           {
                             "type": "Literal",
                             "start": 900,
                             "end": 952,
-                            "value": "Without right-hand-side: second result `done` flag"
+                            "value": "Without right-hand-side: second result `done` flag",
+                            "raw": "\"Without right-hand-side: second result `done` flag\""
                           }
                         ],
                         "optional": false
@@ -766,13 +773,15 @@
                             "type": "Literal",
                             "start": 1076,
                             "end": 1077,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1079,
                             "end": 1123,
-                            "value": "With right-hand-side: first result `value`"
+                            "value": "With right-hand-side: first result `value`",
+                            "raw": "\"With right-hand-side: first result `value`\""
                           }
                         ],
                         "optional": false
@@ -829,13 +838,15 @@
                             "type": "Literal",
                             "start": 1163,
                             "end": 1168,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 1170,
                             "end": 1218,
-                            "value": "With right-hand-side: first result `done` flag"
+                            "value": "With right-hand-side: first result `done` flag",
+                            "raw": "\"With right-hand-side: first result `done` flag\""
                           }
                         ],
                         "optional": false
@@ -1007,7 +1018,8 @@
                             "type": "Literal",
                             "start": 1334,
                             "end": 1379,
-                            "value": "With right-hand-side: second result `value`"
+                            "value": "With right-hand-side: second result `value`",
+                            "raw": "\"With right-hand-side: second result `value`\""
                           }
                         ],
                         "optional": false
@@ -1064,13 +1076,15 @@
                             "type": "Literal",
                             "start": 1419,
                             "end": 1423,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           },
                           {
                             "type": "Literal",
                             "start": 1425,
                             "end": 1474,
-                            "value": "With right-hand-side: second result `done` flag"
+                            "value": "With right-hand-side: second result `done` flag",
+                            "raw": "\"With right-hand-side: second result `done` flag\""
                           }
                         ],
                         "optional": false

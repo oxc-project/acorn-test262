@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2654,
             "end": 2661,
-            "value": "outer"
+            "value": "outer",
+            "raw": "\"outer\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 2680,
             "end": 2681,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -116,7 +118,8 @@
                               "type": "Literal",
                               "start": 2718,
                               "end": 2719,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             "value": {
                               "type": "Identifier",
@@ -137,7 +140,8 @@
                               "type": "Literal",
                               "start": 2724,
                               "end": 2725,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "value": {
                               "type": "Identifier",
@@ -158,7 +162,8 @@
                               "type": "Literal",
                               "start": 2730,
                               "end": 2731,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "value": {
                               "type": "Identifier",
@@ -179,7 +184,8 @@
                               "type": "Literal",
                               "start": 2736,
                               "end": 2737,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             },
                             "value": {
                               "type": "Identifier",
@@ -259,7 +265,8 @@
                           "type": "Literal",
                           "start": 2782,
                           "end": 2783,
-                          "value": 7
+                          "value": 7,
+                          "raw": "7"
                         }
                       ],
                       "optional": false
@@ -303,7 +310,8 @@
                           "type": "Literal",
                           "start": 2810,
                           "end": 2811,
-                          "value": 8
+                          "value": 8,
+                          "raw": "8"
                         }
                       ],
                       "optional": false
@@ -347,7 +355,8 @@
                           "type": "Literal",
                           "start": 2838,
                           "end": 2839,
-                          "value": 9
+                          "value": 9,
+                          "raw": "9"
                         }
                       ],
                       "optional": false
@@ -435,7 +444,8 @@
                           "type": "Literal",
                           "start": 2902,
                           "end": 2903,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       ],
                       "optional": false
@@ -479,13 +489,15 @@
                           "type": "Literal",
                           "start": 2936,
                           "end": 2943,
-                          "value": "outer"
+                          "value": "outer",
+                          "raw": "\"outer\""
                         },
                         {
                           "type": "Literal",
                           "start": 2945,
                           "end": 2991,
-                          "value": "the length prop is not set as a binding name"
+                          "value": "the length prop is not set as a binding name",
+                          "raw": "\"the length prop is not set as a binding name\""
                         }
                       ],
                       "optional": false
@@ -521,7 +533,8 @@
                           "type": "Literal",
                           "start": 3022,
                           "end": 3023,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     }
@@ -637,19 +650,22 @@
                     "type": "Literal",
                     "start": 3097,
                     "end": 3098,
-                    "value": 7
+                    "value": 7,
+                    "raw": "7"
                   },
                   {
                     "type": "Literal",
                     "start": 3100,
                     "end": 3101,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   },
                   {
                     "type": "Literal",
                     "start": 3103,
                     "end": 3104,
-                    "value": 9
+                    "value": 9,
+                    "raw": "9"
                   }
                 ]
               }
@@ -707,13 +723,15 @@
             "type": "Literal",
             "start": 3143,
             "end": 3144,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 3146,
             "end": 3175,
-            "value": "method invoked exactly once"
+            "value": "method invoked exactly once",
+            "raw": "'method invoked exactly once'"
           }
         ],
         "optional": false

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 645,
                 "end": 660,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -72,7 +73,8 @@
                 "type": "Literal",
                 "start": 680,
                 "end": 695,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -111,7 +113,8 @@
                 "type": "Literal",
                 "start": 715,
                 "end": 738,
-                "value": "different description"
+                "value": "different description",
+                "raw": "'different description'"
               }
             ],
             "optional": false
@@ -166,7 +169,8 @@
                         "type": "Literal",
                         "start": 773,
                         "end": 774,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ]
                   }
@@ -243,13 +247,15 @@
             "type": "Literal",
             "start": 813,
             "end": 814,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 816,
             "end": 861,
-            "value": "Regular symbol as key, added in constructor"
+            "value": "Regular symbol as key, added in constructor",
+            "raw": "'Regular symbol as key, added in constructor'"
           }
         ],
         "optional": false
@@ -293,7 +299,8 @@
             "type": "Literal",
             "start": 878,
             "end": 879,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -337,7 +344,8 @@
             "type": "Literal",
             "start": 895,
             "end": 896,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -408,13 +416,15 @@
             "type": "Literal",
             "start": 930,
             "end": 931,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 974,
-            "value": "Regular symbol as key, added with set()"
+            "value": "Regular symbol as key, added with set()",
+            "raw": "'Regular symbol as key, added with set()'"
           }
         ],
         "optional": false
@@ -485,13 +495,15 @@
             "type": "Literal",
             "start": 1008,
             "end": 1009,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1073,
-            "value": "Symbols with the same description don't overwrite each other"
+            "value": "Symbols with the same description don't overwrite each other",
+            "raw": "\"Symbols with the same description don't overwrite each other\""
           }
         ],
         "optional": false
@@ -548,7 +560,8 @@
             "type": "Literal",
             "start": 1105,
             "end": 1106,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -632,13 +645,15 @@
             "type": "Literal",
             "start": 1155,
             "end": 1156,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1158,
             "end": 1184,
-            "value": "Well-known symbol as key"
+            "value": "Well-known symbol as key",
+            "raw": "'Well-known symbol as key'"
           }
         ],
         "optional": false

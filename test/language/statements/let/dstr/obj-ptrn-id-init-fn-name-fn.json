@@ -169,7 +169,8 @@
             "type": "Literal",
             "start": 1325,
             "end": 1329,
-            "value": "fn"
+            "value": "fn",
+            "raw": "'fn'"
           }
         ],
         "optional": false
@@ -226,7 +227,8 @@
             "type": "Literal",
             "start": 1362,
             "end": 1367,
-            "value": "xFn"
+            "value": "xFn",
+            "raw": "'xFn'"
           }
         ],
         "optional": false

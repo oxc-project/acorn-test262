@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 255,
             "end": 256,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -66,13 +67,15 @@
             "type": "Literal",
             "start": 288,
             "end": 289,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 291,
             "end": 303,
-            "value": "Implements"
+            "value": "Implements",
+            "raw": "'Implements'"
           }
         ],
         "optional": false

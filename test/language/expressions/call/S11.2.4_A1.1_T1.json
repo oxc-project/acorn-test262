@@ -75,7 +75,8 @@
           "type": "Literal",
           "start": 328,
           "end": 329,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -106,7 +107,8 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 431,
-                    "value": "#1: function f_arg() {return arguments;} f_arg().length === 0. Actual: "
+                    "value": "#1: function f_arg() {return arguments;} f_arg().length === 0. Actual: ",
+                    "raw": "'#1: function f_arg() {return arguments;} f_arg().length === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -177,7 +179,8 @@
             "type": "Literal",
             "start": 478,
             "end": 479,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -218,7 +221,8 @@
                     "type": "Literal",
                     "start": 523,
                     "end": 600,
-                    "value": "#2: function f_arg() {return arguments;} f_arg()[0] === undefined. Actual: "
+                    "value": "#2: function f_arg() {return arguments;} f_arg()[0] === undefined. Actual: ",
+                    "raw": "'#2: function f_arg() {return arguments;} f_arg()[0] === undefined. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -246,7 +250,8 @@
                         "type": "Literal",
                         "start": 612,
                         "end": 613,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false

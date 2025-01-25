@@ -28,7 +28,8 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 389,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "property": {
                   "type": "Identifier",
@@ -66,7 +67,8 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 476,
-                    "value": "#1.1: null.toString() throw TypeError. Actual: "
+                    "value": "#1.1: null.toString() throw TypeError. Actual: ",
+                    "raw": "'#1.1: null.toString() throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -85,7 +87,8 @@
                           "type": "Literal",
                           "start": 480,
                           "end": 484,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         },
                         "property": {
                           "type": "Identifier",
@@ -157,7 +160,8 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 554,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -188,7 +192,8 @@
                             "type": "Literal",
                             "start": 585,
                             "end": 634,
-                            "value": "#1.2: null.toString() throw TypeError. Actual: "
+                            "value": "#1.2: null.toString() throw TypeError. Actual: ",
+                            "raw": "'#1.2: null.toString() throw TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {
@@ -240,13 +245,15 @@
                   "type": "Literal",
                   "start": 672,
                   "end": 676,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "property": {
                   "type": "Literal",
                   "start": 677,
                   "end": 687,
-                  "value": "toString"
+                  "value": "toString",
+                  "raw": "\"toString\""
                 },
                 "computed": true,
                 "optional": false
@@ -278,7 +285,8 @@
                     "type": "Literal",
                     "start": 717,
                     "end": 769,
-                    "value": "#2.1: null[\"toString\"]() throw TypeError. Actual: "
+                    "value": "#2.1: null[\"toString\"]() throw TypeError. Actual: ",
+                    "raw": "'#2.1: null[\"toString\"]() throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -297,13 +305,15 @@
                           "type": "Literal",
                           "start": 773,
                           "end": 777,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         },
                         "property": {
                           "type": "Literal",
                           "start": 778,
                           "end": 788,
-                          "value": "toString"
+                          "value": "toString",
+                          "raw": "\"toString\""
                         },
                         "computed": true,
                         "optional": false
@@ -369,7 +379,8 @@
                   "type": "Literal",
                   "start": 845,
                   "end": 849,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -400,7 +411,8 @@
                             "type": "Literal",
                             "start": 880,
                             "end": 932,
-                            "value": "#2.2: null[\"toString\"]() throw TypeError. Actual: "
+                            "value": "#2.2: null[\"toString\"]() throw TypeError. Actual: ",
+                            "raw": "'#2.2: null[\"toString\"]() throw TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

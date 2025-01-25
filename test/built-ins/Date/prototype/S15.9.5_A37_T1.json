@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 374,
-                "value": "setUTCDate"
+                "value": "setUTCDate",
+                "raw": "\"setUTCDate\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 379,
             "end": 383,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 449,
-            "value": "Date.prototype.hasOwnProperty(\"setUTCDate\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"setUTCDate\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"setUTCDate\") must return true'"
           }
         ],
         "optional": false

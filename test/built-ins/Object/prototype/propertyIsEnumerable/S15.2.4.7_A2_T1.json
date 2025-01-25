@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 671,
             "end": 681,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 685,
             "end": 775,
-            "value": "The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\""
+            "value": "The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"",
+            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -148,7 +150,8 @@
                   "type": "Literal",
                   "start": 829,
                   "end": 851,
-                  "value": "propertyIsEnumerable"
+                  "value": "propertyIsEnumerable",
+                  "raw": "\"propertyIsEnumerable\""
                 }
               ],
               "optional": false
@@ -158,7 +161,8 @@
             "type": "Literal",
             "start": 856,
             "end": 956,
-            "value": "The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true"
+            "value": "The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true",
+            "raw": "'The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true'"
           }
         ],
         "optional": false

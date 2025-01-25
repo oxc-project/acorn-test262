@@ -207,7 +207,8 @@
                       "type": "Literal",
                       "start": 1097,
                       "end": 1119,
-                      "value": "(0, function* () {})"
+                      "value": "(0, function* () {})",
+                      "raw": "'(0, function* () {})'"
                     }
                   ],
                   "optional": false
@@ -304,7 +305,8 @@
           "type": "Literal",
           "start": 1180,
           "end": 1184,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },

@@ -19,14 +19,16 @@
             "type": "Literal",
             "start": 442,
             "end": 443,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "operator": ">=",
           "right": {
             "type": "Literal",
             "start": 447,
             "end": 448,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "operator": "!==",
@@ -34,7 +36,8 @@
           "type": "Literal",
           "start": 453,
           "end": 457,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -61,7 +64,8 @@
                   "type": "Literal",
                   "start": 486,
                   "end": 507,
-                  "value": "#1: 1 >= 1 === true"
+                  "value": "#1: 1 >= 1 === true",
+                  "raw": "'#1: 1 >= 1 === true'"
                 }
               ]
             }
@@ -97,7 +101,8 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -106,7 +111,8 @@
             "type": "Literal",
             "start": 544,
             "end": 545,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
         "operator": "!==",
@@ -114,7 +120,8 @@
           "type": "Literal",
           "start": 550,
           "end": 554,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -141,7 +148,8 @@
                   "type": "Literal",
                   "start": 583,
                   "end": 616,
-                  "value": "#2: new Number(1) >= 1 === true"
+                  "value": "#2: new Number(1) >= 1 === true",
+                  "raw": "'#2: new Number(1) >= 1 === true'"
                 }
               ]
             }
@@ -166,7 +174,8 @@
             "type": "Literal",
             "start": 636,
             "end": 637,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "operator": ">=",
           "right": {
@@ -184,7 +193,8 @@
                 "type": "Literal",
                 "start": 652,
                 "end": 653,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -194,7 +204,8 @@
           "type": "Literal",
           "start": 659,
           "end": 663,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -221,7 +232,8 @@
                   "type": "Literal",
                   "start": 692,
                   "end": 725,
-                  "value": "#3: 1 >= new Number(1) === true"
+                  "value": "#3: 1 >= new Number(1) === true",
+                  "raw": "'#3: 1 >= new Number(1) === true'"
                 }
               ]
             }
@@ -257,7 +269,8 @@
                 "type": "Literal",
                 "start": 756,
                 "end": 757,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -277,7 +290,8 @@
                 "type": "Literal",
                 "start": 773,
                 "end": 774,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -287,7 +301,8 @@
           "type": "Literal",
           "start": 780,
           "end": 784,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -314,7 +329,8 @@
                   "type": "Literal",
                   "start": 813,
                   "end": 858,
-                  "value": "#4: new Number(1) >= new Number(1) === true"
+                  "value": "#4: new Number(1) >= new Number(1) === true",
+                  "raw": "'#4: new Number(1) >= new Number(1) === true'"
                 }
               ]
             }

@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 757,
             "end": 762,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Function.prototype.call) must return false"
+            "value": "isConstructor(Function.prototype.call) must return false",
+            "raw": "'isConstructor(Function.prototype.call) must return false'"
           }
         ],
         "optional": false
@@ -412,7 +414,8 @@
             "type": "Literal",
             "start": 1053,
             "end": 1084,
-            "value": "`new call()` throws TypeError"
+            "value": "`new call()` throws TypeError",
+            "raw": "'`new call()` throws TypeError'"
           }
         ],
         "optional": false

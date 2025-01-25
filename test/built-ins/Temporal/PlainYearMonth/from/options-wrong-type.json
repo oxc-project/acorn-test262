@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 311,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 319,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 336,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 353,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 359,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -210,7 +215,8 @@
                               "type": "Literal",
                               "start": 469,
                               "end": 473,
-                              "value": 2021
+                              "value": 2021,
+                              "raw": "2021"
                             },
                             "kind": "init"
                           },
@@ -231,7 +237,8 @@
                               "type": "Literal",
                               "start": 486,
                               "end": 491,
-                              "value": "M01"
+                              "value": "M01",
+                              "raw": "\"M01\""
                             },
                             "kind": "init"
                           }
@@ -401,13 +408,15 @@
                             "type": "Literal",
                             "start": 649,
                             "end": 653,
-                            "value": 2021
+                            "value": 2021,
+                            "raw": "2021"
                           },
                           {
                             "type": "Literal",
                             "start": 655,
                             "end": 656,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       },
@@ -425,7 +434,8 @@
                   "type": "Literal",
                   "start": 671,
                   "end": 728,
-                  "value": "TypeError thrown before cloning PlainYearMonth instance"
+                  "value": "TypeError thrown before cloning PlainYearMonth instance",
+                  "raw": "\"TypeError thrown before cloning PlainYearMonth instance\""
                 }
               ],
               "optional": false
@@ -515,7 +525,8 @@
                         "type": "Literal",
                         "start": 794,
                         "end": 807,
-                        "value": "1976-11-18Z"
+                        "value": "1976-11-18Z",
+                        "raw": "\"1976-11-18Z\""
                       },
                       {
                         "type": "Identifier",
@@ -531,7 +542,8 @@
                   "type": "Literal",
                   "start": 821,
                   "end": 880,
-                  "value": "Invalid string string processed before throwing TypeError"
+                  "value": "Invalid string string processed before throwing TypeError",
+                  "raw": "\"Invalid string string processed before throwing TypeError\""
                 }
               ],
               "optional": false

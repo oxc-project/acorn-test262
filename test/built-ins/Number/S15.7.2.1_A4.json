@@ -136,13 +136,15 @@
             "type": "Literal",
             "start": 399,
             "end": 416,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 464,
-            "value": "obj.toString() must return \"[object Number]\""
+            "value": "obj.toString() must return \"[object Number]\"",
+            "raw": "'obj.toString() must return \"[object Number]\"'"
           }
         ],
         "optional": false

@@ -52,14 +52,16 @@
                   "type": "Literal",
                   "start": 714,
                   "end": 735,
-                  "value": "13849764999999999n"
+                  "value": "13849764999999999n",
+                  "raw": "13849764_999_999_999n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 737,
                 "end": 742,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -128,7 +130,8 @@
                       "type": "Literal",
                       "start": 941,
                       "end": 954,
-                      "value": "millisecond"
+                      "value": "millisecond",
+                      "raw": "\"millisecond\""
                     },
                     "kind": "init"
                   }
@@ -198,7 +201,8 @@
               "type": "Literal",
               "start": 1002,
               "end": 1023,
-              "value": "13849765000000000n"
+              "value": "13849765000000000n",
+              "raw": "13849765_000_000_000n"
             }
           }
         ],

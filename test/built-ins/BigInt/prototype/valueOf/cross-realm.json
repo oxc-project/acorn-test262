@@ -128,7 +128,8 @@
                     "type": "Literal",
                     "start": 351,
                     "end": 352,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ],
                 "optional": false
@@ -231,13 +232,15 @@
             "type": "Literal",
             "start": 414,
             "end": 416,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0n"
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 456,
-            "value": "cross-realm valueOf"
+            "value": "cross-realm valueOf",
+            "raw": "\"cross-realm valueOf\""
           }
         ],
         "optional": false

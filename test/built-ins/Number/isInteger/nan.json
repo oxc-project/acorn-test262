@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 285,
             "end": 290,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 315,
-            "value": "Number.isInteger(NaN)"
+            "value": "Number.isInteger(NaN)",
+            "raw": "'Number.isInteger(NaN)'"
           }
         ],
         "optional": false

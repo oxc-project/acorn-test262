@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 308,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 311,
             "end": 356,
-            "value": "Date.hasOwnProperty(\"UTC\") must return true"
+            "value": "Date.hasOwnProperty(\"UTC\") must return true",
+            "raw": "'Date.hasOwnProperty(\"UTC\") must return true'"
           }
         ],
         "optional": false

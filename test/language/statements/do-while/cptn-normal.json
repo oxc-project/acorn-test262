@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 829,
                 "end": 854,
-                "value": "1; do { } while (false)"
+                "value": "1; do { } while (false)",
+                "raw": "'1; do { } while (false)'"
               }
             ],
             "optional": false
@@ -104,7 +105,8 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 919,
-                "value": "2; do { 3; } while (false)"
+                "value": "2; do { 3; } while (false)",
+                "raw": "'2; do { 3; } while (false)'"
               }
             ],
             "optional": false
@@ -113,7 +115,8 @@
             "type": "Literal",
             "start": 922,
             "end": 923,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false

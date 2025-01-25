@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 308,
-                "value": "this;"
+                "value": "this;",
+                "raw": "'this;'"
               }
             ],
             "optional": false

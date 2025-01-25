@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 275,
             "end": 280,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 337,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -108,7 +110,8 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 356,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           }
@@ -146,13 +149,15 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 376,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 378,
                   "end": 380,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -179,7 +184,8 @@
                     "type": "Literal",
                     "start": 393,
                     "end": 394,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 },
                 "kind": "init"
@@ -287,13 +293,15 @@
             "type": "Literal",
             "start": 460,
             "end": 465,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 511,
-            "value": "Array.prototype.some.call(obj, callbackfn)"
+            "value": "Array.prototype.some.call(obj, callbackfn)",
+            "raw": "'Array.prototype.some.call(obj, callbackfn)'"
           }
         ],
         "optional": false
@@ -337,13 +345,15 @@
             "type": "Literal",
             "start": 541,
             "end": 546,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 558,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

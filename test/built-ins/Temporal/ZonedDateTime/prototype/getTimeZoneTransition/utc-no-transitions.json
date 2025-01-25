@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 326,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -116,7 +118,8 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 378,
-                "value": "next"
+                "value": "next",
+                "raw": "\"next\""
               }
             ],
             "optional": false
@@ -125,13 +128,15 @@
             "type": "Literal",
             "start": 381,
             "end": 385,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 429,
-            "value": "The UTC time zone has no next transition"
+            "value": "The UTC time zone has no next transition",
+            "raw": "\"The UTC time zone has no next transition\""
           }
         ],
         "optional": false
@@ -193,7 +198,8 @@
                 "type": "Literal",
                 "start": 475,
                 "end": 485,
-                "value": "previous"
+                "value": "previous",
+                "raw": "\"previous\""
               }
             ],
             "optional": false
@@ -202,13 +208,15 @@
             "type": "Literal",
             "start": 488,
             "end": 492,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 540,
-            "value": "The UTC time zone has no previous transition"
+            "value": "The UTC time zone has no previous transition",
+            "raw": "\"The UTC time zone has no previous transition\""
           }
         ],
         "optional": false

@@ -42,7 +42,8 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -58,7 +59,8 @@
             "type": "Literal",
             "start": 503,
             "end": 521,
-            "value": "class outside {}"
+            "value": "class outside {}",
+            "raw": "'class outside {}'"
           }
         ],
         "optional": false
@@ -85,7 +87,8 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 526,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -101,7 +104,8 @@
             "type": "Literal",
             "start": 533,
             "end": 565,
-            "value": "\"use strict\"; class outside {}"
+            "value": "\"use strict\"; class outside {}",
+            "raw": "'\"use strict\"; class outside {}'"
           }
         ],
         "optional": false
@@ -128,7 +132,8 @@
                 "type": "Literal",
                 "start": 570,
                 "end": 571,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -144,7 +149,8 @@
             "type": "Literal",
             "start": 578,
             "end": 599,
-            "value": "class xNonStrict {}"
+            "value": "class xNonStrict {}",
+            "raw": "'class xNonStrict {}'"
           }
         ],
         "optional": false
@@ -195,7 +201,8 @@
             "type": "Literal",
             "start": 639,
             "end": 650,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false
@@ -288,7 +295,8 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 717,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -304,7 +312,8 @@
             "type": "Literal",
             "start": 724,
             "end": 756,
-            "value": "\"use strict\"; class xStrict {}"
+            "value": "\"use strict\"; class xStrict {}",
+            "raw": "'\"use strict\"; class xStrict {}'"
           }
         ],
         "optional": false
@@ -355,7 +364,8 @@
             "type": "Literal",
             "start": 793,
             "end": 804,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false

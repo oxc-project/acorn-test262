@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 318,
-                "value": "+275760-09"
+                "value": "+275760-09",
+                "raw": "\"+275760-09\""
               }
             ],
             "optional": false
@@ -102,13 +103,15 @@
             "type": "Literal",
             "start": 345,
             "end": 353,
-            "value": "reject"
+            "value": "reject",
+            "raw": "\"reject\""
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 366,
-            "value": "constrain"
+            "value": "constrain",
+            "raw": "\"constrain\""
           }
         ]
       },
@@ -206,7 +209,8 @@
                               "type": "Literal",
                               "start": 423,
                               "end": 424,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }

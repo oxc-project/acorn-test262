@@ -156,7 +156,8 @@
                             "type": "Literal",
                             "start": 391,
                             "end": 456,
-                            "value": "The value of result is expected to not equal the value of `arg`"
+                            "value": "The value of result is expected to not equal the value of `arg`",
+                            "raw": "'The value of result is expected to not equal the value of `arg`'"
                           }
                         ],
                         "optional": false

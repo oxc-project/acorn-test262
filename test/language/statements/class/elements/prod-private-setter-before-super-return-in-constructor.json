@@ -162,7 +162,8 @@
                         "type": "Literal",
                         "start": 1370,
                         "end": 1372,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     }
                   }
@@ -266,7 +267,8 @@
                 "type": "Literal",
                 "start": 1432,
                 "end": 1435,
-                "value": "f"
+                "value": "f",
+                "raw": "'f'"
               }
             ],
             "optional": false
@@ -361,7 +363,8 @@
             "type": "Literal",
             "start": 1501,
             "end": 1557,
-            "value": "private setters are not installed before super returns"
+            "value": "private setters are not installed before super returns",
+            "raw": "'private setters are not installed before super returns'"
           }
         ],
         "optional": false

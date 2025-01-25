@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 343,
-                "value": "-000000-10-31T17:45Z"
+                "value": "-000000-10-31T17:45Z",
+                "raw": "\"-000000-10-31T17:45Z\""
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 379,
-                "value": "-000000-10-31T17:45+00:00[UTC]"
+                "value": "-000000-10-31T17:45+00:00[UTC]",
+                "raw": "\"-000000-10-31T17:45+00:00[UTC]\""
               }
             ]
           }
@@ -84,19 +86,22 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 428,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -234,7 +239,8 @@
                         "type": "Literal",
                         "start": 559,
                         "end": 595,
-                        "value": "reject minus zero as extended year"
+                        "value": "reject minus zero as extended year",
+                        "raw": "\"reject minus zero as extended year\""
                       }
                     ],
                     "optional": false

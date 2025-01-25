@@ -54,7 +54,8 @@
                   "type": "Literal",
                   "start": 303,
                   "end": 308,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               }
             ],
@@ -123,7 +124,8 @@
                         "type": "Literal",
                         "start": 375,
                         "end": 379,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   },
@@ -364,7 +366,8 @@
             "type": "Literal",
             "start": 612,
             "end": 652,
-            "value": "Actual argument shouldn't be nullish. "
+            "value": "Actual argument shouldn't be nullish. ",
+            "raw": "\"Actual argument shouldn't be nullish. \""
           }
         ],
         "optional": false
@@ -422,7 +425,8 @@
                   "type": "Literal",
                   "start": 694,
                   "end": 698,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "ArrayExpression",
@@ -438,7 +442,8 @@
             "type": "Literal",
             "start": 705,
             "end": 745,
-            "value": "Actual argument shouldn't be nullish. "
+            "value": "Actual argument shouldn't be nullish. ",
+            "raw": "\"Actual argument shouldn't be nullish. \""
           }
         ],
         "optional": false
@@ -496,7 +501,8 @@
                   "type": "Literal",
                   "start": 787,
                   "end": 791,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "ArrayExpression",
@@ -508,7 +514,8 @@
                   "type": "Literal",
                   "start": 797,
                   "end": 802,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               ],
               "optional": false
@@ -518,7 +525,8 @@
             "type": "Literal",
             "start": 805,
             "end": 848,
-            "value": "Actual argument shouldn't be nullish. foo"
+            "value": "Actual argument shouldn't be nullish. foo",
+            "raw": "\"Actual argument shouldn't be nullish. foo\""
           }
         ],
         "optional": false
@@ -586,7 +594,8 @@
             "type": "Literal",
             "start": 896,
             "end": 938,
-            "value": "Expected argument shouldn't be nullish. "
+            "value": "Expected argument shouldn't be nullish. ",
+            "raw": "\"Expected argument shouldn't be nullish. \""
           }
         ],
         "optional": false
@@ -656,7 +665,8 @@
                   "type": "Literal",
                   "start": 995,
                   "end": 1000,
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               ],
               "optional": false
@@ -666,7 +676,8 @@
             "type": "Literal",
             "start": 1003,
             "end": 1048,
-            "value": "Expected argument shouldn't be nullish. foo"
+            "value": "Expected argument shouldn't be nullish. foo",
+            "raw": "\"Expected argument shouldn't be nullish. foo\""
           }
         ],
         "optional": false

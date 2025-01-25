@@ -319,7 +319,8 @@
                         "type": "Literal",
                         "start": 911,
                         "end": 932,
-                        "value": "abrupt from valueOf"
+                        "value": "abrupt from valueOf",
+                        "raw": "\"abrupt from valueOf\""
                       }
                     ],
                     "optional": false
@@ -424,7 +425,8 @@
                         "type": "Literal",
                         "start": 1010,
                         "end": 1032,
-                        "value": "abrupt from toString"
+                        "value": "abrupt from toString",
+                        "raw": "\"abrupt from toString\""
                       }
                     ],
                     "optional": false

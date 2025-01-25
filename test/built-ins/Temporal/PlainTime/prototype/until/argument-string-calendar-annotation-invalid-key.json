@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 283,
                     "end": 304,
-                    "value": "00:00[U-CA=iso8601]"
+                    "value": "00:00[U-CA=iso8601]",
+                    "raw": "\"00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 306,
                     "end": 342,
-                    "value": "invalid capitalized key, time-only"
+                    "value": "invalid capitalized key, time-only",
+                    "raw": "\"invalid capitalized key, time-only\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 370,
-                    "value": "T00:00[U-CA=iso8601]"
+                    "value": "T00:00[U-CA=iso8601]",
+                    "raw": "\"T00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 414,
-                    "value": "invalid capitalized key, time designator"
+                    "value": "invalid capitalized key, time designator",
+                    "raw": "\"invalid capitalized key, time designator\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 452,
-                    "value": "1970-01-01T00:00[U-CA=iso8601]"
+                    "value": "1970-01-01T00:00[U-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 454,
                     "end": 479,
-                    "value": "invalid capitalized key"
+                    "value": "invalid capitalized key",
+                    "raw": "\"invalid capitalized key\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 485,
                     "end": 506,
-                    "value": "00:00[u-CA=iso8601]"
+                    "value": "00:00[u-CA=iso8601]",
+                    "raw": "\"00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 508,
                     "end": 554,
-                    "value": "invalid partially-capitalized key, time-only"
+                    "value": "invalid partially-capitalized key, time-only",
+                    "raw": "\"invalid partially-capitalized key, time-only\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 582,
-                    "value": "T00:00[u-CA=iso8601]"
+                    "value": "T00:00[u-CA=iso8601]",
+                    "raw": "\"T00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 584,
                     "end": 636,
-                    "value": "invalid partially-capitalized key, time designator"
+                    "value": "invalid partially-capitalized key, time designator",
+                    "raw": "\"invalid partially-capitalized key, time designator\""
                   }
                 ]
               },
@@ -127,13 +137,15 @@
                     "type": "Literal",
                     "start": 642,
                     "end": 674,
-                    "value": "1970-01-01T00:00[u-CA=iso8601]"
+                    "value": "1970-01-01T00:00[u-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 676,
                     "end": 711,
-                    "value": "invalid partially-capitalized key"
+                    "value": "invalid partially-capitalized key",
+                    "raw": "\"invalid partially-capitalized key\""
                   }
                 ]
               },
@@ -146,13 +158,15 @@
                     "type": "Literal",
                     "start": 717,
                     "end": 733,
-                    "value": "00:00[FOO=bar]"
+                    "value": "00:00[FOO=bar]",
+                    "raw": "\"00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 735,
                     "end": 784,
-                    "value": "invalid capitalized unrecognized key, time-only"
+                    "value": "invalid capitalized unrecognized key, time-only",
+                    "raw": "\"invalid capitalized unrecognized key, time-only\""
                   }
                 ]
               },
@@ -165,13 +179,15 @@
                     "type": "Literal",
                     "start": 790,
                     "end": 807,
-                    "value": "T00:00[FOO=bar]"
+                    "value": "T00:00[FOO=bar]",
+                    "raw": "\"T00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 809,
                     "end": 864,
-                    "value": "invalid capitalized unrecognized key, time designator"
+                    "value": "invalid capitalized unrecognized key, time designator",
+                    "raw": "\"invalid capitalized unrecognized key, time designator\""
                   }
                 ]
               },
@@ -184,13 +200,15 @@
                     "type": "Literal",
                     "start": 870,
                     "end": 897,
-                    "value": "1970-01-01T00:00[FOO=bar]"
+                    "value": "1970-01-01T00:00[FOO=bar]",
+                    "raw": "\"1970-01-01T00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 899,
                     "end": 937,
-                    "value": "invalid capitalized unrecognized key"
+                    "value": "invalid capitalized unrecognized key",
+                    "raw": "\"invalid capitalized unrecognized key\""
                   }
                 ]
               }
@@ -243,37 +261,43 @@
                 "type": "Literal",
                 "start": 983,
                 "end": 985,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               },
               {
                 "type": "Literal",
                 "start": 987,
                 "end": 989,
-                "value": 34
+                "value": 34,
+                "raw": "34"
               },
               {
                 "type": "Literal",
                 "start": 991,
                 "end": 993,
-                "value": 56
+                "value": 56,
+                "raw": "56"
               },
               {
                 "type": "Literal",
                 "start": 995,
                 "end": 998,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 1000,
                 "end": 1003,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 1005,
                 "end": 1008,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }

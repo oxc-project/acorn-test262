@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 984,
             "end": 993,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -106,7 +107,8 @@
               "type": "Literal",
               "start": 1044,
               "end": 1045,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "kind": "init"
           },
@@ -127,7 +129,8 @@
               "type": "Literal",
               "start": 1050,
               "end": 1051,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "kind": "init"
           }
@@ -341,7 +344,8 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1385,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               }
             },
             "operator": "||",
@@ -367,7 +371,8 @@
                 "type": "Literal",
                 "start": 1406,
                 "end": 1409,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               }
             }
           },
@@ -375,7 +380,8 @@
             "type": "Literal",
             "start": 1413,
             "end": 1449,
-            "value": "First binding is either \"a\" or \"b\""
+            "value": "First binding is either \"a\" or \"b\"",
+            "raw": "'First binding is either \"a\" or \"b\"'"
           }
         ],
         "optional": false
@@ -422,7 +428,8 @@
                 "type": "Literal",
                 "start": 1481,
                 "end": 1484,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               }
             },
             "operator": "||",
@@ -448,7 +455,8 @@
                 "type": "Literal",
                 "start": 1506,
                 "end": 1509,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               }
             }
           },
@@ -456,7 +464,8 @@
             "type": "Literal",
             "start": 1513,
             "end": 1550,
-            "value": "Second binding is either \"a\" or \"b\""
+            "value": "Second binding is either \"a\" or \"b\"",
+            "raw": "'Second binding is either \"a\" or \"b\"'"
           }
         ],
         "optional": false

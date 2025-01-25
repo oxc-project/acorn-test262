@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 784,
             "end": 788,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 790,
             "end": 837,
-            "value": "isConstructor(BigInt64Array) must return true"
+            "value": "isConstructor(BigInt64Array) must return true",
+            "raw": "'isConstructor(BigInt64Array) must return true'"
           }
         ],
         "optional": false

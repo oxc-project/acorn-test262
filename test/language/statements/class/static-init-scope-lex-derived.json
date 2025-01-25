@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 716,
+  "end": 714,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 633,
-      "end": 643,
+      "start": 631,
+      "end": 641,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 637,
-          "end": 642,
+          "start": 635,
+          "end": 640,
           "id": {
             "type": "Identifier",
-            "start": 637,
-            "end": 642,
+            "start": 635,
+            "end": 640,
             "name": "probe"
           },
           "init": null
@@ -25,44 +25,44 @@
     },
     {
       "type": "ClassDeclaration",
-      "start": 645,
-      "end": 686,
+      "start": 643,
+      "end": 684,
       "id": {
         "type": "Identifier",
-        "start": 651,
-        "end": 652,
+        "start": 649,
+        "end": 650,
         "name": "C"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 653,
-        "end": 686,
+        "start": 651,
+        "end": 684,
         "body": [
           {
             "type": "StaticBlock",
-            "start": 657,
-            "end": 684,
+            "start": 655,
+            "end": 682,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 670,
-                "end": 680,
+                "start": 668,
+                "end": 678,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 670,
-                  "end": 679,
+                  "start": 668,
+                  "end": 677,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 670,
-                    "end": 675,
+                    "start": 668,
+                    "end": 673,
                     "name": "probe"
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 678,
-                    "end": 679,
+                    "start": 676,
+                    "end": 677,
                     "name": "C"
                   }
                 }
@@ -74,26 +74,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 688,
-      "end": 715,
+      "start": 686,
+      "end": 713,
       "expression": {
         "type": "CallExpression",
-        "start": 688,
-        "end": 714,
+        "start": 686,
+        "end": 712,
         "callee": {
           "type": "MemberExpression",
-          "start": 688,
-          "end": 704,
+          "start": 686,
+          "end": 702,
           "object": {
             "type": "Identifier",
-            "start": 688,
-            "end": 694,
+            "start": 686,
+            "end": 692,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 695,
-            "end": 704,
+            "start": 693,
+            "end": 702,
             "name": "sameValue"
           },
           "computed": false,
@@ -102,14 +102,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 705,
-            "end": 710,
+            "start": 703,
+            "end": 708,
             "name": "probe"
           },
           {
             "type": "Identifier",
-            "start": 712,
-            "end": 713,
+            "start": 710,
+            "end": 711,
             "name": "C"
           }
         ],

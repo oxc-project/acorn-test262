@@ -44,6 +44,7 @@
                 "start": 319,
                 "end": 336,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 347,
-                "value": "bab"
+                "value": "bab",
+                "raw": "\"bab\""
               }
             ],
             "optional": false
@@ -77,7 +79,8 @@
                 "type": "Literal",
                 "start": 351,
                 "end": 354,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Identifier",
@@ -89,7 +92,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 370,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ]
           }
@@ -138,6 +142,7 @@
                 "start": 394,
                 "end": 411,
                 "value": null,
+                "raw": "/(?<x>b)|(?<x>a)/",
                 "regex": {
                   "pattern": "(?<x>b)|(?<x>a)",
                   "flags": ""
@@ -157,7 +162,8 @@
                 "type": "Literal",
                 "start": 417,
                 "end": 422,
-                "value": "bab"
+                "value": "bab",
+                "raw": "\"bab\""
               }
             ],
             "optional": false
@@ -171,13 +177,15 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 429,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 434,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Identifier",
@@ -232,6 +240,7 @@
                 "start": 470,
                 "end": 496,
                 "value": null,
+                "raw": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
@@ -251,7 +260,8 @@
                 "type": "Literal",
                 "start": 502,
                 "end": 506,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               }
             ],
             "optional": false
@@ -265,13 +275,15 @@
                 "type": "Literal",
                 "start": 510,
                 "end": 514,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 519,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Identifier",
@@ -326,6 +338,7 @@
                 "start": 554,
                 "end": 580,
                 "value": null,
+                "raw": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
@@ -345,7 +358,8 @@
                 "type": "Literal",
                 "start": 586,
                 "end": 590,
-                "value": "bb"
+                "value": "bb",
+                "raw": "\"bb\""
               }
             ],
             "optional": false
@@ -359,7 +373,8 @@
                 "type": "Literal",
                 "start": 594,
                 "end": 598,
-                "value": "bb"
+                "value": "bb",
+                "raw": "\"bb\""
               },
               {
                 "type": "Identifier",
@@ -371,7 +386,8 @@
                 "type": "Literal",
                 "start": 611,
                 "end": 614,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ]
           }
@@ -407,6 +423,7 @@
                 "start": 637,
                 "end": 670,
                 "value": null,
+                "raw": "/(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}/",
                 "regex": {
                   "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
                   "flags": ""
@@ -426,7 +443,8 @@
                 "type": "Literal",
                 "start": 676,
                 "end": 682,
-                "value": "aabb"
+                "value": "aabb",
+                "raw": "\"aabb\""
               }
             ],
             "optional": false
@@ -478,7 +496,8 @@
                 "type": "Literal",
                 "start": 719,
                 "end": 725,
-                "value": "aabb"
+                "value": "aabb",
+                "raw": "\"aabb\""
               },
               {
                 "type": "Identifier",
@@ -490,7 +509,8 @@
                 "type": "Literal",
                 "start": 738,
                 "end": 741,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ]
           }
@@ -562,7 +582,8 @@
             "type": "Literal",
             "start": 784,
             "end": 787,
-            "value": "b"
+            "value": "b",
+            "raw": "\"b\""
           }
         ],
         "optional": false
@@ -609,6 +630,7 @@
                 "start": 808,
                 "end": 841,
                 "value": null,
+                "raw": "/(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}/",
                 "regex": {
                   "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
                   "flags": ""
@@ -628,7 +650,8 @@
                 "type": "Literal",
                 "start": 847,
                 "end": 853,
-                "value": "abab"
+                "value": "abab",
+                "raw": "\"abab\""
               }
             ],
             "optional": false
@@ -637,7 +660,8 @@
             "type": "Literal",
             "start": 856,
             "end": 860,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -684,6 +708,7 @@
                 "start": 881,
                 "end": 907,
                 "value": null,
+                "raw": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
@@ -703,7 +728,8 @@
                 "type": "Literal",
                 "start": 913,
                 "end": 919,
-                "value": "abab"
+                "value": "abab",
+                "raw": "\"abab\""
               }
             ],
             "optional": false
@@ -712,7 +738,8 @@
             "type": "Literal",
             "start": 922,
             "end": 926,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -759,6 +786,7 @@
                 "start": 947,
                 "end": 973,
                 "value": null,
+                "raw": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
@@ -778,7 +806,8 @@
                 "type": "Literal",
                 "start": 979,
                 "end": 985,
-                "value": "cdef"
+                "value": "cdef",
+                "raw": "\"cdef\""
               }
             ],
             "optional": false
@@ -787,7 +816,8 @@
             "type": "Literal",
             "start": 988,
             "end": 992,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -834,6 +864,7 @@
                 "start": 1016,
                 "end": 1046,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
                   "flags": ""
@@ -853,7 +884,8 @@
                 "type": "Literal",
                 "start": 1052,
                 "end": 1056,
-                "value": "xx"
+                "value": "xx",
+                "raw": "\"xx\""
               }
             ],
             "optional": false
@@ -867,13 +899,15 @@
                 "type": "Literal",
                 "start": 1060,
                 "end": 1064,
-                "value": "xx"
+                "value": "xx",
+                "raw": "\"xx\""
               },
               {
                 "type": "Literal",
                 "start": 1066,
                 "end": 1069,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               },
               {
                 "type": "Identifier",
@@ -928,6 +962,7 @@
                 "start": 1104,
                 "end": 1134,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
                   "flags": ""
@@ -947,7 +982,8 @@
                 "type": "Literal",
                 "start": 1140,
                 "end": 1143,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               }
             ],
             "optional": false
@@ -961,7 +997,8 @@
                 "type": "Literal",
                 "start": 1147,
                 "end": 1150,
-                "value": "z"
+                "value": "z",
+                "raw": "\"z\""
               },
               {
                 "type": "Identifier",
@@ -1022,6 +1059,7 @@
                 "start": 1193,
                 "end": 1223,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
                   "flags": ""
@@ -1041,7 +1079,8 @@
                 "type": "Literal",
                 "start": 1229,
                 "end": 1233,
-                "value": "zz"
+                "value": "zz",
+                "raw": "\"zz\""
               }
             ],
             "optional": false
@@ -1050,7 +1089,8 @@
             "type": "Literal",
             "start": 1236,
             "end": 1240,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -1097,6 +1137,7 @@
                 "start": 1263,
                 "end": 1284,
                 "value": {},
+                "raw": "/(?<a>x)|(?:zy\\k<a>)/",
                 "regex": {
                   "pattern": "(?<a>x)|(?:zy\\k<a>)",
                   "flags": ""
@@ -1116,7 +1157,8 @@
                 "type": "Literal",
                 "start": 1290,
                 "end": 1294,
-                "value": "zy"
+                "value": "zy",
+                "raw": "\"zy\""
               }
             ],
             "optional": false
@@ -1130,7 +1172,8 @@
                 "type": "Literal",
                 "start": 1298,
                 "end": 1302,
-                "value": "zy"
+                "value": "zy",
+                "raw": "\"zy\""
               },
               {
                 "type": "Identifier",
@@ -1185,6 +1228,7 @@
                 "start": 1338,
                 "end": 1371,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
                   "flags": ""
@@ -1204,7 +1248,8 @@
                 "type": "Literal",
                 "start": 1377,
                 "end": 1381,
-                "value": "xz"
+                "value": "xz",
+                "raw": "\"xz\""
               }
             ],
             "optional": false
@@ -1218,7 +1263,8 @@
                 "type": "Literal",
                 "start": 1385,
                 "end": 1389,
-                "value": "xz"
+                "value": "xz",
+                "raw": "\"xz\""
               },
               {
                 "type": "Identifier",
@@ -1279,6 +1325,7 @@
                 "start": 1435,
                 "end": 1468,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
                   "flags": ""
@@ -1298,7 +1345,8 @@
                 "type": "Literal",
                 "start": 1474,
                 "end": 1478,
-                "value": "yz"
+                "value": "yz",
+                "raw": "\"yz\""
               }
             ],
             "optional": false
@@ -1312,7 +1360,8 @@
                 "type": "Literal",
                 "start": 1482,
                 "end": 1486,
-                "value": "yz"
+                "value": "yz",
+                "raw": "\"yz\""
               },
               {
                 "type": "Identifier",
@@ -1373,6 +1422,7 @@
                 "start": 1529,
                 "end": 1562,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
                   "flags": ""
@@ -1392,7 +1442,8 @@
                 "type": "Literal",
                 "start": 1568,
                 "end": 1573,
-                "value": "xzx"
+                "value": "xzx",
+                "raw": "\"xzx\""
               }
             ],
             "optional": false
@@ -1401,7 +1452,8 @@
             "type": "Literal",
             "start": 1576,
             "end": 1580,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -1448,6 +1500,7 @@
                 "start": 1600,
                 "end": 1633,
                 "value": null,
+                "raw": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
                 "regex": {
                   "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
                   "flags": ""
@@ -1467,7 +1520,8 @@
                 "type": "Literal",
                 "start": 1639,
                 "end": 1644,
-                "value": "yzy"
+                "value": "yzy",
+                "raw": "\"yzy\""
               }
             ],
             "optional": false
@@ -1476,7 +1530,8 @@
             "type": "Literal",
             "start": 1647,
             "end": 1651,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false

@@ -123,7 +123,8 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 374,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -177,7 +178,8 @@
                       "type": "Literal",
                       "start": 407,
                       "end": 408,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -197,7 +199,8 @@
                 "type": "Literal",
                 "start": 415,
                 "end": 426,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "\"undefined\""
               }
             ],
             "optional": false
@@ -282,7 +285,8 @@
                     "type": "Literal",
                     "start": 590,
                     "end": 765,
-                    "value": "#1: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.length === __expected.length. Actual: "
+                    "value": "#1: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.length === __expected.length. Actual: ",
+                    "raw": "'#1: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.length === __expected.length. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -388,7 +392,8 @@
                     "type": "Literal",
                     "start": 1030,
                     "end": 1203,
-                    "value": "#2: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.index === __expected.index. Actual: "
+                    "value": "#2: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.index === __expected.index. Actual: ",
+                    "raw": "'#2: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.index === __expected.index. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -494,7 +499,8 @@
                     "type": "Literal",
                     "start": 1467,
                     "end": 1640,
-                    "value": "#3: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.input === __expected.input. Actual: "
+                    "value": "#3: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.input === __expected.input. Actual: ",
+                    "raw": "'#3: __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched.input === __expected.input. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -547,7 +553,8 @@
               "type": "Literal",
               "start": 1852,
               "end": 1853,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -702,7 +709,8 @@
                                       "type": "Literal",
                                       "start": 1968,
                                       "end": 1973,
-                                      "value": "#4."
+                                      "value": "#4.",
+                                      "raw": "'#4.'"
                                     },
                                     "operator": "+",
                                     "right": {
@@ -717,7 +725,8 @@
                                     "type": "Literal",
                                     "start": 1984,
                                     "end": 2119,
-                                    "value": ": __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched["
+                                    "value": ": __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched[",
+                                    "raw": "': __obj = {toString:function(){}}; __matched = String(__obj).match(void 0); __expected = RegExp(void 0).exec(\"undefined\"); __matched['"
                                   }
                                 },
                                 "operator": "+",
@@ -733,7 +742,8 @@
                                 "type": "Literal",
                                 "start": 2130,
                                 "end": 2147,
-                                "value": "]===__expected["
+                                "value": "]===__expected[",
+                                "raw": "']===__expected['"
                               }
                             },
                             "operator": "+",
@@ -749,7 +759,8 @@
                             "type": "Literal",
                             "start": 2158,
                             "end": 2171,
-                            "value": "]. Actual: "
+                            "value": "]. Actual: ",
+                            "raw": "']. Actual: '"
                           }
                         },
                         "operator": "+",

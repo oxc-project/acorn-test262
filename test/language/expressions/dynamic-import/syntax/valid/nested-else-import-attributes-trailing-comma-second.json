@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1290,
         "end": 1295,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -36,7 +37,8 @@
                 "type": "Literal",
                 "start": 1318,
                 "end": 1338,
-                "value": "./empty_FIXTURE.js"
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'"
               },
               "options": {
                 "type": "ObjectExpression",

@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 740,
             "end": 745,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 796,
-            "value": "isConstructor(JSON.isRawJSON) must return false"
+            "value": "isConstructor(JSON.isRawJSON) must return false",
+            "raw": "'isConstructor(JSON.isRawJSON) must return false'"
           }
         ],
         "optional": false

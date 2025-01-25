@@ -81,7 +81,8 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 600,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               "property": {
                 "type": "MemberExpression",
@@ -229,7 +230,8 @@
             "type": "Literal",
             "start": 714,
             "end": 740,
-            "value": "[object String Iterator]"
+            "value": "[object String Iterator]",
+            "raw": "'[object String Iterator]'"
           }
         ],
         "optional": false
@@ -310,7 +312,8 @@
                   "type": "Literal",
                   "start": 818,
                   "end": 822,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -360,7 +363,8 @@
                               "type": "Literal",
                               "start": 862,
                               "end": 884,
-                              "value": "ShouldNotBeUnwrapped"
+                              "value": "ShouldNotBeUnwrapped",
+                              "raw": "'ShouldNotBeUnwrapped'"
                             }
                           ]
                         }
@@ -441,7 +445,8 @@
             "type": "Literal",
             "start": 935,
             "end": 952,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false
@@ -556,7 +561,8 @@
             "type": "Literal",
             "start": 1038,
             "end": 1057,
-            "value": "[object Iterator]"
+            "value": "[object Iterator]",
+            "raw": "'[object Iterator]'"
           }
         ],
         "optional": false

@@ -100,7 +100,8 @@
             "type": "Literal",
             "start": 287,
             "end": 361,
-            "value": "Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY"
+            "value": "Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY",
+            "raw": "\"Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -203,7 +204,8 @@
             "type": "Literal",
             "start": 447,
             "end": 521,
-            "value": "Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY"
+            "value": "Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -245,7 +247,8 @@
               "type": "Literal",
               "start": 541,
               "end": 542,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -282,7 +285,8 @@
                     "type": "Literal",
                     "start": 557,
                     "end": 558,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -312,7 +316,8 @@
             "type": "Literal",
             "start": 589,
             "end": 626,
-            "value": "Math.trunc should produce -0 for -0"
+            "value": "Math.trunc should produce -0 for -0",
+            "raw": "\"Math.trunc should produce -0 for -0\""
           }
         ],
         "optional": false
@@ -354,7 +359,8 @@
               "type": "Literal",
               "start": 646,
               "end": 647,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -385,7 +391,8 @@
                   "type": "Literal",
                   "start": 661,
                   "end": 662,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ],
               "optional": false
@@ -414,7 +421,8 @@
             "type": "Literal",
             "start": 693,
             "end": 730,
-            "value": "Math.trunc should produce +0 for +0"
+            "value": "Math.trunc should produce +0 for +0",
+            "raw": "\"Math.trunc should produce +0 for +0\""
           }
         ],
         "optional": false

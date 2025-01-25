@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 343,
                   "end": 345,
-                  "value": 15
+                  "value": 15,
+                  "raw": "15"
                 },
                 "kind": "init"
               },
@@ -61,7 +62,8 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 357,
-                  "value": 30
+                  "value": 30,
+                  "raw": "30"
                 },
                 "kind": "init"
               },
@@ -82,7 +84,8 @@
                   "type": "Literal",
                   "start": 367,
                   "end": 369,
-                  "value": 45
+                  "value": 45,
+                  "raw": "45"
                 },
                 "kind": "init"
               },
@@ -103,7 +106,8 @@
                   "type": "Literal",
                   "start": 384,
                   "end": 387,
-                  "value": 987
+                  "value": 987,
+                  "raw": "987"
                 },
                 "kind": "init"
               },
@@ -124,7 +128,8 @@
                   "type": "Literal",
                   "start": 402,
                   "end": 405,
-                  "value": 654
+                  "value": 654,
+                  "raw": "654"
                 },
                 "kind": "init"
               },
@@ -145,7 +150,8 @@
                   "type": "Literal",
                   "start": 419,
                   "end": 422,
-                  "value": 321
+                  "value": 321,
+                  "raw": "321"
                 },
                 "kind": "init"
               }
@@ -245,37 +251,43 @@
                             "type": "Literal",
                             "start": 471,
                             "end": 477,
-                            "value": "hour"
+                            "value": "hour",
+                            "raw": "\"hour\""
                           },
                           {
                             "type": "Literal",
                             "start": 479,
                             "end": 487,
-                            "value": "minute"
+                            "value": "minute",
+                            "raw": "\"minute\""
                           },
                           {
                             "type": "Literal",
                             "start": 489,
                             "end": 497,
-                            "value": "second"
+                            "value": "second",
+                            "raw": "\"second\""
                           },
                           {
                             "type": "Literal",
                             "start": 499,
                             "end": 512,
-                            "value": "millisecond"
+                            "value": "millisecond",
+                            "raw": "\"millisecond\""
                           },
                           {
                             "type": "Literal",
                             "start": 514,
                             "end": 527,
-                            "value": "microsecond"
+                            "value": "microsecond",
+                            "raw": "\"microsecond\""
                           },
                           {
                             "type": "Literal",
                             "start": 529,
                             "end": 541,
-                            "value": "nanosecond"
+                            "value": "nanosecond",
+                            "raw": "\"nanosecond\""
                           }
                         ]
                       },
@@ -331,13 +343,15 @@
                                         "type": "Literal",
                                         "start": 568,
                                         "end": 579,
-                                        "value": "constrain"
+                                        "value": "constrain",
+                                        "raw": "\"constrain\""
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 581,
                                         "end": 589,
-                                        "value": "reject"
+                                        "value": "reject",
+                                        "raw": "\"reject\""
                                       }
                                     ]
                                   },
@@ -953,7 +967,8 @@
                                                 "type": "Literal",
                                                 "start": 1062,
                                                 "end": 1107,
-                                                "value": "it fails after fetching the primitive value"
+                                                "value": "it fails after fetching the primitive value",
+                                                "raw": "\"it fails after fetching the primitive value\""
                                               }
                                             ],
                                             "optional": false

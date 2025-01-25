@@ -47,7 +47,8 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 434,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "property": {
@@ -64,7 +65,8 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 451,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -73,7 +75,8 @@
             "type": "Literal",
             "start": 454,
             "end": 460,
-            "value": "3e+0"
+            "value": "3e+0",
+            "raw": "\"3e+0\""
           }
         ],
         "optional": false
@@ -138,7 +141,8 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 497,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 },
                 "property": {
@@ -161,7 +165,8 @@
                     "type": "Literal",
                     "start": 514,
                     "end": 515,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               ],
@@ -216,7 +221,8 @@
                   "type": "Literal",
                   "start": 538,
                   "end": 539,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "property": {
@@ -233,7 +239,8 @@
                 "type": "Literal",
                 "start": 555,
                 "end": 558,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             ],
             "optional": false
@@ -242,7 +249,8 @@
             "type": "Literal",
             "start": 561,
             "end": 668,
-            "value": "3.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e+0"
+            "value": "3.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e+0",
+            "raw": "\"3.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e+0\""
           }
         ],
         "optional": false
@@ -307,7 +315,8 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 705,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 },
                 "property": {
@@ -324,7 +333,8 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 724,
-                  "value": 101
+                  "value": 101,
+                  "raw": "101"
                 }
               ],
               "optional": false

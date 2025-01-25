@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 372,
               "end": 380,
-              "value": "length"
+              "value": "length",
+              "raw": "'length'"
             }
           ],
           "optional": false
@@ -49,7 +50,8 @@
           "type": "Literal",
           "start": 386,
           "end": 391,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -80,7 +82,8 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 497,
-                    "value": "#1: encodeURIComponent.propertyIsEnumerable('length') === false. Actual: "
+                    "value": "#1: encodeURIComponent.propertyIsEnumerable('length') === false. Actual: ",
+                    "raw": "'#1: encodeURIComponent.propertyIsEnumerable(\\'length\\') === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -115,7 +118,8 @@
                           "type": "Literal",
                           "start": 541,
                           "end": 549,
-                          "value": "length"
+                          "value": "length",
+                          "raw": "'length'"
                         }
                       ],
                       "optional": false
@@ -148,7 +152,8 @@
             "type": "Literal",
             "start": 580,
             "end": 584,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -208,7 +213,8 @@
                 "type": "Literal",
                 "start": 634,
                 "end": 642,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -235,7 +241,8 @@
                       "type": "Literal",
                       "start": 659,
                       "end": 664,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 }
@@ -265,7 +272,8 @@
           "type": "Literal",
           "start": 688,
           "end": 692,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -292,7 +300,8 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 829,
-                  "value": "#2: result = true; for (p in encodeURIComponent) { if (p === \"length\") result = false; }  result === true;"
+                  "value": "#2: result = true; for (p in encodeURIComponent) { if (p === \"length\") result = false; }  result === true;",
+                  "raw": "'#2: result = true; for (p in encodeURIComponent) { if (p === \"length\") result = false; }  result === true;'"
                 }
               ]
             }

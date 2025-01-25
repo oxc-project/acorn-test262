@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 318,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 336,
             "end": 368,
-            "value": "2016-12-31T23:59:60+00:00[UTC]"
+            "value": "2016-12-31T23:59:60+00:00[UTC]",
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
           }
         }
       ],
@@ -182,13 +184,15 @@
             "type": "Literal",
             "start": 461,
             "end": 466,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 516,
-            "value": "leap second is a valid ISO string for TimeZone"
+            "value": "leap second is a valid ISO string for TimeZone",
+            "raw": "\"leap second is a valid ISO string for TimeZone\""
           }
         ],
         "optional": false
@@ -213,7 +217,8 @@
           "type": "Literal",
           "start": 531,
           "end": 579,
-          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]"
+          "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
         }
       }
     },
@@ -298,7 +303,8 @@
             "type": "Literal",
             "start": 652,
             "end": 693,
-            "value": "leap second in time zone name not valid"
+            "value": "leap second in time zone name not valid",
+            "raw": "\"leap second in time zone name not valid\""
           }
         ],
         "optional": false

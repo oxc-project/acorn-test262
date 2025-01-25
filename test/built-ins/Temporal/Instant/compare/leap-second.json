@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 291,
                 "end": 317,
-                "value": "1483228799000000000n"
+                "value": "1483228799000000000n",
+                "raw": "1_483_228_799_000_000_000n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 332,
             "end": 354,
-            "value": "2016-12-31T23:59:60Z"
+            "value": "2016-12-31T23:59:60Z",
+            "raw": "\"2016-12-31T23:59:60Z\""
           }
         }
       ],
@@ -188,13 +190,15 @@
             "type": "Literal",
             "start": 436,
             "end": 437,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 503,
-            "value": "leap second is a valid ISO string for Instant (first argument)"
+            "value": "leap second is a valid ISO string for Instant (first argument)",
+            "raw": "\"leap second is a valid ISO string for Instant (first argument)\""
           }
         ],
         "optional": false
@@ -309,13 +313,15 @@
             "type": "Literal",
             "start": 586,
             "end": 587,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 654,
-            "value": "leap second is a valid ISO string for Instant (second argument)"
+            "value": "leap second is a valid ISO string for Instant (second argument)",
+            "raw": "\"leap second is a valid ISO string for Instant (second argument)\""
           }
         ],
         "optional": false

@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 347,
-                "value": "957270896987650000n"
+                "value": "957270896987650000n",
+                "raw": "957270896_987_650_000n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 403,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "CallExpression",
@@ -127,7 +129,8 @@
                     "type": "Literal",
                     "start": 419,
                     "end": 423,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 ],
                 "optional": false
@@ -233,7 +236,8 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 529,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "Identifier",
@@ -292,7 +296,8 @@
             "type": "Literal",
             "start": 586,
             "end": 639,
-            "value": "default locale is determined by Intl.DateTimeFormat"
+            "value": "default locale is determined by Intl.DateTimeFormat",
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
           }
         ],
         "optional": false
@@ -341,7 +346,8 @@
                 "type": "Literal",
                 "start": 689,
                 "end": 693,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               }
             ],
             "optional": false
@@ -394,7 +400,8 @@
             "type": "Literal",
             "start": 739,
             "end": 792,
-            "value": "default locale is determined by Intl.DateTimeFormat"
+            "value": "default locale is determined by Intl.DateTimeFormat",
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
           }
         ],
         "optional": false

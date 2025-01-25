@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 811,
+  "end": 809,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 633,
-      "end": 661,
+      "start": 631,
+      "end": 659,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 637,
-          "end": 660,
+          "start": 635,
+          "end": 658,
           "id": {
             "type": "Identifier",
-            "start": 637,
-            "end": 644,
+            "start": 635,
+            "end": 642,
             "name": "test262"
           },
           "init": {
             "type": "Literal",
-            "start": 647,
-            "end": 660,
-            "value": "outer scope"
+            "start": 645,
+            "end": 658,
+            "value": "outer scope",
+            "raw": "'outer scope'"
           }
         }
       ],
@@ -30,17 +31,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 662,
-      "end": 672,
+      "start": 660,
+      "end": 670,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 666,
-          "end": 671,
+          "start": 664,
+          "end": 669,
           "id": {
             "type": "Identifier",
-            "start": 666,
-            "end": 671,
+            "start": 664,
+            "end": 669,
             "name": "probe"
           },
           "init": null
@@ -50,45 +51,46 @@
     },
     {
       "type": "ClassDeclaration",
-      "start": 674,
-      "end": 769,
+      "start": 672,
+      "end": 767,
       "id": {
         "type": "Identifier",
-        "start": 680,
-        "end": 681,
+        "start": 678,
+        "end": 679,
         "name": "C"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 682,
-        "end": 769,
+        "start": 680,
+        "end": 767,
         "body": [
           {
             "type": "StaticBlock",
-            "start": 686,
-            "end": 731,
+            "start": 684,
+            "end": 729,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 699,
-                "end": 727,
+                "start": 697,
+                "end": 725,
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 703,
-                    "end": 726,
+                    "start": 701,
+                    "end": 724,
                     "id": {
                       "type": "Identifier",
-                      "start": 703,
-                      "end": 710,
+                      "start": 701,
+                      "end": 708,
                       "name": "test262"
                     },
                     "init": {
                       "type": "Literal",
-                      "start": 713,
-                      "end": 726,
-                      "value": "first block"
+                      "start": 711,
+                      "end": 724,
+                      "value": "first block",
+                      "raw": "'first block'"
                     }
                   }
                 ],
@@ -98,28 +100,28 @@
           },
           {
             "type": "StaticBlock",
-            "start": 734,
-            "end": 767,
+            "start": 732,
+            "end": 765,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 747,
-                "end": 763,
+                "start": 745,
+                "end": 761,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 747,
-                  "end": 762,
+                  "start": 745,
+                  "end": 760,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 747,
-                    "end": 752,
+                    "start": 745,
+                    "end": 750,
                     "name": "probe"
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 755,
-                    "end": 762,
+                    "start": 753,
+                    "end": 760,
                     "name": "test262"
                   }
                 }
@@ -131,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 771,
-      "end": 810,
+      "start": 769,
+      "end": 808,
       "expression": {
         "type": "CallExpression",
-        "start": 771,
-        "end": 809,
+        "start": 769,
+        "end": 807,
         "callee": {
           "type": "MemberExpression",
-          "start": 771,
-          "end": 787,
+          "start": 769,
+          "end": 785,
           "object": {
             "type": "Identifier",
-            "start": 771,
-            "end": 777,
+            "start": 769,
+            "end": 775,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 778,
-            "end": 787,
+            "start": 776,
+            "end": 785,
             "name": "sameValue"
           },
           "computed": false,
@@ -159,15 +161,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 788,
-            "end": 793,
+            "start": 786,
+            "end": 791,
             "name": "probe"
           },
           {
             "type": "Literal",
-            "start": 795,
-            "end": 808,
-            "value": "outer scope"
+            "start": 793,
+            "end": 806,
+            "value": "outer scope",
+            "raw": "'outer scope'"
           }
         ],
         "optional": false

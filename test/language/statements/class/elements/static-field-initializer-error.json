@@ -173,13 +173,15 @@
                         "type": "Literal",
                         "start": 2052,
                         "end": 2057,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 2059,
                         "end": 2086,
-                        "value": "this should never execute"
+                        "value": "this should never execute",
+                        "raw": "'this should never execute'"
                       }
                     ],
                     "optional": false
@@ -192,7 +194,8 @@
             "type": "Literal",
             "start": 2092,
             "end": 2141,
-            "value": "static field initializer should throw exception"
+            "value": "static field initializer should throw exception",
+            "raw": "'static field initializer should throw exception'"
           }
         ],
         "optional": false

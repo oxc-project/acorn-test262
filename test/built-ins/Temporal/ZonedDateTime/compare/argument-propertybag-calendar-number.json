@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 288,
             "end": 293,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -109,13 +111,15 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 388,
-                "value": 19970327
+                "value": 19970327,
+                "raw": "19970327"
               },
               {
                 "type": "UnaryExpression",
@@ -127,14 +131,16 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 401,
-                  "value": 19970327
+                  "value": 19970327,
+                  "raw": "19970327"
                 }
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 415,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -215,7 +221,8 @@
                         "type": "Literal",
                         "start": 477,
                         "end": 481,
-                        "value": 1970
+                        "value": 1970,
+                        "raw": "1970"
                       },
                       "kind": "init"
                     },
@@ -236,7 +243,8 @@
                         "type": "Literal",
                         "start": 494,
                         "end": 499,
-                        "value": "M01"
+                        "value": "M01",
+                        "raw": "\"M01\""
                       },
                       "kind": "init"
                     },
@@ -257,7 +265,8 @@
                         "type": "Literal",
                         "start": 506,
                         "end": 507,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -409,7 +418,8 @@
                   "type": "Literal",
                   "start": 624,
                   "end": 690,
-                  "value": "A number is not a valid ISO string for calendar (first argument)"
+                  "value": "A number is not a valid ISO string for calendar (first argument)",
+                  "raw": "\"A number is not a valid ISO string for calendar (first argument)\""
                 }
               ],
               "optional": false
@@ -515,7 +525,8 @@
                   "type": "Literal",
                   "start": 789,
                   "end": 856,
-                  "value": "A number is not a valid ISO string for calendar (second argument)"
+                  "value": "A number is not a valid ISO string for calendar (second argument)",
+                  "raw": "\"A number is not a valid ISO string for calendar (second argument)\""
                 }
               ],
               "optional": false

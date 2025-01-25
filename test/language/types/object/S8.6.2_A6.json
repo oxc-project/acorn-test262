@@ -97,7 +97,8 @@
                     "type": "Literal",
                     "start": 550,
                     "end": 628,
-                    "value": "#1: var objInstance=new Object; objInstance.constructor === Object. Actual: "
+                    "value": "#1: var objInstance=new Object; objInstance.constructor === Object. Actual: ",
+                    "raw": "'#1: var objInstance=new Object; objInstance.constructor === Object. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +227,8 @@
                     "type": "Literal",
                     "start": 927,
                     "end": 1005,
-                    "value": "#2: var numInstance=new Number; numInstance.constructor === Number. Actual: "
+                    "value": "#2: var numInstance=new Number; numInstance.constructor === Number. Actual: ",
+                    "raw": "'#2: var numInstance=new Number; numInstance.constructor === Number. Actual: '"
                   },
                   "operator": "+",
                   "right": {

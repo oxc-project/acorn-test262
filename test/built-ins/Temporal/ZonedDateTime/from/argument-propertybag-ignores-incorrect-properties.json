@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 390,
-                "value": "217119600000000000n"
+                "value": "217119600000000000n",
+                "raw": "217119600000000000n"
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 400,
-                "value": "+01:00"
+                "value": "+01:00",
+                "raw": "\"+01:00\""
               }
             ]
           }
@@ -147,7 +149,8 @@
                       "type": "Literal",
                       "start": 486,
                       "end": 490,
-                      "value": 1976
+                      "value": 1976,
+                      "raw": "1976"
                     },
                     "kind": "init"
                   },
@@ -168,7 +171,8 @@
                       "type": "Literal",
                       "start": 503,
                       "end": 505,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     },
                     "kind": "init"
                   },
@@ -189,7 +193,8 @@
                       "type": "Literal",
                       "start": 516,
                       "end": 518,
-                      "value": 18
+                      "value": 18,
+                      "raw": "18"
                     },
                     "kind": "init"
                   },
@@ -210,7 +215,8 @@
                       "type": "Literal",
                       "start": 534,
                       "end": 542,
-                      "value": "+01:00"
+                      "value": "+01:00",
+                      "raw": "\"+01:00\""
                     },
                     "kind": "init"
                   },
@@ -231,7 +237,8 @@
                       "type": "Literal",
                       "start": 555,
                       "end": 557,
-                      "value": 12
+                      "value": 12,
+                      "raw": "12"
                     },
                     "kind": "init"
                   }

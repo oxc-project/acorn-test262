@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 986,
             "end": 995,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -164,7 +165,8 @@
               "type": "Literal",
               "start": 1100,
               "end": 1101,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "kind": "init"
           }
@@ -261,13 +263,15 @@
             "type": "Literal",
             "start": 1179,
             "end": 1182,
-            "value": "i"
+            "value": "i",
+            "raw": "'i'"
           },
           {
             "type": "Literal",
             "start": 1184,
             "end": 1215,
-            "value": "reference from ForDeclaration"
+            "value": "reference from ForDeclaration",
+            "raw": "'reference from ForDeclaration'"
           }
         ],
         "optional": false
@@ -318,13 +322,15 @@
             "type": "Literal",
             "start": 1248,
             "end": 1251,
-            "value": "i"
+            "value": "i",
+            "raw": "'i'"
           },
           {
             "type": "Literal",
             "start": 1253,
             "end": 1284,
-            "value": "reference from statement body"
+            "value": "reference from statement body",
+            "raw": "'reference from statement body'"
           }
         ],
         "optional": false
@@ -368,7 +374,8 @@
             "type": "Literal",
             "start": 1307,
             "end": 1316,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false

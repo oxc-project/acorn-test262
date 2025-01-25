@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 423,
             "end": 426,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +109,8 @@
                           "type": "Literal",
                           "start": 461,
                           "end": 462,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 489,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -277,7 +280,8 @@
           "type": "Literal",
           "start": 582,
           "end": 583,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -319,7 +323,8 @@
             "type": "Literal",
             "start": 615,
             "end": 618,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -374,7 +379,8 @@
                   "type": "Literal",
                   "start": 660,
                   "end": 664,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -481,13 +487,15 @@
             "type": "Literal",
             "start": 735,
             "end": 736,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 738,
             "end": 786,
-            "value": "Array.prototype.indexOf.call(child, undefined)"
+            "value": "Array.prototype.indexOf.call(child, undefined)",
+            "raw": "'Array.prototype.indexOf.call(child, undefined)'"
           }
         ],
         "optional": false

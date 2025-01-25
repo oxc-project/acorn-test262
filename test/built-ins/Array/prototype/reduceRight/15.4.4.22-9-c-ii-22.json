@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 300,
             "end": 305,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 370,
                 "end": 374,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -114,7 +116,8 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 402,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             }
           }
@@ -152,13 +155,15 @@
                   "type": "Literal",
                   "start": 421,
                   "end": 422,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 424,
                   "end": 426,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -179,7 +184,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 439,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -283,7 +289,8 @@
                 "type": "Literal",
                 "start": 511,
                 "end": 516,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -292,13 +299,15 @@
             "type": "Literal",
             "start": 519,
             "end": 523,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 583,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn, false)"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn, false)",
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, false)'"
           }
         ],
         "optional": false
@@ -329,7 +338,8 @@
             "type": "Literal",
             "start": 603,
             "end": 622,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

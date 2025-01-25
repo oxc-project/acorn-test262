@@ -140,7 +140,8 @@
                             "type": "Literal",
                             "start": 335,
                             "end": 336,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -297,7 +298,8 @@
             "type": "Literal",
             "start": 428,
             "end": 475,
-            "value": "Without right-hand-side: first result `value`"
+            "value": "Without right-hand-side: first result `value`",
+            "raw": "'Without right-hand-side: first result `value`'"
           }
         ],
         "optional": false
@@ -354,13 +356,15 @@
             "type": "Literal",
             "start": 512,
             "end": 517,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 570,
-            "value": "Without right-hand-side: first result `done` flag"
+            "value": "Without right-hand-side: first result `done` flag",
+            "raw": "'Without right-hand-side: first result `done` flag'"
           }
         ],
         "optional": false
@@ -466,7 +470,8 @@
             "type": "Literal",
             "start": 641,
             "end": 689,
-            "value": "Without right-hand-side: second result `value`"
+            "value": "Without right-hand-side: second result `value`",
+            "raw": "'Without right-hand-side: second result `value`'"
           }
         ],
         "optional": false
@@ -523,13 +528,15 @@
             "type": "Literal",
             "start": 726,
             "end": 730,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 785,
-            "value": "Without right-hand-eside: second result `done` flag"
+            "value": "Without right-hand-eside: second result `done` flag",
+            "raw": "'Without right-hand-eside: second result `done` flag'"
           }
         ],
         "optional": false
@@ -672,13 +679,15 @@
             "type": "Literal",
             "start": 863,
             "end": 864,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 866,
             "end": 910,
-            "value": "With right-hand-side: first result `value`"
+            "value": "With right-hand-side: first result `value`",
+            "raw": "'With right-hand-side: first result `value`'"
           }
         ],
         "optional": false
@@ -735,13 +744,15 @@
             "type": "Literal",
             "start": 947,
             "end": 952,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 1002,
-            "value": "With right-hand-side: first result `done` flag"
+            "value": "With right-hand-side: first result `done` flag",
+            "raw": "'With right-hand-side: first result `done` flag'"
           }
         ],
         "optional": false
@@ -847,7 +858,8 @@
             "type": "Literal",
             "start": 1073,
             "end": 1118,
-            "value": "With right-hand-side: second result `value`"
+            "value": "With right-hand-side: second result `value`",
+            "raw": "'With right-hand-side: second result `value`'"
           }
         ],
         "optional": false
@@ -904,13 +916,15 @@
             "type": "Literal",
             "start": 1155,
             "end": 1159,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 1161,
             "end": 1211,
-            "value": "With right-hand-eside: second result `done` flag"
+            "value": "With right-hand-eside: second result `done` flag",
+            "raw": "'With right-hand-eside: second result `done` flag'"
           }
         ],
         "optional": false

@@ -81,13 +81,15 @@
                             "type": "Literal",
                             "start": 384,
                             "end": 389,
-                            "value": "abc"
+                            "value": "abc",
+                            "raw": "'abc'"
                           },
                           {
                             "type": "Literal",
                             "start": 391,
                             "end": 394,
-                            "value": "a"
+                            "value": "a",
+                            "raw": "'a'"
                           }
                         ]
                       }

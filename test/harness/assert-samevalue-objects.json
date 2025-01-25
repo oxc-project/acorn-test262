@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 230,
             "end": 235,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -117,7 +118,8 @@
                   "type": "Literal",
                   "start": 297,
                   "end": 301,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -188,7 +190,8 @@
                               "type": "Literal",
                               "start": 372,
                               "end": 406,
-                              "value": "Expected a Test262Error, but a \""
+                              "value": "Expected a Test262Error, but a \"",
+                              "raw": "'Expected a Test262Error, but a \"'"
                             },
                             "operator": "+",
                             "right": {
@@ -229,7 +232,8 @@
                             "type": "Literal",
                             "start": 438,
                             "end": 453,
-                            "value": "\" was thrown."
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
                           }
                         }
                       ]
@@ -263,7 +267,8 @@
           "type": "Literal",
           "start": 482,
           "end": 487,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -290,7 +295,8 @@
                   "type": "Literal",
                   "start": 509,
                   "end": 560,
-                  "value": "Expected a Test262Error, but no error was thrown."
+                  "value": "Expected a Test262Error, but no error was thrown.",
+                  "raw": "'Expected a Test262Error, but no error was thrown.'"
                 }
               ]
             }

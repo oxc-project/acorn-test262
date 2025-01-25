@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 288,
                         "end": 295,
-                        "value": "'abc'"
+                        "value": "'abc'",
+                        "raw": "\"'abc'\""
                       }
                     ],
                     "optional": false

@@ -70,13 +70,15 @@
                         "type": "Literal",
                         "start": 347,
                         "end": 350,
-                        "value": "."
+                        "value": ".",
+                        "raw": "\".\""
                       },
                       {
                         "type": "Literal",
                         "start": 352,
                         "end": 356,
-                        "value": "uv"
+                        "value": "uv",
+                        "raw": "\"uv\""
                       }
                     ]
                   }

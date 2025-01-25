@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 1109,
                 "end": 1115,
-                "value": "boop"
+                "value": "boop",
+                "raw": "'boop'"
               }
             ]
           }
@@ -92,7 +93,8 @@
                             "type": "Literal",
                             "start": 1164,
                             "end": 1165,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -115,7 +117,8 @@
                               "type": "Literal",
                               "start": 1194,
                               "end": 1239,
-                              "value": "Generator must be resumed in finally block."
+                              "value": "Generator must be resumed in finally block.",
+                              "raw": "'Generator must be resumed in finally block.'"
                             }
                           ]
                         }
@@ -158,7 +161,8 @@
                               "type": "Literal",
                               "start": 1300,
                               "end": 1332,
-                              "value": "Generator must not be resumed."
+                              "value": "Generator must not be resumed.",
+                              "raw": "'Generator must not be resumed.'"
                             }
                           ]
                         }
@@ -333,13 +337,15 @@
                             "type": "Literal",
                             "start": 1418,
                             "end": 1419,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1421,
                             "end": 1436,
-                            "value": "Initial yield"
+                            "value": "Initial yield",
+                            "raw": "'Initial yield'"
                           }
                         ],
                         "optional": false
@@ -396,13 +402,15 @@
                             "type": "Literal",
                             "start": 1468,
                             "end": 1473,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 1475,
                             "end": 1490,
-                            "value": "Initial yield"
+                            "value": "Initial yield",
+                            "raw": "'Initial yield'"
                           }
                         ],
                         "optional": false
@@ -467,7 +475,8 @@
                                         "type": "Literal",
                                         "start": 1515,
                                         "end": 1527,
-                                        "value": "superceded"
+                                        "value": "superceded",
+                                        "raw": "'superceded'"
                                       }
                                     ]
                                   }
@@ -555,7 +564,8 @@
                                             "type": "Literal",
                                             "start": 1591,
                                             "end": 1637,
-                                            "value": "AsyncGeneratorReject(generator, resultValue)"
+                                            "value": "AsyncGeneratorReject(generator, resultValue)",
+                                            "raw": "'AsyncGeneratorReject(generator, resultValue)'"
                                           }
                                         ],
                                         "optional": false
@@ -695,7 +705,8 @@
                                                             "type": "Literal",
                                                             "start": 1721,
                                                             "end": 1742,
-                                                            "value": "Generator is closed"
+                                                            "value": "Generator is closed",
+                                                            "raw": "'Generator is closed'"
                                                           }
                                                         ],
                                                         "optional": false
@@ -752,13 +763,15 @@
                                                             "type": "Literal",
                                                             "start": 1778,
                                                             "end": 1782,
-                                                            "value": true
+                                                            "value": true,
+                                                            "raw": "true"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 1784,
                                                             "end": 1805,
-                                                            "value": "Generator is closed"
+                                                            "value": "Generator is closed",
+                                                            "raw": "'Generator is closed'"
                                                           }
                                                         ],
                                                         "optional": false

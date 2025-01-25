@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 401,
             "end": 402,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       },
@@ -98,7 +99,8 @@
                     "type": "Literal",
                     "start": 433,
                     "end": 492,
-                    "value": "#1.1: Number.MIN_VALUE - Number.MIN_VALUE === 0. Actual: "
+                    "value": "#1.1: Number.MIN_VALUE - Number.MIN_VALUE === 0. Actual: ",
+                    "raw": "'#1.1: Number.MIN_VALUE - Number.MIN_VALUE === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -177,7 +179,8 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 551,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "operator": "/",
                 "right": {
@@ -275,7 +278,8 @@
                         "type": "Literal",
                         "start": 651,
                         "end": 714,
-                        "value": "#1.2: Number.MIN_VALUE - Number.MIN_VALUE === + 0. Actual: -0"
+                        "value": "#1.2: Number.MIN_VALUE - Number.MIN_VALUE === + 0. Actual: -0",
+                        "raw": "'#1.2: Number.MIN_VALUE - Number.MIN_VALUE === + 0. Actual: -0'"
                       }
                     ]
                   }
@@ -364,7 +368,8 @@
             "type": "Literal",
             "start": 781,
             "end": 782,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       },
@@ -396,7 +401,8 @@
                     "type": "Literal",
                     "start": 813,
                     "end": 874,
-                    "value": "#2.2: -Number.MAX_VALUE - -Number.MAX_VALUE === 0. Actual: "
+                    "value": "#2.2: -Number.MAX_VALUE - -Number.MAX_VALUE === 0. Actual: ",
+                    "raw": "'#2.2: -Number.MAX_VALUE - -Number.MAX_VALUE === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -489,7 +495,8 @@
                   "type": "Literal",
                   "start": 934,
                   "end": 935,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "operator": "/",
                 "right": {
@@ -601,7 +608,8 @@
                         "type": "Literal",
                         "start": 1037,
                         "end": 1102,
-                        "value": "#2.1: -Number.MAX_VALUE - -Number.MAX_VALUE === + 0. Actual: -0"
+                        "value": "#2.1: -Number.MAX_VALUE - -Number.MAX_VALUE === + 0. Actual: -0",
+                        "raw": "'#2.1: -Number.MAX_VALUE - -Number.MAX_VALUE === + 0. Actual: -0'"
                       }
                     ]
                   }
@@ -633,7 +641,8 @@
               "type": "Literal",
               "start": 1126,
               "end": 1127,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -665,7 +674,8 @@
               "type": "Literal",
               "start": 1149,
               "end": 1150,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "operator": "/",
             "right": {
@@ -700,7 +710,8 @@
             "type": "Literal",
             "start": 1175,
             "end": 1176,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       },
@@ -732,7 +743,8 @@
                     "type": "Literal",
                     "start": 1207,
                     "end": 1274,
-                    "value": "#3.1: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === 0. Actual: "
+                    "value": "#3.1: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === 0. Actual: ",
+                    "raw": "'#3.1: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -751,7 +763,8 @@
                           "type": "Literal",
                           "start": 1278,
                           "end": 1279,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "operator": "/",
                         "right": {
@@ -783,7 +796,8 @@
                           "type": "Literal",
                           "start": 1301,
                           "end": 1302,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "operator": "/",
                         "right": {
@@ -835,7 +849,8 @@
                   "type": "Literal",
                   "start": 1340,
                   "end": 1341,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "operator": "/",
                 "right": {
@@ -854,7 +869,8 @@
                         "type": "Literal",
                         "start": 1345,
                         "end": 1346,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "operator": "/",
                       "right": {
@@ -886,7 +902,8 @@
                         "type": "Literal",
                         "start": 1368,
                         "end": 1369,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "operator": "/",
                       "right": {
@@ -957,7 +974,8 @@
                         "type": "Literal",
                         "start": 1449,
                         "end": 1520,
-                        "value": "#3.2: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === + 0. Actual: -0"
+                        "value": "#3.2: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === + 0. Actual: -0",
+                        "raw": "'#3.2: 1 / Number.MAX_VALUE - 1 / Number.MAX_VALUE === + 0. Actual: -0'"
                       }
                     ]
                   }

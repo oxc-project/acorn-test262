@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 791,
             "end": 795,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 848,
-            "value": "isConstructor(SharedArrayBuffer) must return true"
+            "value": "isConstructor(SharedArrayBuffer) must return true",
+            "raw": "'isConstructor(SharedArrayBuffer) must return true'"
           }
         ],
         "optional": false
@@ -86,7 +88,8 @@
             "type": "Literal",
             "start": 873,
             "end": 874,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ]
       }

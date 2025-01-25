@@ -161,7 +161,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 380,
-                "value": "hello\nworld\\!"
+                "value": "hello\nworld\\!",
+                "raw": "\"hello\\nworld\\\\!\""
               },
               {
                 "type": "Identifier",
@@ -176,13 +177,15 @@
             "type": "Literal",
             "start": 395,
             "end": 400,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 461,
-            "value": "Array.prototype.every.call(\"hello\nworld\\!\", callbackfn)"
+            "value": "Array.prototype.every.call(\"hello\nworld\\!\", callbackfn)",
+            "raw": "'Array.prototype.every.call(\"hello\\nworld\\\\!\", callbackfn)'"
           }
         ],
         "optional": false

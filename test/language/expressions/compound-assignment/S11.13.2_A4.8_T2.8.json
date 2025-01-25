@@ -42,7 +42,8 @@
           "type": "Literal",
           "start": 379,
           "end": 383,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -88,7 +89,8 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -119,7 +121,8 @@
                     "type": "Literal",
                     "start": 443,
                     "end": 494,
-                    "value": "#1: x = true; x >>>= undefined; x === 1. Actual: "
+                    "value": "#1: x = true; x >>>= undefined; x === 1. Actual: ",
+                    "raw": "'#1: x = true; x >>>= undefined; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -183,7 +186,8 @@
           "type": "Literal",
           "start": 538,
           "end": 542,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -206,7 +210,8 @@
           "type": "Literal",
           "start": 554,
           "end": 555,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -237,7 +242,8 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 635,
-                    "value": "#2: x = undefined; x >>>= true; x === 0. Actual: "
+                    "value": "#2: x = undefined; x >>>= true; x === 0. Actual: ",
+                    "raw": "'#2: x = undefined; x >>>= true; x === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -289,7 +295,8 @@
               "type": "Literal",
               "start": 673,
               "end": 677,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ]
         }
@@ -337,7 +344,8 @@
           "type": "Literal",
           "start": 708,
           "end": 709,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -368,7 +376,8 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 802,
-                    "value": "#3: x = new Boolean(true); x >>>= undefined; x === 1. Actual: "
+                    "value": "#3: x = new Boolean(true); x >>>= undefined; x === 1. Actual: ",
+                    "raw": "'#3: x = new Boolean(true); x >>>= undefined; x === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -443,7 +452,8 @@
               "type": "Literal",
               "start": 858,
               "end": 862,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ]
         }
@@ -468,7 +478,8 @@
           "type": "Literal",
           "start": 875,
           "end": 876,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -499,7 +510,8 @@
                     "type": "Literal",
                     "start": 905,
                     "end": 969,
-                    "value": "#4: x = undefined; x >>>= new Boolean(true); x === 0. Actual: "
+                    "value": "#4: x = undefined; x >>>= new Boolean(true); x === 0. Actual: ",
+                    "raw": "'#4: x = undefined; x >>>= new Boolean(true); x === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {

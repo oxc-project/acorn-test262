@@ -12,7 +12,8 @@
         "type": "Literal",
         "start": 959,
         "end": 980,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -25,7 +26,8 @@
         "type": "Literal",
         "start": 989,
         "end": 1010,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -50,7 +52,8 @@
         "type": "Literal",
         "start": 1033,
         "end": 1054,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -75,7 +78,8 @@
         "type": "Literal",
         "start": 1074,
         "end": 1095,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -89,7 +93,8 @@
         "type": "Literal",
         "start": 1112,
         "end": 1133,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -114,7 +119,8 @@
         "type": "Literal",
         "start": 1157,
         "end": 1178,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -127,7 +133,8 @@
         "type": "Literal",
         "start": 1194,
         "end": 1215,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -145,7 +152,8 @@
         "type": "Literal",
         "start": 1238,
         "end": 1259,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -181,7 +189,8 @@
         "type": "Literal",
         "start": 1288,
         "end": 1309,
-        "value": "./eval-self-once.js"
+        "value": "./eval-self-once.js",
+        "raw": "'./eval-self-once.js'"
       },
       "attributes": []
     },
@@ -193,7 +202,8 @@
         "type": "Literal",
         "start": 1326,
         "end": 1330,
-        "value": null
+        "value": null,
+        "raw": "null"
       }
     },
     {
@@ -285,7 +295,8 @@
             "type": "Literal",
             "start": 1409,
             "end": 1442,
-            "value": "global property initially unset"
+            "value": "global property initially unset",
+            "raw": "'global property initially unset'"
           }
         ],
         "optional": false
@@ -323,7 +334,8 @@
           "type": "Literal",
           "start": 1463,
           "end": 1466,
-          "value": 262
+          "value": 262,
+          "raw": "262"
         }
       }
     },
@@ -378,13 +390,15 @@
             "type": "Literal",
             "start": 1502,
             "end": 1505,
-            "value": 262
+            "value": 262,
+            "raw": "262"
           },
           {
             "type": "Literal",
             "start": 1507,
             "end": 1536,
-            "value": "global property was defined"
+            "value": "global property was defined",
+            "raw": "'global property was defined'"
           }
         ],
         "optional": false

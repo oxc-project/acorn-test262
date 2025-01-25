@@ -31,6 +31,7 @@
                 "start": 866,
                 "end": 875,
                 "value": {},
+                "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
@@ -63,7 +64,8 @@
                 "type": "Literal",
                 "start": 890,
                 "end": 904,
-                "value": "𝌆"
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
               }
             ],
             "optional": false
@@ -123,7 +125,8 @@
             "type": "Literal",
             "start": 940,
             "end": 941,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

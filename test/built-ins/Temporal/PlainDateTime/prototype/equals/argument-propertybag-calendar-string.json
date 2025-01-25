@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 311,
                 "end": 315,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 323,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               }
             ]
           }
@@ -85,7 +88,8 @@
             "type": "Literal",
             "start": 344,
             "end": 353,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         }
       ],
@@ -128,7 +132,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 380,
-                  "value": 1976
+                  "value": 1976,
+                  "raw": "1976"
                 },
                 "kind": "init"
               },
@@ -149,7 +154,8 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 398,
-                  "value": "M11"
+                  "value": "M11",
+                  "raw": "\"M11\""
                 },
                 "kind": "init"
               },
@@ -170,7 +176,8 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 407,
-                  "value": 18
+                  "value": 18,
+                  "raw": "18"
                 },
                 "kind": "init"
               },
@@ -291,7 +298,8 @@
             "type": "Literal",
             "start": 483,
             "end": 487,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "TemplateLiteral",

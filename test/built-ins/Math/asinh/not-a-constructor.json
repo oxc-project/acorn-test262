@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 726,
             "end": 731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.asinh) must return false"
+            "value": "isConstructor(Math.asinh) must return false",
+            "raw": "'isConstructor(Math.asinh) must return false'"
           }
         ],
         "optional": false

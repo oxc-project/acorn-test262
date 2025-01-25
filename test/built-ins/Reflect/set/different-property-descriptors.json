@@ -101,7 +101,8 @@
             "type": "Literal",
             "start": 1386,
             "end": 1389,
-            "value": "p"
+            "value": "p",
+            "raw": "'p'"
           },
           {
             "type": "ObjectExpression",
@@ -209,13 +210,15 @@
                 "type": "Literal",
                 "start": 1450,
                 "end": 1453,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               },
               {
                 "type": "Literal",
                 "start": 1455,
                 "end": 1457,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Identifier",
@@ -268,13 +271,15 @@
             "type": "Literal",
             "start": 1498,
             "end": 1503,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1507,
             "end": 1572,
-            "value": "target has no own `p` and receiver.p has an accessor descriptor"
+            "value": "target has no own `p` and receiver.p has an accessor descriptor",
+            "raw": "'target has no own `p` and receiver.p has an accessor descriptor'"
           }
         ],
         "optional": false
@@ -346,7 +351,8 @@
                   "type": "Literal",
                   "start": 1638,
                   "end": 1641,
-                  "value": "p"
+                  "value": "p",
+                  "raw": "'p'"
                 }
               ],
               "optional": false
@@ -370,7 +376,8 @@
             "type": "Literal",
             "start": 1654,
             "end": 1681,
-            "value": "receiver.p is not changed"
+            "value": "receiver.p is not changed",
+            "raw": "'receiver.p is not changed'"
           }
         ],
         "optional": false
@@ -432,7 +439,8 @@
                 "type": "Literal",
                 "start": 1720,
                 "end": 1723,
-                "value": "p"
+                "value": "p",
+                "raw": "'p'"
               }
             ],
             "optional": false
@@ -441,13 +449,15 @@
             "type": "Literal",
             "start": 1726,
             "end": 1731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1733,
             "end": 1754,
-            "value": "target.p is not set"
+            "value": "target.p is not set",
+            "raw": "'target.p is not set'"
           }
         ],
         "optional": false
@@ -490,7 +500,8 @@
                   "type": "Literal",
                   "start": 1774,
                   "end": 1776,
-                  "value": 43
+                  "value": 43,
+                  "raw": "43"
                 },
                 "kind": "init"
               }
@@ -549,13 +560,15 @@
               "type": "Literal",
               "start": 1805,
               "end": 1808,
-              "value": "p"
+              "value": "p",
+              "raw": "'p'"
             },
             {
               "type": "Literal",
               "start": 1810,
               "end": 1812,
-              "value": 42
+              "value": 42,
+              "raw": "42"
             },
             {
               "type": "Identifier",
@@ -606,13 +619,15 @@
             "type": "Literal",
             "start": 1853,
             "end": 1858,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1862,
             "end": 1936,
-            "value": "target.p has a data descriptor and receiver.p has an accessor descriptor"
+            "value": "target.p has a data descriptor and receiver.p has an accessor descriptor",
+            "raw": "'target.p has a data descriptor and receiver.p has an accessor descriptor'"
           }
         ],
         "optional": false
@@ -684,7 +699,8 @@
                   "type": "Literal",
                   "start": 2002,
                   "end": 2005,
-                  "value": "p"
+                  "value": "p",
+                  "raw": "'p'"
                 }
               ],
               "optional": false
@@ -708,7 +724,8 @@
             "type": "Literal",
             "start": 2018,
             "end": 2045,
-            "value": "receiver.p is not changed"
+            "value": "receiver.p is not changed",
+            "raw": "'receiver.p is not changed'"
           }
         ],
         "optional": false
@@ -765,13 +782,15 @@
             "type": "Literal",
             "start": 2072,
             "end": 2074,
-            "value": 43
+            "value": 43,
+            "raw": "43"
           },
           {
             "type": "Literal",
             "start": 2076,
             "end": 2101,
-            "value": "target.p is not changed"
+            "value": "target.p is not changed",
+            "raw": "'target.p is not changed'"
           }
         ],
         "optional": false

@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 312,
                     "end": 313,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 315,
                     "end": 316,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -78,7 +80,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -179,7 +182,8 @@
             "type": "Literal",
             "start": 414,
             "end": 453,
-            "value": "Throws an error when an array is used"
+            "value": "Throws an error when an array is used",
+            "raw": "\"Throws an error when an array is used\""
           }
         ],
         "optional": false

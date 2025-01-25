@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 494,
             "end": 495,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       ],
@@ -97,7 +100,8 @@
             "type": "Literal",
             "start": 517,
             "end": 518,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         }
       ],
@@ -126,7 +130,8 @@
               "type": "Literal",
               "start": 534,
               "end": 535,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -578,7 +583,8 @@
             "type": "Literal",
             "start": 1369,
             "end": 1435,
-            "value": "Atomics.notify(i32a, WAIT_INDEX) returns the value of `NUMAGENT`"
+            "value": "Atomics.notify(i32a, WAIT_INDEX) returns the value of `NUMAGENT`",
+            "raw": "'Atomics.notify(i32a, WAIT_INDEX) returns the value of `NUMAGENT`'"
           }
         ],
         "optional": false
@@ -607,7 +613,8 @@
               "type": "Literal",
               "start": 1453,
               "end": 1454,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -720,13 +727,15 @@
                   "type": "Literal",
                   "start": 1520,
                   "end": 1526,
-                  "value": "A ok"
+                  "value": "A ok",
+                  "raw": "'A ok'"
                 },
                 {
                   "type": "Literal",
                   "start": 1528,
                   "end": 1563,
-                  "value": "The value of reports[i] is \"A ok\""
+                  "value": "The value of reports[i] is \"A ok\"",
+                  "raw": "'The value of reports[i] is \"A ok\"'"
                 }
               ],
               "optional": false

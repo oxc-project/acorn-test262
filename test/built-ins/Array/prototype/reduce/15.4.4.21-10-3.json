@@ -40,7 +40,8 @@
               "type": "Literal",
               "start": 266,
               "end": 267,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
@@ -184,13 +185,15 @@
             "type": "Literal",
             "start": 358,
             "end": 359,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 375,
-            "value": "f.reduce(cb)"
+            "value": "f.reduce(cb)",
+            "raw": "'f.reduce(cb)'"
           }
         ],
         "optional": false

@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 405,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 412,
-                "value": 26
+                "value": 26,
+                "raw": "26"
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 423,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -123,7 +127,8 @@
                     "type": "Literal",
                     "start": 466,
                     "end": 483,
-                    "value": "en-u-ca-gregory"
+                    "value": "en-u-ca-gregory",
+                    "raw": "\"en-u-ca-gregory\""
                   },
                   {
                     "type": "ObjectExpression",
@@ -147,7 +152,8 @@
                           "type": "Literal",
                           "start": 498,
                           "end": 504,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "kind": "init"
                       }
@@ -170,7 +176,8 @@
                 "type": "Literal",
                 "start": 517,
                 "end": 524,
-                "value": "March"
+                "value": "March",
+                "raw": "\"March\""
               }
             ],
             "optional": false
@@ -179,7 +186,8 @@
             "type": "Literal",
             "start": 529,
             "end": 580,
-            "value": "dateStyle: long writes month of March out in full"
+            "value": "dateStyle: long writes month of March out in full",
+            "raw": "\"dateStyle: long writes month of March out in full\""
           }
         ],
         "optional": false
@@ -242,7 +250,8 @@
                       "type": "Literal",
                       "start": 624,
                       "end": 641,
-                      "value": "en-u-ca-gregory"
+                      "value": "en-u-ca-gregory",
+                      "raw": "\"en-u-ca-gregory\""
                     },
                     {
                       "type": "ObjectExpression",
@@ -266,7 +275,8 @@
                             "type": "Literal",
                             "start": 656,
                             "end": 663,
-                            "value": "short"
+                            "value": "short",
+                            "raw": "\"short\""
                           },
                           "kind": "init"
                         }
@@ -289,7 +299,8 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 683,
-                  "value": "March"
+                  "value": "March",
+                  "raw": "\"March\""
                 }
               ],
               "optional": false
@@ -299,7 +310,8 @@
             "type": "Literal",
             "start": 688,
             "end": 748,
-            "value": "dateStyle: short does not write month of March out in full"
+            "value": "dateStyle: short does not write month of March out in full",
+            "raw": "\"dateStyle: short does not write month of March out in full\""
           }
         ],
         "optional": false
@@ -348,25 +360,29 @@
                 "type": "Literal",
                 "start": 796,
                 "end": 800,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 802,
                 "end": 803,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 805,
                 "end": 807,
-                "value": 26
+                "value": 26,
+                "raw": "26"
               },
               {
                 "type": "Literal",
                 "start": 809,
                 "end": 818,
-                "value": "islamic"
+                "value": "islamic",
+                "raw": "\"islamic\""
               }
             ]
           }
@@ -425,7 +441,8 @@
                     "type": "Literal",
                     "start": 859,
                     "end": 876,
-                    "value": "en-u-ca-islamic"
+                    "value": "en-u-ca-islamic",
+                    "raw": "\"en-u-ca-islamic\""
                   },
                   {
                     "type": "ObjectExpression",
@@ -449,7 +466,8 @@
                           "type": "Literal",
                           "start": 891,
                           "end": 897,
-                          "value": "long"
+                          "value": "long",
+                          "raw": "\"long\""
                         },
                         "kind": "init"
                       }
@@ -472,7 +490,8 @@
                 "type": "Literal",
                 "start": 910,
                 "end": 919,
-                "value": "Ramadan"
+                "value": "Ramadan",
+                "raw": "\"Ramadan\""
               }
             ],
             "optional": false
@@ -481,7 +500,8 @@
             "type": "Literal",
             "start": 924,
             "end": 977,
-            "value": "dateStyle: long writes month of Ramadan out in full"
+            "value": "dateStyle: long writes month of Ramadan out in full",
+            "raw": "\"dateStyle: long writes month of Ramadan out in full\""
           }
         ],
         "optional": false
@@ -544,7 +564,8 @@
                       "type": "Literal",
                       "start": 1019,
                       "end": 1036,
-                      "value": "en-u-ca-islamic"
+                      "value": "en-u-ca-islamic",
+                      "raw": "\"en-u-ca-islamic\""
                     },
                     {
                       "type": "ObjectExpression",
@@ -568,7 +589,8 @@
                             "type": "Literal",
                             "start": 1051,
                             "end": 1058,
-                            "value": "short"
+                            "value": "short",
+                            "raw": "\"short\""
                           },
                           "kind": "init"
                         }
@@ -591,7 +613,8 @@
                   "type": "Literal",
                   "start": 1071,
                   "end": 1080,
-                  "value": "Ramadan"
+                  "value": "Ramadan",
+                  "raw": "\"Ramadan\""
                 }
               ],
               "optional": false
@@ -601,7 +624,8 @@
             "type": "Literal",
             "start": 1085,
             "end": 1147,
-            "value": "dateStyle: short does not write month of Ramadan out in full"
+            "value": "dateStyle: short does not write month of Ramadan out in full",
+            "raw": "\"dateStyle: short does not write month of Ramadan out in full\""
           }
         ],
         "optional": false

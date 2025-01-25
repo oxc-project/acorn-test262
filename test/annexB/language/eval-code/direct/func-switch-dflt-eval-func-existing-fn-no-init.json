@@ -80,14 +80,16 @@
                               "type": "Literal",
                               "start": 1135,
                               "end": 1158,
-                              "value": "init = f;switch (1) {"
+                              "value": "init = f;switch (1) {",
+                              "raw": "'init = f;switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1165,
                               "end": 1177,
-                              "value": "  default:"
+                              "value": "  default:",
+                              "raw": "'  default:'"
                             }
                           },
                           "operator": "+",
@@ -95,7 +97,8 @@
                             "type": "Literal",
                             "start": 1184,
                             "end": 1234,
-                            "value": "    function f() { return \"inner declaration\"; }"
+                            "value": "    function f() { return \"inner declaration\"; }",
+                            "raw": "'    function f() { return \"inner declaration\"; }'"
                           }
                         },
                         "operator": "+",
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 1241,
                           "end": 1306,
-                          "value": "}    function f() {      return \"outer declaration\";    }"
+                          "value": "}    function f() {      return \"outer declaration\";    }",
+                          "raw": "'}\\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'"
                         }
                       }
                     ],
@@ -163,7 +167,8 @@
             "type": "Literal",
             "start": 1344,
             "end": 1363,
-            "value": "outer declaration"
+            "value": "outer declaration",
+            "raw": "'outer declaration'"
           }
         ],
         "optional": false

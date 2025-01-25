@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 647,
+  "end": 635,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 468,
-                "value": "zh-u-ca-chinese"
+                "value": "zh-u-ca-chinese",
+                "raw": "\"zh-u-ca-chinese\""
               },
               {
                 "type": "ObjectExpression",
@@ -70,7 +71,8 @@
                       "type": "Literal",
                       "start": 477,
                       "end": 486,
-                      "value": "numeric"
+                      "value": "numeric",
+                      "raw": "\"numeric\""
                     },
                     "kind": "init"
                   }
@@ -112,19 +114,22 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 516,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 518,
                 "end": 519,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 522,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -187,12 +192,12 @@
     {
       "type": "VariableDeclaration",
       "start": 560,
-      "end": 608,
+      "end": 596,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 566,
-          "end": 607,
+          "end": 595,
           "id": {
             "type": "Identifier",
             "start": 566,
@@ -202,19 +207,21 @@
           "init": {
             "type": "ArrayExpression",
             "start": 577,
-            "end": 607,
+            "end": 595,
             "elements": [
               {
                 "type": "Literal",
                 "start": 578,
-                "end": 593,
-                "value": "2019己亥年"
+                "end": 587,
+                "value": "2019己亥年",
+                "raw": "\"2019己亥年\""
               },
               {
                 "type": "Literal",
-                "start": 595,
-                "end": 606,
-                "value": "己亥年"
+                "start": 589,
+                "end": 594,
+                "value": "己亥年",
+                "raw": "\"己亥年\""
               }
             ]
           }
@@ -224,37 +231,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 609,
-      "end": 646,
+      "start": 597,
+      "end": 634,
       "expression": {
         "type": "CallExpression",
-        "start": 609,
-        "end": 645,
+        "start": 597,
+        "end": 633,
         "callee": {
           "type": "Identifier",
-          "start": 609,
-          "end": 615,
+          "start": 597,
+          "end": 603,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 616,
-            "end": 644,
+            "start": 604,
+            "end": 632,
             "callee": {
               "type": "MemberExpression",
-              "start": 616,
-              "end": 633,
+              "start": 604,
+              "end": 621,
               "object": {
                 "type": "Identifier",
-                "start": 616,
-                "end": 624,
+                "start": 604,
+                "end": 612,
                 "name": "expected"
               },
               "property": {
                 "type": "Identifier",
-                "start": 625,
-                "end": 633,
+                "start": 613,
+                "end": 621,
                 "name": "includes"
               },
               "computed": false,
@@ -263,8 +270,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 634,
-                "end": 643,
+                "start": 622,
+                "end": 631,
                 "name": "formatted"
               }
             ],

@@ -73,7 +73,8 @@
                                   "type": "Literal",
                                   "start": 1035,
                                   "end": 1061,
-                                  "value": "./module-code_FIXTURE.js"
+                                  "value": "./module-code_FIXTURE.js",
+                                  "raw": "'./module-code_FIXTURE.js'"
                                 }
                               }
                             }
@@ -139,7 +140,8 @@
                   "type": "Literal",
                   "start": 1142,
                   "end": 1151,
-                  "value": "Test262"
+                  "value": "Test262",
+                  "raw": "'Test262'"
                 }
               ],
               "optional": false
@@ -196,7 +198,8 @@
                   "type": "Literal",
                   "start": 1188,
                   "end": 1190,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ],
               "optional": false
@@ -238,19 +241,22 @@
                             "type": "Literal",
                             "start": 1224,
                             "end": 1225,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1227,
                             "end": 1228,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1230,
                             "end": 1262,
-                            "value": "./module-code-other_FIXTURE.js"
+                            "value": "./module-code-other_FIXTURE.js",
+                            "raw": "'./module-code-other_FIXTURE.js'"
                           }
                         ]
                       }
@@ -313,7 +319,8 @@
                   "type": "Literal",
                   "start": 1344,
                   "end": 1361,
-                  "value": "one six one two"
+                  "value": "one six one two",
+                  "raw": "'one six one two'"
                 }
               ],
               "optional": false
@@ -370,7 +377,8 @@
                   "type": "Literal",
                   "start": 1398,
                   "end": 1402,
-                  "value": 1612
+                  "value": 1612,
+                  "raw": "1612"
                 }
               ],
               "optional": false

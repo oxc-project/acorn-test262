@@ -74,37 +74,43 @@
                                 "type": "Literal",
                                 "start": 1242,
                                 "end": 1244,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1246,
                                 "end": 1248,
-                                "value": "0n"
+                                "value": "0n",
+                                "raw": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1250,
                                 "end": 1252,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1254,
                                 "end": 1256,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1258,
                                 "end": 1261,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1263,
                                 "end": 1267,
-                                "value": "127n"
+                                "value": "127n",
+                                "raw": "127n"
                               }
                             ]
                           }
@@ -197,7 +203,8 @@
                         "type": "Literal",
                         "start": 1330,
                         "end": 1346,
-                        "value": "1,0,2,3,42,127"
+                        "value": "1,0,2,3,42,127",
+                        "raw": "\"1,0,2,3,42,127\""
                       }
                     ],
                     "optional": false

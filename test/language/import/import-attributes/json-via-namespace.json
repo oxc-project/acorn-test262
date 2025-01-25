@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 318,
         "end": 353,
-        "value": "./json-via-namespace_FIXTURE.json"
+        "value": "./json-via-namespace_FIXTURE.json",
+        "raw": "'./json-via-namespace_FIXTURE.json'"
       },
       "attributes": [
         {
@@ -41,7 +42,8 @@
             "type": "Literal",
             "start": 367,
             "end": 373,
-            "value": "json"
+            "value": "json",
+            "raw": "'json'"
           }
         }
       ]
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 434,
             "end": 435,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -181,7 +184,8 @@
             "type": "Literal",
             "start": 467,
             "end": 470,
-            "value": 262
+            "value": 262,
+            "raw": "262"
           }
         ],
         "optional": false

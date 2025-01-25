@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 516,
                           "end": 517,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 576,
                           "end": 583,
-                          "value": "inend"
+                          "value": "inend",
+                          "raw": "\"inend\""
                         }
                       }
                     ]
@@ -220,7 +222,8 @@
                       "type": "Literal",
                       "start": 698,
                       "end": 724,
-                      "value": "ABBABABAB1BBAA"
+                      "value": "ABBABABAB1BBAA",
+                      "raw": "\"ABB\\u0041BABAB\\u0031BBAA\""
                     },
                     "property": {
                       "type": "Identifier",
@@ -270,7 +273,8 @@
                   "type": "Literal",
                   "start": 776,
                   "end": 866,
-                  "value": "#1: var x = \"ABB\\u0041BABAB\\u0031BBAA\".substring(__obj,__obj2) lead to throw exception"
+                  "value": "#1: var x = \"ABB\\u0041BABAB\\u0031BBAA\".substring(__obj,__obj2) lead to throw exception",
+                  "raw": "'#1: var x = \"ABB\\\\u0041BABAB\\\\u0031BBAA\".substring(__obj,__obj2) lead to throw exception'"
                 }
               ]
             }
@@ -311,7 +315,8 @@
                   "type": "Literal",
                   "start": 895,
                   "end": 902,
-                  "value": "inend"
+                  "value": "inend",
+                  "raw": "\"inend\""
                 }
               },
               "consequent": {
@@ -342,7 +347,8 @@
                             "type": "Literal",
                             "start": 933,
                             "end": 972,
-                            "value": "#1.1: Exception === \"inend\". Actual: "
+                            "value": "#1.1: Exception === \"inend\". Actual: ",
+                            "raw": "'#1.1: Exception === \"inend\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

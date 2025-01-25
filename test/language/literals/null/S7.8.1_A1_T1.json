@@ -15,14 +15,16 @@
           "type": "Literal",
           "start": 243,
           "end": 247,
-          "value": null
+          "value": null,
+          "raw": "null"
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 252,
           "end": 256,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       },
       "consequent": {
@@ -49,7 +51,8 @@
                   "type": "Literal",
                   "start": 285,
                   "end": 304,
-                  "value": "#1: null === null"
+                  "value": "#1: null === null",
+                  "raw": "'#1: null === null'"
                 }
               ]
             }

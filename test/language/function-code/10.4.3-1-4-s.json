@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 277,
               "end": 289,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "'use strict'"
             },
             "directive": "use strict"
           },
@@ -159,7 +160,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -168,13 +170,15 @@
             "type": "Literal",
             "start": 393,
             "end": 402,
-            "value": "boolean"
+            "value": "boolean",
+            "raw": "'boolean'"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 420,
-            "value": "foo.call(true)"
+            "value": "foo.call(true)",
+            "raw": "'foo.call(true)'"
           }
         ],
         "optional": false
@@ -236,7 +240,8 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 453,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -245,13 +250,15 @@
             "type": "Literal",
             "start": 456,
             "end": 464,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 482,
-            "value": "bar.call(true)"
+            "value": "bar.call(true)",
+            "raw": "'bar.call(true)'"
           }
         ],
         "optional": false

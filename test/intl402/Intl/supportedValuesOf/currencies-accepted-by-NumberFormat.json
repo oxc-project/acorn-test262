@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1793,
+  "end": 1792,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 970,
-      "end": 1024,
+      "start": 969,
+      "end": 1023,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 976,
-          "end": 1023,
+          "start": 975,
+          "end": 1022,
           "id": {
             "type": "Identifier",
-            "start": 976,
-            "end": 986,
+            "start": 975,
+            "end": 985,
             "name": "currencies"
           },
           "init": {
             "type": "CallExpression",
-            "start": 989,
-            "end": 1023,
+            "start": 988,
+            "end": 1022,
             "callee": {
               "type": "MemberExpression",
-              "start": 989,
-              "end": 1011,
+              "start": 988,
+              "end": 1010,
               "object": {
                 "type": "Identifier",
-                "start": 989,
-                "end": 993,
+                "start": 988,
+                "end": 992,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 994,
-                "end": 1011,
+                "start": 993,
+                "end": 1010,
                 "name": "supportedValuesOf"
               },
               "computed": false,
@@ -44,9 +44,10 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1012,
-                "end": 1022,
-                "value": "currency"
+                "start": 1011,
+                "end": 1021,
+                "value": "currency",
+                "raw": "\"currency\""
               }
             ],
             "optional": false
@@ -57,22 +58,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1026,
-      "end": 1259,
+      "start": 1025,
+      "end": 1258,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1031,
-        "end": 1043,
+        "start": 1030,
+        "end": 1042,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1035,
-            "end": 1043,
+            "start": 1034,
+            "end": 1042,
             "id": {
               "type": "Identifier",
-              "start": 1035,
-              "end": 1043,
+              "start": 1034,
+              "end": 1042,
               "name": "currency"
             },
             "init": null
@@ -82,48 +83,48 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1047,
-        "end": 1057,
+        "start": 1046,
+        "end": 1056,
         "name": "currencies"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1059,
-        "end": 1259,
+        "start": 1058,
+        "end": 1258,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 1063,
-            "end": 1132,
+            "start": 1062,
+            "end": 1131,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1067,
-                "end": 1131,
+                "start": 1066,
+                "end": 1130,
                 "id": {
                   "type": "Identifier",
-                  "start": 1067,
-                  "end": 1070,
+                  "start": 1066,
+                  "end": 1069,
                   "name": "obj"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 1073,
-                  "end": 1131,
+                  "start": 1072,
+                  "end": 1130,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1077,
-                    "end": 1094,
+                    "start": 1076,
+                    "end": 1093,
                     "object": {
                       "type": "Identifier",
-                      "start": 1077,
-                      "end": 1081,
+                      "start": 1076,
+                      "end": 1080,
                       "name": "Intl"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1082,
-                      "end": 1094,
+                      "start": 1081,
+                      "end": 1093,
                       "name": "NumberFormat"
                     },
                     "computed": false,
@@ -132,54 +133,56 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 1095,
-                      "end": 1099,
-                      "value": "en"
+                      "start": 1094,
+                      "end": 1098,
+                      "value": "en",
+                      "raw": "\"en\""
                     },
                     {
                       "type": "ObjectExpression",
-                      "start": 1101,
-                      "end": 1130,
+                      "start": 1100,
+                      "end": 1129,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 1102,
-                          "end": 1119,
+                          "start": 1101,
+                          "end": 1118,
                           "method": false,
                           "shorthand": false,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 1102,
-                            "end": 1107,
+                            "start": 1101,
+                            "end": 1106,
                             "name": "style"
                           },
                           "value": {
                             "type": "Literal",
-                            "start": 1109,
-                            "end": 1119,
-                            "value": "currency"
+                            "start": 1108,
+                            "end": 1118,
+                            "value": "currency",
+                            "raw": "\"currency\""
                           },
                           "kind": "init"
                         },
                         {
                           "type": "Property",
-                          "start": 1121,
-                          "end": 1129,
+                          "start": 1120,
+                          "end": 1128,
                           "method": false,
                           "shorthand": true,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 1121,
-                            "end": 1129,
+                            "start": 1120,
+                            "end": 1128,
                             "name": "currency"
                           },
                           "kind": "init",
                           "value": {
                             "type": "Identifier",
-                            "start": 1121,
-                            "end": 1129,
+                            "start": 1120,
+                            "end": 1128,
                             "name": "currency"
                           }
                         }
@@ -193,26 +196,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1135,
-            "end": 1257,
+            "start": 1134,
+            "end": 1256,
             "expression": {
               "type": "CallExpression",
-              "start": 1135,
-              "end": 1256,
+              "start": 1134,
+              "end": 1255,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1135,
-                "end": 1151,
+                "start": 1134,
+                "end": 1150,
                 "object": {
                   "type": "Identifier",
-                  "start": 1135,
-                  "end": 1141,
+                  "start": 1134,
+                  "end": 1140,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1142,
-                  "end": 1151,
+                  "start": 1141,
+                  "end": 1150,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -221,26 +224,26 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1152,
-                  "end": 1182,
+                  "start": 1151,
+                  "end": 1181,
                   "object": {
                     "type": "CallExpression",
-                    "start": 1152,
-                    "end": 1173,
+                    "start": 1151,
+                    "end": 1172,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1152,
-                      "end": 1171,
+                      "start": 1151,
+                      "end": 1170,
                       "object": {
                         "type": "Identifier",
-                        "start": 1152,
-                        "end": 1155,
+                        "start": 1151,
+                        "end": 1154,
                         "name": "obj"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1156,
-                        "end": 1171,
+                        "start": 1155,
+                        "end": 1170,
                         "name": "resolvedOptions"
                       },
                       "computed": false,
@@ -251,8 +254,8 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1174,
-                    "end": 1182,
+                    "start": 1173,
+                    "end": 1181,
                     "name": "currency"
                   },
                   "computed": false,
@@ -260,27 +263,27 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1184,
-                  "end": 1192,
+                  "start": 1183,
+                  "end": 1191,
                   "name": "currency"
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1213,
-                  "end": 1255,
+                  "start": 1212,
+                  "end": 1254,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 1216,
-                      "end": 1224,
+                      "start": 1215,
+                      "end": 1223,
                       "name": "currency"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1214,
-                      "end": 1214,
+                      "start": 1213,
+                      "end": 1213,
                       "value": {
                         "raw": "",
                         "cooked": ""
@@ -289,8 +292,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1225,
-                      "end": 1254,
+                      "start": 1224,
+                      "end": 1253,
                       "value": {
                         "raw": " is supported by NumberFormat",
                         "cooked": " is supported by NumberFormat"

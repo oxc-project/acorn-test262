@@ -128,7 +128,8 @@
                         "type": "Literal",
                         "start": 1934,
                         "end": 1948,
-                        "value": "this.#m = 53"
+                        "value": "this.#m = 53",
+                        "raw": "\"this.#m = 53\""
                       }
                     ],
                     "optional": false
@@ -240,7 +241,8 @@
             "type": "Literal",
             "start": 2003,
             "end": 2005,
-            "value": 53
+            "value": 53,
+            "raw": "53"
           }
         ],
         "optional": false

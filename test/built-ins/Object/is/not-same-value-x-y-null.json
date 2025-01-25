@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 403,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 406,
             "end": 411,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 448,
-            "value": "`Object.is(null)` returns `false`"
+            "value": "`Object.is(null)` returns `false`",
+            "raw": "\"`Object.is(null)` returns `false`\""
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 482,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Identifier",
@@ -151,13 +155,15 @@
             "type": "Literal",
             "start": 496,
             "end": 501,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 549,
-            "value": "`Object.is(null, undefined)` returns `false`"
+            "value": "`Object.is(null, undefined)` returns `false`",
+            "raw": "\"`Object.is(null, undefined)` returns `false`\""
           }
         ],
         "optional": false

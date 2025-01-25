@@ -145,7 +145,8 @@
                           "type": "Literal",
                           "start": 1918,
                           "end": 1931,
-                          "value": "this.#m = v"
+                          "value": "this.#m = v",
+                          "raw": "\"this.#m = v\""
                         }
                       ],
                       "optional": false
@@ -295,7 +296,8 @@
             "type": "Literal",
             "start": 2028,
             "end": 2037,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "\"Test262\""
           }
         ],
         "optional": false
@@ -352,7 +354,8 @@
             "type": "Literal",
             "start": 2063,
             "end": 2072,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "\"Test262\""
           }
         ],
         "optional": false
@@ -495,7 +498,8 @@
             "type": "Literal",
             "start": 2159,
             "end": 2195,
-            "value": "invalid access to a private setter"
+            "value": "invalid access to a private setter",
+            "raw": "\"invalid access to a private setter\""
           }
         ],
         "optional": false

@@ -48,7 +48,8 @@
             "type": "Literal",
             "start": 579,
             "end": 598,
-            "value": "outer declaration"
+            "value": "outer declaration",
+            "raw": "'outer declaration'"
           }
         ],
         "optional": false
@@ -86,7 +87,8 @@
                   "type": "Literal",
                   "start": 628,
                   "end": 647,
-                  "value": "inner declaration"
+                  "value": "inner declaration",
+                  "raw": "'inner declaration'"
                 }
               }
             ]
@@ -121,7 +123,8 @@
               "type": "Literal",
               "start": 678,
               "end": 697,
-              "value": "outer declaration"
+              "value": "outer declaration",
+              "raw": "'outer declaration'"
             }
           }
         ]

@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 728,
             "end": 733,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 781,
-            "value": "isConstructor(Math.random) must return false"
+            "value": "isConstructor(Math.random) must return false",
+            "raw": "'isConstructor(Math.random) must return false'"
           }
         ],
         "optional": false

@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 647,
             "end": 663,
-            "value": "toLocaleString"
+            "value": "toLocaleString",
+            "raw": "'toLocaleString'"
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 679,
                   "end": 683,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 699,
                   "end": 704,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 722,
                   "end": 726,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

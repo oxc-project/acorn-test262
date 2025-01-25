@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 797,
             "end": 801,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 852,
-            "value": "isConstructor(DisposableStack) must return true"
+            "value": "isConstructor(DisposableStack) must return true",
+            "raw": "'isConstructor(DisposableStack) must return true'"
           }
         ],
         "optional": false

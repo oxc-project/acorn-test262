@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 460,
+  "end": 459,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 280,
-      "end": 290,
+      "start": 279,
+      "end": 289,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 284,
-          "end": 289,
+          "start": 283,
+          "end": 288,
           "id": {
             "type": "Identifier",
-            "start": 284,
-            "end": 285,
+            "start": 283,
+            "end": 284,
             "name": "n"
           },
           "init": {
             "type": "Literal",
-            "start": 288,
-            "end": 289,
-            "value": 0
+            "start": 287,
+            "end": 288,
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -30,24 +31,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 320,
+      "start": 291,
+      "end": 319,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 296,
-          "end": 319,
+          "start": 295,
+          "end": 318,
           "id": {
             "type": "Identifier",
-            "start": 296,
-            "end": 302,
+            "start": 295,
+            "end": 301,
             "name": "locale"
           },
           "init": {
             "type": "Literal",
-            "start": 305,
-            "end": 319,
-            "value": "th-u-nu-thai"
+            "start": 304,
+            "end": 318,
+            "value": "th-u-nu-thai",
+            "raw": "\"th-u-nu-thai\""
           }
         }
       ],
@@ -55,42 +57,43 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 321,
-      "end": 368,
+      "start": 320,
+      "end": 367,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 325,
-          "end": 367,
+          "start": 324,
+          "end": 366,
           "id": {
             "type": "Identifier",
-            "start": 325,
-            "end": 332,
+            "start": 324,
+            "end": 331,
             "name": "options"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 335,
-            "end": 367,
+            "start": 334,
+            "end": 366,
             "properties": [
               {
                 "type": "Property",
-                "start": 341,
-                "end": 365,
+                "start": 340,
+                "end": 364,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 341,
-                  "end": 362,
+                  "start": 340,
+                  "end": 361,
                   "name": "minimumFractionDigits"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 364,
-                  "end": 365,
-                  "value": 3
+                  "start": 363,
+                  "end": 364,
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               }
@@ -102,26 +105,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 370,
-      "end": 459,
+      "start": 369,
+      "end": 458,
       "expression": {
         "type": "CallExpression",
-        "start": 370,
-        "end": 458,
+        "start": 369,
+        "end": 457,
         "callee": {
           "type": "MemberExpression",
-          "start": 370,
-          "end": 386,
+          "start": 369,
+          "end": 385,
           "object": {
             "type": "Identifier",
-            "start": 370,
-            "end": 376,
+            "start": 369,
+            "end": 375,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 377,
-            "end": 386,
+            "start": 376,
+            "end": 385,
             "name": "sameValue"
           },
           "computed": false,
@@ -130,29 +133,29 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 387,
-            "end": 422,
+            "start": 386,
+            "end": 421,
             "callee": {
               "type": "MemberExpression",
-              "start": 387,
-              "end": 405,
+              "start": 386,
+              "end": 404,
               "object": {
                 "type": "ArrayExpression",
-                "start": 387,
-                "end": 390,
+                "start": 386,
+                "end": 389,
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 388,
-                    "end": 389,
+                    "start": 387,
+                    "end": 388,
                     "name": "n"
                   }
                 ]
               },
               "property": {
                 "type": "Identifier",
-                "start": 391,
-                "end": 405,
+                "start": 390,
+                "end": 404,
                 "name": "toLocaleString"
               },
               "computed": false,
@@ -161,14 +164,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 406,
-                "end": 412,
+                "start": 405,
+                "end": 411,
                 "name": "locale"
               },
               {
                 "type": "Identifier",
-                "start": 414,
-                "end": 421,
+                "start": 413,
+                "end": 420,
                 "name": "options"
               }
             ],
@@ -176,22 +179,22 @@
           },
           {
             "type": "CallExpression",
-            "start": 424,
-            "end": 457,
+            "start": 423,
+            "end": 456,
             "callee": {
               "type": "MemberExpression",
-              "start": 424,
-              "end": 440,
+              "start": 423,
+              "end": 439,
               "object": {
                 "type": "Identifier",
-                "start": 424,
-                "end": 425,
+                "start": 423,
+                "end": 424,
                 "name": "n"
               },
               "property": {
                 "type": "Identifier",
-                "start": 426,
-                "end": 440,
+                "start": 425,
+                "end": 439,
                 "name": "toLocaleString"
               },
               "computed": false,
@@ -200,14 +203,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 441,
-                "end": 447,
+                "start": 440,
+                "end": 446,
                 "name": "locale"
               },
               {
                 "type": "Identifier",
-                "start": 449,
-                "end": 456,
+                "start": 448,
+                "end": 455,
                 "name": "options"
               }
             ],

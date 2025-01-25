@@ -1,37 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 726,
+  "end": 723,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 611,
-      "end": 725,
+      "start": 608,
+      "end": 722,
       "expression": {
         "type": "CallExpression",
-        "start": 611,
-        "end": 724,
+        "start": 608,
+        "end": 721,
         "callee": {
           "type": "Identifier",
-          "start": 611,
-          "end": 625,
+          "start": 608,
+          "end": 622,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 626,
-            "end": 634,
+            "start": 623,
+            "end": 631,
             "object": {
               "type": "Identifier",
-              "start": 626,
-              "end": 630,
+              "start": 623,
+              "end": 627,
               "name": "Date"
             },
             "property": {
               "type": "Identifier",
-              "start": 631,
-              "end": 634,
+              "start": 628,
+              "end": 631,
               "name": "UTC"
             },
             "computed": false,
@@ -39,96 +39,101 @@
           },
           {
             "type": "Literal",
-            "start": 636,
-            "end": 644,
-            "value": "length"
+            "start": 633,
+            "end": 641,
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
-            "start": 646,
-            "end": 723,
+            "start": 643,
+            "end": 720,
             "properties": [
               {
                 "type": "Property",
-                "start": 650,
-                "end": 658,
+                "start": 647,
+                "end": 655,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 650,
-                  "end": 655,
+                  "start": 647,
+                  "end": 652,
                   "name": "value"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 657,
-                  "end": 658,
-                  "value": 7
+                  "start": 654,
+                  "end": 655,
+                  "value": 7,
+                  "raw": "7"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 662,
-                "end": 677,
+                "start": 659,
+                "end": 674,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 662,
-                  "end": 670,
+                  "start": 659,
+                  "end": 667,
                   "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 672,
-                  "end": 677,
-                  "value": false
+                  "start": 669,
+                  "end": 674,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 681,
-                "end": 698,
+                "start": 678,
+                "end": 695,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 681,
-                  "end": 691,
+                  "start": 678,
+                  "end": 688,
                   "name": "enumerable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 693,
-                  "end": 698,
-                  "value": false
+                  "start": 690,
+                  "end": 695,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 702,
-                "end": 720,
+                "start": 699,
+                "end": 717,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 702,
-                  "end": 714,
+                  "start": 699,
+                  "end": 711,
                   "name": "configurable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 716,
-                  "end": 720,
-                  "value": true
+                  "start": 713,
+                  "end": 717,
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

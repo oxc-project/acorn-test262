@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 295,
                     "end": 328,
-                    "value": "1970-01-01T00:00Z[u-ca=iso8601]"
+                    "value": "1970-01-01T00:00Z[u-ca=iso8601]",
+                    "raw": "\"1970-01-01T00:00Z[u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 330,
                     "end": 349,
-                    "value": "without time zone"
+                    "value": "without time zone",
+                    "raw": "\"without time zone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 355,
                     "end": 393,
-                    "value": "1970-01-01T00:00Z[UTC][u-ca=gregory]"
+                    "value": "1970-01-01T00:00Z[UTC][u-ca=gregory]",
+                    "raw": "\"1970-01-01T00:00Z[UTC][u-ca=gregory]\""
                   },
                   {
                     "type": "Literal",
                     "start": 395,
                     "end": 411,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 417,
                     "end": 450,
-                    "value": "1970-01-01T00:00Z[!u-ca=hebrew]"
+                    "value": "1970-01-01T00:00Z[!u-ca=hebrew]",
+                    "raw": "\"1970-01-01T00:00Z[!u-ca=hebrew]\""
                   },
                   {
                     "type": "Literal",
                     "start": 452,
                     "end": 477,
-                    "value": "with ! and no time zone"
+                    "value": "with ! and no time zone",
+                    "raw": "\"with ! and no time zone\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 483,
                     "end": 522,
-                    "value": "1970-01-01T00:00Z[UTC][!u-ca=chinese]"
+                    "value": "1970-01-01T00:00Z[UTC][!u-ca=chinese]",
+                    "raw": "\"1970-01-01T00:00Z[UTC][!u-ca=chinese]\""
                   },
                   {
                     "type": "Literal",
                     "start": 524,
                     "end": 546,
-                    "value": "with ! and time zone"
+                    "value": "with ! and time zone",
+                    "raw": "\"with ! and time zone\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 585,
-                    "value": "1970-01-01T00:00Z[u-ca=discord]"
+                    "value": "1970-01-01T00:00Z[u-ca=discord]",
+                    "raw": "\"1970-01-01T00:00Z[u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 587,
                     "end": 610,
-                    "value": "annotation is ignored"
+                    "value": "annotation is ignored",
+                    "raw": "\"annotation is ignored\""
                   }
                 ]
               },
@@ -127,13 +137,15 @@
                     "type": "Literal",
                     "start": 616,
                     "end": 650,
-                    "value": "1970-01-01T00:00Z[!u-ca=discord]"
+                    "value": "1970-01-01T00:00Z[!u-ca=discord]",
+                    "raw": "\"1970-01-01T00:00Z[!u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 652,
                     "end": 682,
-                    "value": "annotation with ! is ignored"
+                    "value": "annotation with ! is ignored",
+                    "raw": "\"annotation with ! is ignored\""
                   }
                 ]
               },
@@ -146,13 +158,15 @@
                     "type": "Literal",
                     "start": 688,
                     "end": 735,
-                    "value": "1970-01-01T00:00Z[u-ca=iso8601][u-ca=discord]"
+                    "value": "1970-01-01T00:00Z[u-ca=iso8601][u-ca=discord]",
+                    "raw": "\"1970-01-01T00:00Z[u-ca=iso8601][u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 737,
                     "end": 766,
-                    "value": "two annotations are ignored"
+                    "value": "two annotations are ignored",
+                    "raw": "\"two annotations are ignored\""
                   }
                 ]
               }
@@ -333,7 +347,8 @@
                         "type": "Literal",
                         "start": 903,
                         "end": 904,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

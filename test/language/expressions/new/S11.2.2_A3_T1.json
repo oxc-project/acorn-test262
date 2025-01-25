@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 333,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "arguments": []
             }
@@ -48,7 +49,8 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 390,
-                  "value": "#1: new true throw TypeError"
+                  "value": "#1: new true throw TypeError",
+                  "raw": "'#1: new true throw TypeError'"
                 }
               ]
             }
@@ -106,7 +108,8 @@
                   "type": "Literal",
                   "start": 443,
                   "end": 447,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -133,7 +136,8 @@
                           "type": "Literal",
                           "start": 478,
                           "end": 508,
-                          "value": "#1: new true throw TypeError"
+                          "value": "#1: new true throw TypeError",
+                          "raw": "'#1: new true throw TypeError'"
                         }
                       ]
                     }
@@ -175,7 +179,8 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 549,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             ],
@@ -217,7 +222,8 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 626,
-                  "value": "#2: var x = true; new x throw TypeError"
+                  "value": "#2: var x = true; new x throw TypeError",
+                  "raw": "'#2: var x = true; new x throw TypeError'"
                 }
               ]
             }
@@ -275,7 +281,8 @@
                   "type": "Literal",
                   "start": 679,
                   "end": 683,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -302,7 +309,8 @@
                           "type": "Literal",
                           "start": 714,
                           "end": 755,
-                          "value": "#2: var x = true; new x throw TypeError"
+                          "value": "#2: var x = true; new x throw TypeError",
+                          "raw": "'#2: var x = true; new x throw TypeError'"
                         }
                       ]
                     }
@@ -344,7 +352,8 @@
                   "type": "Literal",
                   "start": 792,
                   "end": 796,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             ],
@@ -386,7 +395,8 @@
                   "type": "Literal",
                   "start": 834,
                   "end": 877,
-                  "value": "#3: var x = true; new x() throw TypeError"
+                  "value": "#3: var x = true; new x() throw TypeError",
+                  "raw": "'#3: var x = true; new x() throw TypeError'"
                 }
               ]
             }
@@ -444,7 +454,8 @@
                   "type": "Literal",
                   "start": 931,
                   "end": 935,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -471,7 +482,8 @@
                           "type": "Literal",
                           "start": 966,
                           "end": 1009,
-                          "value": "#3: var x = true; new x() throw TypeError"
+                          "value": "#3: var x = true; new x() throw TypeError",
+                          "raw": "'#3: var x = true; new x() throw TypeError'"
                         }
                       ]
                     }

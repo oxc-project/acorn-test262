@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 350,
-                "value": "2019-10-01T09:00:00Z"
+                "value": "2019-10-01T09:00:00Z",
+                "raw": "\"2019-10-01T09:00:00Z\""
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 381,
-                "value": "2019-10-01T09:00:00Z[UTC]"
+                "value": "2019-10-01T09:00:00Z[UTC]",
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 401,
-                "value": "09:00:00Z[UTC]"
+                "value": "09:00:00Z[UTC]",
+                "raw": "\"09:00:00Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 416,
-                "value": "09:00:00Z"
+                "value": "09:00:00Z",
+                "raw": "\"09:00:00Z\""
               }
             ]
           }
@@ -246,7 +250,8 @@
                         "type": "Literal",
                         "start": 590,
                         "end": 670,
-                        "value": "String with UTC designator should not be valid as a PlainTime (first argument)"
+                        "value": "String with UTC designator should not be valid as a PlainTime (first argument)",
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime (first argument)\""
                       }
                     ],
                     "optional": false
@@ -352,7 +357,8 @@
                         "type": "Literal",
                         "start": 767,
                         "end": 848,
-                        "value": "String with UTC designator should not be valid as a PlainTime (second argument)"
+                        "value": "String with UTC designator should not be valid as a PlainTime (second argument)",
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime (second argument)\""
                       }
                     ],
                     "optional": false

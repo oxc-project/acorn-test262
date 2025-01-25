@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 596,
-                "value": "hasIndices"
+                "value": "hasIndices",
+                "raw": "\"hasIndices\""
               }
             ],
             "optional": false
@@ -138,7 +139,8 @@
             "type": "Literal",
             "start": 637,
             "end": 653,
-            "value": "get hasIndices"
+            "value": "get hasIndices",
+            "raw": "\"get hasIndices\""
           }
         ],
         "optional": false
@@ -182,7 +184,8 @@
             "type": "Literal",
             "start": 683,
             "end": 689,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -206,7 +209,8 @@
                   "type": "Literal",
                   "start": 707,
                   "end": 712,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -227,7 +231,8 @@
                   "type": "Literal",
                   "start": 726,
                   "end": 731,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -248,7 +253,8 @@
                   "type": "Literal",
                   "start": 749,
                   "end": 753,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

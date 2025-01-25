@@ -74,7 +74,8 @@
                                 "type": "Literal",
                                 "start": 722,
                                 "end": 725,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               }
                             ]
                           }
@@ -146,13 +147,15 @@
                             "type": "Literal",
                             "start": 774,
                             "end": 783,
-                            "value": "test262"
+                            "value": "test262",
+                            "raw": "'test262'"
                           },
                           {
                             "type": "Literal",
                             "start": 785,
                             "end": 794,
-                            "value": "ecma262"
+                            "value": "ecma262",
+                            "raw": "'ecma262'"
                           }
                         ],
                         "optional": false
@@ -161,13 +164,15 @@
                         "type": "Literal",
                         "start": 801,
                         "end": 805,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 811,
                         "end": 880,
-                        "value": "Reflect.set(\"new TA([42n])\", \"test262\", \"ecma262\") must return true"
+                        "value": "Reflect.set(\"new TA([42n])\", \"test262\", \"ecma262\") must return true",
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"test262\", \"ecma262\") must return true'"
                       }
                     ],
                     "optional": false
@@ -224,13 +229,15 @@
                         "type": "Literal",
                         "start": 922,
                         "end": 931,
-                        "value": "ecma262"
+                        "value": "ecma262",
+                        "raw": "'ecma262'"
                       },
                       {
                         "type": "Literal",
                         "start": 933,
                         "end": 975,
-                        "value": "The value of sample.test262 is \"ecma262\""
+                        "value": "The value of sample.test262 is \"ecma262\"",
+                        "raw": "'The value of sample.test262 is \"ecma262\"'"
                       }
                     ],
                     "optional": false
@@ -298,13 +305,15 @@
                             "type": "Literal",
                             "start": 1023,
                             "end": 1032,
-                            "value": "test262"
+                            "value": "test262",
+                            "raw": "'test262'"
                           },
                           {
                             "type": "Literal",
                             "start": 1034,
                             "end": 1042,
-                            "value": "es3000"
+                            "value": "es3000",
+                            "raw": "'es3000'"
                           }
                         ],
                         "optional": false
@@ -313,13 +322,15 @@
                         "type": "Literal",
                         "start": 1049,
                         "end": 1053,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1059,
                         "end": 1127,
-                        "value": "Reflect.set(\"new TA([42n])\", \"test262\", \"es3000\") must return true"
+                        "value": "Reflect.set(\"new TA([42n])\", \"test262\", \"es3000\") must return true",
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"test262\", \"es3000\") must return true'"
                       }
                     ],
                     "optional": false
@@ -376,13 +387,15 @@
                         "type": "Literal",
                         "start": 1169,
                         "end": 1177,
-                        "value": "es3000"
+                        "value": "es3000",
+                        "raw": "'es3000'"
                       },
                       {
                         "type": "Literal",
                         "start": 1179,
                         "end": 1220,
-                        "value": "The value of sample.test262 is \"es3000\""
+                        "value": "The value of sample.test262 is \"es3000\"",
+                        "raw": "'The value of sample.test262 is \"es3000\"'"
                       }
                     ],
                     "optional": false
@@ -426,7 +439,8 @@
                         "type": "Literal",
                         "start": 1256,
                         "end": 1261,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -450,7 +464,8 @@
                               "type": "Literal",
                               "start": 1279,
                               "end": 1284,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           },
@@ -543,13 +558,15 @@
                             "type": "Literal",
                             "start": 1353,
                             "end": 1358,
-                            "value": "foo"
+                            "value": "foo",
+                            "raw": "'foo'"
                           },
                           {
                             "type": "Literal",
                             "start": 1360,
                             "end": 1362,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -558,13 +575,15 @@
                         "type": "Literal",
                         "start": 1365,
                         "end": 1370,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 1372,
                         "end": 1431,
-                        "value": "Reflect.set(\"new TA([42n])\", \"foo\", 42) must return false"
+                        "value": "Reflect.set(\"new TA([42n])\", \"foo\", 42) must return false",
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"foo\", 42) must return false'"
                       }
                     ],
                     "optional": false
@@ -627,7 +646,8 @@
                         "type": "Literal",
                         "start": 1476,
                         "end": 1534,
-                        "value": "The value of sample.foo is expected to equal `undefined`"
+                        "value": "The value of sample.foo is expected to equal `undefined`",
+                        "raw": "'The value of sample.foo is expected to equal `undefined`'"
                       }
                     ],
                     "optional": false

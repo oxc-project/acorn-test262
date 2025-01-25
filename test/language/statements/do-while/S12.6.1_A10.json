@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -68,7 +69,8 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 416,
-                "value": "function"
+                "value": "function",
+                "raw": "\"function\""
               }
             },
             "consequent": {
@@ -101,7 +103,8 @@
                         "type": "Literal",
                         "start": 432,
                         "end": 433,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -138,7 +141,8 @@
                       "type": "Literal",
                       "start": 478,
                       "end": 479,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -194,7 +198,8 @@
           "type": "Literal",
           "start": 634,
           "end": 635,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -221,7 +226,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 799,
-                  "value": "#1: FunctionExpression within a \"do-while\" statement is allowed, but no function with the given name will appear in the global context"
+                  "value": "#1: FunctionExpression within a \"do-while\" statement is allowed, but no function with the given name will appear in the global context",
+                  "raw": "'#1: FunctionExpression within a \"do-while\" statement is allowed, but no function with the given name will appear in the global context'"
                 }
               ]
             }

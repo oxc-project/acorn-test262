@@ -45,14 +45,16 @@
                       "type": "Literal",
                       "start": 379,
                       "end": 380,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "operator": "===",
                     "right": {
                       "type": "Literal",
                       "start": 385,
                       "end": 386,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -71,7 +73,8 @@
                       "type": "Literal",
                       "start": 393,
                       "end": 398,
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     }
                   }
                 }
@@ -139,7 +142,8 @@
             "type": "Literal",
             "start": 455,
             "end": 529,
-            "value": "The value of n_obj.constructor is expected to equal the value of Boolean"
+            "value": "The value of n_obj.constructor is expected to equal the value of Boolean",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'"
           }
         ],
         "optional": false
@@ -190,13 +194,15 @@
             "type": "Literal",
             "start": 565,
             "end": 573,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 631,
-            "value": "The value of `typeof n_obj` is expected to be \"object\""
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -232,14 +238,16 @@
               "type": "Literal",
               "start": 650,
               "end": 654,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 721,
-            "value": "The result of evaluating (n_obj == true) is expected to be true"
+            "value": "The result of evaluating (n_obj == true) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == true) is expected to be true'"
           }
         ],
         "optional": false
@@ -283,13 +291,15 @@
             "type": "Literal",
             "start": 751,
             "end": 755,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 789,
-            "value": "The value of n_obj is not true"
+            "value": "The value of n_obj is not true",
+            "raw": "'The value of n_obj is not true'"
           }
         ],
         "optional": false

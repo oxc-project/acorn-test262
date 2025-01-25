@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 354,
-                "value": 10000
+                "value": 10000,
+                "raw": "10_000"
               }
             ],
             "optional": false
@@ -111,7 +112,8 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 396,
-                "value": "PT3H"
+                "value": "PT3H",
+                "raw": "\"PT3H\""
               }
             ],
             "optional": false
@@ -177,14 +179,16 @@
               "type": "Literal",
               "start": 442,
               "end": 461,
-              "value": "10790000000000n"
+              "value": "10790000000000n",
+              "raw": "10_790_000_000_000n"
             }
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 488,
-            "value": "epochNanoseconds result"
+            "value": "epochNanoseconds result",
+            "raw": "\"epochNanoseconds result\""
           }
         ],
         "optional": false

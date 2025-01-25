@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 289,
             "end": 311,
-            "value": "Math.trunc(Infinity)"
+            "value": "Math.trunc(Infinity)",
+            "raw": "'Math.trunc(Infinity)'"
           }
         ],
         "optional": false
@@ -165,7 +166,8 @@
             "type": "Literal",
             "start": 365,
             "end": 388,
-            "value": "Math.trunc(-Infinity)"
+            "value": "Math.trunc(-Infinity)",
+            "raw": "'Math.trunc(-Infinity)'"
           }
         ],
         "optional": false

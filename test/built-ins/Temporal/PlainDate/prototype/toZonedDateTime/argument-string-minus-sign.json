@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 296,
                 "end": 331,
-                "value": "1976-11-18T15:23:30.12−02:00"
+                "value": "1976-11-18T15:23:30.12−02:00",
+                "raw": "\"1976-11-18T15:23:30.12\\u221202:00\""
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 367,
-                "value": "−009999-11-18T15:23:30.12"
+                "value": "−009999-11-18T15:23:30.12",
+                "raw": "\"\\u2212009999-11-18T15:23:30.12\""
               }
             ]
           }
@@ -84,19 +86,22 @@
                 "type": "Literal",
                 "start": 412,
                 "end": 416,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 419,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -263,7 +268,8 @@
                                     "type": "Literal",
                                     "start": 555,
                                     "end": 560,
-                                    "value": "UTC"
+                                    "value": "UTC",
+                                    "raw": "\"UTC\""
                                   },
                                   "kind": "init"
                                 }

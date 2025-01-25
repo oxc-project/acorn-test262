@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 286,
-                "value": "12"
+                "value": "12",
+                "raw": "\"12\""
               },
               {
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
-                "value": "34"
+                "value": "34",
+                "raw": "\"34\""
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 298,
-                "value": "56"
+                "value": "56",
+                "raw": "\"56\""
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 304,
-                "value": "78"
+                "value": "78",
+                "raw": "\"78\""
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 310,
-                "value": "90"
+                "value": "90",
+                "raw": "\"90\""
               }
             ]
           }
@@ -78,7 +83,8 @@
             "type": "Literal",
             "start": 329,
             "end": 346,
-            "value": "123456abcde7890"
+            "value": "123456abcde7890",
+            "raw": "\"123456abcde7890\""
           }
         }
       ],
@@ -125,6 +131,7 @@
                 "start": 457,
                 "end": 465,
                 "value": {},
+                "raw": "/\\d{2}/g",
                 "regex": {
                   "pattern": "\\d{2}",
                   "flags": "g"
@@ -147,7 +154,8 @@
           "type": "Literal",
           "start": 478,
           "end": 479,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -178,7 +186,8 @@
                     "type": "Literal",
                     "start": 508,
                     "end": 591,
-                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{2}/g).length=== 5. Actual: "
+                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{2}/g).length=== 5. Actual: ",
+                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g).length=== 5. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -214,6 +223,7 @@
                           "start": 609,
                           "end": 617,
                           "value": {},
+                          "raw": "/\\d{2}/g",
                           "regex": {
                             "pattern": "\\d{2}",
                             "flags": "g"
@@ -262,7 +272,8 @@
               "type": "Literal",
               "start": 816,
               "end": 817,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -358,6 +369,7 @@
                       "start": 871,
                       "end": 879,
                       "value": {},
+                      "raw": "/\\d{2}/g",
                       "regex": {
                         "pattern": "\\d{2}",
                         "flags": "g"
@@ -448,7 +460,8 @@
                                       "type": "Literal",
                                       "start": 933,
                                       "end": 938,
-                                      "value": "#2."
+                                      "value": "#2.",
+                                      "raw": "'#2.'"
                                     },
                                     "operator": "+",
                                     "right": {
@@ -463,7 +476,8 @@
                                     "type": "Literal",
                                     "start": 946,
                                     "end": 1048,
-                                    "value": ": __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\d{2}/g)["
+                                    "value": ": __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\d{2}/g)[",
+                                    "raw": "': __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g)['"
                                   }
                                 },
                                 "operator": "+",
@@ -479,7 +493,8 @@
                                 "type": "Literal",
                                 "start": 1056,
                                 "end": 1072,
-                                "value": "]===__matches["
+                                "value": "]===__matches[",
+                                "raw": "']===__matches['"
                               }
                             },
                             "operator": "+",
@@ -495,7 +510,8 @@
                             "type": "Literal",
                             "start": 1080,
                             "end": 1093,
-                            "value": "]. Actual: "
+                            "value": "]. Actual: ",
+                            "raw": "']. Actual: '"
                           }
                         },
                         "operator": "+",
@@ -532,6 +548,7 @@
                                 "start": 1111,
                                 "end": 1119,
                                 "value": {},
+                                "raw": "/\\d{2}/g",
                                 "regex": {
                                   "pattern": "\\d{2}",
                                   "flags": "g"

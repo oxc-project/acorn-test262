@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1559,
             "end": 1560,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -104,7 +105,8 @@
                             "type": "Literal",
                             "start": 1591,
                             "end": 1639,
-                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js"
+                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
+                            "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
                           },
                           "options": null
                         },
@@ -197,7 +199,8 @@
                                       "type": "Literal",
                                       "start": 1702,
                                       "end": 1703,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ],
                                   "optional": false
@@ -254,7 +257,8 @@
                                       "type": "Literal",
                                       "start": 1745,
                                       "end": 1746,
-                                      "value": 2
+                                      "value": 2,
+                                      "raw": "2"
                                     }
                                   ],
                                   "optional": false

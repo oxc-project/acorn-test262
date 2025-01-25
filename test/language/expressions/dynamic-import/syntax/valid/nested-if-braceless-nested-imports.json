@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1073,
         "end": 1077,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -33,7 +34,8 @@
                 "type": "Literal",
                 "start": 1100,
                 "end": 1120,
-                "value": "./empty_FIXTURE.js"
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'"
               },
               "options": null
             },

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1861,
             "end": 1862,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -102,7 +103,8 @@
                           "type": "Literal",
                           "start": 1913,
                           "end": 1914,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "FunctionExpression",
@@ -200,7 +202,8 @@
                   "type": "Literal",
                   "start": 1974,
                   "end": 1981,
-                  "value": "cover"
+                  "value": "cover",
+                  "raw": "'cover'"
                 }
               ],
               "optional": false
@@ -257,7 +260,8 @@
                   "type": "Literal",
                   "start": 2019,
                   "end": 2027,
-                  "value": "xCover"
+                  "value": "xCover",
+                  "raw": "'xCover'"
                 }
               ],
               "optional": false
@@ -282,7 +286,8 @@
                 "type": "Literal",
                 "start": 2046,
                 "end": 2047,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -327,13 +332,15 @@
             "type": "Literal",
             "start": 2080,
             "end": 2081,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2083,
             "end": 2115,
-            "value": "iteration occurred as expected"
+            "value": "iteration occurred as expected",
+            "raw": "'iteration occurred as expected'"
           }
         ],
         "optional": false

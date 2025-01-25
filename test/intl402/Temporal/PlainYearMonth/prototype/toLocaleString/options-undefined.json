@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 340,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "CallExpression",
@@ -76,7 +77,8 @@
                     "type": "Literal",
                     "start": 356,
                     "end": 360,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 ],
                 "optional": false
@@ -197,13 +199,15 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 471,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 473,
                 "end": 474,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Identifier",
@@ -312,7 +316,8 @@
                 "type": "Literal",
                 "start": 589,
                 "end": 593,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               },
               {
                 "type": "Identifier",
@@ -371,7 +376,8 @@
             "type": "Literal",
             "start": 650,
             "end": 703,
-            "value": "default locale is determined by Intl.DateTimeFormat"
+            "value": "default locale is determined by Intl.DateTimeFormat",
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
           }
         ],
         "optional": false
@@ -420,7 +426,8 @@
                 "type": "Literal",
                 "start": 755,
                 "end": 759,
-                "value": "en"
+                "value": "en",
+                "raw": "'en'"
               }
             ],
             "optional": false
@@ -473,7 +480,8 @@
             "type": "Literal",
             "start": 805,
             "end": 858,
-            "value": "default locale is determined by Intl.DateTimeFormat"
+            "value": "default locale is determined by Intl.DateTimeFormat",
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
           }
         ],
         "optional": false

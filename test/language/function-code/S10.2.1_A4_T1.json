@@ -67,7 +67,8 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 584,
-                    "value": 7
+                    "value": 7,
+                    "raw": "7"
                   }
                 }
               ]
@@ -180,7 +181,8 @@
                   "type": "Literal",
                   "start": 675,
                   "end": 702,
-                  "value": "#1: f1() returns function"
+                  "value": "#1: f1() returns function",
+                  "raw": "'#1: f1() returns function'"
                 }
               ]
             }
@@ -260,7 +262,8 @@
                     "type": "Literal",
                     "start": 781,
                     "end": 782,
-                    "value": 7
+                    "value": 7,
+                    "raw": "7"
                   }
                 }
               ]
@@ -305,7 +308,8 @@
               "type": "Literal",
               "start": 804,
               "end": 814,
-              "value": "function"
+              "value": "function",
+              "raw": "\"function\""
             }
           }
         }
@@ -334,7 +338,8 @@
                   "type": "Literal",
                   "start": 843,
                   "end": 868,
-                  "value": "#2: f2() === \"function\""
+                  "value": "#2: f2() === \"function\"",
+                  "raw": "'#2: f2() === \"function\"'"
                 }
               ]
             }
@@ -407,7 +412,8 @@
                     "type": "Literal",
                     "start": 963,
                     "end": 964,
-                    "value": 7
+                    "value": 7,
+                    "raw": "7"
                   }
                 }
               ]
@@ -452,7 +458,8 @@
               "type": "Literal",
               "start": 987,
               "end": 997,
-              "value": "function"
+              "value": "function",
+              "raw": "\"function\""
             }
           }
         }
@@ -481,7 +488,8 @@
                   "type": "Literal",
                   "start": 1026,
                   "end": 1051,
-                  "value": "#3: f3() === \"function\""
+                  "value": "#3: f3() === \"function\"",
+                  "raw": "'#3: f3() === \"function\"'"
                 }
               ]
             }

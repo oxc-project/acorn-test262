@@ -92,7 +92,8 @@
                     "type": "Literal",
                     "start": 314,
                     "end": 351,
-                    "value": "#1: x = {}; eval(x) === x. Actual: "
+                    "value": "#1: x = {}; eval(x) === x. Actual: ",
+                    "raw": "'#1: x = {}; eval(x) === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -158,7 +159,8 @@
               "type": "Literal",
               "start": 394,
               "end": 395,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
@@ -228,7 +230,8 @@
                     "type": "Literal",
                     "start": 444,
                     "end": 492,
-                    "value": "#2: x = new Number(1); eval(x) === x. Actual: "
+                    "value": "#2: x = new Number(1); eval(x) === x. Actual: ",
+                    "raw": "'#2: x = new Number(1); eval(x) === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -294,7 +297,8 @@
               "type": "Literal",
               "start": 536,
               "end": 540,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ]
         }
@@ -364,7 +368,8 @@
                     "type": "Literal",
                     "start": 589,
                     "end": 641,
-                    "value": "#3: x = new Boolean(true); eval(x) === x. Actual: "
+                    "value": "#3: x = new Boolean(true); eval(x) === x. Actual: ",
+                    "raw": "'#3: x = new Boolean(true); eval(x) === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -430,7 +435,8 @@
               "type": "Literal",
               "start": 684,
               "end": 689,
-              "value": "1+1"
+              "value": "1+1",
+              "raw": "\"1+1\""
             }
           ]
         }
@@ -500,7 +506,8 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 788,
-                    "value": "#4: x = new String(\"1\"); eval(x) === x. Actual: "
+                    "value": "#4: x = new String(\"1\"); eval(x) === x. Actual: ",
+                    "raw": "'#4: x = new String(\"1\"); eval(x) === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {

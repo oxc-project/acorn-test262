@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 306,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           }
@@ -142,7 +143,8 @@
           "type": "Literal",
           "start": 494,
           "end": 501,
-          "value": "/ABC/"
+          "value": "/ABC/",
+          "raw": "\"/ABC/\""
         }
       },
       "consequent": {
@@ -173,7 +175,8 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 676,
-                    "value": "#1: var __reg = new RegExp(\"abc\"); __reg.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __reg.toLocaleUpperCase() === \"/ABC/\". Actual: "
+                    "value": "#1: var __reg = new RegExp(\"abc\"); __reg.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __reg.toLocaleUpperCase() === \"/ABC/\". Actual: ",
+                    "raw": "'#1: var __reg = new RegExp(\"abc\"); __reg.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __reg.toLocaleUpperCase() === \"/ABC/\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

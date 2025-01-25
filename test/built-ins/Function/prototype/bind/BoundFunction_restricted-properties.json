@@ -67,7 +67,8 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 377,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -132,7 +133,8 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 427,
-                "value": "caller"
+                "value": "caller",
+                "raw": "'caller'"
               }
             ],
             "optional": false
@@ -141,13 +143,15 @@
             "type": "Literal",
             "start": 430,
             "end": 435,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 522,
-            "value": "Functions created using Function.prototype.bind() do not have own property \"caller\""
+            "value": "Functions created using Function.prototype.bind() do not have own property \"caller\"",
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'"
           }
         ],
         "optional": false
@@ -209,7 +213,8 @@
                 "type": "Literal",
                 "start": 563,
                 "end": 574,
-                "value": "arguments"
+                "value": "arguments",
+                "raw": "'arguments'"
               }
             ],
             "optional": false
@@ -218,13 +223,15 @@
             "type": "Literal",
             "start": 577,
             "end": 582,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 672,
-            "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\""
+            "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\"",
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'"
           }
         ],
         "optional": false

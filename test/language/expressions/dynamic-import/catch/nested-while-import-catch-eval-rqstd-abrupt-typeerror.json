@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1323,
             "end": 1324,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -96,7 +97,8 @@
                         "type": "Literal",
                         "start": 1355,
                         "end": 1396,
-                        "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js"
+                        "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
+                        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
                       },
                       "options": null
                     },
@@ -182,7 +184,8 @@
                                   "type": "Literal",
                                   "start": 1449,
                                   "end": 1460,
-                                  "value": "TypeError"
+                                  "value": "TypeError",
+                                  "raw": "'TypeError'"
                                 }
                               ],
                               "optional": false

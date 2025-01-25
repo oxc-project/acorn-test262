@@ -35,7 +35,8 @@
                   "type": "Literal",
                   "start": 1582,
                   "end": 1601,
-                  "value": "first declaration"
+                  "value": "first declaration",
+                  "raw": "'first declaration'"
                 }
               }
             ]
@@ -62,7 +63,8 @@
             "type": "Literal",
             "start": 1618,
             "end": 1698,
-            "value": "if (false) function _f() {} else function f() { return \"second declaration\"; }"
+            "value": "if (false) function _f() {} else function f() { return \"second declaration\"; }",
+            "raw": "'if (false) function _f() {} else function f() { return \"second declaration\"; }'"
           }
         ],
         "optional": false
@@ -113,7 +115,8 @@
             "type": "Literal",
             "start": 1730,
             "end": 1740,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -164,7 +167,8 @@
             "type": "Literal",
             "start": 1765,
             "end": 1785,
-            "value": "second declaration"
+            "value": "second declaration",
+            "raw": "'second declaration'"
           }
         ],
         "optional": false

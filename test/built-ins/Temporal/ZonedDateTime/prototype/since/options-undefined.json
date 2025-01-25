@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 350,
-                "value": "957270896987654321n"
+                "value": "957270896987654321n",
+                "raw": "957270896_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 357,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 423,
-                "value": "959949296987654322n"
+                "value": "959949296987654322n",
+                "raw": "959949296_987_654_322n"
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 430,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -226,13 +230,15 @@
             "type": "Literal",
             "start": 517,
             "end": 518,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 551,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -289,13 +295,15 @@
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 622,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -352,13 +360,15 @@
             "type": "Literal",
             "start": 658,
             "end": 659,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 692,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -415,13 +425,15 @@
             "type": "Literal",
             "start": 727,
             "end": 728,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 761,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -478,13 +490,15 @@
             "type": "Literal",
             "start": 797,
             "end": 800,
-            "value": 744
+            "value": 744,
+            "raw": "744"
           },
           {
             "type": "Literal",
             "start": 802,
             "end": 833,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -541,13 +555,15 @@
             "type": "Literal",
             "start": 875,
             "end": 876,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 932,
-            "value": "default smallest unit is nanoseconds and no rounding"
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\""
           }
         ],
         "optional": false
@@ -656,13 +672,15 @@
             "type": "Literal",
             "start": 1008,
             "end": 1009,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1042,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -719,13 +737,15 @@
             "type": "Literal",
             "start": 1079,
             "end": 1080,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1082,
             "end": 1113,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -782,13 +802,15 @@
             "type": "Literal",
             "start": 1149,
             "end": 1150,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1152,
             "end": 1183,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -845,13 +867,15 @@
             "type": "Literal",
             "start": 1218,
             "end": 1219,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1221,
             "end": 1252,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -908,13 +932,15 @@
             "type": "Literal",
             "start": 1288,
             "end": 1291,
-            "value": 744
+            "value": 744,
+            "raw": "744"
           },
           {
             "type": "Literal",
             "start": 1293,
             "end": 1324,
-            "value": "default largest unit is hours"
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\""
           }
         ],
         "optional": false
@@ -971,13 +997,15 @@
             "type": "Literal",
             "start": 1366,
             "end": 1367,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1369,
             "end": 1423,
-            "value": "default smallest unit is nanoseconds and no rounding"
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\""
           }
         ],
         "optional": false

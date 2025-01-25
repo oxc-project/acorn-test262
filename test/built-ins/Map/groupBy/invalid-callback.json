@@ -89,7 +89,8 @@
                         "type": "Literal",
                         "start": 497,
                         "end": 501,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -102,7 +103,8 @@
             "type": "Literal",
             "start": 506,
             "end": 538,
-            "value": "null callback throws TypeError"
+            "value": "null callback throws TypeError",
+            "raw": "\"null callback throws TypeError\""
           }
         ],
         "optional": false
@@ -207,7 +209,8 @@
             "type": "Literal",
             "start": 612,
             "end": 649,
-            "value": "undefined callback throws TypeError"
+            "value": "undefined callback throws TypeError",
+            "raw": "\"undefined callback throws TypeError\""
           }
         ],
         "optional": false
@@ -312,7 +315,8 @@
             "type": "Literal",
             "start": 716,
             "end": 750,
-            "value": "object callback throws TypeError"
+            "value": "object callback throws TypeError",
+            "raw": "\"object callback throws TypeError\""
           }
         ],
         "optional": false

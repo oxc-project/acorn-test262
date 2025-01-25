@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 305,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 307,
                 "end": 309,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 313,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 317,
-                "value": 14
+                "value": 14,
+                "raw": "14"
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 321,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 325,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 330,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 335,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 340,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               }
             ]
           }
@@ -176,7 +185,8 @@
             "type": "Literal",
             "start": 394,
             "end": 425,
-            "value": "throws without any parameters"
+            "value": "throws without any parameters",
+            "raw": "\"throws without any parameters\""
           }
         ],
         "optional": false

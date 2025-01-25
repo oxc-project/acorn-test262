@@ -106,7 +106,8 @@
                 "type": "Literal",
                 "start": 889,
                 "end": 901,
-                "value": "var x = 1;"
+                "value": "var x = 1;",
+                "raw": "'var x = 1;'"
               }
             ],
             "optional": false
@@ -223,7 +224,8 @@
                     "type": "Literal",
                     "start": 1009,
                     "end": 1010,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 }
               ],
@@ -279,13 +281,15 @@
             "type": "Literal",
             "start": 1047,
             "end": 1048,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1080,
-            "value": "reference preceding statment"
+            "value": "reference preceding statment",
+            "raw": "'reference preceding statment'"
           }
         ],
         "optional": false
@@ -336,13 +340,15 @@
             "type": "Literal",
             "start": 1113,
             "end": 1114,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1152,
-            "value": "reference from Expression position"
+            "value": "reference from Expression position",
+            "raw": "'reference from Expression position'"
           }
         ],
         "optional": false
@@ -393,13 +399,15 @@
             "type": "Literal",
             "start": 1185,
             "end": 1186,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1188,
             "end": 1223,
-            "value": "reference from Statement position"
+            "value": "reference from Statement position",
+            "raw": "'reference from Statement position'"
           }
         ],
         "optional": false
@@ -443,13 +451,15 @@
             "type": "Literal",
             "start": 1246,
             "end": 1247,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1280,
-            "value": "reference following statement"
+            "value": "reference following statement",
+            "raw": "'reference following statement'"
           }
         ],
         "optional": false

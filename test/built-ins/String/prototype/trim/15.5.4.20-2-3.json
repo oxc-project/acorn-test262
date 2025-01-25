@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 336,
             "end": 341,
-            "value": "NaN"
+            "value": "NaN",
+            "raw": "\"NaN\""
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 376,
-            "value": "String.prototype.trim.call(NaN)"
+            "value": "String.prototype.trim.call(NaN)",
+            "raw": "'String.prototype.trim.call(NaN)'"
           }
         ],
         "optional": false

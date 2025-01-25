@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 694,
             "end": 715,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 745,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -80,7 +82,8 @@
             "type": "Literal",
             "start": 750,
             "end": 783,
-            "value": "str.startsWith(\"\") returns true"
+            "value": "str.startsWith(\"\") returns true",
+            "raw": "'str.startsWith(\"\") returns true'"
           }
         ],
         "optional": false
@@ -129,7 +132,8 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 815,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "MemberExpression",
@@ -157,7 +161,8 @@
             "type": "Literal",
             "start": 832,
             "end": 877,
-            "value": "str.startsWith(\"\", str.length) returns true"
+            "value": "str.startsWith(\"\", str.length) returns true",
+            "raw": "'str.startsWith(\"\", str.length) returns true'"
           }
         ],
         "optional": false
@@ -206,7 +211,8 @@
                 "type": "Literal",
                 "start": 907,
                 "end": 909,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -215,7 +221,8 @@
             "type": "Literal",
             "start": 914,
             "end": 947,
-            "value": "str.startsWith(\"\") returns true"
+            "value": "str.startsWith(\"\") returns true",
+            "raw": "'str.startsWith(\"\") returns true'"
           }
         ],
         "optional": false
@@ -264,7 +271,8 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 979,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "Identifier",
@@ -279,7 +287,8 @@
             "type": "Literal",
             "start": 994,
             "end": 1037,
-            "value": "str.startsWith(\"\", Infinity) returns true"
+            "value": "str.startsWith(\"\", Infinity) returns true",
+            "raw": "'str.startsWith(\"\", Infinity) returns true'"
           }
         ],
         "optional": false

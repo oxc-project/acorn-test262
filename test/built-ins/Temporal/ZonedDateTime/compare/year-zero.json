@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 302,
                 "end": 304,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 311,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -84,19 +86,22 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 369,
-                "value": "-0000000-01-01T00:02Z[UTC]"
+                "value": "-0000000-01-01T00:02Z[UTC]",
+                "raw": "\"-0000000-01-01T00:02Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 406,
-                "value": "-0000000-01-01T00:02+00:00[UTC]"
+                "value": "-0000000-01-01T00:02+00:00[UTC]",
+                "raw": "\"-0000000-01-01T00:02+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 456,
-                "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]"
+                "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]",
+                "raw": "\"-0000000-01-01T00:02:00.000000000+00:00[UTC]\""
               }
             ]
           }
@@ -253,7 +258,8 @@
                         "type": "Literal",
                         "start": 585,
                         "end": 645,
-                        "value": "cannot use negative zero as extended year (first argument)"
+                        "value": "cannot use negative zero as extended year (first argument)",
+                        "raw": "\"cannot use negative zero as extended year (first argument)\""
                       }
                     ],
                     "optional": false
@@ -359,7 +365,8 @@
                         "type": "Literal",
                         "start": 740,
                         "end": 801,
-                        "value": "cannot use negative zero as extended year (second argument)"
+                        "value": "cannot use negative zero as extended year (second argument)",
+                        "raw": "\"cannot use negative zero as extended year (second argument)\""
                       }
                     ],
                     "optional": false

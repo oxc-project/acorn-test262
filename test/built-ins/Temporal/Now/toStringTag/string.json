@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 353,
             "end": 376,
-            "value": "[object Temporal.Now]"
+            "value": "[object Temporal.Now]",
+            "raw": "\"[object Temporal.Now]\""
           }
         ],
         "optional": false

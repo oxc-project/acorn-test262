@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 275,
                 "end": 282,
-                "value": " 1234"
+                "value": " 1234",
+                "raw": "' 1234'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 285,
             "end": 289,
-            "value": 1234
+            "value": 1234,
+            "raw": "1234"
           },
           {
             "type": "Literal",
             "start": 291,
             "end": 315,
-            "value": "<SP> should be ignored"
+            "value": "<SP> should be ignored",
+            "raw": "'<SP> should be ignored'"
           }
         ],
         "optional": false
@@ -160,7 +163,8 @@
                         "type": "Literal",
                         "start": 374,
                         "end": 381,
-                        "value": "12 34"
+                        "value": "12 34",
+                        "raw": "'12 34'"
                       }
                     ],
                     "optional": false
@@ -173,7 +177,8 @@
             "type": "Literal",
             "start": 387,
             "end": 459,
-            "value": "<SP> should produce a syntax error as whitespace results in two tokens"
+            "value": "<SP> should produce a syntax error as whitespace results in two tokens",
+            "raw": "'<SP> should produce a syntax error as whitespace results in two tokens'"
           }
         ],
         "optional": false

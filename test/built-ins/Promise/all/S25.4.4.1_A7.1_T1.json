@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ],
             "optional": false
@@ -227,7 +228,8 @@
                             "type": "Literal",
                             "start": 463,
                             "end": 528,
-                            "value": "The value of !!(pAll instanceof Promise) is expected to be true"
+                            "value": "The value of !!(pAll instanceof Promise) is expected to be true",
+                            "raw": "'The value of !!(pAll instanceof Promise) is expected to be true'"
                           }
                         ],
                         "optional": false
@@ -289,7 +291,8 @@
                             "type": "Literal",
                             "start": 569,
                             "end": 634,
-                            "value": "The value of !!(result instanceof Array) is expected to be true"
+                            "value": "The value of !!(result instanceof Array) is expected to be true",
+                            "raw": "'The value of !!(result instanceof Array) is expected to be true'"
                           }
                         ],
                         "optional": false
@@ -346,13 +349,15 @@
                             "type": "Literal",
                             "start": 671,
                             "end": 672,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 674,
                             "end": 722,
-                            "value": "The value of result.length is expected to be 1"
+                            "value": "The value of result.length is expected to be 1",
+                            "raw": "'The value of result.length is expected to be 1'"
                           }
                         ],
                         "optional": false
@@ -400,7 +405,8 @@
                               "type": "Literal",
                               "start": 751,
                               "end": 752,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             "computed": true,
                             "optional": false
@@ -409,13 +415,15 @@
                             "type": "Literal",
                             "start": 755,
                             "end": 756,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           },
                           {
                             "type": "Literal",
                             "start": 758,
                             "end": 802,
-                            "value": "The value of result[0] is expected to be 3"
+                            "value": "The value of result[0] is expected to be 3",
+                            "raw": "'The value of result[0] is expected to be 3'"
                           }
                         ],
                         "optional": false

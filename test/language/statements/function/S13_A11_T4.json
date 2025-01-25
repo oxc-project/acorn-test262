@@ -41,7 +41,8 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 380,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             ],
@@ -70,7 +71,8 @@
                     "type": "Literal",
                     "start": 397,
                     "end": 398,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],
@@ -221,7 +223,8 @@
                             "type": "Literal",
                             "start": 517,
                             "end": 528,
-                            "value": "undefined"
+                            "value": "undefined",
+                            "raw": "\"undefined\""
                           }
                         }
                       }
@@ -280,25 +283,29 @@
               "type": "Literal",
               "start": 671,
               "end": 674,
-              "value": "A"
+              "value": "A",
+              "raw": "\"A\""
             },
             {
               "type": "Literal",
               "start": 675,
               "end": 678,
-              "value": "B"
+              "value": "B",
+              "raw": "\"B\""
             },
             {
               "type": "Literal",
               "start": 679,
               "end": 680,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 681,
               "end": 682,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
           "optional": false
@@ -328,7 +335,8 @@
                   "type": "Literal",
                   "start": 711,
                   "end": 812,
-                  "value": "#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted"
+                  "value": "#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted",
+                  "raw": "'#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted'"
                 }
               ]
             }

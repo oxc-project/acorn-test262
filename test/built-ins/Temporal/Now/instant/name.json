@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 335,
             "end": 344,
-            "value": "instant"
+            "value": "instant",
+            "raw": "'instant'"
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 416,
-            "value": "The value of Temporal.Now.instant.name is expected to be \"instant\""
+            "value": "The value of Temporal.Now.instant.name is expected to be \"instant\"",
+            "raw": "'The value of Temporal.Now.instant.name is expected to be \"instant\"'"
           }
         ],
         "optional": false
@@ -143,7 +145,8 @@
             "type": "Literal",
             "start": 458,
             "end": 464,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -167,7 +170,8 @@
                   "type": "Literal",
                   "start": 482,
                   "end": 487,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 501,
                   "end": 506,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +214,8 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 528,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

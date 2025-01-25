@@ -175,19 +175,22 @@
                   "type": "Literal",
                   "start": 505,
                   "end": 509,
-                  "value": 1976
+                  "value": 1976,
+                  "raw": "1976"
                 },
                 {
                   "type": "Literal",
                   "start": 511,
                   "end": 513,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 {
                   "type": "Literal",
                   "start": 515,
                   "end": 520,
-                  "value": "M11"
+                  "value": "M11",
+                  "raw": "\"M11\""
                 }
               ],
               "optional": false
@@ -244,13 +247,15 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 578,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "Literal",
                   "start": 580,
                   "end": 615,
-                  "value": "calendar string should be iso8601"
+                  "value": "calendar string should be iso8601",
+                  "raw": "\"calendar string should be iso8601\""
                 }
               ],
               "optional": false
@@ -330,7 +335,8 @@
                             "type": "Literal",
                             "start": 677,
                             "end": 685,
-                            "value": "always"
+                            "value": "always",
+                            "raw": "\"always\""
                           },
                           "kind": "init"
                         }
@@ -343,13 +349,15 @@
                   "type": "Literal",
                   "start": 690,
                   "end": 716,
-                  "value": "1976-11-01[u-ca=iso8601]"
+                  "value": "1976-11-01[u-ca=iso8601]",
+                  "raw": "\"1976-11-01[u-ca=iso8601]\""
                 },
                 {
                   "type": "Literal",
                   "start": 718,
                   "end": 738,
-                  "value": "iso reference date"
+                  "value": "iso reference date",
+                  "raw": "\"iso reference date\""
                 }
               ],
               "optional": false
@@ -536,20 +544,23 @@
                     "type": "Literal",
                     "start": 946,
                     "end": 950,
-                    "value": 9999
+                    "value": 9999,
+                    "raw": "9999"
                   }
                 },
                 {
                   "type": "Literal",
                   "start": 952,
                   "end": 954,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 {
                   "type": "Literal",
                   "start": 956,
                   "end": 961,
-                  "value": "M11"
+                  "value": "M11",
+                  "raw": "\"M11\""
                 }
               ],
               "optional": false
@@ -606,13 +617,15 @@
                   "type": "Literal",
                   "start": 1010,
                   "end": 1019,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "Literal",
                   "start": 1021,
                   "end": 1056,
-                  "value": "calendar string should be iso8601"
+                  "value": "calendar string should be iso8601",
+                  "raw": "\"calendar string should be iso8601\""
                 }
               ],
               "optional": false
@@ -692,7 +705,8 @@
                             "type": "Literal",
                             "start": 1118,
                             "end": 1126,
-                            "value": "always"
+                            "value": "always",
+                            "raw": "\"always\""
                           },
                           "kind": "init"
                         }
@@ -705,13 +719,15 @@
                   "type": "Literal",
                   "start": 1131,
                   "end": 1160,
-                  "value": "-009999-11-01[u-ca=iso8601]"
+                  "value": "-009999-11-01[u-ca=iso8601]",
+                  "raw": "\"-009999-11-01[u-ca=iso8601]\""
                 },
                 {
                   "type": "Literal",
                   "start": 1162,
                   "end": 1182,
-                  "value": "iso reference date"
+                  "value": "iso reference date",
+                  "raw": "\"iso reference date\""
                 }
               ],
               "optional": false

@@ -45,7 +45,8 @@
                       "type": "Literal",
                       "start": 504,
                       "end": 505,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ]
                 },
@@ -66,7 +67,8 @@
               "type": "Literal",
               "start": 529,
               "end": 534,
-              "value": 60000
+              "value": 60000,
+              "raw": "60000"
             }
           }
         }
@@ -129,7 +131,8 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 586,
-                "value": "1970-01-01T00:00:00"
+                "value": "1970-01-01T00:00:00",
+                "raw": "'1970-01-01T00:00:00'"
               }
             ],
             "optional": false
@@ -200,7 +203,8 @@
                 "type": "Literal",
                 "start": 636,
                 "end": 648,
-                "value": "1970-01-01"
+                "value": "1970-01-01",
+                "raw": "'1970-01-01'"
               }
             ],
             "optional": false
@@ -209,7 +213,8 @@
             "type": "Literal",
             "start": 651,
             "end": 652,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

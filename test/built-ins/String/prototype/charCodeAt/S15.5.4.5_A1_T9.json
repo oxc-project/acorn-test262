@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 493,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ]
             },
@@ -79,7 +80,8 @@
           "type": "Literal",
           "start": 527,
           "end": 531,
-          "value": 52
+          "value": 52,
+          "raw": "0x34"
         }
       },
       "consequent": {
@@ -110,7 +112,8 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 671,
-                    "value": "#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ==="
+                    "value": "#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ===",
+                    "raw": "'#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -136,7 +139,8 @@
                             "type": "Literal",
                             "start": 685,
                             "end": 687,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ]
                       },

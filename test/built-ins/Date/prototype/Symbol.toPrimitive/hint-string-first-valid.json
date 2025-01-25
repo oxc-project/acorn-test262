@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 728,
             "end": 729,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 749,
             "end": 750,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -120,7 +122,8 @@
                             "type": "Literal",
                             "start": 803,
                             "end": 804,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -174,7 +177,8 @@
                             "type": "Literal",
                             "start": 855,
                             "end": 856,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -186,7 +190,8 @@
                           "type": "Literal",
                           "start": 869,
                           "end": 887,
-                          "value": "toString test262"
+                          "value": "toString test262",
+                          "raw": "'toString test262'"
                         }
                       }
                     ]
@@ -301,7 +306,8 @@
                 "type": "Literal",
                 "start": 962,
                 "end": 970,
-                "value": "string"
+                "value": "string",
+                "raw": "'string'"
               }
             ],
             "optional": false
@@ -310,7 +316,8 @@
             "type": "Literal",
             "start": 975,
             "end": 993,
-            "value": "toString test262"
+            "value": "toString test262",
+            "raw": "'toString test262'"
           }
         ],
         "optional": false
@@ -354,13 +361,15 @@
             "type": "Literal",
             "start": 1029,
             "end": 1030,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1069,
-            "value": "`valueOf` method was not referenced"
+            "value": "`valueOf` method was not referenced",
+            "raw": "'`valueOf` method was not referenced'"
           }
         ],
         "optional": false
@@ -404,13 +413,15 @@
             "type": "Literal",
             "start": 1102,
             "end": 1103,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1105,
             "end": 1149,
-            "value": "`toString` method was invoked exactly once"
+            "value": "`toString` method was invoked exactly once",
+            "raw": "'`toString` method was invoked exactly once'"
           }
         ],
         "optional": false

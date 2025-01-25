@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 995,
                             "end": 996,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -173,13 +174,15 @@
                         "type": "Literal",
                         "start": 1075,
                         "end": 1079,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1081,
                         "end": 1128,
-                        "value": "The value of `delete sample.Infinity` is true"
+                        "value": "The value of `delete sample.Infinity` is true",
+                        "raw": "'The value of `delete sample.Infinity` is true'"
                       }
                     ],
                     "optional": false

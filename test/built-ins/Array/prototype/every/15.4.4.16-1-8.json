@@ -109,7 +109,8 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 354,
-                "value": "hello\nworld\\!"
+                "value": "hello\nworld\\!",
+                "raw": "\"hello\\nworld\\\\!\""
               }
             ]
           }
@@ -214,13 +215,15 @@
             "type": "Literal",
             "start": 420,
             "end": 425,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 472,
-            "value": "Array.prototype.every.call(obj, callbackfn)"
+            "value": "Array.prototype.every.call(obj, callbackfn)",
+            "raw": "'Array.prototype.every.call(obj, callbackfn)'"
           }
         ],
         "optional": false

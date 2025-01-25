@@ -87,7 +87,8 @@
                         "type": "Literal",
                         "start": 922,
                         "end": 942,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false
@@ -281,7 +282,8 @@
                         "type": "Literal",
                         "start": 1114,
                         "end": 1134,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false
@@ -386,7 +388,8 @@
                         "type": "Literal",
                         "start": 1226,
                         "end": 1246,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false
@@ -580,7 +583,8 @@
                         "type": "Literal",
                         "start": 1418,
                         "end": 1438,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false
@@ -690,7 +694,8 @@
                         "type": "Literal",
                         "start": 1532,
                         "end": 1552,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false
@@ -884,7 +889,8 @@
                         "type": "Literal",
                         "start": 1724,
                         "end": 1744,
-                        "value": "[object Arguments]"
+                        "value": "[object Arguments]",
+                        "raw": "\"[object Arguments]\""
                       }
                     ],
                     "optional": false

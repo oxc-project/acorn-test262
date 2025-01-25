@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 302,
             "end": 307,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -79,7 +80,8 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 370,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             },
             "consequent": {
@@ -106,7 +108,8 @@
                       "type": "Literal",
                       "start": 391,
                       "end": 395,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -133,7 +136,8 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 421,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           }
@@ -185,7 +189,8 @@
                     "type": "Literal",
                     "start": 444,
                     "end": 446,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   }
                 ]
               },
@@ -209,7 +214,8 @@
                 "type": "Literal",
                 "start": 472,
                 "end": 475,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             ],
             "optional": false
@@ -218,13 +224,15 @@
             "type": "Literal",
             "start": 478,
             "end": 482,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 519,
-            "value": "[11].reduceRight(callbackfn, 100)"
+            "value": "[11].reduceRight(callbackfn, 100)",
+            "raw": "'[11].reduceRight(callbackfn, 100)'"
           }
         ],
         "optional": false
@@ -255,7 +263,8 @@
             "type": "Literal",
             "start": 541,
             "end": 562,
-            "value": "testResult !== true"
+            "value": "testResult !== true",
+            "raw": "'testResult !== true'"
           }
         ],
         "optional": false

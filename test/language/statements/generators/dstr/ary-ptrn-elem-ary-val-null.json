@@ -117,7 +117,8 @@
                             "type": "Literal",
                             "start": 1945,
                             "end": 1949,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

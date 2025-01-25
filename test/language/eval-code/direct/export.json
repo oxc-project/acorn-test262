@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 737,
-                        "value": "export default null;"
+                        "value": "export default null;",
+                        "raw": "'export default null;'"
                       }
                     ],
                     "optional": false

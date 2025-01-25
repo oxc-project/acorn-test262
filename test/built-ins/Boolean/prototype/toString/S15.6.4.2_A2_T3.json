@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 486,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 515,
             "end": 525,
-            "value": "toString"
+            "value": "toString",
+            "raw": "\"toString\""
           },
           {
             "type": "ObjectExpression",
@@ -255,7 +257,8 @@
                 "type": "Literal",
                 "start": 638,
                 "end": 639,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }

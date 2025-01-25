@@ -27,43 +27,50 @@
                 "type": "Literal",
                 "start": 234,
                 "end": 237,
-                "value": 127
+                "value": 127,
+                "raw": "127"
               },
               {
                 "type": "Literal",
                 "start": 239,
                 "end": 240,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 242,
                 "end": 243,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               },
               {
                 "type": "Literal",
                 "start": 245,
                 "end": 247,
-                "value": 16
+                "value": 16,
+                "raw": "16"
               },
               {
                 "type": "Literal",
                 "start": 249,
                 "end": 251,
-                "value": 32
+                "value": 32,
+                "raw": "32"
               },
               {
                 "type": "Literal",
                 "start": 253,
                 "end": 255,
-                "value": 64
+                "value": 64,
+                "raw": "64"
               },
               {
                 "type": "Literal",
                 "start": 257,
                 "end": 260,
-                "value": 128
+                "value": 128,
+                "raw": "128"
               }
             ]
           }
@@ -96,7 +103,8 @@
               "type": "Literal",
               "start": 281,
               "end": 282,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -176,7 +184,8 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 347,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               "operator": "<",
@@ -239,7 +248,8 @@
                           "type": "Literal",
                           "start": 384,
                           "end": 385,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       "computed": true,
@@ -249,7 +259,8 @@
                       "type": "Literal",
                       "start": 389,
                       "end": 392,
-                      "value": 127
+                      "value": 127,
+                      "raw": "127"
                     }
                   }
                 }
@@ -295,13 +306,15 @@
                   "type": "Literal",
                   "start": 424,
                   "end": 427,
-                  "value": 127
+                  "value": 127,
+                  "raw": "127"
                 },
                 {
                   "type": "Literal",
                   "start": 429,
                   "end": 471,
-                  "value": "The value of value is expected to be 127"
+                  "value": "The value of value is expected to be 127",
+                  "raw": "'The value of value is expected to be 127'"
                 }
               ],
               "optional": false
@@ -351,7 +364,8 @@
                   "type": "Literal",
                   "start": 512,
                   "end": 577,
-                  "value": "The value of index is expected to equal the value of arrayIndex"
+                  "value": "The value of index is expected to equal the value of arrayIndex",
+                  "raw": "'The value of index is expected to equal the value of arrayIndex'"
                 }
               ],
               "optional": false
@@ -499,7 +513,8 @@
             "type": "Literal",
             "start": 675,
             "end": 745,
-            "value": "The value of a.length is expected to equal the value of array.length"
+            "value": "The value of a.length is expected to equal the value of array.length",
+            "raw": "'The value of a.length is expected to equal the value of array.length'"
           }
         ],
         "optional": false
@@ -528,7 +543,8 @@
               "type": "Literal",
               "start": 761,
               "end": 762,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -634,13 +650,15 @@
                   "type": "Literal",
                   "start": 810,
                   "end": 813,
-                  "value": 127
+                  "value": 127,
+                  "raw": "127"
                 },
                 {
                   "type": "Literal",
                   "start": 815,
                   "end": 856,
-                  "value": "The value of a[j] is expected to be 127"
+                  "value": "The value of a[j] is expected to be 127",
+                  "raw": "'The value of a[j] is expected to be 127'"
                 }
               ],
               "optional": false

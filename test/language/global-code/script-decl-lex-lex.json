@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 547,
             "end": 551,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -146,7 +147,8 @@
                         "type": "Literal",
                         "start": 634,
                         "end": 658,
-                        "value": "var x; let test262Let;"
+                        "value": "var x; let test262Let;",
+                        "raw": "'var x; let test262Let;'"
                       }
                     ],
                     "optional": false
@@ -159,7 +161,8 @@
             "type": "Literal",
             "start": 664,
             "end": 679,
-            "value": "`let` binding"
+            "value": "`let` binding",
+            "raw": "'`let` binding'"
           }
         ],
         "optional": false
@@ -231,7 +234,8 @@
             "type": "Literal",
             "start": 733,
             "end": 796,
-            "value": "No bindings created for script containing `let` redeclaration"
+            "value": "No bindings created for script containing `let` redeclaration",
+            "raw": "'No bindings created for script containing `let` redeclaration'"
           }
         ],
         "optional": false
@@ -317,7 +321,8 @@
                         "type": "Literal",
                         "start": 858,
                         "end": 884,
-                        "value": "var x; let test262Const;"
+                        "value": "var x; let test262Const;",
+                        "raw": "'var x; let test262Const;'"
                       }
                     ],
                     "optional": false
@@ -330,7 +335,8 @@
             "type": "Literal",
             "start": 890,
             "end": 907,
-            "value": "`const` binding"
+            "value": "`const` binding",
+            "raw": "'`const` binding'"
           }
         ],
         "optional": false
@@ -402,7 +408,8 @@
             "type": "Literal",
             "start": 961,
             "end": 1026,
-            "value": "No bindings created for script containing `const` redeclaration"
+            "value": "No bindings created for script containing `const` redeclaration",
+            "raw": "'No bindings created for script containing `const` redeclaration'"
           }
         ],
         "optional": false
@@ -488,7 +495,8 @@
                         "type": "Literal",
                         "start": 1088,
                         "end": 1114,
-                        "value": "var x; let test262Class;"
+                        "value": "var x; let test262Class;",
+                        "raw": "'var x; let test262Class;'"
                       }
                     ],
                     "optional": false
@@ -501,7 +509,8 @@
             "type": "Literal",
             "start": 1120,
             "end": 1137,
-            "value": "`class` binding"
+            "value": "`class` binding",
+            "raw": "'`class` binding'"
           }
         ],
         "optional": false
@@ -573,7 +582,8 @@
             "type": "Literal",
             "start": 1191,
             "end": 1256,
-            "value": "No bindings created for script containing `class` redeclaration"
+            "value": "No bindings created for script containing `class` redeclaration",
+            "raw": "'No bindings created for script containing `class` redeclaration'"
           }
         ],
         "optional": false

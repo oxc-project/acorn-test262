@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 298,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 303,
                 "end": 304,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -90,25 +93,29 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 349,
-                "value": "-000000-10-31"
+                "value": "-000000-10-31",
+                "raw": "\"-000000-10-31\""
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 374,
-                "value": "-000000-10-31T00:45"
+                "value": "-000000-10-31T00:45",
+                "raw": "\"-000000-10-31T00:45\""
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 405,
-                "value": "-000000-10-31T00:45+01:00"
+                "value": "-000000-10-31T00:45+01:00",
+                "raw": "\"-000000-10-31T00:45+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 441,
-                "value": "-000000-10-31T00:45+00:00[UTC]"
+                "value": "-000000-10-31T00:45+00:00[UTC]",
+                "raw": "\"-000000-10-31T00:45+00:00[UTC]\""
               }
             ]
           }
@@ -265,7 +272,8 @@
                         "type": "Literal",
                         "start": 566,
                         "end": 623,
-                        "value": "Minus zero is an invalid extended year (first argument)"
+                        "value": "Minus zero is an invalid extended year (first argument)",
+                        "raw": "\"Minus zero is an invalid extended year (first argument)\""
                       }
                     ],
                     "optional": false
@@ -371,7 +379,8 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 773,
-                        "value": "Minus zero is an invalid extended year (second argument)"
+                        "value": "Minus zero is an invalid extended year (second argument)",
+                        "raw": "\"Minus zero is an invalid extended year (second argument)\""
                       }
                     ],
                     "optional": false

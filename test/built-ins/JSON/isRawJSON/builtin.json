@@ -68,7 +68,8 @@
             "type": "Literal",
             "start": 1281,
             "end": 1311,
-            "value": "JSON.isRawJSON is extensible"
+            "value": "JSON.isRawJSON is extensible",
+            "raw": "\"JSON.isRawJSON is extensible\""
           }
         ],
         "optional": false
@@ -132,13 +133,15 @@
             "type": "Literal",
             "start": 1359,
             "end": 1369,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1373,
             "end": 1425,
-            "value": "The value of `typeof JSON.isRawJSON` is \"function\""
+            "value": "The value of `typeof JSON.isRawJSON` is \"function\"",
+            "raw": "'The value of `typeof JSON.isRawJSON` is \"function\"'"
           }
         ],
         "optional": false
@@ -241,7 +244,8 @@
             "type": "Literal",
             "start": 1512,
             "end": 1597,
-            "value": "Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\""
+            "value": "Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\"",
+            "raw": "'Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\"'"
           }
         ],
         "optional": false
@@ -322,7 +326,8 @@
                 "type": "Literal",
                 "start": 1670,
                 "end": 1681,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -337,7 +342,8 @@
             "type": "Literal",
             "start": 1699,
             "end": 1745,
-            "value": "JSON.isRawJSON has no own prototype property"
+            "value": "JSON.isRawJSON has no own prototype property",
+            "raw": "\"JSON.isRawJSON has no own prototype property\""
           }
         ],
         "optional": false

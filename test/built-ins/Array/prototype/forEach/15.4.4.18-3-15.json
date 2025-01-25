@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 325,
             "end": 330,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -100,7 +101,8 @@
                     "type": "Literal",
                     "start": 392,
                     "end": 394,
-                    "value": 10
+                    "value": 10,
+                    "raw": "10"
                   }
                 }
               }
@@ -140,13 +142,15 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 415,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 417,
                   "end": 419,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -161,13 +165,15 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 424,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 426,
                   "end": 427,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 },
                 "kind": "init"
               },
@@ -188,7 +194,8 @@
                   "type": "Literal",
                   "start": 439,
                   "end": 444,
-                  "value": "2E0"
+                  "value": "2E0",
+                  "raw": "\"2E0\""
                 },
                 "kind": "init"
               }
@@ -293,7 +300,8 @@
             "type": "Literal",
             "start": 516,
             "end": 537,
-            "value": "testResult !== true"
+            "value": "testResult !== true",
+            "raw": "'testResult !== true'"
           }
         ],
         "optional": false

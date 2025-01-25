@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 331,
-                "value": "946684800000000010n"
+                "value": "946684800000000010n",
+                "raw": "946684800_000_000_010n"
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 338,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -176,13 +178,15 @@
             "type": "Literal",
             "start": 434,
             "end": 456,
-            "value": "946684800000000010n"
+            "value": "946684800000000010n",
+            "raw": "946684800_000_000_010n"
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 483,
-            "value": "ZonedDateTime is copied"
+            "value": "ZonedDateTime is copied",
+            "raw": "\"ZonedDateTime is copied\""
           }
         ],
         "optional": false
@@ -258,7 +262,8 @@
             "type": "Literal",
             "start": 535,
             "end": 558,
-            "value": "time zone is the same"
+            "value": "time zone is the same",
+            "raw": "\"time zone is the same\""
           }
         ],
         "optional": false
@@ -334,7 +339,8 @@
             "type": "Literal",
             "start": 614,
             "end": 636,
-            "value": "calendar is the same"
+            "value": "calendar is the same",
+            "raw": "\"calendar is the same\""
           }
         ],
         "optional": false
@@ -384,7 +390,8 @@
             "type": "Literal",
             "start": 681,
             "end": 766,
-            "value": "When a ZonedDateTime is given, the returned value is not the original ZonedDateTime"
+            "value": "When a ZonedDateTime is given, the returned value is not the original ZonedDateTime",
+            "raw": "\"When a ZonedDateTime is given, the returned value is not the original ZonedDateTime\""
           }
         ],
         "optional": false

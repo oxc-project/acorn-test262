@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 453,
           "end": 454,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -91,7 +92,8 @@
                     "type": "Literal",
                     "start": 483,
                     "end": 521,
-                    "value": "#1: x = []; x.length === 0. Actual: "
+                    "value": "#1: x = []; x.length === 0. Actual: ",
+                    "raw": "'#1: x = []; x.length === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -149,7 +151,8 @@
             "type": "Literal",
             "start": 542,
             "end": 543,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -158,7 +161,8 @@
           "type": "Literal",
           "start": 547,
           "end": 548,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -205,7 +209,8 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 578,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "MemberExpression",
@@ -230,13 +235,15 @@
                 "type": "Literal",
                 "start": 606,
                 "end": 611,
-                "value": "NaN"
+                "value": "NaN",
+                "raw": "\"NaN\""
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 616,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               },
               {
                 "type": "UnaryExpression",
@@ -248,7 +255,8 @@
                   "type": "Literal",
                   "start": 619,
                   "end": 620,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -277,7 +285,8 @@
           "type": "Literal",
           "start": 639,
           "end": 640,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "consequent": {
@@ -308,7 +317,8 @@
                     "type": "Literal",
                     "start": 669,
                     "end": 766,
-                    "value": "#2: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1) === 6. Actual: "
+                    "value": "#2: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1) === 6. Actual: ",
+                    "raw": "'#2: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1) === 6. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -352,7 +362,8 @@
             "type": "Literal",
             "start": 790,
             "end": 791,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           "computed": true,
           "optional": false
@@ -362,7 +373,8 @@
           "type": "Literal",
           "start": 797,
           "end": 798,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -393,7 +405,8 @@
                     "type": "Literal",
                     "start": 827,
                     "end": 930,
-                    "value": "#3: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[5] === 0. Actual: "
+                    "value": "#3: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[5] === 0. Actual: ",
+                    "raw": "'#3: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[5] === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -414,7 +427,8 @@
                         "type": "Literal",
                         "start": 936,
                         "end": 937,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       "computed": true,
                       "optional": false
@@ -450,7 +464,8 @@
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -460,7 +475,8 @@
           "type": "Literal",
           "start": 958,
           "end": 962,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -491,7 +507,8 @@
                     "type": "Literal",
                     "start": 991,
                     "end": 1097,
-                    "value": "#4: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[0] === true. Actual: "
+                    "value": "#4: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[0] === true. Actual: ",
+                    "raw": "'#4: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[0] === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -512,7 +529,8 @@
                         "type": "Literal",
                         "start": 1103,
                         "end": 1104,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -548,7 +566,8 @@
             "type": "Literal",
             "start": 1118,
             "end": 1119,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -602,7 +621,8 @@
                     "type": "Literal",
                     "start": 1178,
                     "end": 1304,
-                    "value": "#5: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[1] === Number.POSITIVE_INFINITY. Actual: "
+                    "value": "#5: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[1] === Number.POSITIVE_INFINITY. Actual: ",
+                    "raw": "'#5: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[1] === Number.POSITIVE_INFINITY. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -623,7 +643,8 @@
                         "type": "Literal",
                         "start": 1310,
                         "end": 1311,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -659,7 +680,8 @@
             "type": "Literal",
             "start": 1325,
             "end": 1326,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -669,7 +691,8 @@
           "type": "Literal",
           "start": 1332,
           "end": 1337,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       },
       "consequent": {
@@ -700,7 +723,8 @@
                     "type": "Literal",
                     "start": 1366,
                     "end": 1473,
-                    "value": "#6: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[2] === \"NaN\". Actual: "
+                    "value": "#6: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[2] === \"NaN\". Actual: ",
+                    "raw": "'#6: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[2] === \"NaN\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -721,7 +745,8 @@
                         "type": "Literal",
                         "start": 1479,
                         "end": 1480,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "computed": true,
                       "optional": false
@@ -757,7 +782,8 @@
             "type": "Literal",
             "start": 1494,
             "end": 1495,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           "computed": true,
           "optional": false
@@ -767,7 +793,8 @@
           "type": "Literal",
           "start": 1501,
           "end": 1504,
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
       },
       "consequent": {
@@ -798,7 +825,8 @@
                     "type": "Literal",
                     "start": 1533,
                     "end": 1638,
-                    "value": "#7: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[3] === \"1\". Actual: "
+                    "value": "#7: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[3] === \"1\". Actual: ",
+                    "raw": "'#7: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[3] === \"1\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -819,7 +847,8 @@
                         "type": "Literal",
                         "start": 1644,
                         "end": 1645,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "computed": true,
                       "optional": false
@@ -855,7 +884,8 @@
             "type": "Literal",
             "start": 1659,
             "end": 1660,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           "computed": true,
           "optional": false
@@ -871,7 +901,8 @@
             "type": "Literal",
             "start": 1667,
             "end": 1668,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       },
@@ -903,7 +934,8 @@
                     "type": "Literal",
                     "start": 1697,
                     "end": 1801,
-                    "value": "#8: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[4] === -1. Actual: "
+                    "value": "#8: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[4] === -1. Actual: ",
+                    "raw": "'#8: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x[4] === -1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -924,7 +956,8 @@
                         "type": "Literal",
                         "start": 1807,
                         "end": 1808,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       "computed": true,
                       "optional": false
@@ -970,7 +1003,8 @@
           "type": "Literal",
           "start": 1833,
           "end": 1834,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "consequent": {
@@ -1001,7 +1035,8 @@
                     "type": "Literal",
                     "start": 1863,
                     "end": 1970,
-                    "value": "#9: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x.length === 6. Actual: "
+                    "value": "#9: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x.length === 6. Actual: ",
+                    "raw": "'#9: x = []; x[0] = 0; x.unshift(true, Number.POSITIVE_INFINITY, \"NaN\", \"1\", -1); x.length === 6. Actual: '"
                   },
                   "operator": "+",
                   "right": {

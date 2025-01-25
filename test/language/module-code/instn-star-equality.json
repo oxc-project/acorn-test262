@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 1017,
         "end": 1043,
-        "value": "./instn-star-equality.js"
+        "value": "./instn-star-equality.js",
+        "raw": "'./instn-star-equality.js'"
       },
       "attributes": []
     },
@@ -49,7 +50,8 @@
         "type": "Literal",
         "start": 1068,
         "end": 1094,
-        "value": "./instn-star-equality.js"
+        "value": "./instn-star-equality.js",
+        "raw": "'./instn-star-equality.js'"
       },
       "attributes": []
     },
@@ -74,7 +76,8 @@
         "type": "Literal",
         "start": 1120,
         "end": 1160,
-        "value": "./instn-star-equality-other_FIXTURE.js"
+        "value": "./instn-star-equality-other_FIXTURE.js",
+        "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -99,7 +102,8 @@
         "type": "Literal",
         "start": 1185,
         "end": 1211,
-        "value": "./instn-star-equality.js"
+        "value": "./instn-star-equality.js",
+        "raw": "'./instn-star-equality.js'"
       },
       "attributes": []
     },
@@ -124,7 +128,8 @@
         "type": "Literal",
         "start": 1237,
         "end": 1277,
-        "value": "./instn-star-equality-other_FIXTURE.js"
+        "value": "./instn-star-equality-other_FIXTURE.js",
+        "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -155,7 +160,8 @@
         "type": "Literal",
         "start": 1302,
         "end": 1342,
-        "value": "./instn-star-equality-other_FIXTURE.js"
+        "value": "./instn-star-equality-other_FIXTURE.js",
+        "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -203,7 +209,8 @@
             "type": "Literal",
             "start": 1379,
             "end": 1434,
-            "value": "Local namespace objects from consecutive declarations"
+            "value": "Local namespace objects from consecutive declarations",
+            "raw": "'Local namespace objects from consecutive declarations'"
           }
         ],
         "optional": false
@@ -253,7 +260,8 @@
             "type": "Literal",
             "start": 1472,
             "end": 1530,
-            "value": "Local namespace objects from non-consective declarations"
+            "value": "Local namespace objects from non-consective declarations",
+            "raw": "'Local namespace objects from non-consective declarations'"
           }
         ],
         "optional": false
@@ -303,7 +311,8 @@
             "type": "Literal",
             "start": 1567,
             "end": 1595,
-            "value": "External namespace objects"
+            "value": "External namespace objects",
+            "raw": "'External namespace objects'"
           }
         ],
         "optional": false
@@ -353,7 +362,8 @@
             "type": "Literal",
             "start": 1630,
             "end": 1661,
-            "value": "Re-exported namespace objects"
+            "value": "Re-exported namespace objects",
+            "raw": "'Re-exported namespace objects'"
           }
         ],
         "optional": false

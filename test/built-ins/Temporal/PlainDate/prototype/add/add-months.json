@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 526,
                 "end": 527,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 530,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -137,7 +139,8 @@
                     "type": "Literal",
                     "start": 595,
                     "end": 607,
-                    "value": "2021-07-16"
+                    "value": "2021-07-16",
+                    "raw": "\"2021-07-16\""
                   }
                 ],
                 "optional": false
@@ -165,31 +168,36 @@
             "type": "Literal",
             "start": 619,
             "end": 623,
-            "value": 2021
+            "value": 2021,
+            "raw": "2021"
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 627,
-            "value": 12
+            "value": 12,
+            "raw": "12"
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 634,
-            "value": "M12"
+            "value": "M12",
+            "raw": "\"M12\""
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 638,
-            "value": 16
+            "value": 16,
+            "raw": "16"
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 689,
-            "value": "add five months and result in the same year"
+            "value": "add five months and result in the same year",
+            "raw": "\"add five months and result in the same year\""
           }
         ],
         "optional": false
@@ -272,7 +280,8 @@
                     "type": "Literal",
                     "start": 753,
                     "end": 765,
-                    "value": "2021-08-16"
+                    "value": "2021-08-16",
+                    "raw": "\"2021-08-16\""
                   }
                 ],
                 "optional": false
@@ -300,31 +309,36 @@
             "type": "Literal",
             "start": 777,
             "end": 781,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 783,
             "end": 784,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 791,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 795,
-            "value": 16
+            "value": 16,
+            "raw": "16"
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 846,
-            "value": "add five months and result in the next year"
+            "value": "add five months and result in the next year",
+            "raw": "\"add five months and result in the next year\""
           }
         ],
         "optional": false
@@ -407,7 +421,8 @@
                     "type": "Literal",
                     "start": 910,
                     "end": 922,
-                    "value": "2021-10-31"
+                    "value": "2021-10-31",
+                    "raw": "\"2021-10-31\""
                   }
                 ],
                 "optional": false
@@ -435,31 +450,36 @@
             "type": "Literal",
             "start": 934,
             "end": 938,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 941,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 943,
             "end": 948,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 952,
-            "value": 31
+            "value": 31,
+            "raw": "31"
           },
           {
             "type": "Literal",
             "start": 958,
             "end": 1019,
-            "value": "add five months and result in the next year in end of month"
+            "value": "add five months and result in the next year in end of month",
+            "raw": "\"add five months and result in the next year in end of month\""
           }
         ],
         "optional": false
@@ -542,7 +562,8 @@
                     "type": "Literal",
                     "start": 1083,
                     "end": 1095,
-                    "value": "2019-10-01"
+                    "value": "2019-10-01",
+                    "raw": "\"2019-10-01\""
                   }
                 ],
                 "optional": false
@@ -570,31 +591,36 @@
             "type": "Literal",
             "start": 1107,
             "end": 1111,
-            "value": 2020
+            "value": 2020,
+            "raw": "2020"
           },
           {
             "type": "Literal",
             "start": 1113,
             "end": 1114,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1121,
-            "value": "M03"
+            "value": "M03",
+            "raw": "\"M03\""
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1124,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1130,
             "end": 1204,
-            "value": "add five months and result in the next year in end of month on leap year"
+            "value": "add five months and result in the next year in end of month on leap year",
+            "raw": "\"add five months and result in the next year in end of month on leap year\""
           }
         ],
         "optional": false
@@ -677,7 +703,8 @@
                     "type": "Literal",
                     "start": 1268,
                     "end": 1280,
-                    "value": "2021-09-30"
+                    "value": "2021-09-30",
+                    "raw": "\"2021-09-30\""
                   }
                 ],
                 "optional": false
@@ -705,31 +732,36 @@
             "type": "Literal",
             "start": 1292,
             "end": 1296,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1299,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1301,
             "end": 1306,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 1308,
             "end": 1310,
-            "value": 28
+            "value": 28,
+            "raw": "28"
           },
           {
             "type": "Literal",
             "start": 1316,
             "end": 1386,
-            "value": "add five months and result in the nexdt year and constrain to Feb 28"
+            "value": "add five months and result in the nexdt year and constrain to Feb 28",
+            "raw": "\"add five months and result in the nexdt year and constrain to Feb 28\""
           }
         ],
         "optional": false
@@ -812,7 +844,8 @@
                     "type": "Literal",
                     "start": 1450,
                     "end": 1462,
-                    "value": "2019-09-30"
+                    "value": "2019-09-30",
+                    "raw": "\"2019-09-30\""
                   }
                 ],
                 "optional": false
@@ -840,31 +873,36 @@
             "type": "Literal",
             "start": 1474,
             "end": 1478,
-            "value": 2020
+            "value": 2020,
+            "raw": "2020"
           },
           {
             "type": "Literal",
             "start": 1480,
             "end": 1481,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1483,
             "end": 1488,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 1490,
             "end": 1492,
-            "value": 29
+            "value": 29,
+            "raw": "29"
           },
           {
             "type": "Literal",
             "start": 1498,
             "end": 1581,
-            "value": "add five months and result in the nexdt year and constrain to Feb 29 on leap year"
+            "value": "add five months and result in the nexdt year and constrain to Feb 29 on leap year",
+            "raw": "\"add five months and result in the nexdt year and constrain to Feb 29 on leap year\""
           }
         ],
         "optional": false

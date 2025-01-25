@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 612,
                   "end": 628,
-                  "value": "Intl.Segmenter"
+                  "value": "Intl.Segmenter",
+                  "raw": "\"Intl.Segmenter\""
                 },
                 "kind": "init"
               },
@@ -112,7 +113,8 @@
                   "type": "Literal",
                   "start": 642,
                   "end": 647,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 668,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -154,7 +157,8 @@
                   "type": "Literal",
                   "start": 686,
                   "end": 690,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 834,
             "end": 860,
-            "value": "./module-code_FIXTURE.js"
+            "value": "./module-code_FIXTURE.js",
+            "raw": "'./module-code_FIXTURE.js'"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 872,
             "end": 904,
-            "value": "./module-code-other_FIXTURE.js"
+            "value": "./module-code-other_FIXTURE.js",
+            "raw": "'./module-code-other_FIXTURE.js'"
           }
         }
       ],
@@ -103,7 +105,8 @@
                         "type": "Literal",
                         "start": 958,
                         "end": 962,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "consequent": {
                         "type": "Identifier",
@@ -176,7 +179,8 @@
                   "type": "Literal",
                   "start": 1045,
                   "end": 1054,
-                  "value": "Test262"
+                  "value": "Test262",
+                  "raw": "'Test262'"
                 }
               ],
               "optional": false
@@ -233,7 +237,8 @@
                   "type": "Literal",
                   "start": 1091,
                   "end": 1093,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ],
               "optional": false
@@ -270,7 +275,8 @@
                         "type": "Literal",
                         "start": 1126,
                         "end": 1131,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       "consequent": {
                         "type": "Identifier",
@@ -343,7 +349,8 @@
                   "type": "Literal",
                   "start": 1220,
                   "end": 1237,
-                  "value": "one six one two"
+                  "value": "one six one two",
+                  "raw": "'one six one two'"
                 }
               ],
               "optional": false
@@ -400,7 +407,8 @@
                   "type": "Literal",
                   "start": 1274,
                   "end": 1278,
-                  "value": 1612
+                  "value": 1612,
+                  "raw": "1612"
                 }
               ],
               "optional": false

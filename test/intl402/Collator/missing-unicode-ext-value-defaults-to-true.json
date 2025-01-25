@@ -27,25 +27,29 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 396,
-                "value": "-u-co-phonebk-kn"
+                "value": "-u-co-phonebk-kn",
+                "raw": "\"-u-co-phonebk-kn\""
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 416,
-                "value": "-u-kn-co-phonebk"
+                "value": "-u-kn-co-phonebk",
+                "raw": "\"-u-kn-co-phonebk\""
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 441,
-                "value": "-u-co-phonebk-kn-true"
+                "value": "-u-co-phonebk-kn-true",
+                "raw": "\"-u-co-phonebk-kn-true\""
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 466,
-                "value": "-u-kn-true-co-phonebk"
+                "value": "-u-kn-true-co-phonebk",
+                "raw": "\"-u-kn-true-co-phonebk\""
               }
             ]
           }
@@ -265,7 +269,8 @@
                                   "type": "Literal",
                                   "start": 655,
                                   "end": 661,
-                                  "value": "sort"
+                                  "value": "sort",
+                                  "raw": "\"sort\""
                                 },
                                 "kind": "init"
                               }
@@ -458,7 +463,8 @@
                               "type": "Literal",
                               "start": 838,
                               "end": 842,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             {
                               "type": "BinaryExpression",
@@ -472,7 +478,8 @@
                                   "type": "Literal",
                                   "start": 844,
                                   "end": 894,
-                                  "value": "Default value for \"kn\" should be true, but is "
+                                  "value": "Default value for \"kn\" should be true, but is ",
+                                  "raw": "\"Default value for \\\"kn\\\" should be true, but is \""
                                 },
                                 "operator": "+",
                                 "right": {
@@ -487,7 +494,8 @@
                                 "type": "Literal",
                                 "start": 907,
                                 "end": 910,
-                                "value": "."
+                                "value": ".",
+                                "raw": "\".\""
                               }
                             }
                           ],
@@ -550,7 +558,8 @@
                                   "type": "Literal",
                                   "start": 953,
                                   "end": 964,
-                                  "value": "-kn-false"
+                                  "value": "-kn-false",
+                                  "raw": "\"-kn-false\""
                                 }
                               ],
                               "optional": false
@@ -565,14 +574,16 @@
                                 "type": "Literal",
                                 "start": 968,
                                 "end": 969,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             },
                             {
                               "type": "Literal",
                               "start": 971,
                               "end": 1026,
-                              "value": "\"kn-false\" is returned in locale, but shouldn't be."
+                              "value": "\"kn-false\" is returned in locale, but shouldn't be.",
+                              "raw": "\"\\\"kn-false\\\" is returned in locale, but shouldn't be.\""
                             }
                           ],
                           "optional": false
@@ -634,7 +645,8 @@
                                   "type": "Literal",
                                   "start": 1069,
                                   "end": 1079,
-                                  "value": "-kn-true"
+                                  "value": "-kn-true",
+                                  "raw": "\"-kn-true\""
                                 }
                               ],
                               "optional": false
@@ -649,14 +661,16 @@
                                 "type": "Literal",
                                 "start": 1083,
                                 "end": 1084,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             },
                             {
                               "type": "Literal",
                               "start": 1086,
                               "end": 1140,
-                              "value": "\"kn-true\" is returned in locale, but shouldn't be."
+                              "value": "\"kn-true\" is returned in locale, but shouldn't be.",
+                              "raw": "\"\\\"kn-true\\\" is returned in locale, but shouldn't be.\""
                             }
                           ],
                           "optional": false
@@ -722,7 +736,8 @@
                                     "type": "Literal",
                                     "start": 1183,
                                     "end": 1188,
-                                    "value": "-kn"
+                                    "value": "-kn",
+                                    "raw": "\"-kn\""
                                   }
                                 ],
                                 "optional": false
@@ -732,20 +747,23 @@
                                 "type": "Literal",
                                 "start": 1193,
                                 "end": 1194,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             },
                             {
                               "type": "Literal",
                               "start": 1196,
                               "end": 1200,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             {
                               "type": "Literal",
                               "start": 1202,
                               "end": 1240,
-                              "value": "\"kn\" should be returned in locale."
+                              "value": "\"kn\" should be returned in locale.",
+                              "raw": "\"\\\"kn\\\" should be returned in locale.\""
                             }
                           ],
                           "optional": false

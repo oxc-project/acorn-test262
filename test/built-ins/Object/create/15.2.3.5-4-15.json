@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 285,
             "end": 290,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -125,7 +126,8 @@
             "type": "Literal",
             "start": 377,
             "end": 383,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -186,7 +188,8 @@
                                 "type": "Literal",
                                 "start": 421,
                                 "end": 441,
-                                "value": "[object Arguments]"
+                                "value": "[object Arguments]",
+                                "raw": "'[object Arguments]'"
                               },
                               "operator": "===",
                               "right": {
@@ -284,7 +287,8 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 523,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -377,7 +381,8 @@
             "type": "Literal",
             "start": 585,
             "end": 602,
-            "value": "result !== true"
+            "value": "result !== true",
+            "raw": "'result !== true'"
           }
         ],
         "optional": false
@@ -426,7 +431,8 @@
                 "type": "Literal",
                 "start": 634,
                 "end": 640,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -435,7 +441,8 @@
             "type": "Literal",
             "start": 643,
             "end": 683,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false

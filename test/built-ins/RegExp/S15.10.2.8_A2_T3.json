@@ -31,6 +31,7 @@
                 "start": 550,
                 "end": 576,
                 "value": {},
+                "raw": "/Java(?!Script)([A-Z]\\w*)/",
                 "regex": {
                   "pattern": "Java(?!Script)([A-Z]\\w*)",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 606,
-                "value": "using of Java language"
+                "value": "using of Java language",
+                "raw": "\"using of Java language\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 630,
             "end": 679,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

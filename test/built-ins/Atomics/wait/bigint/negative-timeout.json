@@ -68,7 +68,8 @@
                       "type": "Literal",
                       "start": 412,
                       "end": 413,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -141,13 +142,15 @@
                 "type": "Literal",
                 "start": 458,
                 "end": 459,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 461,
                 "end": 463,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "UnaryExpression",
@@ -159,7 +162,8 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 467,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 472,
             "end": 483,
-            "value": "timed-out"
+            "value": "timed-out",
+            "raw": "\"timed-out\""
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 538,
-            "value": "Atomics.wait(i64a, 0, 0n, -1) returns \"timed-out\""
+            "value": "Atomics.wait(i64a, 0, 0n, -1) returns \"timed-out\"",
+            "raw": "'Atomics.wait(i64a, 0, 0n, -1) returns \"timed-out\"'"
           }
         ],
         "optional": false

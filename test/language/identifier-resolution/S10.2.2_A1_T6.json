@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 435,
             "end": 436,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 456,
                   "end": 461,
-                  "value": "obj"
+                  "value": "obj",
+                  "raw": "\"obj\""
                 },
                 "kind": "init"
               }
@@ -207,7 +209,8 @@
               "type": "Literal",
               "start": 573,
               "end": 578,
-              "value": "obj"
+              "value": "obj",
+              "raw": "\"obj\""
             }
           }
         }
@@ -236,7 +239,8 @@
                   "type": "Literal",
                   "start": 607,
                   "end": 634,
-                  "value": "#1: Scope chain disturbed"
+                  "value": "#1: Scope chain disturbed",
+                  "raw": "\"#1: Scope chain disturbed\""
                 }
               ]
             }

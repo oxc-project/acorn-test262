@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 278,
             "end": 283,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -85,7 +86,8 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 340,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -97,7 +99,8 @@
               "type": "Literal",
               "start": 351,
               "end": 355,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
@@ -134,13 +137,15 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 375,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 377,
                   "end": 379,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -161,7 +166,8 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 392,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -306,13 +312,15 @@
             "type": "Literal",
             "start": 488,
             "end": 489,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 506,
-            "value": "newArr.length"
+            "value": "newArr.length",
+            "raw": "'newArr.length'"
           }
         ],
         "optional": false
@@ -356,13 +364,15 @@
             "type": "Literal",
             "start": 536,
             "end": 541,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 553,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

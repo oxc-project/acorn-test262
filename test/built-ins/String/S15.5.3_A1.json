@@ -35,7 +35,8 @@
           "type": "Literal",
           "start": 360,
           "end": 361,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -66,7 +67,8 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 461,
-                    "value": "String has length property whose value is 1. Actual: String.length==="
+                    "value": "String has length property whose value is 1. Actual: String.length===",
+                    "raw": "'String has length property whose value is 1. Actual: String.length==='"
                   },
                   "operator": "+",
                   "right": {

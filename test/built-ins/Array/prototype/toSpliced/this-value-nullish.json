@@ -109,19 +109,22 @@
                         "type": "Literal",
                         "start": 477,
                         "end": 481,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 483,
                         "end": 484,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 486,
                         "end": 487,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -134,7 +137,8 @@
             "type": "Literal",
             "start": 493,
             "end": 550,
-            "value": "`Array.prototype.toSpliced.call(null)` throws TypeError"
+            "value": "`Array.prototype.toSpliced.call(null)` throws TypeError",
+            "raw": "'`Array.prototype.toSpliced.call(null)` throws TypeError'"
           }
         ],
         "optional": false
@@ -252,13 +256,15 @@
                         "type": "Literal",
                         "start": 631,
                         "end": 632,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 634,
                         "end": 635,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false
@@ -271,7 +277,8 @@
             "type": "Literal",
             "start": 641,
             "end": 703,
-            "value": "`Array.prototype.toSpliced.call(undefined)` throws TypeError"
+            "value": "`Array.prototype.toSpliced.call(undefined)` throws TypeError",
+            "raw": "'`Array.prototype.toSpliced.call(undefined)` throws TypeError'"
           }
         ],
         "optional": false

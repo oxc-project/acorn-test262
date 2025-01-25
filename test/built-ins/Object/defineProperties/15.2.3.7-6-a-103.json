@@ -131,7 +131,8 @@
             "type": "Literal",
             "start": 463,
             "end": 468,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -197,7 +198,8 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 525,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -218,7 +220,8 @@
                   "type": "Literal",
                   "start": 543,
                   "end": 547,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -255,7 +258,8 @@
               "type": "Literal",
               "start": 584,
               "end": 586,
-              "value": 10
+              "value": 10,
+              "raw": "10"
             }
           }
         ]
@@ -374,7 +378,8 @@
             "type": "Literal",
             "start": 676,
             "end": 681,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "CallExpression",
@@ -418,13 +423,15 @@
             "type": "Literal",
             "start": 717,
             "end": 722,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "Literal",
             "start": 724,
             "end": 743,
-            "value": "setVerifyHelpProp"
+            "value": "setVerifyHelpProp",
+            "raw": "\"setVerifyHelpProp\""
           }
         ],
         "optional": false
@@ -455,7 +462,8 @@
             "type": "Literal",
             "start": 767,
             "end": 772,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -479,7 +487,8 @@
                   "type": "Literal",
                   "start": 790,
                   "end": 794,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -500,7 +509,8 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 816,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

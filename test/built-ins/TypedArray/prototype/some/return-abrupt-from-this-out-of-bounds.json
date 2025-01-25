@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 424,
             "end": 434,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 476,
-            "value": "implements TypedArray.prototype.some"
+            "value": "implements TypedArray.prototype.some",
+            "raw": "'implements TypedArray.prototype.some'"
           }
         ],
         "optional": false
@@ -157,13 +159,15 @@
             "type": "Literal",
             "start": 540,
             "end": 550,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 595,
-            "value": "implements ArrayBuffer.prototype.resize"
+            "value": "implements ArrayBuffer.prototype.resize",
+            "raw": "'implements ArrayBuffer.prototype.resize'"
           }
         ],
         "optional": false
@@ -284,7 +288,8 @@
                               "type": "Literal",
                               "start": 706,
                               "end": 707,
-                              "value": 4
+                              "value": 4,
+                              "raw": "4"
                             }
                           },
                           {
@@ -320,7 +325,8 @@
                                     "type": "Literal",
                                     "start": 731,
                                     "end": 732,
-                                    "value": 5
+                                    "value": 5,
+                                    "raw": "5"
                                   }
                                 },
                                 "kind": "init"
@@ -375,7 +381,8 @@
                             "type": "Literal",
                             "start": 766,
                             "end": 767,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -435,7 +442,8 @@
                                 "type": "Literal",
                                 "start": 799,
                                 "end": 800,
-                                "value": 5
+                                "value": 5,
+                                "raw": "5"
                               }
                             }
                           ],
@@ -563,7 +571,8 @@
                                 "type": "Literal",
                                 "start": 904,
                                 "end": 905,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               }
                             }
                           ],
@@ -715,7 +724,8 @@
                                   "type": "Literal",
                                   "start": 1048,
                                   "end": 1049,
-                                  "value": 3
+                                  "value": 3,
+                                  "raw": "3"
                                 }
                               },
                               "operator": "-",
@@ -723,7 +733,8 @@
                                 "type": "Literal",
                                 "start": 1052,
                                 "end": 1053,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           ],
@@ -913,7 +924,8 @@
                                     "type": "Literal",
                                     "start": 1617,
                                     "end": 1646,
-                                    "value": "some completed successfully"
+                                    "value": "some completed successfully",
+                                    "raw": "'some completed successfully'"
                                   }
                                 ]
                               }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 873,
             "end": 874,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -106,7 +107,8 @@
                           "type": "Literal",
                           "start": 943,
                           "end": 944,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -171,7 +173,8 @@
             "type": "Literal",
             "start": 998,
             "end": 1006,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Identifier",
@@ -260,13 +263,15 @@
                                 "type": "Literal",
                                 "start": 1088,
                                 "end": 1090,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1092,
                                 "end": 1094,
-                                "value": 43
+                                "value": 43,
+                                "raw": "43"
                               }
                             ]
                           }
@@ -327,7 +332,8 @@
                         "type": "Literal",
                         "start": 1137,
                         "end": 1145,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "Identifier",
@@ -377,7 +383,8 @@
                         "type": "Literal",
                         "start": 1186,
                         "end": 1194,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "Identifier",
@@ -458,13 +465,15 @@
                         "type": "Literal",
                         "start": 1261,
                         "end": 1262,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 1264,
                         "end": 1291,
-                        "value": "ignores length properties"
+                        "value": "ignores length properties",
+                        "raw": "\"ignores length properties\""
                       }
                     ],
                     "optional": false

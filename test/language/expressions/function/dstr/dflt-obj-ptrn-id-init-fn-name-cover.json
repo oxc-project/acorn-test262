@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1847,
             "end": 1848,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -165,7 +166,8 @@
                               "type": "Literal",
                               "start": 1908,
                               "end": 1909,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "FunctionExpression",
@@ -254,7 +256,8 @@
                       "type": "Literal",
                       "start": 1968,
                       "end": 1975,
-                      "value": "cover"
+                      "value": "cover",
+                      "raw": "'cover'"
                     }
                   ],
                   "optional": false
@@ -311,7 +314,8 @@
                       "type": "Literal",
                       "start": 2013,
                       "end": 2021,
-                      "value": "xCover"
+                      "value": "xCover",
+                      "raw": "'xCover'"
                     }
                   ],
                   "optional": false
@@ -347,7 +351,8 @@
                       "type": "Literal",
                       "start": 2050,
                       "end": 2051,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -413,13 +418,15 @@
             "type": "Literal",
             "start": 2090,
             "end": 2091,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2093,
             "end": 2124,
-            "value": "function invoked exactly once"
+            "value": "function invoked exactly once",
+            "raw": "'function invoked exactly once'"
           }
         ],
         "optional": false

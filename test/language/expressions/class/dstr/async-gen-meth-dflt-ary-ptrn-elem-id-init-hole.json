@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2141,
             "end": 2142,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -99,7 +100,8 @@
                                 "type": "Literal",
                                 "start": 2181,
                                 "end": 2183,
-                                "value": 23
+                                "value": 23,
+                                "raw": "23"
                               }
                             }
                           ]
@@ -157,7 +159,8 @@
                                 "type": "Literal",
                                 "start": 2218,
                                 "end": 2220,
-                                "value": 23
+                                "value": 23,
+                                "raw": "23"
                               }
                             ],
                             "optional": false
@@ -193,7 +196,8 @@
                                 "type": "Literal",
                                 "start": 2276,
                                 "end": 2277,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           }
@@ -343,13 +347,15 @@
                             "type": "Literal",
                             "start": 2356,
                             "end": 2357,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2359,
                             "end": 2381,
-                            "value": "invoked exactly once"
+                            "value": "invoked exactly once",
+                            "raw": "'invoked exactly once'"
                           }
                         ],
                         "optional": false

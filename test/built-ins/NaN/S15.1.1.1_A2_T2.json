@@ -1,53 +1,54 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 408,
+  "end": 407,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 260,
-      "end": 271,
+      "start": 259,
+      "end": 270,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 260,
-        "end": 270,
+        "start": 259,
+        "end": 269,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 260,
-          "end": 263,
+          "start": 259,
+          "end": 262,
           "name": "NaN"
         },
         "right": {
           "type": "Literal",
-          "start": 266,
-          "end": 270,
-          "value": true
+          "start": 265,
+          "end": 269,
+          "value": true,
+          "raw": "true"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 272,
-      "end": 361,
+      "start": 271,
+      "end": 360,
       "expression": {
         "type": "CallExpression",
-        "start": 272,
-        "end": 360,
+        "start": 271,
+        "end": 359,
         "callee": {
           "type": "MemberExpression",
-          "start": 272,
-          "end": 291,
+          "start": 271,
+          "end": 290,
           "object": {
             "type": "Identifier",
-            "start": 272,
-            "end": 278,
+            "start": 271,
+            "end": 277,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 279,
-            "end": 291,
+            "start": 278,
+            "end": 290,
             "name": "notSameValue"
           },
           "computed": false,
@@ -56,33 +57,35 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 292,
-            "end": 303,
+            "start": 291,
+            "end": 302,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 298,
-              "end": 303,
+              "start": 297,
+              "end": 302,
               "expression": {
                 "type": "Identifier",
-                "start": 299,
-                "end": 302,
+                "start": 298,
+                "end": 301,
                 "name": "NaN"
               }
             }
           },
           {
             "type": "Literal",
-            "start": 305,
-            "end": 314,
-            "value": "boolean"
+            "start": 304,
+            "end": 313,
+            "value": "boolean",
+            "raw": "\"boolean\""
           },
           {
             "type": "Literal",
-            "start": 316,
-            "end": 359,
-            "value": "The value of typeof(NaN) is not \"boolean\""
+            "start": 315,
+            "end": 358,
+            "value": "The value of typeof(NaN) is not \"boolean\"",
+            "raw": "'The value of typeof(NaN) is not \"boolean\"'"
           }
         ],
         "optional": false

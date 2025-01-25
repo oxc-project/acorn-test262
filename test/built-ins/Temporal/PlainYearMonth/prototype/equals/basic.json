@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 303,
-                "value": "1994-11"
+                "value": "1994-11",
+                "raw": "\"1994-11\""
               }
             ],
             "optional": false
@@ -124,7 +125,8 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 361,
-                "value": "1994-11"
+                "value": "1994-11",
+                "raw": "\"1994-11\""
               }
             ],
             "optional": false
@@ -189,7 +191,8 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 416,
-                "value": "2013-06"
+                "value": "2013-06",
+                "raw": "\"2013-06\""
               }
             ],
             "optional": false
@@ -263,13 +266,15 @@
             "type": "Literal",
             "start": 457,
             "end": 461,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 476,
-            "value": "same object"
+            "value": "same object",
+            "raw": "\"same object\""
           }
         ],
         "optional": false
@@ -340,13 +345,15 @@
             "type": "Literal",
             "start": 520,
             "end": 524,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 544,
-            "value": "different object"
+            "value": "different object",
+            "raw": "\"different object\""
           }
         ],
         "optional": false
@@ -417,13 +424,15 @@
             "type": "Literal",
             "start": 585,
             "end": 590,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 615,
-            "value": "different year-months"
+            "value": "different year-months",
+            "raw": "\"different year-months\""
           }
         ],
         "optional": false

@@ -143,14 +143,16 @@
                   "type": "Literal",
                   "start": 668,
                   "end": 671,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "\"A\""
                 },
                 "operator": "!==",
                 "right": {
                   "type": "Literal",
                   "start": 676,
                   "end": 684,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "\"\\u0041\""
                 }
               },
               {
@@ -179,7 +181,8 @@
                           "type": "Literal",
                           "start": 708,
                           "end": 709,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -192,7 +195,8 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 720,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -246,13 +250,15 @@
             "type": "Literal",
             "start": 757,
             "end": 765,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 810,
-            "value": "The value of `typeof __split` is \"object\""
+            "value": "The value of `typeof __split` is \"object\"",
+            "raw": "'The value of `typeof __split` is \"object\"'"
           }
         ],
         "optional": false
@@ -315,7 +321,8 @@
             "type": "Literal",
             "start": 866,
             "end": 940,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -372,13 +379,15 @@
             "type": "Literal",
             "start": 978,
             "end": 979,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1015,
-            "value": "The value of __split.length is 0"
+            "value": "The value of __split.length is 0",
+            "raw": "'The value of __split.length is 0'"
           }
         ],
         "optional": false

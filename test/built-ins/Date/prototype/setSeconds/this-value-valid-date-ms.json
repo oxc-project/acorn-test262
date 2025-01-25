@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 667,
                 "end": 671,
-                "value": 2016
+                "value": 2016,
+                "raw": "2016"
               },
               {
                 "type": "Literal",
                 "start": 673,
                 "end": 674,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -122,13 +124,15 @@
               "type": "Literal",
               "start": 735,
               "end": 736,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 738,
               "end": 741,
-              "value": 543
+              "value": 543,
+              "raw": "543"
             }
           ],
           "optional": false
@@ -173,43 +177,50 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 769,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 771,
                   "end": 772,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 },
                 {
                   "type": "Literal",
                   "start": 774,
                   "end": 775,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 777,
                   "end": 778,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 780,
                   "end": 781,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 783,
                   "end": 784,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 786,
                   "end": 789,
-                  "value": 543
+                  "value": 543,
+                  "raw": "543"
                 }
               ]
             },
@@ -271,7 +282,8 @@
             "type": "Literal",
             "start": 845,
             "end": 894,
-            "value": "millisecond within unit boundary (return value)"
+            "value": "millisecond within unit boundary (return value)",
+            "raw": "'millisecond within unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -341,7 +353,8 @@
             "type": "Literal",
             "start": 948,
             "end": 1003,
-            "value": "millisecond within unit boundary ([[DateValue]] slot)"
+            "value": "millisecond within unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond within unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -390,7 +403,8 @@
               "type": "Literal",
               "start": 1038,
               "end": 1039,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "UnaryExpression",
@@ -402,7 +416,8 @@
                 "type": "Literal",
                 "start": 1042,
                 "end": 1043,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ],
@@ -448,43 +463,50 @@
                   "type": "Literal",
                   "start": 1067,
                   "end": 1071,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1073,
                   "end": 1074,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Literal",
                   "start": 1076,
                   "end": 1078,
-                  "value": 30
+                  "value": 30,
+                  "raw": "30"
                 },
                 {
                   "type": "Literal",
                   "start": 1080,
                   "end": 1082,
-                  "value": 23
+                  "value": 23,
+                  "raw": "23"
                 },
                 {
                   "type": "Literal",
                   "start": 1084,
                   "end": 1086,
-                  "value": 59
+                  "value": 59,
+                  "raw": "59"
                 },
                 {
                   "type": "Literal",
                   "start": 1088,
                   "end": 1090,
-                  "value": 59
+                  "value": 59,
+                  "raw": "59"
                 },
                 {
                   "type": "Literal",
                   "start": 1092,
                   "end": 1095,
-                  "value": 999
+                  "value": 999,
+                  "raw": "999"
                 }
               ]
             },
@@ -546,7 +568,8 @@
             "type": "Literal",
             "start": 1151,
             "end": 1205,
-            "value": "millisecond before time unit boundary (return value)"
+            "value": "millisecond before time unit boundary (return value)",
+            "raw": "'millisecond before time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -616,7 +639,8 @@
             "type": "Literal",
             "start": 1259,
             "end": 1319,
-            "value": "millisecond before time unit boundary ([[DateValue]] slot)"
+            "value": "millisecond before time unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond before time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false
@@ -665,13 +689,15 @@
               "type": "Literal",
               "start": 1354,
               "end": 1355,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1357,
               "end": 1361,
-              "value": 1000
+              "value": 1000,
+              "raw": "1000"
             }
           ],
           "optional": false
@@ -716,37 +742,43 @@
                   "type": "Literal",
                   "start": 1385,
                   "end": 1389,
-                  "value": 2016
+                  "value": 2016,
+                  "raw": "2016"
                 },
                 {
                   "type": "Literal",
                   "start": 1391,
                   "end": 1392,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Literal",
                   "start": 1394,
                   "end": 1396,
-                  "value": 30
+                  "value": 30,
+                  "raw": "30"
                 },
                 {
                   "type": "Literal",
                   "start": 1398,
                   "end": 1400,
-                  "value": 23
+                  "value": 23,
+                  "raw": "23"
                 },
                 {
                   "type": "Literal",
                   "start": 1402,
                   "end": 1404,
-                  "value": 59
+                  "value": 59,
+                  "raw": "59"
                 },
                 {
                   "type": "Literal",
                   "start": 1406,
                   "end": 1407,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -808,7 +840,8 @@
             "type": "Literal",
             "start": 1463,
             "end": 1516,
-            "value": "millisecond after time unit boundary (return value)"
+            "value": "millisecond after time unit boundary (return value)",
+            "raw": "'millisecond after time unit boundary (return value)'"
           }
         ],
         "optional": false
@@ -878,7 +911,8 @@
             "type": "Literal",
             "start": 1570,
             "end": 1629,
-            "value": "millisecond after time unit boundary ([[DateValue]] slot)"
+            "value": "millisecond after time unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond after time unit boundary ([[DateValue]] slot)'"
           }
         ],
         "optional": false

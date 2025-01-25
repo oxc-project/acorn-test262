@@ -66,7 +66,8 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 347,
-                "value": "description"
+                "value": "description",
+                "raw": "'description'"
               }
             ],
             "optional": false
@@ -75,13 +76,15 @@
             "type": "Literal",
             "start": 352,
             "end": 357,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 415,
-            "value": "Symbol().hasOwnProperty(\"description\") returns false"
+            "value": "Symbol().hasOwnProperty(\"description\") returns false",
+            "raw": "'Symbol().hasOwnProperty(\"description\") returns false'"
           }
         ],
         "optional": false

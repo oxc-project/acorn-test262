@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 249,
               "end": 278,
-              "value": "http://unipro.ru/0123456789"
+              "value": "http://unipro.ru/0123456789",
+              "raw": "\"http://unipro.ru/0123456789\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 284,
           "end": 313,
-          "value": "http://unipro.ru/0123456789"
+          "value": "http://unipro.ru/0123456789",
+          "raw": "\"http://unipro.ru/0123456789\""
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 342,
                   "end": 375,
-                  "value": "#1: http://unipro.ru/0123456789"
+                  "value": "#1: http://unipro.ru/0123456789",
+                  "raw": "'#1: http://unipro.ru/0123456789'"
                 }
               ]
             }
@@ -95,7 +98,8 @@
               "type": "Literal",
               "start": 405,
               "end": 459,
-              "value": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
+              "value": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ",
+              "raw": "\"aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ\""
             }
           ],
           "optional": false
@@ -105,7 +109,8 @@
           "type": "Literal",
           "start": 465,
           "end": 519,
-          "value": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
+          "value": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ",
+          "raw": "\"aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ\""
         }
       },
       "consequent": {
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 548,
                   "end": 606,
-                  "value": "#2: aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
+                  "value": "#2: aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ",
+                  "raw": "'#2: aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ'"
                 }
               ]
             }
@@ -164,7 +170,8 @@
               "type": "Literal",
               "start": 636,
               "end": 715,
-              "value": "aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ"
+              "value": "aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ",
+              "raw": "\"aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ\""
             }
           ],
           "optional": false
@@ -174,7 +181,8 @@
           "type": "Literal",
           "start": 721,
           "end": 800,
-          "value": "aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ"
+          "value": "aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ",
+          "raw": "\"aA_bB-cC.dD!eE~fF*gG'hH(iI)jJ;kK/lL?mM:nN@oO&pP=qQ+rR$sS,tT9uU8vV7wW6xX5yY4zZ\""
         }
       },
       "consequent": {
@@ -201,7 +209,8 @@
                   "type": "Literal",
                   "start": 829,
                   "end": 835,
-                  "value": "#3: "
+                  "value": "#3: ",
+                  "raw": "'#3: '"
                 }
               ]
             }

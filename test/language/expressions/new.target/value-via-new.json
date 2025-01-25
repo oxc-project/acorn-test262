@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 720,
             "end": 724,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -145,7 +146,8 @@
             "type": "Literal",
             "start": 809,
             "end": 836,
-            "value": "Invoked without Arguments"
+            "value": "Invoked without Arguments",
+            "raw": "'Invoked without Arguments'"
           }
         ],
         "optional": false
@@ -170,7 +172,8 @@
           "type": "Literal",
           "start": 852,
           "end": 856,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 900,
             "end": 924,
-            "value": "Invoked with Arguments"
+            "value": "Invoked with Arguments",
+            "raw": "'Invoked with Arguments'"
           }
         ],
         "optional": false

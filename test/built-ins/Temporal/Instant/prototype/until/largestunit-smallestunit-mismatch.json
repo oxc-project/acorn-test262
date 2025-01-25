@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 344,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               }
             ]
           }
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 408,
-                "value": "1000090061987654321n"
+                "value": "1000090061987654321n",
+                "raw": "1_000_090_061_987_654_321n"
               }
             ]
           }
@@ -129,37 +131,43 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 433,
-                "value": "hours"
+                "value": "hours",
+                "raw": "\"hours\""
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 444,
-                "value": "minutes"
+                "value": "minutes",
+                "raw": "\"minutes\""
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 455,
-                "value": "seconds"
+                "value": "seconds",
+                "raw": "\"seconds\""
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 471,
-                "value": "milliseconds"
+                "value": "milliseconds",
+                "raw": "\"milliseconds\""
               },
               {
                 "type": "Literal",
                 "start": 473,
                 "end": 487,
-                "value": "microseconds"
+                "value": "microseconds",
+                "raw": "\"microseconds\""
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 502,
-                "value": "nanoseconds"
+                "value": "nanoseconds",
+                "raw": "\"nanoseconds\""
               }
             ]
           }
@@ -190,7 +198,8 @@
               "type": "Literal",
               "start": 527,
               "end": 528,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ],
@@ -268,7 +277,8 @@
                     "type": "Literal",
                     "start": 598,
                     "end": 599,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ],

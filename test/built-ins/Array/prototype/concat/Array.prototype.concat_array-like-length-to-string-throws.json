@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 366,
                   "end": 374,
-                  "value": "length"
+                  "value": "length",
+                  "raw": "\"length\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -107,7 +108,8 @@
                         "type": "Literal",
                         "start": 457,
                         "end": 461,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "kind": "init"
                     }
@@ -126,13 +128,15 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 472,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 474,
                   "end": 477,
-                  "value": "A"
+                  "value": "A",
+                  "raw": "\"A\""
                 },
                 "kind": "init"
               },
@@ -147,13 +151,15 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 484,
-                  "value": "3"
+                  "value": "3",
+                  "raw": "\"3\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 486,
                   "end": 489,
-                  "value": "B"
+                  "value": "B",
+                  "raw": "\"B\""
                 },
                 "kind": "init"
               },
@@ -168,13 +174,15 @@
                   "type": "Literal",
                   "start": 493,
                   "end": 496,
-                  "value": "5"
+                  "value": "5",
+                  "raw": "\"5\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 498,
                   "end": 501,
-                  "value": "C"
+                  "value": "C",
+                  "raw": "\"C\""
                 },
                 "kind": "init"
               }
@@ -229,7 +237,8 @@
           "type": "Literal",
           "start": 564,
           "end": 568,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -326,7 +335,8 @@
             "type": "Literal",
             "start": 658,
             "end": 732,
-            "value": "[].concat(objWithPoisonedLengthToString) throws a Test262Error exception"
+            "value": "[].concat(objWithPoisonedLengthToString) throws a Test262Error exception",
+            "raw": "'[].concat(objWithPoisonedLengthToString) throws a Test262Error exception'"
           }
         ],
         "optional": false

@@ -50,7 +50,8 @@
             "type": "Literal",
             "start": 277,
             "end": 288,
-            "value": "arguments"
+            "value": "arguments",
+            "raw": "'arguments'"
           }
         ],
         "optional": false

@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 421,
                         "end": 425,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",

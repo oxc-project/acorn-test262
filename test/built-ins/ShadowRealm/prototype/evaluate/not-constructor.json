@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 385,
             "end": 395,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 472,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -164,13 +166,15 @@
             "type": "Literal",
             "start": 546,
             "end": 551,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 620,
-            "value": "isConstructor(ShadowRealm.prototype.evaluate) must return false"
+            "value": "isConstructor(ShadowRealm.prototype.evaluate) must return false",
+            "raw": "'isConstructor(ShadowRealm.prototype.evaluate) must return false'"
           }
         ],
         "optional": false
@@ -269,7 +273,8 @@
                         "type": "Literal",
                         "start": 695,
                         "end": 697,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ]
                   }
@@ -344,7 +349,8 @@
             "type": "Literal",
             "start": 745,
             "end": 763,
-            "value": "globalThis.x = 0"
+            "value": "globalThis.x = 0",
+            "raw": "'globalThis.x = 0'"
           }
         ],
         "optional": false
@@ -430,7 +436,8 @@
                         "type": "Literal",
                         "start": 817,
                         "end": 837,
-                        "value": "globalThis.x += 1;"
+                        "value": "globalThis.x += 1;",
+                        "raw": "\"globalThis.x += 1;\""
                       }
                     ]
                   }
@@ -442,7 +449,8 @@
             "type": "Literal",
             "start": 843,
             "end": 885,
-            "value": "`new r.evaluate(\"...\")` throws TypeError"
+            "value": "`new r.evaluate(\"...\")` throws TypeError",
+            "raw": "'`new r.evaluate(\"...\")` throws TypeError'"
           }
         ],
         "optional": false
@@ -504,7 +512,8 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 931,
-                "value": "globalThis.x"
+                "value": "globalThis.x",
+                "raw": "'globalThis.x'"
               }
             ],
             "optional": false
@@ -513,13 +522,15 @@
             "type": "Literal",
             "start": 934,
             "end": 935,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 978,
-            "value": "No code evaluated in the new expression"
+            "value": "No code evaluated in the new expression",
+            "raw": "'No code evaluated in the new expression'"
           }
         ],
         "optional": false

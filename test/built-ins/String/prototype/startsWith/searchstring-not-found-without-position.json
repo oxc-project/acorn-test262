@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 727,
             "end": 748,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -84,7 +85,8 @@
                 "type": "Literal",
                 "start": 786,
                 "end": 793,
-                "value": "Flash"
+                "value": "Flash",
+                "raw": "'Flash'"
               }
             ],
             "optional": false
@@ -93,13 +95,15 @@
             "type": "Literal",
             "start": 796,
             "end": 801,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 840,
-            "value": "str.startsWith(\"Flash\") === false"
+            "value": "str.startsWith(\"Flash\") === false",
+            "raw": "'str.startsWith(\"Flash\") === false'"
           }
         ],
         "optional": false
@@ -161,7 +165,8 @@
                 "type": "Literal",
                 "start": 879,
                 "end": 891,
-                "value": "THE FUTURE"
+                "value": "THE FUTURE",
+                "raw": "'THE FUTURE'"
               }
             ],
             "optional": false
@@ -170,13 +175,15 @@
             "type": "Literal",
             "start": 894,
             "end": 899,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 903,
             "end": 933,
-            "value": "startsWith is case sensitive"
+            "value": "startsWith is case sensitive",
+            "raw": "'startsWith is case sensitive'"
           }
         ],
         "optional": false
@@ -238,7 +245,8 @@
                 "type": "Literal",
                 "start": 972,
                 "end": 989,
-                "value": "future is cool!"
+                "value": "future is cool!",
+                "raw": "'future is cool!'"
               }
             ],
             "optional": false
@@ -247,13 +255,15 @@
             "type": "Literal",
             "start": 992,
             "end": 997,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1046,
-            "value": "str.startsWith(\"future is cool!\") === false"
+            "value": "str.startsWith(\"future is cool!\") === false",
+            "raw": "'str.startsWith(\"future is cool!\") === false'"
           }
         ],
         "optional": false

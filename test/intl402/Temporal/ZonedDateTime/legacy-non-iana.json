@@ -1,177 +1,202 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 797,
+  "end": 796,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 384,
-      "end": 638,
+      "start": 383,
+      "end": 637,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 390,
-          "end": 637,
+          "start": 389,
+          "end": 636,
           "id": {
             "type": "Identifier",
-            "start": 390,
-            "end": 406,
+            "start": 389,
+            "end": 405,
             "name": "invalidTimeZones"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 409,
-            "end": 637,
+            "start": 408,
+            "end": 636,
             "elements": [
               {
                 "type": "Literal",
-                "start": 413,
-                "end": 418,
-                "value": "ACT"
+                "start": 412,
+                "end": 417,
+                "value": "ACT",
+                "raw": "\"ACT\""
               },
               {
                 "type": "Literal",
-                "start": 422,
-                "end": 427,
-                "value": "AET"
+                "start": 421,
+                "end": 426,
+                "value": "AET",
+                "raw": "\"AET\""
               },
               {
                 "type": "Literal",
-                "start": 431,
-                "end": 436,
-                "value": "AGT"
+                "start": 430,
+                "end": 435,
+                "value": "AGT",
+                "raw": "\"AGT\""
               },
               {
                 "type": "Literal",
-                "start": 440,
-                "end": 445,
-                "value": "ART"
+                "start": 439,
+                "end": 444,
+                "value": "ART",
+                "raw": "\"ART\""
               },
               {
                 "type": "Literal",
-                "start": 449,
-                "end": 454,
-                "value": "AST"
+                "start": 448,
+                "end": 453,
+                "value": "AST",
+                "raw": "\"AST\""
               },
               {
                 "type": "Literal",
-                "start": 458,
-                "end": 463,
-                "value": "BET"
+                "start": 457,
+                "end": 462,
+                "value": "BET",
+                "raw": "\"BET\""
               },
               {
                 "type": "Literal",
-                "start": 467,
-                "end": 472,
-                "value": "BST"
+                "start": 466,
+                "end": 471,
+                "value": "BST",
+                "raw": "\"BST\""
               },
               {
                 "type": "Literal",
-                "start": 476,
-                "end": 481,
-                "value": "CAT"
+                "start": 475,
+                "end": 480,
+                "value": "CAT",
+                "raw": "\"CAT\""
               },
               {
                 "type": "Literal",
-                "start": 485,
-                "end": 490,
-                "value": "CNT"
+                "start": 484,
+                "end": 489,
+                "value": "CNT",
+                "raw": "\"CNT\""
               },
               {
                 "type": "Literal",
-                "start": 494,
-                "end": 499,
-                "value": "CST"
+                "start": 493,
+                "end": 498,
+                "value": "CST",
+                "raw": "\"CST\""
               },
               {
                 "type": "Literal",
-                "start": 503,
-                "end": 508,
-                "value": "CTT"
+                "start": 502,
+                "end": 507,
+                "value": "CTT",
+                "raw": "\"CTT\""
               },
               {
                 "type": "Literal",
-                "start": 512,
-                "end": 517,
-                "value": "EAT"
+                "start": 511,
+                "end": 516,
+                "value": "EAT",
+                "raw": "\"EAT\""
               },
               {
                 "type": "Literal",
-                "start": 521,
-                "end": 526,
-                "value": "ECT"
+                "start": 520,
+                "end": 525,
+                "value": "ECT",
+                "raw": "\"ECT\""
               },
               {
                 "type": "Literal",
-                "start": 530,
-                "end": 535,
-                "value": "IET"
+                "start": 529,
+                "end": 534,
+                "value": "IET",
+                "raw": "\"IET\""
               },
               {
                 "type": "Literal",
-                "start": 539,
-                "end": 544,
-                "value": "IST"
+                "start": 538,
+                "end": 543,
+                "value": "IST",
+                "raw": "\"IST\""
               },
               {
                 "type": "Literal",
-                "start": 548,
-                "end": 553,
-                "value": "JST"
+                "start": 547,
+                "end": 552,
+                "value": "JST",
+                "raw": "\"JST\""
               },
               {
                 "type": "Literal",
-                "start": 557,
-                "end": 562,
-                "value": "MIT"
+                "start": 556,
+                "end": 561,
+                "value": "MIT",
+                "raw": "\"MIT\""
               },
               {
                 "type": "Literal",
-                "start": 566,
-                "end": 571,
-                "value": "NET"
+                "start": 565,
+                "end": 570,
+                "value": "NET",
+                "raw": "\"NET\""
               },
               {
                 "type": "Literal",
-                "start": 575,
-                "end": 580,
-                "value": "NST"
+                "start": 574,
+                "end": 579,
+                "value": "NST",
+                "raw": "\"NST\""
               },
               {
                 "type": "Literal",
-                "start": 584,
-                "end": 589,
-                "value": "PLT"
+                "start": 583,
+                "end": 588,
+                "value": "PLT",
+                "raw": "\"PLT\""
               },
               {
                 "type": "Literal",
-                "start": 593,
-                "end": 598,
-                "value": "PNT"
+                "start": 592,
+                "end": 597,
+                "value": "PNT",
+                "raw": "\"PNT\""
               },
               {
                 "type": "Literal",
-                "start": 602,
-                "end": 607,
-                "value": "PRT"
+                "start": 601,
+                "end": 606,
+                "value": "PRT",
+                "raw": "\"PRT\""
               },
               {
                 "type": "Literal",
-                "start": 611,
-                "end": 616,
-                "value": "PST"
+                "start": 610,
+                "end": 615,
+                "value": "PST",
+                "raw": "\"PST\""
               },
               {
                 "type": "Literal",
-                "start": 620,
-                "end": 625,
-                "value": "SST"
+                "start": 619,
+                "end": 624,
+                "value": "SST",
+                "raw": "\"SST\""
               },
               {
                 "type": "Literal",
-                "start": 629,
-                "end": 634,
-                "value": "VST"
+                "start": 628,
+                "end": 633,
+                "value": "VST",
+                "raw": "\"VST\""
               }
             ]
           }
@@ -181,22 +206,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 640,
-      "end": 796,
+      "start": 639,
+      "end": 795,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 645,
-        "end": 657,
+        "start": 644,
+        "end": 656,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 649,
-            "end": 657,
+            "start": 648,
+            "end": 656,
             "id": {
               "type": "Identifier",
-              "start": 649,
-              "end": 657,
+              "start": 648,
+              "end": 656,
               "name": "timeZone"
             },
             "init": null
@@ -206,37 +231,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 661,
-        "end": 677,
+        "start": 660,
+        "end": 676,
         "name": "invalidTimeZones"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 679,
-        "end": 796,
+        "start": 678,
+        "end": 795,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 683,
-            "end": 794,
+            "start": 682,
+            "end": 793,
             "expression": {
               "type": "CallExpression",
-              "start": 683,
-              "end": 793,
+              "start": 682,
+              "end": 792,
               "callee": {
                 "type": "MemberExpression",
-                "start": 683,
-                "end": 696,
+                "start": 682,
+                "end": 695,
                 "object": {
                   "type": "Identifier",
-                  "start": 683,
-                  "end": 689,
+                  "start": 682,
+                  "end": 688,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 690,
-                  "end": 696,
+                  "start": 689,
+                  "end": 695,
                   "name": "throws"
                 },
                 "computed": false,
@@ -245,14 +270,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 697,
-                  "end": 707,
+                  "start": 696,
+                  "end": 706,
                   "name": "RangeError"
                 },
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 709,
-                  "end": 766,
+                  "start": 708,
+                  "end": 765,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -260,31 +285,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 715,
-                    "end": 766,
+                    "start": 714,
+                    "end": 765,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 721,
-                        "end": 762,
+                        "start": 720,
+                        "end": 761,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 721,
-                          "end": 761,
+                          "start": 720,
+                          "end": 760,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 725,
-                            "end": 747,
+                            "start": 724,
+                            "end": 746,
                             "object": {
                               "type": "Identifier",
-                              "start": 725,
-                              "end": 733,
+                              "start": 724,
+                              "end": 732,
                               "name": "Temporal"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 734,
-                              "end": 747,
+                              "start": 733,
+                              "end": 746,
                               "name": "ZonedDateTime"
                             },
                             "computed": false,
@@ -293,14 +318,15 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 748,
-                              "end": 750,
-                              "value": "0n"
+                              "start": 747,
+                              "end": 749,
+                              "value": "0n",
+                              "raw": "0n"
                             },
                             {
                               "type": "Identifier",
-                              "start": 752,
-                              "end": 760,
+                              "start": 751,
+                              "end": 759,
                               "name": "timeZone"
                             }
                           ]
@@ -311,19 +337,20 @@
                 },
                 {
                   "type": "BinaryExpression",
-                  "start": 768,
-                  "end": 792,
+                  "start": 767,
+                  "end": 791,
                   "left": {
                     "type": "Literal",
-                    "start": 768,
-                    "end": 781,
-                    "value": "Time zone: "
+                    "start": 767,
+                    "end": 780,
+                    "value": "Time zone: ",
+                    "raw": "\"Time zone: \""
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
-                    "start": 784,
-                    "end": 792,
+                    "start": 783,
+                    "end": 791,
                     "name": "timeZone"
                   }
                 }

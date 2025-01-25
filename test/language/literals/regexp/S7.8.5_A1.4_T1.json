@@ -20,6 +20,7 @@
             "start": 387,
             "end": 391,
             "value": {},
+            "raw": "/\\;/",
             "regex": {
               "pattern": "\\;",
               "flags": ""
@@ -39,7 +40,8 @@
           "type": "Literal",
           "start": 403,
           "end": 408,
-          "value": "\\;"
+          "value": "\\;",
+          "raw": "\"\\\\;\""
         }
       },
       "consequent": {
@@ -66,7 +68,8 @@
                   "type": "Literal",
                   "start": 437,
                   "end": 448,
-                  "value": "#1: /\\;/"
+                  "value": "#1: /\\;/",
+                  "raw": "'#1: /\\\\;/'"
                 }
               ]
             }
@@ -92,6 +95,7 @@
             "start": 468,
             "end": 472,
             "value": {},
+            "raw": "/\\ /",
             "regex": {
               "pattern": "\\ ",
               "flags": ""
@@ -111,7 +115,8 @@
           "type": "Literal",
           "start": 484,
           "end": 489,
-          "value": "\\ "
+          "value": "\\ ",
+          "raw": "\"\\\\ \""
         }
       },
       "consequent": {
@@ -138,7 +143,8 @@
                   "type": "Literal",
                   "start": 518,
                   "end": 529,
-                  "value": "#2: /\\ /"
+                  "value": "#2: /\\ /",
+                  "raw": "'#2: /\\\\ /'"
                 }
               ]
             }

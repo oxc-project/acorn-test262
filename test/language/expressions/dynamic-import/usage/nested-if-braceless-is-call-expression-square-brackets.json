@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 1147,
         "end": 1151,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -57,7 +58,8 @@
                             "type": "Literal",
                             "start": 1160,
                             "end": 1196,
-                            "value": "./dynamic-import-module_FIXTURE.js"
+                            "value": "./dynamic-import-module_FIXTURE.js",
+                            "raw": "'./dynamic-import-module_FIXTURE.js'"
                           },
                           "options": null
                         },
@@ -65,7 +67,8 @@
                           "type": "Literal",
                           "start": 1198,
                           "end": 1204,
-                          "value": "then"
+                          "value": "then",
+                          "raw": "'then'"
                         },
                         "computed": true,
                         "optional": false
@@ -179,7 +182,8 @@
                                   "type": "Literal",
                                   "start": 1265,
                                   "end": 1266,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 }
                               ],
                               "optional": false

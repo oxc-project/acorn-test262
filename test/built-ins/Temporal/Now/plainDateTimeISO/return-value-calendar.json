@@ -112,13 +112,15 @@
             "type": "Literal",
             "start": 344,
             "end": 353,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 390,
-            "value": "calendar string should be iso8601"
+            "value": "calendar string should be iso8601",
+            "raw": "\"calendar string should be iso8601\""
           }
         ],
         "optional": false

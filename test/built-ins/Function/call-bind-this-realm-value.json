@@ -104,7 +104,8 @@
                 "type": "Literal",
                 "start": 839,
                 "end": 853,
-                "value": "return this;"
+                "value": "return this;",
+                "raw": "'return this;'"
               }
             ]
           }
@@ -175,7 +176,8 @@
               "type": "Literal",
               "start": 890,
               "end": 894,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ],
           "optional": false
@@ -252,7 +254,8 @@
             "type": "Literal",
             "start": 950,
             "end": 971,
-            "value": "boolean constructor"
+            "value": "boolean constructor",
+            "raw": "'boolean constructor'"
           }
         ],
         "optional": false
@@ -308,7 +311,8 @@
             "type": "Literal",
             "start": 1015,
             "end": 1035,
-            "value": "boolean instanceof"
+            "value": "boolean instanceof",
+            "raw": "'boolean instanceof'"
           }
         ],
         "optional": false
@@ -357,7 +361,8 @@
               "type": "Literal",
               "start": 1059,
               "end": 1060,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -434,7 +439,8 @@
             "type": "Literal",
             "start": 1115,
             "end": 1135,
-            "value": "number constructor"
+            "value": "number constructor",
+            "raw": "'number constructor'"
           }
         ],
         "optional": false
@@ -490,7 +496,8 @@
             "type": "Literal",
             "start": 1178,
             "end": 1197,
-            "value": "number instanceof"
+            "value": "number instanceof",
+            "raw": "'number instanceof'"
           }
         ],
         "optional": false
@@ -539,7 +546,8 @@
               "type": "Literal",
               "start": 1221,
               "end": 1223,
-              "value": ""
+              "value": "",
+              "raw": "''"
             }
           ],
           "optional": false
@@ -616,7 +624,8 @@
             "type": "Literal",
             "start": 1278,
             "end": 1298,
-            "value": "string constructor"
+            "value": "string constructor",
+            "raw": "'string constructor'"
           }
         ],
         "optional": false
@@ -672,7 +681,8 @@
             "type": "Literal",
             "start": 1341,
             "end": 1360,
-            "value": "string instanceof"
+            "value": "string instanceof",
+            "raw": "'string instanceof'"
           }
         ],
         "optional": false
@@ -785,7 +795,8 @@
             "type": "Literal",
             "start": 1435,
             "end": 1455,
-            "value": "object constructor"
+            "value": "object constructor",
+            "raw": "'object constructor'"
           }
         ],
         "optional": false
@@ -828,7 +839,8 @@
             "type": "Literal",
             "start": 1492,
             "end": 1511,
-            "value": "object instanceof"
+            "value": "object instanceof",
+            "raw": "'object instanceof'"
           }
         ],
         "optional": false

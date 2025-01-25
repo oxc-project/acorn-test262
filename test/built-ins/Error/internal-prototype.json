@@ -101,13 +101,15 @@
             "type": "Literal",
             "start": 375,
             "end": 379,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 448,
-            "value": "Function.prototype.isPrototypeOf(err1.constructor) returns true"
+            "value": "Function.prototype.isPrototypeOf(err1.constructor) returns true",
+            "raw": "'Function.prototype.isPrototypeOf(err1.constructor) returns true'"
           }
         ],
         "optional": false
@@ -204,13 +206,15 @@
             "type": "Literal",
             "start": 528,
             "end": 532,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 602,
-            "value": "Function.prototype.isPrototypeOf(Error.constructor) returns true"
+            "value": "Function.prototype.isPrototypeOf(Error.constructor) returns true",
+            "raw": "'Function.prototype.isPrototypeOf(Error.constructor) returns true'"
           }
         ],
         "optional": false

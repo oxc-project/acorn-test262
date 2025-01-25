@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 316,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 324,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 341,
-                "value": "some string"
+                "value": "some string",
+                "raw": "\"some string\""
               },
               {
                 "type": "CallExpression",
@@ -58,13 +61,15 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 364,
-                "value": "2n"
+                "value": "2n",
+                "raw": "2n"
               }
             ]
           }
@@ -115,19 +120,22 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 414,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 420,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -260,7 +268,8 @@
                               "type": "Literal",
                               "start": 511,
                               "end": 512,
-                              "value": 5
+                              "value": 5,
+                              "raw": "5"
                             },
                             "kind": "init"
                           }
@@ -417,7 +426,8 @@
                                 "type": "Literal",
                                 "start": 636,
                                 "end": 637,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             },
                             "kind": "init"
@@ -438,7 +448,8 @@
                   "type": "Literal",
                   "start": 653,
                   "end": 703,
-                  "value": "Partial date processed before throwing TypeError"
+                  "value": "Partial date processed before throwing TypeError",
+                  "raw": "\"Partial date processed before throwing TypeError\""
                 }
               ],
               "optional": false

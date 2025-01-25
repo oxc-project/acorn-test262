@@ -23,6 +23,7 @@
             "start": 2701,
             "end": 2713,
             "value": null,
+            "raw": "/(?-i:\\b)/ui",
             "regex": {
               "pattern": "(?-i:\\b)",
               "flags": "ui"
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 2732,
                   "end": 2740,
-                  "value": "ſ"
+                  "value": "ſ",
+                  "raw": "\"\\u017f\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 2743,
             "end": 2778,
-            "value": "\\b should not match after ſ"
+            "value": "\\b should not match after ſ",
+            "raw": "\"\\\\b should not match after \\u017f\""
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 2798,
                   "end": 2806,
-                  "value": "K"
+                  "value": "K",
+                  "raw": "\"\\u212a\""
                 }
               ],
               "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 2809,
             "end": 2844,
-            "value": "\\b should not match after K"
+            "value": "\\b should not match after K",
+            "raw": "\"\\\\b should not match after \\u212a\""
           }
         ],
         "optional": false

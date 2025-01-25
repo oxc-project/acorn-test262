@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 279,
                 "end": 280,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "operator": "!=",
               "right": {
@@ -54,7 +55,8 @@
                   "type": "Literal",
                   "start": 312,
                   "end": 345,
-                  "value": "#1: 1 != y throw ReferenceError"
+                  "value": "#1: 1 != y throw ReferenceError",
+                  "raw": "'#1: 1 != y throw ReferenceError'"
                 }
               ]
             }
@@ -112,7 +114,8 @@
                   "type": "Literal",
                   "start": 404,
                   "end": 408,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -143,7 +146,8 @@
                             "type": "Literal",
                             "start": 439,
                             "end": 484,
-                            "value": "#1.2: 1 != y throw ReferenceError. Actual: "
+                            "value": "#1.2: 1 != y throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: 1 != y throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

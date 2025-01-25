@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 478,
             "end": 483,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -72,7 +73,8 @@
             "type": "Literal",
             "start": 507,
             "end": 512,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -247,7 +249,8 @@
                                                     "type": "Literal",
                                                     "start": 674,
                                                     "end": 678,
-                                                    "value": true
+                                                    "value": true,
+                                                    "raw": "true"
                                                   }
                                                 }
                                               },
@@ -313,7 +316,8 @@
                                                     "type": "Literal",
                                                     "start": 771,
                                                     "end": 775,
-                                                    "value": true
+                                                    "value": true,
+                                                    "raw": "true"
                                                   }
                                                 }
                                               },
@@ -379,7 +383,8 @@
             "type": "Literal",
             "start": 857,
             "end": 884,
-            "value": "toStringAccessed !== true"
+            "value": "toStringAccessed !== true",
+            "raw": "'toStringAccessed !== true'"
           }
         ],
         "optional": false
@@ -410,7 +415,8 @@
             "type": "Literal",
             "start": 911,
             "end": 937,
-            "value": "valueOfAccessed !== true"
+            "value": "valueOfAccessed !== true",
+            "raw": "'valueOfAccessed !== true'"
           }
         ],
         "optional": false

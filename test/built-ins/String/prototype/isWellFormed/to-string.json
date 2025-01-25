@@ -69,7 +69,8 @@
                               "type": "Literal",
                               "start": 533,
                               "end": 549,
-                              "value": "calls ToString"
+                              "value": "calls ToString",
+                              "raw": "'calls ToString'"
                             }
                           ]
                         }
@@ -204,7 +205,8 @@
             "type": "Literal",
             "start": 661,
             "end": 695,
-            "value": "coerces the receiver to a string"
+            "value": "coerces the receiver to a string",
+            "raw": "'coerces the receiver to a string'"
           }
         ],
         "optional": false

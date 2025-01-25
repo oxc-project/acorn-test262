@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 816,
             "end": 820,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 822,
             "end": 876,
-            "value": "isConstructor(FinalizationRegistry) must return true"
+            "value": "isConstructor(FinalizationRegistry) must return true",
+            "raw": "'isConstructor(FinalizationRegistry) must return true'"
           }
         ],
         "optional": false

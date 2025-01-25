@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 389,
             "end": 399,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 421,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -119,7 +121,8 @@
             "type": "Literal",
             "start": 446,
             "end": 451,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -217,7 +220,8 @@
                   "type": "Literal",
                   "start": 520,
                   "end": 530,
-                  "value": "property"
+                  "value": "property",
+                  "raw": "\"property\""
                 }
               }
             },
@@ -245,7 +249,8 @@
                       "type": "Literal",
                       "start": 553,
                       "end": 557,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -299,7 +304,8 @@
                 "type": "Literal",
                 "start": 592,
                 "end": 602,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -308,7 +314,8 @@
             "type": "Literal",
             "start": 605,
             "end": 646,
-            "value": "obj.hasOwnProperty(\"property\") !== true"
+            "value": "obj.hasOwnProperty(\"property\") !== true",
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
           }
         ],
         "optional": false
@@ -339,7 +346,8 @@
             "type": "Literal",
             "start": 670,
             "end": 693,
-            "value": "isEnumerable !== true"
+            "value": "isEnumerable !== true",
+            "raw": "'isEnumerable !== true'"
           }
         ],
         "optional": false

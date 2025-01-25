@@ -300,7 +300,8 @@
                                     "type": "Literal",
                                     "start": 776,
                                     "end": 777,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "Identifier",
@@ -399,7 +400,8 @@
                                     "type": "Literal",
                                     "start": 854,
                                     "end": 855,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   {
                                     "type": "Identifier",

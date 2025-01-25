@@ -83,13 +83,15 @@
                         "type": "Literal",
                         "start": 426,
                         "end": 427,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 429,
                         "end": 432,
-                        "value": "p"
+                        "value": "p",
+                        "raw": "'p'"
                       }
                     ],
                     "optional": false
@@ -182,13 +184,15 @@
                         "type": "Literal",
                         "start": 492,
                         "end": 496,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 498,
                         "end": 501,
-                        "value": "p"
+                        "value": "p",
+                        "raw": "'p'"
                       }
                     ],
                     "optional": false
@@ -287,7 +291,8 @@
                         "type": "Literal",
                         "start": 572,
                         "end": 575,
-                        "value": "p"
+                        "value": "p",
+                        "raw": "'p'"
                       }
                     ],
                     "optional": false
@@ -380,13 +385,15 @@
                         "type": "Literal",
                         "start": 635,
                         "end": 637,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       {
                         "type": "Literal",
                         "start": 639,
                         "end": 642,
-                        "value": "p"
+                        "value": "p",
+                        "raw": "'p'"
                       }
                     ],
                     "optional": false

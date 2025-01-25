@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 362,
-                "value": "getDay"
+                "value": "getDay",
+                "raw": "\"getDay\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 367,
             "end": 371,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 433,
-            "value": "Date.prototype.hasOwnProperty(\"getDay\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"getDay\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"getDay\") must return true'"
           }
         ],
         "optional": false

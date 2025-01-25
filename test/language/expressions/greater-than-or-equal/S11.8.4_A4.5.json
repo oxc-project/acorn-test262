@@ -43,7 +43,8 @@
               "type": "Literal",
               "start": 280,
               "end": 281,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         },
@@ -52,7 +53,8 @@
           "type": "Literal",
           "start": 287,
           "end": 291,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -79,7 +81,8 @@
                   "type": "Literal",
                   "start": 320,
                   "end": 351,
-                  "value": "#1: (+Infinity >= 0) === true"
+                  "value": "#1: (+Infinity >= 0) === true",
+                  "raw": "'#1: (+Infinity >= 0) === true'"
                 }
               ]
             }
@@ -128,7 +131,8 @@
               "type": "Literal",
               "start": 400,
               "end": 403,
-              "value": 1.1
+              "value": 1.1,
+              "raw": "1.1"
             }
           }
         },
@@ -137,7 +141,8 @@
           "type": "Literal",
           "start": 409,
           "end": 413,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -164,7 +169,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 475,
-                  "value": "#2: (+Infinity >= 1.1) === true"
+                  "value": "#2: (+Infinity >= 1.1) === true",
+                  "raw": "'#2: (+Infinity >= 1.1) === true'"
                 }
               ]
             }
@@ -219,7 +225,8 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 528,
-                "value": 1.1
+                "value": 1.1,
+                "raw": "1.1"
               }
             }
           }
@@ -229,7 +236,8 @@
           "type": "Literal",
           "start": 534,
           "end": 538,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -256,7 +264,8 @@
                   "type": "Literal",
                   "start": 567,
                   "end": 601,
-                  "value": "#3: (+Infinity >= -1.1) === true"
+                  "value": "#3: (+Infinity >= -1.1) === true",
+                  "raw": "'#3: (+Infinity >= -1.1) === true'"
                 }
               ]
             }
@@ -327,7 +336,8 @@
           "type": "Literal",
           "start": 680,
           "end": 684,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -354,7 +364,8 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 752,
-                  "value": "#4: (+Infinity >= -Infinity) === true"
+                  "value": "#4: (+Infinity >= -Infinity) === true",
+                  "raw": "'#4: (+Infinity >= -Infinity) === true'"
                 }
               ]
             }
@@ -425,7 +436,8 @@
           "type": "Literal",
           "start": 823,
           "end": 827,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -452,7 +464,8 @@
                   "type": "Literal",
                   "start": 856,
                   "end": 902,
-                  "value": "#5: (+Infinity >= Number.MAX_VALUE) === true"
+                  "value": "#5: (+Infinity >= Number.MAX_VALUE) === true",
+                  "raw": "'#5: (+Infinity >= Number.MAX_VALUE) === true'"
                 }
               ]
             }
@@ -523,7 +536,8 @@
           "type": "Literal",
           "start": 973,
           "end": 977,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -550,7 +564,8 @@
                   "type": "Literal",
                   "start": 1006,
                   "end": 1052,
-                  "value": "#6: (+Infinity >= Number.MIN_VALUE) === true"
+                  "value": "#6: (+Infinity >= Number.MIN_VALUE) === true",
+                  "raw": "'#6: (+Infinity >= Number.MIN_VALUE) === true'"
                 }
               ]
             }

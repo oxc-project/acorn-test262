@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 626,
-                "value": "resizable"
+                "value": "resizable",
+                "raw": "\"resizable\""
               }
             ],
             "optional": false
@@ -142,7 +143,8 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 692,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
           }
@@ -195,7 +197,8 @@
             "type": "Literal",
             "start": 728,
             "end": 738,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -294,7 +297,8 @@
             "type": "Literal",
             "start": 803,
             "end": 841,
-            "value": "`this` cannot be a SharedArrayBuffer"
+            "value": "`this` cannot be a SharedArrayBuffer",
+            "raw": "\"`this` cannot be a SharedArrayBuffer\""
           }
         ],
         "optional": false
@@ -445,7 +449,8 @@
             "type": "Literal",
             "start": 960,
             "end": 998,
-            "value": "`this` cannot be a SharedArrayBuffer"
+            "value": "`this` cannot be a SharedArrayBuffer",
+            "raw": "\"`this` cannot be a SharedArrayBuffer\""
           }
         ],
         "optional": false

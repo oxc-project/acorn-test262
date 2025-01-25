@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 1630,
             "end": 1679,
-            "value": "Initialized binding created prior to evaluation"
+            "value": "Initialized binding created prior to evaluation",
+            "raw": "'Initialized binding created prior to evaluation'"
           }
         ],
         "optional": false
@@ -70,7 +71,8 @@
               "type": "Literal",
               "start": 1698,
               "end": 1702,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ]
@@ -98,7 +100,8 @@
                 "type": "Literal",
                 "start": 1723,
                 "end": 1728,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               "consequent": {
                 "type": "EmptyStatement",
@@ -132,7 +135,8 @@
                         "type": "Literal",
                         "start": 1759,
                         "end": 1762,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     }
                   ]
@@ -189,13 +193,15 @@
             "type": "Literal",
             "start": 1802,
             "end": 1812,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 1816,
             "end": 1863,
-            "value": "binding value is updated following evaluation"
+            "value": "binding value is updated following evaluation",
+            "raw": "'binding value is updated following evaluation'"
           }
         ],
         "optional": false
@@ -246,7 +252,8 @@
             "type": "Literal",
             "start": 1889,
             "end": 1892,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         ],
         "optional": false

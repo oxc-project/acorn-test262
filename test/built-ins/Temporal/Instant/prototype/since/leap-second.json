@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 359,
-                "value": "1483228799000000000n"
+                "value": "1483228799000000000n",
+                "raw": "1_483_228_799_000_000_000n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 375,
             "end": 397,
-            "value": "2016-12-31T23:59:60Z"
+            "value": "2016-12-31T23:59:60Z",
+            "raw": "\"2016-12-31T23:59:60Z\""
           }
         }
       ],
@@ -169,67 +171,78 @@
             "type": "Literal",
             "start": 479,
             "end": 480,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 483,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 489,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 492,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 495,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 498,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 501,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 504,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 506,
             "end": 507,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 558,
-            "value": "leap second is a valid ISO string for Instant"
+            "value": "leap second is a valid ISO string for Instant",
+            "raw": "\"leap second is a valid ISO string for Instant\""
           }
         ],
         "optional": false

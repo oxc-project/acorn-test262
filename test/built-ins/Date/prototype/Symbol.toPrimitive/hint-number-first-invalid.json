@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 729,
             "end": 730,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 750,
             "end": 751,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -119,7 +121,8 @@
                             "type": "Literal",
                             "start": 808,
                             "end": 809,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -185,7 +188,8 @@
                             "type": "Literal",
                             "start": 875,
                             "end": 876,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -197,7 +201,8 @@
                           "type": "Literal",
                           "start": 889,
                           "end": 907,
-                          "value": "toString test262"
+                          "value": "toString test262",
+                          "raw": "'toString test262'"
                         }
                       }
                     ]
@@ -312,7 +317,8 @@
                 "type": "Literal",
                 "start": 982,
                 "end": 990,
-                "value": "number"
+                "value": "number",
+                "raw": "'number'"
               }
             ],
             "optional": false
@@ -321,13 +327,15 @@
             "type": "Literal",
             "start": 995,
             "end": 1013,
-            "value": "toString test262"
+            "value": "toString test262",
+            "raw": "'toString test262'"
           },
           {
             "type": "Literal",
             "start": 1017,
             "end": 1084,
-            "value": "`toString` is used as a fallback when `valueOf` returns an object"
+            "value": "`toString` is used as a fallback when `valueOf` returns an object",
+            "raw": "'`toString` is used as a fallback when `valueOf` returns an object'"
           }
         ],
         "optional": false
@@ -371,13 +379,15 @@
             "type": "Literal",
             "start": 1118,
             "end": 1119,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1121,
             "end": 1164,
-            "value": "`valueOf` method was invoked exactly once"
+            "value": "`valueOf` method was invoked exactly once",
+            "raw": "'`valueOf` method was invoked exactly once'"
           }
         ],
         "optional": false
@@ -421,13 +431,15 @@
             "type": "Literal",
             "start": 1197,
             "end": 1198,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1200,
             "end": 1244,
-            "value": "`toString` method was invoked exactly once"
+            "value": "`toString` method was invoked exactly once",
+            "raw": "'`toString` method was invoked exactly once'"
           }
         ],
         "optional": false

@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 283,
                 "end": 287,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -110,13 +111,15 @@
             "type": "Literal",
             "start": 302,
             "end": 307,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 311,
             "end": 372,
-            "value": "Array.prototype.some.call(true, () => {}) must return false"
+            "value": "Array.prototype.some.call(true, () => {}) must return false",
+            "raw": "'Array.prototype.some.call(true, () => {}) must return false'"
           }
         ],
         "optional": false
@@ -204,7 +207,8 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 427,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -229,13 +233,15 @@
             "type": "Literal",
             "start": 442,
             "end": 447,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 513,
-            "value": "Array.prototype.some.call(false, () => {}) must return false"
+            "value": "Array.prototype.some.call(false, () => {}) must return false",
+            "raw": "'Array.prototype.some.call(false, () => {}) must return false'"
           }
         ],
         "optional": false

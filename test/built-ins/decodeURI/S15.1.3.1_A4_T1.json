@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 256,
               "end": 285,
-              "value": "http://unipro.ru/0123456789"
+              "value": "http://unipro.ru/0123456789",
+              "raw": "\"http://unipro.ru/0123456789\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 291,
           "end": 320,
-          "value": "http://unipro.ru/0123456789"
+          "value": "http://unipro.ru/0123456789",
+          "raw": "\"http://unipro.ru/0123456789\""
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 382,
-                  "value": "#1: http://unipro.ru/0123456789"
+                  "value": "#1: http://unipro.ru/0123456789",
+                  "raw": "'#1: http://unipro.ru/0123456789'"
                 }
               ]
             }
@@ -95,7 +98,8 @@
               "type": "Literal",
               "start": 412,
               "end": 492,
-              "value": "%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A"
+              "value": "%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A",
+              "raw": "\"%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A\""
             }
           ],
           "optional": false
@@ -105,7 +109,8 @@
           "type": "Literal",
           "start": 498,
           "end": 526,
-          "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+          "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "raw": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\""
         }
       },
       "consequent": {
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 587,
-                  "value": "#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                  "value": "#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                  "raw": "'#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ'"
                 }
               ]
             }
@@ -164,7 +170,8 @@
               "type": "Literal",
               "start": 617,
               "end": 697,
-              "value": "%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A"
+              "value": "%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A",
+              "raw": "\"%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A\""
             }
           ],
           "optional": false
@@ -174,7 +181,8 @@
           "type": "Literal",
           "start": 703,
           "end": 731,
-          "value": "abcdefghijklmnopqrstuvwxyz"
+          "value": "abcdefghijklmnopqrstuvwxyz",
+          "raw": "\"abcdefghijklmnopqrstuvwxyz\""
         }
       },
       "consequent": {
@@ -201,7 +209,8 @@
                   "type": "Literal",
                   "start": 760,
                   "end": 792,
-                  "value": "#3: abcdefghijklmnopqrstuvwxyz"
+                  "value": "#3: abcdefghijklmnopqrstuvwxyz",
+                  "raw": "'#3: abcdefghijklmnopqrstuvwxyz'"
                 }
               ]
             }

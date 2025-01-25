@@ -69,7 +69,8 @@
                           "type": "Literal",
                           "start": 283,
                           "end": 285,
-                          "value": 10
+                          "value": 10,
+                          "raw": "10"
                         }
                       ],
                       "optional": false
@@ -97,7 +98,8 @@
                           "type": "Literal",
                           "start": 297,
                           "end": 298,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -106,7 +108,8 @@
                         "type": "Literal",
                         "start": 302,
                         "end": 305,
-                        "value": 255
+                        "value": 255,
+                        "raw": "255"
                       }
                     }
                   },
@@ -132,7 +135,8 @@
                           "type": "Literal",
                           "start": 316,
                           "end": 317,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -141,7 +145,8 @@
                         "type": "Literal",
                         "start": 321,
                         "end": 326,
-                        "value": 4090
+                        "value": 4090,
+                        "raw": "0xFFA"
                       }
                     }
                   }
@@ -234,13 +239,15 @@
             "type": "Literal",
             "start": 400,
             "end": 402,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 439,
-            "value": "The value of `eua.length` is `10`"
+            "value": "The value of `eua.length` is `10`",
+            "raw": "\"The value of `eua.length` is `10`\""
           }
         ],
         "optional": false
@@ -297,13 +304,15 @@
             "type": "Literal",
             "start": 475,
             "end": 477,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 518,
-            "value": "The value of `eua.byteLength` is `10`"
+            "value": "The value of `eua.byteLength` is `10`",
+            "raw": "\"The value of `eua.byteLength` is `10`\""
           }
         ],
         "optional": false
@@ -351,7 +360,8 @@
               "type": "Literal",
               "start": 542,
               "end": 543,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -360,13 +370,15 @@
             "type": "Literal",
             "start": 546,
             "end": 550,
-            "value": 255
+            "value": 255,
+            "raw": "0xFF"
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 585,
-            "value": "The value of `eua[0]` is `0xFF`"
+            "value": "The value of `eua[0]` is `0xFF`",
+            "raw": "\"The value of `eua[0]` is `0xFF`\""
           }
         ],
         "optional": false
@@ -414,7 +426,8 @@
               "type": "Literal",
               "start": 609,
               "end": 610,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -423,13 +436,15 @@
             "type": "Literal",
             "start": 613,
             "end": 617,
-            "value": 250
+            "value": 250,
+            "raw": "0xFA"
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 652,
-            "value": "The value of `eua[1]` is `0xFA`"
+            "value": "The value of `eua[1]` is `0xFA`",
+            "raw": "\"The value of `eua[1]` is `0xFA`\""
           }
         ],
         "optional": false
@@ -519,7 +534,8 @@
             "type": "Literal",
             "start": 737,
             "end": 806,
-            "value": "`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`"
+            "value": "`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`",
+            "raw": "\"`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`\""
           }
         ],
         "optional": false
@@ -616,13 +632,15 @@
             "type": "Literal",
             "start": 869,
             "end": 890,
-            "value": "[object Uint8Array]"
+            "value": "[object Uint8Array]",
+            "raw": "\"[object Uint8Array]\""
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 967,
-            "value": "`Object.prototype.toString.call(eua)` returns `\"[object Uint8Array]\"`"
+            "value": "`Object.prototype.toString.call(eua)` returns `\"[object Uint8Array]\"`",
+            "raw": "\"`Object.prototype.toString.call(eua)` returns `\\\"[object Uint8Array]\\\"`\""
           }
         ],
         "optional": false

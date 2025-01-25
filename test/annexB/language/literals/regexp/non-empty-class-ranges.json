@@ -51,6 +51,7 @@
               "start": 1099,
               "end": 1108,
               "value": {},
+              "raw": "/[--\\d]+/",
               "regex": {
                 "pattern": "[--\\d]+",
                 "flags": ""
@@ -70,7 +71,8 @@
               "type": "Literal",
               "start": 1114,
               "end": 1130,
-              "value": ".-0123456789-."
+              "value": ".-0123456789-.",
+              "raw": "'.-0123456789-.'"
             }
           ],
           "optional": false
@@ -119,7 +121,8 @@
               "type": "Literal",
               "start": 1156,
               "end": 1157,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -128,7 +131,8 @@
             "type": "Literal",
             "start": 1160,
             "end": 1174,
-            "value": "-0123456789-"
+            "value": "-0123456789-",
+            "raw": "'-0123456789-'"
           }
         ],
         "optional": false
@@ -162,6 +166,7 @@
               "start": 1186,
               "end": 1196,
               "value": {},
+              "raw": "/[--\\dz]+/",
               "regex": {
                 "pattern": "[--\\dz]+",
                 "flags": ""
@@ -181,7 +186,8 @@
               "type": "Literal",
               "start": 1202,
               "end": 1219,
-              "value": ".-0123456789z-."
+              "value": ".-0123456789z-.",
+              "raw": "'.-0123456789z-.'"
             }
           ],
           "optional": false
@@ -230,7 +236,8 @@
               "type": "Literal",
               "start": 1245,
               "end": 1246,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -239,7 +246,8 @@
             "type": "Literal",
             "start": 1249,
             "end": 1264,
-            "value": "-0123456789z-"
+            "value": "-0123456789z-",
+            "raw": "'-0123456789z-'"
           }
         ],
         "optional": false

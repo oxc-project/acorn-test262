@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 761,
             "end": 766,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 830,
-            "value": "isConstructor(RegExp.prototype.toString) must return false"
+            "value": "isConstructor(RegExp.prototype.toString) must return false",
+            "raw": "'isConstructor(RegExp.prototype.toString) must return false'"
           }
         ],
         "optional": false
@@ -171,7 +173,8 @@
                             "type": "Literal",
                             "start": 890,
                             "end": 892,
-                            "value": ""
+                            "value": "",
+                            "raw": "''"
                           }
                         ]
                       }

@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 1359,
                 "end": 1360,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 1362,
                 "end": 1363,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -60,7 +62,8 @@
             "type": "Literal",
             "start": 1384,
             "end": 1385,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -165,7 +168,8 @@
                               "type": "Literal",
                               "start": 1458,
                               "end": 1459,
-                              "value": 4
+                              "value": 4,
+                              "raw": "4"
                             }
                           ],
                           "optional": false
@@ -213,7 +217,8 @@
                                 "type": "Literal",
                                 "start": 1493,
                                 "end": 1494,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               "computed": true,
                               "optional": false
@@ -222,7 +227,8 @@
                               "type": "Literal",
                               "start": 1497,
                               "end": 1499,
-                              "value": 42
+                              "value": 42,
+                              "raw": "42"
                             }
                           ],
                           "optional": false
@@ -270,7 +276,8 @@
                                 "type": "Literal",
                                 "start": 1533,
                                 "end": 1534,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               "computed": true,
                               "optional": false
@@ -279,7 +286,8 @@
                               "type": "Literal",
                               "start": 1537,
                               "end": 1538,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ],
                           "optional": false
@@ -327,7 +335,8 @@
                                 "type": "Literal",
                                 "start": 1572,
                                 "end": 1573,
-                                "value": 2
+                                "value": 2,
+                                "raw": "2"
                               },
                               "computed": true,
                               "optional": false
@@ -336,7 +345,8 @@
                               "type": "Literal",
                               "start": 1576,
                               "end": 1577,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             }
                           ],
                           "optional": false
@@ -384,7 +394,8 @@
                                 "type": "Literal",
                                 "start": 1611,
                                 "end": 1612,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               },
                               "computed": true,
                               "optional": false
@@ -393,7 +404,8 @@
                               "type": "Literal",
                               "start": 1615,
                               "end": 1616,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           ],
                           "optional": false
@@ -429,7 +441,8 @@
                               "type": "Literal",
                               "start": 1647,
                               "end": 1648,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -525,7 +538,8 @@
                         "type": "Literal",
                         "start": 1733,
                         "end": 1735,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       },
                       {
                         "type": "SpreadElement",
@@ -540,7 +554,8 @@
                               "type": "Literal",
                               "start": 1741,
                               "end": 1742,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           ]
                         }
@@ -633,13 +648,15 @@
                             "type": "Literal",
                             "start": 1806,
                             "end": 1807,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1809,
                             "end": 1848,
-                            "value": "generator method invoked exactly once"
+                            "value": "generator method invoked exactly once",
+                            "raw": "'generator method invoked exactly once'"
                           }
                         ],
                         "optional": false

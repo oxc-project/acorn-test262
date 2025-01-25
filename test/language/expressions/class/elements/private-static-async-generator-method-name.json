@@ -191,7 +191,8 @@
             "type": "Literal",
             "start": 2361,
             "end": 2370,
-            "value": "#method"
+            "value": "#method",
+            "raw": "\"#method\""
           }
         ],
         "optional": false

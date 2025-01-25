@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 320,
-                "value": "217175010123456789n"
+                "value": "217175010123456789n",
+                "raw": "217175010123456789n"
               }
             ]
           }
@@ -104,7 +105,8 @@
             "type": "Literal",
             "start": 373,
             "end": 392,
-            "value": "BigInt instanceof"
+            "value": "BigInt instanceof",
+            "raw": "\"BigInt instanceof\""
           }
         ],
         "optional": false
@@ -161,13 +163,15 @@
             "type": "Literal",
             "start": 445,
             "end": 457,
-            "value": 217175010123
+            "value": 217175010123,
+            "raw": "217175010123"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 485,
-            "value": "BigInt epochMilliseconds"
+            "value": "BigInt epochMilliseconds",
+            "raw": "\"BigInt epochMilliseconds\""
           }
         ],
         "optional": false
@@ -216,7 +220,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 552,
-                "value": "217175010123456789"
+                "value": "217175010123456789",
+                "raw": "\"217175010123456789\""
               }
             ]
           }
@@ -274,7 +279,8 @@
             "type": "Literal",
             "start": 605,
             "end": 624,
-            "value": "String instanceof"
+            "value": "String instanceof",
+            "raw": "\"String instanceof\""
           }
         ],
         "optional": false
@@ -331,13 +337,15 @@
             "type": "Literal",
             "start": 677,
             "end": 689,
-            "value": 217175010123
+            "value": 217175010123,
+            "raw": "217175010123"
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 717,
-            "value": "String epochMilliseconds"
+            "value": "String epochMilliseconds",
+            "raw": "\"String epochMilliseconds\""
           }
         ],
         "optional": false
@@ -414,7 +422,8 @@
                   "type": "Literal",
                   "start": 775,
                   "end": 783,
-                  "value": "abc123"
+                  "value": "abc123",
+                  "raw": "\"abc123\""
                 }
               ]
             }
@@ -423,7 +432,8 @@
             "type": "Literal",
             "start": 786,
             "end": 809,
-            "value": "invalid BigInt syntax"
+            "value": "invalid BigInt syntax",
+            "raw": "\"invalid BigInt syntax\""
           }
         ],
         "optional": false

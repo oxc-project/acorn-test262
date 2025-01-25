@@ -145,7 +145,8 @@
                               "type": "Literal",
                               "start": 1008,
                               "end": 1022,
-                              "value": "valueOf hour"
+                              "value": "valueOf hour",
+                              "raw": "'valueOf hour'"
                             }
                           ],
                           "optional": false
@@ -159,7 +160,8 @@
                           "type": "Literal",
                           "start": 1036,
                           "end": 1037,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -252,7 +254,8 @@
                               "type": "Literal",
                               "start": 1102,
                               "end": 1115,
-                              "value": "valueOf min"
+                              "value": "valueOf min",
+                              "raw": "'valueOf min'"
                             }
                           ],
                           "optional": false
@@ -266,7 +269,8 @@
                           "type": "Literal",
                           "start": 1129,
                           "end": 1130,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -359,7 +363,8 @@
                               "type": "Literal",
                               "start": 1195,
                               "end": 1208,
-                              "value": "valueOf sec"
+                              "value": "valueOf sec",
+                              "raw": "'valueOf sec'"
                             }
                           ],
                           "optional": false
@@ -373,7 +378,8 @@
                           "type": "Literal",
                           "start": 1222,
                           "end": 1223,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -466,7 +472,8 @@
                               "type": "Literal",
                               "start": 1287,
                               "end": 1299,
-                              "value": "valueOf ms"
+                              "value": "valueOf ms",
+                              "raw": "'valueOf ms'"
                             }
                           ],
                           "optional": false
@@ -480,7 +487,8 @@
                           "type": "Literal",
                           "start": 1313,
                           "end": 1314,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -588,25 +596,29 @@
                 "type": "Literal",
                 "start": 1413,
                 "end": 1427,
-                "value": "valueOf hour"
+                "value": "valueOf hour",
+                "raw": "'valueOf hour'"
               },
               {
                 "type": "Literal",
                 "start": 1429,
                 "end": 1442,
-                "value": "valueOf min"
+                "value": "valueOf min",
+                "raw": "'valueOf min'"
               },
               {
                 "type": "Literal",
                 "start": 1444,
                 "end": 1457,
-                "value": "valueOf sec"
+                "value": "valueOf sec",
+                "raw": "'valueOf sec'"
               },
               {
                 "type": "Literal",
                 "start": 1459,
                 "end": 1471,
-                "value": "valueOf ms"
+                "value": "valueOf ms",
+                "raw": "'valueOf ms'"
               }
             ]
           }
@@ -702,7 +714,8 @@
             "type": "Literal",
             "start": 1557,
             "end": 1609,
-            "value": "argument is ignored when `this` is an invalid date"
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
           }
         ],
         "optional": false
@@ -772,7 +785,8 @@
             "type": "Literal",
             "start": 1650,
             "end": 1702,
-            "value": "argument is ignored when `this` is an invalid date"
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
           }
         ],
         "optional": false

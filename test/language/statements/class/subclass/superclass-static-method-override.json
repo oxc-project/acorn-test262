@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 251,
             "end": 260,
-            "value": "staticM"
+            "value": "staticM",
+            "raw": "'staticM'"
           },
           {
             "type": "ObjectExpression",
@@ -115,7 +116,8 @@
                               "type": "Literal",
                               "start": 311,
                               "end": 343,
-                              "value": "`Base.staticM` is unreachable."
+                              "value": "`Base.staticM` is unreachable.",
+                              "raw": "\"`Base.staticM` is unreachable.\""
                             }
                           ]
                         }
@@ -187,7 +189,8 @@
                       "type": "Literal",
                       "start": 410,
                       "end": 411,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 ]
@@ -255,13 +258,15 @@
             "type": "Literal",
             "start": 450,
             "end": 451,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 480,
-            "value": "`C.staticM()` returns `1`"
+            "value": "`C.staticM()` returns `1`",
+            "raw": "\"`C.staticM()` returns `1`\""
           }
         ],
         "optional": false

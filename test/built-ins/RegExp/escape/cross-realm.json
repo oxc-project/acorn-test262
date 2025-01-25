@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 278,
             "end": 288,
-            "value": "oi+hello"
+            "value": "oi+hello",
+            "raw": "\"oi+hello\""
           }
         }
       ],
@@ -157,13 +158,15 @@
             "type": "Literal",
             "start": 377,
             "end": 387,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 424,
-            "value": "other.RegExp.escape is a function"
+            "value": "other.RegExp.escape is a function",
+            "raw": "\"other.RegExp.escape is a function\""
           }
         ],
         "optional": false
@@ -324,7 +327,8 @@
             "type": "Literal",
             "start": 522,
             "end": 558,
-            "value": "cross-realm escape works correctly"
+            "value": "cross-realm escape works correctly",
+            "raw": "\"cross-realm escape works correctly\""
           }
         ],
         "optional": false

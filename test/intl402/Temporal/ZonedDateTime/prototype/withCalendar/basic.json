@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 311,
                 "end": 334,
-                "value": "1572342398271986102n"
+                "value": "1572342398271986102n",
+                "raw": "1572342398_271_986_102n"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 344,
-                "value": "-07:00"
+                "value": "-07:00",
+                "raw": "\"-07:00\""
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 355,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 405,
-                "value": "japanese"
+                "value": "japanese",
+                "raw": "\"japanese\""
               }
             ],
             "optional": false
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 444,
             "end": 454,
-            "value": "japanese"
+            "value": "japanese",
+            "raw": "\"japanese\""
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 521,
-            "value": "withCalendar() returns a new instance with different calendarId"
+            "value": "withCalendar() returns a new instance with different calendarId",
+            "raw": "\"withCalendar() returns a new instance with different calendarId\""
           }
         ],
         "optional": false

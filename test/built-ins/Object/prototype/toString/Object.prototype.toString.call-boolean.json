@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 308,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 313,
             "end": 331,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 335,
             "end": 398,
-            "value": "Object.prototype.toString.call(true) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(true) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(true) returns [object Boolean]\""
           }
         ],
         "optional": false
@@ -199,7 +202,8 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 464,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ],
                 "optional": false
@@ -211,13 +215,15 @@
             "type": "Literal",
             "start": 470,
             "end": 488,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 563,
-            "value": "Object.prototype.toString.call(Object(true)) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(Object(true)) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(Object(true)) returns [object Boolean]\""
           }
         ],
         "optional": false
@@ -316,7 +322,8 @@
                     "type": "Literal",
                     "start": 626,
                     "end": 630,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ],
                 "optional": false
@@ -328,13 +335,15 @@
             "type": "Literal",
             "start": 636,
             "end": 654,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 730,
-            "value": "Object.prototype.toString.call(Boolean(true)) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(Boolean(true)) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(Boolean(true)) returns [object Boolean]\""
           }
         ],
         "optional": false
@@ -444,7 +453,8 @@
                         "type": "Literal",
                         "start": 800,
                         "end": 804,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -459,13 +469,15 @@
             "type": "Literal",
             "start": 811,
             "end": 829,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 913,
-            "value": "Object.prototype.toString.call(Object(Boolean(true))) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(Object(Boolean(true))) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(Object(Boolean(true))) returns [object Boolean]\""
           }
         ],
         "optional": false
@@ -564,7 +576,8 @@
                     "type": "Literal",
                     "start": 980,
                     "end": 984,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               }
@@ -575,13 +588,15 @@
             "type": "Literal",
             "start": 990,
             "end": 1008,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 1012,
             "end": 1088,
-            "value": "Object.prototype.toString.call(new Boolean(true)) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(new Boolean(true)) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(new Boolean(true)) returns [object Boolean]\""
           }
         ],
         "optional": false
@@ -691,7 +706,8 @@
                         "type": "Literal",
                         "start": 1162,
                         "end": 1166,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ]
                   }
@@ -705,13 +721,15 @@
             "type": "Literal",
             "start": 1173,
             "end": 1191,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 1195,
             "end": 1279,
-            "value": "Object.prototype.toString.call(Object(new Boolean(true))) returns [object Boolean]"
+            "value": "Object.prototype.toString.call(Object(new Boolean(true))) returns [object Boolean]",
+            "raw": "\"Object.prototype.toString.call(Object(new Boolean(true))) returns [object Boolean]\""
           }
         ],
         "optional": false

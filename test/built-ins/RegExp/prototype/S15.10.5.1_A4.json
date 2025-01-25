@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 377,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 380,
             "end": 384,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 441,
-            "value": "RegExp.hasOwnProperty('prototype') must return true"
+            "value": "RegExp.hasOwnProperty('prototype') must return true",
+            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
           }
         ],
         "optional": false
@@ -143,13 +146,15 @@
             "type": "Literal",
             "start": 502,
             "end": 513,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "\"prototype\""
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 519,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -173,7 +178,8 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 548,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -240,7 +246,8 @@
             "type": "Literal",
             "start": 596,
             "end": 667,
-            "value": "The value of RegExp.prototype is expected to equal the value of __obj"
+            "value": "The value of RegExp.prototype is expected to equal the value of __obj",
+            "raw": "'The value of RegExp.prototype is expected to equal the value of __obj'"
           }
         ],
         "optional": false

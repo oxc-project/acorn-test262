@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 762,
             "end": 767,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 827,
-            "value": "isConstructor(WeakMap.prototype.set) must return false"
+            "value": "isConstructor(WeakMap.prototype.set) must return false",
+            "raw": "'isConstructor(WeakMap.prototype.set) must return false'"
           }
         ],
         "optional": false
@@ -210,7 +212,8 @@
                         "type": "Literal",
                         "start": 906,
                         "end": 907,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   }

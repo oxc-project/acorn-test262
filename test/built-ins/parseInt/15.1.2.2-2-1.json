@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 321,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 329,
             "end": 359,
-            "value": "parseInt(\"\") must return NaN"
+            "value": "parseInt(\"\") must return NaN",
+            "raw": "'parseInt(\"\") must return NaN'"
           }
         ],
         "optional": false

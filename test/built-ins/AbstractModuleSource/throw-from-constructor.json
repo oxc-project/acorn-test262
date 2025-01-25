@@ -61,7 +61,8 @@
             "type": "Literal",
             "start": 513,
             "end": 523,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -152,7 +153,8 @@
             "type": "Literal",
             "start": 602,
             "end": 651,
-            "value": "%AbstractModuleSource%() should throw TypeError"
+            "value": "%AbstractModuleSource%() should throw TypeError",
+            "raw": "'%AbstractModuleSource%() should throw TypeError'"
           }
         ],
         "optional": false

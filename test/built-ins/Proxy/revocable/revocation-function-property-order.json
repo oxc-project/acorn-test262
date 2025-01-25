@@ -169,7 +169,8 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 427,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -221,7 +222,8 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 470,
-                "value": "name"
+                "value": "name",
+                "raw": "\"name\""
               }
             ],
             "optional": false
@@ -264,7 +266,8 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "operator": "&&",
@@ -294,7 +297,8 @@
                   "type": "Literal",
                   "start": 529,
                   "end": 530,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -303,7 +307,8 @@
             "type": "Literal",
             "start": 534,
             "end": 612,
-            "value": "The `length` property comes before the `name` property on built-in functions"
+            "value": "The `length` property comes before the `name` property on built-in functions",
+            "raw": "\"The `length` property comes before the `name` property on built-in functions\""
           }
         ],
         "optional": false

@@ -52,7 +52,8 @@
                 "type": "Literal",
                 "start": 2844,
                 "end": 2851,
-                "value": "value"
+                "value": "value",
+                "raw": "'value'"
               },
               {
                 "type": "ObjectExpression",

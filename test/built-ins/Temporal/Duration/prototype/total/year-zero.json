@@ -46,31 +46,36 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
-                "value": 24
+                "value": 24,
+                "raw": "24"
               }
             ]
           }
@@ -97,7 +102,8 @@
             "type": "Literal",
             "start": 357,
             "end": 378,
-            "value": "-000000-11-04T00:00"
+            "value": "-000000-11-04T00:00",
+            "raw": "\"-000000-11-04T00:00\""
           }
         }
       ],
@@ -201,7 +207,8 @@
                               "type": "Literal",
                               "start": 442,
                               "end": 448,
-                              "value": "days"
+                              "value": "days",
+                              "raw": "\"days\""
                             },
                             "kind": "init"
                           },
@@ -239,7 +246,8 @@
             "type": "Literal",
             "start": 470,
             "end": 506,
-            "value": "reject minus zero as extended year"
+            "value": "reject minus zero as extended year",
+            "raw": "\"reject minus zero as extended year\""
           }
         ],
         "optional": false

@@ -54,7 +54,8 @@
                     "type": "Literal",
                     "start": 750,
                     "end": 757,
-                    "value": "en-US"
+                    "value": "en-US",
+                    "raw": "'en-US'"
                   }
                 ]
               },

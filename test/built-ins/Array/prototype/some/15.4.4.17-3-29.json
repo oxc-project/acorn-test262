@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 328,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           }
@@ -124,7 +125,8 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 388,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             }
           }
@@ -162,13 +164,15 @@
                   "type": "Literal",
                   "start": 407,
                   "end": 408,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 410,
                   "end": 412,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -183,13 +187,15 @@
                   "type": "Literal",
                   "start": 416,
                   "end": 417,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 419,
                   "end": 421,
-                  "value": 12
+                  "value": 12,
+                  "raw": "12"
                 },
                 "kind": "init"
               },
@@ -210,7 +216,8 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 443,
-                  "value": 4294967297
+                  "value": 4294967297,
+                  "raw": "4294967297"
                 },
                 "kind": "init"
               }
@@ -304,7 +311,8 @@
             "type": "Literal",
             "start": 500,
             "end": 554,
-            "value": "Array.prototype.some.call(obj, callbackfn1) !== true"
+            "value": "Array.prototype.some.call(obj, callbackfn1) !== true",
+            "raw": "'Array.prototype.some.call(obj, callbackfn1) !== true'"
           }
         ],
         "optional": false
@@ -394,7 +402,8 @@
             "type": "Literal",
             "start": 609,
             "end": 663,
-            "value": "Array.prototype.some.call(obj, callbackfn2) !== true"
+            "value": "Array.prototype.some.call(obj, callbackfn2) !== true",
+            "raw": "'Array.prototype.some.call(obj, callbackfn2) !== true'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 296,
             "end": 320,
-            "value": "            abc"
+            "value": "            abc",
+            "raw": "\"\\u2029\\\n           abc\""
           }
         }
       ],
@@ -86,13 +87,15 @@
             "type": "Literal",
             "start": 350,
             "end": 355,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           },
           {
             "type": "Literal",
             "start": 357,
             "end": 367,
-            "value": "s.trim()"
+            "value": "s.trim()",
+            "raw": "'s.trim()'"
           }
         ],
         "optional": false

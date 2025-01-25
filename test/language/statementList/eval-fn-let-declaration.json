@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 830,
                 "end": 867,
-                "value": "function fn() {}let a, b = 42, c;b;"
+                "value": "function fn() {}let a, b = 42, c;b;",
+                "raw": "'function fn() {}let a, b = 42, c;b;'"
               }
             ],
             "optional": false
@@ -80,7 +81,8 @@
             "type": "Literal",
             "start": 896,
             "end": 898,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false

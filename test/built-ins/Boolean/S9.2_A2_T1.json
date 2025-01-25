@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 314,
                 "end": 318,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 321,
             "end": 326,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 361,
-            "value": "Boolean(null) must return false"
+            "value": "Boolean(null) must return false",
+            "raw": "'Boolean(null) must return false'"
           }
         ],
         "optional": false

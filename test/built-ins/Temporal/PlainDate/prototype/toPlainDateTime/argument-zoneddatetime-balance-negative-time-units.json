@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2379,
+  "end": 2377,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2130,
-      "end": 2203,
+      "start": 2128,
+      "end": 2201,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2136,
-          "end": 2202,
+          "start": 2134,
+          "end": 2200,
           "id": {
             "type": "Identifier",
-            "start": 2136,
-            "end": 2144,
+            "start": 2134,
+            "end": 2142,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2147,
-            "end": 2202,
+            "start": 2145,
+            "end": 2200,
             "callee": {
               "type": "MemberExpression",
-              "start": 2151,
-              "end": 2173,
+              "start": 2149,
+              "end": 2171,
               "object": {
                 "type": "Identifier",
-                "start": 2151,
-                "end": 2159,
+                "start": 2149,
+                "end": 2157,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2160,
-                "end": 2173,
+                "start": 2158,
+                "end": 2171,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -44,15 +44,17 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2174,
-                "end": 2191,
-                "value": "3661001001001n"
+                "start": 2172,
+                "end": 2189,
+                "value": "3661001001001n",
+                "raw": "3661_001_001_001n"
               },
               {
                 "type": "Literal",
-                "start": 2193,
-                "end": 2201,
-                "value": "-00:02"
+                "start": 2191,
+                "end": 2199,
+                "value": "-00:02",
+                "raw": "\"-00:02\""
               }
             ]
           }
@@ -62,37 +64,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2205,
-      "end": 2253,
+      "start": 2203,
+      "end": 2251,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2211,
-          "end": 2252,
+          "start": 2209,
+          "end": 2250,
           "id": {
             "type": "Identifier",
-            "start": 2211,
-            "end": 2215,
+            "start": 2209,
+            "end": 2213,
             "name": "date"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2218,
-            "end": 2252,
+            "start": 2216,
+            "end": 2250,
             "callee": {
               "type": "MemberExpression",
-              "start": 2222,
-              "end": 2240,
+              "start": 2220,
+              "end": 2238,
               "object": {
                 "type": "Identifier",
-                "start": 2222,
-                "end": 2230,
+                "start": 2220,
+                "end": 2228,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2231,
-                "end": 2240,
+                "start": 2229,
+                "end": 2238,
                 "name": "PlainDate"
               },
               "computed": false,
@@ -101,21 +103,24 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2241,
-                "end": 2245,
-                "value": 2000
+                "start": 2239,
+                "end": 2243,
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
-                "start": 2247,
-                "end": 2248,
-                "value": 5
+                "start": 2245,
+                "end": 2246,
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
-                "start": 2250,
-                "end": 2251,
-                "value": 2
+                "start": 2248,
+                "end": 2249,
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -125,37 +130,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2254,
-      "end": 2297,
+      "start": 2252,
+      "end": 2295,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2260,
-          "end": 2296,
+          "start": 2258,
+          "end": 2294,
           "id": {
             "type": "Identifier",
-            "start": 2260,
-            "end": 2263,
+            "start": 2258,
+            "end": 2261,
             "name": "pdt"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2266,
-            "end": 2296,
+            "start": 2264,
+            "end": 2294,
             "callee": {
               "type": "MemberExpression",
-              "start": 2266,
-              "end": 2286,
+              "start": 2264,
+              "end": 2284,
               "object": {
                 "type": "Identifier",
-                "start": 2266,
-                "end": 2270,
+                "start": 2264,
+                "end": 2268,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2271,
-                "end": 2286,
+                "start": 2269,
+                "end": 2284,
                 "name": "toPlainDateTime"
               },
               "computed": false,
@@ -164,8 +169,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2287,
-                "end": 2295,
+                "start": 2285,
+                "end": 2293,
                 "name": "datetime"
               }
             ],
@@ -177,26 +182,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2299,
-      "end": 2378,
+      "start": 2297,
+      "end": 2376,
       "expression": {
         "type": "CallExpression",
-        "start": 2299,
-        "end": 2377,
+        "start": 2297,
+        "end": 2375,
         "callee": {
           "type": "MemberExpression",
-          "start": 2299,
-          "end": 2334,
+          "start": 2297,
+          "end": 2332,
           "object": {
             "type": "Identifier",
-            "start": 2299,
-            "end": 2314,
+            "start": 2297,
+            "end": 2312,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 2315,
-            "end": 2334,
+            "start": 2313,
+            "end": 2332,
             "name": "assertPlainDateTime"
           },
           "computed": false,
@@ -205,69 +210,79 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2335,
-            "end": 2338,
+            "start": 2333,
+            "end": 2336,
             "name": "pdt"
           },
           {
             "type": "Literal",
-            "start": 2340,
-            "end": 2344,
-            "value": 2000
+            "start": 2338,
+            "end": 2342,
+            "value": 2000,
+            "raw": "2000"
           },
           {
             "type": "Literal",
-            "start": 2346,
-            "end": 2347,
-            "value": 5
+            "start": 2344,
+            "end": 2345,
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
-            "start": 2349,
-            "end": 2354,
-            "value": "M05"
+            "start": 2347,
+            "end": 2352,
+            "value": "M05",
+            "raw": "\"M05\""
           },
           {
             "type": "Literal",
-            "start": 2356,
-            "end": 2357,
-            "value": 2
+            "start": 2354,
+            "end": 2355,
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
-            "start": 2359,
-            "end": 2360,
-            "value": 0
+            "start": 2357,
+            "end": 2358,
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
-            "start": 2362,
-            "end": 2364,
-            "value": 59
+            "start": 2360,
+            "end": 2362,
+            "value": 59,
+            "raw": "59"
           },
           {
             "type": "Literal",
-            "start": 2366,
-            "end": 2367,
-            "value": 1
+            "start": 2364,
+            "end": 2365,
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
-            "start": 2369,
-            "end": 2370,
-            "value": 1
+            "start": 2367,
+            "end": 2368,
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
-            "start": 2372,
-            "end": 2373,
-            "value": 1
+            "start": 2370,
+            "end": 2371,
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
-            "start": 2375,
-            "end": 2376,
-            "value": 1
+            "start": 2373,
+            "end": 2374,
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

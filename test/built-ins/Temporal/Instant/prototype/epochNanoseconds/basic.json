@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 337,
-                "value": "217175010123456789n"
+                "value": "217175010123456789n",
+                "raw": "217175010_123_456_789n"
               }
             ]
           }
@@ -105,13 +106,15 @@
             "type": "Literal",
             "start": 386,
             "end": 408,
-            "value": "217175010123456789n"
+            "value": "217175010123456789n",
+            "raw": "217175010_123_456_789n"
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 439,
-            "value": "epochNanoseconds post epoch"
+            "value": "epochNanoseconds post epoch",
+            "raw": "\"epochNanoseconds post epoch\""
           }
         ],
         "optional": false
@@ -175,13 +178,15 @@
             "type": "Literal",
             "start": 495,
             "end": 503,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 541,
-            "value": "epochNanoseconds value is a bigint"
+            "value": "epochNanoseconds value is a bigint",
+            "raw": "\"epochNanoseconds value is a bigint\""
           }
         ],
         "optional": false
@@ -236,7 +241,8 @@
                   "type": "Literal",
                   "start": 587,
                   "end": 609,
-                  "value": "217175010876543211n"
+                  "value": "217175010876543211n",
+                  "raw": "217175010_876_543_211n"
                 }
               }
             ]
@@ -302,14 +308,16 @@
               "type": "Literal",
               "start": 660,
               "end": 682,
-              "value": "217175010876543211n"
+              "value": "217175010876543211n",
+              "raw": "217175010_876_543_211n"
             }
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 712,
-            "value": "epochNanoseconds pre epoch"
+            "value": "epochNanoseconds pre epoch",
+            "raw": "\"epochNanoseconds pre epoch\""
           }
         ],
         "optional": false
@@ -373,13 +381,15 @@
             "type": "Literal",
             "start": 769,
             "end": 777,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 815,
-            "value": "epochNanoseconds value is a bigint"
+            "value": "epochNanoseconds value is a bigint",
+            "raw": "\"epochNanoseconds value is a bigint\""
           }
         ],
         "optional": false

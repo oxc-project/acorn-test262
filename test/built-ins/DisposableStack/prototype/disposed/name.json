@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 659,
                 "end": 669,
-                "value": "disposed"
+                "value": "disposed",
+                "raw": "'disposed'"
               }
             ],
             "optional": false
@@ -138,13 +139,15 @@
             "type": "Literal",
             "start": 713,
             "end": 727,
-            "value": "get disposed"
+            "value": "get disposed",
+            "raw": "'get disposed'"
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 785,
-            "value": "The value of `descriptor.get.name` is `get disposed`"
+            "value": "The value of `descriptor.get.name` is `get disposed`",
+            "raw": "'The value of `descriptor.get.name` is `get disposed`'"
           }
         ],
         "optional": false
@@ -188,7 +191,8 @@
             "type": "Literal",
             "start": 821,
             "end": 827,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -212,7 +216,8 @@
                   "type": "Literal",
                   "start": 843,
                   "end": 848,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -233,7 +238,8 @@
                   "type": "Literal",
                   "start": 864,
                   "end": 869,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -254,7 +260,8 @@
                   "type": "Literal",
                   "start": 887,
                   "end": 891,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

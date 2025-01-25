@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 421,
             "end": 426,
-            "value": "get"
+            "value": "get",
+            "raw": "\"get\""
           },
           {
             "type": "ObjectExpression",
@@ -126,7 +127,8 @@
                                   "type": "Literal",
                                   "start": 487,
                                   "end": 514,
-                                  "value": "inheritedAccessorProperty"
+                                  "value": "inheritedAccessorProperty",
+                                  "raw": "\"inheritedAccessorProperty\""
                                 }
                               }
                             ]
@@ -284,7 +286,8 @@
             "type": "Literal",
             "start": 664,
             "end": 669,
-            "value": "get"
+            "value": "get",
+            "raw": "\"get\""
           },
           {
             "type": "ObjectExpression",
@@ -451,7 +454,8 @@
                 "type": "Literal",
                 "start": 782,
                 "end": 788,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -460,7 +464,8 @@
             "type": "Literal",
             "start": 791,
             "end": 831,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -524,13 +529,15 @@
             "type": "Literal",
             "start": 871,
             "end": 882,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 884,
             "end": 904,
-            "value": "typeof newObj.prop"
+            "value": "typeof newObj.prop",
+            "raw": "'typeof newObj.prop'"
           }
         ],
         "optional": false

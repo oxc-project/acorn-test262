@@ -160,7 +160,8 @@
                             "type": "Literal",
                             "start": 1616,
                             "end": 1666,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

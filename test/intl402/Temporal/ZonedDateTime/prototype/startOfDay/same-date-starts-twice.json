@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 515,
                 "end": 560,
-                "value": "2010-11-06T00:00:00-02:30[America/St_Johns]"
+                "value": "2010-11-06T00:00:00-02:30[America/St_Johns]",
+                "raw": "'2010-11-06T00:00:00-02:30[America/St_Johns]'"
               }
             ],
             "optional": false
@@ -124,7 +125,8 @@
                 "type": "Literal",
                 "start": 604,
                 "end": 649,
-                "value": "2010-11-07T23:00:00-03:30[America/St_Johns]"
+                "value": "2010-11-07T23:00:00-03:30[America/St_Johns]",
+                "raw": "'2010-11-07T23:00:00-03:30[America/St_Johns]'"
               }
             ],
             "optional": false
@@ -189,7 +191,8 @@
                 "type": "Literal",
                 "start": 693,
                 "end": 738,
-                "value": "2010-11-08T23:00:00-03:30[America/St_Johns]"
+                "value": "2010-11-08T23:00:00-03:30[America/St_Johns]",
+                "raw": "'2010-11-08T23:00:00-03:30[America/St_Johns]'"
               }
             ],
             "optional": false
@@ -254,7 +257,8 @@
                 "type": "Literal",
                 "start": 790,
                 "end": 835,
-                "value": "2010-11-07T00:00:00-02:30[America/St_Johns]"
+                "value": "2010-11-07T00:00:00-02:30[America/St_Johns]",
+                "raw": "'2010-11-07T00:00:00-02:30[America/St_Johns]'"
               }
             ],
             "optional": false
@@ -319,7 +323,8 @@
                 "type": "Literal",
                 "start": 886,
                 "end": 931,
-                "value": "2010-11-08T00:00:00-03:30[America/St_Johns]"
+                "value": "2010-11-08T00:00:00-03:30[America/St_Johns]",
+                "raw": "'2010-11-08T00:00:00-03:30[America/St_Johns]'"
               }
             ],
             "optional": false

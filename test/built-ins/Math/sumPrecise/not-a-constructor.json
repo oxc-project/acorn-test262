@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 373,
             "end": 378,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 430,
-            "value": "isConstructor(Math.sumPrecise) must return false"
+            "value": "isConstructor(Math.sumPrecise) must return false",
+            "raw": "\"isConstructor(Math.sumPrecise) must return false\""
           }
         ],
         "optional": false

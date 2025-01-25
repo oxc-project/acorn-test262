@@ -33,31 +33,36 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 440,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 443,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 445,
                 "end": 446,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -163,13 +168,15 @@
               "type": "Literal",
               "start": 618,
               "end": 621,
-              "value": "4"
+              "value": "4",
+              "raw": "'4'"
             },
             {
               "type": "Literal",
               "start": 623,
               "end": 626,
-              "value": "5"
+              "value": "5",
+              "raw": "'5'"
             }
           ],
           "optional": false
@@ -179,7 +186,8 @@
           "type": "Literal",
           "start": 632,
           "end": 635,
-          "value": "3"
+          "value": "3",
+          "raw": "\"3\""
         }
       },
       "consequent": {
@@ -210,7 +218,8 @@
                     "type": "Literal",
                     "start": 664,
                     "end": 808,
-                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring('4', '5') === \"3\". Actual: "
+                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring('4', '5') === \"3\". Actual: ",
+                    "raw": "'#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(\\'4\\', \\'5\\') === \"3\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -241,13 +250,15 @@
                         "type": "Literal",
                         "start": 832,
                         "end": 835,
-                        "value": "4"
+                        "value": "4",
+                        "raw": "'4'"
                       },
                       {
                         "type": "Literal",
                         "start": 837,
                         "end": 840,
-                        "value": "5"
+                        "value": "5",
+                        "raw": "'5'"
                       }
                     ],
                     "optional": false

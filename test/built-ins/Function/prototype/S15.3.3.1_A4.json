@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 579,
             "end": 590,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "'prototype'"
           },
           {
             "type": "ObjectExpression",
@@ -181,7 +182,8 @@
                   "type": "Literal",
                   "start": 685,
                   "end": 696,
-                  "value": "prototype"
+                  "value": "prototype",
+                  "raw": "'prototype'"
                 }
               ],
               "optional": false
@@ -199,7 +201,8 @@
             "type": "Literal",
             "start": 707,
             "end": 827,
-            "value": "The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, 'prototype').value"
+            "value": "The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, 'prototype').value",
+            "raw": "'The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, \\'prototype\\').value'"
           }
         ],
         "optional": false

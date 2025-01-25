@@ -233,7 +233,8 @@
             "type": "Literal",
             "start": 607,
             "end": 643,
-            "value": "NewTarget is undefined, {}.valueOf"
+            "value": "NewTarget is undefined, {}.valueOf",
+            "raw": "\"NewTarget is undefined, {}.valueOf\""
           }
         ],
         "optional": false
@@ -319,7 +320,8 @@
             "type": "Literal",
             "start": 707,
             "end": 744,
-            "value": "NewTarget is undefined, {}.toString"
+            "value": "NewTarget is undefined, {}.toString",
+            "raw": "\"NewTarget is undefined, {}.toString\""
           }
         ],
         "optional": false
@@ -404,7 +406,8 @@
             "type": "Literal",
             "start": 812,
             "end": 846,
-            "value": "NewTarget is defined, {}.valueOf"
+            "value": "NewTarget is defined, {}.valueOf",
+            "raw": "\"NewTarget is defined, {}.valueOf\""
           }
         ],
         "optional": false
@@ -489,7 +492,8 @@
             "type": "Literal",
             "start": 914,
             "end": 949,
-            "value": "NewTarget is defined, {}.toString"
+            "value": "NewTarget is defined, {}.toString",
+            "raw": "\"NewTarget is defined, {}.toString\""
           }
         ],
         "optional": false

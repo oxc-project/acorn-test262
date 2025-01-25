@@ -401,7 +401,8 @@
             "type": "Literal",
             "start": 1105,
             "end": 1114,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -458,7 +459,8 @@
             "type": "Literal",
             "start": 1140,
             "end": 1149,
-            "value": "test262"
+            "value": "test262",
+            "raw": "'test262'"
           }
         ],
         "optional": false
@@ -496,7 +498,8 @@
             "type": "Literal",
             "start": 1167,
             "end": 1180,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -553,7 +556,8 @@
             "type": "Literal",
             "start": 1206,
             "end": 1219,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -622,7 +626,8 @@
             "type": "Literal",
             "start": 1254,
             "end": 1267,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -679,7 +684,8 @@
             "type": "Literal",
             "start": 1292,
             "end": 1305,
-            "value": "super class"
+            "value": "super class",
+            "raw": "'super class'"
           }
         ],
         "optional": false
@@ -784,7 +790,8 @@
                         "type": "Literal",
                         "start": 1366,
                         "end": 1371,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "'foo'"
                       }
                     ],
                     "optional": false
@@ -797,7 +804,8 @@
             "type": "Literal",
             "start": 1377,
             "end": 1413,
-            "value": "invalid access of C private method"
+            "value": "invalid access of C private method",
+            "raw": "'invalid access of C private method'"
           }
         ],
         "optional": false

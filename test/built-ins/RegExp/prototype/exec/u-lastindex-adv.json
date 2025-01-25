@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 711,
+  "end": 709,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 655,
-      "end": 710,
+      "start": 653,
+      "end": 708,
       "expression": {
         "type": "CallExpression",
-        "start": 655,
-        "end": 709,
+        "start": 653,
+        "end": 707,
         "callee": {
           "type": "MemberExpression",
-          "start": 655,
-          "end": 671,
+          "start": 653,
+          "end": 669,
           "object": {
             "type": "Identifier",
-            "start": 655,
-            "end": 661,
+            "start": 653,
+            "end": 659,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 662,
-            "end": 671,
+            "start": 660,
+            "end": 669,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,17 +33,18 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 672,
-            "end": 702,
+            "start": 670,
+            "end": 700,
             "callee": {
               "type": "MemberExpression",
-              "start": 672,
-              "end": 686,
+              "start": 670,
+              "end": 684,
               "object": {
                 "type": "Literal",
-                "start": 672,
-                "end": 681,
+                "start": 670,
+                "end": 679,
                 "value": {},
+                "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
@@ -51,8 +52,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 682,
-                "end": 686,
+                "start": 680,
+                "end": 684,
                 "name": "exec"
               },
               "computed": false,
@@ -61,18 +62,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 687,
-                "end": 701,
-                "value": "𝌆"
+                "start": 685,
+                "end": 699,
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 704,
-            "end": 708,
-            "value": null
+            "start": 702,
+            "end": 706,
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false

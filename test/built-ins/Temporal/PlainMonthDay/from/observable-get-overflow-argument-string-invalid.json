@@ -95,7 +95,8 @@
                       "type": "Literal",
                       "start": 419,
                       "end": 430,
-                      "value": "constrain"
+                      "value": "constrain",
+                      "raw": "\"constrain\""
                     },
                     "kind": "init"
                   }
@@ -105,7 +106,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 443,
-                "value": "options"
+                "value": "options",
+                "raw": "\"options\""
               }
             ],
             "optional": false
@@ -198,7 +200,8 @@
                   "type": "Literal",
                   "start": 507,
                   "end": 514,
-                  "value": "13-34"
+                  "value": "13-34",
+                  "raw": "\"13-34\""
                 },
                 {
                   "type": "Identifier",
@@ -258,7 +261,8 @@
             "type": "Literal",
             "start": 559,
             "end": 594,
-            "value": "options read after string parsing"
+            "value": "options read after string parsing",
+            "raw": "\"options read after string parsing\""
           }
         ],
         "optional": false

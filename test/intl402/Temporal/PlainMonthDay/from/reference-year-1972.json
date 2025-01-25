@@ -77,7 +77,8 @@
                       "type": "Literal",
                       "start": 341,
                       "end": 345,
-                      "value": 2021
+                      "value": 2021,
+                      "raw": "2021"
                     },
                     "kind": "init"
                   },
@@ -98,7 +99,8 @@
                       "type": "Literal",
                       "start": 358,
                       "end": 363,
-                      "value": "M02"
+                      "value": "M02",
+                      "raw": "\"M02\""
                     },
                     "kind": "init"
                   },
@@ -119,7 +121,8 @@
                       "type": "Literal",
                       "start": 370,
                       "end": 372,
-                      "value": 29
+                      "value": 29,
+                      "raw": "29"
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,8 @@
                       "type": "Literal",
                       "start": 384,
                       "end": 393,
-                      "value": "gregory"
+                      "value": "gregory",
+                      "raw": "\"gregory\""
                     },
                     "kind": "init"
                   }
@@ -191,25 +195,29 @@
             "type": "Literal",
             "start": 446,
             "end": 451,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 455,
-            "value": 28
+            "value": 28,
+            "raw": "28"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 548,
-            "value": "year and monthCode determine if calendar date exists, but reference year should be 1972"
+            "value": "year and monthCode determine if calendar date exists, but reference year should be 1972",
+            "raw": "\"year and monthCode determine if calendar date exists, but reference year should be 1972\""
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 556,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -289,7 +297,8 @@
                       "type": "Literal",
                       "start": 613,
                       "end": 617,
-                      "value": 2021
+                      "value": 2021,
+                      "raw": "2021"
                     },
                     "kind": "init"
                   },
@@ -310,7 +319,8 @@
                       "type": "Literal",
                       "start": 626,
                       "end": 627,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   },
@@ -331,7 +341,8 @@
                       "type": "Literal",
                       "start": 634,
                       "end": 636,
-                      "value": 29
+                      "value": 29,
+                      "raw": "29"
                     },
                     "kind": "init"
                   },
@@ -352,7 +363,8 @@
                       "type": "Literal",
                       "start": 648,
                       "end": 657,
-                      "value": "gregory"
+                      "value": "gregory",
+                      "raw": "\"gregory\""
                     },
                     "kind": "init"
                   }
@@ -380,7 +392,8 @@
                       "type": "Literal",
                       "start": 673,
                       "end": 684,
-                      "value": "constrain"
+                      "value": "constrain",
+                      "raw": "\"constrain\""
                     },
                     "kind": "init"
                   }
@@ -431,25 +444,29 @@
             "type": "Literal",
             "start": 737,
             "end": 742,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 746,
-            "value": 28
+            "value": 28,
+            "raw": "28"
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 835,
-            "value": "year and month determine if calendar date exists, but reference year should be 1972"
+            "value": "year and month determine if calendar date exists, but reference year should be 1972",
+            "raw": "\"year and month determine if calendar date exists, but reference year should be 1972\""
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 843,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -557,7 +574,8 @@
                         "type": "Literal",
                         "start": 921,
                         "end": 925,
-                        "value": 2021
+                        "value": 2021,
+                        "raw": "2021"
                       },
                       "kind": "init"
                     },
@@ -578,7 +596,8 @@
                         "type": "Literal",
                         "start": 938,
                         "end": 943,
-                        "value": "M02"
+                        "value": "M02",
+                        "raw": "\"M02\""
                       },
                       "kind": "init"
                     },
@@ -599,7 +618,8 @@
                         "type": "Literal",
                         "start": 950,
                         "end": 952,
-                        "value": 29
+                        "value": 29,
+                        "raw": "29"
                       },
                       "kind": "init"
                     },
@@ -620,7 +640,8 @@
                         "type": "Literal",
                         "start": 964,
                         "end": 973,
-                        "value": "gregory"
+                        "value": "gregory",
+                        "raw": "\"gregory\""
                       },
                       "kind": "init"
                     }
@@ -648,7 +669,8 @@
                         "type": "Literal",
                         "start": 989,
                         "end": 997,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -662,7 +684,8 @@
             "type": "Literal",
             "start": 1004,
             "end": 1096,
-            "value": "RangeError thrown if monthCode and day does not exist in given year and overflow is reject"
+            "value": "RangeError thrown if monthCode and day does not exist in given year and overflow is reject",
+            "raw": "\"RangeError thrown if monthCode and day does not exist in given year and overflow is reject\""
           }
         ],
         "optional": false
@@ -770,7 +793,8 @@
                         "type": "Literal",
                         "start": 1174,
                         "end": 1178,
-                        "value": 2021
+                        "value": 2021,
+                        "raw": "2021"
                       },
                       "kind": "init"
                     },
@@ -791,7 +815,8 @@
                         "type": "Literal",
                         "start": 1187,
                         "end": 1188,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "kind": "init"
                     },
@@ -812,7 +837,8 @@
                         "type": "Literal",
                         "start": 1195,
                         "end": 1197,
-                        "value": 29
+                        "value": 29,
+                        "raw": "29"
                       },
                       "kind": "init"
                     },
@@ -833,7 +859,8 @@
                         "type": "Literal",
                         "start": 1209,
                         "end": 1218,
-                        "value": "gregory"
+                        "value": "gregory",
+                        "raw": "\"gregory\""
                       },
                       "kind": "init"
                     }
@@ -861,7 +888,8 @@
                         "type": "Literal",
                         "start": 1234,
                         "end": 1242,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -875,7 +903,8 @@
             "type": "Literal",
             "start": 1249,
             "end": 1337,
-            "value": "RangeError thrown if month and day does not exist in given year and overflow is reject"
+            "value": "RangeError thrown if month and day does not exist in given year and overflow is reject",
+            "raw": "\"RangeError thrown if month and day does not exist in given year and overflow is reject\""
           }
         ],
         "optional": false
@@ -955,7 +984,8 @@
                       "type": "Literal",
                       "start": 1399,
                       "end": 1404,
-                      "value": "M01"
+                      "value": "M01",
+                      "raw": "\"M01\""
                     },
                     "kind": "init"
                   },
@@ -976,7 +1006,8 @@
                       "type": "Literal",
                       "start": 1411,
                       "end": 1412,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -997,7 +1028,8 @@
                       "type": "Literal",
                       "start": 1424,
                       "end": 1432,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -1048,25 +1080,29 @@
             "type": "Literal",
             "start": 1485,
             "end": 1490,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 1492,
             "end": 1493,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1497,
             "end": 1551,
-            "value": "reference year should be 1972 if date exists in 1972"
+            "value": "reference year should be 1972 if date exists in 1972",
+            "raw": "\"reference year should be 1972 if date exists in 1972\""
           },
           {
             "type": "Literal",
             "start": 1555,
             "end": 1559,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -1146,7 +1182,8 @@
                       "type": "Literal",
                       "start": 1621,
                       "end": 1627,
-                      "value": "M05L"
+                      "value": "M05L",
+                      "raw": "\"M05L\""
                     },
                     "kind": "init"
                   },
@@ -1167,7 +1204,8 @@
                       "type": "Literal",
                       "start": 1634,
                       "end": 1635,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   },
@@ -1188,7 +1226,8 @@
                       "type": "Literal",
                       "start": 1647,
                       "end": 1655,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -1239,25 +1278,29 @@
             "type": "Literal",
             "start": 1708,
             "end": 1714,
-            "value": "M05L"
+            "value": "M05L",
+            "raw": "\"M05L\""
           },
           {
             "type": "Literal",
             "start": 1716,
             "end": 1717,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1721,
             "end": 1810,
-            "value": "reference year should be the latest ISO year before 1972 if date does not exist in 1972"
+            "value": "reference year should be the latest ISO year before 1972 if date does not exist in 1972",
+            "raw": "\"reference year should be the latest ISO year before 1972 if date does not exist in 1972\""
           },
           {
             "type": "Literal",
             "start": 1814,
             "end": 1818,
-            "value": 1970
+            "value": 1970,
+            "raw": "1970"
           }
         ],
         "optional": false
@@ -1337,7 +1380,8 @@
                       "type": "Literal",
                       "start": 1875,
                       "end": 1879,
-                      "value": 5781
+                      "value": 5781,
+                      "raw": "5781"
                     },
                     "kind": "init"
                   },
@@ -1358,7 +1402,8 @@
                       "type": "Literal",
                       "start": 1892,
                       "end": 1897,
-                      "value": "M02"
+                      "value": "M02",
+                      "raw": "\"M02\""
                     },
                     "kind": "init"
                   },
@@ -1379,7 +1424,8 @@
                       "type": "Literal",
                       "start": 1904,
                       "end": 1906,
-                      "value": 30
+                      "value": 30,
+                      "raw": "30"
                     },
                     "kind": "init"
                   },
@@ -1400,7 +1446,8 @@
                       "type": "Literal",
                       "start": 1918,
                       "end": 1926,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -1451,25 +1498,29 @@
             "type": "Literal",
             "start": 1979,
             "end": 1984,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 1986,
             "end": 1988,
-            "value": 29
+            "value": 29,
+            "raw": "29"
           },
           {
             "type": "Literal",
             "start": 1992,
             "end": 2105,
-            "value": "year and monthCode determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)"
+            "value": "year and monthCode determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)",
+            "raw": "\"year and monthCode determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)\""
           },
           {
             "type": "Literal",
             "start": 2109,
             "end": 2113,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -1549,7 +1600,8 @@
                       "type": "Literal",
                       "start": 2170,
                       "end": 2174,
-                      "value": 5781
+                      "value": 5781,
+                      "raw": "5781"
                     },
                     "kind": "init"
                   },
@@ -1570,7 +1622,8 @@
                       "type": "Literal",
                       "start": 2183,
                       "end": 2184,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     "kind": "init"
                   },
@@ -1591,7 +1644,8 @@
                       "type": "Literal",
                       "start": 2191,
                       "end": 2193,
-                      "value": 30
+                      "value": 30,
+                      "raw": "30"
                     },
                     "kind": "init"
                   },
@@ -1612,7 +1666,8 @@
                       "type": "Literal",
                       "start": 2205,
                       "end": 2213,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -1640,7 +1695,8 @@
                       "type": "Literal",
                       "start": 2229,
                       "end": 2240,
-                      "value": "constrain"
+                      "value": "constrain",
+                      "raw": "\"constrain\""
                     },
                     "kind": "init"
                   }
@@ -1691,25 +1747,29 @@
             "type": "Literal",
             "start": 2293,
             "end": 2298,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 2300,
             "end": 2302,
-            "value": 29
+            "value": 29,
+            "raw": "29"
           },
           {
             "type": "Literal",
             "start": 2306,
             "end": 2415,
-            "value": "year and month determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)"
+            "value": "year and month determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)",
+            "raw": "\"year and month determine if calendar date exists, and reference year must agree (Cheshvan 5781 has 29 days)\""
           },
           {
             "type": "Literal",
             "start": 2419,
             "end": 2423,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -1789,7 +1849,8 @@
                       "type": "Literal",
                       "start": 2485,
                       "end": 2490,
-                      "value": "M02"
+                      "value": "M02",
+                      "raw": "\"M02\""
                     },
                     "kind": "init"
                   },
@@ -1810,7 +1871,8 @@
                       "type": "Literal",
                       "start": 2497,
                       "end": 2499,
-                      "value": 30
+                      "value": 30,
+                      "raw": "30"
                     },
                     "kind": "init"
                   },
@@ -1831,7 +1893,8 @@
                       "type": "Literal",
                       "start": 2511,
                       "end": 2519,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -1882,25 +1945,29 @@
             "type": "Literal",
             "start": 2572,
             "end": 2577,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 2579,
             "end": 2581,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           },
           {
             "type": "Literal",
             "start": 2585,
             "end": 2707,
-            "value": "reference year must be the latest ISO year at or before 1972 that includes monthCode and day (Cheshvan 5781 has 29 days)"
+            "value": "reference year must be the latest ISO year at or before 1972 that includes monthCode and day (Cheshvan 5781 has 29 days)",
+            "raw": "\"reference year must be the latest ISO year at or before 1972 that includes monthCode and day (Cheshvan 5781 has 29 days)\""
           },
           {
             "type": "Literal",
             "start": 2711,
             "end": 2715,
-            "value": 1971
+            "value": 1971,
+            "raw": "1971"
           }
         ],
         "optional": false
@@ -2008,7 +2075,8 @@
                         "type": "Literal",
                         "start": 2793,
                         "end": 2797,
-                        "value": 5781
+                        "value": 5781,
+                        "raw": "5781"
                       },
                       "kind": "init"
                     },
@@ -2029,7 +2097,8 @@
                         "type": "Literal",
                         "start": 2810,
                         "end": 2815,
-                        "value": "M02"
+                        "value": "M02",
+                        "raw": "\"M02\""
                       },
                       "kind": "init"
                     },
@@ -2050,7 +2119,8 @@
                         "type": "Literal",
                         "start": 2822,
                         "end": 2824,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       },
                       "kind": "init"
                     },
@@ -2071,7 +2141,8 @@
                         "type": "Literal",
                         "start": 2836,
                         "end": 2844,
-                        "value": "hebrew"
+                        "value": "hebrew",
+                        "raw": "\"hebrew\""
                       },
                       "kind": "init"
                     }
@@ -2099,7 +2170,8 @@
                         "type": "Literal",
                         "start": 2860,
                         "end": 2868,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -2113,7 +2185,8 @@
             "type": "Literal",
             "start": 2875,
             "end": 2967,
-            "value": "RangeError thrown if monthCode and day does not exist in given year and overflow is reject"
+            "value": "RangeError thrown if monthCode and day does not exist in given year and overflow is reject",
+            "raw": "\"RangeError thrown if monthCode and day does not exist in given year and overflow is reject\""
           }
         ],
         "optional": false
@@ -2221,7 +2294,8 @@
                         "type": "Literal",
                         "start": 3045,
                         "end": 3049,
-                        "value": 5781
+                        "value": 5781,
+                        "raw": "5781"
                       },
                       "kind": "init"
                     },
@@ -2242,7 +2316,8 @@
                         "type": "Literal",
                         "start": 3058,
                         "end": 3059,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "kind": "init"
                     },
@@ -2263,7 +2338,8 @@
                         "type": "Literal",
                         "start": 3066,
                         "end": 3068,
-                        "value": 30
+                        "value": 30,
+                        "raw": "30"
                       },
                       "kind": "init"
                     },
@@ -2284,7 +2360,8 @@
                         "type": "Literal",
                         "start": 3080,
                         "end": 3088,
-                        "value": "hebrew"
+                        "value": "hebrew",
+                        "raw": "\"hebrew\""
                       },
                       "kind": "init"
                     }
@@ -2312,7 +2389,8 @@
                         "type": "Literal",
                         "start": 3104,
                         "end": 3112,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -2326,7 +2404,8 @@
             "type": "Literal",
             "start": 3119,
             "end": 3207,
-            "value": "RangeError thrown if month and day does not exist in given year and overflow is reject"
+            "value": "RangeError thrown if month and day does not exist in given year and overflow is reject",
+            "raw": "\"RangeError thrown if month and day does not exist in given year and overflow is reject\""
           }
         ],
         "optional": false
@@ -2406,7 +2485,8 @@
                       "type": "Literal",
                       "start": 3269,
                       "end": 3274,
-                      "value": "M04"
+                      "value": "M04",
+                      "raw": "\"M04\""
                     },
                     "kind": "init"
                   },
@@ -2427,7 +2507,8 @@
                       "type": "Literal",
                       "start": 3281,
                       "end": 3283,
-                      "value": 26
+                      "value": 26,
+                      "raw": "26"
                     },
                     "kind": "init"
                   },
@@ -2448,7 +2529,8 @@
                       "type": "Literal",
                       "start": 3295,
                       "end": 3303,
-                      "value": "hebrew"
+                      "value": "hebrew",
+                      "raw": "\"hebrew\""
                     },
                     "kind": "init"
                   }
@@ -2499,25 +2581,29 @@
             "type": "Literal",
             "start": 3356,
             "end": 3361,
-            "value": "M04"
+            "value": "M04",
+            "raw": "\"M04\""
           },
           {
             "type": "Literal",
             "start": 3363,
             "end": 3365,
-            "value": 26
+            "value": 26,
+            "raw": "26"
           },
           {
             "type": "Literal",
             "start": 3369,
             "end": 3448,
-            "value": "reference date should be the later one, if two options exist in ISO year 1972"
+            "value": "reference date should be the later one, if two options exist in ISO year 1972",
+            "raw": "\"reference date should be the later one, if two options exist in ISO year 1972\""
           },
           {
             "type": "Literal",
             "start": 3452,
             "end": 3456,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           }
         ],
         "optional": false
@@ -2581,13 +2667,15 @@
             "type": "Literal",
             "start": 3497,
             "end": 3522,
-            "value": "1972-12-31[u-ca=hebrew]"
+            "value": "1972-12-31[u-ca=hebrew]",
+            "raw": "\"1972-12-31[u-ca=hebrew]\""
           },
           {
             "type": "Literal",
             "start": 3524,
             "end": 3540,
-            "value": "reference date"
+            "value": "reference date",
+            "raw": "\"reference date\""
           }
         ],
         "optional": false

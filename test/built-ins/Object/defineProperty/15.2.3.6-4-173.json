@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 575,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 577,
                 "end": 578,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -127,7 +129,8 @@
                         "type": "Literal",
                         "start": 652,
                         "end": 655,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -151,7 +154,8 @@
                               "type": "Literal",
                               "start": 677,
                               "end": 682,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           }
@@ -212,7 +216,8 @@
                         "type": "Literal",
                         "start": 731,
                         "end": 734,
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -254,7 +259,8 @@
                                       "type": "Literal",
                                       "start": 773,
                                       "end": 774,
-                                      "value": 2
+                                      "value": 2,
+                                      "raw": "2"
                                     }
                                   }
                                 ]
@@ -279,7 +285,8 @@
                               "type": "Literal",
                               "start": 801,
                               "end": 805,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -327,7 +334,8 @@
                         "type": "Literal",
                         "start": 845,
                         "end": 853,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -351,7 +359,8 @@
                               "type": "Literal",
                               "start": 868,
                               "end": 869,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -419,13 +428,15 @@
             "type": "Literal",
             "start": 912,
             "end": 913,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 930,
-            "value": "arrObj.length"
+            "value": "arrObj.length",
+            "raw": "'arrObj.length'"
           }
         ],
         "optional": false
@@ -474,7 +485,8 @@
                 "type": "Literal",
                 "start": 962,
                 "end": 965,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -483,7 +495,8 @@
             "type": "Literal",
             "start": 968,
             "end": 1005,
-            "value": "arrObj.hasOwnProperty(\"1\") !== true"
+            "value": "arrObj.hasOwnProperty(\"1\") !== true",
+            "raw": "'arrObj.hasOwnProperty(\"1\") !== true'"
           }
         ],
         "optional": false

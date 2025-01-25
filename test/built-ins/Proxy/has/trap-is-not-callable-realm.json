@@ -200,7 +200,8 @@
                       "type": "Literal",
                       "start": 740,
                       "end": 746,
-                      "value": "attr"
+                      "value": "attr",
+                      "raw": "\"attr\""
                     },
                     "operator": "in",
                     "right": {

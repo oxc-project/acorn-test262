@@ -159,7 +159,8 @@
                       "type": "Literal",
                       "start": 538,
                       "end": 568,
-                      "value": "Array should not be iterated"
+                      "value": "Array should not be iterated",
+                      "raw": "\"Array should not be iterated\""
                     }
                   ]
                 }
@@ -212,19 +213,22 @@
                 "type": "Literal",
                 "start": 619,
                 "end": 623,
-                "value": 2023
+                "value": 2023,
+                "raw": "2023"
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 626,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 637,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -282,7 +286,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 667,
-                  "value": 2005
+                  "value": 2005,
+                  "raw": "2005"
                 },
                 "kind": "init"
               },
@@ -303,7 +308,8 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 677,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               }

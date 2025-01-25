@@ -118,7 +118,8 @@
                         "type": "Literal",
                         "start": 464,
                         "end": 517,
-                        "value": "#1: A property callee have attribute { DontDelete }"
+                        "value": "#1: A property callee have attribute { DontDelete }",
+                        "raw": "\"#1: A property callee have attribute { DontDelete }\""
                       }
                     ]
                   }
@@ -163,7 +164,8 @@
                     "type": "Literal",
                     "start": 561,
                     "end": 596,
-                    "value": "#1: arguments object don't exists"
+                    "value": "#1: arguments object don't exists",
+                    "raw": "\"#1: arguments object don't exists\""
                   }
                 ]
               }
@@ -302,7 +304,8 @@
                         "type": "Literal",
                         "start": 717,
                         "end": 770,
-                        "value": "#2: A property callee have attribute { DontDelete }"
+                        "value": "#2: A property callee have attribute { DontDelete }",
+                        "raw": "\"#2: A property callee have attribute { DontDelete }\""
                       }
                     ]
                   }
@@ -347,7 +350,8 @@
                     "type": "Literal",
                     "start": 814,
                     "end": 849,
-                    "value": "#2: arguments object don't exists"
+                    "value": "#2: arguments object don't exists",
+                    "raw": "\"#2: arguments object don't exists\""
                   }
                 ]
               }

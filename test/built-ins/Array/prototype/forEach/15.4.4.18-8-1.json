@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 299,
             "end": 300,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -158,13 +159,15 @@
             "type": "Literal",
             "start": 384,
             "end": 385,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 396,
-            "value": "callCnt"
+            "value": "callCnt",
+            "raw": "'callCnt'"
           }
         ],
         "optional": false

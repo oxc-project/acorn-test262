@@ -59,7 +59,8 @@
                   "type": "Literal",
                   "start": 292,
                   "end": 293,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Identifier",
@@ -80,7 +81,8 @@
                   "type": "Literal",
                   "start": 308,
                   "end": 311,
-                  "value": 100
+                  "value": 100,
+                  "raw": "100"
                 },
                 "value": {
                   "type": "Identifier",
@@ -113,7 +115,8 @@
                     "type": "Literal",
                     "start": 335,
                     "end": 339,
-                    "value": 0.6
+                    "value": 0.6,
+                    "raw": "6e-1"
                   }
                 },
                 "kind": "init"
@@ -227,14 +230,16 @@
               "type": "Literal",
               "start": 408,
               "end": 409,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 457,
-            "value": "Array.prototype.indexOf.call(obj, targetObj)"
+            "value": "Array.prototype.indexOf.call(obj, targetObj)",
+            "raw": "'Array.prototype.indexOf.call(obj, targetObj)'"
           }
         ],
         "optional": false

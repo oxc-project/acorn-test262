@@ -27,61 +27,71 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 323,
-                "value": "a.a"
+                "value": "a.a",
+                "raw": "'a.a'"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 332,
-                "value": "aa^"
+                "value": "aa^",
+                "raw": "'aa^'"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 341,
-                "value": "a a"
+                "value": "a a",
+                "raw": "'a a'"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 351,
-                "value": "a\ta"
+                "value": "a\ta",
+                "raw": "'a\\ta'"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 363,
-                "value": "a\na"
+                "value": "a\na",
+                "raw": "'a\\x0Aa'"
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 375,
-                "value": "a\fa"
+                "value": "a\fa",
+                "raw": "'a\\x0Ca'"
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 387,
-                "value": "a\ra"
+                "value": "a\ra",
+                "raw": "'a\\x0Da'"
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 401,
-                "value": "a a"
+                "value": "a a",
+                "raw": "'a\\u00A0a'"
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 423,
-                "value": "a a"
+                "value": "a a",
+                "raw": "'a\\u2009a'"
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 451,
-                "value": "a a"
+                "value": "a a",
+                "raw": "'a\\u2028a'"
               }
             ]
           }

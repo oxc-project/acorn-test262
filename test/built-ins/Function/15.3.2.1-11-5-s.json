@@ -70,13 +70,15 @@
                         "type": "Literal",
                         "start": 357,
                         "end": 362,
-                        "value": "a,a"
+                        "value": "a,a",
+                        "raw": "'a,a'"
                       },
                       {
                         "type": "Literal",
                         "start": 364,
                         "end": 379,
-                        "value": "\"use strict\";"
+                        "value": "\"use strict\";",
+                        "raw": "'\"use strict\";'"
                       }
                     ],
                     "optional": false

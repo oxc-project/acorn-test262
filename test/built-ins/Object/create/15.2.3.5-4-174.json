@@ -66,7 +66,8 @@
           "type": "Literal",
           "start": 391,
           "end": 403,
-          "value": "ErrorValue"
+          "value": "ErrorValue",
+          "raw": "\"ErrorValue\""
         }
       }
     },
@@ -201,13 +202,15 @@
             "type": "Literal",
             "start": 491,
             "end": 503,
-            "value": "ErrorValue"
+            "value": "ErrorValue",
+            "raw": "\"ErrorValue\""
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 518,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

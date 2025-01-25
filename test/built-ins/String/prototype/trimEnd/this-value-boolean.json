@@ -110,7 +110,8 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 595,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -119,13 +120,15 @@
             "type": "Literal",
             "start": 600,
             "end": 606,
-            "value": "true"
+            "value": "true",
+            "raw": "'true'"
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 647,
-            "value": "String.prototype.trimEnd.call(true)"
+            "value": "String.prototype.trimEnd.call(true)",
+            "raw": "'String.prototype.trimEnd.call(true)'"
           }
         ],
         "optional": false
@@ -213,7 +216,8 @@
                 "type": "Literal",
                 "start": 702,
                 "end": 707,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -222,13 +226,15 @@
             "type": "Literal",
             "start": 712,
             "end": 719,
-            "value": "false"
+            "value": "false",
+            "raw": "'false'"
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 761,
-            "value": "String.prototype.trimEnd.call(false)"
+            "value": "String.prototype.trimEnd.call(false)",
+            "raw": "'String.prototype.trimEnd.call(false)'"
           }
         ],
         "optional": false

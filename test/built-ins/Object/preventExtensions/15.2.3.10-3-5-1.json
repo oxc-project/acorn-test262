@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 334,
-                "value": "bbq"
+                "value": "bbq",
+                "raw": "\"bbq\""
               }
             ]
           }
@@ -215,13 +216,15 @@
             "type": "Literal",
             "start": 462,
             "end": 466,
-            "value": "10"
+            "value": "10",
+            "raw": "\"10\""
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 477,
-            "value": "nocheck"
+            "value": "nocheck",
+            "raw": "\"nocheck\""
           }
         ],
         "optional": false
@@ -276,7 +279,8 @@
                   "type": "Literal",
                   "start": 508,
                   "end": 512,
-                  "value": "10"
+                  "value": "10",
+                  "raw": "\"10\""
                 }
               ],
               "optional": false

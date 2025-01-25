@@ -23,14 +23,16 @@
               "type": "Literal",
               "start": 304,
               "end": 306,
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
             "operator": "&&",
             "right": {
               "type": "Literal",
               "start": 310,
               "end": 313,
-              "value": "1"
+              "value": "1",
+              "raw": "\"1\""
             }
           }
         },
@@ -39,7 +41,8 @@
           "type": "Literal",
           "start": 319,
           "end": 321,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -66,7 +69,8 @@
                   "type": "Literal",
                   "start": 350,
                   "end": 374,
-                  "value": "#1: (\"\" && \"1\") === \"\""
+                  "value": "#1: (\"\" && \"1\") === \"\"",
+                  "raw": "'#1: (\"\" && \"1\") === \"\"'"
                 }
               ]
             }
@@ -95,7 +99,8 @@
               "type": "Literal",
               "start": 395,
               "end": 397,
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
             "operator": "&&",
             "right": {
@@ -113,7 +118,8 @@
                   "type": "Literal",
                   "start": 412,
                   "end": 415,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ]
             }
@@ -124,7 +130,8 @@
           "type": "Literal",
           "start": 422,
           "end": 424,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -151,7 +158,8 @@
                   "type": "Literal",
                   "start": 453,
                   "end": 489,
-                  "value": "#2: (\"\" && new String(\"1\")) === \"\""
+                  "value": "#2: (\"\" && new String(\"1\")) === \"\"",
+                  "raw": "'#2: (\"\" && new String(\"1\")) === \"\"'"
                 }
               ]
             }

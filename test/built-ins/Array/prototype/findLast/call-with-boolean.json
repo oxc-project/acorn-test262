@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 329,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -116,7 +117,8 @@
             "type": "Literal",
             "start": 357,
             "end": 426,
-            "value": "Array.prototype.findLast.call(true, () => {}) must return undefined"
+            "value": "Array.prototype.findLast.call(true, () => {}) must return undefined",
+            "raw": "'Array.prototype.findLast.call(true, () => {}) must return undefined'"
           }
         ],
         "optional": false
@@ -204,7 +206,8 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 485,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -235,7 +238,8 @@
             "type": "Literal",
             "start": 513,
             "end": 583,
-            "value": "Array.prototype.findLast.call(false, () => {}) must return undefined"
+            "value": "Array.prototype.findLast.call(false, () => {}) must return undefined",
+            "raw": "'Array.prototype.findLast.call(false, () => {}) must return undefined'"
           }
         ],
         "optional": false

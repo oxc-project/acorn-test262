@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 419,
             "end": 430,
-            "value": "__proto__"
+            "value": "__proto__",
+            "raw": "'__proto__'"
           },
           {
             "type": "ObjectExpression",
@@ -107,7 +108,8 @@
                               "type": "Literal",
                               "start": 481,
                               "end": 503,
-                              "value": "should not be called"
+                              "value": "should not be called",
+                              "raw": "'should not be called'"
                             }
                           ]
                         }
@@ -193,7 +195,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 566,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             },
@@ -210,7 +213,8 @@
             "type": "Literal",
             "start": 576,
             "end": 577,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 401,
             "end": 413,
-            "value": "my-message"
+            "value": "my-message",
+            "raw": "\"my-message\""
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 448,
-                  "value": "my-cause"
+                  "value": "my-cause",
+                  "raw": "\"my-cause\""
                 },
                 "kind": "init"
               }
@@ -180,7 +182,8 @@
                               "type": "Literal",
                               "start": 524,
                               "end": 534,
-                              "value": "toString"
+                              "value": "toString",
+                              "raw": "\"toString\""
                             }
                           ],
                           "optional": false
@@ -268,7 +271,8 @@
                               "type": "Literal",
                               "start": 613,
                               "end": 620,
-                              "value": "cause"
+                              "value": "cause",
+                              "raw": "\"cause\""
                             }
                           ],
                           "optional": false
@@ -337,13 +341,15 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 701,
-                "value": "toString"
+                "value": "toString",
+                "raw": "\"toString\""
               },
               {
                 "type": "Literal",
                 "start": 703,
                 "end": 710,
-                "value": "cause"
+                "value": "cause",
+                "raw": "\"cause\""
               }
             ]
           },
@@ -351,7 +357,8 @@
             "type": "Literal",
             "start": 714,
             "end": 752,
-            "value": "accessing own properties on sequence"
+            "value": "accessing own properties on sequence",
+            "raw": "\"accessing own properties on sequence\""
           }
         ],
         "optional": false

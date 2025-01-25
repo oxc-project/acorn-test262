@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 637,
             "end": 638,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 679,
             "end": 687,
-            "value": "groups"
+            "value": "groups",
+            "raw": "\"groups\""
           },
           {
             "type": "ObjectExpression",
@@ -170,6 +172,7 @@
                 "start": 731,
                 "end": 740,
                 "value": {},
+                "raw": "/(?<x>.)/",
                 "regex": {
                   "pattern": "(?<x>.)",
                   "flags": ""
@@ -189,7 +192,8 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 749,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -236,7 +240,8 @@
             "type": "Literal",
             "start": 778,
             "end": 779,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -267,7 +272,8 @@
             "type": "Literal",
             "start": 888,
             "end": 896,
-            "value": "groups"
+            "value": "groups",
+            "raw": "\"groups\""
           },
           {
             "type": "ObjectExpression",
@@ -291,7 +297,8 @@
                   "type": "Literal",
                   "start": 912,
                   "end": 916,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -312,7 +319,8 @@
                   "type": "Literal",
                   "start": 932,
                   "end": 936,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -333,7 +341,8 @@
                   "type": "Literal",
                   "start": 954,
                   "end": 958,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -393,6 +402,7 @@
                 "start": 1118,
                 "end": 1135,
                 "value": {},
+                "raw": "/(?<__proto__>.)/",
                 "regex": {
                   "pattern": "(?<__proto__>.)",
                   "flags": ""
@@ -412,7 +422,8 @@
                 "type": "Literal",
                 "start": 1141,
                 "end": 1144,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -453,7 +464,8 @@
             "type": "Literal",
             "start": 1164,
             "end": 1167,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "MemberExpression",
@@ -510,7 +522,8 @@
             "type": "Literal",
             "start": 1205,
             "end": 1209,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "CallExpression",

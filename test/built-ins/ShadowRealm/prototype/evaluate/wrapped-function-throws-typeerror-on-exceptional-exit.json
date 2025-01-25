@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 381,
             "end": 391,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 468,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
           }
         ],
         "optional": false
@@ -228,7 +230,8 @@
                             "type": "Literal",
                             "start": 750,
                             "end": 755,
-                            "value": "ahh"
+                            "value": "ahh",
+                            "raw": "\"ahh\""
                           }
                         ],
                         "optional": false
@@ -244,13 +247,15 @@
             "type": "Literal",
             "start": 764,
             "end": 768,
-            "value": "ok"
+            "value": "ok",
+            "raw": "'ok'"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 876,
-            "value": "WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception"
+            "value": "WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception",
+            "raw": "'WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception'"
           }
         ],
         "optional": false
@@ -331,7 +336,8 @@
                     "type": "Literal",
                     "start": 928,
                     "end": 963,
-                    "value": "() => { throw new Error(\"ahh\"); }"
+                    "value": "() => { throw new Error(\"ahh\"); }",
+                    "raw": "'() => { throw new Error(\"ahh\"); }'"
                   }
                 ],
                 "optional": false
@@ -344,7 +350,8 @@
             "type": "Literal",
             "start": 970,
             "end": 1049,
-            "value": "WrappedFunction throws TypeError if the wrapped callable throws any exception"
+            "value": "WrappedFunction throws TypeError if the wrapped callable throws any exception",
+            "raw": "'WrappedFunction throws TypeError if the wrapped callable throws any exception'"
           }
         ],
         "optional": false

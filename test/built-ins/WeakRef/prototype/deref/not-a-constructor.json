@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 766,
             "end": 771,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 833,
-            "value": "isConstructor(WeakRef.prototype.deref) must return false"
+            "value": "isConstructor(WeakRef.prototype.deref) must return false",
+            "raw": "'isConstructor(WeakRef.prototype.deref) must return false'"
           }
         ],
         "optional": false

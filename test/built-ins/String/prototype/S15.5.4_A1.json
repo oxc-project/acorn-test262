@@ -107,14 +107,16 @@
               "type": "Literal",
               "start": 587,
               "end": 597,
-              "value": "[object "
+              "value": "[object ",
+              "raw": "\"[object \""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 600,
               "end": 608,
-              "value": "String"
+              "value": "String",
+              "raw": "\"String\""
             }
           },
           "operator": "+",
@@ -122,7 +124,8 @@
             "type": "Literal",
             "start": 611,
             "end": 614,
-            "value": "]"
+            "value": "]",
+            "raw": "\"]\""
           }
         }
       },
@@ -154,7 +157,8 @@
                     "type": "Literal",
                     "start": 643,
                     "end": 779,
-                    "value": "#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==="
+                    "value": "#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ===",
+                    "raw": "'#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==='"
                   },
                   "operator": "+",
                   "right": {

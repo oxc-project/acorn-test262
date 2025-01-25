@@ -156,7 +156,8 @@
                                     "type": "Literal",
                                     "start": 428,
                                     "end": 429,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   }
                                 },
                                 "kind": "init"
@@ -178,7 +179,8 @@
                                   "type": "Literal",
                                   "start": 442,
                                   "end": 444,
-                                  "value": 10
+                                  "value": 10,
+                                  "raw": "10"
                                 },
                                 "kind": "init"
                               }
@@ -191,7 +193,8 @@
                         "type": "Literal",
                         "start": 449,
                         "end": 498,
-                        "value": "Throws when mixing negative and positive values"
+                        "value": "Throws when mixing negative and positive values",
+                        "raw": "\"Throws when mixing negative and positive values\""
                       }
                     ]
                   }
@@ -306,7 +309,8 @@
                                   "type": "Literal",
                                   "start": 560,
                                   "end": 561,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 },
                                 "kind": "init"
                               },
@@ -333,7 +337,8 @@
                                     "type": "Literal",
                                     "start": 575,
                                     "end": 577,
-                                    "value": 10
+                                    "value": 10,
+                                    "raw": "10"
                                   }
                                 },
                                 "kind": "init"
@@ -347,7 +352,8 @@
                         "type": "Literal",
                         "start": 582,
                         "end": 631,
-                        "value": "Throws when mixing negative and positive values"
+                        "value": "Throws when mixing negative and positive values",
+                        "raw": "\"Throws when mixing negative and positive values\""
                       }
                     ]
                   }

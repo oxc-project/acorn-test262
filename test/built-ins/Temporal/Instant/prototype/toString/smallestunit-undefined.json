@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 323,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               }
             ]
           }
@@ -136,7 +137,8 @@
                       "type": "Literal",
                       "start": 413,
                       "end": 414,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -187,13 +189,15 @@
             "type": "Literal",
             "start": 447,
             "end": 476,
-            "value": "2001-09-09T01:46:40.123987Z"
+            "value": "2001-09-09T01:46:40.123987Z",
+            "raw": "\"2001-09-09T01:46:40.123987Z\""
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 533,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -260,7 +264,8 @@
                       "type": "Literal",
                       "start": 597,
                       "end": 598,
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     },
                     "kind": "init"
                   }
@@ -311,13 +316,15 @@
             "type": "Literal",
             "start": 631,
             "end": 660,
-            "value": "2001-09-09T01:46:40.123987Z"
+            "value": "2001-09-09T01:46:40.123987Z",
+            "raw": "\"2001-09-09T01:46:40.123987Z\""
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 717,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -405,7 +412,8 @@
                       "type": "Literal",
                       "start": 807,
                       "end": 808,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -456,13 +464,15 @@
             "type": "Literal",
             "start": 841,
             "end": 867,
-            "value": "2001-09-09T01:46:40.123Z"
+            "value": "2001-09-09T01:46:40.123Z",
+            "raw": "\"2001-09-09T01:46:40.123Z\""
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 924,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false
@@ -529,7 +539,8 @@
                       "type": "Literal",
                       "start": 988,
                       "end": 989,
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     "kind": "init"
                   }
@@ -580,13 +591,15 @@
             "type": "Literal",
             "start": 1022,
             "end": 1048,
-            "value": "2001-09-09T01:46:40.123Z"
+            "value": "2001-09-09T01:46:40.123Z",
+            "raw": "\"2001-09-09T01:46:40.123Z\""
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1105,
-            "value": "default smallestUnit defers to fractionalSecondDigits"
+            "value": "default smallestUnit defers to fractionalSecondDigits",
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
           }
         ],
         "optional": false

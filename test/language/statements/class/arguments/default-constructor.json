@@ -221,13 +221,15 @@
             "type": "Literal",
             "start": 383,
             "end": 384,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 421,
-            "value": "The value of `args.length` is `0`"
+            "value": "The value of `args.length` is `0`",
+            "raw": "\"The value of `args.length` is `0`\""
           }
         ],
         "optional": false
@@ -252,19 +254,22 @@
             "type": "Literal",
             "start": 437,
             "end": 438,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 441,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 444,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ]
       }
@@ -320,13 +325,15 @@
             "type": "Literal",
             "start": 477,
             "end": 478,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 515,
-            "value": "The value of `args.length` is `3`"
+            "value": "The value of `args.length` is `3`",
+            "raw": "\"The value of `args.length` is `3`\""
           }
         ],
         "optional": false
@@ -382,13 +389,15 @@
             "type": "Literal",
             "start": 565,
             "end": 569,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 624,
-            "value": "The result of `that instanceof Derived` is `true`"
+            "value": "The result of `that instanceof Derived` is `true`",
+            "raw": "\"The result of `that instanceof Derived` is `true`\""
           }
         ],
         "optional": false
@@ -424,7 +433,8 @@
                 "type": "Literal",
                 "start": 649,
                 "end": 652,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             ]
           }

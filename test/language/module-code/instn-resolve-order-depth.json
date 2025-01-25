@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 363,
         "end": 409,
-        "value": "./instn-resolve-order-depth-child_FIXTURE.js"
+        "value": "./instn-resolve-order-depth-child_FIXTURE.js",
+        "raw": "'./instn-resolve-order-depth-child_FIXTURE.js'"
       },
       "attributes": []
     },
@@ -43,7 +44,8 @@
         "type": "Literal",
         "start": 418,
         "end": 465,
-        "value": "./instn-resolve-order-depth-syntax_FIXTURE.js"
+        "value": "./instn-resolve-order-depth-syntax_FIXTURE.js",
+        "raw": "'./instn-resolve-order-depth-syntax_FIXTURE.js'"
       },
       "attributes": []
     }

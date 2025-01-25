@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 596,
         "end": 614,
-        "value": "./dep_FIXTURE.js"
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -66,13 +67,15 @@
             "type": "Literal",
             "start": 641,
             "end": 642,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 683,
-            "value": "`defer` is the default export binding"
+            "value": "`defer` is the default export binding",
+            "raw": "\"`defer` is the default export binding\""
           }
         ],
         "optional": false

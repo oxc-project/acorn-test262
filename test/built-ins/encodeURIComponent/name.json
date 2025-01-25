@@ -1,121 +1,126 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 867,
+  "end": 866,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 726,
-      "end": 866,
+      "start": 725,
+      "end": 865,
       "expression": {
         "type": "CallExpression",
-        "start": 726,
-        "end": 865,
+        "start": 725,
+        "end": 864,
         "callee": {
           "type": "Identifier",
-          "start": 726,
-          "end": 740,
+          "start": 725,
+          "end": 739,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 741,
-            "end": 759,
+            "start": 740,
+            "end": 758,
             "name": "encodeURIComponent"
           },
           {
             "type": "Literal",
-            "start": 761,
-            "end": 767,
-            "value": "name"
+            "start": 760,
+            "end": 766,
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
-            "start": 769,
-            "end": 864,
+            "start": 768,
+            "end": 863,
             "properties": [
               {
                 "type": "Property",
-                "start": 773,
-                "end": 800,
+                "start": 772,
+                "end": 799,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 773,
-                  "end": 778,
+                  "start": 772,
+                  "end": 777,
                   "name": "value"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 780,
-                  "end": 800,
-                  "value": "encodeURIComponent"
+                  "start": 779,
+                  "end": 799,
+                  "value": "encodeURIComponent",
+                  "raw": "\"encodeURIComponent\""
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 804,
-                "end": 819,
+                "start": 803,
+                "end": 818,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 804,
-                  "end": 812,
+                  "start": 803,
+                  "end": 811,
                   "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 814,
-                  "end": 819,
-                  "value": false
+                  "start": 813,
+                  "end": 818,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 823,
-                "end": 840,
+                "start": 822,
+                "end": 839,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 823,
-                  "end": 833,
+                  "start": 822,
+                  "end": 832,
                   "name": "enumerable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 835,
-                  "end": 840,
-                  "value": false
+                  "start": 834,
+                  "end": 839,
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 844,
-                "end": 862,
+                "start": 843,
+                "end": 861,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 844,
-                  "end": 856,
+                  "start": 843,
+                  "end": 855,
                   "name": "configurable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 858,
-                  "end": 862,
-                  "value": true
+                  "start": 857,
+                  "end": 861,
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

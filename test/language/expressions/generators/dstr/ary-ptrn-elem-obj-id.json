@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1840,
             "end": 1841,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -173,7 +174,8 @@
                           "type": "Literal",
                           "start": 1884,
                           "end": 1886,
-                          "value": 44
+                          "value": 44,
+                          "raw": "44"
                         },
                         "kind": "init"
                       },
@@ -194,7 +196,8 @@
                           "type": "Literal",
                           "start": 1891,
                           "end": 1893,
-                          "value": 55
+                          "value": 55,
+                          "raw": "55"
                         },
                         "kind": "init"
                       },
@@ -215,7 +218,8 @@
                           "type": "Literal",
                           "start": 1898,
                           "end": 1900,
-                          "value": 66
+                          "value": 66,
+                          "raw": "66"
                         },
                         "kind": "init"
                       }
@@ -268,7 +272,8 @@
                       "type": "Literal",
                       "start": 1929,
                       "end": 1931,
-                      "value": 11
+                      "value": 11,
+                      "raw": "11"
                     }
                   ],
                   "optional": false
@@ -312,7 +317,8 @@
                       "type": "Literal",
                       "start": 1956,
                       "end": 1958,
-                      "value": 22
+                      "value": 22,
+                      "raw": "22"
                     }
                   ],
                   "optional": false
@@ -356,7 +362,8 @@
                       "type": "Literal",
                       "start": 1983,
                       "end": 1985,
-                      "value": 33
+                      "value": 33,
+                      "raw": "33"
                     }
                   ],
                   "optional": false
@@ -392,7 +399,8 @@
                       "type": "Literal",
                       "start": 2014,
                       "end": 2015,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -452,7 +460,8 @@
                           "type": "Literal",
                           "start": 2029,
                           "end": 2031,
-                          "value": 11
+                          "value": 11,
+                          "raw": "11"
                         },
                         "kind": "init"
                       },
@@ -473,7 +482,8 @@
                           "type": "Literal",
                           "start": 2036,
                           "end": 2038,
-                          "value": 22
+                          "value": 22,
+                          "raw": "22"
                         },
                         "kind": "init"
                       },
@@ -494,7 +504,8 @@
                           "type": "Literal",
                           "start": 2043,
                           "end": 2045,
-                          "value": 33
+                          "value": 33,
+                          "raw": "33"
                         },
                         "kind": "init"
                       }
@@ -556,13 +567,15 @@
             "type": "Literal",
             "start": 2086,
             "end": 2087,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2089,
             "end": 2130,
-            "value": "generator function invoked exactly once"
+            "value": "generator function invoked exactly once",
+            "raw": "'generator function invoked exactly once'"
           }
         ],
         "optional": false

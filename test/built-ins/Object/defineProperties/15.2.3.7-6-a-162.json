@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 567,
                 "end": 568,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 570,
                 "end": 571,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -115,7 +117,8 @@
                         "type": "Literal",
                         "start": 629,
                         "end": 630,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     },
@@ -136,7 +139,8 @@
                         "type": "Literal",
                         "start": 646,
                         "end": 650,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -182,7 +186,8 @@
           "type": "Literal",
           "start": 673,
           "end": 675,
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       }
     },
@@ -242,7 +247,8 @@
                 "type": "Literal",
                 "start": 753,
                 "end": 756,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -251,13 +257,15 @@
             "type": "Literal",
             "start": 759,
             "end": 764,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 791,
-            "value": "arr.hasOwnProperty(\"1\")"
+            "value": "arr.hasOwnProperty(\"1\")",
+            "raw": "'arr.hasOwnProperty(\"1\")'"
           }
         ],
         "optional": false
@@ -314,13 +322,15 @@
             "type": "Literal",
             "start": 823,
             "end": 825,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 839,
-            "value": "arr.length"
+            "value": "arr.length",
+            "raw": "'arr.length'"
           }
         ],
         "optional": false
@@ -368,7 +378,8 @@
               "type": "Literal",
               "start": 863,
               "end": 864,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -377,13 +388,15 @@
             "type": "Literal",
             "start": 867,
             "end": 868,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 870,
             "end": 878,
-            "value": "arr[0]"
+            "value": "arr[0]",
+            "raw": "'arr[0]'"
           }
         ],
         "optional": false

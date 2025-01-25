@@ -122,7 +122,8 @@
           "type": "Literal",
           "start": 423,
           "end": 426,
-          "value": 4.5
+          "value": 4.5,
+          "raw": "4.5"
         }
       }
     },
@@ -165,7 +166,8 @@
           "type": "Literal",
           "start": 447,
           "end": 452,
-          "value": ",,,"
+          "value": ",,,",
+          "raw": "\",,,\""
         }
       },
       "consequent": {
@@ -196,7 +198,8 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 582,
-                    "value": "#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: "
+                    "value": "#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: ",
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -261,7 +264,8 @@
             "type": "Literal",
             "start": 607,
             "end": 608,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -297,7 +301,8 @@
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -306,7 +311,8 @@
           "type": "Literal",
           "start": 632,
           "end": 633,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -333,7 +339,8 @@
             "type": "Literal",
             "start": 639,
             "end": 640,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -342,7 +349,8 @@
           "type": "Literal",
           "start": 644,
           "end": 648,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -385,7 +393,8 @@
           "type": "Literal",
           "start": 669,
           "end": 675,
-          "value": ",1,,"
+          "value": ",1,,",
+          "raw": "\",1,,\""
         }
       },
       "consequent": {
@@ -416,7 +425,8 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 853,
-                    "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: "
+                    "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: ",
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -490,7 +500,8 @@
           "type": "Literal",
           "start": 893,
           "end": 896,
-          "value": 4.5
+          "value": 4.5,
+          "raw": "4.5"
         }
       },
       "consequent": {
@@ -521,7 +532,8 @@
                     "type": "Literal",
                     "start": 925,
                     "end": 1083,
-                    "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: "
+                    "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: ",
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -673,7 +685,8 @@
                 "type": "Literal",
                 "start": 1171,
                 "end": 1174,
-                "value": 4.5
+                "value": 4.5,
+                "raw": "4.5"
               }
             ]
           }
@@ -756,7 +769,8 @@
           "type": "Literal",
           "start": 1212,
           "end": 1217,
-          "value": ",,,"
+          "value": ",,,",
+          "raw": "\",,,\""
         }
       },
       "consequent": {
@@ -787,7 +801,8 @@
                     "type": "Literal",
                     "start": 1246,
                     "end": 1370,
-                    "value": "#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: "
+                    "value": "#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: ",
+                    "raw": "'#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -852,7 +867,8 @@
             "type": "Literal",
             "start": 1395,
             "end": 1396,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -888,7 +904,8 @@
             "type": "Literal",
             "start": 1415,
             "end": 1416,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -897,7 +914,8 @@
           "type": "Literal",
           "start": 1420,
           "end": 1421,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -924,7 +942,8 @@
             "type": "Literal",
             "start": 1427,
             "end": 1428,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -933,7 +952,8 @@
           "type": "Literal",
           "start": 1432,
           "end": 1436,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -976,7 +996,8 @@
           "type": "Literal",
           "start": 1457,
           "end": 1463,
-          "value": ",1,,"
+          "value": ",1,,",
+          "raw": "\",1,,\""
         }
       },
       "consequent": {
@@ -1007,7 +1028,8 @@
                     "type": "Literal",
                     "start": 1492,
                     "end": 1664,
-                    "value": "#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: "
+                    "value": "#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: ",
+                    "raw": "'#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1112,7 +1134,8 @@
                     "type": "Literal",
                     "start": 1734,
                     "end": 1913,
-                    "value": "#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: "
+                    "value": "#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: ",
+                    "raw": "'#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: '"
                   },
                   "operator": "+",
                   "right": {

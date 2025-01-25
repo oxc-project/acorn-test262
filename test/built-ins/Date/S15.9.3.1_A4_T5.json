@@ -253,7 +253,8 @@
                             "type": "Literal",
                             "start": 886,
                             "end": 887,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       },
@@ -272,7 +273,8 @@
                             "type": "Literal",
                             "start": 910,
                             "end": 911,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       },
@@ -291,7 +293,8 @@
                             "type": "Literal",
                             "start": 934,
                             "end": 935,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       },
@@ -310,7 +313,8 @@
                             "type": "Literal",
                             "start": 958,
                             "end": 959,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ]
                       },
@@ -329,7 +333,8 @@
                             "type": "Literal",
                             "start": 982,
                             "end": 983,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ]
                       },
@@ -348,7 +353,8 @@
                             "type": "Literal",
                             "start": 1006,
                             "end": 1007,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -362,7 +368,8 @@
             "type": "Literal",
             "start": 1014,
             "end": 1202,
-            "value": "`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -435,7 +442,8 @@
                         "type": "Literal",
                         "start": 1253,
                         "end": 1254,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "NewExpression",
@@ -452,7 +460,8 @@
                             "type": "Literal",
                             "start": 1276,
                             "end": 1277,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       },
@@ -471,7 +480,8 @@
                             "type": "Literal",
                             "start": 1300,
                             "end": 1301,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       },
@@ -490,7 +500,8 @@
                             "type": "Literal",
                             "start": 1324,
                             "end": 1325,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ]
                       },
@@ -509,7 +520,8 @@
                             "type": "Literal",
                             "start": 1348,
                             "end": 1349,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ]
                       },
@@ -528,7 +540,8 @@
                             "type": "Literal",
                             "start": 1372,
                             "end": 1373,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -542,7 +555,8 @@
             "type": "Literal",
             "start": 1380,
             "end": 1547,
-            "value": "`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -615,13 +629,15 @@
                         "type": "Literal",
                         "start": 1598,
                         "end": 1599,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 1601,
                         "end": 1602,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "NewExpression",
@@ -638,7 +654,8 @@
                             "type": "Literal",
                             "start": 1624,
                             "end": 1625,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ]
                       },
@@ -657,7 +674,8 @@
                             "type": "Literal",
                             "start": 1648,
                             "end": 1649,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ]
                       },
@@ -676,7 +694,8 @@
                             "type": "Literal",
                             "start": 1672,
                             "end": 1673,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ]
                       },
@@ -695,7 +714,8 @@
                             "type": "Literal",
                             "start": 1696,
                             "end": 1697,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -709,7 +729,8 @@
             "type": "Literal",
             "start": 1704,
             "end": 1850,
-            "value": "`new Date(1, 2, new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(1, 2, new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(1, 2, new PoisonedValueOf(3), new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -782,19 +803,22 @@
                         "type": "Literal",
                         "start": 1901,
                         "end": 1902,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 1904,
                         "end": 1905,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 1907,
                         "end": 1908,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "NewExpression",
@@ -811,7 +835,8 @@
                             "type": "Literal",
                             "start": 1930,
                             "end": 1931,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         ]
                       },
@@ -830,7 +855,8 @@
                             "type": "Literal",
                             "start": 1954,
                             "end": 1955,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ]
                       },
@@ -849,7 +875,8 @@
                             "type": "Literal",
                             "start": 1978,
                             "end": 1979,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -863,7 +890,8 @@
             "type": "Literal",
             "start": 1986,
             "end": 2111,
-            "value": "`new Date(1, 2, 3, new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(1, 2, 3, new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(1, 2, 3, new PoisonedValueOf(4), new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -936,25 +964,29 @@
                         "type": "Literal",
                         "start": 2162,
                         "end": 2163,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 2165,
                         "end": 2166,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 2168,
                         "end": 2169,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "Literal",
                         "start": 2171,
                         "end": 2172,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       {
                         "type": "NewExpression",
@@ -971,7 +1003,8 @@
                             "type": "Literal",
                             "start": 2194,
                             "end": 2195,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           }
                         ]
                       },
@@ -990,7 +1023,8 @@
                             "type": "Literal",
                             "start": 2218,
                             "end": 2219,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -1004,7 +1038,8 @@
             "type": "Literal",
             "start": 2226,
             "end": 2330,
-            "value": "`new Date(1, 2, 3, 4, new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(1, 2, 3, 4, new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(1, 2, 3, 4, new PoisonedValueOf(5), new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -1077,31 +1112,36 @@
                         "type": "Literal",
                         "start": 2381,
                         "end": 2382,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 2384,
                         "end": 2385,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 2387,
                         "end": 2388,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "Literal",
                         "start": 2390,
                         "end": 2391,
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       },
                       {
                         "type": "Literal",
                         "start": 2393,
                         "end": 2394,
-                        "value": 5
+                        "value": 5,
+                        "raw": "5"
                       },
                       {
                         "type": "NewExpression",
@@ -1118,7 +1158,8 @@
                             "type": "Literal",
                             "start": 2416,
                             "end": 2417,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -1132,7 +1173,8 @@
             "type": "Literal",
             "start": 2424,
             "end": 2507,
-            "value": "`new Date(1, 2, 3, 4, 5, new PoisonedValueOf(6))` throws a Test262Error exception"
+            "value": "`new Date(1, 2, 3, 4, 5, new PoisonedValueOf(6))` throws a Test262Error exception",
+            "raw": "'`new Date(1, 2, 3, 4, 5, new PoisonedValueOf(6))` throws a Test262Error exception'"
           }
         ],
         "optional": false

@@ -114,7 +114,8 @@
                               "type": "Literal",
                               "start": 981,
                               "end": 985,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           },
@@ -165,7 +166,8 @@
                                           "type": "Literal",
                                           "start": 1028,
                                           "end": 1053,
-                                          "value": "OrdinaryGet was called!"
+                                          "value": "OrdinaryGet was called!",
+                                          "raw": "\"OrdinaryGet was called!\""
                                         }
                                       ]
                                     }
@@ -230,7 +232,8 @@
                               "type": "Literal",
                               "start": 1107,
                               "end": 1111,
-                              "value": "-1"
+                              "value": "-1",
+                              "raw": "\"-1\""
                             },
                             "value": {
                               "type": "Identifier",
@@ -251,7 +254,8 @@
                               "type": "Literal",
                               "start": 1143,
                               "end": 1146,
-                              "value": "1"
+                              "value": "1",
+                              "raw": "\"1\""
                             },
                             "value": {
                               "type": "Identifier",
@@ -297,7 +301,8 @@
                             "type": "Literal",
                             "start": 1202,
                             "end": 1203,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -353,7 +358,8 @@
                             "type": "Literal",
                             "start": 1239,
                             "end": 1243,
-                            "value": "-1"
+                            "value": "-1",
+                            "raw": "\"-1\""
                           },
                           "computed": true,
                           "optional": false
@@ -363,13 +369,15 @@
                         "type": "Literal",
                         "start": 1246,
                         "end": 1250,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1252,
                         "end": 1296,
-                        "value": "The value of `delete sample[\"-1\"]` is true"
+                        "value": "The value of `delete sample[\"-1\"]` is true",
+                        "raw": "'The value of `delete sample[\"-1\"]` is true'"
                       }
                     ],
                     "optional": false
@@ -429,7 +437,8 @@
                               "type": "Literal",
                               "start": 1333,
                               "end": 1334,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           "computed": true,
@@ -440,13 +449,15 @@
                         "type": "Literal",
                         "start": 1337,
                         "end": 1341,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1343,
                         "end": 1385,
-                        "value": "The value of `delete sample[-1]` is true"
+                        "value": "The value of `delete sample[-1]` is true",
+                        "raw": "'The value of `delete sample[-1]` is true'"
                       }
                     ],
                     "optional": false
@@ -500,7 +511,8 @@
                             "type": "Literal",
                             "start": 1421,
                             "end": 1424,
-                            "value": "0"
+                            "value": "0",
+                            "raw": "\"0\""
                           },
                           "computed": true,
                           "optional": false
@@ -510,13 +522,15 @@
                         "type": "Literal",
                         "start": 1427,
                         "end": 1432,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 1434,
                         "end": 1478,
-                        "value": "The value of `delete sample[\"0\"]` is false"
+                        "value": "The value of `delete sample[\"0\"]` is false",
+                        "raw": "'The value of `delete sample[\"0\"]` is false'"
                       }
                     ],
                     "optional": false
@@ -570,7 +584,8 @@
                             "type": "Literal",
                             "start": 1514,
                             "end": 1515,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "computed": true,
                           "optional": false
@@ -580,13 +595,15 @@
                         "type": "Literal",
                         "start": 1518,
                         "end": 1523,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 1525,
                         "end": 1567,
-                        "value": "The value of `delete sample[0]` is false"
+                        "value": "The value of `delete sample[0]` is false",
+                        "raw": "'The value of `delete sample[0]` is false'"
                       }
                     ],
                     "optional": false
@@ -640,7 +657,8 @@
                             "type": "Literal",
                             "start": 1603,
                             "end": 1606,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "\"1\""
                           },
                           "computed": true,
                           "optional": false
@@ -650,13 +668,15 @@
                         "type": "Literal",
                         "start": 1609,
                         "end": 1613,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1615,
                         "end": 1658,
-                        "value": "The value of `delete sample[\"1\"]` is true"
+                        "value": "The value of `delete sample[\"1\"]` is true",
+                        "raw": "'The value of `delete sample[\"1\"]` is true'"
                       }
                     ],
                     "optional": false
@@ -710,7 +730,8 @@
                             "type": "Literal",
                             "start": 1694,
                             "end": 1695,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           "computed": true,
                           "optional": false
@@ -720,13 +741,15 @@
                         "type": "Literal",
                         "start": 1698,
                         "end": 1702,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 1704,
                         "end": 1745,
-                        "value": "The value of `delete sample[1]` is true"
+                        "value": "The value of `delete sample[1]` is true",
+                        "raw": "'The value of `delete sample[1]` is true'"
                       }
                     ],
                     "optional": false

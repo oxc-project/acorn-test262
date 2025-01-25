@@ -71,7 +71,8 @@
                         "type": "Literal",
                         "start": 326,
                         "end": 334,
-                        "value": "wizard"
+                        "value": "wizard",
+                        "raw": "\"wizard\""
                       }
                     }
                   ]
@@ -240,7 +241,8 @@
                   "type": "Literal",
                   "start": 549,
                   "end": 552,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ],
               "optional": false
@@ -249,13 +251,15 @@
               "type": "Literal",
               "start": 555,
               "end": 559,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             {
               "type": "Literal",
               "start": 561,
               "end": 565,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "ObjectExpression",
@@ -271,7 +275,8 @@
           "type": "Literal",
           "start": 575,
           "end": 578,
-          "value": "i"
+          "value": "i",
+          "raw": "\"i\""
         }
       },
       "consequent": {
@@ -302,7 +307,8 @@
                     "type": "Literal",
                     "start": 607,
                     "end": 671,
-                    "value": "#1: __instance.charAt(eval(\"1\"),true,null,{})=== \"i\". Actual: "
+                    "value": "#1: __instance.charAt(eval(\"1\"),true,null,{})=== \"i\". Actual: ",
+                    "raw": "'#1: __instance.charAt(eval(\"1\"),true,null,{})=== \"i\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +350,8 @@
                             "type": "Literal",
                             "start": 697,
                             "end": 700,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "\"1\""
                           }
                         ],
                         "optional": false
@@ -353,13 +360,15 @@
                         "type": "Literal",
                         "start": 703,
                         "end": 707,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 709,
                         "end": 713,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ObjectExpression",

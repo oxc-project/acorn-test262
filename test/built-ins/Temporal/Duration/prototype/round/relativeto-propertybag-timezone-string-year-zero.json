@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 332,
-                "value": "-000000-10-31T17:45Z"
+                "value": "-000000-10-31T17:45Z",
+                "raw": "\"-000000-10-31T17:45Z\""
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 368,
-                "value": "-000000-10-31T17:45+00:00[UTC]"
+                "value": "-000000-10-31T17:45+00:00[UTC]",
+                "raw": "\"-000000-10-31T17:45+00:00[UTC]\""
               }
             ]
           }
@@ -84,7 +86,8 @@
                 "type": "Literal",
                 "start": 412,
                 "end": 413,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -230,7 +233,8 @@
                                     "type": "Literal",
                                     "start": 528,
                                     "end": 536,
-                                    "value": "months"
+                                    "value": "months",
+                                    "raw": "\"months\""
                                   },
                                   "kind": "init"
                                 },
@@ -269,7 +273,8 @@
                                           "type": "Literal",
                                           "start": 558,
                                           "end": 562,
-                                          "value": 2000
+                                          "value": 2000,
+                                          "raw": "2000"
                                         },
                                         "kind": "init"
                                       },
@@ -290,7 +295,8 @@
                                           "type": "Literal",
                                           "start": 571,
                                           "end": 572,
-                                          "value": 5
+                                          "value": 5,
+                                          "raw": "5"
                                         },
                                         "kind": "init"
                                       },
@@ -311,7 +317,8 @@
                                           "type": "Literal",
                                           "start": 579,
                                           "end": 580,
-                                          "value": 2
+                                          "value": 2,
+                                          "raw": "2"
                                         },
                                         "kind": "init"
                                       },
@@ -350,7 +357,8 @@
                         "type": "Literal",
                         "start": 601,
                         "end": 637,
-                        "value": "reject minus zero as extended year"
+                        "value": "reject minus zero as extended year",
+                        "raw": "\"reject minus zero as extended year\""
                       }
                     ],
                     "optional": false

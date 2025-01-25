@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 319,
                     "end": 326,
-                    "value": "hello"
+                    "value": "hello",
+                    "raw": "\"hello\""
                   }
                 ],
                 "optional": false
@@ -98,7 +99,8 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 377,
-                  "value": "Error: hello"
+                  "value": "Error: hello",
+                  "raw": "\"Error: hello\""
                 }
               },
               "consequent": {
@@ -124,7 +126,8 @@
                         "type": "Literal",
                         "start": 402,
                         "end": 468,
-                        "value": "#1: Exception.toString()===\"Error: hello\". Actual: Exception is "
+                        "value": "#1: Exception.toString()===\"Error: hello\". Actual: Exception is ",
+                        "raw": "'#1: Exception.toString()===\"Error: hello\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -176,7 +179,8 @@
                     "type": "Literal",
                     "start": 511,
                     "end": 518,
-                    "value": "hello"
+                    "value": "hello",
+                    "raw": "\"hello\""
                   }
                 ]
               }
@@ -238,7 +242,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 569,
-                  "value": "Error: hello"
+                  "value": "Error: hello",
+                  "raw": "\"Error: hello\""
                 }
               },
               "consequent": {
@@ -264,7 +269,8 @@
                         "type": "Literal",
                         "start": 594,
                         "end": 660,
-                        "value": "#2: Exception.toString()===\"Error: hello\". Actual: Exception is "
+                        "value": "#2: Exception.toString()===\"Error: hello\". Actual: Exception is ",
+                        "raw": "'#2: Exception.toString()===\"Error: hello\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -303,7 +309,8 @@
             "type": "Literal",
             "start": 686,
             "end": 687,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -337,7 +344,8 @@
                   "type": "Literal",
                   "start": 712,
                   "end": 713,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -399,7 +407,8 @@
                   "type": "Literal",
                   "start": 749,
                   "end": 763,
-                  "value": "EvalError: 1"
+                  "value": "EvalError: 1",
+                  "raw": "\"EvalError: 1\""
                 }
               },
               "consequent": {
@@ -425,7 +434,8 @@
                         "type": "Literal",
                         "start": 788,
                         "end": 854,
-                        "value": "#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is "
+                        "value": "#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is ",
+                        "raw": "'#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -473,7 +483,8 @@
                   "type": "Literal",
                   "start": 897,
                   "end": 898,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -535,7 +546,8 @@
                   "type": "Literal",
                   "start": 934,
                   "end": 949,
-                  "value": "RangeError: 1"
+                  "value": "RangeError: 1",
+                  "raw": "\"RangeError: 1\""
                 }
               },
               "consequent": {
@@ -561,7 +573,8 @@
                         "type": "Literal",
                         "start": 974,
                         "end": 1041,
-                        "value": "#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is "
+                        "value": "#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is ",
+                        "raw": "'#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -609,7 +622,8 @@
                   "type": "Literal",
                   "start": 1088,
                   "end": 1089,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -671,7 +685,8 @@
                   "type": "Literal",
                   "start": 1125,
                   "end": 1144,
-                  "value": "ReferenceError: 1"
+                  "value": "ReferenceError: 1",
+                  "raw": "\"ReferenceError: 1\""
                 }
               },
               "consequent": {
@@ -697,7 +712,8 @@
                         "type": "Literal",
                         "start": 1169,
                         "end": 1240,
-                        "value": "#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is "
+                        "value": "#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is ",
+                        "raw": "'#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -736,7 +752,8 @@
             "type": "Literal",
             "start": 1266,
             "end": 1267,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -770,7 +787,8 @@
                   "type": "Literal",
                   "start": 1292,
                   "end": 1293,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -832,7 +850,8 @@
                   "type": "Literal",
                   "start": 1329,
                   "end": 1343,
-                  "value": "TypeError: 1"
+                  "value": "TypeError: 1",
+                  "raw": "\"TypeError: 1\""
                 }
               },
               "consequent": {
@@ -858,7 +877,8 @@
                         "type": "Literal",
                         "start": 1368,
                         "end": 1434,
-                        "value": "#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is "
+                        "value": "#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is ",
+                        "raw": "'#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {
@@ -906,19 +926,22 @@
                   "type": "Literal",
                   "start": 1475,
                   "end": 1484,
-                  "value": "message"
+                  "value": "message",
+                  "raw": "\"message\""
                 },
                 {
                   "type": "Literal",
                   "start": 1486,
                   "end": 1496,
-                  "value": "fileName"
+                  "value": "fileName",
+                  "raw": "\"fileName\""
                 },
                 {
                   "type": "Literal",
                   "start": 1498,
                   "end": 1501,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ],
               "optional": false
@@ -980,7 +1003,8 @@
                   "type": "Literal",
                   "start": 1538,
                   "end": 1557,
-                  "value": "URIError: message"
+                  "value": "URIError: message",
+                  "raw": "\"URIError: message\""
                 }
               },
               "consequent": {
@@ -1006,7 +1030,8 @@
                         "type": "Literal",
                         "start": 1582,
                         "end": 1653,
-                        "value": "#7: Exception.toString()===\"URIError: message\". Actual: Exception is "
+                        "value": "#7: Exception.toString()===\"URIError: message\". Actual: Exception is ",
+                        "raw": "'#7: Exception.toString()===\"URIError: message\". Actual: Exception is '"
                       },
                       "operator": "+",
                       "right": {

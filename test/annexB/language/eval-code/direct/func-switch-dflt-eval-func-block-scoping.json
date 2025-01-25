@@ -104,14 +104,16 @@
                               "type": "Literal",
                               "start": 1167,
                               "end": 1181,
-                              "value": "switch (1) {"
+                              "value": "switch (1) {",
+                              "raw": "'switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1188,
                               "end": 1200,
-                              "value": "  default:"
+                              "value": "  default:",
+                              "raw": "'  default:'"
                             }
                           },
                           "operator": "+",
@@ -119,7 +121,8 @@
                             "type": "Literal",
                             "start": 1207,
                             "end": 1283,
-                            "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }"
+                            "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }",
+                            "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'"
                           }
                         },
                         "operator": "+",
@@ -127,7 +130,8 @@
                           "type": "Literal",
                           "start": 1290,
                           "end": 1324,
-                          "value": "}    varBinding = f;    f();"
+                          "value": "}    varBinding = f;    f();",
+                          "raw": "'}\\\n    varBinding = f;\\\n    f();'"
                         }
                       }
                     ],
@@ -187,13 +191,15 @@
             "type": "Literal",
             "start": 1373,
             "end": 1379,
-            "value": "decl"
+            "value": "decl",
+            "raw": "'decl'"
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1448,
-            "value": "Block-scoped binding value is function object at execution time"
+            "value": "Block-scoped binding value is function object at execution time",
+            "raw": "'Block-scoped binding value is function object at execution time'"
           }
         ],
         "optional": false
@@ -237,13 +243,15 @@
             "type": "Literal",
             "start": 1480,
             "end": 1483,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1485,
             "end": 1518,
-            "value": "Block-scoped binding is mutable"
+            "value": "Block-scoped binding is mutable",
+            "raw": "'Block-scoped binding is mutable'"
           }
         ],
         "optional": false
@@ -294,13 +302,15 @@
             "type": "Literal",
             "start": 1557,
             "end": 1563,
-            "value": "decl"
+            "value": "decl",
+            "raw": "'decl'"
           },
           {
             "type": "Literal",
             "start": 1567,
             "end": 1632,
-            "value": "Block-scoped binding is independent of outer var-scoped binding"
+            "value": "Block-scoped binding is independent of outer var-scoped binding",
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
           }
         ],
         "optional": false

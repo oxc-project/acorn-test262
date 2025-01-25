@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 505,
             "end": 506,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -99,7 +100,8 @@
             "type": "Literal",
             "start": 526,
             "end": 530,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 553,
             "end": 557,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -234,7 +237,8 @@
               "type": "Literal",
               "start": 632,
               "end": 636,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ],
@@ -260,7 +264,8 @@
           "type": "Literal",
           "start": 656,
           "end": 660,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -359,7 +364,8 @@
             "type": "Literal",
             "start": 738,
             "end": 799,
-            "value": "The realm's template cache is by site, not string contents"
+            "value": "The realm's template cache is by site, not string contents",
+            "raw": "'The realm\\'s template cache is by site, not string contents'"
           }
         ],
         "optional": false

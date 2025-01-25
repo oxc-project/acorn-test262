@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 379,
-                "value": "3661987654321n"
+                "value": "3661987654321n",
+                "raw": "3661_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 386,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                       "type": "Literal",
                       "start": 434,
                       "end": 444,
-                      "value": "critical"
+                      "value": "critical",
+                      "raw": "\"critical\""
                     },
                     "kind": "init"
                   }
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 474,
             "end": 531,
-            "value": "1970-01-01T01:01:01.987654321+00:00[UTC][!u-ca=iso8601]"
+            "value": "1970-01-01T01:01:01.987654321+00:00[UTC][!u-ca=iso8601]",
+            "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC][!u-ca=iso8601]\""
           },
           {
             "type": "TemplateLiteral",

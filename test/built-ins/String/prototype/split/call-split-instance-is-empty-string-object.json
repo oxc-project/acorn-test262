@@ -77,7 +77,8 @@
                 "type": "Literal",
                 "start": 759,
                 "end": 762,
-                "value": " "
+                "value": " ",
+                "raw": "\" \""
               }
             ],
             "optional": false
@@ -143,7 +144,8 @@
             "type": "Literal",
             "start": 818,
             "end": 892,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -200,13 +202,15 @@
             "type": "Literal",
             "start": 930,
             "end": 931,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 967,
-            "value": "The value of __split.length is 1"
+            "value": "The value of __split.length is 1",
+            "raw": "'The value of __split.length is 1'"
           }
         ],
         "optional": false
@@ -254,7 +258,8 @@
               "type": "Literal",
               "start": 995,
               "end": 996,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -263,13 +268,15 @@
             "type": "Literal",
             "start": 999,
             "end": 1001,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1034,
-            "value": "The value of __split[0] is \"\""
+            "value": "The value of __split[0] is \"\"",
+            "raw": "'The value of __split[0] is \"\"'"
           }
         ],
         "optional": false

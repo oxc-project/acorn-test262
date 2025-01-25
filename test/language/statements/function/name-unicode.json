@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 285,
                 "end": 339,
-                "value": "function __funcA(__arg){return __arg;}; __funcA"
+                "value": "function __funcA(__arg){return __arg;}; __funcA",
+                "raw": "\"function __func\\u0041(__arg){return __arg;}; __funcA\""
               }
             ],
             "optional": false
@@ -68,7 +69,8 @@
           "type": "Literal",
           "start": 453,
           "end": 463,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -95,7 +97,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 544,
-                  "value": "#1: unicode symbols in function name are allowed"
+                  "value": "#1: unicode symbols in function name are allowed",
+                  "raw": "'#1: unicode symbols in function name are allowed'"
                 }
               ]
             }

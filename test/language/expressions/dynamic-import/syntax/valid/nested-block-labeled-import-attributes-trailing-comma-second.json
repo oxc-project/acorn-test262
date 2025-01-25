@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 1314,
                 "end": 1334,
-                "value": "./empty_FIXTURE.js"
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'"
               },
               "options": {
                 "type": "ObjectExpression",

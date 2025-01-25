@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 322,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 342,
             "end": 387,
-            "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]"
+            "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
           }
         }
       ],
@@ -215,7 +217,8 @@
                   "type": "Literal",
                   "start": 470,
                   "end": 471,
-                  "value": 6
+                  "value": 6,
+                  "raw": "6"
                 }
               }
             ],
@@ -225,13 +228,15 @@
             "type": "Literal",
             "start": 474,
             "end": 482,
-            "value": "+01:46"
+            "value": "+01:46",
+            "raw": "\"+01:46\""
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 531,
-            "value": "Time zone string determined from bracket name"
+            "value": "Time zone string determined from bracket name",
+            "raw": "\"Time zone string determined from bracket name\""
           }
         ],
         "optional": false

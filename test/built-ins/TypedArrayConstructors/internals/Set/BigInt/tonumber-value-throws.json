@@ -74,7 +74,8 @@
                                 "type": "Literal",
                                 "start": 991,
                                 "end": 994,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               }
                             ]
                           }
@@ -230,7 +231,8 @@
                                     "type": "Literal",
                                     "start": 1127,
                                     "end": 1130,
-                                    "value": "0"
+                                    "value": "0",
+                                    "raw": "'0'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -250,7 +252,8 @@
                         "type": "Literal",
                         "start": 1144,
                         "end": 1185,
-                        "value": "`sample[\"0\"] = obj` throws Test262Error"
+                        "value": "`sample[\"0\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"0\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false
@@ -327,7 +330,8 @@
                                     "type": "Literal",
                                     "start": 1243,
                                     "end": 1248,
-                                    "value": "1.1"
+                                    "value": "1.1",
+                                    "raw": "'1.1'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -347,7 +351,8 @@
                         "type": "Literal",
                         "start": 1262,
                         "end": 1305,
-                        "value": "`sample[\"1.1\"] = obj` throws Test262Error"
+                        "value": "`sample[\"1.1\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"1.1\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false
@@ -424,7 +429,8 @@
                                     "type": "Literal",
                                     "start": 1363,
                                     "end": 1367,
-                                    "value": "-0"
+                                    "value": "-0",
+                                    "raw": "'-0'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -444,7 +450,8 @@
                         "type": "Literal",
                         "start": 1381,
                         "end": 1423,
-                        "value": "`sample[\"-0\"] = obj` throws Test262Error"
+                        "value": "`sample[\"-0\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"-0\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false
@@ -521,7 +528,8 @@
                                     "type": "Literal",
                                     "start": 1481,
                                     "end": 1485,
-                                    "value": "-1"
+                                    "value": "-1",
+                                    "raw": "'-1'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -541,7 +549,8 @@
                         "type": "Literal",
                         "start": 1499,
                         "end": 1541,
-                        "value": "`sample[\"-1\"] = obj` throws Test262Error"
+                        "value": "`sample[\"-1\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"-1\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false
@@ -618,7 +627,8 @@
                                     "type": "Literal",
                                     "start": 1599,
                                     "end": 1602,
-                                    "value": "1"
+                                    "value": "1",
+                                    "raw": "'1'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -638,7 +648,8 @@
                         "type": "Literal",
                         "start": 1616,
                         "end": 1657,
-                        "value": "`sample[\"1\"] = obj` throws Test262Error"
+                        "value": "`sample[\"1\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"1\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false
@@ -715,7 +726,8 @@
                                     "type": "Literal",
                                     "start": 1715,
                                     "end": 1718,
-                                    "value": "2"
+                                    "value": "2",
+                                    "raw": "'2'"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -735,7 +747,8 @@
                         "type": "Literal",
                         "start": 1732,
                         "end": 1773,
-                        "value": "`sample[\"2\"] = obj` throws Test262Error"
+                        "value": "`sample[\"2\"] = obj` throws Test262Error",
+                        "raw": "'`sample[\"2\"] = obj` throws Test262Error'"
                       }
                     ],
                     "optional": false

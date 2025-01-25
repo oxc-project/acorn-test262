@@ -88,7 +88,8 @@
                             "type": "Literal",
                             "start": 352,
                             "end": 369,
-                            "value": "ownDataProperty"
+                            "value": "ownDataProperty",
+                            "raw": "\"ownDataProperty\""
                           },
                           "kind": "init"
                         }
@@ -156,13 +157,15 @@
             "type": "Literal",
             "start": 409,
             "end": 426,
-            "value": "ownDataProperty"
+            "value": "ownDataProperty",
+            "raw": "\"ownDataProperty\""
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 441,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

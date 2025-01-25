@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 301,
                     "end": 333,
-                    "value": "1976-11-18T15:23[u-ca=iso8601]"
+                    "value": "1976-11-18T15:23[u-ca=iso8601]",
+                    "raw": "\"1976-11-18T15:23[u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 335,
                     "end": 354,
-                    "value": "without time zone"
+                    "value": "without time zone",
+                    "raw": "\"without time zone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 360,
                     "end": 397,
-                    "value": "1976-11-18T15:23[UTC][u-ca=iso8601]"
+                    "value": "1976-11-18T15:23[UTC][u-ca=iso8601]",
+                    "raw": "\"1976-11-18T15:23[UTC][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 399,
                     "end": 415,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 454,
-                    "value": "1976-11-18T15:23[!u-ca=iso8601]"
+                    "value": "1976-11-18T15:23[!u-ca=iso8601]",
+                    "raw": "\"1976-11-18T15:23[!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 456,
                     "end": 481,
-                    "value": "with ! and no time zone"
+                    "value": "with ! and no time zone",
+                    "raw": "\"with ! and no time zone\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 487,
                     "end": 525,
-                    "value": "1976-11-18T15:23[UTC][!u-ca=iso8601]"
+                    "value": "1976-11-18T15:23[UTC][!u-ca=iso8601]",
+                    "raw": "\"1976-11-18T15:23[UTC][!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 527,
                     "end": 549,
-                    "value": "with ! and time zone"
+                    "value": "with ! and time zone",
+                    "raw": "\"with ! and time zone\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 555,
                     "end": 601,
-                    "value": "1976-11-18T15:23[u-ca=iso8601][u-ca=discord]"
+                    "value": "1976-11-18T15:23[u-ca=iso8601][u-ca=discord]",
+                    "raw": "\"1976-11-18T15:23[u-ca=iso8601][u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 603,
                     "end": 630,
-                    "value": "second annotation ignored"
+                    "value": "second annotation ignored",
+                    "raw": "\"second annotation ignored\""
                   }
                 ]
               }
@@ -295,7 +305,8 @@
                         "type": "Literal",
                         "start": 773,
                         "end": 774,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

@@ -192,13 +192,15 @@
             "type": "Literal",
             "start": 657,
             "end": 676,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 694,
-            "value": "function proxy"
+            "value": "function proxy",
+            "raw": "'function proxy'"
           }
         ],
         "optional": false
@@ -295,13 +297,15 @@
             "type": "Literal",
             "start": 772,
             "end": 791,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 795,
             "end": 821,
-            "value": "proxy for function proxy"
+            "value": "proxy for function proxy",
+            "raw": "'proxy for function proxy'"
           }
         ],
         "optional": false
@@ -496,13 +500,15 @@
             "type": "Literal",
             "start": 982,
             "end": 1001,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1025,
-            "value": "arrow function proxy"
+            "value": "arrow function proxy",
+            "raw": "'arrow function proxy'"
           }
         ],
         "optional": false
@@ -599,13 +605,15 @@
             "type": "Literal",
             "start": 1100,
             "end": 1119,
-            "value": "[object Function]"
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1155,
-            "value": "proxy for arrow function proxy"
+            "value": "proxy for arrow function proxy",
+            "raw": "'proxy for arrow function proxy'"
           }
         ],
         "optional": false
@@ -800,13 +808,15 @@
             "type": "Literal",
             "start": 1338,
             "end": 1366,
-            "value": "[object GeneratorFunction]"
+            "value": "[object GeneratorFunction]",
+            "raw": "'[object GeneratorFunction]'"
           },
           {
             "type": "Literal",
             "start": 1368,
             "end": 1394,
-            "value": "generator function proxy"
+            "value": "generator function proxy",
+            "raw": "'generator function proxy'"
           }
         ],
         "optional": false
@@ -903,13 +913,15 @@
             "type": "Literal",
             "start": 1473,
             "end": 1501,
-            "value": "[object GeneratorFunction]"
+            "value": "[object GeneratorFunction]",
+            "raw": "'[object GeneratorFunction]'"
           },
           {
             "type": "Literal",
             "start": 1505,
             "end": 1541,
-            "value": "proxy for generator function proxy"
+            "value": "proxy for generator function proxy",
+            "raw": "'proxy for generator function proxy'"
           }
         ],
         "optional": false
@@ -1104,13 +1116,15 @@
             "type": "Literal",
             "start": 1713,
             "end": 1737,
-            "value": "[object AsyncFunction]"
+            "value": "[object AsyncFunction]",
+            "raw": "'[object AsyncFunction]'"
           },
           {
             "type": "Literal",
             "start": 1739,
             "end": 1761,
-            "value": "async function proxy"
+            "value": "async function proxy",
+            "raw": "'async function proxy'"
           }
         ],
         "optional": false
@@ -1207,13 +1221,15 @@
             "type": "Literal",
             "start": 1836,
             "end": 1860,
-            "value": "[object AsyncFunction]"
+            "value": "[object AsyncFunction]",
+            "raw": "'[object AsyncFunction]'"
           },
           {
             "type": "Literal",
             "start": 1864,
             "end": 1896,
-            "value": "proxy for async function proxy"
+            "value": "proxy for async function proxy",
+            "raw": "'proxy for async function proxy'"
           }
         ],
         "optional": false

@@ -205,7 +205,8 @@
                         "type": "Literal",
                         "start": 713,
                         "end": 715,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",
@@ -254,6 +255,7 @@
             "start": 749,
             "end": 752,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -440,7 +442,8 @@
                         "type": "Literal",
                         "start": 902,
                         "end": 904,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 271,
             "end": 276,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 345,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -190,7 +192,8 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 439,
-                "value": "hello\nworld\\!"
+                "value": "hello\nworld\\!",
+                "raw": "\"hello\\nworld\\\\!\""
               },
               {
                 "type": "Identifier",
@@ -202,7 +205,8 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 456,
-                "value": "h"
+                "value": "h",
+                "raw": "\"h\""
               }
             ],
             "optional": false
@@ -211,7 +215,8 @@
             "type": "Literal",
             "start": 459,
             "end": 538,
-            "value": "Array.prototype.reduceRight.call(\"hello\nworld\\!\", callbackfn, \"h\") !== true"
+            "value": "Array.prototype.reduceRight.call(\"hello\nworld\\!\", callbackfn, \"h\") !== true",
+            "raw": "'Array.prototype.reduceRight.call(\"hello\\nworld\\\\!\", callbackfn, \"h\") !== true'"
           }
         ],
         "optional": false
@@ -242,7 +247,8 @@
             "type": "Literal",
             "start": 558,
             "end": 577,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

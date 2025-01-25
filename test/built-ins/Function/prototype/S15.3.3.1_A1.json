@@ -66,13 +66,15 @@
             "type": "Literal",
             "start": 390,
             "end": 401,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "\"prototype\""
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 407,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -96,7 +98,8 @@
                     "type": "Literal",
                     "start": 431,
                     "end": 440,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -163,7 +166,8 @@
             "type": "Literal",
             "start": 489,
             "end": 560,
-            "value": "The value of Function.prototype is expected to equal the value of obj"
+            "value": "The value of Function.prototype is expected to equal the value of obj",
+            "raw": "'The value of Function.prototype is expected to equal the value of obj'"
           }
         ],
         "optional": false
@@ -242,7 +246,8 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 662,
-                  "value": "Function.prototype() returns undefined"
+                  "value": "Function.prototype() returns undefined",
+                  "raw": "'Function.prototype() returns undefined'"
                 }
               ],
               "optional": false
@@ -288,7 +293,8 @@
                       "type": "Literal",
                       "start": 704,
                       "end": 773,
-                      "value": "#2.1: the Function.prototype property has the attributes ReadOnly: "
+                      "value": "#2.1: the Function.prototype property has the attributes ReadOnly: ",
+                      "raw": "'#2.1: the Function.prototype property has the attributes ReadOnly: '"
                     },
                     "operator": "+",
                     "right": {

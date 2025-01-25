@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 284,
-                "value": "\t1234"
+                "value": "\t1234",
+                "raw": "'\\t1234'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 287,
             "end": 291,
-            "value": 1234
+            "value": 1234,
+            "raw": "1234"
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 318,
-            "value": "<TAB> should be ignored"
+            "value": "<TAB> should be ignored",
+            "raw": "'<TAB> should be ignored'"
           }
         ],
         "optional": false
@@ -160,7 +163,8 @@
                         "type": "Literal",
                         "start": 377,
                         "end": 385,
-                        "value": "12\t34"
+                        "value": "12\t34",
+                        "raw": "'12\\t34'"
                       }
                     ],
                     "optional": false
@@ -173,7 +177,8 @@
             "type": "Literal",
             "start": 391,
             "end": 464,
-            "value": "<TAB> should produce a syntax error as whitespace results in two tokens"
+            "value": "<TAB> should produce a syntax error as whitespace results in two tokens",
+            "raw": "'<TAB> should produce a syntax error as whitespace results in two tokens'"
           }
         ],
         "optional": false

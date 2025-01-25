@@ -69,7 +69,8 @@
                             "type": "Literal",
                             "start": 1697,
                             "end": 1698,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -114,13 +115,15 @@
                             "type": "Literal",
                             "start": 1719,
                             "end": 1721,
-                            "value": ""
+                            "value": "",
+                            "raw": "''"
                           },
                           {
                             "type": "Literal",
                             "start": 1723,
                             "end": 1726,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "'1'"
                           }
                         ]
                       }
@@ -170,7 +173,8 @@
                           "type": "Literal",
                           "start": 1760,
                           "end": 1761,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -179,7 +183,8 @@
                         "type": "Literal",
                         "start": 1764,
                         "end": 1766,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     ],
                     "optional": false
@@ -227,7 +232,8 @@
                           "type": "Literal",
                           "start": 1799,
                           "end": 1800,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -236,7 +242,8 @@
                         "type": "Literal",
                         "start": 1803,
                         "end": 1805,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     ],
                     "optional": false
@@ -327,7 +334,8 @@
                                         "type": "Literal",
                                         "start": 1871,
                                         "end": 1875,
-                                        "value": "1n"
+                                        "value": "1n",
+                                        "raw": "'1n'"
                                       }
                                     ]
                                   }
@@ -342,7 +350,8 @@
                         "type": "Literal",
                         "start": 1884,
                         "end": 1947,
-                        "value": "A StringNumericLiteral may not include a BigIntLiteralSuffix."
+                        "value": "A StringNumericLiteral may not include a BigIntLiteralSuffix.",
+                        "raw": "\"A StringNumericLiteral may not include a BigIntLiteralSuffix.\""
                       }
                     ],
                     "optional": false
@@ -433,7 +442,8 @@
                                         "type": "Literal",
                                         "start": 2013,
                                         "end": 2023,
-                                        "value": "Infinity"
+                                        "value": "Infinity",
+                                        "raw": "\"Infinity\""
                                       }
                                     ]
                                   }
@@ -448,7 +458,8 @@
                         "type": "Literal",
                         "start": 2032,
                         "end": 2125,
-                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity.."
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity..",
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity..\""
                       }
                     ],
                     "optional": false
@@ -539,7 +550,8 @@
                                         "type": "Literal",
                                         "start": 2191,
                                         "end": 2196,
-                                        "value": "1.1"
+                                        "value": "1.1",
+                                        "raw": "\"1.1\""
                                       }
                                     ]
                                   }
@@ -554,7 +566,8 @@
                         "type": "Literal",
                         "start": 2205,
                         "end": 2308,
-                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points..."
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points...",
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points...\""
                       }
                     ],
                     "optional": false
@@ -645,7 +658,8 @@
                                         "type": "Literal",
                                         "start": 2374,
                                         "end": 2379,
-                                        "value": "1e7"
+                                        "value": "1e7",
+                                        "raw": "\"1e7\""
                                       }
                                     ]
                                   }
@@ -660,7 +674,8 @@
                         "type": "Literal",
                         "start": 2388,
                         "end": 2486,
-                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents..."
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents...",
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents...\""
                       }
                     ],
                     "optional": false

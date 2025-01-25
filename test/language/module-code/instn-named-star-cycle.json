@@ -1,61 +1,62 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2279,
+  "end": 2275,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 2194,
-      "end": 2252,
+      "start": 2190,
+      "end": 2248,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 2203,
-          "end": 2204,
+          "start": 2199,
+          "end": 2200,
           "imported": {
             "type": "Identifier",
-            "start": 2203,
-            "end": 2204,
+            "start": 2199,
+            "end": 2200,
             "name": "x"
           },
           "local": {
             "type": "Identifier",
-            "start": 2203,
-            "end": 2204,
+            "start": 2199,
+            "end": 2200,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2212,
-        "end": 2251,
-        "value": "./instn-named-star-cycle-2_FIXTURE.js"
+        "start": 2208,
+        "end": 2247,
+        "value": "./instn-named-star-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-star-cycle-2_FIXTURE.js'"
       },
       "attributes": []
     },
     {
       "type": "ExpressionStatement",
-      "start": 2254,
-      "end": 2278,
+      "start": 2250,
+      "end": 2274,
       "expression": {
         "type": "CallExpression",
-        "start": 2254,
-        "end": 2277,
+        "start": 2250,
+        "end": 2273,
         "callee": {
           "type": "MemberExpression",
-          "start": 2254,
-          "end": 2270,
+          "start": 2250,
+          "end": 2266,
           "object": {
             "type": "Identifier",
-            "start": 2254,
-            "end": 2260,
+            "start": 2250,
+            "end": 2256,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2261,
-            "end": 2270,
+            "start": 2257,
+            "end": 2266,
             "name": "sameValue"
           },
           "computed": false,
@@ -64,15 +65,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2271,
-            "end": 2272,
+            "start": 2267,
+            "end": 2268,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 2274,
-            "end": 2276,
-            "value": 45
+            "start": 2270,
+            "end": 2272,
+            "value": 45,
+            "raw": "45"
           }
         ],
         "optional": false

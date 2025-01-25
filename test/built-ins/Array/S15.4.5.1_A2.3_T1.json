@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 353,
-                "value": 100
+                "value": 100,
+                "raw": "100"
               }
             ],
             "optional": false
@@ -65,7 +66,8 @@
             "type": "Literal",
             "start": 358,
             "end": 361,
-            "value": 100
+            "value": 100,
+            "raw": "100"
           },
           "computed": true,
           "optional": false
@@ -74,7 +76,8 @@
           "type": "Literal",
           "start": 365,
           "end": 366,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -129,13 +132,15 @@
             "type": "Literal",
             "start": 395,
             "end": 398,
-            "value": 101
+            "value": 101,
+            "raw": "101"
           },
           {
             "type": "Literal",
             "start": 400,
             "end": 445,
-            "value": "The value of x.length is expected to be 101"
+            "value": "The value of x.length is expected to be 101",
+            "raw": "'The value of x.length is expected to be 101'"
           }
         ],
         "optional": false
@@ -164,7 +169,8 @@
             "type": "Literal",
             "start": 451,
             "end": 454,
-            "value": 199
+            "value": 199,
+            "raw": "199"
           },
           "computed": true,
           "optional": false
@@ -173,7 +179,8 @@
           "type": "Literal",
           "start": 458,
           "end": 459,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -228,13 +235,15 @@
             "type": "Literal",
             "start": 488,
             "end": 491,
-            "value": 200
+            "value": 200,
+            "raw": "200"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 538,
-            "value": "The value of x.length is expected to be 200"
+            "value": "The value of x.length is expected to be 200",
+            "raw": "'The value of x.length is expected to be 200'"
           }
         ],
         "optional": false

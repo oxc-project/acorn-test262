@@ -78,7 +78,8 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 514,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -133,7 +134,8 @@
                         "type": "Literal",
                         "start": 558,
                         "end": 562,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -154,7 +156,8 @@
                         "type": "Literal",
                         "start": 582,
                         "end": 586,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -211,7 +214,8 @@
                 "type": "Literal",
                 "start": 622,
                 "end": 625,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -220,7 +224,8 @@
             "type": "Literal",
             "start": 628,
             "end": 662,
-            "value": "arr.hasOwnProperty(\"0\") !== true"
+            "value": "arr.hasOwnProperty(\"0\") !== true",
+            "raw": "'arr.hasOwnProperty(\"0\") !== true'"
           }
         ],
         "optional": false
@@ -278,7 +283,8 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 694,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "computed": true,
                 "optional": false
@@ -289,13 +295,15 @@
             "type": "Literal",
             "start": 698,
             "end": 709,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 728,
-            "value": "typeof (arr[0])"
+            "value": "typeof (arr[0])",
+            "raw": "'typeof (arr[0])'"
           }
         ],
         "optional": false

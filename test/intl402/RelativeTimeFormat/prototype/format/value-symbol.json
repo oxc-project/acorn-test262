@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 487,
-                "value": "en-US"
+                "value": "en-US",
+                "raw": "\"en-US\""
               }
             ]
           }
@@ -112,13 +113,15 @@
             "type": "Literal",
             "start": 527,
             "end": 537,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 567,
-            "value": "format should be supported"
+            "value": "format should be supported",
+            "raw": "\"format should be supported\""
           }
         ],
         "optional": false
@@ -233,7 +236,8 @@
                   "type": "Literal",
                   "start": 646,
                   "end": 654,
-                  "value": "second"
+                  "value": "second",
+                  "raw": "\"second\""
                 }
               ],
               "optional": false

@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 474,
             "end": 484,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 549,
-            "value": "The value of `typeof TypedArray.prototype.at` is \"function\""
+            "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
           }
         ],
         "optional": false
@@ -311,7 +313,8 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 703,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -431,13 +434,15 @@
                         "type": "Literal",
                         "start": 793,
                         "end": 803,
-                        "value": "function"
+                        "value": "function",
+                        "raw": "'function'"
                       },
                       {
                         "type": "Literal",
                         "start": 805,
                         "end": 858,
-                        "value": "The value of `typeof TA.prototype.at` is \"function\""
+                        "value": "The value of `typeof TA.prototype.at` is \"function\"",
+                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'"
                       }
                     ],
                     "optional": false
@@ -668,7 +673,8 @@
                                     "type": "Literal",
                                     "start": 1001,
                                     "end": 1005,
-                                    "value": null
+                                    "value": null,
+                                    "raw": "null"
                                   }
                                 ],
                                 "optional": false

@@ -39,27 +39,31 @@
               "type": "Literal",
               "start": 292,
               "end": 311,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 314,
               "end": 333,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             }
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 372,
-            "value": "337264356397531028994973048178108678400n"
+            "value": "337264356397531028994973048178108678400n",
+            "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 474,
-            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
+            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
           }
         ],
         "optional": false
@@ -101,27 +105,31 @@
               "type": "Literal",
               "start": 499,
               "end": 518,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 521,
               "end": 540,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             }
           },
           {
             "type": "Literal",
             "start": 544,
             "end": 579,
-            "value": "337264356397531028976608289633615613680n"
+            "value": "337264356397531028976608289633615613680n",
+            "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 681,
-            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
+            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
           }
         ],
         "optional": false
@@ -163,27 +171,31 @@
               "type": "Literal",
               "start": 706,
               "end": 725,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 728,
               "end": 739,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             }
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 770,
-            "value": "78525477173056633148995885440n"
+            "value": "78525477173056633148995885440n",
+            "raw": "0xFDBAC097530ECA86541D5980n"
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 856,
-            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n"
+            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n'"
           }
         ],
         "optional": false
@@ -225,27 +237,31 @@
               "type": "Literal",
               "start": 881,
               "end": 900,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 903,
               "end": 914,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 945,
-            "value": "78525477154691874604502820720n"
+            "value": "78525477154691874604502820720n",
+            "raw": "0xFDBAC09654320FEDDDC92770n"
           },
           {
             "type": "Literal",
             "start": 949,
             "end": 1031,
-            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n"
+            "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n'"
           }
         ],
         "optional": false
@@ -287,27 +303,31 @@
               "type": "Literal",
               "start": 1056,
               "end": 1075,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 1078,
               "end": 1085,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 1089,
             "end": 1112,
-            "value": "85579774817337681595200n"
+            "value": "85579774817337681595200n",
+            "raw": "0x121F49F49F49F49F4B40n"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1190,
-            "value": "The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n"
+            "value": "The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n'"
           }
         ],
         "optional": false
@@ -349,27 +369,31 @@
               "type": "Literal",
               "start": 1215,
               "end": 1234,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 1237,
               "end": 1241,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 1245,
             "end": 1265,
-            "value": "55094275633479194160n"
+            "value": "55094275633479194160n",
+            "raw": "0x2FC962FC962FC9630n"
           },
           {
             "type": "Literal",
             "start": 1269,
             "end": 1337,
-            "value": "The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n"
+            "value": "The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n'"
           }
         ],
         "optional": false
@@ -411,27 +435,31 @@
               "type": "Literal",
               "start": 1362,
               "end": 1381,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 1384,
               "end": 1388,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 1392,
             "end": 1412,
-            "value": "36729517088986129440n"
+            "value": "36729517088986129440n",
+            "raw": "0x1FDB97530ECA86420n"
           },
           {
             "type": "Literal",
             "start": 1416,
             "end": 1484,
-            "value": "The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n"
+            "value": "The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n'"
           }
         ],
         "optional": false
@@ -473,27 +501,31 @@
               "type": "Literal",
               "start": 1509,
               "end": 1528,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 1531,
               "end": 1535,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 1539,
             "end": 1558,
-            "value": "18364758544493064720n"
+            "value": "18364758544493064720n",
+            "raw": "0xFEDCBA9876543210n"
           },
           {
             "type": "Literal",
             "start": 1562,
             "end": 1629,
-            "value": "The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n"
+            "value": "The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n'"
           }
         ],
         "optional": false
@@ -535,27 +567,31 @@
               "type": "Literal",
               "start": 1654,
               "end": 1673,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 1676,
               "end": 1680,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 1684,
             "end": 1688,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 1692,
             "end": 1744,
-            "value": "The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n"
+            "value": "The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n",
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -597,7 +633,8 @@
               "type": "Literal",
               "start": 1769,
               "end": 1788,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -610,7 +647,8 @@
                 "type": "Literal",
                 "start": 1792,
                 "end": 1796,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -624,14 +662,16 @@
               "type": "Literal",
               "start": 1801,
               "end": 1820,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             }
           },
           {
             "type": "Literal",
             "start": 1824,
             "end": 1893,
-            "value": "The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n"
+            "value": "The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n'"
           }
         ],
         "optional": false
@@ -673,7 +713,8 @@
               "type": "Literal",
               "start": 1918,
               "end": 1937,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -686,7 +727,8 @@
                 "type": "Literal",
                 "start": 1941,
                 "end": 1945,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -700,14 +742,16 @@
               "type": "Literal",
               "start": 1950,
               "end": 1970,
-              "value": "36729517088986129440n"
+              "value": "36729517088986129440n",
+              "raw": "0x1FDB97530ECA86420n"
             }
           },
           {
             "type": "Literal",
             "start": 1974,
             "end": 2044,
-            "value": "The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n"
+            "value": "The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n'"
           }
         ],
         "optional": false
@@ -749,7 +793,8 @@
               "type": "Literal",
               "start": 2069,
               "end": 2088,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -762,7 +807,8 @@
                 "type": "Literal",
                 "start": 2092,
                 "end": 2096,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -776,14 +822,16 @@
               "type": "Literal",
               "start": 2101,
               "end": 2121,
-              "value": "55094275633479194160n"
+              "value": "55094275633479194160n",
+              "raw": "0x2FC962FC962FC9630n"
             }
           },
           {
             "type": "Literal",
             "start": 2125,
             "end": 2195,
-            "value": "The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n"
+            "value": "The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n'"
           }
         ],
         "optional": false
@@ -825,7 +873,8 @@
               "type": "Literal",
               "start": 2220,
               "end": 2239,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -838,7 +887,8 @@
                 "type": "Literal",
                 "start": 2243,
                 "end": 2250,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -852,14 +902,16 @@
               "type": "Literal",
               "start": 2255,
               "end": 2278,
-              "value": "85579774817337681595200n"
+              "value": "85579774817337681595200n",
+              "raw": "0x121F49F49F49F49F4B40n"
             }
           },
           {
             "type": "Literal",
             "start": 2282,
             "end": 2358,
-            "value": "The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n"
+            "value": "The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n'"
           }
         ],
         "optional": false
@@ -901,7 +953,8 @@
               "type": "Literal",
               "start": 2383,
               "end": 2402,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -914,7 +967,8 @@
                 "type": "Literal",
                 "start": 2406,
                 "end": 2417,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -928,14 +982,16 @@
               "type": "Literal",
               "start": 2422,
               "end": 2449,
-              "value": "78525477154691874604502820720n"
+              "value": "78525477154691874604502820720n",
+              "raw": "0xFDBAC09654320FEDDDC92770n"
             }
           },
           {
             "type": "Literal",
             "start": 2453,
             "end": 2537,
-            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n"
+            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n'"
           }
         ],
         "optional": false
@@ -977,7 +1033,8 @@
               "type": "Literal",
               "start": 2562,
               "end": 2581,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -990,7 +1047,8 @@
                 "type": "Literal",
                 "start": 2585,
                 "end": 2596,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -1004,14 +1062,16 @@
               "type": "Literal",
               "start": 2601,
               "end": 2628,
-              "value": "78525477173056633148995885440n"
+              "value": "78525477173056633148995885440n",
+              "raw": "0xFDBAC097530ECA86541D5980n"
             }
           },
           {
             "type": "Literal",
             "start": 2632,
             "end": 2716,
-            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n"
+            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n'"
           }
         ],
         "optional": false
@@ -1053,7 +1113,8 @@
               "type": "Literal",
               "start": 2741,
               "end": 2760,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -1066,7 +1127,8 @@
                 "type": "Literal",
                 "start": 2764,
                 "end": 2783,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -1080,14 +1142,16 @@
               "type": "Literal",
               "start": 2788,
               "end": 2823,
-              "value": "337264356397531028976608289633615613680n"
+              "value": "337264356397531028976608289633615613680n",
+              "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
             }
           },
           {
             "type": "Literal",
             "start": 2827,
             "end": 2927,
-            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
+            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
           }
         ],
         "optional": false
@@ -1129,7 +1193,8 @@
               "type": "Literal",
               "start": 2952,
               "end": 2971,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             },
             "operator": "*",
             "right": {
@@ -1142,7 +1207,8 @@
                 "type": "Literal",
                 "start": 2975,
                 "end": 2994,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -1156,14 +1222,16 @@
               "type": "Literal",
               "start": 2999,
               "end": 3034,
-              "value": "337264356397531028994973048178108678400n"
+              "value": "337264356397531028994973048178108678400n",
+              "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
             }
           },
           {
             "type": "Literal",
             "start": 3038,
             "end": 3138,
-            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
+            "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
           }
         ],
         "optional": false
@@ -1205,27 +1273,31 @@
               "type": "Literal",
               "start": 3163,
               "end": 3182,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 3185,
               "end": 3204,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             }
           },
           {
             "type": "Literal",
             "start": 3208,
             "end": 3243,
-            "value": "337264356397531028958243531089122548961n"
+            "value": "337264356397531028958243531089122548961n",
+            "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
           },
           {
             "type": "Literal",
             "start": 3247,
             "end": 3345,
-            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
+            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
           }
         ],
         "optional": false
@@ -1267,27 +1339,31 @@
               "type": "Literal",
               "start": 3370,
               "end": 3389,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 3392,
               "end": 3403,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             }
           },
           {
             "type": "Literal",
             "start": 3407,
             "end": 3434,
-            "value": "78525477173056633144720006888n"
+            "value": "78525477173056633144720006888n",
+            "raw": "0xFDBAC097530ECA8555409EE8n"
           },
           {
             "type": "Literal",
             "start": 3438,
             "end": 3520,
-            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n"
+            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n'"
           }
         ],
         "optional": false
@@ -1329,27 +1405,31 @@
               "type": "Literal",
               "start": 3545,
               "end": 3564,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 3567,
               "end": 3578,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 3582,
             "end": 3609,
-            "value": "78525477154691874600226942169n"
+            "value": "78525477154691874600226942169n",
+            "raw": "0xFDBAC09654320FECDEEC6CD9n"
           },
           {
             "type": "Literal",
             "start": 3613,
             "end": 3695,
-            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n"
+            "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n'"
           }
         ],
         "optional": false
@@ -1391,27 +1471,31 @@
               "type": "Literal",
               "start": 3720,
               "end": 3739,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 3742,
               "end": 3749,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 3753,
             "end": 3776,
-            "value": "85579774817337681590540n"
+            "value": "85579774817337681590540n",
+            "raw": "0x121F49F49F49F49F390Cn"
           },
           {
             "type": "Literal",
             "start": 3780,
             "end": 3854,
-            "value": "The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn"
+            "value": "The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn'"
           }
         ],
         "optional": false
@@ -1453,27 +1537,31 @@
               "type": "Literal",
               "start": 3879,
               "end": 3898,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 3901,
               "end": 3905,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 3909,
             "end": 3929,
-            "value": "55094275633479194157n"
+            "value": "55094275633479194157n",
+            "raw": "0x2FC962FC962FC962Dn"
           },
           {
             "type": "Literal",
             "start": 3933,
             "end": 4001,
-            "value": "The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn"
+            "value": "The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn'"
           }
         ],
         "optional": false
@@ -1515,27 +1603,31 @@
               "type": "Literal",
               "start": 4026,
               "end": 4045,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 4048,
               "end": 4052,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 4056,
             "end": 4076,
-            "value": "36729517088986129438n"
+            "value": "36729517088986129438n",
+            "raw": "0x1FDB97530ECA8641En"
           },
           {
             "type": "Literal",
             "start": 4080,
             "end": 4148,
-            "value": "The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En"
+            "value": "The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En'"
           }
         ],
         "optional": false
@@ -1577,27 +1669,31 @@
               "type": "Literal",
               "start": 4173,
               "end": 4192,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 4195,
               "end": 4199,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 4203,
             "end": 4222,
-            "value": "18364758544493064719n"
+            "value": "18364758544493064719n",
+            "raw": "0xFEDCBA987654320Fn"
           },
           {
             "type": "Literal",
             "start": 4226,
             "end": 4293,
-            "value": "The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn"
+            "value": "The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn'"
           }
         ],
         "optional": false
@@ -1639,27 +1735,31 @@
               "type": "Literal",
               "start": 4318,
               "end": 4337,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 4340,
               "end": 4344,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 4348,
             "end": 4352,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 4356,
             "end": 4408,
-            "value": "The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n"
+            "value": "The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -1701,7 +1801,8 @@
               "type": "Literal",
               "start": 4433,
               "end": 4452,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -1714,7 +1815,8 @@
                 "type": "Literal",
                 "start": 4456,
                 "end": 4460,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -1728,14 +1830,16 @@
               "type": "Literal",
               "start": 4465,
               "end": 4484,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             }
           },
           {
             "type": "Literal",
             "start": 4488,
             "end": 4557,
-            "value": "The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn"
+            "value": "The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn'"
           }
         ],
         "optional": false
@@ -1777,7 +1881,8 @@
               "type": "Literal",
               "start": 4582,
               "end": 4601,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -1790,7 +1895,8 @@
                 "type": "Literal",
                 "start": 4605,
                 "end": 4609,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -1804,14 +1910,16 @@
               "type": "Literal",
               "start": 4614,
               "end": 4634,
-              "value": "36729517088986129438n"
+              "value": "36729517088986129438n",
+              "raw": "0x1FDB97530ECA8641En"
             }
           },
           {
             "type": "Literal",
             "start": 4638,
             "end": 4708,
-            "value": "The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En"
+            "value": "The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En'"
           }
         ],
         "optional": false
@@ -1853,7 +1961,8 @@
               "type": "Literal",
               "start": 4733,
               "end": 4752,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -1866,7 +1975,8 @@
                 "type": "Literal",
                 "start": 4756,
                 "end": 4760,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -1880,14 +1990,16 @@
               "type": "Literal",
               "start": 4765,
               "end": 4785,
-              "value": "55094275633479194157n"
+              "value": "55094275633479194157n",
+              "raw": "0x2FC962FC962FC962Dn"
             }
           },
           {
             "type": "Literal",
             "start": 4789,
             "end": 4859,
-            "value": "The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn"
+            "value": "The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn'"
           }
         ],
         "optional": false
@@ -1929,7 +2041,8 @@
               "type": "Literal",
               "start": 4884,
               "end": 4903,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -1942,7 +2055,8 @@
                 "type": "Literal",
                 "start": 4907,
                 "end": 4914,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -1956,14 +2070,16 @@
               "type": "Literal",
               "start": 4919,
               "end": 4942,
-              "value": "85579774817337681590540n"
+              "value": "85579774817337681590540n",
+              "raw": "0x121F49F49F49F49F390Cn"
             }
           },
           {
             "type": "Literal",
             "start": 4946,
             "end": 5022,
-            "value": "The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn"
+            "value": "The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn'"
           }
         ],
         "optional": false
@@ -2005,7 +2121,8 @@
               "type": "Literal",
               "start": 5047,
               "end": 5066,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -2018,7 +2135,8 @@
                 "type": "Literal",
                 "start": 5070,
                 "end": 5081,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -2032,14 +2150,16 @@
               "type": "Literal",
               "start": 5086,
               "end": 5113,
-              "value": "78525477154691874600226942169n"
+              "value": "78525477154691874600226942169n",
+              "raw": "0xFDBAC09654320FECDEEC6CD9n"
             }
           },
           {
             "type": "Literal",
             "start": 5117,
             "end": 5201,
-            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n"
+            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n'"
           }
         ],
         "optional": false
@@ -2081,7 +2201,8 @@
               "type": "Literal",
               "start": 5226,
               "end": 5245,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -2094,7 +2215,8 @@
                 "type": "Literal",
                 "start": 5249,
                 "end": 5260,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -2108,14 +2230,16 @@
               "type": "Literal",
               "start": 5265,
               "end": 5292,
-              "value": "78525477173056633144720006888n"
+              "value": "78525477173056633144720006888n",
+              "raw": "0xFDBAC097530ECA8555409EE8n"
             }
           },
           {
             "type": "Literal",
             "start": 5296,
             "end": 5380,
-            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n"
+            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n'"
           }
         ],
         "optional": false
@@ -2157,7 +2281,8 @@
               "type": "Literal",
               "start": 5405,
               "end": 5424,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -2170,7 +2295,8 @@
                 "type": "Literal",
                 "start": 5428,
                 "end": 5447,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -2184,14 +2310,16 @@
               "type": "Literal",
               "start": 5452,
               "end": 5487,
-              "value": "337264356397531028958243531089122548961n"
+              "value": "337264356397531028958243531089122548961n",
+              "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
             }
           },
           {
             "type": "Literal",
             "start": 5491,
             "end": 5591,
-            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
+            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
           }
         ],
         "optional": false
@@ -2233,7 +2361,8 @@
               "type": "Literal",
               "start": 5616,
               "end": 5635,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             },
             "operator": "*",
             "right": {
@@ -2246,7 +2375,8 @@
                 "type": "Literal",
                 "start": 5639,
                 "end": 5658,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -2260,14 +2390,16 @@
               "type": "Literal",
               "start": 5663,
               "end": 5698,
-              "value": "337264356397531028976608289633615613680n"
+              "value": "337264356397531028976608289633615613680n",
+              "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
             }
           },
           {
             "type": "Literal",
             "start": 5702,
             "end": 5802,
-            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
+            "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
           }
         ],
         "optional": false
@@ -2309,27 +2441,31 @@
               "type": "Literal",
               "start": 5827,
               "end": 5838,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 5841,
               "end": 5852,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             }
           },
           {
             "type": "Literal",
             "start": 5856,
             "end": 5875,
-            "value": "18283137391453616704n"
+            "value": "18283137391453616704n",
+            "raw": "0xFDBAC096DD413A40n"
           },
           {
             "type": "Literal",
             "start": 5879,
             "end": 5945,
-            "value": "The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n"
+            "value": "The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n",
+            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n'"
           }
         ],
         "optional": false
@@ -2371,27 +2507,31 @@
               "type": "Literal",
               "start": 5970,
               "end": 5981,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 5984,
               "end": 5995,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 5999,
             "end": 6018,
-            "value": "18283137387177738152n"
+            "value": "18283137387177738152n",
+            "raw": "0xFDBAC095DE647FA8n"
           },
           {
             "type": "Literal",
             "start": 6022,
             "end": 6088,
-            "value": "The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n"
+            "value": "The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n",
+            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n'"
           }
         ],
         "optional": false
@@ -2433,27 +2573,31 @@
               "type": "Literal",
               "start": 6113,
               "end": 6124,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 6127,
               "end": 6134,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 6138,
             "end": 6153,
-            "value": "19925594052320n"
+            "value": "19925594052320n",
+            "raw": "0x121F49F496E0n"
           },
           {
             "type": "Literal",
             "start": 6157,
             "end": 6215,
-            "value": "The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n"
+            "value": "The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n",
+            "raw": "'The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n'"
           }
         ],
         "optional": false
@@ -2495,27 +2639,31 @@
               "type": "Literal",
               "start": 6240,
               "end": 6251,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 6254,
               "end": 6258,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 6262,
             "end": 6274,
-            "value": "12827635656n"
+            "value": "12827635656n",
+            "raw": "0x2FC962FC8n"
           },
           {
             "type": "Literal",
             "start": 6278,
             "end": 6330,
-            "value": "The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n"
+            "value": "The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n",
+            "raw": "'The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n'"
           }
         ],
         "optional": false
@@ -2557,27 +2705,31 @@
               "type": "Literal",
               "start": 6355,
               "end": 6366,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 6369,
               "end": 6373,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 6377,
             "end": 6389,
-            "value": "8551757104n"
+            "value": "8551757104n",
+            "raw": "0x1FDB97530n"
           },
           {
             "type": "Literal",
             "start": 6393,
             "end": 6445,
-            "value": "The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n"
+            "value": "The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n",
+            "raw": "'The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n'"
           }
         ],
         "optional": false
@@ -2619,27 +2771,31 @@
               "type": "Literal",
               "start": 6470,
               "end": 6481,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 6484,
               "end": 6488,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 6492,
             "end": 6503,
-            "value": "4275878552n"
+            "value": "4275878552n",
+            "raw": "0xFEDCBA98n"
           },
           {
             "type": "Literal",
             "start": 6507,
             "end": 6558,
-            "value": "The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n"
+            "value": "The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n",
+            "raw": "'The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n'"
           }
         ],
         "optional": false
@@ -2681,27 +2837,31 @@
               "type": "Literal",
               "start": 6580,
               "end": 6591,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 6594,
               "end": 6598,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 6600,
             "end": 6604,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 6606,
             "end": 6650,
-            "value": "The result of (0xFEDCBA98n * 0x0n) is 0x0n"
+            "value": "The result of (0xFEDCBA98n * 0x0n) is 0x0n",
+            "raw": "'The result of (0xFEDCBA98n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -2743,7 +2903,8 @@
               "type": "Literal",
               "start": 6674,
               "end": 6685,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -2756,7 +2917,8 @@
                 "type": "Literal",
                 "start": 6689,
                 "end": 6693,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -2770,14 +2932,16 @@
               "type": "Literal",
               "start": 6698,
               "end": 6709,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             }
           },
           {
             "type": "Literal",
             "start": 6713,
             "end": 6766,
-            "value": "The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n"
+            "value": "The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n",
+            "raw": "'The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n'"
           }
         ],
         "optional": false
@@ -2819,7 +2983,8 @@
               "type": "Literal",
               "start": 6791,
               "end": 6802,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -2832,7 +2997,8 @@
                 "type": "Literal",
                 "start": 6806,
                 "end": 6810,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -2846,14 +3012,16 @@
               "type": "Literal",
               "start": 6815,
               "end": 6827,
-              "value": "8551757104n"
+              "value": "8551757104n",
+              "raw": "0x1FDB97530n"
             }
           },
           {
             "type": "Literal",
             "start": 6831,
             "end": 6885,
-            "value": "The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n"
+            "value": "The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n",
+            "raw": "'The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n'"
           }
         ],
         "optional": false
@@ -2895,7 +3063,8 @@
               "type": "Literal",
               "start": 6910,
               "end": 6921,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -2908,7 +3077,8 @@
                 "type": "Literal",
                 "start": 6925,
                 "end": 6929,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -2922,14 +3092,16 @@
               "type": "Literal",
               "start": 6934,
               "end": 6946,
-              "value": "12827635656n"
+              "value": "12827635656n",
+              "raw": "0x2FC962FC8n"
             }
           },
           {
             "type": "Literal",
             "start": 6950,
             "end": 7004,
-            "value": "The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n"
+            "value": "The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n",
+            "raw": "'The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n'"
           }
         ],
         "optional": false
@@ -2971,7 +3143,8 @@
               "type": "Literal",
               "start": 7029,
               "end": 7040,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -2984,7 +3157,8 @@
                 "type": "Literal",
                 "start": 7044,
                 "end": 7051,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -2998,14 +3172,16 @@
               "type": "Literal",
               "start": 7056,
               "end": 7071,
-              "value": "19925594052320n"
+              "value": "19925594052320n",
+              "raw": "0x121F49F496E0n"
             }
           },
           {
             "type": "Literal",
             "start": 7075,
             "end": 7135,
-            "value": "The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n"
+            "value": "The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n",
+            "raw": "'The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n'"
           }
         ],
         "optional": false
@@ -3047,7 +3223,8 @@
               "type": "Literal",
               "start": 7160,
               "end": 7171,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -3060,7 +3237,8 @@
                 "type": "Literal",
                 "start": 7175,
                 "end": 7186,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -3074,14 +3252,16 @@
               "type": "Literal",
               "start": 7191,
               "end": 7210,
-              "value": "18283137387177738152n"
+              "value": "18283137387177738152n",
+              "raw": "0xFDBAC095DE647FA8n"
             }
           },
           {
             "type": "Literal",
             "start": 7214,
             "end": 7282,
-            "value": "The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n"
+            "value": "The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n",
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n'"
           }
         ],
         "optional": false
@@ -3123,7 +3303,8 @@
               "type": "Literal",
               "start": 7307,
               "end": 7318,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -3136,7 +3317,8 @@
                 "type": "Literal",
                 "start": 7322,
                 "end": 7333,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -3150,14 +3332,16 @@
               "type": "Literal",
               "start": 7338,
               "end": 7357,
-              "value": "18283137391453616704n"
+              "value": "18283137391453616704n",
+              "raw": "0xFDBAC096DD413A40n"
             }
           },
           {
             "type": "Literal",
             "start": 7361,
             "end": 7429,
-            "value": "The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n"
+            "value": "The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n",
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n'"
           }
         ],
         "optional": false
@@ -3199,7 +3383,8 @@
               "type": "Literal",
               "start": 7454,
               "end": 7465,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -3212,7 +3397,8 @@
                 "type": "Literal",
                 "start": 7469,
                 "end": 7488,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -3226,14 +3412,16 @@
               "type": "Literal",
               "start": 7493,
               "end": 7520,
-              "value": "78525477173056633144720006888n"
+              "value": "78525477173056633144720006888n",
+              "raw": "0xFDBAC097530ECA8555409EE8n"
             }
           },
           {
             "type": "Literal",
             "start": 7524,
             "end": 7608,
-            "value": "The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n"
+            "value": "The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n",
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n'"
           }
         ],
         "optional": false
@@ -3275,7 +3463,8 @@
               "type": "Literal",
               "start": 7633,
               "end": 7644,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             },
             "operator": "*",
             "right": {
@@ -3288,7 +3477,8 @@
                 "type": "Literal",
                 "start": 7648,
                 "end": 7667,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -3302,14 +3492,16 @@
               "type": "Literal",
               "start": 7672,
               "end": 7699,
-              "value": "78525477173056633148995885440n"
+              "value": "78525477173056633148995885440n",
+              "raw": "0xFDBAC097530ECA86541D5980n"
             }
           },
           {
             "type": "Literal",
             "start": 7703,
             "end": 7787,
-            "value": "The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n"
+            "value": "The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n",
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n'"
           }
         ],
         "optional": false
@@ -3351,27 +3543,31 @@
               "type": "Literal",
               "start": 7812,
               "end": 7823,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 7826,
               "end": 7837,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 7841,
             "end": 7860,
-            "value": "18283137382901859601n"
+            "value": "18283137382901859601n",
+            "raw": "0xFDBAC094DF87C511n"
           },
           {
             "type": "Literal",
             "start": 7864,
             "end": 7930,
-            "value": "The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n"
+            "value": "The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n",
+            "raw": "'The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n'"
           }
         ],
         "optional": false
@@ -3413,27 +3609,31 @@
               "type": "Literal",
               "start": 7955,
               "end": 7966,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 7969,
               "end": 7976,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 7980,
             "end": 7995,
-            "value": "19925594047660n"
+            "value": "19925594047660n",
+            "raw": "0x121F49F484ACn"
           },
           {
             "type": "Literal",
             "start": 7999,
             "end": 8057,
-            "value": "The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn"
+            "value": "The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn",
+            "raw": "'The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn'"
           }
         ],
         "optional": false
@@ -3475,27 +3675,31 @@
               "type": "Literal",
               "start": 8082,
               "end": 8093,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 8096,
               "end": 8100,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 8104,
             "end": 8116,
-            "value": "12827635653n"
+            "value": "12827635653n",
+            "raw": "0x2FC962FC5n"
           },
           {
             "type": "Literal",
             "start": 8120,
             "end": 8172,
-            "value": "The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n"
+            "value": "The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n",
+            "raw": "'The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n'"
           }
         ],
         "optional": false
@@ -3537,27 +3741,31 @@
               "type": "Literal",
               "start": 8197,
               "end": 8208,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 8211,
               "end": 8215,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 8219,
             "end": 8231,
-            "value": "8551757102n"
+            "value": "8551757102n",
+            "raw": "0x1FDB9752En"
           },
           {
             "type": "Literal",
             "start": 8235,
             "end": 8287,
-            "value": "The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En"
+            "value": "The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En",
+            "raw": "'The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En'"
           }
         ],
         "optional": false
@@ -3599,27 +3807,31 @@
               "type": "Literal",
               "start": 8312,
               "end": 8323,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 8326,
               "end": 8330,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 8334,
             "end": 8345,
-            "value": "4275878551n"
+            "value": "4275878551n",
+            "raw": "0xFEDCBA97n"
           },
           {
             "type": "Literal",
             "start": 8349,
             "end": 8400,
-            "value": "The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n"
+            "value": "The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n",
+            "raw": "'The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n'"
           }
         ],
         "optional": false
@@ -3661,27 +3873,31 @@
               "type": "Literal",
               "start": 8422,
               "end": 8433,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 8436,
               "end": 8440,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 8442,
             "end": 8446,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 8448,
             "end": 8492,
-            "value": "The result of (0xFEDCBA97n * 0x0n) is 0x0n"
+            "value": "The result of (0xFEDCBA97n * 0x0n) is 0x0n",
+            "raw": "'The result of (0xFEDCBA97n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -3723,7 +3939,8 @@
               "type": "Literal",
               "start": 8516,
               "end": 8527,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -3736,7 +3953,8 @@
                 "type": "Literal",
                 "start": 8531,
                 "end": 8535,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -3750,14 +3968,16 @@
               "type": "Literal",
               "start": 8540,
               "end": 8551,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 8555,
             "end": 8608,
-            "value": "The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n"
+            "value": "The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n",
+            "raw": "'The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n'"
           }
         ],
         "optional": false
@@ -3799,7 +4019,8 @@
               "type": "Literal",
               "start": 8633,
               "end": 8644,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -3812,7 +4033,8 @@
                 "type": "Literal",
                 "start": 8648,
                 "end": 8652,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -3826,14 +4048,16 @@
               "type": "Literal",
               "start": 8657,
               "end": 8669,
-              "value": "8551757102n"
+              "value": "8551757102n",
+              "raw": "0x1FDB9752En"
             }
           },
           {
             "type": "Literal",
             "start": 8673,
             "end": 8727,
-            "value": "The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En"
+            "value": "The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En",
+            "raw": "'The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En'"
           }
         ],
         "optional": false
@@ -3875,7 +4099,8 @@
               "type": "Literal",
               "start": 8752,
               "end": 8763,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -3888,7 +4113,8 @@
                 "type": "Literal",
                 "start": 8767,
                 "end": 8771,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -3902,14 +4128,16 @@
               "type": "Literal",
               "start": 8776,
               "end": 8788,
-              "value": "12827635653n"
+              "value": "12827635653n",
+              "raw": "0x2FC962FC5n"
             }
           },
           {
             "type": "Literal",
             "start": 8792,
             "end": 8846,
-            "value": "The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n"
+            "value": "The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n",
+            "raw": "'The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n'"
           }
         ],
         "optional": false
@@ -3951,7 +4179,8 @@
               "type": "Literal",
               "start": 8871,
               "end": 8882,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -3964,7 +4193,8 @@
                 "type": "Literal",
                 "start": 8886,
                 "end": 8893,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -3978,14 +4208,16 @@
               "type": "Literal",
               "start": 8898,
               "end": 8913,
-              "value": "19925594047660n"
+              "value": "19925594047660n",
+              "raw": "0x121F49F484ACn"
             }
           },
           {
             "type": "Literal",
             "start": 8917,
             "end": 8977,
-            "value": "The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn"
+            "value": "The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn",
+            "raw": "'The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn'"
           }
         ],
         "optional": false
@@ -4027,7 +4259,8 @@
               "type": "Literal",
               "start": 9002,
               "end": 9013,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -4040,7 +4273,8 @@
                 "type": "Literal",
                 "start": 9017,
                 "end": 9028,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -4054,14 +4288,16 @@
               "type": "Literal",
               "start": 9033,
               "end": 9052,
-              "value": "18283137382901859601n"
+              "value": "18283137382901859601n",
+              "raw": "0xFDBAC094DF87C511n"
             }
           },
           {
             "type": "Literal",
             "start": 9056,
             "end": 9124,
-            "value": "The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n"
+            "value": "The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n",
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n'"
           }
         ],
         "optional": false
@@ -4103,7 +4339,8 @@
               "type": "Literal",
               "start": 9149,
               "end": 9160,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -4116,7 +4353,8 @@
                 "type": "Literal",
                 "start": 9164,
                 "end": 9175,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -4130,14 +4368,16 @@
               "type": "Literal",
               "start": 9180,
               "end": 9199,
-              "value": "18283137387177738152n"
+              "value": "18283137387177738152n",
+              "raw": "0xFDBAC095DE647FA8n"
             }
           },
           {
             "type": "Literal",
             "start": 9203,
             "end": 9271,
-            "value": "The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n"
+            "value": "The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n",
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n'"
           }
         ],
         "optional": false
@@ -4179,7 +4419,8 @@
               "type": "Literal",
               "start": 9296,
               "end": 9307,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -4192,7 +4433,8 @@
                 "type": "Literal",
                 "start": 9311,
                 "end": 9330,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -4206,14 +4448,16 @@
               "type": "Literal",
               "start": 9335,
               "end": 9362,
-              "value": "78525477154691874600226942169n"
+              "value": "78525477154691874600226942169n",
+              "raw": "0xFDBAC09654320FECDEEC6CD9n"
             }
           },
           {
             "type": "Literal",
             "start": 9366,
             "end": 9450,
-            "value": "The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n"
+            "value": "The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n",
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n'"
           }
         ],
         "optional": false
@@ -4255,7 +4499,8 @@
               "type": "Literal",
               "start": 9475,
               "end": 9486,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             },
             "operator": "*",
             "right": {
@@ -4268,7 +4513,8 @@
                 "type": "Literal",
                 "start": 9490,
                 "end": 9509,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -4282,14 +4528,16 @@
               "type": "Literal",
               "start": 9514,
               "end": 9541,
-              "value": "78525477154691874604502820720n"
+              "value": "78525477154691874604502820720n",
+              "raw": "0xFDBAC09654320FEDDDC92770n"
             }
           },
           {
             "type": "Literal",
             "start": 9545,
             "end": 9629,
-            "value": "The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n"
+            "value": "The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n",
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n'"
           }
         ],
         "optional": false
@@ -4331,27 +4579,31 @@
               "type": "Literal",
               "start": 9651,
               "end": 9658,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 9661,
               "end": 9668,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 9670,
             "end": 9680,
-            "value": "21715600n"
+            "value": "21715600n",
+            "raw": "0x14B5A90n"
           },
           {
             "type": "Literal",
             "start": 9682,
             "end": 9731,
-            "value": "The result of (0x1234n * 0x1234n) is 0x14B5A90n"
+            "value": "The result of (0x1234n * 0x1234n) is 0x14B5A90n",
+            "raw": "'The result of (0x1234n * 0x1234n) is 0x14B5A90n'"
           }
         ],
         "optional": false
@@ -4393,27 +4645,31 @@
               "type": "Literal",
               "start": 9751,
               "end": 9758,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 9761,
               "end": 9765,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 9767,
             "end": 9774,
-            "value": "13980n"
+            "value": "13980n",
+            "raw": "0x369Cn"
           },
           {
             "type": "Literal",
             "start": 9776,
             "end": 9819,
-            "value": "The result of (0x1234n * 0x3n) is 0x369Cn"
+            "value": "The result of (0x1234n * 0x3n) is 0x369Cn",
+            "raw": "'The result of (0x1234n * 0x3n) is 0x369Cn'"
           }
         ],
         "optional": false
@@ -4455,27 +4711,31 @@
               "type": "Literal",
               "start": 9839,
               "end": 9846,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 9849,
               "end": 9853,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 9855,
             "end": 9862,
-            "value": "9320n"
+            "value": "9320n",
+            "raw": "0x2468n"
           },
           {
             "type": "Literal",
             "start": 9864,
             "end": 9907,
-            "value": "The result of (0x1234n * 0x2n) is 0x2468n"
+            "value": "The result of (0x1234n * 0x2n) is 0x2468n",
+            "raw": "'The result of (0x1234n * 0x2n) is 0x2468n'"
           }
         ],
         "optional": false
@@ -4517,27 +4777,31 @@
               "type": "Literal",
               "start": 9927,
               "end": 9934,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 9937,
               "end": 9941,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 9943,
             "end": 9950,
-            "value": "4660n"
+            "value": "4660n",
+            "raw": "0x1234n"
           },
           {
             "type": "Literal",
             "start": 9952,
             "end": 9995,
-            "value": "The result of (0x1234n * 0x1n) is 0x1234n"
+            "value": "The result of (0x1234n * 0x1n) is 0x1234n",
+            "raw": "'The result of (0x1234n * 0x1n) is 0x1234n'"
           }
         ],
         "optional": false
@@ -4579,27 +4843,31 @@
               "type": "Literal",
               "start": 10015,
               "end": 10022,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 10025,
               "end": 10029,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 10031,
             "end": 10035,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 10037,
             "end": 10077,
-            "value": "The result of (0x1234n * 0x0n) is 0x0n"
+            "value": "The result of (0x1234n * 0x0n) is 0x0n",
+            "raw": "'The result of (0x1234n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -4641,7 +4909,8 @@
               "type": "Literal",
               "start": 10097,
               "end": 10104,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -4654,7 +4923,8 @@
                 "type": "Literal",
                 "start": 10108,
                 "end": 10112,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -4668,14 +4938,16 @@
               "type": "Literal",
               "start": 10115,
               "end": 10122,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 10124,
             "end": 10169,
-            "value": "The result of (0x1234n * -0x1n) is -0x1234n"
+            "value": "The result of (0x1234n * -0x1n) is -0x1234n",
+            "raw": "'The result of (0x1234n * -0x1n) is -0x1234n'"
           }
         ],
         "optional": false
@@ -4717,7 +4989,8 @@
               "type": "Literal",
               "start": 10189,
               "end": 10196,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -4730,7 +5003,8 @@
                 "type": "Literal",
                 "start": 10200,
                 "end": 10204,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -4744,14 +5018,16 @@
               "type": "Literal",
               "start": 10207,
               "end": 10214,
-              "value": "9320n"
+              "value": "9320n",
+              "raw": "0x2468n"
             }
           },
           {
             "type": "Literal",
             "start": 10216,
             "end": 10261,
-            "value": "The result of (0x1234n * -0x2n) is -0x2468n"
+            "value": "The result of (0x1234n * -0x2n) is -0x2468n",
+            "raw": "'The result of (0x1234n * -0x2n) is -0x2468n'"
           }
         ],
         "optional": false
@@ -4793,7 +5069,8 @@
               "type": "Literal",
               "start": 10281,
               "end": 10288,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -4806,7 +5083,8 @@
                 "type": "Literal",
                 "start": 10292,
                 "end": 10296,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -4820,14 +5098,16 @@
               "type": "Literal",
               "start": 10299,
               "end": 10306,
-              "value": "13980n"
+              "value": "13980n",
+              "raw": "0x369Cn"
             }
           },
           {
             "type": "Literal",
             "start": 10308,
             "end": 10353,
-            "value": "The result of (0x1234n * -0x3n) is -0x369Cn"
+            "value": "The result of (0x1234n * -0x3n) is -0x369Cn",
+            "raw": "'The result of (0x1234n * -0x3n) is -0x369Cn'"
           }
         ],
         "optional": false
@@ -4869,7 +5149,8 @@
               "type": "Literal",
               "start": 10377,
               "end": 10384,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -4882,7 +5163,8 @@
                 "type": "Literal",
                 "start": 10388,
                 "end": 10395,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -4896,14 +5178,16 @@
               "type": "Literal",
               "start": 10400,
               "end": 10410,
-              "value": "21715600n"
+              "value": "21715600n",
+              "raw": "0x14B5A90n"
             }
           },
           {
             "type": "Literal",
             "start": 10414,
             "end": 10465,
-            "value": "The result of (0x1234n * -0x1234n) is -0x14B5A90n"
+            "value": "The result of (0x1234n * -0x1234n) is -0x14B5A90n",
+            "raw": "'The result of (0x1234n * -0x1234n) is -0x14B5A90n'"
           }
         ],
         "optional": false
@@ -4945,7 +5229,8 @@
               "type": "Literal",
               "start": 10490,
               "end": 10497,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -4958,7 +5243,8 @@
                 "type": "Literal",
                 "start": 10501,
                 "end": 10512,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -4972,14 +5258,16 @@
               "type": "Literal",
               "start": 10517,
               "end": 10532,
-              "value": "19925594047660n"
+              "value": "19925594047660n",
+              "raw": "0x121F49F484ACn"
             }
           },
           {
             "type": "Literal",
             "start": 10536,
             "end": 10596,
-            "value": "The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn"
+            "value": "The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn",
+            "raw": "'The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn'"
           }
         ],
         "optional": false
@@ -5021,7 +5309,8 @@
               "type": "Literal",
               "start": 10621,
               "end": 10628,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -5034,7 +5323,8 @@
                 "type": "Literal",
                 "start": 10632,
                 "end": 10643,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -5048,14 +5338,16 @@
               "type": "Literal",
               "start": 10648,
               "end": 10663,
-              "value": "19925594052320n"
+              "value": "19925594052320n",
+              "raw": "0x121F49F496E0n"
             }
           },
           {
             "type": "Literal",
             "start": 10667,
             "end": 10727,
-            "value": "The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n"
+            "value": "The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n",
+            "raw": "'The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n'"
           }
         ],
         "optional": false
@@ -5097,7 +5389,8 @@
               "type": "Literal",
               "start": 10752,
               "end": 10759,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -5110,7 +5403,8 @@
                 "type": "Literal",
                 "start": 10763,
                 "end": 10782,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -5124,14 +5418,16 @@
               "type": "Literal",
               "start": 10787,
               "end": 10810,
-              "value": "85579774817337681590540n"
+              "value": "85579774817337681590540n",
+              "raw": "0x121F49F49F49F49F390Cn"
             }
           },
           {
             "type": "Literal",
             "start": 10814,
             "end": 10890,
-            "value": "The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn"
+            "value": "The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn",
+            "raw": "'The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn'"
           }
         ],
         "optional": false
@@ -5173,7 +5469,8 @@
               "type": "Literal",
               "start": 10915,
               "end": 10922,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             },
             "operator": "*",
             "right": {
@@ -5186,7 +5483,8 @@
                 "type": "Literal",
                 "start": 10926,
                 "end": 10945,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -5200,14 +5498,16 @@
               "type": "Literal",
               "start": 10950,
               "end": 10973,
-              "value": "85579774817337681595200n"
+              "value": "85579774817337681595200n",
+              "raw": "0x121F49F49F49F49F4B40n"
             }
           },
           {
             "type": "Literal",
             "start": 10977,
             "end": 11053,
-            "value": "The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n"
+            "value": "The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n",
+            "raw": "'The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n'"
           }
         ],
         "optional": false
@@ -5249,27 +5549,31 @@
               "type": "Literal",
               "start": 11075,
               "end": 11079,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 11082,
               "end": 11086,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 11088,
             "end": 11092,
-            "value": "9n"
+            "value": "9n",
+            "raw": "0x9n"
           },
           {
             "type": "Literal",
             "start": 11094,
             "end": 11131,
-            "value": "The result of (0x3n * 0x3n) is 0x9n"
+            "value": "The result of (0x3n * 0x3n) is 0x9n",
+            "raw": "'The result of (0x3n * 0x3n) is 0x9n'"
           }
         ],
         "optional": false
@@ -5311,27 +5615,31 @@
               "type": "Literal",
               "start": 11151,
               "end": 11155,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 11158,
               "end": 11162,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 11164,
             "end": 11168,
-            "value": "6n"
+            "value": "6n",
+            "raw": "0x6n"
           },
           {
             "type": "Literal",
             "start": 11170,
             "end": 11207,
-            "value": "The result of (0x3n * 0x2n) is 0x6n"
+            "value": "The result of (0x3n * 0x2n) is 0x6n",
+            "raw": "'The result of (0x3n * 0x2n) is 0x6n'"
           }
         ],
         "optional": false
@@ -5373,27 +5681,31 @@
               "type": "Literal",
               "start": 11227,
               "end": 11231,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 11234,
               "end": 11238,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 11240,
             "end": 11244,
-            "value": "3n"
+            "value": "3n",
+            "raw": "0x3n"
           },
           {
             "type": "Literal",
             "start": 11246,
             "end": 11283,
-            "value": "The result of (0x3n * 0x1n) is 0x3n"
+            "value": "The result of (0x3n * 0x1n) is 0x3n",
+            "raw": "'The result of (0x3n * 0x1n) is 0x3n'"
           }
         ],
         "optional": false
@@ -5435,27 +5747,31 @@
               "type": "Literal",
               "start": 11303,
               "end": 11307,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 11310,
               "end": 11314,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 11316,
             "end": 11320,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 11322,
             "end": 11359,
-            "value": "The result of (0x3n * 0x0n) is 0x0n"
+            "value": "The result of (0x3n * 0x0n) is 0x0n",
+            "raw": "'The result of (0x3n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -5497,7 +5813,8 @@
               "type": "Literal",
               "start": 11379,
               "end": 11383,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5510,7 +5827,8 @@
                 "type": "Literal",
                 "start": 11387,
                 "end": 11391,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -5524,14 +5842,16 @@
               "type": "Literal",
               "start": 11394,
               "end": 11398,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 11400,
             "end": 11439,
-            "value": "The result of (0x3n * -0x1n) is -0x3n"
+            "value": "The result of (0x3n * -0x1n) is -0x3n",
+            "raw": "'The result of (0x3n * -0x1n) is -0x3n'"
           }
         ],
         "optional": false
@@ -5573,7 +5893,8 @@
               "type": "Literal",
               "start": 11459,
               "end": 11463,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5586,7 +5907,8 @@
                 "type": "Literal",
                 "start": 11467,
                 "end": 11471,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -5600,14 +5922,16 @@
               "type": "Literal",
               "start": 11474,
               "end": 11478,
-              "value": "6n"
+              "value": "6n",
+              "raw": "0x6n"
             }
           },
           {
             "type": "Literal",
             "start": 11480,
             "end": 11519,
-            "value": "The result of (0x3n * -0x2n) is -0x6n"
+            "value": "The result of (0x3n * -0x2n) is -0x6n",
+            "raw": "'The result of (0x3n * -0x2n) is -0x6n'"
           }
         ],
         "optional": false
@@ -5649,7 +5973,8 @@
               "type": "Literal",
               "start": 11539,
               "end": 11543,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5662,7 +5987,8 @@
                 "type": "Literal",
                 "start": 11547,
                 "end": 11551,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -5676,14 +6002,16 @@
               "type": "Literal",
               "start": 11554,
               "end": 11558,
-              "value": "9n"
+              "value": "9n",
+              "raw": "0x9n"
             }
           },
           {
             "type": "Literal",
             "start": 11560,
             "end": 11599,
-            "value": "The result of (0x3n * -0x3n) is -0x9n"
+            "value": "The result of (0x3n * -0x3n) is -0x9n",
+            "raw": "'The result of (0x3n * -0x3n) is -0x9n'"
           }
         ],
         "optional": false
@@ -5725,7 +6053,8 @@
               "type": "Literal",
               "start": 11619,
               "end": 11623,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5738,7 +6067,8 @@
                 "type": "Literal",
                 "start": 11627,
                 "end": 11634,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -5752,14 +6082,16 @@
               "type": "Literal",
               "start": 11637,
               "end": 11644,
-              "value": "13980n"
+              "value": "13980n",
+              "raw": "0x369Cn"
             }
           },
           {
             "type": "Literal",
             "start": 11646,
             "end": 11691,
-            "value": "The result of (0x3n * -0x1234n) is -0x369Cn"
+            "value": "The result of (0x3n * -0x1234n) is -0x369Cn",
+            "raw": "'The result of (0x3n * -0x1234n) is -0x369Cn'"
           }
         ],
         "optional": false
@@ -5801,7 +6133,8 @@
               "type": "Literal",
               "start": 11715,
               "end": 11719,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5814,7 +6147,8 @@
                 "type": "Literal",
                 "start": 11723,
                 "end": 11734,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -5828,14 +6162,16 @@
               "type": "Literal",
               "start": 11739,
               "end": 11751,
-              "value": "12827635653n"
+              "value": "12827635653n",
+              "raw": "0x2FC962FC5n"
             }
           },
           {
             "type": "Literal",
             "start": 11755,
             "end": 11809,
-            "value": "The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n"
+            "value": "The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n",
+            "raw": "'The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n'"
           }
         ],
         "optional": false
@@ -5877,7 +6213,8 @@
               "type": "Literal",
               "start": 11834,
               "end": 11838,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5890,7 +6227,8 @@
                 "type": "Literal",
                 "start": 11842,
                 "end": 11853,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -5904,14 +6242,16 @@
               "type": "Literal",
               "start": 11858,
               "end": 11870,
-              "value": "12827635656n"
+              "value": "12827635656n",
+              "raw": "0x2FC962FC8n"
             }
           },
           {
             "type": "Literal",
             "start": 11874,
             "end": 11928,
-            "value": "The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n"
+            "value": "The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n",
+            "raw": "'The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n'"
           }
         ],
         "optional": false
@@ -5953,7 +6293,8 @@
               "type": "Literal",
               "start": 11953,
               "end": 11957,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -5966,7 +6307,8 @@
                 "type": "Literal",
                 "start": 11961,
                 "end": 11980,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -5980,14 +6322,16 @@
               "type": "Literal",
               "start": 11985,
               "end": 12005,
-              "value": "55094275633479194157n"
+              "value": "55094275633479194157n",
+              "raw": "0x2FC962FC962FC962Dn"
             }
           },
           {
             "type": "Literal",
             "start": 12009,
             "end": 12079,
-            "value": "The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn"
+            "value": "The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn",
+            "raw": "'The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn'"
           }
         ],
         "optional": false
@@ -6029,7 +6373,8 @@
               "type": "Literal",
               "start": 12104,
               "end": 12108,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             },
             "operator": "*",
             "right": {
@@ -6042,7 +6387,8 @@
                 "type": "Literal",
                 "start": 12112,
                 "end": 12131,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -6056,14 +6402,16 @@
               "type": "Literal",
               "start": 12136,
               "end": 12156,
-              "value": "55094275633479194160n"
+              "value": "55094275633479194160n",
+              "raw": "0x2FC962FC962FC9630n"
             }
           },
           {
             "type": "Literal",
             "start": 12160,
             "end": 12230,
-            "value": "The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n"
+            "value": "The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n",
+            "raw": "'The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n'"
           }
         ],
         "optional": false
@@ -6105,27 +6453,31 @@
               "type": "Literal",
               "start": 12252,
               "end": 12256,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 12259,
               "end": 12263,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 12265,
             "end": 12269,
-            "value": "4n"
+            "value": "4n",
+            "raw": "0x4n"
           },
           {
             "type": "Literal",
             "start": 12271,
             "end": 12308,
-            "value": "The result of (0x2n * 0x2n) is 0x4n"
+            "value": "The result of (0x2n * 0x2n) is 0x4n",
+            "raw": "'The result of (0x2n * 0x2n) is 0x4n'"
           }
         ],
         "optional": false
@@ -6167,27 +6519,31 @@
               "type": "Literal",
               "start": 12328,
               "end": 12332,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 12335,
               "end": 12339,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 12341,
             "end": 12345,
-            "value": "2n"
+            "value": "2n",
+            "raw": "0x2n"
           },
           {
             "type": "Literal",
             "start": 12347,
             "end": 12384,
-            "value": "The result of (0x2n * 0x1n) is 0x2n"
+            "value": "The result of (0x2n * 0x1n) is 0x2n",
+            "raw": "'The result of (0x2n * 0x1n) is 0x2n'"
           }
         ],
         "optional": false
@@ -6229,27 +6585,31 @@
               "type": "Literal",
               "start": 12404,
               "end": 12408,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 12411,
               "end": 12415,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 12417,
             "end": 12421,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 12423,
             "end": 12460,
-            "value": "The result of (0x2n * 0x0n) is 0x0n"
+            "value": "The result of (0x2n * 0x0n) is 0x0n",
+            "raw": "'The result of (0x2n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -6291,7 +6651,8 @@
               "type": "Literal",
               "start": 12480,
               "end": 12484,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6304,7 +6665,8 @@
                 "type": "Literal",
                 "start": 12488,
                 "end": 12492,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -6318,14 +6680,16 @@
               "type": "Literal",
               "start": 12495,
               "end": 12499,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 12501,
             "end": 12540,
-            "value": "The result of (0x2n * -0x1n) is -0x2n"
+            "value": "The result of (0x2n * -0x1n) is -0x2n",
+            "raw": "'The result of (0x2n * -0x1n) is -0x2n'"
           }
         ],
         "optional": false
@@ -6367,7 +6731,8 @@
               "type": "Literal",
               "start": 12560,
               "end": 12564,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6380,7 +6745,8 @@
                 "type": "Literal",
                 "start": 12568,
                 "end": 12572,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -6394,14 +6760,16 @@
               "type": "Literal",
               "start": 12575,
               "end": 12579,
-              "value": "4n"
+              "value": "4n",
+              "raw": "0x4n"
             }
           },
           {
             "type": "Literal",
             "start": 12581,
             "end": 12620,
-            "value": "The result of (0x2n * -0x2n) is -0x4n"
+            "value": "The result of (0x2n * -0x2n) is -0x4n",
+            "raw": "'The result of (0x2n * -0x2n) is -0x4n'"
           }
         ],
         "optional": false
@@ -6443,7 +6811,8 @@
               "type": "Literal",
               "start": 12640,
               "end": 12644,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6456,7 +6825,8 @@
                 "type": "Literal",
                 "start": 12648,
                 "end": 12652,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -6470,14 +6840,16 @@
               "type": "Literal",
               "start": 12655,
               "end": 12659,
-              "value": "6n"
+              "value": "6n",
+              "raw": "0x6n"
             }
           },
           {
             "type": "Literal",
             "start": 12661,
             "end": 12700,
-            "value": "The result of (0x2n * -0x3n) is -0x6n"
+            "value": "The result of (0x2n * -0x3n) is -0x6n",
+            "raw": "'The result of (0x2n * -0x3n) is -0x6n'"
           }
         ],
         "optional": false
@@ -6519,7 +6891,8 @@
               "type": "Literal",
               "start": 12720,
               "end": 12724,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6532,7 +6905,8 @@
                 "type": "Literal",
                 "start": 12728,
                 "end": 12735,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -6546,14 +6920,16 @@
               "type": "Literal",
               "start": 12738,
               "end": 12745,
-              "value": "9320n"
+              "value": "9320n",
+              "raw": "0x2468n"
             }
           },
           {
             "type": "Literal",
             "start": 12747,
             "end": 12792,
-            "value": "The result of (0x2n * -0x1234n) is -0x2468n"
+            "value": "The result of (0x2n * -0x1234n) is -0x2468n",
+            "raw": "'The result of (0x2n * -0x1234n) is -0x2468n'"
           }
         ],
         "optional": false
@@ -6595,7 +6971,8 @@
               "type": "Literal",
               "start": 12816,
               "end": 12820,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6608,7 +6985,8 @@
                 "type": "Literal",
                 "start": 12824,
                 "end": 12835,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -6622,14 +7000,16 @@
               "type": "Literal",
               "start": 12840,
               "end": 12852,
-              "value": "8551757102n"
+              "value": "8551757102n",
+              "raw": "0x1FDB9752En"
             }
           },
           {
             "type": "Literal",
             "start": 12856,
             "end": 12910,
-            "value": "The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En"
+            "value": "The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En",
+            "raw": "'The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En'"
           }
         ],
         "optional": false
@@ -6671,7 +7051,8 @@
               "type": "Literal",
               "start": 12935,
               "end": 12939,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6684,7 +7065,8 @@
                 "type": "Literal",
                 "start": 12943,
                 "end": 12954,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -6698,14 +7080,16 @@
               "type": "Literal",
               "start": 12959,
               "end": 12971,
-              "value": "8551757104n"
+              "value": "8551757104n",
+              "raw": "0x1FDB97530n"
             }
           },
           {
             "type": "Literal",
             "start": 12975,
             "end": 13029,
-            "value": "The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n"
+            "value": "The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n",
+            "raw": "'The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n'"
           }
         ],
         "optional": false
@@ -6747,7 +7131,8 @@
               "type": "Literal",
               "start": 13054,
               "end": 13058,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6760,7 +7145,8 @@
                 "type": "Literal",
                 "start": 13062,
                 "end": 13081,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -6774,14 +7160,16 @@
               "type": "Literal",
               "start": 13086,
               "end": 13106,
-              "value": "36729517088986129438n"
+              "value": "36729517088986129438n",
+              "raw": "0x1FDB97530ECA8641En"
             }
           },
           {
             "type": "Literal",
             "start": 13110,
             "end": 13180,
-            "value": "The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En"
+            "value": "The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En",
+            "raw": "'The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En'"
           }
         ],
         "optional": false
@@ -6823,7 +7211,8 @@
               "type": "Literal",
               "start": 13205,
               "end": 13209,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             },
             "operator": "*",
             "right": {
@@ -6836,7 +7225,8 @@
                 "type": "Literal",
                 "start": 13213,
                 "end": 13232,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -6850,14 +7240,16 @@
               "type": "Literal",
               "start": 13237,
               "end": 13257,
-              "value": "36729517088986129440n"
+              "value": "36729517088986129440n",
+              "raw": "0x1FDB97530ECA86420n"
             }
           },
           {
             "type": "Literal",
             "start": 13261,
             "end": 13331,
-            "value": "The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n"
+            "value": "The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n",
+            "raw": "'The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n'"
           }
         ],
         "optional": false
@@ -6899,27 +7291,31 @@
               "type": "Literal",
               "start": 13353,
               "end": 13357,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 13360,
               "end": 13364,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 13366,
             "end": 13370,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0x1n"
           },
           {
             "type": "Literal",
             "start": 13372,
             "end": 13409,
-            "value": "The result of (0x1n * 0x1n) is 0x1n"
+            "value": "The result of (0x1n * 0x1n) is 0x1n",
+            "raw": "'The result of (0x1n * 0x1n) is 0x1n'"
           }
         ],
         "optional": false
@@ -6961,27 +7357,31 @@
               "type": "Literal",
               "start": 13429,
               "end": 13433,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 13436,
               "end": 13440,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 13442,
             "end": 13446,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 13448,
             "end": 13485,
-            "value": "The result of (0x1n * 0x0n) is 0x0n"
+            "value": "The result of (0x1n * 0x0n) is 0x0n",
+            "raw": "'The result of (0x1n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7023,7 +7423,8 @@
               "type": "Literal",
               "start": 13505,
               "end": 13509,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7036,7 +7437,8 @@
                 "type": "Literal",
                 "start": 13513,
                 "end": 13517,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -7050,14 +7452,16 @@
               "type": "Literal",
               "start": 13520,
               "end": 13524,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             }
           },
           {
             "type": "Literal",
             "start": 13526,
             "end": 13565,
-            "value": "The result of (0x1n * -0x1n) is -0x1n"
+            "value": "The result of (0x1n * -0x1n) is -0x1n",
+            "raw": "'The result of (0x1n * -0x1n) is -0x1n'"
           }
         ],
         "optional": false
@@ -7099,7 +7503,8 @@
               "type": "Literal",
               "start": 13585,
               "end": 13589,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7112,7 +7517,8 @@
                 "type": "Literal",
                 "start": 13593,
                 "end": 13597,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -7126,14 +7532,16 @@
               "type": "Literal",
               "start": 13600,
               "end": 13604,
-              "value": "2n"
+              "value": "2n",
+              "raw": "0x2n"
             }
           },
           {
             "type": "Literal",
             "start": 13606,
             "end": 13645,
-            "value": "The result of (0x1n * -0x2n) is -0x2n"
+            "value": "The result of (0x1n * -0x2n) is -0x2n",
+            "raw": "'The result of (0x1n * -0x2n) is -0x2n'"
           }
         ],
         "optional": false
@@ -7175,7 +7583,8 @@
               "type": "Literal",
               "start": 13665,
               "end": 13669,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7188,7 +7597,8 @@
                 "type": "Literal",
                 "start": 13673,
                 "end": 13677,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -7202,14 +7612,16 @@
               "type": "Literal",
               "start": 13680,
               "end": 13684,
-              "value": "3n"
+              "value": "3n",
+              "raw": "0x3n"
             }
           },
           {
             "type": "Literal",
             "start": 13686,
             "end": 13725,
-            "value": "The result of (0x1n * -0x3n) is -0x3n"
+            "value": "The result of (0x1n * -0x3n) is -0x3n",
+            "raw": "'The result of (0x1n * -0x3n) is -0x3n'"
           }
         ],
         "optional": false
@@ -7251,7 +7663,8 @@
               "type": "Literal",
               "start": 13745,
               "end": 13749,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7264,7 +7677,8 @@
                 "type": "Literal",
                 "start": 13753,
                 "end": 13760,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -7278,14 +7692,16 @@
               "type": "Literal",
               "start": 13763,
               "end": 13770,
-              "value": "4660n"
+              "value": "4660n",
+              "raw": "0x1234n"
             }
           },
           {
             "type": "Literal",
             "start": 13772,
             "end": 13817,
-            "value": "The result of (0x1n * -0x1234n) is -0x1234n"
+            "value": "The result of (0x1n * -0x1234n) is -0x1234n",
+            "raw": "'The result of (0x1n * -0x1234n) is -0x1234n'"
           }
         ],
         "optional": false
@@ -7327,7 +7743,8 @@
               "type": "Literal",
               "start": 13841,
               "end": 13845,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7340,7 +7757,8 @@
                 "type": "Literal",
                 "start": 13849,
                 "end": 13860,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -7354,14 +7772,16 @@
               "type": "Literal",
               "start": 13865,
               "end": 13876,
-              "value": "4275878551n"
+              "value": "4275878551n",
+              "raw": "0xFEDCBA97n"
             }
           },
           {
             "type": "Literal",
             "start": 13880,
             "end": 13933,
-            "value": "The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n"
+            "value": "The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n",
+            "raw": "'The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n'"
           }
         ],
         "optional": false
@@ -7403,7 +7823,8 @@
               "type": "Literal",
               "start": 13958,
               "end": 13962,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7416,7 +7837,8 @@
                 "type": "Literal",
                 "start": 13966,
                 "end": 13977,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -7430,14 +7852,16 @@
               "type": "Literal",
               "start": 13982,
               "end": 13993,
-              "value": "4275878552n"
+              "value": "4275878552n",
+              "raw": "0xFEDCBA98n"
             }
           },
           {
             "type": "Literal",
             "start": 13997,
             "end": 14050,
-            "value": "The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n"
+            "value": "The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n",
+            "raw": "'The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n'"
           }
         ],
         "optional": false
@@ -7479,7 +7903,8 @@
               "type": "Literal",
               "start": 14075,
               "end": 14079,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7492,7 +7917,8 @@
                 "type": "Literal",
                 "start": 14083,
                 "end": 14102,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -7506,14 +7932,16 @@
               "type": "Literal",
               "start": 14107,
               "end": 14126,
-              "value": "18364758544493064719n"
+              "value": "18364758544493064719n",
+              "raw": "0xFEDCBA987654320Fn"
             }
           },
           {
             "type": "Literal",
             "start": 14130,
             "end": 14199,
-            "value": "The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn"
+            "value": "The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn",
+            "raw": "'The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn'"
           }
         ],
         "optional": false
@@ -7555,7 +7983,8 @@
               "type": "Literal",
               "start": 14224,
               "end": 14228,
-              "value": "1n"
+              "value": "1n",
+              "raw": "0x1n"
             },
             "operator": "*",
             "right": {
@@ -7568,7 +7997,8 @@
                 "type": "Literal",
                 "start": 14232,
                 "end": 14251,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -7582,14 +8012,16 @@
               "type": "Literal",
               "start": 14256,
               "end": 14275,
-              "value": "18364758544493064720n"
+              "value": "18364758544493064720n",
+              "raw": "0xFEDCBA9876543210n"
             }
           },
           {
             "type": "Literal",
             "start": 14279,
             "end": 14348,
-            "value": "The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n"
+            "value": "The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n",
+            "raw": "'The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n'"
           }
         ],
         "optional": false
@@ -7631,27 +8063,31 @@
               "type": "Literal",
               "start": 14370,
               "end": 14374,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
               "type": "Literal",
               "start": 14377,
               "end": 14381,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             }
           },
           {
             "type": "Literal",
             "start": 14383,
             "end": 14387,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14389,
             "end": 14426,
-            "value": "The result of (0x0n * 0x0n) is 0x0n"
+            "value": "The result of (0x0n * 0x0n) is 0x0n",
+            "raw": "'The result of (0x0n * 0x0n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7693,7 +8129,8 @@
               "type": "Literal",
               "start": 14446,
               "end": 14450,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -7706,7 +8143,8 @@
                 "type": "Literal",
                 "start": 14454,
                 "end": 14458,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -7714,13 +8152,15 @@
             "type": "Literal",
             "start": 14460,
             "end": 14464,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14466,
             "end": 14504,
-            "value": "The result of (0x0n * -0x1n) is 0x0n"
+            "value": "The result of (0x0n * -0x1n) is 0x0n",
+            "raw": "'The result of (0x0n * -0x1n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7762,7 +8202,8 @@
               "type": "Literal",
               "start": 14524,
               "end": 14528,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -7775,7 +8216,8 @@
                 "type": "Literal",
                 "start": 14532,
                 "end": 14536,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -7783,13 +8225,15 @@
             "type": "Literal",
             "start": 14538,
             "end": 14542,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14544,
             "end": 14582,
-            "value": "The result of (0x0n * -0x2n) is 0x0n"
+            "value": "The result of (0x0n * -0x2n) is 0x0n",
+            "raw": "'The result of (0x0n * -0x2n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7831,7 +8275,8 @@
               "type": "Literal",
               "start": 14602,
               "end": 14606,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -7844,7 +8289,8 @@
                 "type": "Literal",
                 "start": 14610,
                 "end": 14614,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -7852,13 +8298,15 @@
             "type": "Literal",
             "start": 14616,
             "end": 14620,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14622,
             "end": 14660,
-            "value": "The result of (0x0n * -0x3n) is 0x0n"
+            "value": "The result of (0x0n * -0x3n) is 0x0n",
+            "raw": "'The result of (0x0n * -0x3n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7900,7 +8348,8 @@
               "type": "Literal",
               "start": 14680,
               "end": 14684,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -7913,7 +8362,8 @@
                 "type": "Literal",
                 "start": 14688,
                 "end": 14695,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -7921,13 +8371,15 @@
             "type": "Literal",
             "start": 14697,
             "end": 14701,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14703,
             "end": 14744,
-            "value": "The result of (0x0n * -0x1234n) is 0x0n"
+            "value": "The result of (0x0n * -0x1234n) is 0x0n",
+            "raw": "'The result of (0x0n * -0x1234n) is 0x0n'"
           }
         ],
         "optional": false
@@ -7969,7 +8421,8 @@
               "type": "Literal",
               "start": 14764,
               "end": 14768,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -7982,7 +8435,8 @@
                 "type": "Literal",
                 "start": 14772,
                 "end": 14783,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -7990,13 +8444,15 @@
             "type": "Literal",
             "start": 14785,
             "end": 14789,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14791,
             "end": 14836,
-            "value": "The result of (0x0n * -0xFEDCBA97n) is 0x0n"
+            "value": "The result of (0x0n * -0xFEDCBA97n) is 0x0n",
+            "raw": "'The result of (0x0n * -0xFEDCBA97n) is 0x0n'"
           }
         ],
         "optional": false
@@ -8038,7 +8494,8 @@
               "type": "Literal",
               "start": 14856,
               "end": 14860,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -8051,7 +8508,8 @@
                 "type": "Literal",
                 "start": 14864,
                 "end": 14875,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -8059,13 +8517,15 @@
             "type": "Literal",
             "start": 14877,
             "end": 14881,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14883,
             "end": 14928,
-            "value": "The result of (0x0n * -0xFEDCBA98n) is 0x0n"
+            "value": "The result of (0x0n * -0xFEDCBA98n) is 0x0n",
+            "raw": "'The result of (0x0n * -0xFEDCBA98n) is 0x0n'"
           }
         ],
         "optional": false
@@ -8107,7 +8567,8 @@
               "type": "Literal",
               "start": 14952,
               "end": 14956,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -8120,7 +8581,8 @@
                 "type": "Literal",
                 "start": 14960,
                 "end": 14979,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -8128,13 +8590,15 @@
             "type": "Literal",
             "start": 14983,
             "end": 14987,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 14991,
             "end": 15044,
-            "value": "The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n"
+            "value": "The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n",
+            "raw": "'The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n'"
           }
         ],
         "optional": false
@@ -8176,7 +8640,8 @@
               "type": "Literal",
               "start": 15069,
               "end": 15073,
-              "value": "0n"
+              "value": "0n",
+              "raw": "0x0n"
             },
             "operator": "*",
             "right": {
@@ -8189,7 +8654,8 @@
                 "type": "Literal",
                 "start": 15077,
                 "end": 15096,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -8197,13 +8663,15 @@
             "type": "Literal",
             "start": 15100,
             "end": 15104,
-            "value": "0n"
+            "value": "0n",
+            "raw": "0x0n"
           },
           {
             "type": "Literal",
             "start": 15108,
             "end": 15161,
-            "value": "The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n"
+            "value": "The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n",
+            "raw": "'The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n'"
           }
         ],
         "optional": false
@@ -8251,7 +8719,8 @@
                 "type": "Literal",
                 "start": 15184,
                 "end": 15188,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8265,7 +8734,8 @@
                 "type": "Literal",
                 "start": 15192,
                 "end": 15196,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             }
           },
@@ -8273,13 +8743,15 @@
             "type": "Literal",
             "start": 15198,
             "end": 15202,
-            "value": "1n"
+            "value": "1n",
+            "raw": "0x1n"
           },
           {
             "type": "Literal",
             "start": 15204,
             "end": 15243,
-            "value": "The result of (-0x1n * -0x1n) is 0x1n"
+            "value": "The result of (-0x1n * -0x1n) is 0x1n",
+            "raw": "'The result of (-0x1n * -0x1n) is 0x1n'"
           }
         ],
         "optional": false
@@ -8327,7 +8799,8 @@
                 "type": "Literal",
                 "start": 15264,
                 "end": 15268,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8341,7 +8814,8 @@
                 "type": "Literal",
                 "start": 15272,
                 "end": 15276,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -8349,13 +8823,15 @@
             "type": "Literal",
             "start": 15278,
             "end": 15282,
-            "value": "2n"
+            "value": "2n",
+            "raw": "0x2n"
           },
           {
             "type": "Literal",
             "start": 15284,
             "end": 15323,
-            "value": "The result of (-0x1n * -0x2n) is 0x2n"
+            "value": "The result of (-0x1n * -0x2n) is 0x2n",
+            "raw": "'The result of (-0x1n * -0x2n) is 0x2n'"
           }
         ],
         "optional": false
@@ -8403,7 +8879,8 @@
                 "type": "Literal",
                 "start": 15344,
                 "end": 15348,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8417,7 +8894,8 @@
                 "type": "Literal",
                 "start": 15352,
                 "end": 15356,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -8425,13 +8903,15 @@
             "type": "Literal",
             "start": 15358,
             "end": 15362,
-            "value": "3n"
+            "value": "3n",
+            "raw": "0x3n"
           },
           {
             "type": "Literal",
             "start": 15364,
             "end": 15403,
-            "value": "The result of (-0x1n * -0x3n) is 0x3n"
+            "value": "The result of (-0x1n * -0x3n) is 0x3n",
+            "raw": "'The result of (-0x1n * -0x3n) is 0x3n'"
           }
         ],
         "optional": false
@@ -8479,7 +8959,8 @@
                 "type": "Literal",
                 "start": 15424,
                 "end": 15428,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8493,7 +8974,8 @@
                 "type": "Literal",
                 "start": 15432,
                 "end": 15439,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -8501,13 +8983,15 @@
             "type": "Literal",
             "start": 15441,
             "end": 15448,
-            "value": "4660n"
+            "value": "4660n",
+            "raw": "0x1234n"
           },
           {
             "type": "Literal",
             "start": 15450,
             "end": 15495,
-            "value": "The result of (-0x1n * -0x1234n) is 0x1234n"
+            "value": "The result of (-0x1n * -0x1234n) is 0x1234n",
+            "raw": "'The result of (-0x1n * -0x1234n) is 0x1234n'"
           }
         ],
         "optional": false
@@ -8555,7 +9039,8 @@
                 "type": "Literal",
                 "start": 15520,
                 "end": 15524,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8569,7 +9054,8 @@
                 "type": "Literal",
                 "start": 15528,
                 "end": 15539,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -8577,13 +9063,15 @@
             "type": "Literal",
             "start": 15543,
             "end": 15554,
-            "value": "4275878551n"
+            "value": "4275878551n",
+            "raw": "0xFEDCBA97n"
           },
           {
             "type": "Literal",
             "start": 15558,
             "end": 15611,
-            "value": "The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n"
+            "value": "The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n",
+            "raw": "'The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n'"
           }
         ],
         "optional": false
@@ -8631,7 +9119,8 @@
                 "type": "Literal",
                 "start": 15637,
                 "end": 15641,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8645,7 +9134,8 @@
                 "type": "Literal",
                 "start": 15645,
                 "end": 15656,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -8653,13 +9143,15 @@
             "type": "Literal",
             "start": 15660,
             "end": 15671,
-            "value": "4275878552n"
+            "value": "4275878552n",
+            "raw": "0xFEDCBA98n"
           },
           {
             "type": "Literal",
             "start": 15675,
             "end": 15728,
-            "value": "The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n"
+            "value": "The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n",
+            "raw": "'The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n'"
           }
         ],
         "optional": false
@@ -8707,7 +9199,8 @@
                 "type": "Literal",
                 "start": 15754,
                 "end": 15758,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8721,7 +9214,8 @@
                 "type": "Literal",
                 "start": 15762,
                 "end": 15781,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -8729,13 +9223,15 @@
             "type": "Literal",
             "start": 15785,
             "end": 15804,
-            "value": "18364758544493064719n"
+            "value": "18364758544493064719n",
+            "raw": "0xFEDCBA987654320Fn"
           },
           {
             "type": "Literal",
             "start": 15808,
             "end": 15877,
-            "value": "The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn"
+            "value": "The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn",
+            "raw": "'The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn'"
           }
         ],
         "optional": false
@@ -8783,7 +9279,8 @@
                 "type": "Literal",
                 "start": 15903,
                 "end": 15907,
-                "value": "1n"
+                "value": "1n",
+                "raw": "0x1n"
               }
             },
             "operator": "*",
@@ -8797,7 +9294,8 @@
                 "type": "Literal",
                 "start": 15911,
                 "end": 15930,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -8805,13 +9303,15 @@
             "type": "Literal",
             "start": 15934,
             "end": 15953,
-            "value": "18364758544493064720n"
+            "value": "18364758544493064720n",
+            "raw": "0xFEDCBA9876543210n"
           },
           {
             "type": "Literal",
             "start": 15957,
             "end": 16026,
-            "value": "The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n"
+            "value": "The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n",
+            "raw": "'The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n'"
           }
         ],
         "optional": false
@@ -8859,7 +9359,8 @@
                 "type": "Literal",
                 "start": 16049,
                 "end": 16053,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -8873,7 +9374,8 @@
                 "type": "Literal",
                 "start": 16057,
                 "end": 16061,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             }
           },
@@ -8881,13 +9383,15 @@
             "type": "Literal",
             "start": 16063,
             "end": 16067,
-            "value": "4n"
+            "value": "4n",
+            "raw": "0x4n"
           },
           {
             "type": "Literal",
             "start": 16069,
             "end": 16108,
-            "value": "The result of (-0x2n * -0x2n) is 0x4n"
+            "value": "The result of (-0x2n * -0x2n) is 0x4n",
+            "raw": "'The result of (-0x2n * -0x2n) is 0x4n'"
           }
         ],
         "optional": false
@@ -8935,7 +9439,8 @@
                 "type": "Literal",
                 "start": 16129,
                 "end": 16133,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -8949,7 +9454,8 @@
                 "type": "Literal",
                 "start": 16137,
                 "end": 16141,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -8957,13 +9463,15 @@
             "type": "Literal",
             "start": 16143,
             "end": 16147,
-            "value": "6n"
+            "value": "6n",
+            "raw": "0x6n"
           },
           {
             "type": "Literal",
             "start": 16149,
             "end": 16188,
-            "value": "The result of (-0x2n * -0x3n) is 0x6n"
+            "value": "The result of (-0x2n * -0x3n) is 0x6n",
+            "raw": "'The result of (-0x2n * -0x3n) is 0x6n'"
           }
         ],
         "optional": false
@@ -9011,7 +9519,8 @@
                 "type": "Literal",
                 "start": 16209,
                 "end": 16213,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -9025,7 +9534,8 @@
                 "type": "Literal",
                 "start": 16217,
                 "end": 16224,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -9033,13 +9543,15 @@
             "type": "Literal",
             "start": 16226,
             "end": 16233,
-            "value": "9320n"
+            "value": "9320n",
+            "raw": "0x2468n"
           },
           {
             "type": "Literal",
             "start": 16235,
             "end": 16280,
-            "value": "The result of (-0x2n * -0x1234n) is 0x2468n"
+            "value": "The result of (-0x2n * -0x1234n) is 0x2468n",
+            "raw": "'The result of (-0x2n * -0x1234n) is 0x2468n'"
           }
         ],
         "optional": false
@@ -9087,7 +9599,8 @@
                 "type": "Literal",
                 "start": 16305,
                 "end": 16309,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -9101,7 +9614,8 @@
                 "type": "Literal",
                 "start": 16313,
                 "end": 16324,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -9109,13 +9623,15 @@
             "type": "Literal",
             "start": 16328,
             "end": 16340,
-            "value": "8551757102n"
+            "value": "8551757102n",
+            "raw": "0x1FDB9752En"
           },
           {
             "type": "Literal",
             "start": 16344,
             "end": 16398,
-            "value": "The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En"
+            "value": "The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En",
+            "raw": "'The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En'"
           }
         ],
         "optional": false
@@ -9163,7 +9679,8 @@
                 "type": "Literal",
                 "start": 16424,
                 "end": 16428,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -9177,7 +9694,8 @@
                 "type": "Literal",
                 "start": 16432,
                 "end": 16443,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -9185,13 +9703,15 @@
             "type": "Literal",
             "start": 16447,
             "end": 16459,
-            "value": "8551757104n"
+            "value": "8551757104n",
+            "raw": "0x1FDB97530n"
           },
           {
             "type": "Literal",
             "start": 16463,
             "end": 16517,
-            "value": "The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n"
+            "value": "The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n",
+            "raw": "'The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n'"
           }
         ],
         "optional": false
@@ -9239,7 +9759,8 @@
                 "type": "Literal",
                 "start": 16543,
                 "end": 16547,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -9253,7 +9774,8 @@
                 "type": "Literal",
                 "start": 16551,
                 "end": 16570,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -9261,13 +9783,15 @@
             "type": "Literal",
             "start": 16574,
             "end": 16594,
-            "value": "36729517088986129438n"
+            "value": "36729517088986129438n",
+            "raw": "0x1FDB97530ECA8641En"
           },
           {
             "type": "Literal",
             "start": 16598,
             "end": 16668,
-            "value": "The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En"
+            "value": "The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En",
+            "raw": "'The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En'"
           }
         ],
         "optional": false
@@ -9315,7 +9839,8 @@
                 "type": "Literal",
                 "start": 16694,
                 "end": 16698,
-                "value": "2n"
+                "value": "2n",
+                "raw": "0x2n"
               }
             },
             "operator": "*",
@@ -9329,7 +9854,8 @@
                 "type": "Literal",
                 "start": 16702,
                 "end": 16721,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -9337,13 +9863,15 @@
             "type": "Literal",
             "start": 16725,
             "end": 16745,
-            "value": "36729517088986129440n"
+            "value": "36729517088986129440n",
+            "raw": "0x1FDB97530ECA86420n"
           },
           {
             "type": "Literal",
             "start": 16749,
             "end": 16819,
-            "value": "The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n"
+            "value": "The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n",
+            "raw": "'The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n'"
           }
         ],
         "optional": false
@@ -9391,7 +9919,8 @@
                 "type": "Literal",
                 "start": 16842,
                 "end": 16846,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9405,7 +9934,8 @@
                 "type": "Literal",
                 "start": 16850,
                 "end": 16854,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             }
           },
@@ -9413,13 +9943,15 @@
             "type": "Literal",
             "start": 16856,
             "end": 16860,
-            "value": "9n"
+            "value": "9n",
+            "raw": "0x9n"
           },
           {
             "type": "Literal",
             "start": 16862,
             "end": 16901,
-            "value": "The result of (-0x3n * -0x3n) is 0x9n"
+            "value": "The result of (-0x3n * -0x3n) is 0x9n",
+            "raw": "'The result of (-0x3n * -0x3n) is 0x9n'"
           }
         ],
         "optional": false
@@ -9467,7 +9999,8 @@
                 "type": "Literal",
                 "start": 16922,
                 "end": 16926,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9481,7 +10014,8 @@
                 "type": "Literal",
                 "start": 16930,
                 "end": 16937,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -9489,13 +10023,15 @@
             "type": "Literal",
             "start": 16939,
             "end": 16946,
-            "value": "13980n"
+            "value": "13980n",
+            "raw": "0x369Cn"
           },
           {
             "type": "Literal",
             "start": 16948,
             "end": 16993,
-            "value": "The result of (-0x3n * -0x1234n) is 0x369Cn"
+            "value": "The result of (-0x3n * -0x1234n) is 0x369Cn",
+            "raw": "'The result of (-0x3n * -0x1234n) is 0x369Cn'"
           }
         ],
         "optional": false
@@ -9543,7 +10079,8 @@
                 "type": "Literal",
                 "start": 17018,
                 "end": 17022,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9557,7 +10094,8 @@
                 "type": "Literal",
                 "start": 17026,
                 "end": 17037,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -9565,13 +10103,15 @@
             "type": "Literal",
             "start": 17041,
             "end": 17053,
-            "value": "12827635653n"
+            "value": "12827635653n",
+            "raw": "0x2FC962FC5n"
           },
           {
             "type": "Literal",
             "start": 17057,
             "end": 17111,
-            "value": "The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n"
+            "value": "The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n",
+            "raw": "'The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n'"
           }
         ],
         "optional": false
@@ -9619,7 +10159,8 @@
                 "type": "Literal",
                 "start": 17137,
                 "end": 17141,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9633,7 +10174,8 @@
                 "type": "Literal",
                 "start": 17145,
                 "end": 17156,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -9641,13 +10183,15 @@
             "type": "Literal",
             "start": 17160,
             "end": 17172,
-            "value": "12827635656n"
+            "value": "12827635656n",
+            "raw": "0x2FC962FC8n"
           },
           {
             "type": "Literal",
             "start": 17176,
             "end": 17230,
-            "value": "The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n"
+            "value": "The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n",
+            "raw": "'The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n'"
           }
         ],
         "optional": false
@@ -9695,7 +10239,8 @@
                 "type": "Literal",
                 "start": 17256,
                 "end": 17260,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9709,7 +10254,8 @@
                 "type": "Literal",
                 "start": 17264,
                 "end": 17283,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -9717,13 +10263,15 @@
             "type": "Literal",
             "start": 17287,
             "end": 17307,
-            "value": "55094275633479194157n"
+            "value": "55094275633479194157n",
+            "raw": "0x2FC962FC962FC962Dn"
           },
           {
             "type": "Literal",
             "start": 17311,
             "end": 17381,
-            "value": "The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn"
+            "value": "The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn",
+            "raw": "'The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn'"
           }
         ],
         "optional": false
@@ -9771,7 +10319,8 @@
                 "type": "Literal",
                 "start": 17407,
                 "end": 17411,
-                "value": "3n"
+                "value": "3n",
+                "raw": "0x3n"
               }
             },
             "operator": "*",
@@ -9785,7 +10334,8 @@
                 "type": "Literal",
                 "start": 17415,
                 "end": 17434,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -9793,13 +10343,15 @@
             "type": "Literal",
             "start": 17438,
             "end": 17458,
-            "value": "55094275633479194160n"
+            "value": "55094275633479194160n",
+            "raw": "0x2FC962FC962FC9630n"
           },
           {
             "type": "Literal",
             "start": 17462,
             "end": 17532,
-            "value": "The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n"
+            "value": "The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n",
+            "raw": "'The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n'"
           }
         ],
         "optional": false
@@ -9847,7 +10399,8 @@
                 "type": "Literal",
                 "start": 17558,
                 "end": 17565,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             },
             "operator": "*",
@@ -9861,7 +10414,8 @@
                 "type": "Literal",
                 "start": 17569,
                 "end": 17576,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             }
           },
@@ -9869,13 +10423,15 @@
             "type": "Literal",
             "start": 17580,
             "end": 17590,
-            "value": "21715600n"
+            "value": "21715600n",
+            "raw": "0x14B5A90n"
           },
           {
             "type": "Literal",
             "start": 17594,
             "end": 17645,
-            "value": "The result of (-0x1234n * -0x1234n) is 0x14B5A90n"
+            "value": "The result of (-0x1234n * -0x1234n) is 0x14B5A90n",
+            "raw": "'The result of (-0x1234n * -0x1234n) is 0x14B5A90n'"
           }
         ],
         "optional": false
@@ -9923,7 +10479,8 @@
                 "type": "Literal",
                 "start": 17671,
                 "end": 17678,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             },
             "operator": "*",
@@ -9937,7 +10494,8 @@
                 "type": "Literal",
                 "start": 17682,
                 "end": 17693,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -9945,13 +10503,15 @@
             "type": "Literal",
             "start": 17697,
             "end": 17712,
-            "value": "19925594047660n"
+            "value": "19925594047660n",
+            "raw": "0x121F49F484ACn"
           },
           {
             "type": "Literal",
             "start": 17716,
             "end": 17776,
-            "value": "The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn"
+            "value": "The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn",
+            "raw": "'The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn'"
           }
         ],
         "optional": false
@@ -9999,7 +10559,8 @@
                 "type": "Literal",
                 "start": 17802,
                 "end": 17809,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             },
             "operator": "*",
@@ -10013,7 +10574,8 @@
                 "type": "Literal",
                 "start": 17813,
                 "end": 17824,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -10021,13 +10583,15 @@
             "type": "Literal",
             "start": 17828,
             "end": 17843,
-            "value": "19925594052320n"
+            "value": "19925594052320n",
+            "raw": "0x121F49F496E0n"
           },
           {
             "type": "Literal",
             "start": 17847,
             "end": 17907,
-            "value": "The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n"
+            "value": "The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n",
+            "raw": "'The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n'"
           }
         ],
         "optional": false
@@ -10075,7 +10639,8 @@
                 "type": "Literal",
                 "start": 17933,
                 "end": 17940,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             },
             "operator": "*",
@@ -10089,7 +10654,8 @@
                 "type": "Literal",
                 "start": 17944,
                 "end": 17963,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -10097,13 +10663,15 @@
             "type": "Literal",
             "start": 17967,
             "end": 17990,
-            "value": "85579774817337681590540n"
+            "value": "85579774817337681590540n",
+            "raw": "0x121F49F49F49F49F390Cn"
           },
           {
             "type": "Literal",
             "start": 17994,
             "end": 18070,
-            "value": "The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn"
+            "value": "The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn",
+            "raw": "'The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn'"
           }
         ],
         "optional": false
@@ -10151,7 +10719,8 @@
                 "type": "Literal",
                 "start": 18096,
                 "end": 18103,
-                "value": "4660n"
+                "value": "4660n",
+                "raw": "0x1234n"
               }
             },
             "operator": "*",
@@ -10165,7 +10734,8 @@
                 "type": "Literal",
                 "start": 18107,
                 "end": 18126,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -10173,13 +10743,15 @@
             "type": "Literal",
             "start": 18130,
             "end": 18153,
-            "value": "85579774817337681595200n"
+            "value": "85579774817337681595200n",
+            "raw": "0x121F49F49F49F49F4B40n"
           },
           {
             "type": "Literal",
             "start": 18157,
             "end": 18233,
-            "value": "The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n"
+            "value": "The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n",
+            "raw": "'The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n'"
           }
         ],
         "optional": false
@@ -10227,7 +10799,8 @@
                 "type": "Literal",
                 "start": 18259,
                 "end": 18270,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             },
             "operator": "*",
@@ -10241,7 +10814,8 @@
                 "type": "Literal",
                 "start": 18274,
                 "end": 18285,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             }
           },
@@ -10249,13 +10823,15 @@
             "type": "Literal",
             "start": 18289,
             "end": 18308,
-            "value": "18283137382901859601n"
+            "value": "18283137382901859601n",
+            "raw": "0xFDBAC094DF87C511n"
           },
           {
             "type": "Literal",
             "start": 18312,
             "end": 18380,
-            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n"
+            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n",
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n'"
           }
         ],
         "optional": false
@@ -10303,7 +10879,8 @@
                 "type": "Literal",
                 "start": 18406,
                 "end": 18417,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             },
             "operator": "*",
@@ -10317,7 +10894,8 @@
                 "type": "Literal",
                 "start": 18421,
                 "end": 18432,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -10325,13 +10903,15 @@
             "type": "Literal",
             "start": 18436,
             "end": 18455,
-            "value": "18283137387177738152n"
+            "value": "18283137387177738152n",
+            "raw": "0xFDBAC095DE647FA8n"
           },
           {
             "type": "Literal",
             "start": 18459,
             "end": 18527,
-            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n"
+            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n",
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n'"
           }
         ],
         "optional": false
@@ -10379,7 +10959,8 @@
                 "type": "Literal",
                 "start": 18553,
                 "end": 18564,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             },
             "operator": "*",
@@ -10393,7 +10974,8 @@
                 "type": "Literal",
                 "start": 18568,
                 "end": 18587,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -10401,13 +10983,15 @@
             "type": "Literal",
             "start": 18591,
             "end": 18618,
-            "value": "78525477154691874600226942169n"
+            "value": "78525477154691874600226942169n",
+            "raw": "0xFDBAC09654320FECDEEC6CD9n"
           },
           {
             "type": "Literal",
             "start": 18622,
             "end": 18706,
-            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n"
+            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n",
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n'"
           }
         ],
         "optional": false
@@ -10455,7 +11039,8 @@
                 "type": "Literal",
                 "start": 18732,
                 "end": 18743,
-                "value": "4275878551n"
+                "value": "4275878551n",
+                "raw": "0xFEDCBA97n"
               }
             },
             "operator": "*",
@@ -10469,7 +11054,8 @@
                 "type": "Literal",
                 "start": 18747,
                 "end": 18766,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -10477,13 +11063,15 @@
             "type": "Literal",
             "start": 18770,
             "end": 18797,
-            "value": "78525477154691874604502820720n"
+            "value": "78525477154691874604502820720n",
+            "raw": "0xFDBAC09654320FEDDDC92770n"
           },
           {
             "type": "Literal",
             "start": 18801,
             "end": 18885,
-            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n"
+            "value": "The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n",
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n'"
           }
         ],
         "optional": false
@@ -10531,7 +11119,8 @@
                 "type": "Literal",
                 "start": 18911,
                 "end": 18922,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             },
             "operator": "*",
@@ -10545,7 +11134,8 @@
                 "type": "Literal",
                 "start": 18926,
                 "end": 18937,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             }
           },
@@ -10553,13 +11143,15 @@
             "type": "Literal",
             "start": 18941,
             "end": 18960,
-            "value": "18283137391453616704n"
+            "value": "18283137391453616704n",
+            "raw": "0xFDBAC096DD413A40n"
           },
           {
             "type": "Literal",
             "start": 18964,
             "end": 19032,
-            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n"
+            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n",
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n'"
           }
         ],
         "optional": false
@@ -10607,7 +11199,8 @@
                 "type": "Literal",
                 "start": 19058,
                 "end": 19069,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             },
             "operator": "*",
@@ -10621,7 +11214,8 @@
                 "type": "Literal",
                 "start": 19073,
                 "end": 19092,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -10629,13 +11223,15 @@
             "type": "Literal",
             "start": 19096,
             "end": 19123,
-            "value": "78525477173056633144720006888n"
+            "value": "78525477173056633144720006888n",
+            "raw": "0xFDBAC097530ECA8555409EE8n"
           },
           {
             "type": "Literal",
             "start": 19127,
             "end": 19211,
-            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n"
+            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n",
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n'"
           }
         ],
         "optional": false
@@ -10683,7 +11279,8 @@
                 "type": "Literal",
                 "start": 19237,
                 "end": 19248,
-                "value": "4275878552n"
+                "value": "4275878552n",
+                "raw": "0xFEDCBA98n"
               }
             },
             "operator": "*",
@@ -10697,7 +11294,8 @@
                 "type": "Literal",
                 "start": 19252,
                 "end": 19271,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -10705,13 +11303,15 @@
             "type": "Literal",
             "start": 19275,
             "end": 19302,
-            "value": "78525477173056633148995885440n"
+            "value": "78525477173056633148995885440n",
+            "raw": "0xFDBAC097530ECA86541D5980n"
           },
           {
             "type": "Literal",
             "start": 19306,
             "end": 19390,
-            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n"
+            "value": "The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n",
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n'"
           }
         ],
         "optional": false
@@ -10759,7 +11359,8 @@
                 "type": "Literal",
                 "start": 19416,
                 "end": 19435,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             },
             "operator": "*",
@@ -10773,7 +11374,8 @@
                 "type": "Literal",
                 "start": 19439,
                 "end": 19458,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             }
           },
@@ -10781,13 +11383,15 @@
             "type": "Literal",
             "start": 19462,
             "end": 19497,
-            "value": "337264356397531028958243531089122548961n"
+            "value": "337264356397531028958243531089122548961n",
+            "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
           },
           {
             "type": "Literal",
             "start": 19501,
             "end": 19601,
-            "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n"
+            "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
           }
         ],
         "optional": false
@@ -10835,7 +11439,8 @@
                 "type": "Literal",
                 "start": 19627,
                 "end": 19646,
-                "value": "18364758544493064719n"
+                "value": "18364758544493064719n",
+                "raw": "0xFEDCBA987654320Fn"
               }
             },
             "operator": "*",
@@ -10849,7 +11454,8 @@
                 "type": "Literal",
                 "start": 19650,
                 "end": 19669,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -10857,13 +11463,15 @@
             "type": "Literal",
             "start": 19673,
             "end": 19708,
-            "value": "337264356397531028976608289633615613680n"
+            "value": "337264356397531028976608289633615613680n",
+            "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
           },
           {
             "type": "Literal",
             "start": 19712,
             "end": 19812,
-            "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n"
+            "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
           }
         ],
         "optional": false
@@ -10911,7 +11519,8 @@
                 "type": "Literal",
                 "start": 19838,
                 "end": 19857,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             },
             "operator": "*",
@@ -10925,7 +11534,8 @@
                 "type": "Literal",
                 "start": 19861,
                 "end": 19880,
-                "value": "18364758544493064720n"
+                "value": "18364758544493064720n",
+                "raw": "0xFEDCBA9876543210n"
               }
             }
           },
@@ -10933,13 +11543,15 @@
             "type": "Literal",
             "start": 19884,
             "end": 19919,
-            "value": "337264356397531028994973048178108678400n"
+            "value": "337264356397531028994973048178108678400n",
+            "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
           },
           {
             "type": "Literal",
             "start": 19923,
             "end": 20023,
-            "value": "The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n"
+            "value": "The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+            "raw": "'The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
           }
         ],
         "optional": false

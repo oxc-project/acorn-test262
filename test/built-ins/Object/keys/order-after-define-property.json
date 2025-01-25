@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 871,
             "end": 874,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "ObjectExpression",
@@ -159,7 +160,8 @@
                   "type": "Literal",
                   "start": 942,
                   "end": 946,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -180,7 +182,8 @@
                   "type": "Literal",
                   "start": 964,
                   "end": 968,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -222,7 +225,8 @@
           "type": "Literal",
           "start": 982,
           "end": 983,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -264,7 +268,8 @@
             "type": "Literal",
             "start": 1012,
             "end": 1015,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "ObjectExpression",
@@ -288,7 +293,8 @@
                   "type": "Literal",
                   "start": 1025,
                   "end": 1026,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -368,13 +374,15 @@
                 "type": "Literal",
                 "start": 1069,
                 "end": 1072,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 1074,
                 "end": 1077,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ]
           }

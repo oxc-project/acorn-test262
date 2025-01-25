@@ -71,7 +71,8 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 493,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -106,7 +107,8 @@
                     "type": "Literal",
                     "start": 524,
                     "end": 606,
-                    "value": "#0: String.prototype.charCodeAt.hasOwnProperty('length') return true. Actual: "
+                    "value": "#0: String.prototype.charCodeAt.hasOwnProperty('length') return true. Actual: ",
+                    "raw": "'#0: String.prototype.charCodeAt.hasOwnProperty(\\'length\\') return true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +165,8 @@
                         "type": "Literal",
                         "start": 652,
                         "end": 660,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "'length'"
                       }
                     ],
                     "optional": false
@@ -234,7 +237,8 @@
             "type": "Literal",
             "start": 893,
             "end": 901,
-            "value": "length"
+            "value": "length",
+            "raw": "'length'"
           }
         ],
         "optional": false
@@ -267,7 +271,8 @@
                     "type": "Literal",
                     "start": 931,
                     "end": 1020,
-                    "value": "#1: String.prototype.charCodeAt.propertyIsEnumerable('length') return false. Actual: "
+                    "value": "#1: String.prototype.charCodeAt.propertyIsEnumerable('length') return false. Actual: ",
+                    "raw": "'#1: String.prototype.charCodeAt.propertyIsEnumerable(\\'length\\') return false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -324,7 +329,8 @@
                         "type": "Literal",
                         "start": 1072,
                         "end": 1080,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "'length'"
                       }
                     ],
                     "optional": false
@@ -356,7 +362,8 @@
             "type": "Literal",
             "start": 1271,
             "end": 1272,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -442,7 +449,8 @@
                 "type": "Literal",
                 "start": 1332,
                 "end": 1340,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -487,7 +495,8 @@
           "type": "Literal",
           "start": 1368,
           "end": 1369,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -518,7 +527,8 @@
                     "type": "Literal",
                     "start": 1398,
                     "end": 1510,
-                    "value": "#2: count=0; for (p in String.prototype.charCodeAt){if (p===\"length\") count++;} count === 0. Actual: count ==="
+                    "value": "#2: count=0; for (p in String.prototype.charCodeAt){if (p===\"length\") count++;} count === 0. Actual: count ===",
+                    "raw": "'#2: count=0; for (p in String.prototype.charCodeAt){if (p===\"length\") count++;} count === 0. Actual: count ==='"
                   },
                   "operator": "+",
                   "right": {

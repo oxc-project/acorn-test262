@@ -155,7 +155,8 @@
                                                   "type": "Literal",
                                                   "start": 519,
                                                   "end": 552,
-                                                  "value": "accessing length property fails"
+                                                  "value": "accessing length property fails",
+                                                  "raw": "'accessing length property fails'"
                                                 }
                                               ]
                                             }
@@ -174,7 +175,8 @@
                           "type": "Literal",
                           "start": 567,
                           "end": 630,
-                          "value": "Promise should be rejected if array-like length getter throws"
+                          "value": "Promise should be rejected if array-like length getter throws",
+                          "raw": "\"Promise should be rejected if array-like length getter throws\""
                         }
                       ],
                       "optional": false
@@ -274,7 +276,8 @@
                                       "type": "Literal",
                                       "start": 708,
                                       "end": 710,
-                                      "value": "1n"
+                                      "value": "1n",
+                                      "raw": "1n"
                                     },
                                     "kind": "init"
                                   },
@@ -289,13 +292,15 @@
                                       "type": "Literal",
                                       "start": 716,
                                       "end": 717,
-                                      "value": 0
+                                      "value": 0,
+                                      "raw": "0"
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 719,
                                       "end": 720,
-                                      "value": 0
+                                      "value": 0,
+                                      "raw": "0"
                                     },
                                     "kind": "init"
                                   }
@@ -309,7 +314,8 @@
                           "type": "Literal",
                           "start": 727,
                           "end": 807,
-                          "value": "Promise should be rejected if array-like length can't be converted to a number"
+                          "value": "Promise should be rejected if array-like length can't be converted to a number",
+                          "raw": "\"Promise should be rejected if array-like length can't be converted to a number\""
                         }
                       ],
                       "optional": false

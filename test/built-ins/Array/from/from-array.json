@@ -27,13 +27,15 @@
                 "type": "Literal",
                 "start": 212,
                 "end": 213,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 215,
                 "end": 220,
-                "value": "foo"
+                "value": "foo",
+                "raw": "'foo'"
               },
               null,
               {
@@ -151,13 +153,15 @@
             "type": "Literal",
             "start": 300,
             "end": 301,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 303,
             "end": 351,
-            "value": "The value of result.length is expected to be 4"
+            "value": "The value of result.length is expected to be 4",
+            "raw": "'The value of result.length is expected to be 4'"
           }
         ],
         "optional": false
@@ -205,7 +209,8 @@
               "type": "Literal",
               "start": 378,
               "end": 379,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -214,13 +219,15 @@
             "type": "Literal",
             "start": 382,
             "end": 383,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 429,
-            "value": "The value of result[0] is expected to be 0"
+            "value": "The value of result[0] is expected to be 0",
+            "raw": "'The value of result[0] is expected to be 0'"
           }
         ],
         "optional": false
@@ -268,7 +275,8 @@
               "type": "Literal",
               "start": 456,
               "end": 457,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
@@ -277,13 +285,15 @@
             "type": "Literal",
             "start": 460,
             "end": 465,
-            "value": "foo"
+            "value": "foo",
+            "raw": "'foo'"
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 515,
-            "value": "The value of result[1] is expected to be \"foo\""
+            "value": "The value of result[1] is expected to be \"foo\"",
+            "raw": "'The value of result[1] is expected to be \"foo\"'"
           }
         ],
         "optional": false
@@ -331,7 +341,8 @@
               "type": "Literal",
               "start": 542,
               "end": 543,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "computed": true,
             "optional": false
@@ -346,7 +357,8 @@
             "type": "Literal",
             "start": 557,
             "end": 612,
-            "value": "The value of result[2] is expected to equal undefined"
+            "value": "The value of result[2] is expected to equal undefined",
+            "raw": "'The value of result[2] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -394,7 +406,8 @@
               "type": "Literal",
               "start": 639,
               "end": 640,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             "computed": true,
             "optional": false
@@ -409,7 +422,8 @@
             "type": "Literal",
             "start": 653,
             "end": 707,
-            "value": "The value of result[3] is expected to equal Infinity"
+            "value": "The value of result[3] is expected to equal Infinity",
+            "raw": "'The value of result[3] is expected to equal Infinity'"
           }
         ],
         "optional": false
@@ -459,7 +473,8 @@
             "type": "Literal",
             "start": 751,
             "end": 818,
-            "value": "The value of result is expected to not equal the value of `array`"
+            "value": "The value of result is expected to not equal the value of `array`",
+            "raw": "'The value of result is expected to not equal the value of `array`'"
           }
         ],
         "optional": false
@@ -502,7 +517,8 @@
             "type": "Literal",
             "start": 855,
             "end": 930,
-            "value": "The result of evaluating (result instanceof Array) is expected to be true"
+            "value": "The result of evaluating (result instanceof Array) is expected to be true",
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
           }
         ],
         "optional": false

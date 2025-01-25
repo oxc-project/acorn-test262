@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 434,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 439,
             "end": 512,
-            "value": "Function.prototype.toString.hasOwnProperty('length') must return true"
+            "value": "Function.prototype.toString.hasOwnProperty('length') must return true",
+            "raw": "'Function.prototype.toString.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -202,13 +204,15 @@
             "type": "Literal",
             "start": 611,
             "end": 619,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 625,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -232,7 +236,8 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 654,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -325,7 +330,8 @@
             "type": "Literal",
             "start": 725,
             "end": 812,
-            "value": "The value of Function.prototype.toString.length is expected to equal the value of obj"
+            "value": "The value of Function.prototype.toString.length is expected to equal the value of obj",
+            "raw": "'The value of Function.prototype.toString.length is expected to equal the value of obj'"
           }
         ],
         "optional": false

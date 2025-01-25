@@ -67,13 +67,15 @@
             "type": "Literal",
             "start": 590,
             "end": 599,
-            "value": "Atomics"
+            "value": "Atomics",
+            "raw": "'Atomics'"
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 658,
-            "value": "The value of Atomics[Symbol.toStringTag] is \"Atomics\""
+            "value": "The value of Atomics[Symbol.toStringTag] is \"Atomics\"",
+            "raw": "'The value of Atomics[Symbol.toStringTag] is \"Atomics\"'"
           }
         ],
         "optional": false
@@ -141,7 +143,8 @@
                   "type": "Literal",
                   "start": 721,
                   "end": 726,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -162,7 +165,8 @@
                   "type": "Literal",
                   "start": 742,
                   "end": 747,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -183,7 +187,8 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 769,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

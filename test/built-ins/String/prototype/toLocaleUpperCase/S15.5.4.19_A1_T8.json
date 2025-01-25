@@ -117,7 +117,8 @@
           "type": "Literal",
           "start": 382,
           "end": 392,
-          "value": "INFINITY"
+          "value": "INFINITY",
+          "raw": "\"INFINITY\""
         }
       },
       "consequent": {
@@ -148,7 +149,8 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 552,
-                    "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; Infinity.toLocaleUpperCase()=== \"INFINITY\". Actual: "
+                    "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; Infinity.toLocaleUpperCase()=== \"INFINITY\". Actual: ",
+                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; Infinity.toLocaleUpperCase()=== \"INFINITY\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

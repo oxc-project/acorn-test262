@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 549,
                           "end": 558,
-                          "value": "instart"
+                          "value": "instart",
+                          "raw": "\"instart\""
                         }
                       }
                     ]
@@ -170,7 +171,8 @@
                           "type": "Literal",
                           "start": 616,
                           "end": 623,
-                          "value": "inend"
+                          "value": "inend",
+                          "raw": "\"inend\""
                         }
                       }
                     ]
@@ -214,7 +216,8 @@
                 "type": "Literal",
                 "start": 655,
                 "end": 671,
-                "value": "ABBABABAB"
+                "value": "ABBABABAB",
+                "raw": "\"ABB\\u0041BABAB\""
               }
             ]
           }
@@ -308,7 +311,8 @@
                   "type": "Literal",
                   "start": 837,
                   "end": 906,
-                  "value": "#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception"
+                  "value": "#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception",
+                  "raw": "'#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception'"
                 }
               ]
             }
@@ -349,7 +353,8 @@
                   "type": "Literal",
                   "start": 935,
                   "end": 944,
-                  "value": "instart"
+                  "value": "instart",
+                  "raw": "\"instart\""
                 }
               },
               "consequent": {
@@ -380,7 +385,8 @@
                             "type": "Literal",
                             "start": 975,
                             "end": 1015,
-                            "value": "#1.1: Exception ===\"instart\". Actual: "
+                            "value": "#1.1: Exception ===\"instart\". Actual: ",
+                            "raw": "'#1.1: Exception ===\"instart\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

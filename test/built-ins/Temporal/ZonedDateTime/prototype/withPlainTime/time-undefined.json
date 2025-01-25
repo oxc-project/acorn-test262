@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 354,
-                "value": "957270896987654321n"
+                "value": "957270896987654321n",
+                "raw": "957270896_987_654_321n"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 361,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -163,13 +165,15 @@
             "type": "Literal",
             "start": 449,
             "end": 450,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 478,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -226,13 +230,15 @@
             "type": "Literal",
             "start": 515,
             "end": 516,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 544,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -289,13 +295,15 @@
             "type": "Literal",
             "start": 581,
             "end": 582,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 610,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -352,13 +360,15 @@
             "type": "Literal",
             "start": 652,
             "end": 653,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 681,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -415,13 +425,15 @@
             "type": "Literal",
             "start": 723,
             "end": 724,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 752,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -478,13 +490,15 @@
             "type": "Literal",
             "start": 793,
             "end": 794,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 796,
             "end": 822,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -586,13 +600,15 @@
             "type": "Literal",
             "start": 901,
             "end": 902,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 930,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -649,13 +665,15 @@
             "type": "Literal",
             "start": 967,
             "end": 968,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 996,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -712,13 +730,15 @@
             "type": "Literal",
             "start": 1033,
             "end": 1034,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1062,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -775,13 +795,15 @@
             "type": "Literal",
             "start": 1104,
             "end": 1105,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1107,
             "end": 1133,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -838,13 +860,15 @@
             "type": "Literal",
             "start": 1175,
             "end": 1176,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1178,
             "end": 1204,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false
@@ -901,13 +925,15 @@
             "type": "Literal",
             "start": 1245,
             "end": 1246,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1248,
             "end": 1274,
-            "value": "default time is midnight"
+            "value": "default time is midnight",
+            "raw": "\"default time is midnight\""
           }
         ],
         "optional": false

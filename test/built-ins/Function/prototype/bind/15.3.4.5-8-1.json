@@ -151,13 +151,15 @@
             "type": "Literal",
             "start": 332,
             "end": 342,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 344,
             "end": 356,
-            "value": "typeof(bf)"
+            "value": "typeof(bf)",
+            "raw": "'typeof(bf)'"
           }
         ],
         "optional": false

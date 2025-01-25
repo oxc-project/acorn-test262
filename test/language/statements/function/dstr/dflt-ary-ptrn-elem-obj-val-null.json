@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 1929,
                 "end": 1933,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }

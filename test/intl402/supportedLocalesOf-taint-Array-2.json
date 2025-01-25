@@ -78,13 +78,15 @@
                             "type": "Literal",
                             "start": 463,
                             "end": 471,
-                            "value": "lookup"
+                            "value": "lookup",
+                            "raw": "\"lookup\""
                           },
                           {
                             "type": "Literal",
                             "start": 473,
                             "end": 483,
-                            "value": "best fit"
+                            "value": "best fit",
+                            "raw": "\"best fit\""
                           }
                         ]
                       },
@@ -332,14 +334,16 @@
                                       "type": "Literal",
                                       "start": 764,
                                       "end": 765,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 767,
                                     "end": 772,
-                                    "value": false
+                                    "value": false,
+                                    "raw": "false"
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -353,7 +357,8 @@
                                         "type": "Literal",
                                         "start": 774,
                                         "end": 806,
-                                        "value": "Canonicalization with matcher "
+                                        "value": "Canonicalization with matcher ",
+                                        "raw": "\"Canonicalization with matcher \""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -368,7 +373,8 @@
                                       "type": "Literal",
                                       "start": 819,
                                       "end": 877,
-                                      "value": " didn't remove duplicate language tags from locale list."
+                                      "value": " didn't remove duplicate language tags from locale list.",
+                                      "raw": "\" didn't remove duplicate language tags from locale list.\""
                                     }
                                   }
                                 ],

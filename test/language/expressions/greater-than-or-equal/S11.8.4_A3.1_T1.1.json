@@ -19,14 +19,16 @@
             "type": "Literal",
             "start": 444,
             "end": 448,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           "operator": ">=",
           "right": {
             "type": "Literal",
             "start": 452,
             "end": 456,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         "operator": "!==",
@@ -34,7 +36,8 @@
           "type": "Literal",
           "start": 461,
           "end": 465,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -61,7 +64,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 521,
-                  "value": "#1: true >= true === true"
+                  "value": "#1: true >= true === true",
+                  "raw": "'#1: true >= true === true'"
                 }
               ]
             }
@@ -97,7 +101,8 @@
                 "type": "Literal",
                 "start": 553,
                 "end": 557,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           },
@@ -106,7 +111,8 @@
             "type": "Literal",
             "start": 562,
             "end": 566,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         "operator": "!==",
@@ -114,7 +120,8 @@
           "type": "Literal",
           "start": 571,
           "end": 575,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -141,7 +148,8 @@
                   "type": "Literal",
                   "start": 604,
                   "end": 644,
-                  "value": "#2: new Boolean(true) >= true === true"
+                  "value": "#2: new Boolean(true) >= true === true",
+                  "raw": "'#2: new Boolean(true) >= true === true'"
                 }
               ]
             }
@@ -166,7 +174,8 @@
             "type": "Literal",
             "start": 664,
             "end": 668,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           "operator": ">=",
           "right": {
@@ -184,7 +193,8 @@
                 "type": "Literal",
                 "start": 684,
                 "end": 688,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -194,7 +204,8 @@
           "type": "Literal",
           "start": 694,
           "end": 698,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -221,7 +232,8 @@
                   "type": "Literal",
                   "start": 727,
                   "end": 767,
-                  "value": "#3: true >= new Boolean(true) === true"
+                  "value": "#3: true >= new Boolean(true) === true",
+                  "raw": "'#3: true >= new Boolean(true) === true'"
                 }
               ]
             }
@@ -257,7 +269,8 @@
                 "type": "Literal",
                 "start": 799,
                 "end": 803,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           },
@@ -277,7 +290,8 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 824,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -287,7 +301,8 @@
           "type": "Literal",
           "start": 830,
           "end": 834,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -314,7 +329,8 @@
                   "type": "Literal",
                   "start": 863,
                   "end": 916,
-                  "value": "#4: new Boolean(true) >= new Boolean(true) === true"
+                  "value": "#4: new Boolean(true) >= new Boolean(true) === true",
+                  "raw": "'#4: new Boolean(true) >= new Boolean(true) === true'"
                 }
               ]
             }

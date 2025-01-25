@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 437,
                         "end": 441,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -96,7 +97,8 @@
             "type": "Literal",
             "start": 447,
             "end": 494,
-            "value": "Array.from(null) throws a TypeError exception"
+            "value": "Array.from(null) throws a TypeError exception",
+            "raw": "'Array.from(null) throws a TypeError exception'"
           }
         ],
         "optional": false

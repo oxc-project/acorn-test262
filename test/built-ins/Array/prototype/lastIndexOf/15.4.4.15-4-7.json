@@ -46,19 +46,22 @@
               "type": "Literal",
               "start": 355,
               "end": 356,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 358,
               "end": 359,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 361,
               "end": 362,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ]
         }
@@ -171,7 +174,8 @@
                           "type": "Literal",
                           "start": 450,
                           "end": 453,
-                          "value": "0"
+                          "value": "0",
+                          "raw": "'0'"
                         }
                       }
                     ]
@@ -344,7 +348,8 @@
                                     "type": "Literal",
                                     "start": 884,
                                     "end": 887,
-                                    "value": "0"
+                                    "value": "0",
+                                    "raw": "'0'"
                                   }
                                 }
                               ]
@@ -362,7 +367,8 @@
                 "type": "Literal",
                 "start": 902,
                 "end": 903,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -415,14 +421,16 @@
               "type": "Literal",
               "start": 929,
               "end": 930,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 932,
             "end": 935,
-            "value": "i"
+            "value": "i",
+            "raw": "'i'"
           }
         ],
         "optional": false

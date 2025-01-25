@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 910,
+  "end": 906,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 822,
-      "end": 839,
+      "start": 818,
+      "end": 835,
       "expression": {
         "type": "CallExpression",
-        "start": 822,
-        "end": 838,
+        "start": 818,
+        "end": 834,
         "callee": {
           "type": "Identifier",
-          "start": 822,
-          "end": 836,
+          "start": 818,
+          "end": 832,
           "name": "$DONOTEVALUATE"
         },
         "arguments": [],
@@ -23,33 +23,34 @@
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 841,
-      "end": 909,
+      "start": 837,
+      "end": 905,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 850,
-          "end": 856,
+          "start": 846,
+          "end": 852,
           "local": {
             "type": "Identifier",
-            "start": 850,
-            "end": 851,
+            "start": 846,
+            "end": 847,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 855,
-            "end": 856,
+            "start": 851,
+            "end": 852,
             "name": "y"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 864,
-        "end": 908,
-        "value": "./instn-iee-err-not-found-empty_FIXTURE.js"
+        "start": 860,
+        "end": 904,
+        "value": "./instn-iee-err-not-found-empty_FIXTURE.js",
+        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'"
       },
       "attributes": []
     }

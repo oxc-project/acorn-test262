@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1160,
             "end": 1163,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         }
       ],
@@ -66,7 +67,8 @@
             "type": "Literal",
             "start": 1185,
             "end": 1188,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         ],
         "optional": false
@@ -80,7 +82,8 @@
         "type": "Literal",
         "start": 1196,
         "end": 1200,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "FunctionDeclaration",

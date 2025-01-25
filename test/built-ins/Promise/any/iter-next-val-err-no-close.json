@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 823,
             "end": 824,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 844,
             "end": 845,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -121,7 +123,8 @@
                   "type": "Literal",
                   "start": 904,
                   "end": 909,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -169,7 +172,8 @@
             "type": "Literal",
             "start": 945,
             "end": 952,
-            "value": "value"
+            "value": "value",
+            "raw": "'value'"
           },
           {
             "type": "ObjectExpression",
@@ -562,7 +566,8 @@
                             "type": "Literal",
                             "start": 1292,
                             "end": 1342,
-                            "value": "The promise should be rejected, but was resolved"
+                            "value": "The promise should be rejected, but was resolved",
+                            "raw": "'The promise should be rejected, but was resolved'"
                           }
                         ],
                         "optional": false
@@ -711,13 +716,15 @@
                             "type": "Literal",
                             "start": 1468,
                             "end": 1469,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           },
                           {
                             "type": "Literal",
                             "start": 1471,
                             "end": 1488,
-                            "value": "callCount === 3"
+                            "value": "callCount === 3",
+                            "raw": "'callCount === 3'"
                           }
                         ],
                         "optional": false
@@ -761,7 +768,8 @@
                             "type": "Literal",
                             "start": 1523,
                             "end": 1524,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ],
                         "optional": false

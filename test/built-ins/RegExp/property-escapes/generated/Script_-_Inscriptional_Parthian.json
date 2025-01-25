@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 549,
-                              "value": 68416
+                              "value": 68416,
+                              "raw": "0x010B40"
                             },
                             {
                               "type": "Literal",
                               "start": 551,
                               "end": 559,
-                              "value": 68437
+                              "value": 68437,
+                              "raw": "0x010B55"
                             }
                           ]
                         },
@@ -101,13 +103,15 @@
                               "type": "Literal",
                               "start": 567,
                               "end": 575,
-                              "value": 68440
+                              "value": 68440,
+                              "raw": "0x010B58"
                             },
                             {
                               "type": "Literal",
                               "start": 577,
                               "end": 585,
-                              "value": 68447
+                              "value": 68447,
+                              "raw": "0x010B5F"
                             }
                           ]
                         }
@@ -144,6 +148,7 @@
             "start": 618,
             "end": 657,
             "value": {},
+            "raw": "/^\\p{Script=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Inscriptional_Parthian}+$",
               "flags": "u"
@@ -159,7 +164,8 @@
             "type": "Literal",
             "start": 677,
             "end": 713,
-            "value": "\\p{Script=Inscriptional_Parthian}"
+            "value": "\\p{Script=Inscriptional_Parthian}",
+            "raw": "\"\\\\p{Script=Inscriptional_Parthian}\""
           }
         ],
         "optional": false
@@ -185,6 +191,7 @@
             "start": 740,
             "end": 761,
             "value": {},
+            "raw": "/^\\p{Script=Prti}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Prti}+$",
               "flags": "u"
@@ -200,7 +207,8 @@
             "type": "Literal",
             "start": 781,
             "end": 799,
-            "value": "\\p{Script=Prti}"
+            "value": "\\p{Script=Prti}",
+            "raw": "\"\\\\p{Script=Prti}\""
           }
         ],
         "optional": false
@@ -226,6 +234,7 @@
             "start": 826,
             "end": 861,
             "value": {},
+            "raw": "/^\\p{sc=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Inscriptional_Parthian}+$",
               "flags": "u"
@@ -241,7 +250,8 @@
             "type": "Literal",
             "start": 881,
             "end": 913,
-            "value": "\\p{sc=Inscriptional_Parthian}"
+            "value": "\\p{sc=Inscriptional_Parthian}",
+            "raw": "\"\\\\p{sc=Inscriptional_Parthian}\""
           }
         ],
         "optional": false
@@ -267,6 +277,7 @@
             "start": 940,
             "end": 957,
             "value": {},
+            "raw": "/^\\p{sc=Prti}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Prti}+$",
               "flags": "u"
@@ -282,7 +293,8 @@
             "type": "Literal",
             "start": 977,
             "end": 991,
-            "value": "\\p{sc=Prti}"
+            "value": "\\p{sc=Prti}",
+            "raw": "\"\\\\p{sc=Prti}\""
           }
         ],
         "optional": false
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1073,
                               "end": 1081,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1083,
                               "end": 1091,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1099,
                               "end": 1107,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1109,
                               "end": 1117,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1125,
                               "end": 1133,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1135,
                               "end": 1143,
-                              "value": 68415
+                              "value": 68415,
+                              "raw": "0x010B3F"
                             }
                           ]
                         },
@@ -424,13 +442,15 @@
                               "type": "Literal",
                               "start": 1151,
                               "end": 1159,
-                              "value": 68438
+                              "value": 68438,
+                              "raw": "0x010B56"
                             },
                             {
                               "type": "Literal",
                               "start": 1161,
                               "end": 1169,
-                              "value": 68439
+                              "value": 68439,
+                              "raw": "0x010B57"
                             }
                           ]
                         },
@@ -443,13 +463,15 @@
                               "type": "Literal",
                               "start": 1177,
                               "end": 1185,
-                              "value": 68448
+                              "value": 68448,
+                              "raw": "0x010B60"
                             },
                             {
                               "type": "Literal",
                               "start": 1187,
                               "end": 1195,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -486,6 +508,7 @@
             "start": 1228,
             "end": 1267,
             "value": {},
+            "raw": "/^\\P{Script=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Inscriptional_Parthian}+$",
               "flags": "u"
@@ -501,7 +524,8 @@
             "type": "Literal",
             "start": 1290,
             "end": 1326,
-            "value": "\\P{Script=Inscriptional_Parthian}"
+            "value": "\\P{Script=Inscriptional_Parthian}",
+            "raw": "\"\\\\P{Script=Inscriptional_Parthian}\""
           }
         ],
         "optional": false
@@ -527,6 +551,7 @@
             "start": 1353,
             "end": 1374,
             "value": {},
+            "raw": "/^\\P{Script=Prti}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Prti}+$",
               "flags": "u"
@@ -542,7 +567,8 @@
             "type": "Literal",
             "start": 1397,
             "end": 1415,
-            "value": "\\P{Script=Prti}"
+            "value": "\\P{Script=Prti}",
+            "raw": "\"\\\\P{Script=Prti}\""
           }
         ],
         "optional": false
@@ -568,6 +594,7 @@
             "start": 1442,
             "end": 1477,
             "value": {},
+            "raw": "/^\\P{sc=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Inscriptional_Parthian}+$",
               "flags": "u"
@@ -583,7 +610,8 @@
             "type": "Literal",
             "start": 1500,
             "end": 1532,
-            "value": "\\P{sc=Inscriptional_Parthian}"
+            "value": "\\P{sc=Inscriptional_Parthian}",
+            "raw": "\"\\\\P{sc=Inscriptional_Parthian}\""
           }
         ],
         "optional": false
@@ -609,6 +637,7 @@
             "start": 1559,
             "end": 1576,
             "value": {},
+            "raw": "/^\\P{sc=Prti}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Prti}+$",
               "flags": "u"
@@ -624,7 +653,8 @@
             "type": "Literal",
             "start": 1599,
             "end": 1613,
-            "value": "\\P{sc=Prti}"
+            "value": "\\P{sc=Prti}",
+            "raw": "\"\\\\P{sc=Prti}\""
           }
         ],
         "optional": false

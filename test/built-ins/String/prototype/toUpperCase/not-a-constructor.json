@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 767,
             "end": 772,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 839,
-            "value": "isConstructor(String.prototype.toUpperCase) must return false"
+            "value": "isConstructor(String.prototype.toUpperCase) must return false",
+            "raw": "'isConstructor(String.prototype.toUpperCase) must return false'"
           }
         ],
         "optional": false

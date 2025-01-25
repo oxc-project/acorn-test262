@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 524,
-                  "value": "detached"
+                  "value": "detached",
+                  "raw": "'detached'"
                 }
               ],
               "optional": false
@@ -132,7 +133,8 @@
             "type": "Literal",
             "start": 565,
             "end": 575,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false

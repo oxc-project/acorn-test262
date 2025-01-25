@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 342,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "\"America/Los_Angeles\""
               }
             ]
           }
@@ -121,7 +123,8 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             },
             "operator": "*",
@@ -129,7 +132,8 @@
               "type": "Literal",
               "start": 395,
               "end": 408,
-              "value": 3600000000000
+              "value": 3600000000000,
+              "raw": "3600000000000"
             }
           }
         ],

@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 257,
                   "end": 261,
-                  "value": 2024
+                  "value": 2024,
+                  "raw": "2024"
                 },
                 "kind": "init"
               },
@@ -61,7 +62,8 @@
                   "type": "Literal",
                   "start": 274,
                   "end": 279,
-                  "value": "M10"
+                  "value": "M10",
+                  "raw": "\"M10\""
                 },
                 "kind": "init"
               },
@@ -82,7 +84,8 @@
                   "type": "Literal",
                   "start": 286,
                   "end": 287,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               },
@@ -103,7 +106,8 @@
                   "type": "Literal",
                   "start": 299,
                   "end": 304,
-                  "value": "UTC"
+                  "value": "UTC",
+                  "raw": "\"UTC\""
                 },
                 "kind": "init"
               }
@@ -134,43 +138,50 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 319,
-                "value": "garbage"
+                "value": "garbage",
+                "raw": "\"garbage\""
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 328,
-                "value": "00:00"
+                "value": "00:00",
+                "raw": "\"00:00\""
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 339,
-                "value": "+000:00"
+                "value": "+000:00",
+                "raw": "\"+000:00\""
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 350,
-                "value": "-00:000"
+                "value": "-00:000",
+                "raw": "\"-00:000\""
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 364,
-                "value": "-00:00:000"
+                "value": "-00:00:000",
+                "raw": "\"-00:00:000\""
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 376,
-                "value": "+00:00.0"
+                "value": "+00:00.0",
+                "raw": "\"+00:00.0\""
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 400,
-                "value": "+00:00:00.0000000000"
+                "value": "+00:00:00.0000000000",
+                "raw": "\"+00:00:00.0000000000\""
               }
             ]
           },
@@ -328,7 +339,8 @@
                                     "type": "Literal",
                                     "start": 502,
                                     "end": 506,
-                                    "value": 2024
+                                    "value": 2024,
+                                    "raw": "2024"
                                   },
                                   "kind": "init"
                                 },
@@ -349,7 +361,8 @@
                                     "type": "Literal",
                                     "start": 519,
                                     "end": 524,
-                                    "value": "M10"
+                                    "value": "M10",
+                                    "raw": "\"M10\""
                                   },
                                   "kind": "init"
                                 },
@@ -370,7 +383,8 @@
                                     "type": "Literal",
                                     "start": 531,
                                     "end": 532,
-                                    "value": 3
+                                    "value": 3,
+                                    "raw": "3"
                                   },
                                   "kind": "init"
                                 },
@@ -391,7 +405,8 @@
                                     "type": "Literal",
                                     "start": 544,
                                     "end": 549,
-                                    "value": "UTC"
+                                    "value": "UTC",
+                                    "raw": "\"UTC\""
                                   },
                                   "kind": "init"
                                 }
@@ -549,7 +564,8 @@
                         "type": "Literal",
                         "start": 684,
                         "end": 693,
-                        "value": "--00:00"
+                        "value": "--00:00",
+                        "raw": "\"--00:00\""
                       },
                       "kind": "init"
                     },
@@ -598,7 +614,8 @@
                         "type": "Literal",
                         "start": 722,
                         "end": 727,
-                        "value": "M10"
+                        "value": "M10",
+                        "raw": "\"M10\""
                       },
                       "kind": "init"
                     },
@@ -619,7 +636,8 @@
                         "type": "Literal",
                         "start": 734,
                         "end": 735,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "kind": "init"
                     },
@@ -640,7 +658,8 @@
                         "type": "Literal",
                         "start": 747,
                         "end": 752,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -654,7 +673,8 @@
             "type": "Literal",
             "start": 759,
             "end": 821,
-            "value": "UTC offset syntax is validated before year type is validated"
+            "value": "UTC offset syntax is validated before year type is validated",
+            "raw": "\"UTC offset syntax is validated before year type is validated\""
           }
         ],
         "optional": false
@@ -762,7 +782,8 @@
                         "type": "Literal",
                         "start": 900,
                         "end": 908,
-                        "value": "+04:30"
+                        "value": "+04:30",
+                        "raw": "\"+04:30\""
                       },
                       "kind": "init"
                     },
@@ -811,7 +832,8 @@
                         "type": "Literal",
                         "start": 937,
                         "end": 942,
-                        "value": "M10"
+                        "value": "M10",
+                        "raw": "\"M10\""
                       },
                       "kind": "init"
                     },
@@ -832,7 +854,8 @@
                         "type": "Literal",
                         "start": 949,
                         "end": 950,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "kind": "init"
                     },
@@ -853,7 +876,8 @@
                         "type": "Literal",
                         "start": 962,
                         "end": 967,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -867,7 +891,8 @@
             "type": "Literal",
             "start": 974,
             "end": 1037,
-            "value": "UTC offset matching is validated after year type is validated"
+            "value": "UTC offset matching is validated after year type is validated",
+            "raw": "\"UTC offset matching is validated after year type is validated\""
           }
         ],
         "optional": false

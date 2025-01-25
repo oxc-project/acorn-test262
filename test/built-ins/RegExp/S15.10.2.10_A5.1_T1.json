@@ -26,14 +26,16 @@
               "type": "Literal",
               "start": 365,
               "end": 398,
-              "value": "~`!@#$%^&*()-+={[}]|\\:;'<,>./?"
+              "value": "~`!@#$%^&*()-+={[}]|\\:;'<,>./?",
+              "raw": "\"~`!@#$%^&*()-+={[}]|\\\\:;'<,>./?\""
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 401,
               "end": 404,
-              "value": "\""
+              "value": "\"",
+              "raw": "'\"'"
             }
           }
         }
@@ -63,7 +65,8 @@
               "type": "Literal",
               "start": 419,
               "end": 420,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -160,7 +163,8 @@
                             "type": "Literal",
                             "start": 474,
                             "end": 478,
-                            "value": "\\"
+                            "value": "\\",
+                            "raw": "\"\\\\\""
                           },
                           "operator": "+",
                           "right": {
@@ -187,7 +191,8 @@
                           "type": "Literal",
                           "start": 495,
                           "end": 498,
-                          "value": "g"
+                          "value": "g",
+                          "raw": "\"g\""
                         }
                       ]
                     },
@@ -252,7 +257,8 @@
                   "type": "Literal",
                   "start": 544,
                   "end": 548,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 {
                   "type": "BinaryExpression",
@@ -262,7 +268,8 @@
                     "type": "Literal",
                     "start": 550,
                     "end": 576,
-                    "value": "No match for character: "
+                    "value": "No match for character: ",
+                    "raw": "\"No match for character: \""
                   },
                   "operator": "+",
                   "right": {
@@ -331,7 +338,8 @@
                     "type": "Literal",
                     "start": 617,
                     "end": 618,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false

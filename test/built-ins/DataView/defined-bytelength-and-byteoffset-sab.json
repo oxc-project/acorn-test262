@@ -53,7 +53,8 @@
                 "type": "Literal",
                 "start": 494,
                 "end": 495,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -97,13 +98,15 @@
               "type": "Literal",
               "start": 529,
               "end": 530,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 532,
               "end": 533,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ]
         }
@@ -160,13 +163,15 @@
             "type": "Literal",
             "start": 572,
             "end": 573,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 594,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -223,13 +228,15 @@
             "type": "Literal",
             "start": 633,
             "end": 634,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 655,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -292,7 +299,8 @@
             "type": "Literal",
             "start": 698,
             "end": 713,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false
@@ -475,13 +483,15 @@
               "type": "Literal",
               "start": 864,
               "end": 865,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 867,
               "end": 868,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
@@ -538,13 +548,15 @@
             "type": "Literal",
             "start": 907,
             "end": 908,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 910,
             "end": 929,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -601,13 +613,15 @@
             "type": "Literal",
             "start": 968,
             "end": 969,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 971,
             "end": 990,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -670,7 +684,8 @@
             "type": "Literal",
             "start": 1033,
             "end": 1048,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false
@@ -853,13 +868,15 @@
               "type": "Literal",
               "start": 1199,
               "end": 1200,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1202,
               "end": 1203,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ]
         }
@@ -916,13 +933,15 @@
             "type": "Literal",
             "start": 1242,
             "end": 1243,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1245,
             "end": 1264,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -979,13 +998,15 @@
             "type": "Literal",
             "start": 1303,
             "end": 1304,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1306,
             "end": 1325,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -1048,7 +1069,8 @@
             "type": "Literal",
             "start": 1368,
             "end": 1383,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false
@@ -1231,13 +1253,15 @@
               "type": "Literal",
               "start": 1534,
               "end": 1535,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             {
               "type": "Literal",
               "start": 1537,
               "end": 1538,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
@@ -1294,13 +1318,15 @@
             "type": "Literal",
             "start": 1577,
             "end": 1578,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1580,
             "end": 1599,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -1357,13 +1383,15 @@
             "type": "Literal",
             "start": 1638,
             "end": 1639,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1641,
             "end": 1660,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -1426,7 +1454,8 @@
             "type": "Literal",
             "start": 1703,
             "end": 1718,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false
@@ -1609,13 +1638,15 @@
               "type": "Literal",
               "start": 1869,
               "end": 1870,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1872,
               "end": 1873,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
@@ -1672,13 +1703,15 @@
             "type": "Literal",
             "start": 1912,
             "end": 1913,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1915,
             "end": 1934,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -1735,13 +1768,15 @@
             "type": "Literal",
             "start": 1973,
             "end": 1974,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1976,
             "end": 1995,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -1804,7 +1839,8 @@
             "type": "Literal",
             "start": 2038,
             "end": 2053,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false
@@ -1987,13 +2023,15 @@
               "type": "Literal",
               "start": 2204,
               "end": 2205,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 2207,
               "end": 2208,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ]
         }
@@ -2050,13 +2088,15 @@
             "type": "Literal",
             "start": 2247,
             "end": 2248,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 2250,
             "end": 2269,
-            "value": "sample.byteLength"
+            "value": "sample.byteLength",
+            "raw": "\"sample.byteLength\""
           }
         ],
         "optional": false
@@ -2113,13 +2153,15 @@
             "type": "Literal",
             "start": 2308,
             "end": 2309,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2311,
             "end": 2330,
-            "value": "sample.byteOffset"
+            "value": "sample.byteOffset",
+            "raw": "\"sample.byteOffset\""
           }
         ],
         "optional": false
@@ -2182,7 +2224,8 @@
             "type": "Literal",
             "start": 2373,
             "end": 2388,
-            "value": "sample.buffer"
+            "value": "sample.buffer",
+            "raw": "\"sample.buffer\""
           }
         ],
         "optional": false

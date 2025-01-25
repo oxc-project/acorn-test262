@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3124,
+  "end": 3123,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 920,
-      "end": 1022,
+      "start": 919,
+      "end": 1021,
       "expression": {
         "type": "CallExpression",
-        "start": 920,
-        "end": 1021,
+        "start": 919,
+        "end": 1020,
         "callee": {
           "type": "MemberExpression",
-          "start": 920,
-          "end": 936,
+          "start": 919,
+          "end": 935,
           "object": {
             "type": "Identifier",
-            "start": 920,
-            "end": 926,
+            "start": 919,
+            "end": 925,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 927,
-            "end": 936,
+            "start": 926,
+            "end": 935,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 940,
-            "end": 968,
+            "start": 939,
+            "end": 967,
             "callee": {
               "type": "MemberExpression",
-              "start": 940,
-              "end": 966,
+              "start": 939,
+              "end": 965,
               "object": {
                 "type": "Literal",
-                "start": 940,
-                "end": 948,
-                "value": "Σ"
+                "start": 939,
+                "end": 947,
+                "value": "Σ",
+                "raw": "\"\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 949,
-                "end": 966,
+                "start": 948,
+                "end": 965,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -59,15 +60,17 @@
           },
           {
             "type": "Literal",
-            "start": 972,
-            "end": 980,
-            "value": "σ"
+            "start": 971,
+            "end": 979,
+            "value": "σ",
+            "raw": "\"\\u03C3\""
           },
           {
             "type": "Literal",
-            "start": 984,
-            "end": 1019,
-            "value": "Single GREEK CAPITAL LETTER SIGMA"
+            "start": 983,
+            "end": 1018,
+            "value": "Single GREEK CAPITAL LETTER SIGMA",
+            "raw": "\"Single GREEK CAPITAL LETTER SIGMA\""
           }
         ],
         "optional": false
@@ -75,26 +78,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1084,
-      "end": 1195,
+      "start": 1083,
+      "end": 1194,
       "expression": {
         "type": "CallExpression",
-        "start": 1084,
-        "end": 1194,
+        "start": 1083,
+        "end": 1193,
         "callee": {
           "type": "MemberExpression",
-          "start": 1084,
-          "end": 1100,
+          "start": 1083,
+          "end": 1099,
           "object": {
             "type": "Identifier",
-            "start": 1084,
-            "end": 1090,
+            "start": 1083,
+            "end": 1089,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1091,
-            "end": 1100,
+            "start": 1090,
+            "end": 1099,
             "name": "sameValue"
           },
           "computed": false,
@@ -103,22 +106,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1104,
-            "end": 1133,
+            "start": 1103,
+            "end": 1132,
             "callee": {
               "type": "MemberExpression",
-              "start": 1104,
-              "end": 1131,
+              "start": 1103,
+              "end": 1130,
               "object": {
                 "type": "Literal",
-                "start": 1104,
-                "end": 1113,
-                "value": "AΣ"
+                "start": 1103,
+                "end": 1112,
+                "value": "AΣ",
+                "raw": "\"A\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1114,
-                "end": 1131,
+                "start": 1113,
+                "end": 1130,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -129,15 +133,17 @@
           },
           {
             "type": "Literal",
-            "start": 1137,
-            "end": 1146,
-            "value": "aς"
+            "start": 1136,
+            "end": 1145,
+            "value": "aς",
+            "raw": "\"a\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1150,
-            "end": 1192,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A"
+            "start": 1149,
+            "end": 1191,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A\""
           }
         ],
         "optional": false
@@ -145,26 +151,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1196,
-      "end": 1356,
+      "start": 1195,
+      "end": 1355,
       "expression": {
         "type": "CallExpression",
-        "start": 1196,
-        "end": 1355,
+        "start": 1195,
+        "end": 1354,
         "callee": {
           "type": "MemberExpression",
-          "start": 1196,
-          "end": 1212,
+          "start": 1195,
+          "end": 1211,
           "object": {
             "type": "Identifier",
-            "start": 1196,
-            "end": 1202,
+            "start": 1195,
+            "end": 1201,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1203,
-            "end": 1212,
+            "start": 1202,
+            "end": 1211,
             "name": "sameValue"
           },
           "computed": false,
@@ -173,22 +179,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1216,
-            "end": 1256,
+            "start": 1215,
+            "end": 1255,
             "callee": {
               "type": "MemberExpression",
-              "start": 1216,
-              "end": 1254,
+              "start": 1215,
+              "end": 1253,
               "object": {
                 "type": "Literal",
-                "start": 1216,
-                "end": 1236,
-                "value": "𝒢Σ"
+                "start": 1215,
+                "end": 1235,
+                "value": "𝒢Σ",
+                "raw": "\"\\uD835\\uDCA2\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1237,
-                "end": 1254,
+                "start": 1236,
+                "end": 1253,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -199,15 +206,17 @@
           },
           {
             "type": "Literal",
-            "start": 1260,
-            "end": 1280,
-            "value": "𝒢ς"
+            "start": 1259,
+            "end": 1279,
+            "value": "𝒢ς",
+            "raw": "\"\\uD835\\uDCA2\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1284,
-            "end": 1353,
-            "value": "Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)"
+            "start": 1283,
+            "end": 1352,
+            "value": "Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
+            "raw": "\"Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
           }
         ],
         "optional": false
@@ -215,26 +224,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1357,
-      "end": 1457,
+      "start": 1356,
+      "end": 1456,
       "expression": {
         "type": "CallExpression",
-        "start": 1357,
-        "end": 1456,
+        "start": 1356,
+        "end": 1455,
         "callee": {
           "type": "MemberExpression",
-          "start": 1357,
-          "end": 1373,
+          "start": 1356,
+          "end": 1372,
           "object": {
             "type": "Identifier",
-            "start": 1357,
-            "end": 1363,
+            "start": 1356,
+            "end": 1362,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1364,
-            "end": 1373,
+            "start": 1363,
+            "end": 1372,
             "name": "sameValue"
           },
           "computed": false,
@@ -243,22 +252,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1377,
-            "end": 1407,
+            "start": 1376,
+            "end": 1406,
             "callee": {
               "type": "MemberExpression",
-              "start": 1377,
-              "end": 1405,
+              "start": 1376,
+              "end": 1404,
               "object": {
                 "type": "Literal",
-                "start": 1377,
-                "end": 1387,
-                "value": "A.Σ"
+                "start": 1376,
+                "end": 1386,
+                "value": "A.Σ",
+                "raw": "\"A.\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1388,
-                "end": 1405,
+                "start": 1387,
+                "end": 1404,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -269,15 +279,17 @@
           },
           {
             "type": "Literal",
-            "start": 1411,
-            "end": 1421,
-            "value": "a.ς"
+            "start": 1410,
+            "end": 1420,
+            "value": "a.ς",
+            "raw": "\"a.\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1425,
-            "end": 1454,
-            "value": "Sigma preceded by FULL STOP"
+            "start": 1424,
+            "end": 1453,
+            "value": "Sigma preceded by FULL STOP",
+            "raw": "\"Sigma preceded by FULL STOP\""
           }
         ],
         "optional": false
@@ -285,26 +297,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1458,
-      "end": 1577,
+      "start": 1457,
+      "end": 1576,
       "expression": {
         "type": "CallExpression",
-        "start": 1458,
-        "end": 1576,
+        "start": 1457,
+        "end": 1575,
         "callee": {
           "type": "MemberExpression",
-          "start": 1458,
-          "end": 1474,
+          "start": 1457,
+          "end": 1473,
           "object": {
             "type": "Identifier",
-            "start": 1458,
-            "end": 1464,
+            "start": 1457,
+            "end": 1463,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1465,
-            "end": 1474,
+            "start": 1464,
+            "end": 1473,
             "name": "sameValue"
           },
           "computed": false,
@@ -313,22 +325,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1478,
-            "end": 1513,
+            "start": 1477,
+            "end": 1512,
             "callee": {
               "type": "MemberExpression",
-              "start": 1478,
-              "end": 1511,
+              "start": 1477,
+              "end": 1510,
               "object": {
                 "type": "Literal",
-                "start": 1478,
-                "end": 1493,
-                "value": "A­Σ"
+                "start": 1477,
+                "end": 1492,
+                "value": "A­Σ",
+                "raw": "\"A\\u00AD\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1494,
-                "end": 1511,
+                "start": 1493,
+                "end": 1510,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -339,15 +352,17 @@
           },
           {
             "type": "Literal",
-            "start": 1517,
-            "end": 1532,
-            "value": "a­ς"
+            "start": 1516,
+            "end": 1531,
+            "value": "a­ς",
+            "raw": "\"a\\u00AD\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1536,
-            "end": 1574,
-            "value": "Sigma preceded by SOFT HYPHEN (00AD)"
+            "start": 1535,
+            "end": 1573,
+            "value": "Sigma preceded by SOFT HYPHEN (00AD)",
+            "raw": "\"Sigma preceded by SOFT HYPHEN (00AD)\""
           }
         ],
         "optional": false
@@ -355,26 +370,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1578,
-      "end": 1742,
+      "start": 1577,
+      "end": 1741,
       "expression": {
         "type": "CallExpression",
-        "start": 1578,
-        "end": 1741,
+        "start": 1577,
+        "end": 1740,
         "callee": {
           "type": "MemberExpression",
-          "start": 1578,
-          "end": 1594,
+          "start": 1577,
+          "end": 1593,
           "object": {
             "type": "Identifier",
-            "start": 1578,
-            "end": 1584,
+            "start": 1577,
+            "end": 1583,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1585,
-            "end": 1594,
+            "start": 1584,
+            "end": 1593,
             "name": "sameValue"
           },
           "computed": false,
@@ -383,22 +398,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1598,
-            "end": 1639,
+            "start": 1597,
+            "end": 1638,
             "callee": {
               "type": "MemberExpression",
-              "start": 1598,
-              "end": 1637,
+              "start": 1597,
+              "end": 1636,
               "object": {
                 "type": "Literal",
-                "start": 1598,
-                "end": 1619,
-                "value": "A𝉂Σ"
+                "start": 1597,
+                "end": 1618,
+                "value": "A𝉂Σ",
+                "raw": "\"A\\uD834\\uDE42\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1620,
-                "end": 1637,
+                "start": 1619,
+                "end": 1636,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -409,15 +425,17 @@
           },
           {
             "type": "Literal",
-            "start": 1643,
-            "end": 1664,
-            "value": "a𝉂ς"
+            "start": 1642,
+            "end": 1663,
+            "value": "a𝉂ς",
+            "raw": "\"a\\uD834\\uDE42\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1668,
-            "end": 1739,
-            "value": "Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)"
+            "start": 1667,
+            "end": 1738,
+            "value": "Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
+            "raw": "\"Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
           }
         ],
         "optional": false
@@ -425,26 +443,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1743,
-      "end": 1878,
+      "start": 1742,
+      "end": 1877,
       "expression": {
         "type": "CallExpression",
-        "start": 1743,
-        "end": 1877,
+        "start": 1742,
+        "end": 1876,
         "callee": {
           "type": "MemberExpression",
-          "start": 1743,
-          "end": 1759,
+          "start": 1742,
+          "end": 1758,
           "object": {
             "type": "Identifier",
-            "start": 1743,
-            "end": 1749,
+            "start": 1742,
+            "end": 1748,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1750,
-            "end": 1759,
+            "start": 1749,
+            "end": 1758,
             "name": "sameValue"
           },
           "computed": false,
@@ -453,22 +471,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1763,
-            "end": 1797,
+            "start": 1762,
+            "end": 1796,
             "callee": {
               "type": "MemberExpression",
-              "start": 1763,
-              "end": 1795,
+              "start": 1762,
+              "end": 1794,
               "object": {
                 "type": "Literal",
-                "start": 1763,
-                "end": 1777,
-                "value": "ͅΣ"
+                "start": 1762,
+                "end": 1776,
+                "value": "ͅΣ",
+                "raw": "\"\\u0345\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1778,
-                "end": 1795,
+                "start": 1777,
+                "end": 1794,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -479,15 +498,17 @@
           },
           {
             "type": "Literal",
-            "start": 1801,
-            "end": 1815,
-            "value": "ͅσ"
+            "start": 1800,
+            "end": 1814,
+            "value": "ͅσ",
+            "raw": "\"\\u0345\\u03C3\""
           },
           {
             "type": "Literal",
-            "start": 1819,
-            "end": 1875,
-            "value": "Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)"
+            "start": 1818,
+            "end": 1874,
+            "value": "Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)",
+            "raw": "\"Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)\""
           }
         ],
         "optional": false
@@ -495,26 +516,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1879,
-      "end": 2061,
+      "start": 1878,
+      "end": 2060,
       "expression": {
         "type": "CallExpression",
-        "start": 1879,
-        "end": 2060,
+        "start": 1878,
+        "end": 2059,
         "callee": {
           "type": "MemberExpression",
-          "start": 1879,
-          "end": 1895,
+          "start": 1878,
+          "end": 1894,
           "object": {
             "type": "Identifier",
-            "start": 1879,
-            "end": 1885,
+            "start": 1878,
+            "end": 1884,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1886,
-            "end": 1895,
+            "start": 1885,
+            "end": 1894,
             "name": "sameValue"
           },
           "computed": false,
@@ -523,22 +544,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1899,
-            "end": 1939,
+            "start": 1898,
+            "end": 1938,
             "callee": {
               "type": "MemberExpression",
-              "start": 1899,
-              "end": 1937,
+              "start": 1898,
+              "end": 1936,
               "object": {
                 "type": "Literal",
-                "start": 1899,
-                "end": 1919,
-                "value": "ᾼΣ"
+                "start": 1898,
+                "end": 1918,
+                "value": "ᾼΣ",
+                "raw": "\"\\u0391\\u0345\\u03A3\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 1920,
-                "end": 1937,
+                "start": 1919,
+                "end": 1936,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -549,15 +571,17 @@
           },
           {
             "type": "Literal",
-            "start": 1943,
-            "end": 1963,
-            "value": "ᾳς"
+            "start": 1942,
+            "end": 1962,
+            "value": "ᾳς",
+            "raw": "\"\\u03B1\\u0345\\u03C2\""
           },
           {
             "type": "Literal",
-            "start": 1967,
-            "end": 2058,
-            "value": "Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)"
+            "start": 1966,
+            "end": 2057,
+            "value": "Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)",
+            "raw": "\"Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)\""
           }
         ],
         "optional": false
@@ -565,26 +589,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2132,
-      "end": 2245,
+      "start": 2131,
+      "end": 2244,
       "expression": {
         "type": "CallExpression",
-        "start": 2132,
-        "end": 2244,
+        "start": 2131,
+        "end": 2243,
         "callee": {
           "type": "MemberExpression",
-          "start": 2132,
-          "end": 2148,
+          "start": 2131,
+          "end": 2147,
           "object": {
             "type": "Identifier",
-            "start": 2132,
-            "end": 2138,
+            "start": 2131,
+            "end": 2137,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2139,
-            "end": 2148,
+            "start": 2138,
+            "end": 2147,
             "name": "sameValue"
           },
           "computed": false,
@@ -593,22 +617,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2152,
-            "end": 2182,
+            "start": 2151,
+            "end": 2181,
             "callee": {
               "type": "MemberExpression",
-              "start": 2152,
-              "end": 2180,
+              "start": 2151,
+              "end": 2179,
               "object": {
                 "type": "Literal",
-                "start": 2152,
-                "end": 2162,
-                "value": "AΣB"
+                "start": 2151,
+                "end": 2161,
+                "value": "AΣB",
+                "raw": "\"A\\u03A3B\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2163,
-                "end": 2180,
+                "start": 2162,
+                "end": 2179,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -619,15 +644,17 @@
           },
           {
             "type": "Literal",
-            "start": 2186,
-            "end": 2196,
-            "value": "aσb"
+            "start": 2185,
+            "end": 2195,
+            "value": "aσb",
+            "raw": "\"a\\u03C3b\""
           },
           {
             "type": "Literal",
-            "start": 2200,
-            "end": 2242,
-            "value": "Sigma followed by LATIN CAPITAL LETTER B"
+            "start": 2199,
+            "end": 2241,
+            "value": "Sigma followed by LATIN CAPITAL LETTER B",
+            "raw": "\"Sigma followed by LATIN CAPITAL LETTER B\""
           }
         ],
         "optional": false
@@ -635,26 +662,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2246,
-      "end": 2408,
+      "start": 2245,
+      "end": 2407,
       "expression": {
         "type": "CallExpression",
-        "start": 2246,
-        "end": 2407,
+        "start": 2245,
+        "end": 2406,
         "callee": {
           "type": "MemberExpression",
-          "start": 2246,
-          "end": 2262,
+          "start": 2245,
+          "end": 2261,
           "object": {
             "type": "Identifier",
-            "start": 2246,
-            "end": 2252,
+            "start": 2245,
+            "end": 2251,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2253,
-            "end": 2262,
+            "start": 2252,
+            "end": 2261,
             "name": "sameValue"
           },
           "computed": false,
@@ -663,22 +690,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2266,
-            "end": 2307,
+            "start": 2265,
+            "end": 2306,
             "callee": {
               "type": "MemberExpression",
-              "start": 2266,
-              "end": 2305,
+              "start": 2265,
+              "end": 2304,
               "object": {
                 "type": "Literal",
-                "start": 2266,
-                "end": 2287,
-                "value": "AΣ𝒢"
+                "start": 2265,
+                "end": 2286,
+                "value": "AΣ𝒢",
+                "raw": "\"A\\u03A3\\uD835\\uDCA2\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2288,
-                "end": 2305,
+                "start": 2287,
+                "end": 2304,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -689,15 +717,17 @@
           },
           {
             "type": "Literal",
-            "start": 2311,
-            "end": 2332,
-            "value": "aσ𝒢"
+            "start": 2310,
+            "end": 2331,
+            "value": "aσ𝒢",
+            "raw": "\"a\\u03C3\\uD835\\uDCA2\""
           },
           {
             "type": "Literal",
-            "start": 2336,
-            "end": 2405,
-            "value": "Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)"
+            "start": 2335,
+            "end": 2404,
+            "value": "Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
+            "raw": "\"Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
           }
         ],
         "optional": false
@@ -705,26 +735,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2409,
-      "end": 2511,
+      "start": 2408,
+      "end": 2510,
       "expression": {
         "type": "CallExpression",
-        "start": 2409,
-        "end": 2510,
+        "start": 2408,
+        "end": 2509,
         "callee": {
           "type": "MemberExpression",
-          "start": 2409,
-          "end": 2425,
+          "start": 2408,
+          "end": 2424,
           "object": {
             "type": "Identifier",
-            "start": 2409,
-            "end": 2415,
+            "start": 2408,
+            "end": 2414,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2416,
-            "end": 2425,
+            "start": 2415,
+            "end": 2424,
             "name": "sameValue"
           },
           "computed": false,
@@ -733,22 +763,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2429,
-            "end": 2460,
+            "start": 2428,
+            "end": 2459,
             "callee": {
               "type": "MemberExpression",
-              "start": 2429,
-              "end": 2458,
+              "start": 2428,
+              "end": 2457,
               "object": {
                 "type": "Literal",
-                "start": 2429,
-                "end": 2440,
-                "value": "AΣ.b"
+                "start": 2428,
+                "end": 2439,
+                "value": "AΣ.b",
+                "raw": "\"A\\u03A3.b\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2441,
-                "end": 2458,
+                "start": 2440,
+                "end": 2457,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -759,15 +790,17 @@
           },
           {
             "type": "Literal",
-            "start": 2464,
-            "end": 2475,
-            "value": "aσ.b"
+            "start": 2463,
+            "end": 2474,
+            "value": "aσ.b",
+            "raw": "\"a\\u03C3.b\""
           },
           {
             "type": "Literal",
-            "start": 2479,
-            "end": 2508,
-            "value": "Sigma followed by FULL STOP"
+            "start": 2478,
+            "end": 2507,
+            "value": "Sigma followed by FULL STOP",
+            "raw": "\"Sigma followed by FULL STOP\""
           }
         ],
         "optional": false
@@ -775,26 +808,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2512,
-      "end": 2633,
+      "start": 2511,
+      "end": 2632,
       "expression": {
         "type": "CallExpression",
-        "start": 2512,
-        "end": 2632,
+        "start": 2511,
+        "end": 2631,
         "callee": {
           "type": "MemberExpression",
-          "start": 2512,
-          "end": 2528,
+          "start": 2511,
+          "end": 2527,
           "object": {
             "type": "Identifier",
-            "start": 2512,
-            "end": 2518,
+            "start": 2511,
+            "end": 2517,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2519,
-            "end": 2528,
+            "start": 2518,
+            "end": 2527,
             "name": "sameValue"
           },
           "computed": false,
@@ -803,22 +836,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2532,
-            "end": 2568,
+            "start": 2531,
+            "end": 2567,
             "callee": {
               "type": "MemberExpression",
-              "start": 2532,
-              "end": 2566,
+              "start": 2531,
+              "end": 2565,
               "object": {
                 "type": "Literal",
-                "start": 2532,
-                "end": 2548,
-                "value": "AΣ­B"
+                "start": 2531,
+                "end": 2547,
+                "value": "AΣ­B",
+                "raw": "\"A\\u03A3\\u00ADB\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2549,
-                "end": 2566,
+                "start": 2548,
+                "end": 2565,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -829,15 +863,17 @@
           },
           {
             "type": "Literal",
-            "start": 2572,
-            "end": 2588,
-            "value": "aσ­b"
+            "start": 2571,
+            "end": 2587,
+            "value": "aσ­b",
+            "raw": "\"a\\u03C3\\u00ADb\""
           },
           {
             "type": "Literal",
-            "start": 2592,
-            "end": 2630,
-            "value": "Sigma followed by SOFT HYPHEN (00AD)"
+            "start": 2591,
+            "end": 2629,
+            "value": "Sigma followed by SOFT HYPHEN (00AD)",
+            "raw": "\"Sigma followed by SOFT HYPHEN (00AD)\""
           }
         ],
         "optional": false
@@ -845,26 +881,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2634,
-      "end": 2800,
+      "start": 2633,
+      "end": 2799,
       "expression": {
         "type": "CallExpression",
-        "start": 2634,
-        "end": 2799,
+        "start": 2633,
+        "end": 2798,
         "callee": {
           "type": "MemberExpression",
-          "start": 2634,
-          "end": 2650,
+          "start": 2633,
+          "end": 2649,
           "object": {
             "type": "Identifier",
-            "start": 2634,
-            "end": 2640,
+            "start": 2633,
+            "end": 2639,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2641,
-            "end": 2650,
+            "start": 2640,
+            "end": 2649,
             "name": "sameValue"
           },
           "computed": false,
@@ -873,22 +909,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2654,
-            "end": 2696,
+            "start": 2653,
+            "end": 2695,
             "callee": {
               "type": "MemberExpression",
-              "start": 2654,
-              "end": 2694,
+              "start": 2653,
+              "end": 2693,
               "object": {
                 "type": "Literal",
-                "start": 2654,
-                "end": 2676,
-                "value": "AΣ𝉂B"
+                "start": 2653,
+                "end": 2675,
+                "value": "AΣ𝉂B",
+                "raw": "\"A\\u03A3\\uD834\\uDE42B\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2677,
-                "end": 2694,
+                "start": 2676,
+                "end": 2693,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -899,15 +936,17 @@
           },
           {
             "type": "Literal",
-            "start": 2700,
-            "end": 2722,
-            "value": "aσ𝉂b"
+            "start": 2699,
+            "end": 2721,
+            "value": "aσ𝉂b",
+            "raw": "\"a\\u03C3\\uD834\\uDE42b\""
           },
           {
             "type": "Literal",
-            "start": 2726,
-            "end": 2797,
-            "value": "Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)"
+            "start": 2725,
+            "end": 2796,
+            "value": "Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
+            "raw": "\"Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
           }
         ],
         "optional": false
@@ -915,26 +954,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2801,
-      "end": 2938,
+      "start": 2800,
+      "end": 2937,
       "expression": {
         "type": "CallExpression",
-        "start": 2801,
-        "end": 2937,
+        "start": 2800,
+        "end": 2936,
         "callee": {
           "type": "MemberExpression",
-          "start": 2801,
-          "end": 2817,
+          "start": 2800,
+          "end": 2816,
           "object": {
             "type": "Identifier",
-            "start": 2801,
-            "end": 2807,
+            "start": 2800,
+            "end": 2806,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2808,
-            "end": 2817,
+            "start": 2807,
+            "end": 2816,
             "name": "sameValue"
           },
           "computed": false,
@@ -943,22 +982,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2821,
-            "end": 2856,
+            "start": 2820,
+            "end": 2855,
             "callee": {
               "type": "MemberExpression",
-              "start": 2821,
-              "end": 2854,
+              "start": 2820,
+              "end": 2853,
               "object": {
                 "type": "Literal",
-                "start": 2821,
-                "end": 2836,
-                "value": "AΣͅ"
+                "start": 2820,
+                "end": 2835,
+                "value": "AΣͅ",
+                "raw": "\"A\\u03A3\\u0345\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2837,
-                "end": 2854,
+                "start": 2836,
+                "end": 2853,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -969,15 +1009,17 @@
           },
           {
             "type": "Literal",
-            "start": 2860,
-            "end": 2875,
-            "value": "aςͅ"
+            "start": 2859,
+            "end": 2874,
+            "value": "aςͅ",
+            "raw": "\"a\\u03C2\\u0345\""
           },
           {
             "type": "Literal",
-            "start": 2879,
-            "end": 2935,
-            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)"
+            "start": 2878,
+            "end": 2934,
+            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)",
+            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)\""
           }
         ],
         "optional": false
@@ -985,26 +1027,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2939,
-      "end": 3123,
+      "start": 2938,
+      "end": 3122,
       "expression": {
         "type": "CallExpression",
-        "start": 2939,
-        "end": 3122,
+        "start": 2938,
+        "end": 3121,
         "callee": {
           "type": "MemberExpression",
-          "start": 2939,
-          "end": 2955,
+          "start": 2938,
+          "end": 2954,
           "object": {
             "type": "Identifier",
-            "start": 2939,
-            "end": 2945,
+            "start": 2938,
+            "end": 2944,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2946,
-            "end": 2955,
+            "start": 2945,
+            "end": 2954,
             "name": "sameValue"
           },
           "computed": false,
@@ -1013,22 +1055,23 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2959,
-            "end": 3000,
+            "start": 2958,
+            "end": 2999,
             "callee": {
               "type": "MemberExpression",
-              "start": 2959,
-              "end": 2998,
+              "start": 2958,
+              "end": 2997,
               "object": {
                 "type": "Literal",
-                "start": 2959,
-                "end": 2980,
-                "value": "AΣͅΑ"
+                "start": 2958,
+                "end": 2979,
+                "value": "AΣͅΑ",
+                "raw": "\"A\\u03A3\\u0345\\u0391\""
               },
               "property": {
                 "type": "Identifier",
-                "start": 2981,
-                "end": 2998,
+                "start": 2980,
+                "end": 2997,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -1039,15 +1082,17 @@
           },
           {
             "type": "Literal",
-            "start": 3004,
-            "end": 3025,
-            "value": "aσͅα"
+            "start": 3003,
+            "end": 3024,
+            "value": "aσͅα",
+            "raw": "\"a\\u03C3\\u0345\\u03B1\""
           },
           {
             "type": "Literal",
-            "start": 3029,
-            "end": 3120,
-            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)"
+            "start": 3028,
+            "end": 3119,
+            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)",
+            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)\""
           }
         ],
         "optional": false

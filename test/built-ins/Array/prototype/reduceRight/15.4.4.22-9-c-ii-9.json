@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 298,
             "end": 299,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -73,7 +74,8 @@
               "type": "Literal",
               "start": 347,
               "end": 351,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
@@ -124,13 +126,15 @@
                     "type": "Literal",
                     "start": 374,
                     "end": 376,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   },
                   {
                     "type": "Literal",
                     "start": 378,
                     "end": 380,
-                    "value": 12
+                    "value": 12,
+                    "raw": "12"
                   }
                 ]
               },
@@ -154,7 +158,8 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 408,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ],
             "optional": false
@@ -163,13 +168,15 @@
             "type": "Literal",
             "start": 411,
             "end": 415,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 455,
-            "value": "[11, 12].reduceRight(callbackfn, 11)"
+            "value": "[11, 12].reduceRight(callbackfn, 11)",
+            "raw": "'[11, 12].reduceRight(callbackfn, 11)'"
           }
         ],
         "optional": false
@@ -213,13 +220,15 @@
             "type": "Literal",
             "start": 483,
             "end": 484,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 494,
-            "value": "called"
+            "value": "called",
+            "raw": "'called'"
           }
         ],
         "optional": false

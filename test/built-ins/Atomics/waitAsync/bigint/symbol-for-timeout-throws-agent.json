@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 742,
             "end": 752,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 809,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
           }
         ],
         "optional": false
@@ -92,7 +94,8 @@
             "type": "Literal",
             "start": 828,
             "end": 829,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -243,7 +246,8 @@
                       "type": "Literal",
                       "start": 1460,
                       "end": 1461,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   }
                 ]
@@ -327,7 +331,8 @@
                     "type": "Literal",
                     "start": 1511,
                     "end": 1513,
-                    "value": "1n"
+                    "value": "1n",
+                    "raw": "1n"
                   }
                 ],
                 "optional": false
@@ -401,13 +406,15 @@
                             "type": "Literal",
                             "start": 1573,
                             "end": 1575,
-                            "value": "1n"
+                            "value": "1n",
+                            "raw": "1n"
                           },
                           {
                             "type": "Literal",
                             "start": 1577,
                             "end": 1610,
-                            "value": "The value of `agentCount` is 1n"
+                            "value": "The value of `agentCount` is 1n",
+                            "raw": "'The value of `agentCount` is 1n'"
                           }
                         ],
                         "optional": false
@@ -489,13 +496,15 @@
                             "type": "Literal",
                             "start": 1677,
                             "end": 1690,
-                            "value": "A TypeError"
+                            "value": "A TypeError",
+                            "raw": "'A TypeError'"
                           },
                           {
                             "type": "Literal",
                             "start": 1696,
                             "end": 1769,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\""
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"",
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"'"
                           }
                         ],
                         "optional": false
@@ -577,13 +586,15 @@
                             "type": "Literal",
                             "start": 1839,
                             "end": 1852,
-                            "value": "B TypeError"
+                            "value": "B TypeError",
+                            "raw": "'B TypeError'"
                           },
                           {
                             "type": "Literal",
                             "start": 1858,
                             "end": 1931,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\""
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"",
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"'"
                           }
                         ],
                         "optional": false
@@ -651,7 +662,8 @@
                                 "type": "Literal",
                                 "start": 1983,
                                 "end": 1984,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             ],
                             "optional": false
@@ -660,13 +672,15 @@
                             "type": "Literal",
                             "start": 1991,
                             "end": 1992,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1998,
                             "end": 2110,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
                           }
                         ],
                         "optional": false

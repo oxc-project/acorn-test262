@@ -51,7 +51,8 @@
             "type": "Literal",
             "start": 401,
             "end": 405,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           "computed": true,
           "optional": false
@@ -60,7 +61,8 @@
           "type": "Literal",
           "start": 409,
           "end": 410,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -106,7 +108,8 @@
               "type": "Literal",
               "start": 431,
               "end": 432,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -121,7 +124,8 @@
             "type": "Literal",
             "start": 446,
             "end": 496,
-            "value": "The value of x[0] is expected to equal undefined"
+            "value": "The value of x[0] is expected to equal undefined",
+            "raw": "'The value of x[0] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -169,7 +173,8 @@
               "type": "Literal",
               "start": 518,
               "end": 524,
-              "value": "null"
+              "value": "null",
+              "raw": "\"null\""
             },
             "computed": true,
             "optional": false
@@ -178,13 +183,15 @@
             "type": "Literal",
             "start": 527,
             "end": 528,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 574,
-            "value": "The value of x[\"null\"] is expected to be 0"
+            "value": "The value of x[\"null\"] is expected to be 0",
+            "raw": "'The value of x[\"null\"] is expected to be 0'"
           }
         ],
         "optional": false
@@ -247,7 +254,8 @@
           "type": "Literal",
           "start": 605,
           "end": 606,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -293,7 +301,8 @@
               "type": "Literal",
               "start": 627,
               "end": 628,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -308,7 +317,8 @@
             "type": "Literal",
             "start": 642,
             "end": 692,
-            "value": "The value of y[0] is expected to equal undefined"
+            "value": "The value of y[0] is expected to equal undefined",
+            "raw": "'The value of y[0] is expected to equal undefined'"
           }
         ],
         "optional": false
@@ -356,7 +366,8 @@
               "type": "Literal",
               "start": 714,
               "end": 725,
-              "value": "undefined"
+              "value": "undefined",
+              "raw": "\"undefined\""
             },
             "computed": true,
             "optional": false
@@ -365,13 +376,15 @@
             "type": "Literal",
             "start": 728,
             "end": 729,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 780,
-            "value": "The value of y[\"undefined\"] is expected to be 0"
+            "value": "The value of y[\"undefined\"] is expected to be 0",
+            "raw": "'The value of y[\"undefined\"] is expected to be 0'"
           }
         ],
         "optional": false

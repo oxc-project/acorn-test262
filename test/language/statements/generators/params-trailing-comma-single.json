@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1518,
             "end": 1519,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -92,7 +93,8 @@
                   "type": "Literal",
                   "start": 1611,
                   "end": 1613,
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
               ],
               "optional": false
@@ -128,7 +130,8 @@
                   "type": "Literal",
                   "start": 1642,
                   "end": 1643,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             }
@@ -163,13 +166,15 @@
                 "type": "Literal",
                 "start": 1652,
                 "end": 1654,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Literal",
                 "start": 1656,
                 "end": 1658,
-                "value": 39
+                "value": 39,
+                "raw": "39"
               }
             ],
             "optional": false
@@ -225,13 +230,15 @@
             "type": "Literal",
             "start": 1697,
             "end": 1698,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1700,
             "end": 1741,
-            "value": "generator function invoked exactly once"
+            "value": "generator function invoked exactly once",
+            "raw": "'generator function invoked exactly once'"
           }
         ],
         "optional": false
@@ -288,13 +295,15 @@
             "type": "Literal",
             "start": 1774,
             "end": 1775,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1777,
             "end": 1801,
-            "value": "length is properly set"
+            "value": "length is properly set",
+            "raw": "'length is properly set'"
           }
         ],
         "optional": false

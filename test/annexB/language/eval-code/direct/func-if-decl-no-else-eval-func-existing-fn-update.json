@@ -68,7 +68,8 @@
                         "type": "Literal",
                         "start": 1573,
                         "end": 1707,
-                        "value": "if (true) function f() { return \"inner declaration\"; }after = f;        function f() {      return \"outer declaration\";    }"
+                        "value": "if (true) function f() { return \"inner declaration\"; }after = f;        function f() {      return \"outer declaration\";    }",
+                        "raw": "'if (true) function f() { return \"inner declaration\"; }after = f;\\\n    \\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'"
                       }
                     ],
                     "optional": false
@@ -127,7 +128,8 @@
             "type": "Literal",
             "start": 1751,
             "end": 1761,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -178,7 +180,8 @@
             "type": "Literal",
             "start": 1790,
             "end": 1809,
-            "value": "inner declaration"
+            "value": "inner declaration",
+            "raw": "'inner declaration'"
           }
         ],
         "optional": false

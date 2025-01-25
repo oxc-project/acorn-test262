@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 312,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 315,
             "end": 316,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 345,
-            "value": "Number(\"1\") must return 1"
+            "value": "Number(\"1\") must return 1",
+            "raw": "'Number(\"1\") must return 1'"
           }
         ],
         "optional": false
@@ -110,7 +113,8 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 377,
-                "value": "0x1"
+                "value": "0x1",
+                "raw": "\"0x1\""
               }
             ],
             "optional": false
@@ -119,13 +123,15 @@
             "type": "Literal",
             "start": 380,
             "end": 381,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 412,
-            "value": "Number(\"0x1\") must return 1"
+            "value": "Number(\"0x1\") must return 1",
+            "raw": "'Number(\"0x1\") must return 1'"
           }
         ],
         "optional": false
@@ -173,7 +179,8 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 439,
-                "value": "0X1"
+                "value": "0X1",
+                "raw": "\"0X1\""
               }
             }
           },
@@ -181,13 +188,15 @@
             "type": "Literal",
             "start": 442,
             "end": 443,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 490,
-            "value": "The value of `+(\"0X1\")` is expected to be 1"
+            "value": "The value of `+(\"0X1\")` is expected to be 1",
+            "raw": "'The value of `+(\"0X1\")` is expected to be 1'"
           }
         ],
         "optional": false

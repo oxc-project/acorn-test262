@@ -52,7 +52,8 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 459,
-                "value": "setPrototypeOf"
+                "value": "setPrototypeOf",
+                "raw": "\"setPrototypeOf\""
               },
               {
                 "type": "ObjectExpression",

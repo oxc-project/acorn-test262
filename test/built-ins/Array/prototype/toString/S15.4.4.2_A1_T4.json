@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 459,
                           "end": 462,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -194,7 +195,8 @@
             "type": "Literal",
             "start": 538,
             "end": 600,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -256,7 +258,8 @@
                           "type": "Literal",
                           "start": 644,
                           "end": 647,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -299,7 +302,8 @@
                           "type": "Literal",
                           "start": 679,
                           "end": 682,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -434,7 +438,8 @@
             "type": "Literal",
             "start": 758,
             "end": 820,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -496,7 +501,8 @@
                           "type": "Literal",
                           "start": 864,
                           "end": 867,
-                          "value": "+"
+                          "value": "+",
+                          "raw": "\"+\""
                         }
                       }
                     ]
@@ -674,7 +680,8 @@
             "type": "Literal",
             "start": 977,
             "end": 1039,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -736,7 +743,8 @@
                           "type": "Literal",
                           "start": 1082,
                           "end": 1089,
-                          "value": "error"
+                          "value": "error",
+                          "raw": "\"error\""
                         }
                       }
                     ]
@@ -779,7 +787,8 @@
                           "type": "Literal",
                           "start": 1121,
                           "end": 1124,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -914,7 +923,8 @@
             "type": "Literal",
             "start": 1200,
             "end": 1262,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -976,7 +986,8 @@
                           "type": "Literal",
                           "start": 1308,
                           "end": 1311,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -1111,7 +1122,8 @@
             "type": "Literal",
             "start": 1387,
             "end": 1449,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -1216,7 +1228,8 @@
                           "type": "Literal",
                           "start": 1527,
                           "end": 1530,
-                          "value": "*"
+                          "value": "*",
+                          "raw": "\"*\""
                         }
                       }
                     ]
@@ -1351,7 +1364,8 @@
             "type": "Literal",
             "start": 1605,
             "end": 1667,
-            "value": "x.toString() must return the same value returned by x.join()"
+            "value": "x.toString() must return the same value returned by x.join()",
+            "raw": "'x.toString() must return the same value returned by x.join()'"
           }
         ],
         "optional": false
@@ -1461,7 +1475,8 @@
                                       "type": "Literal",
                                       "start": 1753,
                                       "end": 1756,
-                                      "value": "+"
+                                      "value": "+",
+                                      "raw": "\"+\""
                                     }
                                   }
                                 ]

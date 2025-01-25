@@ -24,13 +24,15 @@
                 "type": "Literal",
                 "start": 599,
                 "end": 609,
-                "value": "toString"
+                "value": "toString",
+                "raw": "\"toString\""
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 620,
-                "value": "valueOf"
+                "value": "valueOf",
+                "raw": "\"valueOf\""
               }
             ]
           },
@@ -166,7 +168,8 @@
                                             "type": "Literal",
                                             "start": 752,
                                             "end": 785,
-                                            "value": " lookup should not be performed"
+                                            "value": " lookup should not be performed",
+                                            "raw": "\" lookup should not be performed\""
                                           }
                                         }
                                       ]
@@ -326,7 +329,8 @@
                         "type": "Literal",
                         "start": 926,
                         "end": 935,
-                        "value": "default"
+                        "value": "default",
+                        "raw": "\"default\""
                       }
                     ],
                     "optional": false

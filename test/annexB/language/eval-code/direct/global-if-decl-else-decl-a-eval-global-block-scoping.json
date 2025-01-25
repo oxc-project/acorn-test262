@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 1594,
             "end": 1698,
-            "value": "if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; } else function _f() {}"
+            "value": "if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; } else function _f() {}",
+            "raw": "'if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; } else function _f() {}'"
           }
         ],
         "optional": false
@@ -123,13 +124,15 @@
             "type": "Literal",
             "start": 1744,
             "end": 1750,
-            "value": "decl"
+            "value": "decl",
+            "raw": "'decl'"
           },
           {
             "type": "Literal",
             "start": 1754,
             "end": 1819,
-            "value": "Block-scoped binding value is function object at execution time"
+            "value": "Block-scoped binding value is function object at execution time",
+            "raw": "'Block-scoped binding value is function object at execution time'"
           }
         ],
         "optional": false
@@ -173,13 +176,15 @@
             "type": "Literal",
             "start": 1851,
             "end": 1854,
-            "value": 123
+            "value": 123,
+            "raw": "123"
           },
           {
             "type": "Literal",
             "start": 1856,
             "end": 1889,
-            "value": "Block-scoped binding is mutable"
+            "value": "Block-scoped binding is mutable",
+            "raw": "'Block-scoped binding is mutable'"
           }
         ],
         "optional": false
@@ -230,13 +235,15 @@
             "type": "Literal",
             "start": 1919,
             "end": 1925,
-            "value": "decl"
+            "value": "decl",
+            "raw": "'decl'"
           },
           {
             "type": "Literal",
             "start": 1929,
             "end": 1994,
-            "value": "Block-scoped binding is independent of outer var-scoped binding"
+            "value": "Block-scoped binding is independent of outer var-scoped binding",
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
           }
         ],
         "optional": false

@@ -63,14 +63,16 @@
                       "type": "Literal",
                       "start": 489,
                       "end": 491,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 496,
                       "end": 498,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -81,7 +83,8 @@
             "type": "Literal",
             "start": 503,
             "end": 541,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -147,14 +150,16 @@
                       "type": "Literal",
                       "start": 582,
                       "end": 584,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 589,
                       "end": 591,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -165,7 +170,8 @@
             "type": "Literal",
             "start": 596,
             "end": 634,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -231,14 +237,16 @@
                       "type": "Literal",
                       "start": 675,
                       "end": 677,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 682,
                       "end": 684,
-                      "value": "2n"
+                      "value": "2n",
+                      "raw": "2n"
                     }
                   }
                 }
@@ -249,7 +257,8 @@
             "type": "Literal",
             "start": 689,
             "end": 727,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -315,14 +324,16 @@
                       "type": "Literal",
                       "start": 768,
                       "end": 770,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 775,
                       "end": 777,
-                      "value": "3n"
+                      "value": "3n",
+                      "raw": "3n"
                     }
                   }
                 }
@@ -333,7 +344,8 @@
             "type": "Literal",
             "start": 782,
             "end": 820,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -399,7 +411,8 @@
                       "type": "Literal",
                       "start": 861,
                       "end": 863,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -412,7 +425,8 @@
                         "type": "Literal",
                         "start": 869,
                         "end": 871,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     }
                   }
@@ -424,7 +438,8 @@
             "type": "Literal",
             "start": 876,
             "end": 914,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -490,7 +505,8 @@
                       "type": "Literal",
                       "start": 955,
                       "end": 957,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -503,7 +519,8 @@
                         "type": "Literal",
                         "start": 963,
                         "end": 965,
-                        "value": "2n"
+                        "value": "2n",
+                        "raw": "2n"
                       }
                     }
                   }
@@ -515,7 +532,8 @@
             "type": "Literal",
             "start": 970,
             "end": 1008,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -581,7 +599,8 @@
                       "type": "Literal",
                       "start": 1049,
                       "end": 1051,
-                      "value": "5n"
+                      "value": "5n",
+                      "raw": "5n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -594,7 +613,8 @@
                         "type": "Literal",
                         "start": 1057,
                         "end": 1059,
-                        "value": "3n"
+                        "value": "3n",
+                        "raw": "3n"
                       }
                     }
                   }
@@ -606,7 +626,8 @@
             "type": "Literal",
             "start": 1064,
             "end": 1102,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -672,14 +693,16 @@
                       "type": "Literal",
                       "start": 1143,
                       "end": 1145,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1150,
                       "end": 1154,
-                      "value": "128n"
+                      "value": "128n",
+                      "raw": "128n"
                     }
                   }
                 }
@@ -690,7 +713,8 @@
             "type": "Literal",
             "start": 1159,
             "end": 1197,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -756,7 +780,8 @@
                       "type": "Literal",
                       "start": 1238,
                       "end": 1240,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -769,7 +794,8 @@
                         "type": "Literal",
                         "start": 1246,
                         "end": 1250,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -781,7 +807,8 @@
             "type": "Literal",
             "start": 1255,
             "end": 1293,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -847,14 +874,16 @@
                       "type": "Literal",
                       "start": 1334,
                       "end": 1338,
-                      "value": "582n"
+                      "value": "582n",
+                      "raw": "582n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1343,
                       "end": 1345,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -865,7 +894,8 @@
             "type": "Literal",
             "start": 1350,
             "end": 1388,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -931,14 +961,16 @@
                       "type": "Literal",
                       "start": 1429,
                       "end": 1433,
-                      "value": "582n"
+                      "value": "582n",
+                      "raw": "582n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1438,
                       "end": 1442,
-                      "value": "127n"
+                      "value": "127n",
+                      "raw": "127n"
                     }
                   }
                 }
@@ -949,7 +981,8 @@
             "type": "Literal",
             "start": 1447,
             "end": 1485,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1015,14 +1048,16 @@
                       "type": "Literal",
                       "start": 1526,
                       "end": 1530,
-                      "value": "582n"
+                      "value": "582n",
+                      "raw": "582n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1535,
                       "end": 1539,
-                      "value": "128n"
+                      "value": "128n",
+                      "raw": "128n"
                     }
                   }
                 }
@@ -1033,7 +1068,8 @@
             "type": "Literal",
             "start": 1544,
             "end": 1582,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1099,14 +1135,16 @@
                       "type": "Literal",
                       "start": 1623,
                       "end": 1627,
-                      "value": "582n"
+                      "value": "582n",
+                      "raw": "582n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1632,
                       "end": 1636,
-                      "value": "129n"
+                      "value": "129n",
+                      "raw": "129n"
                     }
                   }
                 }
@@ -1117,7 +1155,8 @@
             "type": "Literal",
             "start": 1641,
             "end": 1679,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1183,7 +1222,8 @@
                       "type": "Literal",
                       "start": 1720,
                       "end": 1724,
-                      "value": "582n"
+                      "value": "582n",
+                      "raw": "582n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1196,7 +1236,8 @@
                         "type": "Literal",
                         "start": 1730,
                         "end": 1734,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -1208,7 +1249,8 @@
             "type": "Literal",
             "start": 1739,
             "end": 1777,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1274,14 +1316,16 @@
                       "type": "Literal",
                       "start": 1818,
                       "end": 1864,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 1869,
                       "end": 1872,
-                      "value": "64n"
+                      "value": "64n",
+                      "raw": "64n"
                     }
                   }
                 }
@@ -1292,7 +1336,8 @@
             "type": "Literal",
             "start": 1877,
             "end": 1915,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1358,14 +1403,16 @@
                       "type": "Literal",
                       "start": 1956,
                       "end": 2002,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 2007,
                       "end": 2010,
-                      "value": "32n"
+                      "value": "32n",
+                      "raw": "32n"
                     }
                   }
                 }
@@ -1376,7 +1423,8 @@
             "type": "Literal",
             "start": 2015,
             "end": 2053,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1442,14 +1490,16 @@
                       "type": "Literal",
                       "start": 2094,
                       "end": 2140,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 2145,
                       "end": 2148,
-                      "value": "16n"
+                      "value": "16n",
+                      "raw": "16n"
                     }
                   }
                 }
@@ -1460,7 +1510,8 @@
             "type": "Literal",
             "start": 2153,
             "end": 2191,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1526,14 +1577,16 @@
                       "type": "Literal",
                       "start": 2232,
                       "end": 2278,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
                       "type": "Literal",
                       "start": 2283,
                       "end": 2285,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -1544,7 +1597,8 @@
             "type": "Literal",
             "start": 2290,
             "end": 2328,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1610,7 +1664,8 @@
                       "type": "Literal",
                       "start": 2369,
                       "end": 2415,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1623,7 +1678,8 @@
                         "type": "Literal",
                         "start": 2421,
                         "end": 2424,
-                        "value": "16n"
+                        "value": "16n",
+                        "raw": "16n"
                       }
                     }
                   }
@@ -1635,7 +1691,8 @@
             "type": "Literal",
             "start": 2429,
             "end": 2467,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1701,7 +1758,8 @@
                       "type": "Literal",
                       "start": 2508,
                       "end": 2554,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1714,7 +1772,8 @@
                         "type": "Literal",
                         "start": 2560,
                         "end": 2563,
-                        "value": "32n"
+                        "value": "32n",
+                        "raw": "32n"
                       }
                     }
                   }
@@ -1726,7 +1785,8 @@
             "type": "Literal",
             "start": 2568,
             "end": 2606,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1792,7 +1852,8 @@
                       "type": "Literal",
                       "start": 2647,
                       "end": 2693,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1805,7 +1866,8 @@
                         "type": "Literal",
                         "start": 2699,
                         "end": 2702,
-                        "value": "64n"
+                        "value": "64n",
+                        "raw": "64n"
                       }
                     }
                   }
@@ -1817,7 +1879,8 @@
             "type": "Literal",
             "start": 2707,
             "end": 2745,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1883,7 +1946,8 @@
                       "type": "Literal",
                       "start": 2786,
                       "end": 2832,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1896,7 +1960,8 @@
                         "type": "Literal",
                         "start": 2838,
                         "end": 2842,
-                        "value": "127n"
+                        "value": "127n",
+                        "raw": "127n"
                       }
                     }
                   }
@@ -1908,7 +1973,8 @@
             "type": "Literal",
             "start": 2847,
             "end": 2885,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -1974,7 +2040,8 @@
                       "type": "Literal",
                       "start": 2926,
                       "end": 2972,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1987,7 +2054,8 @@
                         "type": "Literal",
                         "start": 2978,
                         "end": 2982,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -1999,7 +2067,8 @@
             "type": "Literal",
             "start": 2987,
             "end": 3025,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2065,7 +2134,8 @@
                       "type": "Literal",
                       "start": 3066,
                       "end": 3112,
-                      "value": "405972677036361916727469983882855107238581880n"
+                      "value": "405972677036361916727469983882855107238581880n",
+                      "raw": "405972677036361916727469983882855107238581880n"
                     },
                     "operator": ">>>",
                     "right": {
@@ -2078,7 +2148,8 @@
                         "type": "Literal",
                         "start": 3118,
                         "end": 3122,
-                        "value": "129n"
+                        "value": "129n",
+                        "raw": "129n"
                       }
                     }
                   }
@@ -2090,7 +2161,8 @@
             "type": "Literal",
             "start": 3127,
             "end": 3165,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2162,7 +2234,8 @@
                         "type": "Literal",
                         "start": 3207,
                         "end": 3209,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2170,7 +2243,8 @@
                       "type": "Literal",
                       "start": 3214,
                       "end": 3216,
-                      "value": "1n"
+                      "value": "1n",
+                      "raw": "1n"
                     }
                   }
                 }
@@ -2181,7 +2255,8 @@
             "type": "Literal",
             "start": 3221,
             "end": 3259,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2253,7 +2328,8 @@
                         "type": "Literal",
                         "start": 3301,
                         "end": 3303,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2261,7 +2337,8 @@
                       "type": "Literal",
                       "start": 3308,
                       "end": 3310,
-                      "value": "2n"
+                      "value": "2n",
+                      "raw": "2n"
                     }
                   }
                 }
@@ -2272,7 +2349,8 @@
             "type": "Literal",
             "start": 3315,
             "end": 3353,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2344,7 +2422,8 @@
                         "type": "Literal",
                         "start": 3395,
                         "end": 3397,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2352,7 +2431,8 @@
                       "type": "Literal",
                       "start": 3402,
                       "end": 3404,
-                      "value": "3n"
+                      "value": "3n",
+                      "raw": "3n"
                     }
                   }
                 }
@@ -2363,7 +2443,8 @@
             "type": "Literal",
             "start": 3409,
             "end": 3447,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2435,7 +2516,8 @@
                         "type": "Literal",
                         "start": 3489,
                         "end": 3491,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2449,7 +2531,8 @@
                         "type": "Literal",
                         "start": 3497,
                         "end": 3499,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     }
                   }
@@ -2461,7 +2544,8 @@
             "type": "Literal",
             "start": 3504,
             "end": 3542,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2533,7 +2617,8 @@
                         "type": "Literal",
                         "start": 3584,
                         "end": 3586,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2547,7 +2632,8 @@
                         "type": "Literal",
                         "start": 3592,
                         "end": 3594,
-                        "value": "2n"
+                        "value": "2n",
+                        "raw": "2n"
                       }
                     }
                   }
@@ -2559,7 +2645,8 @@
             "type": "Literal",
             "start": 3599,
             "end": 3637,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2631,7 +2718,8 @@
                         "type": "Literal",
                         "start": 3679,
                         "end": 3681,
-                        "value": "5n"
+                        "value": "5n",
+                        "raw": "5n"
                       }
                     },
                     "operator": ">>>",
@@ -2645,7 +2733,8 @@
                         "type": "Literal",
                         "start": 3687,
                         "end": 3689,
-                        "value": "3n"
+                        "value": "3n",
+                        "raw": "3n"
                       }
                     }
                   }
@@ -2657,7 +2746,8 @@
             "type": "Literal",
             "start": 3694,
             "end": 3732,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2729,7 +2819,8 @@
                         "type": "Literal",
                         "start": 3774,
                         "end": 3776,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     },
                     "operator": ">>>",
@@ -2737,7 +2828,8 @@
                       "type": "Literal",
                       "start": 3781,
                       "end": 3785,
-                      "value": "128n"
+                      "value": "128n",
+                      "raw": "128n"
                     }
                   }
                 }
@@ -2748,7 +2840,8 @@
             "type": "Literal",
             "start": 3790,
             "end": 3828,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2820,7 +2913,8 @@
                         "type": "Literal",
                         "start": 3870,
                         "end": 3872,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     },
                     "operator": ">>>",
@@ -2828,7 +2922,8 @@
                       "type": "Literal",
                       "start": 3877,
                       "end": 3879,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -2839,7 +2934,8 @@
             "type": "Literal",
             "start": 3884,
             "end": 3922,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -2911,7 +3007,8 @@
                         "type": "Literal",
                         "start": 3964,
                         "end": 3966,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     },
                     "operator": ">>>",
@@ -2925,7 +3022,8 @@
                         "type": "Literal",
                         "start": 3972,
                         "end": 3976,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -2937,7 +3035,8 @@
             "type": "Literal",
             "start": 3981,
             "end": 4019,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3009,7 +3108,8 @@
                         "type": "Literal",
                         "start": 4061,
                         "end": 4065,
-                        "value": "582n"
+                        "value": "582n",
+                        "raw": "582n"
                       }
                     },
                     "operator": ">>>",
@@ -3017,7 +3117,8 @@
                       "type": "Literal",
                       "start": 4070,
                       "end": 4072,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -3028,7 +3129,8 @@
             "type": "Literal",
             "start": 4077,
             "end": 4115,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3100,7 +3202,8 @@
                         "type": "Literal",
                         "start": 4157,
                         "end": 4161,
-                        "value": "582n"
+                        "value": "582n",
+                        "raw": "582n"
                       }
                     },
                     "operator": ">>>",
@@ -3108,7 +3211,8 @@
                       "type": "Literal",
                       "start": 4166,
                       "end": 4170,
-                      "value": "127n"
+                      "value": "127n",
+                      "raw": "127n"
                     }
                   }
                 }
@@ -3119,7 +3223,8 @@
             "type": "Literal",
             "start": 4175,
             "end": 4213,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3191,7 +3296,8 @@
                         "type": "Literal",
                         "start": 4255,
                         "end": 4259,
-                        "value": "582n"
+                        "value": "582n",
+                        "raw": "582n"
                       }
                     },
                     "operator": ">>>",
@@ -3199,7 +3305,8 @@
                       "type": "Literal",
                       "start": 4264,
                       "end": 4268,
-                      "value": "128n"
+                      "value": "128n",
+                      "raw": "128n"
                     }
                   }
                 }
@@ -3210,7 +3317,8 @@
             "type": "Literal",
             "start": 4273,
             "end": 4311,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3282,7 +3390,8 @@
                         "type": "Literal",
                         "start": 4353,
                         "end": 4357,
-                        "value": "582n"
+                        "value": "582n",
+                        "raw": "582n"
                       }
                     },
                     "operator": ">>>",
@@ -3290,7 +3399,8 @@
                       "type": "Literal",
                       "start": 4362,
                       "end": 4366,
-                      "value": "129n"
+                      "value": "129n",
+                      "raw": "129n"
                     }
                   }
                 }
@@ -3301,7 +3411,8 @@
             "type": "Literal",
             "start": 4371,
             "end": 4409,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3373,7 +3484,8 @@
                         "type": "Literal",
                         "start": 4451,
                         "end": 4455,
-                        "value": "582n"
+                        "value": "582n",
+                        "raw": "582n"
                       }
                     },
                     "operator": ">>>",
@@ -3387,7 +3499,8 @@
                         "type": "Literal",
                         "start": 4461,
                         "end": 4465,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -3399,7 +3512,8 @@
             "type": "Literal",
             "start": 4470,
             "end": 4508,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3471,7 +3585,8 @@
                         "type": "Literal",
                         "start": 4550,
                         "end": 4596,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3479,7 +3594,8 @@
                       "type": "Literal",
                       "start": 4601,
                       "end": 4604,
-                      "value": "64n"
+                      "value": "64n",
+                      "raw": "64n"
                     }
                   }
                 }
@@ -3490,7 +3606,8 @@
             "type": "Literal",
             "start": 4609,
             "end": 4647,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3562,7 +3679,8 @@
                         "type": "Literal",
                         "start": 4689,
                         "end": 4735,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3570,7 +3688,8 @@
                       "type": "Literal",
                       "start": 4740,
                       "end": 4743,
-                      "value": "32n"
+                      "value": "32n",
+                      "raw": "32n"
                     }
                   }
                 }
@@ -3581,7 +3700,8 @@
             "type": "Literal",
             "start": 4748,
             "end": 4786,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3653,7 +3773,8 @@
                         "type": "Literal",
                         "start": 4828,
                         "end": 4874,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3661,7 +3782,8 @@
                       "type": "Literal",
                       "start": 4879,
                       "end": 4882,
-                      "value": "16n"
+                      "value": "16n",
+                      "raw": "16n"
                     }
                   }
                 }
@@ -3672,7 +3794,8 @@
             "type": "Literal",
             "start": 4887,
             "end": 4925,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3744,7 +3867,8 @@
                         "type": "Literal",
                         "start": 4967,
                         "end": 5013,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3752,7 +3876,8 @@
                       "type": "Literal",
                       "start": 5018,
                       "end": 5020,
-                      "value": "0n"
+                      "value": "0n",
+                      "raw": "0n"
                     }
                   }
                 }
@@ -3763,7 +3888,8 @@
             "type": "Literal",
             "start": 5025,
             "end": 5063,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3835,7 +3961,8 @@
                         "type": "Literal",
                         "start": 5105,
                         "end": 5151,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3849,7 +3976,8 @@
                         "type": "Literal",
                         "start": 5157,
                         "end": 5160,
-                        "value": "16n"
+                        "value": "16n",
+                        "raw": "16n"
                       }
                     }
                   }
@@ -3861,7 +3989,8 @@
             "type": "Literal",
             "start": 5165,
             "end": 5203,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -3933,7 +4062,8 @@
                         "type": "Literal",
                         "start": 5245,
                         "end": 5291,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -3947,7 +4077,8 @@
                         "type": "Literal",
                         "start": 5297,
                         "end": 5300,
-                        "value": "32n"
+                        "value": "32n",
+                        "raw": "32n"
                       }
                     }
                   }
@@ -3959,7 +4090,8 @@
             "type": "Literal",
             "start": 5305,
             "end": 5343,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -4031,7 +4163,8 @@
                         "type": "Literal",
                         "start": 5385,
                         "end": 5431,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -4045,7 +4178,8 @@
                         "type": "Literal",
                         "start": 5437,
                         "end": 5440,
-                        "value": "64n"
+                        "value": "64n",
+                        "raw": "64n"
                       }
                     }
                   }
@@ -4057,7 +4191,8 @@
             "type": "Literal",
             "start": 5445,
             "end": 5483,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -4129,7 +4264,8 @@
                         "type": "Literal",
                         "start": 5525,
                         "end": 5571,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -4143,7 +4279,8 @@
                         "type": "Literal",
                         "start": 5577,
                         "end": 5581,
-                        "value": "127n"
+                        "value": "127n",
+                        "raw": "127n"
                       }
                     }
                   }
@@ -4155,7 +4292,8 @@
             "type": "Literal",
             "start": 5586,
             "end": 5624,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -4227,7 +4365,8 @@
                         "type": "Literal",
                         "start": 5666,
                         "end": 5712,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -4241,7 +4380,8 @@
                         "type": "Literal",
                         "start": 5718,
                         "end": 5722,
-                        "value": "128n"
+                        "value": "128n",
+                        "raw": "128n"
                       }
                     }
                   }
@@ -4253,7 +4393,8 @@
             "type": "Literal",
             "start": 5727,
             "end": 5765,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false
@@ -4325,7 +4466,8 @@
                         "type": "Literal",
                         "start": 5807,
                         "end": 5853,
-                        "value": "405972677036361916727469983882855107238581880n"
+                        "value": "405972677036361916727469983882855107238581880n",
+                        "raw": "405972677036361916727469983882855107238581880n"
                       }
                     },
                     "operator": ">>>",
@@ -4339,7 +4481,8 @@
                         "type": "Literal",
                         "start": 5859,
                         "end": 5863,
-                        "value": "129n"
+                        "value": "129n",
+                        "raw": "129n"
                       }
                     }
                   }
@@ -4351,7 +4494,8 @@
             "type": "Literal",
             "start": 5868,
             "end": 5906,
-            "value": "bigint >>> bigint throws a TypeError"
+            "value": "bigint >>> bigint throws a TypeError",
+            "raw": "\"bigint >>> bigint throws a TypeError\""
           }
         ],
         "optional": false

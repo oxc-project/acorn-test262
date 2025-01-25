@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 284,
             "end": 289,
-            "value": "uTc"
+            "value": "uTc",
+            "raw": "'uTc'"
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 335,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -136,7 +138,8 @@
             "type": "Literal",
             "start": 384,
             "end": 389,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "'UTC'"
           },
           {
             "type": "TemplateLiteral",

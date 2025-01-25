@@ -90,7 +90,8 @@
                               "type": "Literal",
                               "start": 372,
                               "end": 373,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           "operator": "&&",
@@ -109,7 +110,8 @@
                               "type": "Literal",
                               "start": 383,
                               "end": 384,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         },
@@ -132,7 +134,8 @@
                               "type": "Literal",
                               "start": 398,
                               "end": 399,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             "computed": true,
                             "optional": false
@@ -142,7 +145,8 @@
                             "type": "Literal",
                             "start": 405,
                             "end": 406,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -270,7 +274,8 @@
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -336,13 +341,15 @@
             "type": "Literal",
             "start": 543,
             "end": 547,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 572,
-            "value": "newInstance.valueOf()"
+            "value": "newInstance.valueOf()",
+            "raw": "'newInstance.valueOf()'"
           }
         ],
         "optional": false

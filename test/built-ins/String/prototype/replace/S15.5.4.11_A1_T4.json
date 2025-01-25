@@ -45,7 +45,8 @@
                         "type": "Literal",
                         "start": 495,
                         "end": 505,
-                        "value": "gnulluna"
+                        "value": "gnulluna",
+                        "raw": "\"gnulluna\""
                       }
                     }
                   ]
@@ -68,7 +69,8 @@
               "type": "Literal",
               "start": 520,
               "end": 524,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "FunctionExpression",
@@ -122,7 +124,8 @@
                         "type": "Literal",
                         "start": 565,
                         "end": 567,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     }
                   }
@@ -137,7 +140,8 @@
           "type": "Literal",
           "start": 578,
           "end": 585,
-          "value": "g1una"
+          "value": "g1una",
+          "raw": "\"g1una\""
         }
       },
       "consequent": {
@@ -168,7 +172,8 @@
                     "type": "Literal",
                     "start": 614,
                     "end": 721,
-                    "value": "#1: function(){return \"gnulluna\"}().replace(null,function(a1,a2,a3){return a2+\"\";}) === \"g1una\". Actual: "
+                    "value": "#1: function(){return \"gnulluna\"}().replace(null,function(a1,a2,a3){return a2+\"\";}) === \"g1una\". Actual: ",
+                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null,function(a1,a2,a3){return a2+\"\";}) === \"g1una\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -205,7 +210,8 @@
                                   "type": "Literal",
                                   "start": 748,
                                   "end": 758,
-                                  "value": "gnulluna"
+                                  "value": "gnulluna",
+                                  "raw": "\"gnulluna\""
                                 }
                               }
                             ]
@@ -228,7 +234,8 @@
                         "type": "Literal",
                         "start": 773,
                         "end": 777,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "FunctionExpression",
@@ -282,7 +289,8 @@
                                   "type": "Literal",
                                   "start": 818,
                                   "end": 820,
-                                  "value": ""
+                                  "value": "",
+                                  "raw": "\"\""
                                 }
                               }
                             }

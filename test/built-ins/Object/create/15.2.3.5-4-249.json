@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -91,7 +92,8 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 423,
-                  "value": "VerifyDateObject"
+                  "value": "VerifyDateObject",
+                  "raw": "\"VerifyDateObject\""
                 }
               }
             ]
@@ -230,13 +232,15 @@
             "type": "Literal",
             "start": 513,
             "end": 531,
-            "value": "VerifyDateObject"
+            "value": "VerifyDateObject",
+            "raw": "\"VerifyDateObject\""
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 546,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

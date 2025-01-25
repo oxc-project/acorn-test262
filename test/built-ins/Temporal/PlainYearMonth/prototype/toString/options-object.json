@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 327,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 331,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
           }
@@ -150,13 +152,15 @@
             "type": "Literal",
             "start": 403,
             "end": 412,
-            "value": "2019-10"
+            "value": "2019-10",
+            "raw": "\"2019-10\""
           },
           {
             "type": "Literal",
             "start": 416,
             "end": 454,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -262,13 +266,15 @@
             "type": "Literal",
             "start": 533,
             "end": 542,
-            "value": "2019-10"
+            "value": "2019-10",
+            "raw": "\"2019-10\""
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 580,
-            "value": "options may be a function object"
+            "value": "options may be a function object",
+            "raw": "\"options may be a function object\""
           }
         ],
         "optional": false

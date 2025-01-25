@@ -83,7 +83,8 @@
         "type": "Literal",
         "start": 1224,
         "end": 1229,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "EmptyStatement",

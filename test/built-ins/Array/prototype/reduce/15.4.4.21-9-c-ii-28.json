@@ -53,7 +53,8 @@
             "type": "Literal",
             "start": 310,
             "end": 315,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -122,7 +123,8 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 384,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -183,13 +185,15 @@
                   "type": "Literal",
                   "start": 436,
                   "end": 437,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 439,
                   "end": 441,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -210,7 +214,8 @@
                   "type": "Literal",
                   "start": 453,
                   "end": 454,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -323,13 +328,15 @@
             "type": "Literal",
             "start": 534,
             "end": 538,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 598,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, objBoolean)"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, objBoolean)",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, objBoolean)'"
           }
         ],
         "optional": false
@@ -360,7 +367,8 @@
             "type": "Literal",
             "start": 618,
             "end": 637,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

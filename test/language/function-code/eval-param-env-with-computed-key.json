@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 838,
+  "end": 837,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 680,
-      "end": 696,
+      "start": 679,
+      "end": 695,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 684,
-          "end": 695,
+          "start": 683,
+          "end": 694,
           "id": {
             "type": "Identifier",
-            "start": 684,
-            "end": 685,
+            "start": 683,
+            "end": 684,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 688,
-            "end": 695,
-            "value": "outer"
+            "start": 687,
+            "end": 694,
+            "value": "outer",
+            "raw": "\"outer\""
           }
         }
       ],
@@ -30,12 +31,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 698,
-      "end": 806,
+      "start": 697,
+      "end": 805,
       "id": {
         "type": "Identifier",
-        "start": 707,
-        "end": 732,
+        "start": 706,
+        "end": 731,
         "name": "evalInComputedPropertyKey"
       },
       "expression": false,
@@ -44,40 +45,41 @@
       "params": [
         {
           "type": "ObjectPattern",
-          "start": 733,
-          "end": 769,
+          "start": 732,
+          "end": 768,
           "properties": [
             {
               "type": "Property",
-              "start": 734,
-              "end": 768,
+              "start": 733,
+              "end": 767,
               "method": false,
               "shorthand": false,
               "computed": true,
               "key": {
                 "type": "CallExpression",
-                "start": 735,
-                "end": 758,
+                "start": 734,
+                "end": 757,
                 "callee": {
                   "type": "Identifier",
-                  "start": 735,
-                  "end": 739,
+                  "start": 734,
+                  "end": 738,
                   "name": "eval"
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 740,
-                    "end": 757,
-                    "value": "var x = 'inner'"
+                    "start": 739,
+                    "end": 756,
+                    "value": "var x = 'inner'",
+                    "raw": "\"var x = 'inner'\""
                   }
                 ],
                 "optional": false
               },
               "value": {
                 "type": "Identifier",
-                "start": 761,
-                "end": 768,
+                "start": 760,
+                "end": 767,
                 "name": "ignored"
               },
               "kind": "init"
@@ -87,31 +89,31 @@
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 771,
-        "end": 806,
+        "start": 770,
+        "end": 805,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 775,
-            "end": 804,
+            "start": 774,
+            "end": 803,
             "expression": {
               "type": "CallExpression",
-              "start": 775,
-              "end": 803,
+              "start": 774,
+              "end": 802,
               "callee": {
                 "type": "MemberExpression",
-                "start": 775,
-                "end": 791,
+                "start": 774,
+                "end": 790,
                 "object": {
                   "type": "Identifier",
-                  "start": 775,
-                  "end": 781,
+                  "start": 774,
+                  "end": 780,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 782,
-                  "end": 791,
+                  "start": 781,
+                  "end": 790,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -120,15 +122,16 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 792,
-                  "end": 793,
+                  "start": 791,
+                  "end": 792,
                   "name": "x"
                 },
                 {
                   "type": "Literal",
-                  "start": 795,
-                  "end": 802,
-                  "value": "inner"
+                  "start": 794,
+                  "end": 801,
+                  "value": "inner",
+                  "raw": "\"inner\""
                 }
               ],
               "optional": false
@@ -139,23 +142,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 807,
-      "end": 837,
+      "start": 806,
+      "end": 836,
       "expression": {
         "type": "CallExpression",
-        "start": 807,
-        "end": 836,
+        "start": 806,
+        "end": 835,
         "callee": {
           "type": "Identifier",
-          "start": 807,
-          "end": 832,
+          "start": 806,
+          "end": 831,
           "name": "evalInComputedPropertyKey"
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 833,
-            "end": 835,
+            "start": 832,
+            "end": 834,
             "properties": []
           }
         ],

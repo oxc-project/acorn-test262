@@ -55,6 +55,7 @@
           "start": 647,
           "end": 654,
           "value": {},
+          "raw": "/abc/ig",
           "regex": {
             "pattern": "abc",
             "flags": "ig"
@@ -105,7 +106,8 @@
               "type": "Literal",
               "start": 682,
               "end": 687,
-              "value": "def"
+              "value": "def",
+              "raw": "'def'"
             }
           ],
           "optional": false
@@ -156,7 +158,8 @@
             "type": "Literal",
             "start": 725,
             "end": 760,
-            "value": "method return value (unspecified)"
+            "value": "method return value (unspecified)",
+            "raw": "'method return value (unspecified)'"
           }
         ],
         "optional": false
@@ -228,7 +231,8 @@
                   "type": "Literal",
                   "start": 809,
                   "end": 814,
-                  "value": "def"
+                  "value": "def",
+                  "raw": "'def'"
                 }
               ]
             },
@@ -245,7 +249,8 @@
             "type": "Literal",
             "start": 823,
             "end": 856,
-            "value": "[[OriginalFlags]] (unspecified)"
+            "value": "[[OriginalFlags]] (unspecified)",
+            "raw": "'[[OriginalFlags]] (unspecified)'"
           }
         ],
         "optional": false
@@ -307,7 +312,8 @@
                 "type": "Literal",
                 "start": 893,
                 "end": 898,
-                "value": "DEF"
+                "value": "DEF",
+                "raw": "'DEF'"
               }
             ],
             "optional": false
@@ -316,13 +322,15 @@
             "type": "Literal",
             "start": 901,
             "end": 906,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 955,
-            "value": "[[RegExpMatcher]] internal slot (unspecified)"
+            "value": "[[RegExpMatcher]] internal slot (unspecified)",
+            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'"
           }
         ],
         "optional": false
@@ -348,6 +356,7 @@
           "start": 970,
           "end": 977,
           "value": {},
+          "raw": "/abc/gi",
           "regex": {
             "pattern": "abc",
             "flags": "gi"
@@ -398,7 +407,8 @@
               "type": "Literal",
               "start": 1005,
               "end": 1010,
-              "value": "def"
+              "value": "def",
+              "raw": "'def'"
             },
             {
               "type": "Identifier",
@@ -455,7 +465,8 @@
             "type": "Literal",
             "start": 1059,
             "end": 1101,
-            "value": "method return value (explicit undefined)"
+            "value": "method return value (explicit undefined)",
+            "raw": "'method return value (explicit undefined)'"
           }
         ],
         "optional": false
@@ -527,7 +538,8 @@
                   "type": "Literal",
                   "start": 1152,
                   "end": 1157,
-                  "value": "def"
+                  "value": "def",
+                  "raw": "'def'"
                 }
               ]
             },
@@ -544,7 +556,8 @@
             "type": "Literal",
             "start": 1168,
             "end": 1209,
-            "value": "[[OriginalSource]] (explicit undefined)"
+            "value": "[[OriginalSource]] (explicit undefined)",
+            "raw": "'[[OriginalSource]] (explicit undefined)'"
           }
         ],
         "optional": false
@@ -606,7 +619,8 @@
                 "type": "Literal",
                 "start": 1246,
                 "end": 1251,
-                "value": "DEF"
+                "value": "DEF",
+                "raw": "'DEF'"
               }
             ],
             "optional": false
@@ -615,13 +629,15 @@
             "type": "Literal",
             "start": 1256,
             "end": 1261,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1319,
-            "value": "[[RegExpMatcher]] internal slot (explicit undefined)"
+            "value": "[[RegExpMatcher]] internal slot (explicit undefined)",
+            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'"
           }
         ],
         "optional": false

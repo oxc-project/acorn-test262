@@ -133,7 +133,8 @@
                               "type": "Literal",
                               "start": 794,
                               "end": 825,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -235,19 +236,22 @@
                         "type": "Literal",
                         "start": 895,
                         "end": 896,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 898,
                         "end": 900,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 902,
                         "end": 903,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ],
                     "optional": false

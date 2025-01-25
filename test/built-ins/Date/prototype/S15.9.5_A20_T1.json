@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 374,
-                "value": "getMinutes"
+                "value": "getMinutes",
+                "raw": "\"getMinutes\""
               }
             ],
             "optional": false
@@ -81,13 +82,15 @@
             "type": "Literal",
             "start": 379,
             "end": 383,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 449,
-            "value": "Date.prototype.hasOwnProperty(\"getMinutes\") must return true"
+            "value": "Date.prototype.hasOwnProperty(\"getMinutes\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"getMinutes\") must return true'"
           }
         ],
         "optional": false

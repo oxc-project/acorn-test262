@@ -33,13 +33,15 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 372,
-                "value": "arg1,arg2,arg3"
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -90,7 +92,8 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 414,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -99,7 +102,8 @@
             "type": "Literal",
             "start": 417,
             "end": 464,
-            "value": "f.hasOwnProperty('length') must return true"
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -159,7 +163,8 @@
                 "type": "Literal",
                 "start": 502,
                 "end": 510,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             },
             "consequent": {
@@ -186,7 +191,8 @@
                         "type": "Literal",
                         "start": 537,
                         "end": 541,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   ],
@@ -231,7 +237,8 @@
             "type": "Literal",
             "start": 571,
             "end": 622,
-            "value": "The value of !lengthenumed is expected to be true"
+            "value": "The value of !lengthenumed is expected to be true",
+            "raw": "'The value of !lengthenumed is expected to be true'"
           }
         ],
         "optional": false

@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 367,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 381,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -146,7 +149,8 @@
                         "type": "Literal",
                         "start": 443,
                         "end": 449,
-                        "value": 271821
+                        "value": 271821,
+                        "raw": "271821"
                       }
                     },
                     "kind": "init"
@@ -166,38 +170,44 @@
               "type": "Literal",
               "start": 491,
               "end": 497,
-              "value": 271821
+              "value": 271821,
+              "raw": "271821"
             }
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 500,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 507,
-            "value": "M04"
+            "value": "M04",
+            "raw": "\"M04\""
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 511,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 513,
             "end": 530,
-            "value": "gregory-inverse"
+            "value": "gregory-inverse",
+            "raw": "\"gregory-inverse\""
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 538,
-            "value": 271822
+            "value": 271822,
+            "raw": "271822"
           }
         ],
         "optional": false

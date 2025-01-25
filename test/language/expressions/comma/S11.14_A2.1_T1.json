@@ -24,13 +24,15 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 283,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 284,
                 "end": 285,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -40,7 +42,8 @@
           "type": "Literal",
           "start": 291,
           "end": 292,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -71,7 +74,8 @@
                     "type": "Literal",
                     "start": 321,
                     "end": 348,
-                    "value": "#1: (1,2) === 2. Actual: "
+                    "value": "#1: (1,2) === 2. Actual: ",
+                    "raw": "'#1: (1,2) === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -91,13 +95,15 @@
                             "type": "Literal",
                             "start": 353,
                             "end": 354,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 355,
                             "end": 356,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -130,7 +136,8 @@
             "type": "Literal",
             "start": 382,
             "end": 383,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -163,7 +170,8 @@
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -173,7 +181,8 @@
           "type": "Literal",
           "start": 400,
           "end": 401,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -204,7 +213,8 @@
                     "type": "Literal",
                     "start": 430,
                     "end": 469,
-                    "value": "#2: var x = 1; (x, 2) === 2. Actual: "
+                    "value": "#2: var x = 1; (x, 2) === 2. Actual: ",
+                    "raw": "'#2: var x = 1; (x, 2) === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -230,7 +240,8 @@
                             "type": "Literal",
                             "start": 477,
                             "end": 478,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -263,7 +274,8 @@
             "type": "Literal",
             "start": 504,
             "end": 505,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -290,7 +302,8 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 513,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Identifier",
@@ -306,7 +319,8 @@
           "type": "Literal",
           "start": 522,
           "end": 523,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -337,7 +351,8 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 591,
-                    "value": "#3: var y = 2; (1, y) === 2. Actual: "
+                    "value": "#3: var y = 2; (1, y) === 2. Actual: ",
+                    "raw": "'#3: var y = 2; (1, y) === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +372,8 @@
                             "type": "Literal",
                             "start": 596,
                             "end": 597,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Identifier",
@@ -396,7 +412,8 @@
             "type": "Literal",
             "start": 626,
             "end": 627,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -421,7 +438,8 @@
             "type": "Literal",
             "start": 637,
             "end": 638,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -464,7 +482,8 @@
           "type": "Literal",
           "start": 655,
           "end": 656,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -495,7 +514,8 @@
                     "type": "Literal",
                     "start": 685,
                     "end": 735,
-                    "value": "#4: var x = 1; var y = 2; (x, y) === 2. Actual: "
+                    "value": "#4: var x = 1; var y = 2; (x, y) === 2. Actual: ",
+                    "raw": "'#4: var x = 1; var y = 2; (x, y) === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -554,7 +574,8 @@
             "type": "Literal",
             "start": 770,
             "end": 771,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -597,7 +618,8 @@
           "type": "Literal",
           "start": 788,
           "end": 789,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -628,7 +650,8 @@
                     "type": "Literal",
                     "start": 818,
                     "end": 857,
-                    "value": "#5: var x = 1; (x, x) === 1. Actual: "
+                    "value": "#5: var x = 1; (x, x) === 1. Actual: ",
+                    "raw": "'#5: var x = 1; (x, x) === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -762,7 +785,8 @@
           "type": "Literal",
           "start": 955,
           "end": 959,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -798,7 +822,8 @@
           "type": "Literal",
           "start": 976,
           "end": 979,
-          "value": 1.1
+          "value": 1.1,
+          "raw": "1.1"
         }
       }
     },
@@ -847,7 +872,8 @@
                   "type": "Literal",
                   "start": 1001,
                   "end": 1006,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               },
               {
@@ -921,7 +947,8 @@
                     "type": "Literal",
                     "start": 1067,
                     "end": 1231,
-                    "value": "#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; (objectx.prop = false, objecty.prop) === objecty.prop. Actual: "
+                    "value": "#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; (objectx.prop = false, objecty.prop) === objecty.prop. Actual: ",
+                    "raw": "'#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; (objectx.prop = false, objecty.prop) === objecty.prop. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -965,7 +992,8 @@
                               "type": "Literal",
                               "start": 1251,
                               "end": 1256,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             }
                           },
                           {
@@ -1034,7 +1062,8 @@
                 "type": "Literal",
                 "start": 1307,
                 "end": 1312,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             },
             "consequent": {
@@ -1061,7 +1090,8 @@
                         "type": "Literal",
                         "start": 1343,
                         "end": 1502,
-                        "value": "#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; objectx.prop = false, objecty.prop; objectx.prop === false"
+                        "value": "#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; objectx.prop = false, objecty.prop; objectx.prop === false",
+                        "raw": "'#6: var objectx = new Object(); var objecty = new Object(); objectx.prop = true; objecty.prop = 1; objectx.prop = false, objecty.prop; objectx.prop === false'"
                       }
                     ]
                   }

@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 639,
           "end": 657,
-          "value": "number prototype"
+          "value": "number prototype",
+          "raw": "'number prototype'"
         }
       }
     },
@@ -88,7 +89,8 @@
               "type": "Literal",
               "start": 676,
               "end": 678,
-              "value": 1
+              "value": 1,
+              "raw": "1."
             },
             "property": {
               "type": "Identifier",
@@ -103,7 +105,8 @@
             "type": "Literal",
             "start": 688,
             "end": 706,
-            "value": "number prototype"
+            "value": "number prototype",
+            "raw": "'number prototype'"
           }
         ],
         "optional": false
@@ -154,7 +157,8 @@
           "type": "Literal",
           "start": 737,
           "end": 755,
-          "value": "string prototype"
+          "value": "string prototype",
+          "raw": "'string prototype'"
         }
       }
     },
@@ -194,7 +198,8 @@
               "type": "Literal",
               "start": 774,
               "end": 776,
-              "value": ""
+              "value": "",
+              "raw": "''"
             },
             "property": {
               "type": "Identifier",
@@ -209,7 +214,8 @@
             "type": "Literal",
             "start": 786,
             "end": 804,
-            "value": "string prototype"
+            "value": "string prototype",
+            "raw": "'string prototype'"
           }
         ],
         "optional": false
@@ -260,7 +266,8 @@
           "type": "Literal",
           "start": 836,
           "end": 855,
-          "value": "Boolean prototype"
+          "value": "Boolean prototype",
+          "raw": "'Boolean prototype'"
         }
       }
     },
@@ -300,7 +307,8 @@
               "type": "Literal",
               "start": 874,
               "end": 878,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             "property": {
               "type": "Identifier",
@@ -315,7 +323,8 @@
             "type": "Literal",
             "start": 888,
             "end": 907,
-            "value": "Boolean prototype"
+            "value": "Boolean prototype",
+            "raw": "'Boolean prototype'"
           }
         ],
         "optional": false
@@ -366,7 +375,8 @@
           "type": "Literal",
           "start": 938,
           "end": 956,
-          "value": "Symbol prototype"
+          "value": "Symbol prototype",
+          "raw": "'Symbol prototype'"
         }
       }
     },
@@ -428,7 +438,8 @@
             "type": "Literal",
             "start": 993,
             "end": 1011,
-            "value": "Symbol prototype"
+            "value": "Symbol prototype",
+            "raw": "'Symbol prototype'"
           }
         ],
         "optional": false

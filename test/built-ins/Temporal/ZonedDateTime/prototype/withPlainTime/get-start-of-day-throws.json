@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 754,
+  "end": 753,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 517,
-      "end": 525,
+      "start": 516,
+      "end": 524,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 521,
-          "end": 524,
+          "start": 520,
+          "end": 523,
           "id": {
             "type": "Identifier",
-            "start": 521,
-            "end": 524,
+            "start": 520,
+            "end": 523,
             "name": "zdt"
           },
           "init": null
@@ -25,37 +25,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 527,
-      "end": 585,
+      "start": 526,
+      "end": 584,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 527,
-        "end": 584,
+        "start": 526,
+        "end": 583,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 527,
-          "end": 530,
+          "start": 526,
+          "end": 529,
           "name": "zdt"
         },
         "right": {
           "type": "NewExpression",
-          "start": 533,
-          "end": 584,
+          "start": 532,
+          "end": 583,
           "callee": {
             "type": "MemberExpression",
-            "start": 537,
-            "end": 559,
+            "start": 536,
+            "end": 558,
             "object": {
               "type": "Identifier",
-              "start": 537,
-              "end": 545,
+              "start": 536,
+              "end": 544,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 546,
-              "end": 559,
+              "start": 545,
+              "end": 558,
               "name": "ZonedDateTime"
             },
             "computed": false,
@@ -64,46 +64,50 @@
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 560,
-              "end": 576,
+              "start": 559,
+              "end": 575,
               "left": {
                 "type": "UnaryExpression",
-                "start": 560,
-                "end": 565,
+                "start": 559,
+                "end": 564,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 561,
-                  "end": 565,
-                  "value": "864n"
+                  "start": 560,
+                  "end": 564,
+                  "value": "864n",
+                  "raw": "864n"
                 }
               },
               "operator": "*",
               "right": {
                 "type": "BinaryExpression",
-                "start": 568,
-                "end": 576,
+                "start": 567,
+                "end": 575,
                 "left": {
                   "type": "Literal",
-                  "start": 568,
-                  "end": 571,
-                  "value": "10n"
+                  "start": 567,
+                  "end": 570,
+                  "value": "10n",
+                  "raw": "10n"
                 },
                 "operator": "**",
                 "right": {
                   "type": "Literal",
-                  "start": 573,
-                  "end": 576,
-                  "value": "19n"
+                  "start": 572,
+                  "end": 575,
+                  "value": "19n",
+                  "raw": "19n"
                 }
               }
             },
             {
               "type": "Literal",
-              "start": 578,
-              "end": 583,
-              "value": "-01"
+              "start": 577,
+              "end": 582,
+              "value": "-01",
+              "raw": "\"-01\""
             }
           ]
         }
@@ -111,26 +115,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 639,
+      "start": 585,
+      "end": 638,
       "expression": {
         "type": "CallExpression",
-        "start": 586,
-        "end": 638,
+        "start": 585,
+        "end": 637,
         "callee": {
           "type": "MemberExpression",
-          "start": 586,
-          "end": 599,
+          "start": 585,
+          "end": 598,
           "object": {
             "type": "Identifier",
-            "start": 586,
-            "end": 592,
+            "start": 585,
+            "end": 591,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 593,
-            "end": 599,
+            "start": 592,
+            "end": 598,
             "name": "throws"
           },
           "computed": false,
@@ -139,14 +143,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 600,
-            "end": 610,
+            "start": 599,
+            "end": 609,
             "name": "RangeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 612,
-            "end": 637,
+            "start": 611,
+            "end": 636,
             "id": null,
             "expression": true,
             "generator": false,
@@ -154,22 +158,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 618,
-              "end": 637,
+              "start": 617,
+              "end": 636,
               "callee": {
                 "type": "MemberExpression",
-                "start": 618,
-                "end": 635,
+                "start": 617,
+                "end": 634,
                 "object": {
                   "type": "Identifier",
-                  "start": 618,
-                  "end": 621,
+                  "start": 617,
+                  "end": 620,
                   "name": "zdt"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 622,
-                  "end": 635,
+                  "start": 621,
+                  "end": 634,
                   "name": "withPlainTime"
                 },
                 "computed": false,
@@ -185,37 +189,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 641,
-      "end": 699,
+      "start": 640,
+      "end": 698,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 641,
-        "end": 698,
+        "start": 640,
+        "end": 697,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 641,
-          "end": 644,
+          "start": 640,
+          "end": 643,
           "name": "zdt"
         },
         "right": {
           "type": "NewExpression",
-          "start": 647,
-          "end": 698,
+          "start": 646,
+          "end": 697,
           "callee": {
             "type": "MemberExpression",
-            "start": 651,
-            "end": 673,
+            "start": 650,
+            "end": 672,
             "object": {
               "type": "Identifier",
-              "start": 651,
-              "end": 659,
+              "start": 650,
+              "end": 658,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 660,
-              "end": 673,
+              "start": 659,
+              "end": 672,
               "name": "ZonedDateTime"
             },
             "computed": false,
@@ -224,46 +228,50 @@
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 674,
-              "end": 690,
+              "start": 673,
+              "end": 689,
               "left": {
                 "type": "UnaryExpression",
-                "start": 674,
-                "end": 679,
+                "start": 673,
+                "end": 678,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 675,
-                  "end": 679,
-                  "value": "864n"
+                  "start": 674,
+                  "end": 678,
+                  "value": "864n",
+                  "raw": "864n"
                 }
               },
               "operator": "*",
               "right": {
                 "type": "BinaryExpression",
-                "start": 682,
-                "end": 690,
+                "start": 681,
+                "end": 689,
                 "left": {
                   "type": "Literal",
-                  "start": 682,
-                  "end": 685,
-                  "value": "10n"
+                  "start": 681,
+                  "end": 684,
+                  "value": "10n",
+                  "raw": "10n"
                 },
                 "operator": "**",
                 "right": {
                   "type": "Literal",
-                  "start": 687,
-                  "end": 690,
-                  "value": "19n"
+                  "start": 686,
+                  "end": 689,
+                  "value": "19n",
+                  "raw": "19n"
                 }
               }
             },
             {
               "type": "Literal",
-              "start": 692,
-              "end": 697,
-              "value": "+01"
+              "start": 691,
+              "end": 696,
+              "value": "+01",
+              "raw": "\"+01\""
             }
           ]
         }
@@ -271,26 +279,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 700,
-      "end": 753,
+      "start": 699,
+      "end": 752,
       "expression": {
         "type": "CallExpression",
-        "start": 700,
-        "end": 752,
+        "start": 699,
+        "end": 751,
         "callee": {
           "type": "MemberExpression",
-          "start": 700,
-          "end": 713,
+          "start": 699,
+          "end": 712,
           "object": {
             "type": "Identifier",
-            "start": 700,
-            "end": 706,
+            "start": 699,
+            "end": 705,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 707,
-            "end": 713,
+            "start": 706,
+            "end": 712,
             "name": "throws"
           },
           "computed": false,
@@ -299,14 +307,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 714,
-            "end": 724,
+            "start": 713,
+            "end": 723,
             "name": "RangeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 726,
-            "end": 751,
+            "start": 725,
+            "end": 750,
             "id": null,
             "expression": true,
             "generator": false,
@@ -314,22 +322,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 732,
-              "end": 751,
+              "start": 731,
+              "end": 750,
               "callee": {
                 "type": "MemberExpression",
-                "start": 732,
-                "end": 749,
+                "start": 731,
+                "end": 748,
                 "object": {
                   "type": "Identifier",
-                  "start": 732,
-                  "end": 735,
+                  "start": 731,
+                  "end": 734,
                   "name": "zdt"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 736,
-                  "end": 749,
+                  "start": 735,
+                  "end": 748,
                   "name": "withPlainTime"
                 },
                 "computed": false,

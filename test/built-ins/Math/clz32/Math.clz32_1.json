@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 258,
                 "end": 259,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 262,
             "end": 264,
-            "value": 31
+            "value": 31,
+            "raw": "31"
           },
           {
             "type": "Literal",
             "start": 266,
             "end": 281,
-            "value": "Math.clz32(1)"
+            "value": "Math.clz32(1)",
+            "raw": "'Math.clz32(1)'"
           }
         ],
         "optional": false

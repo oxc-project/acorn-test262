@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 874,
             "end": 879,
-            "value": "abd"
+            "value": "abd",
+            "raw": "\"abd\""
           }
         }
       ],
@@ -56,6 +57,7 @@
                 "start": 893,
                 "end": 901,
                 "value": {},
+                "raw": "/b(c)?/d",
                 "regex": {
                   "pattern": "b(c)?",
                   "flags": "d"
@@ -234,7 +236,8 @@
               "type": "Literal",
               "start": 1117,
               "end": 1118,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false

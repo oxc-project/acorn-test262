@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 397,
             "end": 407,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 450,
-            "value": "implements TypedArray.prototype.every"
+            "value": "implements TypedArray.prototype.every",
+            "raw": "'implements TypedArray.prototype.every'"
           }
         ],
         "optional": false
@@ -157,13 +159,15 @@
             "type": "Literal",
             "start": 514,
             "end": 524,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 528,
             "end": 569,
-            "value": "implements ArrayBuffer.prototype.resize"
+            "value": "implements ArrayBuffer.prototype.resize",
+            "raw": "'implements ArrayBuffer.prototype.resize'"
           }
         ],
         "optional": false
@@ -284,7 +288,8 @@
                               "type": "Literal",
                               "start": 680,
                               "end": 681,
-                              "value": 4
+                              "value": 4,
+                              "raw": "4"
                             }
                           },
                           {
@@ -320,7 +325,8 @@
                                     "type": "Literal",
                                     "start": 705,
                                     "end": 706,
-                                    "value": 5
+                                    "value": 5,
+                                    "raw": "5"
                                   }
                                 },
                                 "kind": "init"
@@ -375,7 +381,8 @@
                             "type": "Literal",
                             "start": 740,
                             "end": 741,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }
@@ -435,7 +442,8 @@
                                 "type": "Literal",
                                 "start": 773,
                                 "end": 774,
-                                "value": 5
+                                "value": 5,
+                                "raw": "5"
                               }
                             }
                           ],
@@ -563,7 +571,8 @@
                                 "type": "Literal",
                                 "start": 879,
                                 "end": 880,
-                                "value": 3
+                                "value": 3,
+                                "raw": "3"
                               }
                             }
                           ],
@@ -715,7 +724,8 @@
                                   "type": "Literal",
                                   "start": 1024,
                                   "end": 1025,
-                                  "value": 3
+                                  "value": 3,
+                                  "raw": "3"
                                 }
                               },
                               "operator": "-",
@@ -723,7 +733,8 @@
                                 "type": "Literal",
                                 "start": 1028,
                                 "end": 1029,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           ],
@@ -913,7 +924,8 @@
                                     "type": "Literal",
                                     "start": 1595,
                                     "end": 1625,
-                                    "value": "every completed successfully"
+                                    "value": "every completed successfully",
+                                    "raw": "'every completed successfully'"
                                   }
                                 ]
                               }

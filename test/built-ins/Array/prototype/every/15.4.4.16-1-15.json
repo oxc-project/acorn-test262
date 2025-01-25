@@ -57,7 +57,8 @@
                   "type": "Literal",
                   "start": 295,
                   "end": 315,
-                  "value": "[object Arguments]"
+                  "value": "[object Arguments]",
+                  "raw": "'[object Arguments]'"
                 },
                 "operator": "!==",
                 "right": {
@@ -186,13 +187,15 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 414,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 },
                 {
                   "type": "Literal",
                   "start": 416,
                   "end": 419,
-                  "value": "b"
+                  "value": "b",
+                  "raw": "\"b\""
                 }
               ],
               "optional": false
@@ -299,13 +302,15 @@
             "type": "Literal",
             "start": 486,
             "end": 491,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 538,
-            "value": "Array.prototype.every.call(obj, callbackfn)"
+            "value": "Array.prototype.every.call(obj, callbackfn)",
+            "raw": "'Array.prototype.every.call(obj, callbackfn)'"
           }
         ],
         "optional": false

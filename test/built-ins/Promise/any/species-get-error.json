@@ -188,7 +188,8 @@
                               "type": "Literal",
                               "start": 512,
                               "end": 546,
-                              "value": "Getter for Symbol.species called"
+                              "value": "Getter for Symbol.species called",
+                              "raw": "\"Getter for Symbol.species called\""
                             }
                           ]
                         }
@@ -264,7 +265,8 @@
                       "type": "Literal",
                       "start": 608,
                       "end": 639,
-                      "value": "C.resolve called unexpectedly"
+                      "value": "C.resolve called unexpectedly",
+                      "raw": "\"C.resolve called unexpectedly\""
                     }
                   ]
                 }
@@ -330,7 +332,8 @@
                 "type": "Literal",
                 "start": 667,
                 "end": 668,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }

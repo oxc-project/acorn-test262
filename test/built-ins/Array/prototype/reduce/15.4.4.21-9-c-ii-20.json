@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 272,
             "end": 277,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 346,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -121,7 +123,8 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 387,
-                "value": "undefined"
+                "value": "undefined",
+                "raw": "\"undefined\""
               }
             }
           }
@@ -159,13 +162,15 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 407,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 409,
                   "end": 411,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -186,7 +191,8 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 424,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -299,13 +305,15 @@
             "type": "Literal",
             "start": 503,
             "end": 507,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 566,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, undefined)"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, undefined)",
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, undefined)'"
           }
         ],
         "optional": false
@@ -336,7 +344,8 @@
             "type": "Literal",
             "start": 586,
             "end": 605,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

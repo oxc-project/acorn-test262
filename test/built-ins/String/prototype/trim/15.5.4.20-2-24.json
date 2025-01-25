@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 336,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 339,
             "end": 344,
-            "value": "123"
+            "value": "123",
+            "raw": "\"123\""
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 379,
-            "value": "String.prototype.trim.call(123)"
+            "value": "String.prototype.trim.call(123)",
+            "raw": "'String.prototype.trim.call(123)'"
           }
         ],
         "optional": false

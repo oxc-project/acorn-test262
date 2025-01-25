@@ -69,7 +69,8 @@
                               "type": "Literal",
                               "start": 538,
                               "end": 569,
-                              "value": "should not evaluate this code"
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
                             }
                           ]
                         }
@@ -165,7 +166,8 @@
                         "type": "Literal",
                         "start": 635,
                         "end": 639,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -375,7 +377,8 @@
                         "type": "Literal",
                         "start": 814,
                         "end": 818,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Identifier",
@@ -480,7 +483,8 @@
                         "type": "Literal",
                         "start": 901,
                         "end": 906,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Identifier",
@@ -585,7 +589,8 @@
                         "type": "Literal",
                         "start": 989,
                         "end": 1003,
-                        "value": "***string***"
+                        "value": "***string***",
+                        "raw": "'***string***'"
                       },
                       {
                         "type": "Identifier",
@@ -819,7 +824,8 @@
                             "type": "Literal",
                             "start": 1200,
                             "end": 1214,
-                            "value": "***symbol***"
+                            "value": "***symbol***",
+                            "raw": "'***symbol***'"
                           }
                         ],
                         "optional": false

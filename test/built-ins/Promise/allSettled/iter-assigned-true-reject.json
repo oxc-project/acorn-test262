@@ -91,7 +91,8 @@
                                 "type": "Literal",
                                 "start": 1111,
                                 "end": 1115,
-                                "value": true
+                                "value": true,
+                                "raw": "true"
                               },
                               "kind": "init"
                             }
@@ -143,7 +144,8 @@
                                   "type": "Literal",
                                   "start": 1149,
                                   "end": 1199,
-                                  "value": "The promise should be rejected, but was resolved"
+                                  "value": "The promise should be rejected, but was resolved",
+                                  "raw": "'The promise should be rejected, but was resolved'"
                                 }
                               ],
                               "optional": false

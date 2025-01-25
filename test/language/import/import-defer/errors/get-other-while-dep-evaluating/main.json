@@ -12,7 +12,8 @@
         "type": "Literal",
         "start": 1538,
         "end": 1558,
-        "value": "./dep-1_FIXTURE.js"
+        "value": "./dep-1_FIXTURE.js",
+        "raw": "\"./dep-1_FIXTURE.js\""
       },
       "attributes": []
     },
@@ -49,7 +50,8 @@
                 "type": "Literal",
                 "start": 1579,
                 "end": 1606,
-                "value": "evaluating dep2.foo error"
+                "value": "evaluating dep2.foo error",
+                "raw": "\"evaluating dep2.foo error\""
               },
               "computed": true,
               "optional": false
@@ -66,7 +68,8 @@
             "type": "Literal",
             "start": 1630,
             "end": 1670,
-            "value": "evaluating dep2.foo throws a TypeError"
+            "value": "evaluating dep2.foo throws a TypeError",
+            "raw": "\"evaluating dep2.foo throws a TypeError\""
           }
         ],
         "optional": false
@@ -107,7 +110,8 @@
                 "type": "Literal",
                 "start": 1692,
                 "end": 1728,
-                "value": "evaluating dep2.foo evaluates dep3"
+                "value": "evaluating dep2.foo evaluates dep3",
+                "raw": "\"evaluating dep2.foo evaluates dep3\""
               },
               "computed": true,
               "optional": false
@@ -117,7 +121,8 @@
             "type": "Literal",
             "start": 1731,
             "end": 1775,
-            "value": "evaluating dep2.foo does not evaluate dep3"
+            "value": "evaluating dep2.foo does not evaluate dep3",
+            "raw": "\"evaluating dep2.foo does not evaluate dep3\""
           }
         ],
         "optional": false
@@ -168,7 +173,8 @@
             "type": "Literal",
             "start": 1812,
             "end": 1842,
-            "value": "dep3 is not evaluated at all"
+            "value": "dep3 is not evaluated at all",
+            "raw": "\"dep3 is not evaluated at all\""
           }
         ],
         "optional": false

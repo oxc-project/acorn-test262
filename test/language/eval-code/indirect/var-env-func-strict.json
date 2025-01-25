@@ -70,7 +70,8 @@
                             "type": "Literal",
                             "start": 368,
                             "end": 369,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -86,7 +87,8 @@
                         "type": "Literal",
                         "start": 376,
                         "end": 408,
-                        "value": "'use strict'; function fun(){}"
+                        "value": "'use strict'; function fun(){}",
+                        "raw": "\"'use strict'; function fun(){}\""
                       }
                     ],
                     "optional": false
@@ -168,7 +170,8 @@
             "type": "Literal",
             "start": 478,
             "end": 489,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false
@@ -219,7 +222,8 @@
             "type": "Literal",
             "start": 521,
             "end": 532,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         ],
         "optional": false

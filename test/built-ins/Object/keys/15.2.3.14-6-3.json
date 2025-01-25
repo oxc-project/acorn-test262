@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 337,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ]
           }
@@ -345,7 +346,8 @@
                   "type": "Literal",
                   "start": 576,
                   "end": 594,
-                  "value": "tempArray[index]"
+                  "value": "tempArray[index]",
+                  "raw": "'tempArray[index]'"
                 }
               ],
               "optional": false

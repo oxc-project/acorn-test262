@@ -44,7 +44,8 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 349,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ]
               },
@@ -52,7 +53,8 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 353,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -126,7 +128,8 @@
                               "type": "Literal",
                               "start": 425,
                               "end": 441,
-                              "value": "valueOf called"
+                              "value": "valueOf called",
+                              "raw": "\"valueOf called\""
                             }
                           ]
                         }
@@ -228,7 +231,8 @@
                           "type": "Literal",
                           "start": 514,
                           "end": 517,
-                          "value": 1.5
+                          "value": 1.5,
+                          "raw": "1.5"
                         }
                       },
                       {
@@ -248,7 +252,8 @@
             "type": "Literal",
             "start": 533,
             "end": 561,
-            "value": "setFloat16(-1.5, poisoned)"
+            "value": "setFloat16(-1.5, poisoned)",
+            "raw": "\"setFloat16(-1.5, poisoned)\""
           }
         ],
         "optional": false
@@ -340,7 +345,8 @@
                           "type": "Literal",
                           "start": 627,
                           "end": 628,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
@@ -360,7 +366,8 @@
             "type": "Literal",
             "start": 644,
             "end": 670,
-            "value": "setFloat16(-1, poisoned)"
+            "value": "setFloat16(-1, poisoned)",
+            "raw": "\"setFloat16(-1, poisoned)\""
           }
         ],
         "optional": false
@@ -472,7 +479,8 @@
             "type": "Literal",
             "start": 760,
             "end": 793,
-            "value": "setFloat16(-Infinity, poisoned)"
+            "value": "setFloat16(-Infinity, poisoned)",
+            "raw": "\"setFloat16(-Infinity, poisoned)\""
           }
         ],
         "optional": false
@@ -577,7 +585,8 @@
             "type": "Literal",
             "start": 882,
             "end": 914,
-            "value": "setFloat16(Infinity, poisoned)"
+            "value": "setFloat16(Infinity, poisoned)",
+            "raw": "\"setFloat16(Infinity, poisoned)\""
           }
         ],
         "optional": false

@@ -56,13 +56,15 @@
                             "type": "Literal",
                             "start": 496,
                             "end": 506,
-                            "value": "a1,a2,a3"
+                            "value": "a1,a2,a3",
+                            "raw": "\"a1,a2,a3\""
                           },
                           {
                             "type": "Literal",
                             "start": 508,
                             "end": 532,
-                            "value": "this.shifted=a1+a2+a3;"
+                            "value": "this.shifted=a1+a2+a3;",
+                            "raw": "\"this.shifted=a1+a2+a3;\""
                           }
                         ],
                         "optional": false
@@ -81,7 +83,8 @@
                         "type": "Literal",
                         "start": 540,
                         "end": 544,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -102,19 +105,22 @@
             "type": "Literal",
             "start": 561,
             "end": 563,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 566,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -161,7 +167,8 @@
               "type": "Literal",
               "start": 595,
               "end": 604,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -170,13 +177,15 @@
             "type": "Literal",
             "start": 607,
             "end": 611,
-            "value": "12"
+            "value": "12",
+            "raw": "\"12\""
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 666,
-            "value": "The value of this[\"shifted\"] is expected to be \"12\""
+            "value": "The value of this[\"shifted\"] is expected to be \"12\"",
+            "raw": "'The value of this[\"shifted\"] is expected to be \"12\"'"
           }
         ],
         "optional": false

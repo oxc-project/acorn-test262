@@ -30,7 +30,8 @@
                 "type": "Literal",
                 "start": 1890,
                 "end": 1929,
-                "value": "./module-import-resolution_FIXTURE.js"
+                "value": "./module-import-resolution_FIXTURE.js",
+                "raw": "'./module-import-resolution_FIXTURE.js'"
               },
               "options": null
             }
@@ -90,7 +91,8 @@
             "type": "Literal",
             "start": 1962,
             "end": 1964,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -147,7 +149,8 @@
             "type": "Literal",
             "start": 1990,
             "end": 1997,
-            "value": "named"
+            "value": "named",
+            "raw": "'named'"
           }
         ],
         "optional": false
@@ -204,7 +207,8 @@
             "type": "Literal",
             "start": 2023,
             "end": 2025,
-            "value": 39
+            "value": 39,
+            "raw": "39"
           }
         ],
         "optional": false

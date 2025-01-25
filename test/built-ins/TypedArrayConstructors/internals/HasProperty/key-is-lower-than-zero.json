@@ -45,7 +45,8 @@
               "type": "Literal",
               "start": 717,
               "end": 718,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           "computed": true,
@@ -55,7 +56,8 @@
           "type": "Literal",
           "start": 722,
           "end": 731,
-          "value": "test262"
+          "value": "test262",
+          "raw": "\"test262\""
         }
       }
     },
@@ -125,7 +127,8 @@
                             "type": "Literal",
                             "start": 802,
                             "end": 803,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -195,7 +198,8 @@
                             "type": "Literal",
                             "start": 846,
                             "end": 850,
-                            "value": "-1"
+                            "value": "-1",
+                            "raw": "\"-1\""
                           }
                         ],
                         "optional": false
@@ -204,13 +208,15 @@
                         "type": "Literal",
                         "start": 853,
                         "end": 858,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 860,
                         "end": 905,
-                        "value": "Reflect.has(sample, \"-1\") must return false"
+                        "value": "Reflect.has(sample, \"-1\") must return false",
+                        "raw": "'Reflect.has(sample, \"-1\") must return false'"
                       }
                     ],
                     "optional": false

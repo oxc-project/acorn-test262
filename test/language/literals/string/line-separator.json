@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 577,
+  "end": 575,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 542,
-      "end": 576,
+      "end": 574,
       "expression": {
         "type": "CallExpression",
         "start": 542,
-        "end": 575,
+        "end": 573,
         "callee": {
           "type": "MemberExpression",
           "start": 542,
@@ -34,14 +34,16 @@
           {
             "type": "Literal",
             "start": 559,
-            "end": 564,
-            "value": " "
+            "end": 562,
+            "value": " ",
+            "raw": "\" \""
           },
           {
             "type": "Literal",
-            "start": 566,
-            "end": 574,
-            "value": " "
+            "start": 564,
+            "end": 572,
+            "value": " ",
+            "raw": "\"\\u2028\""
           }
         ],
         "optional": false

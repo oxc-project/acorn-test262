@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 342,
             "end": 343,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -54,7 +55,8 @@
           "type": "Literal",
           "start": 362,
           "end": 367,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -81,7 +83,8 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 431,
-                  "value": "#1: var x = 1; delete x === false"
+                  "value": "#1: var x = 1; delete x === false",
+                  "raw": "'#1: var x = 1; delete x === false'"
                 }
               ]
             }
@@ -109,7 +112,8 @@
             "type": "Literal",
             "start": 455,
             "end": 456,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -153,7 +157,8 @@
           "type": "Literal",
           "start": 480,
           "end": 485,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -180,7 +185,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 554,
-                  "value": "#2: var y = 1; delete this.y === false"
+                  "value": "#2: var y = 1; delete this.y === false",
+                  "raw": "'#2: var y = 1; delete this.y === false'"
                 }
               ]
             }
@@ -236,7 +242,8 @@
           "type": "Literal",
           "start": 621,
           "end": 626,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -263,7 +270,8 @@
                   "type": "Literal",
                   "start": 655,
                   "end": 713,
-                  "value": "#3: function MyFunction(){}; delete MyFunction === false"
+                  "value": "#3: function MyFunction(){}; delete MyFunction === false",
+                  "raw": "'#3: function MyFunction(){}; delete MyFunction === false'"
                 }
               ]
             }
@@ -329,7 +337,8 @@
           "type": "Literal",
           "start": 786,
           "end": 791,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -356,7 +365,8 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 914,
-                  "value": "#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false"
+                  "value": "#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false",
+                  "raw": "'#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false'"
                 }
               ]
             }

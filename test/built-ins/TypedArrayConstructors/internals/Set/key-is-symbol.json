@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 535,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -72,7 +73,8 @@
                 "type": "Literal",
                 "start": 554,
                 "end": 557,
-                "value": "2"
+                "value": "2",
+                "raw": "\"2\""
               }
             ],
             "optional": false
@@ -152,7 +154,8 @@
                                 "type": "Literal",
                                 "start": 630,
                                 "end": 632,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               }
                             ]
                           }
@@ -230,7 +233,8 @@
                             "type": "Literal",
                             "start": 685,
                             "end": 694,
-                            "value": "ecma262"
+                            "value": "ecma262",
+                            "raw": "\"ecma262\""
                           }
                         ],
                         "optional": false
@@ -239,13 +243,15 @@
                         "type": "Literal",
                         "start": 701,
                         "end": 705,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 711,
                         "end": 779,
-                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"ecma262\") must return true"
+                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"ecma262\") must return true",
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"ecma262\") must return true'"
                       }
                     ],
                     "optional": false
@@ -302,13 +308,15 @@
                         "type": "Literal",
                         "start": 816,
                         "end": 825,
-                        "value": "ecma262"
+                        "value": "ecma262",
+                        "raw": "\"ecma262\""
                       },
                       {
                         "type": "Literal",
                         "start": 827,
                         "end": 865,
-                        "value": "The value of sample[s1] is \"ecma262\""
+                        "value": "The value of sample[s1] is \"ecma262\"",
+                        "raw": "'The value of sample[s1] is \"ecma262\"'"
                       }
                     ],
                     "optional": false
@@ -382,7 +390,8 @@
                             "type": "Literal",
                             "start": 917,
                             "end": 925,
-                            "value": "es3000"
+                            "value": "es3000",
+                            "raw": "\"es3000\""
                           }
                         ],
                         "optional": false
@@ -391,13 +400,15 @@
                         "type": "Literal",
                         "start": 932,
                         "end": 936,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 942,
                         "end": 1009,
-                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"es3000\") must return true"
+                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"es3000\") must return true",
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"es3000\") must return true'"
                       }
                     ],
                     "optional": false
@@ -454,13 +465,15 @@
                         "type": "Literal",
                         "start": 1046,
                         "end": 1054,
-                        "value": "es3000"
+                        "value": "es3000",
+                        "raw": "\"es3000\""
                       },
                       {
                         "type": "Literal",
                         "start": 1056,
                         "end": 1093,
-                        "value": "The value of sample[s1] is \"es3000\""
+                        "value": "The value of sample[s1] is \"es3000\"",
+                        "raw": "'The value of sample[s1] is \"es3000\"'"
                       }
                     ],
                     "optional": false
@@ -528,7 +541,8 @@
                               "type": "Literal",
                               "start": 1149,
                               "end": 1154,
-                              "value": false
+                              "value": false,
+                              "raw": "false"
                             },
                             "kind": "init"
                           },
@@ -627,7 +641,8 @@
                             "type": "Literal",
                             "start": 1231,
                             "end": 1233,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         ],
                         "optional": false
@@ -636,13 +651,15 @@
                         "type": "Literal",
                         "start": 1240,
                         "end": 1245,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       {
                         "type": "Literal",
                         "start": 1251,
                         "end": 1313,
-                        "value": "Reflect.set(sample, \"Symbol(\\\"2\\\")\", 42) must return false"
+                        "value": "Reflect.set(sample, \"Symbol(\\\"2\\\")\", 42) must return false",
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"2\\\\\")\", 42) must return false'"
                       }
                     ],
                     "optional": false
@@ -705,7 +722,8 @@
                         "type": "Literal",
                         "start": 1361,
                         "end": 1419,
-                        "value": "The value of sample[s2] is expected to equal `undefined`"
+                        "value": "The value of sample[s2] is expected to equal `undefined`",
+                        "raw": "'The value of sample[s2] is expected to equal `undefined`'"
                       }
                     ],
                     "optional": false

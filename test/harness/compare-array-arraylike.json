@@ -54,7 +54,8 @@
                   "type": "Literal",
                   "start": 294,
                   "end": 299,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 }
               }
             ],
@@ -123,7 +124,8 @@
                         "type": "Literal",
                         "start": 358,
                         "end": 362,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     }
                   },
@@ -346,7 +348,8 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               },
@@ -361,13 +364,15 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 575,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 577,
                   "end": 578,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -382,13 +387,15 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 581,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 583,
                   "end": 586,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "'a'"
                 },
                 "kind": "init"
               },
@@ -403,7 +410,8 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 589,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Identifier",
@@ -462,13 +470,15 @@
                 "type": "Literal",
                 "start": 634,
                 "end": 635,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 640,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Identifier",
@@ -519,13 +529,15 @@
                 "type": "Literal",
                 "start": 676,
                 "end": 677,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 679,
                 "end": 682,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Identifier",
@@ -618,7 +630,8 @@
                         "type": "Literal",
                         "start": 780,
                         "end": 796,
-                        "value": "fixture and []"
+                        "value": "fixture and []",
+                        "raw": "'fixture and []'"
                       }
                     ],
                     "optional": false
@@ -631,7 +644,8 @@
             "type": "Literal",
             "start": 802,
             "end": 890,
-            "value": "Actual [0, a, undefined] and expected [] should have the same contents. fixture and []"
+            "value": "Actual [0, a, undefined] and expected [] should have the same contents. fixture and []",
+            "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. fixture and []'"
           }
         ],
         "optional": false
@@ -710,7 +724,8 @@
                         "type": "Literal",
                         "start": 967,
                         "end": 983,
-                        "value": "[] and fixture"
+                        "value": "[] and fixture",
+                        "raw": "'[] and fixture'"
                       }
                     ],
                     "optional": false
@@ -723,7 +738,8 @@
             "type": "Literal",
             "start": 989,
             "end": 1077,
-            "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture"
+            "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture",
+            "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture'"
           }
         ],
         "optional": false

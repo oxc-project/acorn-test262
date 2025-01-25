@@ -44,6 +44,7 @@
                 "start": 679,
                 "end": 685,
                 "value": {},
+                "raw": "/.4?./",
                 "regex": {
                   "pattern": ".4?.",
                   "flags": ""
@@ -76,13 +77,15 @@
                 "type": "Literal",
                 "start": 702,
                 "end": 707,
-                "value": "abc"
+                "value": "abc",
+                "raw": "'abc'"
               },
               {
                 "type": "Literal",
                 "start": 709,
                 "end": 715,
-                "value": "[$&]"
+                "value": "[$&]",
+                "raw": "'[$&]'"
               }
             ],
             "optional": false
@@ -91,7 +94,8 @@
             "type": "Literal",
             "start": 718,
             "end": 725,
-            "value": "[ab]c"
+            "value": "[ab]c",
+            "raw": "'[ab]c'"
           }
         ],
         "optional": false

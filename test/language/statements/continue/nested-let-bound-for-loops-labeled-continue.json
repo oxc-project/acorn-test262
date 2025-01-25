@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 238,
             "end": 239,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -55,7 +56,8 @@
                 "type": "Literal",
                 "start": 261,
                 "end": 262,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ],
@@ -76,7 +78,8 @@
             "type": "Literal",
             "start": 268,
             "end": 270,
-            "value": 10
+            "value": 10,
+            "raw": "10"
           }
         },
         "update": null,
@@ -126,7 +129,8 @@
                       "type": "Literal",
                       "start": 297,
                       "end": 298,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -147,7 +151,8 @@
                   "type": "Literal",
                   "start": 304,
                   "end": 305,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               "update": null,
@@ -211,7 +216,8 @@
                         "type": "Literal",
                         "start": 345,
                         "end": 346,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     },
                     "consequent": {
@@ -278,13 +284,15 @@
             "type": "Literal",
             "start": 394,
             "end": 396,
-            "value": 20
+            "value": 20,
+            "raw": "20"
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 428,
-            "value": "The value of `count` is `20`"
+            "value": "The value of `count` is `20`",
+            "raw": "\"The value of `count` is `20`\""
           }
         ],
         "optional": false

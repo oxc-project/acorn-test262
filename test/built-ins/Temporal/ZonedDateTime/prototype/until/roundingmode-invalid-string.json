@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 373,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 380,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -103,13 +105,15 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 450,
-                "value": "1000090061123987500n"
+                "value": "1000090061123987500n",
+                "raw": "1_000_090_061_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 457,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -151,43 +155,50 @@
             "type": "Literal",
             "start": 488,
             "end": 502,
-            "value": "other string"
+            "value": "other string",
+            "raw": "\"other string\""
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 510,
-            "value": "cile"
+            "value": "cile",
+            "raw": "\"cile\""
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 518,
-            "value": "CEIL"
+            "value": "CEIL",
+            "raw": "\"CEIL\""
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 531,
-            "value": "ceıl"
+            "value": "ceıl",
+            "raw": "\"ce\\u0131l\""
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 539,
-            "value": "auto"
+            "value": "auto",
+            "raw": "\"auto\""
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 553,
-            "value": "halfexpand"
+            "value": "halfexpand",
+            "raw": "\"halfexpand\""
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 564,
-            "value": "floor\u0000"
+            "value": "floor\u0000",
+            "raw": "\"floor\\0\""
           }
         ]
       },
@@ -291,7 +302,8 @@
                               "type": "Literal",
                               "start": 640,
                               "end": 653,
-                              "value": "microsecond"
+                              "value": "microsecond",
+                              "raw": "\"microsecond\""
                             },
                             "kind": "init"
                           },

@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 730,
             "end": 735,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 784,
-            "value": "isConstructor(Number.isNaN) must return false"
+            "value": "isConstructor(Number.isNaN) must return false",
+            "raw": "'isConstructor(Number.isNaN) must return false'"
           }
         ],
         "optional": false

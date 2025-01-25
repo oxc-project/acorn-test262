@@ -52,7 +52,8 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 398,
-                  "value": "VerifyGlobalObject"
+                  "value": "VerifyGlobalObject",
+                  "raw": "\"VerifyGlobalObject\""
                 }
               }
             ]
@@ -190,13 +191,15 @@
             "type": "Literal",
             "start": 485,
             "end": 505,
-            "value": "VerifyGlobalObject"
+            "value": "VerifyGlobalObject",
+            "raw": "\"VerifyGlobalObject\""
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 520,
-            "value": "newObj.prop"
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
           }
         ],
         "optional": false

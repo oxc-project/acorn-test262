@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 334,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ]
           }

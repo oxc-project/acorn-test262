@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 376,
-                "value": "ABC"
+                "value": "ABC",
+                "raw": "\"ABC\""
               }
             ]
           }
@@ -77,7 +78,8 @@
               "type": "Literal",
               "start": 491,
               "end": 492,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ],
           "optional": false
@@ -87,7 +89,8 @@
           "type": "Literal",
           "start": 498,
           "end": 500,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -118,7 +121,8 @@
                     "type": "Literal",
                     "start": 529,
                     "end": 628,
-                    "value": "#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ==="
+                    "value": "#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ===",
+                    "raw": "'#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -149,7 +153,8 @@
                         "type": "Literal",
                         "start": 649,
                         "end": 650,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     ],
                     "optional": false

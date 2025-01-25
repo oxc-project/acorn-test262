@@ -112,13 +112,15 @@
             "type": "Literal",
             "start": 705,
             "end": 712,
-            "value": "value"
+            "value": "value",
+            "raw": "\"value\""
           },
           {
             "type": "Literal",
             "start": 714,
             "end": 721,
-            "value": "value"
+            "value": "value",
+            "raw": "\"value\""
           }
         ],
         "optional": false

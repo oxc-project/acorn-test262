@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 291,
                 "end": 302,
-                "value": "MAX_VALUE"
+                "value": "MAX_VALUE",
+                "raw": "\"MAX_VALUE\""
               },
               "operator": "in",
               "right": {
@@ -58,7 +59,8 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 399,
-                    "value": "#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: "
+                    "value": "#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -73,7 +75,8 @@
                         "type": "Literal",
                         "start": 403,
                         "end": 414,
-                        "value": "MAX_VALUE"
+                        "value": "MAX_VALUE",
+                        "raw": "\"MAX_VALUE\""
                       },
                       "operator": "in",
                       "right": {
@@ -141,7 +144,8 @@
                   "type": "Literal",
                   "start": 484,
                   "end": 488,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -172,7 +176,8 @@
                             "type": "Literal",
                             "start": 519,
                             "end": 579,
-                            "value": "#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: "
+                            "value": "#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

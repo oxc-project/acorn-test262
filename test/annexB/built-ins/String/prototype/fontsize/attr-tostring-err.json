@@ -142,7 +142,8 @@
                         "type": "Literal",
                         "start": 540,
                         "end": 542,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",

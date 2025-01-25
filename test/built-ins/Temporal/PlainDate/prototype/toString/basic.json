@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 271,
                 "end": 275,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 279,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 281,
                 "end": 283,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               }
             ]
           }
@@ -124,7 +127,8 @@
             "type": "Literal",
             "start": 321,
             "end": 333,
-            "value": "1976-11-18"
+            "value": "1976-11-18",
+            "raw": "\"1976-11-18\""
           }
         ],
         "optional": false
@@ -173,19 +177,22 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
-                "value": 1914
+                "value": 1914,
+                "raw": "1914"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 385,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               }
             ]
           }
@@ -251,7 +258,8 @@
             "type": "Literal",
             "start": 423,
             "end": 435,
-            "value": "1914-02-23"
+            "value": "1914-02-23",
+            "raw": "\"1914-02-23\""
           }
         ],
         "optional": false
@@ -300,19 +308,22 @@
                 "type": "Literal",
                 "start": 476,
                 "end": 480,
-                "value": 1996
+                "value": 1996,
+                "raw": "1996"
               },
               {
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 487,
-                "value": 29
+                "value": 29,
+                "raw": "29"
               }
             ]
           }
@@ -378,7 +389,8 @@
             "type": "Literal",
             "start": 525,
             "end": 537,
-            "value": "1996-02-29"
+            "value": "1996-02-29",
+            "raw": "\"1996-02-29\""
           }
         ],
         "optional": false

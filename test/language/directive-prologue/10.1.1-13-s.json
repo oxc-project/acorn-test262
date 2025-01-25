@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 318,
             "end": 388,
-            "value": "var public = 1; var anotherVariableNotReserveWord = 2; 'use strict';"
+            "value": "var public = 1; var anotherVariableNotReserveWord = 2; 'use strict';",
+            "raw": "\"var public = 1; var anotherVariableNotReserveWord = 2; 'use strict';\""
           }
         ],
         "optional": false
@@ -66,13 +67,15 @@
             "type": "Literal",
             "start": 417,
             "end": 418,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 420,
             "end": 428,
-            "value": "public"
+            "value": "public",
+            "raw": "'public'"
           }
         ],
         "optional": false
@@ -116,13 +119,15 @@
             "type": "Literal",
             "start": 479,
             "end": 480,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 513,
-            "value": "anotherVariableNotReserveWord"
+            "value": "anotherVariableNotReserveWord",
+            "raw": "'anotherVariableNotReserveWord'"
           }
         ],
         "optional": false

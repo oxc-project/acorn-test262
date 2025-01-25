@@ -56,13 +56,15 @@
                             "type": "Literal",
                             "start": 489,
                             "end": 499,
-                            "value": "a1,a2,a3"
+                            "value": "a1,a2,a3",
+                            "raw": "\"a1,a2,a3\""
                           },
                           {
                             "type": "Literal",
                             "start": 501,
                             "end": 532,
-                            "value": "this.shifted=a1.length+a2+a3;"
+                            "value": "this.shifted=a1.length+a2+a3;",
+                            "raw": "\"this.shifted=a1.length+a2+a3;\""
                           }
                         ],
                         "optional": false
@@ -92,13 +94,15 @@
                         "type": "Literal",
                         "start": 556,
                         "end": 558,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "Literal",
                         "start": 560,
                         "end": 561,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     ],
                     "optional": false
@@ -113,25 +117,29 @@
             "type": "Literal",
             "start": 567,
             "end": 569,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 572,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 575,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 581,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -178,7 +186,8 @@
               "type": "Literal",
               "start": 607,
               "end": 616,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -187,13 +196,15 @@
             "type": "Literal",
             "start": 619,
             "end": 623,
-            "value": "42"
+            "value": "42",
+            "raw": "\"42\""
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 678,
-            "value": "The value of this[\"shifted\"] is expected to be \"42\""
+            "value": "The value of this[\"shifted\"] is expected to be \"42\"",
+            "raw": "'The value of this[\"shifted\"] is expected to be \"42\"'"
           }
         ],
         "optional": false

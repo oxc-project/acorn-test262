@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 447,
             "end": 466,
-            "value": "POSITIVE_INFINITY"
+            "value": "POSITIVE_INFINITY",
+            "raw": "\"POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -59,7 +60,8 @@
             "type": "Literal",
             "start": 495,
             "end": 514,
-            "value": "POSITIVE_INFINITY"
+            "value": "POSITIVE_INFINITY",
+            "raw": "\"POSITIVE_INFINITY\""
           }
         ],
         "optional": false
@@ -90,7 +92,8 @@
             "type": "Literal",
             "start": 547,
             "end": 566,
-            "value": "POSITIVE_INFINITY"
+            "value": "POSITIVE_INFINITY",
+            "raw": "\"POSITIVE_INFINITY\""
           }
         ],
         "optional": false

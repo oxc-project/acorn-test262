@@ -205,7 +205,8 @@
                         "type": "Literal",
                         "start": 610,
                         "end": 612,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",

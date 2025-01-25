@@ -95,7 +95,8 @@
                             "type": "Literal",
                             "start": 1283,
                             "end": 1284,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }
@@ -146,13 +147,15 @@
                             "type": "Literal",
                             "start": 1329,
                             "end": 1330,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1332,
                             "end": 1334,
-                            "value": 12
+                            "value": 12,
+                            "raw": "12"
                           }
                         ]
                       }
@@ -253,7 +256,8 @@
                                     "type": "Literal",
                                     "start": 1409,
                                     "end": 1413,
-                                    "value": 2000
+                                    "value": 2000,
+                                    "raw": "2000"
                                   },
                                   "kind": "init"
                                 },
@@ -274,7 +278,8 @@
                                     "type": "Literal",
                                     "start": 1422,
                                     "end": 1423,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   "kind": "init"
                                 },
@@ -295,7 +300,8 @@
                                     "type": "Literal",
                                     "start": 1430,
                                     "end": 1431,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   "kind": "init"
                                 },

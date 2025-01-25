@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 331,
             "end": 343,
-            "value": "2019-10-01"
+            "value": "2019-10-01",
+            "raw": "\"2019-10-01\""
           }
         }
       ],
@@ -71,19 +72,22 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 389,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 395,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -201,7 +205,8 @@
                         "type": "Literal",
                         "start": 488,
                         "end": 493,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -215,7 +220,8 @@
             "type": "Literal",
             "start": 500,
             "end": 566,
-            "value": "Date-only string throws, does not implicitly convert to midnight"
+            "value": "Date-only string throws, does not implicitly convert to midnight",
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
           }
         ],
         "optional": false

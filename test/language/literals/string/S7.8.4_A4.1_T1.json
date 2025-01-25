@@ -39,7 +39,8 @@
               "type": "Literal",
               "start": 314,
               "end": 320,
-              "value": 8
+              "value": 8,
+              "raw": "0x0008"
             }
           ],
           "optional": false
@@ -49,7 +50,8 @@
           "type": "Literal",
           "start": 326,
           "end": 330,
-          "value": "\b"
+          "value": "\b",
+          "raw": "\"\\b\""
         }
       },
       "consequent": {
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 402,
-                  "value": "#1: String.fromCharCode(0x0008) === \"\\b\""
+                  "value": "#1: String.fromCharCode(0x0008) === \"\\b\"",
+                  "raw": "'#1: String.fromCharCode(0x0008) === \"\\\\b\"'"
                 }
               ]
             }
@@ -121,7 +124,8 @@
               "type": "Literal",
               "start": 442,
               "end": 448,
-              "value": 9
+              "value": 9,
+              "raw": "0x0009"
             }
           ],
           "optional": false
@@ -131,7 +135,8 @@
           "type": "Literal",
           "start": 454,
           "end": 458,
-          "value": "\t"
+          "value": "\t",
+          "raw": "\"\\t\""
         }
       },
       "consequent": {
@@ -158,7 +163,8 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 530,
-                  "value": "#2: String.fromCharCode(0x0009) === \"\\t\""
+                  "value": "#2: String.fromCharCode(0x0009) === \"\\t\"",
+                  "raw": "'#2: String.fromCharCode(0x0009) === \"\\\\t\"'"
                 }
               ]
             }
@@ -203,7 +209,8 @@
               "type": "Literal",
               "start": 570,
               "end": 576,
-              "value": 10
+              "value": 10,
+              "raw": "0x000A"
             }
           ],
           "optional": false
@@ -213,7 +220,8 @@
           "type": "Literal",
           "start": 582,
           "end": 586,
-          "value": "\n"
+          "value": "\n",
+          "raw": "\"\\n\""
         }
       },
       "consequent": {
@@ -240,7 +248,8 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 658,
-                  "value": "#3: String.fromCharCode(0x000A) === \"\\n\""
+                  "value": "#3: String.fromCharCode(0x000A) === \"\\n\"",
+                  "raw": "'#3: String.fromCharCode(0x000A) === \"\\\\n\"'"
                 }
               ]
             }
@@ -285,7 +294,8 @@
               "type": "Literal",
               "start": 698,
               "end": 704,
-              "value": 11
+              "value": 11,
+              "raw": "0x000B"
             }
           ],
           "optional": false
@@ -295,7 +305,8 @@
           "type": "Literal",
           "start": 710,
           "end": 714,
-          "value": "\u000b"
+          "value": "\u000b",
+          "raw": "\"\\v\""
         }
       },
       "consequent": {
@@ -322,7 +333,8 @@
                   "type": "Literal",
                   "start": 743,
                   "end": 786,
-                  "value": "#4: String.fromCharCode(0x000B) === \"\\v\""
+                  "value": "#4: String.fromCharCode(0x000B) === \"\\v\"",
+                  "raw": "'#4: String.fromCharCode(0x000B) === \"\\\\v\"'"
                 }
               ]
             }
@@ -367,7 +379,8 @@
               "type": "Literal",
               "start": 826,
               "end": 832,
-              "value": 12
+              "value": 12,
+              "raw": "0x000C"
             }
           ],
           "optional": false
@@ -377,7 +390,8 @@
           "type": "Literal",
           "start": 838,
           "end": 842,
-          "value": "\f"
+          "value": "\f",
+          "raw": "\"\\f\""
         }
       },
       "consequent": {
@@ -404,7 +418,8 @@
                   "type": "Literal",
                   "start": 871,
                   "end": 914,
-                  "value": "#5: String.fromCharCode(0x000C) === \"\\f\""
+                  "value": "#5: String.fromCharCode(0x000C) === \"\\f\"",
+                  "raw": "'#5: String.fromCharCode(0x000C) === \"\\\\f\"'"
                 }
               ]
             }
@@ -449,7 +464,8 @@
               "type": "Literal",
               "start": 954,
               "end": 960,
-              "value": 13
+              "value": 13,
+              "raw": "0x000D"
             }
           ],
           "optional": false
@@ -459,7 +475,8 @@
           "type": "Literal",
           "start": 966,
           "end": 970,
-          "value": "\r"
+          "value": "\r",
+          "raw": "\"\\r\""
         }
       },
       "consequent": {
@@ -486,7 +503,8 @@
                   "type": "Literal",
                   "start": 999,
                   "end": 1042,
-                  "value": "#6: String.fromCharCode(0x000D) === \"\\r\""
+                  "value": "#6: String.fromCharCode(0x000D) === \"\\r\"",
+                  "raw": "'#6: String.fromCharCode(0x000D) === \"\\\\r\"'"
                 }
               ]
             }

@@ -1,165 +1,188 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2250,
+  "end": 2248,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 2118,
+      "start": 291,
+      "end": 2116,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 298,
-          "end": 2117,
+          "start": 297,
+          "end": 2115,
           "id": {
             "type": "Identifier",
-            "start": 298,
-            "end": 307,
+            "start": 297,
+            "end": 306,
             "name": "testCases"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 310,
-            "end": 2117,
+            "start": 309,
+            "end": 2115,
             "elements": [
               {
                 "type": "Literal",
-                "start": 314,
-                "end": 331,
-                "value": "America/Creston"
+                "start": 313,
+                "end": 330,
+                "value": "America/Creston",
+                "raw": "\"America/Creston\""
               },
               {
                 "type": "Literal",
-                "start": 376,
-                "end": 392,
-                "value": "America/Nassau"
+                "start": 375,
+                "end": 391,
+                "value": "America/Nassau",
+                "raw": "\"America/Nassau\""
               },
               {
                 "type": "Literal",
-                "start": 436,
-                "end": 454,
-                "value": "America/Atikokan"
+                "start": 435,
+                "end": 453,
+                "value": "America/Atikokan",
+                "raw": "\"America/Atikokan\""
               },
               {
                 "type": "Literal",
-                "start": 499,
-                "end": 515,
-                "value": "America/Cayman"
+                "start": 498,
+                "end": 514,
+                "value": "America/Cayman",
+                "raw": "\"America/Cayman\""
               },
               {
                 "type": "Literal",
-                "start": 558,
-                "end": 576,
-                "value": "America/Anguilla"
+                "start": 557,
+                "end": 575,
+                "value": "America/Anguilla",
+                "raw": "\"America/Anguilla\""
               },
               {
                 "type": "Literal",
-                "start": 626,
-                "end": 643,
-                "value": "America/Antigua"
+                "start": 625,
+                "end": 642,
+                "value": "America/Antigua",
+                "raw": "\"America/Antigua\""
               },
               {
                 "type": "Literal",
-                "start": 692,
-                "end": 707,
-                "value": "America/Aruba"
+                "start": 691,
+                "end": 706,
+                "value": "America/Aruba",
+                "raw": "\"America/Aruba\""
               },
               {
                 "type": "Literal",
-                "start": 754,
-                "end": 771,
-                "value": "America/Curacao"
+                "start": 753,
+                "end": 770,
+                "value": "America/Curacao",
+                "raw": "\"America/Curacao\""
               },
               {
                 "type": "Literal",
-                "start": 820,
-                "end": 842,
-                "value": "America/Blanc-Sablon"
+                "start": 819,
+                "end": 841,
+                "value": "America/Blanc-Sablon",
+                "raw": "\"America/Blanc-Sablon\""
               },
               {
                 "type": "Literal",
-                "start": 927,
-                "end": 945,
-                "value": "America/Dominica"
+                "start": 926,
+                "end": 944,
+                "value": "America/Dominica",
+                "raw": "\"America/Dominica\""
               },
               {
                 "type": "Literal",
-                "start": 995,
-                "end": 1012,
-                "value": "America/Grenada"
+                "start": 994,
+                "end": 1011,
+                "value": "America/Grenada",
+                "raw": "\"America/Grenada\""
               },
               {
                 "type": "Literal",
-                "start": 1061,
-                "end": 1081,
-                "value": "America/Guadeloupe"
+                "start": 1060,
+                "end": 1080,
+                "value": "America/Guadeloupe",
+                "raw": "\"America/Guadeloupe\""
               },
               {
                 "type": "Literal",
-                "start": 1133,
-                "end": 1153,
-                "value": "America/Kralendijk"
+                "start": 1132,
+                "end": 1152,
+                "value": "America/Kralendijk",
+                "raw": "\"America/Kralendijk\""
               },
               {
                 "type": "Literal",
-                "start": 1233,
-                "end": 1256,
-                "value": "America/Lower_Princes"
+                "start": 1232,
+                "end": 1255,
+                "value": "America/Lower_Princes",
+                "raw": "\"America/Lower_Princes\""
               },
               {
                 "type": "Literal",
-                "start": 1327,
-                "end": 1344,
-                "value": "America/Marigot"
+                "start": 1326,
+                "end": 1343,
+                "value": "America/Marigot",
+                "raw": "\"America/Marigot\""
               },
               {
                 "type": "Literal",
-                "start": 1426,
-                "end": 1446,
-                "value": "America/Montserrat"
+                "start": 1425,
+                "end": 1445,
+                "value": "America/Montserrat",
+                "raw": "\"America/Montserrat\""
               },
               {
                 "type": "Literal",
-                "start": 1498,
-                "end": 1521,
-                "value": "America/Port_of_Spain"
+                "start": 1497,
+                "end": 1520,
+                "value": "America/Port_of_Spain",
+                "raw": "\"America/Port_of_Spain\""
               },
               {
                 "type": "Literal",
-                "start": 1597,
-                "end": 1620,
-                "value": "America/St_Barthelemy"
+                "start": 1596,
+                "end": 1619,
+                "value": "America/St_Barthelemy",
+                "raw": "\"America/St_Barthelemy\""
               },
               {
                 "type": "Literal",
-                "start": 1693,
-                "end": 1711,
-                "value": "America/St_Kitts"
+                "start": 1691,
+                "end": 1709,
+                "value": "America/St_Kitts",
+                "raw": "\"America/St_Kitts\""
               },
               {
                 "type": "Literal",
-                "start": 1786,
-                "end": 1804,
-                "value": "America/St_Lucia"
+                "start": 1784,
+                "end": 1802,
+                "value": "America/St_Lucia",
+                "raw": "\"America/St_Lucia\""
               },
               {
                 "type": "Literal",
-                "start": 1854,
-                "end": 1873,
-                "value": "America/St_Thomas"
+                "start": 1852,
+                "end": 1871,
+                "value": "America/St_Thomas",
+                "raw": "\"America/St_Thomas\""
               },
               {
                 "type": "Literal",
-                "start": 1951,
-                "end": 1971,
-                "value": "America/St_Vincent"
+                "start": 1949,
+                "end": 1969,
+                "value": "America/St_Vincent",
+                "raw": "\"America/St_Vincent\""
               },
               {
                 "type": "Literal",
-                "start": 2023,
-                "end": 2040,
-                "value": "America/Tortola"
+                "start": 2021,
+                "end": 2038,
+                "value": "America/Tortola",
+                "raw": "\"America/Tortola\""
               }
             ]
           }
@@ -169,22 +192,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 2120,
-      "end": 2249,
+      "start": 2118,
+      "end": 2247,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2125,
-        "end": 2131,
+        "start": 2123,
+        "end": 2129,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2129,
-            "end": 2131,
+            "start": 2127,
+            "end": 2129,
             "id": {
               "type": "Identifier",
-              "start": 2129,
-              "end": 2131,
+              "start": 2127,
+              "end": 2129,
               "name": "id"
             },
             "init": null
@@ -194,48 +217,48 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 2135,
-        "end": 2144,
+        "start": 2133,
+        "end": 2142,
         "name": "testCases"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2146,
-        "end": 2249,
+        "start": 2144,
+        "end": 2247,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 2150,
-            "end": 2202,
+            "start": 2148,
+            "end": 2200,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2156,
-                "end": 2201,
+                "start": 2154,
+                "end": 2199,
                 "id": {
                   "type": "Identifier",
-                  "start": 2156,
-                  "end": 2164,
+                  "start": 2154,
+                  "end": 2162,
                   "name": "instance"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 2167,
-                  "end": 2201,
+                  "start": 2165,
+                  "end": 2199,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 2171,
-                    "end": 2193,
+                    "start": 2169,
+                    "end": 2191,
                     "object": {
                       "type": "Identifier",
-                      "start": 2171,
-                      "end": 2179,
+                      "start": 2169,
+                      "end": 2177,
                       "name": "Temporal"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2180,
-                      "end": 2193,
+                      "start": 2178,
+                      "end": 2191,
                       "name": "ZonedDateTime"
                     },
                     "computed": false,
@@ -244,14 +267,15 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 2194,
-                      "end": 2196,
-                      "value": "0n"
+                      "start": 2192,
+                      "end": 2194,
+                      "value": "0n",
+                      "raw": "0n"
                     },
                     {
                       "type": "Identifier",
-                      "start": 2198,
-                      "end": 2200,
+                      "start": 2196,
+                      "end": 2198,
                       "name": "id"
                     }
                   ]
@@ -262,26 +286,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2205,
-            "end": 2247,
+            "start": 2203,
+            "end": 2245,
             "expression": {
               "type": "CallExpression",
-              "start": 2205,
-              "end": 2246,
+              "start": 2203,
+              "end": 2244,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2205,
-                "end": 2221,
+                "start": 2203,
+                "end": 2219,
                 "object": {
                   "type": "Identifier",
-                  "start": 2205,
-                  "end": 2211,
+                  "start": 2203,
+                  "end": 2209,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2212,
-                  "end": 2221,
+                  "start": 2210,
+                  "end": 2219,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -290,18 +314,18 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 2222,
-                  "end": 2241,
+                  "start": 2220,
+                  "end": 2239,
                   "object": {
                     "type": "Identifier",
-                    "start": 2222,
-                    "end": 2230,
+                    "start": 2220,
+                    "end": 2228,
                     "name": "instance"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 2231,
-                    "end": 2241,
+                    "start": 2229,
+                    "end": 2239,
                     "name": "timeZoneId"
                   },
                   "computed": false,
@@ -309,8 +333,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 2243,
-                  "end": 2245,
+                  "start": 2241,
+                  "end": 2243,
                   "name": "id"
                 }
               ],

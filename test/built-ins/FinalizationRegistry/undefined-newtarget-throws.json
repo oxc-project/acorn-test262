@@ -48,13 +48,15 @@
             "type": "Literal",
             "start": 518,
             "end": 528,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 573,
-            "value": "typeof FinalizationRegistry is function"
+            "value": "typeof FinalizationRegistry is function",
+            "raw": "'typeof FinalizationRegistry is function'"
           }
         ],
         "optional": false

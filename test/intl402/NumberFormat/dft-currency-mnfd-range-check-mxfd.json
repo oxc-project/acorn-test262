@@ -75,7 +75,8 @@
                         "type": "Literal",
                         "start": 422,
                         "end": 426,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -99,7 +100,8 @@
                               "type": "Literal",
                               "start": 441,
                               "end": 451,
-                              "value": "currency"
+                              "value": "currency",
+                              "raw": "'currency'"
                             },
                             "kind": "init"
                           },
@@ -120,7 +122,8 @@
                               "type": "Literal",
                               "start": 467,
                               "end": 472,
-                              "value": "USD"
+                              "value": "USD",
+                              "raw": "'USD'"
                             },
                             "kind": "init"
                           },
@@ -141,7 +144,8 @@
                               "type": "Literal",
                               "start": 501,
                               "end": 502,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "kind": "init"
                           }
@@ -175,7 +179,8 @@
             "type": "Literal",
             "start": 548,
             "end": 549,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -253,7 +258,8 @@
                         "type": "Literal",
                         "start": 593,
                         "end": 597,
-                        "value": "en"
+                        "value": "en",
+                        "raw": "'en'"
                       },
                       {
                         "type": "ObjectExpression",
@@ -277,7 +283,8 @@
                               "type": "Literal",
                               "start": 612,
                               "end": 622,
-                              "value": "currency"
+                              "value": "currency",
+                              "raw": "'currency'"
                             },
                             "kind": "init"
                           },
@@ -298,7 +305,8 @@
                               "type": "Literal",
                               "start": 638,
                               "end": 643,
-                              "value": "CLF"
+                              "value": "CLF",
+                              "raw": "'CLF'"
                             },
                             "kind": "init"
                           },
@@ -319,7 +327,8 @@
                               "type": "Literal",
                               "start": 672,
                               "end": 673,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             },
                             "kind": "init"
                           }
@@ -353,7 +362,8 @@
             "type": "Literal",
             "start": 719,
             "end": 720,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false

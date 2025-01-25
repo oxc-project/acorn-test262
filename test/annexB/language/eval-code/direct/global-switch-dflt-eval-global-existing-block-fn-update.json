@@ -35,7 +35,8 @@
                   "type": "Literal",
                   "start": 1130,
                   "end": 1149,
-                  "value": "first declaration"
+                  "value": "first declaration",
+                  "raw": "'first declaration'"
                 }
               }
             ]
@@ -74,14 +75,16 @@
                   "type": "Literal",
                   "start": 1166,
                   "end": 1180,
-                  "value": "switch (1) {"
+                  "value": "switch (1) {",
+                  "raw": "'switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1185,
                   "end": 1197,
-                  "value": "  default:"
+                  "value": "  default:",
+                  "raw": "'  default:'"
                 }
               },
               "operator": "+",
@@ -89,7 +92,8 @@
                 "type": "Literal",
                 "start": 1202,
                 "end": 1253,
-                "value": "    function f() { return \"second declaration\"; }"
+                "value": "    function f() { return \"second declaration\"; }",
+                "raw": "'    function f() { return \"second declaration\"; }'"
               }
             },
             "operator": "+",
@@ -97,7 +101,8 @@
               "type": "Literal",
               "start": 1258,
               "end": 1265,
-              "value": "}  "
+              "value": "}  ",
+              "raw": "'}\\\n  '"
             }
           }
         ],
@@ -149,7 +154,8 @@
             "type": "Literal",
             "start": 1297,
             "end": 1307,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -200,7 +206,8 @@
             "type": "Literal",
             "start": 1332,
             "end": 1352,
-            "value": "second declaration"
+            "value": "second declaration",
+            "raw": "'second declaration'"
           }
         ],
         "optional": false

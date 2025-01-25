@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 554,
                         "end": 599,
-                        "value": "var _13_0_8_fun = function () {eval = 42;};"
+                        "value": "var _13_0_8_fun = function () {eval = 42;};",
+                        "raw": "\"var _13_0_8_fun = function () {eval = 42;};\""
                       }
                     ],
                     "optional": false

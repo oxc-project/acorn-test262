@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 293,
                 "end": 294,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 296,
                 "end": 299,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 301,
                 "end": 305,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 307,
                 "end": 312,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "Literal",
                 "start": 314,
                 "end": 318,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               null,
               {
@@ -91,7 +96,8 @@
             "type": "Literal",
             "start": 357,
             "end": 358,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -195,7 +201,8 @@
                     "type": "Literal",
                     "start": 428,
                     "end": 429,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -218,7 +225,8 @@
                       "type": "Literal",
                       "start": 435,
                       "end": 454,
-                      "value": "element at index "
+                      "value": "element at index ",
+                      "raw": "'element at index '"
                     },
                     "operator": "+",
                     "right": {
@@ -233,7 +241,8 @@
                     "type": "Literal",
                     "start": 461,
                     "end": 482,
-                    "value": ": value (array key)"
+                    "value": ": value (array key)",
+                    "raw": "': value (array key)'"
                   }
                 }
               ],
@@ -282,7 +291,8 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 519,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   "computed": true,
                   "optional": false
@@ -318,7 +328,8 @@
                       "type": "Literal",
                       "start": 532,
                       "end": 551,
-                      "value": "element at index "
+                      "value": "element at index ",
+                      "raw": "'element at index '"
                     },
                     "operator": "+",
                     "right": {
@@ -333,7 +344,8 @@
                     "type": "Literal",
                     "start": 558,
                     "end": 581,
-                    "value": ": value (array value)"
+                    "value": ": value (array value)",
+                    "raw": "': value (array value)'"
                   }
                 }
               ],
@@ -391,7 +403,8 @@
                   "type": "Literal",
                   "start": 625,
                   "end": 626,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "BinaryExpression",
@@ -405,7 +418,8 @@
                       "type": "Literal",
                       "start": 628,
                       "end": 647,
-                      "value": "element at index "
+                      "value": "element at index ",
+                      "raw": "'element at index '"
                     },
                     "operator": "+",
                     "right": {
@@ -420,7 +434,8 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 678,
-                    "value": ": value (array length)"
+                    "value": ": value (array length)",
+                    "raw": "': value (array length)'"
                   }
                 }
               ],
@@ -486,13 +501,15 @@
             "type": "Literal",
             "start": 714,
             "end": 715,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 738,
-            "value": "Visits all elements"
+            "value": "Visits all elements",
+            "raw": "'Visits all elements'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 569,
             "end": 583,
-            "value": "ẛ̣"
+            "value": "ẛ̣",
+            "raw": "'\\u1E9B\\u0323'"
           }
         }
       ],
@@ -84,7 +85,8 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 620,
-                "value": "NFC"
+                "value": "NFC",
+                "raw": "'NFC'"
               }
             ],
             "optional": false
@@ -93,13 +95,15 @@
             "type": "Literal",
             "start": 623,
             "end": 637,
-            "value": "ẛ̣"
+            "value": "ẛ̣",
+            "raw": "'\\u1E9B\\u0323'"
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 658,
-            "value": "Normalized on NFC"
+            "value": "Normalized on NFC",
+            "raw": "'Normalized on NFC'"
           }
         ],
         "optional": false
@@ -161,7 +165,8 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 695,
-                "value": "NFD"
+                "value": "NFD",
+                "raw": "'NFD'"
               }
             ],
             "optional": false
@@ -170,13 +175,15 @@
             "type": "Literal",
             "start": 698,
             "end": 718,
-            "value": "ẛ̣"
+            "value": "ẛ̣",
+            "raw": "'\\u017F\\u0323\\u0307'"
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 739,
-            "value": "Normalized on NFD"
+            "value": "Normalized on NFD",
+            "raw": "'Normalized on NFD'"
           }
         ],
         "optional": false
@@ -238,7 +245,8 @@
                 "type": "Literal",
                 "start": 771,
                 "end": 777,
-                "value": "NFKC"
+                "value": "NFKC",
+                "raw": "'NFKC'"
               }
             ],
             "optional": false
@@ -247,13 +255,15 @@
             "type": "Literal",
             "start": 780,
             "end": 788,
-            "value": "ṩ"
+            "value": "ṩ",
+            "raw": "'\\u1E69'"
           },
           {
             "type": "Literal",
             "start": 790,
             "end": 810,
-            "value": "Normalized on NFKC"
+            "value": "Normalized on NFKC",
+            "raw": "'Normalized on NFKC'"
           }
         ],
         "optional": false
@@ -315,7 +325,8 @@
                 "type": "Literal",
                 "start": 842,
                 "end": 848,
-                "value": "NFKD"
+                "value": "NFKD",
+                "raw": "'NFKD'"
               }
             ],
             "optional": false
@@ -324,13 +335,15 @@
             "type": "Literal",
             "start": 851,
             "end": 871,
-            "value": "ṩ"
+            "value": "ṩ",
+            "raw": "'\\u0073\\u0323\\u0307'"
           },
           {
             "type": "Literal",
             "start": 873,
             "end": 893,
-            "value": "Normalized on NFKD"
+            "value": "Normalized on NFKD",
+            "raw": "'Normalized on NFKD'"
           }
         ],
         "optional": false
@@ -376,7 +389,8 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 949,
-                "value": "Å⫝̸क़Ω̈́"
+                "value": "Å⫝̸क़Ω̈́",
+                "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
               },
               "property": {
                 "type": "Identifier",
@@ -392,7 +406,8 @@
                 "type": "Literal",
                 "start": 960,
                 "end": 965,
-                "value": "NFC"
+                "value": "NFC",
+                "raw": "'NFC'"
               }
             ],
             "optional": false
@@ -401,13 +416,15 @@
             "type": "Literal",
             "start": 970,
             "end": 1018,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
           },
           {
             "type": "Literal",
             "start": 1022,
             "end": 1041,
-            "value": "Normalized on NFC"
+            "value": "Normalized on NFC",
+            "raw": "'Normalized on NFC'"
           }
         ],
         "optional": false
@@ -453,7 +470,8 @@
                 "type": "Literal",
                 "start": 1066,
                 "end": 1098,
-                "value": "Å⫝̸क़Ω̈́"
+                "value": "Å⫝̸क़Ω̈́",
+                "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
               },
               "property": {
                 "type": "Identifier",
@@ -469,7 +487,8 @@
                 "type": "Literal",
                 "start": 1109,
                 "end": 1114,
-                "value": "NFD"
+                "value": "NFD",
+                "raw": "'NFD'"
               }
             ],
             "optional": false
@@ -478,13 +497,15 @@
             "type": "Literal",
             "start": 1119,
             "end": 1170,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'A\\u030A\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
           },
           {
             "type": "Literal",
             "start": 1174,
             "end": 1193,
-            "value": "Normalized on NFD"
+            "value": "Normalized on NFD",
+            "raw": "'Normalized on NFD'"
           }
         ],
         "optional": false
@@ -530,7 +551,8 @@
                 "type": "Literal",
                 "start": 1218,
                 "end": 1250,
-                "value": "Å⫝̸क़Ω̈́"
+                "value": "Å⫝̸क़Ω̈́",
+                "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
               },
               "property": {
                 "type": "Identifier",
@@ -546,7 +568,8 @@
                 "type": "Literal",
                 "start": 1261,
                 "end": 1267,
-                "value": "NFKC"
+                "value": "NFKC",
+                "raw": "'NFKC'"
               }
             ],
             "optional": false
@@ -555,13 +578,15 @@
             "type": "Literal",
             "start": 1272,
             "end": 1320,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
           },
           {
             "type": "Literal",
             "start": 1324,
             "end": 1344,
-            "value": "Normalized on NFKC"
+            "value": "Normalized on NFKC",
+            "raw": "'Normalized on NFKC'"
           }
         ],
         "optional": false
@@ -607,7 +632,8 @@
                 "type": "Literal",
                 "start": 1369,
                 "end": 1401,
-                "value": "Å⫝̸क़Ω̈́"
+                "value": "Å⫝̸क़Ω̈́",
+                "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
               },
               "property": {
                 "type": "Identifier",
@@ -623,7 +649,8 @@
                 "type": "Literal",
                 "start": 1412,
                 "end": 1418,
-                "value": "NFKD"
+                "value": "NFKD",
+                "raw": "'NFKD'"
               }
             ],
             "optional": false
@@ -632,13 +659,15 @@
             "type": "Literal",
             "start": 1423,
             "end": 1474,
-            "value": "Å⫝̸क़Ω̈́"
+            "value": "Å⫝̸क़Ω̈́",
+            "raw": "'A\\u030A\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
           },
           {
             "type": "Literal",
             "start": 1478,
             "end": 1498,
-            "value": "Normalized on NFKD"
+            "value": "Normalized on NFKD",
+            "raw": "'Normalized on NFKD'"
           }
         ],
         "optional": false

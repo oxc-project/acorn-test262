@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 334,
-                "value": "2020-01-31"
+                "value": "2020-01-31",
+                "raw": "\"2020-01-31\""
               }
             ],
             "optional": false
@@ -142,7 +143,8 @@
                       "type": "Literal",
                       "start": 389,
                       "end": 390,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     "kind": "init"
                   }
@@ -170,7 +172,8 @@
                       "type": "Literal",
                       "start": 406,
                       "end": 417,
-                      "value": "constrain"
+                      "value": "constrain",
+                      "raw": "\"constrain\""
                     },
                     "kind": "init"
                   }
@@ -183,25 +186,29 @@
             "type": "Literal",
             "start": 424,
             "end": 428,
-            "value": 2020
+            "value": 2020,
+            "raw": "2020"
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 438,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 442,
-            "value": 29
+            "value": 29,
+            "raw": "29"
           }
         ],
         "optional": false

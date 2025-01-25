@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 284,
                 "end": 296,
-                "value": "2020-01-31"
+                "value": "2020-01-31",
+                "raw": "\"2020-01-31\""
               }
             ],
             "optional": false
@@ -157,7 +158,8 @@
                         "type": "Literal",
                         "start": 351,
                         "end": 352,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "kind": "init"
                     }
@@ -185,7 +187,8 @@
                         "type": "Literal",
                         "start": 368,
                         "end": 376,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }

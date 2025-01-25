@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 732,
             "end": 737,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 787,
-            "value": "isConstructor(Object.create) must return false"
+            "value": "isConstructor(Object.create) must return false",
+            "raw": "'isConstructor(Object.create) must return false'"
           }
         ],
         "optional": false
@@ -160,7 +162,8 @@
                         "type": "Literal",
                         "start": 844,
                         "end": 848,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ]
                   }

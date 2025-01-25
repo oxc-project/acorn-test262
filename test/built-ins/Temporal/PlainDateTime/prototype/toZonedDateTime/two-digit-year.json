@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 410,
-                "value": 98
+                "value": 98,
+                "raw": "98"
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 414,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 418,
-                "value": 29
+                "value": 29,
+                "raw": "29"
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 422,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 426,
-                "value": 46
+                "value": 46,
+                "raw": "46"
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 430,
-                "value": 38
+                "value": 38,
+                "raw": "38"
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 435,
-                "value": 271
+                "value": 271,
+                "raw": "271"
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 440,
-                "value": 986
+                "value": 986,
+                "raw": "986"
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 445,
-                "value": 102
+                "value": 102,
+                "raw": "102"
               }
             ]
           }
@@ -123,25 +132,29 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 458,
-                "value": "earlier"
+                "value": "earlier",
+                "raw": "\"earlier\""
               },
               {
                 "type": "Literal",
                 "start": 460,
                 "end": 467,
-                "value": "later"
+                "value": "later",
+                "raw": "\"later\""
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 481,
-                "value": "compatible"
+                "value": "compatible",
+                "raw": "\"compatible\""
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 491,
-                "value": "reject"
+                "value": "reject",
+                "raw": "\"reject\""
               }
             ]
           },
@@ -219,7 +232,8 @@
                             "type": "Literal",
                             "start": 565,
                             "end": 573,
-                            "value": "+06:00"
+                            "value": "+06:00",
+                            "raw": "\"+06:00\""
                           },
                           {
                             "type": "ObjectExpression",
@@ -313,14 +327,16 @@
                           "type": "Literal",
                           "start": 641,
                           "end": 665,
-                          "value": "59048507601728013898n"
+                          "value": "59048507601728013898n",
+                          "raw": "59048507601_728_013_898n"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 667,
                         "end": 738,
-                        "value": "Result is 0098-10-29T04:46:38.271986102Z regardless of disambiguation"
+                        "value": "Result is 0098-10-29T04:46:38.271986102Z regardless of disambiguation",
+                        "raw": "\"Result is 0098-10-29T04:46:38.271986102Z regardless of disambiguation\""
                       }
                     ],
                     "optional": false

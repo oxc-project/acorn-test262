@@ -46,25 +46,29 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 310,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 313,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 316,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 319,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -115,31 +119,36 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 367,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 374,
-                "value": 48
+                "value": 48,
+                "raw": "48"
               }
             ]
           }
@@ -203,7 +212,8 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 415,
-                "value": "hours"
+                "value": "hours",
+                "raw": "\"hours\""
               }
             ],
             "optional": false
@@ -212,13 +222,15 @@
             "type": "Literal",
             "start": 418,
             "end": 420,
-            "value": 24
+            "value": 24,
+            "raw": "24"
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 461,
-            "value": "with no relativeTo, days are 24 hours"
+            "value": "with no relativeTo, days are 24 hours",
+            "raw": "\"with no relativeTo, days are 24 hours\""
           }
         ],
         "optional": false
@@ -298,7 +310,8 @@
                       "type": "Literal",
                       "start": 503,
                       "end": 509,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   }
@@ -311,13 +324,15 @@
             "type": "Literal",
             "start": 514,
             "end": 515,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 556,
-            "value": "with no relativeTo, 48 hours = 2 days"
+            "value": "with no relativeTo, 48 hours = 2 days",
+            "raw": "\"with no relativeTo, 48 hours = 2 days\""
           }
         ],
         "optional": false
@@ -366,19 +381,22 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 611,
-                "value": 2017
+                "value": 2017,
+                "raw": "2017"
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 614,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 616,
                 "end": 617,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -460,7 +478,8 @@
                       "type": "Literal",
                       "start": 659,
                       "end": 666,
-                      "value": "hours"
+                      "value": "hours",
+                      "raw": "\"hours\""
                     },
                     "kind": "init"
                   },
@@ -494,13 +513,15 @@
             "type": "Literal",
             "start": 700,
             "end": 702,
-            "value": 24
+            "value": 24,
+            "raw": "24"
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 752,
-            "value": "with PlainDate relativeTo, days are 24 hours"
+            "value": "with PlainDate relativeTo, days are 24 hours",
+            "raw": "\"with PlainDate relativeTo, days are 24 hours\""
           }
         ],
         "optional": false
@@ -580,7 +601,8 @@
                       "type": "Literal",
                       "start": 794,
                       "end": 800,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -614,13 +636,15 @@
             "type": "Literal",
             "start": 834,
             "end": 835,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 885,
-            "value": "with PlainDate relativeTo, 48 hours = 2 days"
+            "value": "with PlainDate relativeTo, 48 hours = 2 days",
+            "raw": "\"with PlainDate relativeTo, 48 hours = 2 days\""
           }
         ],
         "optional": false
@@ -669,13 +693,15 @@
                 "type": "Literal",
                 "start": 939,
                 "end": 965,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 967,
                 "end": 975,
-                "value": "+04:30"
+                "value": "+04:30",
+                "raw": "\"+04:30\""
               }
             ]
           }
@@ -757,7 +783,8 @@
                       "type": "Literal",
                       "start": 1017,
                       "end": 1024,
-                      "value": "hours"
+                      "value": "hours",
+                      "raw": "\"hours\""
                     },
                     "kind": "init"
                   },
@@ -791,13 +818,15 @@
             "type": "Literal",
             "start": 1058,
             "end": 1060,
-            "value": 24
+            "value": 24,
+            "raw": "24"
           },
           {
             "type": "Literal",
             "start": 1064,
             "end": 1156,
-            "value": "with ZonedDateTime relativeTo, days are 24 hours if the duration encompasses no DST change"
+            "value": "with ZonedDateTime relativeTo, days are 24 hours if the duration encompasses no DST change",
+            "raw": "\"with ZonedDateTime relativeTo, days are 24 hours if the duration encompasses no DST change\""
           }
         ],
         "optional": false
@@ -877,7 +906,8 @@
                       "type": "Literal",
                       "start": 1198,
                       "end": 1204,
-                      "value": "days"
+                      "value": "days",
+                      "raw": "\"days\""
                     },
                     "kind": "init"
                   },
@@ -911,13 +941,15 @@
             "type": "Literal",
             "start": 1238,
             "end": 1239,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1243,
             "end": 1335,
-            "value": "with ZonedDateTime relativeTo, 48 hours = 2 days if the duration encompasses no DST change"
+            "value": "with ZonedDateTime relativeTo, 48 hours = 2 days if the duration encompasses no DST change",
+            "raw": "\"with ZonedDateTime relativeTo, 48 hours = 2 days if the duration encompasses no DST change\""
           }
         ],
         "optional": false

@@ -37,7 +37,8 @@
         "type": "Literal",
         "start": 882,
         "end": 886,
-        "value": null
+        "value": null,
+        "raw": "null"
       },
       "body": {
         "type": "ClassBody",
@@ -97,7 +98,8 @@
                               "type": "Literal",
                               "start": 924,
                               "end": 927,
-                              "value": "x"
+                              "value": "x",
+                              "raw": "'x'"
                             },
                             "computed": true,
                             "optional": false
@@ -244,7 +246,8 @@
             "type": "Literal",
             "start": 1038,
             "end": 1046,
-            "value": "object"
+            "value": "object",
+            "raw": "'object'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 336,
             "end": 339,
-            "value": "h"
+            "value": "h",
+            "raw": "\"h\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 352,
             "end": 355,
-            "value": "H"
+            "value": "H",
+            "raw": "\"H\""
           }
         }
       ],
@@ -164,7 +166,8 @@
                     "type": "Literal",
                     "start": 444,
                     "end": 546,
-                    "value": "#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: "
+                    "value": "#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: ",
+                    "raw": "'#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: '"
                   },
                   "operator": "+",
                   "right": {

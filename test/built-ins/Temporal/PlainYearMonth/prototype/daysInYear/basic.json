@@ -67,13 +67,15 @@
                     "type": "Literal",
                     "start": 297,
                     "end": 301,
-                    "value": 1976
+                    "value": 1976,
+                    "raw": "1976"
                   },
                   {
                     "type": "Literal",
                     "start": 303,
                     "end": 305,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   }
                 ]
               }
@@ -91,13 +93,15 @@
             "type": "Literal",
             "start": 320,
             "end": 323,
-            "value": 366
+            "value": 366,
+            "raw": "366"
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 336,
-            "value": "leap year"
+            "value": "leap year",
+            "raw": "\"leap year\""
           }
         ],
         "optional": false
@@ -167,13 +171,15 @@
                     "type": "Literal",
                     "start": 385,
                     "end": 389,
-                    "value": 1977
+                    "value": 1977,
+                    "raw": "1977"
                   },
                   {
                     "type": "Literal",
                     "start": 391,
                     "end": 393,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   }
                 ]
               }
@@ -191,13 +197,15 @@
             "type": "Literal",
             "start": 408,
             "end": 411,
-            "value": 365
+            "value": 365,
+            "raw": "365"
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 428,
-            "value": "non-leap year"
+            "value": "non-leap year",
+            "raw": "\"non-leap year\""
           }
         ],
         "optional": false

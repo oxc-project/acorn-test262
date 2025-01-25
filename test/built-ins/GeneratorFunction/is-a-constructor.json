@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 796,
             "end": 800,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 802,
             "end": 853,
-            "value": "isConstructor(GeneratorFunction) must return true"
+            "value": "isConstructor(GeneratorFunction) must return true",
+            "raw": "'isConstructor(GeneratorFunction) must return true'"
           }
         ],
         "optional": false

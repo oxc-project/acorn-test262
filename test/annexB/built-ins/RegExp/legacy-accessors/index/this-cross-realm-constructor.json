@@ -84,7 +84,8 @@
               "type": "Literal",
               "start": 662,
               "end": 663,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ],
@@ -105,7 +106,8 @@
           "type": "Literal",
           "start": 670,
           "end": 671,
-          "value": 9
+          "value": 9,
+          "raw": "9"
         }
       },
       "update": {
@@ -149,7 +151,8 @@
                     "type": "Literal",
                     "start": 699,
                     "end": 702,
-                    "value": "$"
+                    "value": "$",
+                    "raw": "\"$\""
                   },
                   "operator": "+",
                   "right": {
@@ -289,7 +292,8 @@
                       "type": "Literal",
                       "start": 820,
                       "end": 829,
-                      "value": "RegExp."
+                      "value": "RegExp.",
+                      "raw": "\"RegExp.\""
                     },
                     "operator": "+",
                     "right": {
@@ -304,7 +308,8 @@
                     "type": "Literal",
                     "start": 843,
                     "end": 884,
-                    "value": " getter throws for cross-realm receiver"
+                    "value": " getter throws for cross-realm receiver",
+                    "raw": "\" getter throws for cross-realm receiver\""
                   }
                 }
               ],

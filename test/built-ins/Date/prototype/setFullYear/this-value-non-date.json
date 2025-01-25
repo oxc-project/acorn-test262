@@ -73,7 +73,8 @@
             "type": "Literal",
             "start": 624,
             "end": 625,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -145,7 +146,8 @@
                             "type": "Literal",
                             "start": 680,
                             "end": 681,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -157,7 +159,8 @@
                           "type": "Literal",
                           "start": 694,
                           "end": 695,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -275,7 +278,8 @@
             "type": "Literal",
             "start": 793,
             "end": 803,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -380,7 +384,8 @@
             "type": "Literal",
             "start": 877,
             "end": 894,
-            "value": "ordinary object"
+            "value": "ordinary object",
+            "raw": "'ordinary object'"
           }
         ],
         "optional": false
@@ -485,7 +490,8 @@
             "type": "Literal",
             "start": 968,
             "end": 989,
-            "value": "array exotic object"
+            "value": "array exotic object",
+            "raw": "'array exotic object'"
           }
         ],
         "optional": false
@@ -590,7 +596,8 @@
             "type": "Literal",
             "start": 1065,
             "end": 1090,
-            "value": "arguments exotic object"
+            "value": "arguments exotic object",
+            "raw": "'arguments exotic object'"
           }
         ],
         "optional": false
@@ -634,13 +641,15 @@
             "type": "Literal",
             "start": 1122,
             "end": 1123,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1161,
-            "value": "validation precedes input coercion"
+            "value": "validation precedes input coercion",
+            "raw": "'validation precedes input coercion'"
           }
         ],
         "optional": false

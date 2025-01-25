@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 337,
                         "end": 349,
-                        "value": "eval = 42;"
+                        "value": "eval = 42;",
+                        "raw": "'eval = 42;'"
                       }
                     ],
                     "optional": false

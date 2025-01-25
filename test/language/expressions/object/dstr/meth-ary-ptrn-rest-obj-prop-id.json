@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1766,
             "end": 1773,
-            "value": "outer"
+            "value": "outer",
+            "raw": "\"outer\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1792,
             "end": 1793,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -121,7 +123,8 @@
                                   "type": "Literal",
                                   "start": 1822,
                                   "end": 1823,
-                                  "value": 0
+                                  "value": 0,
+                                  "raw": "0"
                                 },
                                 "value": {
                                   "type": "Identifier",
@@ -142,7 +145,8 @@
                                   "type": "Literal",
                                   "start": 1828,
                                   "end": 1829,
-                                  "value": 1
+                                  "value": 1,
+                                  "raw": "1"
                                 },
                                 "value": {
                                   "type": "Identifier",
@@ -163,7 +167,8 @@
                                   "type": "Literal",
                                   "start": 1834,
                                   "end": 1835,
-                                  "value": 2
+                                  "value": 2,
+                                  "raw": "2"
                                 },
                                 "value": {
                                   "type": "Identifier",
@@ -184,7 +189,8 @@
                                   "type": "Literal",
                                   "start": 1840,
                                   "end": 1841,
-                                  "value": 3
+                                  "value": 3,
+                                  "raw": "3"
                                 },
                                 "value": {
                                   "type": "Identifier",
@@ -264,7 +270,8 @@
                               "type": "Literal",
                               "start": 1886,
                               "end": 1887,
-                              "value": 7
+                              "value": 7,
+                              "raw": "7"
                             }
                           ],
                           "optional": false
@@ -308,7 +315,8 @@
                               "type": "Literal",
                               "start": 1914,
                               "end": 1915,
-                              "value": 8
+                              "value": 8,
+                              "raw": "8"
                             }
                           ],
                           "optional": false
@@ -352,7 +360,8 @@
                               "type": "Literal",
                               "start": 1942,
                               "end": 1943,
-                              "value": 9
+                              "value": 9,
+                              "raw": "9"
                             }
                           ],
                           "optional": false
@@ -440,7 +449,8 @@
                               "type": "Literal",
                               "start": 2006,
                               "end": 2007,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             }
                           ],
                           "optional": false
@@ -484,13 +494,15 @@
                               "type": "Literal",
                               "start": 2040,
                               "end": 2047,
-                              "value": "outer"
+                              "value": "outer",
+                              "raw": "\"outer\""
                             },
                             {
                               "type": "Literal",
                               "start": 2049,
                               "end": 2095,
-                              "value": "the length prop is not set as a binding name"
+                              "value": "the length prop is not set as a binding name",
+                              "raw": "\"the length prop is not set as a binding name\""
                             }
                           ],
                           "optional": false
@@ -526,7 +538,8 @@
                               "type": "Literal",
                               "start": 2126,
                               "end": 2127,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -578,19 +591,22 @@
                 "type": "Literal",
                 "start": 2149,
                 "end": 2150,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 2152,
                 "end": 2153,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               },
               {
                 "type": "Literal",
                 "start": 2155,
                 "end": 2156,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               }
             ]
           }
@@ -636,13 +652,15 @@
             "type": "Literal",
             "start": 2188,
             "end": 2189,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2191,
             "end": 2220,
-            "value": "method invoked exactly once"
+            "value": "method invoked exactly once",
+            "raw": "'method invoked exactly once'"
           }
         ],
         "optional": false

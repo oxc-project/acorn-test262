@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 321,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ],
             "optional": false
@@ -100,7 +101,8 @@
             "type": "Literal",
             "start": 328,
             "end": 378,
-            "value": "Array.prototype.splice.call(true) must return []"
+            "value": "Array.prototype.splice.call(true) must return []",
+            "raw": "'Array.prototype.splice.call(true) must return []'"
           }
         ],
         "optional": false
@@ -188,7 +190,8 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 434,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ],
             "optional": false
@@ -203,7 +206,8 @@
             "type": "Literal",
             "start": 441,
             "end": 492,
-            "value": "Array.prototype.splice.call(false) must return []"
+            "value": "Array.prototype.splice.call(false) must return []",
+            "raw": "'Array.prototype.splice.call(false) must return []'"
           }
         ],
         "optional": false

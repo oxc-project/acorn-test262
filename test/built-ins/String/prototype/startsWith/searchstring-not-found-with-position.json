@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 749,
             "end": 770,
-            "value": "The future is cool!"
+            "value": "The future is cool!",
+            "raw": "'The future is cool!'"
           }
         }
       ],
@@ -84,13 +85,15 @@
                 "type": "Literal",
                 "start": 808,
                 "end": 820,
-                "value": "The future"
+                "value": "The future",
+                "raw": "'The future'"
               },
               {
                 "type": "Literal",
                 "start": 822,
                 "end": 823,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -99,13 +102,15 @@
             "type": "Literal",
             "start": 826,
             "end": 831,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 878,
-            "value": "str.startsWith(\"The future\", 1) === false"
+            "value": "str.startsWith(\"The future\", 1) === false",
+            "raw": "'str.startsWith(\"The future\", 1) === false'"
           }
         ],
         "optional": false
@@ -173,7 +178,8 @@
                 "type": "Literal",
                 "start": 923,
                 "end": 924,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -182,13 +188,15 @@
             "type": "Literal",
             "start": 927,
             "end": 932,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 970,
-            "value": "str.startsWith(str, 1) === false"
+            "value": "str.startsWith(str, 1) === false",
+            "raw": "'str.startsWith(str, 1) === false'"
           }
         ],
         "optional": false

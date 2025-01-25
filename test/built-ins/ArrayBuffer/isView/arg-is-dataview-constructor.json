@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 495,
             "end": 500,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 512,
-            "value": "DataView"
+            "value": "DataView",
+            "raw": "\"DataView\""
           }
         ],
         "optional": false

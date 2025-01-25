@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 374,
                         "end": 379,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   ],
@@ -268,7 +269,8 @@
                               "type": "Literal",
                               "start": 568,
                               "end": 572,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -337,7 +339,8 @@
                                     "type": "Literal",
                                     "start": 645,
                                     "end": 679,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -378,7 +381,8 @@
                                   "type": "Literal",
                                   "start": 721,
                                   "end": 736,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -418,7 +422,8 @@
                               "type": "Literal",
                               "start": 790,
                               "end": 876,
-                              "value": "assert.throwsAsync did not reject when a value with incorrect constructor was thrown"
+                              "value": "assert.throwsAsync did not reject when a value with incorrect constructor was thrown",
+                              "raw": "\"assert.throwsAsync did not reject when a value with incorrect constructor was thrown\""
                             }
                           ],
                           "optional": false

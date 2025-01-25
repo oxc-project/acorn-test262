@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 319,
                           "end": 320,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -91,7 +92,8 @@
             "type": "Literal",
             "start": 340,
             "end": 346,
-            "value": "lego"
+            "value": "lego",
+            "raw": "\"lego\""
           }
         }
       ],
@@ -143,7 +145,8 @@
           "type": "Literal",
           "start": 470,
           "end": 474,
-          "value": 101
+          "value": 101,
+          "raw": "0x65"
         }
       },
       "consequent": {
@@ -174,7 +177,8 @@
                     "type": "Literal",
                     "start": 503,
                     "end": 617,
-                    "value": "#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charCodeAt(__obj) === 0x65. Actual: "
+                    "value": "#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charCodeAt(__obj) === 0x65. Actual: ",
+                    "raw": "'#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charCodeAt(__obj) === 0x65. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -1,31 +1,31 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 970,
+  "end": 969,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 481,
+      "start": 316,
+      "end": 480,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 469,
+          "start": 320,
+          "end": 468,
           "id": {
             "type": "Identifier",
-            "start": 321,
-            "end": 322,
+            "start": 320,
+            "end": 321,
             "name": "f"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 337,
-            "end": 469,
+            "start": 336,
+            "end": 468,
             "id": {
               "type": "Identifier",
-              "start": 378,
-              "end": 379,
+              "start": 377,
+              "end": 378,
               "name": "F"
             },
             "expression": false,
@@ -34,31 +34,31 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 398,
-                "end": 399,
+                "start": 397,
+                "end": 398,
                 "name": "x"
               },
               {
                 "type": "Identifier",
-                "start": 418,
-                "end": 419,
+                "start": 417,
+                "end": 418,
                 "name": "y"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 438,
-              "end": 469,
+              "start": 437,
+              "end": 468,
               "body": [
                 {
                   "type": "EmptyStatement",
-                  "start": 448,
-                  "end": 449
+                  "start": 447,
+                  "end": 448
                 },
                 {
                   "type": "EmptyStatement",
-                  "start": 458,
-                  "end": 459
+                  "start": 457,
+                  "end": 458
                 }
               ]
             }
@@ -69,23 +69,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 482,
-      "end": 636,
+      "start": 481,
+      "end": 635,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 486,
-          "end": 624,
+          "start": 485,
+          "end": 623,
           "id": {
             "type": "Identifier",
-            "start": 486,
-            "end": 487,
+            "start": 485,
+            "end": 486,
             "name": "g"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 502,
-            "end": 624,
+            "start": 501,
+            "end": 623,
             "id": null,
             "expression": false,
             "generator": true,
@@ -93,31 +93,31 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 553,
-                "end": 554,
+                "start": 552,
+                "end": 553,
                 "name": "x"
               },
               {
                 "type": "Identifier",
-                "start": 573,
-                "end": 574,
+                "start": 572,
+                "end": 573,
                 "name": "y"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 593,
-              "end": 624,
+              "start": 592,
+              "end": 623,
               "body": [
                 {
                   "type": "EmptyStatement",
-                  "start": 603,
-                  "end": 604
+                  "start": 602,
+                  "end": 603
                 },
                 {
                   "type": "EmptyStatement",
-                  "start": 613,
-                  "end": 614
+                  "start": 612,
+                  "end": 613
                 }
               ]
             }
@@ -128,30 +128,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 638,
-      "end": 808,
+      "start": 637,
+      "end": 807,
       "expression": {
         "type": "CallExpression",
-        "start": 638,
-        "end": 807,
+        "start": 637,
+        "end": 806,
         "callee": {
           "type": "Identifier",
-          "start": 638,
-          "end": 668,
+          "start": 637,
+          "end": 667,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 669,
-            "end": 670,
+            "start": 668,
+            "end": 669,
             "name": "f"
           },
           {
             "type": "Literal",
-            "start": 672,
-            "end": 806,
-            "value": "async /* a */ function /* b */ * /* c */ F /* d */ ( /* e */ x /* f */ , /* g */ y /* h */ ) /* i */ { /* j */ ; /* k */ ; /* l */ }"
+            "start": 671,
+            "end": 805,
+            "value": "async /* a */ function /* b */ * /* c */ F /* d */ ( /* e */ x /* f */ , /* g */ y /* h */ ) /* i */ { /* j */ ; /* k */ ; /* l */ }",
+            "raw": "\"async /* a */ function /* b */ * /* c */ F /* d */ ( /* e */ x /* f */ , /* g */ y /* h */ ) /* i */ { /* j */ ; /* k */ ; /* l */ }\""
           }
         ],
         "optional": false
@@ -159,30 +160,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 809,
-      "end": 969,
+      "start": 808,
+      "end": 968,
       "expression": {
         "type": "CallExpression",
-        "start": 809,
-        "end": 968,
+        "start": 808,
+        "end": 967,
         "callee": {
           "type": "Identifier",
-          "start": 809,
-          "end": 839,
+          "start": 808,
+          "end": 838,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 840,
-            "end": 841,
+            "start": 839,
+            "end": 840,
             "name": "g"
           },
           {
             "type": "Literal",
-            "start": 843,
-            "end": 967,
-            "value": "async /* a */ function /* b */ * /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }"
+            "start": 842,
+            "end": 966,
+            "value": "async /* a */ function /* b */ * /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }",
+            "raw": "\"async /* a */ function /* b */ * /* c */ ( /* d */ x /* e */ , /* f */ y /* g */ ) /* h */ { /* i */ ; /* j */ ; /* k */ }\""
           }
         ],
         "optional": false

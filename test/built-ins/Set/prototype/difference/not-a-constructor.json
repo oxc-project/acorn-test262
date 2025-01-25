@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 420,
             "end": 425,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 488,
-            "value": "isConstructor(Set.prototype.difference) must return false"
+            "value": "isConstructor(Set.prototype.difference) must return false",
+            "raw": "\"isConstructor(Set.prototype.difference) must return false\""
           }
         ],
         "optional": false

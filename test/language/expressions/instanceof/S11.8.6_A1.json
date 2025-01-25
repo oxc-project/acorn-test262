@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 369,
               "end": 403,
-              "value": "({})\tinstanceof\tObject"
+              "value": "({})\tinstanceof\tObject",
+              "raw": "\"({})\\u0009instanceof\\u0009Object\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 409,
           "end": 413,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 491,
-                  "value": "#1: ({})\\u0009instanceof\\u0009Object === true"
+                  "value": "#1: ({})\\u0009instanceof\\u0009Object === true",
+                  "raw": "'#1: ({})\\\\u0009instanceof\\\\u0009Object === true'"
                 }
               ]
             }
@@ -95,7 +98,8 @@
               "type": "Literal",
               "start": 516,
               "end": 550,
-              "value": "({})\u000binstanceof\u000bObject"
+              "value": "({})\u000binstanceof\u000bObject",
+              "raw": "\"({})\\u000Binstanceof\\u000BObject\""
             }
           ],
           "optional": false
@@ -105,7 +109,8 @@
           "type": "Literal",
           "start": 556,
           "end": 560,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 638,
-                  "value": "#2: ({})\\u000Binstanceof\\u000BObject === true"
+                  "value": "#2: ({})\\u000Binstanceof\\u000BObject === true",
+                  "raw": "'#2: ({})\\\\u000Binstanceof\\\\u000BObject === true'"
                 }
               ]
             }
@@ -164,7 +170,8 @@
               "type": "Literal",
               "start": 665,
               "end": 699,
-              "value": "({})\finstanceof\fObject"
+              "value": "({})\finstanceof\fObject",
+              "raw": "\"({})\\u000Cinstanceof\\u000CObject\""
             }
           ],
           "optional": false
@@ -174,7 +181,8 @@
           "type": "Literal",
           "start": 705,
           "end": 709,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -201,7 +209,8 @@
                   "type": "Literal",
                   "start": 738,
                   "end": 787,
-                  "value": "#3: ({})\\u000Cinstanceof\\u000CObject === true"
+                  "value": "#3: ({})\\u000Cinstanceof\\u000CObject === true",
+                  "raw": "'#3: ({})\\\\u000Cinstanceof\\\\u000CObject === true'"
                 }
               ]
             }
@@ -233,7 +242,8 @@
               "type": "Literal",
               "start": 812,
               "end": 846,
-              "value": "({}) instanceof Object"
+              "value": "({}) instanceof Object",
+              "raw": "\"({})\\u0020instanceof\\u0020Object\""
             }
           ],
           "optional": false
@@ -243,7 +253,8 @@
           "type": "Literal",
           "start": 852,
           "end": 856,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -270,7 +281,8 @@
                   "type": "Literal",
                   "start": 885,
                   "end": 934,
-                  "value": "#4: ({})\\u0020instanceof\\u0020Object === true"
+                  "value": "#4: ({})\\u0020instanceof\\u0020Object === true",
+                  "raw": "'#4: ({})\\\\u0020instanceof\\\\u0020Object === true'"
                 }
               ]
             }
@@ -302,7 +314,8 @@
               "type": "Literal",
               "start": 959,
               "end": 993,
-              "value": "({}) instanceof Object"
+              "value": "({}) instanceof Object",
+              "raw": "\"({})\\u00A0instanceof\\u00A0Object\""
             }
           ],
           "optional": false
@@ -312,7 +325,8 @@
           "type": "Literal",
           "start": 999,
           "end": 1003,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -339,7 +353,8 @@
                   "type": "Literal",
                   "start": 1032,
                   "end": 1081,
-                  "value": "#5: ({})\\u00A0instanceof\\u00A0Object === true"
+                  "value": "#5: ({})\\u00A0instanceof\\u00A0Object === true",
+                  "raw": "'#5: ({})\\\\u00A0instanceof\\\\u00A0Object === true'"
                 }
               ]
             }
@@ -371,7 +386,8 @@
               "type": "Literal",
               "start": 1106,
               "end": 1140,
-              "value": "({})\ninstanceof\nObject"
+              "value": "({})\ninstanceof\nObject",
+              "raw": "\"({})\\u000Ainstanceof\\u000AObject\""
             }
           ],
           "optional": false
@@ -381,7 +397,8 @@
           "type": "Literal",
           "start": 1146,
           "end": 1150,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -408,7 +425,8 @@
                   "type": "Literal",
                   "start": 1179,
                   "end": 1228,
-                  "value": "#6: ({})\\u000Ainstanceof\\u000AObject === true"
+                  "value": "#6: ({})\\u000Ainstanceof\\u000AObject === true",
+                  "raw": "'#6: ({})\\\\u000Ainstanceof\\\\u000AObject === true'"
                 }
               ]
             }
@@ -440,7 +458,8 @@
               "type": "Literal",
               "start": 1255,
               "end": 1289,
-              "value": "({})\rinstanceof\rObject"
+              "value": "({})\rinstanceof\rObject",
+              "raw": "\"({})\\u000Dinstanceof\\u000DObject\""
             }
           ],
           "optional": false
@@ -450,7 +469,8 @@
           "type": "Literal",
           "start": 1295,
           "end": 1299,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -477,7 +497,8 @@
                   "type": "Literal",
                   "start": 1328,
                   "end": 1377,
-                  "value": "#7: ({})\\u000Dinstanceof\\u000DObject === true"
+                  "value": "#7: ({})\\u000Dinstanceof\\u000DObject === true",
+                  "raw": "'#7: ({})\\\\u000Dinstanceof\\\\u000DObject === true'"
                 }
               ]
             }
@@ -509,7 +530,8 @@
               "type": "Literal",
               "start": 1402,
               "end": 1436,
-              "value": "({}) instanceof Object"
+              "value": "({}) instanceof Object",
+              "raw": "\"({})\\u2028instanceof\\u2028Object\""
             }
           ],
           "optional": false
@@ -519,7 +541,8 @@
           "type": "Literal",
           "start": 1442,
           "end": 1446,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -546,7 +569,8 @@
                   "type": "Literal",
                   "start": 1475,
                   "end": 1524,
-                  "value": "#8: ({})\\u2028instanceof\\u2028Object === true"
+                  "value": "#8: ({})\\u2028instanceof\\u2028Object === true",
+                  "raw": "'#8: ({})\\\\u2028instanceof\\\\u2028Object === true'"
                 }
               ]
             }
@@ -578,7 +602,8 @@
               "type": "Literal",
               "start": 1549,
               "end": 1583,
-              "value": "({}) instanceof Object"
+              "value": "({}) instanceof Object",
+              "raw": "\"({})\\u2029instanceof\\u2029Object\""
             }
           ],
           "optional": false
@@ -588,7 +613,8 @@
           "type": "Literal",
           "start": 1589,
           "end": 1593,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -615,7 +641,8 @@
                   "type": "Literal",
                   "start": 1622,
                   "end": 1671,
-                  "value": "#9: ({})\\u2029instanceof\\u2029Object === true"
+                  "value": "#9: ({})\\u2029instanceof\\u2029Object === true",
+                  "raw": "'#9: ({})\\\\u2029instanceof\\\\u2029Object === true'"
                 }
               ]
             }
@@ -647,7 +674,8 @@
               "type": "Literal",
               "start": 1697,
               "end": 1827,
-              "value": "({})\t\u000b\f  \n\r  instanceof\t\u000b\f  \n\r  Object"
+              "value": "({})\t\u000b\f  \n\r  instanceof\t\u000b\f  \n\r  Object",
+              "raw": "\"({})\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029instanceof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Object\""
             }
           ],
           "optional": false
@@ -657,7 +685,8 @@
           "type": "Literal",
           "start": 1833,
           "end": 1837,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -684,7 +713,8 @@
                   "type": "Literal",
                   "start": 1866,
                   "end": 2028,
-                  "value": "#10: ({})\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029instanceof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Object === true"
+                  "value": "#10: ({})\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029instanceof\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Object === true",
+                  "raw": "'#10: ({})\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029instanceof\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029Object === true'"
                 }
               ]
             }

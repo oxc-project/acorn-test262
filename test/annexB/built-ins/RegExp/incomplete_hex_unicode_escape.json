@@ -31,6 +31,7 @@
                 "start": 386,
                 "end": 390,
                 "value": {},
+                "raw": "/\\x/",
                 "regex": {
                   "pattern": "\\x",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 399,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ],
             "optional": false
@@ -59,7 +61,8 @@
             "type": "Literal",
             "start": 402,
             "end": 409,
-            "value": "/\\x/"
+            "value": "/\\x/",
+            "raw": "\"/\\\\x/\""
           }
         ],
         "optional": false
@@ -93,6 +96,7 @@
                 "start": 419,
                 "end": 424,
                 "value": {},
+                "raw": "/\\xa/",
                 "regex": {
                   "pattern": "\\xa",
                   "flags": ""
@@ -112,7 +116,8 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 434,
-                "value": "xa"
+                "value": "xa",
+                "raw": "\"xa\""
               }
             ],
             "optional": false
@@ -121,7 +126,8 @@
             "type": "Literal",
             "start": 437,
             "end": 445,
-            "value": "/\\xa/"
+            "value": "/\\xa/",
+            "raw": "\"/\\\\xa/\""
           }
         ],
         "optional": false
@@ -155,6 +161,7 @@
                 "start": 474,
                 "end": 478,
                 "value": {},
+                "raw": "/\\u/",
                 "regex": {
                   "pattern": "\\u",
                   "flags": ""
@@ -174,7 +181,8 @@
                 "type": "Literal",
                 "start": 484,
                 "end": 487,
-                "value": "u"
+                "value": "u",
+                "raw": "\"u\""
               }
             ],
             "optional": false
@@ -183,7 +191,8 @@
             "type": "Literal",
             "start": 490,
             "end": 497,
-            "value": "/\\u/"
+            "value": "/\\u/",
+            "raw": "\"/\\\\u/\""
           }
         ],
         "optional": false
@@ -217,6 +226,7 @@
                 "start": 507,
                 "end": 512,
                 "value": {},
+                "raw": "/\\ua/",
                 "regex": {
                   "pattern": "\\ua",
                   "flags": ""
@@ -236,7 +246,8 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 522,
-                "value": "ua"
+                "value": "ua",
+                "raw": "\"ua\""
               }
             ],
             "optional": false
@@ -245,7 +256,8 @@
             "type": "Literal",
             "start": 525,
             "end": 533,
-            "value": "/\\ua/"
+            "value": "/\\ua/",
+            "raw": "\"/\\\\ua/\""
           }
         ],
         "optional": false

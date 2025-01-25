@@ -59,7 +59,8 @@
                           "type": "Literal",
                           "start": 968,
                           "end": 987,
-                          "value": "<sentinel object>"
+                          "value": "<sentinel object>",
+                          "raw": "\"<sentinel object>\""
                         }
                       }
                     ]
@@ -114,7 +115,8 @@
                       "type": "Literal",
                       "start": 1028,
                       "end": 1042,
-                      "value": "no arguments"
+                      "value": "no arguments",
+                      "raw": "\"no arguments\""
                     },
                     "kind": "init"
                   },
@@ -163,7 +165,8 @@
                       "type": "Literal",
                       "start": 1067,
                       "end": 1085,
-                      "value": "undefined locale"
+                      "value": "undefined locale",
+                      "raw": "\"undefined locale\""
                     },
                     "kind": "init"
                   },
@@ -219,7 +222,8 @@
                       "type": "Literal",
                       "start": 1119,
                       "end": 1134,
-                      "value": "string locale"
+                      "value": "string locale",
+                      "raw": "\"string locale\""
                     },
                     "kind": "init"
                   },
@@ -245,7 +249,8 @@
                           "type": "Literal",
                           "start": 1143,
                           "end": 1147,
-                          "value": "ar"
+                          "value": "ar",
+                          "raw": "\"ar\""
                         }
                       ]
                     },
@@ -275,7 +280,8 @@
                       "type": "Literal",
                       "start": 1163,
                       "end": 1178,
-                      "value": "object locale"
+                      "value": "object locale",
+                      "raw": "\"object locale\""
                     },
                     "kind": "init"
                   },
@@ -331,7 +337,8 @@
                       "type": "Literal",
                       "start": 1209,
                       "end": 1239,
-                      "value": "undefined locale and options"
+                      "value": "undefined locale and options",
+                      "raw": "\"undefined locale and options\""
                     },
                     "kind": "init"
                   },
@@ -393,7 +400,8 @@
                       "type": "Literal",
                       "start": 1281,
                       "end": 1308,
-                      "value": "string locale and options"
+                      "value": "string locale and options",
+                      "raw": "\"string locale and options\""
                     },
                     "kind": "init"
                   },
@@ -419,7 +427,8 @@
                           "type": "Literal",
                           "start": 1317,
                           "end": 1321,
-                          "value": "zh"
+                          "value": "zh",
+                          "raw": "\"zh\""
                         },
                         {
                           "type": "Identifier",
@@ -455,7 +464,8 @@
                       "type": "Literal",
                       "start": 1345,
                       "end": 1372,
-                      "value": "object locale and options"
+                      "value": "object locale and options",
+                      "raw": "\"object locale and options\""
                     },
                     "kind": "init"
                   },
@@ -517,7 +527,8 @@
                       "type": "Literal",
                       "start": 1411,
                       "end": 1428,
-                      "value": "extra arguments"
+                      "value": "extra arguments",
+                      "raw": "\"extra arguments\""
                     },
                     "kind": "init"
                   },
@@ -725,7 +736,8 @@
                   "type": "Literal",
                   "start": 1567,
                   "end": 1569,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -914,7 +926,8 @@
                           "type": "Literal",
                           "start": 1710,
                           "end": 1714,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       ]
                     },
@@ -946,7 +959,8 @@
                   "type": "Literal",
                   "start": 1741,
                   "end": 1743,
-                  "value": ""
+                  "value": "",
+                  "raw": "\"\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -1016,7 +1030,8 @@
           "type": "Literal",
           "start": 1823,
           "end": 1831,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -1250,7 +1265,8 @@
                                       "type": "Literal",
                                       "start": 2089,
                                       "end": 2093,
-                                      "value": "ok"
+                                      "value": "ok",
+                                      "raw": "\"ok\""
                                     }
                                   }
                                 ]
@@ -1340,7 +1356,8 @@
                         "type": "Literal",
                         "start": 2162,
                         "end": 2166,
-                        "value": "ok"
+                        "value": "ok",
+                        "raw": "\"ok\""
                       }
                     ],
                     "optional": false

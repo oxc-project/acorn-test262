@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 310,
               "end": 322,
-              "value": "use\tstrict"
+              "value": "use\tstrict",
+              "raw": "'use\tstrict'"
             },
             "directive": "use\tstrict"
           },

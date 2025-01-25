@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 402,
           "end": 412,
-          "value": 4294967295
+          "value": 4294967295,
+          "raw": "4294967295"
         }
       }
     },
@@ -115,13 +116,15 @@
             "type": "Literal",
             "start": 441,
             "end": 451,
-            "value": 4294967295
+            "value": 4294967295,
+            "raw": "4294967295"
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 505,
-            "value": "The value of x.length is expected to be 4294967295"
+            "value": "The value of x.length is expected to be 4294967295",
+            "raw": "'The value of x.length is expected to be 4294967295'"
           }
         ],
         "optional": false
@@ -191,7 +194,8 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 548,
-                "value": 4294967296
+                "value": 4294967296,
+                "raw": "4294967296"
               }
             }
           },
@@ -218,7 +222,8 @@
                     "type": "Literal",
                     "start": 575,
                     "end": 652,
-                    "value": "#2.1: x = []; x.length = 4294967296 throw RangeError. Actual: x.length === "
+                    "value": "#2.1: x = []; x.length = 4294967296 throw RangeError. Actual: x.length === ",
+                    "raw": "'#2.1: x = []; x.length = 4294967296 throw RangeError. Actual: x.length === '"
                   },
                   "operator": "+",
                   "right": {
@@ -316,13 +321,15 @@
                     "type": "Literal",
                     "start": 735,
                     "end": 739,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 745,
                     "end": 820,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false

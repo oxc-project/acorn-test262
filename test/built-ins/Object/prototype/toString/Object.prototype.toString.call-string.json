@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 293,
                 "end": 295,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 300,
             "end": 317,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 321,
             "end": 383,
-            "value": "Object.prototype.toString.call(\"\") returns [object String]"
+            "value": "Object.prototype.toString.call(\"\") returns [object String]",
+            "raw": "\"Object.prototype.toString.call(\\\"\\\") returns [object String]\""
           }
         ],
         "optional": false
@@ -199,7 +202,8 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 447,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ],
                 "optional": false
@@ -211,13 +215,15 @@
             "type": "Literal",
             "start": 453,
             "end": 470,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 474,
             "end": 544,
-            "value": "Object.prototype.toString.call(Object(\"\")) returns [object String]"
+            "value": "Object.prototype.toString.call(Object(\"\")) returns [object String]",
+            "raw": "\"Object.prototype.toString.call(Object(\\\"\\\")) returns [object String]\""
           }
         ],
         "optional": false
@@ -316,7 +322,8 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 608,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ],
                 "optional": false
@@ -328,13 +335,15 @@
             "type": "Literal",
             "start": 614,
             "end": 631,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 705,
-            "value": "Object.prototype.toString.call(String(\"\")) returns [object String]"
+            "value": "Object.prototype.toString.call(String(\"\")) returns [object String]",
+            "raw": "\"Object.prototype.toString.call(String(\\\"\\\")) returns [object String]\""
           }
         ],
         "optional": false
@@ -444,7 +453,8 @@
                         "type": "Literal",
                         "start": 774,
                         "end": 776,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ],
                     "optional": false
@@ -459,13 +469,15 @@
             "type": "Literal",
             "start": 783,
             "end": 800,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 804,
             "end": 882,
-            "value": "Object.prototype.toString.call(Object(String(\"\"))) returns [object String]"
+            "value": "Object.prototype.toString.call(Object(String(\"\"))) returns [object String]",
+            "raw": "\"Object.prototype.toString.call(Object(String(\\\"\\\"))) returns [object String]\""
           }
         ],
         "optional": false
@@ -564,7 +576,8 @@
                     "type": "Literal",
                     "start": 948,
                     "end": 950,
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ]
               }
@@ -575,13 +588,15 @@
             "type": "Literal",
             "start": 956,
             "end": 973,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 1051,
-            "value": "Object.prototype.toString.call(new String(\"\")) returns [object String]"
+            "value": "Object.prototype.toString.call(new String(\"\")) returns [object String]",
+            "raw": "\"Object.prototype.toString.call(new String(\\\"\\\")) returns [object String]\""
           }
         ],
         "optional": false
@@ -691,7 +706,8 @@
                         "type": "Literal",
                         "start": 1124,
                         "end": 1126,
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     ]
                   }
@@ -705,13 +721,15 @@
             "type": "Literal",
             "start": 1133,
             "end": 1150,
-            "value": "[object String]"
+            "value": "[object String]",
+            "raw": "\"[object String]\""
           },
           {
             "type": "Literal",
             "start": 1154,
             "end": 1236,
-            "value": "Object.prototype.toString.call(Object(new String(\"\"))) returns [object String]"
+            "value": "Object.prototype.toString.call(Object(new String(\"\"))) returns [object String]",
+            "raw": "\"Object.prototype.toString.call(Object(new String(\\\"\\\"))) returns [object String]\""
           }
         ],
         "optional": false

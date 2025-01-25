@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 275,
             "end": 280,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 349,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -107,7 +109,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 380,
-                "value": "[object Arguments]"
+                "value": "[object Arguments]",
+                "raw": "'[object Arguments]'"
               },
               "operator": "===",
               "right": {
@@ -230,13 +233,15 @@
                   "type": "Literal",
                   "start": 471,
                   "end": 474,
-                  "value": "a"
+                  "value": "a",
+                  "raw": "\"a\""
                 },
                 {
                   "type": "Literal",
                   "start": 476,
                   "end": 479,
-                  "value": "b"
+                  "value": "b",
+                  "raw": "\"b\""
                 }
               ],
               "optional": false
@@ -327,7 +332,8 @@
                 "type": "Literal",
                 "start": 541,
                 "end": 544,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -336,7 +342,8 @@
             "type": "Literal",
             "start": 547,
             "end": 612,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn, \"a\") !== true"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn, \"a\") !== true",
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, \"a\") !== true'"
           }
         ],
         "optional": false
@@ -367,7 +374,8 @@
             "type": "Literal",
             "start": 632,
             "end": 651,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

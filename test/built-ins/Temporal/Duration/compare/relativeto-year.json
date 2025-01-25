@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 272,
                 "end": 273,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -97,25 +98,29 @@
                 "type": "Literal",
                 "start": 314,
                 "end": 315,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 318,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 321,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 326,
-                "value": 365
+                "value": 365,
+                "raw": "365"
               }
             ]
           }
@@ -259,7 +264,8 @@
                           "type": "Literal",
                           "start": 431,
                           "end": 443,
-                          "value": "2017-01-01"
+                          "value": "2017-01-01",
+                          "raw": "\"2017-01-01\""
                         }
                       ],
                       "optional": false
@@ -275,7 +281,8 @@
             "type": "Literal",
             "start": 449,
             "end": 450,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false
@@ -417,7 +424,8 @@
                           "type": "Literal",
                           "start": 555,
                           "end": 567,
-                          "value": "2016-01-01"
+                          "value": "2016-01-01",
+                          "raw": "\"2016-01-01\""
                         }
                       ],
                       "optional": false
@@ -433,7 +441,8 @@
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

@@ -1,34 +1,36 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 762,
+  "end": 761,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 739,
-      "end": 761,
+      "start": 738,
+      "end": 760,
       "expression": {
         "type": "CallExpression",
-        "start": 739,
-        "end": 760,
+        "start": 738,
+        "end": 759,
         "callee": {
           "type": "Identifier",
-          "start": 739,
-          "end": 747,
+          "start": 738,
+          "end": 746,
           "name": "Function"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 748,
-            "end": 755,
-            "value": "\n-->"
+            "start": 747,
+            "end": 754,
+            "value": "\n-->",
+            "raw": "\"\\n-->\""
           },
           {
             "type": "Literal",
-            "start": 757,
-            "end": 759,
-            "value": ""
+            "start": 756,
+            "end": 758,
+            "value": "",
+            "raw": "\"\""
           }
         ],
         "optional": false

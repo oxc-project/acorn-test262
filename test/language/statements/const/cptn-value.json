@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 475,
                 "end": 498,
-                "value": "const test262id1 = 1;"
+                "value": "const test262id1 = 1;",
+                "raw": "'const test262id1 = 1;'"
               }
             ],
             "optional": false
@@ -61,7 +62,8 @@
             "type": "Literal",
             "start": 512,
             "end": 532,
-            "value": "Single declaration"
+            "value": "Single declaration",
+            "raw": "'Single declaration'"
           }
         ],
         "optional": false
@@ -110,7 +112,8 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 600,
-                "value": "const test262id2 = 2, test262id3 = 3;"
+                "value": "const test262id2 = 2, test262id3 = 3;",
+                "raw": "'const test262id2 = 2, test262id3 = 3;'"
               }
             ],
             "optional": false
@@ -125,7 +128,8 @@
             "type": "Literal",
             "start": 618,
             "end": 641,
-            "value": "Multiple declarations"
+            "value": "Multiple declarations",
+            "raw": "'Multiple declarations'"
           }
         ],
         "optional": false
@@ -174,7 +178,8 @@
                 "type": "Literal",
                 "start": 668,
                 "end": 694,
-                "value": "4; const test262id5 = 5;"
+                "value": "4; const test262id5 = 5;",
+                "raw": "'4; const test262id5 = 5;'"
               }
             ],
             "optional": false
@@ -183,7 +188,8 @@
             "type": "Literal",
             "start": 697,
             "end": 698,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         ],
         "optional": false
@@ -232,7 +238,8 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 763,
-                "value": "6; let test262id7 = 7, test262id8 = 8;"
+                "value": "6; let test262id7 = 7, test262id8 = 8;",
+                "raw": "'6; let test262id7 = 7, test262id8 = 8;'"
               }
             ],
             "optional": false
@@ -241,7 +248,8 @@
             "type": "Literal",
             "start": 766,
             "end": 767,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           }
         ],
         "optional": false

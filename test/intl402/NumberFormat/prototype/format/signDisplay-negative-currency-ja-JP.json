@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 370,
-                "value": "ja-JP"
+                "value": "ja-JP",
+                "raw": "\"ja-JP\""
               },
               {
                 "type": "ObjectExpression",
@@ -70,7 +71,8 @@
                       "type": "Literal",
                       "start": 381,
                       "end": 391,
-                      "value": "currency"
+                      "value": "currency",
+                      "raw": "\"currency\""
                     },
                     "kind": "init"
                   },
@@ -91,7 +93,8 @@
                       "type": "Literal",
                       "start": 403,
                       "end": 408,
-                      "value": "USD"
+                      "value": "USD",
+                      "raw": "\"USD\""
                     },
                     "kind": "init"
                   },
@@ -112,7 +115,8 @@
                       "type": "Literal",
                       "start": 424,
                       "end": 436,
-                      "value": "accounting"
+                      "value": "accounting",
+                      "raw": "\"accounting\""
                     },
                     "kind": "init"
                   },
@@ -133,7 +137,8 @@
                       "type": "Literal",
                       "start": 451,
                       "end": 461,
-                      "value": "negative"
+                      "value": "negative",
+                      "raw": "\"negative\""
                     },
                     "kind": "init"
                   }
@@ -207,7 +212,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 497,
-                  "value": 987
+                  "value": 987,
+                  "raw": "987"
                 }
               }
             ],
@@ -217,7 +223,8 @@
             "type": "Literal",
             "start": 500,
             "end": 511,
-            "value": "($987.00)"
+            "value": "($987.00)",
+            "raw": "\"($987.00)\""
           }
         ],
         "optional": false
@@ -285,7 +292,8 @@
                   "type": "Literal",
                   "start": 542,
                   "end": 548,
-                  "value": 0.0001
+                  "value": 0.0001,
+                  "raw": "0.0001"
                 }
               }
             ],
@@ -295,7 +303,8 @@
             "type": "Literal",
             "start": 551,
             "end": 558,
-            "value": "$0.00"
+            "value": "$0.00",
+            "raw": "\"$0.00\""
           }
         ],
         "optional": false
@@ -363,7 +372,8 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 590,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -373,7 +383,8 @@
             "type": "Literal",
             "start": 593,
             "end": 600,
-            "value": "$0.00"
+            "value": "$0.00",
+            "raw": "\"$0.00\""
           }
         ],
         "optional": false
@@ -435,7 +446,8 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 631,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -444,7 +456,8 @@
             "type": "Literal",
             "start": 634,
             "end": 641,
-            "value": "$0.00"
+            "value": "$0.00",
+            "raw": "\"$0.00\""
           }
         ],
         "optional": false
@@ -506,7 +519,8 @@
                 "type": "Literal",
                 "start": 671,
                 "end": 677,
-                "value": 0.0001
+                "value": 0.0001,
+                "raw": "0.0001"
               }
             ],
             "optional": false
@@ -515,7 +529,8 @@
             "type": "Literal",
             "start": 680,
             "end": 687,
-            "value": "$0.00"
+            "value": "$0.00",
+            "raw": "\"$0.00\""
           }
         ],
         "optional": false
@@ -577,7 +592,8 @@
                 "type": "Literal",
                 "start": 717,
                 "end": 720,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               }
             ],
             "optional": false
@@ -586,7 +602,8 @@
             "type": "Literal",
             "start": 723,
             "end": 732,
-            "value": "$987.00"
+            "value": "$987.00",
+            "raw": "\"$987.00\""
           }
         ],
         "optional": false

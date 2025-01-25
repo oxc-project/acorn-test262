@@ -64,7 +64,8 @@
                             "type": "Literal",
                             "start": 936,
                             "end": 945,
-                            "value": "Test262"
+                            "value": "Test262",
+                            "raw": "'Test262'"
                           }
                         }
                       ]
@@ -255,7 +256,8 @@
             "type": "Literal",
             "start": 1120,
             "end": 1129,
-            "value": "Test262"
+            "value": "Test262",
+            "raw": "'Test262'"
           }
         ],
         "optional": false
@@ -367,7 +369,8 @@
             "type": "Literal",
             "start": 1194,
             "end": 1251,
-            "value": "Accessed static private getter from an arbitrary object"
+            "value": "Accessed static private getter from an arbitrary object",
+            "raw": "'Accessed static private getter from an arbitrary object'"
           }
         ],
         "optional": false

@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 378,
             "end": 386,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 457,
-            "value": "The value of `typeof Number.prototype` is expected to be \"object\""
+            "value": "The value of `typeof Number.prototype` is expected to be \"object\"",
+            "raw": "'The value of `typeof Number.prototype` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -188,13 +190,15 @@
             "type": "Literal",
             "start": 548,
             "end": 565,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 628,
-            "value": "Number.prototype.toString() must return \"[object Number]\""
+            "value": "Number.prototype.toString() must return \"[object Number]\"",
+            "raw": "'Number.prototype.toString() must return \"[object Number]\"'"
           }
         ],
         "optional": false

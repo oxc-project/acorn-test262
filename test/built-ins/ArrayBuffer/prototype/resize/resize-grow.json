@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 1284,
                 "end": 1285,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "ObjectExpression",
@@ -57,7 +58,8 @@
                       "type": "Literal",
                       "start": 1303,
                       "end": 1304,
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     "kind": "init"
                   }
@@ -88,7 +90,8 @@
             "type": "Literal",
             "start": 1321,
             "end": 1326,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -172,7 +175,8 @@
             "type": "Literal",
             "start": 1672,
             "end": 1682,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -230,7 +234,8 @@
                     "type": "Literal",
                     "start": 1713,
                     "end": 1714,
-                    "value": 5
+                    "value": 5,
+                    "raw": "5"
                   }
                 ],
                 "optional": false
@@ -273,7 +278,8 @@
                   "type": "Literal",
                   "start": 1742,
                   "end": 1746,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             }
@@ -358,7 +364,8 @@
                     "type": "Literal",
                     "start": 1810,
                     "end": 1851,
-                    "value": "The ArrayBuffer under test was detached"
+                    "value": "The ArrayBuffer under test was detached",
+                    "raw": "'The ArrayBuffer under test was detached'"
                   }
                 ]
               }
@@ -422,7 +429,8 @@
                 "type": "Literal",
                 "start": 2314,
                 "end": 2315,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             }
           },
@@ -430,7 +438,8 @@
             "type": "Literal",
             "start": 2317,
             "end": 2329,
-            "value": "byteLength"
+            "value": "byteLength",
+            "raw": "'byteLength'"
           }
         ],
         "optional": false
@@ -480,7 +489,8 @@
             "type": "Literal",
             "start": 2775,
             "end": 2800,
-            "value": "normal completion value"
+            "value": "normal completion value",
+            "raw": "'normal completion value'"
           }
         ],
         "optional": false

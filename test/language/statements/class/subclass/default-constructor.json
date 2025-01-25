@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 219,
             "end": 220,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -188,13 +189,15 @@
             "type": "Literal",
             "start": 354,
             "end": 355,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 357,
             "end": 386,
-            "value": "The value of `calls` is `1`"
+            "value": "The value of `calls` is `1`",
+            "raw": "\"The value of `calls` is `1`\""
           }
         ],
         "optional": false
@@ -219,7 +222,8 @@
           "type": "Literal",
           "start": 398,
           "end": 399,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -334,13 +338,15 @@
             "type": "Literal",
             "start": 478,
             "end": 479,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 510,
-            "value": "The value of `calls` is `0`"
+            "value": "The value of `calls` is `0`",
+            "raw": "\"The value of `calls` is `0`\""
           }
         ],
         "optional": false

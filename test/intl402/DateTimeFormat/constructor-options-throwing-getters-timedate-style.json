@@ -48,13 +48,15 @@
                 "type": "Literal",
                 "start": 490,
                 "end": 501,
-                "value": "dateStyle"
+                "value": "dateStyle",
+                "raw": "\"dateStyle\""
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 551,
-                "value": "timeStyle"
+                "value": "timeStyle",
+                "raw": "\"timeStyle\""
               }
             ]
           }
@@ -178,7 +180,8 @@
                               "type": "Literal",
                               "start": 654,
                               "end": 658,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

@@ -54,13 +54,15 @@
             "type": "Literal",
             "start": 411,
             "end": 419,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 485,
-            "value": "The value of `typeof new Boolean()` is expected to be \"object\""
+            "value": "The value of `typeof new Boolean()` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Boolean()` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -116,7 +118,8 @@
             "type": "Literal",
             "start": 534,
             "end": 588,
-            "value": "new Boolean() is expected to not equal ``undefined``"
+            "value": "new Boolean() is expected to not equal ``undefined``",
+            "raw": "'new Boolean() is expected to not equal ``undefined``'"
           }
         ],
         "optional": false
@@ -198,13 +201,15 @@
             "type": "Literal",
             "start": 644,
             "end": 652,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 654,
             "end": 707,
-            "value": "The value of `typeof x3` is expected to be \"object\""
+            "value": "The value of `typeof x3` is expected to be \"object\"",
+            "raw": "'The value of `typeof x3` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -285,7 +290,8 @@
             "type": "Literal",
             "start": 770,
             "end": 826,
-            "value": "The value of x4 is expected to not equal ``undefined``"
+            "value": "The value of x4 is expected to not equal ``undefined``",
+            "raw": "'The value of x4 is expected to not equal ``undefined``'"
           }
         ],
         "optional": false
@@ -340,7 +346,8 @@
                   "type": "Literal",
                   "start": 865,
                   "end": 866,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -349,13 +356,15 @@
             "type": "Literal",
             "start": 869,
             "end": 877,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 879,
             "end": 944,
-            "value": "The value of `typeof new Boolean(1)` is expected to be \"object\""
+            "value": "The value of `typeof new Boolean(1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Boolean(1)` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -404,7 +413,8 @@
                 "type": "Literal",
                 "start": 979,
                 "end": 980,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           },
@@ -418,7 +428,8 @@
             "type": "Literal",
             "start": 994,
             "end": 1049,
-            "value": "new Boolean(1) is expected to not equal ``undefined``"
+            "value": "new Boolean(1) is expected to not equal ``undefined``",
+            "raw": "'new Boolean(1) is expected to not equal ``undefined``'"
           }
         ],
         "optional": false
@@ -454,7 +465,8 @@
                 "type": "Literal",
                 "start": 1074,
                 "end": 1075,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -507,13 +519,15 @@
             "type": "Literal",
             "start": 1106,
             "end": 1114,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1169,
-            "value": "The value of `typeof x7` is expected to be \"object\""
+            "value": "The value of `typeof x7` is expected to be \"object\"",
+            "raw": "'The value of `typeof x7` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -549,7 +563,8 @@
                 "type": "Literal",
                 "start": 1194,
                 "end": 1195,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -601,7 +616,8 @@
             "type": "Literal",
             "start": 1233,
             "end": 1289,
-            "value": "The value of x8 is expected to not equal ``undefined``"
+            "value": "The value of x8 is expected to not equal ``undefined``",
+            "raw": "'The value of x8 is expected to not equal ``undefined``'"
           }
         ],
         "optional": false

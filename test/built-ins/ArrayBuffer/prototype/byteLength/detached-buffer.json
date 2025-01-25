@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 474,
                 "end": 475,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -117,13 +118,15 @@
             "type": "Literal",
             "start": 531,
             "end": 532,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 567,
-            "value": "The value of ab.byteLength is 0"
+            "value": "The value of ab.byteLength is 0",
+            "raw": "'The value of ab.byteLength is 0'"
           }
         ],
         "optional": false

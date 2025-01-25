@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 356,
             "end": 364,
-            "value": "+01:35"
+            "value": "+01:35",
+            "raw": "\"+01:35\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 412,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -104,7 +106,8 @@
             "type": "Literal",
             "start": 435,
             "end": 483,
-            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]"
+            "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
           }
         }
       ],
@@ -200,37 +203,43 @@
             "type": "Literal",
             "start": 561,
             "end": 562,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 565,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 571,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 577,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "UnaryExpression",
@@ -242,32 +251,37 @@
               "type": "Literal",
               "start": 580,
               "end": 582,
-              "value": 30
+              "value": 30,
+              "raw": "30"
             }
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 585,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 587,
             "end": 588,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 640,
-            "value": "ISO offset, sub-minute offset trailing-zeroes"
+            "value": "ISO offset, sub-minute offset trailing-zeroes",
+            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\""
           }
         ],
         "optional": false
@@ -292,7 +306,8 @@
           "type": "Literal",
           "start": 650,
           "end": 711,
-          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]"
+          "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
         }
       }
     },
@@ -377,7 +392,8 @@
             "type": "Literal",
             "start": 773,
             "end": 839,
-            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers"
+            "value": "Trailing zeroes not allowed for sub-minute time zone identifiers",
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\""
           }
         ],
         "optional": false

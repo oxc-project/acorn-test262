@@ -23,6 +23,7 @@
             "start": 275,
             "end": 283,
             "value": {},
+            "raw": "/(?:)/mg",
             "regex": {
               "pattern": "(?:)",
               "flags": "mg"
@@ -64,7 +65,8 @@
           "type": "Literal",
           "start": 308,
           "end": 312,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -95,7 +97,8 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 401,
-                    "value": "#1: var regexp = /(?:)/g; regexp.global === true. Actual: "
+                    "value": "#1: var regexp = /(?:)/g; regexp.global === true. Actual: ",
+                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -162,7 +165,8 @@
           "type": "Literal",
           "start": 462,
           "end": 467,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -193,7 +197,8 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 561,
-                    "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === false. Actual: "
+                    "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === false. Actual: ",
+                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -260,7 +265,8 @@
           "type": "Literal",
           "start": 624,
           "end": 628,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -291,7 +297,8 @@
                     "type": "Literal",
                     "start": 657,
                     "end": 720,
-                    "value": "#3: var regexp = /(?:)/g; regexp.multiline === true. Actual: "
+                    "value": "#3: var regexp = /(?:)/g; regexp.multiline === true. Actual: ",
+                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {

@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 812,
             "end": 817,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 821,
             "end": 892,
-            "value": "isConstructor(AsyncDisposableStack.prototype.adopt) must return false"
+            "value": "isConstructor(AsyncDisposableStack.prototype.adopt) must return false",
+            "raw": "'isConstructor(AsyncDisposableStack.prototype.adopt) must return false'"
           }
         ],
         "optional": false
@@ -216,7 +218,8 @@
             "type": "Literal",
             "start": 996,
             "end": 1076,
-            "value": "`let stack = new AsyncDisposableStack({}); new stack.adopt()` throws TypeError"
+            "value": "`let stack = new AsyncDisposableStack({}); new stack.adopt()` throws TypeError",
+            "raw": "'`let stack = new AsyncDisposableStack({}); new stack.adopt()` throws TypeError'"
           }
         ],
         "optional": false

@@ -70,25 +70,29 @@
                         "type": "Literal",
                         "start": 405,
                         "end": 414,
-                        "value": "param_1"
+                        "value": "param_1",
+                        "raw": "'param_1'"
                       },
                       {
                         "type": "Literal",
                         "start": 416,
                         "end": 425,
-                        "value": "param_2"
+                        "value": "param_2",
+                        "raw": "'param_2'"
                       },
                       {
                         "type": "Literal",
                         "start": 427,
                         "end": 436,
-                        "value": "param_1"
+                        "value": "param_1",
+                        "raw": "'param_1'"
                       },
                       {
                         "type": "Literal",
                         "start": 438,
                         "end": 462,
-                        "value": "\"use strict\";return 0;"
+                        "value": "\"use strict\";return 0;",
+                        "raw": "'\"use strict\";return 0;'"
                       }
                     ]
                   }

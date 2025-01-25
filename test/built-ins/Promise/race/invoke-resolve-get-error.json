@@ -83,7 +83,8 @@
                               "type": "Literal",
                               "start": 650,
                               "end": 663,
-                              "value": "unreachable"
+                              "value": "unreachable",
+                              "raw": "'unreachable'"
                             }
                           ]
                         }
@@ -135,7 +136,8 @@
                   "type": "Literal",
                   "start": 704,
                   "end": 713,
-                  "value": "MyError"
+                  "value": "MyError",
+                  "raw": "'MyError'"
                 },
                 "kind": "init"
               }
@@ -183,7 +185,8 @@
             "type": "Literal",
             "start": 748,
             "end": 757,
-            "value": "resolve"
+            "value": "resolve",
+            "raw": "'resolve'"
           },
           {
             "type": "ObjectExpression",
@@ -335,7 +338,8 @@
                             "type": "Literal",
                             "start": 862,
                             "end": 915,
-                            "value": "The promise should be rejected, but it was resolved"
+                            "value": "The promise should be rejected, but it was resolved",
+                            "raw": "'The promise should be rejected, but it was resolved'"
                           }
                         ]
                       }

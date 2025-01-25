@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 448,
-                  "value": "argumentGetProperty"
+                  "value": "argumentGetProperty",
+                  "raw": "\"argumentGetProperty\""
                 }
               }
             ]
@@ -196,7 +197,8 @@
             "type": "Literal",
             "start": 534,
             "end": 544,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -259,13 +261,15 @@
             "type": "Literal",
             "start": 587,
             "end": 608,
-            "value": "argumentGetProperty"
+            "value": "argumentGetProperty",
+            "raw": "\"argumentGetProperty\""
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 624,
-            "value": "obj.property"
+            "value": "obj.property",
+            "raw": "'obj.property'"
           }
         ],
         "optional": false

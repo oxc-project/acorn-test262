@@ -87,13 +87,15 @@
             "type": "Literal",
             "start": 945,
             "end": 955,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 1012,
-            "value": "typeof Intl.Segmenter.prototype.segment is function"
+            "value": "typeof Intl.Segmenter.prototype.segment is function",
+            "raw": "\"typeof Intl.Segmenter.prototype.segment is function\""
           }
         ],
         "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 1058,
             "end": 1067,
-            "value": "segment"
+            "value": "segment",
+            "raw": "\"segment\""
           },
           {
             "type": "ObjectExpression",
@@ -174,7 +177,8 @@
                   "type": "Literal",
                   "start": 1083,
                   "end": 1087,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -195,7 +199,8 @@
                   "type": "Literal",
                   "start": 1103,
                   "end": 1108,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -216,7 +221,8 @@
                   "type": "Literal",
                   "start": 1126,
                   "end": 1130,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 463,
             "end": 467,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 475,
             "end": 498,
-            "value": "const outside = null;"
+            "value": "const outside = null;",
+            "raw": "'const outside = null;'"
           }
         ],
         "optional": false
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 506,
             "end": 543,
-            "value": "\"use strict\"; const outside = null;"
+            "value": "\"use strict\"; const outside = null;",
+            "raw": "'\"use strict\"; const outside = null;'"
           }
         ],
         "optional": false
@@ -97,7 +100,8 @@
             "type": "Literal",
             "start": 552,
             "end": 578,
-            "value": "const xNonStrict = null;"
+            "value": "const xNonStrict = null;",
+            "raw": "'const xNonStrict = null;'"
           }
         ],
         "optional": false
@@ -148,7 +152,8 @@
             "type": "Literal",
             "start": 618,
             "end": 629,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false
@@ -239,7 +244,8 @@
             "type": "Literal",
             "start": 699,
             "end": 736,
-            "value": "\"use strict\"; const xStrict = null;"
+            "value": "\"use strict\"; const xStrict = null;",
+            "raw": "'\"use strict\"; const xStrict = null;'"
           }
         ],
         "optional": false
@@ -290,7 +296,8 @@
             "type": "Literal",
             "start": 773,
             "end": 784,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false

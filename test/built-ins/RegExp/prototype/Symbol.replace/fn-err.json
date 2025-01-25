@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 952,
+  "end": 950,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 809,
-      "end": 867,
+      "start": 807,
+      "end": 865,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 813,
-          "end": 866,
+          "start": 811,
+          "end": 864,
           "id": {
             "type": "Identifier",
-            "start": 813,
-            "end": 821,
+            "start": 811,
+            "end": 819,
             "name": "replacer"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 824,
-            "end": 866,
+            "start": 822,
+            "end": 864,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,21 +29,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 835,
-              "end": 866,
+              "start": 833,
+              "end": 864,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 839,
-                  "end": 864,
+                  "start": 837,
+                  "end": 862,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 845,
-                    "end": 863,
+                    "start": 843,
+                    "end": 861,
                     "callee": {
                       "type": "Identifier",
-                      "start": 849,
-                      "end": 861,
+                      "start": 847,
+                      "end": 859,
                       "name": "Test262Error"
                     },
                     "arguments": []
@@ -58,26 +58,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 869,
-      "end": 951,
+      "start": 867,
+      "end": 949,
       "expression": {
         "type": "CallExpression",
-        "start": 869,
-        "end": 950,
+        "start": 867,
+        "end": 948,
         "callee": {
           "type": "MemberExpression",
-          "start": 869,
-          "end": 882,
+          "start": 867,
+          "end": 880,
           "object": {
             "type": "Identifier",
-            "start": 869,
-            "end": 875,
+            "start": 867,
+            "end": 873,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 876,
-            "end": 882,
+            "start": 874,
+            "end": 880,
             "name": "throws"
           },
           "computed": false,
@@ -86,14 +86,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 883,
-            "end": 895,
+            "start": 881,
+            "end": 893,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 897,
-            "end": 949,
+            "start": 895,
+            "end": 947,
             "id": null,
             "expression": false,
             "generator": false,
@@ -101,26 +101,27 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 908,
-              "end": 949,
+              "start": 906,
+              "end": 947,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 912,
-                  "end": 947,
+                  "start": 910,
+                  "end": 945,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 912,
-                    "end": 946,
+                    "start": 910,
+                    "end": 944,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 912,
-                      "end": 931,
+                      "start": 910,
+                      "end": 929,
                       "object": {
                         "type": "Literal",
-                        "start": 912,
-                        "end": 915,
+                        "start": 910,
+                        "end": 913,
                         "value": {},
+                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""
@@ -128,18 +129,18 @@
                       },
                       "property": {
                         "type": "MemberExpression",
-                        "start": 916,
-                        "end": 930,
+                        "start": 914,
+                        "end": 928,
                         "object": {
                           "type": "Identifier",
-                          "start": 916,
-                          "end": 922,
+                          "start": 914,
+                          "end": 920,
                           "name": "Symbol"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 923,
-                          "end": 930,
+                          "start": 921,
+                          "end": 928,
                           "name": "replace"
                         },
                         "computed": false,
@@ -151,14 +152,15 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 932,
-                        "end": 935,
-                        "value": "a"
+                        "start": 930,
+                        "end": 933,
+                        "value": "a",
+                        "raw": "'a'"
                       },
                       {
                         "type": "Identifier",
-                        "start": 937,
-                        "end": 945,
+                        "start": 935,
+                        "end": 943,
                         "name": "replacer"
                       }
                     ],

@@ -238,7 +238,8 @@
             "type": "Literal",
             "start": 528,
             "end": 550,
-            "value": "First result `value`"
+            "value": "First result `value`",
+            "raw": "'First result `value`'"
           }
         ],
         "optional": false
@@ -295,13 +296,15 @@
             "type": "Literal",
             "start": 583,
             "end": 588,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 616,
-            "value": "First result `done` flag"
+            "value": "First result `done` flag",
+            "raw": "'First result `done` flag'"
           }
         ],
         "optional": false
@@ -351,7 +354,8 @@
             "type": "Literal",
             "start": 658,
             "end": 711,
-            "value": "Value of `yield` expression (prior to continuation)"
+            "value": "Value of `yield` expression (prior to continuation)",
+            "raw": "'Value of `yield` expression (prior to continuation)'"
           }
         ],
         "optional": false
@@ -464,7 +468,8 @@
             "type": "Literal",
             "start": 788,
             "end": 811,
-            "value": "Second result `value`"
+            "value": "Second result `value`",
+            "raw": "'Second result `value`'"
           }
         ],
         "optional": false
@@ -521,13 +526,15 @@
             "type": "Literal",
             "start": 844,
             "end": 848,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 877,
-            "value": "Second result `done` flag"
+            "value": "Second result `done` flag",
+            "raw": "'Second result `done` flag'"
           }
         ],
         "optional": false
@@ -577,7 +584,8 @@
             "type": "Literal",
             "start": 918,
             "end": 972,
-            "value": "Value of `yield` expression (following continuation)"
+            "value": "Value of `yield` expression (following continuation)",
+            "raw": "'Value of `yield` expression (following continuation)'"
           }
         ],
         "optional": false

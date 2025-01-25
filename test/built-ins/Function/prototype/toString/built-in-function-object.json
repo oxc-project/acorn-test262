@@ -176,7 +176,8 @@
                 "type": "Literal",
                 "start": 876,
                 "end": 886,
-                "value": "function"
+                "value": "function",
+                "raw": "'function'"
               }
             },
             "consequent": {
@@ -249,7 +250,8 @@
                   "type": "Literal",
                   "start": 950,
                   "end": 960,
-                  "value": "function"
+                  "value": "function",
+                  "raw": "'function'"
                 }
               },
               "operator": "&&",
@@ -283,7 +285,8 @@
                       "type": "Literal",
                       "start": 979,
                       "end": 987,
-                      "value": "object"
+                      "value": "object",
+                      "raw": "'object'"
                     }
                   },
                   "operator": "||",
@@ -302,7 +305,8 @@
                       "type": "Literal",
                       "start": 998,
                       "end": 1002,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   }
                 }
@@ -530,7 +534,8 @@
                                   "type": "Literal",
                                   "start": 1210,
                                   "end": 1218,
-                                  "value": "symbol"
+                                  "value": "symbol",
+                                  "raw": "'symbol'"
                                 }
                               },
                               "consequent": {
@@ -665,7 +670,8 @@
                             "type": "Literal",
                             "start": 1307,
                             "end": 1314,
-                            "value": "value"
+                            "value": "value",
+                            "raw": "'value'"
                           },
                           "operator": "in",
                           "right": {
@@ -996,7 +1002,8 @@
             "type": "Literal",
             "start": 1579,
             "end": 1580,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

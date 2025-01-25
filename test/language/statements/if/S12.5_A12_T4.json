@@ -11,7 +11,8 @@
         "type": "Literal",
         "start": 287,
         "end": 291,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "IfStatement",
@@ -21,7 +22,8 @@
           "type": "Literal",
           "start": 299,
           "end": 304,
-          "value": false
+          "value": false,
+          "raw": "false"
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -42,7 +44,8 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 410,
-                "value": "#1.1: At embedded \"if/else\" constructions engine must select right branches"
+                "value": "#1.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#1.1: At embedded \"if/else\" constructions engine must select right branches'"
               }
             ]
           }
@@ -70,7 +73,8 @@
             "type": "Literal",
             "start": 431,
             "end": 432,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -84,7 +88,8 @@
         "type": "Literal",
         "start": 437,
         "end": 441,
-        "value": true
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "IfStatement",
@@ -94,7 +99,8 @@
           "type": "Literal",
           "start": 449,
           "end": 453,
-          "value": true
+          "value": true,
+          "raw": "true"
         },
         "consequent": {
           "type": "ExpressionStatement",
@@ -115,7 +121,8 @@
               "type": "Literal",
               "start": 461,
               "end": 462,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           }
         },
@@ -142,7 +149,8 @@
           "type": "Literal",
           "start": 472,
           "end": 473,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -164,7 +172,8 @@
               "type": "Literal",
               "start": 502,
               "end": 577,
-              "value": "#2: At embedded \"if/else\" constructions engine must select right branches"
+              "value": "#2: At embedded \"if/else\" constructions engine must select right branches",
+              "raw": "'#2: At embedded \"if/else\" constructions engine must select right branches'"
             }
           ]
         }
@@ -179,7 +188,8 @@
         "type": "Literal",
         "start": 595,
         "end": 600,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "IfStatement",
@@ -189,7 +199,8 @@
           "type": "Literal",
           "start": 608,
           "end": 612,
-          "value": true
+          "value": true,
+          "raw": "true"
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -210,7 +221,8 @@
                 "type": "Literal",
                 "start": 641,
                 "end": 718,
-                "value": "#3.1: At embedded \"if/else\" constructions engine must select right branches"
+                "value": "#3.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#3.1: At embedded \"if/else\" constructions engine must select right branches'"
               }
             ]
           }
@@ -227,7 +239,8 @@
         "type": "Literal",
         "start": 736,
         "end": 741,
-        "value": false
+        "value": false,
+        "raw": "false"
       },
       "consequent": {
         "type": "IfStatement",
@@ -237,7 +250,8 @@
           "type": "Literal",
           "start": 749,
           "end": 753,
-          "value": true
+          "value": true,
+          "raw": "true"
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -258,7 +272,8 @@
                 "type": "Literal",
                 "start": 782,
                 "end": 859,
-                "value": "#4.1: At embedded \"if/else\" constructions engine must select right branches"
+                "value": "#4.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#4.1: At embedded \"if/else\" constructions engine must select right branches'"
               }
             ]
           }

@@ -1,32 +1,33 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 916,
+  "end": 914,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 899,
-      "end": 913,
+      "start": 897,
+      "end": 911,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 900,
-          "end": 912,
+          "start": 898,
+          "end": 910,
           "body": {
             "type": "ExpressionStatement",
-            "start": 908,
-            "end": 912,
+            "start": 906,
+            "end": 910,
             "expression": {
               "type": "Literal",
-              "start": 908,
-              "end": 912,
-              "value": 3000
+              "start": 906,
+              "end": 910,
+              "value": 3000,
+              "raw": "3000"
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 900,
-            "end": 906,
+            "start": 898,
+            "end": 904,
             "name": "length"
           }
         }
@@ -34,8 +35,8 @@
     },
     {
       "type": "BlockStatement",
-      "start": 913,
-      "end": 915,
+      "start": 911,
+      "end": 913,
       "body": []
     }
   ],

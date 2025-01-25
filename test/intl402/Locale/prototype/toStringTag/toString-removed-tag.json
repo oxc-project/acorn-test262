@@ -190,7 +190,8 @@
             "type": "Literal",
             "start": 567,
             "end": 584,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           }
         ],
         "optional": false
@@ -302,7 +303,8 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 655,
-                    "value": "en"
+                    "value": "en",
+                    "raw": "\"en\""
                   }
                 ]
               }
@@ -313,7 +315,8 @@
             "type": "Literal",
             "start": 659,
             "end": 676,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           }
         ],
         "optional": false

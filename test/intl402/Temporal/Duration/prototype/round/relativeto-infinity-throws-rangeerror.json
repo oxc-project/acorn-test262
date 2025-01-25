@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 373,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 388,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 393,
-                "value": 987
+                "value": 987,
+                "raw": "987"
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 398,
-                "value": 654
+                "value": 654,
+                "raw": "654"
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 403,
-                "value": 321
+                "value": 321,
+                "raw": "321"
               }
             ]
           }
@@ -145,7 +155,8 @@
                   "type": "Literal",
                   "start": 426,
                   "end": 430,
-                  "value": "ad"
+                  "value": "ad",
+                  "raw": "\"ad\""
                 },
                 "kind": "init"
               },
@@ -166,7 +177,8 @@
                   "type": "Literal",
                   "start": 439,
                   "end": 440,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 "kind": "init"
               },
@@ -187,7 +199,8 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 448,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -208,7 +221,8 @@
                   "type": "Literal",
                   "start": 456,
                   "end": 458,
-                  "value": 15
+                  "value": 15,
+                  "raw": "15"
                 },
                 "kind": "init"
               },
@@ -229,7 +243,8 @@
                   "type": "Literal",
                   "start": 470,
                   "end": 479,
-                  "value": "gregory"
+                  "value": "gregory",
+                  "raw": "\"gregory\""
                 },
                 "kind": "init"
               }
@@ -397,7 +412,8 @@
                                     "type": "Literal",
                                     "start": 590,
                                     "end": 599,
-                                    "value": "seconds"
+                                    "value": "seconds",
+                                    "raw": "\"seconds\""
                                   },
                                   "kind": "init"
                                 },
@@ -580,7 +596,8 @@
                             "type": "Literal",
                             "start": 778,
                             "end": 787,
-                            "value": "eraYear"
+                            "value": "eraYear",
+                            "raw": "\"eraYear\""
                           }
                         ],
                         "optional": false
@@ -678,7 +695,8 @@
                                     "type": "Literal",
                                     "start": 855,
                                     "end": 864,
-                                    "value": "seconds"
+                                    "value": "seconds",
+                                    "raw": "\"seconds\""
                                   },
                                   "kind": "init"
                                 },
@@ -789,13 +807,15 @@
                             "type": "Literal",
                             "start": 939,
                             "end": 960,
-                            "value": "get eraYear.valueOf"
+                            "value": "get eraYear.valueOf",
+                            "raw": "\"get eraYear.valueOf\""
                           },
                           {
                             "type": "Literal",
                             "start": 962,
                             "end": 984,
-                            "value": "call eraYear.valueOf"
+                            "value": "call eraYear.valueOf",
+                            "raw": "\"call eraYear.valueOf\""
                           }
                         ]
                       },
@@ -803,7 +823,8 @@
                         "type": "Literal",
                         "start": 987,
                         "end": 1032,
-                        "value": "it fails after fetching the primitive value"
+                        "value": "it fails after fetching the primitive value",
+                        "raw": "\"it fails after fetching the primitive value\""
                       }
                     ],
                     "optional": false

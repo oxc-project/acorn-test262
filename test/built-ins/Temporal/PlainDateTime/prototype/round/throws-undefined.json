@@ -46,55 +46,64 @@
                 "type": "Literal",
                 "start": 298,
                 "end": 302,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 306,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 310,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 314,
-                "value": 14
+                "value": 14,
+                "raw": "14"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 318,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 322,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 327,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 332,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 337,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               }
             ]
           }
@@ -183,7 +192,8 @@
             "type": "Literal",
             "start": 400,
             "end": 444,
-            "value": "throws without undefined as sole parameter"
+            "value": "throws without undefined as sole parameter",
+            "raw": "\"throws without undefined as sole parameter\""
           }
         ],
         "optional": false

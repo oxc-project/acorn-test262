@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 361,
             "end": 371,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 428,
-            "value": "`typeof Set.prototype.intersection` is `'function'`"
+            "value": "`typeof Set.prototype.intersection` is `'function'`",
+            "raw": "\"`typeof Set.prototype.intersection` is `'function'`\""
           }
         ],
         "optional": false
@@ -124,7 +126,8 @@
             "type": "Literal",
             "start": 463,
             "end": 477,
-            "value": "intersection"
+            "value": "intersection",
+            "raw": "\"intersection\""
           },
           {
             "type": "ObjectExpression",
@@ -148,7 +151,8 @@
                   "type": "Literal",
                   "start": 495,
                   "end": 500,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 518,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -190,7 +195,8 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 540,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

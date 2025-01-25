@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 699,
             "end": 700,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -121,7 +122,8 @@
                               "type": "Literal",
                               "start": 761,
                               "end": 763,
-                              "value": 42
+                              "value": 42,
+                              "raw": "42"
                             }
                           ],
                           "optional": false
@@ -157,7 +159,8 @@
                               "type": "Literal",
                               "start": 794,
                               "end": 795,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -245,13 +248,15 @@
                     "type": "Literal",
                     "start": 882,
                     "end": 884,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   },
                   {
                     "type": "Literal",
                     "start": 886,
                     "end": 888,
-                    "value": 39
+                    "value": 39,
+                    "raw": "39"
                   }
                 ],
                 "optional": false
@@ -318,13 +323,15 @@
                             "type": "Literal",
                             "start": 935,
                             "end": 936,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 938,
                             "end": 973,
-                            "value": "async method invoked exactly once"
+                            "value": "async method invoked exactly once",
+                            "raw": "'async method invoked exactly once'"
                           }
                         ],
                         "optional": false
@@ -413,13 +420,15 @@
             "type": "Literal",
             "start": 1029,
             "end": 1030,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1056,
-            "value": "length is properly set"
+            "value": "length is properly set",
+            "raw": "'length is properly set'"
           }
         ],
         "optional": false

@@ -74,31 +74,36 @@
                                 "type": "Literal",
                                 "start": 591,
                                 "end": 594,
-                                "value": "42n"
+                                "value": "42n",
+                                "raw": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 596,
                                 "end": 599,
-                                "value": "44n"
+                                "value": "44n",
+                                "raw": "44n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 601,
                                 "end": 604,
-                                "value": "46n"
+                                "value": "46n",
+                                "raw": "46n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 606,
                                 "end": 609,
-                                "value": "43n"
+                                "value": "43n",
+                                "raw": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 611,
                                 "end": 614,
-                                "value": "45n"
+                                "value": "45n",
+                                "raw": "45n"
                               }
                             ]
                           }
@@ -248,31 +253,36 @@
                             "type": "Literal",
                             "start": 725,
                             "end": 728,
-                            "value": "42n"
+                            "value": "42n",
+                            "raw": "42n"
                           },
                           {
                             "type": "Literal",
                             "start": 730,
                             "end": 733,
-                            "value": "43n"
+                            "value": "43n",
+                            "raw": "43n"
                           },
                           {
                             "type": "Literal",
                             "start": 735,
                             "end": 738,
-                            "value": "44n"
+                            "value": "44n",
+                            "raw": "44n"
                           },
                           {
                             "type": "Literal",
                             "start": 740,
                             "end": 743,
-                            "value": "45n"
+                            "value": "45n",
+                            "raw": "45n"
                           },
                           {
                             "type": "Literal",
                             "start": 745,
                             "end": 748,
-                            "value": "46n"
+                            "value": "46n",
+                            "raw": "46n"
                           }
                         ]
                       },
@@ -280,7 +290,8 @@
                         "type": "Literal",
                         "start": 751,
                         "end": 805,
-                        "value": "The value of `explicit` is [42n, 43n, 44n, 45n, 46n]"
+                        "value": "The value of `explicit` is [42n, 43n, 44n, 45n, 46n]",
+                        "raw": "'The value of `explicit` is [42n, 43n, 44n, 45n, 46n]'"
                       }
                     ],
                     "optional": false
@@ -329,31 +340,36 @@
                             "type": "Literal",
                             "start": 841,
                             "end": 844,
-                            "value": "42n"
+                            "value": "42n",
+                            "raw": "42n"
                           },
                           {
                             "type": "Literal",
                             "start": 846,
                             "end": 849,
-                            "value": "43n"
+                            "value": "43n",
+                            "raw": "43n"
                           },
                           {
                             "type": "Literal",
                             "start": 851,
                             "end": 854,
-                            "value": "44n"
+                            "value": "44n",
+                            "raw": "44n"
                           },
                           {
                             "type": "Literal",
                             "start": 856,
                             "end": 859,
-                            "value": "45n"
+                            "value": "45n",
+                            "raw": "45n"
                           },
                           {
                             "type": "Literal",
                             "start": 861,
                             "end": 864,
-                            "value": "46n"
+                            "value": "46n",
+                            "raw": "46n"
                           }
                         ]
                       },
@@ -361,7 +377,8 @@
                         "type": "Literal",
                         "start": 867,
                         "end": 921,
-                        "value": "The value of `implicit` is [42n, 43n, 44n, 45n, 46n]"
+                        "value": "The value of `implicit` is [42n, 43n, 44n, 45n, 46n]",
+                        "raw": "'The value of `implicit` is [42n, 43n, 44n, 45n, 46n]'"
                       }
                     ],
                     "optional": false

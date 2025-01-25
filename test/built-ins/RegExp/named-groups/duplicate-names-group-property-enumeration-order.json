@@ -23,6 +23,7 @@
             "start": 337,
             "end": 368,
             "value": null,
+            "raw": "/(?<y>a)(?<x>a)|(?<x>b)(?<y>b)/",
             "regex": {
               "pattern": "(?<y>a)(?<x>a)|(?<x>b)(?<y>b)",
               "flags": ""
@@ -116,7 +117,8 @@
                       "type": "Literal",
                       "start": 418,
                       "end": 422,
-                      "value": "aa"
+                      "value": "aa",
+                      "raw": "\"aa\""
                     }
                   ],
                   "optional": false
@@ -142,13 +144,15 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 439,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 444,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ]
           },
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 449,
             "end": 540,
-            "value": "property enumeration order of the groups object is based on source order, not match order"
+            "value": "property enumeration order of the groups object is based on source order, not match order",
+            "raw": "\"property enumeration order of the groups object is based on source order, not match order\""
           }
         ],
         "optional": false
@@ -246,7 +251,8 @@
                       "type": "Literal",
                       "start": 592,
                       "end": 596,
-                      "value": "bb"
+                      "value": "bb",
+                      "raw": "\"bb\""
                     }
                   ],
                   "optional": false
@@ -272,13 +278,15 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 613,
-                "value": "y"
+                "value": "y",
+                "raw": "\"y\""
               },
               {
                 "type": "Literal",
                 "start": 615,
                 "end": 618,
-                "value": "x"
+                "value": "x",
+                "raw": "\"x\""
               }
             ]
           },
@@ -286,7 +294,8 @@
             "type": "Literal",
             "start": 623,
             "end": 714,
-            "value": "property enumeration order of the groups object is based on source order, not match order"
+            "value": "property enumeration order of the groups object is based on source order, not match order",
+            "raw": "\"property enumeration order of the groups object is based on source order, not match order\""
           }
         ],
         "optional": false

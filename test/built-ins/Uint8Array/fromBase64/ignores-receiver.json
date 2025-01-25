@@ -71,7 +71,8 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 346,
-                "value": "Zg=="
+                "value": "Zg==",
+                "raw": "\"Zg==\""
               }
             ],
             "optional": false
@@ -231,7 +232,8 @@
                           "type": "Literal",
                           "start": 506,
                           "end": 535,
-                          "value": "subclass constructor called"
+                          "value": "subclass constructor called",
+                          "raw": "\"subclass constructor called\""
                         }
                       ]
                     }
@@ -286,7 +288,8 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 589,
-                "value": "Zg=="
+                "value": "Zg==",
+                "raw": "\"Zg==\""
               }
             ],
             "optional": false

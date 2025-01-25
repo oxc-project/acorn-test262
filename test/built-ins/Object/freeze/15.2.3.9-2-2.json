@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 285,
             "end": 293,
-            "value": "Father"
+            "value": "Father",
+            "raw": "\"Father\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 306,
                   "end": 308,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 326,
                   "end": 330,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -304,7 +307,8 @@
                 "type": "Literal",
                 "start": 472,
                 "end": 480,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -387,7 +391,8 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 552,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -421,7 +426,8 @@
             "type": "Literal",
             "start": 578,
             "end": 602,
-            "value": "beforeDeleted !== true"
+            "value": "beforeDeleted !== true",
+            "raw": "'beforeDeleted !== true'"
           }
         ],
         "optional": false
@@ -465,13 +471,15 @@
             "type": "Literal",
             "start": 636,
             "end": 641,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 643,
             "end": 657,
-            "value": "afterDeleted"
+            "value": "afterDeleted",
+            "raw": "'afterDeleted'"
           }
         ],
         "optional": false

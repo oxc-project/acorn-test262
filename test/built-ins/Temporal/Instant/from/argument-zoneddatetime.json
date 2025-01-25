@@ -187,7 +187,8 @@
                         "type": "Literal",
                         "start": 791,
                         "end": 816,
-                        "value": "epochNanoseconds result"
+                        "value": "epochNanoseconds result",
+                        "raw": "\"epochNanoseconds result\""
                       }
                     ],
                     "optional": false

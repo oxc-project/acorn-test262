@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 457,
             "end": 459,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 467,
             "end": 481,
-            "value": "let outside;"
+            "value": "let outside;",
+            "raw": "'let outside;'"
           }
         ],
         "optional": false
@@ -72,7 +74,8 @@
             "type": "Literal",
             "start": 489,
             "end": 517,
-            "value": "\"use strict\"; let outside;"
+            "value": "\"use strict\"; let outside;",
+            "raw": "'\"use strict\"; let outside;'"
           }
         ],
         "optional": false
@@ -97,7 +100,8 @@
             "type": "Literal",
             "start": 526,
             "end": 547,
-            "value": "let xNonStrict = 3;"
+            "value": "let xNonStrict = 3;",
+            "raw": "'let xNonStrict = 3;'"
           }
         ],
         "optional": false
@@ -148,7 +152,8 @@
             "type": "Literal",
             "start": 587,
             "end": 598,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false
@@ -239,7 +244,8 @@
             "type": "Literal",
             "start": 668,
             "end": 700,
-            "value": "\"use strict\"; let xStrict = 3;"
+            "value": "\"use strict\"; let xStrict = 3;",
+            "raw": "'\"use strict\"; let xStrict = 3;'"
           }
         ],
         "optional": false
@@ -290,7 +296,8 @@
             "type": "Literal",
             "start": 737,
             "end": 748,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           }
         ],
         "optional": false

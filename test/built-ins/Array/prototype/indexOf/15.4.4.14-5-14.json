@@ -48,7 +48,8 @@
                     "type": "Literal",
                     "start": 298,
                     "end": 302,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               },
@@ -66,7 +67,8 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 316,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Identifier",
@@ -81,13 +83,15 @@
             "type": "Literal",
             "start": 324,
             "end": 325,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 327,
             "end": 354,
-            "value": "[true].indexOf(true, NaN)"
+            "value": "[true].indexOf(true, NaN)",
+            "raw": "'[true].indexOf(true, NaN)'"
           }
         ],
         "optional": false
@@ -138,7 +142,8 @@
                     "type": "Literal",
                     "start": 375,
                     "end": 379,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               },
@@ -156,7 +161,8 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 393,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "UnaryExpression",
@@ -178,13 +184,15 @@
             "type": "Literal",
             "start": 402,
             "end": 403,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 433,
-            "value": "[true].indexOf(true, -NaN)"
+            "value": "[true].indexOf(true, -NaN)",
+            "raw": "'[true].indexOf(true, -NaN)'"
           }
         ],
         "optional": false

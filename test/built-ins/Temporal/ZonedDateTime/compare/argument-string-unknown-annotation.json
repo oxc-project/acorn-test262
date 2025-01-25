@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 271,
                     "end": 303,
-                    "value": "1970-01-01T00:00[UTC][foo=bar]"
+                    "value": "1970-01-01T00:00[UTC][foo=bar]",
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 305,
                     "end": 321,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 327,
                     "end": 373,
-                    "value": "1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]"
+                    "value": "1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]",
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 375,
                     "end": 392,
-                    "value": "before calendar"
+                    "value": "before calendar",
+                    "raw": "\"before calendar\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 444,
-                    "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]"
+                    "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]",
+                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 446,
                     "end": 462,
-                    "value": "after calendar"
+                    "value": "after calendar",
+                    "raw": "\"after calendar\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 536,
-                    "value": "1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]"
+                    "value": "1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]",
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]\""
                   },
                   {
                     "type": "Literal",
                     "start": 538,
                     "end": 571,
-                    "value": "with another unknown annotation"
+                    "value": "with another unknown annotation",
+                    "raw": "\"with another unknown annotation\""
                   }
                 ]
               }
@@ -276,7 +284,8 @@
                         "type": "Literal",
                         "start": 714,
                         "end": 715,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

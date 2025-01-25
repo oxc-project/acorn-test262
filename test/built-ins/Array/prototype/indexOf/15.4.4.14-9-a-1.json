@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 318,
             "end": 326,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +124,8 @@
                               "type": "Literal",
                               "start": 358,
                               "end": 359,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "computed": true,
                             "optional": false
@@ -132,7 +134,8 @@
                             "type": "Literal",
                             "start": 363,
                             "end": 371,
-                            "value": "length"
+                            "value": "length",
+                            "raw": "\"length\""
                           }
                         }
                       },
@@ -144,7 +147,8 @@
                           "type": "Literal",
                           "start": 384,
                           "end": 385,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         }
                       }
                     ]
@@ -169,7 +173,8 @@
                   "type": "Literal",
                   "start": 408,
                   "end": 412,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -267,7 +272,8 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 477,
-                "value": "length"
+                "value": "length",
+                "raw": "\"length\""
               }
             ],
             "optional": false
@@ -276,13 +282,15 @@
             "type": "Literal",
             "start": 480,
             "end": 481,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 483,
             "end": 528,
-            "value": "Array.prototype.indexOf.call(arr, \"length\")"
+            "value": "Array.prototype.indexOf.call(arr, \"length\")",
+            "raw": "'Array.prototype.indexOf.call(arr, \"length\")'"
           }
         ],
         "optional": false

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 344,
             "end": 349,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 397,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -104,7 +106,8 @@
             "type": "Literal",
             "start": 421,
             "end": 439,
-            "value": "1970-01-01T00:00"
+            "value": "1970-01-01T00:00",
+            "raw": "\"1970-01-01T00:00\""
           }
         }
       ],
@@ -191,7 +194,8 @@
             "type": "Literal",
             "start": 494,
             "end": 540,
-            "value": "bare date-time string is not a ZonedDateTime"
+            "value": "bare date-time string is not a ZonedDateTime",
+            "raw": "\"bare date-time string is not a ZonedDateTime\""
           }
         ],
         "optional": false
@@ -216,7 +220,8 @@
           "type": "Literal",
           "start": 549,
           "end": 568,
-          "value": "1970-01-01T00:00Z"
+          "value": "1970-01-01T00:00Z",
+          "raw": "\"1970-01-01T00:00Z\""
         }
       }
     },
@@ -301,7 +306,8 @@
             "type": "Literal",
             "start": 623,
             "end": 661,
-            "value": "date-time + Z is not a ZonedDateTime"
+            "value": "date-time + Z is not a ZonedDateTime",
+            "raw": "\"date-time + Z is not a ZonedDateTime\""
           }
         ],
         "optional": false
@@ -326,7 +332,8 @@
           "type": "Literal",
           "start": 670,
           "end": 694,
-          "value": "1970-01-01T00:00+01:00"
+          "value": "1970-01-01T00:00+01:00",
+          "raw": "\"1970-01-01T00:00+01:00\""
         }
       }
     },
@@ -411,7 +418,8 @@
             "type": "Literal",
             "start": 749,
             "end": 792,
-            "value": "date-time + offset is not a ZonedDateTime"
+            "value": "date-time + offset is not a ZonedDateTime",
+            "raw": "\"date-time + offset is not a ZonedDateTime\""
           }
         ],
         "optional": false
@@ -436,7 +444,8 @@
           "type": "Literal",
           "start": 802,
           "end": 828,
-          "value": "1970-01-01T00:00[+01:00]"
+          "value": "1970-01-01T00:00[+01:00]",
+          "raw": "\"1970-01-01T00:00[+01:00]\""
         }
       }
     },
@@ -530,67 +539,78 @@
             "type": "Literal",
             "start": 907,
             "end": 908,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 910,
             "end": 911,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 914,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 917,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 920,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 923,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 925,
             "end": 926,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 928,
             "end": 929,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 931,
             "end": 932,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 934,
             "end": 935,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 1003,
-            "value": "date-time + IANA annotation preserves wall time in the time zone"
+            "value": "date-time + IANA annotation preserves wall time in the time zone",
+            "raw": "\"date-time + IANA annotation preserves wall time in the time zone\""
           }
         ],
         "optional": false
@@ -615,7 +635,8 @@
           "type": "Literal",
           "start": 1013,
           "end": 1040,
-          "value": "1970-01-01T00:00Z[+01:00]"
+          "value": "1970-01-01T00:00Z[+01:00]",
+          "raw": "\"1970-01-01T00:00Z[+01:00]\""
         }
       }
     },
@@ -709,67 +730,78 @@
             "type": "Literal",
             "start": 1119,
             "end": 1120,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1122,
             "end": 1123,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1126,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1128,
             "end": 1129,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1131,
             "end": 1132,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1134,
             "end": 1135,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1137,
             "end": 1138,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1141,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1143,
             "end": 1144,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1147,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1149,
             "end": 1220,
-            "value": "date-time + Z + IANA annotation preserves exact time in the time zone"
+            "value": "date-time + Z + IANA annotation preserves exact time in the time zone",
+            "raw": "\"date-time + Z + IANA annotation preserves exact time in the time zone\""
           }
         ],
         "optional": false
@@ -794,7 +826,8 @@
           "type": "Literal",
           "start": 1230,
           "end": 1262,
-          "value": "1970-01-01T00:00+01:00[+01:00]"
+          "value": "1970-01-01T00:00+01:00[+01:00]",
+          "raw": "\"1970-01-01T00:00+01:00[+01:00]\""
         }
       }
     },
@@ -888,67 +921,78 @@
             "type": "Literal",
             "start": 1341,
             "end": 1342,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1345,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1347,
             "end": 1348,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1350,
             "end": 1351,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1353,
             "end": 1354,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1357,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1359,
             "end": 1360,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1362,
             "end": 1363,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1365,
             "end": 1366,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1368,
             "end": 1369,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 1371,
             "end": 1448,
-            "value": "date-time + offset + IANA annotation ensures both exact and wall time match"
+            "value": "date-time + offset + IANA annotation ensures both exact and wall time match",
+            "raw": "\"date-time + offset + IANA annotation ensures both exact and wall time match\""
           }
         ],
         "optional": false
@@ -973,7 +1017,8 @@
           "type": "Literal",
           "start": 1458,
           "end": 1490,
-          "value": "1970-01-01T00:00-04:15[+01:00]"
+          "value": "1970-01-01T00:00-04:15[+01:00]",
+          "raw": "\"1970-01-01T00:00-04:15[+01:00]\""
         }
       }
     },
@@ -1058,7 +1103,8 @@
             "type": "Literal",
             "start": 1545,
             "end": 1627,
-            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch"
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
           }
         ],
         "optional": false

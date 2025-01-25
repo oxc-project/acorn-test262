@@ -118,7 +118,8 @@
                           "type": "Literal",
                           "start": 1116,
                           "end": 1117,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         {
                           "type": "SpreadElement",

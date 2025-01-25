@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1048,
             "end": 1065,
-            "value": "var test262Var;"
+            "value": "var test262Var;",
+            "raw": "'var test262Var;'"
           }
         ],
         "optional": false
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1073,
             "end": 1098,
-            "value": "function test262Fn() {}"
+            "value": "function test262Fn() {}",
+            "raw": "'function test262Fn() {}'"
           }
         ],
         "optional": false
@@ -85,7 +87,8 @@
             "type": "Literal",
             "start": 1118,
             "end": 1139,
-            "value": "let test262Var = 1;"
+            "value": "let test262Var = 1;",
+            "raw": "'let test262Var = 1;'"
           }
         ],
         "optional": false
@@ -129,7 +132,8 @@
             "type": "Literal",
             "start": 1171,
             "end": 1172,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -167,7 +171,8 @@
             "type": "Literal",
             "start": 1192,
             "end": 1214,
-            "value": "const test262Fn = 2;"
+            "value": "const test262Fn = 2;",
+            "raw": "'const test262Fn = 2;'"
           }
         ],
         "optional": false
@@ -211,7 +216,8 @@
             "type": "Literal",
             "start": 1245,
             "end": 1246,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false

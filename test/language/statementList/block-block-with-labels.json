@@ -1,38 +1,39 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 898,
+  "end": 896,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 887,
-      "end": 889,
+      "start": 885,
+      "end": 887,
       "body": []
     },
     {
       "type": "BlockStatement",
-      "start": 889,
-      "end": 896,
+      "start": 887,
+      "end": 894,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 890,
-          "end": 895,
+          "start": 888,
+          "end": 893,
           "body": {
             "type": "ExpressionStatement",
-            "start": 893,
-            "end": 895,
+            "start": 891,
+            "end": 893,
             "expression": {
               "type": "Literal",
-              "start": 893,
-              "end": 895,
-              "value": 42
+              "start": 891,
+              "end": 893,
+              "value": 42,
+              "raw": "42"
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 890,
-            "end": 891,
+            "start": 888,
+            "end": 889,
             "name": "x"
           }
         }
@@ -40,8 +41,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 896,
-      "end": 897
+      "start": 894,
+      "end": 895
     }
   ],
   "sourceType": "script"

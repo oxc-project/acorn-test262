@@ -71,7 +71,8 @@
                         "type": "Literal",
                         "start": 330,
                         "end": 338,
-                        "value": "wizard"
+                        "value": "wizard",
+                        "raw": "\"wizard\""
                       }
                     }
                   ]
@@ -240,7 +241,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 568,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 }
               ],
               "optional": false
@@ -249,13 +251,15 @@
               "type": "Literal",
               "start": 571,
               "end": 575,
-              "value": true
+              "value": true,
+              "raw": "true"
             },
             {
               "type": "Literal",
               "start": 577,
               "end": 581,
-              "value": null
+              "value": null,
+              "raw": "null"
             },
             {
               "type": "ObjectExpression",
@@ -271,7 +275,8 @@
           "type": "Literal",
           "start": 591,
           "end": 595,
-          "value": 105
+          "value": 105,
+          "raw": "0x69"
         }
       },
       "consequent": {
@@ -302,7 +307,8 @@
                     "type": "Literal",
                     "start": 624,
                     "end": 741,
-                    "value": "#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==="
+                    "value": "#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})===",
+                    "raw": "'#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==='"
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +350,8 @@
                             "type": "Literal",
                             "start": 771,
                             "end": 774,
-                            "value": "1"
+                            "value": "1",
+                            "raw": "\"1\""
                           }
                         ],
                         "optional": false
@@ -353,13 +360,15 @@
                         "type": "Literal",
                         "start": 777,
                         "end": 781,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       {
                         "type": "Literal",
                         "start": 783,
                         "end": 787,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ObjectExpression",

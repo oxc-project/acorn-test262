@@ -142,7 +142,8 @@
                         "type": "Literal",
                         "start": 424,
                         "end": 429,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       "kind": "init"
                     },
@@ -163,7 +164,8 @@
                         "type": "Literal",
                         "start": 449,
                         "end": 453,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     }
@@ -231,13 +233,15 @@
                   "type": "Literal",
                   "start": 498,
                   "end": 508,
-                  "value": "function"
+                  "value": "function",
+                  "raw": "'function'"
                 },
                 {
                   "type": "Literal",
                   "start": 510,
                   "end": 546,
-                  "value": "`typeof descr.set` is `'function'`"
+                  "value": "`typeof descr.set` is `'function'`",
+                  "raw": "\"`typeof descr.set` is `'function'`\""
                 }
               ],
               "optional": false
@@ -279,7 +283,8 @@
                     "type": "Literal",
                     "start": 568,
                     "end": 579,
-                    "value": "prototype"
+                    "value": "prototype",
+                    "raw": "'prototype'"
                   },
                   "operator": "in",
                   "right": {
@@ -306,13 +311,15 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 599,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 {
                   "type": "Literal",
                   "start": 601,
                   "end": 654,
-                  "value": "The result of `'prototype' in descr.set` is `false`"
+                  "value": "The result of `'prototype' in descr.set` is `false`",
+                  "raw": "\"The result of `'prototype' in descr.set` is `false`\""
                 }
               ],
               "optional": false
@@ -375,7 +382,8 @@
                   "type": "Literal",
                   "start": 698,
                   "end": 739,
-                  "value": "The value of `descr.get` is `undefined`"
+                  "value": "The value of `descr.get` is `undefined`",
+                  "raw": "\"The value of `descr.get` is `undefined`\""
                 }
               ],
               "optional": false
@@ -765,20 +773,23 @@
               "type": "Literal",
               "start": 941,
               "end": 942,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 944,
             "end": 945,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 947,
             "end": 971,
-            "value": "`new C().x = 1` is `1`"
+            "value": "`new C().x = 1` is `1`",
+            "raw": "\"`new C().x = 1` is `1`\""
           }
         ],
         "optional": false
@@ -822,13 +833,15 @@
             "type": "Literal",
             "start": 994,
             "end": 995,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 997,
             "end": 1022,
-            "value": "The value of `x` is `1`"
+            "value": "The value of `x` is `1`",
+            "raw": "\"The value of `x` is `1`\""
           }
         ],
         "optional": false
@@ -890,20 +903,23 @@
               "type": "Literal",
               "start": 1054,
               "end": 1055,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "Literal",
             "start": 1057,
             "end": 1058,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1060,
             "end": 1084,
-            "value": "`C.staticX = 2` is `2`"
+            "value": "`C.staticX = 2` is `2`",
+            "raw": "\"`C.staticX = 2` is `2`\""
           }
         ],
         "optional": false
@@ -947,13 +963,15 @@
             "type": "Literal",
             "start": 1113,
             "end": 1114,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1147,
-            "value": "The value of `staticX` is `2`"
+            "value": "The value of `staticX` is `2`",
+            "raw": "\"The value of `staticX` is `2`\""
           }
         ],
         "optional": false
@@ -1021,20 +1039,23 @@
               "type": "Literal",
               "start": 1179,
               "end": 1180,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           },
           {
             "type": "Literal",
             "start": 1182,
             "end": 1183,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1209,
-            "value": "`new C().y = 3` is `3`"
+            "value": "`new C().y = 3` is `3`",
+            "raw": "\"`new C().y = 3` is `3`\""
           }
         ],
         "optional": false
@@ -1078,13 +1099,15 @@
             "type": "Literal",
             "start": 1232,
             "end": 1233,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 1235,
             "end": 1260,
-            "value": "The value of `y` is `3`"
+            "value": "The value of `y` is `3`",
+            "raw": "\"The value of `y` is `3`\""
           }
         ],
         "optional": false
@@ -1146,20 +1169,23 @@
               "type": "Literal",
               "start": 1292,
               "end": 1293,
-              "value": 4
+              "value": 4,
+              "raw": "4"
             }
           },
           {
             "type": "Literal",
             "start": 1295,
             "end": 1296,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1322,
-            "value": "`C.staticY = 4` is `4`"
+            "value": "`C.staticY = 4` is `4`",
+            "raw": "\"`C.staticY = 4` is `4`\""
           }
         ],
         "optional": false
@@ -1203,13 +1229,15 @@
             "type": "Literal",
             "start": 1351,
             "end": 1352,
-            "value": 4
+            "value": 4,
+            "raw": "4"
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1385,
-            "value": "The value of `staticY` is `4`"
+            "value": "The value of `staticY` is `4`",
+            "raw": "\"The value of `staticY` is `4`\""
           }
         ],
         "optional": false
@@ -1253,7 +1281,8 @@
             "type": "Literal",
             "start": 1425,
             "end": 1428,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           }
         ],
         "optional": false
@@ -1297,7 +1326,8 @@
             "type": "Literal",
             "start": 1467,
             "end": 1470,
-            "value": "y"
+            "value": "y",
+            "raw": "'y'"
           }
         ],
         "optional": false
@@ -1328,7 +1358,8 @@
             "type": "Literal",
             "start": 1499,
             "end": 1508,
-            "value": "staticX"
+            "value": "staticX",
+            "raw": "'staticX'"
           }
         ],
         "optional": false
@@ -1359,7 +1390,8 @@
             "type": "Literal",
             "start": 1537,
             "end": 1546,
-            "value": "staticY"
+            "value": "staticY",
+            "raw": "'staticY'"
           }
         ],
         "optional": false

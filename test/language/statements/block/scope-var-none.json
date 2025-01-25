@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 729,
             "end": 738,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -119,7 +120,8 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 822,
-                "value": "inside"
+                "value": "inside",
+                "raw": "'inside'"
               }
             }
           ],
@@ -217,13 +219,15 @@
             "type": "Literal",
             "start": 901,
             "end": 909,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 911,
             "end": 942,
-            "value": "reference preceding statement"
+            "value": "reference preceding statement",
+            "raw": "'reference preceding statement'"
           }
         ],
         "optional": false
@@ -274,13 +278,15 @@
             "type": "Literal",
             "start": 977,
             "end": 985,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 987,
             "end": 1015,
-            "value": "reference within statement"
+            "value": "reference within statement",
+            "raw": "'reference within statement'"
           }
         ],
         "optional": false
@@ -324,13 +330,15 @@
             "type": "Literal",
             "start": 1038,
             "end": 1046,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1048,
             "end": 1079,
-            "value": "reference following statement"
+            "value": "reference following statement",
+            "raw": "'reference following statement'"
           }
         ],
         "optional": false

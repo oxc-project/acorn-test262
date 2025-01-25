@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 609,
             "end": 610,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -154,7 +155,8 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 703,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ObjectExpression",
@@ -223,7 +225,8 @@
             "type": "Literal",
             "start": 773,
             "end": 876,
-            "value": "`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception"
+            "value": "`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception",
+            "raw": "'`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception'"
           }
         ],
         "optional": false
@@ -315,7 +318,8 @@
                         "type": "Literal",
                         "start": 933,
                         "end": 937,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -328,7 +332,8 @@
             "type": "Literal",
             "start": 955,
             "end": 1023,
-            "value": "`Reflect.apply(fn, null /* empty */)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null /* empty */)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null /* empty */)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -420,7 +425,8 @@
                         "type": "Literal",
                         "start": 1080,
                         "end": 1084,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "CallExpression",
@@ -446,7 +452,8 @@
             "type": "Literal",
             "start": 1100,
             "end": 1166,
-            "value": "`Reflect.apply(fn, null, Symbol())` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, Symbol())` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, Symbol())` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -538,13 +545,15 @@
                         "type": "Literal",
                         "start": 1223,
                         "end": 1227,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 1229,
                         "end": 1230,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     ],
                     "optional": false
@@ -557,7 +566,8 @@
             "type": "Literal",
             "start": 1236,
             "end": 1295,
-            "value": "`Reflect.apply(fn, null, 1)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, 1)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, 1)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -649,7 +659,8 @@
                         "type": "Literal",
                         "start": 1352,
                         "end": 1356,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -668,7 +679,8 @@
             "type": "Literal",
             "start": 1372,
             "end": 1438,
-            "value": "`Reflect.apply(fn, null, Infinity)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, Infinity)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, Infinity)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -760,13 +772,15 @@
                         "type": "Literal",
                         "start": 1495,
                         "end": 1499,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 1501,
                         "end": 1505,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false
@@ -779,7 +793,8 @@
             "type": "Literal",
             "start": 1511,
             "end": 1573,
-            "value": "`Reflect.apply(fn, null, null)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, null)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, null)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -871,7 +886,8 @@
                         "type": "Literal",
                         "start": 1630,
                         "end": 1634,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -890,7 +906,8 @@
             "type": "Literal",
             "start": 1651,
             "end": 1718,
-            "value": "`Reflect.apply(fn, null, undefined)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, undefined)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, undefined)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -982,13 +999,15 @@
                         "type": "Literal",
                         "start": 1775,
                         "end": 1779,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 1781,
                         "end": 1786,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false
@@ -1001,7 +1020,8 @@
             "type": "Literal",
             "start": 1792,
             "end": 1855,
-            "value": "`Reflect.apply(fn, null, false)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, false)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, false)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1093,13 +1113,15 @@
                         "type": "Literal",
                         "start": 1912,
                         "end": 1916,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Literal",
                         "start": 1918,
                         "end": 1922,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false
@@ -1112,7 +1134,8 @@
             "type": "Literal",
             "start": 1928,
             "end": 1990,
-            "value": "`Reflect.apply(fn, null, true)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, true)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, true)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1204,7 +1227,8 @@
                         "type": "Literal",
                         "start": 2047,
                         "end": 2051,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "Identifier",
@@ -1223,7 +1247,8 @@
             "type": "Literal",
             "start": 2062,
             "end": 2123,
-            "value": "`Reflect.apply(fn, null, NaN)` throws a TypeError exception"
+            "value": "`Reflect.apply(fn, null, NaN)` throws a TypeError exception",
+            "raw": "'`Reflect.apply(fn, null, NaN)` throws a TypeError exception'"
           }
         ],
         "optional": false
@@ -1267,13 +1292,15 @@
             "type": "Literal",
             "start": 2152,
             "end": 2153,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 2155,
             "end": 2182,
-            "value": "The value of `count` is 0"
+            "value": "The value of `count` is 0",
+            "raw": "'The value of `count` is 0'"
           }
         ],
         "optional": false

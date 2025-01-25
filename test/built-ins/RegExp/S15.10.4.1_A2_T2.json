@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 510,
                     "end": 570,
-                    "value": "#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: "
+                    "value": "#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -58,6 +59,7 @@
                           "start": 585,
                           "end": 593,
                           "value": {},
+                          "raw": "/1?1/mig",
                           "regex": {
                             "pattern": "1?1",
                             "flags": "mig"
@@ -143,13 +145,15 @@
                     "type": "Literal",
                     "start": 670,
                     "end": 674,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 680,
                     "end": 756,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
                   }
                 ],
                 "optional": false

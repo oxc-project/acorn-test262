@@ -80,14 +80,16 @@
                               "type": "Literal",
                               "start": 1114,
                               "end": 1128,
-                              "value": "switch (1) {"
+                              "value": "switch (1) {",
+                              "raw": "'switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1135,
                               "end": 1146,
-                              "value": "  case 1:"
+                              "value": "  case 1:",
+                              "raw": "'  case 1:'"
                             }
                           },
                           "operator": "+",
@@ -95,7 +97,8 @@
                             "type": "Literal",
                             "start": 1153,
                             "end": 1197,
-                            "value": "    function f() { return \"declaration\"; }"
+                            "value": "    function f() { return \"declaration\"; }",
+                            "raw": "'    function f() { return \"declaration\"; }'"
                           }
                         },
                         "operator": "+",
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 1204,
                           "end": 1223,
-                          "value": "}    after = f;"
+                          "value": "}    after = f;",
+                          "raw": "'}\\\n    after = f;'"
                         }
                       }
                     ],
@@ -163,7 +167,8 @@
             "type": "Literal",
             "start": 1267,
             "end": 1277,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -214,7 +219,8 @@
             "type": "Literal",
             "start": 1306,
             "end": 1319,
-            "value": "declaration"
+            "value": "declaration",
+            "raw": "'declaration'"
           }
         ],
         "optional": false

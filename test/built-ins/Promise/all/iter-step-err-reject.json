@@ -122,7 +122,8 @@
             "type": "Literal",
             "start": 990,
             "end": 996,
-            "value": "done"
+            "value": "done",
+            "raw": "'done'"
           },
           {
             "type": "ObjectExpression",
@@ -216,7 +217,8 @@
             "type": "Literal",
             "start": 1081,
             "end": 1088,
-            "value": "value"
+            "value": "value",
+            "raw": "'value'"
           },
           {
             "type": "ObjectExpression",
@@ -269,7 +271,8 @@
                               "type": "Literal",
                               "start": 1122,
                               "end": 1168,
-                              "value": "The `value` property should not be accessed."
+                              "value": "The `value` property should not be accessed.",
+                              "raw": "'The `value` property should not be accessed.'"
                             }
                           ],
                           "optional": false
@@ -497,7 +500,8 @@
                             "type": "Literal",
                             "start": 1357,
                             "end": 1390,
-                            "value": "The promise should be rejected."
+                            "value": "The promise should be rejected.",
+                            "raw": "'The promise should be rejected.'"
                           }
                         ],
                         "optional": false

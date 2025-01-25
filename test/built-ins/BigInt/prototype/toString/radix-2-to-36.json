@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 676,
               "end": 677,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           }
         ],
@@ -47,7 +48,8 @@
           "type": "Literal",
           "start": 684,
           "end": 686,
-          "value": 36
+          "value": 36,
+          "raw": "36"
         }
       },
       "update": {
@@ -112,7 +114,8 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 717,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       }
                     },
                     "property": {
@@ -138,7 +141,8 @@
                   "type": "Literal",
                   "start": 732,
                   "end": 735,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "\"0\""
                 },
                 {
                   "type": "BinaryExpression",
@@ -148,7 +152,8 @@
                     "type": "Literal",
                     "start": 737,
                     "end": 748,
-                    "value": "0, radix "
+                    "value": "0, radix ",
+                    "raw": "\"0, radix \""
                   },
                   "operator": "+",
                   "right": {
@@ -212,7 +217,8 @@
                           "type": "Literal",
                           "start": 776,
                           "end": 778,
-                          "value": "1n"
+                          "value": "1n",
+                          "raw": "1n"
                         }
                       }
                     },
@@ -239,7 +245,8 @@
                   "type": "Literal",
                   "start": 793,
                   "end": 797,
-                  "value": "-1"
+                  "value": "-1",
+                  "raw": "\"-1\""
                 },
                 {
                   "type": "BinaryExpression",
@@ -249,7 +256,8 @@
                     "type": "Literal",
                     "start": 799,
                     "end": 811,
-                    "value": "-1, radix "
+                    "value": "-1, radix ",
+                    "raw": "\"-1, radix \""
                   },
                   "operator": "+",
                   "right": {
@@ -307,7 +315,8 @@
                         "type": "Literal",
                         "start": 838,
                         "end": 840,
-                        "value": "1n"
+                        "value": "1n",
+                        "raw": "1n"
                       }
                     },
                     "property": {
@@ -333,7 +342,8 @@
                   "type": "Literal",
                   "start": 855,
                   "end": 858,
-                  "value": "1"
+                  "value": "1",
+                  "raw": "\"1\""
                 },
                 {
                   "type": "BinaryExpression",
@@ -343,7 +353,8 @@
                     "type": "Literal",
                     "start": 860,
                     "end": 871,
-                    "value": "1, radix "
+                    "value": "1, radix ",
+                    "raw": "\"1, radix \""
                   },
                   "operator": "+",
                   "right": {

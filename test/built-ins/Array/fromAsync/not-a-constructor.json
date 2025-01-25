@@ -62,7 +62,8 @@
             "type": "Literal",
             "start": 536,
             "end": 574,
-            "value": "Array.fromAsync is not a constructor"
+            "value": "Array.fromAsync is not a constructor",
+            "raw": "\"Array.fromAsync is not a constructor\""
           }
         ],
         "optional": false
@@ -141,7 +142,8 @@
             "type": "Literal",
             "start": 632,
             "end": 673,
-            "value": "Array.fromAsync throws when constructed"
+            "value": "Array.fromAsync throws when constructed",
+            "raw": "\"Array.fromAsync throws when constructed\""
           }
         ],
         "optional": false

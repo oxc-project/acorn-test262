@@ -97,7 +97,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 403,
-                "value": "global"
+                "value": "global",
+                "raw": "'global'"
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 406,
             "end": 410,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 462,
-            "value": "__re.hasOwnProperty('global') must return true"
+            "value": "__re.hasOwnProperty('global') must return true",
+            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'"
           }
         ],
         "optional": false
@@ -138,6 +141,7 @@
             "start": 481,
             "end": 486,
             "value": {},
+            "raw": "/^|^/",
             "regex": {
               "pattern": "^|^",
               "flags": ""
@@ -210,19 +214,22 @@
             "type": "Literal",
             "start": 546,
             "end": 554,
-            "value": "global"
+            "value": "global",
+            "raw": "\"global\""
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 564,
-            "value": "global"
+            "value": "global",
+            "raw": "\"global\""
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 575,
-            "value": "shifted"
+            "value": "shifted",
+            "raw": "\"shifted\""
           }
         ],
         "optional": false
@@ -285,7 +292,8 @@
             "type": "Literal",
             "start": 620,
             "end": 690,
-            "value": "The value of __sample.global is expected to equal the value of __obj"
+            "value": "The value of __sample.global is expected to equal the value of __obj",
+            "raw": "'The value of __sample.global is expected to equal the value of __obj'"
           }
         ],
         "optional": false

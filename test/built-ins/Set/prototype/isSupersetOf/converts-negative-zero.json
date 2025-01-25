@@ -1,66 +1,67 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 687,
+  "end": 683,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 289,
-      "end": 592,
+      "start": 285,
+      "end": 588,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 295,
-          "end": 591,
+          "start": 291,
+          "end": 587,
           "id": {
             "type": "Identifier",
-            "start": 295,
-            "end": 315,
+            "start": 291,
+            "end": 311,
             "name": "setlikeWithMinusZero"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 318,
-            "end": 591,
+            "start": 314,
+            "end": 587,
             "properties": [
               {
                 "type": "Property",
-                "start": 322,
-                "end": 329,
+                "start": 318,
+                "end": 325,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 322,
-                  "end": 326,
+                  "start": 318,
+                  "end": 322,
                   "name": "size"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 328,
-                  "end": 329,
-                  "value": 1
+                  "start": 324,
+                  "end": 325,
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 333,
-                "end": 455,
+                "start": 329,
+                "end": 451,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 333,
-                  "end": 336,
+                  "start": 329,
+                  "end": 332,
                   "name": "has"
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 338,
-                  "end": 455,
+                  "start": 334,
+                  "end": 451,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -68,29 +69,30 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 350,
-                    "end": 455,
+                    "start": 346,
+                    "end": 451,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 356,
-                        "end": 451,
+                        "start": 352,
+                        "end": 447,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 362,
-                          "end": 450,
+                          "start": 358,
+                          "end": 446,
                           "callee": {
                             "type": "Identifier",
-                            "start": 366,
-                            "end": 378,
+                            "start": 362,
+                            "end": 374,
                             "name": "Test262Error"
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 379,
-                              "end": 449,
-                              "value": "Set.prototype.isSupersetOf should not call its argument's has method"
+                              "start": 375,
+                              "end": 445,
+                              "value": "Set.prototype.isSupersetOf should not call its argument's has method",
+                              "raw": "\"Set.prototype.isSupersetOf should not call its argument's has method\""
                             }
                           ]
                         }
@@ -102,21 +104,21 @@
               },
               {
                 "type": "Property",
-                "start": 459,
-                "end": 588,
+                "start": 455,
+                "end": 584,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 459,
-                  "end": 463,
+                  "start": 455,
+                  "end": 459,
                   "name": "keys"
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 465,
-                  "end": 588,
+                  "start": 461,
+                  "end": 584,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -124,45 +126,46 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 477,
-                    "end": 588,
+                    "start": 473,
+                    "end": 584,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 563,
-                        "end": 584,
+                        "start": 559,
+                        "end": 580,
                         "argument": {
                           "type": "CallExpression",
-                          "start": 570,
-                          "end": 583,
+                          "start": 566,
+                          "end": 579,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 570,
-                            "end": 581,
+                            "start": 566,
+                            "end": 577,
                             "object": {
                               "type": "ArrayExpression",
-                              "start": 570,
-                              "end": 574,
+                              "start": 566,
+                              "end": 570,
                               "elements": [
                                 {
                                   "type": "UnaryExpression",
-                                  "start": 571,
-                                  "end": 573,
+                                  "start": 567,
+                                  "end": 569,
                                   "operator": "-",
                                   "prefix": true,
                                   "argument": {
                                     "type": "Literal",
-                                    "start": 572,
-                                    "end": 573,
-                                    "value": 0
+                                    "start": 568,
+                                    "end": 569,
+                                    "value": 0,
+                                    "raw": "0"
                                   }
                                 }
                               ]
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 575,
-                              "end": 581,
+                              "start": 571,
+                              "end": 577,
                               "name": "values"
                             },
                             "computed": false,
@@ -185,53 +188,55 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 594,
-      "end": 622,
+      "start": 590,
+      "end": 618,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 600,
-          "end": 621,
+          "start": 596,
+          "end": 617,
           "id": {
             "type": "Identifier",
-            "start": 600,
-            "end": 602,
+            "start": 596,
+            "end": 598,
             "name": "s1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 605,
-            "end": 621,
+            "start": 601,
+            "end": 617,
             "callee": {
               "type": "Identifier",
-              "start": 609,
-              "end": 612,
+              "start": 605,
+              "end": 608,
               "name": "Set"
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 613,
-                "end": 620,
+                "start": 609,
+                "end": 616,
                 "elements": [
                   {
                     "type": "UnaryExpression",
-                    "start": 614,
-                    "end": 616,
+                    "start": 610,
+                    "end": 612,
                     "operator": "+",
                     "prefix": true,
                     "argument": {
                       "type": "Literal",
-                      "start": 615,
-                      "end": 616,
-                      "value": 0
+                      "start": 611,
+                      "end": 612,
+                      "value": 0,
+                      "raw": "0"
                     }
                   },
                   {
                     "type": "Literal",
-                    "start": 618,
-                    "end": 619,
-                    "value": 1
+                    "start": 614,
+                    "end": 615,
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               }
@@ -243,26 +248,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 624,
-      "end": 686,
+      "start": 620,
+      "end": 682,
       "expression": {
         "type": "CallExpression",
-        "start": 624,
-        "end": 685,
+        "start": 620,
+        "end": 681,
         "callee": {
           "type": "MemberExpression",
-          "start": 624,
-          "end": 640,
+          "start": 620,
+          "end": 636,
           "object": {
             "type": "Identifier",
-            "start": 624,
-            "end": 630,
+            "start": 620,
+            "end": 626,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 631,
-            "end": 640,
+            "start": 627,
+            "end": 636,
             "name": "sameValue"
           },
           "computed": false,
@@ -271,22 +276,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 641,
-            "end": 678,
+            "start": 637,
+            "end": 674,
             "callee": {
               "type": "MemberExpression",
-              "start": 641,
-              "end": 656,
+              "start": 637,
+              "end": 652,
               "object": {
                 "type": "Identifier",
-                "start": 641,
-                "end": 643,
+                "start": 637,
+                "end": 639,
                 "name": "s1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 644,
-                "end": 656,
+                "start": 640,
+                "end": 652,
                 "name": "isSupersetOf"
               },
               "computed": false,
@@ -295,8 +300,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 657,
-                "end": 677,
+                "start": 653,
+                "end": 673,
                 "name": "setlikeWithMinusZero"
               }
             ],
@@ -304,9 +309,10 @@
           },
           {
             "type": "Literal",
-            "start": 680,
-            "end": 684,
-            "value": true
+            "start": 676,
+            "end": 680,
+            "value": true,
+            "raw": "true"
           }
         ],
         "optional": false

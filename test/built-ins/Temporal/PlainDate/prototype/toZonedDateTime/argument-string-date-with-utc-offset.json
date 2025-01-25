@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 336,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -90,49 +93,57 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 397,
-                "value": "12:34:56.987654321+00:00"
+                "value": "12:34:56.987654321+00:00",
+                "raw": "\"12:34:56.987654321+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 432,
-                "value": "12:34:56.987654321+00:00[UTC]"
+                "value": "12:34:56.987654321+00:00[UTC]",
+                "raw": "\"12:34:56.987654321+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 468,
-                "value": "12:34:56.987654321+00:00[!UTC]"
+                "value": "12:34:56.987654321+00:00[!UTC]",
+                "raw": "\"12:34:56.987654321+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 516,
-                "value": "12:34:56.987654321-02:30[America/St_Johns]"
+                "value": "12:34:56.987654321-02:30[America/St_Johns]",
+                "raw": "\"12:34:56.987654321-02:30[America/St_Johns]\""
               },
               {
                 "type": "Literal",
                 "start": 520,
                 "end": 557,
-                "value": "1976-11-18T12:34:56.987654321+00:00"
+                "value": "1976-11-18T12:34:56.987654321+00:00",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 561,
                 "end": 603,
-                "value": "1976-11-18T12:34:56.987654321+00:00[UTC]"
+                "value": "1976-11-18T12:34:56.987654321+00:00[UTC]",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 607,
                 "end": 650,
-                "value": "1976-11-18T12:34:56.987654321+00:00[!UTC]"
+                "value": "1976-11-18T12:34:56.987654321+00:00[!UTC]",
+                "raw": "\"1976-11-18T12:34:56.987654321+00:00[!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 654,
                 "end": 709,
-                "value": "1976-11-18T12:34:56.987654321-02:30[America/St_Johns]"
+                "value": "1976-11-18T12:34:56.987654321-02:30[America/St_Johns]",
+                "raw": "\"1976-11-18T12:34:56.987654321-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -258,7 +269,8 @@
                             "type": "Literal",
                             "start": 819,
                             "end": 824,
-                            "value": "UTC"
+                            "value": "UTC",
+                            "raw": "\"UTC\""
                           },
                           "kind": "init"
                         }
@@ -322,7 +334,8 @@
                   "type": "Literal",
                   "start": 883,
                   "end": 907,
-                  "value": "957270896987654321n"
+                  "value": "957270896987654321n",
+                  "raw": "957_270_896_987_654_321n"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -390,43 +403,50 @@
                 "type": "Literal",
                 "start": 1005,
                 "end": 1018,
-                "value": "2022-09-15Z"
+                "value": "2022-09-15Z",
+                "raw": "\"2022-09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 1022,
                 "end": 1040,
-                "value": "2022-09-15Z[UTC]"
+                "value": "2022-09-15Z[UTC]",
+                "raw": "\"2022-09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1044,
                 "end": 1072,
-                "value": "2022-09-15Z[Europe/Vienna]"
+                "value": "2022-09-15Z[Europe/Vienna]",
+                "raw": "\"2022-09-15Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 1076,
                 "end": 1094,
-                "value": "2022-09-15+00:00"
+                "value": "2022-09-15+00:00",
+                "raw": "\"2022-09-15+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 1098,
                 "end": 1121,
-                "value": "2022-09-15+00:00[UTC]"
+                "value": "2022-09-15+00:00[UTC]",
+                "raw": "\"2022-09-15+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1125,
                 "end": 1143,
-                "value": "2022-09-15-02:30"
+                "value": "2022-09-15-02:30",
+                "raw": "\"2022-09-15-02:30\""
               },
               {
                 "type": "Literal",
                 "start": 1147,
                 "end": 1183,
-                "value": "2022-09-15-02:30[America/St_Johns]"
+                "value": "2022-09-15-02:30[America/St_Johns]",
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -580,7 +600,8 @@
                               "type": "Literal",
                               "start": 1321,
                               "end": 1326,
-                              "value": "UTC"
+                              "value": "UTC",
+                              "raw": "\"UTC\""
                             },
                             "kind": "init"
                           }

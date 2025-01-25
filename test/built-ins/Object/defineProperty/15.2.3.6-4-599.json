@@ -28,7 +28,8 @@
             "type": "Literal",
             "start": 326,
             "end": 352,
-            "value": "getOwnPropertyDescriptor"
+            "value": "getOwnPropertyDescriptor",
+            "raw": "\"getOwnPropertyDescriptor\""
           },
           {
             "type": "ObjectExpression",
@@ -52,7 +53,8 @@
                   "type": "Literal",
                   "start": 368,
                   "end": 372,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -73,7 +75,8 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 393,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -94,7 +97,8 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 415,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

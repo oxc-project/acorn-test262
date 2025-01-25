@@ -91,7 +91,8 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 395,
-                  "value": "Temporal.Instant"
+                  "value": "Temporal.Instant",
+                  "raw": "\"Temporal.Instant\""
                 },
                 "kind": "init"
               },
@@ -112,7 +113,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 414,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 435,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -154,7 +157,8 @@
                   "type": "Literal",
                   "start": 453,
                   "end": 457,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

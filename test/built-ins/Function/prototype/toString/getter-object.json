@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 328,
             "end": 331,
-            "value": "h"
+            "value": "h",
+            "raw": "\"h\""
           }
         }
       ],
@@ -113,7 +114,8 @@
                   "type": "Literal",
                   "start": 455,
                   "end": 458,
-                  "value": "f"
+                  "value": "f",
+                  "raw": "\"f\""
                 }
               ],
               "optional": false
@@ -190,7 +192,8 @@
                         "type": "Literal",
                         "start": 541,
                         "end": 544,
-                        "value": "g"
+                        "value": "g",
+                        "raw": "\"g\""
                       },
                       "kind": "get",
                       "value": {
@@ -216,7 +219,8 @@
                   "type": "Literal",
                   "start": 609,
                   "end": 612,
-                  "value": "g"
+                  "value": "g",
+                  "raw": "\"g\""
                 }
               ],
               "optional": false
@@ -319,7 +323,8 @@
                   "type": "Literal",
                   "start": 761,
                   "end": 764,
-                  "value": "h"
+                  "value": "h",
+                  "raw": "\"h\""
                 }
               ],
               "optional": false
@@ -362,7 +367,8 @@
             "type": "Literal",
             "start": 806,
             "end": 861,
-            "value": "get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }"
+            "value": "get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }",
+            "raw": "\"get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }\""
           }
         ],
         "optional": false
@@ -393,7 +399,8 @@
             "type": "Literal",
             "start": 898,
             "end": 977,
-            "value": "get /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }"
+            "value": "get /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
+            "raw": "\"get /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
           }
         ],
         "optional": false
@@ -424,7 +431,8 @@
             "type": "Literal",
             "start": 1014,
             "end": 1089,
-            "value": "get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }"
+            "value": "get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
+            "raw": "\"get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
           }
         ],
         "optional": false

@@ -23,6 +23,7 @@
             "start": 622,
             "end": 629,
             "value": {},
+            "raw": "/(?:)/m",
             "regex": {
               "pattern": "(?:)",
               "flags": "m"
@@ -169,7 +170,8 @@
                 "type": "Literal",
                 "start": 753,
                 "end": 765,
-                "value": "ignoreCase"
+                "value": "ignoreCase",
+                "raw": "\"ignoreCase\""
               }
             ],
             "optional": false
@@ -251,7 +253,8 @@
               "type": "Literal",
               "start": 815,
               "end": 826,
-              "value": "lastIndex"
+              "value": "lastIndex",
+              "raw": "\"lastIndex\""
             },
             "operator": "in",
             "right": {
@@ -413,7 +416,8 @@
               "type": "Literal",
               "start": 971,
               "end": 977,
-              "value": "name"
+              "value": "name",
+              "raw": "\"name\""
             },
             "operator": "in",
             "right": {
@@ -450,7 +454,8 @@
               "type": "Literal",
               "start": 1004,
               "end": 1012,
-              "value": "length"
+              "value": "length",
+              "raw": "\"length\""
             },
             "operator": "in",
             "right": {

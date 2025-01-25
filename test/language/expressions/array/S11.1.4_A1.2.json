@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 372,
           "end": 380,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -91,7 +92,8 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 471,
-                    "value": "#1: var array = [,,,,,]; typeof array === \"object\". Actual: "
+                    "value": "#1: var array = [,,,,,]; typeof array === \"object\". Actual: ",
+                    "raw": "'#1: var array = [,,,,,]; typeof array === \"object\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -151,7 +153,8 @@
           "type": "Literal",
           "start": 535,
           "end": 539,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -178,7 +181,8 @@
                   "type": "Literal",
                   "start": 568,
                   "end": 626,
-                  "value": "#2: var array = [,,,,,]; array instanceof Array === true"
+                  "value": "#2: var array = [,,,,,]; array instanceof Array === true",
+                  "raw": "'#2: var array = [,,,,,]; array instanceof Array === true'"
                 }
               ]
             }
@@ -276,7 +280,8 @@
                     "type": "Literal",
                     "start": 718,
                     "end": 798,
-                    "value": "#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: "
+                    "value": "#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: ",
+                    "raw": "'#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -343,7 +348,8 @@
           "type": "Literal",
           "start": 854,
           "end": 855,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -374,7 +380,8 @@
                     "type": "Literal",
                     "start": 884,
                     "end": 939,
-                    "value": "#4: var array = [,,,,,]; array.length === 5. Actual: "
+                    "value": "#4: var array = [,,,,,]; array.length === 5. Actual: ",
+                    "raw": "'#4: var array = [,,,,,]; array.length === 5. Actual: '"
                   },
                   "operator": "+",
                   "right": {

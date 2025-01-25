@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 539,
-                "value": "' '"
+                "value": "' '",
+                "raw": "\"'\\u2029'\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 542,
             "end": 550,
-            "value": " "
+            "value": " ",
+            "raw": "\"\\u2029\""
           }
         ],
         "optional": false

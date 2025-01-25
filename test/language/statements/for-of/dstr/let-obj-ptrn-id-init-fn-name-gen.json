@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1797,
             "end": 1798,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -212,7 +213,8 @@
                   "type": "Literal",
                   "start": 1901,
                   "end": 1906,
-                  "value": "gen"
+                  "value": "gen",
+                  "raw": "'gen'"
                 }
               ],
               "optional": false
@@ -269,7 +271,8 @@
                   "type": "Literal",
                   "start": 1942,
                   "end": 1948,
-                  "value": "xGen"
+                  "value": "xGen",
+                  "raw": "'xGen'"
                 }
               ],
               "optional": false
@@ -294,7 +297,8 @@
                 "type": "Literal",
                 "start": 1967,
                 "end": 1968,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -339,13 +343,15 @@
             "type": "Literal",
             "start": 2001,
             "end": 2002,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2004,
             "end": 2036,
-            "value": "Iteration occurred as expected"
+            "value": "Iteration occurred as expected",
+            "raw": "'Iteration occurred as expected'"
           }
         ],
         "optional": false

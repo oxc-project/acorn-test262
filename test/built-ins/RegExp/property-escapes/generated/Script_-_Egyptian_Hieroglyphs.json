@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 539,
                               "end": 547,
-                              "value": 77824
+                              "value": 77824,
+                              "raw": "0x013000"
                             },
                             {
                               "type": "Literal",
                               "start": 549,
                               "end": 557,
-                              "value": 78933
+                              "value": 78933,
+                              "raw": "0x013455"
                             }
                           ]
                         },
@@ -101,13 +103,15 @@
                               "type": "Literal",
                               "start": 565,
                               "end": 573,
-                              "value": 78944
+                              "value": 78944,
+                              "raw": "0x013460"
                             },
                             {
                               "type": "Literal",
                               "start": 575,
                               "end": 583,
-                              "value": 82938
+                              "value": 82938,
+                              "raw": "0x0143FA"
                             }
                           ]
                         }
@@ -144,6 +148,7 @@
             "start": 616,
             "end": 653,
             "value": {},
+            "raw": "/^\\p{Script=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Egyptian_Hieroglyphs}+$",
               "flags": "u"
@@ -159,7 +164,8 @@
             "type": "Literal",
             "start": 673,
             "end": 707,
-            "value": "\\p{Script=Egyptian_Hieroglyphs}"
+            "value": "\\p{Script=Egyptian_Hieroglyphs}",
+            "raw": "\"\\\\p{Script=Egyptian_Hieroglyphs}\""
           }
         ],
         "optional": false
@@ -185,6 +191,7 @@
             "start": 734,
             "end": 755,
             "value": {},
+            "raw": "/^\\p{Script=Egyp}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Egyp}+$",
               "flags": "u"
@@ -200,7 +207,8 @@
             "type": "Literal",
             "start": 775,
             "end": 793,
-            "value": "\\p{Script=Egyp}"
+            "value": "\\p{Script=Egyp}",
+            "raw": "\"\\\\p{Script=Egyp}\""
           }
         ],
         "optional": false
@@ -226,6 +234,7 @@
             "start": 820,
             "end": 853,
             "value": {},
+            "raw": "/^\\p{sc=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Egyptian_Hieroglyphs}+$",
               "flags": "u"
@@ -241,7 +250,8 @@
             "type": "Literal",
             "start": 873,
             "end": 903,
-            "value": "\\p{sc=Egyptian_Hieroglyphs}"
+            "value": "\\p{sc=Egyptian_Hieroglyphs}",
+            "raw": "\"\\\\p{sc=Egyptian_Hieroglyphs}\""
           }
         ],
         "optional": false
@@ -267,6 +277,7 @@
             "start": 930,
             "end": 947,
             "value": {},
+            "raw": "/^\\p{sc=Egyp}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Egyp}+$",
               "flags": "u"
@@ -282,7 +293,8 @@
             "type": "Literal",
             "start": 967,
             "end": 981,
-            "value": "\\p{sc=Egyp}"
+            "value": "\\p{sc=Egyp}",
+            "raw": "\"\\\\p{sc=Egyp}\""
           }
         ],
         "optional": false
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1063,
                               "end": 1071,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1073,
                               "end": 1081,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1089,
                               "end": 1097,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1099,
                               "end": 1107,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1115,
                               "end": 1123,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1125,
                               "end": 1133,
-                              "value": 77823
+                              "value": 77823,
+                              "raw": "0x012FFF"
                             }
                           ]
                         },
@@ -424,13 +442,15 @@
                               "type": "Literal",
                               "start": 1141,
                               "end": 1149,
-                              "value": 78934
+                              "value": 78934,
+                              "raw": "0x013456"
                             },
                             {
                               "type": "Literal",
                               "start": 1151,
                               "end": 1159,
-                              "value": 78943
+                              "value": 78943,
+                              "raw": "0x01345F"
                             }
                           ]
                         },
@@ -443,13 +463,15 @@
                               "type": "Literal",
                               "start": 1167,
                               "end": 1175,
-                              "value": 82939
+                              "value": 82939,
+                              "raw": "0x0143FB"
                             },
                             {
                               "type": "Literal",
                               "start": 1177,
                               "end": 1185,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -486,6 +508,7 @@
             "start": 1218,
             "end": 1255,
             "value": {},
+            "raw": "/^\\P{Script=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Egyptian_Hieroglyphs}+$",
               "flags": "u"
@@ -501,7 +524,8 @@
             "type": "Literal",
             "start": 1278,
             "end": 1312,
-            "value": "\\P{Script=Egyptian_Hieroglyphs}"
+            "value": "\\P{Script=Egyptian_Hieroglyphs}",
+            "raw": "\"\\\\P{Script=Egyptian_Hieroglyphs}\""
           }
         ],
         "optional": false
@@ -527,6 +551,7 @@
             "start": 1339,
             "end": 1360,
             "value": {},
+            "raw": "/^\\P{Script=Egyp}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Egyp}+$",
               "flags": "u"
@@ -542,7 +567,8 @@
             "type": "Literal",
             "start": 1383,
             "end": 1401,
-            "value": "\\P{Script=Egyp}"
+            "value": "\\P{Script=Egyp}",
+            "raw": "\"\\\\P{Script=Egyp}\""
           }
         ],
         "optional": false
@@ -568,6 +594,7 @@
             "start": 1428,
             "end": 1461,
             "value": {},
+            "raw": "/^\\P{sc=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Egyptian_Hieroglyphs}+$",
               "flags": "u"
@@ -583,7 +610,8 @@
             "type": "Literal",
             "start": 1484,
             "end": 1514,
-            "value": "\\P{sc=Egyptian_Hieroglyphs}"
+            "value": "\\P{sc=Egyptian_Hieroglyphs}",
+            "raw": "\"\\\\P{sc=Egyptian_Hieroglyphs}\""
           }
         ],
         "optional": false
@@ -609,6 +637,7 @@
             "start": 1541,
             "end": 1558,
             "value": {},
+            "raw": "/^\\P{sc=Egyp}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Egyp}+$",
               "flags": "u"
@@ -624,7 +653,8 @@
             "type": "Literal",
             "start": 1581,
             "end": 1595,
-            "value": "\\P{sc=Egyp}"
+            "value": "\\P{sc=Egyp}",
+            "raw": "\"\\\\P{sc=Egyp}\""
           }
         ],
         "optional": false

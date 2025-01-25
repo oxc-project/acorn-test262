@@ -24,13 +24,15 @@
                 "type": "Literal",
                 "start": 263,
                 "end": 268,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 270,
                 "end": 278,
-                "value": "+01:30"
+                "value": "+01:30",
+                "raw": "\"+01:30\""
               }
             ]
           },
@@ -108,7 +110,8 @@
                             "type": "Literal",
                             "start": 347,
                             "end": 349,
-                            "value": "0n"
+                            "value": "0n",
+                            "raw": "0n"
                           },
                           {
                             "type": "Identifier",
@@ -185,7 +188,8 @@
                               "type": "Literal",
                               "start": 451,
                               "end": 455,
-                              "value": 2020
+                              "value": 2020,
+                              "raw": "2020"
                             },
                             "kind": "init"
                           },
@@ -206,7 +210,8 @@
                               "type": "Literal",
                               "start": 464,
                               "end": 465,
-                              "value": 5
+                              "value": 5,
+                              "raw": "5"
                             },
                             "kind": "init"
                           },
@@ -227,7 +232,8 @@
                               "type": "Literal",
                               "start": 472,
                               "end": 473,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "kind": "init"
                           },
@@ -333,7 +339,8 @@
                               "type": "Literal",
                               "start": 543,
                               "end": 547,
-                              "value": 2020
+                              "value": 2020,
+                              "raw": "2020"
                             },
                             "kind": "init"
                           },
@@ -354,7 +361,8 @@
                               "type": "Literal",
                               "start": 556,
                               "end": 557,
-                              "value": 5
+                              "value": 5,
+                              "raw": "5"
                             },
                             "kind": "init"
                           },
@@ -375,7 +383,8 @@
                               "type": "Literal",
                               "start": 564,
                               "end": 565,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "kind": "init"
                           },

@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 280,
                     "end": 312,
-                    "value": "1970-01-01T00:00[U-CA=iso8601]"
+                    "value": "1970-01-01T00:00[U-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[U-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 314,
                     "end": 339,
-                    "value": "invalid capitalized key"
+                    "value": "invalid capitalized key",
+                    "raw": "\"invalid capitalized key\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 345,
                     "end": 377,
-                    "value": "1970-01-01T00:00[u-CA=iso8601]"
+                    "value": "1970-01-01T00:00[u-CA=iso8601]",
+                    "raw": "\"1970-01-01T00:00[u-CA=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 379,
                     "end": 414,
-                    "value": "invalid partially-capitalized key"
+                    "value": "invalid partially-capitalized key",
+                    "raw": "\"invalid partially-capitalized key\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 447,
-                    "value": "1970-01-01T00:00[FOO=bar]"
+                    "value": "1970-01-01T00:00[FOO=bar]",
+                    "raw": "\"1970-01-01T00:00[FOO=bar]\""
                   },
                   {
                     "type": "Literal",
                     "start": 449,
                     "end": 487,
-                    "value": "invalid capitalized unrecognized key"
+                    "value": "invalid capitalized unrecognized key",
+                    "raw": "\"invalid capitalized unrecognized key\""
                   }
                 ]
               }
@@ -262,19 +268,22 @@
                                   "type": "Literal",
                                   "start": 643,
                                   "end": 647,
-                                  "value": 1976
+                                  "value": 1976,
+                                  "raw": "1976"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 649,
                                   "end": 651,
-                                  "value": 11
+                                  "value": 11,
+                                  "raw": "11"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 653,
                                   "end": 655,
-                                  "value": 18
+                                  "value": 18,
+                                  "raw": "18"
                                 }
                               ]
                             }
@@ -445,19 +454,22 @@
                                   "type": "Literal",
                                   "start": 841,
                                   "end": 845,
-                                  "value": 1976
+                                  "value": 1976,
+                                  "raw": "1976"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 847,
                                   "end": 849,
-                                  "value": 11
+                                  "value": 11,
+                                  "raw": "11"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 851,
                                   "end": 853,
-                                  "value": 18
+                                  "value": 18,
+                                  "raw": "18"
                                 }
                               ]
                             },

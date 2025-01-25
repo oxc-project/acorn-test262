@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 301,
             "end": 306,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -113,7 +114,8 @@
                             "type": "Literal",
                             "start": 368,
                             "end": 369,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "kind": "init"
                         }
@@ -184,7 +186,8 @@
                 "type": "Literal",
                 "start": 428,
                 "end": 434,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             },
             "consequent": {
@@ -211,7 +214,8 @@
                       "type": "Literal",
                       "start": 453,
                       "end": 457,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -260,13 +264,15 @@
             "type": "Literal",
             "start": 493,
             "end": 498,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 510,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false
@@ -315,7 +321,8 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 548,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -324,7 +331,8 @@
             "type": "Literal",
             "start": 551,
             "end": 591,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false

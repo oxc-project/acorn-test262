@@ -42,7 +42,8 @@
           "type": "Literal",
           "start": 426,
           "end": 431,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -73,7 +74,8 @@
                     "type": "Literal",
                     "start": 459,
                     "end": 502,
-                    "value": "#1: delete Number.NaN === false. Actual: "
+                    "value": "#1: delete Number.NaN === false. Actual: ",
+                    "raw": "'#1: delete Number.NaN === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -164,7 +166,8 @@
           "type": "Literal",
           "start": 729,
           "end": 740,
-          "value": "undefined"
+          "value": "undefined",
+          "raw": "\"undefined\""
         }
       },
       "consequent": {
@@ -191,7 +194,8 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 828,
-                  "value": "#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" "
+                  "value": "#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" ",
+                  "raw": "'#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" '"
                 }
               ]
             }

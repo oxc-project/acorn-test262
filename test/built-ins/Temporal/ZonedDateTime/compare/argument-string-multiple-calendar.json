@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 383,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 439,
-                "value": "1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]"
+                "value": "1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 504,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]\""
               }
             ]
           }
@@ -90,13 +93,15 @@
                 "type": "Literal",
                 "start": 554,
                 "end": 580,
-                "value": "1000000000000000000n"
+                "value": "1000000000000000000n",
+                "raw": "1_000_000_000_000_000_000n"
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 587,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }

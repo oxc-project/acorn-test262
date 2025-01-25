@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 310,
               "end": 314,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 320,
           "end": 326,
-          "value": "null"
+          "value": "null",
+          "raw": "\"null\""
         }
       },
       "consequent": {
@@ -67,7 +69,8 @@
                     "type": "Literal",
                     "start": 355,
                     "end": 394,
-                    "value": "#1: String(null) === \"null\". Actual: "
+                    "value": "#1: String(null) === \"null\". Actual: ",
+                    "raw": "'#1: String(null) === \"null\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -89,7 +92,8 @@
                           "type": "Literal",
                           "start": 405,
                           "end": 409,
-                          "value": null
+                          "value": null,
+                          "raw": "null"
                         }
                       ],
                       "optional": false

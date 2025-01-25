@@ -80,14 +80,16 @@
                               "type": "Literal",
                               "start": 1136,
                               "end": 1150,
-                              "value": "switch (1) {"
+                              "value": "switch (1) {",
+                              "raw": "'switch (1) {'"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1157,
                               "end": 1169,
-                              "value": "  default:"
+                              "value": "  default:",
+                              "raw": "'  default:'"
                             }
                           },
                           "operator": "+",
@@ -95,7 +97,8 @@
                             "type": "Literal",
                             "start": 1176,
                             "end": 1220,
-                            "value": "    function f() { return \"declaration\"; }"
+                            "value": "    function f() { return \"declaration\"; }",
+                            "raw": "'    function f() { return \"declaration\"; }'"
                           }
                         },
                         "operator": "+",
@@ -103,7 +106,8 @@
                           "type": "Literal",
                           "start": 1227,
                           "end": 1246,
-                          "value": "}    after = f;"
+                          "value": "}    after = f;",
+                          "raw": "'}\\\n    after = f;'"
                         }
                       }
                     ],
@@ -163,7 +167,8 @@
             "type": "Literal",
             "start": 1290,
             "end": 1300,
-            "value": "function"
+            "value": "function",
+            "raw": "'function'"
           }
         ],
         "optional": false
@@ -214,7 +219,8 @@
             "type": "Literal",
             "start": 1329,
             "end": 1342,
-            "value": "declaration"
+            "value": "declaration",
+            "raw": "'declaration'"
           }
         ],
         "optional": false

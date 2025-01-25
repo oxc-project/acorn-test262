@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 521,
-                "value": "description"
+                "value": "description",
+                "raw": "'description'"
               }
             ],
             "optional": false
@@ -158,7 +159,8 @@
             "type": "Literal",
             "start": 585,
             "end": 611,
-            "value": "`s.add(foo)` returns `s`"
+            "value": "`s.add(foo)` returns `s`",
+            "raw": "'`s.add(foo)` returns `s`'"
           }
         ],
         "optional": false

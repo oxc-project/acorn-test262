@@ -89,7 +89,8 @@
                         "type": "Literal",
                         "start": 726,
                         "end": 729,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       },
                       {
                         "type": "Identifier",

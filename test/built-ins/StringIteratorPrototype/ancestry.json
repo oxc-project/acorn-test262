@@ -54,7 +54,8 @@
                     "type": "Literal",
                     "start": 376,
                     "end": 378,
-                    "value": ""
+                    "value": "",
+                    "raw": "''"
                   },
                   "property": {
                     "type": "MemberExpression",

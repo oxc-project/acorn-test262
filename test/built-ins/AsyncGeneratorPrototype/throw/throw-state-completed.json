@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 905,
                 "end": 915,
-                "value": "Catch me"
+                "value": "Catch me",
+                "raw": "'Catch me'"
               }
             ]
           }
@@ -293,7 +294,8 @@
                             "type": "Literal",
                             "start": 1078,
                             "end": 1082,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         ],
                         "optional": false

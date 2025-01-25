@@ -113,7 +113,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 512,
-                  "value": "#1: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" lead to throwing exception"
+                  "value": "#1: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" lead to throwing exception",
+                  "raw": "'#1: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" lead to throwing exception'"
                 }
               ]
             }
@@ -171,7 +172,8 @@
                   "type": "Literal",
                   "start": 564,
                   "end": 568,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +204,8 @@
                             "type": "Literal",
                             "start": 599,
                             "end": 705,
-                            "value": "#1.2: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" throw a TypeError. Actual: "
+                            "value": "#1.2: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" throw a TypeError. Actual: ",
+                            "raw": "'#1.2: var __FACTORY = String.prototype.indexOf; \"__instance = new __FACTORY\" throw a TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

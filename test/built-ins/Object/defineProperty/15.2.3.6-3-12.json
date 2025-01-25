@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 586,
             "end": 591,
-            "value": "abc"
+            "value": "abc",
+            "raw": "\"abc\""
           }
         }
       ],
@@ -186,7 +187,8 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 693,
-                        "value": "foo"
+                        "value": "foo",
+                        "raw": "\"foo\""
                       },
                       {
                         "type": "Identifier",
@@ -261,7 +263,8 @@
                 "type": "Literal",
                 "start": 740,
                 "end": 745,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -270,13 +273,15 @@
             "type": "Literal",
             "start": 748,
             "end": 753,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 780,
-            "value": "o.hasOwnProperty(\"foo\")"
+            "value": "o.hasOwnProperty(\"foo\")",
+            "raw": "'o.hasOwnProperty(\"foo\")'"
           }
         ],
         "optional": false

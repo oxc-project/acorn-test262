@@ -31,6 +31,7 @@
                 "start": 325,
                 "end": 339,
                 "value": {},
+                "raw": "/\\k<a>(?<=>)a/",
                 "regex": {
                   "pattern": "\\k<a>(?<=>)a",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 352,
-                "value": "k<a>a"
+                "value": "k<a>a",
+                "raw": "\"k<a>a\""
               }
             ],
             "optional": false
@@ -87,6 +89,7 @@
                 "start": 363,
                 "end": 376,
                 "value": {},
+                "raw": "/(?<=>)\\k<a>/",
                 "regex": {
                   "pattern": "(?<=>)\\k<a>",
                   "flags": ""
@@ -106,7 +109,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 389,
-                "value": ">k<a>"
+                "value": ">k<a>",
+                "raw": "\">k<a>\""
               }
             ],
             "optional": false
@@ -143,6 +147,7 @@
                 "start": 401,
                 "end": 415,
                 "value": {},
+                "raw": "/\\k<a>(?<!a)a/",
                 "regex": {
                   "pattern": "\\k<a>(?<!a)a",
                   "flags": ""
@@ -162,7 +167,8 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 428,
-                "value": "k<a>a"
+                "value": "k<a>a",
+                "raw": "\"k<a>a\""
               }
             ],
             "optional": false
@@ -199,6 +205,7 @@
                 "start": 439,
                 "end": 453,
                 "value": {},
+                "raw": "/(?<!a>)\\k<a>/",
                 "regex": {
                   "pattern": "(?<!a>)\\k<a>",
                   "flags": ""
@@ -218,7 +225,8 @@
                 "type": "Literal",
                 "start": 459,
                 "end": 465,
-                "value": "k<a>"
+                "value": "k<a>",
+                "raw": "\"k<a>\""
               }
             ],
             "optional": false

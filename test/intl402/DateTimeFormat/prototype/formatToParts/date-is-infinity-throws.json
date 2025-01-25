@@ -51,7 +51,8 @@
                     "type": "Literal",
                     "start": 736,
                     "end": 743,
-                    "value": "pt-BR"
+                    "value": "pt-BR",
+                    "raw": "\"pt-BR\""
                   }
                 ]
               }
@@ -154,7 +155,8 @@
             "type": "Literal",
             "start": 821,
             "end": 832,
-            "value": "+Infinity"
+            "value": "+Infinity",
+            "raw": "\"+Infinity\""
           }
         ],
         "optional": false
@@ -260,7 +262,8 @@
             "type": "Literal",
             "start": 910,
             "end": 921,
-            "value": "-Infinity"
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
           }
         ],
         "optional": false

@@ -69,7 +69,8 @@
             "type": "Literal",
             "start": 754,
             "end": 813,
-            "value": "An initialized binding is not created prior to evaluation"
+            "value": "An initialized binding is not created prior to evaluation",
+            "raw": "'An initialized binding is not created prior to evaluation'"
           }
         ],
         "optional": false
@@ -120,13 +121,15 @@
             "type": "Literal",
             "start": 848,
             "end": 859,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 924,
-            "value": "An uninitialized binding is not created prior to evaluation"
+            "value": "An uninitialized binding is not created prior to evaluation",
+            "raw": "'An uninitialized binding is not created prior to evaluation'"
           }
         ],
         "optional": false
@@ -178,7 +181,8 @@
               "type": "Literal",
               "start": 950,
               "end": 951,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "kind": "init"
           }
@@ -286,7 +290,8 @@
             "type": "Literal",
             "start": 1037,
             "end": 1097,
-            "value": "An initialized binding is not created following evaluation"
+            "value": "An initialized binding is not created following evaluation",
+            "raw": "'An initialized binding is not created following evaluation'"
           }
         ],
         "optional": false
@@ -337,13 +342,15 @@
             "type": "Literal",
             "start": 1132,
             "end": 1143,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 1147,
             "end": 1209,
-            "value": "An uninitialized binding is not created following evaluation"
+            "value": "An uninitialized binding is not created following evaluation",
+            "raw": "'An uninitialized binding is not created following evaluation'"
           }
         ],
         "optional": false

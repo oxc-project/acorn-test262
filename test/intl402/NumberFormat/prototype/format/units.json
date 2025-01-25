@@ -60,7 +60,8 @@
                         "type": "Literal",
                         "start": 334,
                         "end": 337,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     },
                     "property": {
@@ -101,7 +102,8 @@
                             "type": "Literal",
                             "start": 374,
                             "end": 380,
-                            "value": "unit"
+                            "value": "unit",
+                            "raw": "\"unit\""
                           },
                           "kind": "init"
                         },
@@ -166,7 +168,8 @@
                         "type": "Literal",
                         "start": 411,
                         "end": 414,
-                        "value": 123
+                        "value": 123,
+                        "raw": "123"
                       }
                     },
                     "property": {
@@ -395,7 +398,8 @@
                             "type": "Literal",
                             "start": 626,
                             "end": 633,
-                            "value": "-per-"
+                            "value": "-per-",
+                            "raw": "\"-per-\""
                           }
                         },
                         "operator": "+",
@@ -444,7 +448,8 @@
                             "type": "Literal",
                             "start": 674,
                             "end": 681,
-                            "value": "-per-"
+                            "value": "-per-",
+                            "raw": "\"-per-\""
                           }
                         },
                         "operator": "+",

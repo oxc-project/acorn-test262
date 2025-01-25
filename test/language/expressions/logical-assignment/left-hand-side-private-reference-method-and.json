@@ -107,7 +107,8 @@
                         "type": "Literal",
                         "start": 1638,
                         "end": 1639,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -223,7 +224,8 @@
             "type": "Literal",
             "start": 1722,
             "end": 1793,
-            "value": "PutValue throws when storing the result in a method private reference"
+            "value": "PutValue throws when storing the result in a method private reference",
+            "raw": "\"PutValue throws when storing the result in a method private reference\""
           }
         ],
         "optional": false

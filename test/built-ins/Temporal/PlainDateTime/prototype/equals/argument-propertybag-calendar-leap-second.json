@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 340,
-                "value": 1976
+                "value": 1976,
+                "raw": "1976"
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
-                "value": 18
+                "value": 18,
+                "raw": "18"
               }
             ]
           }
@@ -85,7 +88,8 @@
             "type": "Literal",
             "start": 369,
             "end": 390,
-            "value": "2016-12-31T23:59:60"
+            "value": "2016-12-31T23:59:60",
+            "raw": "\"2016-12-31T23:59:60\""
           }
         }
       ],
@@ -128,7 +132,8 @@
                   "type": "Literal",
                   "start": 413,
                   "end": 417,
-                  "value": 1976
+                  "value": 1976,
+                  "raw": "1976"
                 },
                 "kind": "init"
               },
@@ -149,7 +154,8 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 435,
-                  "value": "M11"
+                  "value": "M11",
+                  "raw": "\"M11\""
                 },
                 "kind": "init"
               },
@@ -170,7 +176,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 444,
-                  "value": 18
+                  "value": 18,
+                  "raw": "18"
                 },
                 "kind": "init"
               },
@@ -291,13 +298,15 @@
             "type": "Literal",
             "start": 525,
             "end": 529,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 581,
-            "value": "leap second is a valid ISO string for calendar"
+            "value": "leap second is a valid ISO string for calendar",
+            "raw": "\"leap second is a valid ISO string for calendar\""
           }
         ],
         "optional": false

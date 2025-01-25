@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 329,
-                "value": 2019
+                "value": 2019,
+                "raw": "2019"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ]
           }
@@ -84,13 +86,15 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 357,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 369,
-                "value": 19970327
+                "value": 19970327,
+                "raw": "19970327"
               },
               {
                 "type": "UnaryExpression",
@@ -102,14 +106,16 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 382,
-                  "value": 19970327
+                  "value": 19970327,
+                  "raw": "19970327"
                 }
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 396,
-                "value": 1234567890
+                "value": 1234567890,
+                "raw": "1234567890"
               }
             ]
           }
@@ -190,7 +196,8 @@
                         "type": "Literal",
                         "start": 458,
                         "end": 462,
-                        "value": 2019
+                        "value": 2019,
+                        "raw": "2019"
                       },
                       "kind": "init"
                     },
@@ -211,7 +218,8 @@
                         "type": "Literal",
                         "start": 475,
                         "end": 480,
-                        "value": "M06"
+                        "value": "M06",
+                        "raw": "\"M06\""
                       },
                       "kind": "init"
                     },
@@ -323,7 +331,8 @@
                   "type": "Literal",
                   "start": 561,
                   "end": 599,
-                  "value": "Numbers cannot be used as a calendar"
+                  "value": "Numbers cannot be used as a calendar",
+                  "raw": "\"Numbers cannot be used as a calendar\""
                 }
               ],
               "optional": false

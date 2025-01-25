@@ -99,13 +99,15 @@
             "type": "Literal",
             "start": 306,
             "end": 311,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 343,
-            "value": "`s.has(NaN)` returns `false`"
+            "value": "`s.has(NaN)` returns `false`",
+            "raw": "\"`s.has(NaN)` returns `false`\""
           }
         ],
         "optional": false

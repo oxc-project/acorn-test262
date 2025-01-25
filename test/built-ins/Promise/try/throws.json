@@ -153,7 +153,8 @@
                         "type": "Literal",
                         "start": 482,
                         "end": 534,
-                        "value": "error thrown from callback must become a rejection"
+                        "value": "error thrown from callback must become a rejection",
+                        "raw": "\"error thrown from callback must become a rejection\""
                       }
                     ],
                     "optional": false

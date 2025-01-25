@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 768,
             "end": 773,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 836,
-            "value": "isConstructor(WeakSet.prototype.delete) must return false"
+            "value": "isConstructor(WeakSet.prototype.delete) must return false",
+            "raw": "'isConstructor(WeakSet.prototype.delete) must return false'"
           }
         ],
         "optional": false

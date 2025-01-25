@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 477,
             "end": 478,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -87,7 +88,8 @@
                             "type": "Literal",
                             "start": 527,
                             "end": 530,
-                            "value": "a"
+                            "value": "a",
+                            "raw": "\"a\""
                           },
                           "operator": "+",
                           "right": {
@@ -191,7 +193,8 @@
                 "type": "Literal",
                 "start": 585,
                 "end": 603,
-                "value": "this.shifted=a3;"
+                "value": "this.shifted=a3;",
+                "raw": "\"this.shifted=a3;\""
               }
             ]
           },
@@ -253,19 +256,22 @@
                 "type": "Literal",
                 "start": 653,
                 "end": 656,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 658,
                 "end": 661,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 663,
                 "end": 666,
-                "value": "c"
+                "value": "c",
+                "raw": "\"c\""
               }
             ],
             "optional": false
@@ -316,7 +322,8 @@
               "type": "Literal",
               "start": 692,
               "end": 701,
-              "value": "shifted"
+              "value": "shifted",
+              "raw": "\"shifted\""
             },
             "computed": true,
             "optional": false
@@ -325,13 +332,15 @@
             "type": "Literal",
             "start": 704,
             "end": 707,
-            "value": "c"
+            "value": "c",
+            "raw": "\"c\""
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 760,
-            "value": "The value of obj[\"shifted\"] is expected to be \"c\""
+            "value": "The value of obj[\"shifted\"] is expected to be \"c\"",
+            "raw": "'The value of obj[\"shifted\"] is expected to be \"c\"'"
           }
         ],
         "optional": false
@@ -384,7 +393,8 @@
                 "type": "Literal",
                 "start": 796,
                 "end": 805,
-                "value": "shifted"
+                "value": "shifted",
+                "raw": "\"shifted\""
               },
               "computed": true,
               "optional": false
@@ -394,13 +404,15 @@
             "type": "Literal",
             "start": 810,
             "end": 821,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 894,
-            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\""
+            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
           }
         ],
         "optional": false

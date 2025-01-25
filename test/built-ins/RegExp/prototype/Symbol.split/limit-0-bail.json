@@ -203,7 +203,8 @@
                                     "type": "Literal",
                                     "start": 494,
                                     "end": 545,
-                                    "value": "No match should be attempted when `limit` is `0`."
+                                    "value": "No match should be attempted when `limit` is `0`.",
+                                    "raw": "'No match should be attempted when `limit` is `0`.'"
                                   }
                                 ]
                               }
@@ -309,13 +310,15 @@
               "type": "Literal",
               "start": 613,
               "end": 615,
-              "value": ""
+              "value": "",
+              "raw": "''"
             },
             {
               "type": "Literal",
               "start": 617,
               "end": 618,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ],
           "optional": false
@@ -425,7 +428,8 @@
             "type": "Literal",
             "start": 685,
             "end": 686,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

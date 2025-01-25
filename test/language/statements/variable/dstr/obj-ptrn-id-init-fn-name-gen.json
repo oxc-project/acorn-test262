@@ -169,7 +169,8 @@
             "type": "Literal",
             "start": 1282,
             "end": 1287,
-            "value": "gen"
+            "value": "gen",
+            "raw": "'gen'"
           }
         ],
         "optional": false
@@ -226,7 +227,8 @@
             "type": "Literal",
             "start": 1321,
             "end": 1327,
-            "value": "xGen"
+            "value": "xGen",
+            "raw": "'xGen'"
           }
         ],
         "optional": false

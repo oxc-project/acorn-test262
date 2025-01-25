@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 626,
-                "value": "detached"
+                "value": "detached",
+                "raw": "\"detached\""
               }
             ],
             "optional": false
@@ -142,7 +143,8 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 691,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
           }
@@ -195,7 +197,8 @@
             "type": "Literal",
             "start": 727,
             "end": 737,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -294,7 +297,8 @@
             "type": "Literal",
             "start": 802,
             "end": 840,
-            "value": "`this` cannot be a SharedArrayBuffer"
+            "value": "`this` cannot be a SharedArrayBuffer",
+            "raw": "\"`this` cannot be a SharedArrayBuffer\""
           }
         ],
         "optional": false

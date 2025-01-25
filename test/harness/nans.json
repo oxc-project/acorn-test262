@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 430,
               "end": 431,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -159,7 +160,8 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 503,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 {
                   "type": "BinaryExpression",
@@ -169,7 +171,8 @@
                     "type": "Literal",
                     "start": 505,
                     "end": 514,
-                    "value": "index: "
+                    "value": "index: ",
+                    "raw": "\"index: \""
                   },
                   "operator": "+",
                   "right": {

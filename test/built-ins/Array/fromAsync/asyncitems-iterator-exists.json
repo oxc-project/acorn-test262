@@ -74,7 +74,8 @@
                                 "type": "Literal",
                                 "start": 429,
                                 "end": 430,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               }
                             }
                           ],
@@ -95,7 +96,8 @@
                             "type": "Literal",
                             "start": 436,
                             "end": 437,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           }
                         },
                         "update": {
@@ -140,7 +142,8 @@
                                     "type": "Literal",
                                     "start": 462,
                                     "end": 463,
-                                    "value": 2
+                                    "value": 2,
+                                    "raw": "2"
                                   }
                                 }
                               }
@@ -270,7 +273,8 @@
                         "type": "Literal",
                         "start": 599,
                         "end": 606,
-                        "value": "items"
+                        "value": "items",
+                        "raw": "\"items\""
                       }
                     ],
                     "optional": false
@@ -345,7 +349,8 @@
                         "type": "Literal",
                         "start": 684,
                         "end": 691,
-                        "value": "items"
+                        "value": "items",
+                        "raw": "\"items\""
                       }
                     ],
                     "optional": false
@@ -395,19 +400,22 @@
                         "type": "Literal",
                         "start": 743,
                         "end": 751,
-                        "value": "length"
+                        "value": "length",
+                        "raw": "\"length\""
                       },
                       {
                         "type": "Literal",
                         "start": 753,
                         "end": 754,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 756,
                         "end": 763,
-                        "value": "items"
+                        "value": "items",
+                        "raw": "\"items\""
                       }
                     ],
                     "optional": false
@@ -457,19 +465,22 @@
                         "type": "Literal",
                         "start": 815,
                         "end": 816,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "Literal",
                         "start": 818,
                         "end": 819,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
                         "start": 821,
                         "end": 828,
-                        "value": "items"
+                        "value": "items",
+                        "raw": "\"items\""
                       }
                     ],
                     "optional": false
@@ -519,19 +530,22 @@
                         "type": "Literal",
                         "start": 880,
                         "end": 881,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 883,
                         "end": 884,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 886,
                         "end": 893,
-                        "value": "items"
+                        "value": "items",
+                        "raw": "\"items\""
                       }
                     ],
                     "optional": false
@@ -637,25 +651,29 @@
                             "type": "Literal",
                             "start": 974,
                             "end": 975,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 977,
                             "end": 978,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 980,
                             "end": 981,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           },
                           {
                             "type": "Literal",
                             "start": 983,
                             "end": 984,
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         ]
                       }
@@ -706,13 +724,15 @@
                             "type": "Literal",
                             "start": 1024,
                             "end": 1057,
-                            "value": "get items[Symbol.asyncIterator]"
+                            "value": "get items[Symbol.asyncIterator]",
+                            "raw": "\"get items[Symbol.asyncIterator]\""
                           },
                           {
                             "type": "Literal",
                             "start": 1063,
                             "end": 1091,
-                            "value": "get items[Symbol.iterator]"
+                            "value": "get items[Symbol.iterator]",
+                            "raw": "\"get items[Symbol.iterator]\""
                           }
                         ]
                       }

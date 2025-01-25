@@ -128,7 +128,8 @@
             "type": "Literal",
             "start": 324,
             "end": 391,
-            "value": "Function.prototype.call.call({}, {}) throws a TypeError exception"
+            "value": "Function.prototype.call.call({}, {}) throws a TypeError exception",
+            "raw": "'Function.prototype.call.call({}, {}) throws a TypeError exception'"
           }
         ],
         "optional": false

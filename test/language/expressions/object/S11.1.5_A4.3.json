@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 379,
                   "end": 383,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -82,7 +83,8 @@
           "type": "Literal",
           "start": 411,
           "end": 415,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -109,7 +111,8 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 508,
-                  "value": "#1: var object = {undefined : true}; object.undefined === true"
+                  "value": "#1: var object = {undefined : true}; object.undefined === true",
+                  "raw": "'#1: var object = {undefined : true}; object.undefined === true'"
                 }
               ]
             }
@@ -155,7 +158,8 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 554,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -187,7 +191,8 @@
             "type": "Literal",
             "start": 568,
             "end": 579,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           "computed": true,
           "optional": false
@@ -197,7 +202,8 @@
           "type": "Literal",
           "start": 585,
           "end": 589,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -224,7 +230,8 @@
                   "type": "Literal",
                   "start": 618,
                   "end": 685,
-                  "value": "#2: var object = {undefined : true}; object[\"undefined\"] === true"
+                  "value": "#2: var object = {undefined : true}; object[\"undefined\"] === true",
+                  "raw": "'#2: var object = {undefined : true}; object[\"undefined\"] === true'"
                 }
               ]
             }
@@ -264,13 +271,15 @@
                   "type": "Literal",
                   "start": 715,
                   "end": 721,
-                  "value": "true"
+                  "value": "true",
+                  "raw": "\"true\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 724,
                   "end": 728,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -302,7 +311,8 @@
             "type": "Literal",
             "start": 742,
             "end": 748,
-            "value": "true"
+            "value": "true",
+            "raw": "\"true\""
           },
           "computed": true,
           "optional": false
@@ -312,7 +322,8 @@
           "type": "Literal",
           "start": 754,
           "end": 758,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -339,7 +350,8 @@
                   "type": "Literal",
                   "start": 787,
                   "end": 846,
-                  "value": "#3: var object = {\"true\" : true}; object[\"true\"] === true"
+                  "value": "#3: var object = {\"true\" : true}; object[\"true\"] === true",
+                  "raw": "'#3: var object = {\"true\" : true}; object[\"true\"] === true'"
                 }
               ]
             }
@@ -379,13 +391,15 @@
                   "type": "Literal",
                   "start": 876,
                   "end": 882,
-                  "value": "null"
+                  "value": "null",
+                  "raw": "\"null\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 885,
                   "end": 889,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -417,7 +431,8 @@
             "type": "Literal",
             "start": 903,
             "end": 909,
-            "value": "null"
+            "value": "null",
+            "raw": "\"null\""
           },
           "computed": true,
           "optional": false
@@ -427,7 +442,8 @@
           "type": "Literal",
           "start": 915,
           "end": 919,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -454,7 +470,8 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 1007,
-                  "value": "#4: var object = {\"null\" : true}; object[\"null\"] === true"
+                  "value": "#4: var object = {\"null\" : true}; object[\"null\"] === true",
+                  "raw": "'#4: var object = {\"null\" : true}; object[\"null\"] === true'"
                 }
               ]
             }

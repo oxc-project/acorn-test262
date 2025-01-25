@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 652,
             "end": 653,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -101,7 +102,8 @@
                           "type": "Literal",
                           "start": 724,
                           "end": 726,
-                          "value": "2n"
+                          "value": "2n",
+                          "raw": "2n"
                         }
                       }
                     ]
@@ -234,7 +236,8 @@
                         "type": "Literal",
                         "start": 852,
                         "end": 853,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -287,7 +290,8 @@
                                           "type": "Literal",
                                           "start": 902,
                                           "end": 935,
-                                          "value": "0 getter should be unreachable!"
+                                          "value": "0 getter should be unreachable!",
+                                          "raw": "\"0 getter should be unreachable!\""
                                         }
                                       ]
                                     }
@@ -350,7 +354,8 @@
                                           "type": "Literal",
                                           "start": 988,
                                           "end": 1021,
-                                          "value": "0 setter should be unreachable!"
+                                          "value": "0 setter should be unreachable!",
+                                          "raw": "\"0 setter should be unreachable!\""
                                         }
                                       ]
                                     }
@@ -377,7 +382,8 @@
                               "type": "Literal",
                               "start": 1045,
                               "end": 1049,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -422,7 +428,8 @@
                               "type": "Literal",
                               "start": 1078,
                               "end": 1080,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           ]
                         }
@@ -503,7 +510,8 @@
                         "type": "Literal",
                         "start": 1131,
                         "end": 1132,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -558,7 +566,8 @@
                           "type": "Literal",
                           "start": 1169,
                           "end": 1170,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -567,13 +576,15 @@
                         "type": "Literal",
                         "start": 1173,
                         "end": 1175,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1177,
                         "end": 1237,
-                        "value": "target[0] should remain unchanged (receiver: empty object)"
+                        "value": "target[0] should remain unchanged (receiver: empty object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: empty object)\""
                       }
                     ],
                     "optional": false
@@ -621,7 +632,8 @@
                           "type": "Literal",
                           "start": 1268,
                           "end": 1269,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -636,7 +648,8 @@
                         "type": "Literal",
                         "start": 1279,
                         "end": 1335,
-                        "value": "receiver[0] should be updated (receiver: empty object)"
+                        "value": "receiver[0] should be updated (receiver: empty object)",
+                        "raw": "\"receiver[0] should be updated (receiver: empty object)\""
                       }
                     ],
                     "optional": false
@@ -661,7 +674,8 @@
                         "type": "Literal",
                         "start": 1363,
                         "end": 1364,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ],
@@ -702,7 +716,8 @@
                               "type": "Literal",
                               "start": 1385,
                               "end": 1387,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           ]
                         }
@@ -897,7 +912,8 @@
                                         "type": "Literal",
                                         "start": 1566,
                                         "end": 1570,
-                                        "value": true
+                                        "value": true,
+                                        "raw": "true"
                                       }
                                     }
                                   ]
@@ -933,7 +949,8 @@
                         "type": "Literal",
                         "start": 1596,
                         "end": 1597,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -988,7 +1005,8 @@
                           "type": "Literal",
                           "start": 1634,
                           "end": 1635,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -997,13 +1015,15 @@
                         "type": "Literal",
                         "start": 1638,
                         "end": 1640,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 1642,
                         "end": 1714,
-                        "value": "target[0] should remain unchanged (receiver: proxy of an empty object)"
+                        "value": "target[0] should remain unchanged (receiver: proxy of an empty object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: proxy of an empty object)\""
                       }
                     ],
                     "optional": false
@@ -1051,7 +1071,8 @@
                           "type": "Literal",
                           "start": 1745,
                           "end": 1746,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1066,7 +1087,8 @@
                         "type": "Literal",
                         "start": 1756,
                         "end": 1824,
-                        "value": "receiver[0] should be created (receiver: proxy of an empty object)"
+                        "value": "receiver[0] should be created (receiver: proxy of an empty object)",
+                        "raw": "\"receiver[0] should be created (receiver: proxy of an empty object)\""
                       }
                     ],
                     "optional": false
@@ -1110,13 +1132,15 @@
                         "type": "Literal",
                         "start": 1862,
                         "end": 1863,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 1865,
                         "end": 1927,
-                        "value": "Proxy's [[DefineOwnProperty]] exotic method should be called"
+                        "value": "Proxy's [[DefineOwnProperty]] exotic method should be called",
+                        "raw": "\"Proxy's [[DefineOwnProperty]] exotic method should be called\""
                       }
                     ],
                     "optional": false
@@ -1157,7 +1181,8 @@
                               "type": "Literal",
                               "start": 1951,
                               "end": 1953,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           ]
                         }
@@ -1298,7 +1323,8 @@
                                 "type": "Literal",
                                 "start": 2059,
                                 "end": 2071,
-                                "value": "use strict"
+                                "value": "use strict",
+                                "raw": "\"use strict\""
                               },
                               "directive": "use strict"
                             },
@@ -1325,7 +1351,8 @@
                                     "type": "Literal",
                                     "start": 2082,
                                     "end": 2083,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   "computed": true,
                                   "optional": false
@@ -1345,7 +1372,8 @@
                         "type": "Literal",
                         "start": 2101,
                         "end": 2190,
-                        "value": "setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)"
+                        "value": "setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)",
+                        "raw": "\"setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1393,7 +1421,8 @@
                           "type": "Literal",
                           "start": 2219,
                           "end": 2220,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1402,13 +1431,15 @@
                         "type": "Literal",
                         "start": 2223,
                         "end": 2225,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 2227,
                         "end": 2302,
-                        "value": "target[0] should remain unchanged (receiver: non-extensible empty object)"
+                        "value": "target[0] should remain unchanged (receiver: non-extensible empty object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1463,7 +1494,8 @@
                               "type": "Literal",
                               "start": 2339,
                               "end": 2340,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           ],
                           "optional": false
@@ -1473,7 +1505,8 @@
                         "type": "Literal",
                         "start": 2343,
                         "end": 2418,
-                        "value": "receiver[0] should not be created (receiver: non-extensible empty object)"
+                        "value": "receiver[0] should not be created (receiver: non-extensible empty object)",
+                        "raw": "\"receiver[0] should not be created (receiver: non-extensible empty object)\""
                       }
                     ],
                     "optional": false
@@ -1514,7 +1547,8 @@
                               "type": "Literal",
                               "start": 2442,
                               "end": 2444,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           ]
                         }
@@ -1601,7 +1635,8 @@
                         "type": "Literal",
                         "start": 2507,
                         "end": 2508,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -1656,7 +1691,8 @@
                           "type": "Literal",
                           "start": 2545,
                           "end": 2546,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1665,13 +1701,15 @@
                         "type": "Literal",
                         "start": 2549,
                         "end": 2551,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 2553,
                         "end": 2614,
-                        "value": "target[0] should remain unchanged (receiver: regular array)"
+                        "value": "target[0] should remain unchanged (receiver: regular array)",
+                        "raw": "\"target[0] should remain unchanged (receiver: regular array)\""
                       }
                     ],
                     "optional": false
@@ -1719,7 +1757,8 @@
                           "type": "Literal",
                           "start": 2645,
                           "end": 2646,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -1734,7 +1773,8 @@
                         "type": "Literal",
                         "start": 2656,
                         "end": 2713,
-                        "value": "receiver[0] should be created (receiver: regular array)"
+                        "value": "receiver[0] should be created (receiver: regular array)",
+                        "raw": "\"receiver[0] should be created (receiver: regular array)\""
                       }
                     ],
                     "optional": false
@@ -1791,13 +1831,15 @@
                         "type": "Literal",
                         "start": 2752,
                         "end": 2753,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 2755,
                         "end": 2817,
-                        "value": "Array's [[DefineOwnProperty]] exotic method should be called"
+                        "value": "Array's [[DefineOwnProperty]] exotic method should be called",
+                        "raw": "\"Array's [[DefineOwnProperty]] exotic method should be called\""
                       }
                     ],
                     "optional": false
@@ -1838,7 +1880,8 @@
                               "type": "Literal",
                               "start": 2841,
                               "end": 2843,
-                              "value": "0n"
+                              "value": "0n",
+                              "raw": "0n"
                             }
                           ]
                         }
@@ -1900,7 +1943,8 @@
                               "type": "Literal",
                               "start": 2893,
                               "end": 2895,
-                              "value": ""
+                              "value": "",
+                              "raw": "\"\""
                             }
                           ]
                         },
@@ -1938,7 +1982,8 @@
                         "type": "Literal",
                         "start": 2918,
                         "end": 2919,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       "computed": true,
                       "optional": false
@@ -1993,7 +2038,8 @@
                           "type": "Literal",
                           "start": 2956,
                           "end": 2957,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -2002,13 +2048,15 @@
                         "type": "Literal",
                         "start": 2960,
                         "end": 2962,
-                        "value": "0n"
+                        "value": "0n",
+                        "raw": "0n"
                       },
                       {
                         "type": "Literal",
                         "start": 2964,
                         "end": 3031,
-                        "value": "target[0] should remain unchanged (receiver: empty String object)"
+                        "value": "target[0] should remain unchanged (receiver: empty String object)",
+                        "raw": "\"target[0] should remain unchanged (receiver: empty String object)\""
                       }
                     ],
                     "optional": false
@@ -2056,7 +2104,8 @@
                           "type": "Literal",
                           "start": 3062,
                           "end": 3063,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -2071,7 +2120,8 @@
                         "type": "Literal",
                         "start": 3073,
                         "end": 3136,
-                        "value": "receiver[0] should be created (receiver: empty String object)"
+                        "value": "receiver[0] should be created (receiver: empty String object)",
+                        "raw": "\"receiver[0] should be created (receiver: empty String object)\""
                       }
                     ],
                     "optional": false
@@ -2125,7 +2175,8 @@
                             "type": "Literal",
                             "start": 3170,
                             "end": 3171,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           "computed": true,
                           "optional": false
@@ -2180,13 +2231,15 @@
             "type": "Literal",
             "start": 3211,
             "end": 3212,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 3214,
             "end": 3243,
-            "value": "value should not be coerced"
+            "value": "value should not be coerced",
+            "raw": "\"value should not be coerced\""
           }
         ],
         "optional": false

@@ -93,7 +93,8 @@
             "type": "Literal",
             "start": 405,
             "end": 430,
-            "value": "[object Array Iterator]"
+            "value": "[object Array Iterator]",
+            "raw": "\"[object Array Iterator]\""
           },
           {
             "type": "CallExpression",

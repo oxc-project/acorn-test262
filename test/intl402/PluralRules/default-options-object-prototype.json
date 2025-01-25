@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 484,
           "end": 493,
-          "value": "ordinal"
+          "value": "ordinal",
+          "raw": "\"ordinal\""
         }
       }
     },
@@ -95,7 +96,8 @@
                 "type": "Literal",
                 "start": 534,
                 "end": 538,
-                "value": "en"
+                "value": "en",
+                "raw": "\"en\""
               }
             ]
           }
@@ -174,7 +176,8 @@
             "type": "Literal",
             "start": 594,
             "end": 604,
-            "value": "cardinal"
+            "value": "cardinal",
+            "raw": "\"cardinal\""
           }
         ],
         "optional": false

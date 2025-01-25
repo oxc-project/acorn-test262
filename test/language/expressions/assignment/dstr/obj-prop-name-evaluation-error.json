@@ -96,7 +96,8 @@
                         "type": "Literal",
                         "start": 796,
                         "end": 797,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "AssignmentExpression",

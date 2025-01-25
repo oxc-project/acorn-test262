@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 372,
+  "end": 371,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 269,
-      "end": 308,
+      "start": 268,
+      "end": 307,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 273,
-          "end": 307,
+          "start": 272,
+          "end": 306,
           "id": {
             "type": "Identifier",
-            "start": 273,
-            "end": 281,
+            "start": 272,
+            "end": 280,
             "name": "duration"
           },
           "init": {
             "type": "NewExpression",
-            "start": 284,
-            "end": 307,
+            "start": 283,
+            "end": 306,
             "callee": {
               "type": "MemberExpression",
-              "start": 288,
-              "end": 305,
+              "start": 287,
+              "end": 304,
               "object": {
                 "type": "Identifier",
-                "start": 288,
-                "end": 296,
+                "start": 287,
+                "end": 295,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 297,
-                "end": 305,
+                "start": 296,
+                "end": 304,
                 "name": "Duration"
               },
               "computed": false,
@@ -49,26 +49,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 310,
-      "end": 371,
+      "start": 309,
+      "end": 370,
       "expression": {
         "type": "CallExpression",
-        "start": 310,
-        "end": 370,
+        "start": 309,
+        "end": 369,
         "callee": {
           "type": "MemberExpression",
-          "start": 310,
-          "end": 326,
+          "start": 309,
+          "end": 325,
           "object": {
             "type": "Identifier",
-            "start": 310,
-            "end": 316,
+            "start": 309,
+            "end": 315,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 317,
-            "end": 326,
+            "start": 316,
+            "end": 325,
             "name": "sameValue"
           },
           "computed": false,
@@ -77,28 +77,28 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 327,
-            "end": 359,
+            "start": 326,
+            "end": 358,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "CallExpression",
-              "start": 334,
-              "end": 359,
+              "start": 333,
+              "end": 358,
               "callee": {
                 "type": "MemberExpression",
-                "start": 334,
-                "end": 357,
+                "start": 333,
+                "end": 356,
                 "object": {
                   "type": "Identifier",
-                  "start": 334,
-                  "end": 342,
+                  "start": 333,
+                  "end": 341,
                   "name": "duration"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 343,
-                  "end": 357,
+                  "start": 342,
+                  "end": 356,
                   "name": "toLocaleString"
                 },
                 "computed": false,
@@ -110,9 +110,10 @@
           },
           {
             "type": "Literal",
-            "start": 361,
-            "end": 369,
-            "value": "string"
+            "start": 360,
+            "end": 368,
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
         "optional": false

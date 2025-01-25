@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 755,
             "end": 760,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 764,
             "end": 821,
-            "value": "isConstructor(Array.prototype.concat) must return false"
+            "value": "isConstructor(Array.prototype.concat) must return false",
+            "raw": "'isConstructor(Array.prototype.concat) must return false'"
           }
         ],
         "optional": false
@@ -198,7 +200,8 @@
             "type": "Literal",
             "start": 896,
             "end": 957,
-            "value": "new Array.prototype.concat([]) throws a TypeError exception"
+            "value": "new Array.prototype.concat([]) throws a TypeError exception",
+            "raw": "'new Array.prototype.concat([]) throws a TypeError exception'"
           }
         ],
         "optional": false

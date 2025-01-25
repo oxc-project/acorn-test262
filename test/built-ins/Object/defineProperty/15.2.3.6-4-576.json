@@ -65,7 +65,8 @@
                     "type": "Literal",
                     "start": 326,
                     "end": 330,
-                    "value": 2010
+                    "value": 2010,
+                    "raw": "2010"
                   }
                 }
               ]
@@ -113,7 +114,8 @@
             "type": "Literal",
             "start": 363,
             "end": 369,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -196,7 +198,8 @@
                 "type": "Literal",
                 "start": 441,
                 "end": 447,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -248,7 +251,8 @@
                 "type": "Literal",
                 "start": 477,
                 "end": 483,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -257,7 +261,8 @@
             "type": "Literal",
             "start": 486,
             "end": 523,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -320,7 +325,8 @@
             "type": "Literal",
             "start": 562,
             "end": 572,
-            "value": "desc.set"
+            "value": "desc.set",
+            "raw": "'desc.set'"
           }
         ],
         "optional": false

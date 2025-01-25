@@ -118,13 +118,15 @@
             "type": "Literal",
             "start": 421,
             "end": 430,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 464,
-            "value": "no locale has the ISO calendar"
+            "value": "no locale has the ISO calendar",
+            "raw": "\"no locale has the ISO calendar\""
           }
         ],
         "optional": false
@@ -173,13 +175,15 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 526,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 528,
                 "end": 533,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",
@@ -283,13 +287,15 @@
             "type": "Literal",
             "start": 638,
             "end": 646,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 721,
-            "value": "toLocaleString() succeeds when instance has the same calendar as locale"
+            "value": "toLocaleString() succeeds when instance has the same calendar as locale",
+            "raw": "\"toLocaleString() succeeds when instance has the same calendar as locale\""
           }
         ],
         "optional": false
@@ -338,19 +344,22 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 774,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 776,
                 "end": 781,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 783,
                 "end": 792,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -422,7 +431,8 @@
             "type": "Literal",
             "start": 850,
             "end": 912,
-            "value": "toLocaleString() succeeds when instance has the ISO calendar"
+            "value": "toLocaleString() succeeds when instance has the ISO calendar",
+            "raw": "\"toLocaleString() succeeds when instance has the ISO calendar\""
           }
         ],
         "optional": false
@@ -482,7 +492,8 @@
                     "type": "Literal",
                     "start": 1039,
                     "end": 1049,
-                    "value": "calendar"
+                    "value": "calendar",
+                    "raw": "\"calendar\""
                   }
                 ],
                 "optional": false
@@ -525,7 +536,8 @@
             "type": "Literal",
             "start": 1070,
             "end": 1079,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           }
         ],
         "optional": false
@@ -690,13 +702,15 @@
                 "type": "Literal",
                 "start": 1237,
                 "end": 1239,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 1241,
                 "end": 1246,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Identifier",
@@ -784,7 +798,8 @@
             "type": "Literal",
             "start": 1344,
             "end": 1363,
-            "value": "calendar mismatch"
+            "value": "calendar mismatch",
+            "raw": "\"calendar mismatch\""
           }
         ],
         "optional": false

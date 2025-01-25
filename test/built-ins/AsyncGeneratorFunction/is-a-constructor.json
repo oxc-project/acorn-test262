@@ -55,13 +55,15 @@
             "type": "Literal",
             "start": 811,
             "end": 815,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 819,
             "end": 875,
-            "value": "isConstructor(AsyncGeneratorFunction) must return true"
+            "value": "isConstructor(AsyncGeneratorFunction) must return true",
+            "raw": "'isConstructor(AsyncGeneratorFunction) must return true'"
           }
         ],
         "optional": false

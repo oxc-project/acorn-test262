@@ -46,19 +46,22 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 356,
-                "value": "1572342398271986102n"
+                "value": "1572342398271986102n",
+                "raw": "1572342398_271_986_102n"
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 366,
-                "value": "-07:00"
+                "value": "-07:00",
+                "raw": "\"-07:00\""
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 377,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -109,7 +112,8 @@
                 "type": "Literal",
                 "start": 417,
                 "end": 427,
-                "value": "japanese"
+                "value": "japanese",
+                "raw": "\"japanese\""
               }
             ],
             "optional": false
@@ -169,13 +173,15 @@
             "type": "Literal",
             "start": 466,
             "end": 474,
-            "value": "-07:00"
+            "value": "-07:00",
+            "raw": "\"-07:00\""
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 516,
-            "value": "Time zone is preserved in return value"
+            "value": "Time zone is preserved in return value",
+            "raw": "\"Time zone is preserved in return value\""
           }
         ],
         "optional": false

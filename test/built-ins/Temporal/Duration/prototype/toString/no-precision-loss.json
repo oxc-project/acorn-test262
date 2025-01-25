@@ -46,43 +46,50 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "MemberExpression",
@@ -126,7 +133,8 @@
                 "type": "Literal",
                 "start": 458,
                 "end": 459,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -192,7 +200,8 @@
             "type": "Literal",
             "start": 494,
             "end": 519,
-            "value": "PT9016206453995.731991S"
+            "value": "PT9016206453995.731991S",
+            "raw": "\"PT9016206453995.731991S\""
           }
         ],
         "optional": false

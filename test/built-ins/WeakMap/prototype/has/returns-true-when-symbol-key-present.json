@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 539,
                 "end": 554,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -72,7 +73,8 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 589,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -194,7 +197,8 @@
             "type": "Literal",
             "start": 648,
             "end": 649,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -265,13 +269,15 @@
             "type": "Literal",
             "start": 683,
             "end": 687,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 712,
-            "value": "Regular symbol as key"
+            "value": "Regular symbol as key",
+            "raw": "\"Regular symbol as key\""
           }
         ],
         "optional": false
@@ -380,13 +386,15 @@
             "type": "Literal",
             "start": 764,
             "end": 768,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 828,
-            "value": "Symbols with the same description don't alias each other"
+            "value": "Symbols with the same description don't alias each other",
+            "raw": "\"Symbols with the same description don't alias each other\""
           }
         ],
         "optional": false
@@ -443,7 +451,8 @@
             "type": "Literal",
             "start": 860,
             "end": 861,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -527,13 +536,15 @@
             "type": "Literal",
             "start": 910,
             "end": 914,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 942,
-            "value": "Well-known symbol as key"
+            "value": "Well-known symbol as key",
+            "raw": "\"Well-known symbol as key\""
           }
         ],
         "optional": false

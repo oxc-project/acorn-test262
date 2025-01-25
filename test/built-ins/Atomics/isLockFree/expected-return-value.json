@@ -111,7 +111,8 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 694,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ],
               "optional": false
@@ -163,13 +164,15 @@
                 "type": "Literal",
                 "start": 793,
                 "end": 802,
-                "value": "boolean"
+                "value": "boolean",
+                "raw": "'boolean'"
               },
               {
                 "type": "Literal",
                 "start": 804,
                 "end": 852,
-                "value": "The value of `typeof isLockFree1` is \"boolean\""
+                "value": "The value of `typeof isLockFree1` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree1` is \"boolean\"'"
               }
             ],
             "optional": false
@@ -231,7 +234,8 @@
                     "type": "Literal",
                     "start": 1074,
                     "end": 1075,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "optional": false
@@ -246,7 +250,8 @@
                 "type": "Literal",
                 "start": 1099,
                 "end": 1181,
-                "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))"
+                "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))",
+                "raw": "'Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))'"
               }
             ],
             "optional": false
@@ -307,7 +312,8 @@
                   "type": "Literal",
                   "start": 1227,
                   "end": 1228,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               ],
               "optional": false
@@ -359,13 +365,15 @@
                 "type": "Literal",
                 "start": 1327,
                 "end": 1336,
-                "value": "boolean"
+                "value": "boolean",
+                "raw": "'boolean'"
               },
               {
                 "type": "Literal",
                 "start": 1338,
                 "end": 1386,
-                "value": "The value of `typeof isLockFree2` is \"boolean\""
+                "value": "The value of `typeof isLockFree2` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree2` is \"boolean\"'"
               }
             ],
             "optional": false
@@ -427,7 +435,8 @@
                     "type": "Literal",
                     "start": 1608,
                     "end": 1609,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ],
                 "optional": false
@@ -442,7 +451,8 @@
                 "type": "Literal",
                 "start": 1633,
                 "end": 1715,
-                "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))"
+                "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))",
+                "raw": "'Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))'"
               }
             ],
             "optional": false
@@ -503,7 +513,8 @@
                     "type": "Literal",
                     "start": 1765,
                     "end": 1766,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   }
                 ],
                 "optional": false
@@ -557,13 +568,15 @@
                 "type": "Literal",
                 "start": 1851,
                 "end": 1860,
-                "value": "boolean"
+                "value": "boolean",
+                "raw": "'boolean'"
               },
               {
                 "type": "Literal",
                 "start": 1862,
                 "end": 1910,
-                "value": "The value of `typeof isLockFree4` is \"boolean\""
+                "value": "The value of `typeof isLockFree4` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree4` is \"boolean\"'"
               }
             ],
             "optional": false
@@ -607,13 +620,15 @@
                 "type": "Literal",
                 "start": 1945,
                 "end": 1949,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 1951,
                 "end": 1987,
-                "value": "The value of `isLockFree4` is true"
+                "value": "The value of `isLockFree4` is true",
+                "raw": "'The value of `isLockFree4` is true'"
               }
             ],
             "optional": false
@@ -674,7 +689,8 @@
                   "type": "Literal",
                   "start": 2031,
                   "end": 2032,
-                  "value": 8
+                  "value": 8,
+                  "raw": "8"
                 }
               ],
               "optional": false
@@ -726,13 +742,15 @@
                 "type": "Literal",
                 "start": 2131,
                 "end": 2140,
-                "value": "boolean"
+                "value": "boolean",
+                "raw": "'boolean'"
               },
               {
                 "type": "Literal",
                 "start": 2142,
                 "end": 2190,
-                "value": "The value of `typeof isLockFree8` is \"boolean\""
+                "value": "The value of `typeof isLockFree8` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree8` is \"boolean\"'"
               }
             ],
             "optional": false
@@ -794,7 +812,8 @@
                     "type": "Literal",
                     "start": 2412,
                     "end": 2413,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ],
                 "optional": false
@@ -809,7 +828,8 @@
                 "type": "Literal",
                 "start": 2437,
                 "end": 2519,
-                "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))"
+                "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))",
+                "raw": "'Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))'"
               }
             ],
             "optional": false
@@ -850,7 +870,8 @@
                   "type": "Literal",
                   "start": 2546,
                   "end": 2547,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -871,7 +892,8 @@
               "type": "Literal",
               "start": 2553,
               "end": 2555,
-              "value": 12
+              "value": 12,
+              "raw": "12"
             }
           },
           "update": {
@@ -919,25 +941,29 @@
                             "type": "Literal",
                             "start": 2574,
                             "end": 2575,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 2577,
                             "end": 2578,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           },
                           {
                             "type": "Literal",
                             "start": 2580,
                             "end": 2581,
-                            "value": 4
+                            "value": 4,
+                            "raw": "4"
                           },
                           {
                             "type": "Literal",
                             "start": 2583,
                             "end": 2584,
-                            "value": 8
+                            "value": 8,
+                            "raw": "8"
                           }
                         ]
                       },
@@ -1031,13 +1057,15 @@
                             "type": "Literal",
                             "start": 2647,
                             "end": 2652,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           },
                           {
                             "type": "Literal",
                             "start": 2654,
                             "end": 2691,
-                            "value": "Atomics.isLockFree(i) returns false"
+                            "value": "Atomics.isLockFree(i) returns false",
+                            "raw": "'Atomics.isLockFree(i) returns false'"
                           }
                         ],
                         "optional": false
@@ -1113,7 +1141,8 @@
                 "type": "Literal",
                 "start": 2747,
                 "end": 2748,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -1128,7 +1157,8 @@
             "type": "Literal",
             "start": 2768,
             "end": 2850,
-            "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))"
+            "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))",
+            "raw": "'Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))'"
           }
         ],
         "optional": false
@@ -1190,7 +1220,8 @@
                 "type": "Literal",
                 "start": 2893,
                 "end": 2894,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ],
             "optional": false
@@ -1205,7 +1236,8 @@
             "type": "Literal",
             "start": 2914,
             "end": 2996,
-            "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))"
+            "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))",
+            "raw": "'Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))'"
           }
         ],
         "optional": false
@@ -1267,7 +1299,8 @@
                 "type": "Literal",
                 "start": 3039,
                 "end": 3040,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ],
             "optional": false
@@ -1282,7 +1315,8 @@
             "type": "Literal",
             "start": 3060,
             "end": 3142,
-            "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))"
+            "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))",
+            "raw": "'Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))'"
           }
         ],
         "optional": false
@@ -1344,7 +1378,8 @@
                 "type": "Literal",
                 "start": 3233,
                 "end": 3234,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ],
             "optional": false
@@ -1353,13 +1388,15 @@
             "type": "Literal",
             "start": 3237,
             "end": 3242,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3244,
             "end": 3281,
-            "value": "Atomics.isLockFree(3) returns false"
+            "value": "Atomics.isLockFree(3) returns false",
+            "raw": "'Atomics.isLockFree(3) returns false'"
           }
         ],
         "optional": false
@@ -1421,7 +1458,8 @@
                 "type": "Literal",
                 "start": 3320,
                 "end": 3321,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ],
             "optional": false
@@ -1430,13 +1468,15 @@
             "type": "Literal",
             "start": 3324,
             "end": 3328,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 3330,
             "end": 3366,
-            "value": "Atomics.isLockFree(4) returns true"
+            "value": "Atomics.isLockFree(4) returns true",
+            "raw": "'Atomics.isLockFree(4) returns true'"
           }
         ],
         "optional": false
@@ -1498,7 +1538,8 @@
                 "type": "Literal",
                 "start": 3405,
                 "end": 3406,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ],
             "optional": false
@@ -1507,13 +1548,15 @@
             "type": "Literal",
             "start": 3409,
             "end": 3414,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3416,
             "end": 3453,
-            "value": "Atomics.isLockFree(5) returns false"
+            "value": "Atomics.isLockFree(5) returns false",
+            "raw": "'Atomics.isLockFree(5) returns false'"
           }
         ],
         "optional": false
@@ -1575,7 +1618,8 @@
                 "type": "Literal",
                 "start": 3492,
                 "end": 3493,
-                "value": 6
+                "value": 6,
+                "raw": "6"
               }
             ],
             "optional": false
@@ -1584,13 +1628,15 @@
             "type": "Literal",
             "start": 3496,
             "end": 3501,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3503,
             "end": 3540,
-            "value": "Atomics.isLockFree(6) returns false"
+            "value": "Atomics.isLockFree(6) returns false",
+            "raw": "'Atomics.isLockFree(6) returns false'"
           }
         ],
         "optional": false
@@ -1652,7 +1698,8 @@
                 "type": "Literal",
                 "start": 3579,
                 "end": 3580,
-                "value": 7
+                "value": 7,
+                "raw": "7"
               }
             ],
             "optional": false
@@ -1661,13 +1708,15 @@
             "type": "Literal",
             "start": 3583,
             "end": 3588,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3590,
             "end": 3627,
-            "value": "Atomics.isLockFree(7) returns false"
+            "value": "Atomics.isLockFree(7) returns false",
+            "raw": "'Atomics.isLockFree(7) returns false'"
           }
         ],
         "optional": false
@@ -1729,7 +1778,8 @@
                 "type": "Literal",
                 "start": 3666,
                 "end": 3667,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               }
             ],
             "optional": false
@@ -1738,13 +1788,15 @@
             "type": "Literal",
             "start": 3670,
             "end": 3675,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3677,
             "end": 3714,
-            "value": "Atomics.isLockFree(9) returns false"
+            "value": "Atomics.isLockFree(9) returns false",
+            "raw": "'Atomics.isLockFree(9) returns false'"
           }
         ],
         "optional": false
@@ -1806,7 +1858,8 @@
                 "type": "Literal",
                 "start": 3753,
                 "end": 3755,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ],
             "optional": false
@@ -1815,13 +1868,15 @@
             "type": "Literal",
             "start": 3758,
             "end": 3763,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3765,
             "end": 3803,
-            "value": "Atomics.isLockFree(10) returns false"
+            "value": "Atomics.isLockFree(10) returns false",
+            "raw": "'Atomics.isLockFree(10) returns false'"
           }
         ],
         "optional": false
@@ -1883,7 +1938,8 @@
                 "type": "Literal",
                 "start": 3842,
                 "end": 3844,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ],
             "optional": false
@@ -1892,13 +1948,15 @@
             "type": "Literal",
             "start": 3847,
             "end": 3852,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3854,
             "end": 3892,
-            "value": "Atomics.isLockFree(11) returns false"
+            "value": "Atomics.isLockFree(11) returns false",
+            "raw": "'Atomics.isLockFree(11) returns false'"
           }
         ],
         "optional": false
@@ -1960,7 +2018,8 @@
                 "type": "Literal",
                 "start": 3931,
                 "end": 3933,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ],
             "optional": false
@@ -1969,13 +2028,15 @@
             "type": "Literal",
             "start": 3936,
             "end": 3941,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3943,
             "end": 3981,
-            "value": "Atomics.isLockFree(12) returns false"
+            "value": "Atomics.isLockFree(12) returns false",
+            "raw": "'Atomics.isLockFree(12) returns false'"
           }
         ],
         "optional": false

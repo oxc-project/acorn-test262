@@ -1,35 +1,35 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 644,
+  "end": 642,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 497,
-      "end": 576,
+      "start": 495,
+      "end": 574,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 497,
-        "end": 575,
+        "start": 495,
+        "end": 573,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 497,
-          "end": 530,
+          "start": 495,
+          "end": 528,
           "object": {
             "type": "MemberExpression",
-            "start": 497,
-            "end": 513,
+            "start": 495,
+            "end": 511,
             "object": {
               "type": "Identifier",
-              "start": 497,
-              "end": 503,
+              "start": 495,
+              "end": 501,
               "name": "RegExp"
             },
             "property": {
               "type": "Identifier",
-              "start": 504,
-              "end": 513,
+              "start": 502,
+              "end": 511,
               "name": "prototype"
             },
             "computed": false,
@@ -37,18 +37,18 @@
           },
           "property": {
             "type": "MemberExpression",
-            "start": 514,
-            "end": 529,
+            "start": 512,
+            "end": 527,
             "object": {
               "type": "Identifier",
-              "start": 514,
-              "end": 520,
+              "start": 512,
+              "end": 518,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 521,
-              "end": 529,
+              "start": 519,
+              "end": 527,
               "name": "matchAll"
             },
             "computed": false,
@@ -59,8 +59,8 @@
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 533,
-          "end": 575,
+          "start": 531,
+          "end": 573,
           "id": null,
           "expression": false,
           "generator": false,
@@ -68,21 +68,21 @@
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 544,
-            "end": 575,
+            "start": 542,
+            "end": 573,
             "body": [
               {
                 "type": "ThrowStatement",
-                "start": 548,
-                "end": 573,
+                "start": 546,
+                "end": 571,
                 "argument": {
                   "type": "NewExpression",
-                  "start": 554,
-                  "end": 572,
+                  "start": 552,
+                  "end": 570,
                   "callee": {
                     "type": "Identifier",
-                    "start": 558,
-                    "end": 570,
+                    "start": 556,
+                    "end": 568,
                     "name": "Test262Error"
                   },
                   "arguments": []
@@ -95,26 +95,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 578,
-      "end": 643,
+      "start": 576,
+      "end": 641,
       "expression": {
         "type": "CallExpression",
-        "start": 578,
-        "end": 642,
+        "start": 576,
+        "end": 640,
         "callee": {
           "type": "MemberExpression",
-          "start": 578,
-          "end": 591,
+          "start": 576,
+          "end": 589,
           "object": {
             "type": "Identifier",
-            "start": 578,
-            "end": 584,
+            "start": 576,
+            "end": 582,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 585,
-            "end": 591,
+            "start": 583,
+            "end": 589,
             "name": "throws"
           },
           "computed": false,
@@ -123,14 +123,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 592,
-            "end": 604,
+            "start": 590,
+            "end": 602,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 606,
-            "end": 641,
+            "start": 604,
+            "end": 639,
             "id": null,
             "expression": false,
             "generator": false,
@@ -138,31 +138,32 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 617,
-              "end": 641,
+              "start": 615,
+              "end": 639,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 621,
-                  "end": 639,
+                  "start": 619,
+                  "end": 637,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 621,
-                    "end": 638,
+                    "start": 619,
+                    "end": 636,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 621,
-                      "end": 632,
+                      "start": 619,
+                      "end": 630,
                       "object": {
                         "type": "Literal",
-                        "start": 621,
-                        "end": 623,
-                        "value": ""
+                        "start": 619,
+                        "end": 621,
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 624,
-                        "end": 632,
+                        "start": 622,
+                        "end": 630,
                         "name": "matchAll"
                       },
                       "computed": false,
@@ -171,9 +172,10 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 633,
-                        "end": 637,
+                        "start": 631,
+                        "end": 635,
                         "value": {},
+                        "raw": "/./g",
                         "regex": {
                           "pattern": ".",
                           "flags": "g"

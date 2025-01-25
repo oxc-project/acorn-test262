@@ -123,7 +123,8 @@
                   "type": "Literal",
                   "start": 655,
                   "end": 656,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ],
@@ -178,13 +179,15 @@
             "type": "Literal",
             "start": 693,
             "end": 701,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 746,
-            "value": "The value of `typeof __split` is \"object\""
+            "value": "The value of `typeof __split` is \"object\"",
+            "raw": "'The value of `typeof __split` is \"object\"'"
           }
         ],
         "optional": false
@@ -247,7 +250,8 @@
             "type": "Literal",
             "start": 802,
             "end": 876,
-            "value": "The value of __split.constructor is expected to equal the value of Array"
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
           }
         ],
         "optional": false
@@ -304,13 +308,15 @@
             "type": "Literal",
             "start": 914,
             "end": 915,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 917,
             "end": 951,
-            "value": "The value of __split.length is 1"
+            "value": "The value of __split.length is 1",
+            "raw": "'The value of __split.length is 1'"
           }
         ],
         "optional": false
@@ -358,7 +364,8 @@
               "type": "Literal",
               "start": 979,
               "end": 980,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -367,13 +374,15 @@
             "type": "Literal",
             "start": 983,
             "end": 994,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 996,
             "end": 1036,
-            "value": "The value of __split[0] is \"undefined\""
+            "value": "The value of __split[0] is \"undefined\"",
+            "raw": "'The value of __split[0] is \"undefined\"'"
           }
         ],
         "optional": false

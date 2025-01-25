@@ -1,55 +1,58 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 404,
+  "end": 398,
   "body": [
     {
       "type": "IfStatement",
       "start": 267,
-      "end": 403,
+      "end": 397,
       "test": {
         "type": "BinaryExpression",
         "start": 271,
-        "end": 316,
+        "end": 313,
         "left": {
           "type": "Literal",
           "start": 271,
-          "end": 285,
-          "value": " str ing "
+          "end": 282,
+          "value": " str ing ",
+          "raw": "\" str ing \""
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 290,
-          "end": 316,
-          "value": " str ing "
+          "start": 287,
+          "end": 313,
+          "value": " str ing ",
+          "raw": "\"\\u00A0str\\u00A0ing\\u00A0\""
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 318,
-        "end": 403,
+        "start": 315,
+        "end": 397,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 322,
-            "end": 401,
+            "start": 319,
+            "end": 395,
             "argument": {
               "type": "NewExpression",
-              "start": 328,
-              "end": 400,
+              "start": 325,
+              "end": 394,
               "callee": {
                 "type": "Identifier",
-                "start": 332,
-                "end": 344,
+                "start": 329,
+                "end": 341,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 345,
-                  "end": 399,
-                  "value": "#1: \" str ing \" === \"\\u00A0str\\u00A0ing\\u00A0\""
+                  "start": 342,
+                  "end": 393,
+                  "value": "#1: \" str ing \" === \"\\u00A0str\\u00A0ing\\u00A0\"",
+                  "raw": "'#1: \" str ing \" === \"\\\\u00A0str\\\\u00A0ing\\\\u00A0\"'"
                 }
               ]
             }

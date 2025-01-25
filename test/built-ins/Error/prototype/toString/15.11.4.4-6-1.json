@@ -92,13 +92,15 @@
             "type": "Literal",
             "start": 378,
             "end": 385,
-            "value": "Error"
+            "value": "Error",
+            "raw": "\"Error\""
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 406,
-            "value": "errObj.toString()"
+            "value": "errObj.toString()",
+            "raw": "'errObj.toString()'"
           }
         ],
         "optional": false

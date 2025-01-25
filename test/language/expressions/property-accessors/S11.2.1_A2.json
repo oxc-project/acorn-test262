@@ -30,7 +30,8 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "computed": true,
               "optional": false
@@ -59,7 +60,8 @@
                     "type": "Literal",
                     "start": 373,
                     "end": 421,
-                    "value": "#1.1: object[1] throw ReferenceError. Actual: "
+                    "value": "#1.1: object[1] throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: object[1] throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -80,7 +82,8 @@
                         "type": "Literal",
                         "start": 432,
                         "end": 433,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       "computed": true,
                       "optional": false
@@ -143,7 +146,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 498,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -174,7 +178,8 @@
                             "type": "Literal",
                             "start": 529,
                             "end": 577,
-                            "value": "#1.2: object[1] throw ReferenceError. Actual: "
+                            "value": "#1.2: object[1] throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: object[1] throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {
@@ -257,7 +262,8 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 701,
-                    "value": "#2.1: object.prop throw ReferenceError. Actual: "
+                    "value": "#2.1: object.prop throw ReferenceError. Actual: ",
+                    "raw": "'#2.1: object.prop throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -341,7 +347,8 @@
                   "type": "Literal",
                   "start": 775,
                   "end": 779,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -372,7 +379,8 @@
                             "type": "Literal",
                             "start": 810,
                             "end": 860,
-                            "value": "#2.2: object.prop throw ReferenceError. Actual: "
+                            "value": "#2.2: object.prop throw ReferenceError. Actual: ",
+                            "raw": "'#2.2: object.prop throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

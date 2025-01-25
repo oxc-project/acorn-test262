@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 347,
-                "value": "957270896987650000n"
+                "value": "957270896987650000n",
+                "raw": "957270896_987_650_000n"
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 354,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -103,19 +105,22 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 424,
-                "value": "957270896987650000n"
+                "value": "957270896987650000n",
+                "raw": "957270896_987_650_000n"
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 431,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 442,
-                "value": "gregory"
+                "value": "gregory",
+                "raw": "\"gregory\""
               }
             ]
           }
@@ -155,7 +160,8 @@
                     "type": "Literal",
                     "start": 462,
                     "end": 500,
-                    "value": "2000-05-02T12:34:56.98765+00:00[UTC]"
+                    "value": "2000-05-02T12:34:56.98765+00:00[UTC]",
+                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC]\""
                   }
                 ]
               },
@@ -174,7 +180,8 @@
                     "type": "Literal",
                     "start": 517,
                     "end": 569,
-                    "value": "2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]"
+                    "value": "2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]",
+                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]\""
                   }
                 ]
               }
@@ -320,7 +327,8 @@
                         "type": "Literal",
                         "start": 698,
                         "end": 765,
-                        "value": "default show options are auto, precision is auto, and no rounding"
+                        "value": "default show options are auto, precision is auto, and no rounding",
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
                       }
                     ],
                     "optional": false
@@ -422,7 +430,8 @@
                         "type": "Literal",
                         "start": 866,
                         "end": 933,
-                        "value": "default show options are auto, precision is auto, and no rounding"
+                        "value": "default show options are auto, precision is auto, and no rounding",
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
                       }
                     ],
                     "optional": false
@@ -517,7 +526,8 @@
                         "type": "Literal",
                         "start": 1016,
                         "end": 1083,
-                        "value": "default show options are auto, precision is auto, and no rounding"
+                        "value": "default show options are auto, precision is auto, and no rounding",
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
                       }
                     ],
                     "optional": false

@@ -51,37 +51,43 @@
                     "type": "Literal",
                     "start": 471,
                     "end": 472,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 474,
                     "end": 475,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 477,
                     "end": 478,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 480,
                     "end": 482,
-                    "value": 15
+                    "value": 15,
+                    "raw": "15"
                   },
                   {
                     "type": "Literal",
                     "start": 484,
                     "end": 486,
-                    "value": 11
+                    "value": 11,
+                    "raw": "11"
                   },
                   {
                     "type": "Literal",
                     "start": 488,
                     "end": 490,
-                    "value": 30
+                    "value": 30,
+                    "raw": "30"
                   }
                 ]
               }
@@ -132,13 +138,15 @@
                     "type": "Literal",
                     "start": 546,
                     "end": 568,
-                    "value": "950868000000000000n"
+                    "value": "950868000000000000n",
+                    "raw": "950868000_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 597,
                     "end": 616,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -220,7 +228,8 @@
                           "type": "Literal",
                           "start": 701,
                           "end": 709,
-                          "value": "months"
+                          "value": "months",
+                          "raw": "\"months\""
                         },
                         "kind": "init"
                       },
@@ -254,13 +263,15 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 729,
-                "value": 1.5
+                "value": 1.5,
+                "raw": "1.5"
               },
               {
                 "type": "Literal",
                 "start": 735,
                 "end": 787,
-                "value": "1 month 15 days 11:30 should be exactly 1.5 months"
+                "value": "1 month 15 days 11:30 should be exactly 1.5 months",
+                "raw": "\"1 month 15 days 11:30 should be exactly 1.5 months\""
               }
             ],
             "optional": false
@@ -316,37 +327,43 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 934,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 936,
                     "end": 937,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 939,
                     "end": 940,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 942,
                     "end": 944,
-                    "value": 15
+                    "value": 15,
+                    "raw": "15"
                   },
                   {
                     "type": "Literal",
                     "start": 946,
                     "end": 947,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 949,
                     "end": 951,
-                    "value": 30
+                    "value": 30,
+                    "raw": "30"
                   }
                 ]
               }
@@ -397,13 +414,15 @@
                     "type": "Literal",
                     "start": 1007,
                     "end": 1029,
-                    "value": "951991200000000000n"
+                    "value": "951991200000000000n",
+                    "raw": "951991200_000_000_000n"
                   },
                   {
                     "type": "Literal",
                     "start": 1058,
                     "end": 1077,
-                    "value": "America/Vancouver"
+                    "value": "America/Vancouver",
+                    "raw": "\"America/Vancouver\""
                   }
                 ]
               }
@@ -485,7 +504,8 @@
                           "type": "Literal",
                           "start": 1162,
                           "end": 1170,
-                          "value": "months"
+                          "value": "months",
+                          "raw": "\"months\""
                         },
                         "kind": "init"
                       },
@@ -519,13 +539,15 @@
                 "type": "Literal",
                 "start": 1187,
                 "end": 1190,
-                "value": 1.5
+                "value": 1.5,
+                "raw": "1.5"
               },
               {
                 "type": "Literal",
                 "start": 1196,
                 "end": 1248,
-                "value": "1 month 15 days 00:30 should be exactly 1.5 months"
+                "value": "1 month 15 days 00:30 should be exactly 1.5 months",
+                "raw": "\"1 month 15 days 00:30 should be exactly 1.5 months\""
               }
             ],
             "optional": false

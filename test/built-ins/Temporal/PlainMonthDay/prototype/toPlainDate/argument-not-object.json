@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 303,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Identifier",
@@ -36,19 +37,22 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 320,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 328,
-                "value": 3.1416
+                "value": 3.1416,
+                "raw": "3.1416"
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 340,
-                "value": "a string"
+                "value": "a string",
+                "raw": "\"a string\""
               },
               {
                 "type": "CallExpression",
@@ -65,7 +69,8 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 357,
-                    "value": "symbol"
+                    "value": "symbol",
+                    "raw": "\"symbol\""
                   }
                 ],
                 "optional": false
@@ -74,7 +79,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
-                "value": "7n"
+                "value": "7n",
+                "raw": "7n"
               }
             ]
           },
@@ -152,13 +158,15 @@
                             "type": "Literal",
                             "start": 440,
                             "end": 441,
-                            "value": 5
+                            "value": 5,
+                            "raw": "5"
                           },
                           {
                             "type": "Literal",
                             "start": 443,
                             "end": 444,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         ]
                       }

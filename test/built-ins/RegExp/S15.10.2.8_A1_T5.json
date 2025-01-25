@@ -31,6 +31,7 @@
                 "start": 646,
                 "end": 673,
                 "value": {},
+                "raw": "/[Jj]ava([Ss]cript)?(?=\\:)/",
                 "regex": {
                   "pattern": "[Jj]ava([Ss]cript)?(?=\\:)",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 707,
-                "value": "rhino is JavaScript engine"
+                "value": "rhino is JavaScript engine",
+                "raw": "\"rhino is JavaScript engine\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 731,
             "end": 780,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

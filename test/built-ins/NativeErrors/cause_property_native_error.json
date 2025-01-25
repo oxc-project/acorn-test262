@@ -88,7 +88,8 @@
               "type": "Literal",
               "start": 757,
               "end": 758,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -200,7 +201,8 @@
                   "type": "Literal",
                   "start": 846,
                   "end": 858,
-                  "value": "my-message"
+                  "value": "my-message",
+                  "raw": "\"my-message\""
                 }
               }
             ],
@@ -243,7 +245,8 @@
                         "type": "Literal",
                         "start": 885,
                         "end": 895,
-                        "value": "my-cause"
+                        "value": "my-cause",
+                        "raw": "\"my-cause\""
                       },
                       "kind": "init"
                     }
@@ -344,7 +347,8 @@
                   "type": "Literal",
                   "start": 975,
                   "end": 982,
-                  "value": "cause"
+                  "value": "cause",
+                  "raw": "\"cause\""
                 },
                 {
                   "type": "ObjectExpression",
@@ -368,7 +372,8 @@
                         "type": "Literal",
                         "start": 1004,
                         "end": 1008,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -389,7 +394,8 @@
                         "type": "Literal",
                         "start": 1026,
                         "end": 1031,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       },
                       "kind": "init"
                     },
@@ -410,7 +416,8 @@
                         "type": "Literal",
                         "start": 1047,
                         "end": 1051,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "kind": "init"
                     },
@@ -479,7 +486,8 @@
                   "type": "Literal",
                   "start": 1121,
                   "end": 1128,
-                  "value": "cause"
+                  "value": "cause",
+                  "raw": "\"cause\""
                 },
                 {
                   "type": "Identifier",
@@ -557,7 +565,8 @@
                   "type": "Literal",
                   "start": 1207,
                   "end": 1214,
-                  "value": "cause"
+                  "value": "cause",
+                  "raw": "\"cause\""
                 },
                 {
                   "type": "ObjectExpression",

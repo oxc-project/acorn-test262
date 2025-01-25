@@ -23,6 +23,7 @@
             "start": 1706,
             "end": 1722,
             "value": null,
+            "raw": "/(?i:a(?-i:b))c/",
             "regex": {
               "pattern": "(?i:a(?-i:b))c",
               "flags": ""
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 1741,
                   "end": 1746,
-                  "value": "ABC"
+                  "value": "ABC",
+                  "raw": "\"ABC\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 1749,
             "end": 1778,
-            "value": "b should not match B in ABC"
+            "value": "b should not match B in ABC",
+            "raw": "\"b should not match B in ABC\""
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 1798,
                   "end": 1803,
-                  "value": "ABc"
+                  "value": "ABc",
+                  "raw": "\"ABc\""
                 }
               ],
               "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 1806,
             "end": 1835,
-            "value": "b should not match B in ABc"
+            "value": "b should not match B in ABc",
+            "raw": "\"b should not match B in ABc\""
           }
         ],
         "optional": false
@@ -205,7 +210,8 @@
                 "type": "Literal",
                 "start": 1854,
                 "end": 1859,
-                "value": "Abc"
+                "value": "Abc",
+                "raw": "\"Abc\""
               }
             ],
             "optional": false
@@ -214,7 +220,8 @@
             "type": "Literal",
             "start": 1862,
             "end": 1887,
-            "value": "a should match A in Abc"
+            "value": "a should match A in Abc",
+            "raw": "\"a should match A in Abc\""
           }
         ],
         "optional": false
@@ -269,7 +276,8 @@
                   "type": "Literal",
                   "start": 1907,
                   "end": 1912,
-                  "value": "aBc"
+                  "value": "aBc",
+                  "raw": "\"aBc\""
                 }
               ],
               "optional": false
@@ -279,7 +287,8 @@
             "type": "Literal",
             "start": 1915,
             "end": 1944,
-            "value": "b should not match B in aBc"
+            "value": "b should not match B in aBc",
+            "raw": "\"b should not match B in aBc\""
           }
         ],
         "optional": false
@@ -334,7 +343,8 @@
                   "type": "Literal",
                   "start": 1964,
                   "end": 1969,
-                  "value": "abC"
+                  "value": "abC",
+                  "raw": "\"abC\""
                 }
               ],
               "optional": false
@@ -344,7 +354,8 @@
             "type": "Literal",
             "start": 1972,
             "end": 2001,
-            "value": "c should not match C in abC"
+            "value": "c should not match C in abC",
+            "raw": "\"c should not match C in abC\""
           }
         ],
         "optional": false
@@ -393,7 +404,8 @@
                 "type": "Literal",
                 "start": 2020,
                 "end": 2025,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -402,7 +414,8 @@
             "type": "Literal",
             "start": 2028,
             "end": 2046,
-            "value": "should match abc"
+            "value": "should match abc",
+            "raw": "\"should match abc\""
           }
         ],
         "optional": false

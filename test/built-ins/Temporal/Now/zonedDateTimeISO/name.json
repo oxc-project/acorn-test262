@@ -80,13 +80,15 @@
             "type": "Literal",
             "start": 371,
             "end": 389,
-            "value": "zonedDateTimeISO"
+            "value": "zonedDateTimeISO",
+            "raw": "'zonedDateTimeISO'"
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 479,
-            "value": "The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\""
+            "value": "The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"",
+            "raw": "'The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"'"
           }
         ],
         "optional": false
@@ -143,7 +145,8 @@
             "type": "Literal",
             "start": 530,
             "end": 536,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -167,7 +170,8 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 559,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -188,7 +192,8 @@
                   "type": "Literal",
                   "start": 573,
                   "end": 578,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -209,7 +214,8 @@
                   "type": "Literal",
                   "start": 596,
                   "end": 600,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

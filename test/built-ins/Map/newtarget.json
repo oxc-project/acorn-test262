@@ -1,31 +1,31 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 785,
+  "end": 781,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 474,
-      "end": 493,
+      "start": 470,
+      "end": 489,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 478,
-          "end": 492,
+          "start": 474,
+          "end": 488,
           "id": {
             "type": "Identifier",
-            "start": 478,
-            "end": 480,
+            "start": 474,
+            "end": 476,
             "name": "m1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 483,
-            "end": 492,
+            "start": 479,
+            "end": 488,
             "callee": {
               "type": "Identifier",
-              "start": 487,
-              "end": 490,
+              "start": 483,
+              "end": 486,
               "name": "Map"
             },
             "arguments": []
@@ -36,26 +36,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 495,
-      "end": 617,
+      "start": 491,
+      "end": 613,
       "expression": {
         "type": "CallExpression",
-        "start": 495,
-        "end": 616,
+        "start": 491,
+        "end": 612,
         "callee": {
           "type": "MemberExpression",
-          "start": 495,
-          "end": 511,
+          "start": 491,
+          "end": 507,
           "object": {
             "type": "Identifier",
-            "start": 495,
-            "end": 501,
+            "start": 491,
+            "end": 497,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 502,
-            "end": 511,
+            "start": 498,
+            "end": 507,
             "name": "sameValue"
           },
           "computed": false,
@@ -64,22 +64,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 515,
-            "end": 540,
+            "start": 511,
+            "end": 536,
             "callee": {
               "type": "MemberExpression",
-              "start": 515,
-              "end": 536,
+              "start": 511,
+              "end": 532,
               "object": {
                 "type": "Identifier",
-                "start": 515,
-                "end": 521,
+                "start": 511,
+                "end": 517,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 522,
-                "end": 536,
+                "start": 518,
+                "end": 532,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -88,8 +88,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 537,
-                "end": 539,
+                "start": 533,
+                "end": 535,
                 "name": "m1"
               }
             ],
@@ -97,18 +97,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 544,
-            "end": 557,
+            "start": 540,
+            "end": 553,
             "object": {
               "type": "Identifier",
-              "start": 544,
-              "end": 547,
+              "start": 540,
+              "end": 543,
               "name": "Map"
             },
             "property": {
               "type": "Identifier",
-              "start": 548,
-              "end": 557,
+              "start": 544,
+              "end": 553,
               "name": "prototype"
             },
             "computed": false,
@@ -116,9 +116,10 @@
           },
           {
             "type": "Literal",
-            "start": 561,
-            "end": 614,
-            "value": "`Object.getPrototypeOf(m1)` returns `Map.prototype`"
+            "start": 557,
+            "end": 610,
+            "value": "`Object.getPrototypeOf(m1)` returns `Map.prototype`",
+            "raw": "\"`Object.getPrototypeOf(m1)` returns `Map.prototype`\""
           }
         ],
         "optional": false
@@ -126,70 +127,74 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 619,
-      "end": 660,
+      "start": 615,
+      "end": 656,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 623,
-          "end": 659,
+          "start": 619,
+          "end": 655,
           "id": {
             "type": "Identifier",
-            "start": 623,
-            "end": 625,
+            "start": 619,
+            "end": 621,
             "name": "m2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 628,
-            "end": 659,
+            "start": 624,
+            "end": 655,
             "callee": {
               "type": "Identifier",
-              "start": 632,
-              "end": 635,
+              "start": 628,
+              "end": 631,
               "name": "Map"
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 636,
-                "end": 658,
+                "start": 632,
+                "end": 654,
                 "elements": [
                   {
                     "type": "ArrayExpression",
-                    "start": 640,
-                    "end": 646,
+                    "start": 636,
+                    "end": 642,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 641,
-                        "end": 642,
-                        "value": 1
+                        "start": 637,
+                        "end": 638,
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
-                        "start": 644,
-                        "end": 645,
-                        "value": 1
+                        "start": 640,
+                        "end": 641,
+                        "value": 1,
+                        "raw": "1"
                       }
                     ]
                   },
                   {
                     "type": "ArrayExpression",
-                    "start": 650,
-                    "end": 656,
+                    "start": 646,
+                    "end": 652,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 651,
-                        "end": 652,
-                        "value": 2
+                        "start": 647,
+                        "end": 648,
+                        "value": 2,
+                        "raw": "2"
                       },
                       {
                         "type": "Literal",
-                        "start": 654,
-                        "end": 655,
-                        "value": 2
+                        "start": 650,
+                        "end": 651,
+                        "value": 2,
+                        "raw": "2"
                       }
                     ]
                   }
@@ -203,26 +208,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 662,
-      "end": 784,
+      "start": 658,
+      "end": 780,
       "expression": {
         "type": "CallExpression",
-        "start": 662,
-        "end": 783,
+        "start": 658,
+        "end": 779,
         "callee": {
           "type": "MemberExpression",
-          "start": 662,
-          "end": 678,
+          "start": 658,
+          "end": 674,
           "object": {
             "type": "Identifier",
-            "start": 662,
-            "end": 668,
+            "start": 658,
+            "end": 664,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 669,
-            "end": 678,
+            "start": 665,
+            "end": 674,
             "name": "sameValue"
           },
           "computed": false,
@@ -231,22 +236,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 682,
-            "end": 707,
+            "start": 678,
+            "end": 703,
             "callee": {
               "type": "MemberExpression",
-              "start": 682,
-              "end": 703,
+              "start": 678,
+              "end": 699,
               "object": {
                 "type": "Identifier",
-                "start": 682,
-                "end": 688,
+                "start": 678,
+                "end": 684,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 689,
-                "end": 703,
+                "start": 685,
+                "end": 699,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -255,8 +260,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 704,
-                "end": 706,
+                "start": 700,
+                "end": 702,
                 "name": "m2"
               }
             ],
@@ -264,18 +269,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 711,
-            "end": 724,
+            "start": 707,
+            "end": 720,
             "object": {
               "type": "Identifier",
-              "start": 711,
-              "end": 714,
+              "start": 707,
+              "end": 710,
               "name": "Map"
             },
             "property": {
               "type": "Identifier",
-              "start": 715,
-              "end": 724,
+              "start": 711,
+              "end": 720,
               "name": "prototype"
             },
             "computed": false,
@@ -283,9 +288,10 @@
           },
           {
             "type": "Literal",
-            "start": 728,
-            "end": 781,
-            "value": "`Object.getPrototypeOf(m2)` returns `Map.prototype`"
+            "start": 724,
+            "end": 777,
+            "value": "`Object.getPrototypeOf(m2)` returns `Map.prototype`",
+            "raw": "\"`Object.getPrototypeOf(m2)` returns `Map.prototype`\""
           }
         ],
         "optional": false

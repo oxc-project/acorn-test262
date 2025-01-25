@@ -64,7 +64,8 @@
               "type": "Literal",
               "start": 516,
               "end": 527,
-              "value": "exception"
+              "value": "exception",
+              "raw": "'exception'"
             }
           }
         ]
@@ -153,7 +154,8 @@
                       "type": "Literal",
                       "start": 595,
                       "end": 599,
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     },
                     "kind": "init"
                   }
@@ -256,7 +258,8 @@
             "type": "Literal",
             "start": 670,
             "end": 681,
-            "value": "exception"
+            "value": "exception",
+            "raw": "'exception'"
           }
         ],
         "optional": false
@@ -300,13 +303,15 @@
             "type": "Literal",
             "start": 709,
             "end": 723,
-            "value": "propertyName"
+            "value": "propertyName",
+            "raw": "'propertyName'"
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 754,
-            "value": "during loop body evaluation"
+            "value": "during loop body evaluation",
+            "raw": "'during loop body evaluation'"
           }
         ],
         "optional": false
@@ -350,13 +355,15 @@
             "type": "Literal",
             "start": 781,
             "end": 795,
-            "value": "propertyName"
+            "value": "propertyName",
+            "raw": "'propertyName'"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 825,
-            "value": "after loop body evaluation"
+            "value": "after loop body evaluation",
+            "raw": "'after loop body evaluation'"
           }
         ],
         "optional": false

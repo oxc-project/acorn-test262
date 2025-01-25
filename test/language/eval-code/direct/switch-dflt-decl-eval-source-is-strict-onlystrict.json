@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 490,
             "end": 571,
-            "value": "  \"use strict\";  switch (1) {    default:      function f() {  }  }"
+            "value": "  \"use strict\";  switch (1) {    default:      function f() {  }  }",
+            "raw": "'\\\n  \"use strict\";\\\n  switch (1) {\\\n    default:\\\n      function f() {  }\\\n  }\\\n'"
           }
         ],
         "optional": false

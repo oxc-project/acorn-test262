@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 356,
                   "end": 366,
-                  "value": "property"
+                  "value": "property",
+                  "raw": "\"property\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 368,
                   "end": 385,
-                  "value": "ownDataProperty"
+                  "value": "ownDataProperty",
+                  "raw": "\"ownDataProperty\""
                 },
                 "kind": "init"
               }
@@ -99,7 +101,8 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 448,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -131,7 +134,8 @@
               "type": "Literal",
               "start": 470,
               "end": 484,
-              "value": "configurable"
+              "value": "configurable",
+              "raw": "\"configurable\""
             },
             "operator": "in",
             "right": {
@@ -199,7 +203,8 @@
               "type": "Literal",
               "start": 539,
               "end": 553,
-              "value": "configurable"
+              "value": "configurable",
+              "raw": "\"configurable\""
             },
             "operator": "in",
             "right": {
@@ -238,7 +243,8 @@
             "type": "Literal",
             "start": 584,
             "end": 606,
-            "value": "propDefined !== true"
+            "value": "propDefined !== true",
+            "raw": "'propDefined !== true'"
           }
         ],
         "optional": false
@@ -282,13 +288,15 @@
             "type": "Literal",
             "start": 639,
             "end": 644,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 659,
-            "value": "propDeleted"
+            "value": "propDeleted",
+            "raw": "'propDeleted'"
           }
         ],
         "optional": false

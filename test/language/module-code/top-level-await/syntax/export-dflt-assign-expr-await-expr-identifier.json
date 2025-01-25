@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2094,
+  "end": 2092,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2053,
-      "end": 2065,
+      "start": 2051,
+      "end": 2063,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2057,
-          "end": 2064,
+          "start": 2055,
+          "end": 2062,
           "id": {
             "type": "Identifier",
-            "start": 2057,
-            "end": 2060,
+            "start": 2055,
+            "end": 2058,
             "name": "foo"
           },
           "init": {
             "type": "Literal",
-            "start": 2063,
-            "end": 2064,
-            "value": 1
+            "start": 2061,
+            "end": 2062,
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -30,16 +31,16 @@
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2068,
-      "end": 2093,
+      "start": 2066,
+      "end": 2091,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2083,
-        "end": 2092,
+        "start": 2081,
+        "end": 2090,
         "argument": {
           "type": "Identifier",
-          "start": 2089,
-          "end": 2092,
+          "start": 2087,
+          "end": 2090,
           "name": "foo"
         }
       }

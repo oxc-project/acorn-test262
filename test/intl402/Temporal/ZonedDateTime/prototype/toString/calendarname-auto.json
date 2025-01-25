@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 306,
                     "end": 348,
-                    "value": "1970-01-01T01:01:01.987654321+00:00[UTC]"
+                    "value": "1970-01-01T01:01:01.987654321+00:00[UTC]",
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\""
                   },
                   {
                     "type": "Literal",
                     "start": 350,
                     "end": 364,
-                    "value": "built-in ISO"
+                    "value": "built-in ISO",
+                    "raw": "\"built-in ISO\""
                   }
                 ]
               },
@@ -62,7 +64,8 @@
                         "type": "Literal",
                         "start": 371,
                         "end": 380,
-                        "value": "gregory"
+                        "value": "gregory",
+                        "raw": "\"gregory\""
                       }
                     ]
                   },
@@ -70,13 +73,15 @@
                     "type": "Literal",
                     "start": 383,
                     "end": 439,
-                    "value": "1970-01-01T01:01:01.987654321+00:00[UTC][u-ca=gregory]"
+                    "value": "1970-01-01T01:01:01.987654321+00:00[UTC][u-ca=gregory]",
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC][u-ca=gregory]\""
                   },
                   {
                     "type": "Literal",
                     "start": 441,
                     "end": 461,
-                    "value": "built-in Gregorian"
+                    "value": "built-in Gregorian",
+                    "raw": "\"built-in Gregorian\""
                   }
                 ]
               }
@@ -184,13 +189,15 @@
                       "type": "Literal",
                       "start": 563,
                       "end": 580,
-                      "value": "3661987654321n"
+                      "value": "3661987654321n",
+                      "raw": "3661_987_654_321n"
                     },
                     {
                       "type": "Literal",
                       "start": 582,
                       "end": 587,
-                      "value": "UTC"
+                      "value": "UTC",
+                      "raw": "\"UTC\""
                     },
                     {
                       "type": "SpreadElement",
@@ -270,7 +277,8 @@
                             "type": "Literal",
                             "start": 646,
                             "end": 652,
-                            "value": "auto"
+                            "value": "auto",
+                            "raw": "\"auto\""
                           },
                           "kind": "init"
                         }

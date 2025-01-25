@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 329,
             "end": 334,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 347,
                   "end": 354,
-                  "value": "hello"
+                  "value": "hello",
+                  "raw": "\"hello\""
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 376,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -197,7 +200,8 @@
             "type": "Literal",
             "start": 435,
             "end": 440,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -239,7 +243,8 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 476,
-                          "value": 5
+                          "value": 5,
+                          "raw": "5"
                         }
                       }
                     ]
@@ -302,7 +307,8 @@
                 "type": "Literal",
                 "start": 539,
                 "end": 544,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -362,13 +368,15 @@
             "type": "Literal",
             "start": 572,
             "end": 573,
-            "value": 5
+            "value": 5,
+            "raw": "5"
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 582,
-            "value": "o.foo"
+            "value": "o.foo",
+            "raw": "'o.foo'"
           }
         ],
         "optional": false
@@ -424,7 +432,8 @@
             "type": "Literal",
             "start": 622,
             "end": 659,
-            "value": "fooDescrip.get!==undefined !== true"
+            "value": "fooDescrip.get!==undefined !== true",
+            "raw": "'fooDescrip.get!==undefined !== true'"
           }
         ],
         "optional": false
@@ -487,7 +496,8 @@
             "type": "Literal",
             "start": 706,
             "end": 722,
-            "value": "fooDescrip.set"
+            "value": "fooDescrip.set",
+            "raw": "'fooDescrip.set'"
           }
         ],
         "optional": false
@@ -550,7 +560,8 @@
             "type": "Literal",
             "start": 771,
             "end": 789,
-            "value": "fooDescrip.value"
+            "value": "fooDescrip.value",
+            "raw": "'fooDescrip.value'"
           }
         ],
         "optional": false
@@ -607,13 +618,15 @@
             "type": "Literal",
             "start": 834,
             "end": 838,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 840,
             "end": 865,
-            "value": "fooDescrip.configurable"
+            "value": "fooDescrip.configurable",
+            "raw": "'fooDescrip.configurable'"
           }
         ],
         "optional": false
@@ -670,13 +683,15 @@
             "type": "Literal",
             "start": 908,
             "end": 913,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 938,
-            "value": "fooDescrip.enumerable"
+            "value": "fooDescrip.enumerable",
+            "raw": "'fooDescrip.enumerable'"
           }
         ],
         "optional": false
@@ -739,7 +754,8 @@
             "type": "Literal",
             "start": 990,
             "end": 1011,
-            "value": "fooDescrip.writable"
+            "value": "fooDescrip.writable",
+            "raw": "'fooDescrip.writable'"
           }
         ],
         "optional": false

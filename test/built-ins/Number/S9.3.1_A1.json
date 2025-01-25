@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 312,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ],
             "optional": false
@@ -55,13 +56,15 @@
             "type": "Literal",
             "start": 315,
             "end": 316,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 344,
-            "value": "Number(\"\") must return 0"
+            "value": "Number(\"\") must return 0",
+            "raw": "'Number(\"\") must return 0'"
           }
         ],
         "optional": false

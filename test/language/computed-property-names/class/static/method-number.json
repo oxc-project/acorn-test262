@@ -54,7 +54,8 @@
                       "type": "Literal",
                       "start": 2189,
                       "end": 2192,
-                      "value": "A"
+                      "value": "A",
+                      "raw": "'A'"
                     }
                   }
                 ]
@@ -71,7 +72,8 @@
               "type": "Literal",
               "start": 2206,
               "end": 2207,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "kind": "method",
             "value": {
@@ -96,7 +98,8 @@
                       "type": "Literal",
                       "start": 2220,
                       "end": 2223,
-                      "value": "B"
+                      "value": "B",
+                      "raw": "'B'"
                     }
                   }
                 ]
@@ -138,7 +141,8 @@
                       "type": "Literal",
                       "start": 2249,
                       "end": 2252,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "'C'"
                     }
                   }
                 ]
@@ -155,7 +159,8 @@
               "type": "Literal",
               "start": 2266,
               "end": 2267,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             "kind": "method",
             "value": {
@@ -180,7 +185,8 @@
                       "type": "Literal",
                       "start": 2280,
                       "end": 2283,
-                      "value": "D"
+                      "value": "D",
+                      "raw": "'D'"
                     }
                   }
                 ]
@@ -248,13 +254,15 @@
             "type": "Literal",
             "start": 2313,
             "end": 2316,
-            "value": "A"
+            "value": "A",
+            "raw": "'A'"
           },
           {
             "type": "Literal",
             "start": 2318,
             "end": 2382,
-            "value": "`C.a()` returns `'A'`. Defined as `static a() { return 'A'; }`"
+            "value": "`C.a()` returns `'A'`. Defined as `static a() { return 'A'; }`",
+            "raw": "\"`C.a()` returns `'A'`. Defined as `static a() { return 'A'; }`\""
           }
         ],
         "optional": false
@@ -306,7 +314,8 @@
                 "type": "Literal",
                 "start": 2404,
                 "end": 2405,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "computed": true,
               "optional": false
@@ -318,13 +327,15 @@
             "type": "Literal",
             "start": 2410,
             "end": 2413,
-            "value": "B"
+            "value": "B",
+            "raw": "'B'"
           },
           {
             "type": "Literal",
             "start": 2415,
             "end": 2482,
-            "value": "`C[1]()` returns `'B'`. Defined as `static [1]() { return 'B'; }`"
+            "value": "`C[1]()` returns `'B'`. Defined as `static [1]() { return 'B'; }`",
+            "raw": "\"`C[1]()` returns `'B'`. Defined as `static [1]() { return 'B'; }`\""
           }
         ],
         "optional": false
@@ -388,13 +399,15 @@
             "type": "Literal",
             "start": 2509,
             "end": 2512,
-            "value": "C"
+            "value": "C",
+            "raw": "'C'"
           },
           {
             "type": "Literal",
             "start": 2514,
             "end": 2578,
-            "value": "`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`"
+            "value": "`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`",
+            "raw": "\"`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`\""
           }
         ],
         "optional": false
@@ -446,7 +459,8 @@
                 "type": "Literal",
                 "start": 2600,
                 "end": 2601,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               "computed": true,
               "optional": false
@@ -458,13 +472,15 @@
             "type": "Literal",
             "start": 2606,
             "end": 2609,
-            "value": "D"
+            "value": "D",
+            "raw": "'D'"
           },
           {
             "type": "Literal",
             "start": 2611,
             "end": 2678,
-            "value": "`C[2]()` returns `'D'`. Defined as `static [2]() { return 'D'; }`"
+            "value": "`C[2]()` returns `'D'`. Defined as `static [2]() { return 'D'; }`",
+            "raw": "\"`C[2]()` returns `'D'`. Defined as `static [2]() { return 'D'; }`\""
           }
         ],
         "optional": false

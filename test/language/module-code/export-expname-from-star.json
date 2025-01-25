@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 467,
+  "end": 465,
   "body": [
     {
       "type": "ImportDeclaration",
@@ -24,7 +24,8 @@
         "type": "Literal",
         "start": 335,
         "end": 366,
-        "value": "./export-expname-from-star.js"
+        "value": "./export-expname-from-star.js",
+        "raw": "\"./export-expname-from-star.js\""
       },
       "attributes": []
     },
@@ -37,18 +38,19 @@
         "type": "Literal",
         "start": 382,
         "end": 411,
-        "value": "./export-expname_FIXTURE.js"
+        "value": "./export-expname_FIXTURE.js",
+        "raw": "\"./export-expname_FIXTURE.js\""
       },
       "attributes": []
     },
     {
       "type": "ExpressionStatement",
       "start": 414,
-      "end": 466,
+      "end": 464,
       "expression": {
         "type": "CallExpression",
         "start": 414,
-        "end": 465,
+        "end": 463,
         "callee": {
           "type": "MemberExpression",
           "start": 414,
@@ -72,7 +74,7 @@
           {
             "type": "MemberExpression",
             "start": 431,
-            "end": 444,
+            "end": 442,
             "object": {
               "type": "Identifier",
               "start": 431,
@@ -82,26 +84,27 @@
             "property": {
               "type": "Literal",
               "start": 438,
-              "end": 443,
-              "value": "☿"
+              "end": 441,
+              "value": "☿",
+              "raw": "\"☿\""
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "MemberExpression",
-            "start": 446,
-            "end": 464,
+            "start": 444,
+            "end": 462,
             "object": {
               "type": "Identifier",
-              "start": 446,
-              "end": 456,
+              "start": 444,
+              "end": 454,
               "name": "globalThis"
             },
             "property": {
               "type": "Identifier",
-              "start": 457,
-              "end": 464,
+              "start": 455,
+              "end": 462,
               "name": "Mercury"
             },
             "computed": false,

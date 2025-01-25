@@ -74,13 +74,15 @@
             "type": "Literal",
             "start": 314,
             "end": 324,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 405,
-            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\""
+            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\"",
+            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -116,7 +118,8 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 435,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -182,13 +185,15 @@
             "type": "Literal",
             "start": 476,
             "end": 486,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 552,
-            "value": "The value of `typeof obj.valueOf` is expected to be \"function\""
+            "value": "The value of `typeof obj.valueOf` is expected to be \"function\"",
+            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'"
           }
         ],
         "optional": false
@@ -258,7 +263,8 @@
             "type": "Literal",
             "start": 592,
             "end": 619,
-            "value": "obj.valueOf() returns obj"
+            "value": "obj.valueOf() returns obj",
+            "raw": "'obj.valueOf() returns obj'"
           }
         ],
         "optional": false

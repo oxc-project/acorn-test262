@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 689,
+  "end": 687,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 584,
-      "end": 603,
+      "start": 582,
+      "end": 601,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 588,
-          "end": 602,
+          "start": 586,
+          "end": 600,
           "id": {
             "type": "Identifier",
-            "start": 588,
-            "end": 591,
+            "start": 586,
+            "end": 589,
             "name": "str"
           },
           "init": {
             "type": "Literal",
-            "start": 594,
-            "end": 602,
-            "value": "-null-"
+            "start": 592,
+            "end": 600,
+            "value": "-null-",
+            "raw": "'-null-'"
           }
         }
       ],
@@ -30,26 +31,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 688,
+      "start": 603,
+      "end": 686,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 687,
+        "start": 603,
+        "end": 685,
         "callee": {
           "type": "MemberExpression",
-          "start": 605,
-          "end": 627,
+          "start": 603,
+          "end": 625,
           "object": {
             "type": "Identifier",
-            "start": 605,
-            "end": 611,
+            "start": 603,
+            "end": 609,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 612,
-            "end": 627,
+            "start": 610,
+            "end": 625,
             "name": "compareIterator"
           },
           "computed": false,
@@ -58,22 +59,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 628,
-            "end": 646,
+            "start": 626,
+            "end": 644,
             "callee": {
               "type": "MemberExpression",
-              "start": 628,
-              "end": 640,
+              "start": 626,
+              "end": 638,
               "object": {
                 "type": "Identifier",
-                "start": 628,
-                "end": 631,
+                "start": 626,
+                "end": 629,
                 "name": "str"
               },
               "property": {
                 "type": "Identifier",
-                "start": 632,
-                "end": 640,
+                "start": 630,
+                "end": 638,
                 "name": "matchAll"
               },
               "computed": false,
@@ -82,52 +83,55 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 641,
-                "end": 645,
-                "value": null
+                "start": 639,
+                "end": 643,
+                "value": null,
+                "raw": "null"
               }
             ],
             "optional": false
           },
           {
             "type": "ArrayExpression",
-            "start": 648,
-            "end": 686,
+            "start": 646,
+            "end": 684,
             "elements": [
               {
                 "type": "CallExpression",
-                "start": 652,
-                "end": 684,
+                "start": 650,
+                "end": 682,
                 "callee": {
                   "type": "Identifier",
-                  "start": 652,
-                  "end": 666,
+                  "start": 650,
+                  "end": 664,
                   "name": "matchValidator"
                 },
                 "arguments": [
                   {
                     "type": "ArrayExpression",
-                    "start": 667,
-                    "end": 675,
+                    "start": 665,
+                    "end": 673,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 668,
-                        "end": 674,
-                        "value": "null"
+                        "start": 666,
+                        "end": 672,
+                        "value": "null",
+                        "raw": "'null'"
                       }
                     ]
                   },
                   {
                     "type": "Literal",
-                    "start": 677,
-                    "end": 678,
-                    "value": 1
+                    "start": 675,
+                    "end": 676,
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Identifier",
-                    "start": 680,
-                    "end": 683,
+                    "start": 678,
+                    "end": 681,
                     "name": "str"
                   }
                 ],

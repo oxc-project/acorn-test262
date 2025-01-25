@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 286,
             "end": 289,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           }
         }
       ],
@@ -125,7 +126,8 @@
             "type": "Literal",
             "start": 360,
             "end": 368,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           }
         ],
         "optional": false
@@ -189,13 +191,15 @@
             "type": "Literal",
             "start": 406,
             "end": 409,
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 437,
-            "value": "The value should be 'a'."
+            "value": "The value should be 'a'.",
+            "raw": "\"The value should be 'a'.\""
           }
         ],
         "optional": false

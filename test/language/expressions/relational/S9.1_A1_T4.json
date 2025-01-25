@@ -64,7 +64,8 @@
                             "type": "Literal",
                             "start": 428,
                             "end": 429,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         }
                       }
@@ -108,7 +109,8 @@
                           "type": "Literal",
                           "start": 461,
                           "end": 465,
-                          "value": "-2"
+                          "value": "-2",
+                          "raw": "\"-2\""
                         }
                       }
                     ]
@@ -134,7 +136,8 @@
           "type": "Literal",
           "start": 473,
           "end": 477,
-          "value": "-1"
+          "value": "-1",
+          "raw": "\"-1\""
         },
         "operator": "<",
         "right": {
@@ -168,7 +171,8 @@
                   "type": "Literal",
                   "start": 515,
                   "end": 618,
-                  "value": "#1: var object = {valueOf: function() {return -2}, toString: function() {return \"-2\"}}; \"-1\" < object"
+                  "value": "#1: var object = {valueOf: function() {return -2}, toString: function() {return \"-2\"}}; \"-1\" < object",
+                  "raw": "'#1: var object = {valueOf: function() {return -2}, toString: function() {return \"-2\"}}; \"-1\" < object'"
                 }
               ]
             }
@@ -232,7 +236,8 @@
                           "type": "Literal",
                           "start": 677,
                           "end": 681,
-                          "value": "-2"
+                          "value": "-2",
+                          "raw": "\"-2\""
                         }
                       }
                     ]
@@ -281,7 +286,8 @@
                             "type": "Literal",
                             "start": 714,
                             "end": 715,
-                            "value": 2
+                            "value": 2,
+                            "raw": "2"
                           }
                         }
                       }
@@ -315,7 +321,8 @@
           "type": "Literal",
           "start": 732,
           "end": 736,
-          "value": "-1"
+          "value": "-1",
+          "raw": "\"-1\""
         }
       },
       "consequent": {
@@ -342,7 +349,8 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 868,
-                  "value": "#2: var object = {valueOf: function() {return \"-2\"}, toString: function() {return -2}}; object < \"-1\""
+                  "value": "#2: var object = {valueOf: function() {return \"-2\"}, toString: function() {return -2}}; object < \"-1\"",
+                  "raw": "'#2: var object = {valueOf: function() {return \"-2\"}, toString: function() {return -2}}; object < \"-1\"'"
                 }
               ]
             }

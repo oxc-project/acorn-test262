@@ -24,6 +24,7 @@
               "start": 359,
               "end": 365,
               "value": {},
+              "raw": "/(?:)/",
               "regex": {
                 "pattern": "(?:)",
                 "flags": ""
@@ -43,7 +44,8 @@
           "type": "Literal",
           "start": 389,
           "end": 393,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -74,7 +76,8 @@
                     "type": "Literal",
                     "start": 422,
                     "end": 473,
-                    "value": "#1: (/(?:)/ instanceof RegExp) === true. Actual: "
+                    "value": "#1: (/(?:)/ instanceof RegExp) === true. Actual: ",
+                    "raw": "'#1: (/(?:)/ instanceof RegExp) === true. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -94,6 +97,7 @@
                           "start": 478,
                           "end": 484,
                           "value": {},
+                          "raw": "/(?:)/",
                           "regex": {
                             "pattern": "(?:)",
                             "flags": ""

@@ -97,7 +97,8 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 524,
-                  "value": "#1: __func.prototype !== undefined"
+                  "value": "#1: __func.prototype !== undefined",
+                  "raw": "'#1: __func.prototype !== undefined'"
                 }
               ]
             }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 915,
             "end": 924,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -150,7 +151,8 @@
             "type": "Literal",
             "start": 1028,
             "end": 1032,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -179,7 +181,8 @@
               "type": "Literal",
               "start": 1053,
               "end": 1061,
-              "value": "inside"
+              "value": "inside",
+              "raw": "'inside'"
             }
           },
           {
@@ -397,7 +400,8 @@
                 "type": "Literal",
                 "start": 1247,
                 "end": 1252,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             }
           ]
@@ -449,7 +453,8 @@
             "type": "Literal",
             "start": 1287,
             "end": 1296,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false
@@ -500,13 +505,15 @@
             "type": "Literal",
             "start": 1329,
             "end": 1337,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1339,
             "end": 1374,
-            "value": "reference from LexicalDeclaration"
+            "value": "reference from LexicalDeclaration",
+            "raw": "'reference from LexicalDeclaration'"
           }
         ],
         "optional": false
@@ -557,13 +564,15 @@
             "type": "Literal",
             "start": 1407,
             "end": 1415,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1417,
             "end": 1449,
-            "value": "reference from \"test\" position"
+            "value": "reference from \"test\" position",
+            "raw": "'reference from \"test\" position'"
           }
         ],
         "optional": false
@@ -614,13 +623,15 @@
             "type": "Literal",
             "start": 1482,
             "end": 1490,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1492,
             "end": 1523,
-            "value": "reference from statement body"
+            "value": "reference from statement body",
+            "raw": "'reference from statement body'"
           }
         ],
         "optional": false
@@ -671,13 +682,15 @@
             "type": "Literal",
             "start": 1556,
             "end": 1564,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1566,
             "end": 1603,
-            "value": "reference from \"increment\" position"
+            "value": "reference from \"increment\" position",
+            "raw": "'reference from \"increment\" position'"
           }
         ],
         "optional": false

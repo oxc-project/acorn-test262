@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 307,
                   "end": 310,
-                  "value": 100
+                  "value": 100,
+                  "raw": "100"
                 },
                 "kind": "init"
               }
@@ -151,7 +152,8 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 398,
-                "value": "0"
+                "value": "0",
+                "raw": "\"0\""
               }
             ],
             "optional": false
@@ -184,7 +186,8 @@
             "type": "Literal",
             "start": 415,
             "end": 416,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -239,7 +242,8 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 451,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "computed": true,
               "optional": false
@@ -249,13 +253,15 @@
             "type": "Literal",
             "start": 454,
             "end": 465,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 484,
-            "value": "typeof array[0]"
+            "value": "typeof array[0]",
+            "raw": "'typeof array[0]'"
           }
         ],
         "optional": false
@@ -304,7 +310,8 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 528,
-                "value": "configurable"
+                "value": "configurable",
+                "raw": "\"configurable\""
               }
             ],
             "optional": false
@@ -313,7 +320,8 @@
             "type": "Literal",
             "start": 531,
             "end": 577,
-            "value": "desc.hasOwnProperty(\"configurable\") !== true"
+            "value": "desc.hasOwnProperty(\"configurable\") !== true",
+            "raw": "'desc.hasOwnProperty(\"configurable\") !== true'"
           }
         ],
         "optional": false
@@ -370,13 +378,15 @@
             "type": "Literal",
             "start": 616,
             "end": 620,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 641,
-            "value": "desc.configurable"
+            "value": "desc.configurable",
+            "raw": "'desc.configurable'"
           }
         ],
         "optional": false

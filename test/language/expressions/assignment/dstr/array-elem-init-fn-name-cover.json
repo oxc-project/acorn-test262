@@ -128,7 +128,8 @@
                         "type": "Literal",
                         "start": 1303,
                         "end": 1304,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "FunctionExpression",
@@ -236,7 +237,8 @@
               "type": "Literal",
               "start": 1380,
               "end": 1388,
-              "value": "xCover"
+              "value": "xCover",
+              "raw": "'xCover'"
             }
           }
         ],
@@ -268,7 +270,8 @@
             "type": "Literal",
             "start": 1414,
             "end": 1420,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -292,7 +295,8 @@
                   "type": "Literal",
                   "start": 1438,
                   "end": 1443,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -313,7 +317,8 @@
                   "type": "Literal",
                   "start": 1457,
                   "end": 1462,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -334,7 +339,8 @@
                   "type": "Literal",
                   "start": 1480,
                   "end": 1484,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -355,7 +361,8 @@
                   "type": "Literal",
                   "start": 1495,
                   "end": 1502,
-                  "value": "cover"
+                  "value": "cover",
+                  "raw": "'cover'"
                 },
                 "kind": "init"
               }

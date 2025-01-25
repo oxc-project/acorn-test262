@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 261,
                   "end": 262,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -144,7 +145,8 @@
               "type": "Literal",
               "start": 333,
               "end": 334,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -153,13 +155,15 @@
             "type": "Literal",
             "start": 337,
             "end": 340,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 357,
-            "value": "keysBefore[0]"
+            "value": "keysBefore[0]",
+            "raw": "'keysBefore[0]'"
           }
         ],
         "optional": false
@@ -188,7 +192,8 @@
             "type": "Literal",
             "start": 371,
             "end": 372,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -197,7 +202,8 @@
           "type": "Literal",
           "start": 376,
           "end": 379,
-          "value": "x"
+          "value": "x",
+          "raw": "'x'"
         }
       }
     },
@@ -295,7 +301,8 @@
               "type": "Literal",
               "start": 448,
               "end": 449,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -304,13 +311,15 @@
             "type": "Literal",
             "start": 452,
             "end": 455,
-            "value": "x"
+            "value": "x",
+            "raw": "'x'"
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 472,
-            "value": "keysBefore[0]"
+            "value": "keysBefore[0]",
+            "raw": "'keysBefore[0]'"
           }
         ],
         "optional": false
@@ -358,7 +367,8 @@
               "type": "Literal",
               "start": 502,
               "end": 503,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -367,13 +377,15 @@
             "type": "Literal",
             "start": 506,
             "end": 509,
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 525,
-            "value": "keysAfter[0]"
+            "value": "keysAfter[0]",
+            "raw": "'keysAfter[0]'"
           }
         ],
         "optional": false

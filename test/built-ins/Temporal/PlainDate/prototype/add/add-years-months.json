@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 541,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -137,7 +139,8 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 618,
-                    "value": "2021-07-16"
+                    "value": "2021-07-16",
+                    "raw": "\"2021-07-16\""
                   }
                 ],
                 "optional": false
@@ -165,31 +168,36 @@
             "type": "Literal",
             "start": 632,
             "end": 636,
-            "value": 2022
+            "value": 2022,
+            "raw": "2022"
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 639,
-            "value": 9
+            "value": 9,
+            "raw": "9"
           },
           {
             "type": "Literal",
             "start": 641,
             "end": 646,
-            "value": "M09"
+            "value": "M09",
+            "raw": "\"M09\""
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 650,
-            "value": 16
+            "value": 16,
+            "raw": "16"
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 683,
-            "value": "add one year and 2 months"
+            "value": "add one year and 2 months",
+            "raw": "\"add one year and 2 months\""
           }
         ],
         "optional": false
@@ -272,7 +280,8 @@
                     "type": "Literal",
                     "start": 747,
                     "end": 759,
-                    "value": "2021-11-30"
+                    "value": "2021-11-30",
+                    "raw": "\"2021-11-30\""
                   }
                 ],
                 "optional": false
@@ -300,31 +309,36 @@
             "type": "Literal",
             "start": 773,
             "end": 777,
-            "value": 2023
+            "value": 2023,
+            "raw": "2023"
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 780,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 787,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 791,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 845,
-            "value": "add one year and 2 months roll into a new year"
+            "value": "add one year and 2 months roll into a new year",
+            "raw": "\"add one year and 2 months roll into a new year\""
           }
         ],
         "optional": false
@@ -407,7 +421,8 @@
                     "type": "Literal",
                     "start": 909,
                     "end": 921,
-                    "value": "2021-12-31"
+                    "value": "2021-12-31",
+                    "raw": "\"2021-12-31\""
                   }
                 ],
                 "optional": false
@@ -435,31 +450,36 @@
             "type": "Literal",
             "start": 935,
             "end": 939,
-            "value": 2023
+            "value": 2023,
+            "raw": "2023"
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 942,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 944,
             "end": 949,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 953,
-            "value": 28
+            "value": 28,
+            "raw": "28"
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 1050,
-            "value": "add one year and 2 months roll into a new year and constrain in Feb 28 of a non leap year"
+            "value": "add one year and 2 months roll into a new year and constrain in Feb 28 of a non leap year",
+            "raw": "\"add one year and 2 months roll into a new year and constrain in Feb 28 of a non leap year\""
           }
         ],
         "optional": false
@@ -542,7 +562,8 @@
                     "type": "Literal",
                     "start": 1114,
                     "end": 1126,
-                    "value": "2022-12-31"
+                    "value": "2022-12-31",
+                    "raw": "\"2022-12-31\""
                   }
                 ],
                 "optional": false
@@ -570,31 +591,36 @@
             "type": "Literal",
             "start": 1140,
             "end": 1144,
-            "value": 2024
+            "value": 2024,
+            "raw": "2024"
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1147,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 1149,
             "end": 1154,
-            "value": "M02"
+            "value": "M02",
+            "raw": "\"M02\""
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1158,
-            "value": 29
+            "value": 29,
+            "raw": "29"
           },
           {
             "type": "Literal",
             "start": 1164,
             "end": 1251,
-            "value": "add one year and 2 months roll into a new year and constrain in Feb 29 of a leap year"
+            "value": "add one year and 2 months roll into a new year and constrain in Feb 29 of a leap year",
+            "raw": "\"add one year and 2 months roll into a new year and constrain in Feb 29 of a leap year\""
           }
         ],
         "optional": false

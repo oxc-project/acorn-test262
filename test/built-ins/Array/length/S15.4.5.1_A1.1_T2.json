@@ -96,7 +96,8 @@
                     "type": "Literal",
                     "start": 415,
                     "end": 485,
-                    "value": "#1.1: x = []; x.length = NaN throw RangeError. Actual: x.length === "
+                    "value": "#1.1: x = []; x.length = NaN throw RangeError. Actual: x.length === ",
+                    "raw": "'#1.1: x = []; x.length = NaN throw RangeError. Actual: x.length === '"
                   },
                   "operator": "+",
                   "right": {
@@ -194,13 +195,15 @@
                     "type": "Literal",
                     "start": 568,
                     "end": 572,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 578,
                     "end": 653,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -315,7 +318,8 @@
                     "type": "Literal",
                     "start": 742,
                     "end": 833,
-                    "value": "#2.1: x = []; x.length = Number.POSITIVE_INFINITY throw RangeError. Actual: x.length === "
+                    "value": "#2.1: x = []; x.length = Number.POSITIVE_INFINITY throw RangeError. Actual: x.length === ",
+                    "raw": "'#2.1: x = []; x.length = Number.POSITIVE_INFINITY throw RangeError. Actual: x.length === '"
                   },
                   "operator": "+",
                   "right": {
@@ -413,13 +417,15 @@
                     "type": "Literal",
                     "start": 916,
                     "end": 920,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 926,
                     "end": 1001,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -534,7 +540,8 @@
                     "type": "Literal",
                     "start": 1090,
                     "end": 1181,
-                    "value": "#3.1: x = []; x.length = Number.NEGATIVE_INFINITY throw RangeError. Actual: x.length === "
+                    "value": "#3.1: x = []; x.length = Number.NEGATIVE_INFINITY throw RangeError. Actual: x.length === ",
+                    "raw": "'#3.1: x = []; x.length = Number.NEGATIVE_INFINITY throw RangeError. Actual: x.length === '"
                   },
                   "operator": "+",
                   "right": {
@@ -632,13 +639,15 @@
                     "type": "Literal",
                     "start": 1264,
                     "end": 1268,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 1274,
                     "end": 1349,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false
@@ -740,7 +749,8 @@
                     "type": "Literal",
                     "start": 1423,
                     "end": 1499,
-                    "value": "#4.1: x = []; x.length = undefined throw RangeError. Actual: x.length === "
+                    "value": "#4.1: x = []; x.length = undefined throw RangeError. Actual: x.length === ",
+                    "raw": "'#4.1: x = []; x.length = undefined throw RangeError. Actual: x.length === '"
                   },
                   "operator": "+",
                   "right": {
@@ -838,13 +848,15 @@
                     "type": "Literal",
                     "start": 1582,
                     "end": 1586,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 1592,
                     "end": 1667,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
                   }
                 ],
                 "optional": false

@@ -114,7 +114,8 @@
             "type": "Literal",
             "start": 685,
             "end": 709,
-            "value": "Calling as constructor"
+            "value": "Calling as constructor",
+            "raw": "\"Calling as constructor\""
           }
         ],
         "optional": false
@@ -211,13 +212,15 @@
             "type": "Literal",
             "start": 794,
             "end": 799,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 867,
-            "value": "isConstructor(Temporal.ZonedDateTime.prototype.toLocaleString)"
+            "value": "isConstructor(Temporal.ZonedDateTime.prototype.toLocaleString)",
+            "raw": "\"isConstructor(Temporal.ZonedDateTime.prototype.toLocaleString)\""
           }
         ],
         "optional": false

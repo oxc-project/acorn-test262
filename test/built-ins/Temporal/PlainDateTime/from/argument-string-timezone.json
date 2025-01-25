@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 381,
-                "value": "2020-01-01T01:23:45[Asia/Kolkata]"
+                "value": "2020-01-01T01:23:45[Asia/Kolkata]",
+                "raw": "\"2020-01-01T01:23:45[Asia/Kolkata]\""
               }
             ],
             "optional": false
@@ -81,67 +82,78 @@
             "type": "Literal",
             "start": 386,
             "end": 390,
-            "value": 2020
+            "value": 2020,
+            "raw": "2020"
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 393,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 400,
-            "value": "M01"
+            "value": "M01",
+            "raw": "\"M01\""
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 403,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 410,
-            "value": 23
+            "value": 23,
+            "raw": "23"
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 414,
-            "value": 45
+            "value": 45,
+            "raw": "45"
           },
           {
             "type": "Literal",
             "start": 416,
             "end": 417,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 420,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 423,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 463,
-            "value": "ignores if a timezone is specified"
+            "value": "ignores if a timezone is specified",
+            "raw": "\"ignores if a timezone is specified\""
           }
         ],
         "optional": false

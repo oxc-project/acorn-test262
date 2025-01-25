@@ -119,7 +119,8 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 477,
-                  "value": "#1: +Infinity is the same as Number.POSITIVE_INFINITY"
+                  "value": "#1: +Infinity is the same as Number.POSITIVE_INFINITY",
+                  "raw": "'#1: +Infinity is the same as Number.POSITIVE_INFINITY'"
                 }
               ]
             }
@@ -187,7 +188,8 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 610,
-                  "value": "#2: Infinity is the same as Number.POSITIVE_INFINITY"
+                  "value": "#2: Infinity is the same as Number.POSITIVE_INFINITY",
+                  "raw": "'#2: Infinity is the same as Number.POSITIVE_INFINITY'"
                 }
               ]
             }

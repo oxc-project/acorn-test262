@@ -1,32 +1,33 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1237,
+  "end": 1233,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1213,
-      "end": 1227,
+      "start": 1209,
+      "end": 1223,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 1214,
-          "end": 1226,
+          "start": 1210,
+          "end": 1222,
           "body": {
             "type": "ExpressionStatement",
-            "start": 1222,
-            "end": 1226,
+            "start": 1218,
+            "end": 1222,
             "expression": {
               "type": "Literal",
-              "start": 1222,
-              "end": 1226,
-              "value": 3000
+              "start": 1218,
+              "end": 1222,
+              "value": 3000,
+              "raw": "3000"
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 1214,
-            "end": 1220,
+            "start": 1210,
+            "end": 1216,
             "name": "length"
           }
         }
@@ -34,12 +35,12 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1227,
-      "end": 1236,
+      "start": 1223,
+      "end": 1232,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 1227,
-        "end": 1235,
+        "start": 1223,
+        "end": 1231,
         "id": null,
         "expression": true,
         "generator": false,
@@ -47,9 +48,10 @@
         "params": [],
         "body": {
           "type": "Literal",
-          "start": 1233,
-          "end": 1235,
-          "value": 42
+          "start": 1229,
+          "end": 1231,
+          "value": 42,
+          "raw": "42"
         }
       }
     }

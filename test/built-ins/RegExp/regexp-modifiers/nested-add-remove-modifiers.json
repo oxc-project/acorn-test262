@@ -23,6 +23,7 @@
             "start": 1732,
             "end": 1749,
             "value": null,
+            "raw": "/(?m:^(?-i:a)$)/i",
             "regex": {
               "pattern": "(?m:^(?-i:a)$)",
               "flags": "i"
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 1768,
                   "end": 1773,
-                  "value": "A\n"
+                  "value": "A\n",
+                  "raw": "\"A\\n\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 1776,
             "end": 1801,
-            "value": "Should not match 'A\\n'"
+            "value": "Should not match 'A\\n'",
+            "raw": "\"Should not match 'A\\\\n'\""
           }
         ],
         "optional": false
@@ -140,7 +143,8 @@
                 "type": "Literal",
                 "start": 1820,
                 "end": 1825,
-                "value": "a\n"
+                "value": "a\n",
+                "raw": "\"a\\n\""
               }
             ],
             "optional": false
@@ -149,7 +153,8 @@
             "type": "Literal",
             "start": 1828,
             "end": 1849,
-            "value": "Should match 'a\\n'"
+            "value": "Should match 'a\\n'",
+            "raw": "\"Should match 'a\\\\n'\""
           }
         ],
         "optional": false
@@ -185,13 +190,15 @@
                 "type": "Literal",
                 "start": 1874,
                 "end": 1890,
-                "value": "(?m:^(?-i:a)$)"
+                "value": "(?m:^(?-i:a)$)",
+                "raw": "\"(?m:^(?-i:a)$)\""
               },
               {
                 "type": "Literal",
                 "start": 1892,
                 "end": 1895,
-                "value": "i"
+                "value": "i",
+                "raw": "\"i\""
               }
             ]
           }
@@ -248,7 +255,8 @@
                   "type": "Literal",
                   "start": 1915,
                   "end": 1920,
-                  "value": "A\n"
+                  "value": "A\n",
+                  "raw": "\"A\\n\""
                 }
               ],
               "optional": false
@@ -258,7 +266,8 @@
             "type": "Literal",
             "start": 1923,
             "end": 1948,
-            "value": "Should not match 'A\\n'"
+            "value": "Should not match 'A\\n'",
+            "raw": "\"Should not match 'A\\\\n'\""
           }
         ],
         "optional": false
@@ -307,7 +316,8 @@
                 "type": "Literal",
                 "start": 1967,
                 "end": 1972,
-                "value": "a\n"
+                "value": "a\n",
+                "raw": "\"a\\n\""
               }
             ],
             "optional": false
@@ -316,7 +326,8 @@
             "type": "Literal",
             "start": 1975,
             "end": 1996,
-            "value": "Should match 'a\\n'"
+            "value": "Should match 'a\\n'",
+            "raw": "\"Should match 'a\\\\n'\""
           }
         ],
         "optional": false

@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 402,
               "end": 419,
-              "value": "zig-zig-sputnik"
+              "value": "zig-zig-sputnik",
+              "raw": "\"zig-zig-sputnik\""
             }
           }
         ]
@@ -67,7 +68,8 @@
           "type": "Literal",
           "start": 536,
           "end": 546,
-          "value": "function"
+          "value": "function",
+          "raw": "\"function\""
         }
       },
       "consequent": {
@@ -98,7 +100,8 @@
                     "type": "Literal",
                     "start": 574,
                     "end": 635,
-                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ==="
+                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
+                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -148,7 +151,8 @@
           "type": "Literal",
           "start": 843,
           "end": 860,
-          "value": "zig-zig-sputnik"
+          "value": "zig-zig-sputnik",
+          "raw": "\"zig-zig-sputnik\""
         }
       },
       "consequent": {
@@ -179,7 +183,8 @@
                     "type": "Literal",
                     "start": 888,
                     "end": 946,
-                    "value": "#2: __func() === \"zig-zig-sputnik\". Actual: __func() ==="
+                    "value": "#2: __func() === \"zig-zig-sputnik\". Actual: __func() ===",
+                    "raw": "'#2: __func() === \"zig-zig-sputnik\". Actual: __func() ==='"
                   },
                   "operator": "+",
                   "right": {

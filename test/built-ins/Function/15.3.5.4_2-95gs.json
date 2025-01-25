@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 400,
                 "end": 463,
-                "value": "return gNonStrict.caller || gNonStrict.caller.throwTypeError;"
+                "value": "return gNonStrict.caller || gNonStrict.caller.throwTypeError;",
+                "raw": "\"return gNonStrict.caller || gNonStrict.caller.throwTypeError;\""
               }
             ],
             "optional": false
@@ -69,7 +70,8 @@
               "type": "Literal",
               "start": 484,
               "end": 496,
-              "value": "use strict"
+              "value": "use strict",
+              "raw": "\"use strict\""
             },
             "directive": "use strict"
           },

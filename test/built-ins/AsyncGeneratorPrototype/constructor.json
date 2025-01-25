@@ -139,7 +139,8 @@
             "type": "Literal",
             "start": 755,
             "end": 768,
-            "value": "constructor"
+            "value": "constructor",
+            "raw": "'constructor'"
           },
           {
             "type": "ObjectExpression",
@@ -184,7 +185,8 @@
                   "type": "Literal",
                   "start": 811,
                   "end": 816,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -205,7 +207,8 @@
                   "type": "Literal",
                   "start": 830,
                   "end": 835,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -226,7 +229,8 @@
                   "type": "Literal",
                   "start": 853,
                   "end": 857,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

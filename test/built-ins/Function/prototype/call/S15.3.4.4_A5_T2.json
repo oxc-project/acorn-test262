@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 329,
             "end": 333,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -66,7 +67,8 @@
                     "type": "Literal",
                     "start": 362,
                     "end": 396,
-                    "value": "this.touched= true; return this;"
+                    "value": "this.touched= true; return this;",
+                    "raw": "\"this.touched= true; return this;\""
                   }
                 ]
               },
@@ -151,13 +153,15 @@
             "type": "Literal",
             "start": 447,
             "end": 458,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 525,
-            "value": "The value of `typeof obj.touched` is expected to be \"undefined\""
+            "value": "The value of `typeof obj.touched` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'"
           }
         ],
         "optional": false
@@ -192,7 +196,8 @@
               "type": "Literal",
               "start": 542,
               "end": 551,
-              "value": "touched"
+              "value": "touched",
+              "raw": "\"touched\""
             },
             "computed": true,
             "optional": false
@@ -201,7 +206,8 @@
             "type": "Literal",
             "start": 554,
             "end": 609,
-            "value": "The value of retobj[\"touched\"] is expected to be true"
+            "value": "The value of retobj[\"touched\"] is expected to be true",
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
           }
         ],
         "optional": false

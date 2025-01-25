@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 371,
             "end": 372,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -89,7 +90,8 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 430,
-                "value": "function"
+                "value": "function",
+                "raw": "\"function\""
               }
             },
             "consequent": {
@@ -122,7 +124,8 @@
                         "type": "Literal",
                         "start": 447,
                         "end": 448,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -159,7 +162,8 @@
                       "type": "Literal",
                       "start": 485,
                       "end": 486,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 },
@@ -194,7 +198,8 @@
           "type": "Literal",
           "start": 610,
           "end": 611,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -221,7 +226,8 @@
                   "type": "Literal",
                   "start": 639,
                   "end": 733,
-                  "value": "#1: FunctionExpression inside while construction expression allowed but function not declare"
+                  "value": "#1: FunctionExpression inside while construction expression allowed but function not declare",
+                  "raw": "'#1: FunctionExpression inside while construction expression allowed but function not declare'"
                 }
               ]
             }

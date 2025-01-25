@@ -101,7 +101,8 @@
                           "type": "Literal",
                           "start": 453,
                           "end": 462,
-                          "value": "intostr"
+                          "value": "intostr",
+                          "raw": "\"intostr\""
                         }
                       }
                     ]
@@ -145,7 +146,8 @@
                 "type": "Literal",
                 "start": 493,
                 "end": 509,
-                "value": "ABBABABAB"
+                "value": "ABBABABAB",
+                "raw": "\"ABB\\u0041BABAB\""
               }
             ]
           }
@@ -233,7 +235,8 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 724,
-                  "value": "#1: \"var x = __str.match(__obj)\" lead to throwing exception"
+                  "value": "#1: \"var x = __str.match(__obj)\" lead to throwing exception",
+                  "raw": "'#1: \"var x = __str.match(__obj)\" lead to throwing exception'"
                 }
               ]
             }
@@ -274,7 +277,8 @@
                   "type": "Literal",
                   "start": 753,
                   "end": 762,
-                  "value": "intostr"
+                  "value": "intostr",
+                  "raw": "\"intostr\""
                 }
               },
               "consequent": {
@@ -305,7 +309,8 @@
                             "type": "Literal",
                             "start": 793,
                             "end": 834,
-                            "value": "#1.1: Exception === \"intostr\". Actual: "
+                            "value": "#1.1: Exception === \"intostr\". Actual: ",
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
                           },
                           "operator": "+",
                           "right": {

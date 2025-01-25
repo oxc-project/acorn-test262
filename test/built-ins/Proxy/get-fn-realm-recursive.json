@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1882,
+  "end": 1880,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1341,
-      "end": 1380,
+      "start": 1339,
+      "end": 1378,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1345,
-          "end": 1379,
+          "start": 1343,
+          "end": 1377,
           "id": {
             "type": "Identifier",
-            "start": 1345,
-            "end": 1351,
+            "start": 1343,
+            "end": 1349,
             "name": "realm1"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1354,
-            "end": 1379,
+            "start": 1352,
+            "end": 1377,
             "object": {
               "type": "CallExpression",
-              "start": 1354,
-              "end": 1372,
+              "start": 1352,
+              "end": 1370,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1354,
-                "end": 1370,
+                "start": 1352,
+                "end": 1368,
                 "object": {
                   "type": "Identifier",
-                  "start": 1354,
-                  "end": 1358,
+                  "start": 1352,
+                  "end": 1356,
                   "name": "$262"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1359,
-                  "end": 1370,
+                  "start": 1357,
+                  "end": 1368,
                   "name": "createRealm"
                 },
                 "computed": false,
@@ -50,8 +50,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1373,
-              "end": 1379,
+              "start": 1371,
+              "end": 1377,
               "name": "global"
             },
             "computed": false,
@@ -63,41 +63,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1381,
-      "end": 1420,
+      "start": 1379,
+      "end": 1418,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1385,
-          "end": 1419,
+          "start": 1383,
+          "end": 1417,
           "id": {
             "type": "Identifier",
-            "start": 1385,
-            "end": 1391,
+            "start": 1383,
+            "end": 1389,
             "name": "realm2"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1394,
-            "end": 1419,
+            "start": 1392,
+            "end": 1417,
             "object": {
               "type": "CallExpression",
-              "start": 1394,
-              "end": 1412,
+              "start": 1392,
+              "end": 1410,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1394,
-                "end": 1410,
+                "start": 1392,
+                "end": 1408,
                 "object": {
                   "type": "Identifier",
-                  "start": 1394,
-                  "end": 1398,
+                  "start": 1392,
+                  "end": 1396,
                   "name": "$262"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1399,
-                  "end": 1410,
+                  "start": 1397,
+                  "end": 1408,
                   "name": "createRealm"
                 },
                 "computed": false,
@@ -108,8 +108,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1413,
-              "end": 1419,
+              "start": 1411,
+              "end": 1417,
               "name": "global"
             },
             "computed": false,
@@ -121,41 +121,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1421,
-      "end": 1460,
+      "start": 1419,
+      "end": 1458,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1425,
-          "end": 1459,
+          "start": 1423,
+          "end": 1457,
           "id": {
             "type": "Identifier",
-            "start": 1425,
-            "end": 1431,
+            "start": 1423,
+            "end": 1429,
             "name": "realm3"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1434,
-            "end": 1459,
+            "start": 1432,
+            "end": 1457,
             "object": {
               "type": "CallExpression",
-              "start": 1434,
-              "end": 1452,
+              "start": 1432,
+              "end": 1450,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1434,
-                "end": 1450,
+                "start": 1432,
+                "end": 1448,
                 "object": {
                   "type": "Identifier",
-                  "start": 1434,
-                  "end": 1438,
+                  "start": 1432,
+                  "end": 1436,
                   "name": "$262"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1439,
-                  "end": 1450,
+                  "start": 1437,
+                  "end": 1448,
                   "name": "createRealm"
                 },
                 "computed": false,
@@ -166,8 +166,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1453,
-              "end": 1459,
+              "start": 1451,
+              "end": 1457,
               "name": "global"
             },
             "computed": false,
@@ -179,41 +179,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1461,
-      "end": 1500,
+      "start": 1459,
+      "end": 1498,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1465,
-          "end": 1499,
+          "start": 1463,
+          "end": 1497,
           "id": {
             "type": "Identifier",
-            "start": 1465,
-            "end": 1471,
+            "start": 1463,
+            "end": 1469,
             "name": "realm4"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1474,
-            "end": 1499,
+            "start": 1472,
+            "end": 1497,
             "object": {
               "type": "CallExpression",
-              "start": 1474,
-              "end": 1492,
+              "start": 1472,
+              "end": 1490,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1474,
-                "end": 1490,
+                "start": 1472,
+                "end": 1488,
                 "object": {
                   "type": "Identifier",
-                  "start": 1474,
-                  "end": 1478,
+                  "start": 1472,
+                  "end": 1476,
                   "name": "$262"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1479,
-                  "end": 1490,
+                  "start": 1477,
+                  "end": 1488,
                   "name": "createRealm"
                 },
                 "computed": false,
@@ -224,8 +224,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1493,
-              "end": 1499,
+              "start": 1491,
+              "end": 1497,
               "name": "global"
             },
             "computed": false,
@@ -237,37 +237,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1502,
-      "end": 1540,
+      "start": 1500,
+      "end": 1538,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1506,
-          "end": 1539,
+          "start": 1504,
+          "end": 1537,
           "id": {
             "type": "Identifier",
-            "start": 1506,
-            "end": 1515,
+            "start": 1504,
+            "end": 1513,
             "name": "newTarget"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1518,
-            "end": 1539,
+            "start": 1516,
+            "end": 1537,
             "callee": {
               "type": "MemberExpression",
-              "start": 1522,
-              "end": 1537,
+              "start": 1520,
+              "end": 1535,
               "object": {
                 "type": "Identifier",
-                "start": 1522,
-                "end": 1528,
+                "start": 1520,
+                "end": 1526,
                 "name": "realm1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1529,
-                "end": 1537,
+                "start": 1527,
+                "end": 1535,
                 "name": "Function"
               },
               "computed": false,
@@ -281,27 +281,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1541,
-      "end": 1568,
+      "start": 1539,
+      "end": 1566,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1541,
-        "end": 1567,
+        "start": 1539,
+        "end": 1565,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1541,
-          "end": 1560,
+          "start": 1539,
+          "end": 1558,
           "object": {
             "type": "Identifier",
-            "start": 1541,
-            "end": 1550,
+            "start": 1539,
+            "end": 1548,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1551,
-            "end": 1560,
+            "start": 1549,
+            "end": 1558,
             "name": "prototype"
           },
           "computed": false,
@@ -309,45 +309,46 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1563,
-          "end": 1567,
-          "value": null
+          "start": 1561,
+          "end": 1565,
+          "value": null,
+          "raw": "null"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 1570,
-      "end": 1623,
+      "start": 1568,
+      "end": 1621,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1574,
-          "end": 1622,
+          "start": 1572,
+          "end": 1620,
           "id": {
             "type": "Identifier",
-            "start": 1574,
-            "end": 1588,
+            "start": 1572,
+            "end": 1586,
             "name": "newTargetProxy"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1591,
-            "end": 1622,
+            "start": 1589,
+            "end": 1620,
             "callee": {
               "type": "MemberExpression",
-              "start": 1595,
-              "end": 1607,
+              "start": 1593,
+              "end": 1605,
               "object": {
                 "type": "Identifier",
-                "start": 1595,
-                "end": 1601,
+                "start": 1593,
+                "end": 1599,
                 "name": "realm2"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1602,
-                "end": 1607,
+                "start": 1600,
+                "end": 1605,
                 "name": "Proxy"
               },
               "computed": false,
@@ -356,14 +357,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1608,
-                "end": 1617,
+                "start": 1606,
+                "end": 1615,
                 "name": "newTarget"
               },
               {
                 "type": "ObjectExpression",
-                "start": 1619,
-                "end": 1621,
+                "start": 1617,
+                "end": 1619,
                 "properties": []
               }
             ]
@@ -374,37 +375,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1624,
-      "end": 1687,
+      "start": 1622,
+      "end": 1685,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1628,
-          "end": 1686,
+          "start": 1626,
+          "end": 1684,
           "id": {
             "type": "Identifier",
-            "start": 1628,
-            "end": 1647,
+            "start": 1626,
+            "end": 1645,
             "name": "newTargetProxyProxy"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1650,
-            "end": 1686,
+            "start": 1648,
+            "end": 1684,
             "callee": {
               "type": "MemberExpression",
-              "start": 1654,
-              "end": 1666,
+              "start": 1652,
+              "end": 1664,
               "object": {
                 "type": "Identifier",
-                "start": 1654,
-                "end": 1660,
+                "start": 1652,
+                "end": 1658,
                 "name": "realm3"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1661,
-                "end": 1666,
+                "start": 1659,
+                "end": 1664,
                 "name": "Proxy"
               },
               "computed": false,
@@ -413,14 +414,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1667,
-                "end": 1681,
+                "start": 1665,
+                "end": 1679,
                 "name": "newTargetProxy"
               },
               {
                 "type": "ObjectExpression",
-                "start": 1683,
-                "end": 1685,
+                "start": 1681,
+                "end": 1683,
                 "properties": []
               }
             ]
@@ -431,37 +432,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1688,
-      "end": 1761,
+      "start": 1686,
+      "end": 1759,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1692,
-          "end": 1760,
+          "start": 1690,
+          "end": 1758,
           "id": {
             "type": "Identifier",
-            "start": 1692,
-            "end": 1699,
+            "start": 1690,
+            "end": 1697,
             "name": "boolean"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1702,
-            "end": 1760,
+            "start": 1700,
+            "end": 1758,
             "callee": {
               "type": "MemberExpression",
-              "start": 1702,
-              "end": 1719,
+              "start": 1700,
+              "end": 1717,
               "object": {
                 "type": "Identifier",
-                "start": 1702,
-                "end": 1709,
+                "start": 1700,
+                "end": 1707,
                 "name": "Reflect"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1710,
-                "end": 1719,
+                "start": 1708,
+                "end": 1717,
                 "name": "construct"
               },
               "computed": false,
@@ -470,18 +471,18 @@
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 1720,
-                "end": 1734,
+                "start": 1718,
+                "end": 1732,
                 "object": {
                   "type": "Identifier",
-                  "start": 1720,
-                  "end": 1726,
+                  "start": 1718,
+                  "end": 1724,
                   "name": "realm4"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1727,
-                  "end": 1734,
+                  "start": 1725,
+                  "end": 1732,
                   "name": "Boolean"
                 },
                 "computed": false,
@@ -489,14 +490,14 @@
               },
               {
                 "type": "ArrayExpression",
-                "start": 1736,
-                "end": 1738,
+                "start": 1734,
+                "end": 1736,
                 "elements": []
               },
               {
                 "type": "Identifier",
-                "start": 1740,
-                "end": 1759,
+                "start": 1738,
+                "end": 1757,
                 "name": "newTargetProxyProxy"
               }
             ],
@@ -508,44 +509,44 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1763,
-      "end": 1805,
+      "start": 1761,
+      "end": 1803,
       "expression": {
         "type": "CallExpression",
-        "start": 1763,
-        "end": 1804,
+        "start": 1761,
+        "end": 1802,
         "callee": {
           "type": "Identifier",
-          "start": 1763,
-          "end": 1769,
+          "start": 1761,
+          "end": 1767,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1770,
-            "end": 1803,
+            "start": 1768,
+            "end": 1801,
             "left": {
               "type": "Identifier",
-              "start": 1770,
-              "end": 1777,
+              "start": 1768,
+              "end": 1775,
               "name": "boolean"
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 1789,
-              "end": 1803,
+              "start": 1787,
+              "end": 1801,
               "object": {
                 "type": "Identifier",
-                "start": 1789,
-                "end": 1795,
+                "start": 1787,
+                "end": 1793,
                 "name": "realm1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1796,
-                "end": 1803,
+                "start": 1794,
+                "end": 1801,
                 "name": "Boolean"
               },
               "computed": false,
@@ -558,26 +559,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1806,
-      "end": 1881,
+      "start": 1804,
+      "end": 1879,
       "expression": {
         "type": "CallExpression",
-        "start": 1806,
-        "end": 1880,
+        "start": 1804,
+        "end": 1878,
         "callee": {
           "type": "MemberExpression",
-          "start": 1806,
-          "end": 1822,
+          "start": 1804,
+          "end": 1820,
           "object": {
             "type": "Identifier",
-            "start": 1806,
-            "end": 1812,
+            "start": 1804,
+            "end": 1810,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1813,
-            "end": 1822,
+            "start": 1811,
+            "end": 1820,
             "name": "sameValue"
           },
           "computed": false,
@@ -586,22 +587,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1823,
-            "end": 1853,
+            "start": 1821,
+            "end": 1851,
             "callee": {
               "type": "MemberExpression",
-              "start": 1823,
-              "end": 1844,
+              "start": 1821,
+              "end": 1842,
               "object": {
                 "type": "Identifier",
-                "start": 1823,
-                "end": 1829,
+                "start": 1821,
+                "end": 1827,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1830,
-                "end": 1844,
+                "start": 1828,
+                "end": 1842,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -610,8 +611,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1845,
-                "end": 1852,
+                "start": 1843,
+                "end": 1850,
                 "name": "boolean"
               }
             ],
@@ -619,22 +620,22 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1855,
-            "end": 1879,
+            "start": 1853,
+            "end": 1877,
             "object": {
               "type": "MemberExpression",
-              "start": 1855,
-              "end": 1869,
+              "start": 1853,
+              "end": 1867,
               "object": {
                 "type": "Identifier",
-                "start": 1855,
-                "end": 1861,
+                "start": 1853,
+                "end": 1859,
                 "name": "realm1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1862,
-                "end": 1869,
+                "start": 1860,
+                "end": 1867,
                 "name": "Boolean"
               },
               "computed": false,
@@ -642,8 +643,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1870,
-              "end": 1879,
+              "start": 1868,
+              "end": 1877,
               "name": "prototype"
             },
             "computed": false,

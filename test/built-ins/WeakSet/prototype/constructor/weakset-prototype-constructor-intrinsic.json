@@ -73,7 +73,8 @@
             "type": "Literal",
             "start": 360,
             "end": 417,
-            "value": "The value of WeakSet.prototype.constructor is \"WeakSet\""
+            "value": "The value of WeakSet.prototype.constructor is \"WeakSet\"",
+            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'"
           }
         ],
         "optional": false

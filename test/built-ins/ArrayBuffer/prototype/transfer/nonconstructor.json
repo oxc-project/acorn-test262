@@ -75,7 +75,8 @@
             "type": "Literal",
             "start": 711,
             "end": 764,
-            "value": "ArrayBuffer.prototype.transfer is not a constructor"
+            "value": "ArrayBuffer.prototype.transfer is not a constructor",
+            "raw": "\"ArrayBuffer.prototype.transfer is not a constructor\""
           }
         ],
         "optional": false
@@ -111,7 +112,8 @@
                 "type": "Literal",
                 "start": 802,
                 "end": 803,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }

@@ -98,7 +98,8 @@
             "type": "Literal",
             "start": 400,
             "end": 443,
-            "value": "f /* a */ ( /* b */ ) /* c */ { /* d */ }"
+            "value": "f /* a */ ( /* b */ ) /* c */ { /* d */ }",
+            "raw": "\"f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
           }
         ],
         "optional": false

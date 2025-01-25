@@ -23,6 +23,7 @@
             "start": 771,
             "end": 775,
             "value": {},
+            "raw": "/./y",
             "regex": {
               "pattern": ".",
               "flags": "y"
@@ -84,7 +85,8 @@
           "type": "Literal",
           "start": 802,
           "end": 803,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -144,7 +146,8 @@
               "type": "Literal",
               "start": 830,
               "end": 835,
-              "value": "abc"
+              "value": "abc",
+              "raw": "'abc'"
             }
           ],
           "optional": false
@@ -189,7 +192,8 @@
             "type": "Literal",
             "start": 866,
             "end": 870,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -246,7 +250,8 @@
             "type": "Literal",
             "start": 904,
             "end": 905,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -294,7 +299,8 @@
               "type": "Literal",
               "start": 931,
               "end": 932,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -303,7 +309,8 @@
             "type": "Literal",
             "start": 935,
             "end": 938,
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           }
         ],
         "optional": false

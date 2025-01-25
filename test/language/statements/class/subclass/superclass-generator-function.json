@@ -200,7 +200,8 @@
             "type": "Literal",
             "start": 801,
             "end": 812,
-            "value": "prototype"
+            "value": "prototype",
+            "raw": "\"prototype\""
           },
           {
             "type": "ObjectExpression",
@@ -253,7 +254,8 @@
                               "type": "Literal",
                               "start": 863,
                               "end": 902,
-                              "value": "`superclass.prototype` is unreachable"
+                              "value": "`superclass.prototype` is unreachable",
+                              "raw": "\"`superclass.prototype` is unreachable\""
                             }
                           ]
                         }

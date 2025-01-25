@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 348,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -97,13 +98,15 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -154,19 +157,22 @@
                 "type": "Literal",
                 "start": 435,
                 "end": 436,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 439,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 442,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -217,25 +223,29 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 486,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 492,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -286,25 +296,29 @@
                 "type": "Literal",
                 "start": 533,
                 "end": 534,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 537,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 539,
                 "end": 540,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 542,
                 "end": 543,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -402,14 +416,16 @@
               "type": "Literal",
               "start": 609,
               "end": 610,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 644,
-            "value": "days do not require relativeTo"
+            "value": "days do not require relativeTo",
+            "raw": "\"days do not require relativeTo\""
           }
         ],
         "optional": false
@@ -515,7 +531,8 @@
             "type": "Literal",
             "start": 724,
             "end": 766,
-            "value": "weeks in left operand require relativeTo"
+            "value": "weeks in left operand require relativeTo",
+            "raw": "\"weeks in left operand require relativeTo\""
           }
         ],
         "optional": false
@@ -621,7 +638,8 @@
             "type": "Literal",
             "start": 845,
             "end": 888,
-            "value": "weeks in right operand require relativeTo"
+            "value": "weeks in right operand require relativeTo",
+            "raw": "\"weeks in right operand require relativeTo\""
           }
         ],
         "optional": false
@@ -727,7 +745,8 @@
             "type": "Literal",
             "start": 969,
             "end": 1012,
-            "value": "months in left operand require relativeTo"
+            "value": "months in left operand require relativeTo",
+            "raw": "\"months in left operand require relativeTo\""
           }
         ],
         "optional": false
@@ -833,7 +852,8 @@
             "type": "Literal",
             "start": 1092,
             "end": 1136,
-            "value": "months in right operand require relativeTo"
+            "value": "months in right operand require relativeTo",
+            "raw": "\"months in right operand require relativeTo\""
           }
         ],
         "optional": false
@@ -939,7 +959,8 @@
             "type": "Literal",
             "start": 1216,
             "end": 1258,
-            "value": "years in left operand require relativeTo"
+            "value": "years in left operand require relativeTo",
+            "raw": "\"years in left operand require relativeTo\""
           }
         ],
         "optional": false
@@ -1045,7 +1066,8 @@
             "type": "Literal",
             "start": 1337,
             "end": 1380,
-            "value": "years in right operand require relativeTo"
+            "value": "years in right operand require relativeTo",
+            "raw": "\"years in right operand require relativeTo\""
           }
         ],
         "optional": false

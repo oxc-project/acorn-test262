@@ -42,7 +42,8 @@
           "type": "Literal",
           "start": 542,
           "end": 547,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -73,7 +74,8 @@
                     "type": "Literal",
                     "start": 576,
                     "end": 615,
-                    "value": "#1: delete Math.E === false. Actual: "
+                    "value": "#1: delete Math.E === false. Actual: ",
+                    "raw": "'#1: delete Math.E === false. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -169,7 +171,8 @@
                   "type": "Literal",
                   "start": 861,
                   "end": 902,
-                  "value": "#2: delete Math.E; Math.E !== undefined"
+                  "value": "#2: delete Math.E; Math.E !== undefined",
+                  "raw": "'#2: delete Math.E; Math.E !== undefined'"
                 }
               ]
             }

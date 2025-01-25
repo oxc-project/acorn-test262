@@ -41,7 +41,8 @@
                 "type": "Literal",
                 "start": 493,
                 "end": 494,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -110,7 +111,8 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 675,
-                  "value": "#0: \"x=x\" lead to throwing exception"
+                  "value": "#0: \"x=x\" lead to throwing exception",
+                  "raw": "'#0: \"x=x\" lead to throwing exception'"
                 }
               ]
             }
@@ -253,7 +255,8 @@
                       "type": "Literal",
                       "start": 976,
                       "end": 1057,
-                      "value": "#1: var __x=__func() does not lead to throwing exception. Actual: exception is "
+                      "value": "#1: var __x=__func() does not lead to throwing exception. Actual: exception is ",
+                      "raw": "'#1: var __x=__func() does not lead to throwing exception. Actual: exception is '"
                     },
                     "operator": "+",
                     "right": {
@@ -290,7 +293,8 @@
           "type": "Literal",
           "start": 1248,
           "end": 1249,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -321,7 +325,8 @@
                     "type": "Literal",
                     "start": 1277,
                     "end": 1309,
-                    "value": "#2: __x === 1. Actual: __x ==="
+                    "value": "#2: __x === 1. Actual: __x ===",
+                    "raw": "'#2: __x === 1. Actual: __x ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +362,8 @@
           "type": "Literal",
           "start": 1500,
           "end": 1501,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -388,7 +394,8 @@
                     "type": "Literal",
                     "start": 1529,
                     "end": 1557,
-                    "value": "#3: x === 1. Actual: x ==="
+                    "value": "#3: x === 1. Actual: x ===",
+                    "raw": "'#3: x === 1. Actual: x ==='"
                   },
                   "operator": "+",
                   "right": {

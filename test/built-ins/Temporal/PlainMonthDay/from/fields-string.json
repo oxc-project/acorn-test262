@@ -254,13 +254,15 @@
                   "type": "Literal",
                   "start": 572,
                   "end": 577,
-                  "value": "M10"
+                  "value": "M10",
+                  "raw": "\"M10\""
                 },
                 {
                   "type": "Literal",
                   "start": 579,
                   "end": 580,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -352,7 +354,8 @@
                   "type": "Literal",
                   "start": 648,
                   "end": 657,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "TemplateLiteral",

@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 815,
-                  "value": "inner error"
+                  "value": "inner error",
+                  "raw": "\"inner error\""
                 },
                 "kind": "init"
               }
@@ -192,7 +193,8 @@
                                       "type": "Literal",
                                       "start": 951,
                                       "end": 956,
-                                      "value": false
+                                      "value": false,
+                                      "raw": "false"
                                     },
                                     "kind": "init"
                                   },
@@ -213,7 +215,8 @@
                                       "type": "Literal",
                                       "start": 965,
                                       "end": 969,
-                                      "value": null
+                                      "value": null,
+                                      "raw": "null"
                                     },
                                     "kind": "init"
                                   }
@@ -295,7 +298,8 @@
             "type": "Literal",
             "start": 1060,
             "end": 1061,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -393,7 +397,8 @@
                                 "type": "Literal",
                                 "start": 1162,
                                 "end": 1163,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           },
@@ -497,7 +502,8 @@
                               "type": "Literal",
                               "start": 1243,
                               "end": 1278,
-                              "value": "Promise should be rejected, got: "
+                              "value": "Promise should be rejected, got: ",
+                              "raw": "\"Promise should be rejected, got: \""
                             },
                             "operator": "+",
                             "right": {
@@ -616,13 +622,15 @@
                             "type": "Literal",
                             "start": 1384,
                             "end": 1385,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1387,
                             "end": 1415,
-                            "value": "The loop body is evaluated"
+                            "value": "The loop body is evaluated",
+                            "raw": "\"The loop body is evaluated\""
                           }
                         ],
                         "optional": false

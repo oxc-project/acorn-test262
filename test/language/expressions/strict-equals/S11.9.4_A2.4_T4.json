@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 328,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             },
@@ -78,7 +79,8 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 384,
-                  "value": "#1: (y = 1) === y"
+                  "value": "#1: (y = 1) === y",
+                  "raw": "'#1: (y = 1) === y'"
                 }
               ]
             }

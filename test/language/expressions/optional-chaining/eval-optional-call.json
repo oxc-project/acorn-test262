@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 849,
             "end": 857,
-            "value": "global"
+            "value": "global",
+            "raw": "'global'"
           }
         }
       ],
@@ -66,7 +67,8 @@
                   "type": "Literal",
                   "start": 888,
                   "end": 895,
-                  "value": "local"
+                  "value": "local",
+                  "raw": "'local'"
                 }
               }
             ],
@@ -95,7 +97,8 @@
                     "type": "Literal",
                     "start": 913,
                     "end": 916,
-                    "value": "a"
+                    "value": "a",
+                    "raw": "'a'"
                   }
                 ],
                 "optional": true
@@ -150,13 +153,15 @@
             "type": "Literal",
             "start": 945,
             "end": 953,
-            "value": "global"
+            "value": "global",
+            "raw": "'global'"
           },
           {
             "type": "Literal",
             "start": 955,
             "end": 1003,
-            "value": "fn() returns \"global\" value from indirect eval"
+            "value": "fn() returns \"global\" value from indirect eval",
+            "raw": "'fn() returns \"global\" value from indirect eval'"
           }
         ],
         "optional": false
@@ -220,7 +225,8 @@
                         "type": "Literal",
                         "start": 1030,
                         "end": 1033,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       }
                     ],
                     "optional": true
@@ -233,7 +239,8 @@
                 "type": "Literal",
                 "start": 1036,
                 "end": 1043,
-                "value": "local"
+                "value": "local",
+                "raw": "'local'"
               }
             ],
             "optional": false
@@ -280,13 +287,15 @@
             "type": "Literal",
             "start": 1067,
             "end": 1075,
-            "value": "global"
+            "value": "global",
+            "raw": "'global'"
           },
           {
             "type": "Literal",
             "start": 1077,
             "end": 1136,
-            "value": "b is \"global\", from indirect eval not observing parameter"
+            "value": "b is \"global\", from indirect eval not observing parameter",
+            "raw": "'b is \"global\", from indirect eval not observing parameter'"
           }
         ],
         "optional": false

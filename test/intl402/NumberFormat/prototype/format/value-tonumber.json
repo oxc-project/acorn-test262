@@ -51,7 +51,8 @@
                     "type": "Literal",
                     "start": 457,
                     "end": 461,
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   },
                   {
                     "type": "UnaryExpression",
@@ -63,7 +64,8 @@
                       "type": "Literal",
                       "start": 464,
                       "end": 465,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ]
@@ -77,13 +79,15 @@
                     "type": "Literal",
                     "start": 471,
                     "end": 475,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 477,
                     "end": 478,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
@@ -96,13 +100,15 @@
                     "type": "Literal",
                     "start": 484,
                     "end": 489,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   },
                   {
                     "type": "Literal",
                     "start": 491,
                     "end": 492,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 ]
               },
@@ -115,13 +121,15 @@
                     "type": "Literal",
                     "start": 498,
                     "end": 502,
-                    "value": "42"
+                    "value": "42",
+                    "raw": "'42'"
                   },
                   {
                     "type": "Literal",
                     "start": 504,
                     "end": 506,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   }
                 ]
               },
@@ -134,7 +142,8 @@
                     "type": "Literal",
                     "start": 512,
                     "end": 517,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "'foo'"
                   },
                   {
                     "type": "Identifier",
@@ -153,7 +162,8 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 538,
-                    "value": "Infinity"
+                    "value": "Infinity",
+                    "raw": "'Infinity'"
                   },
                   {
                     "type": "Identifier",
@@ -172,7 +182,8 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 565,
-                    "value": "-Infinity"
+                    "value": "-Infinity",
+                    "raw": "'-Infinity'"
                   },
                   {
                     "type": "UnaryExpression",
@@ -450,7 +461,8 @@
             "type": "Literal",
             "start": 759,
             "end": 760,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -561,7 +573,8 @@
                   "type": "Literal",
                   "start": 826,
                   "end": 834,
-                  "value": "number"
+                  "value": "number",
+                  "raw": "'number'"
                 }
               },
               "consequent": {
@@ -724,7 +737,8 @@
             "type": "Literal",
             "start": 931,
             "end": 932,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -818,7 +832,8 @@
             "type": "Literal",
             "start": 995,
             "end": 1058,
-            "value": "ToNumber(arg) throws a TypeError when arg is of type 'Symbol'"
+            "value": "ToNumber(arg) throws a TypeError when arg is of type 'Symbol'",
+            "raw": "\"ToNumber(arg) throws a TypeError when arg is of type 'Symbol'\""
           }
         ],
         "optional": false

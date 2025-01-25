@@ -114,7 +114,8 @@
                   "type": "Literal",
                   "start": 437,
                   "end": 439,
-                  "value": 12
+                  "value": 12,
+                  "raw": "12"
                 }
               }
             ],
@@ -124,13 +125,15 @@
             "type": "Literal",
             "start": 442,
             "end": 447,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 464,
-            "value": "fun.call(-12)"
+            "value": "fun.call(-12)",
+            "raw": "'fun.call(-12)'"
           }
         ],
         "optional": false

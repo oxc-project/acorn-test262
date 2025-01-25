@@ -52,7 +52,8 @@
                 "type": "Literal",
                 "start": 1902,
                 "end": 1909,
-                "value": "value"
+                "value": "value",
+                "raw": "'value'"
               },
               {
                 "type": "ObjectExpression",
@@ -426,7 +427,8 @@
                             "type": "Literal",
                             "start": 2215,
                             "end": 2265,
-                            "value": "Expected async function to reject, but resolved."
+                            "value": "Expected async function to reject, but resolved.",
+                            "raw": "\"Expected async function to reject, but resolved.\""
                           }
                         ]
                       }

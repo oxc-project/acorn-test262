@@ -49,7 +49,8 @@
               "type": "Literal",
               "start": 332,
               "end": 336,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
@@ -86,13 +87,15 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 356,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 358,
                   "end": 360,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -113,7 +116,8 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 373,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               }
@@ -258,13 +262,15 @@
             "type": "Literal",
             "start": 470,
             "end": 471,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 488,
-            "value": "newArr.length"
+            "value": "newArr.length",
+            "raw": "'newArr.length'"
           }
         ],
         "optional": false
@@ -312,7 +318,8 @@
               "type": "Literal",
               "start": 515,
               "end": 516,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -321,13 +328,15 @@
             "type": "Literal",
             "start": 519,
             "end": 521,
-            "value": 11
+            "value": 11,
+            "raw": "11"
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 534,
-            "value": "newArr[0]"
+            "value": "newArr[0]",
+            "raw": "'newArr[0]'"
           }
         ],
         "optional": false

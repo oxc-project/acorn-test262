@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 350,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -73,7 +74,8 @@
             "type": "Literal",
             "start": 365,
             "end": 410,
-            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]"
+            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]",
+            "raw": "\"1970-01-01T00:02:00.000000000+00:02[+01:30]\""
           }
         }
       ],
@@ -169,13 +171,15 @@
             "type": "Literal",
             "start": 475,
             "end": 479,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 531,
-            "value": "UTC offset determined from offset part of string"
+            "value": "UTC offset determined from offset part of string",
+            "raw": "\"UTC offset determined from offset part of string\""
           }
         ],
         "optional": false

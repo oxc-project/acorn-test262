@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1480,
             "end": 1481,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1501,
             "end": 1502,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -144,7 +146,8 @@
                             "type": "Literal",
                             "start": 1578,
                             "end": 1579,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       },
@@ -174,7 +177,8 @@
                                 "type": "Literal",
                                 "start": 1600,
                                 "end": 1604,
-                                "value": true
+                                "value": true,
+                                "raw": "true"
                               },
                               "kind": "init"
                             }
@@ -232,7 +236,8 @@
                             "type": "Literal",
                             "start": 1655,
                             "end": 1656,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         }
                       }
@@ -296,7 +301,8 @@
                 "type": "Literal",
                 "start": 1701,
                 "end": 1711,
-                "value": "poisoned"
+                "value": "poisoned",
+                "raw": "'poisoned'"
               },
               {
                 "type": "ObjectExpression",
@@ -500,7 +506,8 @@
                         "type": "Literal",
                         "start": 1881,
                         "end": 1882,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "AssignmentExpression",
@@ -593,7 +600,8 @@
             "type": "Literal",
             "start": 1947,
             "end": 1948,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -637,7 +645,8 @@
             "type": "Literal",
             "start": 1981,
             "end": 1982,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

@@ -80,7 +80,8 @@
             "type": "Literal",
             "start": 553,
             "end": 562,
-            "value": "Promise"
+            "value": "Promise",
+            "raw": "'Promise'"
           }
         ],
         "optional": false
@@ -161,7 +162,8 @@
                   "type": "Literal",
                   "start": 634,
                   "end": 639,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -182,7 +184,8 @@
                   "type": "Literal",
                   "start": 655,
                   "end": 660,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -203,7 +206,8 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 682,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

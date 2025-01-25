@@ -151,7 +151,8 @@
                 "type": "Literal",
                 "start": 612,
                 "end": 614,
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             }
           ],
@@ -162,7 +163,8 @@
           "type": "Literal",
           "start": 620,
           "end": 625,
-          "value": "[ob"
+          "value": "[ob",
+          "raw": "\"[ob\""
         }
       },
       "consequent": {
@@ -193,7 +195,8 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 785,
-                    "value": "#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: "
+                    "value": "#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: ",
+                    "raw": "'#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -249,7 +252,8 @@
                           "type": "Literal",
                           "start": 819,
                           "end": 821,
-                          "value": 10
+                          "value": 10,
+                          "raw": "10"
                         }
                       }
                     ],

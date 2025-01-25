@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 295,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 300,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 306,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 313,
-                "value": false
+                "value": false,
+                "raw": "false"
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 319,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               null,
               {
@@ -91,7 +96,8 @@
             "type": "Literal",
             "start": 358,
             "end": 359,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -201,7 +207,8 @@
                     "type": "Literal",
                     "start": 425,
                     "end": 444,
-                    "value": "element at index "
+                    "value": "element at index ",
+                    "raw": "'element at index '"
                   },
                   "operator": "+",
                   "right": {
@@ -274,13 +281,15 @@
             "type": "Literal",
             "start": 481,
             "end": 482,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 505,
-            "value": "Visits all elements"
+            "value": "Visits all elements",
+            "raw": "'Visits all elements'"
           }
         ],
         "optional": false

@@ -12,6 +12,7 @@
         "start": 339,
         "end": 351,
         "value": {},
+        "raw": "/[\\p{Hex}]/u",
         "regex": {
           "pattern": "[\\p{Hex}]",
           "flags": "u"
@@ -46,6 +47,7 @@
                 "start": 364,
                 "end": 383,
                 "value": {},
+                "raw": "/[\\p{Hex}\\P{Hex}]/u",
                 "regex": {
                   "pattern": "[\\p{Hex}\\P{Hex}]",
                   "flags": "u"
@@ -65,7 +67,8 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 400,
-                "value": "𝌆"
+                "value": "𝌆",
+                "raw": "'\\u{1D306}'"
               }
             ],
             "optional": false
@@ -74,7 +77,8 @@
             "type": "Literal",
             "start": 405,
             "end": 480,
-            "value": "multiple property escapes in a single character class should be supported"
+            "value": "multiple property escapes in a single character class should be supported",
+            "raw": "'multiple property escapes in a single character class should be supported'"
           }
         ],
         "optional": false

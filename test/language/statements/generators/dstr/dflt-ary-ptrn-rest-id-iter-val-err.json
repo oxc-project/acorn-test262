@@ -52,7 +52,8 @@
                 "type": "Literal",
                 "start": 1927,
                 "end": 1934,
-                "value": "value"
+                "value": "value",
+                "raw": "'value'"
               },
               {
                 "type": "ObjectExpression",

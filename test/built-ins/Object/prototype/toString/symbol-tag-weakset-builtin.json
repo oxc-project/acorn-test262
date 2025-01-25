@@ -207,7 +207,8 @@
             "type": "Literal",
             "start": 664,
             "end": 681,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           }
         ],
         "optional": false

@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 246,
                 "end": 273,
-                "value": "1972-02-11[u-ca=islamicc]"
+                "value": "1972-02-11[u-ca=islamicc]",
+                "raw": "\"1972-02-11[u-ca=islamicc]\""
               },
               {
                 "type": "ObjectExpression",
@@ -48,7 +49,8 @@
                       "type": "Literal",
                       "start": 290,
                       "end": 295,
-                      "value": "M12"
+                      "value": "M12",
+                      "raw": "\"M12\""
                     },
                     "kind": "init"
                   },
@@ -69,7 +71,8 @@
                       "type": "Literal",
                       "start": 302,
                       "end": 304,
-                      "value": 25
+                      "value": 25,
+                      "raw": "25"
                     },
                     "kind": "init"
                   },
@@ -90,7 +93,8 @@
                       "type": "Literal",
                       "start": 316,
                       "end": 326,
-                      "value": "islamicc"
+                      "value": "islamicc",
+                      "raw": "\"islamicc\""
                     },
                     "kind": "init"
                   }
@@ -245,13 +249,15 @@
                         "type": "Literal",
                         "start": 440,
                         "end": 455,
-                        "value": "islamic-civil"
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\""
                       },
                       {
                         "type": "Literal",
                         "start": 457,
                         "end": 487,
-                        "value": "calendar ID is canonicalized"
+                        "value": "calendar ID is canonicalized",
+                        "raw": "\"calendar ID is canonicalized\""
                       }
                     ],
                     "optional": false

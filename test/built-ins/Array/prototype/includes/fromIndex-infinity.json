@@ -1,51 +1,55 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 840,
+  "end": 838,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 627,
-      "end": 657,
+      "start": 625,
+      "end": 655,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 631,
-          "end": 656,
+          "start": 629,
+          "end": 654,
           "id": {
             "type": "Identifier",
-            "start": 631,
-            "end": 637,
+            "start": 629,
+            "end": 635,
             "name": "sample"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 640,
-            "end": 656,
+            "start": 638,
+            "end": 654,
             "elements": [
               {
                 "type": "Literal",
-                "start": 641,
-                "end": 643,
-                "value": 42
+                "start": 639,
+                "end": 641,
+                "value": 42,
+                "raw": "42"
               },
               {
                 "type": "Literal",
-                "start": 645,
-                "end": 647,
-                "value": 43
+                "start": 643,
+                "end": 645,
+                "value": 43,
+                "raw": "43"
               },
               {
                 "type": "Literal",
-                "start": 649,
-                "end": 651,
-                "value": 43
+                "start": 647,
+                "end": 649,
+                "value": 43,
+                "raw": "43"
               },
               {
                 "type": "Literal",
-                "start": 653,
-                "end": 655,
-                "value": 41
+                "start": 651,
+                "end": 653,
+                "value": 41,
+                "raw": "41"
               }
             ]
           }
@@ -55,26 +59,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 659,
-      "end": 748,
+      "start": 657,
+      "end": 746,
       "expression": {
         "type": "CallExpression",
-        "start": 659,
-        "end": 747,
+        "start": 657,
+        "end": 745,
         "callee": {
           "type": "MemberExpression",
-          "start": 659,
-          "end": 675,
+          "start": 657,
+          "end": 673,
           "object": {
             "type": "Identifier",
-            "start": 659,
-            "end": 665,
+            "start": 657,
+            "end": 663,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 666,
-            "end": 675,
+            "start": 664,
+            "end": 673,
             "name": "sameValue"
           },
           "computed": false,
@@ -83,22 +87,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 679,
-            "end": 708,
+            "start": 677,
+            "end": 706,
             "callee": {
               "type": "MemberExpression",
-              "start": 679,
-              "end": 694,
+              "start": 677,
+              "end": 692,
               "object": {
                 "type": "Identifier",
-                "start": 679,
-                "end": 685,
+                "start": 677,
+                "end": 683,
                 "name": "sample"
               },
               "property": {
                 "type": "Identifier",
-                "start": 686,
-                "end": 694,
+                "start": 684,
+                "end": 692,
                 "name": "includes"
               },
               "computed": false,
@@ -107,14 +111,15 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 695,
-                "end": 697,
-                "value": 43
+                "start": 693,
+                "end": 695,
+                "value": 43,
+                "raw": "43"
               },
               {
                 "type": "Identifier",
-                "start": 699,
-                "end": 707,
+                "start": 697,
+                "end": 705,
                 "name": "Infinity"
               }
             ],
@@ -122,15 +127,17 @@
           },
           {
             "type": "Literal",
-            "start": 712,
-            "end": 717,
-            "value": false
+            "start": 710,
+            "end": 715,
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
-            "start": 721,
-            "end": 745,
-            "value": "includes(43, Infinity)"
+            "start": 719,
+            "end": 743,
+            "value": "includes(43, Infinity)",
+            "raw": "\"includes(43, Infinity)\""
           }
         ],
         "optional": false
@@ -138,26 +145,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 749,
-      "end": 839,
+      "start": 747,
+      "end": 837,
       "expression": {
         "type": "CallExpression",
-        "start": 749,
-        "end": 838,
+        "start": 747,
+        "end": 836,
         "callee": {
           "type": "MemberExpression",
-          "start": 749,
-          "end": 765,
+          "start": 747,
+          "end": 763,
           "object": {
             "type": "Identifier",
-            "start": 749,
-            "end": 755,
+            "start": 747,
+            "end": 753,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 756,
-            "end": 765,
+            "start": 754,
+            "end": 763,
             "name": "sameValue"
           },
           "computed": false,
@@ -166,22 +173,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 769,
-            "end": 799,
+            "start": 767,
+            "end": 797,
             "callee": {
               "type": "MemberExpression",
-              "start": 769,
-              "end": 784,
+              "start": 767,
+              "end": 782,
               "object": {
                 "type": "Identifier",
-                "start": 769,
-                "end": 775,
+                "start": 767,
+                "end": 773,
                 "name": "sample"
               },
               "property": {
                 "type": "Identifier",
-                "start": 776,
-                "end": 784,
+                "start": 774,
+                "end": 782,
                 "name": "includes"
               },
               "computed": false,
@@ -190,20 +197,21 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 785,
-                "end": 787,
-                "value": 43
+                "start": 783,
+                "end": 785,
+                "value": 43,
+                "raw": "43"
               },
               {
                 "type": "UnaryExpression",
-                "start": 789,
-                "end": 798,
+                "start": 787,
+                "end": 796,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Identifier",
-                  "start": 790,
-                  "end": 798,
+                  "start": 788,
+                  "end": 796,
                   "name": "Infinity"
                 }
               }
@@ -212,15 +220,17 @@
           },
           {
             "type": "Literal",
-            "start": 803,
-            "end": 807,
-            "value": true
+            "start": 801,
+            "end": 805,
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
-            "start": 811,
-            "end": 836,
-            "value": "includes(43, -Infinity)"
+            "start": 809,
+            "end": 834,
+            "value": "includes(43, -Infinity)",
+            "raw": "\"includes(43, -Infinity)\""
           }
         ],
         "optional": false

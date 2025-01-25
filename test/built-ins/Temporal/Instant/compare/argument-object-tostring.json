@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 305,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               }
             ]
           }
@@ -179,7 +180,8 @@
             "type": "Literal",
             "start": 395,
             "end": 455,
-            "value": "[object Object] is not a valid ISO string (first argument)"
+            "value": "[object Object] is not a valid ISO string (first argument)",
+            "raw": "\"[object Object] is not a valid ISO string (first argument)\""
           }
         ],
         "optional": false
@@ -285,7 +287,8 @@
             "type": "Literal",
             "start": 528,
             "end": 589,
-            "value": "[object Object] is not a valid ISO string (second argument)"
+            "value": "[object Object] is not a valid ISO string (second argument)",
+            "raw": "\"[object Object] is not a valid ISO string (second argument)\""
           }
         ],
         "optional": false
@@ -341,7 +344,8 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 649,
-                  "value": "1970-01-01T00:00Z"
+                  "value": "1970-01-01T00:00Z",
+                  "raw": "\"1970-01-01T00:00Z\""
                 }
               }
             ]
@@ -458,13 +462,15 @@
             "type": "Literal",
             "start": 734,
             "end": 735,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 803,
-            "value": "result of toString is interpreted as ISO string (first argument)"
+            "value": "result of toString is interpreted as ISO string (first argument)",
+            "raw": "\"result of toString is interpreted as ISO string (first argument)\""
           }
         ],
         "optional": false
@@ -579,13 +585,15 @@
             "type": "Literal",
             "start": 886,
             "end": 887,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 889,
             "end": 956,
-            "value": "result of toString is interpreted as ISO string (second argument)"
+            "value": "result of toString is interpreted as ISO string (second argument)",
+            "raw": "\"result of toString is interpreted as ISO string (second argument)\""
           }
         ],
         "optional": false

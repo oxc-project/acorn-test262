@@ -268,19 +268,22 @@
                                 "type": "Literal",
                                 "start": 920,
                                 "end": 922,
-                                "value": "1n"
+                                "value": "1n",
+                                "raw": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 924,
                                 "end": 926,
-                                "value": "2n"
+                                "value": "2n",
+                                "raw": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 928,
                                 "end": 930,
-                                "value": "3n"
+                                "value": "3n",
+                                "raw": "3n"
                               }
                             ]
                           }
@@ -383,7 +386,8 @@
                         "type": "Literal",
                         "start": 1005,
                         "end": 1014,
-                        "value": "valueOf"
+                        "value": "valueOf",
+                        "raw": "\"valueOf\""
                       }
                     ],
                     "optional": false
@@ -482,7 +486,8 @@
                         "type": "Literal",
                         "start": 1088,
                         "end": 1098,
-                        "value": "toString"
+                        "value": "toString",
+                        "raw": "\"toString\""
                       }
                     ],
                     "optional": false

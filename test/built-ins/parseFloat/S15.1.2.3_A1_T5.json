@@ -43,7 +43,8 @@
                     "type": "Literal",
                     "start": 279,
                     "end": 282,
-                    "value": 1.1
+                    "value": 1.1,
+                    "raw": "1.1"
                   }
                 }
               ]
@@ -67,7 +68,8 @@
               "type": "Literal",
               "start": 300,
               "end": 306,
-              "value": "-1.1"
+              "value": "-1.1",
+              "raw": "\"-1.1\""
             }
           ],
           "optional": false
@@ -101,7 +103,8 @@
                     "type": "Literal",
                     "start": 336,
                     "end": 403,
-                    "value": "#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: "
+                    "value": "#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: ",
+                    "raw": "'#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -140,7 +143,8 @@
                                 "type": "Literal",
                                 "start": 430,
                                 "end": 433,
-                                "value": 1.1
+                                "value": 1.1,
+                                "raw": "1.1"
                               }
                             }
                           ]
@@ -214,7 +218,8 @@
               "type": "Literal",
               "start": 504,
               "end": 514,
-              "value": "Infinity"
+              "value": "Infinity",
+              "raw": "\"Infinity\""
             }
           ],
           "optional": false
@@ -248,7 +253,8 @@
                     "type": "Literal",
                     "start": 544,
                     "end": 619,
-                    "value": "#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: "
+                    "value": "#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: ",
+                    "raw": "'#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +363,8 @@
           "type": "Literal",
           "start": 716,
           "end": 721,
-          "value": "NaN"
+          "value": "NaN",
+          "raw": "\"NaN\""
         }
       },
       "consequent": {
@@ -388,7 +395,8 @@
                     "type": "Literal",
                     "start": 750,
                     "end": 811,
-                    "value": "#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: "
+                    "value": "#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: ",
+                    "raw": "'#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -485,7 +493,8 @@
                   "type": "Literal",
                   "start": 893,
                   "end": 899,
-                  "value": 1
+                  "value": 1,
+                  "raw": ".01e+2"
                 }
               ]
             }
@@ -508,7 +517,8 @@
               "type": "Literal",
               "start": 917,
               "end": 925,
-              "value": ".01e+2"
+              "value": ".01e+2",
+              "raw": "\".01e+2\""
             }
           ],
           "optional": false
@@ -542,7 +552,8 @@
                     "type": "Literal",
                     "start": 955,
                     "end": 1026,
-                    "value": "#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: "
+                    "value": "#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: ",
+                    "raw": "'#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -575,7 +586,8 @@
                               "type": "Literal",
                               "start": 1052,
                               "end": 1058,
-                              "value": 1
+                              "value": 1,
+                              "raw": ".01e+2"
                             }
                           ]
                         }

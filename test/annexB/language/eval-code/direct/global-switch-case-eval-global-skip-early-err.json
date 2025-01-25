@@ -34,14 +34,16 @@
                   "type": "Literal",
                   "start": 715,
                   "end": 815,
-                  "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {"
+                  "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {",
+                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 820,
                   "end": 831,
-                  "value": "  case 1:"
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
                 }
               },
               "operator": "+",
@@ -49,7 +51,8 @@
                 "type": "Literal",
                 "start": 836,
                 "end": 859,
-                "value": "    function f() {  }"
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
               }
             },
             "operator": "+",
@@ -57,7 +60,8 @@
               "type": "Literal",
               "start": 864,
               "end": 941,
-              "value": "}  assert.sameValue(f, 123, \"value is not updated following evaluation\");"
+              "value": "}  assert.sameValue(f, 123, \"value is not updated following evaluation\");",
+              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
             }
           }
         ],

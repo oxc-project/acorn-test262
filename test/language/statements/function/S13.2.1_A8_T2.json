@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 519,
             "end": 523,
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
       ],
@@ -83,7 +84,8 @@
                         "type": "Literal",
                         "start": 571,
                         "end": 572,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   ],
@@ -190,7 +192,8 @@
                   "type": "Literal",
                   "start": 681,
                   "end": 747,
-                  "value": "#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception"
+                  "value": "#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception",
+                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'"
                 }
               ]
             }
@@ -257,7 +260,8 @@
                             "type": "Literal",
                             "start": 804,
                             "end": 851,
-                            "value": "#1: Exception === true. Actual: exception ==="
+                            "value": "#1: Exception === true. Actual: exception ===",
+                            "raw": "'#1: Exception === true. Actual: exception ==='"
                           },
                           "operator": "+",
                           "right": {

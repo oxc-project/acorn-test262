@@ -117,7 +117,8 @@
                   "type": "Literal",
                   "start": 628,
                   "end": 637,
-                  "value": "SHIFTED"
+                  "value": "SHIFTED",
+                  "raw": "\"SHIFTED\""
                 }
               }
             ]
@@ -248,7 +249,8 @@
           "type": "Literal",
           "start": 864,
           "end": 872,
-          "value": "object"
+          "value": "object",
+          "raw": "\"object\""
         }
       },
       "consequent": {
@@ -279,7 +281,8 @@
                     "type": "Literal",
                     "start": 901,
                     "end": 992,
-                    "value": "#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ==="
+                    "value": "#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -366,7 +369,8 @@
                     "type": "Literal",
                     "start": 1247,
                     "end": 1348,
-                    "value": "#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ==="
+                    "value": "#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ===",
+                    "raw": "'#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ==='"
                   },
                   "operator": "+",
                   "right": {
@@ -415,7 +419,8 @@
           "type": "Literal",
           "start": 1558,
           "end": 1567,
-          "value": "SHIFTED"
+          "value": "SHIFTED",
+          "raw": "\"SHIFTED\""
         }
       },
       "consequent": {
@@ -446,7 +451,8 @@
                     "type": "Literal",
                     "start": 1596,
                     "end": 1729,
-                    "value": "#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str =="
+                    "value": "#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str ==",
+                    "raw": "'#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str =='"
                   },
                   "operator": "+",
                   "right": {

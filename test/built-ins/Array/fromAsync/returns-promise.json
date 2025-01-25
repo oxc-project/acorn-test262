@@ -80,19 +80,22 @@
                                 "type": "Literal",
                                 "start": 395,
                                 "end": 396,
-                                "value": 0
+                                "value": 0,
+                                "raw": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 398,
                                 "end": 399,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               },
                               {
                                 "type": "Literal",
                                 "start": 401,
                                 "end": 402,
-                                "value": 2
+                                "value": 2,
+                                "raw": "2"
                               }
                             ]
                           }
@@ -140,7 +143,8 @@
                         "type": "Literal",
                         "start": 438,
                         "end": 473,
-                        "value": "Array.fromAsync returns a Promise"
+                        "value": "Array.fromAsync returns a Promise",
+                        "raw": "\"Array.fromAsync returns a Promise\""
                       }
                     ],
                     "optional": false
@@ -230,7 +234,8 @@
                         "type": "Literal",
                         "start": 553,
                         "end": 621,
-                        "value": "Array.fromAsync returns an object with prototype Promise.prototype"
+                        "value": "Array.fromAsync returns an object with prototype Promise.prototype",
+                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype\""
                       }
                     ],
                     "optional": false
@@ -284,19 +289,22 @@
                               "type": "Literal",
                               "start": 651,
                               "end": 652,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             {
                               "type": "Literal",
                               "start": 654,
                               "end": 655,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             {
                               "type": "Literal",
                               "start": 657,
                               "end": 658,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             }
                           ]
                         },
@@ -333,7 +341,8 @@
                                       "type": "Literal",
                                       "start": 696,
                                       "end": 731,
-                                      "value": "this will make the Promise reject"
+                                      "value": "this will make the Promise reject",
+                                      "raw": "\"this will make the Promise reject\""
                                     }
                                   ]
                                 }
@@ -383,7 +392,8 @@
                         "type": "Literal",
                         "start": 770,
                         "end": 819,
-                        "value": "Array.fromAsync returns a Promise even on error"
+                        "value": "Array.fromAsync returns a Promise even on error",
+                        "raw": "\"Array.fromAsync returns a Promise even on error\""
                       }
                     ],
                     "optional": false
@@ -473,7 +483,8 @@
                         "type": "Literal",
                         "start": 899,
                         "end": 981,
-                        "value": "Array.fromAsync returns an object with prototype Promise.prototype even on error"
+                        "value": "Array.fromAsync returns an object with prototype Promise.prototype even on error",
+                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype even on error\""
                       }
                     ],
                     "optional": false
@@ -537,7 +548,8 @@
                           "type": "Literal",
                           "start": 1038,
                           "end": 1067,
-                          "value": "Prevent unhandled rejection"
+                          "value": "Prevent unhandled rejection",
+                          "raw": "\"Prevent unhandled rejection\""
                         }
                       ],
                       "optional": false

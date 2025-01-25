@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 726,
             "end": 731,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Array.from) must return false"
+            "value": "isConstructor(Array.from) must return false",
+            "raw": "'isConstructor(Array.from) must return false'"
           }
         ],
         "optional": false
@@ -172,7 +174,8 @@
             "type": "Literal",
             "start": 840,
             "end": 889,
-            "value": "new Array.from([]) throws a TypeError exception"
+            "value": "new Array.from([]) throws a TypeError exception",
+            "raw": "'new Array.from([]) throws a TypeError exception'"
           }
         ],
         "optional": false

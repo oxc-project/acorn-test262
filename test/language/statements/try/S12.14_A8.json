@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 328,
             "end": 329,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -56,7 +57,8 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 347,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             },
             "consequent": {
@@ -72,7 +74,8 @@
                     "type": "Literal",
                     "start": 360,
                     "end": 365,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 },
                 {
@@ -94,7 +97,8 @@
                         "type": "Literal",
                         "start": 394,
                         "end": 440,
-                        "value": "#1.1: throw \"ex1\" lead to throwing exception"
+                        "value": "#1.1: throw \"ex1\" lead to throwing exception",
+                        "raw": "'#1.1: throw \"ex1\" lead to throwing exception'"
                       }
                     ]
                   }
@@ -122,7 +126,8 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 544,
-                  "value": "#1.2: throw \"ex1\" inside the \"if\" statement lead to throwing exception"
+                  "value": "#1.2: throw \"ex1\" inside the \"if\" statement lead to throwing exception",
+                  "raw": "'#1.2: throw \"ex1\" inside the \"if\" statement lead to throwing exception'"
                 }
               ]
             }
@@ -163,7 +168,8 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 579,
-                  "value": "ex1"
+                  "value": "ex1",
+                  "raw": "\"ex1\""
                 }
               },
               "consequent": {
@@ -189,7 +195,8 @@
                         "type": "Literal",
                         "start": 604,
                         "end": 654,
-                        "value": "#1.3: Exception ===\"ex1\". Actual:  Exception ==="
+                        "value": "#1.3: Exception ===\"ex1\". Actual:  Exception ===",
+                        "raw": "'#1.3: Exception ===\"ex1\". Actual:  Exception ==='"
                       },
                       "operator": "+",
                       "right": {
@@ -228,7 +235,8 @@
             "type": "Literal",
             "start": 682,
             "end": 683,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -253,7 +261,8 @@
           "type": "Literal",
           "start": 693,
           "end": 694,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -278,7 +287,8 @@
                     "type": "Literal",
                     "start": 714,
                     "end": 719,
-                    "value": "ex1"
+                    "value": "ex1",
+                    "raw": "\"ex1\""
                   }
                 },
                 {
@@ -300,7 +310,8 @@
                         "type": "Literal",
                         "start": 748,
                         "end": 794,
-                        "value": "#2.1: throw \"ex1\" lead to throwing exception"
+                        "value": "#2.1: throw \"ex1\" lead to throwing exception",
+                        "raw": "'#2.1: throw \"ex1\" lead to throwing exception'"
                       }
                     ]
                   }
@@ -341,7 +352,8 @@
                         "type": "Literal",
                         "start": 827,
                         "end": 832,
-                        "value": "ex1"
+                        "value": "ex1",
+                        "raw": "\"ex1\""
                       }
                     },
                     "consequent": {
@@ -367,7 +379,8 @@
                               "type": "Literal",
                               "start": 857,
                               "end": 907,
-                              "value": "#2.2: Exception ===\"ex1\". Actual:  Exception ==="
+                              "value": "#2.2: Exception ===\"ex1\". Actual:  Exception ===",
+                              "raw": "'#2.2: Exception ===\"ex1\". Actual:  Exception ==='"
                             },
                             "operator": "+",
                             "right": {

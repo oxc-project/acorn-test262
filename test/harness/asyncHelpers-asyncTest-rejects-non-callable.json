@@ -126,7 +126,8 @@
             "type": "Literal",
             "start": 373,
             "end": 377,
-            "value": null
+            "value": null,
+            "raw": "null"
           }
         ],
         "optional": false
@@ -176,7 +177,8 @@
             "type": "Literal",
             "start": 405,
             "end": 413,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
         "optional": false
@@ -201,7 +203,8 @@
             "type": "Literal",
             "start": 426,
             "end": 428,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -293,37 +296,43 @@
                 "type": "Literal",
                 "start": 499,
                 "end": 503,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 509,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 515,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 517,
                 "end": 521,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 527,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 533,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }

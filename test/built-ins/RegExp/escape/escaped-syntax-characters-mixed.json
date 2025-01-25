@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 444,
                 "end": 450,
-                "value": ".a.b"
+                "value": ".a.b",
+                "raw": "'.a.b'"
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 453,
             "end": 463,
-            "value": "\\.a\\.b"
+            "value": "\\.a\\.b",
+            "raw": "'\\\\.a\\\\.b'"
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 519,
-            "value": "mixed string with dot character is escaped correctly"
+            "value": "mixed string with dot character is escaped correctly",
+            "raw": "'mixed string with dot character is escaped correctly'"
           }
         ],
         "optional": false
@@ -136,7 +139,8 @@
                 "type": "Literal",
                 "start": 553,
                 "end": 559,
-                "value": ".1+2"
+                "value": ".1+2",
+                "raw": "'.1+2'"
               }
             ],
             "optional": false
@@ -145,13 +149,15 @@
             "type": "Literal",
             "start": 562,
             "end": 572,
-            "value": "\\.1\\+2"
+            "value": "\\.1\\+2",
+            "raw": "'\\\\.1\\\\+2'"
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 629,
-            "value": "mixed string with plus character is escaped correctly"
+            "value": "mixed string with plus character is escaped correctly",
+            "raw": "'mixed string with plus character is escaped correctly'"
           }
         ],
         "optional": false
@@ -213,7 +219,8 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 671,
-                "value": ".a(b)c"
+                "value": ".a(b)c",
+                "raw": "'.a(b)c'"
               }
             ],
             "optional": false
@@ -222,13 +229,15 @@
             "type": "Literal",
             "start": 674,
             "end": 688,
-            "value": "\\.a\\(b\\)c"
+            "value": "\\.a\\(b\\)c",
+            "raw": "'\\\\.a\\\\(b\\\\)c'"
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 742,
-            "value": "mixed string with parentheses is escaped correctly"
+            "value": "mixed string with parentheses is escaped correctly",
+            "raw": "'mixed string with parentheses is escaped correctly'"
           }
         ],
         "optional": false
@@ -290,7 +299,8 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 784,
-                "value": ".a*b+c"
+                "value": ".a*b+c",
+                "raw": "'.a*b+c'"
               }
             ],
             "optional": false
@@ -299,13 +309,15 @@
             "type": "Literal",
             "start": 787,
             "end": 801,
-            "value": "\\.a\\*b\\+c"
+            "value": "\\.a\\*b\\+c",
+            "raw": "'\\\\.a\\\\*b\\\\+c'"
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 872,
-            "value": "mixed string with asterisk and plus characters is escaped correctly"
+            "value": "mixed string with asterisk and plus characters is escaped correctly",
+            "raw": "'mixed string with asterisk and plus characters is escaped correctly'"
           }
         ],
         "optional": false
@@ -367,7 +379,8 @@
                 "type": "Literal",
                 "start": 906,
                 "end": 914,
-                "value": ".a?b^c"
+                "value": ".a?b^c",
+                "raw": "'.a?b^c'"
               }
             ],
             "optional": false
@@ -376,13 +389,15 @@
             "type": "Literal",
             "start": 917,
             "end": 931,
-            "value": "\\.a\\?b\\^c"
+            "value": "\\.a\\?b\\^c",
+            "raw": "'\\\\.a\\\\?b\\\\^c'"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 1008,
-            "value": "mixed string with question mark and caret characters is escaped correctly"
+            "value": "mixed string with question mark and caret characters is escaped correctly",
+            "raw": "'mixed string with question mark and caret characters is escaped correctly'"
           }
         ],
         "optional": false
@@ -444,7 +459,8 @@
                 "type": "Literal",
                 "start": 1042,
                 "end": 1049,
-                "value": ".a{2}"
+                "value": ".a{2}",
+                "raw": "'.a{2}'"
               }
             ],
             "optional": false
@@ -453,13 +469,15 @@
             "type": "Literal",
             "start": 1052,
             "end": 1065,
-            "value": "\\.a\\{2\\}"
+            "value": "\\.a\\{2\\}",
+            "raw": "'\\\\.a\\\\{2\\\\}'"
           },
           {
             "type": "Literal",
             "start": 1067,
             "end": 1120,
-            "value": "mixed string with curly braces is escaped correctly"
+            "value": "mixed string with curly braces is escaped correctly",
+            "raw": "'mixed string with curly braces is escaped correctly'"
           }
         ],
         "optional": false
@@ -521,7 +539,8 @@
                 "type": "Literal",
                 "start": 1154,
                 "end": 1160,
-                "value": ".a|b"
+                "value": ".a|b",
+                "raw": "'.a|b'"
               }
             ],
             "optional": false
@@ -530,13 +549,15 @@
             "type": "Literal",
             "start": 1163,
             "end": 1173,
-            "value": "\\.a\\|b"
+            "value": "\\.a\\|b",
+            "raw": "'\\\\.a\\\\|b'"
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1230,
-            "value": "mixed string with pipe character is escaped correctly"
+            "value": "mixed string with pipe character is escaped correctly",
+            "raw": "'mixed string with pipe character is escaped correctly'"
           }
         ],
         "optional": false
@@ -598,7 +619,8 @@
                 "type": "Literal",
                 "start": 1264,
                 "end": 1271,
-                "value": ".a\\b"
+                "value": ".a\\b",
+                "raw": "'.a\\\\b'"
               }
             ],
             "optional": false
@@ -607,13 +629,15 @@
             "type": "Literal",
             "start": 1274,
             "end": 1285,
-            "value": "\\.a\\\\b"
+            "value": "\\.a\\\\b",
+            "raw": "'\\\\.a\\\\\\\\b'"
           },
           {
             "type": "Literal",
             "start": 1287,
             "end": 1337,
-            "value": "mixed string with backslash is escaped correctly"
+            "value": "mixed string with backslash is escaped correctly",
+            "raw": "'mixed string with backslash is escaped correctly'"
           }
         ],
         "optional": false
@@ -675,7 +699,8 @@
                 "type": "Literal",
                 "start": 1371,
                 "end": 1380,
-                "value": ".a\\\\b"
+                "value": ".a\\\\b",
+                "raw": "'.a\\\\\\\\b'"
               }
             ],
             "optional": false
@@ -684,13 +709,15 @@
             "type": "Literal",
             "start": 1383,
             "end": 1398,
-            "value": "\\.a\\\\\\\\b"
+            "value": "\\.a\\\\\\\\b",
+            "raw": "'\\\\.a\\\\\\\\\\\\\\\\b'"
           },
           {
             "type": "Literal",
             "start": 1400,
             "end": 1450,
-            "value": "mixed string with backslash is escaped correctly"
+            "value": "mixed string with backslash is escaped correctly",
+            "raw": "'mixed string with backslash is escaped correctly'"
           }
         ],
         "optional": false
@@ -752,7 +779,8 @@
                 "type": "Literal",
                 "start": 1484,
                 "end": 1490,
-                "value": ".a^b"
+                "value": ".a^b",
+                "raw": "'.a^b'"
               }
             ],
             "optional": false
@@ -761,13 +789,15 @@
             "type": "Literal",
             "start": 1493,
             "end": 1503,
-            "value": "\\.a\\^b"
+            "value": "\\.a\\^b",
+            "raw": "'\\\\.a\\\\^b'"
           },
           {
             "type": "Literal",
             "start": 1505,
             "end": 1561,
-            "value": "mixed string with caret character is escaped correctly"
+            "value": "mixed string with caret character is escaped correctly",
+            "raw": "'mixed string with caret character is escaped correctly'"
           }
         ],
         "optional": false
@@ -829,7 +859,8 @@
                 "type": "Literal",
                 "start": 1595,
                 "end": 1601,
-                "value": ".a$b"
+                "value": ".a$b",
+                "raw": "'.a$b'"
               }
             ],
             "optional": false
@@ -838,13 +869,15 @@
             "type": "Literal",
             "start": 1604,
             "end": 1614,
-            "value": "\\.a\\$b"
+            "value": "\\.a\\$b",
+            "raw": "'\\\\.a\\\\$b'"
           },
           {
             "type": "Literal",
             "start": 1616,
             "end": 1668,
-            "value": "mixed string with dollar sign is escaped correctly"
+            "value": "mixed string with dollar sign is escaped correctly",
+            "raw": "'mixed string with dollar sign is escaped correctly'"
           }
         ],
         "optional": false
@@ -906,7 +939,8 @@
                 "type": "Literal",
                 "start": 1702,
                 "end": 1709,
-                "value": ".a[b]"
+                "value": ".a[b]",
+                "raw": "'.a[b]'"
               }
             ],
             "optional": false
@@ -915,13 +949,15 @@
             "type": "Literal",
             "start": 1712,
             "end": 1725,
-            "value": "\\.a\\[b\\]"
+            "value": "\\.a\\[b\\]",
+            "raw": "'\\\\.a\\\\[b\\\\]'"
           },
           {
             "type": "Literal",
             "start": 1727,
             "end": 1783,
-            "value": "mixed string with square brackets is escaped correctly"
+            "value": "mixed string with square brackets is escaped correctly",
+            "raw": "'mixed string with square brackets is escaped correctly'"
           }
         ],
         "optional": false
@@ -983,7 +1019,8 @@
                 "type": "Literal",
                 "start": 1817,
                 "end": 1826,
-                "value": ".a.b(c)"
+                "value": ".a.b(c)",
+                "raw": "'.a.b(c)'"
               }
             ],
             "optional": false
@@ -992,13 +1029,15 @@
             "type": "Literal",
             "start": 1829,
             "end": 1846,
-            "value": "\\.a\\.b\\(c\\)"
+            "value": "\\.a\\.b\\(c\\)",
+            "raw": "'\\\\.a\\\\.b\\\\(c\\\\)'"
           },
           {
             "type": "Literal",
             "start": 1848,
             "end": 1908,
-            "value": "mixed string with dot and parentheses is escaped correctly"
+            "value": "mixed string with dot and parentheses is escaped correctly",
+            "raw": "'mixed string with dot and parentheses is escaped correctly'"
           }
         ],
         "optional": false
@@ -1060,7 +1099,8 @@
                 "type": "Literal",
                 "start": 1942,
                 "end": 1969,
-                "value": ".a*b+c?d^e$f|g{2}h[i]j\\k"
+                "value": ".a*b+c?d^e$f|g{2}h[i]j\\k",
+                "raw": "'.a*b+c?d^e$f|g{2}h[i]j\\\\k'"
               }
             ],
             "optional": false
@@ -1069,13 +1109,15 @@
             "type": "Literal",
             "start": 1972,
             "end": 2023,
-            "value": "\\.a\\*b\\+c\\?d\\^e\\$f\\|g\\{2\\}h\\[i\\]j\\\\k"
+            "value": "\\.a\\*b\\+c\\?d\\^e\\$f\\|g\\{2\\}h\\[i\\]j\\\\k",
+            "raw": "'\\\\.a\\\\*b\\\\+c\\\\?d\\\\^e\\\\$f\\\\|g\\\\{2\\\\}h\\\\[i\\\\]j\\\\\\\\k'"
           },
           {
             "type": "Literal",
             "start": 2025,
             "end": 2095,
-            "value": "complex string with multiple special characters is escaped correctly"
+            "value": "complex string with multiple special characters is escaped correctly",
+            "raw": "'complex string with multiple special characters is escaped correctly'"
           }
         ],
         "optional": false
@@ -1137,7 +1179,8 @@
                 "type": "Literal",
                 "start": 2133,
                 "end": 2150,
-                "value": "^$\\.*+?()[]{}|"
+                "value": "^$\\.*+?()[]{}|",
+                "raw": "'^$\\\\.*+?()[]{}|'"
               }
             ],
             "optional": false
@@ -1146,13 +1189,15 @@
             "type": "Literal",
             "start": 2155,
             "end": 2200,
-            "value": "\\^\\$\\\\\\.\\*\\+\\?\\(\\)\\[\\]\\{\\}\\|"
+            "value": "\\^\\$\\\\\\.\\*\\+\\?\\(\\)\\[\\]\\{\\}\\|",
+            "raw": "'\\\\^\\\\$\\\\\\\\\\\\.\\\\*\\\\+\\\\?\\\\(\\\\)\\\\[\\\\]\\\\{\\\\}\\\\|'"
           },
           {
             "type": "Literal",
             "start": 2204,
             "end": 2245,
-            "value": "Syntax characters are correctly escaped"
+            "value": "Syntax characters are correctly escaped",
+            "raw": "'Syntax characters are correctly escaped'"
           }
         ],
         "optional": false

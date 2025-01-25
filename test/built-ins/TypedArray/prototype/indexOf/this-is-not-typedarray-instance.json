@@ -140,7 +140,8 @@
                         "type": "Literal",
                         "start": 954,
                         "end": 956,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -153,7 +154,8 @@
             "type": "Literal",
             "start": 962,
             "end": 981,
-            "value": "this is an Object"
+            "value": "this is an Object",
+            "raw": "\"this is an Object\""
           }
         ],
         "optional": false
@@ -245,7 +247,8 @@
                         "type": "Literal",
                         "start": 1042,
                         "end": 1044,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -258,7 +261,8 @@
             "type": "Literal",
             "start": 1050,
             "end": 1068,
-            "value": "this is an Array"
+            "value": "this is an Array",
+            "raw": "\"this is an Array\""
           }
         ],
         "optional": false
@@ -294,7 +298,8 @@
                 "type": "Literal",
                 "start": 1097,
                 "end": 1098,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }
@@ -388,7 +393,8 @@
                         "type": "Literal",
                         "start": 1158,
                         "end": 1160,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -401,7 +407,8 @@
             "type": "Literal",
             "start": 1166,
             "end": 1199,
-            "value": "this is an ArrayBuffer instance"
+            "value": "this is an ArrayBuffer instance",
+            "raw": "\"this is an ArrayBuffer instance\""
           }
         ],
         "optional": false
@@ -448,7 +455,8 @@
                     "type": "Literal",
                     "start": 1241,
                     "end": 1242,
-                    "value": 8
+                    "value": 8,
+                    "raw": "8"
                   }
                 ]
               },
@@ -456,13 +464,15 @@
                 "type": "Literal",
                 "start": 1245,
                 "end": 1246,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 1248,
                 "end": 1249,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -556,7 +566,8 @@
                         "type": "Literal",
                         "start": 1309,
                         "end": 1311,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -569,7 +580,8 @@
             "type": "Literal",
             "start": 1317,
             "end": 1346,
-            "value": "this is a DataView instance"
+            "value": "this is a DataView instance",
+            "raw": "\"this is a DataView instance\""
           }
         ],
         "optional": false

@@ -136,14 +136,16 @@
                 "type": "Literal",
                 "start": 519,
                 "end": 522,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               },
               "operator": "!==",
               "right": {
                 "type": "Literal",
                 "start": 527,
                 "end": 535,
-                "value": "A"
+                "value": "A",
+                "raw": "\"\\u0041\""
               }
             },
             {
@@ -172,7 +174,8 @@
                         "type": "Literal",
                         "start": 561,
                         "end": 562,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     }
                   ]
@@ -185,7 +188,8 @@
               "type": "Literal",
               "start": 571,
               "end": 575,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           ],
           "optional": false
@@ -195,7 +199,8 @@
           "type": "Literal",
           "start": 581,
           "end": 582,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -226,7 +231,8 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 772,
-                    "value": "#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\u0041\", function(){return 0;}(),null) === 0. Actual: "
+                    "value": "#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\u0041\", function(){return 0;}(),null) === 0. Actual: ",
+                    "raw": "'#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\\\u0041\", function(){return 0;}(),null) === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -261,14 +267,16 @@
                           "type": "Literal",
                           "start": 794,
                           "end": 797,
-                          "value": "A"
+                          "value": "A",
+                          "raw": "\"A\""
                         },
                         "operator": "!==",
                         "right": {
                           "type": "Literal",
                           "start": 802,
                           "end": 810,
-                          "value": "A"
+                          "value": "A",
+                          "raw": "\"\\u0041\""
                         }
                       },
                       {
@@ -297,7 +305,8 @@
                                   "type": "Literal",
                                   "start": 836,
                                   "end": 837,
-                                  "value": 0
+                                  "value": 0,
+                                  "raw": "0"
                                 }
                               }
                             ]
@@ -310,7 +319,8 @@
                         "type": "Literal",
                         "start": 846,
                         "end": 850,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

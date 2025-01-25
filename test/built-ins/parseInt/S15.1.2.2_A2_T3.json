@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 302,
                 "end": 311,
-                "value": " 1"
+                "value": " 1",
+                "raw": "\"\\u00A01\""
               }
             ],
             "optional": false
@@ -66,7 +67,8 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 326,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ],
             "optional": false
@@ -75,7 +77,8 @@
             "type": "Literal",
             "start": 329,
             "end": 404,
-            "value": "parseInt(\"\\u00A01\") must return the same value returned by parseInt(\"1\")"
+            "value": "parseInt(\"\\u00A01\") must return the same value returned by parseInt(\"1\")",
+            "raw": "'parseInt(\"\\\\u00A01\") must return the same value returned by parseInt(\"1\")'"
           }
         ],
         "optional": false
@@ -124,7 +127,8 @@
                 "type": "Literal",
                 "start": 433,
                 "end": 449,
-                "value": "  -1"
+                "value": "  -1",
+                "raw": "\"\\u00A0\\u00A0-1\""
               }
             ],
             "optional": false
@@ -144,7 +148,8 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 465,
-                "value": "-1"
+                "value": "-1",
+                "raw": "\"-1\""
               }
             ],
             "optional": false
@@ -153,7 +158,8 @@
             "type": "Literal",
             "start": 468,
             "end": 552,
-            "value": "parseInt(\"\\u00A0\\u00A0-1\") must return the same value returned by parseInt(\"-1\")"
+            "value": "parseInt(\"\\u00A0\\u00A0-1\") must return the same value returned by parseInt(\"-1\")",
+            "raw": "'parseInt(\"\\\\u00A0\\\\u00A0-1\") must return the same value returned by parseInt(\"-1\")'"
           }
         ],
         "optional": false
@@ -202,7 +208,8 @@
                 "type": "Literal",
                 "start": 592,
                 "end": 600,
-                "value": " "
+                "value": " ",
+                "raw": "\"\\u00A0\""
               }
             ],
             "optional": false
@@ -217,7 +224,8 @@
             "type": "Literal",
             "start": 608,
             "end": 645,
-            "value": "parseInt(\"\\u00A0\") must return NaN"
+            "value": "parseInt(\"\\u00A0\") must return NaN",
+            "raw": "'parseInt(\"\\\\u00A0\") must return NaN'"
           }
         ],
         "optional": false

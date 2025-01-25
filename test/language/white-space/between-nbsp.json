@@ -1,28 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 336,
+  "end": 333,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 297,
-      "end": 310,
+      "start": 296,
+      "end": 307,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 301,
-          "end": 307,
+          "start": 300,
+          "end": 305,
           "id": {
             "type": "Identifier",
-            "start": 301,
-            "end": 302,
+            "start": 300,
+            "end": 301,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 306,
-            "end": 307,
-            "value": 2
+            "start": 304,
+            "end": 305,
+            "value": 2,
+            "raw": "2"
           }
         }
       ],
@@ -30,26 +31,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 312,
-      "end": 335,
+      "start": 309,
+      "end": 332,
       "expression": {
         "type": "CallExpression",
-        "start": 312,
-        "end": 334,
+        "start": 309,
+        "end": 331,
         "callee": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 328,
+          "start": 309,
+          "end": 325,
           "object": {
             "type": "Identifier",
-            "start": 312,
-            "end": 318,
+            "start": 309,
+            "end": 315,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 319,
-            "end": 328,
+            "start": 316,
+            "end": 325,
             "name": "sameValue"
           },
           "computed": false,
@@ -58,15 +59,16 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 329,
-            "end": 330,
+            "start": 326,
+            "end": 327,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 332,
-            "end": 333,
-            "value": 2
+            "start": 329,
+            "end": 330,
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false

@@ -87,13 +87,15 @@
             "type": "Literal",
             "start": 407,
             "end": 417,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 484,
-            "value": "`typeof PlainMonthDay.prototype.toLocaleString` is `function`"
+            "value": "`typeof PlainMonthDay.prototype.toLocaleString` is `function`",
+            "raw": "\"`typeof PlainMonthDay.prototype.toLocaleString` is `function`\""
           }
         ],
         "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 538,
             "end": 554,
-            "value": "toLocaleString"
+            "value": "toLocaleString",
+            "raw": "\"toLocaleString\""
           },
           {
             "type": "ObjectExpression",
@@ -174,7 +177,8 @@
                   "type": "Literal",
                   "start": 570,
                   "end": 574,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -195,7 +199,8 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 595,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -216,7 +221,8 @@
                   "type": "Literal",
                   "start": 613,
                   "end": 617,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

@@ -23,7 +23,8 @@
               "type": "Literal",
               "start": 447,
               "end": 459,
-              "value": "$$abcdabcd"
+              "value": "$$abcdabcd",
+              "raw": "\"$$abcdabcd\""
             },
             "property": {
               "type": "Identifier",
@@ -39,7 +40,8 @@
               "type": "Literal",
               "start": 468,
               "end": 472,
-              "value": "ab"
+              "value": "ab",
+              "raw": "\"ab\""
             },
             {
               "type": "Identifier",
@@ -55,7 +57,8 @@
           "type": "Literal",
           "start": 483,
           "end": 484,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -86,7 +89,8 @@
                     "type": "Literal",
                     "start": 513,
                     "end": 563,
-                    "value": "#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: "
+                    "value": "#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: ",
+                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -105,7 +109,8 @@
                           "type": "Literal",
                           "start": 567,
                           "end": 579,
-                          "value": "$$abcdabcd"
+                          "value": "$$abcdabcd",
+                          "raw": "\"$$abcdabcd\""
                         },
                         "property": {
                           "type": "Identifier",
@@ -121,7 +126,8 @@
                           "type": "Literal",
                           "start": 588,
                           "end": 592,
-                          "value": "ab"
+                          "value": "ab",
+                          "raw": "\"ab\""
                         },
                         {
                           "type": "Identifier",

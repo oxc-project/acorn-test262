@@ -1,36 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 478,
+  "end": 475,
   "body": [
     {
       "type": "ForStatement",
-      "start": 448,
-      "end": 467,
+      "start": 445,
+      "end": 464,
       "init": null,
       "test": {
         "type": "Literal",
-        "start": 455,
-        "end": 460,
-        "value": false
+        "start": 452,
+        "end": 457,
+        "value": false,
+        "raw": "false"
       },
       "update": null,
       "body": {
         "type": "ExpressionStatement",
-        "start": 464,
-        "end": 467,
+        "start": 461,
+        "end": 464,
         "expression": {
           "type": "Identifier",
-          "start": 464,
-          "end": 467,
+          "start": 461,
+          "end": 464,
           "name": "let"
         }
       }
     },
     {
       "type": "BlockStatement",
-      "start": 475,
-      "end": 477,
+      "start": 472,
+      "end": 474,
       "body": []
     }
   ],

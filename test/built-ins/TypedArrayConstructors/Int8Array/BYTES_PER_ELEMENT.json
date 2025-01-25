@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 765,
+  "end": 764,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 555,
-      "end": 604,
+      "start": 554,
+      "end": 603,
       "expression": {
         "type": "CallExpression",
-        "start": 555,
-        "end": 603,
+        "start": 554,
+        "end": 602,
         "callee": {
           "type": "MemberExpression",
-          "start": 555,
-          "end": 571,
+          "start": 554,
+          "end": 570,
           "object": {
             "type": "Identifier",
-            "start": 555,
-            "end": 561,
+            "start": 554,
+            "end": 560,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 562,
-            "end": 571,
+            "start": 561,
+            "end": 570,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 572,
-            "end": 599,
+            "start": 571,
+            "end": 598,
             "object": {
               "type": "Identifier",
-              "start": 572,
-              "end": 581,
+              "start": 571,
+              "end": 580,
               "name": "Int8Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 582,
-              "end": 599,
+              "start": 581,
+              "end": 598,
               "name": "BYTES_PER_ELEMENT"
             },
             "computed": false,
@@ -52,9 +52,10 @@
           },
           {
             "type": "Literal",
-            "start": 601,
-            "end": 602,
-            "value": 1
+            "start": 600,
+            "end": 601,
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -62,30 +63,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 606,
-      "end": 658,
+      "start": 605,
+      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 606,
-        "end": 657,
+        "start": 605,
+        "end": 656,
         "callee": {
           "type": "Identifier",
-          "start": 606,
-          "end": 625,
+          "start": 605,
+          "end": 624,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 626,
-            "end": 635,
+            "start": 625,
+            "end": 634,
             "name": "Int8Array"
           },
           {
             "type": "Literal",
-            "start": 637,
-            "end": 656,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 636,
+            "end": 655,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -93,30 +95,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 659,
-      "end": 709,
+      "start": 658,
+      "end": 708,
       "expression": {
         "type": "CallExpression",
-        "start": 659,
-        "end": 708,
+        "start": 658,
+        "end": 707,
         "callee": {
           "type": "Identifier",
-          "start": 659,
-          "end": 676,
+          "start": 658,
+          "end": 675,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 677,
-            "end": 686,
+            "start": 676,
+            "end": 685,
             "name": "Int8Array"
           },
           {
             "type": "Literal",
-            "start": 688,
-            "end": 707,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 687,
+            "end": 706,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false
@@ -124,30 +127,31 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 710,
-      "end": 764,
+      "start": 709,
+      "end": 763,
       "expression": {
         "type": "CallExpression",
-        "start": 710,
-        "end": 763,
+        "start": 709,
+        "end": 762,
         "callee": {
           "type": "Identifier",
-          "start": 710,
-          "end": 731,
+          "start": 709,
+          "end": 730,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 732,
-            "end": 741,
+            "start": 731,
+            "end": 740,
             "name": "Int8Array"
           },
           {
             "type": "Literal",
-            "start": 743,
-            "end": 762,
-            "value": "BYTES_PER_ELEMENT"
+            "start": 742,
+            "end": 761,
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\""
           }
         ],
         "optional": false

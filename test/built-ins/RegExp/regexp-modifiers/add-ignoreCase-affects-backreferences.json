@@ -23,6 +23,7 @@
             "start": 2166,
             "end": 2178,
             "value": null,
+            "raw": "/(a)(?i:\\1)/",
             "regex": {
               "pattern": "(a)(?i:\\1)",
               "flags": ""
@@ -81,7 +82,8 @@
                   "type": "Literal",
                   "start": 2197,
                   "end": 2201,
-                  "value": "AA"
+                  "value": "AA",
+                  "raw": "\"AA\""
                 }
               ],
               "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 2204,
             "end": 2232,
-            "value": "a should not match first A"
+            "value": "a should not match first A",
+            "raw": "\"a should not match first A\""
           }
         ],
         "optional": false
@@ -146,7 +149,8 @@
                   "type": "Literal",
                   "start": 2252,
                   "end": 2256,
-                  "value": "Aa"
+                  "value": "Aa",
+                  "raw": "\"Aa\""
                 }
               ],
               "optional": false
@@ -156,7 +160,8 @@
             "type": "Literal",
             "start": 2259,
             "end": 2281,
-            "value": "a should not match A"
+            "value": "a should not match A",
+            "raw": "\"a should not match A\""
           }
         ],
         "optional": false
@@ -205,7 +210,8 @@
                 "type": "Literal",
                 "start": 2300,
                 "end": 2304,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               }
             ],
             "optional": false
@@ -214,7 +220,8 @@
             "type": "Literal",
             "start": 2307,
             "end": 2356,
-            "value": "a matches first a, so \\1 should match second a"
+            "value": "a matches first a, so \\1 should match second a",
+            "raw": "\"a matches first a, so \\\\1 should match second a\""
           }
         ],
         "optional": false
@@ -263,7 +270,8 @@
                 "type": "Literal",
                 "start": 2375,
                 "end": 2379,
-                "value": "aA"
+                "value": "aA",
+                "raw": "\"aA\""
               }
             ],
             "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2382,
             "end": 2433,
-            "value": "a matches a, so \\1 should match A (ignores case)"
+            "value": "a matches a, so \\1 should match A (ignores case)",
+            "raw": "\"a matches a, so \\\\1 should match A (ignores case)\""
           }
         ],
         "optional": false
@@ -298,6 +307,7 @@
             "start": 2447,
             "end": 2460,
             "value": null,
+            "raw": "/(a)(?i-:\\1)/",
             "regex": {
               "pattern": "(a)(?i-:\\1)",
               "flags": ""
@@ -356,7 +366,8 @@
                   "type": "Literal",
                   "start": 2479,
                   "end": 2483,
-                  "value": "AA"
+                  "value": "AA",
+                  "raw": "\"AA\""
                 }
               ],
               "optional": false
@@ -366,7 +377,8 @@
             "type": "Literal",
             "start": 2486,
             "end": 2514,
-            "value": "a should not match first A"
+            "value": "a should not match first A",
+            "raw": "\"a should not match first A\""
           }
         ],
         "optional": false
@@ -421,7 +433,8 @@
                   "type": "Literal",
                   "start": 2534,
                   "end": 2538,
-                  "value": "Aa"
+                  "value": "Aa",
+                  "raw": "\"Aa\""
                 }
               ],
               "optional": false
@@ -431,7 +444,8 @@
             "type": "Literal",
             "start": 2541,
             "end": 2563,
-            "value": "a should not match A"
+            "value": "a should not match A",
+            "raw": "\"a should not match A\""
           }
         ],
         "optional": false
@@ -480,7 +494,8 @@
                 "type": "Literal",
                 "start": 2582,
                 "end": 2586,
-                "value": "aa"
+                "value": "aa",
+                "raw": "\"aa\""
               }
             ],
             "optional": false
@@ -489,7 +504,8 @@
             "type": "Literal",
             "start": 2589,
             "end": 2638,
-            "value": "a matches first a, so \\1 should match second a"
+            "value": "a matches first a, so \\1 should match second a",
+            "raw": "\"a matches first a, so \\\\1 should match second a\""
           }
         ],
         "optional": false
@@ -538,7 +554,8 @@
                 "type": "Literal",
                 "start": 2657,
                 "end": 2661,
-                "value": "aA"
+                "value": "aA",
+                "raw": "\"aA\""
               }
             ],
             "optional": false
@@ -547,7 +564,8 @@
             "type": "Literal",
             "start": 2664,
             "end": 2715,
-            "value": "a matches a, so \\1 should match A (ignores case)"
+            "value": "a matches a, so \\1 should match A (ignores case)",
+            "raw": "\"a matches a, so \\\\1 should match A (ignores case)\""
           }
         ],
         "optional": false

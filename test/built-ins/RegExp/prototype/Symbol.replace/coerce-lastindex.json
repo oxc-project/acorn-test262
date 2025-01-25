@@ -23,6 +23,7 @@
             "start": 922,
             "end": 926,
             "value": {},
+            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -51,7 +52,8 @@
             "type": "Literal",
             "start": 948,
             "end": 953,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -136,13 +138,15 @@
                               "type": "Literal",
                               "start": 1022,
                               "end": 1023,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             {
                               "type": "Literal",
                               "start": 1025,
                               "end": 1027,
-                              "value": 54
+                              "value": 54,
+                              "raw": "54"
                             }
                           ],
                           "optional": false
@@ -196,7 +200,8 @@
                   "type": "Literal",
                   "start": 1064,
                   "end": 1065,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -211,13 +216,15 @@
                   "type": "Literal",
                   "start": 1069,
                   "end": 1070,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1072,
                   "end": 1074,
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 },
                 "kind": "init"
               },
@@ -238,7 +245,8 @@
                   "type": "Literal",
                   "start": 1085,
                   "end": 1086,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -313,7 +321,8 @@
                         "type": "Literal",
                         "start": 1148,
                         "end": 1152,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   ]
@@ -375,7 +384,8 @@
                     "type": "Literal",
                     "start": 1209,
                     "end": 1213,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 }
               },
@@ -464,13 +474,15 @@
                 "type": "Literal",
                 "start": 1271,
                 "end": 1273,
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "Literal",
                 "start": 1275,
                 "end": 1277,
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
             "optional": false
@@ -479,7 +491,8 @@
             "type": "Literal",
             "start": 1280,
             "end": 1282,
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ],
         "optional": false
@@ -560,13 +573,15 @@
                 "type": "Literal",
                 "start": 1324,
                 "end": 1325,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 1327,
                 "end": 1329,
-                "value": 53
+                "value": 53,
+                "raw": "53"
               }
             ],
             "optional": false

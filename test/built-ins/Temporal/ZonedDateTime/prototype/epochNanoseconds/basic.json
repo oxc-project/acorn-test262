@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 349,
-                "value": "217175010123456789n"
+                "value": "217175010123456789n",
+                "raw": "217175010_123_456_789n"
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 356,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -111,13 +113,15 @@
             "type": "Literal",
             "start": 405,
             "end": 427,
-            "value": "217175010123456789n"
+            "value": "217175010123456789n",
+            "raw": "217175010_123_456_789n"
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 458,
-            "value": "epochNanoseconds post epoch"
+            "value": "epochNanoseconds post epoch",
+            "raw": "\"epochNanoseconds post epoch\""
           }
         ],
         "optional": false
@@ -181,13 +185,15 @@
             "type": "Literal",
             "start": 514,
             "end": 522,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 560,
-            "value": "epochNanoseconds value is a bigint"
+            "value": "epochNanoseconds value is a bigint",
+            "raw": "\"epochNanoseconds value is a bigint\""
           }
         ],
         "optional": false
@@ -242,14 +248,16 @@
                   "type": "Literal",
                   "start": 612,
                   "end": 634,
-                  "value": "217175010876543211n"
+                  "value": "217175010876543211n",
+                  "raw": "217175010_876_543_211n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 636,
                 "end": 641,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -314,14 +322,16 @@
               "type": "Literal",
               "start": 692,
               "end": 714,
-              "value": "217175010876543211n"
+              "value": "217175010876543211n",
+              "raw": "217175010_876_543_211n"
             }
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 744,
-            "value": "epochNanoseconds pre epoch"
+            "value": "epochNanoseconds pre epoch",
+            "raw": "\"epochNanoseconds pre epoch\""
           }
         ],
         "optional": false
@@ -385,13 +395,15 @@
             "type": "Literal",
             "start": 801,
             "end": 809,
-            "value": "bigint"
+            "value": "bigint",
+            "raw": "\"bigint\""
           },
           {
             "type": "Literal",
             "start": 811,
             "end": 847,
-            "value": "epochNanoseconds value is a bigint"
+            "value": "epochNanoseconds value is a bigint",
+            "raw": "\"epochNanoseconds value is a bigint\""
           }
         ],
         "optional": false

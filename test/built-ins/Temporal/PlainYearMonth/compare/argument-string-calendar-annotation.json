@@ -32,13 +32,15 @@
                     "type": "Literal",
                     "start": 302,
                     "end": 334,
-                    "value": "2019-12-15T15:23[u-ca=iso8601]"
+                    "value": "2019-12-15T15:23[u-ca=iso8601]",
+                    "raw": "\"2019-12-15T15:23[u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 336,
                     "end": 355,
-                    "value": "without time zone"
+                    "value": "without time zone",
+                    "raw": "\"without time zone\""
                   }
                 ]
               },
@@ -51,13 +53,15 @@
                     "type": "Literal",
                     "start": 361,
                     "end": 398,
-                    "value": "2019-12-15T15:23[UTC][u-ca=iso8601]"
+                    "value": "2019-12-15T15:23[UTC][u-ca=iso8601]",
+                    "raw": "\"2019-12-15T15:23[UTC][u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 400,
                     "end": 416,
-                    "value": "with time zone"
+                    "value": "with time zone",
+                    "raw": "\"with time zone\""
                   }
                 ]
               },
@@ -70,13 +74,15 @@
                     "type": "Literal",
                     "start": 422,
                     "end": 455,
-                    "value": "2019-12-15T15:23[!u-ca=iso8601]"
+                    "value": "2019-12-15T15:23[!u-ca=iso8601]",
+                    "raw": "\"2019-12-15T15:23[!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 457,
                     "end": 482,
-                    "value": "with ! and no time zone"
+                    "value": "with ! and no time zone",
+                    "raw": "\"with ! and no time zone\""
                   }
                 ]
               },
@@ -89,13 +95,15 @@
                     "type": "Literal",
                     "start": 488,
                     "end": 526,
-                    "value": "2019-12-15T15:23[UTC][!u-ca=iso8601]"
+                    "value": "2019-12-15T15:23[UTC][!u-ca=iso8601]",
+                    "raw": "\"2019-12-15T15:23[UTC][!u-ca=iso8601]\""
                   },
                   {
                     "type": "Literal",
                     "start": 528,
                     "end": 550,
-                    "value": "with ! and time zone"
+                    "value": "with ! and time zone",
+                    "raw": "\"with ! and time zone\""
                   }
                 ]
               },
@@ -108,13 +116,15 @@
                     "type": "Literal",
                     "start": 556,
                     "end": 602,
-                    "value": "2019-12-15T15:23[u-ca=iso8601][u-ca=discord]"
+                    "value": "2019-12-15T15:23[u-ca=iso8601][u-ca=discord]",
+                    "raw": "\"2019-12-15T15:23[u-ca=iso8601][u-ca=discord]\""
                   },
                   {
                     "type": "Literal",
                     "start": 604,
                     "end": 631,
-                    "value": "second annotation ignored"
+                    "value": "second annotation ignored",
+                    "raw": "\"second annotation ignored\""
                   }
                 ]
               }
@@ -295,7 +305,8 @@
                         "type": "Literal",
                         "start": 775,
                         "end": 776,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "TemplateLiteral",

@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 351,
-                "value": "this is a string object"
+                "value": "this is a string object",
+                "raw": "\"this is a string object\""
               }
             ]
           }
@@ -107,7 +108,8 @@
           "type": "Literal",
           "start": 493,
           "end": 495,
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
       },
       "consequent": {
@@ -138,7 +140,8 @@
                     "type": "Literal",
                     "start": 524,
                     "end": 637,
-                    "value": "#1: __string = new String(\"this is a string object\"); __string.substring(-Infinity, -Infinity) === \"\". Actual: "
+                    "value": "#1: __string = new String(\"this is a string object\"); __string.substring(-Infinity, -Infinity) === \"\". Actual: ",
+                    "raw": "'#1: __string = new String(\"this is a string object\"); __string.substring(-Infinity, -Infinity) === \"\". Actual: '"
                   },
                   "operator": "+",
                   "right": {

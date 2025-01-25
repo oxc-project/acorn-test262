@@ -83,7 +83,8 @@
                         "type": "Literal",
                         "start": 328,
                         "end": 339,
-                        "value": "\"\\u0X50\""
+                        "value": "\"\\u0X50\"",
+                        "raw": "'\"\\\\u0X50\"'"
                       }
                     ],
                     "optional": false

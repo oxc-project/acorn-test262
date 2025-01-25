@@ -41,6 +41,7 @@
                   "start": 523,
                   "end": 555,
                   "value": {},
+                  "raw": "/^[_\\q{0|2|4|9\\uFE0F\\u20E3}]+$/v",
                   "regex": {
                     "pattern": "^[_\\q{0|2|4|9\\uFE0F\\u20E3}]+$",
                     "flags": "v"
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 599,
-                  "value": "[_q{0|2|4|9️⃣}]"
+                  "value": "[_q{0|2|4|9️⃣}]",
+                  "raw": "\"[_\\q{0|2|4|9\\uFE0F\\u20E3}]\""
                 },
                 "kind": "init"
               },
@@ -91,31 +93,36 @@
                       "type": "Literal",
                       "start": 623,
                       "end": 626,
-                      "value": "0"
+                      "value": "0",
+                      "raw": "\"0\""
                     },
                     {
                       "type": "Literal",
                       "start": 632,
                       "end": 635,
-                      "value": "2"
+                      "value": "2",
+                      "raw": "\"2\""
                     },
                     {
                       "type": "Literal",
                       "start": 641,
                       "end": 644,
-                      "value": "4"
+                      "value": "4",
+                      "raw": "\"4\""
                     },
                     {
                       "type": "Literal",
                       "start": 650,
                       "end": 665,
-                      "value": "9️⃣"
+                      "value": "9️⃣",
+                      "raw": "\"9\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 671,
                       "end": 674,
-                      "value": "_"
+                      "value": "_",
+                      "raw": "\"_\""
                     }
                   ]
                 },
@@ -143,37 +150,43 @@
                       "type": "Literal",
                       "start": 705,
                       "end": 720,
-                      "value": "6️⃣"
+                      "value": "6️⃣",
+                      "raw": "\"6\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 726,
                       "end": 729,
-                      "value": "7"
+                      "value": "7",
+                      "raw": "\"7\""
                     },
                     {
                       "type": "Literal",
                       "start": 735,
                       "end": 738,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "\"C\""
                     },
                     {
                       "type": "Literal",
                       "start": 744,
                       "end": 752,
-                      "value": "☃"
+                      "value": "☃",
+                      "raw": "\"\\u2603\""
                     },
                     {
                       "type": "Literal",
                       "start": 758,
                       "end": 769,
-                      "value": "𝌆"
+                      "value": "𝌆",
+                      "raw": "\"\\u{1D306}\""
                     },
                     {
                       "type": "Literal",
                       "start": 775,
                       "end": 795,
-                      "value": "🇧🇪"
+                      "value": "🇧🇪",
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
                     }
                   ]
                 },

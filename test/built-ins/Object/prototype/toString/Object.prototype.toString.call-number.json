@@ -85,7 +85,8 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 302,
-                "value": 9
+                "value": 9,
+                "raw": "9"
               }
             ],
             "optional": false
@@ -94,13 +95,15 @@
             "type": "Literal",
             "start": 307,
             "end": 324,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 387,
-            "value": "Object.prototype.toString.call(9) returns [object Number]"
+            "value": "Object.prototype.toString.call(9) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(9) returns [object Number]\""
           }
         ],
         "optional": false
@@ -199,7 +202,8 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 450,
-                    "value": 9
+                    "value": 9,
+                    "raw": "9"
                   }
                 ],
                 "optional": false
@@ -211,13 +215,15 @@
             "type": "Literal",
             "start": 456,
             "end": 473,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 544,
-            "value": "Object.prototype.toString.call(Object(9)) returns [object Number]"
+            "value": "Object.prototype.toString.call(Object(9)) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(Object(9)) returns [object Number]\""
           }
         ],
         "optional": false
@@ -316,7 +322,8 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 607,
-                    "value": 9
+                    "value": 9,
+                    "raw": "9"
                   }
                 ],
                 "optional": false
@@ -328,13 +335,15 @@
             "type": "Literal",
             "start": 613,
             "end": 630,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 701,
-            "value": "Object.prototype.toString.call(Number(9)) returns [object Number]"
+            "value": "Object.prototype.toString.call(Number(9)) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(Number(9)) returns [object Number]\""
           }
         ],
         "optional": false
@@ -444,7 +453,8 @@
                         "type": "Literal",
                         "start": 770,
                         "end": 771,
-                        "value": 9
+                        "value": 9,
+                        "raw": "9"
                       }
                     ],
                     "optional": false
@@ -459,13 +469,15 @@
             "type": "Literal",
             "start": 778,
             "end": 795,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 799,
             "end": 874,
-            "value": "Object.prototype.toString.call(Object(Number(9))) returns [object Number]"
+            "value": "Object.prototype.toString.call(Object(Number(9))) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(Object(Number(9))) returns [object Number]\""
           }
         ],
         "optional": false
@@ -564,7 +576,8 @@
                     "type": "Literal",
                     "start": 940,
                     "end": 941,
-                    "value": 9
+                    "value": 9,
+                    "raw": "9"
                   }
                 ]
               }
@@ -575,13 +588,15 @@
             "type": "Literal",
             "start": 947,
             "end": 964,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 1039,
-            "value": "Object.prototype.toString.call(new Number(9)) returns [object Number]"
+            "value": "Object.prototype.toString.call(new Number(9)) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(new Number(9)) returns [object Number]\""
           }
         ],
         "optional": false
@@ -691,7 +706,8 @@
                         "type": "Literal",
                         "start": 1112,
                         "end": 1113,
-                        "value": 9
+                        "value": 9,
+                        "raw": "9"
                       }
                     ]
                   }
@@ -705,13 +721,15 @@
             "type": "Literal",
             "start": 1120,
             "end": 1137,
-            "value": "[object Number]"
+            "value": "[object Number]",
+            "raw": "\"[object Number]\""
           },
           {
             "type": "Literal",
             "start": 1141,
             "end": 1220,
-            "value": "Object.prototype.toString.call(Object(new Number(9))) returns [object Number]"
+            "value": "Object.prototype.toString.call(Object(new Number(9))) returns [object Number]",
+            "raw": "\"Object.prototype.toString.call(Object(new Number(9))) returns [object Number]\""
           }
         ],
         "optional": false

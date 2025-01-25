@@ -20,7 +20,8 @@
               "type": "Literal",
               "start": 325,
               "end": 329,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ]
@@ -59,7 +60,8 @@
                   "type": "Literal",
                   "start": 353,
                   "end": 357,
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 }
               },
               "consequent": {
@@ -85,7 +87,8 @@
                         "type": "Literal",
                         "start": 382,
                         "end": 430,
-                        "value": "#1: Exception === null. Actual:  Exception ==="
+                        "value": "#1: Exception === null. Actual:  Exception ===",
+                        "raw": "'#1: Exception === null. Actual:  Exception ==='"
                       },
                       "operator": "+",
                       "right": {

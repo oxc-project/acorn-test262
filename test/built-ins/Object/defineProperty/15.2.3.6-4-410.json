@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 422,
             "end": 428,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -78,7 +79,8 @@
                   "type": "Literal",
                   "start": 441,
                   "end": 445,
-                  "value": 1001
+                  "value": 1001,
+                  "raw": "1001"
                 },
                 "kind": "init"
               },
@@ -99,7 +101,8 @@
                   "type": "Literal",
                   "start": 459,
                   "end": 464,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -120,7 +123,8 @@
                   "type": "Literal",
                   "start": 480,
                   "end": 485,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -141,7 +145,8 @@
                   "type": "Literal",
                   "start": 503,
                   "end": 507,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -200,7 +205,8 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 547,
-                  "value": "prop"
+                  "value": "prop",
+                  "raw": "\"prop\""
                 }
               ],
               "optional": false
@@ -235,13 +241,15 @@
             "type": "Literal",
             "start": 575,
             "end": 581,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 599,
-            "value": "noCheckOwnProp"
+            "value": "noCheckOwnProp",
+            "raw": "\"noCheckOwnProp\""
           }
         ],
         "optional": false
@@ -298,7 +306,8 @@
             "type": "Literal",
             "start": 630,
             "end": 634,
-            "value": 1001
+            "value": 1001,
+            "raw": "1001"
           }
         ],
         "optional": false

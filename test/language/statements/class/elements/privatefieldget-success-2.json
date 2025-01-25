@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 905,
               "end": 913,
-              "value": "Avalue"
+              "value": "Avalue",
+              "raw": "'Avalue'"
             }
           },
           {
@@ -132,7 +133,8 @@
               "type": "Literal",
               "start": 976,
               "end": 984,
-              "value": "Bvalue"
+              "value": "Bvalue",
+              "raw": "'Bvalue'"
             }
           },
           {
@@ -281,7 +283,8 @@
             "type": "Literal",
             "start": 1063,
             "end": 1071,
-            "value": "Bvalue"
+            "value": "Bvalue",
+            "raw": "'Bvalue'"
           }
         ],
         "optional": false

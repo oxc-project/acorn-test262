@@ -33,19 +33,22 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 369,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 372,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ],
             "optional": false
@@ -111,7 +114,8 @@
             "type": "Literal",
             "start": 418,
             "end": 489,
-            "value": "The value of obj.constructor is expected to equal the value of Number"
+            "value": "The value of obj.constructor is expected to equal the value of Number",
+            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
           }
         ],
         "optional": false
@@ -162,13 +166,15 @@
             "type": "Literal",
             "start": 521,
             "end": 529,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 531,
             "end": 585,
-            "value": "The value of `typeof obj` is expected to be \"object\""
+            "value": "The value of `typeof obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -204,14 +210,16 @@
               "type": "Literal",
               "start": 603,
               "end": 604,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 666,
-            "value": "The result of evaluating (obj == 1) is expected to be true"
+            "value": "The result of evaluating (obj == 1) is expected to be true",
+            "raw": "'The result of evaluating (obj == 1) is expected to be true'"
           }
         ],
         "optional": false
@@ -255,13 +263,15 @@
             "type": "Literal",
             "start": 694,
             "end": 695,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 697,
             "end": 724,
-            "value": "The value of obj is not 1"
+            "value": "The value of obj is not 1",
+            "raw": "'The value of obj is not 1'"
           }
         ],
         "optional": false

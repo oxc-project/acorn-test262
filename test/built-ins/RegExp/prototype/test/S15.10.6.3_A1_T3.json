@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 371,
-                "value": "abcdefghi"
+                "value": "abcdefghi",
+                "raw": "\"abcdefghi\""
               }
             ]
           }
@@ -61,6 +62,7 @@
             "start": 385,
             "end": 398,
             "value": {},
+            "raw": "/a[a-z]{2,4}/",
             "regex": {
               "pattern": "a[a-z]{2,4}",
               "flags": ""
@@ -173,14 +175,16 @@
               "type": "Literal",
               "start": 468,
               "end": 472,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 555,
-            "value": "__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null"
+            "value": "__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null",
+            "raw": "'__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null'"
           }
         ],
         "optional": false

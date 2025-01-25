@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -60,7 +61,8 @@
             "type": "Literal",
             "start": 446,
             "end": 451,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -136,7 +138,8 @@
                   "type": "Literal",
                   "start": 506,
                   "end": 510,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             },
@@ -207,7 +210,8 @@
                               "type": "Literal",
                               "start": 583,
                               "end": 619,
-                              "value": "Expected a ReferenceError, but a \""
+                              "value": "Expected a ReferenceError, but a \"",
+                              "raw": "'Expected a ReferenceError, but a \"'"
                             },
                             "operator": "+",
                             "right": {
@@ -248,7 +252,8 @@
                             "type": "Literal",
                             "start": 651,
                             "end": 666,
-                            "value": "\" was thrown."
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
                           }
                         }
                       ]
@@ -282,7 +287,8 @@
           "type": "Literal",
           "start": 695,
           "end": 700,
-          "value": false
+          "value": false,
+          "raw": "false"
         }
       },
       "consequent": {
@@ -309,7 +315,8 @@
                   "type": "Literal",
                   "start": 722,
                   "end": 775,
-                  "value": "Expected a ReferenceError, but no error was thrown."
+                  "value": "Expected a ReferenceError, but no error was thrown.",
+                  "raw": "'Expected a ReferenceError, but no error was thrown.'"
                 }
               ]
             }

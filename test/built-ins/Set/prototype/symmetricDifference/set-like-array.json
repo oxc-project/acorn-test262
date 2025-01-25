@@ -38,13 +38,15 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 380,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 382,
                     "end": 383,
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
@@ -78,7 +80,8 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 400,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -118,7 +121,8 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       }
     },
@@ -190,7 +194,8 @@
                       "type": "Literal",
                       "start": 465,
                       "end": 539,
-                      "value": "Set.prototype.symmetricDifference should not invoke .has on its argument"
+                      "value": "Set.prototype.symmetricDifference should not invoke .has on its argument",
+                      "raw": "\"Set.prototype.symmetricDifference should not invoke .has on its argument\""
                     }
                   ]
                 }
@@ -263,19 +268,22 @@
                           "type": "Literal",
                           "start": 579,
                           "end": 580,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         {
                           "type": "Literal",
                           "start": 582,
                           "end": 583,
-                          "value": 3
+                          "value": 3,
+                          "raw": "3"
                         },
                         {
                           "type": "Literal",
                           "start": 585,
                           "end": 586,
-                          "value": 4
+                          "value": 4,
+                          "raw": "4"
                         }
                       ]
                     },
@@ -321,19 +329,22 @@
                 "type": "Literal",
                 "start": 620,
                 "end": 621,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 623,
                 "end": 624,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 626,
                 "end": 627,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
           }
@@ -499,13 +510,15 @@
             "type": "Literal",
             "start": 764,
             "end": 768,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 800,
-            "value": "The returned object is a Set"
+            "value": "The returned object is a Set",
+            "raw": "\"The returned object is a Set\""
           }
         ],
         "optional": false

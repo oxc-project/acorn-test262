@@ -31,6 +31,7 @@
                 "start": 415,
                 "end": 419,
                 "value": {},
+                "raw": "/^m/",
                 "regex": {
                   "pattern": "^m",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 447,
-                "value": "pairs\nmakes\tdouble"
+                "value": "pairs\nmakes\tdouble",
+                "raw": "\"pairs\\nmakes\\tdouble\""
               }
             ],
             "optional": false
@@ -91,7 +93,8 @@
             "type": "Literal",
             "start": 471,
             "end": 520,
-            "value": "The value of !__executed is expected to be true"
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
           }
         ],
         "optional": false

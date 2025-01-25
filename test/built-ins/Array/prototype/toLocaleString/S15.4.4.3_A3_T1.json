@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 330,
             "end": 331,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -140,7 +141,8 @@
             "type": "Literal",
             "start": 407,
             "end": 408,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -217,7 +219,8 @@
           "type": "Literal",
           "start": 443,
           "end": 444,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -271,7 +274,8 @@
           "type": "Literal",
           "start": 476,
           "end": 477,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -302,7 +306,8 @@
                     "type": "Literal",
                     "start": 506,
                     "end": 657,
-                    "value": "#1: var n = 0; var obj = {toLocaleString: function() {n++}}; Array.prototype[1] = obj; x = [obj]; x.length = 2; x.toLocaleString(); n === 2. Actual: "
+                    "value": "#1: var n = 0; var obj = {toLocaleString: function() {n++}}; Array.prototype[1] = obj; x = [obj]; x.length = 2; x.toLocaleString(); n === 2. Actual: ",
+                    "raw": "'#1: var n = 0; var obj = {toLocaleString: function() {n++}}; Array.prototype[1] = obj; x = [obj]; x.length = 2; x.toLocaleString(); n === 2. Actual: '"
                   },
                   "operator": "+",
                   "right": {

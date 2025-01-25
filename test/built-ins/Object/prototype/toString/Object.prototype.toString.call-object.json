@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 279,
             "end": 296,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 360,
-            "value": "Object.prototype.toString.call({}) returns [object Object]"
+            "value": "Object.prototype.toString.call({}) returns [object Object]",
+            "raw": "\"Object.prototype.toString.call({}) returns [object Object]\""
           }
         ],
         "optional": false
@@ -211,13 +213,15 @@
             "type": "Literal",
             "start": 430,
             "end": 447,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 519,
-            "value": "Object.prototype.toString.call(Object({})) returns [object Object]"
+            "value": "Object.prototype.toString.call(Object({})) returns [object Object]",
+            "raw": "\"Object.prototype.toString.call(Object({})) returns [object Object]\""
           }
         ],
         "optional": false
@@ -327,13 +331,15 @@
             "type": "Literal",
             "start": 593,
             "end": 610,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 686,
-            "value": "Object.prototype.toString.call(new Object({})) returns [object Object]"
+            "value": "Object.prototype.toString.call(new Object({})) returns [object Object]",
+            "raw": "\"Object.prototype.toString.call(new Object({})) returns [object Object]\""
           }
         ],
         "optional": false

@@ -75,7 +75,8 @@
             "type": "Literal",
             "start": 700,
             "end": 751,
-            "value": "ArrayBuffer.prototype.resize is not a constructor"
+            "value": "ArrayBuffer.prototype.resize is not a constructor",
+            "raw": "\"ArrayBuffer.prototype.resize is not a constructor\""
           }
         ],
         "optional": false
@@ -111,7 +112,8 @@
                 "type": "Literal",
                 "start": 789,
                 "end": 790,
-                "value": 8
+                "value": 8,
+                "raw": "8"
               }
             ]
           }

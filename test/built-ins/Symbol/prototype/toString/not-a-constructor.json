@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 769,
             "end": 774,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 838,
-            "value": "isConstructor(Symbol.prototype.toString) must return false"
+            "value": "isConstructor(Symbol.prototype.toString) must return false",
+            "raw": "'isConstructor(Symbol.prototype.toString) must return false'"
           }
         ],
         "optional": false

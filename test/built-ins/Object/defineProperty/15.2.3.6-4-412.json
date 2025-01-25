@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 368,
             "end": 379,
-            "value": "startTime"
+            "value": "startTime",
+            "raw": "\"startTime\""
           },
           {
             "type": "ObjectExpression",
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 392,
                   "end": 396,
-                  "value": 1001
+                  "value": 1001,
+                  "raw": "1001"
                 },
                 "kind": "init"
               },
@@ -111,7 +113,8 @@
                   "type": "Literal",
                   "start": 410,
                   "end": 414,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 434,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -153,7 +157,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 456,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -201,7 +206,8 @@
             "type": "Literal",
             "start": 496,
             "end": 502,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -225,7 +231,8 @@
                   "type": "Literal",
                   "start": 515,
                   "end": 521,
-                  "value": "NAME"
+                  "value": "NAME",
+                  "raw": "\"NAME\""
                 },
                 "kind": "init"
               },
@@ -246,7 +253,8 @@
                   "type": "Literal",
                   "start": 535,
                   "end": 539,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -267,7 +275,8 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 559,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -288,7 +297,8 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 581,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -388,7 +398,8 @@
             "type": "Literal",
             "start": 660,
             "end": 676,
-            "value": "conferenceCall"
+            "value": "conferenceCall",
+            "raw": "\"conferenceCall\""
           },
           {
             "type": "ObjectExpression",
@@ -412,7 +423,8 @@
                   "type": "Literal",
                   "start": 689,
                   "end": 708,
-                  "value": "In-person meeting"
+                  "value": "In-person meeting",
+                  "raw": "\"In-person meeting\""
                 },
                 "kind": "init"
               },
@@ -433,7 +445,8 @@
                   "type": "Literal",
                   "start": 722,
                   "end": 726,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -454,7 +467,8 @@
                   "type": "Literal",
                   "start": 742,
                   "end": 746,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -475,7 +489,8 @@
                   "type": "Literal",
                   "start": 764,
                   "end": 768,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -594,7 +609,8 @@
                       "type": "Literal",
                       "start": 866,
                       "end": 872,
-                      "value": "name"
+                      "value": "name",
+                      "raw": "\"name\""
                     }
                   ],
                   "optional": false
@@ -635,7 +651,8 @@
                       "type": "Literal",
                       "start": 907,
                       "end": 918,
-                      "value": "startTime"
+                      "value": "startTime",
+                      "raw": "\"startTime\""
                     }
                   ],
                   "optional": false
@@ -677,7 +694,8 @@
                     "type": "Literal",
                     "start": 953,
                     "end": 969,
-                    "value": "conferenceCall"
+                    "value": "conferenceCall",
+                    "raw": "'conferenceCall'"
                   }
                 ],
                 "optional": false
@@ -713,7 +731,8 @@
             "type": "Literal",
             "start": 996,
             "end": 1021,
-            "value": "hasOwnProperty !== true"
+            "value": "hasOwnProperty !== true",
+            "raw": "'hasOwnProperty !== true'"
           }
         ],
         "optional": false
@@ -770,13 +789,15 @@
             "type": "Literal",
             "start": 1059,
             "end": 1065,
-            "value": "NAME"
+            "value": "NAME",
+            "raw": "\"NAME\""
           },
           {
             "type": "Literal",
             "start": 1067,
             "end": 1085,
-            "value": "teamMeeting.name"
+            "value": "teamMeeting.name",
+            "raw": "'teamMeeting.name'"
           }
         ],
         "optional": false
@@ -833,13 +854,15 @@
             "type": "Literal",
             "start": 1128,
             "end": 1132,
-            "value": 1001
+            "value": 1001,
+            "raw": "1001"
           },
           {
             "type": "Literal",
             "start": 1134,
             "end": 1157,
-            "value": "teamMeeting.startTime"
+            "value": "teamMeeting.startTime",
+            "raw": "'teamMeeting.startTime'"
           }
         ],
         "optional": false
@@ -896,13 +919,15 @@
             "type": "Literal",
             "start": 1205,
             "end": 1224,
-            "value": "In-person meeting"
+            "value": "In-person meeting",
+            "raw": "\"In-person meeting\""
           },
           {
             "type": "Literal",
             "start": 1226,
             "end": 1254,
-            "value": "teamMeeting.conferenceCall"
+            "value": "teamMeeting.conferenceCall",
+            "raw": "'teamMeeting.conferenceCall'"
           }
         ],
         "optional": false

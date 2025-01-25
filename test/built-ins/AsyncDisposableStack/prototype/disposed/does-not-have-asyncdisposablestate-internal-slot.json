@@ -65,7 +65,8 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 821,
-                "value": "disposed"
+                "value": "disposed",
+                "raw": "'disposed'"
               }
             ],
             "optional": false

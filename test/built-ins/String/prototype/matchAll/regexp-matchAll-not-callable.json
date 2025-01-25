@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 488,
             "end": 498,
-            "value": "function"
+            "value": "function",
+            "raw": "\"function\""
           }
         ],
         "optional": false
@@ -100,6 +101,7 @@
             "start": 515,
             "end": 518,
             "value": {},
+            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -154,7 +156,8 @@
           "type": "Literal",
           "start": 547,
           "end": 551,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -222,7 +225,8 @@
                         "type": "Literal",
                         "start": 593,
                         "end": 595,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",
@@ -296,7 +300,8 @@
           "type": "Literal",
           "start": 645,
           "end": 646,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       }
     },
@@ -364,7 +369,8 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 690,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",
@@ -438,7 +444,8 @@
           "type": "Literal",
           "start": 740,
           "end": 742,
-          "value": ""
+          "value": "",
+          "raw": "''"
         }
       }
     },
@@ -506,7 +513,8 @@
                         "type": "Literal",
                         "start": 784,
                         "end": 786,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",
@@ -655,7 +663,8 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 888,
-                        "value": ""
+                        "value": "",
+                        "raw": "''"
                       },
                       "property": {
                         "type": "Identifier",

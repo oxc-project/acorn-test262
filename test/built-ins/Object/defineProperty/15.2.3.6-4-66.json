@@ -60,7 +60,8 @@
           "type": "Literal",
           "start": 353,
           "end": 356,
-          "value": 101
+          "value": 101,
+          "raw": "101"
         }
       }
     },
@@ -102,7 +103,8 @@
             "type": "Literal",
             "start": 471,
             "end": 476,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -126,7 +128,8 @@
                   "type": "Literal",
                   "start": 489,
                   "end": 492,
-                  "value": 102
+                  "value": 102,
+                  "raw": "102"
                 },
                 "kind": "init"
               }
@@ -161,7 +164,8 @@
             "type": "Literal",
             "start": 518,
             "end": 523,
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
           {
             "type": "ObjectExpression",
@@ -185,7 +189,8 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 539,
-                  "value": 102
+                  "value": 102,
+                  "raw": "102"
                 },
                 "kind": "init"
               },
@@ -206,7 +211,8 @@
                   "type": "Literal",
                   "start": 553,
                   "end": 557,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -227,7 +233,8 @@
                   "type": "Literal",
                   "start": 573,
                   "end": 577,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -248,7 +255,8 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 599,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

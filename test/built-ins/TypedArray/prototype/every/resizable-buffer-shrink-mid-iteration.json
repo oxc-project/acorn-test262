@@ -270,13 +270,15 @@
                       "type": "Literal",
                       "start": 1250,
                       "end": 1251,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     {
                       "type": "Literal",
                       "start": 1253,
                       "end": 1254,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   ]
                 }
@@ -326,7 +328,8 @@
                 "type": "Literal",
                 "start": 1288,
                 "end": 1289,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           },
@@ -353,7 +356,8 @@
                   "type": "Literal",
                   "start": 1304,
                   "end": 1305,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "operator": "*",
                 "right": {
@@ -473,13 +477,15 @@
                       "type": "Literal",
                       "start": 1417,
                       "end": 1418,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     {
                       "type": "Literal",
                       "start": 1424,
                       "end": 1425,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     {
                       "type": "Identifier",
@@ -615,7 +621,8 @@
                         "type": "Literal",
                         "start": 1568,
                         "end": 1569,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "operator": "*",
                       "right": {
@@ -642,7 +649,8 @@
                       "type": "Literal",
                       "start": 1596,
                       "end": 1597,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ]
                 }
@@ -692,7 +700,8 @@
                 "type": "Literal",
                 "start": 1631,
                 "end": 1632,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -719,7 +728,8 @@
                   "type": "Literal",
                   "start": 1647,
                   "end": 1648,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "operator": "*",
                 "right": {
@@ -839,7 +849,8 @@
                       "type": "Literal",
                       "start": 1770,
                       "end": 1771,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     {
                       "type": "Identifier",
@@ -965,7 +976,8 @@
                       "type": "Literal",
                       "start": 1892,
                       "end": 1893,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   ]
                 }
@@ -1015,7 +1027,8 @@
                 "type": "Literal",
                 "start": 1927,
                 "end": 1928,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           },
@@ -1042,7 +1055,8 @@
                   "type": "Literal",
                   "start": 1943,
                   "end": 1944,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "operator": "*",
                 "right": {
@@ -1162,19 +1176,22 @@
                       "type": "Literal",
                       "start": 2059,
                       "end": 2060,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
                     {
                       "type": "Literal",
                       "start": 2066,
                       "end": 2067,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     {
                       "type": "Literal",
                       "start": 2073,
                       "end": 2074,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     {
                       "type": "Identifier",
@@ -1304,7 +1321,8 @@
                         "type": "Literal",
                         "start": 2205,
                         "end": 2206,
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       },
                       "operator": "*",
                       "right": {
@@ -1375,7 +1393,8 @@
                 "type": "Literal",
                 "start": 2265,
                 "end": 2266,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           },
@@ -1402,7 +1421,8 @@
                   "type": "Literal",
                   "start": 2281,
                   "end": 2282,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "operator": "*",
                 "right": {
@@ -1522,7 +1542,8 @@
                       "type": "Literal",
                       "start": 2407,
                       "end": 2408,
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     },
                     {
                       "type": "Identifier",

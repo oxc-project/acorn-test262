@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 415,
             "end": 425,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +122,8 @@
                   "type": "Literal",
                   "start": 467,
                   "end": 471,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -180,7 +182,8 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 535,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             ],
             "optional": false
@@ -212,7 +215,8 @@
               "type": "Literal",
               "start": 546,
               "end": 551,
-              "value": "set"
+              "value": "set",
+              "raw": "\"set\""
             },
             "operator": "in",
             "right": {
@@ -226,7 +230,8 @@
             "type": "Literal",
             "start": 561,
             "end": 585,
-            "value": "\"set\" in desc !== true"
+            "value": "\"set\" in desc !== true",
+            "raw": "'\"set\" in desc !== true'"
           }
         ],
         "optional": false

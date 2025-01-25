@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 335,
             "end": 349,
-            "value": 1735213600321
+            "value": 1735213600321,
+            "raw": "1735213600_321"
           }
         }
       ],
@@ -109,13 +110,15 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 473,
-                "value": 2024
+                "value": 2024,
+                "raw": "2024"
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 477,
-                "value": 12
+                "value": 12,
+                "raw": "12"
               }
             ]
           }
@@ -169,13 +172,15 @@
                   "type": "Literal",
                   "start": 509,
                   "end": 515,
-                  "value": "year"
+                  "value": "year",
+                  "raw": "\"year\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 517,
                   "end": 526,
-                  "value": "numeric"
+                  "value": "numeric",
+                  "raw": "\"numeric\""
                 },
                 "kind": "init"
               }
@@ -197,13 +202,15 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 541,
-                  "value": "month"
+                  "value": "month",
+                  "raw": "\"month\""
                 },
                 "value": {
                   "type": "Literal",
                   "start": 543,
                   "end": 549,
-                  "value": "long"
+                  "value": "long",
+                  "raw": "\"long\""
                 },
                 "kind": "init"
               }
@@ -259,7 +266,8 @@
                       "type": "Literal",
                       "start": 689,
                       "end": 706,
-                      "value": "en-u-ca-iso8601"
+                      "value": "en-u-ca-iso8601",
+                      "raw": "\"en-u-ca-iso8601\""
                     },
                     {
                       "type": "Identifier",
@@ -317,7 +325,8 @@
                       "type": "Literal",
                       "start": 771,
                       "end": 788,
-                      "value": "en-u-ca-iso8601"
+                      "value": "en-u-ca-iso8601",
+                      "raw": "\"en-u-ca-iso8601\""
                     },
                     {
                       "type": "Identifier",

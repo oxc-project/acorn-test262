@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 791,
             "end": 792,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -96,7 +97,8 @@
                             "type": "Literal",
                             "start": 831,
                             "end": 843,
-                            "value": "var a = 42"
+                            "value": "var a = 42",
+                            "raw": "\"var a = 42\""
                           }
                         ],
                         "optional": false
@@ -138,7 +140,8 @@
                               "type": "Literal",
                               "start": 881,
                               "end": 882,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -257,7 +260,8 @@
                                 "type": "Literal",
                                 "start": 947,
                                 "end": 980,
-                                "value": "function should not be resolved"
+                                "value": "function should not be resolved",
+                                "raw": "'function should not be resolved'"
                               }
                             ]
                           }
@@ -399,13 +403,15 @@
                             "type": "Literal",
                             "start": 1095,
                             "end": 1096,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1098,
                             "end": 1130,
-                            "value": "function body is not evaluated"
+                            "value": "function body is not evaluated",
+                            "raw": "'function body is not evaluated'"
                           }
                         ],
                         "optional": false

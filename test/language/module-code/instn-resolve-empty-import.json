@@ -30,7 +30,8 @@
         "type": "Literal",
         "start": 1310,
         "end": 1351,
-        "value": "./instn-resolve-empty-import_FIXTURE.js"
+        "value": "./instn-resolve-empty-import_FIXTURE.js",
+        "raw": "'./instn-resolve-empty-import_FIXTURE.js'"
       },
       "attributes": []
     }

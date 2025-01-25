@@ -26,7 +26,8 @@
               "type": "Literal",
               "start": 317,
               "end": 333,
-              "value": "Number\t()"
+              "value": "Number\t()",
+              "raw": "\"Number\\u0009()\""
             }
           ],
           "optional": false
@@ -36,7 +37,8 @@
           "type": "Literal",
           "start": 339,
           "end": 340,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -63,7 +65,8 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 396,
-                  "value": "#1: Number\\u0009() === 0"
+                  "value": "#1: Number\\u0009() === 0",
+                  "raw": "'#1: Number\\\\u0009() === 0'"
                 }
               ]
             }
@@ -95,7 +98,8 @@
               "type": "Literal",
               "start": 421,
               "end": 437,
-              "value": "Number\u000b()"
+              "value": "Number\u000b()",
+              "raw": "\"Number\\u000B()\""
             }
           ],
           "optional": false
@@ -105,7 +109,8 @@
           "type": "Literal",
           "start": 443,
           "end": 444,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -132,7 +137,8 @@
                   "type": "Literal",
                   "start": 473,
                   "end": 500,
-                  "value": "#2: Number\\u000B() === 0"
+                  "value": "#2: Number\\u000B() === 0",
+                  "raw": "'#2: Number\\\\u000B() === 0'"
                 }
               ]
             }
@@ -164,7 +170,8 @@
               "type": "Literal",
               "start": 527,
               "end": 543,
-              "value": "Number\f()"
+              "value": "Number\f()",
+              "raw": "\"Number\\u000C()\""
             }
           ],
           "optional": false
@@ -174,7 +181,8 @@
           "type": "Literal",
           "start": 549,
           "end": 550,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -201,7 +209,8 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 606,
-                  "value": "#3: Number\\u000C() === 0"
+                  "value": "#3: Number\\u000C() === 0",
+                  "raw": "'#3: Number\\\\u000C() === 0'"
                 }
               ]
             }
@@ -233,7 +242,8 @@
               "type": "Literal",
               "start": 631,
               "end": 647,
-              "value": "Number ()"
+              "value": "Number ()",
+              "raw": "\"Number\\u0020()\""
             }
           ],
           "optional": false
@@ -243,7 +253,8 @@
           "type": "Literal",
           "start": 653,
           "end": 654,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -270,7 +281,8 @@
                   "type": "Literal",
                   "start": 683,
                   "end": 708,
-                  "value": "#4: Number\\u0020 === 0"
+                  "value": "#4: Number\\u0020 === 0",
+                  "raw": "'#4: Number\\\\u0020 === 0'"
                 }
               ]
             }
@@ -302,7 +314,8 @@
               "type": "Literal",
               "start": 733,
               "end": 749,
-              "value": "Number ()"
+              "value": "Number ()",
+              "raw": "\"Number\\u00A0()\""
             }
           ],
           "optional": false
@@ -312,7 +325,8 @@
           "type": "Literal",
           "start": 755,
           "end": 756,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -339,7 +353,8 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 812,
-                  "value": "#5: Number\\u00A0() === 0"
+                  "value": "#5: Number\\u00A0() === 0",
+                  "raw": "'#5: Number\\\\u00A0() === 0'"
                 }
               ]
             }
@@ -371,7 +386,8 @@
               "type": "Literal",
               "start": 837,
               "end": 853,
-              "value": "Number\n()"
+              "value": "Number\n()",
+              "raw": "\"Number\\u000A()\""
             }
           ],
           "optional": false
@@ -381,7 +397,8 @@
           "type": "Literal",
           "start": 859,
           "end": 860,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -408,7 +425,8 @@
                   "type": "Literal",
                   "start": 889,
                   "end": 916,
-                  "value": "#6: Number\\u000A() === 0"
+                  "value": "#6: Number\\u000A() === 0",
+                  "raw": "'#6: Number\\\\u000A() === 0'"
                 }
               ]
             }
@@ -440,7 +458,8 @@
               "type": "Literal",
               "start": 943,
               "end": 959,
-              "value": "Number\r()"
+              "value": "Number\r()",
+              "raw": "\"Number\\u000D()\""
             }
           ],
           "optional": false
@@ -450,7 +469,8 @@
           "type": "Literal",
           "start": 965,
           "end": 966,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -477,7 +497,8 @@
                   "type": "Literal",
                   "start": 995,
                   "end": 1022,
-                  "value": "#7: Number\\u000D() === 0"
+                  "value": "#7: Number\\u000D() === 0",
+                  "raw": "'#7: Number\\\\u000D() === 0'"
                 }
               ]
             }
@@ -509,7 +530,8 @@
               "type": "Literal",
               "start": 1047,
               "end": 1063,
-              "value": "Number ()"
+              "value": "Number ()",
+              "raw": "\"Number\\u2028()\""
             }
           ],
           "optional": false
@@ -519,7 +541,8 @@
           "type": "Literal",
           "start": 1069,
           "end": 1070,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -546,7 +569,8 @@
                   "type": "Literal",
                   "start": 1099,
                   "end": 1126,
-                  "value": "#8: Number\\u2028() === 0"
+                  "value": "#8: Number\\u2028() === 0",
+                  "raw": "'#8: Number\\\\u2028() === 0'"
                 }
               ]
             }
@@ -578,7 +602,8 @@
               "type": "Literal",
               "start": 1151,
               "end": 1167,
-              "value": "Number ()"
+              "value": "Number ()",
+              "raw": "\"Number\\u2029()\""
             }
           ],
           "optional": false
@@ -588,7 +613,8 @@
           "type": "Literal",
           "start": 1173,
           "end": 1174,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -615,7 +641,8 @@
                   "type": "Literal",
                   "start": 1203,
                   "end": 1230,
-                  "value": "#9: Number\\u2029() === 0"
+                  "value": "#9: Number\\u2029() === 0",
+                  "raw": "'#9: Number\\\\u2029() === 0'"
                 }
               ]
             }
@@ -647,7 +674,8 @@
               "type": "Literal",
               "start": 1256,
               "end": 1320,
-              "value": "Number\t\u000b\f  \n\r  ()"
+              "value": "Number\t\u000b\f  \n\r  ()",
+              "raw": "\"Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029()\""
             }
           ],
           "optional": false
@@ -657,7 +685,8 @@
           "type": "Literal",
           "start": 1326,
           "end": 1327,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -684,7 +713,8 @@
                   "type": "Literal",
                   "start": 1356,
                   "end": 1440,
-                  "value": "#10: Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029() === 0"
+                  "value": "#10: Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029() === 0",
+                  "raw": "'#10: Number\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029() === 0'"
                 }
               ]
             }

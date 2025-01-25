@@ -54,7 +54,8 @@
             "type": "Literal",
             "start": 690,
             "end": 703,
-            "value": "ArrayBuffer"
+            "value": "ArrayBuffer",
+            "raw": "\"ArrayBuffer\""
           }
         ],
         "optional": false
@@ -85,7 +86,8 @@
             "type": "Literal",
             "start": 735,
             "end": 741,
-            "value": "name"
+            "value": "name",
+            "raw": "\"name\""
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,8 @@
                   "type": "Literal",
                   "start": 757,
                   "end": 762,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -130,7 +133,8 @@
                   "type": "Literal",
                   "start": 778,
                   "end": 783,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -151,7 +155,8 @@
                   "type": "Literal",
                   "start": 801,
                   "end": 805,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

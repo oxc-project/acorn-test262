@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1606,
             "end": 1607,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -77,7 +78,8 @@
                 "type": "Literal",
                 "start": 1658,
                 "end": 1668,
-                "value": "poisoned"
+                "value": "poisoned",
+                "raw": "'poisoned'"
               },
               {
                 "type": "ObjectExpression",
@@ -332,7 +334,8 @@
             "type": "Literal",
             "start": 1886,
             "end": 1887,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

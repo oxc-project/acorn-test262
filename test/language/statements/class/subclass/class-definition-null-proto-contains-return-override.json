@@ -37,7 +37,8 @@
         "type": "Literal",
         "start": 686,
         "end": 690,
-        "value": null
+        "value": null,
+        "raw": "null"
       },
       "body": {
         "type": "ClassBody",

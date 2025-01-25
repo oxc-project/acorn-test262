@@ -30,13 +30,15 @@
                 "type": "Literal",
                 "start": 287,
                 "end": 291,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               "alternate": {
                 "type": "Literal",
                 "start": 294,
                 "end": 299,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             }
           },
@@ -63,7 +65,8 @@
                     "type": "Literal",
                     "start": 326,
                     "end": 381,
-                    "value": "#1.1: x ? true : false throw ReferenceError. Actual: "
+                    "value": "#1.1: x ? true : false throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: x ? true : false throw ReferenceError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -84,13 +87,15 @@
                         "type": "Literal",
                         "start": 389,
                         "end": 393,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       },
                       "alternate": {
                         "type": "Literal",
                         "start": 396,
                         "end": 401,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   }
@@ -151,7 +156,8 @@
                   "type": "Literal",
                   "start": 461,
                   "end": 465,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -182,7 +188,8 @@
                             "type": "Literal",
                             "start": 496,
                             "end": 551,
-                            "value": "#1.2: x ? true : false throw ReferenceError. Actual: "
+                            "value": "#1.2: x ? true : false throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: x ? true : false throw ReferenceError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

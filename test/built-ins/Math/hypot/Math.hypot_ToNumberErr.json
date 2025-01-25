@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 466,
             "end": 467,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -133,7 +134,8 @@
                         "type": "Literal",
                         "start": 582,
                         "end": 583,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "UnaryExpression",
@@ -145,7 +147,8 @@
                           "type": "Literal",
                           "start": 592,
                           "end": 593,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       },
                       {
@@ -272,7 +275,8 @@
             "type": "Literal",
             "start": 709,
             "end": 789,
-            "value": "Math.hypot propagates an abrupt completion from coercing an argument to Number"
+            "value": "Math.hypot propagates an abrupt completion from coercing an argument to Number",
+            "raw": "'Math.hypot propagates an abrupt completion from coercing an argument to Number'"
           }
         ],
         "optional": false
@@ -316,13 +320,15 @@
             "type": "Literal",
             "start": 820,
             "end": 821,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 897,
-            "value": "Math.hypot aborts argument processing at the first abrupt completion"
+            "value": "Math.hypot aborts argument processing at the first abrupt completion",
+            "raw": "'Math.hypot aborts argument processing at the first abrupt completion'"
           }
         ],
         "optional": false

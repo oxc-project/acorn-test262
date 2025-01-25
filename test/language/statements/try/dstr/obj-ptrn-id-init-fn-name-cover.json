@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1102,
             "end": 1107,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -143,7 +144,8 @@
                         "type": "Literal",
                         "start": 1175,
                         "end": 1176,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "FunctionExpression",
@@ -224,7 +226,8 @@
                     "type": "Literal",
                     "start": 1230,
                     "end": 1237,
-                    "value": "cover"
+                    "value": "cover",
+                    "raw": "'cover'"
                   }
                 ],
                 "optional": false
@@ -281,7 +284,8 @@
                     "type": "Literal",
                     "start": 1275,
                     "end": 1283,
-                    "value": "xCover"
+                    "value": "xCover",
+                    "raw": "'xCover'"
                   }
                 ],
                 "optional": false
@@ -306,7 +310,8 @@
                   "type": "Literal",
                   "start": 1299,
                   "end": 1303,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
             }
@@ -340,7 +345,8 @@
             "type": "Literal",
             "start": 1325,
             "end": 1349,
-            "value": "executed `catch` block"
+            "value": "executed `catch` block",
+            "raw": "'executed `catch` block'"
           }
         ],
         "optional": false

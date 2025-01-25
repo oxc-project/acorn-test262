@@ -117,7 +117,8 @@
             "type": "Literal",
             "start": 343,
             "end": 377,
-            "value": "result instanceof Array !== true"
+            "value": "result instanceof Array !== true",
+            "raw": "'result instanceof Array !== true'"
           }
         ],
         "optional": false

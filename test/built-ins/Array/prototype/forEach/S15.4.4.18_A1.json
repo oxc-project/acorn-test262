@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 307,
-                "value": "z"
+                "value": "z",
+                "raw": "'z'"
               }
             ]
           },

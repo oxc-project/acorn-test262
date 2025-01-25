@@ -150,7 +150,8 @@
                             "type": "Literal",
                             "start": 544,
                             "end": 563,
-                            "value": "Default locale \""
+                            "value": "Default locale \"",
+                            "raw": "\"Default locale \\\"\""
                           },
                           "operator": "+",
                           "right": {
@@ -165,7 +166,8 @@
                           "type": "Literal",
                           "start": 582,
                           "end": 644,
-                          "value": "\" is not canonicalized and structurally valid language tag."
+                          "value": "\" is not canonicalized and structurally valid language tag.",
+                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\""
                         }
                       }
                     ],

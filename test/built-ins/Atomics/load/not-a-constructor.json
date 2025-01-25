@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 770,
             "end": 775,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 824,
-            "value": "isConstructor(Atomics.load) must return false"
+            "value": "isConstructor(Atomics.load) must return false",
+            "raw": "'isConstructor(Atomics.load) must return false'"
           }
         ],
         "optional": false

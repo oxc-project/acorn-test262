@@ -109,13 +109,15 @@
             "type": "Literal",
             "start": 700,
             "end": 707,
-            "value": "value"
+            "value": "value",
+            "raw": "\"value\""
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 716,
-            "value": "value"
+            "value": "value",
+            "raw": "\"value\""
           }
         ],
         "optional": false

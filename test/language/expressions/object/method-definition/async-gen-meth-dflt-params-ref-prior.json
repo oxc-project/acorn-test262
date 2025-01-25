@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1480,
             "end": 1481,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 1500,
             "end": 1501,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -180,13 +182,15 @@
                               "type": "Literal",
                               "start": 1574,
                               "end": 1575,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             },
                             {
                               "type": "Literal",
                               "start": 1577,
                               "end": 1599,
-                              "value": "first argument value"
+                              "value": "first argument value",
+                              "raw": "'first argument value'"
                             }
                           ],
                           "optional": false
@@ -230,13 +234,15 @@
                               "type": "Literal",
                               "start": 1626,
                               "end": 1627,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             },
                             {
                               "type": "Literal",
                               "start": 1629,
                               "end": 1652,
-                              "value": "second argument value"
+                              "value": "second argument value",
+                              "raw": "'second argument value'"
                             }
                           ],
                           "optional": false
@@ -280,13 +286,15 @@
                               "type": "Literal",
                               "start": 1679,
                               "end": 1680,
-                              "value": 3
+                              "value": 3,
+                              "raw": "3"
                             },
                             {
                               "type": "Literal",
                               "start": 1682,
                               "end": 1704,
-                              "value": "third argument value"
+                              "value": "third argument value",
+                              "raw": "'third argument value'"
                             }
                           ],
                           "optional": false
@@ -322,7 +330,8 @@
                               "type": "Literal",
                               "start": 1735,
                               "end": 1736,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -418,7 +427,8 @@
                         "type": "Literal",
                         "start": 1821,
                         "end": 1822,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       }
                     ],
                     "optional": false
@@ -497,13 +507,15 @@
                             "type": "Literal",
                             "start": 1876,
                             "end": 1877,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1879,
                             "end": 1918,
-                            "value": "generator method invoked exactly once"
+                            "value": "generator method invoked exactly once",
+                            "raw": "'generator method invoked exactly once'"
                           }
                         ],
                         "optional": false

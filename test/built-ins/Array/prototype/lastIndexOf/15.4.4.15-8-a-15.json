@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 376,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 378,
                   "end": 379,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -55,13 +57,15 @@
                   "type": "Literal",
                   "start": 383,
                   "end": 384,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 386,
                   "end": 389,
-                  "value": 111
+                  "value": 111,
+                  "raw": "111"
                 },
                 "kind": "init"
               },
@@ -76,13 +80,15 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 394,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 396,
                   "end": 397,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               },
@@ -103,7 +109,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 411,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               }
@@ -151,7 +158,8 @@
             "type": "Literal",
             "start": 443,
             "end": 446,
-            "value": "6"
+            "value": "6",
+            "raw": "\"6\""
           },
           {
             "type": "ObjectExpression",
@@ -209,7 +217,8 @@
                               "type": "Literal",
                               "start": 485,
                               "end": 486,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "computed": true,
                             "optional": false
@@ -224,7 +233,8 @@
                           "type": "Literal",
                           "start": 500,
                           "end": 501,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -249,7 +259,8 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 528,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -295,7 +306,8 @@
             "type": "Literal",
             "start": 551,
             "end": 552,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -304,7 +316,8 @@
           "type": "Literal",
           "start": 556,
           "end": 557,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -396,7 +409,8 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 616,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -405,13 +419,15 @@
             "type": "Literal",
             "start": 619,
             "end": 620,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 664,
-            "value": "Array.prototype.lastIndexOf.call(arr, 1)"
+            "value": "Array.prototype.lastIndexOf.call(arr, 1)",
+            "raw": "'Array.prototype.lastIndexOf.call(arr, 1)'"
           }
         ],
         "optional": false

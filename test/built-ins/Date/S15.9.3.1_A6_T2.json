@@ -198,19 +198,22 @@
               "type": "Literal",
               "start": 538,
               "end": 542,
-              "value": 1899
+              "value": 1899,
+              "raw": "1899"
             },
             {
               "type": "Literal",
               "start": 544,
               "end": 546,
-              "value": 11
+              "value": 11,
+              "raw": "11"
             },
             {
               "type": "Literal",
               "start": 548,
               "end": 550,
-              "value": 31
+              "value": 31,
+              "raw": "31"
             }
           ],
           "optional": false
@@ -261,7 +264,8 @@
             "type": "Literal",
             "start": 578,
             "end": 619,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -297,19 +301,22 @@
               "type": "Literal",
               "start": 637,
               "end": 641,
-              "value": 1899
+              "value": 1899,
+              "raw": "1899"
             },
             {
               "type": "Literal",
               "start": 643,
               "end": 645,
-              "value": 12
+              "value": 12,
+              "raw": "12"
             },
             {
               "type": "Literal",
               "start": 647,
               "end": 648,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -360,7 +367,8 @@
             "type": "Literal",
             "start": 676,
             "end": 717,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -396,19 +404,22 @@
               "type": "Literal",
               "start": 735,
               "end": 739,
-              "value": 1900
+              "value": 1900,
+              "raw": "1900"
             },
             {
               "type": "Literal",
               "start": 741,
               "end": 742,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 744,
               "end": 745,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -459,7 +470,8 @@
             "type": "Literal",
             "start": 773,
             "end": 814,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -495,19 +507,22 @@
               "type": "Literal",
               "start": 832,
               "end": 836,
-              "value": 1969
+              "value": 1969,
+              "raw": "1969"
             },
             {
               "type": "Literal",
               "start": 838,
               "end": 840,
-              "value": 11
+              "value": 11,
+              "raw": "11"
             },
             {
               "type": "Literal",
               "start": 842,
               "end": 844,
-              "value": 31
+              "value": 31,
+              "raw": "31"
             }
           ],
           "optional": false
@@ -558,7 +573,8 @@
             "type": "Literal",
             "start": 872,
             "end": 913,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -594,19 +610,22 @@
               "type": "Literal",
               "start": 931,
               "end": 935,
-              "value": 1969
+              "value": 1969,
+              "raw": "1969"
             },
             {
               "type": "Literal",
               "start": 937,
               "end": 939,
-              "value": 12
+              "value": 12,
+              "raw": "12"
             },
             {
               "type": "Literal",
               "start": 941,
               "end": 942,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -657,7 +676,8 @@
             "type": "Literal",
             "start": 970,
             "end": 1011,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -693,19 +713,22 @@
               "type": "Literal",
               "start": 1029,
               "end": 1033,
-              "value": 1970
+              "value": 1970,
+              "raw": "1970"
             },
             {
               "type": "Literal",
               "start": 1035,
               "end": 1036,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1038,
               "end": 1039,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -756,7 +779,8 @@
             "type": "Literal",
             "start": 1067,
             "end": 1108,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -792,19 +816,22 @@
               "type": "Literal",
               "start": 1126,
               "end": 1130,
-              "value": 1999
+              "value": 1999,
+              "raw": "1999"
             },
             {
               "type": "Literal",
               "start": 1132,
               "end": 1134,
-              "value": 11
+              "value": 11,
+              "raw": "11"
             },
             {
               "type": "Literal",
               "start": 1136,
               "end": 1138,
-              "value": 31
+              "value": 31,
+              "raw": "31"
             }
           ],
           "optional": false
@@ -855,7 +882,8 @@
             "type": "Literal",
             "start": 1166,
             "end": 1207,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -891,19 +919,22 @@
               "type": "Literal",
               "start": 1225,
               "end": 1229,
-              "value": 1999
+              "value": 1999,
+              "raw": "1999"
             },
             {
               "type": "Literal",
               "start": 1231,
               "end": 1233,
-              "value": 12
+              "value": 12,
+              "raw": "12"
             },
             {
               "type": "Literal",
               "start": 1235,
               "end": 1236,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -954,7 +985,8 @@
             "type": "Literal",
             "start": 1264,
             "end": 1305,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -990,19 +1022,22 @@
               "type": "Literal",
               "start": 1323,
               "end": 1327,
-              "value": 2000
+              "value": 2000,
+              "raw": "2000"
             },
             {
               "type": "Literal",
               "start": 1329,
               "end": 1330,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1332,
               "end": 1333,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -1053,7 +1088,8 @@
             "type": "Literal",
             "start": 1361,
             "end": 1402,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -1089,19 +1125,22 @@
               "type": "Literal",
               "start": 1420,
               "end": 1424,
-              "value": 2099
+              "value": 2099,
+              "raw": "2099"
             },
             {
               "type": "Literal",
               "start": 1426,
               "end": 1428,
-              "value": 11
+              "value": 11,
+              "raw": "11"
             },
             {
               "type": "Literal",
               "start": 1430,
               "end": 1432,
-              "value": 31
+              "value": 31,
+              "raw": "31"
             }
           ],
           "optional": false
@@ -1152,7 +1191,8 @@
             "type": "Literal",
             "start": 1460,
             "end": 1501,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -1188,19 +1228,22 @@
               "type": "Literal",
               "start": 1519,
               "end": 1523,
-              "value": 2099
+              "value": 2099,
+              "raw": "2099"
             },
             {
               "type": "Literal",
               "start": 1525,
               "end": 1527,
-              "value": 12
+              "value": 12,
+              "raw": "12"
             },
             {
               "type": "Literal",
               "start": 1529,
               "end": 1530,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -1251,7 +1294,8 @@
             "type": "Literal",
             "start": 1558,
             "end": 1599,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false
@@ -1287,19 +1331,22 @@
               "type": "Literal",
               "start": 1617,
               "end": 1621,
-              "value": 2100
+              "value": 2100,
+              "raw": "2100"
             },
             {
               "type": "Literal",
               "start": 1623,
               "end": 1624,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 1626,
               "end": 1627,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "optional": false
@@ -1350,7 +1397,8 @@
             "type": "Literal",
             "start": 1655,
             "end": 1696,
-            "value": "The value of x is expected to equal NaN"
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
           }
         ],
         "optional": false

@@ -71,7 +71,8 @@
                       "type": "Literal",
                       "start": 287,
                       "end": 295,
-                      "value": "callee"
+                      "value": "callee",
+                      "raw": "\"callee\""
                     }
                   ],
                   "optional": false

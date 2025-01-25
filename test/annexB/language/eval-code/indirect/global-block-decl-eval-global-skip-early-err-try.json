@@ -24,7 +24,8 @@
                 "type": "Literal",
                 "start": 1117,
                 "end": 1118,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -40,7 +41,8 @@
             "type": "Literal",
             "start": 1128,
             "end": 1701,
-            "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {{ function f() {  } }}    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );"
+            "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {{ function f() {  } }}    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );",
+            "raw": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {{ function f() {  } }}\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'"
           }
         ],
         "optional": false

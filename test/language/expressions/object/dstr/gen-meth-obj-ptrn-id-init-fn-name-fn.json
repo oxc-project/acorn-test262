@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 2114,
             "end": 2115,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -224,7 +225,8 @@
                               "type": "Literal",
                               "start": 2219,
                               "end": 2223,
-                              "value": "fn"
+                              "value": "fn",
+                              "raw": "'fn'"
                             }
                           ],
                           "optional": false
@@ -281,7 +283,8 @@
                               "type": "Literal",
                               "start": 2260,
                               "end": 2265,
-                              "value": "xFn"
+                              "value": "xFn",
+                              "raw": "'xFn'"
                             }
                           ],
                           "optional": false
@@ -317,7 +320,8 @@
                               "type": "Literal",
                               "start": 2296,
                               "end": 2297,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         }
@@ -428,13 +432,15 @@
             "type": "Literal",
             "start": 2358,
             "end": 2359,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 2361,
             "end": 2400,
-            "value": "generator method invoked exactly once"
+            "value": "generator method invoked exactly once",
+            "raw": "'generator method invoked exactly once'"
           }
         ],
         "optional": false

@@ -23,6 +23,7 @@
             "start": 356,
             "end": 360,
             "value": {},
+            "raw": "/x/i",
             "regex": {
               "pattern": "x",
               "flags": "i"
@@ -103,7 +104,8 @@
           "type": "Literal",
           "start": 410,
           "end": 411,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -158,13 +160,15 @@
             "type": "Literal",
             "start": 453,
             "end": 454,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 511,
-            "value": "The value of __instance.indicator is expected to be 1"
+            "value": "The value of __instance.indicator is expected to be 1",
+            "raw": "'The value of __instance.indicator is expected to be 1'"
           }
         ],
         "optional": false

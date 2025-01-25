@@ -34,13 +34,15 @@
                   "type": "Literal",
                   "start": 313,
                   "end": 315,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 317,
                   "end": 319,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               }
@@ -69,7 +71,8 @@
             "type": "Literal",
             "start": 344,
             "end": 349,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -94,7 +97,8 @@
             "type": "Literal",
             "start": 370,
             "end": 375,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -138,7 +142,8 @@
             "type": "Literal",
             "start": 405,
             "end": 413,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -191,7 +196,8 @@
                             "type": "Literal",
                             "start": 458,
                             "end": 462,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       },
@@ -203,7 +209,8 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 477,
-                          "value": 20
+                          "value": 20,
+                          "raw": "20"
                         }
                       }
                     ]
@@ -228,7 +235,8 @@
                   "type": "Literal",
                   "start": 500,
                   "end": 504,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -276,7 +284,8 @@
             "type": "Literal",
             "start": 536,
             "end": 539,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -329,7 +338,8 @@
                             "type": "Literal",
                             "start": 582,
                             "end": 586,
-                            "value": true
+                            "value": true,
+                            "raw": "true"
                           }
                         }
                       },
@@ -341,7 +351,8 @@
                           "type": "Literal",
                           "start": 599,
                           "end": 601,
-                          "value": 10
+                          "value": 10,
+                          "raw": "10"
                         }
                       }
                     ]
@@ -366,7 +377,8 @@
                   "type": "Literal",
                   "start": 624,
                   "end": 628,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -520,7 +532,8 @@
             "type": "Literal",
             "start": 731,
             "end": 756,
-            "value": "lengthAccessed !== true"
+            "value": "lengthAccessed !== true",
+            "raw": "'lengthAccessed !== true'"
           }
         ],
         "optional": false
@@ -564,13 +577,15 @@
             "type": "Literal",
             "start": 790,
             "end": 795,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 811,
-            "value": "loopAccessed"
+            "value": "loopAccessed",
+            "raw": "'loopAccessed'"
           }
         ],
         "optional": false

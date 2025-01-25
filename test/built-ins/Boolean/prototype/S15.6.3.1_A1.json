@@ -61,13 +61,15 @@
             "type": "Literal",
             "start": 358,
             "end": 366,
-            "value": "object"
+            "value": "object",
+            "raw": "\"object\""
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 438,
-            "value": "The value of `typeof Boolean.prototype` is expected to be \"object\""
+            "value": "The value of `typeof Boolean.prototype` is expected to be \"object\"",
+            "raw": "'The value of `typeof Boolean.prototype` is expected to be \"object\"'"
           }
         ],
         "optional": false
@@ -116,14 +118,16 @@
               "type": "Literal",
               "start": 471,
               "end": 476,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 534,
-            "value": "The value of Boolean.prototype is expected to be false"
+            "value": "The value of Boolean.prototype is expected to be false",
+            "raw": "'The value of Boolean.prototype is expected to be false'"
           }
         ],
         "optional": false
@@ -244,13 +248,15 @@
             "type": "Literal",
             "start": 626,
             "end": 644,
-            "value": "[object Boolean]"
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 709,
-            "value": "Boolean.prototype.toString() must return \"[object Boolean]\""
+            "value": "Boolean.prototype.toString() must return \"[object Boolean]\"",
+            "raw": "'Boolean.prototype.toString() must return \"[object Boolean]\"'"
           }
         ],
         "optional": false

@@ -108,7 +108,8 @@
             "type": "Literal",
             "start": 550,
             "end": 566,
-            "value": "ReferenceError"
+            "value": "ReferenceError",
+            "raw": "'ReferenceError'"
           }
         ],
         "optional": false

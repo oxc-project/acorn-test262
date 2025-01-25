@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 372,
-                "value": "1969-12-25T12:23:45.678901234+00:00[UTC]"
+                "value": "1969-12-25T12:23:45.678901234+00:00[UTC]",
+                "raw": "\"1969-12-25T12:23:45.678901234+00:00[UTC]\""
               }
             ],
             "optional": false
@@ -111,61 +112,71 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 411,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 414,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 422,
-                "value": 240
+                "value": 240,
+                "raw": "240"
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 428,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 439,
-                "value": 800
+                "value": 800,
+                "raw": "800"
               }
             ]
           }
@@ -300,7 +311,8 @@
                 "type": "Literal",
                 "start": 564,
                 "end": 606,
-                "value": "1969-12-15T12:23:45.678900434+00:00[UTC]"
+                "value": "1969-12-15T12:23:45.678900434+00:00[UTC]",
+                "raw": "\"1969-12-15T12:23:45.678900434+00:00[UTC]\""
               }
             ],
             "optional": false

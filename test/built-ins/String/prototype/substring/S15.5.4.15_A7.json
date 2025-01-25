@@ -113,7 +113,8 @@
                   "type": "Literal",
                   "start": 416,
                   "end": 517,
-                  "value": "#1: __FACTORY = String.prototype.substring; \"__instance = new __FACTORY\" lead to throwing exception"
+                  "value": "#1: __FACTORY = String.prototype.substring; \"__instance = new __FACTORY\" lead to throwing exception",
+                  "raw": "'#1: __FACTORY = String.prototype.substring; \"__instance = new __FACTORY\" lead to throwing exception'"
                 }
               ]
             }
@@ -171,7 +172,8 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 573,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +204,8 @@
                             "type": "Literal",
                             "start": 604,
                             "end": 653,
-                            "value": "#1.2: undefined = 1 throw a TypeError. Actual: "
+                            "value": "#1.2: undefined = 1 throw a TypeError. Actual: ",
+                            "raw": "'#1.2: undefined = 1 throw a TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

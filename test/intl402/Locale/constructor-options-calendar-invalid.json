@@ -1,57 +1,62 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 948,
+  "end": 947,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 650,
-      "end": 740,
+      "start": 649,
+      "end": 739,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 656,
-          "end": 739,
+          "start": 655,
+          "end": 738,
           "id": {
             "type": "Identifier",
-            "start": 656,
-            "end": 678,
+            "start": 655,
+            "end": 677,
             "name": "invalidCalendarOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 681,
-            "end": 739,
+            "start": 680,
+            "end": 738,
             "elements": [
               {
                 "type": "Literal",
-                "start": 685,
-                "end": 687,
-                "value": ""
+                "start": 684,
+                "end": 686,
+                "value": "",
+                "raw": "\"\""
               },
               {
                 "type": "Literal",
-                "start": 691,
-                "end": 694,
-                "value": "a"
+                "start": 690,
+                "end": 693,
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
-                "start": 698,
-                "end": 702,
-                "value": "ab"
+                "start": 697,
+                "end": 701,
+                "value": "ab",
+                "raw": "\"ab\""
               },
               {
                 "type": "Literal",
-                "start": 706,
-                "end": 717,
-                "value": "abcdefghi"
+                "start": 705,
+                "end": 716,
+                "value": "abcdefghi",
+                "raw": "\"abcdefghi\""
               },
               {
                 "type": "Literal",
-                "start": 721,
-                "end": 736,
-                "value": "abc-abcdefghi"
+                "start": 720,
+                "end": 735,
+                "value": "abc-abcdefghi",
+                "raw": "\"abc-abcdefghi\""
               }
             ]
           }
@@ -61,22 +66,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 741,
-      "end": 947,
+      "start": 740,
+      "end": 946,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 746,
-        "end": 760,
+        "start": 745,
+        "end": 759,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 752,
-            "end": 760,
+            "start": 751,
+            "end": 759,
             "id": {
               "type": "Identifier",
-              "start": 752,
-              "end": 760,
+              "start": 751,
+              "end": 759,
               "name": "calendar"
             },
             "init": null
@@ -86,37 +91,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 764,
-        "end": 786,
+        "start": 763,
+        "end": 785,
         "name": "invalidCalendarOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 788,
-        "end": 947,
+        "start": 787,
+        "end": 946,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 792,
-            "end": 945,
+            "start": 791,
+            "end": 944,
             "expression": {
               "type": "CallExpression",
-              "start": 792,
-              "end": 944,
+              "start": 791,
+              "end": 943,
               "callee": {
                 "type": "MemberExpression",
-                "start": 792,
-                "end": 805,
+                "start": 791,
+                "end": 804,
                 "object": {
                   "type": "Identifier",
-                  "start": 792,
-                  "end": 798,
+                  "start": 791,
+                  "end": 797,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 799,
-                  "end": 805,
+                  "start": 798,
+                  "end": 804,
                   "name": "throws"
                 },
                 "computed": false,
@@ -125,14 +130,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 806,
-                  "end": 816,
+                  "start": 805,
+                  "end": 815,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 818,
-                  "end": 873,
+                  "start": 817,
+                  "end": 872,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -140,31 +145,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 829,
-                    "end": 873,
+                    "start": 828,
+                    "end": 872,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 835,
-                        "end": 869,
+                        "start": 834,
+                        "end": 868,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 835,
-                          "end": 868,
+                          "start": 834,
+                          "end": 867,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 839,
-                            "end": 850,
+                            "start": 838,
+                            "end": 849,
                             "object": {
                               "type": "Identifier",
-                              "start": 839,
-                              "end": 843,
+                              "start": 838,
+                              "end": 842,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 844,
-                              "end": 850,
+                              "start": 843,
+                              "end": 849,
                               "name": "Locale"
                             },
                             "computed": false,
@@ -173,33 +178,34 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 851,
-                              "end": 855,
-                              "value": "en"
+                              "start": 850,
+                              "end": 854,
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 857,
-                              "end": 867,
+                              "start": 856,
+                              "end": 866,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 858,
-                                  "end": 866,
+                                  "start": 857,
+                                  "end": 865,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 858,
-                                    "end": 866,
+                                    "start": 857,
+                                    "end": 865,
                                     "name": "calendar"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 858,
-                                    "end": 866,
+                                    "start": 857,
+                                    "end": 865,
                                     "name": "calendar"
                                   }
                                 }
@@ -213,21 +219,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 875,
-                  "end": 943,
+                  "start": 874,
+                  "end": 942,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 912,
-                      "end": 920,
+                      "start": 911,
+                      "end": 919,
                       "name": "calendar"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 876,
-                      "end": 910,
+                      "start": 875,
+                      "end": 909,
                       "value": {
                         "raw": "new Intl.Locale(\"en\", {calendar: \"",
                         "cooked": "new Intl.Locale(\"en\", {calendar: \""
@@ -236,8 +242,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 921,
-                      "end": 942,
+                      "start": 920,
+                      "end": 941,
                       "value": {
                         "raw": "\"}) throws RangeError",
                         "cooked": "\"}) throws RangeError"

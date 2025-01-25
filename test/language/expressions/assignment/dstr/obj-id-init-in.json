@@ -125,7 +125,8 @@
                       "type": "Literal",
                       "start": 764,
                       "end": 767,
-                      "value": "x"
+                      "value": "x",
+                      "raw": "'x'"
                     },
                     "operator": "in",
                     "right": {
@@ -186,7 +187,8 @@
             "type": "Literal",
             "start": 808,
             "end": 813,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false

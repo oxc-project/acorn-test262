@@ -132,13 +132,15 @@
             "type": "Literal",
             "start": 298,
             "end": 315,
-            "value": "[object Object]"
+            "value": "[object Object]",
+            "raw": "'[object Object]'"
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 320,
-            "value": "s"
+            "value": "s",
+            "raw": "'s'"
           }
         ],
         "optional": false

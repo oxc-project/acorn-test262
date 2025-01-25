@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 288,
                 "end": 290,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 292,
                 "end": 297,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -131,7 +133,8 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 370,
-                  "value": "1976-11-18T12:00+00:00[UTC]"
+                  "value": "1976-11-18T12:00+00:00[UTC]",
+                  "raw": "\"1976-11-18T12:00+00:00[UTC]\""
                 }
               ],
               "optional": false
@@ -212,7 +215,8 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 426,
-                  "value": "1976-11-18"
+                  "value": "1976-11-18",
+                  "raw": "\"1976-11-18\""
                 }
               ],
               "optional": false
@@ -293,7 +297,8 @@
                   "type": "Literal",
                   "start": 470,
                   "end": 477,
-                  "value": "12:00"
+                  "value": "12:00",
+                  "raw": "\"12:00\""
                 }
               ],
               "optional": false
@@ -374,7 +379,8 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 530,
-                  "value": "invalid"
+                  "value": "invalid",
+                  "raw": "\"invalid\""
                 }
               ],
               "optional": false

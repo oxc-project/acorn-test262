@@ -73,7 +73,8 @@
           "type": "Literal",
           "start": 732,
           "end": 736,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -127,7 +128,8 @@
                   "type": "Literal",
                   "start": 779,
                   "end": 782,
-                  "value": "2"
+                  "value": "2",
+                  "raw": "\"2\""
                 }
               }
             ]
@@ -196,7 +198,8 @@
                       "type": "Literal",
                       "start": 843,
                       "end": 865,
-                      "value": "should not be called"
+                      "value": "should not be called",
+                      "raw": "\"should not be called\""
                     }
                   ]
                 }
@@ -246,7 +249,8 @@
                 "type": "Literal",
                 "start": 892,
                 "end": 899,
-                "value": "a2b2c"
+                "value": "a2b2c",
+                "raw": "\"a2b2c\""
               },
               "property": {
                 "type": "Identifier",
@@ -276,19 +280,22 @@
                 "type": "Literal",
                 "start": 919,
                 "end": 922,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               },
               {
                 "type": "Literal",
                 "start": 924,
                 "end": 927,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               },
               {
                 "type": "Literal",
                 "start": 929,
                 "end": 932,
-                "value": "c"
+                "value": "c",
+                "raw": "\"c\""
               }
             ]
           }
@@ -336,7 +343,8 @@
                 "type": "Literal",
                 "start": 956,
                 "end": 963,
-                "value": "a2b2c"
+                "value": "a2b2c",
+                "raw": "\"a2b2c\""
               },
               "property": {
                 "type": "Identifier",
@@ -358,7 +366,8 @@
                 "type": "Literal",
                 "start": 981,
                 "end": 982,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -372,7 +381,8 @@
                 "type": "Literal",
                 "start": 986,
                 "end": 989,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ]
           }

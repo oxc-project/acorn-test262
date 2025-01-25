@@ -109,7 +109,8 @@
                         "type": "Literal",
                         "start": 312,
                         "end": 316,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       {
                         "type": "ObjectExpression",
@@ -128,7 +129,8 @@
             "type": "Literal",
             "start": 326,
             "end": 395,
-            "value": "Function.prototype.call.call(null, {}) throws a TypeError exception"
+            "value": "Function.prototype.call.call(null, {}) throws a TypeError exception",
+            "raw": "'Function.prototype.call.call(null, {}) throws a TypeError exception'"
           }
         ],
         "optional": false

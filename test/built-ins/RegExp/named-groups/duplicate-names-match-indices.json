@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 355,
-                  "value": "..ab"
+                  "value": "..ab",
+                  "raw": "\"..ab\""
                 },
                 "property": {
                   "type": "Identifier",
@@ -51,6 +52,7 @@
                   "start": 362,
                   "end": 380,
                   "value": null,
+                  "raw": "/(?<x>a)|(?<x>b)/d",
                   "regex": {
                     "pattern": "(?<x>a)|(?<x>b)",
                     "flags": "d"
@@ -141,13 +143,15 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }
@@ -186,7 +190,8 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 455,
-                "value": "..ba"
+                "value": "..ba",
+                "raw": "\"..ba\""
               },
               "property": {
                 "type": "Identifier",
@@ -203,6 +208,7 @@
                 "start": 462,
                 "end": 480,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/d",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "d"
@@ -291,13 +297,15 @@
                 "type": "Literal",
                 "start": 530,
                 "end": 531,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 533,
                 "end": 534,
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
           }

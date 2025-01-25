@@ -123,7 +123,8 @@
                               "type": "Literal",
                               "start": 328,
                               "end": 332,
-                              "value": null
+                              "value": null,
+                              "raw": "null"
                             }
                           ]
                         },
@@ -214,19 +215,22 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 402,
-                    "value": 1957
+                    "value": 1957,
+                    "raw": "1957"
                   },
                   {
                     "type": "Literal",
                     "start": 404,
                     "end": 405,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   },
                   {
                     "type": "Literal",
                     "start": 407,
                     "end": 409,
-                    "value": 27
+                    "value": 27,
+                    "raw": "27"
                   }
                 ]
               }
@@ -328,13 +332,15 @@
             "type": "Literal",
             "start": 471,
             "end": 486,
-            "value": "[object Date]"
+            "value": "[object Date]",
+            "raw": "'[object Date]'"
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 582,
-            "value": "Object.prototype.toString.call(construct(Date, [1957, 4, 27])) must return \"[object Date]\""
+            "value": "Object.prototype.toString.call(construct(Date, [1957, 4, 27])) must return \"[object Date]\"",
+            "raw": "'Object.prototype.toString.call(construct(Date, [1957, 4, 27])) must return \"[object Date]\"'"
           }
         ],
         "optional": false

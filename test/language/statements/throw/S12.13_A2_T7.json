@@ -57,7 +57,8 @@
             "type": "Literal",
             "start": 335,
             "end": 336,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -66,7 +67,8 @@
           "type": "Literal",
           "start": 340,
           "end": 346,
-          "value": "Saab"
+          "value": "Saab",
+          "raw": "\"Saab\""
         }
       }
     },
@@ -93,7 +95,8 @@
             "type": "Literal",
             "start": 355,
             "end": 356,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -102,7 +105,8 @@
           "type": "Literal",
           "start": 360,
           "end": 367,
-          "value": "Volvo"
+          "value": "Volvo",
+          "raw": "\"Volvo\""
         }
       }
     },
@@ -129,7 +133,8 @@
             "type": "Literal",
             "start": 376,
             "end": 377,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -138,7 +143,8 @@
           "type": "Literal",
           "start": 381,
           "end": 386,
-          "value": "BMW"
+          "value": "BMW",
+          "raw": "\"BMW\""
         }
       }
     },
@@ -196,7 +202,8 @@
             "type": "Literal",
             "start": 424,
             "end": 425,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -205,7 +212,8 @@
           "type": "Literal",
           "start": 429,
           "end": 439,
-          "value": "Mercedes"
+          "value": "Mercedes",
+          "raw": "\"Mercedes\""
         }
       }
     },
@@ -232,7 +240,8 @@
             "type": "Literal",
             "start": 449,
             "end": 450,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -241,7 +250,8 @@
           "type": "Literal",
           "start": 454,
           "end": 460,
-          "value": "Jeep"
+          "value": "Jeep",
+          "raw": "\"Jeep\""
         }
       }
     },
@@ -268,7 +278,8 @@
             "type": "Literal",
             "start": 470,
             "end": 471,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -277,7 +288,8 @@
           "type": "Literal",
           "start": 475,
           "end": 483,
-          "value": "Suzuki"
+          "value": "Suzuki",
+          "raw": "\"Suzuki\""
         }
       }
     },
@@ -341,7 +353,8 @@
                       "type": "Literal",
                       "start": 543,
                       "end": 544,
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     }
                   }
                 ],
@@ -362,7 +375,8 @@
                   "type": "Literal",
                   "start": 547,
                   "end": 548,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               "update": {
@@ -486,7 +500,8 @@
                                               "type": "Literal",
                                               "start": 604,
                                               "end": 609,
-                                              "value": "#1."
+                                              "value": "#1.",
+                                              "raw": "'#1.'"
                                             },
                                             "operator": "+",
                                             "right": {
@@ -501,7 +516,8 @@
                                             "type": "Literal",
                                             "start": 612,
                                             "end": 626,
-                                            "value": ": Exception["
+                                            "value": ": Exception[",
+                                            "raw": "': Exception['"
                                           }
                                         },
                                         "operator": "+",
@@ -517,7 +533,8 @@
                                         "type": "Literal",
                                         "start": 629,
                                         "end": 644,
-                                        "value": "] === mycars["
+                                        "value": "] === mycars[",
+                                        "raw": "'] === mycars['"
                                       }
                                     },
                                     "operator": "+",
@@ -533,7 +550,8 @@
                                     "type": "Literal",
                                     "start": 647,
                                     "end": 671,
-                                    "value": "]. Actual:  Exception["
+                                    "value": "]. Actual:  Exception[",
+                                    "raw": "']. Actual:  Exception['"
                                   }
                                 },
                                 "operator": "+",
@@ -549,7 +567,8 @@
                                 "type": "Literal",
                                 "start": 674,
                                 "end": 681,
-                                "value": "] ==="
+                                "value": "] ===",
+                                "raw": "'] ==='"
                               }
                             },
                             "operator": "+",

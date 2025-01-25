@@ -48,7 +48,8 @@
           "type": "Literal",
           "start": 759,
           "end": 763,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -134,13 +135,15 @@
             "type": "Literal",
             "start": 811,
             "end": 812,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 814,
             "end": 844,
-            "value": "The value of `m.size` is `0`"
+            "value": "The value of `m.size` is `0`",
+            "raw": "'The value of `m.size` is `0`'"
           }
         ],
         "optional": false

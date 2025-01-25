@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1838,
             "end": 1839,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -104,19 +105,22 @@
                               "type": "Literal",
                               "start": 1895,
                               "end": 1896,
-                              "value": 4
+                              "value": 4,
+                              "raw": "4"
                             },
                             {
                               "type": "Literal",
                               "start": 1898,
                               "end": 1899,
-                              "value": 5
+                              "value": 5,
+                              "raw": "5"
                             },
                             {
                               "type": "Literal",
                               "start": 1901,
                               "end": 1902,
-                              "value": 6
+                              "value": 6,
+                              "raw": "6"
                             }
                           ]
                         }
@@ -147,19 +151,22 @@
                           "type": "Literal",
                           "start": 1911,
                           "end": 1912,
-                          "value": 7
+                          "value": 7,
+                          "raw": "7"
                         },
                         {
                           "type": "Literal",
                           "start": 1914,
                           "end": 1915,
-                          "value": 8
+                          "value": 8,
+                          "raw": "8"
                         },
                         {
                           "type": "Literal",
                           "start": 1917,
                           "end": 1918,
-                          "value": 9
+                          "value": 9,
+                          "raw": "9"
                         }
                       ]
                     }
@@ -210,7 +217,8 @@
                         "type": "Literal",
                         "start": 1949,
                         "end": 1950,
-                        "value": 7
+                        "value": 7,
+                        "raw": "7"
                       }
                     ],
                     "optional": false
@@ -254,7 +262,8 @@
                         "type": "Literal",
                         "start": 1977,
                         "end": 1978,
-                        "value": 8
+                        "value": 8,
+                        "raw": "8"
                       }
                     ],
                     "optional": false
@@ -298,7 +307,8 @@
                         "type": "Literal",
                         "start": 2005,
                         "end": 2006,
-                        "value": 9
+                        "value": 9,
+                        "raw": "9"
                       }
                     ],
                     "optional": false
@@ -323,7 +333,8 @@
                       "type": "Literal",
                       "start": 2027,
                       "end": 2028,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -419,13 +430,15 @@
                       "type": "Literal",
                       "start": 2084,
                       "end": 2085,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
                     {
                       "type": "Literal",
                       "start": 2087,
                       "end": 2119,
-                      "value": "iteration occurred as expected"
+                      "value": "iteration occurred as expected",
+                      "raw": "'iteration occurred as expected'"
                     }
                   ],
                   "optional": false

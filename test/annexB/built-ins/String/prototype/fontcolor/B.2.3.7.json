@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 594,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -59,7 +60,8 @@
                 "type": "Literal",
                 "start": 605,
                 "end": 608,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               }
             ],
             "optional": false
@@ -68,7 +70,8 @@
             "type": "Literal",
             "start": 611,
             "end": 637,
-            "value": "<font color=\"b\">_</font>"
+            "value": "<font color=\"b\">_</font>",
+            "raw": "'<font color=\"b\">_</font>'"
           }
         ],
         "optional": false
@@ -114,7 +117,8 @@
                 "type": "Literal",
                 "start": 657,
                 "end": 660,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               },
               "property": {
                 "type": "Identifier",
@@ -130,7 +134,8 @@
                 "type": "Literal",
                 "start": 671,
                 "end": 674,
-                "value": "<"
+                "value": "<",
+                "raw": "'<'"
               }
             ],
             "optional": false
@@ -139,7 +144,8 @@
             "type": "Literal",
             "start": 677,
             "end": 703,
-            "value": "<font color=\"<\"><</font>"
+            "value": "<font color=\"<\"><</font>",
+            "raw": "'<font color=\"<\"><</font>'"
           }
         ],
         "optional": false
@@ -185,7 +191,8 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 726,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -201,7 +208,8 @@
                 "type": "Literal",
                 "start": 737,
                 "end": 741,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -210,7 +218,8 @@
             "type": "Literal",
             "start": 744,
             "end": 771,
-            "value": "<font color=\"42\">_</font>"
+            "value": "<font color=\"42\">_</font>",
+            "raw": "'<font color=\"42\">_</font>'"
           }
         ],
         "optional": false
@@ -256,7 +265,8 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 794,
-                "value": "_"
+                "value": "_",
+                "raw": "'_'"
               },
               "property": {
                 "type": "Identifier",
@@ -272,7 +282,8 @@
                 "type": "Literal",
                 "start": 805,
                 "end": 811,
-                "value": "\""
+                "value": "\"",
+                "raw": "'\\x22'"
               }
             ],
             "optional": false
@@ -281,7 +292,8 @@
             "type": "Literal",
             "start": 814,
             "end": 845,
-            "value": "<font color=\"&quot;\">_</font>"
+            "value": "<font color=\"&quot;\">_</font>",
+            "raw": "'<font color=\"&quot;\">_</font>'"
           }
         ],
         "optional": false
@@ -369,13 +381,15 @@
                 "type": "Literal",
                 "start": 897,
                 "end": 901,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               },
               {
                 "type": "Literal",
                 "start": 903,
                 "end": 907,
-                "value": 42
+                "value": 42,
+                "raw": "0x2A"
               }
             ],
             "optional": false
@@ -384,7 +398,8 @@
             "type": "Literal",
             "start": 912,
             "end": 940,
-            "value": "<font color=\"42\">42</font>"
+            "value": "<font color=\"42\">42</font>",
+            "raw": "'<font color=\"42\">42</font>'"
           }
         ],
         "optional": false
@@ -615,7 +630,8 @@
                         "type": "Literal",
                         "start": 1103,
                         "end": 1107,
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     ],
                     "optional": false

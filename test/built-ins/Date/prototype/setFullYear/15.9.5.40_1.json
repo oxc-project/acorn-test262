@@ -96,7 +96,8 @@
                         "type": "Literal",
                         "start": 355,
                         "end": 359,
-                        "value": 2012
+                        "value": 2012,
+                        "raw": "2012"
                       }
                     ],
                     "optional": false

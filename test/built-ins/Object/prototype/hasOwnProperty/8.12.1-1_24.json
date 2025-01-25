@@ -181,7 +181,8 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 354,
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
             "optional": false
@@ -190,13 +191,15 @@
             "type": "Literal",
             "start": 357,
             "end": 362,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 364,
             "end": 389,
-            "value": "o.hasOwnProperty(\"foo\")"
+            "value": "o.hasOwnProperty(\"foo\")",
+            "raw": "'o.hasOwnProperty(\"foo\")'"
           }
         ],
         "optional": false

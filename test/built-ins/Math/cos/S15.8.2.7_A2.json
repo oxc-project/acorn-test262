@@ -28,7 +28,8 @@
               "type": "Literal",
               "start": 263,
               "end": 264,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         }
@@ -100,13 +101,15 @@
             "type": "Literal",
             "start": 296,
             "end": 297,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 327,
-            "value": "Math.cos(+0) must return 1"
+            "value": "Math.cos(+0) must return 1",
+            "raw": "'Math.cos(+0) must return 1'"
           }
         ],
         "optional": false

@@ -71,31 +71,36 @@
               "type": "Literal",
               "start": 404,
               "end": 405,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 407,
               "end": 408,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 410,
               "end": 411,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             },
             {
               "type": "Literal",
               "start": 413,
               "end": 414,
-              "value": 4
+              "value": 4,
+              "raw": "4"
             },
             {
               "type": "Literal",
               "start": 416,
               "end": 417,
-              "value": 5
+              "value": 5,
+              "raw": "5"
             }
           ]
         }
@@ -200,7 +205,8 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 495,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             },
@@ -212,7 +218,8 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 512,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             },
             "alternate": {
@@ -223,7 +230,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 537,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             }
           }
@@ -295,7 +303,8 @@
             "type": "Literal",
             "start": 574,
             "end": 608,
-            "value": "o.arr.every(callbackfn) !== true"
+            "value": "o.arr.every(callbackfn) !== true",
+            "raw": "'o.arr.every(callbackfn) !== true'"
           }
         ],
         "optional": false
@@ -357,7 +366,8 @@
                 "type": "Literal",
                 "start": 645,
                 "end": 650,
-                "value": "arr"
+                "value": "arr",
+                "raw": "\"arr\""
               }
             ],
             "optional": false
@@ -366,13 +376,15 @@
             "type": "Literal",
             "start": 653,
             "end": 658,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 660,
             "end": 685,
-            "value": "o.hasOwnProperty(\"arr\")"
+            "value": "o.hasOwnProperty(\"arr\")",
+            "raw": "'o.hasOwnProperty(\"arr\")'"
           }
         ],
         "optional": false

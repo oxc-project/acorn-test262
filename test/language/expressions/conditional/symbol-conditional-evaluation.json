@@ -77,26 +77,30 @@
               "type": "Literal",
               "start": 277,
               "end": 278,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "alternate": {
               "type": "Literal",
               "start": 281,
               "end": 282,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "Literal",
             "start": 284,
             "end": 285,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 287,
             "end": 309,
-            "value": "`sym ? 1 : 2` is `1`"
+            "value": "`sym ? 1 : 2` is `1`",
+            "raw": "\"`sym ? 1 : 2` is `1`\""
           }
         ],
         "optional": false
@@ -151,26 +155,30 @@
               "type": "Literal",
               "start": 336,
               "end": 337,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             "alternate": {
               "type": "Literal",
               "start": 340,
               "end": 341,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 344,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 369,
-            "value": "`!sym ? 1 : 2` is `2`"
+            "value": "`!sym ? 1 : 2` is `2`",
+            "raw": "\"`!sym ? 1 : 2` is `2`\""
           }
         ],
         "optional": false

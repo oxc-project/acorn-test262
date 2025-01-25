@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1608,
+  "end": 1602,
   "body": [
     {
       "type": "ClassDeclaration",
       "start": 1388,
-      "end": 1607,
+      "end": 1601,
       "id": {
         "type": "Identifier",
         "start": 1394,
@@ -17,7 +17,7 @@
       "body": {
         "type": "ClassBody",
         "start": 1396,
-        "end": 1607,
+        "end": 1601,
         "body": [
           {
             "type": "PropertyDefinition",
@@ -35,7 +35,8 @@
               "type": "Literal",
               "start": 1405,
               "end": 1406,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
@@ -54,7 +55,8 @@
               "type": "Literal",
               "start": 1415,
               "end": 1416,
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           },
           {
@@ -73,64 +75,68 @@
               "type": "Literal",
               "start": 1430,
               "end": 1431,
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 1435,
-            "end": 1444,
+            "end": 1442,
             "static": false,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1435,
-              "end": 1439,
+              "end": 1437,
               "name": "℘"
             },
             "value": {
               "type": "Literal",
-              "start": 1442,
-              "end": 1443,
-              "value": 4
+              "start": 1440,
+              "end": 1441,
+              "value": 4,
+              "raw": "4"
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 1492,
-            "end": 1507,
+            "start": 1490,
+            "end": 1503,
             "static": false,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 1492,
-              "end": 1502,
+              "start": 1490,
+              "end": 1498,
               "name": "ZW_‌_NJ"
             },
             "value": {
               "type": "Literal",
-              "start": 1505,
-              "end": 1506,
-              "value": 5
+              "start": 1501,
+              "end": 1502,
+              "value": 5,
+              "raw": "5"
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 1550,
-            "end": 1564,
+            "start": 1546,
+            "end": 1558,
             "static": false,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 1550,
-              "end": 1559,
+              "start": 1546,
+              "end": 1553,
               "name": "ZW_‍_J"
             },
             "value": {
               "type": "Literal",
-              "start": 1562,
-              "end": 1563,
-              "value": 6
+              "start": 1556,
+              "end": 1557,
+              "value": 6,
+              "raw": "6"
             }
           }
         ]

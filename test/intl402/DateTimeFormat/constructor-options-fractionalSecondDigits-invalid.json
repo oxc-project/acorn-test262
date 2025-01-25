@@ -27,31 +27,36 @@
                 "type": "Literal",
                 "start": 740,
                 "end": 746,
-                "value": "LONG"
+                "value": "LONG",
+                "raw": "\"LONG\""
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 757,
-                "value": " long"
+                "value": " long",
+                "raw": "\" long\""
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 769,
-                "value": "short "
+                "value": "short ",
+                "raw": "\"short \""
               },
               {
                 "type": "Literal",
                 "start": 773,
                 "end": 779,
-                "value": "full"
+                "value": "full",
+                "raw": "\"full\""
               },
               {
                 "type": "Literal",
                 "start": 783,
                 "end": 792,
-                "value": "numeric"
+                "value": "numeric",
+                "raw": "\"numeric\""
               },
               {
                 "type": "UnaryExpression",
@@ -63,26 +68,30 @@
                   "type": "Literal",
                   "start": 797,
                   "end": 798,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
                 "type": "Literal",
                 "start": 802,
                 "end": 803,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 807,
                 "end": 810,
-                "value": "4"
+                "value": "4",
+                "raw": "\"4\""
               },
               {
                 "type": "Literal",
                 "start": 814,
                 "end": 818,
-                "value": "-1"
+                "value": "-1",
+                "raw": "\"-1\""
               },
               {
                 "type": "UnaryExpression",
@@ -94,14 +103,16 @@
                   "type": "Literal",
                   "start": 823,
                   "end": 830,
-                  "value": 0.00001
+                  "value": 0.00001,
+                  "raw": "0.00001"
                 }
               },
               {
                 "type": "Literal",
                 "start": 834,
                 "end": 842,
-                "value": 3.000001
+                "value": 3.000001,
+                "raw": "3.000001"
               }
             ]
           }
@@ -225,7 +236,8 @@
                               "type": "Literal",
                               "start": 971,
                               "end": 975,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

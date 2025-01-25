@@ -77,7 +77,8 @@
                     "type": "Literal",
                     "start": 333,
                     "end": 334,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 },
                 "kind": "init"
@@ -165,7 +166,8 @@
             "type": "Literal",
             "start": 415,
             "end": 426,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "\"undefined\""
           }
         }
       ],
@@ -247,7 +249,8 @@
                     "type": "Literal",
                     "start": 591,
                     "end": 774,
-                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.length === __expected.length. Actual: "
+                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.length === __expected.length. Actual: ",
+                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.length === __expected.length. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -353,7 +356,8 @@
                     "type": "Literal",
                     "start": 1043,
                     "end": 1224,
-                    "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.index === __expected.index. Actual: "
+                    "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.index === __expected.index. Actual: ",
+                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.index === __expected.index. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -459,7 +463,8 @@
                     "type": "Literal",
                     "start": 1492,
                     "end": 1673,
-                    "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.input === __expected.input. Actual: "
+                    "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.input === __expected.input. Actual: ",
+                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase.input === __expected.input. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -512,7 +517,8 @@
               "type": "Literal",
               "start": 1887,
               "end": 1888,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -667,7 +673,8 @@
                                       "type": "Literal",
                                       "start": 2005,
                                       "end": 2010,
-                                      "value": "#4."
+                                      "value": "#4.",
+                                      "raw": "'#4.'"
                                     },
                                     "operator": "+",
                                     "right": {
@@ -682,7 +689,8 @@
                                     "type": "Literal",
                                     "start": 2021,
                                     "end": 2164,
-                                    "value": ": __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase["
+                                    "value": ": __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase[",
+                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __lowerCase = new String(__obj).toLocaleLowerCase(); __expected =\"undefined\"; __lowerCase['"
                                   }
                                 },
                                 "operator": "+",
@@ -698,7 +706,8 @@
                                 "type": "Literal",
                                 "start": 2175,
                                 "end": 2182,
-                                "value": "]=== "
+                                "value": "]=== ",
+                                "raw": "']=== '"
                               }
                             },
                             "operator": "+",
@@ -727,7 +736,8 @@
                             "type": "Literal",
                             "start": 2205,
                             "end": 2217,
-                            "value": ". Actual: "
+                            "value": ". Actual: ",
+                            "raw": "'. Actual: '"
                           }
                         },
                         "operator": "+",

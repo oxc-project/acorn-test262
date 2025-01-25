@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 373,
             "end": 378,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -90,7 +91,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 414,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -240,7 +242,8 @@
             "type": "Literal",
             "start": 548,
             "end": 560,
-            "value": "enumerable"
+            "value": "enumerable",
+            "raw": "\"enumerable\""
           },
           {
             "type": "ObjectExpression",
@@ -282,7 +285,8 @@
                           "type": "Literal",
                           "start": 595,
                           "end": 599,
-                          "value": true
+                          "value": true,
+                          "raw": "true"
                         }
                       }
                     ]
@@ -334,7 +338,8 @@
             "type": "Literal",
             "start": 637,
             "end": 647,
-            "value": "property"
+            "value": "property",
+            "raw": "\"property\""
           },
           {
             "type": "Identifier",
@@ -400,7 +405,8 @@
                 "type": "Literal",
                 "start": 697,
                 "end": 707,
-                "value": "property"
+                "value": "property",
+                "raw": "\"property\""
               }
             },
             "consequent": {
@@ -427,7 +433,8 @@
                       "type": "Literal",
                       "start": 726,
                       "end": 730,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 }
@@ -463,7 +470,8 @@
             "type": "Literal",
             "start": 756,
             "end": 775,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

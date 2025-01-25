@@ -49,7 +49,8 @@
                     "type": "Literal",
                     "start": 430,
                     "end": 431,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   "computed": true,
                   "optional": false
@@ -58,7 +59,8 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 436,
-                  "value": "E"
+                  "value": "E",
+                  "raw": "\"E\""
                 },
                 "computed": true,
                 "optional": false
@@ -67,7 +69,8 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 442,
-                "value": 2.74
+                "value": 2.74,
+                "raw": "2.74"
               }
             }
           }
@@ -156,7 +159,8 @@
           "type": "Literal",
           "start": 583,
           "end": 587,
-          "value": 2.74
+          "value": 2.74,
+          "raw": "2.74"
         }
       },
       "consequent": {
@@ -187,7 +191,8 @@
                     "type": "Literal",
                     "start": 615,
                     "end": 658,
-                    "value": "#1: __obj.E === 2.74. Actual: __obj.E ==="
+                    "value": "#1: __obj.E === 2.74. Actual: __obj.E ===",
+                    "raw": "'#1: __obj.E === 2.74. Actual: __obj.E ==='"
                   },
                   "operator": "+",
                   "right": {

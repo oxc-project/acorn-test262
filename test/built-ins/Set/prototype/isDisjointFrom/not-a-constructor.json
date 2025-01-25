@@ -81,13 +81,15 @@
             "type": "Literal",
             "start": 432,
             "end": 437,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 504,
-            "value": "isConstructor(Set.prototype.isDisjointFrom) must return false"
+            "value": "isConstructor(Set.prototype.isDisjointFrom) must return false",
+            "raw": "\"isConstructor(Set.prototype.isDisjointFrom) must return false\""
           }
         ],
         "optional": false

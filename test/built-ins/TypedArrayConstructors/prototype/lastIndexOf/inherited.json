@@ -108,7 +108,8 @@
                             "type": "Literal",
                             "start": 416,
                             "end": 429,
-                            "value": "lastIndexOf"
+                            "value": "lastIndexOf",
+                            "raw": "\"lastIndexOf\""
                           }
                         ],
                         "optional": false
@@ -117,7 +118,8 @@
                         "type": "Literal",
                         "start": 432,
                         "end": 437,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     ],
                     "optional": false

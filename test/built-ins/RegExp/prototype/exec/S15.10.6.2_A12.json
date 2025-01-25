@@ -24,6 +24,7 @@
               "start": 276,
               "end": 281,
               "value": {},
+              "raw": "/foo/",
               "regex": {
                 "pattern": "foo",
                 "flags": ""
@@ -44,7 +45,8 @@
             "type": "Literal",
             "start": 288,
             "end": 295,
-            "value": "xfoox"
+            "value": "xfoox",
+            "raw": "'xfoox'"
           }
         ],
         "optional": false
@@ -92,13 +94,15 @@
                       "type": "Literal",
                       "start": 321,
                       "end": 333,
-                      "value": "(.|\r|\n)*"
+                      "value": "(.|\r|\n)*",
+                      "raw": "'(.|\\r|\\n)*'"
                     },
                     {
                       "type": "Literal",
                       "start": 334,
                       "end": 336,
-                      "value": ""
+                      "value": "",
+                      "raw": "''"
                     }
                   ]
                 },
@@ -118,7 +122,8 @@
               "type": "Literal",
               "start": 345,
               "end": 346,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
@@ -165,13 +170,15 @@
             "type": "Literal",
             "start": 376,
             "end": 383,
-            "value": "xfoox"
+            "value": "xfoox",
+            "raw": "'xfoox'"
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 420,
-            "value": "The value of match is not \"xfoox\""
+            "value": "The value of match is not \"xfoox\"",
+            "raw": "'The value of match is not \"xfoox\"'"
           }
         ],
         "optional": false
@@ -215,13 +222,15 @@
             "type": "Literal",
             "start": 447,
             "end": 458,
-            "value": "undefined"
+            "value": "undefined",
+            "raw": "'undefined'"
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 510,
-            "value": "The value of match is expected to be \"undefined\""
+            "value": "The value of match is expected to be \"undefined\"",
+            "raw": "'The value of match is expected to be \"undefined\"'"
           }
         ],
         "optional": false

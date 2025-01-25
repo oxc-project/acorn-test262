@@ -41,6 +41,7 @@
                   "start": 523,
                   "end": 533,
                   "value": {},
+                  "raw": "/^[__]+$/v",
                   "regex": {
                     "pattern": "^[__]+$",
                     "flags": "v"
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 549,
                   "end": 555,
-                  "value": "[__]"
+                  "value": "[__]",
+                  "raw": "\"[__]\""
                 },
                 "kind": "init"
               },
@@ -91,7 +93,8 @@
                       "type": "Literal",
                       "start": 579,
                       "end": 582,
-                      "value": "_"
+                      "value": "_",
+                      "raw": "\"_\""
                     }
                   ]
                 },
@@ -119,43 +122,50 @@
                       "type": "Literal",
                       "start": 613,
                       "end": 628,
-                      "value": "6️⃣"
+                      "value": "6️⃣",
+                      "raw": "\"6\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 634,
                       "end": 637,
-                      "value": "7"
+                      "value": "7",
+                      "raw": "\"7\""
                     },
                     {
                       "type": "Literal",
                       "start": 643,
                       "end": 658,
-                      "value": "9️⃣"
+                      "value": "9️⃣",
+                      "raw": "\"9\\uFE0F\\u20E3\""
                     },
                     {
                       "type": "Literal",
                       "start": 664,
                       "end": 667,
-                      "value": "C"
+                      "value": "C",
+                      "raw": "\"C\""
                     },
                     {
                       "type": "Literal",
                       "start": 673,
                       "end": 681,
-                      "value": "☃"
+                      "value": "☃",
+                      "raw": "\"\\u2603\""
                     },
                     {
                       "type": "Literal",
                       "start": 687,
                       "end": 698,
-                      "value": "𝌆"
+                      "value": "𝌆",
+                      "raw": "\"\\u{1D306}\""
                     },
                     {
                       "type": "Literal",
                       "start": 704,
                       "end": 724,
-                      "value": "🇧🇪"
+                      "value": "🇧🇪",
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
                     }
                   ]
                 },

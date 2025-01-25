@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 269,
             "end": 277,
-            "value": "uid=31"
+            "value": "uid=31",
+            "raw": "'uid=31'"
           }
         }
       ],
@@ -48,6 +49,7 @@
             "start": 290,
             "end": 303,
             "value": {},
+            "raw": "/(uid=)(\\d+)/",
             "regex": {
               "pattern": "(uid=)(\\d+)",
               "flags": ""
@@ -103,14 +105,16 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 424,
-                "value": "$11"
+                "value": "$11",
+                "raw": "\"$11\""
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 427,
                 "end": 429,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               }
             }
           ],
@@ -121,7 +125,8 @@
           "type": "Literal",
           "start": 435,
           "end": 444,
-          "value": "uid=115"
+          "value": "uid=115",
+          "raw": "'uid=115'"
         }
       },
       "consequent": {
@@ -152,7 +157,8 @@
                     "type": "Literal",
                     "start": 473,
                     "end": 584,
-                    "value": "#1: var __str = 'uid=31'; var __re = /(uid=)(d+)/; __str.replace(__re, \"$11\" + 15)==='uid=115'. Actual: "
+                    "value": "#1: var __str = 'uid=31'; var __re = /(uid=)(d+)/; __str.replace(__re, \"$11\" + 15)==='uid=115'. Actual: ",
+                    "raw": "'#1: var __str = \\'uid=31\\'; var __re = /(uid=)(\\d+)/; __str.replace(__re, \"$11\" + 15)===\\'uid=115\\'. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -193,14 +199,16 @@
                           "type": "Literal",
                           "start": 607,
                           "end": 612,
-                          "value": "$11"
+                          "value": "$11",
+                          "raw": "\"$11\""
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 615,
                           "end": 617,
-                          "value": 15
+                          "value": 15,
+                          "raw": "15"
                         }
                       }
                     ],

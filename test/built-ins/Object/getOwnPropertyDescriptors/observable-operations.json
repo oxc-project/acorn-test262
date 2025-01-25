@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 374,
             "end": 376,
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 399,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 407,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               },
@@ -107,7 +110,8 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 415,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "kind": "init"
               }
@@ -232,7 +236,8 @@
                                   "type": "Literal",
                                   "start": 548,
                                   "end": 574,
-                                  "value": "getOwnPropertyDescriptor"
+                                  "value": "getOwnPropertyDescriptor",
+                                  "raw": "\"getOwnPropertyDescriptor\""
                                 }
                               ],
                               "optional": false
@@ -261,7 +266,8 @@
                                   "type": "Literal",
                                   "start": 588,
                                   "end": 616,
-                                  "value": "|getOwnPropertyDescriptor:"
+                                  "value": "|getOwnPropertyDescriptor:",
+                                  "raw": "\"|getOwnPropertyDescriptor:\""
                                 },
                                 "operator": "+",
                                 "right": {
@@ -400,7 +406,8 @@
                                   "type": "Literal",
                                   "start": 769,
                                   "end": 778,
-                                  "value": "ownKeys"
+                                  "value": "ownKeys",
+                                  "raw": "\"ownKeys\""
                                 }
                               ],
                               "optional": false
@@ -425,7 +432,8 @@
                                 "type": "Literal",
                                 "start": 792,
                                 "end": 802,
-                                "value": "|ownKeys"
+                                "value": "|ownKeys",
+                                "raw": "\"|ownKeys\""
                               }
                             }
                           },
@@ -599,7 +607,8 @@
                                     "type": "Literal",
                                     "start": 972,
                                     "end": 989,
-                                    "value": "handler check: "
+                                    "value": "handler check: ",
+                                    "raw": "\"handler check: \""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -804,13 +813,15 @@
             "type": "Literal",
             "start": 1180,
             "end": 1271,
-            "value": "|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c"
+            "value": "|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c",
+            "raw": "\"|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c\""
           },
           {
             "type": "Literal",
             "start": 1273,
             "end": 1278,
-            "value": "log"
+            "value": "log",
+            "raw": "'log'"
           }
         ],
         "optional": false

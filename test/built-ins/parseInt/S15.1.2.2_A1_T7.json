@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 341,
                           "end": 342,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -130,7 +131,8 @@
             "type": "Literal",
             "start": 390,
             "end": 450,
-            "value": "parseInt({valueOf: function() {return 1}}) must return NaN"
+            "value": "parseInt({valueOf: function() {return 1}}) must return NaN",
+            "raw": "'parseInt({valueOf: function() {return 1}}) must return NaN'"
           }
         ],
         "optional": false
@@ -191,7 +193,8 @@
                           "type": "Literal",
                           "start": 514,
                           "end": 515,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -234,7 +237,8 @@
                           "type": "Literal",
                           "start": 557,
                           "end": 558,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
@@ -300,13 +304,15 @@
             "type": "Literal",
             "start": 607,
             "end": 608,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 703,
-            "value": "parseInt({valueOf: function() {return 1}, toString: function() {return 0}}) must return 0"
+            "value": "parseInt({valueOf: function() {return 1}, toString: function() {return 0}}) must return 0",
+            "raw": "'parseInt({valueOf: function() {return 1}, toString: function() {return 0}}) must return 0'"
           }
         ],
         "optional": false
@@ -367,7 +373,8 @@
                           "type": "Literal",
                           "start": 768,
                           "end": 769,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -476,13 +483,15 @@
             "type": "Literal",
             "start": 862,
             "end": 863,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 867,
             "end": 959,
-            "value": "parseInt({valueOf: function() {return 1}, toString: function() {return {}}}) must return 1"
+            "value": "parseInt({valueOf: function() {return 1}, toString: function() {return {}}}) must return 1",
+            "raw": "'parseInt({valueOf: function() {return 1}, toString: function() {return {}}}) must return 1'"
           }
         ],
         "optional": false
@@ -552,7 +561,8 @@
                                 "type": "Literal",
                                 "start": 1035,
                                 "end": 1042,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -595,7 +605,8 @@
                                 "type": "Literal",
                                 "start": 1090,
                                 "end": 1091,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           ]
@@ -661,13 +672,15 @@
                   "type": "Literal",
                   "start": 1150,
                   "end": 1151,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 1157,
                   "end": 1257,
-                  "value": "parseInt({valueOf: function() {throw \\\"error\\\"}, toString: function() {return 1}}) must return 1"
+                  "value": "parseInt({valueOf: function() {throw \\\"error\\\"}, toString: function() {return 1}}) must return 1",
+                  "raw": "'parseInt({valueOf: function() {throw \\\\\"error\\\\\"}, toString: function() {return 1}}) must return 1'"
                 }
               ],
               "optional": false
@@ -728,13 +741,15 @@
                     "type": "Literal",
                     "start": 1302,
                     "end": 1309,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 1311,
                     "end": 1344,
-                    "value": "The value of `e` is not \"error\""
+                    "value": "The value of `e` is not \"error\"",
+                    "raw": "'The value of `e` is not \"error\"'"
                   }
                 ],
                 "optional": false
@@ -800,7 +815,8 @@
                           "type": "Literal",
                           "start": 1411,
                           "end": 1412,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -866,13 +882,15 @@
             "type": "Literal",
             "start": 1455,
             "end": 1456,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1458,
             "end": 1517,
-            "value": "parseInt({toString: function() {return 1}}) must return 1"
+            "value": "parseInt({toString: function() {return 1}}) must return 1",
+            "raw": "'parseInt({toString: function() {return 1}}) must return 1'"
           }
         ],
         "optional": false
@@ -976,7 +994,8 @@
                           "type": "Literal",
                           "start": 1625,
                           "end": 1626,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
                     ]
@@ -1042,13 +1061,15 @@
             "type": "Literal",
             "start": 1674,
             "end": 1675,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1679,
             "end": 1771,
-            "value": "parseInt({valueOf: function() {return {}}, toString: function() {return 1}}) must return 1"
+            "value": "parseInt({valueOf: function() {return {}}, toString: function() {return 1}}) must return 1",
+            "raw": "'parseInt({valueOf: function() {return {}}, toString: function() {return 1}}) must return 1'"
           }
         ],
         "optional": false
@@ -1118,7 +1139,8 @@
                                 "type": "Literal",
                                 "start": 1848,
                                 "end": 1849,
-                                "value": 1
+                                "value": 1,
+                                "raw": "1"
                               }
                             }
                           ]
@@ -1161,7 +1183,8 @@
                                 "type": "Literal",
                                 "start": 1896,
                                 "end": 1903,
-                                "value": "error"
+                                "value": "error",
+                                "raw": "\"error\""
                               }
                             }
                           ]
@@ -1236,7 +1259,8 @@
                     "type": "Literal",
                     "start": 1958,
                     "end": 2091,
-                    "value": "#7.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; parseInt(object) throw \"error\". Actual: "
+                    "value": "#7.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; parseInt(object) throw \"error\". Actual: ",
+                    "raw": "'#7.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; parseInt(object) throw \"error\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1324,13 +1348,15 @@
                     "type": "Literal",
                     "start": 2151,
                     "end": 2158,
-                    "value": "error"
+                    "value": "error",
+                    "raw": "\"error\""
                   },
                   {
                     "type": "Literal",
                     "start": 2160,
                     "end": 2189,
-                    "value": "The value of `e` is \"error\""
+                    "value": "The value of `e` is \"error\"",
+                    "raw": "'The value of `e` is \"error\"'"
                   }
                 ],
                 "optional": false
@@ -1523,7 +1549,8 @@
                     "type": "Literal",
                     "start": 2374,
                     "end": 2506,
-                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(object) throw TypeError. Actual: "
+                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(object) throw TypeError. Actual: ",
+                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; parseInt(object) throw TypeError. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -1623,13 +1650,15 @@
                     "type": "Literal",
                     "start": 2587,
                     "end": 2591,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 2593,
                     "end": 2643,
-                    "value": "The result of `(e instanceof TypeError)` is true"
+                    "value": "The result of `(e instanceof TypeError)` is true",
+                    "raw": "'The result of `(e instanceof TypeError)` is true'"
                   }
                 ],
                 "optional": false

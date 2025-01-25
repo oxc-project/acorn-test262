@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 319,
             "end": 324,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -52,19 +53,22 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
@@ -110,7 +114,8 @@
             "type": "Literal",
             "start": 376,
             "end": 389,
-            "value": "ownProperty"
+            "value": "ownProperty",
+            "raw": "\"ownProperty\""
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +157,8 @@
                           "type": "Literal",
                           "start": 424,
                           "end": 434,
-                          "value": "ownArray"
+                          "value": "ownArray",
+                          "raw": "\"ownArray\""
                         }
                       }
                     ]
@@ -177,7 +183,8 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 461,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -306,7 +313,8 @@
                 "type": "Literal",
                 "start": 558,
                 "end": 571,
-                "value": "ownProperty"
+                "value": "ownProperty",
+                "raw": "\"ownProperty\""
               }
             },
             "consequent": {
@@ -333,7 +341,8 @@
                       "type": "Literal",
                       "start": 595,
                       "end": 599,
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 },
@@ -375,7 +384,8 @@
             "type": "Literal",
             "start": 641,
             "end": 661,
-            "value": "Property not found"
+            "value": "Property not found",
+            "raw": "'Property not found'"
           }
         ],
         "optional": false

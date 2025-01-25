@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 328,
             "end": 336,
-            "value": "+01:00"
+            "value": "+01:00",
+            "raw": "\"+01:00\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 384,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -122,7 +124,8 @@
                   "type": "Literal",
                   "start": 425,
                   "end": 429,
-                  "value": 2021
+                  "value": 2021,
+                  "raw": "2021"
                 },
                 "kind": "init"
               },
@@ -143,7 +146,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 440,
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
                 "kind": "init"
               },
@@ -164,7 +168,8 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 449,
-                  "value": 28
+                  "value": 28,
+                  "raw": "28"
                 },
                 "kind": "init"
               },
@@ -185,7 +190,8 @@
                   "type": "Literal",
                   "start": 459,
                   "end": 467,
-                  "value": "-07:00"
+                  "value": "-07:00",
+                  "raw": "\"-07:00\""
                 },
                 "kind": "init"
               },
@@ -297,7 +303,8 @@
             "type": "Literal",
             "start": 542,
             "end": 594,
-            "value": "offset property not matching time zone is rejected"
+            "value": "offset property not matching time zone is rejected",
+            "raw": "\"offset property not matching time zone is rejected\""
           }
         ],
         "optional": false

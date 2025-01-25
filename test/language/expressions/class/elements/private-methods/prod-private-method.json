@@ -353,7 +353,8 @@
                             "type": "Literal",
                             "start": 2670,
                             "end": 2672,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         }
                       ]
@@ -465,19 +466,22 @@
                                 "type": "Literal",
                                 "start": 2747,
                                 "end": 2751,
-                                "value": "#m"
+                                "value": "#m",
+                                "raw": "'#m'"
                               },
                               {
                                 "type": "Literal",
                                 "start": 2753,
                                 "end": 2758,
-                                "value": false
+                                "value": false,
+                                "raw": "false"
                               },
                               {
                                 "type": "Literal",
                                 "start": 2760,
                                 "end": 2855,
-                                "value": "private methods are defined in an special internal slot and cannot be found as own properties"
+                                "value": "private methods are defined in an special internal slot and cannot be found as own properties",
+                                "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'"
                               }
                             ],
                             "optional": false
@@ -540,7 +544,8 @@
                                 "type": "Literal",
                                 "start": 2895,
                                 "end": 2905,
-                                "value": "function"
+                                "value": "function",
+                                "raw": "'function'"
                               }
                             ],
                             "optional": false
@@ -614,7 +619,8 @@
                                 "type": "Literal",
                                 "start": 2948,
                                 "end": 2972,
-                                "value": "returns the same value"
+                                "value": "returns the same value",
+                                "raw": "'returns the same value'"
                               }
                             ],
                             "optional": false
@@ -710,7 +716,8 @@
                                 "type": "Literal",
                                 "start": 3024,
                                 "end": 3068,
-                                "value": "memberexpression and call expression forms"
+                                "value": "memberexpression and call expression forms",
+                                "raw": "'memberexpression and call expression forms'"
                               }
                             ],
                             "optional": false
@@ -773,13 +780,15 @@
                                 "type": "Literal",
                                 "start": 3104,
                                 "end": 3106,
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 3108,
                                 "end": 3137,
-                                "value": "already defined in the ctor"
+                                "value": "already defined in the ctor",
+                                "raw": "'already defined in the ctor'"
                               }
                             ],
                             "optional": false
@@ -848,13 +857,15 @@
                                 "type": "Literal",
                                 "start": 3175,
                                 "end": 3179,
-                                "value": "#m"
+                                "value": "#m",
+                                "raw": "'#m'"
                               },
                               {
                                 "type": "Literal",
                                 "start": 3181,
                                 "end": 3215,
-                                "value": "function name inside constructor"
+                                "value": "function name inside constructor",
+                                "raw": "'function name inside constructor'"
                               }
                             ],
                             "optional": false
@@ -971,19 +982,22 @@
             "type": "Literal",
             "start": 3286,
             "end": 3290,
-            "value": "#m"
+            "value": "#m",
+            "raw": "'#m'"
           },
           {
             "type": "Literal",
             "start": 3292,
             "end": 3297,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3299,
             "end": 3339,
-            "value": "method is not defined in the prototype"
+            "value": "method is not defined in the prototype",
+            "raw": "'method is not defined in the prototype'"
           }
         ],
         "optional": false
@@ -1014,19 +1028,22 @@
             "type": "Literal",
             "start": 3353,
             "end": 3357,
-            "value": "#m"
+            "value": "#m",
+            "raw": "'#m'"
           },
           {
             "type": "Literal",
             "start": 3359,
             "end": 3364,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3366,
             "end": 3407,
-            "value": "method is not defined in the contructor"
+            "value": "method is not defined in the contructor",
+            "raw": "'method is not defined in the contructor'"
           }
         ],
         "optional": false
@@ -1057,19 +1074,22 @@
             "type": "Literal",
             "start": 3421,
             "end": 3425,
-            "value": "#m"
+            "value": "#m",
+            "raw": "'#m'"
           },
           {
             "type": "Literal",
             "start": 3427,
             "end": 3432,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 3434,
             "end": 3478,
-            "value": "method cannot be seen outside of the class"
+            "value": "method cannot be seen outside of the class",
+            "raw": "'method cannot be seen outside of the class'"
           }
         ],
         "optional": false
@@ -1145,7 +1165,8 @@
             "type": "Literal",
             "start": 3702,
             "end": 3764,
-            "value": "The method is defined once, and reused on every new instance"
+            "value": "The method is defined once, and reused on every new instance",
+            "raw": "'The method is defined once, and reused on every new instance'"
           }
         ],
         "optional": false
@@ -1209,13 +1230,15 @@
             "type": "Literal",
             "start": 3829,
             "end": 3831,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           },
           {
             "type": "Literal",
             "start": 3833,
             "end": 3850,
-            "value": "function return"
+            "value": "function return",
+            "raw": "'function return'"
           }
         ],
         "optional": false
@@ -1285,13 +1308,15 @@
             "type": "Literal",
             "start": 3882,
             "end": 3886,
-            "value": "#m"
+            "value": "#m",
+            "raw": "'#m'"
           },
           {
             "type": "Literal",
             "start": 3888,
             "end": 3935,
-            "value": "function name is preserved external reference"
+            "value": "function name is preserved external reference",
+            "raw": "'function name is preserved external reference'"
           }
         ],
         "optional": false

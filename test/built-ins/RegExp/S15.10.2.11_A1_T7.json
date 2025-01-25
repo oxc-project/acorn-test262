@@ -31,6 +31,7 @@
                 "start": 303,
                 "end": 315,
                 "value": {},
+                "raw": "/\\1(A)(B)\\2/",
                 "regex": {
                   "pattern": "\\1(A)(B)\\2",
                   "flags": ""
@@ -50,7 +51,8 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 326,
-                "value": "ABB"
+                "value": "ABB",
+                "raw": "\"ABB\""
               }
             ],
             "optional": false
@@ -86,7 +88,8 @@
               "type": "Literal",
               "start": 343,
               "end": 347,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -113,7 +116,8 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               "computed": true,
               "optional": false
@@ -123,7 +127,8 @@
               "type": "Literal",
               "start": 364,
               "end": 369,
-              "value": "ABB"
+              "value": "ABB",
+              "raw": "\"ABB\""
             }
           }
         }
@@ -156,7 +161,8 @@
                     "type": "Literal",
                     "start": 399,
                     "end": 469,
-                    "value": "#1: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[0] === \"ABB\". Actual. "
+                    "value": "#1: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[0] === \"ABB\". Actual. ",
+                    "raw": "'#1: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[0] === \"ABB\". Actual. '"
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +194,8 @@
                           "type": "Literal",
                           "start": 484,
                           "end": 485,
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         },
                         "computed": true,
                         "optional": false
@@ -230,7 +237,8 @@
               "type": "Literal",
               "start": 506,
               "end": 510,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -257,7 +265,8 @@
                 "type": "Literal",
                 "start": 520,
                 "end": 521,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               "computed": true,
               "optional": false
@@ -267,7 +276,8 @@
               "type": "Literal",
               "start": 527,
               "end": 530,
-              "value": "A"
+              "value": "A",
+              "raw": "\"A\""
             }
           }
         }
@@ -300,7 +310,8 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 628,
-                    "value": "#2: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[1] === \"A\". Actual. "
+                    "value": "#2: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[1] === \"A\". Actual. ",
+                    "raw": "'#2: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[1] === \"A\". Actual. '"
                   },
                   "operator": "+",
                   "right": {
@@ -332,7 +343,8 @@
                           "type": "Literal",
                           "start": 643,
                           "end": 644,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -374,7 +386,8 @@
               "type": "Literal",
               "start": 665,
               "end": 669,
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         },
@@ -401,7 +414,8 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 680,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               "computed": true,
               "optional": false
@@ -411,7 +425,8 @@
               "type": "Literal",
               "start": 686,
               "end": 689,
-              "value": "B"
+              "value": "B",
+              "raw": "\"B\""
             }
           }
         }
@@ -444,7 +459,8 @@
                     "type": "Literal",
                     "start": 719,
                     "end": 787,
-                    "value": "#3: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[2] === \"B\". Actual. "
+                    "value": "#3: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[2] === \"B\". Actual. ",
+                    "raw": "'#3: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[2] === \"B\". Actual. '"
                   },
                   "operator": "+",
                   "right": {
@@ -476,7 +492,8 @@
                           "type": "Literal",
                           "start": 802,
                           "end": 803,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         },
                         "computed": true,
                         "optional": false

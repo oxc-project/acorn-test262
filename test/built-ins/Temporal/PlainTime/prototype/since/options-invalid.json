@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 308,
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 323,
-                "value": "hello"
+                "value": "hello",
+                "raw": "\"hello\""
               },
               {
                 "type": "CallExpression",
@@ -56,7 +59,8 @@
                     "type": "Literal",
                     "start": 332,
                     "end": 337,
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   }
                 ],
                 "optional": false
@@ -65,13 +69,15 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 341,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 345,
-                "value": "1n"
+                "value": "1n",
+                "raw": "1n"
               }
             ]
           }
@@ -122,37 +128,43 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 386,
-                "value": 15
+                "value": 15,
+                "raw": "15"
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 390,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 394,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 399,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 404,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 409,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               }
             ]
           }
@@ -203,37 +215,43 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 449,
-                "value": 16
+                "value": 16,
+                "raw": "16"
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 453,
-                "value": 23
+                "value": 23,
+                "raw": "23"
               },
               {
                 "type": "Literal",
                 "start": 455,
                 "end": 457,
-                "value": 30
+                "value": 30,
+                "raw": "30"
               },
               {
                 "type": "Literal",
                 "start": 459,
                 "end": 462,
-                "value": 123
+                "value": 123,
+                "raw": "123"
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 467,
-                "value": 456
+                "value": 456,
+                "raw": "456"
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 472,
-                "value": 789
+                "value": 789,
+                "raw": "789"
               }
             ]
           }

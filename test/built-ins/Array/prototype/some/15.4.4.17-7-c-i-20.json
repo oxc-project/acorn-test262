@@ -60,7 +60,8 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 412,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "consequent": {
@@ -94,7 +95,8 @@
                       "type": "Literal",
                       "start": 442,
                       "end": 453,
-                      "value": "undefined"
+                      "value": "undefined",
+                      "raw": "\"undefined\""
                     }
                   }
                 }
@@ -110,7 +112,8 @@
               "type": "Literal",
               "start": 468,
               "end": 473,
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           }
         ]
@@ -179,7 +182,8 @@
             "type": "Literal",
             "start": 520,
             "end": 523,
-            "value": "0"
+            "value": "0",
+            "raw": "\"0\""
           },
           {
             "type": "ObjectExpression",
@@ -234,7 +238,8 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 569,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -280,7 +285,8 @@
             "type": "Literal",
             "start": 591,
             "end": 592,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -289,7 +295,8 @@
           "type": "Literal",
           "start": 596,
           "end": 599,
-          "value": 100
+          "value": 100,
+          "raw": "100"
         }
       }
     },
@@ -345,7 +352,8 @@
             "type": "Literal",
             "start": 631,
             "end": 662,
-            "value": "arr.some(callbackfn) !== true"
+            "value": "arr.some(callbackfn) !== true",
+            "raw": "'arr.some(callbackfn) !== true'"
           }
         ],
         "optional": false

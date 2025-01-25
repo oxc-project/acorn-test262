@@ -73,13 +73,15 @@
             "type": "Literal",
             "start": 604,
             "end": 609,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 611,
             "end": 614,
-            "value": "d"
+            "value": "d",
+            "raw": "'d'"
           }
         ],
         "optional": false

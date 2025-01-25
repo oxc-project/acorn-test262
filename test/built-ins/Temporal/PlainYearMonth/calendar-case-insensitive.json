@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 255,
             "end": 264,
-            "value": "iSo8601"
+            "value": "iSo8601",
+            "raw": "\"iSo8601\""
           }
         }
       ],
@@ -71,13 +72,15 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
-                "value": 2000
+                "value": 2000,
+                "raw": "2000"
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 317,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Identifier",
@@ -89,7 +92,8 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -148,13 +152,15 @@
             "type": "Literal",
             "start": 364,
             "end": 373,
-            "value": "iso8601"
+            "value": "iso8601",
+            "raw": "\"iso8601\""
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 405,
-            "value": "Calendar is case-insensitive"
+            "value": "Calendar is case-insensitive",
+            "raw": "\"Calendar is case-insensitive\""
           }
         ],
         "optional": false
@@ -179,7 +185,8 @@
           "type": "Literal",
           "start": 415,
           "end": 429,
-          "value": "İSO8601"
+          "value": "İSO8601",
+          "raw": "\"\\u0130SO8601\""
         }
       }
     },
@@ -254,13 +261,15 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 500,
-                  "value": 2000
+                  "value": 2000,
+                  "raw": "2000"
                 },
                 {
                   "type": "Literal",
                   "start": 502,
                   "end": 503,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 {
                   "type": "Identifier",
@@ -272,7 +281,8 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 511,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
@@ -281,7 +291,8 @@
             "type": "Literal",
             "start": 516,
             "end": 567,
-            "value": "calendar ID is capital dotted I is not lowercased"
+            "value": "calendar ID is capital dotted I is not lowercased",
+            "raw": "\"calendar ID is capital dotted I is not lowercased\""
           }
         ],
         "optional": false

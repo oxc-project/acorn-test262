@@ -70,7 +70,8 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 380,
-                "value": "valueOf"
+                "value": "valueOf",
+                "raw": "\"valueOf\""
               }
             ],
             "optional": false
@@ -79,13 +80,15 @@
             "type": "Literal",
             "start": 385,
             "end": 390,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 454,
-            "value": "(new Number()).hasOwnProperty(\"valueOf\") must return false"
+            "value": "(new Number()).hasOwnProperty(\"valueOf\") must return false",
+            "raw": "'(new Number()).hasOwnProperty(\"valueOf\") must return false'"
           }
         ],
         "optional": false
@@ -185,7 +188,8 @@
             "type": "Literal",
             "start": 533,
             "end": 629,
-            "value": "The value of (new Number()).valueOf is expected to equal the value of Number.prototype.valueOf"
+            "value": "The value of (new Number()).valueOf is expected to equal the value of Number.prototype.valueOf",
+            "raw": "'The value of (new Number()).valueOf is expected to equal the value of Number.prototype.valueOf'"
           }
         ],
         "optional": false

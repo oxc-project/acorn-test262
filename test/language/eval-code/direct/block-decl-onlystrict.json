@@ -42,7 +42,8 @@
             "type": "Literal",
             "start": 471,
             "end": 492,
-            "value": "{ function f() {} }"
+            "value": "{ function f() {} }",
+            "raw": "'{ function f() {} }'"
           }
         ],
         "optional": false

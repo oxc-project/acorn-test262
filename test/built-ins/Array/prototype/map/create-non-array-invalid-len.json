@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -89,13 +90,15 @@
                       "type": "Literal",
                       "start": 601,
                       "end": 602,
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
                     {
                       "type": "Literal",
                       "start": 604,
                       "end": 606,
-                      "value": 32
+                      "value": 32,
+                      "raw": "32"
                     }
                   ],
                   "optional": false
@@ -156,7 +159,8 @@
                       "type": "Literal",
                       "start": 648,
                       "end": 649,
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 }
@@ -330,13 +334,15 @@
             "type": "Literal",
             "start": 769,
             "end": 770,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 842,
-            "value": "RangeError thrown during array creation, not property modification"
+            "value": "RangeError thrown during array creation, not property modification",
+            "raw": "'RangeError thrown during array creation, not property modification'"
           }
         ],
         "optional": false

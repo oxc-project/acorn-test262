@@ -94,7 +94,8 @@
                         "type": "Literal",
                         "start": 315,
                         "end": 319,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -115,7 +116,8 @@
                         "type": "Literal",
                         "start": 328,
                         "end": 330,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     },
@@ -136,7 +138,8 @@
                         "type": "Literal",
                         "start": 337,
                         "end": 339,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     },
@@ -157,7 +160,8 @@
                         "type": "Literal",
                         "start": 351,
                         "end": 356,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -185,19 +189,22 @@
             "type": "Literal",
             "start": 382,
             "end": 401,
-            "value": "217123200000000000n"
+            "value": "217123200000000000n",
+            "raw": "217123200000000000n"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 408,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 450,
-            "value": "options may be an empty plain object"
+            "value": "options may be an empty plain object",
+            "raw": "\"options may be an empty plain object\""
           }
         ],
         "optional": false
@@ -294,7 +301,8 @@
                         "type": "Literal",
                         "start": 511,
                         "end": 515,
-                        "value": 1976
+                        "value": 1976,
+                        "raw": "1976"
                       },
                       "kind": "init"
                     },
@@ -315,7 +323,8 @@
                         "type": "Literal",
                         "start": 524,
                         "end": 526,
-                        "value": 11
+                        "value": 11,
+                        "raw": "11"
                       },
                       "kind": "init"
                     },
@@ -336,7 +345,8 @@
                         "type": "Literal",
                         "start": 533,
                         "end": 535,
-                        "value": 18
+                        "value": 18,
+                        "raw": "18"
                       },
                       "kind": "init"
                     },
@@ -357,7 +367,8 @@
                         "type": "Literal",
                         "start": 547,
                         "end": 552,
-                        "value": "UTC"
+                        "value": "UTC",
+                        "raw": "\"UTC\""
                       },
                       "kind": "init"
                     }
@@ -395,19 +406,22 @@
             "type": "Literal",
             "start": 584,
             "end": 603,
-            "value": "217123200000000000n"
+            "value": "217123200000000000n",
+            "raw": "217123200000000000n"
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 610,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 655,
-            "value": "options may be an empty function object"
+            "value": "options may be an empty function object",
+            "raw": "\"options may be an empty function object\""
           }
         ],
         "optional": false

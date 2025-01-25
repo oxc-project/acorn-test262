@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 803,
             "end": 812,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         }
       ],
@@ -80,7 +81,8 @@
         "type": "Literal",
         "start": 876,
         "end": 880,
-        "value": null
+        "value": null,
+        "raw": "null"
       },
       "cases": [
         {
@@ -107,7 +109,8 @@
                     "type": "Literal",
                     "start": 907,
                     "end": 915,
-                    "value": "inside"
+                    "value": "inside",
+                    "raw": "'inside'"
                   }
                 }
               ],
@@ -208,13 +211,15 @@
             "type": "Literal",
             "start": 998,
             "end": 1006,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1037,
-            "value": "from lone `default` clause`"
+            "value": "from lone `default` clause`",
+            "raw": "'from lone `default` clause`'"
           }
         ],
         "optional": false
@@ -258,7 +263,8 @@
             "type": "Literal",
             "start": 1060,
             "end": 1069,
-            "value": "outside"
+            "value": "outside",
+            "raw": "'outside'"
           }
         ],
         "optional": false
@@ -272,7 +278,8 @@
         "type": "Literal",
         "start": 1081,
         "end": 1085,
-        "value": null
+        "value": null,
+        "raw": "null"
       },
       "cases": [
         {
@@ -299,7 +306,8 @@
                     "type": "Literal",
                     "start": 1112,
                     "end": 1120,
-                    "value": "inside"
+                    "value": "inside",
+                    "raw": "'inside'"
                   }
                 }
               ],
@@ -408,7 +416,8 @@
             "type": "Literal",
             "start": 1184,
             "end": 1185,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ]
@@ -458,13 +467,15 @@
             "type": "Literal",
             "start": 1280,
             "end": 1288,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1292,
             "end": 1339,
-            "value": "from `default` clause preceding `case` clause"
+            "value": "from `default` clause preceding `case` clause",
+            "raw": "'from `default` clause preceding `case` clause'"
           }
         ],
         "optional": false
@@ -515,13 +526,15 @@
             "type": "Literal",
             "start": 1376,
             "end": 1384,
-            "value": "inside"
+            "value": "inside",
+            "raw": "'inside'"
           },
           {
             "type": "Literal",
             "start": 1386,
             "end": 1433,
-            "value": "from `case` clause following `default` clause"
+            "value": "from `case` clause following `default` clause",
+            "raw": "'from `case` clause following `default` clause'"
           }
         ],
         "optional": false

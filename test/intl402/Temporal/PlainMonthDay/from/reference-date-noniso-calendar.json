@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 653,
                 "end": 678,
-                "value": "2023-01-01[u-ca=hebrew]"
+                "value": "2023-01-01[u-ca=hebrew]",
+                "raw": "\"2023-01-01[u-ca=hebrew]\""
               }
             ],
             "optional": false
@@ -106,13 +107,15 @@
             "type": "Literal",
             "start": 721,
             "end": 726,
-            "value": "M04"
+            "value": "M04",
+            "raw": "\"M04\""
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 729,
-            "value": 8
+            "value": 8,
+            "raw": "8"
           }
         ],
         "optional": false

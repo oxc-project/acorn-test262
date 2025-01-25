@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 267,
                   "end": 271,
-                  "value": 2019
+                  "value": 2019,
+                  "raw": "2019"
                 },
                 "kind": "init"
               },
@@ -61,7 +62,8 @@
                   "type": "Literal",
                   "start": 280,
                   "end": 282,
-                  "value": 13
+                  "value": 13,
+                  "raw": "13"
                 },
                 "kind": "init"
               }
@@ -179,7 +181,8 @@
                         "type": "Literal",
                         "start": 364,
                         "end": 372,
-                        "value": "reject"
+                        "value": "reject",
+                        "raw": "\"reject\""
                       },
                       "kind": "init"
                     }
@@ -220,26 +223,30 @@
                   "type": "Literal",
                   "start": 381,
                   "end": 382,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 389,
-                "value": 13
+                "value": 13,
+                "raw": "13"
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 395,
-                "value": 9995
+                "value": 9995,
+                "raw": "9995"
               }
             ]
           },
@@ -376,7 +383,8 @@
                                     "type": "Literal",
                                     "start": 497,
                                     "end": 501,
-                                    "value": 2021
+                                    "value": 2021,
+                                    "raw": "2021"
                                   },
                                   "kind": "init"
                                 },
@@ -418,7 +426,8 @@
                                     "type": "Literal",
                                     "start": 515,
                                     "end": 516,
-                                    "value": 5
+                                    "value": 5,
+                                    "raw": "5"
                                   },
                                   "kind": "init"
                                 }
@@ -446,7 +455,8 @@
                                     "type": "Literal",
                                     "start": 531,
                                     "end": 539,
-                                    "value": "reject"
+                                    "value": "reject",
+                                    "raw": "\"reject\""
                                   },
                                   "kind": "init"
                                 }

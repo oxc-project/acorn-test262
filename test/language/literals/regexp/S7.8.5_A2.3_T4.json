@@ -35,7 +35,8 @@
                     "type": "Literal",
                     "start": 601,
                     "end": 612,
-                    "value": "/a\r/"
+                    "value": "/a\r/",
+                    "raw": "\"/a\\u000D/\""
                   }
                 ],
                 "optional": false
@@ -73,7 +74,8 @@
                     "type": "Literal",
                     "start": 648,
                     "end": 718,
-                    "value": "#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: "
+                    "value": "#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: ",
+                    "raw": "'#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -99,7 +101,8 @@
                             "type": "Literal",
                             "start": 727,
                             "end": 738,
-                            "value": "/a\r/"
+                            "value": "/a\r/",
+                            "raw": "\"/a\\u000D/\""
                           }
                         ],
                         "optional": false
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 801,
                   "end": 805,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +206,8 @@
                             "type": "Literal",
                             "start": 837,
                             "end": 907,
-                            "value": "#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: "
+                            "value": "#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: ",
+                            "raw": "'#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '"
                           },
                           "operator": "+",
                           "right": {

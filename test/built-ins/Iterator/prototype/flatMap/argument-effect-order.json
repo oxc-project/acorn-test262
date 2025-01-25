@@ -195,7 +195,8 @@
                                           "type": "Literal",
                                           "start": 712,
                                           "end": 722,
-                                          "value": "get next"
+                                          "value": "get next",
+                                          "raw": "'get next'"
                                         }
                                       ],
                                       "optional": false
@@ -245,7 +246,8 @@
                                                     "type": "Literal",
                                                     "start": 779,
                                                     "end": 783,
-                                                    "value": true
+                                                    "value": true,
+                                                    "raw": "true"
                                                   },
                                                   "kind": "init"
                                                 },
@@ -348,7 +350,8 @@
                                           "type": "Literal",
                                           "start": 877,
                                           "end": 893,
-                                          "value": "valueOf mapper"
+                                          "value": "valueOf mapper",
+                                          "raw": "'valueOf mapper'"
                                         }
                                       ],
                                       "optional": false

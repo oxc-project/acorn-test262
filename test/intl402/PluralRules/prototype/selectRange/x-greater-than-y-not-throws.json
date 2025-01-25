@@ -109,13 +109,15 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 469,
-                  "value": 201
+                  "value": 201,
+                  "raw": "201"
                 },
                 {
                   "type": "Literal",
                   "start": 471,
                   "end": 474,
-                  "value": 102
+                  "value": 102,
+                  "raw": "102"
                 }
               ],
               "optional": false
@@ -125,13 +127,15 @@
             "type": "Literal",
             "start": 477,
             "end": 485,
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 516,
-            "value": "should not throw RangeError"
+            "value": "should not throw RangeError",
+            "raw": "\"should not throw RangeError\""
           }
         ],
         "optional": false

@@ -87,7 +87,8 @@
             "type": "Literal",
             "start": 329,
             "end": 358,
-            "value": "Object.getPrototypeOf(JSON)"
+            "value": "Object.getPrototypeOf(JSON)",
+            "raw": "'Object.getPrototypeOf(JSON)'"
           }
         ],
         "optional": false

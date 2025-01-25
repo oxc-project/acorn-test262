@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 340,
+  "end": 339,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 256,
-      "end": 339,
+      "start": 255,
+      "end": 338,
       "expression": {
         "type": "CallExpression",
-        "start": 256,
-        "end": 338,
+        "start": 255,
+        "end": 337,
         "callee": {
           "type": "MemberExpression",
-          "start": 256,
-          "end": 272,
+          "start": 255,
+          "end": 271,
           "object": {
             "type": "Identifier",
-            "start": 256,
-            "end": 262,
+            "start": 255,
+            "end": 261,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 263,
-            "end": 272,
+            "start": 262,
+            "end": 271,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,28 +33,30 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 273,
-            "end": 290,
+            "start": 272,
+            "end": 289,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 280,
-              "end": 290,
+              "start": 279,
+              "end": 289,
               "name": "Uint8Array"
             }
           },
           {
             "type": "Literal",
-            "start": 292,
-            "end": 302,
-            "value": "function"
+            "start": 291,
+            "end": 301,
+            "value": "function",
+            "raw": "'function'"
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 337,
-            "value": "typeof Uint8Array is \"function\""
+            "start": 303,
+            "end": 336,
+            "value": "typeof Uint8Array is \"function\"",
+            "raw": "'typeof Uint8Array is \"function\"'"
           }
         ],
         "optional": false

@@ -149,7 +149,8 @@
               "type": "Literal",
               "start": 979,
               "end": 985,
-              "value": "xGen"
+              "value": "xGen",
+              "raw": "'xGen'"
             }
           }
         ],
@@ -181,7 +182,8 @@
             "type": "Literal",
             "start": 1009,
             "end": 1015,
-            "value": "name"
+            "value": "name",
+            "raw": "'name'"
           },
           {
             "type": "ObjectExpression",
@@ -205,7 +207,8 @@
                   "type": "Literal",
                   "start": 1028,
                   "end": 1033,
-                  "value": "gen"
+                  "value": "gen",
+                  "raw": "'gen'"
                 },
                 "kind": "init"
               },
@@ -226,7 +229,8 @@
                   "type": "Literal",
                   "start": 1047,
                   "end": 1052,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -247,7 +251,8 @@
                   "type": "Literal",
                   "start": 1068,
                   "end": 1073,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -268,7 +273,8 @@
                   "type": "Literal",
                   "start": 1091,
                   "end": 1095,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

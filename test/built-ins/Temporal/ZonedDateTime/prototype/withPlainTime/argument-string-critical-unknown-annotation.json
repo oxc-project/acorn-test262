@@ -27,43 +27,50 @@
                 "type": "Literal",
                 "start": 311,
                 "end": 328,
-                "value": "00:00[!foo=bar]"
+                "value": "00:00[!foo=bar]",
+                "raw": "\"00:00[!foo=bar]\""
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 350,
-                "value": "T00:00[!foo=bar]"
+                "value": "T00:00[!foo=bar]",
+                "raw": "\"T00:00[!foo=bar]\""
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 382,
-                "value": "1970-01-01T00:00[!foo=bar]"
+                "value": "1970-01-01T00:00[!foo=bar]",
+                "raw": "\"1970-01-01T00:00[!foo=bar]\""
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 419,
-                "value": "1970-01-01T00:00[UTC][!foo=bar]"
+                "value": "1970-01-01T00:00[UTC][!foo=bar]",
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar]\""
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 465,
-                "value": "1970-01-01T00:00[u-ca=iso8601][!foo=bar]"
+                "value": "1970-01-01T00:00[u-ca=iso8601][!foo=bar]",
+                "raw": "\"1970-01-01T00:00[u-ca=iso8601][!foo=bar]\""
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 516,
-                "value": "1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]"
+                "value": "1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]",
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 520,
                 "end": 588,
-                "value": "1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]"
+                "value": "1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]",
+                "raw": "\"1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]\""
               }
             ]
           }
@@ -90,7 +97,8 @@
             "type": "Literal",
             "start": 610,
             "end": 615,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -139,7 +147,8 @@
                 "type": "Literal",
                 "start": 661,
                 "end": 663,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",

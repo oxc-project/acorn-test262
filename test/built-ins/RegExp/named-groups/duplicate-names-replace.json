@@ -43,7 +43,8 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 311,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               },
               "property": {
                 "type": "Identifier",
@@ -60,6 +61,7 @@
                 "start": 320,
                 "end": 337,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -69,7 +71,8 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 347,
-                "value": "[$<x>]"
+                "value": "[$<x>]",
+                "raw": "\"[$<x>]\""
               }
             ],
             "optional": false
@@ -78,7 +81,8 @@
             "type": "Literal",
             "start": 350,
             "end": 356,
-            "value": "[a]b"
+            "value": "[a]b",
+            "raw": "\"[a]b\""
           }
         ],
         "optional": false
@@ -124,7 +128,8 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 380,
-                "value": "ba"
+                "value": "ba",
+                "raw": "\"ba\""
               },
               "property": {
                 "type": "Identifier",
@@ -141,6 +146,7 @@
                 "start": 389,
                 "end": 406,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -150,7 +156,8 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 416,
-                "value": "[$<x>]"
+                "value": "[$<x>]",
+                "raw": "\"[$<x>]\""
               }
             ],
             "optional": false
@@ -159,7 +166,8 @@
             "type": "Literal",
             "start": 419,
             "end": 425,
-            "value": "[b]a"
+            "value": "[b]a",
+            "raw": "\"[b]a\""
           }
         ],
         "optional": false
@@ -205,7 +213,8 @@
                 "type": "Literal",
                 "start": 446,
                 "end": 450,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               },
               "property": {
                 "type": "Identifier",
@@ -222,6 +231,7 @@
                 "start": 459,
                 "end": 476,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -231,7 +241,8 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 494,
-                "value": "[$<x>][$1][$2]"
+                "value": "[$<x>][$1][$2]",
+                "raw": "\"[$<x>][$1][$2]\""
               }
             ],
             "optional": false
@@ -240,7 +251,8 @@
             "type": "Literal",
             "start": 497,
             "end": 508,
-            "value": "[a][a][]b"
+            "value": "[a][a][]b",
+            "raw": "\"[a][a][]b\""
           }
         ],
         "optional": false
@@ -286,7 +298,8 @@
                 "type": "Literal",
                 "start": 528,
                 "end": 532,
-                "value": "ba"
+                "value": "ba",
+                "raw": "\"ba\""
               },
               "property": {
                 "type": "Identifier",
@@ -303,6 +316,7 @@
                 "start": 541,
                 "end": 558,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
@@ -312,7 +326,8 @@
                 "type": "Literal",
                 "start": 560,
                 "end": 576,
-                "value": "[$<x>][$1][$2]"
+                "value": "[$<x>][$1][$2]",
+                "raw": "\"[$<x>][$1][$2]\""
               }
             ],
             "optional": false
@@ -321,7 +336,8 @@
             "type": "Literal",
             "start": 579,
             "end": 590,
-            "value": "[b][][b]a"
+            "value": "[b][][b]a",
+            "raw": "\"[b][][b]a\""
           }
         ],
         "optional": false
@@ -367,7 +383,8 @@
                 "type": "Literal",
                 "start": 611,
                 "end": 615,
-                "value": "ab"
+                "value": "ab",
+                "raw": "\"ab\""
               },
               "property": {
                 "type": "Identifier",
@@ -384,6 +401,7 @@
                 "start": 624,
                 "end": 642,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/g",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
@@ -393,7 +411,8 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 652,
-                "value": "[$<x>]"
+                "value": "[$<x>]",
+                "raw": "\"[$<x>]\""
               }
             ],
             "optional": false
@@ -402,7 +421,8 @@
             "type": "Literal",
             "start": 655,
             "end": 663,
-            "value": "[a][b]"
+            "value": "[a][b]",
+            "raw": "\"[a][b]\""
           }
         ],
         "optional": false
@@ -448,7 +468,8 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 687,
-                "value": "ba"
+                "value": "ba",
+                "raw": "\"ba\""
               },
               "property": {
                 "type": "Identifier",
@@ -465,6 +486,7 @@
                 "start": 696,
                 "end": 714,
                 "value": null,
+                "raw": "/(?<x>a)|(?<x>b)/g",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
@@ -474,7 +496,8 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 724,
-                "value": "[$<x>]"
+                "value": "[$<x>]",
+                "raw": "\"[$<x>]\""
               }
             ],
             "optional": false
@@ -483,7 +506,8 @@
             "type": "Literal",
             "start": 727,
             "end": 735,
-            "value": "[b][a]"
+            "value": "[b][a]",
+            "raw": "\"[b][a]\""
           }
         ],
         "optional": false

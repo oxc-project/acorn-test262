@@ -94,13 +94,15 @@
             "type": "Literal",
             "start": 346,
             "end": 356,
-            "value": "Infinity"
+            "value": "Infinity",
+            "raw": "\"Infinity\""
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 396,
-            "value": "String.prototype.trim.call(Infinity)"
+            "value": "String.prototype.trim.call(Infinity)",
+            "raw": "'String.prototype.trim.call(Infinity)'"
           }
         ],
         "optional": false

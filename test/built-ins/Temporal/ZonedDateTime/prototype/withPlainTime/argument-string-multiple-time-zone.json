@@ -27,43 +27,50 @@
                 "type": "Literal",
                 "start": 313,
                 "end": 330,
-                "value": "00:00[UTC][UTC]"
+                "value": "00:00[UTC][UTC]",
+                "raw": "\"00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 352,
-                "value": "T00:00[UTC][UTC]"
+                "value": "T00:00[UTC][UTC]",
+                "raw": "\"T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 384,
-                "value": "1970-01-01T00:00[UTC][UTC]"
+                "value": "1970-01-01T00:00[UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 417,
-                "value": "1970-01-01T00:00[!UTC][UTC]"
+                "value": "1970-01-01T00:00[!UTC][UTC]",
+                "raw": "\"1970-01-01T00:00[!UTC][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 450,
-                "value": "1970-01-01T00:00[UTC][!UTC]"
+                "value": "1970-01-01T00:00[UTC][!UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][!UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 454,
                 "end": 496,
-                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]"
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 500,
                 "end": 537,
-                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]"
+                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]",
+                "raw": "\"1970-01-01T00:00[UTC][foo=bar][UTC]\""
               }
             ]
           }
@@ -90,7 +97,8 @@
             "type": "Literal",
             "start": 559,
             "end": 564,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -139,7 +147,8 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 612,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",

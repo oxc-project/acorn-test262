@@ -64,7 +64,8 @@
                         "type": "Literal",
                         "start": 899,
                         "end": 900,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ClassExpression",
@@ -120,7 +121,8 @@
             "type": "Literal",
             "start": 953,
             "end": 969,
-            "value": "`get` accessor"
+            "value": "`get` accessor",
+            "raw": "'`get` accessor'"
           }
         ],
         "optional": false
@@ -187,7 +189,8 @@
                         "type": "Literal",
                         "start": 1018,
                         "end": 1019,
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       },
                       {
                         "type": "ClassExpression",
@@ -250,7 +253,8 @@
             "type": "Literal",
             "start": 1073,
             "end": 1089,
-            "value": "`set` accessor"
+            "value": "`set` accessor",
+            "raw": "'`set` accessor'"
           }
         ],
         "optional": false

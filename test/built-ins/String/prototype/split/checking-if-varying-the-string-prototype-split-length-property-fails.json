@@ -72,7 +72,8 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 421,
-                "value": "length"
+                "value": "length",
+                "raw": "'length'"
               }
             ],
             "optional": false
@@ -81,7 +82,8 @@
             "type": "Literal",
             "start": 426,
             "end": 494,
-            "value": "String.prototype.split.hasOwnProperty('length') must return true"
+            "value": "String.prototype.split.hasOwnProperty('length') must return true",
+            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'"
           }
         ],
         "optional": false
@@ -202,13 +204,15 @@
             "type": "Literal",
             "start": 585,
             "end": 593,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 599,
-            "value": null
+            "value": null,
+            "raw": "null"
           },
           {
             "type": "FunctionExpression",
@@ -232,7 +236,8 @@
                     "type": "Literal",
                     "start": 623,
                     "end": 632,
-                    "value": "shifted"
+                    "value": "shifted",
+                    "raw": "\"shifted\""
                   }
                 }
               ]
@@ -325,7 +330,8 @@
             "type": "Literal",
             "start": 701,
             "end": 785,
-            "value": "The value of String.prototype.split.length is expected to equal the value of __obj"
+            "value": "The value of String.prototype.split.length is expected to equal the value of __obj",
+            "raw": "'The value of String.prototype.split.length is expected to equal the value of __obj'"
           }
         ],
         "optional": false

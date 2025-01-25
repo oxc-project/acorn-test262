@@ -41,7 +41,8 @@
             "type": "Literal",
             "start": 312,
             "end": 325,
-            "value": "lastIndexOf"
+            "value": "lastIndexOf",
+            "raw": "\"lastIndexOf\""
           },
           {
             "type": "ObjectExpression",
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 345,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 361,
                   "end": 366,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -107,7 +110,8 @@
                   "type": "Literal",
                   "start": 384,
                   "end": 388,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }

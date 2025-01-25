@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 351,
             "end": 352,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -306,13 +307,15 @@
                             "type": "Literal",
                             "start": 567,
                             "end": 568,
-                            "value": 7
+                            "value": 7,
+                            "raw": "7"
                           },
                           {
                             "type": "Literal",
                             "start": 570,
                             "end": 599,
-                            "value": "7 new promises were created"
+                            "value": "7 new promises were created",
+                            "raw": "\"7 new promises were created\""
                           }
                         ],
                         "optional": false

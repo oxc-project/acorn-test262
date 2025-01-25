@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 328,
             "end": 329,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -57,7 +58,8 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
@@ -82,7 +84,8 @@
               "type": "Literal",
               "start": 465,
               "end": 513,
-              "value": "#1.1: new 1 in expression is evaluated to true"
+              "value": "#1.1: new 1 in expression is evaluated to true",
+              "raw": "'#1.1: new 1 in expression is evaluated to true'"
             }
           ]
         }
@@ -125,7 +128,8 @@
           "type": "Literal",
           "start": 535,
           "end": 536,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -147,7 +151,8 @@
               "type": "Literal",
               "start": 561,
               "end": 594,
-              "value": "#1.2: else branch don`t execute"
+              "value": "#1.2: else branch don`t execute",
+              "raw": "'#1.2: else branch don`t execute'"
             }
           ]
         }
@@ -183,7 +188,8 @@
                 "type": "Literal",
                 "start": 786,
                 "end": 790,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -208,7 +214,8 @@
               "type": "Literal",
               "start": 818,
               "end": 869,
-              "value": "#2.1: new true in expression is evaluated to true"
+              "value": "#2.1: new true in expression is evaluated to true",
+              "raw": "'#2.1: new true in expression is evaluated to true'"
             }
           ]
         }
@@ -251,7 +258,8 @@
           "type": "Literal",
           "start": 891,
           "end": 892,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "consequent": {
@@ -273,7 +281,8 @@
               "type": "Literal",
               "start": 917,
               "end": 950,
-              "value": "#2.2: else branch don`t execute"
+              "value": "#2.2: else branch don`t execute",
+              "raw": "'#2.2: else branch don`t execute'"
             }
           ]
         }
@@ -309,7 +318,8 @@
                 "type": "Literal",
                 "start": 1141,
                 "end": 1144,
-                "value": "1"
+                "value": "1",
+                "raw": "\"1\""
               }
             ]
           }
@@ -334,7 +344,8 @@
               "type": "Literal",
               "start": 1172,
               "end": 1222,
-              "value": "#3.1: new \"1\" in expression is evaluated to true"
+              "value": "#3.1: new \"1\" in expression is evaluated to true",
+              "raw": "'#3.1: new \"1\" in expression is evaluated to true'"
             }
           ]
         }
@@ -377,7 +388,8 @@
           "type": "Literal",
           "start": 1244,
           "end": 1245,
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
       },
       "consequent": {
@@ -399,7 +411,8 @@
               "type": "Literal",
               "start": 1270,
               "end": 1303,
-              "value": "#3.2: else branch don`t execute"
+              "value": "#3.2: else branch don`t execute",
+              "raw": "'#3.2: else branch don`t execute'"
             }
           ]
         }
@@ -435,7 +448,8 @@
                 "type": "Literal",
                 "start": 1494,
                 "end": 1497,
-                "value": "A"
+                "value": "A",
+                "raw": "\"A\""
               }
             ]
           }
@@ -460,7 +474,8 @@
               "type": "Literal",
               "start": 1525,
               "end": 1575,
-              "value": "#4.1: new \"A\" in expression is evaluated to true"
+              "value": "#4.1: new \"A\" in expression is evaluated to true",
+              "raw": "'#4.1: new \"A\" in expression is evaluated to true'"
             }
           ]
         }
@@ -503,7 +518,8 @@
           "type": "Literal",
           "start": 1597,
           "end": 1598,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "consequent": {
@@ -525,7 +541,8 @@
               "type": "Literal",
               "start": 1623,
               "end": 1656,
-              "value": "#4.2: else branch don`t execute"
+              "value": "#4.2: else branch don`t execute",
+              "raw": "'#4.2: else branch don`t execute'"
             }
           ]
         }
@@ -561,7 +578,8 @@
                 "type": "Literal",
                 "start": 1848,
                 "end": 1853,
-                "value": false
+                "value": false,
+                "raw": "false"
               }
             ]
           }
@@ -586,7 +604,8 @@
               "type": "Literal",
               "start": 1884,
               "end": 1937,
-              "value": "#5.1: new false in expression is evaluated to true "
+              "value": "#5.1: new false in expression is evaluated to true ",
+              "raw": "'#5.1: new false in expression is evaluated to true '"
             }
           ]
         }
@@ -629,7 +648,8 @@
           "type": "Literal",
           "start": 1959,
           "end": 1960,
-          "value": 5
+          "value": 5,
+          "raw": "5"
         }
       },
       "consequent": {
@@ -651,7 +671,8 @@
               "type": "Literal",
               "start": 1985,
               "end": 2018,
-              "value": "#5.2: else branch don`t execute"
+              "value": "#5.2: else branch don`t execute",
+              "raw": "'#5.2: else branch don`t execute'"
             }
           ]
         }
@@ -712,7 +733,8 @@
               "type": "Literal",
               "start": 2243,
               "end": 2294,
-              "value": "#6.1: new NaN in expression is evaluated to true "
+              "value": "#6.1: new NaN in expression is evaluated to true ",
+              "raw": "'#6.1: new NaN in expression is evaluated to true '"
             }
           ]
         }
@@ -755,7 +777,8 @@
           "type": "Literal",
           "start": 2316,
           "end": 2317,
-          "value": 6
+          "value": 6,
+          "raw": "6"
         }
       },
       "consequent": {
@@ -777,7 +800,8 @@
               "type": "Literal",
               "start": 2342,
               "end": 2375,
-              "value": "#6.2: else branch don`t execute"
+              "value": "#6.2: else branch don`t execute",
+              "raw": "'#6.2: else branch don`t execute'"
             }
           ]
         }
@@ -813,7 +837,8 @@
                 "type": "Literal",
                 "start": 2566,
                 "end": 2570,
-                "value": null
+                "value": null,
+                "raw": "null"
               }
             ]
           }
@@ -838,7 +863,8 @@
               "type": "Literal",
               "start": 2599,
               "end": 2651,
-              "value": "#7.1: new null in expression is evaluated to true "
+              "value": "#7.1: new null in expression is evaluated to true ",
+              "raw": "'#7.1: new null in expression is evaluated to true '"
             }
           ]
         }
@@ -881,7 +907,8 @@
           "type": "Literal",
           "start": 2673,
           "end": 2674,
-          "value": 7
+          "value": 7,
+          "raw": "7"
         }
       },
       "consequent": {
@@ -903,7 +930,8 @@
               "type": "Literal",
               "start": 2699,
               "end": 2732,
-              "value": "#7.2: else branch don`t execute"
+              "value": "#7.2: else branch don`t execute",
+              "raw": "'#7.2: else branch don`t execute'"
             }
           ]
         }
@@ -964,7 +992,8 @@
               "type": "Literal",
               "start": 2961,
               "end": 3018,
-              "value": "#8.1: new undefined in expression is evaluated to true "
+              "value": "#8.1: new undefined in expression is evaluated to true ",
+              "raw": "'#8.1: new undefined in expression is evaluated to true '"
             }
           ]
         }
@@ -1007,7 +1036,8 @@
           "type": "Literal",
           "start": 3040,
           "end": 3041,
-          "value": 8
+          "value": 8,
+          "raw": "8"
         }
       },
       "consequent": {
@@ -1029,7 +1059,8 @@
               "type": "Literal",
               "start": 3066,
               "end": 3099,
-              "value": "#8.2: else branch don`t execute"
+              "value": "#8.2: else branch don`t execute",
+              "raw": "'#8.2: else branch don`t execute'"
             }
           ]
         }
@@ -1065,7 +1096,8 @@
                 "type": "Literal",
                 "start": 3290,
                 "end": 3292,
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }
@@ -1090,7 +1122,8 @@
               "type": "Literal",
               "start": 3323,
               "end": 3383,
-              "value": "#9.1: new empty string in expression is evaluated to true "
+              "value": "#9.1: new empty string in expression is evaluated to true ",
+              "raw": "'#9.1: new empty string in expression is evaluated to true '"
             }
           ]
         }
@@ -1133,7 +1166,8 @@
           "type": "Literal",
           "start": 3405,
           "end": 3406,
-          "value": 9
+          "value": 9,
+          "raw": "9"
         }
       },
       "consequent": {
@@ -1155,7 +1189,8 @@
               "type": "Literal",
               "start": 3431,
               "end": 3464,
-              "value": "#9.2: else branch don`t execute"
+              "value": "#9.2: else branch don`t execute",
+              "raw": "'#9.2: else branch don`t execute'"
             }
           ]
         }

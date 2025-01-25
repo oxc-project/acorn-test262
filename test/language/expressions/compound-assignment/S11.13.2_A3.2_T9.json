@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 291,
             "end": 292,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
       ],
@@ -62,7 +63,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 310,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
@@ -89,7 +91,8 @@
           "type": "Literal",
           "start": 324,
           "end": 325,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -120,7 +123,8 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 408,
-                    "value": "#1: var x = 1; var x1 = (x &= 1); x1 === 1. Actual: "
+                    "value": "#1: var x = 1; var x1 = (x &= 1); x1 === 1. Actual: ",
+                    "raw": "'#1: var x = 1; var x1 = (x &= 1); x1 === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -201,7 +205,8 @@
           "type": "Literal",
           "start": 450,
           "end": 451,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -239,7 +244,8 @@
               "type": "Literal",
               "start": 464,
               "end": 465,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         }
@@ -264,7 +270,8 @@
           "type": "Literal",
           "start": 479,
           "end": 480,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -295,7 +302,8 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 555,
-                    "value": "#2: y = 1; y1 = (y &= 1); y1 === 1. Actual: "
+                    "value": "#2: y = 1; y1 = (y &= 1); y1 === 1. Actual: ",
+                    "raw": "'#2: y = 1; y1 = (y &= 1); y1 === 1. Actual: '"
                   },
                   "operator": "+",
                   "right": {

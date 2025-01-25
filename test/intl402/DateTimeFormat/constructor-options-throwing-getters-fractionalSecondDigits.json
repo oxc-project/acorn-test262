@@ -48,7 +48,8 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 396,
-                "value": "fractionalSecondDigits"
+                "value": "fractionalSecondDigits",
+                "raw": "\"fractionalSecondDigits\""
               }
             ]
           }
@@ -172,7 +173,8 @@
                               "type": "Literal",
                               "start": 499,
                               "end": 503,
-                              "value": "en"
+                              "value": "en",
+                              "raw": "\"en\""
                             },
                             {
                               "type": "ObjectExpression",

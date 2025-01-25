@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 263,
             "end": 269,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 310,
             "end": 316,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -208,7 +210,8 @@
                   "type": "Literal",
                   "start": 424,
                   "end": 428,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               },
@@ -229,7 +232,8 @@
                   "type": "Literal",
                   "start": 446,
                   "end": 450,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -302,7 +306,8 @@
           "type": "Literal",
           "start": 496,
           "end": 511,
-          "value": "myOwnProperty"
+          "value": "myOwnProperty",
+          "raw": "\"myOwnProperty\""
         }
       }
     },
@@ -362,7 +367,8 @@
                 "type": "Literal",
                 "start": 554,
                 "end": 560,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -371,13 +377,15 @@
             "type": "Literal",
             "start": 563,
             "end": 568,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 602,
-            "value": "dateObj.hasOwnProperty(\"prop\")"
+            "value": "dateObj.hasOwnProperty(\"prop\")",
+            "raw": "'dateObj.hasOwnProperty(\"prop\")'"
           }
         ],
         "optional": false
@@ -434,13 +442,15 @@
             "type": "Literal",
             "start": 636,
             "end": 651,
-            "value": "myOwnProperty"
+            "value": "myOwnProperty",
+            "raw": "\"myOwnProperty\""
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 667,
-            "value": "dateObj.prop"
+            "value": "dateObj.prop",
+            "raw": "'dateObj.prop'"
           }
         ],
         "optional": false
@@ -484,13 +494,15 @@
             "type": "Literal",
             "start": 693,
             "end": 708,
-            "value": "myOwnProperty"
+            "value": "myOwnProperty",
+            "raw": "\"myOwnProperty\""
           },
           {
             "type": "Literal",
             "start": 710,
             "end": 716,
-            "value": "data"
+            "value": "data",
+            "raw": "'data'"
           }
         ],
         "optional": false

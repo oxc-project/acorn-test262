@@ -49,7 +49,8 @@
                           "type": "Literal",
                           "start": 392,
                           "end": 405,
-                          "value": "early-throw"
+                          "value": "early-throw",
+                          "raw": "\"early-throw\""
                         }
                       }
                     ]
@@ -125,7 +126,8 @@
                                             "type": "Literal",
                                             "start": 492,
                                             "end": 502,
-                                            "value": "override"
+                                            "value": "override",
+                                            "raw": "\"override\""
                                           }
                                         ],
                                         "optional": false
@@ -250,13 +252,15 @@
                             "type": "Literal",
                             "start": 574,
                             "end": 584,
-                            "value": "override"
+                            "value": "override",
+                            "raw": "\"override\""
                           },
                           {
                             "type": "Literal",
                             "start": 586,
                             "end": 611,
-                            "value": "Return in finally block"
+                            "value": "Return in finally block",
+                            "raw": "\"Return in finally block\""
                           }
                         ],
                         "optional": false

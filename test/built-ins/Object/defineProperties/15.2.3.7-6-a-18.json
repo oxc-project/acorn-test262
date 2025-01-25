@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 372,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -79,7 +80,8 @@
             "type": "Literal",
             "start": 403,
             "end": 409,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -103,7 +105,8 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 424,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -124,7 +127,8 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 447,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -217,7 +221,8 @@
                               "type": "Literal",
                               "start": 517,
                               "end": 519,
-                              "value": 12
+                              "value": 12,
+                              "raw": "12"
                             },
                             "kind": "init"
                           },
@@ -238,7 +243,8 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 545,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             },
                             "kind": "init"
                           }
@@ -271,7 +277,8 @@
                   "type": "Literal",
                   "start": 583,
                   "end": 607,
-                  "value": "Expected an exception."
+                  "value": "Expected an exception.",
+                  "raw": "\"Expected an exception.\""
                 }
               ]
             }
@@ -355,7 +362,8 @@
                             "type": "Literal",
                             "start": 686,
                             "end": 712,
-                            "value": "Expected TypeError, got "
+                            "value": "Expected TypeError, got ",
+                            "raw": "\"Expected TypeError, got \""
                           },
                           "operator": "+",
                           "right": {
@@ -402,7 +410,8 @@
             "type": "Literal",
             "start": 746,
             "end": 752,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -426,7 +435,8 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 767,
-                  "value": 11
+                  "value": 11,
+                  "raw": "11"
                 },
                 "kind": "init"
               },
@@ -447,7 +457,8 @@
                   "type": "Literal",
                   "start": 781,
                   "end": 786,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -468,7 +479,8 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 807,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               },
@@ -489,7 +501,8 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 830,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }

@@ -90,7 +90,8 @@
                               "type": "Literal",
                               "start": 2084,
                               "end": 2092,
-                              "value": "var x;"
+                              "value": "var x;",
+                              "raw": "'var x;'"
                             }
                           ],
                           "optional": false

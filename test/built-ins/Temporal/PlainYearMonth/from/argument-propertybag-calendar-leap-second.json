@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 329,
             "end": 350,
-            "value": "2016-12-31T23:59:60"
+            "value": "2016-12-31T23:59:60",
+            "raw": "\"2016-12-31T23:59:60\""
           }
         }
       ],
@@ -65,7 +66,8 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 377,
-                  "value": 2019
+                  "value": 2019,
+                  "raw": "2019"
                 },
                 "kind": "init"
               },
@@ -86,7 +88,8 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 395,
-                  "value": "M06"
+                  "value": "M06",
+                  "raw": "\"M06\""
                 },
                 "kind": "init"
               },
@@ -220,25 +223,29 @@
             "type": "Literal",
             "start": 509,
             "end": 513,
-            "value": 2019
+            "value": 2019,
+            "raw": "2019"
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 516,
-            "value": 6
+            "value": 6,
+            "raw": "6"
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 523,
-            "value": "M06"
+            "value": "M06",
+            "raw": "\"M06\""
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 575,
-            "value": "leap second is a valid ISO string for calendar"
+            "value": "leap second is a valid ISO string for calendar",
+            "raw": "\"leap second is a valid ISO string for calendar\""
           }
         ],
         "optional": false

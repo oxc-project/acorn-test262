@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 320,
             "end": 365,
-            "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]"
+            "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
           }
         }
       ],
@@ -144,13 +145,15 @@
             "type": "Literal",
             "start": 460,
             "end": 468,
-            "value": "+01:46"
+            "value": "+01:46",
+            "raw": "\"+01:46\""
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 517,
-            "value": "Time zone string determined from bracket name"
+            "value": "Time zone string determined from bracket name",
+            "raw": "\"Time zone string determined from bracket name\""
           }
         ],
         "optional": false

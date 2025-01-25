@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 351,
             "end": 357,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -47,7 +48,8 @@
             "type": "Literal",
             "start": 371,
             "end": 377,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           }
         }
       ],
@@ -295,7 +297,8 @@
             "type": "Literal",
             "start": 548,
             "end": 553,
-            "value": "set"
+            "value": "set",
+            "raw": "\"set\""
           },
           {
             "type": "ObjectExpression",
@@ -515,7 +518,8 @@
           "type": "Literal",
           "start": 718,
           "end": 732,
-          "value": "overrideData"
+          "value": "overrideData",
+          "raw": "\"overrideData\""
         }
       }
     },
@@ -562,7 +566,8 @@
                 "type": "Literal",
                 "start": 761,
                 "end": 767,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -571,7 +576,8 @@
             "type": "Literal",
             "start": 770,
             "end": 807,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -615,13 +621,15 @@
             "type": "Literal",
             "start": 834,
             "end": 848,
-            "value": "overrideData"
+            "value": "overrideData",
+            "raw": "\"overrideData\""
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 857,
-            "value": "data2"
+            "value": "data2",
+            "raw": "'data2'"
           }
         ],
         "optional": false
@@ -665,13 +673,15 @@
             "type": "Literal",
             "start": 884,
             "end": 890,
-            "value": "data"
+            "value": "data",
+            "raw": "\"data\""
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 899,
-            "value": "data1"
+            "value": "data1",
+            "raw": "'data1'"
           }
         ],
         "optional": false

@@ -75,13 +75,15 @@
                   "type": "Literal",
                   "start": 291,
                   "end": 296,
-                  "value": "NaN"
+                  "value": "NaN",
+                  "raw": "\"NaN\""
                 },
                 {
                   "type": "Literal",
                   "start": 298,
                   "end": 330,
-                  "value": "The value of prop is not \"NaN\""
+                  "value": "The value of prop is not \"NaN\"",
+                  "raw": "'The value of prop is not \"NaN\"'"
                 }
               ],
               "optional": false

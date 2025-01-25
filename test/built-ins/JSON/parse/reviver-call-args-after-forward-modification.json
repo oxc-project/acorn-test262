@@ -76,7 +76,8 @@
                     "type": "Literal",
                     "start": 401,
                     "end": 409,
-                    "value": "[1,[]]"
+                    "value": "[1,[]]",
+                    "raw": "'[1,[]]'"
                   },
                   {
                     "type": "FunctionExpression",
@@ -283,7 +284,8 @@
                               "type": "Literal",
                               "start": 539,
                               "end": 540,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           "consequent": {
@@ -316,7 +318,8 @@
                                         "type": "Literal",
                                         "start": 555,
                                         "end": 556,
-                                        "value": 1
+                                        "value": 1,
+                                        "raw": "1"
                                       },
                                       "computed": true,
                                       "optional": false
@@ -335,7 +338,8 @@
                                       "type": "Literal",
                                       "start": 563,
                                       "end": 569,
-                                      "value": "barf"
+                                      "value": "barf",
+                                      "raw": "'barf'"
                                     }
                                   ],
                                   "optional": false
@@ -421,25 +425,29 @@
                     "type": "Literal",
                     "start": 637,
                     "end": 668,
-                    "value": "key: |0| value: 1 source: |1|"
+                    "value": "key: |0| value: 1 source: |1|",
+                    "raw": "'key: |0| value: 1 source: |1|'"
                   },
                   {
                     "type": "Literal",
                     "start": 674,
                     "end": 718,
-                    "value": "key: |0| value: \"barf\" source: |undefined|"
+                    "value": "key: |0| value: \"barf\" source: |undefined|",
+                    "raw": "'key: |0| value: \"barf\" source: |undefined|'"
                   },
                   {
                     "type": "Literal",
                     "start": 724,
                     "end": 770,
-                    "value": "key: |1| value: [\"barf\"] source: |undefined|"
+                    "value": "key: |1| value: [\"barf\"] source: |undefined|",
+                    "raw": "'key: |1| value: [\"barf\"] source: |undefined|'"
                   },
                   {
                     "type": "Literal",
                     "start": 776,
                     "end": 825,
-                    "value": "key: || value: [1,[\"barf\"]] source: |undefined|"
+                    "value": "key: || value: [1,[\"barf\"]] source: |undefined|",
+                    "raw": "'key: || value: [1,[\"barf\"]] source: |undefined|'"
                   }
                 ]
               }
@@ -522,7 +530,8 @@
                     "type": "Literal",
                     "start": 905,
                     "end": 921,
-                    "value": "{\"p\":1,\"q\":{}}"
+                    "value": "{\"p\":1,\"q\":{}}",
+                    "raw": "'{\"p\":1,\"q\":{}}'"
                   },
                   {
                     "type": "FunctionExpression",
@@ -724,7 +733,8 @@
                               "type": "Literal",
                               "start": 1044,
                               "end": 1045,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           "consequent": {
@@ -776,7 +786,8 @@
                                     "type": "Literal",
                                     "start": 1070,
                                     "end": 1076,
-                                    "value": "barf"
+                                    "value": "barf",
+                                    "raw": "'barf'"
                                   }
                                 }
                               }
@@ -860,25 +871,29 @@
                     "type": "Literal",
                     "start": 1143,
                     "end": 1174,
-                    "value": "key: |p| value: 1 source: |1|"
+                    "value": "key: |p| value: 1 source: |1|",
+                    "raw": "'key: |p| value: 1 source: |1|'"
                   },
                   {
                     "type": "Literal",
                     "start": 1180,
                     "end": 1228,
-                    "value": "key: |added| value: \"barf\" source: |undefined|"
+                    "value": "key: |added| value: \"barf\" source: |undefined|",
+                    "raw": "'key: |added| value: \"barf\" source: |undefined|'"
                   },
                   {
                     "type": "Literal",
                     "start": 1234,
                     "end": 1288,
-                    "value": "key: |q| value: {\"added\":\"barf\"} source: |undefined|"
+                    "value": "key: |q| value: {\"added\":\"barf\"} source: |undefined|",
+                    "raw": "'key: |q| value: {\"added\":\"barf\"} source: |undefined|'"
                   },
                   {
                     "type": "Literal",
                     "start": 1294,
                     "end": 1359,
-                    "value": "key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|"
+                    "value": "key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|",
+                    "raw": "'key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|'"
                   }
                 ]
               }

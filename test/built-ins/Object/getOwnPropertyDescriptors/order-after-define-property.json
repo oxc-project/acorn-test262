@@ -58,7 +58,8 @@
                 "type": "Literal",
                 "start": 1189,
                 "end": 1192,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ],
             "optional": false
@@ -97,7 +98,8 @@
                 "type": "Literal",
                 "start": 1213,
                 "end": 1216,
-                "value": "b"
+                "value": "b",
+                "raw": "\"b\""
               }
             ],
             "optional": false
@@ -138,7 +140,8 @@
           "type": "Literal",
           "start": 1231,
           "end": 1232,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -174,7 +177,8 @@
           "type": "Literal",
           "start": 1246,
           "end": 1247,
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -240,7 +244,8 @@
                   "type": "Literal",
                   "start": 1297,
                   "end": 1302,
-                  "value": false
+                  "value": false,
+                  "raw": "false"
                 },
                 "kind": "init"
               }
@@ -406,6 +411,7 @@
             "start": 1432,
             "end": 1439,
             "value": {},
+            "raw": "/(?:)/g",
             "regex": {
               "pattern": "(?:)",
               "flags": "g"
@@ -447,7 +453,8 @@
           "type": "Literal",
           "start": 1448,
           "end": 1449,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -489,7 +496,8 @@
             "type": "Literal",
             "start": 1477,
             "end": 1488,
-            "value": "lastIndex"
+            "value": "lastIndex",
+            "raw": "\"lastIndex\""
           },
           {
             "type": "ObjectExpression",
@@ -513,7 +521,8 @@
                   "type": "Literal",
                   "start": 1498,
                   "end": 1499,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "kind": "init"
               }
@@ -645,13 +654,15 @@
                 "type": "Literal",
                 "start": 1602,
                 "end": 1613,
-                "value": "lastIndex"
+                "value": "lastIndex",
+                "raw": "\"lastIndex\""
               },
               {
                 "type": "Literal",
                 "start": 1615,
                 "end": 1618,
-                "value": "a"
+                "value": "a",
+                "raw": "\"a\""
               }
             ]
           }

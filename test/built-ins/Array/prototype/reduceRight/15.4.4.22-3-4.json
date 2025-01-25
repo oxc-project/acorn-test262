@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 299,
             "end": 304,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 373,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           }
@@ -129,13 +131,15 @@
                   "type": "Literal",
                   "start": 392,
                   "end": 393,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 395,
                   "end": 396,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 },
                 "kind": "init"
               },
@@ -162,7 +166,8 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 410,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 },
                 "kind": "init"
@@ -267,7 +272,8 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -276,13 +282,15 @@
             "type": "Literal",
             "start": 486,
             "end": 487,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 489,
             "end": 543,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 1)"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 1)",
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 1)'"
           }
         ],
         "optional": false
@@ -326,13 +334,15 @@
             "type": "Literal",
             "start": 573,
             "end": 578,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 590,
-            "value": "accessed"
+            "value": "accessed",
+            "raw": "'accessed'"
           }
         ],
         "optional": false

@@ -64,7 +64,8 @@
                         "type": "Literal",
                         "start": 415,
                         "end": 432,
-                        "value": "de-DE-u-nu-latn"
+                        "value": "de-DE-u-nu-latn",
+                        "raw": "\"de-DE-u-nu-latn\""
                       }
                     ]
                   }
@@ -137,7 +138,8 @@
                         "type": "Literal",
                         "start": 509,
                         "end": 526,
-                        "value": "de-DE-u-nu-latn"
+                        "value": "de-DE-u-nu-latn",
+                        "raw": "\"de-DE-u-nu-latn\""
                       },
                       {
                         "type": "ObjectExpression",
@@ -161,7 +163,8 @@
                               "type": "Literal",
                               "start": 536,
                               "end": 546,
-                              "value": "currency"
+                              "value": "currency",
+                              "raw": "\"currency\""
                             },
                             "kind": "init"
                           },
@@ -182,7 +185,8 @@
                               "type": "Literal",
                               "start": 558,
                               "end": 563,
-                              "value": "EUR"
+                              "value": "EUR",
+                              "raw": "\"EUR\""
                             },
                             "kind": "init"
                           }

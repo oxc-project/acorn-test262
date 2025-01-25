@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 741,
             "end": 746,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 748,
             "end": 794,
-            "value": "isConstructor(Promise.any) must return false"
+            "value": "isConstructor(Promise.any) must return false",
+            "raw": "'isConstructor(Promise.any) must return false'"
           }
         ],
         "optional": false
@@ -165,7 +167,8 @@
                             "type": "Literal",
                             "start": 850,
                             "end": 851,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ]
                       }

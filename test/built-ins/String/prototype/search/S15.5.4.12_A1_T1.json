@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 294,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             ]
           }
@@ -139,7 +140,8 @@
               "type": "Literal",
               "start": 455,
               "end": 459,
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           ],
           "optional": false
@@ -149,7 +151,8 @@
           "type": "Literal",
           "start": 465,
           "end": 466,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       },
       "consequent": {
@@ -180,7 +183,8 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 617,
-                    "value": "#1: __instance = new Object(true); __instance.search = String.prototype.search;  __instance.search(true) === 0. Actual: "
+                    "value": "#1: __instance = new Object(true); __instance.search = String.prototype.search;  __instance.search(true) === 0. Actual: ",
+                    "raw": "'#1: __instance = new Object(true); __instance.search = String.prototype.search;  __instance.search(true) === 0. Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -211,7 +215,8 @@
                         "type": "Literal",
                         "start": 638,
                         "end": 642,
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ],
                     "optional": false

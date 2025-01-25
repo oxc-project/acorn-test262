@@ -177,7 +177,8 @@
             "type": "Literal",
             "start": 2307,
             "end": 2316,
-            "value": "#method"
+            "value": "#method",
+            "raw": "\"#method\""
           }
         ],
         "optional": false

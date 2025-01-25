@@ -58,7 +58,8 @@
                           "type": "Literal",
                           "start": 391,
                           "end": 392,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -91,7 +92,8 @@
             "type": "Literal",
             "start": 414,
             "end": 430,
-            "value": "5ABBBABAB"
+            "value": "5ABBBABAB",
+            "raw": "\"\\u0035ABBBABAB\""
           }
         }
       ],
@@ -185,13 +187,15 @@
                             "type": "Literal",
                             "start": 589,
                             "end": 590,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 592,
                             "end": 593,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           }
                         ],
                         "optional": false
@@ -211,7 +215,8 @@
           "type": "Literal",
           "start": 607,
           "end": 612,
-          "value": "BBB"
+          "value": "BBB",
+          "raw": "\"BBB\""
         }
       },
       "consequent": {
@@ -242,7 +247,8 @@
                     "type": "Literal",
                     "start": 641,
                     "end": 808,
-                    "value": "#1: var __obj = {valueOf:function(){return 2;}}; var __str = \"5ABBBABAB\"; __str.substring(__obj, function(){return __str.substring(0,1);}()) === \"BBB\". Actual: "
+                    "value": "#1: var __obj = {valueOf:function(){return 2;}}; var __str = \"5ABBBABAB\"; __str.substring(__obj, function(){return __str.substring(0,1);}()) === \"BBB\". Actual: ",
+                    "raw": "'#1: var __obj = {valueOf:function(){return 2;}}; var __str = \"\\u0035ABBBABAB\"; __str.substring(__obj, function(){return __str.substring(0,1);}()) === \"BBB\". Actual: '"
                   },
                   "operator": "+",
                   "right": {
@@ -325,13 +331,15 @@
                                       "type": "Literal",
                                       "start": 874,
                                       "end": 875,
-                                      "value": 0
+                                      "value": 0,
+                                      "raw": "0"
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 877,
                                       "end": 878,
-                                      "value": 1
+                                      "value": 1,
+                                      "raw": "1"
                                     }
                                   ],
                                   "optional": false

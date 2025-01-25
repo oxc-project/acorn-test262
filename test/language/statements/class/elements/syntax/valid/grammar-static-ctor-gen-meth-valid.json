@@ -125,7 +125,8 @@
                 "type": "Literal",
                 "start": 1050,
                 "end": 1063,
-                "value": "constructor"
+                "value": "constructor",
+                "raw": "'constructor'"
               }
             ],
             "optional": false
@@ -190,7 +191,8 @@
                 "type": "Literal",
                 "start": 1101,
                 "end": 1114,
-                "value": "constructor"
+                "value": "constructor",
+                "raw": "'constructor'"
               }
             ],
             "optional": false

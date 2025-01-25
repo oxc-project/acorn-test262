@@ -74,7 +74,8 @@
             "type": "Literal",
             "start": 492,
             "end": 521,
-            "value": "year: Infinity - single arg"
+            "value": "year: Infinity - single arg",
+            "raw": "'year: Infinity - single arg'"
           }
         ],
         "optional": false
@@ -158,7 +159,8 @@
             "type": "Literal",
             "start": 567,
             "end": 597,
-            "value": "year: -Infinity - single arg"
+            "value": "year: -Infinity - single arg",
+            "raw": "'year: -Infinity - single arg'"
           }
         ],
         "optional": false
@@ -226,7 +228,8 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 638,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -241,7 +244,8 @@
             "type": "Literal",
             "start": 646,
             "end": 662,
-            "value": "year: Infinity"
+            "value": "year: Infinity",
+            "raw": "'year: Infinity'"
           }
         ],
         "optional": false
@@ -316,7 +320,8 @@
                 "type": "Literal",
                 "start": 702,
                 "end": 703,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "optional": false
@@ -331,7 +336,8 @@
             "type": "Literal",
             "start": 711,
             "end": 728,
-            "value": "year: -Infinity"
+            "value": "year: -Infinity",
+            "raw": "'year: -Infinity'"
           }
         ],
         "optional": false
@@ -393,7 +399,8 @@
                 "type": "Literal",
                 "start": 758,
                 "end": 759,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -414,7 +421,8 @@
             "type": "Literal",
             "start": 777,
             "end": 794,
-            "value": "month: Infinity"
+            "value": "month: Infinity",
+            "raw": "'month: Infinity'"
           }
         ],
         "optional": false
@@ -476,7 +484,8 @@
                 "type": "Literal",
                 "start": 823,
                 "end": 824,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "UnaryExpression",
@@ -504,7 +513,8 @@
             "type": "Literal",
             "start": 843,
             "end": 861,
-            "value": "month: -Infinity"
+            "value": "month: -Infinity",
+            "raw": "'month: -Infinity'"
           }
         ],
         "optional": false
@@ -566,13 +576,15 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 892,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 894,
                 "end": 895,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Identifier",
@@ -593,7 +605,8 @@
             "type": "Literal",
             "start": 913,
             "end": 929,
-            "value": "date: Infinity"
+            "value": "date: Infinity",
+            "raw": "'date: Infinity'"
           }
         ],
         "optional": false
@@ -655,13 +668,15 @@
                 "type": "Literal",
                 "start": 958,
                 "end": 959,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 961,
                 "end": 962,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "UnaryExpression",
@@ -689,7 +704,8 @@
             "type": "Literal",
             "start": 981,
             "end": 998,
-            "value": "date: -Infinity"
+            "value": "date: -Infinity",
+            "raw": "'date: -Infinity'"
           }
         ],
         "optional": false

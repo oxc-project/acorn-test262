@@ -33,7 +33,8 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 688,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           }
@@ -152,7 +153,8 @@
             "type": "Literal",
             "start": 771,
             "end": 804,
-            "value": "Date.parse(zeroDate.toString())"
+            "value": "Date.parse(zeroDate.toString())",
+            "raw": "\"Date.parse(zeroDate.toString())\""
           }
         ],
         "optional": false
@@ -269,7 +271,8 @@
             "type": "Literal",
             "start": 889,
             "end": 925,
-            "value": "Date.parse(zeroDate.toUTCString())"
+            "value": "Date.parse(zeroDate.toUTCString())",
+            "raw": "\"Date.parse(zeroDate.toUTCString())\""
           }
         ],
         "optional": false
@@ -386,7 +389,8 @@
             "type": "Literal",
             "start": 1010,
             "end": 1046,
-            "value": "Date.parse(zeroDate.toISOString())"
+            "value": "Date.parse(zeroDate.toISOString())",
+            "raw": "\"Date.parse(zeroDate.toISOString())\""
           }
         ],
         "optional": false

@@ -37,13 +37,15 @@
             "type": "Literal",
             "start": 812,
             "end": 821,
-            "value": "numeric"
+            "value": "numeric",
+            "raw": "\"numeric\""
           },
           {
             "type": "Literal",
             "start": 823,
             "end": 832,
-            "value": "2-digit"
+            "value": "2-digit",
+            "raw": "\"2-digit\""
           }
         ]
       },
@@ -202,7 +204,8 @@
                   "type": "Literal",
                   "start": 957,
                   "end": 966,
-                  "value": "2-digit"
+                  "value": "2-digit",
+                  "raw": "\"2-digit\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -294,7 +297,8 @@
                   "type": "Literal",
                   "start": 1098,
                   "end": 1107,
-                  "value": "2-digit"
+                  "value": "2-digit",
+                  "raw": "\"2-digit\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -386,7 +390,8 @@
                   "type": "Literal",
                   "start": 1244,
                   "end": 1253,
-                  "value": "numeric"
+                  "value": "numeric",
+                  "raw": "\"numeric\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -478,7 +483,8 @@
                   "type": "Literal",
                   "start": 1395,
                   "end": 1404,
-                  "value": "numeric"
+                  "value": "numeric",
+                  "raw": "\"numeric\""
                 },
                 {
                   "type": "TemplateLiteral",
@@ -570,7 +576,8 @@
                   "type": "Literal",
                   "start": 1545,
                   "end": 1554,
-                  "value": "numeric"
+                  "value": "numeric",
+                  "raw": "\"numeric\""
                 },
                 {
                   "type": "TemplateLiteral",

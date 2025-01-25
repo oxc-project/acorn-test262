@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 309,
             "end": 314,
-            "value": "UTC"
+            "value": "UTC",
+            "raw": "\"UTC\""
           }
         }
       ],
@@ -71,7 +72,8 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Identifier",
@@ -104,7 +106,8 @@
             "type": "Literal",
             "start": 393,
             "end": 425,
-            "value": "2016-12-31T23:59:60+00:00[UTC]"
+            "value": "2016-12-31T23:59:60+00:00[UTC]",
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
           }
         }
       ],
@@ -147,7 +150,8 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 452,
-                  "value": 1970
+                  "value": 1970,
+                  "raw": "1970"
                 },
                 "kind": "init"
               },
@@ -168,7 +172,8 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 470,
-                  "value": "M01"
+                  "value": "M01",
+                  "raw": "\"M01\""
                 },
                 "kind": "init"
               },
@@ -189,7 +194,8 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 478,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "kind": "init"
               },
@@ -331,13 +337,15 @@
             "type": "Literal",
             "start": 569,
             "end": 573,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 625,
-            "value": "leap second is a valid ISO string for calendar"
+            "value": "leap second is a valid ISO string for calendar",
+            "raw": "\"leap second is a valid ISO string for calendar\""
           }
         ],
         "optional": false

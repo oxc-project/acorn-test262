@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 456,
                 "end": 485,
-                "value": "1919-03-31[America/Toronto]"
+                "value": "1919-03-31[America/Toronto]",
+                "raw": "\"1919-03-31[America/Toronto]\""
               }
             ],
             "optional": false
@@ -124,7 +125,8 @@
                 "type": "Literal",
                 "start": 546,
                 "end": 578,
-                "value": "1919-03-31T00[America/Toronto]"
+                "value": "1919-03-31T00[America/Toronto]",
+                "raw": "\"1919-03-31T00[America/Toronto]\""
               }
             ],
             "optional": false
@@ -198,67 +200,78 @@
             "type": "Literal",
             "start": 658,
             "end": 659,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 662,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 665,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 668,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 671,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 691,
-            "value": 30
+            "value": 30,
+            "raw": "30"
           },
           {
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 697,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 699,
             "end": 700,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 702,
             "end": 703,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 707,
             "end": 799,
-            "value": "start of day is 30 minutes earlier than following the disambiguation strategy for midnight"
+            "value": "start of day is 30 minutes earlier than following the disambiguation strategy for midnight",
+            "raw": "\"start of day is 30 minutes earlier than following the disambiguation strategy for midnight\""
           }
         ],
         "optional": false
@@ -374,7 +387,8 @@
                         "type": "Literal",
                         "start": 902,
                         "end": 906,
-                        "value": 1919
+                        "value": 1919,
+                        "raw": "1919"
                       },
                       "kind": "init"
                     },
@@ -395,7 +409,8 @@
                         "type": "Literal",
                         "start": 915,
                         "end": 916,
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       "kind": "init"
                     },
@@ -416,7 +431,8 @@
                         "type": "Literal",
                         "start": 923,
                         "end": 925,
-                        "value": 31
+                        "value": 31,
+                        "raw": "31"
                       },
                       "kind": "init"
                     },
@@ -437,7 +453,8 @@
                         "type": "Literal",
                         "start": 937,
                         "end": 954,
-                        "value": "America/Toronto"
+                        "value": "America/Toronto",
+                        "raw": "\"America/Toronto\""
                       },
                       "kind": "init"
                     }
@@ -459,7 +476,8 @@
             "type": "Literal",
             "start": 978,
             "end": 1060,
-            "value": "start of day magic doesn't happen with property bag, missing properties are zero"
+            "value": "start of day magic doesn't happen with property bag, missing properties are zero",
+            "raw": "\"start of day magic doesn't happen with property bag, missing properties are zero\""
           }
         ],
         "optional": false

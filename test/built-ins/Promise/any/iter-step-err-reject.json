@@ -228,7 +228,8 @@
                                     "type": "Literal",
                                     "start": 1068,
                                     "end": 1114,
-                                    "value": "The `value` property should not be accessed."
+                                    "value": "The `value` property should not be accessed.",
+                                    "raw": "'The `value` property should not be accessed.'"
                                   }
                                 ],
                                 "optional": false
@@ -470,7 +471,8 @@
                             "type": "Literal",
                             "start": 1310,
                             "end": 1343,
-                            "value": "The promise should be rejected."
+                            "value": "The promise should be rejected.",
+                            "raw": "'The promise should be rejected.'"
                           }
                         ],
                         "optional": false

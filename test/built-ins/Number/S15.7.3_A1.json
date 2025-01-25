@@ -46,7 +46,8 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 320,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "\"prototype\""
               }
             ],
             "optional": false
@@ -55,7 +56,8 @@
             "type": "Literal",
             "start": 323,
             "end": 376,
-            "value": "Number.hasOwnProperty(\"prototype\") must return true"
+            "value": "Number.hasOwnProperty(\"prototype\") must return true",
+            "raw": "'Number.hasOwnProperty(\"prototype\") must return true'"
           }
         ],
         "optional": false

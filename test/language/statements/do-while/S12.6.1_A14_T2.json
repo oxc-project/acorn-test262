@@ -31,7 +31,8 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 445,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ],
@@ -76,7 +77,8 @@
                   "type": "Literal",
                   "start": 489,
                   "end": 490,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ]
@@ -105,7 +107,8 @@
           "type": "Literal",
           "start": 687,
           "end": 688,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "consequent": {
@@ -132,7 +135,8 @@
                   "type": "Literal",
                   "start": 716,
                   "end": 781,
-                  "value": "#2: function expession inside of do-while expression is allowed"
+                  "value": "#2: function expession inside of do-while expression is allowed",
+                  "raw": "'#2: function expession inside of do-while expression is allowed'"
                 }
               ]
             }

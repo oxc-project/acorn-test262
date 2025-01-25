@@ -23,6 +23,7 @@
             "start": 2171,
             "end": 2185,
             "value": null,
+            "raw": "/(?-i:[ab])c/i",
             "regex": {
               "pattern": "(?-i:[ab])c",
               "flags": "i"
@@ -75,7 +76,8 @@
                 "type": "Literal",
                 "start": 2203,
                 "end": 2207,
-                "value": "ac"
+                "value": "ac",
+                "raw": "\"ac\""
               }
             ],
             "optional": false
@@ -84,7 +86,8 @@
             "type": "Literal",
             "start": 2210,
             "end": 2231,
-            "value": "[ab] should match a"
+            "value": "[ab] should match a",
+            "raw": "\"[ab] should match a\""
           }
         ],
         "optional": false
@@ -139,7 +142,8 @@
                   "type": "Literal",
                   "start": 2251,
                   "end": 2255,
-                  "value": "Ac"
+                  "value": "Ac",
+                  "raw": "\"Ac\""
                 }
               ],
               "optional": false
@@ -149,7 +153,8 @@
             "type": "Literal",
             "start": 2258,
             "end": 2283,
-            "value": "[ab] should not match A"
+            "value": "[ab] should not match A",
+            "raw": "\"[ab] should not match A\""
           }
         ],
         "optional": false
@@ -198,7 +203,8 @@
                 "type": "Literal",
                 "start": 2302,
                 "end": 2306,
-                "value": "bc"
+                "value": "bc",
+                "raw": "\"bc\""
               }
             ],
             "optional": false
@@ -207,7 +213,8 @@
             "type": "Literal",
             "start": 2309,
             "end": 2330,
-            "value": "[ab] should match b"
+            "value": "[ab] should match b",
+            "raw": "\"[ab] should match b\""
           }
         ],
         "optional": false
@@ -262,7 +269,8 @@
                   "type": "Literal",
                   "start": 2350,
                   "end": 2354,
-                  "value": "Bc"
+                  "value": "Bc",
+                  "raw": "\"Bc\""
                 }
               ],
               "optional": false
@@ -272,7 +280,8 @@
             "type": "Literal",
             "start": 2357,
             "end": 2382,
-            "value": "[ab] should not match B"
+            "value": "[ab] should not match B",
+            "raw": "\"[ab] should not match B\""
           }
         ],
         "optional": false
@@ -298,6 +307,7 @@
             "start": 2396,
             "end": 2411,
             "value": null,
+            "raw": "/(?-i:[^ab])c/i",
             "regex": {
               "pattern": "(?-i:[^ab])c",
               "flags": "i"
@@ -356,7 +366,8 @@
                   "type": "Literal",
                   "start": 2430,
                   "end": 2434,
-                  "value": "ac"
+                  "value": "ac",
+                  "raw": "\"ac\""
                 }
               ],
               "optional": false
@@ -366,7 +377,8 @@
             "type": "Literal",
             "start": 2437,
             "end": 2463,
-            "value": "[^ab] should not match a"
+            "value": "[^ab] should not match a",
+            "raw": "\"[^ab] should not match a\""
           }
         ],
         "optional": false
@@ -415,7 +427,8 @@
                 "type": "Literal",
                 "start": 2482,
                 "end": 2486,
-                "value": "Ac"
+                "value": "Ac",
+                "raw": "\"Ac\""
               }
             ],
             "optional": false
@@ -424,7 +437,8 @@
             "type": "Literal",
             "start": 2489,
             "end": 2511,
-            "value": "[^ab] should match A"
+            "value": "[^ab] should match A",
+            "raw": "\"[^ab] should match A\""
           }
         ],
         "optional": false
@@ -479,7 +493,8 @@
                   "type": "Literal",
                   "start": 2531,
                   "end": 2535,
-                  "value": "bc"
+                  "value": "bc",
+                  "raw": "\"bc\""
                 }
               ],
               "optional": false
@@ -489,7 +504,8 @@
             "type": "Literal",
             "start": 2538,
             "end": 2564,
-            "value": "[^ab] should not match b"
+            "value": "[^ab] should not match b",
+            "raw": "\"[^ab] should not match b\""
           }
         ],
         "optional": false
@@ -538,7 +554,8 @@
                 "type": "Literal",
                 "start": 2583,
                 "end": 2587,
-                "value": "Bc"
+                "value": "Bc",
+                "raw": "\"Bc\""
               }
             ],
             "optional": false
@@ -547,7 +564,8 @@
             "type": "Literal",
             "start": 2590,
             "end": 2612,
-            "value": "[^ab] should match B"
+            "value": "[^ab] should match B",
+            "raw": "\"[^ab] should match B\""
           }
         ],
         "optional": false

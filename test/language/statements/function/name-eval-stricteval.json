@@ -70,7 +70,8 @@
                         "type": "Literal",
                         "start": 383,
                         "end": 419,
-                        "value": "'use strict'; function eval() { };"
+                        "value": "'use strict'; function eval() { };",
+                        "raw": "\"'use strict'; function eval() { };\""
                       }
                     ],
                     "optional": false

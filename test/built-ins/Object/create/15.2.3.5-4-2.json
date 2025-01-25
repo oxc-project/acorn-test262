@@ -103,7 +103,8 @@
             "type": "Literal",
             "start": 303,
             "end": 340,
-            "value": "(newObj instanceof Object) !== true"
+            "value": "(newObj instanceof Object) !== true",
+            "raw": "'(newObj instanceof Object) !== true'"
           }
         ],
         "optional": false

@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 299,
                         "end": 304,
-                        "value": false
+                        "value": false,
+                        "raw": "false"
                       }
                     }
                   ],
@@ -200,7 +201,8 @@
                               "type": "Literal",
                               "start": 425,
                               "end": 429,
-                              "value": true
+                              "value": true,
+                              "raw": "true"
                             }
                           }
                         },
@@ -269,7 +271,8 @@
                                     "type": "Literal",
                                     "start": 502,
                                     "end": 536,
-                                    "value": "Expected a Test262Error, but a '"
+                                    "value": "Expected a Test262Error, but a '",
+                                    "raw": "\"Expected a Test262Error, but a '\""
                                   },
                                   "operator": "+",
                                   "right": {
@@ -310,7 +313,8 @@
                                   "type": "Literal",
                                   "start": 578,
                                   "end": 593,
-                                  "value": "' was thrown."
+                                  "value": "' was thrown.",
+                                  "raw": "\"' was thrown.\""
                                 }
                               }
                             ],
@@ -350,7 +354,8 @@
                               "type": "Literal",
                               "start": 647,
                               "end": 713,
-                              "value": "assert.throwsAsync did not reject when invoked without arguments"
+                              "value": "assert.throwsAsync did not reject when invoked without arguments",
+                              "raw": "\"assert.throwsAsync did not reject when invoked without arguments\""
                             }
                           ],
                           "optional": false

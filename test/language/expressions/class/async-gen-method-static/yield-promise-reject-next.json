@@ -53,7 +53,8 @@
             "type": "Literal",
             "start": 749,
             "end": 750,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -131,7 +132,8 @@
                               "type": "Literal",
                               "start": 808,
                               "end": 809,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         },
@@ -192,7 +194,8 @@
                               "type": "Literal",
                               "start": 854,
                               "end": 867,
-                              "value": "unreachable"
+                              "value": "unreachable",
+                              "raw": "\"unreachable\""
                             }
                           }
                         }
@@ -366,7 +369,8 @@
                             "type": "Literal",
                             "start": 960,
                             "end": 991,
-                            "value": "Promise incorrectly resolved."
+                            "value": "Promise incorrectly resolved.",
+                            "raw": "\"Promise incorrectly resolved.\""
                           }
                         ]
                       }
@@ -597,13 +601,15 @@
                                             "type": "Literal",
                                             "start": 1183,
                                             "end": 1187,
-                                            "value": true
+                                            "value": true,
+                                            "raw": "true"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1189,
                                             "end": 1233,
-                                            "value": "The value of IteratorResult.done is `true`"
+                                            "value": "The value of IteratorResult.done is `true`",
+                                            "raw": "\"The value of IteratorResult.done is `true`\""
                                           }
                                         ],
                                         "optional": false
@@ -653,7 +659,8 @@
                                             "type": "Literal",
                                             "start": 1275,
                                             "end": 1325,
-                                            "value": "The value of IteratorResult.value is `undefined`"
+                                            "value": "The value of IteratorResult.value is `undefined`",
+                                            "raw": "\"The value of IteratorResult.value is `undefined`\""
                                           }
                                         ],
                                         "optional": false
@@ -755,7 +762,8 @@
             "type": "Literal",
             "start": 1399,
             "end": 1400,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false

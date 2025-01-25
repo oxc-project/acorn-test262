@@ -64,7 +64,8 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 493,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -103,7 +104,8 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 528,
-                "value": "a description"
+                "value": "a description",
+                "raw": "'a description'"
               }
             ],
             "optional": false
@@ -150,7 +152,8 @@
             "type": "Literal",
             "start": 545,
             "end": 546,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -194,7 +197,8 @@
             "type": "Literal",
             "start": 562,
             "end": 563,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -251,7 +255,8 @@
             "type": "Literal",
             "start": 594,
             "end": 595,
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ],
         "optional": false
@@ -309,7 +314,8 @@
             "type": "Literal",
             "start": 620,
             "end": 643,
-            "value": "Regular symbol as key"
+            "value": "Regular symbol as key",
+            "raw": "'Regular symbol as key'"
           }
         ],
         "optional": false
@@ -380,13 +386,15 @@
             "type": "Literal",
             "start": 677,
             "end": 678,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 742,
-            "value": "Symbols with the same description don't overwrite each other"
+            "value": "Symbols with the same description don't overwrite each other",
+            "raw": "\"Symbols with the same description don't overwrite each other\""
           }
         ],
         "optional": false
@@ -457,7 +465,8 @@
             "type": "Literal",
             "start": 781,
             "end": 807,
-            "value": "Well-known symbol as key"
+            "value": "Well-known symbol as key",
+            "raw": "'Well-known symbol as key'"
           }
         ],
         "optional": false

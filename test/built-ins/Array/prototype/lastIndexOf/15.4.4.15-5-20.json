@@ -73,13 +73,15 @@
                     "type": "Literal",
                     "start": 357,
                     "end": 358,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 360,
                     "end": 364,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Identifier",
@@ -91,13 +93,15 @@
                     "type": "Literal",
                     "start": 377,
                     "end": 378,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   },
                   {
                     "type": "Literal",
                     "start": 380,
                     "end": 385,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               },
@@ -121,7 +125,8 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 419,
-                "value": "0002.10"
+                "value": "0002.10",
+                "raw": "\"0002.10\""
               }
             ],
             "optional": false
@@ -130,13 +135,15 @@
             "type": "Literal",
             "start": 422,
             "end": 423,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 491,
-            "value": "[0, true, targetObj, 3, false].lastIndexOf(targetObj, \"0002.10\")"
+            "value": "[0, true, targetObj, 3, false].lastIndexOf(targetObj, \"0002.10\")",
+            "raw": "'[0, true, targetObj, 3, false].lastIndexOf(targetObj, \"0002.10\")'"
           }
         ],
         "optional": false
@@ -187,19 +194,22 @@
                     "type": "Literal",
                     "start": 512,
                     "end": 513,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 515,
                     "end": 519,
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 522,
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   },
                   {
                     "type": "Identifier",
@@ -211,7 +221,8 @@
                     "type": "Literal",
                     "start": 535,
                     "end": 540,
-                    "value": false
+                    "value": false,
+                    "raw": "false"
                   }
                 ]
               },
@@ -235,7 +246,8 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 574,
-                "value": "0002.10"
+                "value": "0002.10",
+                "raw": "\"0002.10\""
               }
             ],
             "optional": false
@@ -250,14 +262,16 @@
               "type": "Literal",
               "start": 578,
               "end": 579,
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 647,
-            "value": "[0, true, 3, targetObj, false].lastIndexOf(targetObj, \"0002.10\")"
+            "value": "[0, true, 3, targetObj, false].lastIndexOf(targetObj, \"0002.10\")",
+            "raw": "'[0, true, 3, targetObj, false].lastIndexOf(targetObj, \"0002.10\")'"
           }
         ],
         "optional": false

@@ -1,78 +1,79 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1277,
+  "end": 1276,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 620,
-      "end": 704,
+      "start": 619,
+      "end": 703,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 628,
-          "end": 648,
+          "start": 627,
+          "end": 647,
           "imported": {
             "type": "Identifier",
-            "start": 628,
-            "end": 632,
+            "start": 627,
+            "end": 631,
             "name": "meta"
           },
           "local": {
             "type": "Identifier",
-            "start": 636,
-            "end": 648,
+            "start": 635,
+            "end": 647,
             "name": "fixture_meta"
           }
         },
         {
           "type": "ImportSpecifier",
-          "start": 650,
-          "end": 657,
+          "start": 649,
+          "end": 656,
           "imported": {
             "type": "Identifier",
-            "start": 650,
-            "end": 657,
+            "start": 649,
+            "end": 656,
             "name": "getMeta"
           },
           "local": {
             "type": "Identifier",
-            "start": 650,
-            "end": 657,
+            "start": 649,
+            "end": 656,
             "name": "getMeta"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 664,
-        "end": 703,
-        "value": "./distinct-for-each-module_FIXTURE.js"
+        "start": 663,
+        "end": 702,
+        "value": "./distinct-for-each-module_FIXTURE.js",
+        "raw": "\"./distinct-for-each-module_FIXTURE.js\""
       },
       "attributes": []
     },
     {
       "type": "ExpressionStatement",
-      "start": 764,
-      "end": 882,
+      "start": 763,
+      "end": 881,
       "expression": {
         "type": "CallExpression",
-        "start": 764,
-        "end": 881,
+        "start": 763,
+        "end": 880,
         "callee": {
           "type": "MemberExpression",
-          "start": 764,
-          "end": 783,
+          "start": 763,
+          "end": 782,
           "object": {
             "type": "Identifier",
-            "start": 764,
-            "end": 770,
+            "start": 763,
+            "end": 769,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 771,
-            "end": 783,
+            "start": 770,
+            "end": 782,
             "name": "notSameValue"
           },
           "computed": false,
@@ -81,32 +82,33 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 784,
-            "end": 795,
+            "start": 783,
+            "end": 794,
             "meta": {
               "type": "Identifier",
-              "start": 784,
-              "end": 790,
+              "start": 783,
+              "end": 789,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 791,
-              "end": 795,
+              "start": 790,
+              "end": 794,
               "name": "meta"
             }
           },
           {
             "type": "Identifier",
-            "start": 797,
-            "end": 809,
+            "start": 796,
+            "end": 808,
             "name": "fixture_meta"
           },
           {
             "type": "Literal",
-            "start": 831,
-            "end": 880,
-            "value": "foreign import.meta accessed via import binding"
+            "start": 830,
+            "end": 879,
+            "value": "foreign import.meta accessed via import binding",
+            "raw": "\"foreign import.meta accessed via import binding\""
           }
         ],
         "optional": false
@@ -114,26 +116,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 883,
-      "end": 997,
+      "start": 882,
+      "end": 996,
       "expression": {
         "type": "CallExpression",
-        "start": 883,
-        "end": 996,
+        "start": 882,
+        "end": 995,
         "callee": {
           "type": "MemberExpression",
-          "start": 883,
-          "end": 902,
+          "start": 882,
+          "end": 901,
           "object": {
             "type": "Identifier",
-            "start": 883,
-            "end": 889,
+            "start": 882,
+            "end": 888,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 890,
-            "end": 902,
+            "start": 889,
+            "end": 901,
             "name": "notSameValue"
           },
           "computed": false,
@@ -142,29 +144,29 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 903,
-            "end": 914,
+            "start": 902,
+            "end": 913,
             "meta": {
               "type": "Identifier",
-              "start": 903,
-              "end": 909,
+              "start": 902,
+              "end": 908,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 910,
-              "end": 914,
+              "start": 909,
+              "end": 913,
               "name": "meta"
             }
           },
           {
             "type": "CallExpression",
-            "start": 916,
-            "end": 925,
+            "start": 915,
+            "end": 924,
             "callee": {
               "type": "Identifier",
-              "start": 916,
-              "end": 923,
+              "start": 915,
+              "end": 922,
               "name": "getMeta"
             },
             "arguments": [],
@@ -172,9 +174,10 @@
           },
           {
             "type": "Literal",
-            "start": 947,
-            "end": 995,
-            "value": "foreign import.meta accessed via function call"
+            "start": 946,
+            "end": 994,
+            "value": "foreign import.meta accessed via function call",
+            "raw": "\"foreign import.meta accessed via function call\""
           }
         ],
         "optional": false
@@ -182,26 +185,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1132,
-      "end": 1276,
+      "start": 1131,
+      "end": 1275,
       "expression": {
         "type": "CallExpression",
-        "start": 1132,
-        "end": 1275,
+        "start": 1131,
+        "end": 1274,
         "callee": {
           "type": "MemberExpression",
-          "start": 1132,
-          "end": 1148,
+          "start": 1131,
+          "end": 1147,
           "object": {
             "type": "Identifier",
-            "start": 1132,
-            "end": 1138,
+            "start": 1131,
+            "end": 1137,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1139,
-            "end": 1148,
+            "start": 1138,
+            "end": 1147,
             "name": "sameValue"
           },
           "computed": false,
@@ -210,18 +213,18 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1149,
-            "end": 1161,
+            "start": 1148,
+            "end": 1160,
             "name": "fixture_meta"
           },
           {
             "type": "CallExpression",
-            "start": 1163,
-            "end": 1172,
+            "start": 1162,
+            "end": 1171,
             "callee": {
               "type": "Identifier",
-              "start": 1163,
-              "end": 1170,
+              "start": 1162,
+              "end": 1169,
               "name": "getMeta"
             },
             "arguments": [],
@@ -229,9 +232,10 @@
           },
           {
             "type": "Literal",
-            "start": 1191,
-            "end": 1274,
-            "value": "import.meta accessed via import binding is identical to the one accessed via call"
+            "start": 1190,
+            "end": 1273,
+            "value": "import.meta accessed via import binding is identical to the one accessed via call",
+            "raw": "\"import.meta accessed via import binding is identical to the one accessed via call\""
           }
         ],
         "optional": false

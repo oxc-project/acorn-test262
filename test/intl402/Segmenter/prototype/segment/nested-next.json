@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1342,
+  "end": 1340,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1023,
-      "end": 1062,
+      "start": 1021,
+      "end": 1060,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1029,
-          "end": 1061,
+          "start": 1027,
+          "end": 1059,
           "id": {
             "type": "Identifier",
-            "start": 1029,
-            "end": 1038,
+            "start": 1027,
+            "end": 1036,
             "name": "segmenter"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1041,
-            "end": 1061,
+            "start": 1039,
+            "end": 1059,
             "callee": {
               "type": "MemberExpression",
-              "start": 1045,
-              "end": 1059,
+              "start": 1043,
+              "end": 1057,
               "object": {
                 "type": "Identifier",
-                "start": 1045,
-                "end": 1049,
+                "start": 1043,
+                "end": 1047,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1050,
-                "end": 1059,
+                "start": 1048,
+                "end": 1057,
                 "name": "Segmenter"
               },
               "computed": false,
@@ -49,24 +49,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1063,
-      "end": 1084,
+      "start": 1061,
+      "end": 1082,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1069,
-          "end": 1083,
+          "start": 1067,
+          "end": 1081,
           "id": {
             "type": "Identifier",
-            "start": 1069,
-            "end": 1074,
+            "start": 1067,
+            "end": 1072,
             "name": "input"
           },
           "init": {
             "type": "Literal",
-            "start": 1077,
-            "end": 1083,
-            "value": "ABCD"
+            "start": 1075,
+            "end": 1081,
+            "value": "ABCD",
+            "raw": "\"ABCD\""
           }
         }
       ],
@@ -74,37 +75,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1085,
-      "end": 1127,
+      "start": 1083,
+      "end": 1125,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1091,
-          "end": 1126,
+          "start": 1089,
+          "end": 1124,
           "id": {
             "type": "Identifier",
-            "start": 1091,
-            "end": 1099,
+            "start": 1089,
+            "end": 1097,
             "name": "segments"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1102,
-            "end": 1126,
+            "start": 1100,
+            "end": 1124,
             "callee": {
               "type": "MemberExpression",
-              "start": 1102,
-              "end": 1119,
+              "start": 1100,
+              "end": 1117,
               "object": {
                 "type": "Identifier",
-                "start": 1102,
-                "end": 1111,
+                "start": 1100,
+                "end": 1109,
                 "name": "segmenter"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1112,
-                "end": 1119,
+                "start": 1110,
+                "end": 1117,
                 "name": "segment"
               },
               "computed": false,
@@ -113,8 +114,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1120,
-                "end": 1125,
+                "start": 1118,
+                "end": 1123,
                 "name": "input"
               }
             ],
@@ -126,24 +127,25 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1128,
-      "end": 1144,
+      "start": 1126,
+      "end": 1142,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1132,
-          "end": 1143,
+          "start": 1130,
+          "end": 1141,
           "id": {
             "type": "Identifier",
-            "start": 1132,
-            "end": 1138,
+            "start": 1130,
+            "end": 1136,
             "name": "result"
           },
           "init": {
             "type": "Literal",
-            "start": 1141,
-            "end": 1143,
-            "value": ""
+            "start": 1139,
+            "end": 1141,
+            "value": "",
+            "raw": "\"\""
           }
         }
       ],
@@ -151,22 +153,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1145,
-      "end": 1275,
+      "start": 1143,
+      "end": 1273,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1150,
-        "end": 1156,
+        "start": 1148,
+        "end": 1154,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1154,
-            "end": 1156,
+            "start": 1152,
+            "end": 1154,
             "id": {
               "type": "Identifier",
-              "start": 1154,
-              "end": 1156,
+              "start": 1152,
+              "end": 1154,
               "name": "v1"
             },
             "init": null
@@ -176,33 +178,33 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1160,
-        "end": 1168,
+        "start": 1158,
+        "end": 1166,
         "name": "segments"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1170,
-        "end": 1275,
+        "start": 1168,
+        "end": 1273,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 1174,
-            "end": 1256,
+            "start": 1172,
+            "end": 1254,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 1179,
-              "end": 1185,
+              "start": 1177,
+              "end": 1183,
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1183,
-                  "end": 1185,
+                  "start": 1181,
+                  "end": 1183,
                   "id": {
                     "type": "Identifier",
-                    "start": 1183,
-                    "end": 1185,
+                    "start": 1181,
+                    "end": 1183,
                     "name": "v2"
                   },
                   "init": null
@@ -212,44 +214,44 @@
             },
             "right": {
               "type": "Identifier",
-              "start": 1189,
-              "end": 1197,
+              "start": 1187,
+              "end": 1195,
               "name": "segments"
             },
             "body": {
               "type": "BlockStatement",
-              "start": 1199,
-              "end": 1256,
+              "start": 1197,
+              "end": 1254,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1205,
-                  "end": 1226,
+                  "start": 1203,
+                  "end": 1224,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1205,
-                    "end": 1225,
+                    "start": 1203,
+                    "end": 1223,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
-                      "start": 1205,
-                      "end": 1211,
+                      "start": 1203,
+                      "end": 1209,
                       "name": "result"
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1215,
-                      "end": 1225,
+                      "start": 1213,
+                      "end": 1223,
                       "object": {
                         "type": "Identifier",
-                        "start": 1215,
-                        "end": 1217,
+                        "start": 1213,
+                        "end": 1215,
                         "name": "v1"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1218,
-                        "end": 1225,
+                        "start": 1216,
+                        "end": 1223,
                         "name": "segment"
                       },
                       "computed": false,
@@ -259,33 +261,33 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1231,
-                  "end": 1252,
+                  "start": 1229,
+                  "end": 1250,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1231,
-                    "end": 1251,
+                    "start": 1229,
+                    "end": 1249,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
-                      "start": 1231,
-                      "end": 1237,
+                      "start": 1229,
+                      "end": 1235,
                       "name": "result"
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1241,
-                      "end": 1251,
+                      "start": 1239,
+                      "end": 1249,
                       "object": {
                         "type": "Identifier",
-                        "start": 1241,
-                        "end": 1243,
+                        "start": 1239,
+                        "end": 1241,
                         "name": "v2"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1244,
-                        "end": 1251,
+                        "start": 1242,
+                        "end": 1249,
                         "name": "segment"
                       },
                       "computed": false,
@@ -298,24 +300,25 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1259,
-            "end": 1273,
+            "start": 1257,
+            "end": 1271,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1259,
-              "end": 1272,
+              "start": 1257,
+              "end": 1270,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
-                "start": 1259,
-                "end": 1265,
+                "start": 1257,
+                "end": 1263,
                 "name": "result"
               },
               "right": {
                 "type": "Literal",
-                "start": 1269,
-                "end": 1272,
-                "value": ":"
+                "start": 1267,
+                "end": 1270,
+                "value": ":",
+                "raw": "\":\""
               }
             }
           }
@@ -324,26 +327,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1276,
-      "end": 1341,
+      "start": 1274,
+      "end": 1339,
       "expression": {
         "type": "CallExpression",
-        "start": 1276,
-        "end": 1340,
+        "start": 1274,
+        "end": 1338,
         "callee": {
           "type": "MemberExpression",
-          "start": 1276,
-          "end": 1292,
+          "start": 1274,
+          "end": 1290,
           "object": {
             "type": "Identifier",
-            "start": 1276,
-            "end": 1282,
+            "start": 1274,
+            "end": 1280,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1283,
-            "end": 1292,
+            "start": 1281,
+            "end": 1290,
             "name": "sameValue"
           },
           "computed": false,
@@ -352,14 +355,15 @@
         "arguments": [
           {
             "type": "Literal",
-            "start": 1293,
-            "end": 1331,
-            "value": "AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:"
+            "start": 1291,
+            "end": 1329,
+            "value": "AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:",
+            "raw": "\"AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:\""
           },
           {
             "type": "Identifier",
-            "start": 1333,
-            "end": 1339,
+            "start": 1331,
+            "end": 1337,
             "name": "result"
           }
         ],

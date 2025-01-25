@@ -70,7 +70,8 @@
                 "type": "Literal",
                 "start": 264,
                 "end": 275,
-                "value": "prototype"
+                "value": "prototype",
+                "raw": "'prototype'"
               }
             ],
             "optional": false
@@ -130,13 +131,15 @@
             "type": "Literal",
             "start": 315,
             "end": 320,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 368,
-            "value": "The value of `descr.configurable` is `false`"
+            "value": "The value of `descr.configurable` is `false`",
+            "raw": "\"The value of `descr.configurable` is `false`\""
           }
         ],
         "optional": false
@@ -193,13 +196,15 @@
             "type": "Literal",
             "start": 406,
             "end": 411,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 457,
-            "value": "The value of `descr.enumerable` is `false`"
+            "value": "The value of `descr.enumerable` is `false`",
+            "raw": "\"The value of `descr.enumerable` is `false`\""
           }
         ],
         "optional": false
@@ -256,13 +261,15 @@
             "type": "Literal",
             "start": 493,
             "end": 498,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 542,
-            "value": "The value of `descr.writable` is `false`"
+            "value": "The value of `descr.writable` is `false`",
+            "raw": "\"The value of `descr.writable` is `false`\""
           }
         ],
         "optional": false

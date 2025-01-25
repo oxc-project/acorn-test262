@@ -201,7 +201,8 @@
                             "type": "Literal",
                             "start": 1006,
                             "end": 1007,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ],
                         "optional": false
@@ -216,14 +217,16 @@
                           "type": "Literal",
                           "start": 1011,
                           "end": 1012,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 1014,
                         "end": 1026,
-                        "value": "returns -1"
+                        "value": "returns -1",
+                        "raw": "\"returns -1\""
                       }
                     ],
                     "optional": false
@@ -285,7 +288,8 @@
                             "type": "Literal",
                             "start": 1072,
                             "end": 1073,
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           },
                           {
                             "type": "Identifier",
@@ -306,14 +310,16 @@
                           "type": "Literal",
                           "start": 1088,
                           "end": 1089,
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 1095,
                         "end": 1142,
-                        "value": "length is checked before ToInteger(fromIndex)"
+                        "value": "length is checked before ToInteger(fromIndex)",
+                        "raw": "\"length is checked before ToInteger(fromIndex)\""
                       }
                     ],
                     "optional": false

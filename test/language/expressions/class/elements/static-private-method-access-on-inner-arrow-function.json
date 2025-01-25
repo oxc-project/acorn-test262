@@ -64,7 +64,8 @@
                             "type": "Literal",
                             "start": 938,
                             "end": 940,
-                            "value": 42
+                            "value": 42,
+                            "raw": "42"
                           }
                         }
                       ]
@@ -251,7 +252,8 @@
             "type": "Literal",
             "start": 1085,
             "end": 1087,
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         ],
         "optional": false
@@ -363,7 +365,8 @@
             "type": "Literal",
             "start": 1147,
             "end": 1219,
-            "value": "Accessed static private method from an object which did not contain it"
+            "value": "Accessed static private method from an object which did not contain it",
+            "raw": "'Accessed static private method from an object which did not contain it'"
           }
         ],
         "optional": false

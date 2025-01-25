@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 259,
             "end": 289,
-            "value": "Empty arrays are equivalent."
+            "value": "Empty arrays are equivalent.",
+            "raw": "'Empty arrays are equivalent.'"
           }
         ],
         "optional": false

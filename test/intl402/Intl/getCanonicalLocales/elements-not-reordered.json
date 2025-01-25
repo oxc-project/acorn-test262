@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 831,
+  "end": 830,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 631,
-      "end": 693,
+      "start": 630,
+      "end": 692,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 635,
-          "end": 692,
+          "start": 634,
+          "end": 691,
           "id": {
             "type": "Identifier",
-            "start": 635,
-            "end": 651,
+            "start": 634,
+            "end": 650,
             "name": "canonicalLocales"
           },
           "init": {
             "type": "CallExpression",
-            "start": 654,
-            "end": 692,
+            "start": 653,
+            "end": 691,
             "callee": {
               "type": "MemberExpression",
-              "start": 654,
-              "end": 678,
+              "start": 653,
+              "end": 677,
               "object": {
                 "type": "Identifier",
-                "start": 654,
-                "end": 658,
+                "start": 653,
+                "end": 657,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 659,
-                "end": 678,
+                "start": 658,
+                "end": 677,
                 "name": "getCanonicalLocales"
               },
               "computed": false,
@@ -44,20 +44,22 @@
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 679,
-                "end": 691,
+                "start": 678,
+                "end": 690,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 680,
-                    "end": 684,
-                    "value": "zu"
+                    "start": 679,
+                    "end": 683,
+                    "value": "zu",
+                    "raw": "\"zu\""
                   },
                   {
                     "type": "Literal",
-                    "start": 686,
-                    "end": 690,
-                    "value": "af"
+                    "start": 685,
+                    "end": 689,
+                    "value": "af",
+                    "raw": "\"af\""
                   }
                 ]
               }
@@ -70,26 +72,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 695,
-      "end": 740,
+      "start": 694,
+      "end": 739,
       "expression": {
         "type": "CallExpression",
-        "start": 695,
-        "end": 739,
+        "start": 694,
+        "end": 738,
         "callee": {
           "type": "MemberExpression",
-          "start": 695,
-          "end": 711,
+          "start": 694,
+          "end": 710,
           "object": {
             "type": "Identifier",
-            "start": 695,
-            "end": 701,
+            "start": 694,
+            "end": 700,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 702,
-            "end": 711,
+            "start": 701,
+            "end": 710,
             "name": "sameValue"
           },
           "computed": false,
@@ -98,18 +100,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 712,
-            "end": 735,
+            "start": 711,
+            "end": 734,
             "object": {
               "type": "Identifier",
-              "start": 712,
-              "end": 728,
+              "start": 711,
+              "end": 727,
               "name": "canonicalLocales"
             },
             "property": {
               "type": "Identifier",
-              "start": 729,
-              "end": 735,
+              "start": 728,
+              "end": 734,
               "name": "length"
             },
             "computed": false,
@@ -117,9 +119,10 @@
           },
           {
             "type": "Literal",
-            "start": 737,
-            "end": 738,
-            "value": 2
+            "start": 736,
+            "end": 737,
+            "value": 2,
+            "raw": "2"
           }
         ],
         "optional": false
@@ -127,26 +130,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 785,
+      "start": 740,
+      "end": 784,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 784,
+        "start": 740,
+        "end": 783,
         "callee": {
           "type": "MemberExpression",
-          "start": 741,
-          "end": 757,
+          "start": 740,
+          "end": 756,
           "object": {
             "type": "Identifier",
-            "start": 741,
-            "end": 747,
+            "start": 740,
+            "end": 746,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 748,
-            "end": 757,
+            "start": 747,
+            "end": 756,
             "name": "sameValue"
           },
           "computed": false,
@@ -155,28 +158,30 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 758,
-            "end": 777,
+            "start": 757,
+            "end": 776,
             "object": {
               "type": "Identifier",
-              "start": 758,
-              "end": 774,
+              "start": 757,
+              "end": 773,
               "name": "canonicalLocales"
             },
             "property": {
               "type": "Literal",
-              "start": 775,
-              "end": 776,
-              "value": 0
+              "start": 774,
+              "end": 775,
+              "value": 0,
+              "raw": "0"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 779,
-            "end": 783,
-            "value": "zu"
+            "start": 778,
+            "end": 782,
+            "value": "zu",
+            "raw": "\"zu\""
           }
         ],
         "optional": false
@@ -184,26 +189,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 786,
-      "end": 830,
+      "start": 785,
+      "end": 829,
       "expression": {
         "type": "CallExpression",
-        "start": 786,
-        "end": 829,
+        "start": 785,
+        "end": 828,
         "callee": {
           "type": "MemberExpression",
-          "start": 786,
-          "end": 802,
+          "start": 785,
+          "end": 801,
           "object": {
             "type": "Identifier",
-            "start": 786,
-            "end": 792,
+            "start": 785,
+            "end": 791,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 793,
-            "end": 802,
+            "start": 792,
+            "end": 801,
             "name": "sameValue"
           },
           "computed": false,
@@ -212,28 +217,30 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 803,
-            "end": 822,
+            "start": 802,
+            "end": 821,
             "object": {
               "type": "Identifier",
-              "start": 803,
-              "end": 819,
+              "start": 802,
+              "end": 818,
               "name": "canonicalLocales"
             },
             "property": {
               "type": "Literal",
-              "start": 820,
-              "end": 821,
-              "value": 1
+              "start": 819,
+              "end": 820,
+              "value": 1,
+              "raw": "1"
             },
             "computed": true,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 824,
-            "end": 828,
-            "value": "af"
+            "start": 823,
+            "end": 827,
+            "value": "af",
+            "raw": "\"af\""
           }
         ],
         "optional": false

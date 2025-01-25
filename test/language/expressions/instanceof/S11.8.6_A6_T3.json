@@ -30,7 +30,8 @@
               "type": "Literal",
               "start": 391,
               "end": 392,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ]
@@ -87,7 +88,8 @@
                   "type": "Literal",
                   "start": 463,
                   "end": 534,
-                  "value": "#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false"
+                  "value": "#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false",
+                  "raw": "'#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false'"
                 }
               ]
             }
@@ -127,7 +129,8 @@
           "type": "Literal",
           "start": 586,
           "end": 590,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -154,7 +157,8 @@
                   "type": "Literal",
                   "start": 617,
                   "end": 688,
-                  "value": "#2 function MyFunct(){return 0}; MyFunct instanceof Function === true"
+                  "value": "#2 function MyFunct(){return 0}; MyFunct instanceof Function === true",
+                  "raw": "'#2 function MyFunct(){return 0}; MyFunct instanceof Function === true'"
                 }
               ]
             }
@@ -194,7 +198,8 @@
           "type": "Literal",
           "start": 738,
           "end": 742,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -221,7 +226,8 @@
                   "type": "Literal",
                   "start": 769,
                   "end": 838,
-                  "value": "#3 function MyFunct(){return 0}; MyFunct instanceof Object === true"
+                  "value": "#3 function MyFunct(){return 0}; MyFunct instanceof Object === true",
+                  "raw": "'#3 function MyFunct(){return 0}; MyFunct instanceof Object === true'"
                 }
               ]
             }

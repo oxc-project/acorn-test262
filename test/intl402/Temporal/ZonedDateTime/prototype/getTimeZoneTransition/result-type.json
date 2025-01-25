@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 357,
-                "value": "0n"
+                "value": "0n",
+                "raw": "0n"
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 380,
-                "value": "America/Los_Angeles"
+                "value": "America/Los_Angeles",
+                "raw": "\"America/Los_Angeles\""
               }
             ]
           }
@@ -83,7 +85,8 @@
               "type": "Literal",
               "start": 400,
               "end": 401,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -104,7 +107,8 @@
           "type": "Literal",
           "start": 411,
           "end": 412,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "update": {
@@ -168,7 +172,8 @@
                       "type": "Literal",
                       "start": 472,
                       "end": 478,
-                      "value": "next"
+                      "value": "next",
+                      "raw": "\"next\""
                     }
                   ],
                   "optional": false
@@ -227,7 +232,8 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 596,
-                  "value": "getTimeZoneTransition(next) returns Temporal.ZonedDateTime"
+                  "value": "getTimeZoneTransition(next) returns Temporal.ZonedDateTime",
+                  "raw": "\"getTimeZoneTransition(next) returns Temporal.ZonedDateTime\""
                 }
               ],
               "optional": false
@@ -292,7 +298,8 @@
                   "type": "Literal",
                   "start": 633,
                   "end": 688,
-                  "value": "getTimeZoneTransition(next) does not return its input"
+                  "value": "getTimeZoneTransition(next) does not return its input",
+                  "raw": "\"getTimeZoneTransition(next) does not return its input\""
                 }
               ],
               "optional": false
@@ -367,13 +374,15 @@
               "type": "Literal",
               "start": 747,
               "end": 773,
-              "value": "1000000000000000000n"
+              "value": "1000000000000000000n",
+              "raw": "1_000_000_000_000_000_000n"
             },
             {
               "type": "Literal",
               "start": 775,
               "end": 796,
-              "value": "America/Los_Angeles"
+              "value": "America/Los_Angeles",
+              "raw": "\"America/Los_Angeles\""
             }
           ]
         }
@@ -402,7 +411,8 @@
               "type": "Literal",
               "start": 816,
               "end": 817,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -423,7 +433,8 @@
           "type": "Literal",
           "start": 827,
           "end": 828,
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
       },
       "update": {
@@ -487,7 +498,8 @@
                       "type": "Literal",
                       "start": 888,
                       "end": 898,
-                      "value": "previous"
+                      "value": "previous",
+                      "raw": "\"previous\""
                     }
                   ],
                   "optional": false
@@ -546,7 +558,8 @@
                   "type": "Literal",
                   "start": 956,
                   "end": 1020,
-                  "value": "getTimeZoneTransition(previous) returns Temporal.ZonedDateTime"
+                  "value": "getTimeZoneTransition(previous) returns Temporal.ZonedDateTime",
+                  "raw": "\"getTimeZoneTransition(previous) returns Temporal.ZonedDateTime\""
                 }
               ],
               "optional": false
@@ -611,7 +624,8 @@
                   "type": "Literal",
                   "start": 1057,
                   "end": 1116,
-                  "value": "getTimeZoneTransition(previous) does not return its input"
+                  "value": "getTimeZoneTransition(previous) does not return its input",
+                  "raw": "\"getTimeZoneTransition(previous) does not return its input\""
                 }
               ],
               "optional": false

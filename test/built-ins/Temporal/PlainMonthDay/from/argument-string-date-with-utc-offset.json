@@ -27,67 +27,78 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 353,
-                "value": "05-02[Asia/Katmandu]"
+                "value": "05-02[Asia/Katmandu]",
+                "raw": "\"05-02[Asia/Katmandu]\""
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 380,
-                "value": "05-02[!Asia/Katmandu]"
+                "value": "05-02[!Asia/Katmandu]",
+                "raw": "\"05-02[!Asia/Katmandu]\""
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 405,
-                "value": "05-02[u-ca=iso8601]"
+                "value": "05-02[u-ca=iso8601]",
+                "raw": "\"05-02[u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 442,
-                "value": "05-02[Asia/Tokyo][u-ca=iso8601]"
+                "value": "05-02[Asia/Tokyo][u-ca=iso8601]",
+                "raw": "\"05-02[Asia/Tokyo][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 470,
-                "value": "--05-02[Asia/Katmandu]"
+                "value": "--05-02[Asia/Katmandu]",
+                "raw": "\"--05-02[Asia/Katmandu]\""
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 499,
-                "value": "--05-02[!Asia/Katmandu]"
+                "value": "--05-02[!Asia/Katmandu]",
+                "raw": "\"--05-02[!Asia/Katmandu]\""
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 526,
-                "value": "--05-02[u-ca=iso8601]"
+                "value": "--05-02[u-ca=iso8601]",
+                "raw": "\"--05-02[u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 530,
                 "end": 565,
-                "value": "--05-02[Asia/Tokyo][u-ca=iso8601]"
+                "value": "--05-02[Asia/Tokyo][u-ca=iso8601]",
+                "raw": "\"--05-02[Asia/Tokyo][u-ca=iso8601]\""
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 590,
-                "value": "2000-05-02T00+00:00"
+                "value": "2000-05-02T00+00:00",
+                "raw": "\"2000-05-02T00+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 594,
                 "end": 620,
-                "value": "2000-05-02T00+00:00[UTC]"
+                "value": "2000-05-02T00+00:00[UTC]",
+                "raw": "\"2000-05-02T00+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 663,
-                "value": "2000-05-02T00-02:30[America/St_Johns]"
+                "value": "2000-05-02T00-02:30[America/St_Johns]",
+                "raw": "\"2000-05-02T00-02:30[America/St_Johns]\""
               }
             ]
           }
@@ -234,13 +245,15 @@
                   "type": "Literal",
                   "start": 810,
                   "end": 815,
-                  "value": "M05"
+                  "value": "M05",
+                  "raw": "\"M05\""
                 },
                 {
                   "type": "Literal",
                   "start": 817,
                   "end": 818,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -308,97 +321,113 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 928,
-                "value": "09-15Z"
+                "value": "09-15Z",
+                "raw": "\"09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 932,
                 "end": 945,
-                "value": "09-15Z[UTC]"
+                "value": "09-15Z[UTC]",
+                "raw": "\"09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 949,
                 "end": 962,
-                "value": "09-15+01:00"
+                "value": "09-15+01:00",
+                "raw": "\"09-15+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 966,
                 "end": 994,
-                "value": "09-15+01:00[Europe/Vienna]"
+                "value": "09-15+01:00[Europe/Vienna]",
+                "raw": "\"09-15+01:00[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 998,
                 "end": 1008,
-                "value": "--09-15Z"
+                "value": "--09-15Z",
+                "raw": "\"--09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 1012,
                 "end": 1027,
-                "value": "--09-15Z[UTC]"
+                "value": "--09-15Z[UTC]",
+                "raw": "\"--09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1031,
                 "end": 1046,
-                "value": "--09-15+01:00"
+                "value": "--09-15+01:00",
+                "raw": "\"--09-15+01:00\""
               },
               {
                 "type": "Literal",
                 "start": 1050,
                 "end": 1080,
-                "value": "--09-15+01:00[Europe/Vienna]"
+                "value": "--09-15+01:00[Europe/Vienna]",
+                "raw": "\"--09-15+01:00[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 1084,
                 "end": 1097,
-                "value": "2022-09-15Z"
+                "value": "2022-09-15Z",
+                "raw": "\"2022-09-15Z\""
               },
               {
                 "type": "Literal",
                 "start": 1101,
                 "end": 1119,
-                "value": "2022-09-15Z[UTC]"
+                "value": "2022-09-15Z[UTC]",
+                "raw": "\"2022-09-15Z[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1123,
                 "end": 1151,
-                "value": "2022-09-15Z[Europe/Vienna]"
+                "value": "2022-09-15Z[Europe/Vienna]",
+                "raw": "\"2022-09-15Z[Europe/Vienna]\""
               },
               {
                 "type": "Literal",
                 "start": 1155,
                 "end": 1173,
-                "value": "2022-09-15+00:00"
+                "value": "2022-09-15+00:00",
+                "raw": "\"2022-09-15+00:00\""
               },
               {
                 "type": "Literal",
                 "start": 1177,
                 "end": 1200,
-                "value": "2022-09-15+00:00[UTC]"
+                "value": "2022-09-15+00:00[UTC]",
+                "raw": "\"2022-09-15+00:00[UTC]\""
               },
               {
                 "type": "Literal",
                 "start": 1204,
                 "end": 1222,
-                "value": "2022-09-15-02:30"
+                "value": "2022-09-15-02:30",
+                "raw": "\"2022-09-15-02:30\""
               },
               {
                 "type": "Literal",
                 "start": 1226,
                 "end": 1262,
-                "value": "2022-09-15-02:30[America/St_Johns]"
+                "value": "2022-09-15-02:30[America/St_Johns]",
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
               },
               {
                 "type": "Literal",
                 "start": 1266,
                 "end": 1287,
-                "value": "09-15[u-ca=chinese]"
+                "value": "09-15[u-ca=chinese]",
+                "raw": "\"09-15[u-ca=chinese]\""
               }
             ]
           }

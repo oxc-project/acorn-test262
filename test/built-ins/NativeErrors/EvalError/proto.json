@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 399,
+  "end": 398,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 398,
+      "start": 339,
+      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 397,
+        "start": 339,
+        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 356,
+          "start": 339,
+          "end": 355,
           "object": {
             "type": "Identifier",
-            "start": 340,
-            "end": 346,
+            "start": 339,
+            "end": 345,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 347,
-            "end": 356,
+            "start": 346,
+            "end": 355,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 357,
-            "end": 389,
+            "start": 356,
+            "end": 388,
             "callee": {
               "type": "MemberExpression",
-              "start": 357,
-              "end": 378,
+              "start": 356,
+              "end": 377,
               "object": {
                 "type": "Identifier",
-                "start": 357,
-                "end": 363,
+                "start": 356,
+                "end": 362,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 364,
-                "end": 378,
+                "start": 363,
+                "end": 377,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 379,
-                "end": 388,
+                "start": 378,
+                "end": 387,
                 "name": "EvalError"
               }
             ],
@@ -66,8 +66,8 @@
           },
           {
             "type": "Identifier",
-            "start": 391,
-            "end": 396,
+            "start": 390,
+            "end": 395,
             "name": "Error"
           }
         ],

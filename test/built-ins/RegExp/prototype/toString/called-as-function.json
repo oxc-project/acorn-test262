@@ -24,13 +24,15 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 553,
-                "value": "source"
+                "value": "source",
+                "raw": "\"source\""
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 562,
-                "value": "flags"
+                "value": "flags",
+                "raw": "\"flags\""
               }
             ]
           },
@@ -166,7 +168,8 @@
                                             "type": "Literal",
                                             "start": 694,
                                             "end": 727,
-                                            "value": " lookup should not be performed"
+                                            "value": " lookup should not be performed",
+                                            "raw": "\" lookup should not be performed\""
                                           }
                                         }
                                       ]

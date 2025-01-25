@@ -29,7 +29,8 @@
                 "type": "Literal",
                 "start": 270,
                 "end": 271,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "operator": "==",
@@ -43,7 +44,8 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 277,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           }
@@ -53,7 +55,8 @@
           "type": "Literal",
           "start": 283,
           "end": 287,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -80,7 +83,8 @@
                   "type": "Literal",
                   "start": 316,
                   "end": 341,
-                  "value": "#1: (+0 == -0) === true"
+                  "value": "#1: (+0 == -0) === true",
+                  "raw": "'#1: (+0 == -0) === true'"
                 }
               ]
             }
@@ -115,7 +119,8 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "operator": "==",
@@ -129,7 +134,8 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           }
@@ -139,7 +145,8 @@
           "type": "Literal",
           "start": 376,
           "end": 380,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -166,7 +173,8 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 434,
-                  "value": "#2: (-0 == +0) === true"
+                  "value": "#2: (-0 == +0) === true",
+                  "raw": "'#2: (-0 == +0) === true'"
                 }
               ]
             }

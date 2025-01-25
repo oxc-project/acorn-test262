@@ -151,7 +151,8 @@
             "type": "Literal",
             "start": 687,
             "end": 803,
-            "value": "async function /* a */ F /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }"
+            "value": "async function /* a */ F /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
+            "raw": "\"async function /* a */ F /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
           }
         ],
         "optional": false
@@ -182,7 +183,8 @@
             "type": "Literal",
             "start": 840,
             "end": 946,
-            "value": "async function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /* f */ { /* g */ ; /* h */ ; /* i */ }"
+            "value": "async function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /* f */ { /* g */ ; /* h */ ; /* i */ }",
+            "raw": "\"async function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /* f */ { /* g */ ; /* h */ ; /* i */ }\""
           }
         ],
         "optional": false

@@ -43,7 +43,8 @@
               "type": "Literal",
               "start": 291,
               "end": 292,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         },
@@ -52,7 +53,8 @@
           "type": "Literal",
           "start": 298,
           "end": 302,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -79,7 +81,8 @@
                   "type": "Literal",
                   "start": 331,
                   "end": 361,
-                  "value": "#1: (-Infinity < 0) === true"
+                  "value": "#1: (-Infinity < 0) === true",
+                  "raw": "'#1: (-Infinity < 0) === true'"
                 }
               ]
             }
@@ -128,7 +131,8 @@
               "type": "Literal",
               "start": 409,
               "end": 412,
-              "value": 1.1
+              "value": 1.1,
+              "raw": "1.1"
             }
           }
         },
@@ -137,7 +141,8 @@
           "type": "Literal",
           "start": 418,
           "end": 422,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -164,7 +169,8 @@
                   "type": "Literal",
                   "start": 451,
                   "end": 483,
-                  "value": "#2: (-Infinity < 1.1) === true"
+                  "value": "#2: (-Infinity < 1.1) === true",
+                  "raw": "'#2: (-Infinity < 1.1) === true'"
                 }
               ]
             }
@@ -219,7 +225,8 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 535,
-                "value": 1.1
+                "value": 1.1,
+                "raw": "1.1"
               }
             }
           }
@@ -229,7 +236,8 @@
           "type": "Literal",
           "start": 541,
           "end": 545,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -256,7 +264,8 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 607,
-                  "value": "#3: (-Infinity < -1.1) === true"
+                  "value": "#3: (-Infinity < -1.1) === true",
+                  "raw": "'#3: (-Infinity < -1.1) === true'"
                 }
               ]
             }
@@ -327,7 +336,8 @@
           "type": "Literal",
           "start": 685,
           "end": 689,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -354,7 +364,8 @@
                   "type": "Literal",
                   "start": 718,
                   "end": 756,
-                  "value": "#4: (-Infinity < +Infinity) === true"
+                  "value": "#4: (-Infinity < +Infinity) === true",
+                  "raw": "'#4: (-Infinity < +Infinity) === true'"
                 }
               ]
             }
@@ -425,7 +436,8 @@
           "type": "Literal",
           "start": 826,
           "end": 830,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -452,7 +464,8 @@
                   "type": "Literal",
                   "start": 859,
                   "end": 904,
-                  "value": "#5: (-Infinity < Number.MAX_VALUE) === true"
+                  "value": "#5: (-Infinity < Number.MAX_VALUE) === true",
+                  "raw": "'#5: (-Infinity < Number.MAX_VALUE) === true'"
                 }
               ]
             }
@@ -523,7 +536,8 @@
           "type": "Literal",
           "start": 974,
           "end": 978,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       },
       "consequent": {
@@ -550,7 +564,8 @@
                   "type": "Literal",
                   "start": 1007,
                   "end": 1052,
-                  "value": "#6: (-Infinity < Number.MIN_VALUE) === true"
+                  "value": "#6: (-Infinity < Number.MIN_VALUE) === true",
+                  "raw": "'#6: (-Infinity < Number.MIN_VALUE) === true'"
                 }
               ]
             }

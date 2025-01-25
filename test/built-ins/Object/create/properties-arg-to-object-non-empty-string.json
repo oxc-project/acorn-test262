@@ -89,7 +89,8 @@
                         "type": "Literal",
                         "start": 1262,
                         "end": 1269,
-                        "value": "hello"
+                        "value": "hello",
+                        "raw": "'hello'"
                       }
                     ],
                     "optional": false

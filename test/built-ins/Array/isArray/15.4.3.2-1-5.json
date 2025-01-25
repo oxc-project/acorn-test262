@@ -59,7 +59,8 @@
                 "type": "Literal",
                 "start": 279,
                 "end": 284,
-                "value": "abc"
+                "value": "abc",
+                "raw": "\"abc\""
               }
             ],
             "optional": false
@@ -68,13 +69,15 @@
             "type": "Literal",
             "start": 287,
             "end": 292,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 294,
             "end": 334,
-            "value": "Array.isArray(\"abc\") must return false"
+            "value": "Array.isArray(\"abc\") must return false",
+            "raw": "'Array.isArray(\"abc\") must return false'"
           }
         ],
         "optional": false

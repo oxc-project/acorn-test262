@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 278,
                 "end": 279,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 281,
                 "end": 282,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 284,
                 "end": 293,
-                "value": "iso8601"
+                "value": "iso8601",
+                "raw": "\"iso8601\""
               }
             ]
           }
@@ -189,7 +192,8 @@
                               "type": "Literal",
                               "start": 435,
                               "end": 443,
-                              "value": "always"
+                              "value": "always",
+                              "raw": "\"always\""
                             },
                             "kind": "init"
                           }
@@ -212,13 +216,15 @@
                     "type": "Literal",
                     "start": 453,
                     "end": 454,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 456,
                     "end": 457,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   }
                 ],
                 "optional": false
@@ -268,13 +274,15 @@
             "type": "Literal",
             "start": 495,
             "end": 499,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 535,
-            "value": "default referenceISOYear is 1972"
+            "value": "default referenceISOYear is 1972",
+            "raw": "\"default referenceISOYear is 1972\""
           }
         ],
         "optional": false
@@ -416,7 +424,8 @@
                               "type": "Literal",
                               "start": 666,
                               "end": 674,
-                              "value": "always"
+                              "value": "always",
+                              "raw": "\"always\""
                             },
                             "kind": "init"
                           }
@@ -439,13 +448,15 @@
                     "type": "Literal",
                     "start": 684,
                     "end": 685,
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 687,
                     "end": 688,
-                    "value": 4
+                    "value": 4,
+                    "raw": "4"
                   }
                 ],
                 "optional": false
@@ -495,13 +506,15 @@
             "type": "Literal",
             "start": 726,
             "end": 730,
-            "value": 1972
+            "value": 1972,
+            "raw": "1972"
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 766,
-            "value": "default referenceISOYear is 1972"
+            "value": "default referenceISOYear is 1972",
+            "raw": "\"default referenceISOYear is 1972\""
           }
         ],
         "optional": false

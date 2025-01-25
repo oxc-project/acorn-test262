@@ -31,6 +31,7 @@
                 "start": 566,
                 "end": 587,
                 "value": {},
+                "raw": "/(aa|aabaac|ba|b|c)*/",
                 "regex": {
                   "pattern": "(aa|aabaac|ba|b|c)*",
                   "flags": ""
@@ -129,7 +130,8 @@
                               "type": "Literal",
                               "start": 653,
                               "end": 661,
-                              "value": "aabaac"
+                              "value": "aabaac",
+                              "raw": "\"aabaac\""
                             }
                           }
                         ]
@@ -170,13 +172,15 @@
                 "type": "Literal",
                 "start": 686,
                 "end": 692,
-                "value": "aaba"
+                "value": "aaba",
+                "raw": "\"aaba\""
               },
               {
                 "type": "Literal",
                 "start": 694,
                 "end": 698,
-                "value": "ba"
+                "value": "ba",
+                "raw": "\"ba\""
               }
             ]
           }
@@ -216,7 +220,8 @@
           "type": "Literal",
           "start": 718,
           "end": 719,
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
       }
     },
@@ -252,7 +257,8 @@
           "type": "Literal",
           "start": 738,
           "end": 746,
-          "value": "aabaac"
+          "value": "aabaac",
+          "raw": "\"aabaac\""
         }
       }
     },
@@ -306,13 +312,15 @@
             "type": "Literal",
             "start": 800,
             "end": 804,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 887,
-            "value": "The result of evaluating (__executed instanceof Array) is expected to be true"
+            "value": "The result of evaluating (__executed instanceof Array) is expected to be true",
+            "raw": "'The result of evaluating (__executed instanceof Array) is expected to be true'"
           }
         ],
         "optional": false
@@ -388,7 +396,8 @@
             "type": "Literal",
             "start": 954,
             "end": 1038,
-            "value": "The value of __executed.length is expected to equal the value of __expected.length"
+            "value": "The value of __executed.length is expected to equal the value of __expected.length",
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
           }
         ],
         "optional": false
@@ -464,7 +473,8 @@
             "type": "Literal",
             "start": 1103,
             "end": 1185,
-            "value": "The value of __executed.index is expected to equal the value of __expected.index"
+            "value": "The value of __executed.index is expected to equal the value of __expected.index",
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
           }
         ],
         "optional": false
@@ -540,7 +550,8 @@
             "type": "Literal",
             "start": 1250,
             "end": 1332,
-            "value": "The value of __executed.input is expected to equal the value of __expected.input"
+            "value": "The value of __executed.input is expected to equal the value of __expected.input",
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
           }
         ],
         "optional": false
@@ -569,7 +580,8 @@
               "type": "Literal",
               "start": 1351,
               "end": 1352,
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ],
@@ -694,7 +706,8 @@
                   "type": "Literal",
                   "start": 1460,
                   "end": 1544,
-                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]"
+                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
                 }
               ],
               "optional": false

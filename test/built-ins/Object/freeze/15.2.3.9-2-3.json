@@ -66,7 +66,8 @@
             "type": "Literal",
             "start": 289,
             "end": 297,
-            "value": "Father"
+            "value": "Father",
+            "raw": "\"Father\""
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +109,8 @@
                           "type": "Literal",
                           "start": 332,
                           "end": 334,
-                          "value": 10
+                          "value": 10,
+                          "raw": "10"
                         }
                       }
                     ]
@@ -133,7 +135,8 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 361,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -326,7 +329,8 @@
                 "type": "Literal",
                 "start": 503,
                 "end": 511,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -409,7 +413,8 @@
                 "type": "Literal",
                 "start": 575,
                 "end": 583,
-                "value": "Father"
+                "value": "Father",
+                "raw": "\"Father\""
               }
             ],
             "optional": false
@@ -443,7 +448,8 @@
             "type": "Literal",
             "start": 609,
             "end": 633,
-            "value": "beforeDeleted !== true"
+            "value": "beforeDeleted !== true",
+            "raw": "'beforeDeleted !== true'"
           }
         ],
         "optional": false
@@ -487,13 +493,15 @@
             "type": "Literal",
             "start": 667,
             "end": 672,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 688,
-            "value": "afterDeleted"
+            "value": "afterDeleted",
+            "raw": "'afterDeleted'"
           }
         ],
         "optional": false

@@ -27,19 +27,22 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 868,
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 870,
                 "end": 873,
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               },
               {
                 "type": "Literal",
                 "start": 875,
                 "end": 878,
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           }
@@ -66,7 +69,8 @@
             "type": "Literal",
             "start": 899,
             "end": 900,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -144,7 +148,8 @@
                               "type": "Literal",
                               "start": 967,
                               "end": 968,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
                         },
@@ -337,7 +342,8 @@
                   "type": "Literal",
                   "start": 1184,
                   "end": 1190,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -347,7 +353,8 @@
             "type": "Literal",
             "start": 1195,
             "end": 1251,
-            "value": "#gen does not appear as an own property on C prototype"
+            "value": "#gen does not appear as an own property on C prototype",
+            "raw": "\"#gen does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -434,7 +441,8 @@
                   "type": "Literal",
                   "start": 1306,
                   "end": 1312,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -444,7 +452,8 @@
             "type": "Literal",
             "start": 1317,
             "end": 1375,
-            "value": "#gen does not appear as an own property on C constructor"
+            "value": "#gen does not appear as an own property on C constructor",
+            "raw": "\"#gen does not appear as an own property on C constructor\""
           }
         ],
         "optional": false
@@ -527,7 +536,8 @@
             "type": "Literal",
             "start": 1411,
             "end": 1416,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         ],
         "optional": false
@@ -729,7 +739,8 @@
                             "type": "Literal",
                             "start": 1514,
                             "end": 1536,
-                            "value": "value is a new array"
+                            "value": "value is a new array",
+                            "raw": "'value is a new array'"
                           }
                         ],
                         "optional": false
@@ -787,7 +798,8 @@
                             "type": "Literal",
                             "start": 1570,
                             "end": 1603,
-                            "value": "value is an Array exotic object"
+                            "value": "value is an Array exotic object",
+                            "raw": "'value is an Array exotic object'"
                           }
                         ],
                         "optional": false
@@ -844,7 +856,8 @@
                             "type": "Literal",
                             "start": 1639,
                             "end": 1640,
-                            "value": 3
+                            "value": 3,
+                            "raw": "3"
                           }
                         ],
                         "optional": false
@@ -892,7 +905,8 @@
                               "type": "Literal",
                               "start": 1667,
                               "end": 1668,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             },
                             "computed": true,
                             "optional": false
@@ -901,7 +915,8 @@
                             "type": "Literal",
                             "start": 1671,
                             "end": 1674,
-                            "value": "a"
+                            "value": "a",
+                            "raw": "'a'"
                           }
                         ],
                         "optional": false
@@ -949,7 +964,8 @@
                               "type": "Literal",
                               "start": 1702,
                               "end": 1703,
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             },
                             "computed": true,
                             "optional": false
@@ -958,7 +974,8 @@
                             "type": "Literal",
                             "start": 1706,
                             "end": 1709,
-                            "value": "b"
+                            "value": "b",
+                            "raw": "'b'"
                           }
                         ],
                         "optional": false
@@ -1006,7 +1023,8 @@
                               "type": "Literal",
                               "start": 1737,
                               "end": 1738,
-                              "value": 2
+                              "value": 2,
+                              "raw": "2"
                             },
                             "computed": true,
                             "optional": false
@@ -1015,7 +1033,8 @@
                             "type": "Literal",
                             "start": 1741,
                             "end": 1744,
-                            "value": "c"
+                            "value": "c",
+                            "raw": "'c'"
                           }
                         ],
                         "optional": false
@@ -1059,7 +1078,8 @@
                             "type": "Literal",
                             "start": 1772,
                             "end": 1777,
-                            "value": false
+                            "value": false,
+                            "raw": "false"
                           }
                         ],
                         "optional": false
@@ -1135,7 +1155,8 @@
             "type": "Literal",
             "start": 1832,
             "end": 1833,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
         "optional": false
@@ -1235,7 +1256,8 @@
                   "type": "Literal",
                   "start": 1972,
                   "end": 1978,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1245,7 +1267,8 @@
             "type": "Literal",
             "start": 1983,
             "end": 2039,
-            "value": "#gen does not appear as an own property on C prototype"
+            "value": "#gen does not appear as an own property on C prototype",
+            "raw": "\"#gen does not appear as an own property on C prototype\""
           }
         ],
         "optional": false
@@ -1332,7 +1355,8 @@
                   "type": "Literal",
                   "start": 2094,
                   "end": 2100,
-                  "value": "#gen"
+                  "value": "#gen",
+                  "raw": "\"#gen\""
                 }
               ],
               "optional": false
@@ -1342,7 +1366,8 @@
             "type": "Literal",
             "start": 2105,
             "end": 2163,
-            "value": "#gen does not appear as an own property on C constructor"
+            "value": "#gen does not appear as an own property on C constructor",
+            "raw": "\"#gen does not appear as an own property on C constructor\""
           }
         ],
         "optional": false

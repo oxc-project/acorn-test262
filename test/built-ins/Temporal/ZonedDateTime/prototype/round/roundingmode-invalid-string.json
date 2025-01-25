@@ -46,13 +46,15 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 374,
-                "value": "1000000000123987500n"
+                "value": "1000000000123987500n",
+                "raw": "1_000_000_000_123_987_500n"
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 381,
-                "value": "UTC"
+                "value": "UTC",
+                "raw": "\"UTC\""
               }
             ]
           }
@@ -94,43 +96,50 @@
             "type": "Literal",
             "start": 412,
             "end": 426,
-            "value": "other string"
+            "value": "other string",
+            "raw": "\"other string\""
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 434,
-            "value": "cile"
+            "value": "cile",
+            "raw": "\"cile\""
           },
           {
             "type": "Literal",
             "start": 436,
             "end": 442,
-            "value": "CEIL"
+            "value": "CEIL",
+            "raw": "\"CEIL\""
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 455,
-            "value": "ceıl"
+            "value": "ceıl",
+            "raw": "\"ce\\u0131l\""
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 463,
-            "value": "auto"
+            "value": "auto",
+            "raw": "\"auto\""
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 477,
-            "value": "halfexpand"
+            "value": "halfexpand",
+            "raw": "\"halfexpand\""
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 488,
-            "value": "floor\u0000"
+            "value": "floor\u0000",
+            "raw": "\"floor\\0\""
           }
         ]
       },
@@ -228,7 +237,8 @@
                               "type": "Literal",
                               "start": 558,
                               "end": 571,
-                              "value": "microsecond"
+                              "value": "microsecond",
+                              "raw": "\"microsecond\""
                             },
                             "kind": "init"
                           },

@@ -63,7 +63,8 @@
                   "type": "Literal",
                   "start": 304,
                   "end": 319,
-                  "value": "[object Math]"
+                  "value": "[object Math]",
+                  "raw": "'[object Math]'"
                 },
                 "operator": "===",
                 "right": {
@@ -163,7 +164,8 @@
           "type": "Literal",
           "start": 379,
           "end": 380,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -190,7 +192,8 @@
             "type": "Literal",
             "start": 387,
             "end": 388,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -199,7 +202,8 @@
           "type": "Literal",
           "start": 392,
           "end": 393,
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       }
     },
@@ -284,7 +288,8 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 450,
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
             "optional": false
@@ -293,7 +298,8 @@
             "type": "Literal",
             "start": 453,
             "end": 512,
-            "value": "Array.prototype.reduce.call(Math, callbackfn, 1) !== true"
+            "value": "Array.prototype.reduce.call(Math, callbackfn, 1) !== true",
+            "raw": "'Array.prototype.reduce.call(Math, callbackfn, 1) !== true'"
           }
         ],
         "optional": false

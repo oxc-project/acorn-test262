@@ -142,7 +142,8 @@
           "type": "Literal",
           "start": 735,
           "end": 739,
-          "value": null
+          "value": null,
+          "raw": "null"
         }
       }
     },
@@ -325,7 +326,8 @@
             "type": "Literal",
             "start": 859,
             "end": 893,
-            "value": "result is an Array exotic object"
+            "value": "result is an Array exotic object",
+            "raw": "'result is an Array exotic object'"
           }
         ],
         "optional": false

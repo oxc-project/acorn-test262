@@ -74,25 +74,29 @@
                   "type": "Literal",
                   "start": 325,
                   "end": 326,
-                  "value": 9
+                  "value": 9,
+                  "raw": "9"
                 },
                 {
                   "type": "Literal",
                   "start": 328,
                   "end": 330,
-                  "value": 14
+                  "value": 14,
+                  "raw": "14"
                 },
                 {
                   "type": "Literal",
                   "start": 332,
                   "end": 341,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "Literal",
                   "start": 343,
                   "end": 349,
-                  "value": 275760
+                  "value": 275760,
+                  "raw": "275760"
                 }
               ]
             }
@@ -101,7 +105,8 @@
             "type": "Literal",
             "start": 352,
             "end": 380,
-            "value": "after the maximum ISO date"
+            "value": "after the maximum ISO date",
+            "raw": "\"after the maximum ISO date\""
           }
         ],
         "optional": false
@@ -178,19 +183,22 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 443,
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 },
                 {
                   "type": "Literal",
                   "start": 445,
                   "end": 447,
-                  "value": 18
+                  "value": 18,
+                  "raw": "18"
                 },
                 {
                   "type": "Literal",
                   "start": 449,
                   "end": 458,
-                  "value": "iso8601"
+                  "value": "iso8601",
+                  "raw": "\"iso8601\""
                 },
                 {
                   "type": "UnaryExpression",
@@ -202,7 +210,8 @@
                     "type": "Literal",
                     "start": 461,
                     "end": 467,
-                    "value": 271821
+                    "value": 271821,
+                    "raw": "271821"
                   }
                 }
               ]
@@ -212,7 +221,8 @@
             "type": "Literal",
             "start": 470,
             "end": 499,
-            "value": "before the minimum ISO date"
+            "value": "before the minimum ISO date",
+            "raw": "\"before the minimum ISO date\""
           }
         ],
         "optional": false

@@ -23,6 +23,7 @@
             "start": 793,
             "end": 797,
             "value": {},
+            "raw": "/\\w/",
             "regex": {
               "pattern": "\\w",
               "flags": ""
@@ -51,7 +52,8 @@
             "type": "Literal",
             "start": 809,
             "end": 815,
-            "value": "*a*b"
+            "value": "*a*b",
+            "raw": "'*a*b'"
           }
         }
       ],
@@ -181,7 +183,8 @@
                         "type": "Literal",
                         "start": 908,
                         "end": 911,
-                        "value": "a"
+                        "value": "a",
+                        "raw": "'a'"
                       }
                     ]
                   },
@@ -189,7 +192,8 @@
                     "type": "Literal",
                     "start": 914,
                     "end": 915,
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Identifier",

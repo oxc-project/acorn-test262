@@ -51,7 +51,8 @@
                         "type": "Literal",
                         "start": 1180,
                         "end": 1212,
-                        "value": "Generator must not be resumed."
+                        "value": "Generator must not be resumed.",
+                        "raw": "'Generator must not be resumed.'"
                       }
                     ]
                   }
@@ -138,7 +139,8 @@
                 "type": "Literal",
                 "start": 1269,
                 "end": 1271,
-                "value": 42
+                "value": 42,
+                "raw": "42"
               }
             ],
             "optional": false
@@ -185,7 +187,8 @@
             "type": "Literal",
             "start": 1311,
             "end": 1324,
-            "value": "constructor"
+            "value": "constructor",
+            "raw": "'constructor'"
           },
           {
             "type": "ObjectExpression",
@@ -238,7 +241,8 @@
                               "type": "Literal",
                               "start": 1369,
                               "end": 1385,
-                              "value": "broken promise"
+                              "value": "broken promise",
+                              "raw": "'broken promise'"
                             }
                           ]
                         }
@@ -350,7 +354,8 @@
                             "type": "Literal",
                             "start": 1472,
                             "end": 1492,
-                            "value": "Expected rejection"
+                            "value": "Expected rejection",
+                            "raw": "\"Expected rejection\""
                           }
                         ]
                       }
@@ -430,7 +435,8 @@
                             "type": "Literal",
                             "start": 1551,
                             "end": 1567,
-                            "value": "broken promise"
+                            "value": "broken promise",
+                            "raw": "'broken promise'"
                           }
                         ],
                         "optional": false

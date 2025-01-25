@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1954,
             "end": 1955,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -388,7 +389,8 @@
             "type": "Literal",
             "start": 2212,
             "end": 2213,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
         "optional": false

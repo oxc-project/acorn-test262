@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 366,
             "end": 371,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -91,7 +92,8 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 440,
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           },
@@ -127,7 +129,8 @@
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           }
@@ -171,7 +174,8 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 497,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "init"
               }
@@ -321,7 +325,8 @@
             "type": "Literal",
             "start": 604,
             "end": 612,
-            "value": "length"
+            "value": "length",
+            "raw": "\"length\""
           },
           {
             "type": "ObjectExpression",
@@ -363,7 +368,8 @@
                           "type": "Literal",
                           "start": 647,
                           "end": 648,
-                          "value": 2
+                          "value": 2,
+                          "raw": "2"
                         }
                       }
                     ]
@@ -388,7 +394,8 @@
                   "type": "Literal",
                   "start": 671,
                   "end": 675,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -421,7 +428,8 @@
             "type": "Literal",
             "start": 687,
             "end": 688,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           "computed": true,
           "optional": false
@@ -430,7 +438,8 @@
           "type": "Literal",
           "start": 692,
           "end": 694,
-          "value": 12
+          "value": 12,
+          "raw": "12"
         }
       }
     },
@@ -457,7 +466,8 @@
             "type": "Literal",
             "start": 702,
             "end": 703,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           "computed": true,
           "optional": false
@@ -466,7 +476,8 @@
           "type": "Literal",
           "start": 707,
           "end": 709,
-          "value": 11
+          "value": 11,
+          "raw": "11"
         }
       }
     },
@@ -493,7 +504,8 @@
             "type": "Literal",
             "start": 717,
             "end": 718,
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           "computed": true,
           "optional": false
@@ -502,7 +514,8 @@
           "type": "Literal",
           "start": 722,
           "end": 723,
-          "value": 9
+          "value": 9,
+          "raw": "9"
         }
       }
     },
@@ -587,7 +600,8 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 787,
-                "value": 11
+                "value": 11,
+                "raw": "11"
               }
             ],
             "optional": false
@@ -596,7 +610,8 @@
             "type": "Literal",
             "start": 790,
             "end": 856,
-            "value": "Array.prototype.reduceRight.call(child, callbackfn, 11) !== true"
+            "value": "Array.prototype.reduceRight.call(child, callbackfn, 11) !== true",
+            "raw": "'Array.prototype.reduceRight.call(child, callbackfn, 11) !== true'"
           }
         ],
         "optional": false
@@ -627,7 +642,8 @@
             "type": "Literal",
             "start": 876,
             "end": 895,
-            "value": "accessed !== true"
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
           }
         ],
         "optional": false

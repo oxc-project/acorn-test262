@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 292,
             "end": 297,
-            "value": false
+            "value": false,
+            "raw": "false"
           }
         }
       ],
@@ -169,7 +170,8 @@
             "type": "Literal",
             "start": 399,
             "end": 405,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -230,7 +232,8 @@
                                 "type": "Literal",
                                 "start": 443,
                                 "end": 463,
-                                "value": "[object Arguments]"
+                                "value": "[object Arguments]",
+                                "raw": "'[object Arguments]'"
                               },
                               "operator": "===",
                               "right": {
@@ -328,7 +331,8 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 545,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 },
                 "kind": "init"
               }
@@ -407,7 +411,8 @@
             "type": "Literal",
             "start": 604,
             "end": 621,
-            "value": "result !== true"
+            "value": "result !== true",
+            "raw": "'result !== true'"
           }
         ],
         "optional": false

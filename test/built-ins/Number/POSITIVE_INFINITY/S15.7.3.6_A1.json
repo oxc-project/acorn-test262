@@ -68,13 +68,15 @@
             "type": "Literal",
             "start": 331,
             "end": 336,
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 338,
             "end": 392,
-            "value": "isFinite(Number.POSITIVE_INFINITY) must return false"
+            "value": "isFinite(Number.POSITIVE_INFINITY) must return false",
+            "raw": "'isFinite(Number.POSITIVE_INFINITY) must return false'"
           }
         ],
         "optional": false

@@ -82,13 +82,15 @@
                               "type": "Literal",
                               "start": 529,
                               "end": 537,
-                              "value": 43136
+                              "value": 43136,
+                              "raw": "0x00A880"
                             },
                             {
                               "type": "Literal",
                               "start": 539,
                               "end": 547,
-                              "value": 43205
+                              "value": 43205,
+                              "raw": "0x00A8C5"
                             }
                           ]
                         },
@@ -101,13 +103,15 @@
                               "type": "Literal",
                               "start": 555,
                               "end": 563,
-                              "value": 43214
+                              "value": 43214,
+                              "raw": "0x00A8CE"
                             },
                             {
                               "type": "Literal",
                               "start": 565,
                               "end": 573,
-                              "value": 43225
+                              "value": 43225,
+                              "raw": "0x00A8D9"
                             }
                           ]
                         }
@@ -144,6 +148,7 @@
             "start": 606,
             "end": 633,
             "value": {},
+            "raw": "/^\\p{Script=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Saurashtra}+$",
               "flags": "u"
@@ -159,7 +164,8 @@
             "type": "Literal",
             "start": 653,
             "end": 677,
-            "value": "\\p{Script=Saurashtra}"
+            "value": "\\p{Script=Saurashtra}",
+            "raw": "\"\\\\p{Script=Saurashtra}\""
           }
         ],
         "optional": false
@@ -185,6 +191,7 @@
             "start": 704,
             "end": 725,
             "value": {},
+            "raw": "/^\\p{Script=Saur}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Saur}+$",
               "flags": "u"
@@ -200,7 +207,8 @@
             "type": "Literal",
             "start": 745,
             "end": 763,
-            "value": "\\p{Script=Saur}"
+            "value": "\\p{Script=Saur}",
+            "raw": "\"\\\\p{Script=Saur}\""
           }
         ],
         "optional": false
@@ -226,6 +234,7 @@
             "start": 790,
             "end": 813,
             "value": {},
+            "raw": "/^\\p{sc=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Saurashtra}+$",
               "flags": "u"
@@ -241,7 +250,8 @@
             "type": "Literal",
             "start": 833,
             "end": 853,
-            "value": "\\p{sc=Saurashtra}"
+            "value": "\\p{sc=Saurashtra}",
+            "raw": "\"\\\\p{sc=Saurashtra}\""
           }
         ],
         "optional": false
@@ -267,6 +277,7 @@
             "start": 880,
             "end": 897,
             "value": {},
+            "raw": "/^\\p{sc=Saur}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Saur}+$",
               "flags": "u"
@@ -282,7 +293,8 @@
             "type": "Literal",
             "start": 917,
             "end": 931,
-            "value": "\\p{sc=Saur}"
+            "value": "\\p{sc=Saur}",
+            "raw": "\"\\\\p{sc=Saur}\""
           }
         ],
         "optional": false
@@ -367,13 +379,15 @@
                               "type": "Literal",
                               "start": 1013,
                               "end": 1021,
-                              "value": 56320
+                              "value": 56320,
+                              "raw": "0x00DC00"
                             },
                             {
                               "type": "Literal",
                               "start": 1023,
                               "end": 1031,
-                              "value": 57343
+                              "value": 57343,
+                              "raw": "0x00DFFF"
                             }
                           ]
                         },
@@ -386,13 +400,15 @@
                               "type": "Literal",
                               "start": 1039,
                               "end": 1047,
-                              "value": 0
+                              "value": 0,
+                              "raw": "0x000000"
                             },
                             {
                               "type": "Literal",
                               "start": 1049,
                               "end": 1057,
-                              "value": 43135
+                              "value": 43135,
+                              "raw": "0x00A87F"
                             }
                           ]
                         },
@@ -405,13 +421,15 @@
                               "type": "Literal",
                               "start": 1065,
                               "end": 1073,
-                              "value": 43206
+                              "value": 43206,
+                              "raw": "0x00A8C6"
                             },
                             {
                               "type": "Literal",
                               "start": 1075,
                               "end": 1083,
-                              "value": 43213
+                              "value": 43213,
+                              "raw": "0x00A8CD"
                             }
                           ]
                         },
@@ -424,13 +442,15 @@
                               "type": "Literal",
                               "start": 1091,
                               "end": 1099,
-                              "value": 43226
+                              "value": 43226,
+                              "raw": "0x00A8DA"
                             },
                             {
                               "type": "Literal",
                               "start": 1101,
                               "end": 1109,
-                              "value": 56319
+                              "value": 56319,
+                              "raw": "0x00DBFF"
                             }
                           ]
                         },
@@ -443,13 +463,15 @@
                               "type": "Literal",
                               "start": 1117,
                               "end": 1125,
-                              "value": 57344
+                              "value": 57344,
+                              "raw": "0x00E000"
                             },
                             {
                               "type": "Literal",
                               "start": 1127,
                               "end": 1135,
-                              "value": 1114111
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
                             }
                           ]
                         }
@@ -486,6 +508,7 @@
             "start": 1168,
             "end": 1195,
             "value": {},
+            "raw": "/^\\P{Script=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Saurashtra}+$",
               "flags": "u"
@@ -501,7 +524,8 @@
             "type": "Literal",
             "start": 1218,
             "end": 1242,
-            "value": "\\P{Script=Saurashtra}"
+            "value": "\\P{Script=Saurashtra}",
+            "raw": "\"\\\\P{Script=Saurashtra}\""
           }
         ],
         "optional": false
@@ -527,6 +551,7 @@
             "start": 1269,
             "end": 1290,
             "value": {},
+            "raw": "/^\\P{Script=Saur}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Saur}+$",
               "flags": "u"
@@ -542,7 +567,8 @@
             "type": "Literal",
             "start": 1313,
             "end": 1331,
-            "value": "\\P{Script=Saur}"
+            "value": "\\P{Script=Saur}",
+            "raw": "\"\\\\P{Script=Saur}\""
           }
         ],
         "optional": false
@@ -568,6 +594,7 @@
             "start": 1358,
             "end": 1381,
             "value": {},
+            "raw": "/^\\P{sc=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Saurashtra}+$",
               "flags": "u"
@@ -583,7 +610,8 @@
             "type": "Literal",
             "start": 1404,
             "end": 1424,
-            "value": "\\P{sc=Saurashtra}"
+            "value": "\\P{sc=Saurashtra}",
+            "raw": "\"\\\\P{sc=Saurashtra}\""
           }
         ],
         "optional": false
@@ -609,6 +637,7 @@
             "start": 1451,
             "end": 1468,
             "value": {},
+            "raw": "/^\\P{sc=Saur}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Saur}+$",
               "flags": "u"
@@ -624,7 +653,8 @@
             "type": "Literal",
             "start": 1491,
             "end": 1505,
-            "value": "\\P{sc=Saur}"
+            "value": "\\P{sc=Saur}",
+            "raw": "\"\\\\P{sc=Saur}\""
           }
         ],
         "optional": false

@@ -69,7 +69,8 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 590,
-                  "value": "global"
+                  "value": "global",
+                  "raw": "'global'"
                 }
               ],
               "optional": false

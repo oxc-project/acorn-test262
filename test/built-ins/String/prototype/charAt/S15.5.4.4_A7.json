@@ -113,7 +113,8 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 504,
-                  "value": "#1: __FACTORY = String.prototype.charAt; \"__instance = new __FACTORY\" lead to throwing exception"
+                  "value": "#1: __FACTORY = String.prototype.charAt; \"__instance = new __FACTORY\" lead to throwing exception",
+                  "raw": "'#1: __FACTORY = String.prototype.charAt; \"__instance = new __FACTORY\" lead to throwing exception'"
                 }
               ]
             }
@@ -171,7 +172,8 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 560,
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               },
               "consequent": {
@@ -202,7 +204,8 @@
                             "type": "Literal",
                             "start": 591,
                             "end": 640,
-                            "value": "#1.2: undefined = 1 throw a TypeError. Actual: "
+                            "value": "#1.2: undefined = 1 throw a TypeError. Actual: ",
+                            "raw": "'#1.2: undefined = 1 throw a TypeError. Actual: '"
                           },
                           "operator": "+",
                           "right": {

@@ -129,7 +129,8 @@
                               "type": "Literal",
                               "start": 581,
                               "end": 607,
-                              "value": "next() method was called"
+                              "value": "next() method was called",
+                              "raw": "'next() method was called'"
                             }
                           ]
                         }
@@ -249,7 +250,8 @@
                                 "type": "Literal",
                                 "start": 717,
                                 "end": 722,
-                                "value": "key"
+                                "value": "key",
+                                "raw": "'key'"
                               }
                             }
                           ]

@@ -104,7 +104,8 @@
                             "type": "Literal",
                             "start": 1878,
                             "end": 1882,
-                            "value": null
+                            "value": null,
+                            "raw": "null"
                           }
                         ]
                       }

@@ -46,61 +46,71 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 343,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 367,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
           }
@@ -179,7 +189,8 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 440,
-                  "value": "years"
+                  "value": "years",
+                  "raw": "\"years\""
                 }
               ],
               "optional": false
@@ -260,7 +271,8 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 493,
-                  "value": "months"
+                  "value": "months",
+                  "raw": "\"months\""
                 }
               ],
               "optional": false
@@ -341,7 +353,8 @@
                   "type": "Literal",
                   "start": 538,
                   "end": 545,
-                  "value": "weeks"
+                  "value": "weeks",
+                  "raw": "\"weeks\""
                 }
               ],
               "optional": false
@@ -440,7 +453,8 @@
                         "type": "Literal",
                         "start": 625,
                         "end": 632,
-                        "value": "years"
+                        "value": "years",
+                        "raw": "\"years\""
                       },
                       "kind": "init"
                     }
@@ -543,7 +557,8 @@
                         "type": "Literal",
                         "start": 695,
                         "end": 703,
-                        "value": "months"
+                        "value": "months",
+                        "raw": "\"months\""
                       },
                       "kind": "init"
                     }
@@ -646,7 +661,8 @@
                         "type": "Literal",
                         "start": 766,
                         "end": 773,
-                        "value": "weeks"
+                        "value": "weeks",
+                        "raw": "\"weeks\""
                       },
                       "kind": "init"
                     }

@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 1125,
             "end": 1126,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -102,7 +103,8 @@
                         "type": "Literal",
                         "start": 1225,
                         "end": 1227,
-                        "value": 42
+                        "value": 42,
+                        "raw": "42"
                       }
                     ],
                     "optional": false
@@ -138,7 +140,8 @@
                         "type": "Literal",
                         "start": 1256,
                         "end": 1257,
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       }
                     }
                   }
@@ -185,13 +188,15 @@
                     "type": "Literal",
                     "start": 1267,
                     "end": 1269,
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   },
                   {
                     "type": "Literal",
                     "start": 1271,
                     "end": 1273,
-                    "value": 39
+                    "value": 39,
+                    "raw": "39"
                   }
                 ],
                 "optional": false
@@ -258,13 +263,15 @@
                             "type": "Literal",
                             "start": 1318,
                             "end": 1319,
-                            "value": 1
+                            "value": 1,
+                            "raw": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1321,
                             "end": 1364,
-                            "value": "async arrow function invoked exactly once"
+                            "value": "async arrow function invoked exactly once",
+                            "raw": "'async arrow function invoked exactly once'"
                           }
                         ],
                         "optional": false
@@ -353,13 +360,15 @@
             "type": "Literal",
             "start": 1419,
             "end": 1420,
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 1422,
             "end": 1446,
-            "value": "length is properly set"
+            "value": "length is properly set",
+            "raw": "'length is properly set'"
           }
         ],
         "optional": false

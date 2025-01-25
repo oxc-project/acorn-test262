@@ -191,13 +191,15 @@
             "type": "Literal",
             "start": 356,
             "end": 360,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 366,
-            "value": "ex"
+            "value": "ex",
+            "raw": "'ex'"
           }
         ],
         "optional": false

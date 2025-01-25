@@ -327,7 +327,8 @@
             "type": "Literal",
             "start": 543,
             "end": 559,
-            "value": "Result `value`"
+            "value": "Result `value`",
+            "raw": "'Result `value`'"
           }
         ],
         "optional": false
@@ -384,13 +385,15 @@
             "type": "Literal",
             "start": 592,
             "end": 596,
-            "value": true
+            "value": true,
+            "raw": "true"
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 618,
-            "value": "Result `done` flag"
+            "value": "Result `done` flag",
+            "raw": "'Result `done` flag'"
           }
         ],
         "optional": false

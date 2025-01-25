@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 332,
             "end": 333,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         },
         {
@@ -39,7 +40,8 @@
             "type": "Literal",
             "start": 336,
             "end": 337,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -104,7 +106,8 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 489,
-                          "value": "break LABEL1"
+                          "value": "break LABEL1",
+                          "raw": "\"break LABEL1\""
                         }
                       ],
                       "optional": false
@@ -134,7 +137,8 @@
                 "type": "Literal",
                 "start": 517,
                 "end": 518,
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             },
             "label": {
@@ -163,7 +167,8 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 607,
-                  "value": "#1: eval(\"break LABEL1\") does not lead to throwing exception"
+                  "value": "#1: eval(\"break LABEL1\") does not lead to throwing exception",
+                  "raw": "'#1: eval(\"break LABEL1\") does not lead to throwing exception'"
                 }
               ]
             }
@@ -243,7 +248,8 @@
                           "type": "Literal",
                           "start": 681,
                           "end": 776,
-                          "value": "1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError"
+                          "value": "1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError",
+                          "raw": "\"1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError\""
                         }
                       ]
                     }

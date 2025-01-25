@@ -22,7 +22,8 @@
             "type": "Literal",
             "start": 393,
             "end": 394,
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
       ],
@@ -87,7 +88,8 @@
                             "type": "Literal",
                             "start": 443,
                             "end": 448,
-                            "value": "arg"
+                            "value": "arg",
+                            "raw": "\"arg\""
                           },
                           "operator": "+",
                           "right": {
@@ -178,7 +180,8 @@
                       "type": "Literal",
                       "start": 500,
                       "end": 524,
-                      "value": "return arg1+arg2+arg3;"
+                      "value": "return arg1+arg2+arg3;",
+                      "raw": "\"return arg1+arg2+arg3;\""
                     }
                   ],
                   "optional": false
@@ -223,7 +226,8 @@
                     "type": "Literal",
                     "start": 566,
                     "end": 583,
-                    "value": "#1: test failed"
+                    "value": "#1: test failed",
+                    "raw": "'#1: test failed'"
                   }
                 ]
               }
@@ -270,7 +274,8 @@
             "type": "Literal",
             "start": 619,
             "end": 692,
-            "value": "The result of evaluating (f instanceof Function) is expected to be true"
+            "value": "The result of evaluating (f instanceof Function) is expected to be true",
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
           }
         ],
         "optional": false
@@ -319,19 +324,22 @@
                 "type": "Literal",
                 "start": 714,
                 "end": 715,
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 717,
                 "end": 720,
-                "value": "2"
+                "value": "2",
+                "raw": "\"2\""
               },
               {
                 "type": "Literal",
                 "start": 722,
                 "end": 732,
-                "value": "QUESTION"
+                "value": "QUESTION",
+                "raw": "\"QUESTION\""
               }
             ],
             "optional": false
@@ -340,13 +348,15 @@
             "type": "Literal",
             "start": 735,
             "end": 747,
-            "value": "42QUESTION"
+            "value": "42QUESTION",
+            "raw": "\"42QUESTION\""
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 793,
-            "value": "f(4, 2, QUESTION) must return \"42QUESTION\""
+            "value": "f(4, 2, QUESTION) must return \"42QUESTION\"",
+            "raw": "'f(4, 2, QUESTION) must return \"42QUESTION\"'"
           }
         ],
         "optional": false

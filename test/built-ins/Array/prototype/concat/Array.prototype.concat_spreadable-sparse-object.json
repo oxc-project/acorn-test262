@@ -40,7 +40,8 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 383,
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 },
                 "kind": "init"
               }
@@ -95,7 +96,8 @@
           "type": "Literal",
           "start": 420,
           "end": 424,
-          "value": true
+          "value": true,
+          "raw": "true"
         }
       }
     },
@@ -142,7 +144,8 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 453,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -155,7 +158,8 @@
                   "type": "Literal",
                   "start": 460,
                   "end": 461,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -168,7 +172,8 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 469,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -181,7 +186,8 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 477,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -194,7 +200,8 @@
                   "type": "Literal",
                   "start": 484,
                   "end": 485,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
             ]
@@ -236,7 +243,8 @@
             "type": "Literal",
             "start": 506,
             "end": 602,
-            "value": "[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)"
+            "value": "[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)",
+            "raw": "'[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)'"
           }
         ],
         "optional": false
@@ -274,7 +282,8 @@
           "type": "Literal",
           "start": 620,
           "end": 624,
-          "value": 4000
+          "value": 4000,
+          "raw": "4000"
         }
       }
     },
@@ -321,7 +330,8 @@
                 "type": "Literal",
                 "start": 656,
                 "end": 660,
-                "value": 4000
+                "value": 4000,
+                "raw": "4000"
               }
             ]
           },
@@ -362,7 +372,8 @@
             "type": "Literal",
             "start": 681,
             "end": 752,
-            "value": "new Array(4000) must return the same value returned by [].concat(obj)"
+            "value": "new Array(4000) must return the same value returned by [].concat(obj)",
+            "raw": "'new Array(4000) must return the same value returned by [].concat(obj)'"
           }
         ],
         "optional": false

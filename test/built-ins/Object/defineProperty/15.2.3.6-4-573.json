@@ -47,7 +47,8 @@
             "type": "Literal",
             "start": 301,
             "end": 303,
-            "value": 20
+            "value": 20,
+            "raw": "20"
           }
         }
       ],
@@ -157,7 +158,8 @@
             "type": "Literal",
             "start": 392,
             "end": 398,
-            "value": "prop"
+            "value": "prop",
+            "raw": "\"prop\""
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +225,8 @@
           "type": "Literal",
           "start": 432,
           "end": 436,
-          "value": 2010
+          "value": 2010,
+          "raw": "2010"
         }
       }
     },
@@ -276,7 +279,8 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 492,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -328,7 +332,8 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 528,
-                "value": "prop"
+                "value": "prop",
+                "raw": "\"prop\""
               }
             ],
             "optional": false
@@ -337,7 +342,8 @@
             "type": "Literal",
             "start": 531,
             "end": 568,
-            "value": "obj.hasOwnProperty(\"prop\") !== true"
+            "value": "obj.hasOwnProperty(\"prop\") !== true",
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
           }
         ],
         "optional": false
@@ -400,7 +406,8 @@
             "type": "Literal",
             "start": 607,
             "end": 617,
-            "value": "desc.set"
+            "value": "desc.set",
+            "raw": "'desc.set'"
           }
         ],
         "optional": false
@@ -444,13 +451,15 @@
             "type": "Literal",
             "start": 652,
             "end": 656,
-            "value": 2010
+            "value": 2010,
+            "raw": "2010"
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 673,
-            "value": "verifySetFunc"
+            "value": "verifySetFunc",
+            "raw": "'verifySetFunc'"
           }
         ],
         "optional": false
