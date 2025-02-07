@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 582,
             "end": 611,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Gurung_Khema}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gurung_Khema}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 684,
             "end": 705,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Gukh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gukh}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 770,
             "end": 795,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Gurung_Khema}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gurung_Khema}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 864,
             "end": 881,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Gukh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gukh}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1155,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Gurung_Khema}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gurung_Khema}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Gukh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gukh}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1345,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Gurung_Khema}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gurung_Khema}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1417,
             "end": 1434,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Gukh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gukh}+$",

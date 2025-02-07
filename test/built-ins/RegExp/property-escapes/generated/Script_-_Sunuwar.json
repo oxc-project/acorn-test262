@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 603,
             "end": 627,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sunuwar}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 695,
             "end": 716,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Sunu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sunu}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 781,
             "end": 801,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sunuwar}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 865,
             "end": 882,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Sunu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sunu}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1177,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sunuwar}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1248,
             "end": 1269,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Sunu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sunu}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1337,
             "end": 1357,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sunuwar}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1441,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Sunu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sunu}+$",

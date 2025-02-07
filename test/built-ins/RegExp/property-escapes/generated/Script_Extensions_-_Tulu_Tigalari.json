@@ -344,7 +344,7 @@
             "type": "Literal",
             "start": 902,
             "end": 943,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script_Extensions=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tulu_Tigalari}+$",
@@ -387,7 +387,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1060,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script_Extensions=Tutg}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tutg}+$",
@@ -430,7 +430,7 @@
             "type": "Literal",
             "start": 1136,
             "end": 1163,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{scx=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tulu_Tigalari}+$",
@@ -473,7 +473,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1252,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{scx=Tutg}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tutg}+$",
@@ -887,7 +887,7 @@
             "type": "Literal",
             "start": 1794,
             "end": 1835,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script_Extensions=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tulu_Tigalari}+$",
@@ -930,7 +930,7 @@
             "type": "Literal",
             "start": 1923,
             "end": 1955,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script_Extensions=Tutg}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tutg}+$",
@@ -973,7 +973,7 @@
             "type": "Literal",
             "start": 2034,
             "end": 2061,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{scx=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tulu_Tigalari}+$",
@@ -1016,7 +1016,7 @@
             "type": "Literal",
             "start": 2135,
             "end": 2153,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{scx=Tutg}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tutg}+$",

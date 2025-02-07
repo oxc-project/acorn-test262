@@ -204,7 +204,7 @@
             "type": "Literal",
             "start": 712,
             "end": 747,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script_Extensions=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sunuwar}+$",
@@ -247,7 +247,7 @@
             "type": "Literal",
             "start": 826,
             "end": 858,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script_Extensions=Sunu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sunu}+$",
@@ -290,7 +290,7 @@
             "type": "Literal",
             "start": 934,
             "end": 955,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{scx=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sunuwar}+$",
@@ -333,7 +333,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1038,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{scx=Sunu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sunu}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1456,
             "end": 1491,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script_Extensions=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sunuwar}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1573,
             "end": 1605,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script_Extensions=Sunu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sunu}+$",
@@ -763,7 +763,7 @@
             "type": "Literal",
             "start": 1684,
             "end": 1705,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{scx=Sunuwar}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sunuwar}+$",
@@ -806,7 +806,7 @@
             "type": "Literal",
             "start": 1773,
             "end": 1791,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{scx=Sunu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sunu}+$",

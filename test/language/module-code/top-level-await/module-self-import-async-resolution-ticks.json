@@ -348,58 +348,51 @@
       "start": 3015,
       "end": 3078,
       "expression": {
-        "type": "SequenceExpression",
+        "type": "CallExpression",
         "start": 3015,
         "end": 3077,
-        "expressions": [
-          {
-            "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3015,
+          "end": 3031,
+          "object": {
+            "type": "Identifier",
             "start": 3015,
-            "end": 3041,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 3015,
-              "end": 3031,
-              "object": {
-                "type": "Identifier",
-                "start": 3015,
-                "end": 3021,
-                "name": "assert"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 3022,
-                "end": 3031,
-                "name": "sameValue"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Identifier",
-                "start": 3032,
-                "end": 3036,
-                "name": "self"
-              },
-              {
-                "type": "Literal",
-                "start": 3038,
-                "end": 3040,
-                "value": 42,
-                "raw": "42"
-              }
-            ],
-            "optional": false
+            "end": 3021,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3022,
+            "end": 3031,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3032,
+            "end": 3036,
+            "name": "self"
           },
           {
             "type": "Literal",
-            "start": 3043,
-            "end": 3077,
+            "start": 3038,
+            "end": 3040,
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "type": "Literal",
+            "start": 3042,
+            "end": 3076,
             "value": "self is initialized after export",
             "raw": "'self is initialized after export'"
           }
-        ]
+        ],
+        "optional": false
       }
     },
     {

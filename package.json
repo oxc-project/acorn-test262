@@ -6,7 +6,7 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "init": "degit tc39/test262#701b220976776948e693834150945f210b4be5eb test262",
+    "init": "degit tc39/test262#bc5c14176e2b11a78859571eb693f028c8822458 test262",
     "start": "node ./index.mjs"
   },
   "devDependencies": {

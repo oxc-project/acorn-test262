@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 576,
             "end": 599,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Todhri}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Todhri}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 666,
             "end": 687,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{Script=Todr}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Todr}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 752,
             "end": 771,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Todhri}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Todhri}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 834,
             "end": 851,
-            "value": null,
+            "value": {},
             "raw": "/^\\p{sc=Todr}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Todr}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1119,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Todhri}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Todhri}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1210,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{Script=Todr}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Todr}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1297,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Todhri}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Todhri}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1380,
-            "value": null,
+            "value": {},
             "raw": "/^\\P{sc=Todr}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Todr}+$",
