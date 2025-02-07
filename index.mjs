@@ -1,8 +1,8 @@
 import { Parser } from "acorn";
 import fs from "fs";
 import path from "path";
-import YAML from "yaml";
 import traverse from "traverse";
+import YAML from "yaml";
 
 async function* walk(dir) {
   for await (const d of await fs.promises.opendir(dir)) {
@@ -21,21 +21,17 @@ for await (const p of walk("./test262/test")) {
   const start = code.indexOf("/*---");
   const end = code.indexOf("---*/");
   const yaml = code.substring(start + 5, end);
-  let preamble;
 
+  let preamble;
   try {
     preamble = YAML.parse(yaml);
-  } catch(err) {
-    continue
-  }
-
-  const negative =
-    preamble.negative?.phase === "parse" &&
-    preamble.negative?.type === "SyntaxError";
-
-  if (negative) {
+  } catch (err) {
     continue;
   }
+
+  const negative = preamble.negative?.phase === "parse" &&
+    preamble.negative?.type === "SyntaxError";
+  if (negative) continue;
 
   const module = preamble.flags?.includes("module");
   const writePath = path.parse(path.join("./", p.replace(/^test262\//, "")));
@@ -48,7 +44,7 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    let astJson = Parser.parse(code, {
+    let ast = Parser.parse(code, {
       ecmaVersion: "latest",
       sourceType: module ? "module" : "script",
       preserveParens: true,
@@ -57,15 +53,14 @@ for await (const p of walk("./test262/test")) {
       allowAwaitOutsideFunction: true,
     });
 
+    // Replace bigints with strings
     const bigIntSerializer = (_key, value) => {
       return typeof value === "bigint" ? value.toString() + "n" : value;
     };
+    ast = JSON.parse(JSON.stringify(ast, bigIntSerializer));
 
-    // remove references
-    astJson = JSON.parse(JSON.stringify(astJson, bigIntSerializer));
-
-    // omit the raw field, which is useless for test comparisons
-    traverse(astJson).forEach((node) => {
+    // Omit the `bigint` field, which is useless for test comparisons
+    traverse(ast).forEach((node) => {
       if (node && node.type === "Literal") {
         if (node.bigint) {
           delete node.bigint;
@@ -73,7 +68,7 @@ for await (const p of walk("./test262/test")) {
       }
     });
 
-    await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
+    await fs.promises.writeFile(writeFile, JSON.stringify(ast, null, 2));
   } catch (err) {
     if (fs.existsSync(writeFile)) {
       fs.unlinkSync(writeFile);
