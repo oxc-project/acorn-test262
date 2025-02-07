@@ -11,14 +11,14 @@ allowReturnOutsideFunction: true,
 allowAwaitOutsideFunction: true,
 ```
 
-Negative errors are filtered out,
-Files produce the following errors are ignored:
+Negative errors are filtered out.
+Files producing the following errors are ignored:
 
-* Do not know how to serialize a BigInt
-* Invalid regular expression flag
-* Unexpected token (possibility a stage 3 feature)
+* Invalid regular expression flag.
+* Unexpected token (possibility a stage 3 feature).
+* Cannot parse YAML from Test262 fixture comment.
 
-Literal.raw is deleted, it is useless for test comparisons
+`BigInt`s are converted to a string with `n` postfix (e.g. `"123n"`).
 
 ## Maintainance
 
