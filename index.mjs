@@ -1,23 +1,25 @@
 import { Parser } from "acorn";
-import fs from "fs";
+import fs from "fs/promises";
 import path from "path";
 import traverse from "traverse";
 import YAML from "yaml";
 
 async function* walk(dir) {
-  for await (const d of await fs.promises.opendir(dir)) {
+  for await (const d of await fs.opendir(dir)) {
     const entry = path.join(dir, d.name);
     if (d.isDirectory()) yield* walk(entry);
     else if (d.isFile()) yield entry;
   }
 }
 
+await fs.rm("./test", { recursive: true, force: true });
+
 for await (const p of walk("./test262/test")) {
   if (p.includes("_FIXTURE") || p.includes("staging")) {
     continue;
   }
 
-  const code = await fs.promises.readFile(path.join("./", p), "utf8");
+  const code = await fs.readFile(path.join("./", p), "utf8");
   const start = code.indexOf("/*---");
   const end = code.indexOf("---*/");
   const yaml = code.substring(start + 5, end);
@@ -37,11 +39,7 @@ for await (const p of walk("./test262/test")) {
   const writePath = path.parse(path.join("./", p.replace(/^test262\//, "")));
   const writeFile = writePath.dir + "/" + writePath.name + ".json";
 
-  if (!fs.existsSync(writePath.dir)) {
-    fs.mkdirSync(writePath.dir, {
-      recursive: true,
-    });
-  }
+  await fs.mkdir(writePath.dir, { recursive: true });
 
   try {
     let ast = Parser.parse(code, {
@@ -68,12 +66,8 @@ for await (const p of walk("./test262/test")) {
       }
     });
 
-    await fs.promises.writeFile(writeFile, JSON.stringify(ast, null, 2));
+    await fs.writeFile(writeFile, JSON.stringify(ast, null, 2));
   } catch (err) {
-    if (fs.existsSync(writeFile)) {
-      fs.unlinkSync(writeFile);
-      console.log("Removed: ", writeFile);
-    }
     console.log(p);
     console.log(err.message);
   }
