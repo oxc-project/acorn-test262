@@ -73,7 +73,8 @@
                 "start": 330,
                 "end": 332,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",
@@ -4659,7 +4660,8 @@
                         "start": 13336,
                         "end": 13338,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "Identifier",
@@ -4784,7 +4786,8 @@
                         "start": 13448,
                         "end": 13450,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "Identifier",
@@ -4909,7 +4912,8 @@
                         "start": 13567,
                         "end": 13569,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "Identifier",

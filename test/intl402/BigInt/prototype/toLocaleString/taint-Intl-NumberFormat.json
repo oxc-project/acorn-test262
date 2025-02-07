@@ -52,7 +52,8 @@
             "start": 446,
             "end": 448,
             "value": "0n",
-            "raw": "0n"
+            "raw": "0n",
+            "bigint": "0"
           },
           "property": {
             "type": "Identifier",

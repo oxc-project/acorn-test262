@@ -75,14 +75,16 @@
                                 "start": 723,
                                 "end": 726,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 728,
                                 "end": 731,
                                 "value": "43n",
-                                "raw": "43n"
+                                "raw": "43n",
+                                "bigint": "43"
                               }
                             ]
                           }

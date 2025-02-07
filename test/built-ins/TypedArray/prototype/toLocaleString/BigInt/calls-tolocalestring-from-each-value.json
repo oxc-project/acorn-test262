@@ -356,14 +356,16 @@
                                 "start": 1640,
                                 "end": 1643,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1645,
                                 "end": 1647,
                                 "value": "0n",
-                                "raw": "0n"
+                                "raw": "0n",
+                                "bigint": "0"
                               }
                             ]
                           }

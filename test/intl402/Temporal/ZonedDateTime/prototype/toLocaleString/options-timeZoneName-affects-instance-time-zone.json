@@ -47,7 +47,8 @@
                 "start": 360,
                 "end": 362,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

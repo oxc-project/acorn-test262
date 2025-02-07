@@ -174,7 +174,8 @@
                                     "start": 748,
                                     "end": 751,
                                     "value": "42n",
-                                    "raw": "42n"
+                                    "raw": "42n",
+                                    "bigint": "42"
                                   }
                                 ],
                                 "optional": false

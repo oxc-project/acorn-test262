@@ -69,7 +69,8 @@
                 "start": 356,
                 "end": 358,
                 "value": "2n",
-                "raw": "2n"
+                "raw": "2n",
+                "bigint": "2"
               }
             ]
           }
@@ -453,7 +454,8 @@
                             "start": 664,
                             "end": 666,
                             "value": "0n",
-                            "raw": "0n"
+                            "raw": "0n",
+                            "bigint": "0"
                           },
                           {
                             "type": "Literal",

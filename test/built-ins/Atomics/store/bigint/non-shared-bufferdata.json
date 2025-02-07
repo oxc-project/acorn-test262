@@ -211,7 +211,8 @@
                             "start": 523,
                             "end": 525,
                             "value": "1n",
-                            "raw": "1n"
+                            "raw": "1n",
+                            "bigint": "1"
                           }
                         ],
                         "optional": false
@@ -221,7 +222,8 @@
                         "start": 528,
                         "end": 530,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       },
                       {
                         "type": "Literal",
@@ -307,7 +309,8 @@
                         "start": 616,
                         "end": 618,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       },
                       {
                         "type": "Literal",

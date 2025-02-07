@@ -120,7 +120,8 @@
                 "start": 503,
                 "end": 505,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",

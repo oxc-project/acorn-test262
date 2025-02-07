@@ -269,21 +269,24 @@
                                 "start": 920,
                                 "end": 922,
                                 "value": "1n",
-                                "raw": "1n"
+                                "raw": "1n",
+                                "bigint": "1"
                               },
                               {
                                 "type": "Literal",
                                 "start": 924,
                                 "end": 926,
                                 "value": "2n",
-                                "raw": "2n"
+                                "raw": "2n",
+                                "bigint": "2"
                               },
                               {
                                 "type": "Literal",
                                 "start": 928,
                                 "end": 930,
                                 "value": "3n",
-                                "raw": "3n"
+                                "raw": "3n",
+                                "bigint": "3"
                               }
                             ]
                           }

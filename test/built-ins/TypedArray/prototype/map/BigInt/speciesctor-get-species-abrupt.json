@@ -339,7 +339,8 @@
                                             "start": 1113,
                                             "end": 1115,
                                             "value": "0n",
-                                            "raw": "0n"
+                                            "raw": "0n",
+                                            "bigint": "0"
                                           }
                                         }
                                       ]

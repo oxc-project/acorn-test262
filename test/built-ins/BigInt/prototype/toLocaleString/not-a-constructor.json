@@ -163,7 +163,8 @@
                         "start": 902,
                         "end": 904,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       }
                     }
                   ],

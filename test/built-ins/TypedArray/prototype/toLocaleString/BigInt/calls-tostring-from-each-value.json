@@ -311,14 +311,16 @@
                 "start": 1685,
                 "end": 1688,
                 "value": "42n",
-                "raw": "42n"
+                "raw": "42n",
+                "bigint": "42"
               },
               {
                 "type": "Literal",
                 "start": 1690,
                 "end": 1692,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

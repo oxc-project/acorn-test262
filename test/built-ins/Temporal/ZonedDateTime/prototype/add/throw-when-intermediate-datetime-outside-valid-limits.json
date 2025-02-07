@@ -27,7 +27,8 @@
               "start": 1023,
               "end": 1027,
               "value": "864n",
-              "raw": "864n"
+              "raw": "864n",
+              "bigint": "864"
             },
             "operator": "*",
             "right": {
@@ -39,7 +40,8 @@
                 "start": 1030,
                 "end": 1033,
                 "value": "10n",
-                "raw": "10n"
+                "raw": "10n",
+                "bigint": "10"
               },
               "operator": "**",
               "right": {
@@ -47,7 +49,8 @@
                 "start": 1035,
                 "end": 1038,
                 "value": "19n",
-                "raw": "19n"
+                "raw": "19n",
+                "bigint": "19"
               }
             }
           }

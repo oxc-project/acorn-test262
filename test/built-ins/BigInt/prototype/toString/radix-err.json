@@ -137,7 +137,8 @@
                                 "start": 506,
                                 "end": 508,
                                 "value": "0n",
-                                "raw": "0n"
+                                "raw": "0n",
+                                "bigint": "0"
                               }
                             },
                             "property": {
@@ -261,7 +262,8 @@
                                   "start": 593,
                                   "end": 595,
                                   "value": "1n",
-                                  "raw": "1n"
+                                  "raw": "1n",
+                                  "bigint": "1"
                                 }
                               }
                             },
@@ -380,7 +382,8 @@
                                 "start": 680,
                                 "end": 682,
                                 "value": "1n",
-                                "raw": "1n"
+                                "raw": "1n",
+                                "bigint": "1"
                               }
                             },
                             "property": {

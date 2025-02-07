@@ -412,7 +412,8 @@
                     "start": 1695,
                     "end": 1697,
                     "value": "1n",
-                    "raw": "1n"
+                    "raw": "1n",
+                    "bigint": "1"
                   }
                 ],
                 "optional": false
@@ -487,7 +488,8 @@
                             "start": 1757,
                             "end": 1759,
                             "value": "1n",
-                            "raw": "1n"
+                            "raw": "1n",
+                            "bigint": "1"
                           },
                           {
                             "type": "Literal",
@@ -546,7 +548,8 @@
                             "start": 1819,
                             "end": 1821,
                             "value": "1n",
-                            "raw": "1n"
+                            "raw": "1n",
+                            "bigint": "1"
                           }
                         ],
                         "optional": false

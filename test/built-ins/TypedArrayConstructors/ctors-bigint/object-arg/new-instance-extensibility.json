@@ -78,7 +78,8 @@
                               "start": 960,
                               "end": 962,
                               "value": "0n",
-                              "raw": "0n"
+                              "raw": "0n",
+                              "bigint": "0"
                             },
                             "kind": "init"
                           },
@@ -101,7 +102,8 @@
                               "start": 973,
                               "end": 975,
                               "value": "1n",
-                              "raw": "1n"
+                              "raw": "1n",
+                              "bigint": "1"
                             },
                             "kind": "init"
                           },
@@ -124,7 +126,8 @@
                               "start": 986,
                               "end": 988,
                               "value": "2n",
-                              "raw": "2n"
+                              "raw": "2n",
+                              "bigint": "2"
                             },
                             "kind": "init"
                           },

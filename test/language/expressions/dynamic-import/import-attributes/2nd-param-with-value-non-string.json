@@ -775,7 +775,8 @@
                                           "start": 1921,
                                           "end": 1924,
                                           "value": "23n",
-                                          "raw": "23n"
+                                          "raw": "23n",
+                                          "bigint": "23"
                                         },
                                         "kind": "init"
                                       }

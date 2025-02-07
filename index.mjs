@@ -59,15 +59,6 @@ for await (const p of walk("./test262/test")) {
     };
     ast = JSON.parse(JSON.stringify(ast, bigIntSerializer));
 
-    // Omit the `bigint` field, which is useless for test comparisons
-    traverse(ast).forEach((node) => {
-      if (node && node.type === "Literal") {
-        if (node.bigint) {
-          delete node.bigint;
-        }
-      }
-    });
-
     await fs.writeFile(writeFile, JSON.stringify(ast, null, 2));
   } catch (err) {
     console.log(p);

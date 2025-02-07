@@ -758,7 +758,8 @@
                               "start": 1243,
                               "end": 1247,
                               "value": "123n",
-                              "raw": "123n"
+                              "raw": "123n",
+                              "bigint": "123"
                             },
                             "kind": "init"
                           }

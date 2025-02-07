@@ -64,7 +64,8 @@
                       "start": 588,
                       "end": 590,
                       "value": "1n",
-                      "raw": "1n"
+                      "raw": "1n",
+                      "bigint": "1"
                     },
                     "operator": "**",
                     "right": {
@@ -78,7 +79,8 @@
                         "start": 595,
                         "end": 597,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       }
                     }
                   }
@@ -158,7 +160,8 @@
                       "start": 676,
                       "end": 678,
                       "value": "0n",
-                      "raw": "0n"
+                      "raw": "0n",
+                      "bigint": "0"
                     },
                     "operator": "**",
                     "right": {
@@ -172,7 +175,8 @@
                         "start": 683,
                         "end": 685,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       }
                     }
                   }
@@ -262,7 +266,8 @@
                           "start": 766,
                           "end": 768,
                           "value": "1n",
-                          "raw": "1n"
+                          "raw": "1n",
+                          "bigint": "1"
                         }
                       }
                     },
@@ -278,7 +283,8 @@
                         "start": 774,
                         "end": 776,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       }
                     }
                   }
@@ -358,7 +364,8 @@
                       "start": 858,
                       "end": 860,
                       "value": "1n",
-                      "raw": "1n"
+                      "raw": "1n",
+                      "bigint": "1"
                     },
                     "operator": "**",
                     "right": {
@@ -372,7 +379,8 @@
                         "start": 865,
                         "end": 884,
                         "value": "100000000000000000n",
-                        "raw": "100000000000000000n"
+                        "raw": "100000000000000000n",
+                        "bigint": "100000000000000000"
                       }
                     }
                   }

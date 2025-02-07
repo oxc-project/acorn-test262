@@ -94,7 +94,8 @@
                 "start": 444,
                 "end": 446,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

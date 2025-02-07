@@ -94,7 +94,8 @@
                 "start": 616,
                 "end": 622,
                 "value": "12345n",
-                "raw": "12345n"
+                "raw": "12345n",
+                "bigint": "12345"
               },
               "property": {
                 "type": "Identifier",

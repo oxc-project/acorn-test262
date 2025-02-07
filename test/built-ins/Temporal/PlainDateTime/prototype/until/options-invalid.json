@@ -237,7 +237,8 @@
                 "start": 462,
                 "end": 464,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             ]
           }

@@ -101,7 +101,8 @@
                 "start": 507,
                 "end": 509,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

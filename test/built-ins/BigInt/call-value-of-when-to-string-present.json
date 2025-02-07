@@ -183,7 +183,8 @@
             "start": 583,
             "end": 586,
             "value": "44n",
-            "raw": "44n"
+            "raw": "44n",
+            "bigint": "44"
           }
         ],
         "optional": false

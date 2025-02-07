@@ -75,28 +75,32 @@
                                 "start": 536,
                                 "end": 539,
                                 "value": "40n",
-                                "raw": "40n"
+                                "raw": "40n",
+                                "bigint": "40"
                               },
                               {
                                 "type": "Literal",
                                 "start": 541,
                                 "end": 544,
                                 "value": "41n",
-                                "raw": "41n"
+                                "raw": "41n",
+                                "bigint": "41"
                               },
                               {
                                 "type": "Literal",
                                 "start": 546,
                                 "end": 549,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 551,
                                 "end": 554,
                                 "value": "43n",
-                                "raw": "43n"
+                                "raw": "43n",
+                                "bigint": "43"
                               }
                             ]
                           }
@@ -255,7 +259,8 @@
                               "start": 670,
                               "end": 673,
                               "value": "40n",
-                              "raw": "40n"
+                              "raw": "40n",
+                              "bigint": "40"
                             },
                             {
                               "type": "BinaryExpression",
@@ -333,7 +338,8 @@
                               "start": 737,
                               "end": 740,
                               "value": "41n",
-                              "raw": "41n"
+                              "raw": "41n",
+                              "bigint": "41"
                             },
                             {
                               "type": "BinaryExpression",
@@ -411,7 +417,8 @@
                               "start": 804,
                               "end": 807,
                               "value": "42n",
-                              "raw": "42n"
+                              "raw": "42n",
+                              "bigint": "42"
                             },
                             {
                               "type": "BinaryExpression",
@@ -489,7 +496,8 @@
                               "start": 871,
                               "end": 874,
                               "value": "43n",
-                              "raw": "43n"
+                              "raw": "43n",
+                              "bigint": "43"
                             },
                             {
                               "type": "BinaryExpression",

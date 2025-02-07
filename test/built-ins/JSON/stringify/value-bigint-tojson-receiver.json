@@ -75,7 +75,8 @@
                   "start": 331,
                   "end": 333,
                   "value": "1n",
-                  "raw": "1n"
+                  "raw": "1n",
+                  "bigint": "1"
                 }
               ],
               "optional": false
@@ -286,7 +287,8 @@
                 "start": 706,
                 "end": 708,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             ],
             "optional": false

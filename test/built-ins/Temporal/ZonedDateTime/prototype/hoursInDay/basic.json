@@ -43,7 +43,8 @@
                       "start": 278,
                       "end": 281,
                       "value": "24n",
-                      "raw": "24n"
+                      "raw": "24n",
+                      "bigint": "24"
                     },
                     "operator": "*",
                     "right": {
@@ -51,7 +52,8 @@
                       "start": 284,
                       "end": 287,
                       "value": "60n",
-                      "raw": "60n"
+                      "raw": "60n",
+                      "bigint": "60"
                     }
                   },
                   "operator": "*",
@@ -60,7 +62,8 @@
                     "start": 290,
                     "end": 293,
                     "value": "60n",
-                    "raw": "60n"
+                    "raw": "60n",
+                    "bigint": "60"
                   }
                 },
                 "operator": "*",
@@ -69,7 +72,8 @@
                   "start": 296,
                   "end": 301,
                   "value": "1000n",
-                  "raw": "1000n"
+                  "raw": "1000n",
+                  "bigint": "1000"
                 }
               },
               "operator": "*",
@@ -78,7 +82,8 @@
                 "start": 304,
                 "end": 309,
                 "value": "1000n",
-                "raw": "1000n"
+                "raw": "1000n",
+                "bigint": "1000"
               }
             },
             "operator": "*",
@@ -87,7 +92,8 @@
               "start": 312,
               "end": 317,
               "value": "1000n",
-              "raw": "1000n"
+              "raw": "1000n",
+              "bigint": "1000"
             }
           }
         }
@@ -119,7 +125,8 @@
                 "start": 347,
                 "end": 349,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",

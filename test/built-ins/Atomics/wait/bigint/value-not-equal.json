@@ -337,7 +337,8 @@
             "start": 1269,
             "end": 1271,
             "value": "1n",
-            "raw": "1n"
+            "raw": "1n",
+            "bigint": "1"
           }
         ],
         "optional": false

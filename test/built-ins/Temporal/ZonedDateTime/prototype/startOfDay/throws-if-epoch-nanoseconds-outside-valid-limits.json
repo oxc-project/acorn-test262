@@ -77,7 +77,8 @@
                   "start": 502,
                   "end": 506,
                   "value": "864n",
-                  "raw": "864n"
+                  "raw": "864n",
+                  "bigint": "864"
                 }
               },
               "operator": "*",
@@ -90,7 +91,8 @@
                   "start": 509,
                   "end": 512,
                   "value": "10n",
-                  "raw": "10n"
+                  "raw": "10n",
+                  "bigint": "10"
                 },
                 "operator": "**",
                 "right": {
@@ -98,7 +100,8 @@
                   "start": 514,
                   "end": 517,
                   "value": "19n",
-                  "raw": "19n"
+                  "raw": "19n",
+                  "bigint": "19"
                 }
               }
             },
@@ -241,7 +244,8 @@
                   "start": 613,
                   "end": 617,
                   "value": "864n",
-                  "raw": "864n"
+                  "raw": "864n",
+                  "bigint": "864"
                 }
               },
               "operator": "*",
@@ -254,7 +258,8 @@
                   "start": 620,
                   "end": 623,
                   "value": "10n",
-                  "raw": "10n"
+                  "raw": "10n",
+                  "bigint": "10"
                 },
                 "operator": "**",
                 "right": {
@@ -262,7 +267,8 @@
                   "start": 625,
                   "end": 628,
                   "value": "19n",
-                  "raw": "19n"
+                  "raw": "19n",
+                  "bigint": "19"
                 }
               }
             },
@@ -405,7 +411,8 @@
                   "start": 724,
                   "end": 728,
                   "value": "864n",
-                  "raw": "864n"
+                  "raw": "864n",
+                  "bigint": "864"
                 }
               },
               "operator": "*",
@@ -418,7 +425,8 @@
                   "start": 731,
                   "end": 734,
                   "value": "10n",
-                  "raw": "10n"
+                  "raw": "10n",
+                  "bigint": "10"
                 },
                 "operator": "**",
                 "right": {
@@ -426,7 +434,8 @@
                   "start": 736,
                   "end": 739,
                   "value": "19n",
-                  "raw": "19n"
+                  "raw": "19n",
+                  "bigint": "19"
                 }
               }
             },

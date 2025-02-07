@@ -42,7 +42,8 @@
                   "start": 526,
                   "end": 529,
                   "value": "42n",
-                  "raw": "42n"
+                  "raw": "42n",
+                  "bigint": "42"
                 },
                 "kind": "init"
               },

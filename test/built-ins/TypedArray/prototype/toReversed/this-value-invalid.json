@@ -378,7 +378,8 @@
                   "start": 791,
                   "end": 793,
                   "value": "1n",
-                  "raw": "1n"
+                  "raw": "1n",
+                  "bigint": "1"
                 },
                 "kind": "init"
               }

@@ -284,7 +284,8 @@
                                                 "start": 690,
                                                 "end": 693,
                                                 "value": "10n",
-                                                "raw": "10n"
+                                                "raw": "10n",
+                                                "bigint": "10"
                                               }
                                             ],
                                             "optional": false

@@ -28,21 +28,24 @@
                 "start": 1166,
                 "end": 1169,
                 "value": "42n",
-                "raw": "42n"
+                "raw": "42n",
+                "bigint": "42"
               },
               {
                 "type": "Literal",
                 "start": 1171,
                 "end": 1174,
                 "value": "43n",
-                "raw": "43n"
+                "raw": "43n",
+                "bigint": "43"
               },
               {
                 "type": "Literal",
                 "start": 1176,
                 "end": 1179,
                 "value": "44n",
-                "raw": "44n"
+                "raw": "44n",
+                "bigint": "44"
               }
             ]
           }

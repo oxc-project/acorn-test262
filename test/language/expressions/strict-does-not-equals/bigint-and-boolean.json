@@ -46,7 +46,8 @@
                 "start": 349,
                 "end": 351,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             },
             "operator": "!==",
@@ -127,7 +128,8 @@
                 "start": 439,
                 "end": 441,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             }
           },
@@ -192,7 +194,8 @@
                 "start": 509,
                 "end": 511,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             },
             "operator": "!==",
@@ -273,7 +276,8 @@
                 "start": 596,
                 "end": 598,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             }
           },
@@ -332,7 +336,8 @@
               "start": 664,
               "end": 666,
               "value": "0n",
-              "raw": "0n"
+              "raw": "0n",
+              "bigint": "0"
             },
             "operator": "!==",
             "right": {
@@ -406,7 +411,8 @@
               "start": 752,
               "end": 754,
               "value": "0n",
-              "raw": "0n"
+              "raw": "0n",
+              "bigint": "0"
             }
           },
           {
@@ -464,7 +470,8 @@
               "start": 820,
               "end": 822,
               "value": "0n",
-              "raw": "0n"
+              "raw": "0n",
+              "bigint": "0"
             },
             "operator": "!==",
             "right": {
@@ -538,7 +545,8 @@
               "start": 905,
               "end": 907,
               "value": "0n",
-              "raw": "0n"
+              "raw": "0n",
+              "bigint": "0"
             }
           },
           {
@@ -596,7 +604,8 @@
               "start": 972,
               "end": 974,
               "value": "1n",
-              "raw": "1n"
+              "raw": "1n",
+              "bigint": "1"
             },
             "operator": "!==",
             "right": {
@@ -670,7 +679,8 @@
               "start": 1060,
               "end": 1062,
               "value": "1n",
-              "raw": "1n"
+              "raw": "1n",
+              "bigint": "1"
             }
           },
           {
@@ -728,7 +738,8 @@
               "start": 1128,
               "end": 1130,
               "value": "1n",
-              "raw": "1n"
+              "raw": "1n",
+              "bigint": "1"
             },
             "operator": "!==",
             "right": {
@@ -802,7 +813,8 @@
               "start": 1213,
               "end": 1215,
               "value": "1n",
-              "raw": "1n"
+              "raw": "1n",
+              "bigint": "1"
             }
           },
           {
@@ -860,7 +872,8 @@
               "start": 1280,
               "end": 1282,
               "value": "2n",
-              "raw": "2n"
+              "raw": "2n",
+              "bigint": "2"
             },
             "operator": "!==",
             "right": {
@@ -934,7 +947,8 @@
               "start": 1368,
               "end": 1370,
               "value": "2n",
-              "raw": "2n"
+              "raw": "2n",
+              "bigint": "2"
             }
           },
           {
@@ -992,7 +1006,8 @@
               "start": 1436,
               "end": 1438,
               "value": "2n",
-              "raw": "2n"
+              "raw": "2n",
+              "bigint": "2"
             },
             "operator": "!==",
             "right": {
@@ -1066,7 +1081,8 @@
               "start": 1521,
               "end": 1523,
               "value": "2n",
-              "raw": "2n"
+              "raw": "2n",
+              "bigint": "2"
             }
           },
           {

@@ -133,7 +133,8 @@
                 "start": 384,
                 "end": 386,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               }
             ]
           },

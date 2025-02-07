@@ -73,7 +73,8 @@
                 "start": 367,
                 "end": 369,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",
@@ -929,7 +930,8 @@
                 "start": 1962,
                 "end": 1964,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",
@@ -1180,7 +1182,8 @@
                 "start": 2196,
                 "end": 2198,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",

@@ -430,7 +430,8 @@
                             "start": 675,
                             "end": 677,
                             "value": "0n",
-                            "raw": "0n"
+                            "raw": "0n",
+                            "bigint": "0"
                           },
                           {
                             "type": "Identifier",

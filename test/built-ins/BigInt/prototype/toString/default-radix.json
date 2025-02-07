@@ -54,7 +54,8 @@
                     "start": 252,
                     "end": 256,
                     "value": "100n",
-                    "raw": "100n"
+                    "raw": "100n",
+                    "bigint": "100"
                   }
                 }
               },
@@ -133,7 +134,8 @@
                   "start": 330,
                   "end": 332,
                   "value": "0n",
-                  "raw": "0n"
+                  "raw": "0n",
+                  "bigint": "0"
                 }
               },
               "property": {
@@ -211,7 +213,8 @@
                   "start": 397,
                   "end": 401,
                   "value": "100n",
-                  "raw": "100n"
+                  "raw": "100n",
+                  "bigint": "100"
                 }
               },
               "property": {
@@ -295,7 +298,8 @@
                     "start": 474,
                     "end": 478,
                     "value": "100n",
-                    "raw": "100n"
+                    "raw": "100n",
+                    "bigint": "100"
                   }
                 }
               },
@@ -381,7 +385,8 @@
                   "start": 587,
                   "end": 589,
                   "value": "0n",
-                  "raw": "0n"
+                  "raw": "0n",
+                  "bigint": "0"
                 }
               },
               "property": {
@@ -466,7 +471,8 @@
                   "start": 689,
                   "end": 693,
                   "value": "100n",
-                  "raw": "100n"
+                  "raw": "100n",
+                  "bigint": "100"
                 }
               },
               "property": {

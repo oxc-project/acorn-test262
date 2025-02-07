@@ -464,7 +464,8 @@
                             "start": 1604,
                             "end": 1606,
                             "value": "1n",
-                            "raw": "1n"
+                            "raw": "1n",
+                            "bigint": "1"
                           },
                           {
                             "type": "Literal",

@@ -642,7 +642,8 @@
                                     "start": 1891,
                                     "end": 1894,
                                     "value": "23n",
-                                    "raw": "23n"
+                                    "raw": "23n",
+                                    "bigint": "23"
                                   },
                                   "kind": "init"
                                 }

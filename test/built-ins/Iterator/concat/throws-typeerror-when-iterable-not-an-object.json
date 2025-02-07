@@ -487,7 +487,8 @@
                         "start": 885,
                         "end": 889,
                         "value": "123n",
-                        "raw": "123n"
+                        "raw": "123n",
+                        "bigint": "123"
                       }
                     ],
                     "optional": false

@@ -101,7 +101,8 @@
                         "start": 394,
                         "end": 396,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       },
                       {
                         "type": "ObjectExpression",

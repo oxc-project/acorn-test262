@@ -425,7 +425,8 @@
                         "start": 1174,
                         "end": 1176,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "Identifier",
@@ -545,7 +546,8 @@
                         "start": 1356,
                         "end": 1358,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "Identifier",
@@ -665,7 +667,8 @@
                         "start": 1543,
                         "end": 1545,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "CallExpression",
@@ -800,7 +803,8 @@
                         "start": 1715,
                         "end": 1717,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "CallExpression",

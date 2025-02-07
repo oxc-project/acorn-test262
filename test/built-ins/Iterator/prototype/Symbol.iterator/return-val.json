@@ -217,7 +217,8 @@
                 "start": 555,
                 "end": 557,
                 "value": "4n",
-                "raw": "4n"
+                "raw": "4n",
+                "bigint": "4"
               },
               {
                 "type": "Literal",

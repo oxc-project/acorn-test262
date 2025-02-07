@@ -36,14 +36,16 @@
             "start": 770,
             "end": 774,
             "value": "10n",
-            "raw": "1_0n"
+            "raw": "1_0n",
+            "bigint": "10"
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 779,
             "value": "10n",
-            "raw": "10n"
+            "raw": "10n",
+            "bigint": "10"
           }
         ],
         "optional": false
@@ -82,14 +84,16 @@
             "start": 799,
             "end": 803,
             "value": "11n",
-            "raw": "1_1n"
+            "raw": "1_1n",
+            "bigint": "11"
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 808,
             "value": "11n",
-            "raw": "11n"
+            "raw": "11n",
+            "bigint": "11"
           }
         ],
         "optional": false
@@ -128,14 +132,16 @@
             "start": 828,
             "end": 832,
             "value": "12n",
-            "raw": "1_2n"
+            "raw": "1_2n",
+            "bigint": "12"
           },
           {
             "type": "Literal",
             "start": 834,
             "end": 837,
             "value": "12n",
-            "raw": "12n"
+            "raw": "12n",
+            "bigint": "12"
           }
         ],
         "optional": false
@@ -174,14 +180,16 @@
             "start": 857,
             "end": 861,
             "value": "13n",
-            "raw": "1_3n"
+            "raw": "1_3n",
+            "bigint": "13"
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 866,
             "value": "13n",
-            "raw": "13n"
+            "raw": "13n",
+            "bigint": "13"
           }
         ],
         "optional": false
@@ -220,14 +228,16 @@
             "start": 886,
             "end": 890,
             "value": "14n",
-            "raw": "1_4n"
+            "raw": "1_4n",
+            "bigint": "14"
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 895,
             "value": "14n",
-            "raw": "14n"
+            "raw": "14n",
+            "bigint": "14"
           }
         ],
         "optional": false
@@ -266,14 +276,16 @@
             "start": 915,
             "end": 919,
             "value": "15n",
-            "raw": "1_5n"
+            "raw": "1_5n",
+            "bigint": "15"
           },
           {
             "type": "Literal",
             "start": 921,
             "end": 924,
             "value": "15n",
-            "raw": "15n"
+            "raw": "15n",
+            "bigint": "15"
           }
         ],
         "optional": false
@@ -312,14 +324,16 @@
             "start": 944,
             "end": 948,
             "value": "16n",
-            "raw": "1_6n"
+            "raw": "1_6n",
+            "bigint": "16"
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 953,
             "value": "16n",
-            "raw": "16n"
+            "raw": "16n",
+            "bigint": "16"
           }
         ],
         "optional": false
@@ -358,14 +372,16 @@
             "start": 973,
             "end": 977,
             "value": "17n",
-            "raw": "1_7n"
+            "raw": "1_7n",
+            "bigint": "17"
           },
           {
             "type": "Literal",
             "start": 979,
             "end": 982,
             "value": "17n",
-            "raw": "17n"
+            "raw": "17n",
+            "bigint": "17"
           }
         ],
         "optional": false
@@ -404,14 +420,16 @@
             "start": 1002,
             "end": 1006,
             "value": "18n",
-            "raw": "1_8n"
+            "raw": "1_8n",
+            "bigint": "18"
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1011,
             "value": "18n",
-            "raw": "18n"
+            "raw": "18n",
+            "bigint": "18"
           }
         ],
         "optional": false
@@ -450,14 +468,16 @@
             "start": 1031,
             "end": 1035,
             "value": "19n",
-            "raw": "1_9n"
+            "raw": "1_9n",
+            "bigint": "19"
           },
           {
             "type": "Literal",
             "start": 1037,
             "end": 1040,
             "value": "19n",
-            "raw": "19n"
+            "raw": "19n",
+            "bigint": "19"
           }
         ],
         "optional": false

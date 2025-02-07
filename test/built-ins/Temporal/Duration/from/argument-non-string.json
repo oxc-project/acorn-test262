@@ -603,7 +603,8 @@
                   "start": 707,
                   "end": 709,
                   "value": "5n",
-                  "raw": "5n"
+                  "raw": "5n",
+                  "bigint": "5"
                 }
               ],
               "optional": false

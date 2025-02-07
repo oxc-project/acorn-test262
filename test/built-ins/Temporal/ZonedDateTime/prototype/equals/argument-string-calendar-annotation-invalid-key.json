@@ -136,7 +136,8 @@
                 "start": 560,
                 "end": 562,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

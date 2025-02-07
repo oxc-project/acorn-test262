@@ -75,21 +75,24 @@
                                 "start": 491,
                                 "end": 493,
                                 "value": "0n",
-                                "raw": "0n"
+                                "raw": "0n",
+                                "bigint": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 495,
                                 "end": 498,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 500,
                                 "end": 503,
                                 "value": "64n",
-                                "raw": "64n"
+                                "raw": "64n",
+                                "bigint": "64"
                               }
                             ]
                           }
@@ -241,7 +244,8 @@
                         "start": 599,
                         "end": 601,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       }
                     ],
                     "optional": false
@@ -400,7 +404,8 @@
                         "start": 696,
                         "end": 699,
                         "value": "42n",
-                        "raw": "42n"
+                        "raw": "42n",
+                        "bigint": "42"
                       }
                     ],
                     "optional": false
@@ -559,7 +564,8 @@
                         "start": 794,
                         "end": 797,
                         "value": "64n",
-                        "raw": "64n"
+                        "raw": "64n",
+                        "bigint": "64"
                       }
                     ],
                     "optional": false

@@ -204,7 +204,8 @@
                 "start": 639,
                 "end": 641,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",
@@ -384,7 +385,8 @@
                         "start": 795,
                         "end": 814,
                         "value": "45296987654321n",
-                        "raw": "45_296_987_654_321n"
+                        "raw": "45_296_987_654_321n",
+                        "bigint": "45296987654321"
                       },
                       {
                         "type": "TemplateLiteral",

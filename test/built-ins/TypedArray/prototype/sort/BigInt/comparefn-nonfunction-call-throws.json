@@ -75,35 +75,40 @@
                                 "start": 723,
                                 "end": 726,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 728,
                                 "end": 731,
                                 "value": "43n",
-                                "raw": "43n"
+                                "raw": "43n",
+                                "bigint": "43"
                               },
                               {
                                 "type": "Literal",
                                 "start": 733,
                                 "end": 736,
                                 "value": "44n",
-                                "raw": "44n"
+                                "raw": "44n",
+                                "bigint": "44"
                               },
                               {
                                 "type": "Literal",
                                 "start": 738,
                                 "end": 741,
                                 "value": "45n",
-                                "raw": "45n"
+                                "raw": "45n",
+                                "bigint": "45"
                               },
                               {
                                 "type": "Literal",
                                 "start": 743,
                                 "end": 746,
                                 "value": "46n",
-                                "raw": "46n"
+                                "raw": "46n",
+                                "bigint": "46"
                               }
                             ]
                           }

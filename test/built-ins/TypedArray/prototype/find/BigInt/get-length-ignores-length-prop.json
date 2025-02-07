@@ -303,7 +303,8 @@
                                 "start": 1270,
                                 "end": 1273,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               }
                             ]
                           }
@@ -525,7 +526,8 @@
                         "start": 1483,
                         "end": 1486,
                         "value": "42n",
-                        "raw": "42n"
+                        "raw": "42n",
+                        "bigint": "42"
                       }
                     ],
                     "optional": false

@@ -271,7 +271,8 @@
                         "start": 545,
                         "end": 547,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       },
                       {
                         "type": "TemplateLiteral",

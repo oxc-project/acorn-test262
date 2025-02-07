@@ -152,7 +152,8 @@
                   "start": 948,
                   "end": 950,
                   "value": "1n",
-                  "raw": "1n"
+                  "raw": "1n",
+                  "bigint": "1"
                 }
               ],
               "optional": false
@@ -288,7 +289,8 @@
                   "start": 1044,
                   "end": 1046,
                   "value": "1n",
-                  "raw": "1n"
+                  "raw": "1n",
+                  "bigint": "1"
                 }
               }
             ]
@@ -392,7 +394,8 @@
                   "start": 1108,
                   "end": 1110,
                   "value": "0n",
-                  "raw": "0n"
+                  "raw": "0n",
+                  "bigint": "0"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -432,7 +435,8 @@
                         "start": 1131,
                         "end": 1133,
                         "value": "2n",
-                        "raw": "2n"
+                        "raw": "2n",
+                        "bigint": "2"
                       },
                       {
                         "type": "Identifier",
@@ -599,7 +603,8 @@
                   "start": 1228,
                   "end": 1230,
                   "value": "0n",
-                  "raw": "0n"
+                  "raw": "0n",
+                  "bigint": "0"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -650,7 +655,8 @@
                             "start": 1258,
                             "end": 1260,
                             "value": "2n",
-                            "raw": "2n"
+                            "raw": "2n",
+                            "bigint": "2"
                           }
                         ],
                         "optional": false

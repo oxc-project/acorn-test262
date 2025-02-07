@@ -69,7 +69,8 @@
                 "start": 370,
                 "end": 372,
                 "value": "2n",
-                "raw": "2n"
+                "raw": "2n",
+                "bigint": "2"
               }
             ]
           }

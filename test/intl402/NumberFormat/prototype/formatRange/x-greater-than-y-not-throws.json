@@ -204,14 +204,16 @@
                   "start": 706,
                   "end": 709,
                   "value": "23n",
-                  "raw": "23n"
+                  "raw": "23n",
+                  "bigint": "23"
                 },
                 {
                   "type": "Literal",
                   "start": 711,
                   "end": 714,
                   "value": "12n",
-                  "raw": "12n"
+                  "raw": "12n",
+                  "bigint": "12"
                 }
               ],
               "optional": false

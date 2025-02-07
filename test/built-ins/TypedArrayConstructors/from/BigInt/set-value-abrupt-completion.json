@@ -139,7 +139,8 @@
                             "start": 764,
                             "end": 767,
                             "value": "42n",
-                            "raw": "42n"
+                            "raw": "42n",
+                            "bigint": "42"
                           },
                           {
                             "type": "Identifier",
@@ -152,7 +153,8 @@
                             "start": 774,
                             "end": 776,
                             "value": "1n",
-                            "raw": "1n"
+                            "raw": "1n",
+                            "bigint": "1"
                           }
                         ]
                       }

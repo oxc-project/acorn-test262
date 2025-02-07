@@ -75,21 +75,24 @@
                                 "start": 1064,
                                 "end": 1067,
                                 "value": "39n",
-                                "raw": "39n"
+                                "raw": "39n",
+                                "bigint": "39"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1069,
                                 "end": 1071,
                                 "value": "2n",
-                                "raw": "2n"
+                                "raw": "2n",
+                                "bigint": "2"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1073,
                                 "end": 1076,
                                 "value": "62n",
-                                "raw": "62n"
+                                "raw": "62n",
+                                "bigint": "62"
                               }
                             ]
                           }
@@ -423,7 +426,8 @@
                         "start": 1377,
                         "end": 1380,
                         "value": "39n",
-                        "raw": "39n"
+                        "raw": "39n",
+                        "bigint": "39"
                       },
                       {
                         "type": "Literal",
@@ -722,7 +726,8 @@
                         "start": 1685,
                         "end": 1687,
                         "value": "2n",
-                        "raw": "2n"
+                        "raw": "2n",
+                        "bigint": "2"
                       },
                       {
                         "type": "Literal",
@@ -1021,7 +1026,8 @@
                         "start": 1991,
                         "end": 1994,
                         "value": "62n",
-                        "raw": "62n"
+                        "raw": "62n",
+                        "bigint": "62"
                       },
                       {
                         "type": "Literal",

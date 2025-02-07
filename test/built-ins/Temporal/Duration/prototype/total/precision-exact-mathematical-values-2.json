@@ -312,7 +312,8 @@
                       "start": 569,
                       "end": 571,
                       "value": "1n",
-                      "raw": "1n"
+                      "raw": "1n",
+                      "bigint": "1"
                     }
                   },
                   "alternate": {
@@ -320,7 +321,8 @@
                     "start": 574,
                     "end": 576,
                     "value": "1n",
-                    "raw": "1n"
+                    "raw": "1n",
+                    "bigint": "1"
                   }
                 }
               }
@@ -664,7 +666,8 @@
                     "start": 892,
                     "end": 894,
                     "value": "1n",
-                    "raw": "1n"
+                    "raw": "1n",
+                    "bigint": "1"
                   },
                   "alternate": {
                     "type": "UnaryExpression",
@@ -677,7 +680,8 @@
                       "start": 898,
                       "end": 900,
                       "value": "1n",
-                      "raw": "1n"
+                      "raw": "1n",
+                      "bigint": "1"
                     }
                   }
                 }

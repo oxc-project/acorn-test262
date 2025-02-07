@@ -243,7 +243,8 @@
                     "start": 607,
                     "end": 609,
                     "value": "1n",
-                    "raw": "1n"
+                    "raw": "1n",
+                    "bigint": "1"
                   },
                   {
                     "type": "Literal",

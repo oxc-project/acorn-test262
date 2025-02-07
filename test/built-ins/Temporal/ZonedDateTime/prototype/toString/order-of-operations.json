@@ -224,7 +224,8 @@
                 "start": 1104,
                 "end": 1106,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

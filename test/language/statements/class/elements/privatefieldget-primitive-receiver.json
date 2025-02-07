@@ -843,7 +843,8 @@
                         "start": 1474,
                         "end": 1477,
                         "value": "15n",
-                        "raw": "15n"
+                        "raw": "15n",
+                        "bigint": "15"
                       }
                     ],
                     "optional": false

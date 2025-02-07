@@ -239,7 +239,8 @@
                   "start": 932,
                   "end": 936,
                   "value": "864n",
-                  "raw": "864n"
+                  "raw": "864n",
+                  "bigint": "864"
                 },
                 "operator": "*",
                 "right": {
@@ -251,7 +252,8 @@
                     "start": 939,
                     "end": 942,
                     "value": "10n",
-                    "raw": "10n"
+                    "raw": "10n",
+                    "bigint": "10"
                   },
                   "operator": "**",
                   "right": {
@@ -259,7 +261,8 @@
                     "start": 944,
                     "end": 947,
                     "value": "19n",
-                    "raw": "19n"
+                    "raw": "19n",
+                    "bigint": "19"
                   }
                 }
               },

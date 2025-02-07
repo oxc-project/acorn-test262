@@ -168,7 +168,8 @@
                     "start": 418,
                     "end": 425,
                     "value": "123456n",
-                    "raw": "123456n"
+                    "raw": "123456n",
+                    "bigint": "123456"
                   },
                   {
                     "type": "Literal",

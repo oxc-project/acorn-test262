@@ -217,14 +217,16 @@
                             "start": 787,
                             "end": 790,
                             "value": "42n",
-                            "raw": "42n"
+                            "raw": "42n",
+                            "bigint": "42"
                           },
                           {
                             "type": "Literal",
                             "start": 792,
                             "end": 795,
                             "value": "43n",
-                            "raw": "43n"
+                            "raw": "43n",
+                            "bigint": "43"
                           }
                         ]
                       },

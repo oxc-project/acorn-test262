@@ -797,7 +797,8 @@
                 "start": 1069,
                 "end": 1071,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

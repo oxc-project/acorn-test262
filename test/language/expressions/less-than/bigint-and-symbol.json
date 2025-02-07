@@ -64,7 +64,8 @@
                       "start": 308,
                       "end": 310,
                       "value": "3n",
-                      "raw": "3n"
+                      "raw": "3n",
+                      "bigint": "3"
                     },
                     "operator": "<",
                     "right": {
@@ -187,7 +188,8 @@
                       "start": 422,
                       "end": 424,
                       "value": "3n",
-                      "raw": "3n"
+                      "raw": "3n",
+                      "bigint": "3"
                     }
                   }
                 }

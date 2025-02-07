@@ -75,21 +75,24 @@
                                 "start": 514,
                                 "end": 516,
                                 "value": "0n",
-                                "raw": "0n"
+                                "raw": "0n",
+                                "bigint": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 518,
                                 "end": 521,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               },
                               {
                                 "type": "Literal",
                                 "start": 523,
                                 "end": 526,
                                 "value": "64n",
-                                "raw": "64n"
+                                "raw": "64n",
+                                "bigint": "64"
                               }
                             ]
                           }
@@ -251,7 +254,8 @@
                                 "start": 630,
                                 "end": 632,
                                 "value": "0n",
-                                "raw": "0n"
+                                "raw": "0n",
+                                "bigint": "0"
                               }
                             ]
                           }
@@ -425,7 +429,8 @@
                                 "start": 736,
                                 "end": 739,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               }
                             ]
                           }
@@ -599,7 +604,8 @@
                                 "start": 843,
                                 "end": 846,
                                 "value": "64n",
-                                "raw": "64n"
+                                "raw": "64n",
+                                "bigint": "64"
                               }
                             ]
                           }

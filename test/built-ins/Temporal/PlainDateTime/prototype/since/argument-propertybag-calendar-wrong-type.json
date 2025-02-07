@@ -225,7 +225,8 @@
                     "start": 603,
                     "end": 605,
                     "value": "1n",
-                    "raw": "1n"
+                    "raw": "1n",
+                    "bigint": "1"
                   },
                   {
                     "type": "Literal",

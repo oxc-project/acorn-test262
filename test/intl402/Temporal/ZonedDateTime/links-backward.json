@@ -970,7 +970,8 @@
                       "start": 8748,
                       "end": 8750,
                       "value": "0n",
-                      "raw": "0n"
+                      "raw": "0n",
+                      "bigint": "0"
                     },
                     {
                       "type": "Identifier",

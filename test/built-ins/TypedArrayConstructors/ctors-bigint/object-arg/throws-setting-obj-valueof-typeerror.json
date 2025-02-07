@@ -355,7 +355,8 @@
                                         "start": 3028,
                                         "end": 3030,
                                         "value": "8n",
-                                        "raw": "8n"
+                                        "raw": "8n",
+                                        "bigint": "8"
                                       },
                                       {
                                         "type": "Identifier",

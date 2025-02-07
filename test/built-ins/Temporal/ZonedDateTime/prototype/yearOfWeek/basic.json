@@ -27,7 +27,8 @@
               "start": 282,
               "end": 286,
               "value": "864n",
-              "raw": "864n"
+              "raw": "864n",
+              "bigint": "864"
             },
             "operator": "*",
             "right": {
@@ -39,7 +40,8 @@
                 "start": 289,
                 "end": 292,
                 "value": "10n",
-                "raw": "10n"
+                "raw": "10n",
+                "bigint": "10"
               },
               "operator": "**",
               "right": {
@@ -47,7 +49,8 @@
                 "start": 296,
                 "end": 299,
                 "value": "11n",
-                "raw": "11n"
+                "raw": "11n",
+                "bigint": "11"
               }
             }
           }
@@ -119,7 +122,8 @@
               "start": 345,
               "end": 347,
               "value": "0n",
-              "raw": "0n"
+              "raw": "0n",
+              "bigint": "0"
             },
             {
               "type": "Literal",
@@ -244,7 +248,8 @@
                   "start": 432,
                   "end": 434,
                   "value": "3n",
-                  "raw": "3n"
+                  "raw": "3n",
+                  "bigint": "3"
                 }
               },
               "operator": "*",
@@ -378,7 +383,8 @@
                   "start": 529,
                   "end": 531,
                   "value": "4n",
-                  "raw": "4n"
+                  "raw": "4n",
+                  "bigint": "4"
                 }
               },
               "operator": "*",
@@ -506,7 +512,8 @@
                 "start": 625,
                 "end": 629,
                 "value": "367n",
-                "raw": "367n"
+                "raw": "367n",
+                "bigint": "367"
               },
               "operator": "*",
               "right": {
@@ -633,7 +640,8 @@
                 "start": 723,
                 "end": 727,
                 "value": "368n",
-                "raw": "368n"
+                "raw": "368n",
+                "bigint": "368"
               },
               "operator": "*",
               "right": {

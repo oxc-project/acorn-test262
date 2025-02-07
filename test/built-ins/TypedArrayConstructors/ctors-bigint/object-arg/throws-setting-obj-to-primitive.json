@@ -363,7 +363,8 @@
                                         "start": 2629,
                                         "end": 2631,
                                         "value": "8n",
-                                        "raw": "8n"
+                                        "raw": "8n",
+                                        "bigint": "8"
                                       },
                                       {
                                         "type": "Identifier",

@@ -1345,7 +1345,8 @@
                         "start": 1521,
                         "end": 1523,
                         "value": "0n",
-                        "raw": "0n"
+                        "raw": "0n",
+                        "bigint": "0"
                       }
                     ],
                     "optional": false
@@ -1457,7 +1458,8 @@
                             "start": 1629,
                             "end": 1631,
                             "value": "0n",
-                            "raw": "0n"
+                            "raw": "0n",
+                            "bigint": "0"
                           }
                         ],
                         "optional": false
@@ -1610,7 +1612,8 @@
                                       "start": 1820,
                                       "end": 1822,
                                       "value": "0n",
-                                      "raw": "0n"
+                                      "raw": "0n",
+                                      "bigint": "0"
                                     }
                                   }
                                 ]
@@ -1755,7 +1758,8 @@
                                       "start": 1990,
                                       "end": 1992,
                                       "value": "0n",
-                                      "raw": "0n"
+                                      "raw": "0n",
+                                      "bigint": "0"
                                     }
                                   }
                                 ]
@@ -1900,7 +1904,8 @@
                                       "start": 2155,
                                       "end": 2157,
                                       "value": "0n",
-                                      "raw": "0n"
+                                      "raw": "0n",
+                                      "bigint": "0"
                                     }
                                   }
                                 ]

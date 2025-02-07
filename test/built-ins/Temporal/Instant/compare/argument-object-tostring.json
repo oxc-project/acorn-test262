@@ -47,7 +47,8 @@
                 "start": 303,
                 "end": 305,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

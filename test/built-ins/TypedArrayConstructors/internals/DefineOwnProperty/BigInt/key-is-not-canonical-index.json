@@ -362,7 +362,8 @@
                                           "start": 1005,
                                           "end": 1008,
                                           "value": "42n",
-                                          "raw": "42n"
+                                          "raw": "42n",
+                                          "bigint": "42"
                                         },
                                         "kind": "init"
                                       },
@@ -615,7 +616,8 @@
                                     "start": 1288,
                                     "end": 1291,
                                     "value": "42n",
-                                    "raw": "42n"
+                                    "raw": "42n",
+                                    "bigint": "42"
                                   },
                                   {
                                     "type": "BinaryExpression",

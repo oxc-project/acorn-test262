@@ -47,7 +47,8 @@
                 "start": 302,
                 "end": 306,
                 "value": "100n",
-                "raw": "100n"
+                "raw": "100n",
+                "bigint": "100"
               },
               {
                 "type": "Literal",
@@ -106,7 +107,8 @@
                 "start": 366,
                 "end": 376,
                 "value": "987654321n",
-                "raw": "987654321n"
+                "raw": "987654321n",
+                "bigint": "987654321"
               },
               {
                 "type": "Literal",

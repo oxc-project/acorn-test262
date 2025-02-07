@@ -36,14 +36,16 @@
             "start": 810,
             "end": 816,
             "value": "1n",
-            "raw": "0b0_1n"
+            "raw": "0b0_1n",
+            "bigint": "0b01"
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 823,
             "value": "1n",
-            "raw": "0b01n"
+            "raw": "0b01n",
+            "bigint": "0b01"
           }
         ],
         "optional": false
@@ -82,14 +84,16 @@
             "start": 843,
             "end": 849,
             "value": "1n",
-            "raw": "0B0_1n"
+            "raw": "0B0_1n",
+            "bigint": "0B01"
           },
           {
             "type": "Literal",
             "start": 851,
             "end": 856,
             "value": "1n",
-            "raw": "0B01n"
+            "raw": "0B01n",
+            "bigint": "0B01"
           }
         ],
         "optional": false

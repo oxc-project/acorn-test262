@@ -83,7 +83,8 @@
                 "start": 372,
                 "end": 374,
                 "value": "1n",
-                "raw": "1n"
+                "raw": "1n",
+                "bigint": "1"
               },
               {
                 "type": "ObjectExpression",

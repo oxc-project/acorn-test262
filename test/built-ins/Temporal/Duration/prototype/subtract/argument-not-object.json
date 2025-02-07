@@ -729,7 +729,8 @@
                   "start": 829,
                   "end": 831,
                   "value": "7n",
-                  "raw": "7n"
+                  "raw": "7n",
+                  "bigint": "7"
                 }
               ],
               "optional": false

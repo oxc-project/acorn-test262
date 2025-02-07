@@ -624,7 +624,8 @@
                     "start": 1062,
                     "end": 1066,
                     "value": "123n",
-                    "raw": "123n"
+                    "raw": "123n",
+                    "bigint": "123"
                   }
                 ],
                 "optional": false

@@ -303,7 +303,8 @@
                 "start": 811,
                 "end": 813,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",
@@ -403,7 +404,8 @@
                 "start": 940,
                 "end": 942,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",
@@ -502,7 +504,8 @@
                 "start": 1073,
                 "end": 1075,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",

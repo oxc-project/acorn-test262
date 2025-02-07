@@ -160,7 +160,8 @@
                                   "start": 2043,
                                   "end": 2045,
                                   "value": "1n",
-                                  "raw": "1n"
+                                  "raw": "1n",
+                                  "bigint": "1"
                                 }
                               }
                             }

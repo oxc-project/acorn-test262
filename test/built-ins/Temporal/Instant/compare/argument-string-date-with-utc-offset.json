@@ -394,7 +394,8 @@
                 "start": 974,
                 "end": 976,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

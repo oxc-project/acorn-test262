@@ -136,7 +136,8 @@
                 "start": 486,
                 "end": 488,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

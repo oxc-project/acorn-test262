@@ -1126,7 +1126,8 @@
                 "start": 1822,
                 "end": 1824,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Literal",

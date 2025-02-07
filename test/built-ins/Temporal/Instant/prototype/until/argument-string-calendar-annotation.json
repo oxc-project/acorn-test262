@@ -220,7 +220,8 @@
                 "start": 850,
                 "end": 852,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               }
             ]
           }

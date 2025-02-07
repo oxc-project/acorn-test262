@@ -140,7 +140,8 @@
                                       "start": 1070,
                                       "end": 1072,
                                       "value": "9n",
-                                      "raw": "9n"
+                                      "raw": "9n",
+                                      "bigint": "9"
                                     }
                                   }
                                 ]

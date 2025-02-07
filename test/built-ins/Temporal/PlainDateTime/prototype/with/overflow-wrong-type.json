@@ -901,7 +901,8 @@
                         "start": 1628,
                         "end": 1630,
                         "value": "2n",
-                        "raw": "2n"
+                        "raw": "2n",
+                        "bigint": "2"
                       },
                       "kind": "init"
                     }

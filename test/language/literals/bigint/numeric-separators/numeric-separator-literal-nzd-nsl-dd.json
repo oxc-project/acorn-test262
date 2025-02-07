@@ -36,14 +36,16 @@
             "start": 789,
             "end": 793,
             "value": "11n",
-            "raw": "1_1n"
+            "raw": "1_1n",
+            "bigint": "11"
           },
           {
             "type": "Literal",
             "start": 795,
             "end": 798,
             "value": "11n",
-            "raw": "11n"
+            "raw": "11n",
+            "bigint": "11"
           }
         ],
         "optional": false

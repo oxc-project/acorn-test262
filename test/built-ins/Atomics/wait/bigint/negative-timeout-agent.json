@@ -295,7 +295,8 @@
             "start": 760,
             "end": 762,
             "value": "1n",
-            "raw": "1n"
+            "raw": "1n",
+            "bigint": "1"
           }
         ],
         "optional": false

@@ -67,7 +67,8 @@
                 "start": 405,
                 "end": 408,
                 "value": "10n",
-                "raw": "10n"
+                "raw": "10n",
+                "bigint": "10"
               }
             ]
           },
@@ -144,7 +145,8 @@
                         "start": 473,
                         "end": 476,
                         "value": "10n",
-                        "raw": "10n"
+                        "raw": "10n",
+                        "bigint": "10"
                       },
                       {
                         "type": "Literal",

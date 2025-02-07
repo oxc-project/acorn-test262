@@ -788,7 +788,8 @@
                         "start": 1123,
                         "end": 1125,
                         "value": "4n",
-                        "raw": "4n"
+                        "raw": "4n",
+                        "bigint": "4"
                       }
                     ],
                     "optional": false

@@ -613,7 +613,8 @@
                                 "start": 1050,
                                 "end": 1053,
                                 "value": "42n",
-                                "raw": "42n"
+                                "raw": "42n",
+                                "bigint": "42"
                               }
                             ],
                             "optional": false

@@ -127,7 +127,8 @@
                 "start": 539,
                 "end": 541,
                 "value": "0n",
-                "raw": "0n"
+                "raw": "0n",
+                "bigint": "0"
               },
               {
                 "type": "Identifier",

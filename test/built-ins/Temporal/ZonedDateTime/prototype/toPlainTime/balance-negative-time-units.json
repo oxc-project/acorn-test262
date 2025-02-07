@@ -47,7 +47,8 @@
                 "start": 1929,
                 "end": 1934,
                 "value": "1001n",
-                "raw": "1001n"
+                "raw": "1001n",
+                "bigint": "1001"
               },
               {
                 "type": "Literal",

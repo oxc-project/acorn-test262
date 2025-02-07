@@ -238,7 +238,8 @@
                   "start": 665,
                   "end": 667,
                   "value": "0n",
-                  "raw": "0n"
+                  "raw": "0n",
+                  "bigint": "0"
                 },
                 {
                   "type": "TemplateLiteral",

@@ -64,21 +64,24 @@
                             "start": 943,
                             "end": 946,
                             "value": "10n",
-                            "raw": "10n"
+                            "raw": "10n",
+                            "bigint": "10"
                           },
                           {
                             "type": "Literal",
                             "start": 948,
                             "end": 951,
                             "value": "20n",
-                            "raw": "20n"
+                            "raw": "20n",
+                            "bigint": "20"
                           },
                           {
                             "type": "Literal",
                             "start": 953,
                             "end": 956,
                             "value": "30n",
-                            "raw": "30n"
+                            "raw": "30n",
+                            "bigint": "30"
                           }
                         ]
                       }
@@ -306,7 +309,8 @@
                                     "start": 1099,
                                     "end": 1101,
                                     "value": "0n",
-                                    "raw": "0n"
+                                    "raw": "0n",
+                                    "bigint": "0"
                                   },
                                   {
                                     "type": "Literal",
@@ -542,7 +546,8 @@
                                           "start": 1334,
                                           "end": 1336,
                                           "value": "7n",
-                                          "raw": "7n"
+                                          "raw": "7n",
+                                          "bigint": "7"
                                         }
                                       }
                                     }
@@ -570,7 +575,8 @@
                                     "start": 1363,
                                     "end": 1365,
                                     "value": "7n",
-                                    "raw": "7n"
+                                    "raw": "7n",
+                                    "bigint": "7"
                                   }
                                 }
                               }
@@ -798,7 +804,8 @@
                                           "start": 1530,
                                           "end": 1532,
                                           "value": "7n",
-                                          "raw": "7n"
+                                          "raw": "7n",
+                                          "bigint": "7"
                                         }
                                       }
                                     }
@@ -826,7 +833,8 @@
                                     "start": 1559,
                                     "end": 1562,
                                     "value": "30n",
-                                    "raw": "30n"
+                                    "raw": "30n",
+                                    "bigint": "30"
                                   }
                                 }
                               }
@@ -1061,7 +1069,8 @@
                                           "start": 1730,
                                           "end": 1732,
                                           "value": "7n",
-                                          "raw": "7n"
+                                          "raw": "7n",
+                                          "bigint": "7"
                                         }
                                       }
                                     }
@@ -1089,7 +1098,8 @@
                                     "start": 1759,
                                     "end": 1761,
                                     "value": "7n",
-                                    "raw": "7n"
+                                    "raw": "7n",
+                                    "bigint": "7"
                                   }
                                 }
                               }

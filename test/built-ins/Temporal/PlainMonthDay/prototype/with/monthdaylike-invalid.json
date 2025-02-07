@@ -251,7 +251,8 @@
                     "start": 942,
                     "end": 945,
                     "value": "42n",
-                    "raw": "42n"
+                    "raw": "42n",
+                    "bigint": "42"
                   },
                   {
                     "type": "Literal",

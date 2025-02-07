@@ -980,7 +980,8 @@
                         "start": 1366,
                         "end": 1368,
                         "value": "1n",
-                        "raw": "1n"
+                        "raw": "1n",
+                        "bigint": "1"
                       }
                     ],
                     "optional": false

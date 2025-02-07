@@ -271,7 +271,8 @@
                             "start": 746,
                             "end": 749,
                             "value": "10n",
-                            "raw": "10n"
+                            "raw": "10n",
+                            "bigint": "10"
                           },
                           {
                             "type": "UnaryExpression",
@@ -284,7 +285,8 @@
                               "start": 756,
                               "end": 758,
                               "value": "5n",
-                              "raw": "5n"
+                              "raw": "5n",
+                              "bigint": "5"
                             }
                           },
                           {
@@ -292,14 +294,16 @@
                             "start": 764,
                             "end": 770,
                             "value": "12345n",
-                            "raw": "12345n"
+                            "raw": "12345n",
+                            "bigint": "12345"
                           },
                           {
                             "type": "Literal",
                             "start": 776,
                             "end": 786,
                             "value": "123456789n",
-                            "raw": "123456789n"
+                            "raw": "123456789n",
+                            "bigint": "123456789"
                           },
                           {
                             "type": "CallExpression",
@@ -363,7 +367,8 @@
                                           "start": 847,
                                           "end": 850,
                                           "value": "33n",
-                                          "raw": "33n"
+                                          "raw": "33n",
+                                          "bigint": "33"
                                         }
                                       }
                                     ]
@@ -828,7 +833,8 @@
                                     "start": 1327,
                                     "end": 1329,
                                     "value": "0n",
-                                    "raw": "0n"
+                                    "raw": "0n",
+                                    "bigint": "0"
                                   }
                                 ],
                                 "optional": false
@@ -879,7 +885,8 @@
                                     "start": 1361,
                                     "end": 1364,
                                     "value": "37n",
-                                    "raw": "37n"
+                                    "raw": "37n",
+                                    "bigint": "37"
                                   }
                                 ],
                                 "optional": false
@@ -957,7 +964,8 @@
                                     "start": 1413,
                                     "end": 1416,
                                     "value": "37n",
-                                    "raw": "37n"
+                                    "raw": "37n",
+                                    "bigint": "37"
                                   },
                                   {
                                     "type": "Literal",
