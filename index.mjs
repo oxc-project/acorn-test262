@@ -28,6 +28,8 @@ for await (const p of walk("./test262/test")) {
   try {
     preamble = YAML.parse(yaml);
   } catch (err) {
+    console.log(p);
+    console.log("Cannot parse YAML config");
     continue;
   }
 
