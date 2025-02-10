@@ -641,7 +641,7 @@
                                     "type": "Literal",
                                     "start": 1891,
                                     "end": 1894,
-                                    "value": "23n",
+                                    "value": null,
                                     "raw": "23n",
                                     "bigint": "23"
                                   },

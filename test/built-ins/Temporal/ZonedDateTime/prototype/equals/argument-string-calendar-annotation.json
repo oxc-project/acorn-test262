@@ -135,7 +135,7 @@
                 "type": "Literal",
                 "start": 551,
                 "end": 553,
-                "value": "0n",
+                "value": null,
                 "raw": "0n",
                 "bigint": "0"
               },

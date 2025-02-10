@@ -805,7 +805,7 @@
                   "type": "Literal",
                   "start": 1341,
                   "end": 1345,
-                  "value": "123n",
+                  "value": null,
                   "raw": "123n",
                   "bigint": "123"
                 }

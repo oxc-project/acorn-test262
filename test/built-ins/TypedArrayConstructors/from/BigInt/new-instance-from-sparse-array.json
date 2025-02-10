@@ -28,7 +28,7 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 352,
-                "value": "42n",
+                "value": null,
                 "raw": "42n",
                 "bigint": "42"
               }

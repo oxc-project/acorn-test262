@@ -213,7 +213,7 @@
                                 "type": "Literal",
                                 "start": 1228,
                                 "end": 1231,
-                                "value": "42n",
+                                "value": null,
                                 "raw": "42n",
                                 "bigint": "42"
                               },
@@ -221,7 +221,7 @@
                                 "type": "Literal",
                                 "start": 1233,
                                 "end": 1235,
-                                "value": "0n",
+                                "value": null,
                                 "raw": "0n",
                                 "bigint": "0"
                               }

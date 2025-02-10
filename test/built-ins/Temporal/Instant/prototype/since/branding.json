@@ -167,7 +167,7 @@
                     "type": "Literal",
                     "start": 400,
                     "end": 407,
-                    "value": "123456n",
+                    "value": null,
                     "raw": "123456n",
                     "bigint": "123456"
                   }

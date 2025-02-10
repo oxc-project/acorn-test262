@@ -98,7 +98,7 @@
                     "type": "Literal",
                     "start": 442,
                     "end": 444,
-                    "value": "1n",
+                    "value": null,
                     "raw": "1n",
                     "bigint": "1"
                   },

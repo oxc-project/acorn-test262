@@ -59,7 +59,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 385,
-                "value": "10n",
+                "value": null,
                 "raw": "10n",
                 "bigint": "10"
               },
@@ -187,7 +187,7 @@
                         "type": "Literal",
                         "start": 487,
                         "end": 509,
-                        "value": "946684800000000010n",
+                        "value": null,
                         "raw": "946684800_000_000_010n",
                         "bigint": "946684800000000010"
                       },

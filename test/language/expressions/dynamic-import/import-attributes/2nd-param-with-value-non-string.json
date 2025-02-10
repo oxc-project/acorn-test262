@@ -774,7 +774,7 @@
                                           "type": "Literal",
                                           "start": 1921,
                                           "end": 1924,
-                                          "value": "23n",
+                                          "value": null,
                                           "raw": "23n",
                                           "bigint": "23"
                                         },

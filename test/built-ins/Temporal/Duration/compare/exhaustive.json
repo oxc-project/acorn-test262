@@ -5348,7 +5348,7 @@
                 "type": "Literal",
                 "start": 4983,
                 "end": 4985,
-                "value": "0n",
+                "value": null,
                 "raw": "0n",
                 "bigint": "0"
               },

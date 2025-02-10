@@ -119,7 +119,7 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 451,
-                "value": "0n",
+                "value": null,
                 "raw": "0n",
                 "bigint": "0"
               },

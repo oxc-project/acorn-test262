@@ -203,7 +203,7 @@
                     "type": "Literal",
                     "start": 639,
                     "end": 641,
-                    "value": "1n",
+                    "value": null,
                     "raw": "1n",
                     "bigint": "1"
                   },

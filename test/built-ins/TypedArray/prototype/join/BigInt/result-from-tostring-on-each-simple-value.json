@@ -74,7 +74,7 @@
                                 "type": "Literal",
                                 "start": 1242,
                                 "end": 1244,
-                                "value": "1n",
+                                "value": null,
                                 "raw": "1n",
                                 "bigint": "1"
                               },
@@ -82,7 +82,7 @@
                                 "type": "Literal",
                                 "start": 1246,
                                 "end": 1248,
-                                "value": "0n",
+                                "value": null,
                                 "raw": "0n",
                                 "bigint": "0"
                               },
@@ -90,7 +90,7 @@
                                 "type": "Literal",
                                 "start": 1250,
                                 "end": 1252,
-                                "value": "2n",
+                                "value": null,
                                 "raw": "2n",
                                 "bigint": "2"
                               },
@@ -98,7 +98,7 @@
                                 "type": "Literal",
                                 "start": 1254,
                                 "end": 1256,
-                                "value": "3n",
+                                "value": null,
                                 "raw": "3n",
                                 "bigint": "3"
                               },
@@ -106,7 +106,7 @@
                                 "type": "Literal",
                                 "start": 1258,
                                 "end": 1261,
-                                "value": "42n",
+                                "value": null,
                                 "raw": "42n",
                                 "bigint": "42"
                               },
@@ -114,7 +114,7 @@
                                 "type": "Literal",
                                 "start": 1263,
                                 "end": 1267,
-                                "value": "127n",
+                                "value": null,
                                 "raw": "127n",
                                 "bigint": "127"
                               }

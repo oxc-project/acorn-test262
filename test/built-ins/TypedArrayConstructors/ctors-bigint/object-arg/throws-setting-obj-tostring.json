@@ -360,7 +360,7 @@
                                         "type": "Literal",
                                         "start": 2951,
                                         "end": 2953,
-                                        "value": "8n",
+                                        "value": null,
                                         "raw": "8n",
                                         "bigint": "8"
                                       },

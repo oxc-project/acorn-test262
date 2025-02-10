@@ -194,7 +194,7 @@
                               "type": "Literal",
                               "start": 517,
                               "end": 519,
-                              "value": "5n",
+                              "value": null,
                               "raw": "5n",
                               "bigint": "5"
                             }

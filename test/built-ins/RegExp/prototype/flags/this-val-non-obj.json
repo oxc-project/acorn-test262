@@ -779,7 +779,7 @@
                         "type": "Literal",
                         "start": 936,
                         "end": 938,
-                        "value": "4n",
+                        "value": null,
                         "raw": "4n",
                         "bigint": "4"
                       }

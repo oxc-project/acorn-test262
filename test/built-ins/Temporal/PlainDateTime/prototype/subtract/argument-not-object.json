@@ -721,7 +721,7 @@
                   "type": "Literal",
                   "start": 842,
                   "end": 844,
-                  "value": "7n",
+                  "value": null,
                   "raw": "7n",
                   "bigint": "7"
                 }

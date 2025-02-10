@@ -68,7 +68,7 @@
                 "type": "Literal",
                 "start": 370,
                 "end": 372,
-                "value": "2n",
+                "value": null,
                 "raw": "2n",
                 "bigint": "2"
               }

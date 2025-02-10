@@ -136,7 +136,7 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 530,
-                    "value": "1n",
+                    "value": null,
                     "raw": "1n",
                     "bigint": "1"
                   },

@@ -173,7 +173,7 @@
                         "type": "Literal",
                         "start": 720,
                         "end": 722,
-                        "value": "0n",
+                        "value": null,
                         "raw": "0n",
                         "bigint": "0"
                       },

@@ -900,7 +900,7 @@
                         "type": "Literal",
                         "start": 1628,
                         "end": 1630,
-                        "value": "2n",
+                        "value": null,
                         "raw": "2n",
                         "bigint": "2"
                       },

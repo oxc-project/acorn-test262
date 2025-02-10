@@ -74,7 +74,7 @@
                                 "type": "Literal",
                                 "start": 1118,
                                 "end": 1121,
-                                "value": "42n",
+                                "value": null,
                                 "raw": "42n",
                                 "bigint": "42"
                               }
@@ -157,7 +157,7 @@
                       "type": "Literal",
                       "start": 1171,
                       "end": 1173,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }
@@ -261,7 +261,7 @@
                       "type": "Literal",
                       "start": 1268,
                       "end": 1270,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }
@@ -365,7 +365,7 @@
                       "type": "Literal",
                       "start": 1372,
                       "end": 1374,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }
@@ -469,7 +469,7 @@
                       "type": "Literal",
                       "start": 1474,
                       "end": 1476,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }
@@ -573,7 +573,7 @@
                       "type": "Literal",
                       "start": 1575,
                       "end": 1577,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }
@@ -677,7 +677,7 @@
                       "type": "Literal",
                       "start": 1674,
                       "end": 1676,
-                      "value": "1n",
+                      "value": null,
                       "raw": "1n",
                       "bigint": "1"
                     }

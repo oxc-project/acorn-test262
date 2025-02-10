@@ -331,7 +331,7 @@
                     "type": "Literal",
                     "start": 1876,
                     "end": 1878,
-                    "value": "1n",
+                    "value": null,
                     "raw": "1n",
                     "bigint": "1"
                   }
@@ -407,7 +407,7 @@
                             "type": "Literal",
                             "start": 1938,
                             "end": 1940,
-                            "value": "1n",
+                            "value": null,
                             "raw": "1n",
                             "bigint": "1"
                           },

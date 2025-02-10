@@ -790,7 +790,7 @@
                   "type": "Literal",
                   "start": 1069,
                   "end": 1071,
-                  "value": "1n",
+                  "value": null,
                   "raw": "1n",
                   "bigint": "1"
                 },

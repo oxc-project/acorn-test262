@@ -377,7 +377,7 @@
                   "type": "Literal",
                   "start": 795,
                   "end": 797,
-                  "value": "1n",
+                  "value": null,
                   "raw": "1n",
                   "bigint": "1"
                 },

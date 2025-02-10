@@ -222,7 +222,7 @@
                     "type": "Literal",
                     "start": 574,
                     "end": 576,
-                    "value": "1n",
+                    "value": null,
                     "raw": "1n",
                     "bigint": "1"
                   },

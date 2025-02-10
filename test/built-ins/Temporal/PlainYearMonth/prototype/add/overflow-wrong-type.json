@@ -807,7 +807,7 @@
                         "type": "Literal",
                         "start": 1641,
                         "end": 1643,
-                        "value": "2n",
+                        "value": null,
                         "raw": "2n",
                         "bigint": "2"
                       },

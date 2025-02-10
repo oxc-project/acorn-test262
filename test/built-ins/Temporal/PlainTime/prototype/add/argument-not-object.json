@@ -700,7 +700,7 @@
                   "type": "Literal",
                   "start": 777,
                   "end": 779,
-                  "value": "7n",
+                  "value": null,
                   "raw": "7n",
                   "bigint": "7"
                 }

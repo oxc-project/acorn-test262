@@ -54,9 +54,7 @@ for await (const p of walk("./test262/test")) {
     });
 
     // Replace bigints with strings
-    const bigIntSerializer = (_key, value) => {
-      return typeof value === "bigint" ? value.toString() + "n" : value;
-    };
+    const bigIntSerializer = (_key, value) => typeof value === "bigint" ? null : value;
     ast = JSON.parse(JSON.stringify(ast, bigIntSerializer));
 
     await fs.writeFile(writeFile, JSON.stringify(ast, null, 2));

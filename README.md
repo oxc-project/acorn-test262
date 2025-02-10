@@ -18,7 +18,8 @@ Files producing the following errors are ignored:
 * Unexpected token (possibility a stage 3 feature).
 * Cannot parse YAML from Test262 fixture comment.
 
-`BigInt`s are converted to a string with `n` postfix (e.g. `"123n"`).
+`BigInt`s are serialized as to `null`, because JSON does not support `BigInt`s. `Literal` nodes which
+are `BigInt`s also have a `bigint` field containing the `BigInt`'s value as a string.
 
 ## Maintainance
 

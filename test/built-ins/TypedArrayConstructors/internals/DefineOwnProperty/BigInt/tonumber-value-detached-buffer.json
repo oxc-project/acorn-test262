@@ -74,7 +74,7 @@
                                 "type": "Literal",
                                 "start": 1829,
                                 "end": 1832,
-                                "value": "17n",
+                                "value": null,
                                 "raw": "17n",
                                 "bigint": "17"
                               }
@@ -198,7 +198,7 @@
                                             "type": "Literal",
                                             "start": 1932,
                                             "end": 1935,
-                                            "value": "42n",
+                                            "value": null,
                                             "raw": "42n",
                                             "bigint": "42"
                                           }

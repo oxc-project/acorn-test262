@@ -602,7 +602,7 @@
                   "type": "Literal",
                   "start": 707,
                   "end": 709,
-                  "value": "5n",
+                  "value": null,
                   "raw": "5n",
                   "bigint": "5"
                 }

@@ -93,7 +93,7 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 622,
-                "value": "12345n",
+                "value": null,
                 "raw": "12345n",
                 "bigint": "12345"
               },
