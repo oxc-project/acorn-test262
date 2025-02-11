@@ -568,7 +568,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1239,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Soft_Dotted}+$/u",
             "regex": {
               "pattern": "^\\p{Soft_Dotted}+$",
@@ -611,7 +611,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1316,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{SD}+$/u",
             "regex": {
               "pattern": "^\\p{SD}+$",
@@ -1501,7 +1501,7 @@
             "type": "Literal",
             "start": 2404,
             "end": 2425,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Soft_Dotted}+$/u",
             "regex": {
               "pattern": "^\\P{Soft_Dotted}+$",
@@ -1544,7 +1544,7 @@
             "type": "Literal",
             "start": 2493,
             "end": 2505,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{SD}+$/u",
             "regex": {
               "pattern": "^\\P{SD}+$",

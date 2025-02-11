@@ -51,7 +51,7 @@
                         "type": "Literal",
                         "start": 356,
                         "end": 363,
-                        "value": {},
+                        "value": null,
                         "raw": "/[^a]*/",
                         "regex": {
                           "pattern": "[^a]*",

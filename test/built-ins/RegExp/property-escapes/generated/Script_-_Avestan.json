@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 603,
             "end": 627,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Avestan}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Avestan}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 695,
             "end": 716,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Avst}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Avst}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 781,
             "end": 801,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Avestan}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Avestan}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 865,
             "end": 882,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Avst}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Avst}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1177,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Avestan}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Avestan}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1248,
             "end": 1269,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Avst}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Avst}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1337,
             "end": 1357,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Avestan}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Avestan}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1441,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Avst}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Avst}+$",

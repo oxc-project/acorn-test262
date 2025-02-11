@@ -252,7 +252,7 @@
             "type": "Literal",
             "start": 735,
             "end": 761,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Malayalam}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Malayalam}+$",
@@ -295,7 +295,7 @@
             "type": "Literal",
             "start": 831,
             "end": 852,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mlym}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mlym}+$",
@@ -338,7 +338,7 @@
             "type": "Literal",
             "start": 917,
             "end": 939,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Malayalam}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Malayalam}+$",
@@ -381,7 +381,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1022,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mlym}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mlym}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1377,
             "end": 1403,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Malayalam}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Malayalam}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1476,
             "end": 1497,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mlym}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mlym}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1565,
             "end": 1587,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Malayalam}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Malayalam}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1656,
             "end": 1673,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mlym}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mlym}+$",

@@ -12335,7 +12335,7 @@
             "type": "Literal",
             "start": 16445,
             "end": 16463,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{ID_Start}+$/u",
             "regex": {
               "pattern": "^\\p{ID_Start}+$",
@@ -12378,7 +12378,7 @@
             "type": "Literal",
             "start": 16525,
             "end": 16538,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{IDS}+$/u",
             "regex": {
               "pattern": "^\\p{IDS}+$",
@@ -23705,7 +23705,7 @@
             "type": "Literal",
             "start": 31717,
             "end": 31735,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{ID_Start}+$/u",
             "regex": {
               "pattern": "^\\P{ID_Start}+$",
@@ -23748,7 +23748,7 @@
             "type": "Literal",
             "start": 31800,
             "end": 31813,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{IDS}+$/u",
             "regex": {
               "pattern": "^\\P{IDS}+$",

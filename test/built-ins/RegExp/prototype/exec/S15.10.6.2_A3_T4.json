@@ -1660,7 +1660,7 @@
             "type": "Literal",
             "start": 8345,
             "end": 8382,
-            "value": {},
+            "value": null,
             "raw": "/([Nn]?ever|([Nn]othing\\s{1,}))more/g",
             "regex": {
               "pattern": "([Nn]?ever|([Nn]othing\\s{1,}))more",

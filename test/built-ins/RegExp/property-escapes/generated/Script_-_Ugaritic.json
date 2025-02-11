@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 594,
             "end": 619,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ugaritic}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 688,
             "end": 709,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ugar}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ugar}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 774,
             "end": 795,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ugaritic}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 860,
             "end": 877,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ugar}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ugar}+$",
@@ -481,7 +481,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1163,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ugaritic}+$",
@@ -524,7 +524,7 @@
             "type": "Literal",
             "start": 1235,
             "end": 1256,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ugar}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ugar}+$",
@@ -567,7 +567,7 @@
             "type": "Literal",
             "start": 1324,
             "end": 1345,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ugaritic}+$",
@@ -610,7 +610,7 @@
             "type": "Literal",
             "start": 1413,
             "end": 1430,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ugar}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ugar}+$",

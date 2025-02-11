@@ -393,7 +393,7 @@
                           "type": "Literal",
                           "start": 862,
                           "end": 890,
-                          "value": {},
+                          "value": null,
                           "raw": "/[0-9A-Za-z_\\$(|)\\[\\]\\/\\\\^]/",
                           "regex": {
                             "pattern": "[0-9A-Za-z_\\$(|)\\[\\]\\/\\\\^]",

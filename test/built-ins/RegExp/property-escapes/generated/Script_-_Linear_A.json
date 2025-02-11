@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 630,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Linear_A}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 724,
             "end": 745,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lina}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lina}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 810,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Linear_A}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 896,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lina}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lina}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1235,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Linear_A}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1307,
             "end": 1328,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lina}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lina}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1396,
             "end": 1417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Linear_A}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1485,
             "end": 1502,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lina}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lina}+$",

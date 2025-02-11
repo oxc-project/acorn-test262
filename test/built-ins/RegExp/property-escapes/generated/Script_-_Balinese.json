@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 604,
             "end": 629,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Balinese}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Balinese}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 698,
             "end": 719,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bali}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bali}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 784,
             "end": 805,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Balinese}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Balinese}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 870,
             "end": 887,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bali}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bali}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1173,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Balinese}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Balinese}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1266,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bali}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bali}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1334,
             "end": 1355,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Balinese}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Balinese}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1440,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bali}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bali}+$",

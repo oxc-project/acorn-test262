@@ -12090,7 +12090,7 @@
             "type": "Literal",
             "start": 16737,
             "end": 16769,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Other}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Other}+$",
@@ -12133,7 +12133,7 @@
             "type": "Literal",
             "start": 16845,
             "end": 16873,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=C}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=C}+$",
@@ -12176,7 +12176,7 @@
             "type": "Literal",
             "start": 16945,
             "end": 16963,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Other}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Other}+$",
@@ -12219,7 +12219,7 @@
             "type": "Literal",
             "start": 17025,
             "end": 17039,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=C}+$/u",
             "regex": {
               "pattern": "^\\p{gc=C}+$",
@@ -12262,7 +12262,7 @@
             "type": "Literal",
             "start": 17097,
             "end": 17112,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Other}+$/u",
             "regex": {
               "pattern": "^\\p{Other}+$",
@@ -12305,7 +12305,7 @@
             "type": "Literal",
             "start": 17171,
             "end": 17182,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{C}+$/u",
             "regex": {
               "pattern": "^\\p{C}+$",
@@ -26887,7 +26887,7 @@
             "type": "Literal",
             "start": 35589,
             "end": 35621,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Other}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Other}+$",
@@ -26930,7 +26930,7 @@
             "type": "Literal",
             "start": 35700,
             "end": 35728,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=C}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=C}+$",
@@ -26973,7 +26973,7 @@
             "type": "Literal",
             "start": 35803,
             "end": 35821,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Other}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Other}+$",
@@ -27016,7 +27016,7 @@
             "type": "Literal",
             "start": 35886,
             "end": 35900,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=C}+$/u",
             "regex": {
               "pattern": "^\\P{gc=C}+$",
@@ -27059,7 +27059,7 @@
             "type": "Literal",
             "start": 35961,
             "end": 35976,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Other}+$/u",
             "regex": {
               "pattern": "^\\P{Other}+$",
@@ -27102,7 +27102,7 @@
             "type": "Literal",
             "start": 36038,
             "end": 36049,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{C}+$/u",
             "regex": {
               "pattern": "^\\P{C}+$",

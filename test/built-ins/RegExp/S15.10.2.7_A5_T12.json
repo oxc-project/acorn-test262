@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 372,
-                "value": {},
+                "value": null,
                 "raw": "/.?.?.?.?.?.?.?/",
                 "regex": {
                   "pattern": ".?.?.?.?.?.?.?",

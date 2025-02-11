@@ -1254,7 +1254,7 @@
             "type": "Literal",
             "start": 2168,
             "end": 2199,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Extended_Pictographic}+$/u",
             "regex": {
               "pattern": "^\\p{Extended_Pictographic}+$",
@@ -1297,7 +1297,7 @@
             "type": "Literal",
             "start": 2274,
             "end": 2291,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{ExtPict}+$/u",
             "regex": {
               "pattern": "^\\p{ExtPict}+$",
@@ -2971,7 +2971,7 @@
             "type": "Literal",
             "start": 4408,
             "end": 4439,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Extended_Pictographic}+$/u",
             "regex": {
               "pattern": "^\\P{Extended_Pictographic}+$",
@@ -3014,7 +3014,7 @@
             "type": "Literal",
             "start": 4517,
             "end": 4534,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{ExtPict}+$/u",
             "regex": {
               "pattern": "^\\P{ExtPict}+$",

@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 741,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Initial_Punctuation}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 877,
             "end": 906,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Pi}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Pi}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 979,
             "end": 1011,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Initial_Punctuation}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 1087,
             "end": 1102,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Pi}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Pi}+$",
@@ -369,7 +369,7 @@
             "type": "Literal",
             "start": 1161,
             "end": 1190,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Initial_Punctuation}+$",
@@ -412,7 +412,7 @@
             "type": "Literal",
             "start": 1263,
             "end": 1275,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pi}+$/u",
             "regex": {
               "pattern": "^\\p{Pi}+$",
@@ -819,7 +819,7 @@
             "type": "Literal",
             "start": 1765,
             "end": 1811,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Initial_Punctuation}+$",
@@ -862,7 +862,7 @@
             "type": "Literal",
             "start": 1904,
             "end": 1933,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Pi}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Pi}+$",
@@ -905,7 +905,7 @@
             "type": "Literal",
             "start": 2009,
             "end": 2041,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Initial_Punctuation}+$",
@@ -948,7 +948,7 @@
             "type": "Literal",
             "start": 2120,
             "end": 2135,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Pi}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Pi}+$",
@@ -991,7 +991,7 @@
             "type": "Literal",
             "start": 2197,
             "end": 2226,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Initial_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Initial_Punctuation}+$",
@@ -1034,7 +1034,7 @@
             "type": "Literal",
             "start": 2302,
             "end": 2314,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pi}+$/u",
             "regex": {
               "pattern": "^\\P{Pi}+$",

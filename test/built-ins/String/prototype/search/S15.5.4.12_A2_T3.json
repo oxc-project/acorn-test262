@@ -78,7 +78,7 @@
               "type": "Literal",
               "start": 450,
               "end": 459,
-              "value": {},
+              "value": null,
               "raw": "/String/i",
               "regex": {
                 "pattern": "String",
@@ -157,7 +157,7 @@
                         "type": "Literal",
                         "start": 600,
                         "end": 609,
-                        "value": {},
+                        "value": null,
                         "raw": "/String/i",
                         "regex": {
                           "pattern": "String",

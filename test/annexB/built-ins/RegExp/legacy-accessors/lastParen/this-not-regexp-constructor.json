@@ -420,7 +420,7 @@
                                     "type": "Literal",
                                     "start": 1193,
                                     "end": 1196,
-                                    "value": {},
+                                    "value": null,
                                     "raw": "/ /",
                                     "regex": {
                                       "pattern": " ",

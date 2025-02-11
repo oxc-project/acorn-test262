@@ -15198,7 +15198,7 @@
             "type": "Literal",
             "start": 19887,
             "end": 19909,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{XID_Continue}+$/u",
             "regex": {
               "pattern": "^\\p{XID_Continue}+$",
@@ -15241,7 +15241,7 @@
             "type": "Literal",
             "start": 19975,
             "end": 19989,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{XIDC}+$/u",
             "regex": {
               "pattern": "^\\p{XIDC}+$",
@@ -28325,7 +28325,7 @@
             "type": "Literal",
             "start": 37659,
             "end": 37681,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{XID_Continue}+$/u",
             "regex": {
               "pattern": "^\\P{XID_Continue}+$",
@@ -28368,7 +28368,7 @@
             "type": "Literal",
             "start": 37750,
             "end": 37764,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{XIDC}+$/u",
             "regex": {
               "pattern": "^\\P{XIDC}+$",

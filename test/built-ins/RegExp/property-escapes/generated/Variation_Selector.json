@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 649,
             "end": 677,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Variation_Selector}+$/u",
             "regex": {
               "pattern": "^\\p{Variation_Selector}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 749,
             "end": 761,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{VS}+$/u",
             "regex": {
               "pattern": "^\\p{VS}+$",
@@ -479,7 +479,7 @@
             "type": "Literal",
             "start": 1069,
             "end": 1097,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Variation_Selector}+$/u",
             "regex": {
               "pattern": "^\\P{Variation_Selector}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1184,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{VS}+$/u",
             "regex": {
               "pattern": "^\\P{VS}+$",

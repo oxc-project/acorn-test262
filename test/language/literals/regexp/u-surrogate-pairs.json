@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 641,
                 "end": 660,
-                "value": {},
+                "value": null,
                 "raw": "/^[\\ud834\\udf06]$/u",
                 "regex": {
                   "pattern": "^[\\ud834\\udf06]$",

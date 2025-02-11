@@ -140,7 +140,7 @@
             "type": "Literal",
             "start": 493,
             "end": 497,
-            "value": {},
+            "value": null,
             "raw": "/\\n/",
             "regex": {
               "pattern": "\\n",

@@ -267,7 +267,7 @@
             "type": "Literal",
             "start": 807,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Georgian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Georgian}+$",
@@ -310,7 +310,7 @@
             "type": "Literal",
             "start": 923,
             "end": 955,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Geor}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Geor}+$",
@@ -353,7 +353,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1053,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Georgian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Georgian}+$",
@@ -396,7 +396,7 @@
             "type": "Literal",
             "start": 1119,
             "end": 1137,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Geor}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Geor}+$",
@@ -831,7 +831,7 @@
             "type": "Literal",
             "start": 1673,
             "end": 1709,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Georgian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Georgian}+$",
@@ -874,7 +874,7 @@
             "type": "Literal",
             "start": 1792,
             "end": 1824,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Geor}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Geor}+$",
@@ -917,7 +917,7 @@
             "type": "Literal",
             "start": 1903,
             "end": 1925,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Georgian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Georgian}+$",
@@ -960,7 +960,7 @@
             "type": "Literal",
             "start": 1994,
             "end": 2012,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Geor}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Geor}+$",

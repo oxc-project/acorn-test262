@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 593,
             "end": 617,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tagalog}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tagalog}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 685,
             "end": 706,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tglg}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tglg}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 771,
             "end": 791,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tagalog}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tagalog}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 855,
             "end": 872,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tglg}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tglg}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1143,
             "end": 1167,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tagalog}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tagalog}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1238,
             "end": 1259,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tglg}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tglg}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1327,
             "end": 1347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tagalog}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tagalog}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1414,
             "end": 1431,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tglg}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tglg}+$",

@@ -304,7 +304,7 @@
                   "type": "Literal",
                   "start": 656,
                   "end": 660,
-                  "value": {},
+                  "value": null,
                   "raw": "/./y",
                   "regex": {
                     "pattern": ".",

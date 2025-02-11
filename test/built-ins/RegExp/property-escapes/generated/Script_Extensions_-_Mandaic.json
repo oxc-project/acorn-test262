@@ -141,7 +141,7 @@
             "type": "Literal",
             "start": 618,
             "end": 653,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mandaic}+$",
@@ -184,7 +184,7 @@
             "type": "Literal",
             "start": 732,
             "end": 764,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mand}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mand}+$",
@@ -227,7 +227,7 @@
             "type": "Literal",
             "start": 840,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mandaic}+$",
@@ -270,7 +270,7 @@
             "type": "Literal",
             "start": 926,
             "end": 944,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mand}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mand}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1242,
             "end": 1277,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mandaic}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1359,
             "end": 1391,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mand}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mand}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1470,
             "end": 1491,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mandaic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mandaic}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1559,
             "end": 1577,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mand}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mand}+$",

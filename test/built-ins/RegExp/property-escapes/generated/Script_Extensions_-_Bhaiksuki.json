@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 668,
             "end": 705,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bhaiksuki}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 786,
             "end": 818,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bhks}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bhks}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 894,
             "end": 917,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bhaiksuki}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 984,
             "end": 1002,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bhks}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bhks}+$",
@@ -564,7 +564,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1341,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bhaiksuki}+$",
@@ -607,7 +607,7 @@
             "type": "Literal",
             "start": 1425,
             "end": 1457,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bhks}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bhks}+$",
@@ -650,7 +650,7 @@
             "type": "Literal",
             "start": 1536,
             "end": 1559,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bhaiksuki}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1629,
             "end": 1647,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bhks}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bhks}+$",

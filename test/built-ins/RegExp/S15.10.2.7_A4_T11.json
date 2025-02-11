@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 362,
-                "value": {},
+                "value": null,
                 "raw": "/cd*/",
                 "regex": {
                   "pattern": "cd*",

@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 363,
             "end": 368,
-            "value": {},
+            "value": null,
             "raw": "/abc/",
             "regex": {
               "pattern": "abc",
@@ -580,7 +580,7 @@
                 "type": "Literal",
                 "start": 871,
                 "end": 876,
-                "value": {},
+                "value": null,
                 "raw": "/abc/",
                 "regex": {
                   "pattern": "abc",
@@ -859,7 +859,7 @@
                 "type": "Literal",
                 "start": 1071,
                 "end": 1076,
-                "value": {},
+                "value": null,
                 "raw": "/abc/",
                 "regex": {
                   "pattern": "abc",

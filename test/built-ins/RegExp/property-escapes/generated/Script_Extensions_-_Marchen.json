@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 640,
             "end": 675,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Marchen}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Marchen}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 754,
             "end": 786,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Marc}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Marc}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 862,
             "end": 883,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Marchen}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Marchen}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 948,
             "end": 966,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Marc}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Marc}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1289,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Marchen}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Marchen}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1371,
             "end": 1403,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Marc}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Marc}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1503,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Marchen}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Marchen}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1571,
             "end": 1589,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Marc}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Marc}+$",

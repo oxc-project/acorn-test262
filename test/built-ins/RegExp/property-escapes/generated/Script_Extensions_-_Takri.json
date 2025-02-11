@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 664,
             "end": 697,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Takri}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Takri}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 774,
             "end": 806,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Takr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Takr}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 882,
             "end": 901,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Takri}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Takri}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 964,
             "end": 982,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Takr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Takr}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1339,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Takri}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Takri}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1419,
             "end": 1451,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Takr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Takr}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1530,
             "end": 1549,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Takri}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Takri}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1615,
             "end": 1633,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Takr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Takr}+$",

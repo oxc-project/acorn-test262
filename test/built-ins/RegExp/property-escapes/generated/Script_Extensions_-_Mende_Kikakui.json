@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 620,
             "end": 661,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mende_Kikakui}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 746,
             "end": 778,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mend}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mend}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 854,
             "end": 881,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mende_Kikakui}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 952,
             "end": 970,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mend}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mend}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1242,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mende_Kikakui}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1371,
             "end": 1403,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mend}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mend}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1509,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mende_Kikakui}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1583,
             "end": 1601,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mend}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mend}+$",

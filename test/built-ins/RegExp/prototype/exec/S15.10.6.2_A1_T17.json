@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 470,
                 "end": 476,
-                "value": {},
+                "value": null,
                 "raw": "/ll|l/",
                 "regex": {
                   "pattern": "ll|l",

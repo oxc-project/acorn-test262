@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 673,
             "end": 697,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cypriot}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 765,
             "end": 786,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cprt}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cprt}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 851,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cypriot}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 935,
             "end": 952,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cprt}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cprt}+$",
@@ -607,7 +607,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1329,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cypriot}+$",
@@ -650,7 +650,7 @@
             "type": "Literal",
             "start": 1400,
             "end": 1421,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cprt}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cprt}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1509,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cypriot}+$",
@@ -736,7 +736,7 @@
             "type": "Literal",
             "start": 1576,
             "end": 1593,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cprt}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cprt}+$",

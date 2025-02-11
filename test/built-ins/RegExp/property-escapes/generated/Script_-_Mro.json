@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 625,
             "end": 645,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mro}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mro}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 709,
             "end": 730,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mroo}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mroo}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 795,
             "end": 811,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mro}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mro}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 871,
             "end": 888,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mroo}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mroo}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1175,
             "end": 1195,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mro}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mro}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mroo}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mroo}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1367,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mro}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mro}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1430,
             "end": 1447,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mroo}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mroo}+$",

@@ -184,7 +184,7 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 460,
-                "value": {},
+                "value": null,
                 "raw": "/a/",
                 "regex": {
                   "pattern": "a",
@@ -255,7 +255,7 @@
                 "type": "Literal",
                 "start": 523,
                 "end": 527,
-                "value": {},
+                "value": null,
                 "raw": "/a/u",
                 "regex": {
                   "pattern": "a",
@@ -326,7 +326,7 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 586,
-                "value": {},
+                "value": null,
                 "raw": "/a/v",
                 "regex": {
                   "pattern": "a",
@@ -397,7 +397,7 @@
                 "type": "Literal",
                 "start": 667,
                 "end": 671,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/",
                 "regex": {
                   "pattern": "𠮷",
@@ -468,7 +468,7 @@
                 "type": "Literal",
                 "start": 747,
                 "end": 752,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/u",
                 "regex": {
                   "pattern": "𠮷",
@@ -539,7 +539,7 @@
                 "type": "Literal",
                 "start": 826,
                 "end": 831,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/v",
                 "regex": {
                   "pattern": "𠮷",
@@ -610,7 +610,7 @@
                 "type": "Literal",
                 "start": 934,
                 "end": 951,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/u",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -681,7 +681,7 @@
                 "type": "Literal",
                 "start": 1024,
                 "end": 1041,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/v",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -752,7 +752,7 @@
                 "type": "Literal",
                 "start": 1131,
                 "end": 1135,
-                "value": {},
+                "value": null,
                 "raw": "/c./",
                 "regex": {
                   "pattern": "c.",
@@ -823,7 +823,7 @@
                 "type": "Literal",
                 "start": 1195,
                 "end": 1200,
-                "value": {},
+                "value": null,
                 "raw": "/c./u",
                 "regex": {
                   "pattern": "c.",
@@ -894,7 +894,7 @@
                 "type": "Literal",
                 "start": 1252,
                 "end": 1257,
-                "value": {},
+                "value": null,
                 "raw": "/c./v",
                 "regex": {
                   "pattern": "c.",
@@ -965,7 +965,7 @@
                 "type": "Literal",
                 "start": 1336,
                 "end": 1350,
-                "value": {},
+                "value": null,
                 "raw": "/👨‍👩‍👧‍👦/u",
                 "regex": {
                   "pattern": "👨‍👩‍👧‍👦",
@@ -1036,7 +1036,7 @@
                 "type": "Literal",
                 "start": 1421,
                 "end": 1435,
-                "value": {},
+                "value": null,
                 "raw": "/👨‍👩‍👧‍👦/v",
                 "regex": {
                   "pattern": "👨‍👩‍👧‍👦",
@@ -1107,7 +1107,7 @@
                 "type": "Literal",
                 "start": 1523,
                 "end": 1539,
-                "value": {},
+                "value": null,
                 "raw": "/[👨‍👩‍👧‍👦]/v",
                 "regex": {
                   "pattern": "[👨‍👩‍👧‍👦]",
@@ -1178,7 +1178,7 @@
                 "type": "Literal",
                 "start": 1626,
                 "end": 1642,
-                "value": {},
+                "value": null,
                 "raw": "/[👨‍👩‍👧‍👦]/u",
                 "regex": {
                   "pattern": "[👨‍👩‍👧‍👦]",
@@ -1249,7 +1249,7 @@
                 "type": "Literal",
                 "start": 1761,
                 "end": 1765,
-                "value": {},
+                "value": null,
                 "raw": "/x/u",
                 "regex": {
                   "pattern": "x",
@@ -1327,7 +1327,7 @@
                 "type": "Literal",
                 "start": 1846,
                 "end": 1850,
-                "value": {},
+                "value": null,
                 "raw": "/x/v",
                 "regex": {
                   "pattern": "x",

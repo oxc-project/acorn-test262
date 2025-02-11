@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 590,
             "end": 627,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Palmyrene}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Palmyrene}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 708,
             "end": 740,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Palm}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Palm}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 816,
             "end": 839,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Palmyrene}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Palmyrene}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 906,
             "end": 924,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Palm}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Palm}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1170,
             "end": 1207,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Palmyrene}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Palmyrene}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1291,
             "end": 1323,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Palm}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Palm}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1402,
             "end": 1425,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Palmyrene}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Palmyrene}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1495,
             "end": 1513,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Palm}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Palm}+$",

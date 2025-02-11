@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 476,
-                "value": {},
+                "value": null,
                 "raw": "/[\\d][\\n][^\\d]/",
                 "regex": {
                   "pattern": "[\\d][\\n][^\\d]",

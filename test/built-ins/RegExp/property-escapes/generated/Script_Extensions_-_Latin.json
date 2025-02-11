@@ -1149,7 +1149,7 @@
             "type": "Literal",
             "start": 1976,
             "end": 2009,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Latin}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Latin}+$",
@@ -1192,7 +1192,7 @@
             "type": "Literal",
             "start": 2086,
             "end": 2118,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Latn}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Latn}+$",
@@ -1235,7 +1235,7 @@
             "type": "Literal",
             "start": 2194,
             "end": 2213,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Latin}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Latin}+$",
@@ -1278,7 +1278,7 @@
             "type": "Literal",
             "start": 2276,
             "end": 2294,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Latn}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Latn}+$",
@@ -2623,7 +2623,7 @@
             "type": "Literal",
             "start": 4026,
             "end": 4059,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Latin}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Latin}+$",
@@ -2666,7 +2666,7 @@
             "type": "Literal",
             "start": 4139,
             "end": 4171,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Latn}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Latn}+$",
@@ -2709,7 +2709,7 @@
             "type": "Literal",
             "start": 4250,
             "end": 4269,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Latin}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Latin}+$",
@@ -2752,7 +2752,7 @@
             "type": "Literal",
             "start": 4335,
             "end": 4353,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Latn}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Latn}+$",

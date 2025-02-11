@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 618,
             "end": 657,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Persian}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 740,
             "end": 772,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Xpeo}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 848,
             "end": 873,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Persian}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 942,
             "end": 960,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Xpeo}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1232,
             "end": 1271,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Persian}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1357,
             "end": 1389,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Xpeo}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1468,
             "end": 1493,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Persian}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1565,
             "end": 1583,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Xpeo}+$",

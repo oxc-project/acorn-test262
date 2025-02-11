@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 597,
             "end": 625,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Warang_Citi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Warang_Citi}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 697,
             "end": 718,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Wara}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Wara}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 783,
             "end": 807,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Warang_Citi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Warang_Citi}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 875,
             "end": 892,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Wara}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Wara}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1163,
             "end": 1191,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Warang_Citi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Warang_Citi}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1266,
             "end": 1287,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Wara}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Wara}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1355,
             "end": 1379,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Warang_Citi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Warang_Citi}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1450,
             "end": 1467,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Wara}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Wara}+$",

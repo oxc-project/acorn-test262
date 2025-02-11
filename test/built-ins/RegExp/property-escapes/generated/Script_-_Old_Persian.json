@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 607,
             "end": 635,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_Persian}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 707,
             "end": 728,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Xpeo}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 793,
             "end": 817,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_Persian}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 885,
             "end": 902,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Xpeo}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1173,
             "end": 1201,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_Persian}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1276,
             "end": 1297,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Xpeo}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1365,
             "end": 1389,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Old_Persian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_Persian}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1460,
             "end": 1477,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Xpeo}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Xpeo}+$",

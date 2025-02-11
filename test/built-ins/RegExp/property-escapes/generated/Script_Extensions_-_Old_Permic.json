@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 675,
             "end": 713,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Permic}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 795,
             "end": 827,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Perm}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Perm}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 903,
             "end": 927,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Permic}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1013,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Perm}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Perm}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1389,
             "end": 1427,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Permic}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1512,
             "end": 1544,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Perm}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Perm}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1623,
             "end": 1647,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Permic}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1718,
             "end": 1736,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Perm}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Perm}+$",

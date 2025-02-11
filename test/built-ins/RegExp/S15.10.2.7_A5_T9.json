@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 359,
-                "value": {},
+                "value": null,
                 "raw": "/b?b?b?b/",
                 "regex": {
                   "pattern": "b?b?b?b",

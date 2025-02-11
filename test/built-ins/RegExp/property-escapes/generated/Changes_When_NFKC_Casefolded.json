@@ -9178,7 +9178,7 @@
             "type": "Literal",
             "start": 15095,
             "end": 15133,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Changes_When_NFKC_Casefolded}+$/u",
             "regex": {
               "pattern": "^\\p{Changes_When_NFKC_Casefolded}+$",
@@ -9221,7 +9221,7 @@
             "type": "Literal",
             "start": 15215,
             "end": 15230,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{CWKCF}+$/u",
             "regex": {
               "pattern": "^\\p{CWKCF}+$",
@@ -18343,7 +18343,7 @@
             "type": "Literal",
             "start": 29857,
             "end": 29895,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Changes_When_NFKC_Casefolded}+$/u",
             "regex": {
               "pattern": "^\\P{Changes_When_NFKC_Casefolded}+$",
@@ -18386,7 +18386,7 @@
             "type": "Literal",
             "start": 29980,
             "end": 29995,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{CWKCF}+$/u",
             "regex": {
               "pattern": "^\\P{CWKCF}+$",

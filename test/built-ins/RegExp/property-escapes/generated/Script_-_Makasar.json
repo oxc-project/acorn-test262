@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 577,
             "end": 601,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Makasar}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Makasar}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 669,
             "end": 690,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Maka}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Maka}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 755,
             "end": 775,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Makasar}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Makasar}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 839,
             "end": 856,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Maka}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Maka}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1101,
             "end": 1125,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Makasar}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Makasar}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1196,
             "end": 1217,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Maka}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Maka}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1285,
             "end": 1305,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Makasar}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Makasar}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1389,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Maka}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Maka}+$",

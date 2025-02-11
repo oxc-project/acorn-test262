@@ -2465,7 +2465,7 @@
             "type": "Literal",
             "start": 3632,
             "end": 3665,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Changes_When_Casemapped}+$/u",
             "regex": {
               "pattern": "^\\p{Changes_When_Casemapped}+$",
@@ -2508,7 +2508,7 @@
             "type": "Literal",
             "start": 3742,
             "end": 3756,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{CWCM}+$/u",
             "regex": {
               "pattern": "^\\p{CWCM}+$",
@@ -4847,7 +4847,7 @@
             "type": "Literal",
             "start": 6864,
             "end": 6897,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Changes_When_Casemapped}+$/u",
             "regex": {
               "pattern": "^\\P{Changes_When_Casemapped}+$",
@@ -4890,7 +4890,7 @@
             "type": "Literal",
             "start": 6977,
             "end": 6991,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{CWCM}+$/u",
             "regex": {
               "pattern": "^\\P{CWCM}+$",

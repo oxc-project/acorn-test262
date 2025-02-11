@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 590,
             "end": 627,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Meroitic_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Meroitic_Hieroglyphs}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 708,
             "end": 729,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mero}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mero}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 794,
             "end": 827,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Meroitic_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Meroitic_Hieroglyphs}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 904,
             "end": 921,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mero}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mero}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1166,
             "end": 1203,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Meroitic_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Meroitic_Hieroglyphs}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1287,
             "end": 1308,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mero}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mero}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1376,
             "end": 1409,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Meroitic_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Meroitic_Hieroglyphs}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1506,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mero}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mero}+$",

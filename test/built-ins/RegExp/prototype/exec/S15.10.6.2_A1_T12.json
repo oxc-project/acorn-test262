@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 520,
-                "value": {},
+                "value": null,
                 "raw": "/\\.14/",
                 "regex": {
                   "pattern": "\\.14",

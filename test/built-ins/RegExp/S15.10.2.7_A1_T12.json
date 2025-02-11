@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 365,
-                "value": {},
+                "value": null,
                 "raw": "/.{0,93}/",
                 "regex": {
                   "pattern": ".{0,93}",

@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 663,
             "end": 695,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cham}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 771,
             "end": 803,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cham}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 879,
             "end": 897,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cham}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 959,
             "end": 977,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cham}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1301,
             "end": 1333,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cham}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1412,
             "end": 1444,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cham}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1523,
             "end": 1541,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cham}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1606,
             "end": 1624,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cham}+$",

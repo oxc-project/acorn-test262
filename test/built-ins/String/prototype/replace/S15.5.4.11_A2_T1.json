@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 490,
             "end": 495,
-            "value": {},
+            "value": null,
             "raw": "/sh/g",
             "regex": {
               "pattern": "sh",

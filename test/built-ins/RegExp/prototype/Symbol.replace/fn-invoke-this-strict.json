@@ -103,7 +103,7 @@
             "type": "Literal",
             "start": 809,
             "end": 812,
-            "value": {},
+            "value": null,
             "raw": "/./",
             "regex": {
               "pattern": ".",

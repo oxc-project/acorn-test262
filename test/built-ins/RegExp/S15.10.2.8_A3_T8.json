@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 628,
                 "end": 638,
-                "value": {},
+                "value": null,
                 "raw": "/(aa).+\\1/",
                 "regex": {
                   "pattern": "(aa).+\\1",

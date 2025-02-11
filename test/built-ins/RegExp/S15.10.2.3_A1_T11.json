@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 555,
                 "end": 566,
-                "value": {},
+                "value": null,
                 "raw": "/11111|111/",
                 "regex": {
                   "pattern": "11111|111",

@@ -117,7 +117,7 @@
             "type": "Literal",
             "start": 543,
             "end": 548,
-            "value": {},
+            "value": null,
             "raw": "/\\w/g",
             "regex": {
               "pattern": "\\w",

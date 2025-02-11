@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 629,
                 "end": 645,
-                "value": {},
+                "value": null,
                 "raw": "/a(.?)b\\1c\\1d\\1/",
                 "regex": {
                   "pattern": "a(.?)b\\1c\\1d\\1",

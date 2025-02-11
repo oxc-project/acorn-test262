@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 434,
             "end": 437,
-            "value": {},
+            "value": null,
             "raw": "/$/",
             "regex": {
               "pattern": "$",
@@ -427,7 +427,7 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 729,
-                "value": {},
+                "value": null,
                 "raw": "/$/",
                 "regex": {
                   "pattern": "$",

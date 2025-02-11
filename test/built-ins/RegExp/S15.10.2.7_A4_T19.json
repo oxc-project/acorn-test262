@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 380,
-                "value": {},
+                "value": null,
                 "raw": "/bc..[\\d]*[\\s]*/",
                 "regex": {
                   "pattern": "bc..[\\d]*[\\s]*",

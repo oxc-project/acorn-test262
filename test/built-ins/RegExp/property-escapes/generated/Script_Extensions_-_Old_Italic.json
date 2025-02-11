@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 617,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Italic}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 737,
             "end": 769,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ital}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ital}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 845,
             "end": 869,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Italic}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 937,
             "end": 955,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ital}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ital}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1227,
             "end": 1265,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Italic}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1350,
             "end": 1382,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ital}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ital}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1461,
             "end": 1485,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Italic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Italic}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1556,
             "end": 1574,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ital}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ital}+$",

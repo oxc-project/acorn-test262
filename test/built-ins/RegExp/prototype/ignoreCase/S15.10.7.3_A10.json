@@ -140,7 +140,7 @@
             "type": "Literal",
             "start": 497,
             "end": 504,
-            "value": {},
+            "value": null,
             "raw": "/a|b|c/",
             "regex": {
               "pattern": "a|b|c",

@@ -449,7 +449,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1031,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gujarati}+$",
@@ -492,7 +492,7 @@
             "type": "Literal",
             "start": 1111,
             "end": 1143,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gujr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gujr}+$",
@@ -535,7 +535,7 @@
             "type": "Literal",
             "start": 1219,
             "end": 1241,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gujarati}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1307,
             "end": 1325,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gujr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gujr}+$",
@@ -1013,7 +1013,7 @@
             "type": "Literal",
             "start": 1893,
             "end": 1929,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gujarati}+$",
@@ -1056,7 +1056,7 @@
             "type": "Literal",
             "start": 2012,
             "end": 2044,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gujr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gujr}+$",
@@ -1099,7 +1099,7 @@
             "type": "Literal",
             "start": 2123,
             "end": 2145,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gujarati}+$",
@@ -1142,7 +1142,7 @@
             "type": "Literal",
             "start": 2214,
             "end": 2232,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gujr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gujr}+$",

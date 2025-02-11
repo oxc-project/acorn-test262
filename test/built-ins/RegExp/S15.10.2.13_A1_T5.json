@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 477,
-                "value": {},
+                "value": null,
                 "raw": "/q[ax-zb](?=\\s+)/",
                 "regex": {
                   "pattern": "q[ax-zb](?=\\s+)",

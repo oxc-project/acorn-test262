@@ -281,7 +281,7 @@
             "type": "Literal",
             "start": 774,
             "end": 797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hebrew}+$",
@@ -324,7 +324,7 @@
             "type": "Literal",
             "start": 864,
             "end": 885,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hebr}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hebr}+$",
@@ -367,7 +367,7 @@
             "type": "Literal",
             "start": 950,
             "end": 969,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hebrew}+$",
@@ -410,7 +410,7 @@
             "type": "Literal",
             "start": 1032,
             "end": 1049,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hebr}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hebr}+$",
@@ -719,7 +719,7 @@
             "type": "Literal",
             "start": 1444,
             "end": 1467,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hebrew}+$",
@@ -762,7 +762,7 @@
             "type": "Literal",
             "start": 1537,
             "end": 1558,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hebr}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hebr}+$",
@@ -805,7 +805,7 @@
             "type": "Literal",
             "start": 1626,
             "end": 1645,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hebrew}+$",
@@ -848,7 +848,7 @@
             "type": "Literal",
             "start": 1711,
             "end": 1728,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hebr}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hebr}+$",

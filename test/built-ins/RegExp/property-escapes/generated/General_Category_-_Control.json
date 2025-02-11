@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 613,
             "end": 647,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Control}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Control}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 725,
             "end": 754,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Cc}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Cc}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 827,
             "end": 859,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=cntrl}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=cntrl}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 935,
             "end": 955,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Control}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Control}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 1019,
             "end": 1034,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Cc}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Cc}+$",
@@ -362,7 +362,7 @@
             "type": "Literal",
             "start": 1093,
             "end": 1111,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=cntrl}+$/u",
             "regex": {
               "pattern": "^\\p{gc=cntrl}+$",
@@ -405,7 +405,7 @@
             "type": "Literal",
             "start": 1173,
             "end": 1190,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Control}+$/u",
             "regex": {
               "pattern": "^\\p{Control}+$",
@@ -448,7 +448,7 @@
             "type": "Literal",
             "start": 1251,
             "end": 1263,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Cc}+$/u",
             "regex": {
               "pattern": "^\\p{Cc}+$",
@@ -491,7 +491,7 @@
             "type": "Literal",
             "start": 1319,
             "end": 1334,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{cntrl}+$/u",
             "regex": {
               "pattern": "^\\p{cntrl}+$",
@@ -701,7 +701,7 @@
             "type": "Literal",
             "start": 1577,
             "end": 1611,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Control}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Control}+$",
@@ -744,7 +744,7 @@
             "type": "Literal",
             "start": 1692,
             "end": 1721,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Cc}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Cc}+$",
@@ -787,7 +787,7 @@
             "type": "Literal",
             "start": 1797,
             "end": 1829,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=cntrl}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=cntrl}+$",
@@ -830,7 +830,7 @@
             "type": "Literal",
             "start": 1908,
             "end": 1928,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Control}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Control}+$",
@@ -873,7 +873,7 @@
             "type": "Literal",
             "start": 1995,
             "end": 2010,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Cc}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Cc}+$",
@@ -916,7 +916,7 @@
             "type": "Literal",
             "start": 2072,
             "end": 2090,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=cntrl}+$/u",
             "regex": {
               "pattern": "^\\P{gc=cntrl}+$",
@@ -959,7 +959,7 @@
             "type": "Literal",
             "start": 2155,
             "end": 2172,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Control}+$/u",
             "regex": {
               "pattern": "^\\P{Control}+$",
@@ -1002,7 +1002,7 @@
             "type": "Literal",
             "start": 2236,
             "end": 2248,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Cc}+$/u",
             "regex": {
               "pattern": "^\\P{Cc}+$",
@@ -1045,7 +1045,7 @@
             "type": "Literal",
             "start": 2307,
             "end": 2322,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{cntrl}+$/u",
             "regex": {
               "pattern": "^\\P{cntrl}+$",

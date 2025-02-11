@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 545,
             "end": 549,
-            "value": {},
+            "value": null,
             "raw": "/\\w/",
             "regex": {
               "pattern": "\\w",

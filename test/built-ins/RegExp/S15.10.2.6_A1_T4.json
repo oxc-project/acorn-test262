@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 429,
-                "value": {},
+                "value": null,
                 "raw": "/[^e]$/mg",
                 "regex": {
                   "pattern": "[^e]$",

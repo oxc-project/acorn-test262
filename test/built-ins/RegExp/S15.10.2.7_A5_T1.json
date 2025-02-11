@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 420,
-                "value": {},
+                "value": null,
                 "raw": "/java(script)?/",
                 "regex": {
                   "pattern": "java(script)?",

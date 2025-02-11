@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 444,
-                "value": {},
+                "value": null,
                 "raw": "/^[^p]/m",
                 "regex": {
                   "pattern": "^[^p]",

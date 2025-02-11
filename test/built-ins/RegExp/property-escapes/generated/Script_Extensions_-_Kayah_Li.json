@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 589,
             "end": 625,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kayah_Li}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kayah_Li}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 705,
             "end": 737,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kali}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kali}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 813,
             "end": 835,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kayah_Li}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kayah_Li}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 901,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kali}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kali}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1165,
             "end": 1201,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kayah_Li}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kayah_Li}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1284,
             "end": 1316,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kali}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kali}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1395,
             "end": 1417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kayah_Li}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kayah_Li}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1486,
             "end": 1504,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kali}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kali}+$",

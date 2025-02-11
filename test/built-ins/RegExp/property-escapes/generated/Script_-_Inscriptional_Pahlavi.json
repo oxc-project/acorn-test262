@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 617,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Inscriptional_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Inscriptional_Pahlavi}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 737,
             "end": 758,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Phli}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phli}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 823,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Inscriptional_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Inscriptional_Pahlavi}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 935,
             "end": 952,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Phli}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phli}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1223,
             "end": 1261,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Inscriptional_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Inscriptional_Pahlavi}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1346,
             "end": 1367,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Phli}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phli}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1435,
             "end": 1469,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Inscriptional_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Inscriptional_Pahlavi}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1550,
             "end": 1567,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Phli}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phli}+$",

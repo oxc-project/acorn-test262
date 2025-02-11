@@ -1107,7 +1107,7 @@
             "type": "Literal",
             "start": 1882,
             "end": 1905,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Arabic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Arabic}+$",
@@ -1150,7 +1150,7 @@
             "type": "Literal",
             "start": 1972,
             "end": 1993,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Arab}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Arab}+$",
@@ -1193,7 +1193,7 @@
             "type": "Literal",
             "start": 2058,
             "end": 2077,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Arabic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Arabic}+$",
@@ -1236,7 +1236,7 @@
             "type": "Literal",
             "start": 2140,
             "end": 2157,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Arab}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Arab}+$",
@@ -2161,7 +2161,7 @@
             "type": "Literal",
             "start": 3480,
             "end": 3503,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Arabic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Arabic}+$",
@@ -2204,7 +2204,7 @@
             "type": "Literal",
             "start": 3573,
             "end": 3594,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Arab}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Arab}+$",
@@ -2247,7 +2247,7 @@
             "type": "Literal",
             "start": 3662,
             "end": 3681,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Arabic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Arabic}+$",
@@ -2290,7 +2290,7 @@
             "type": "Literal",
             "start": 3747,
             "end": 3764,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Arab}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Arab}+$",

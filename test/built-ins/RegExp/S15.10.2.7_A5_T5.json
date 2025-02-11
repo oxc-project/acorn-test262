@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 355,
-                "value": {},
+                "value": null,
                 "raw": "/cdx?e/",
                 "regex": {
                   "pattern": "cdx?e",

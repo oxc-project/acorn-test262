@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 656,
             "end": 691,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Avestan}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Avestan}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 770,
             "end": 802,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Avst}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Avst}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 878,
             "end": 899,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Avestan}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Avestan}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 964,
             "end": 982,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Avst}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Avst}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1341,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Avestan}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Avestan}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1455,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Avst}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Avst}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1534,
             "end": 1555,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Avestan}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Avestan}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1623,
             "end": 1641,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Avst}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Avst}+$",

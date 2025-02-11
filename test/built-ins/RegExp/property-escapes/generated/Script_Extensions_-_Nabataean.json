@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 616,
             "end": 653,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nabataean}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nabataean}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 734,
             "end": 766,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nbat}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nbat}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 842,
             "end": 865,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nabataean}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nabataean}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 932,
             "end": 950,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nbat}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nbat}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1259,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nabataean}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nabataean}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nbat}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nbat}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1477,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nabataean}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nabataean}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1547,
             "end": 1565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nbat}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nbat}+$",

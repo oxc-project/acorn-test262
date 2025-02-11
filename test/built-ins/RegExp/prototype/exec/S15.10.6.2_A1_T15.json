@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 503,
                 "end": 508,
-                "value": {},
+                "value": null,
                 "raw": "/LS/i",
                 "regex": {
                   "pattern": "LS",

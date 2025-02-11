@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 605,
             "end": 631,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Samaritan}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Samaritan}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 701,
             "end": 722,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Samr}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Samr}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 787,
             "end": 809,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Samaritan}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Samaritan}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 875,
             "end": 892,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Samr}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Samr}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1163,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Samaritan}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Samaritan}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Samr}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Samr}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1373,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Samaritan}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Samaritan}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1459,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Samr}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Samr}+$",

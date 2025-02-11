@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 443,
-                "value": {},
+                "value": null,
                 "raw": "/\\bp/",
                 "regex": {
                   "pattern": "\\bp",

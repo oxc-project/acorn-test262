@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 974,
                 "end": 984,
-                "value": {},
+                "value": null,
                 "raw": "/^.(?<=a)/",
                 "regex": {
                   "pattern": "^.(?<=a)",
@@ -145,7 +145,7 @@
                 "type": "Literal",
                 "start": 1029,
                 "end": 1046,
-                "value": {},
+                "value": null,
                 "raw": "/^f\\w\\w(?<=\\woo)/",
                 "regex": {
                   "pattern": "^f\\w\\w(?<=\\woo)",
@@ -230,7 +230,7 @@
                 "type": "Literal",
                 "start": 1091,
                 "end": 1108,
-                "value": {},
+                "value": null,
                 "raw": "/^f\\w\\w(?<=\\woo)/",
                 "regex": {
                   "pattern": "^f\\w\\w(?<=\\woo)",
@@ -315,7 +315,7 @@
                 "type": "Literal",
                 "start": 1153,
                 "end": 1170,
-                "value": {},
+                "value": null,
                 "raw": "/^f\\w\\w(?<=\\woo)/",
                 "regex": {
                   "pattern": "^f\\w\\w(?<=\\woo)",
@@ -400,7 +400,7 @@
                 "type": "Literal",
                 "start": 1217,
                 "end": 1227,
-                "value": {},
+                "value": null,
                 "raw": "/^.(?<=a)/",
                 "regex": {
                   "pattern": "^.(?<=a)",
@@ -492,7 +492,7 @@
                 "type": "Literal",
                 "start": 1277,
                 "end": 1291,
-                "value": {},
+                "value": null,
                 "raw": "/^f..(?<=.oo)/",
                 "regex": {
                   "pattern": "^f..(?<=.oo)",
@@ -584,7 +584,7 @@
                 "type": "Literal",
                 "start": 1343,
                 "end": 1360,
-                "value": {},
+                "value": null,
                 "raw": "/^f\\w\\w(?<=\\woo)/",
                 "regex": {
                   "pattern": "^f\\w\\w(?<=\\woo)",
@@ -676,7 +676,7 @@
                 "type": "Literal",
                 "start": 1414,
                 "end": 1430,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=abc)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=abc)\\w\\w\\w",
@@ -768,7 +768,7 @@
                 "type": "Literal",
                 "start": 1484,
                 "end": 1500,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a.c)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a.c)\\w\\w\\w",
@@ -860,7 +860,7 @@
                 "type": "Literal",
                 "start": 1554,
                 "end": 1571,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a\\wc)\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a\\wc)\\w\\w\\w",
@@ -952,7 +952,7 @@
                 "type": "Literal",
                 "start": 1626,
                 "end": 1645,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a[a-z])\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a[a-z])\\w\\w\\w",
@@ -1044,7 +1044,7 @@
                 "type": "Literal",
                 "start": 1700,
                 "end": 1724,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a[a-z][a-z])\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a[a-z][a-z])\\w\\w\\w",
@@ -1136,7 +1136,7 @@
                 "type": "Literal",
                 "start": 1779,
                 "end": 1801,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a[a-z]{2})\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a[a-z]{2})\\w\\w\\w",
@@ -1228,7 +1228,7 @@
                 "type": "Literal",
                 "start": 1856,
                 "end": 1873,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a{1})\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a{1})\\w\\w\\w",
@@ -1320,7 +1320,7 @@
                 "type": "Literal",
                 "start": 1928,
                 "end": 1949,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a{1}b{1})\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a{1}b{1})\\w\\w\\w",
@@ -1412,7 +1412,7 @@
                 "type": "Literal",
                 "start": 2004,
                 "end": 2029,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a{1}[a-z]{2})\\w\\w\\w/",
                 "regex": {
                   "pattern": "(?<=a{1}[a-z]{2})\\w\\w\\w",

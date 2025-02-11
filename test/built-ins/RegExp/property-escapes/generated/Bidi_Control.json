@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 643,
             "end": 665,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Bidi_Control}+$/u",
             "regex": {
               "pattern": "^\\p{Bidi_Control}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 731,
             "end": 747,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Bidi_C}+$/u",
             "regex": {
               "pattern": "^\\p{Bidi_C}+$",
@@ -492,7 +492,7 @@
             "type": "Literal",
             "start": 1069,
             "end": 1091,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Bidi_Control}+$/u",
             "regex": {
               "pattern": "^\\P{Bidi_Control}+$",
@@ -535,7 +535,7 @@
             "type": "Literal",
             "start": 1160,
             "end": 1176,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Bidi_C}+$/u",
             "regex": {
               "pattern": "^\\P{Bidi_C}+$",

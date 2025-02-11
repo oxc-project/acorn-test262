@@ -37,7 +37,7 @@
             "type": "Literal",
             "start": 611,
             "end": 616,
-            "value": {},
+            "value": null,
             "raw": "/^.$/",
             "regex": {
               "pattern": "^.$",
@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 618,
             "end": 624,
-            "value": {},
+            "value": null,
             "raw": "/^.$/m",
             "regex": {
               "pattern": "^.$",

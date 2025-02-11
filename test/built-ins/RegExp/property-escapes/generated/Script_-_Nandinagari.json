@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 633,
             "end": 661,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nandinagari}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 733,
             "end": 754,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Nand}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nand}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 819,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nandinagari}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 911,
             "end": 928,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Nand}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nand}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1253,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nandinagari}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1328,
             "end": 1349,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Nand}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nand}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1417,
             "end": 1441,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nandinagari}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1512,
             "end": 1529,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Nand}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nand}+$",

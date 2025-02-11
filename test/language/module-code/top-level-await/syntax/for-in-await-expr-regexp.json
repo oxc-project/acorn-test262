@@ -46,7 +46,7 @@
               "type": "Literal",
               "start": 2629,
               "end": 2632,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -73,7 +73,7 @@
                 "type": "Literal",
                 "start": 2645,
                 "end": 2648,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",
@@ -128,7 +128,7 @@
               "type": "Literal",
               "start": 2801,
               "end": 2804,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -155,7 +155,7 @@
                 "type": "Literal",
                 "start": 2817,
                 "end": 2820,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",
@@ -210,7 +210,7 @@
               "type": "Literal",
               "start": 2973,
               "end": 2976,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -237,7 +237,7 @@
                 "type": "Literal",
                 "start": 2989,
                 "end": 2992,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",

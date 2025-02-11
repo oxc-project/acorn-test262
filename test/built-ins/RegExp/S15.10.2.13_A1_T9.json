@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 476,
-                "value": {},
+                "value": null,
                 "raw": "/[1234567].{2}/",
                 "regex": {
                   "pattern": "[1234567].{2}",

@@ -3284,7 +3284,7 @@
             "type": "Literal",
             "start": 4875,
             "end": 4913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Punctuation}+$",
@@ -3327,7 +3327,7 @@
             "type": "Literal",
             "start": 4995,
             "end": 5023,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=P}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=P}+$",
@@ -3370,7 +3370,7 @@
             "type": "Literal",
             "start": 5095,
             "end": 5127,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=punct}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=punct}+$",
@@ -3413,7 +3413,7 @@
             "type": "Literal",
             "start": 5203,
             "end": 5227,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Punctuation}+$",
@@ -3456,7 +3456,7 @@
             "type": "Literal",
             "start": 5295,
             "end": 5309,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=P}+$/u",
             "regex": {
               "pattern": "^\\p{gc=P}+$",
@@ -3499,7 +3499,7 @@
             "type": "Literal",
             "start": 5367,
             "end": 5385,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=punct}+$/u",
             "regex": {
               "pattern": "^\\p{gc=punct}+$",
@@ -3542,7 +3542,7 @@
             "type": "Literal",
             "start": 5447,
             "end": 5468,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Punctuation}+$",
@@ -3585,7 +3585,7 @@
             "type": "Literal",
             "start": 5533,
             "end": 5544,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{P}+$/u",
             "regex": {
               "pattern": "^\\p{P}+$",
@@ -3628,7 +3628,7 @@
             "type": "Literal",
             "start": 5599,
             "end": 5614,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{punct}+$/u",
             "regex": {
               "pattern": "^\\p{punct}+$",
@@ -7584,7 +7584,7 @@
             "type": "Literal",
             "start": 10645,
             "end": 10683,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Punctuation}+$",
@@ -7627,7 +7627,7 @@
             "type": "Literal",
             "start": 10768,
             "end": 10796,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=P}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=P}+$",
@@ -7670,7 +7670,7 @@
             "type": "Literal",
             "start": 10871,
             "end": 10903,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=punct}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=punct}+$",
@@ -7713,7 +7713,7 @@
             "type": "Literal",
             "start": 10982,
             "end": 11006,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Punctuation}+$",
@@ -7756,7 +7756,7 @@
             "type": "Literal",
             "start": 11077,
             "end": 11091,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=P}+$/u",
             "regex": {
               "pattern": "^\\P{gc=P}+$",
@@ -7799,7 +7799,7 @@
             "type": "Literal",
             "start": 11152,
             "end": 11170,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=punct}+$/u",
             "regex": {
               "pattern": "^\\P{gc=punct}+$",
@@ -7842,7 +7842,7 @@
             "type": "Literal",
             "start": 11235,
             "end": 11256,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Punctuation}+$",
@@ -7885,7 +7885,7 @@
             "type": "Literal",
             "start": 11324,
             "end": 11335,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{P}+$/u",
             "regex": {
               "pattern": "^\\P{P}+$",
@@ -7928,7 +7928,7 @@
             "type": "Literal",
             "start": 11393,
             "end": 11408,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{punct}+$/u",
             "regex": {
               "pattern": "^\\P{punct}+$",

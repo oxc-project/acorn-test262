@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 331,
             "end": 339,
-            "value": {},
+            "value": null,
             "raw": "/[a-f]d/",
             "regex": {
               "pattern": "[a-f]d",

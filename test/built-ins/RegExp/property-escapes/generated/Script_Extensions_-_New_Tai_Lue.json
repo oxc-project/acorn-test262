@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 670,
             "end": 709,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=New_Tai_Lue}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=New_Tai_Lue}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 792,
             "end": 824,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Talu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Talu}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 900,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=New_Tai_Lue}+$/u",
             "regex": {
               "pattern": "^\\p{scx=New_Tai_Lue}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1012,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Talu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Talu}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=New_Tai_Lue}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=New_Tai_Lue}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1461,
             "end": 1493,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Talu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Talu}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1572,
             "end": 1597,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=New_Tai_Lue}+$/u",
             "regex": {
               "pattern": "^\\P{scx=New_Tai_Lue}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1669,
             "end": 1687,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Talu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Talu}+$",

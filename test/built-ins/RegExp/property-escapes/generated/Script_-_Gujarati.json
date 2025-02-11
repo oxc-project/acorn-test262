@@ -386,7 +386,7 @@
             "type": "Literal",
             "start": 906,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gujarati}+$",
@@ -429,7 +429,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1021,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gujr}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gujr}+$",
@@ -472,7 +472,7 @@
             "type": "Literal",
             "start": 1086,
             "end": 1107,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gujarati}+$",
@@ -515,7 +515,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gujr}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gujr}+$",
@@ -887,7 +887,7 @@
             "type": "Literal",
             "start": 1678,
             "end": 1703,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gujarati}+$",
@@ -930,7 +930,7 @@
             "type": "Literal",
             "start": 1775,
             "end": 1796,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gujr}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gujr}+$",
@@ -973,7 +973,7 @@
             "type": "Literal",
             "start": 1864,
             "end": 1885,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gujarati}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gujarati}+$",
@@ -1016,7 +1016,7 @@
             "type": "Literal",
             "start": 1953,
             "end": 1970,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gujr}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gujr}+$",

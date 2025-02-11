@@ -631,7 +631,7 @@
             "type": "Literal",
             "start": 1237,
             "end": 1263,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Inherited}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Inherited}+$",
@@ -674,7 +674,7 @@
             "type": "Literal",
             "start": 1333,
             "end": 1354,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Zinh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Zinh}+$",
@@ -717,7 +717,7 @@
             "type": "Literal",
             "start": 1419,
             "end": 1440,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Qaai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Qaai}+$",
@@ -760,7 +760,7 @@
             "type": "Literal",
             "start": 1505,
             "end": 1527,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Inherited}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Inherited}+$",
@@ -803,7 +803,7 @@
             "type": "Literal",
             "start": 1593,
             "end": 1610,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Zinh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Zinh}+$",
@@ -846,7 +846,7 @@
             "type": "Literal",
             "start": 1671,
             "end": 1688,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Qaai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Qaai}+$",
@@ -1617,7 +1617,7 @@
             "type": "Literal",
             "start": 2639,
             "end": 2665,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Inherited}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Inherited}+$",
@@ -1660,7 +1660,7 @@
             "type": "Literal",
             "start": 2738,
             "end": 2759,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Zinh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Zinh}+$",
@@ -1703,7 +1703,7 @@
             "type": "Literal",
             "start": 2827,
             "end": 2848,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Qaai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Qaai}+$",
@@ -1746,7 +1746,7 @@
             "type": "Literal",
             "start": 2916,
             "end": 2938,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Inherited}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Inherited}+$",
@@ -1789,7 +1789,7 @@
             "type": "Literal",
             "start": 3007,
             "end": 3024,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Zinh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Zinh}+$",
@@ -1832,7 +1832,7 @@
             "type": "Literal",
             "start": 3088,
             "end": 3105,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Qaai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Qaai}+$",

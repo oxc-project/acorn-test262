@@ -6119,7 +6119,7 @@
             "type": "Literal",
             "start": 8708,
             "end": 8733,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Grapheme_Extend}+$/u",
             "regex": {
               "pattern": "^\\p{Grapheme_Extend}+$",
@@ -6162,7 +6162,7 @@
             "type": "Literal",
             "start": 8802,
             "end": 8818,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Gr_Ext}+$/u",
             "regex": {
               "pattern": "^\\p{Gr_Ext}+$",
@@ -13205,7 +13205,7 @@
             "type": "Literal",
             "start": 17912,
             "end": 17937,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Grapheme_Extend}+$/u",
             "regex": {
               "pattern": "^\\P{Grapheme_Extend}+$",
@@ -13248,7 +13248,7 @@
             "type": "Literal",
             "start": 18009,
             "end": 18025,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Gr_Ext}+$/u",
             "regex": {
               "pattern": "^\\P{Gr_Ext}+$",

@@ -135,7 +135,7 @@
             "type": "Literal",
             "start": 494,
             "end": 515,
-            "value": {},
+            "value": null,
             "raw": "/(aa|aabaac|ba|b|c)*/",
             "regex": {
               "pattern": "(aa|aabaac|ba|b|c)*",

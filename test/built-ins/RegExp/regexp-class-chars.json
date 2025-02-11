@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 704,
-                "value": {},
+                "value": null,
                 "raw": "/[/]/",
                 "regex": {
                   "pattern": "[/]",
@@ -108,7 +108,7 @@
                 "type": "Literal",
                 "start": 751,
                 "end": 756,
-                "value": {},
+                "value": null,
                 "raw": "/[/]/",
                 "regex": {
                   "pattern": "[/]",
@@ -180,7 +180,7 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 807,
-                "value": {},
+                "value": null,
                 "raw": "/[//]/",
                 "regex": {
                   "pattern": "[//]",
@@ -258,7 +258,7 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 871,
-                "value": {},
+                "value": null,
                 "raw": "/[//]/",
                 "regex": {
                   "pattern": "[//]",

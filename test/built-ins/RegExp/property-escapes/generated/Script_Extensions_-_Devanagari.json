@@ -267,7 +267,7 @@
             "type": "Literal",
             "start": 777,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Devanagari}+$",
@@ -310,7 +310,7 @@
             "type": "Literal",
             "start": 897,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Deva}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Deva}+$",
@@ -353,7 +353,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1029,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Devanagari}+$",
@@ -396,7 +396,7 @@
             "type": "Literal",
             "start": 1097,
             "end": 1115,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Deva}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Deva}+$",
@@ -761,7 +761,7 @@
             "type": "Literal",
             "start": 1559,
             "end": 1597,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Devanagari}+$",
@@ -804,7 +804,7 @@
             "type": "Literal",
             "start": 1682,
             "end": 1714,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Deva}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Deva}+$",
@@ -847,7 +847,7 @@
             "type": "Literal",
             "start": 1793,
             "end": 1817,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Devanagari}+$",
@@ -890,7 +890,7 @@
             "type": "Literal",
             "start": 1888,
             "end": 1906,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Deva}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Deva}+$",

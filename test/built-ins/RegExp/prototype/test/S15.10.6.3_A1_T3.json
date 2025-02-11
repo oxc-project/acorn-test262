@@ -61,7 +61,7 @@
             "type": "Literal",
             "start": 385,
             "end": 398,
-            "value": {},
+            "value": null,
             "raw": "/a[a-z]{2,4}/",
             "regex": {
               "pattern": "a[a-z]{2,4}",

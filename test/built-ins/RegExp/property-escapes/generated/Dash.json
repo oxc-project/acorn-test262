@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 915,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Dash}+$/u",
             "regex": {
               "pattern": "^\\p{Dash}+$",
@@ -1009,7 +1009,7 @@
             "type": "Literal",
             "start": 1769,
             "end": 1783,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Dash}+$/u",
             "regex": {
               "pattern": "^\\P{Dash}+$",

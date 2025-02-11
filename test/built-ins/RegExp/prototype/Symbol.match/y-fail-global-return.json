@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 1167,
                 "end": 1172,
-                "value": {},
+                "value": null,
                 "raw": "/a/yg",
                 "regex": {
                   "pattern": "a",

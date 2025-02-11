@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 454,
             "end": 460,
-            "value": {},
+            "value": null,
             "raw": "/\\d+/g",
             "regex": {
               "pattern": "\\d+",

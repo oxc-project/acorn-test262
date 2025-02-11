@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 523,
                   "end": 555,
-                  "value": {},
+                  "value": null,
                   "raw": "/^[\\q{0|2|4|9\\uFE0F\\u20E3}_]+$/v",
                   "regex": {
                     "pattern": "^[\\q{0|2|4|9\\uFE0F\\u20E3}_]+$",

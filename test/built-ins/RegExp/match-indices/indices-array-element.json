@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 460,
-                "value": {},
+                "value": null,
                 "raw": "/b(c)/d",
                 "regex": {
                   "pattern": "b(c)",

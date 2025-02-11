@@ -273,7 +273,7 @@
             "type": "Literal",
             "start": 760,
             "end": 785,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Vithkuqi}+$",
@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 854,
             "end": 875,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Vith}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Vith}+$",
@@ -359,7 +359,7 @@
             "type": "Literal",
             "start": 940,
             "end": 961,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Vithkuqi}+$",
@@ -402,7 +402,7 @@
             "type": "Literal",
             "start": 1026,
             "end": 1043,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Vith}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Vith}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1388,
             "end": 1413,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Vithkuqi}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1485,
             "end": 1506,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Vith}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Vith}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1574,
             "end": 1595,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Vithkuqi}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1663,
             "end": 1680,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Vith}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Vith}+$",

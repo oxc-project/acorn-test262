@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 462,
-                "value": {},
+                "value": null,
                 "raw": "/ab[erst]de/",
                 "regex": {
                   "pattern": "ab[erst]de",

@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 633,
             "end": 661,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\p{Script=SignWriting}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 733,
             "end": 754,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sgnw}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 819,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\p{sc=SignWriting}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 911,
             "end": 928,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sgnw}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1215,
             "end": 1243,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\P{Script=SignWriting}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1318,
             "end": 1339,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sgnw}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1407,
             "end": 1431,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\P{sc=SignWriting}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1502,
             "end": 1519,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sgnw}+$",

@@ -116,7 +116,7 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 396,
-                "value": {},
+                "value": null,
                 "raw": "/baz/",
                 "regex": {
                   "pattern": "baz",

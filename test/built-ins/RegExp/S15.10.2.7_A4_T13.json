@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 368,
-                "value": {},
+                "value": null,
                 "raw": "/(x*)(x+)/",
                 "regex": {
                   "pattern": "(x*)(x+)",

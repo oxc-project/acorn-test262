@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 586,
             "end": 619,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Zanabazar_Square}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Zanabazar_Square}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 696,
             "end": 717,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Zanb}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Zanb}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 782,
             "end": 811,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Zanabazar_Square}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Zanabazar_Square}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 884,
             "end": 901,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Zanb}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Zanb}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1146,
             "end": 1179,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Zanabazar_Square}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Zanabazar_Square}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1259,
             "end": 1280,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Zanb}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Zanb}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1348,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Zanabazar_Square}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Zanabazar_Square}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1453,
             "end": 1470,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Zanb}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Zanb}+$",

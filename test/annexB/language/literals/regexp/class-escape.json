@@ -50,7 +50,7 @@
               "type": "Literal",
               "start": 815,
               "end": 820,
-              "value": {},
+              "value": null,
               "raw": "/\\c0/",
               "regex": {
                 "pattern": "\\c0",
@@ -158,7 +158,7 @@
               "type": "Literal",
               "start": 917,
               "end": 924,
-              "value": {},
+              "value": null,
               "raw": "/[\\c0]/",
               "regex": {
                 "pattern": "[\\c0]",
@@ -280,7 +280,7 @@
               "type": "Literal",
               "start": 1022,
               "end": 1031,
-              "value": {},
+              "value": null,
               "raw": "/[\\c00]+/",
               "regex": {
                 "pattern": "[\\c00]+",
@@ -402,7 +402,7 @@
               "type": "Literal",
               "start": 1132,
               "end": 1137,
-              "value": {},
+              "value": null,
               "raw": "/\\c1/",
               "regex": {
                 "pattern": "\\c1",
@@ -510,7 +510,7 @@
               "type": "Literal",
               "start": 1234,
               "end": 1241,
-              "value": {},
+              "value": null,
               "raw": "/[\\c1]/",
               "regex": {
                 "pattern": "[\\c1]",
@@ -632,7 +632,7 @@
               "type": "Literal",
               "start": 1339,
               "end": 1348,
-              "value": {},
+              "value": null,
               "raw": "/[\\c10]+/",
               "regex": {
                 "pattern": "[\\c10]+",
@@ -754,7 +754,7 @@
               "type": "Literal",
               "start": 1449,
               "end": 1454,
-              "value": {},
+              "value": null,
               "raw": "/\\c8/",
               "regex": {
                 "pattern": "\\c8",
@@ -862,7 +862,7 @@
               "type": "Literal",
               "start": 1551,
               "end": 1558,
-              "value": {},
+              "value": null,
               "raw": "/[\\c8]/",
               "regex": {
                 "pattern": "[\\c8]",
@@ -984,7 +984,7 @@
               "type": "Literal",
               "start": 1656,
               "end": 1665,
-              "value": {},
+              "value": null,
               "raw": "/[\\c80]+/",
               "regex": {
                 "pattern": "[\\c80]+",
@@ -1106,7 +1106,7 @@
               "type": "Literal",
               "start": 1766,
               "end": 1771,
-              "value": {},
+              "value": null,
               "raw": "/\\c9/",
               "regex": {
                 "pattern": "\\c9",
@@ -1214,7 +1214,7 @@
               "type": "Literal",
               "start": 1868,
               "end": 1875,
-              "value": {},
+              "value": null,
               "raw": "/[\\c9]/",
               "regex": {
                 "pattern": "[\\c9]",
@@ -1336,7 +1336,7 @@
               "type": "Literal",
               "start": 1973,
               "end": 1982,
-              "value": {},
+              "value": null,
               "raw": "/[\\c90]+/",
               "regex": {
                 "pattern": "[\\c90]+",
@@ -1458,7 +1458,7 @@
               "type": "Literal",
               "start": 2083,
               "end": 2088,
-              "value": {},
+              "value": null,
               "raw": "/\\c_/",
               "regex": {
                 "pattern": "\\c_",
@@ -1566,7 +1566,7 @@
               "type": "Literal",
               "start": 2185,
               "end": 2192,
-              "value": {},
+              "value": null,
               "raw": "/[\\c_]/",
               "regex": {
                 "pattern": "[\\c_]",

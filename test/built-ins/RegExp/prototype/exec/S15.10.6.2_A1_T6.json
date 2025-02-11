@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 526,
                 "end": 547,
-                "value": {},
+                "value": null,
                 "raw": "/(z)((a+)?(b+)?(c))*/",
                 "regex": {
                   "pattern": "(z)((a+)?(b+)?(c))*",

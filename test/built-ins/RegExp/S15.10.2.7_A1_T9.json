@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 380,
-                "value": {},
+                "value": null,
                 "raw": "/b{42,93}c/",
                 "regex": {
                   "pattern": "b{42,93}c",

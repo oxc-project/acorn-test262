@@ -92,7 +92,7 @@
             "type": "Literal",
             "start": 404,
             "end": 409,
-            "value": {},
+            "value": null,
             "raw": "/LS/i",
             "regex": {
               "pattern": "LS",

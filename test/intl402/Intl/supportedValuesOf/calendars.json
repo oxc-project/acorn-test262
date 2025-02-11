@@ -490,7 +490,7 @@
             "type": "Literal",
             "start": 1701,
             "end": 1735,
-            "value": {},
+            "value": null,
             "raw": "/^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$/",
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",

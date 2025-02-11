@@ -273,7 +273,7 @@
             "type": "Literal",
             "start": 773,
             "end": 811,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kharoshthi}+$",
@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 893,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Khar}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Khar}+$",
@@ -359,7 +359,7 @@
             "type": "Literal",
             "start": 1001,
             "end": 1025,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kharoshthi}+$",
@@ -402,7 +402,7 @@
             "type": "Literal",
             "start": 1093,
             "end": 1111,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Khar}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Khar}+$",
@@ -718,7 +718,7 @@
             "type": "Literal",
             "start": 1505,
             "end": 1543,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kharoshthi}+$",
@@ -761,7 +761,7 @@
             "type": "Literal",
             "start": 1628,
             "end": 1660,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Khar}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Khar}+$",
@@ -804,7 +804,7 @@
             "type": "Literal",
             "start": 1739,
             "end": 1763,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kharoshthi}+$",
@@ -847,7 +847,7 @@
             "type": "Literal",
             "start": 1834,
             "end": 1852,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Khar}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Khar}+$",

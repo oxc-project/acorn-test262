@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 533,
-                "value": {},
+                "value": null,
                 "raw": "/.+/",
                 "regex": {
                   "pattern": ".+",

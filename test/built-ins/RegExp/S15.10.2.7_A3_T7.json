@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 404,
-                "value": {},
+                "value": null,
                 "raw": "/[a-z]+(\\d+)/",
                 "regex": {
                   "pattern": "[a-z]+(\\d+)",

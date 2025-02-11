@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 624,
             "end": 653,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{IDS_Binary_Operator}+$/u",
             "regex": {
               "pattern": "^\\p{IDS_Binary_Operator}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 726,
             "end": 740,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{IDSB}+$/u",
             "regex": {
               "pattern": "^\\p{IDSB}+$",
@@ -450,7 +450,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1063,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{IDS_Binary_Operator}+$/u",
             "regex": {
               "pattern": "^\\P{IDS_Binary_Operator}+$",
@@ -493,7 +493,7 @@
             "type": "Literal",
             "start": 1139,
             "end": 1153,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{IDSB}+$/u",
             "regex": {
               "pattern": "^\\P{IDSB}+$",

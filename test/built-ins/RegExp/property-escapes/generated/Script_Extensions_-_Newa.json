@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 611,
             "end": 643,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Newa}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 719,
             "end": 751,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Newa}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 827,
             "end": 845,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Newa}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 907,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Newa}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1219,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Newa}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1330,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Newa}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1409,
             "end": 1427,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Newa}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1492,
             "end": 1510,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Newa}+$",

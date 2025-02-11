@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 988,
                 "end": 992,
-                "value": {},
+                "value": null,
                 "raw": "/b./",
                 "regex": {
                   "pattern": "b.",

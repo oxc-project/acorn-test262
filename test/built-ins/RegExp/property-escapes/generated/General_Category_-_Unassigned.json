@@ -11971,7 +11971,7 @@
             "type": "Literal",
             "start": 16584,
             "end": 16621,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Unassigned}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Unassigned}+$",
@@ -12014,7 +12014,7 @@
             "type": "Literal",
             "start": 16702,
             "end": 16731,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Cn}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Cn}+$",
@@ -12057,7 +12057,7 @@
             "type": "Literal",
             "start": 16804,
             "end": 16827,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Unassigned}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Unassigned}+$",
@@ -12100,7 +12100,7 @@
             "type": "Literal",
             "start": 16894,
             "end": 16909,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Cn}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Cn}+$",
@@ -12143,7 +12143,7 @@
             "type": "Literal",
             "start": 16968,
             "end": 16988,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Unassigned}+$/u",
             "regex": {
               "pattern": "^\\p{Unassigned}+$",
@@ -12186,7 +12186,7 @@
             "type": "Literal",
             "start": 17052,
             "end": 17064,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Cn}+$/u",
             "regex": {
               "pattern": "^\\p{Cn}+$",
@@ -26684,7 +26684,7 @@
             "type": "Literal",
             "start": 35384,
             "end": 35421,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Unassigned}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Unassigned}+$",
@@ -26727,7 +26727,7 @@
             "type": "Literal",
             "start": 35505,
             "end": 35534,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Cn}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Cn}+$",
@@ -26770,7 +26770,7 @@
             "type": "Literal",
             "start": 35610,
             "end": 35633,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Unassigned}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Unassigned}+$",
@@ -26813,7 +26813,7 @@
             "type": "Literal",
             "start": 35703,
             "end": 35718,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Cn}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Cn}+$",
@@ -26856,7 +26856,7 @@
             "type": "Literal",
             "start": 35780,
             "end": 35800,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Unassigned}+$/u",
             "regex": {
               "pattern": "^\\P{Unassigned}+$",
@@ -26899,7 +26899,7 @@
             "type": "Literal",
             "start": 35867,
             "end": 35879,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Cn}+$/u",
             "regex": {
               "pattern": "^\\P{Cn}+$",

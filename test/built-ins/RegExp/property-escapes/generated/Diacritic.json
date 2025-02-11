@@ -3382,7 +3382,7 @@
             "type": "Literal",
             "start": 5068,
             "end": 5087,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Diacritic}+$/u",
             "regex": {
               "pattern": "^\\p{Diacritic}+$",
@@ -3425,7 +3425,7 @@
             "type": "Literal",
             "start": 5150,
             "end": 5163,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Dia}+$/u",
             "regex": {
               "pattern": "^\\p{Dia}+$",
@@ -7801,7 +7801,7 @@
             "type": "Literal",
             "start": 10680,
             "end": 10699,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Diacritic}+$/u",
             "regex": {
               "pattern": "^\\P{Diacritic}+$",
@@ -7844,7 +7844,7 @@
             "type": "Literal",
             "start": 10765,
             "end": 10778,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Dia}+$/u",
             "regex": {
               "pattern": "^\\P{Dia}+$",

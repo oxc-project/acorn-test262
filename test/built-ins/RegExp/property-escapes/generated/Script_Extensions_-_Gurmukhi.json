@@ -463,7 +463,7 @@
             "type": "Literal",
             "start": 1023,
             "end": 1059,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gurmukhi}+$",
@@ -506,7 +506,7 @@
             "type": "Literal",
             "start": 1139,
             "end": 1171,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Guru}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Guru}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1247,
             "end": 1269,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gurmukhi}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1335,
             "end": 1353,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Guru}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Guru}+$",
@@ -1083,7 +1083,7 @@
             "type": "Literal",
             "start": 1985,
             "end": 2021,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gurmukhi}+$",
@@ -1126,7 +1126,7 @@
             "type": "Literal",
             "start": 2104,
             "end": 2136,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Guru}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Guru}+$",
@@ -1169,7 +1169,7 @@
             "type": "Literal",
             "start": 2215,
             "end": 2237,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gurmukhi}+$",
@@ -1212,7 +1212,7 @@
             "type": "Literal",
             "start": 2306,
             "end": 2324,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Guru}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Guru}+$",

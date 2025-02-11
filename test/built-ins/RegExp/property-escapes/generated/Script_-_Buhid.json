@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 575,
             "end": 597,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Buhid}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Buhid}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 663,
             "end": 684,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Buhd}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Buhd}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 749,
             "end": 767,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Buhid}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Buhid}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 829,
             "end": 846,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Buhd}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Buhd}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1113,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Buhid}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Buhid}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1182,
             "end": 1203,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Buhd}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Buhd}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1271,
             "end": 1289,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Buhid}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Buhid}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1354,
             "end": 1371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Buhd}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Buhd}+$",

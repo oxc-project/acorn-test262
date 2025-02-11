@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 612,
             "end": 645,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Buhid}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Buhid}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 722,
             "end": 754,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Buhd}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Buhd}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 830,
             "end": 849,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Buhid}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Buhid}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 912,
             "end": 930,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Buhd}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Buhd}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1202,
             "end": 1235,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Buhid}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Buhid}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1315,
             "end": 1347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Buhd}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Buhd}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1426,
             "end": 1445,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Buhid}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Buhid}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1511,
             "end": 1529,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Buhd}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Buhd}+$",

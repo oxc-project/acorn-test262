@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 626,
             "end": 647,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ahom}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ahom}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 712,
             "end": 733,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ahom}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ahom}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 798,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ahom}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ahom}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 876,
             "end": 893,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ahom}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ahom}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1190,
             "end": 1211,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ahom}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ahom}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1279,
             "end": 1300,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ahom}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ahom}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1368,
             "end": 1385,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ahom}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ahom}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1449,
             "end": 1466,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ahom}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ahom}+$",

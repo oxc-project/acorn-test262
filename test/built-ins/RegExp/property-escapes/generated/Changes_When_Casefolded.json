@@ -5678,7 +5678,7 @@
             "type": "Literal",
             "start": 10346,
             "end": 10379,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Changes_When_Casefolded}+$/u",
             "regex": {
               "pattern": "^\\p{Changes_When_Casefolded}+$",
@@ -5721,7 +5721,7 @@
             "type": "Literal",
             "start": 10456,
             "end": 10470,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{CWCF}+$/u",
             "regex": {
               "pattern": "^\\p{CWCF}+$",
@@ -11553,7 +11553,7 @@
             "type": "Literal",
             "start": 20532,
             "end": 20565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Changes_When_Casefolded}+$/u",
             "regex": {
               "pattern": "^\\P{Changes_When_Casefolded}+$",
@@ -11596,7 +11596,7 @@
             "type": "Literal",
             "start": 20645,
             "end": 20659,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{CWCF}+$/u",
             "regex": {
               "pattern": "^\\P{CWCF}+$",

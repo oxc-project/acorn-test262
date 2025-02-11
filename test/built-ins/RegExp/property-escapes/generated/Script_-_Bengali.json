@@ -372,7 +372,7 @@
             "type": "Literal",
             "start": 893,
             "end": 917,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bengali}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bengali}+$",
@@ -415,7 +415,7 @@
             "type": "Literal",
             "start": 985,
             "end": 1006,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Beng}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Beng}+$",
@@ -458,7 +458,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1091,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bengali}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bengali}+$",
@@ -501,7 +501,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1172,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Beng}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Beng}+$",
@@ -929,7 +929,7 @@
             "type": "Literal",
             "start": 1709,
             "end": 1733,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bengali}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bengali}+$",
@@ -972,7 +972,7 @@
             "type": "Literal",
             "start": 1804,
             "end": 1825,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Beng}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Beng}+$",
@@ -1015,7 +1015,7 @@
             "type": "Literal",
             "start": 1893,
             "end": 1913,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bengali}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bengali}+$",
@@ -1058,7 +1058,7 @@
             "type": "Literal",
             "start": 1980,
             "end": 1997,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Beng}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Beng}+$",

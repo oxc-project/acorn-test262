@@ -252,7 +252,7 @@
             "type": "Literal",
             "start": 733,
             "end": 757,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tibetan}+$",
@@ -295,7 +295,7 @@
             "type": "Literal",
             "start": 825,
             "end": 846,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tibt}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tibt}+$",
@@ -338,7 +338,7 @@
             "type": "Literal",
             "start": 911,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tibetan}+$",
@@ -381,7 +381,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1012,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tibt}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tibt}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1367,
             "end": 1391,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tibetan}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1462,
             "end": 1483,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tibt}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tibt}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1551,
             "end": 1571,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tibetan}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1638,
             "end": 1655,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tibt}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tibt}+$",

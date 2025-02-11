@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 620,
             "end": 645,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tifinagh}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 714,
             "end": 735,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tfng}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tfng}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 800,
             "end": 821,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tifinagh}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 886,
             "end": 903,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tfng}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tfng}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1225,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tifinagh}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1297,
             "end": 1318,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tfng}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tfng}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1386,
             "end": 1407,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tifinagh}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1492,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tfng}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tfng}+$",

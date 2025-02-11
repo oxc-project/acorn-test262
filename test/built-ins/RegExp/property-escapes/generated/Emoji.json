@@ -2276,7 +2276,7 @@
             "type": "Literal",
             "start": 3604,
             "end": 3619,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Emoji}+$/u",
             "regex": {
               "pattern": "^\\p{Emoji}+$",
@@ -5266,7 +5266,7 @@
             "type": "Literal",
             "start": 7438,
             "end": 7453,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Emoji}+$/u",
             "regex": {
               "pattern": "^\\P{Emoji}+$",

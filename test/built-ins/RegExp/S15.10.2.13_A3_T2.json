@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 334,
-                "value": {},
+                "value": null,
                 "raw": "/c[\\b]{3}d/",
                 "regex": {
                   "pattern": "c[\\b]{3}d",

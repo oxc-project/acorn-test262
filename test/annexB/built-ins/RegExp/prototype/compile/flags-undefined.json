@@ -54,7 +54,7 @@
           "type": "Literal",
           "start": 647,
           "end": 654,
-          "value": {},
+          "value": null,
           "raw": "/abc/ig",
           "regex": {
             "pattern": "abc",
@@ -355,7 +355,7 @@
           "type": "Literal",
           "start": 970,
           "end": 977,
-          "value": {},
+          "value": null,
           "raw": "/abc/gi",
           "regex": {
             "pattern": "abc",

@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 573,
-                  "value": {},
+                  "value": null,
                   "raw": "/^\\p{RGI_Emoji_Modifier_Sequence}+$/v",
                   "regex": {
                     "pattern": "^\\p{RGI_Emoji_Modifier_Sequence}+$",

@@ -827,7 +827,7 @@
             "type": "Literal",
             "start": 1481,
             "end": 1503,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Latin}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Latin}+$",
@@ -870,7 +870,7 @@
             "type": "Literal",
             "start": 1569,
             "end": 1590,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Latn}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Latn}+$",
@@ -913,7 +913,7 @@
             "type": "Literal",
             "start": 1655,
             "end": 1673,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Latin}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Latin}+$",
@@ -956,7 +956,7 @@
             "type": "Literal",
             "start": 1735,
             "end": 1752,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Latn}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Latn}+$",
@@ -1839,7 +1839,7 @@
             "type": "Literal",
             "start": 2879,
             "end": 2901,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Latin}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Latin}+$",
@@ -1882,7 +1882,7 @@
             "type": "Literal",
             "start": 2970,
             "end": 2991,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Latn}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Latn}+$",
@@ -1925,7 +1925,7 @@
             "type": "Literal",
             "start": 3059,
             "end": 3077,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Latin}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Latin}+$",
@@ -1968,7 +1968,7 @@
             "type": "Literal",
             "start": 3142,
             "end": 3159,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Latn}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Latn}+$",

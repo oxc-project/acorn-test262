@@ -23,7 +23,7 @@
               "type": "Literal",
               "start": 359,
               "end": 365,
-              "value": {},
+              "value": null,
               "raw": "/(?:)/",
               "regex": {
                 "pattern": "(?:)",
@@ -96,7 +96,7 @@
                           "type": "Literal",
                           "start": 478,
                           "end": 484,
-                          "value": {},
+                          "value": null,
                           "raw": "/(?:)/",
                           "regex": {
                             "pattern": "(?:)",

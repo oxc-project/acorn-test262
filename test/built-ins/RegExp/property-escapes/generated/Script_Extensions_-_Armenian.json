@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 683,
             "end": 719,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Armenian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Armenian}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 799,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Armn}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Armn}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 907,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Armenian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Armenian}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1013,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Armn}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Armn}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1399,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Armenian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Armenian}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1514,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Armn}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Armn}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1593,
             "end": 1615,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Armenian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Armenian}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1684,
             "end": 1702,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Armn}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Armn}+$",

@@ -1660,7 +1660,7 @@
             "type": "Literal",
             "start": 8301,
             "end": 8316,
-            "value": {},
+            "value": null,
             "raw": "/[Nn]evermore/g",
             "regex": {
               "pattern": "[Nn]evermore",

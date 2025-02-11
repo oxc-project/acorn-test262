@@ -19,7 +19,7 @@
             "type": "Literal",
             "start": 312,
             "end": 316,
-            "value": {},
+            "value": null,
             "raw": "/1a/",
             "regex": {
               "pattern": "1a",
@@ -94,7 +94,7 @@
             "type": "Literal",
             "start": 394,
             "end": 398,
-            "value": {},
+            "value": null,
             "raw": "/aa/",
             "regex": {
               "pattern": "aa",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 473,
             "end": 477,
-            "value": {},
+            "value": null,
             "raw": "/,;/",
             "regex": {
               "pattern": ",;",
@@ -244,7 +244,7 @@
             "type": "Literal",
             "start": 552,
             "end": 556,
-            "value": {},
+            "value": null,
             "raw": "/  /",
             "regex": {
               "pattern": "  ",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 637,
             "end": 646,
-            "value": {},
+            "value": null,
             "raw": "/a\\u0041/",
             "regex": {
               "pattern": "a\\u0041",

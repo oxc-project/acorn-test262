@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 576,
             "end": 599,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gothic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gothic}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 666,
             "end": 687,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Goth}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Goth}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 752,
             "end": 771,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gothic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gothic}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 834,
             "end": 851,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Goth}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Goth}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1119,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gothic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gothic}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1210,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Goth}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Goth}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1297,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gothic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gothic}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1380,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Goth}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Goth}+$",

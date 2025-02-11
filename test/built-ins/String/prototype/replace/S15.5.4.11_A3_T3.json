@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 293,
             "end": 306,
-            "value": {},
+            "value": null,
             "raw": "/(uid=)(\\d+)/",
             "regex": {
               "pattern": "(uid=)(\\d+)",

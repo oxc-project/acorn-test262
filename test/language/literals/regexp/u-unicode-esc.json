@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 461,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{0}/u",
                 "regex": {
                   "pattern": "\\u{0}",
@@ -95,7 +95,7 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 520,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
@@ -173,7 +173,7 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 573,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
@@ -238,7 +238,7 @@
                 "type": "Literal",
                 "start": 600,
                 "end": 609,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{3f}/u",
                 "regex": {
                   "pattern": "\\u{3f}",
@@ -296,7 +296,7 @@
                 "type": "Literal",
                 "start": 629,
                 "end": 646,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{000000003f}/u",
                 "regex": {
                   "pattern": "\\u{000000003f}",
@@ -361,7 +361,7 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 692,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{3F}/u",
                 "regex": {
                   "pattern": "\\u{3F}",
@@ -426,7 +426,7 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 747,
-                "value": {},
+                "value": null,
                 "raw": "/\\u{10ffff}/u",
                 "regex": {
                   "pattern": "\\u{10ffff}",

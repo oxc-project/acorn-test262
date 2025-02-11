@@ -778,7 +778,7 @@
             "type": "Literal",
             "start": 1490,
             "end": 1523,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Greek}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Greek}+$",
@@ -821,7 +821,7 @@
             "type": "Literal",
             "start": 1600,
             "end": 1632,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Grek}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Grek}+$",
@@ -864,7 +864,7 @@
             "type": "Literal",
             "start": 1708,
             "end": 1727,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Greek}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Greek}+$",
@@ -907,7 +907,7 @@
             "type": "Literal",
             "start": 1790,
             "end": 1808,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Grek}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Grek}+$",
@@ -1797,7 +1797,7 @@
             "type": "Literal",
             "start": 2982,
             "end": 3015,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Greek}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Greek}+$",
@@ -1840,7 +1840,7 @@
             "type": "Literal",
             "start": 3095,
             "end": 3127,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Grek}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Grek}+$",
@@ -1883,7 +1883,7 @@
             "type": "Literal",
             "start": 3206,
             "end": 3225,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Greek}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Greek}+$",
@@ -1926,7 +1926,7 @@
             "type": "Literal",
             "start": 3291,
             "end": 3309,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Grek}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Grek}+$",

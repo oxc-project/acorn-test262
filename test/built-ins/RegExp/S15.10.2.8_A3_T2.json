@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 727,
-                "value": {},
+                "value": null,
                 "raw": "/([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)/",
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",

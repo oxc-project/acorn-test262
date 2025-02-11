@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 533,
                 "end": 540,
-                "value": {},
+                "value": null,
                 "raw": "/.*a.*/",
                 "regex": {
                   "pattern": ".*a.*",

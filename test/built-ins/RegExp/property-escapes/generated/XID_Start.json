@@ -12370,7 +12370,7 @@
             "type": "Literal",
             "start": 16532,
             "end": 16551,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{XID_Start}+$/u",
             "regex": {
               "pattern": "^\\p{XID_Start}+$",
@@ -12413,7 +12413,7 @@
             "type": "Literal",
             "start": 16614,
             "end": 16628,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{XIDS}+$/u",
             "regex": {
               "pattern": "^\\p{XIDS}+$",
@@ -23831,7 +23831,7 @@
             "type": "Literal",
             "start": 31942,
             "end": 31961,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{XID_Start}+$/u",
             "regex": {
               "pattern": "^\\P{XID_Start}+$",
@@ -23874,7 +23874,7 @@
             "type": "Literal",
             "start": 32027,
             "end": 32041,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{XIDS}+$/u",
             "regex": {
               "pattern": "^\\P{XIDS}+$",

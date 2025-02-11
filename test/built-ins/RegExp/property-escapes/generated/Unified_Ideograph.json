@@ -421,7 +421,7 @@
             "type": "Literal",
             "start": 962,
             "end": 989,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Unified_Ideograph}+$/u",
             "regex": {
               "pattern": "^\\p{Unified_Ideograph}+$",
@@ -464,7 +464,7 @@
             "type": "Literal",
             "start": 1060,
             "end": 1075,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{UIdeo}+$/u",
             "regex": {
               "pattern": "^\\p{UIdeo}+$",
@@ -955,7 +955,7 @@
             "type": "Literal",
             "start": 1688,
             "end": 1715,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Unified_Ideograph}+$/u",
             "regex": {
               "pattern": "^\\P{Unified_Ideograph}+$",
@@ -998,7 +998,7 @@
             "type": "Literal",
             "start": 1789,
             "end": 1804,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{UIdeo}+$/u",
             "regex": {
               "pattern": "^\\P{UIdeo}+$",

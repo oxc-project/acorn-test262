@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 681,
                 "end": 722,
-                "value": {},
+                "value": null,
                 "raw": "/([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+/",
                 "regex": {
                   "pattern": "([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+",

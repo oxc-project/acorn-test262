@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 627,
             "end": 649,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Adlam}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Adlam}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 715,
             "end": 736,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Adlm}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Adlm}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 801,
             "end": 819,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Adlam}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Adlam}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 881,
             "end": 898,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Adlm}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Adlm}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1195,
             "end": 1217,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Adlam}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Adlam}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1286,
             "end": 1307,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Adlm}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Adlm}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1375,
             "end": 1393,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Adlam}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Adlam}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1458,
             "end": 1475,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Adlm}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Adlm}+$",

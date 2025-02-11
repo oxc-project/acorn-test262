@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 607,
             "end": 645,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phoenician}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 727,
             "end": 759,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phnx}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 835,
             "end": 859,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phoenician}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 927,
             "end": 945,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phnx}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1255,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phoenician}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1340,
             "end": 1372,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phnx}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1451,
             "end": 1475,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phoenician}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1546,
             "end": 1564,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phnx}+$",

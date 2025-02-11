@@ -351,7 +351,7 @@
             "type": "Literal",
             "start": 949,
             "end": 991,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Currency_Symbol}+$",
@@ -394,7 +394,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1106,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Sc}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Sc}+$",
@@ -437,7 +437,7 @@
             "type": "Literal",
             "start": 1179,
             "end": 1207,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Currency_Symbol}+$",
@@ -480,7 +480,7 @@
             "type": "Literal",
             "start": 1279,
             "end": 1294,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Sc}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Sc}+$",
@@ -523,7 +523,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1378,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{Currency_Symbol}+$",
@@ -566,7 +566,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1459,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Sc}+$/u",
             "regex": {
               "pattern": "^\\p{Sc}+$",
@@ -1196,7 +1196,7 @@
             "type": "Literal",
             "start": 2219,
             "end": 2261,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Currency_Symbol}+$",
@@ -1239,7 +1239,7 @@
             "type": "Literal",
             "start": 2350,
             "end": 2379,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Sc}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Sc}+$",
@@ -1282,7 +1282,7 @@
             "type": "Literal",
             "start": 2455,
             "end": 2483,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Currency_Symbol}+$",
@@ -1325,7 +1325,7 @@
             "type": "Literal",
             "start": 2558,
             "end": 2573,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Sc}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Sc}+$",
@@ -1368,7 +1368,7 @@
             "type": "Literal",
             "start": 2635,
             "end": 2660,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Currency_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{Currency_Symbol}+$",
@@ -1411,7 +1411,7 @@
             "type": "Literal",
             "start": 2732,
             "end": 2744,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Sc}+$/u",
             "regex": {
               "pattern": "^\\P{Sc}+$",

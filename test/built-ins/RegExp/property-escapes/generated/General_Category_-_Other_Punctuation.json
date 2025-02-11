@@ -3193,7 +3193,7 @@
             "type": "Literal",
             "start": 4763,
             "end": 4807,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Other_Punctuation}+$",
@@ -3236,7 +3236,7 @@
             "type": "Literal",
             "start": 4895,
             "end": 4924,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Po}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Po}+$",
@@ -3279,7 +3279,7 @@
             "type": "Literal",
             "start": 4997,
             "end": 5027,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Other_Punctuation}+$",
@@ -3322,7 +3322,7 @@
             "type": "Literal",
             "start": 5101,
             "end": 5116,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Po}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Po}+$",
@@ -3365,7 +3365,7 @@
             "type": "Literal",
             "start": 5175,
             "end": 5202,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Other_Punctuation}+$",
@@ -3408,7 +3408,7 @@
             "type": "Literal",
             "start": 5273,
             "end": 5285,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Po}+$/u",
             "regex": {
               "pattern": "^\\p{Po}+$",
@@ -7259,7 +7259,7 @@
             "type": "Literal",
             "start": 10183,
             "end": 10227,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Other_Punctuation}+$",
@@ -7302,7 +7302,7 @@
             "type": "Literal",
             "start": 10318,
             "end": 10347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Po}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Po}+$",
@@ -7345,7 +7345,7 @@
             "type": "Literal",
             "start": 10423,
             "end": 10453,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Other_Punctuation}+$",
@@ -7388,7 +7388,7 @@
             "type": "Literal",
             "start": 10530,
             "end": 10545,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Po}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Po}+$",
@@ -7431,7 +7431,7 @@
             "type": "Literal",
             "start": 10607,
             "end": 10634,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Other_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Other_Punctuation}+$",
@@ -7474,7 +7474,7 @@
             "type": "Literal",
             "start": 10708,
             "end": 10720,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Po}+$/u",
             "regex": {
               "pattern": "^\\P{Po}+$",

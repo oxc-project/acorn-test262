@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 608,
             "end": 637,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sora_Sompeng}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sora_Sompeng}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 710,
             "end": 731,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sora}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sora}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 796,
             "end": 821,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sora_Sompeng}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sora_Sompeng}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 890,
             "end": 907,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sora}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sora}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1178,
             "end": 1207,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sora_Sompeng}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sora_Sompeng}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1283,
             "end": 1304,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sora}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sora}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1397,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sora_Sompeng}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sora_Sompeng}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1486,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sora}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sora}+$",

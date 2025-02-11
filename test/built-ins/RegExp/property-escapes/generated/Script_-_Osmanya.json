@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 603,
             "end": 627,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Osmanya}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 695,
             "end": 716,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Osma}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Osma}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 781,
             "end": 801,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Osmanya}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 865,
             "end": 882,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Osma}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Osma}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1177,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Osmanya}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1248,
             "end": 1269,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Osma}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Osma}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1337,
             "end": 1357,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Osmanya}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1441,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Osma}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Osma}+$",

@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 659,
             "end": 695,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Phags_Pa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phags_Pa}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 775,
             "end": 807,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Phag}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phag}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 883,
             "end": 905,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Phags_Pa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phags_Pa}+$",
@@ -298,7 +298,7 @@
             "type": "Literal",
             "start": 971,
             "end": 989,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Phag}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phag}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1329,
             "end": 1365,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Phags_Pa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phags_Pa}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1448,
             "end": 1480,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Phag}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phag}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1559,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Phags_Pa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phags_Pa}+$",
@@ -708,7 +708,7 @@
             "type": "Literal",
             "start": 1650,
             "end": 1668,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Phag}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phag}+$",

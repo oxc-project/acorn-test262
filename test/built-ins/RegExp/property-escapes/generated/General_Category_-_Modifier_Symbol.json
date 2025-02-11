@@ -561,7 +561,7 @@
             "type": "Literal",
             "start": 1209,
             "end": 1251,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Modifier_Symbol}+$",
@@ -604,7 +604,7 @@
             "type": "Literal",
             "start": 1337,
             "end": 1366,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Sk}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Sk}+$",
@@ -647,7 +647,7 @@
             "type": "Literal",
             "start": 1439,
             "end": 1467,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Modifier_Symbol}+$",
@@ -690,7 +690,7 @@
             "type": "Literal",
             "start": 1539,
             "end": 1554,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Sk}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Sk}+$",
@@ -733,7 +733,7 @@
             "type": "Literal",
             "start": 1613,
             "end": 1638,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{Modifier_Symbol}+$",
@@ -776,7 +776,7 @@
             "type": "Literal",
             "start": 1707,
             "end": 1719,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Sk}+$/u",
             "regex": {
               "pattern": "^\\p{Sk}+$",
@@ -1547,7 +1547,7 @@
             "type": "Literal",
             "start": 2681,
             "end": 2723,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Modifier_Symbol}+$",
@@ -1590,7 +1590,7 @@
             "type": "Literal",
             "start": 2812,
             "end": 2841,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Sk}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Sk}+$",
@@ -1633,7 +1633,7 @@
             "type": "Literal",
             "start": 2917,
             "end": 2945,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Modifier_Symbol}+$",
@@ -1676,7 +1676,7 @@
             "type": "Literal",
             "start": 3020,
             "end": 3035,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Sk}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Sk}+$",
@@ -1719,7 +1719,7 @@
             "type": "Literal",
             "start": 3097,
             "end": 3122,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Modifier_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{Modifier_Symbol}+$",
@@ -1762,7 +1762,7 @@
             "type": "Literal",
             "start": 3194,
             "end": 3206,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Sk}+$/u",
             "regex": {
               "pattern": "^\\P{Sk}+$",

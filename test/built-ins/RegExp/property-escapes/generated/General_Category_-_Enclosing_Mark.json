@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 688,
             "end": 729,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Enclosing_Mark}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 814,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Me}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Me}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 916,
             "end": 943,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Enclosing_Mark}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 1014,
             "end": 1029,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Me}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Me}+$",
@@ -369,7 +369,7 @@
             "type": "Literal",
             "start": 1088,
             "end": 1112,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{Enclosing_Mark}+$",
@@ -412,7 +412,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1192,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Me}+$/u",
             "regex": {
               "pattern": "^\\p{Me}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1526,
             "end": 1567,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Enclosing_Mark}+$",
@@ -736,7 +736,7 @@
             "type": "Literal",
             "start": 1655,
             "end": 1684,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Me}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Me}+$",
@@ -779,7 +779,7 @@
             "type": "Literal",
             "start": 1760,
             "end": 1787,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Enclosing_Mark}+$",
@@ -822,7 +822,7 @@
             "type": "Literal",
             "start": 1861,
             "end": 1876,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Me}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Me}+$",
@@ -865,7 +865,7 @@
             "type": "Literal",
             "start": 1938,
             "end": 1962,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Enclosing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{Enclosing_Mark}+$",
@@ -908,7 +908,7 @@
             "type": "Literal",
             "start": 2033,
             "end": 2045,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Me}+$/u",
             "regex": {
               "pattern": "^\\P{Me}+$",

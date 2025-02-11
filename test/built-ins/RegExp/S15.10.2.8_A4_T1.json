@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 521,
-                "value": {},
+                "value": null,
                 "raw": "/ab.de/",
                 "regex": {
                   "pattern": "ab.de",

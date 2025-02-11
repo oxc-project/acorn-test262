@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 520,
                   "end": 541,
-                  "value": {},
+                  "value": null,
                   "raw": "/^\\p{Basic_Emoji}+$/v",
                   "regex": {
                     "pattern": "^\\p{Basic_Emoji}+$",

@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 591,
             "end": 613,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nushu}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 679,
             "end": 700,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nshu}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 765,
             "end": 783,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nushu}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 845,
             "end": 862,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nshu}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1133,
             "end": 1155,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nushu}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1224,
             "end": 1245,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nshu}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1313,
             "end": 1331,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nushu}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1396,
             "end": 1413,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nshu}+$",

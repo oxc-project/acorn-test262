@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 445,
-                "value": {},
+                "value": null,
                 "raw": "/(123){1,}x\\1/",
                 "regex": {
                   "pattern": "(123){1,}x\\1",

@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 668,
             "end": 705,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Khudawadi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Khudawadi}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 786,
             "end": 818,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sind}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sind}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 894,
             "end": 917,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Khudawadi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Khudawadi}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 984,
             "end": 1002,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sind}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sind}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1326,
             "end": 1363,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Khudawadi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Khudawadi}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1479,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sind}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sind}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1558,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Khudawadi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Khudawadi}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1651,
             "end": 1669,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sind}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sind}+$",

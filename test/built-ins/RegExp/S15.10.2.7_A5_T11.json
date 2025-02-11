@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 375,
-                "value": {},
+                "value": null,
                 "raw": "/\\??\\??\\??\\??\\??/",
                 "regex": {
                   "pattern": "\\??\\??\\??\\??\\??",

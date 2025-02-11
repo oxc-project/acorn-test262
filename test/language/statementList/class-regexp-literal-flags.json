@@ -29,7 +29,7 @@
         "type": "Literal",
         "start": 925,
         "end": 929,
-        "value": {},
+        "value": null,
         "raw": "/1/g",
         "regex": {
           "pattern": "1",

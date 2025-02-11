@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 629,
             "end": 679,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Inscriptional_Parthian}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 773,
             "end": 805,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Prti}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Prti}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 881,
             "end": 917,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Inscriptional_Parthian}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 997,
             "end": 1015,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Prti}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Prti}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1287,
             "end": 1337,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Inscriptional_Parthian}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1434,
             "end": 1466,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Prti}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Prti}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1545,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Inscriptional_Parthian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Inscriptional_Parthian}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1664,
             "end": 1682,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Prti}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Prti}+$",

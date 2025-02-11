@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 631,
             "end": 667,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Buginese}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Buginese}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 747,
             "end": 779,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bugi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bugi}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 855,
             "end": 877,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Buginese}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Buginese}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 943,
             "end": 961,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bugi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bugi}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1259,
             "end": 1295,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Buginese}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Buginese}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1378,
             "end": 1410,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bugi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bugi}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1511,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Buginese}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Buginese}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1580,
             "end": 1598,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bugi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bugi}+$",

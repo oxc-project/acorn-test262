@@ -330,7 +330,7 @@
             "type": "Literal",
             "start": 901,
             "end": 937,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cyrillic}+$",
@@ -373,7 +373,7 @@
             "type": "Literal",
             "start": 1017,
             "end": 1049,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cyrl}+$",
@@ -416,7 +416,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1147,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cyrillic}+$",
@@ -459,7 +459,7 @@
             "type": "Literal",
             "start": 1213,
             "end": 1231,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cyrl}+$",
@@ -985,7 +985,7 @@
             "type": "Literal",
             "start": 1885,
             "end": 1921,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cyrillic}+$",
@@ -1028,7 +1028,7 @@
             "type": "Literal",
             "start": 2004,
             "end": 2036,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cyrl}+$",
@@ -1071,7 +1071,7 @@
             "type": "Literal",
             "start": 2115,
             "end": 2137,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cyrillic}+$",
@@ -1114,7 +1114,7 @@
             "type": "Literal",
             "start": 2206,
             "end": 2224,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cyrl}+$",

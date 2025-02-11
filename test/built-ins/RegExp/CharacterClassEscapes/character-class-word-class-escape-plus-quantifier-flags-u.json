@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 1715,
             "end": 1722,
-            "value": {},
+            "value": null,
             "raw": "/\\w+/ug",
             "regex": {
               "pattern": "\\w+",

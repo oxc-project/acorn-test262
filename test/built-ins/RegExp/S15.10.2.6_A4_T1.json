@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 435,
                 "end": 445,
-                "value": {},
+                "value": null,
                 "raw": "/\\Bevil\\B/",
                 "regex": {
                   "pattern": "\\Bevil\\B",

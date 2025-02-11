@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 484,
             "end": 489,
-            "value": {},
+            "value": null,
             "raw": "/\\t/m",
             "regex": {
               "pattern": "\\t",

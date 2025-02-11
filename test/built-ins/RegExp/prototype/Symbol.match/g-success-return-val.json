@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 640,
                 "end": 648,
-                "value": {},
+                "value": null,
                 "raw": "/.(.)./g",
                 "regex": {
                   "pattern": ".(.).",

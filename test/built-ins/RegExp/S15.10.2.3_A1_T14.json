@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 557,
                 "end": 571,
-                "value": {},
+                "value": null,
                 "raw": "/.+: gr(a|e)y/",
                 "regex": {
                   "pattern": ".+: gr(a|e)y",

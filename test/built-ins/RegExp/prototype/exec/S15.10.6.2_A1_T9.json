@@ -42,7 +42,7 @@
             "type": "Literal",
             "start": 492,
             "end": 498,
-            "value": {},
+            "value": null,
             "raw": "/1|12/",
             "regex": {
               "pattern": "1|12",

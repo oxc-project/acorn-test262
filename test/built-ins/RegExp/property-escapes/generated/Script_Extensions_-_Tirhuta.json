@@ -218,7 +218,7 @@
             "type": "Literal",
             "start": 708,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tirhuta}+$",
@@ -261,7 +261,7 @@
             "type": "Literal",
             "start": 822,
             "end": 854,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tirh}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tirh}+$",
@@ -304,7 +304,7 @@
             "type": "Literal",
             "start": 930,
             "end": 951,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tirhuta}+$",
@@ -347,7 +347,7 @@
             "type": "Literal",
             "start": 1016,
             "end": 1034,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tirh}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tirh}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1410,
             "end": 1445,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tirhuta}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1527,
             "end": 1559,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tirh}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tirh}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1638,
             "end": 1659,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tirhuta}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1727,
             "end": 1745,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tirh}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tirh}+$",

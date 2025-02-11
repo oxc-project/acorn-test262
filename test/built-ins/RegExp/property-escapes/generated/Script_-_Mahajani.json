@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 578,
             "end": 603,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mahajani}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 672,
             "end": 693,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mahj}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mahj}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 758,
             "end": 779,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mahajani}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 844,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mahj}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mahj}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1131,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mahajani}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1203,
             "end": 1224,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mahj}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mahj}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1313,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mahajani}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1381,
             "end": 1398,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mahj}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mahj}+$",

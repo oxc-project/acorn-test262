@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 427,
-                "value": {},
+                "value": null,
                 "raw": "/\\B\\w/",
                 "regex": {
                   "pattern": "\\B\\w",

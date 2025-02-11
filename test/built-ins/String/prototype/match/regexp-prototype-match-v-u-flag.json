@@ -184,7 +184,7 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 487,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/g",
                 "regex": {
                   "pattern": "𠮷",
@@ -276,7 +276,7 @@
                 "type": "Literal",
                 "start": 566,
                 "end": 571,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/u",
                 "regex": {
                   "pattern": "𠮷",
@@ -354,7 +354,7 @@
                 "type": "Literal",
                 "start": 632,
                 "end": 637,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/v",
                 "regex": {
                   "pattern": "𠮷",
@@ -432,7 +432,7 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 717,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/gu",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -524,7 +524,7 @@
                 "type": "Literal",
                 "start": 809,
                 "end": 827,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/gv",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -616,7 +616,7 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 924,
-                "value": {},
+                "value": null,
                 "raw": "/./g",
                 "regex": {
                   "pattern": ".",
@@ -834,7 +834,7 @@
                 "type": "Literal",
                 "start": 1175,
                 "end": 1180,
-                "value": {},
+                "value": null,
                 "raw": "/./gu",
                 "regex": {
                   "pattern": ".",
@@ -1003,7 +1003,7 @@
                 "type": "Literal",
                 "start": 1310,
                 "end": 1315,
-                "value": {},
+                "value": null,
                 "raw": "/./gv",
                 "regex": {
                   "pattern": ".",
@@ -1172,7 +1172,7 @@
                 "type": "Literal",
                 "start": 1446,
                 "end": 1462,
-                "value": {},
+                "value": null,
                 "raw": "/[👨‍👩‍👧‍👦]/v",
                 "regex": {
                   "pattern": "[👨‍👩‍👧‍👦]",
@@ -1250,7 +1250,7 @@
                 "type": "Literal",
                 "start": 1556,
                 "end": 1572,
-                "value": {},
+                "value": null,
                 "raw": "/[👨‍👩‍👧‍👦]/u",
                 "regex": {
                   "pattern": "[👨‍👩‍👧‍👦]",
@@ -1328,7 +1328,7 @@
                 "type": "Literal",
                 "start": 1671,
                 "end": 1675,
-                "value": {},
+                "value": null,
                 "raw": "/x/u",
                 "regex": {
                   "pattern": "x",
@@ -1399,7 +1399,7 @@
                 "type": "Literal",
                 "start": 1744,
                 "end": 1748,
-                "value": {},
+                "value": null,
                 "raw": "/x/v",
                 "regex": {
                   "pattern": "x",

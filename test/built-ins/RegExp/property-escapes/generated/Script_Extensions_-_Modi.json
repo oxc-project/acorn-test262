@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 637,
             "end": 669,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Modi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Modi}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 745,
             "end": 777,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Modi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Modi}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 853,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Modi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Modi}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 933,
             "end": 951,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Modi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Modi}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1249,
             "end": 1281,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Modi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Modi}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1360,
             "end": 1392,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Modi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Modi}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1471,
             "end": 1489,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Modi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Modi}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1554,
             "end": 1572,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Modi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Modi}+$",

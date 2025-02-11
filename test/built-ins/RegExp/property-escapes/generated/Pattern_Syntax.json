@@ -568,7 +568,7 @@
             "type": "Literal",
             "start": 1173,
             "end": 1197,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pattern_Syntax}+$/u",
             "regex": {
               "pattern": "^\\p{Pattern_Syntax}+$",
@@ -611,7 +611,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1282,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pat_Syn}+$/u",
             "regex": {
               "pattern": "^\\p{Pat_Syn}+$",
@@ -1305,7 +1305,7 @@
             "type": "Literal",
             "start": 2159,
             "end": 2183,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pattern_Syntax}+$/u",
             "regex": {
               "pattern": "^\\P{Pattern_Syntax}+$",
@@ -1348,7 +1348,7 @@
             "type": "Literal",
             "start": 2254,
             "end": 2271,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pat_Syn}+$/u",
             "regex": {
               "pattern": "^\\P{Pat_Syn}+$",

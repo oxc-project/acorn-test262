@@ -5853,7 +5853,7 @@
             "type": "Literal",
             "start": 8353,
             "end": 8395,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Nonspacing_Mark}+$",
@@ -5896,7 +5896,7 @@
             "type": "Literal",
             "start": 8481,
             "end": 8510,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Mn}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Mn}+$",
@@ -5939,7 +5939,7 @@
             "type": "Literal",
             "start": 8583,
             "end": 8611,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Nonspacing_Mark}+$",
@@ -5982,7 +5982,7 @@
             "type": "Literal",
             "start": 8683,
             "end": 8698,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Mn}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Mn}+$",
@@ -6025,7 +6025,7 @@
             "type": "Literal",
             "start": 8757,
             "end": 8782,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{Nonspacing_Mark}+$",
@@ -6068,7 +6068,7 @@
             "type": "Literal",
             "start": 8851,
             "end": 8863,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Mn}+$/u",
             "regex": {
               "pattern": "^\\p{Mn}+$",
@@ -12803,7 +12803,7 @@
             "type": "Literal",
             "start": 17545,
             "end": 17587,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Nonspacing_Mark}+$",
@@ -12846,7 +12846,7 @@
             "type": "Literal",
             "start": 17676,
             "end": 17705,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Mn}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Mn}+$",
@@ -12889,7 +12889,7 @@
             "type": "Literal",
             "start": 17781,
             "end": 17809,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Nonspacing_Mark}+$",
@@ -12932,7 +12932,7 @@
             "type": "Literal",
             "start": 17884,
             "end": 17899,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Mn}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Mn}+$",
@@ -12975,7 +12975,7 @@
             "type": "Literal",
             "start": 17961,
             "end": 17986,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Nonspacing_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{Nonspacing_Mark}+$",
@@ -13018,7 +13018,7 @@
             "type": "Literal",
             "start": 18058,
             "end": 18070,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Mn}+$/u",
             "regex": {
               "pattern": "^\\P{Mn}+$",

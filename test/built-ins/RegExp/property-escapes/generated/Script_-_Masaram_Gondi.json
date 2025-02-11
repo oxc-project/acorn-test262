@@ -239,7 +239,7 @@
             "type": "Literal",
             "start": 729,
             "end": 759,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Masaram_Gondi}+$",
@@ -282,7 +282,7 @@
             "type": "Literal",
             "start": 833,
             "end": 854,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gonm}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gonm}+$",
@@ -325,7 +325,7 @@
             "type": "Literal",
             "start": 919,
             "end": 945,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Masaram_Gondi}+$",
@@ -368,7 +368,7 @@
             "type": "Literal",
             "start": 1015,
             "end": 1032,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gonm}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gonm}+$",
@@ -649,7 +649,7 @@
             "type": "Literal",
             "start": 1387,
             "end": 1417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Masaram_Gondi}+$",
@@ -692,7 +692,7 @@
             "type": "Literal",
             "start": 1494,
             "end": 1515,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gonm}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gonm}+$",
@@ -735,7 +735,7 @@
             "type": "Literal",
             "start": 1583,
             "end": 1609,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Masaram_Gondi}+$",
@@ -778,7 +778,7 @@
             "type": "Literal",
             "start": 1682,
             "end": 1699,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gonm}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gonm}+$",

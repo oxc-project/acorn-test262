@@ -74,7 +74,7 @@
                 "type": "Literal",
                 "start": 2167,
                 "end": 2170,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",

@@ -60,7 +60,7 @@
             "type": "Literal",
             "start": 341,
             "end": 344,
-            "value": {},
+            "value": null,
             "raw": "/x/",
             "regex": {
               "pattern": "x",

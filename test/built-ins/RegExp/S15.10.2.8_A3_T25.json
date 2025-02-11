@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 712,
                 "end": 723,
-                "value": {},
+                "value": null,
                 "raw": "/(A)?(A.*)/",
                 "regex": {
                   "pattern": "(A)?(A.*)",

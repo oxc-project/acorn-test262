@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 567,
                 "end": 572,
-                "value": {},
+                "value": null,
                 "raw": "/abc/",
                 "regex": {
                   "pattern": "abc",
@@ -141,7 +141,7 @@
                 "type": "Literal",
                 "start": 627,
                 "end": 631,
-                "value": {},
+                "value": null,
                 "raw": "/bc/",
                 "regex": {
                   "pattern": "bc",
@@ -239,7 +239,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 690,
-                "value": {},
+                "value": null,
                 "raw": "/c/",
                 "regex": {
                   "pattern": "c",
@@ -337,7 +337,7 @@
                 "type": "Literal",
                 "start": 748,
                 "end": 752,
-                "value": {},
+                "value": null,
                 "raw": "/ab/",
                 "regex": {
                   "pattern": "ab",
@@ -435,7 +435,7 @@
                 "type": "Literal",
                 "start": 808,
                 "end": 811,
-                "value": {},
+                "value": null,
                 "raw": "/b/",
                 "regex": {
                   "pattern": "b",
@@ -533,7 +533,7 @@
                 "type": "Literal",
                 "start": 869,
                 "end": 872,
-                "value": {},
+                "value": null,
                 "raw": "/a/",
                 "regex": {
                   "pattern": "a",

@@ -204,7 +204,7 @@
             "type": "Literal",
             "start": 694,
             "end": 727,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Limbu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Limbu}+$",
@@ -247,7 +247,7 @@
             "type": "Literal",
             "start": 804,
             "end": 836,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Limb}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Limb}+$",
@@ -290,7 +290,7 @@
             "type": "Literal",
             "start": 912,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Limbu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Limbu}+$",
@@ -333,7 +333,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1012,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Limb}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Limb}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1378,
             "end": 1411,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Limbu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Limbu}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1491,
             "end": 1523,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Limb}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Limb}+$",
@@ -721,7 +721,7 @@
             "type": "Literal",
             "start": 1602,
             "end": 1621,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Limbu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Limbu}+$",
@@ -764,7 +764,7 @@
             "type": "Literal",
             "start": 1687,
             "end": 1705,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Limb}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Limb}+$",

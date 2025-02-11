@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 791,
-                "value": {},
+                "value": null,
                 "raw": "/^[\\ud800\\udc00]$/u",
                 "regex": {
                   "pattern": "^[\\ud800\\udc00]$",
@@ -101,7 +101,7 @@
                 "type": "Literal",
                 "start": 835,
                 "end": 852,
-                "value": {},
+                "value": null,
                 "raw": "/[\\ud800\\udc00]/u",
                 "regex": {
                   "pattern": "[\\ud800\\udc00]",
@@ -186,7 +186,7 @@
                 "type": "Literal",
                 "start": 948,
                 "end": 965,
-                "value": {},
+                "value": null,
                 "raw": "/[\\ud800\\udc00]/u",
                 "regex": {
                   "pattern": "[\\ud800\\udc00]",

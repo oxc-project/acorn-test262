@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 370,
                 "end": 381,
-                "value": {},
+                "value": null,
                 "raw": "/bx{0,93}c/",
                 "regex": {
                   "pattern": "bx{0,93}c",

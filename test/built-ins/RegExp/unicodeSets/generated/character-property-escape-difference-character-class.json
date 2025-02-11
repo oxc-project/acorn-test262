@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 590,
-                  "value": {},
+                  "value": null,
                   "raw": "/^[\\p{ASCII_Hex_Digit}--[0-9]]+$/v",
                   "regex": {
                     "pattern": "^[\\p{ASCII_Hex_Digit}--[0-9]]+$",

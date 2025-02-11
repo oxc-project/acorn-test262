@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 591,
             "end": 629,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Anatolian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Anatolian_Hieroglyphs}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 711,
             "end": 732,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hluw}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hluw}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 797,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Anatolian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Anatolian_Hieroglyphs}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 909,
             "end": 926,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hluw}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hluw}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1171,
             "end": 1209,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Anatolian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Anatolian_Hieroglyphs}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1315,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hluw}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hluw}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1383,
             "end": 1417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Anatolian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Anatolian_Hieroglyphs}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1498,
             "end": 1515,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hluw}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hluw}+$",

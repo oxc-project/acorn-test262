@@ -393,7 +393,7 @@
             "type": "Literal",
             "start": 919,
             "end": 943,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Grantha}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Grantha}+$",
@@ -436,7 +436,7 @@
             "type": "Literal",
             "start": 1011,
             "end": 1032,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gran}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gran}+$",
@@ -479,7 +479,7 @@
             "type": "Literal",
             "start": 1097,
             "end": 1117,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Grantha}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Grantha}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1181,
             "end": 1198,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gran}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gran}+$",
@@ -971,7 +971,7 @@
             "type": "Literal",
             "start": 1761,
             "end": 1785,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Grantha}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Grantha}+$",
@@ -1014,7 +1014,7 @@
             "type": "Literal",
             "start": 1856,
             "end": 1877,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gran}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gran}+$",
@@ -1057,7 +1057,7 @@
             "type": "Literal",
             "start": 1945,
             "end": 1965,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Grantha}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Grantha}+$",
@@ -1100,7 +1100,7 @@
             "type": "Literal",
             "start": 2032,
             "end": 2049,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gran}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gran}+$",

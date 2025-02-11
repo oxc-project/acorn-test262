@@ -58,7 +58,7 @@
                     "type": "Literal",
                     "start": 289,
                     "end": 298,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<π>a)/",
                     "regex": {
                       "pattern": "(?<π>a)",
@@ -162,7 +162,7 @@
                     "type": "Literal",
                     "start": 344,
                     "end": 353,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<π>a)/",
                     "regex": {
                       "pattern": "(?<π>a)",
@@ -266,7 +266,7 @@
                     "type": "Literal",
                     "start": 404,
                     "end": 413,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<$>a)/",
                     "regex": {
                       "pattern": "(?<$>a)",
@@ -370,7 +370,7 @@
                     "type": "Literal",
                     "start": 459,
                     "end": 468,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<_>a)/",
                     "regex": {
                       "pattern": "(?<_>a)",
@@ -474,7 +474,7 @@
                     "type": "Literal",
                     "start": 514,
                     "end": 529,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<_\\u200C>a)/",
                     "regex": {
                       "pattern": "(?<_\\u200C>a)",
@@ -578,7 +578,7 @@
                     "type": "Literal",
                     "start": 581,
                     "end": 596,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<_\\u200D>a)/",
                     "regex": {
                       "pattern": "(?<_\\u200D>a)",
@@ -682,7 +682,7 @@
                     "type": "Literal",
                     "start": 648,
                     "end": 659,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<ಠ_ಠ>a)/",
                     "regex": {
                       "pattern": "(?<ಠ_ಠ>a)",
@@ -758,7 +758,7 @@
                 "type": "Literal",
                 "start": 730,
                 "end": 744,
-                "value": {},
+                "value": null,
                 "raw": "/(?<\\u0041>.)/",
                 "regex": {
                   "pattern": "(?<\\u0041>.)",

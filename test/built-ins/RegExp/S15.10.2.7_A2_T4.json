@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 442,
-                "value": {},
+                "value": null,
                 "raw": "/b{8}/",
                 "regex": {
                   "pattern": "b{8}",

@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 581,
             "end": 609,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Medefaidrin}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 681,
             "end": 702,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Medf}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Medf}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 767,
             "end": 791,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Medefaidrin}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 859,
             "end": 876,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Medf}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Medf}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Medefaidrin}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1224,
             "end": 1245,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Medf}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Medf}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1313,
             "end": 1337,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Medefaidrin}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Medefaidrin}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1408,
             "end": 1425,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Medf}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Medf}+$",

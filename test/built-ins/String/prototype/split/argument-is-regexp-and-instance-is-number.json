@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 525,
             "end": 540,
-            "value": {},
+            "value": null,
             "raw": "/\\u0037\\u0037/g",
             "regex": {
               "pattern": "\\u0037\\u0037",

@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 930,
             "end": 933,
-            "value": {},
+            "value": null,
             "raw": "/./",
             "regex": {
               "pattern": ".",

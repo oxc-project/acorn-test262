@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 370,
-                "value": {},
+                "value": null,
                 "raw": "/(b+)(b*)/",
                 "regex": {
                   "pattern": "(b+)(b*)",

@@ -239,7 +239,7 @@
             "type": "Literal",
             "start": 1809,
             "end": 1816,
-            "value": {},
+            "value": null,
             "raw": "/\\W+/ug",
             "regex": {
               "pattern": "\\W+",

@@ -173,7 +173,7 @@
                   "type": "Literal",
                   "start": 654,
                   "end": 660,
-                  "value": {},
+                  "value": null,
                   "raw": "/abc/i",
                   "regex": {
                     "pattern": "abc",

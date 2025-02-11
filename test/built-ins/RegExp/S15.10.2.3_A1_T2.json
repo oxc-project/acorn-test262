@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 552,
                 "end": 574,
-                "value": {},
+                "value": null,
                 "raw": "/((a)|(ab))((c)|(bc))/",
                 "regex": {
                   "pattern": "((a)|(ab))((c)|(bc))",

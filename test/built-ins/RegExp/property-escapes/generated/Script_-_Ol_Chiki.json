@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 578,
             "end": 603,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ol_Chiki}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ol_Chiki}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 672,
             "end": 693,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Olck}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Olck}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 758,
             "end": 779,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ol_Chiki}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ol_Chiki}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 844,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Olck}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Olck}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1131,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ol_Chiki}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ol_Chiki}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1203,
             "end": 1224,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Olck}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Olck}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1313,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ol_Chiki}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ol_Chiki}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1381,
             "end": 1398,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Olck}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Olck}+$",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 417,
-                "value": {},
+                "value": null,
                 "raw": "/^\\d+/m",
                 "regex": {
                   "pattern": "^\\d+",

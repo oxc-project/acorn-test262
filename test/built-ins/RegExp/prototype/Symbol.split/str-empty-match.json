@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 417,
-                "value": {},
+                "value": null,
                 "raw": "/(?:)/",
                 "regex": {
                   "pattern": "(?:)",

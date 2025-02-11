@@ -561,7 +561,7 @@
             "type": "Literal",
             "start": 1154,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Grantha}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Grantha}+$",
@@ -604,7 +604,7 @@
             "type": "Literal",
             "start": 1268,
             "end": 1300,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gran}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gran}+$",
@@ -647,7 +647,7 @@
             "type": "Literal",
             "start": 1376,
             "end": 1397,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Grantha}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Grantha}+$",
@@ -690,7 +690,7 @@
             "type": "Literal",
             "start": 1462,
             "end": 1480,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gran}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gran}+$",
@@ -1307,7 +1307,7 @@
             "type": "Literal",
             "start": 2268,
             "end": 2303,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Grantha}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Grantha}+$",
@@ -1350,7 +1350,7 @@
             "type": "Literal",
             "start": 2385,
             "end": 2417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gran}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gran}+$",
@@ -1393,7 +1393,7 @@
             "type": "Literal",
             "start": 2496,
             "end": 2517,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Grantha}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Grantha}+$",
@@ -1436,7 +1436,7 @@
             "type": "Literal",
             "start": 2585,
             "end": 2603,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gran}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gran}+$",

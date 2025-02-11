@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 598,
             "end": 643,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_North_Arabian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 732,
             "end": 764,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Narb}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 840,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_North_Arabian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 946,
             "end": 964,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Narb}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1255,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_North_Arabian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1347,
             "end": 1379,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Narb}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1458,
             "end": 1489,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_North_Arabian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1567,
             "end": 1585,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Narb}+$",

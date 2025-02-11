@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 694,
                 "end": 703,
-                "value": {},
+                "value": null,
                 "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",

@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 605,
             "end": 631,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sundanese}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 701,
             "end": 722,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sund}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sund}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 787,
             "end": 809,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sundanese}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 875,
             "end": 892,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sund}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sund}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1163,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sundanese}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sund}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sund}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1373,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sundanese}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1459,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sund}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sund}+$",

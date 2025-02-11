@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 474,
                 "end": 500,
-                "value": {},
+                "value": null,
                 "raw": "/([xu]\\d{2}([A-H]{2})?)\\1/",
                 "regex": {
                   "pattern": "([xu]\\d{2}([A-H]{2})?)\\1",

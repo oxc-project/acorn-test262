@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 630,
             "end": 665,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ol_Onal}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 744,
             "end": 776,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Onao}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Onao}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 852,
             "end": 873,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ol_Onal}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 938,
             "end": 956,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Onao}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Onao}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1289,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ol_Onal}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1371,
             "end": 1403,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Onao}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Onao}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1503,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ol_Onal}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1571,
             "end": 1589,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Onao}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Onao}+$",

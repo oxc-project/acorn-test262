@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 697,
             "end": 745,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Connector_Punctuation}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 837,
             "end": 866,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Pc}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Pc}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 939,
             "end": 973,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Connector_Punctuation}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 1051,
             "end": 1066,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Pc}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Pc}+$",
@@ -362,7 +362,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1156,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Connector_Punctuation}+$",
@@ -405,7 +405,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1243,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pc}+$/u",
             "regex": {
               "pattern": "^\\p{Pc}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1613,
             "end": 1661,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Connector_Punctuation}+$",
@@ -763,7 +763,7 @@
             "type": "Literal",
             "start": 1756,
             "end": 1785,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Pc}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Pc}+$",
@@ -806,7 +806,7 @@
             "type": "Literal",
             "start": 1861,
             "end": 1895,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Connector_Punctuation}+$",
@@ -849,7 +849,7 @@
             "type": "Literal",
             "start": 1976,
             "end": 1991,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Pc}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Pc}+$",
@@ -892,7 +892,7 @@
             "type": "Literal",
             "start": 2053,
             "end": 2084,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Connector_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Connector_Punctuation}+$",
@@ -935,7 +935,7 @@
             "type": "Literal",
             "start": 2162,
             "end": 2174,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pc}+$/u",
             "regex": {
               "pattern": "^\\P{Pc}+$",

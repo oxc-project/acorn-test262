@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 1046,
             "end": 1056,
-            "value": {},
+            "value": null,
             "raw": "/(a?b??)*/",
             "regex": {
               "pattern": "(a?b??)*",

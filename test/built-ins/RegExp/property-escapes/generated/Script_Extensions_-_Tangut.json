@@ -204,7 +204,7 @@
             "type": "Literal",
             "start": 695,
             "end": 729,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tangut}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tangut}+$",
@@ -247,7 +247,7 @@
             "type": "Literal",
             "start": 807,
             "end": 839,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tang}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tang}+$",
@@ -290,7 +290,7 @@
             "type": "Literal",
             "start": 915,
             "end": 935,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tangut}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tangut}+$",
@@ -333,7 +333,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1017,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tang}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tang}+$",
@@ -648,7 +648,7 @@
             "type": "Literal",
             "start": 1393,
             "end": 1427,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tangut}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tangut}+$",
@@ -691,7 +691,7 @@
             "type": "Literal",
             "start": 1508,
             "end": 1540,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tang}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tang}+$",
@@ -734,7 +734,7 @@
             "type": "Literal",
             "start": 1619,
             "end": 1639,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tangut}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tangut}+$",
@@ -777,7 +777,7 @@
             "type": "Literal",
             "start": 1706,
             "end": 1724,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tang}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tang}+$",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
-                "value": {},
+                "value": null,
                 "raw": "/\\x/",
                 "regex": {
                   "pattern": "\\x",
@@ -95,7 +95,7 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 424,
-                "value": {},
+                "value": null,
                 "raw": "/\\xa/",
                 "regex": {
                   "pattern": "\\xa",
@@ -160,7 +160,7 @@
                 "type": "Literal",
                 "start": 474,
                 "end": 478,
-                "value": {},
+                "value": null,
                 "raw": "/\\u/",
                 "regex": {
                   "pattern": "\\u",
@@ -225,7 +225,7 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 512,
-                "value": {},
+                "value": null,
                 "raw": "/\\ua/",
                 "regex": {
                   "pattern": "\\ua",

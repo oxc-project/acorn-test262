@@ -39,7 +39,7 @@
               "type": "Literal",
               "start": 982,
               "end": 985,
-              "value": {},
+              "value": null,
               "raw": "/᠎/",
               "regex": {
                 "pattern": "᠎",

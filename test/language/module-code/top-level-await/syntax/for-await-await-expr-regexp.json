@@ -47,7 +47,7 @@
               "type": "Literal",
               "start": 1818,
               "end": 1821,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -74,7 +74,7 @@
                 "type": "Literal",
                 "start": 1834,
                 "end": 1837,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",
@@ -130,7 +130,7 @@
               "type": "Literal",
               "start": 2020,
               "end": 2023,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -157,7 +157,7 @@
                 "type": "Literal",
                 "start": 2036,
                 "end": 2039,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",
@@ -213,7 +213,7 @@
               "type": "Literal",
               "start": 2222,
               "end": 2225,
-              "value": {},
+              "value": null,
               "raw": "/1/",
               "regex": {
                 "pattern": "1",
@@ -240,7 +240,7 @@
                 "type": "Literal",
                 "start": 2238,
                 "end": 2241,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",

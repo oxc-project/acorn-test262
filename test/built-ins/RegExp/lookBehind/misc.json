@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 980,
                 "end": 994,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=$abc)def/",
                 "regex": {
                   "pattern": "(?<=$abc)def",
@@ -145,7 +145,7 @@
                 "type": "Literal",
                 "start": 1039,
                 "end": 1054,
-                "value": {},
+                "value": null,
                 "raw": "/^f.o(?<=foo)$/",
                 "regex": {
                   "pattern": "^f.o(?<=foo)$",
@@ -230,7 +230,7 @@
                 "type": "Literal",
                 "start": 1099,
                 "end": 1114,
-                "value": {},
+                "value": null,
                 "raw": "/^foo(?<!foo)$/",
                 "regex": {
                   "pattern": "^foo(?<!foo)$",
@@ -315,7 +315,7 @@
                 "type": "Literal",
                 "start": 1159,
                 "end": 1174,
-                "value": {},
+                "value": null,
                 "raw": "/^f.o(?<!foo)$/",
                 "regex": {
                   "pattern": "^f.o(?<!foo)$",
@@ -400,7 +400,7 @@
                 "type": "Literal",
                 "start": 1223,
                 "end": 1238,
-                "value": {},
+                "value": null,
                 "raw": "/^foo(?<=foo)$/",
                 "regex": {
                   "pattern": "^foo(?<=foo)$",
@@ -492,7 +492,7 @@
                 "type": "Literal",
                 "start": 1289,
                 "end": 1304,
-                "value": {},
+                "value": null,
                 "raw": "/^f.o(?<=foo)$/",
                 "regex": {
                   "pattern": "^f.o(?<=foo)$",
@@ -584,7 +584,7 @@
                 "type": "Literal",
                 "start": 1355,
                 "end": 1370,
-                "value": {},
+                "value": null,
                 "raw": "/^f.o(?<!foo)$/",
                 "regex": {
                   "pattern": "^f.o(?<!foo)$",
@@ -676,7 +676,7 @@
                 "type": "Literal",
                 "start": 1423,
                 "end": 1440,
-                "value": {},
+                "value": null,
                 "raw": "/^foooo(?<=fo+)$/",
                 "regex": {
                   "pattern": "^foooo(?<=fo+)$",
@@ -768,7 +768,7 @@
                 "type": "Literal",
                 "start": 1495,
                 "end": 1512,
-                "value": {},
+                "value": null,
                 "raw": "/^foooo(?<=fo*)$/",
                 "regex": {
                   "pattern": "^foooo(?<=fo*)$",
@@ -843,7 +843,7 @@
                 "type": "Literal",
                 "start": 1553,
                 "end": 1562,
-                "value": {},
+                "value": null,
                 "raw": "/(abc\\1)/",
                 "regex": {
                   "pattern": "(abc\\1)",
@@ -942,7 +942,7 @@
                 "type": "Literal",
                 "start": 1620,
                 "end": 1629,
-                "value": {},
+                "value": null,
                 "raw": "/(abc\\1)/",
                 "regex": {
                   "pattern": "(abc\\1)",
@@ -1041,7 +1041,7 @@
                 "type": "Literal",
                 "start": 1693,
                 "end": 1703,
-                "value": {},
+                "value": null,
                 "raw": "/(abc\\1)/i",
                 "regex": {
                   "pattern": "(abc\\1)",
@@ -1140,7 +1140,7 @@
                 "type": "Literal",
                 "start": 1761,
                 "end": 1771,
-                "value": {},
+                "value": null,
                 "raw": "/(abc\\1)/i",
                 "regex": {
                   "pattern": "(abc\\1)",

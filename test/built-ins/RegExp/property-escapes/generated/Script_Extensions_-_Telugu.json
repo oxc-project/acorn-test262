@@ -421,7 +421,7 @@
             "type": "Literal",
             "start": 969,
             "end": 1003,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Telugu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Telugu}+$",
@@ -464,7 +464,7 @@
             "type": "Literal",
             "start": 1081,
             "end": 1113,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Telu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Telu}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1209,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Telugu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Telugu}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1273,
             "end": 1291,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Telu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Telu}+$",
@@ -1013,7 +1013,7 @@
             "type": "Literal",
             "start": 1883,
             "end": 1917,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Telugu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Telugu}+$",
@@ -1056,7 +1056,7 @@
             "type": "Literal",
             "start": 1998,
             "end": 2030,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Telu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Telu}+$",
@@ -1099,7 +1099,7 @@
             "type": "Literal",
             "start": 2109,
             "end": 2129,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Telugu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Telugu}+$",
@@ -1142,7 +1142,7 @@
             "type": "Literal",
             "start": 2196,
             "end": 2214,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Telu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Telu}+$",

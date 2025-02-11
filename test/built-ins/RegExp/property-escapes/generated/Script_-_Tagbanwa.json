@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 630,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tagbanwa}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 724,
             "end": 745,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tagb}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tagb}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 810,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tagbanwa}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 896,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tagb}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tagb}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1188,
             "end": 1213,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tagbanwa}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1285,
             "end": 1306,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tagb}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tagb}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1374,
             "end": 1395,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tagbanwa}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1463,
             "end": 1480,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tagb}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tagb}+$",

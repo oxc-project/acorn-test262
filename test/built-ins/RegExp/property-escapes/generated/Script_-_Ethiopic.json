@@ -834,7 +834,7 @@
             "type": "Literal",
             "start": 1466,
             "end": 1491,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ethiopic}+$",
@@ -877,7 +877,7 @@
             "type": "Literal",
             "start": 1560,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ethi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ethi}+$",
@@ -920,7 +920,7 @@
             "type": "Literal",
             "start": 1646,
             "end": 1667,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ethiopic}+$",
@@ -963,7 +963,7 @@
             "type": "Literal",
             "start": 1732,
             "end": 1749,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ethi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ethi}+$",
@@ -1629,7 +1629,7 @@
             "type": "Literal",
             "start": 2666,
             "end": 2691,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ethiopic}+$",
@@ -1672,7 +1672,7 @@
             "type": "Literal",
             "start": 2763,
             "end": 2784,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ethi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ethi}+$",
@@ -1715,7 +1715,7 @@
             "type": "Literal",
             "start": 2852,
             "end": 2873,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ethiopic}+$",
@@ -1758,7 +1758,7 @@
             "type": "Literal",
             "start": 2941,
             "end": 2958,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ethi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ethi}+$",

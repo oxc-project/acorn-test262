@@ -231,7 +231,7 @@
             "type": "Literal",
             "start": 713,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gunjala_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gunjala_Gondi}+$",
@@ -274,7 +274,7 @@
             "type": "Literal",
             "start": 817,
             "end": 838,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gong}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gong}+$",
@@ -317,7 +317,7 @@
             "type": "Literal",
             "start": 903,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gunjala_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gunjala_Gondi}+$",
@@ -360,7 +360,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1016,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gong}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gong}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1345,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gunjala_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gunjala_Gondi}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1452,
             "end": 1473,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gong}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gong}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1541,
             "end": 1567,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gunjala_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gunjala_Gondi}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1640,
             "end": 1657,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gong}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gong}+$",

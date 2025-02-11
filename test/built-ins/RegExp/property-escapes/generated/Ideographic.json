@@ -533,7 +533,7 @@
             "type": "Literal",
             "start": 1084,
             "end": 1105,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Ideographic}+$/u",
             "regex": {
               "pattern": "^\\p{Ideographic}+$",
@@ -576,7 +576,7 @@
             "type": "Literal",
             "start": 1170,
             "end": 1184,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Ideo}+$/u",
             "regex": {
               "pattern": "^\\p{Ideo}+$",
@@ -1206,7 +1206,7 @@
             "type": "Literal",
             "start": 1946,
             "end": 1967,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Ideographic}+$/u",
             "regex": {
               "pattern": "^\\P{Ideographic}+$",
@@ -1249,7 +1249,7 @@
             "type": "Literal",
             "start": 2035,
             "end": 2049,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Ideo}+$/u",
             "regex": {
               "pattern": "^\\P{Ideo}+$",

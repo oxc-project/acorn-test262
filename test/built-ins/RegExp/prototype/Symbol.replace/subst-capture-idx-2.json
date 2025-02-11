@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 1010,
                 "end": 1023,
-                "value": {},
+                "value": null,
                 "raw": "/b(c)(z)?(.)/",
                 "regex": {
                   "pattern": "b(c)(z)?(.)",
@@ -141,7 +141,7 @@
                 "type": "Literal",
                 "start": 1098,
                 "end": 1111,
-                "value": {},
+                "value": null,
                 "raw": "/b(c)(z)?(.)/",
                 "regex": {
                   "pattern": "b(c)(z)?(.)",

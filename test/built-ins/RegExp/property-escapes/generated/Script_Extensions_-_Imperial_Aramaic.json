@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 623,
             "end": 667,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Imperial_Aramaic}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 755,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Armi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Armi}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 863,
             "end": 893,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Imperial_Aramaic}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 967,
             "end": 985,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Armi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Armi}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1247,
             "end": 1291,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Imperial_Aramaic}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1382,
             "end": 1414,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Armi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Armi}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1493,
             "end": 1523,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Imperial_Aramaic}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1600,
             "end": 1618,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Armi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Armi}+$",

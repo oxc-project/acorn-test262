@@ -399,7 +399,7 @@
             "type": "Literal",
             "start": 914,
             "end": 937,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hangul}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hangul}+$",
@@ -442,7 +442,7 @@
             "type": "Literal",
             "start": 1004,
             "end": 1025,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hang}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hang}+$",
@@ -485,7 +485,7 @@
             "type": "Literal",
             "start": 1090,
             "end": 1109,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hangul}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hangul}+$",
@@ -528,7 +528,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hang}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hang}+$",
@@ -1011,7 +1011,7 @@
             "type": "Literal",
             "start": 1772,
             "end": 1795,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hangul}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hangul}+$",
@@ -1054,7 +1054,7 @@
             "type": "Literal",
             "start": 1865,
             "end": 1886,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hang}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hang}+$",
@@ -1097,7 +1097,7 @@
             "type": "Literal",
             "start": 1954,
             "end": 1973,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hangul}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hangul}+$",
@@ -1140,7 +1140,7 @@
             "type": "Literal",
             "start": 2039,
             "end": 2056,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hang}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hang}+$",

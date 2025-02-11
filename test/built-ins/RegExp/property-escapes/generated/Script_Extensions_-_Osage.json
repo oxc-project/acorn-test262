@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 670,
             "end": 703,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Osage}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Osage}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 780,
             "end": 812,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Osge}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Osge}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 888,
             "end": 907,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Osage}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Osage}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 970,
             "end": 988,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Osge}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Osge}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1364,
             "end": 1397,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Osage}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Osage}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1477,
             "end": 1509,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Osge}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Osge}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1588,
             "end": 1607,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Osage}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Osage}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1673,
             "end": 1691,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Osge}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Osge}+$",

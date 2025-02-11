@@ -51,7 +51,7 @@
                         "type": "Literal",
                         "start": 368,
                         "end": 371,
-                        "value": {},
+                        "value": null,
                         "raw": "/z/",
                         "regex": {
                           "pattern": "z",

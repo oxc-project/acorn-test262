@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 682,
             "end": 717,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Myanmar}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Myanmar}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 796,
             "end": 828,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mymr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mymr}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 904,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Myanmar}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Myanmar}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 990,
             "end": 1008,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mymr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mymr}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1358,
             "end": 1393,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Myanmar}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Myanmar}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1507,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mymr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mymr}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1586,
             "end": 1607,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Myanmar}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Myanmar}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1675,
             "end": 1693,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mymr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mymr}+$",

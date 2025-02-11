@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 430,
-                "value": {},
+                "value": null,
                 "raw": "/\\B\\B\\B\\B\\B\\Bbot\\b\\b\\b\\b\\b\\b\\b/",
                 "regex": {
                   "pattern": "\\B\\B\\B\\B\\B\\Bbot\\b\\b\\b\\b\\b\\b\\b",

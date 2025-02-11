@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 447,
             "end": 462,
-            "value": {},
+            "value": null,
             "raw": "/(?:ab|cd)\\d?/g",
             "regex": {
               "pattern": "(?:ab|cd)\\d?",

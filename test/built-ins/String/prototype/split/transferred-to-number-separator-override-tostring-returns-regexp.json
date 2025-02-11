@@ -58,7 +58,7 @@
                           "type": "Literal",
                           "start": 636,
                           "end": 651,
-                          "value": {},
+                          "value": null,
                           "raw": "/\\u0037\\u0037/g",
                           "regex": {
                             "pattern": "\\u0037\\u0037",

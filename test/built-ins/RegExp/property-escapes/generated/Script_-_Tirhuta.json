@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 603,
             "end": 627,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tirhuta}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 695,
             "end": 716,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tirh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tirh}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 781,
             "end": 801,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tirhuta}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 865,
             "end": 882,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tirh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tirh}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1177,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tirhuta}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1248,
             "end": 1269,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tirh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tirh}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1337,
             "end": 1357,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tirhuta}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tirhuta}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1441,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tirh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tirh}+$",

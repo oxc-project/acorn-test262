@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 538,
-                "value": {},
+                "value": null,
                 "raw": "/(\\.(?!com|org)|\\/)/",
                 "regex": {
                   "pattern": "(\\.(?!com|org)|\\/)",

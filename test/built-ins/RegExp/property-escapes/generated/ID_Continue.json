@@ -15135,7 +15135,7 @@
             "type": "Literal",
             "start": 19776,
             "end": 19797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{ID_Continue}+$/u",
             "regex": {
               "pattern": "^\\p{ID_Continue}+$",
@@ -15178,7 +15178,7 @@
             "type": "Literal",
             "start": 19862,
             "end": 19875,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{IDC}+$/u",
             "regex": {
               "pattern": "^\\p{IDC}+$",
@@ -28171,7 +28171,7 @@
             "type": "Literal",
             "start": 37410,
             "end": 37431,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{ID_Continue}+$/u",
             "regex": {
               "pattern": "^\\P{ID_Continue}+$",
@@ -28214,7 +28214,7 @@
             "type": "Literal",
             "start": 37499,
             "end": 37512,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{IDC}+$/u",
             "regex": {
               "pattern": "^\\P{IDC}+$",

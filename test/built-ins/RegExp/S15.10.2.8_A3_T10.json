@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 641,
                 "end": 661,
-                "value": {},
+                "value": null,
                 "raw": "/(\\d{3})(\\d{3})\\1\\2/",
                 "regex": {
                   "pattern": "(\\d{3})(\\d{3})\\1\\2",

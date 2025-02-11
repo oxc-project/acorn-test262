@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 316,
             "end": 323,
-            "value": {},
+            "value": null,
             "raw": "/nd|ne/",
             "regex": {
               "pattern": "nd|ne",

@@ -400,7 +400,7 @@
             "type": "Literal",
             "start": 934,
             "end": 959,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Gurmukhi}+$",
@@ -443,7 +443,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1049,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Guru}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Guru}+$",
@@ -486,7 +486,7 @@
             "type": "Literal",
             "start": 1114,
             "end": 1135,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Gurmukhi}+$",
@@ -529,7 +529,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1217,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Guru}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Guru}+$",
@@ -957,7 +957,7 @@
             "type": "Literal",
             "start": 1770,
             "end": 1795,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Gurmukhi}+$",
@@ -1000,7 +1000,7 @@
             "type": "Literal",
             "start": 1867,
             "end": 1888,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Guru}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Guru}+$",
@@ -1043,7 +1043,7 @@
             "type": "Literal",
             "start": 1956,
             "end": 1977,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Gurmukhi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Gurmukhi}+$",
@@ -1086,7 +1086,7 @@
             "type": "Literal",
             "start": 2045,
             "end": 2062,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Guru}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Guru}+$",

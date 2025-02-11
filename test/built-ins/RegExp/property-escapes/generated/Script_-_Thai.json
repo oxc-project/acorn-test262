@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 600,
             "end": 621,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Thai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Thai}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 686,
             "end": 707,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Thai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Thai}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 772,
             "end": 789,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Thai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Thai}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 850,
             "end": 867,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Thai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Thai}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1159,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Thai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Thai}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1227,
             "end": 1248,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Thai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Thai}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1316,
             "end": 1333,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Thai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Thai}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1397,
             "end": 1414,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Thai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Thai}+$",

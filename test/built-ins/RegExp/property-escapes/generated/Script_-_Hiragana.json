@@ -204,7 +204,7 @@
             "type": "Literal",
             "start": 686,
             "end": 711,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hiragana}+$",
@@ -247,7 +247,7 @@
             "type": "Literal",
             "start": 780,
             "end": 801,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hira}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hira}+$",
@@ -290,7 +290,7 @@
             "type": "Literal",
             "start": 866,
             "end": 887,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hiragana}+$",
@@ -333,7 +333,7 @@
             "type": "Literal",
             "start": 952,
             "end": 969,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hira}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hira}+$",
@@ -648,7 +648,7 @@
             "type": "Literal",
             "start": 1344,
             "end": 1369,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hiragana}+$",
@@ -691,7 +691,7 @@
             "type": "Literal",
             "start": 1441,
             "end": 1462,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hira}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hira}+$",
@@ -734,7 +734,7 @@
             "type": "Literal",
             "start": 1530,
             "end": 1551,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hiragana}+$",
@@ -777,7 +777,7 @@
             "type": "Literal",
             "start": 1619,
             "end": 1636,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hira}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hira}+$",

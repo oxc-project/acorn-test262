@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 582,
             "end": 611,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cypro_Minoan}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cypro_Minoan}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 684,
             "end": 705,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cpmn}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cpmn}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 770,
             "end": 795,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cypro_Minoan}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cypro_Minoan}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 864,
             "end": 881,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cpmn}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cpmn}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1155,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cypro_Minoan}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cypro_Minoan}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cpmn}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cpmn}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1345,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cypro_Minoan}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cypro_Minoan}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1417,
             "end": 1434,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cpmn}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cpmn}+$",

@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 600,
             "end": 621,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Newa}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 686,
             "end": 707,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Newa}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 772,
             "end": 789,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Newa}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 850,
             "end": 867,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Newa}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Newa}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1128,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Newa}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1238,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Newa}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1323,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Newa}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1387,
             "end": 1404,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Newa}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Newa}+$",

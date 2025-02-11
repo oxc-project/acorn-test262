@@ -53,7 +53,7 @@
             "type": "Literal",
             "start": 346,
             "end": 353,
-            "value": {},
+            "value": null,
             "raw": "/AL|se/",
             "regex": {
               "pattern": "AL|se",

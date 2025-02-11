@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 612,
             "end": 645,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Imperial_Aramaic}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 722,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Armi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Armi}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 808,
             "end": 837,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Imperial_Aramaic}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 910,
             "end": 927,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Armi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Armi}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1188,
             "end": 1221,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Imperial_Aramaic}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1301,
             "end": 1322,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Armi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Armi}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1390,
             "end": 1419,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Imperial_Aramaic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Imperial_Aramaic}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1495,
             "end": 1512,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Armi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Armi}+$",

@@ -85,7 +85,7 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 1004,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(c))def/",
                 "regex": {
                   "pattern": "(?<=(c))def",
@@ -183,7 +183,7 @@
                 "type": "Literal",
                 "start": 1058,
                 "end": 1075,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(\\w{2}))def/",
                 "regex": {
                   "pattern": "(?<=(\\w{2}))def",
@@ -281,7 +281,7 @@
                 "type": "Literal",
                 "start": 1130,
                 "end": 1148,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(\\w(\\w)))def/",
                 "regex": {
                   "pattern": "(?<=(\\w(\\w)))def",
@@ -386,7 +386,7 @@
                 "type": "Literal",
                 "start": 1208,
                 "end": 1225,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(\\w){3})def/",
                 "regex": {
                   "pattern": "(?<=(\\w){3})def",
@@ -484,7 +484,7 @@
                 "type": "Literal",
                 "start": 1279,
                 "end": 1296,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(bc)|(cd))./",
                 "regex": {
                   "pattern": "(?<=(bc)|(cd)).",
@@ -588,7 +588,7 @@
                 "type": "Literal",
                 "start": 1360,
                 "end": 1388,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=([ab]{1,2})\\D|(abc))\\w/",
                 "regex": {
                   "pattern": "(?<=([ab]{1,2})\\D|(abc))\\w",
@@ -692,7 +692,7 @@
                 "type": "Literal",
                 "start": 1451,
                 "end": 1471,
-                "value": {},
+                "value": null,
                 "raw": "/\\D(?<=([ab]+))(\\w)/",
                 "regex": {
                   "pattern": "\\D(?<=([ab]+))(\\w)",
@@ -797,7 +797,7 @@
                 "type": "Literal",
                 "start": 1529,
                 "end": 1542,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=b|c)\\w/g",
                 "regex": {
                   "pattern": "(?<=b|c)\\w",
@@ -895,7 +895,7 @@
                 "type": "Literal",
                 "start": 1594,
                 "end": 1612,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=[b-e])\\w{2}/g",
                 "regex": {
                   "pattern": "(?<=[b-e])\\w{2}",

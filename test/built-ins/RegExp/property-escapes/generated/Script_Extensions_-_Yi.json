@@ -239,7 +239,7 @@
             "type": "Literal",
             "start": 729,
             "end": 759,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Yi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Yi}+$",
@@ -282,7 +282,7 @@
             "type": "Literal",
             "start": 833,
             "end": 865,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Yiii}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Yiii}+$",
@@ -325,7 +325,7 @@
             "type": "Literal",
             "start": 941,
             "end": 957,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Yi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Yi}+$",
@@ -368,7 +368,7 @@
             "type": "Literal",
             "start": 1017,
             "end": 1035,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Yiii}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Yiii}+$",
@@ -704,7 +704,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1467,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Yi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Yi}+$",
@@ -747,7 +747,7 @@
             "type": "Literal",
             "start": 1544,
             "end": 1576,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Yiii}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Yiii}+$",
@@ -790,7 +790,7 @@
             "type": "Literal",
             "start": 1655,
             "end": 1671,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Yi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Yi}+$",
@@ -833,7 +833,7 @@
             "type": "Literal",
             "start": 1734,
             "end": 1752,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Yiii}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Yiii}+$",

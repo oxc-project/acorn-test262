@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 372,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>/",
                 "regex": {
                   "pattern": "\\k<a>",
@@ -88,7 +88,7 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 402,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<4>/",
                 "regex": {
                   "pattern": "\\k<4>",
@@ -146,7 +146,7 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 431,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a/",
                 "regex": {
                   "pattern": "\\k<a",
@@ -204,7 +204,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 457,
-                "value": {},
+                "value": null,
                 "raw": "/\\k/",
                 "regex": {
                   "pattern": "\\k",
@@ -262,7 +262,7 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 488,
-                "value": {},
+                "value": null,
                 "raw": "/(?<a>\\a)/",
                 "regex": {
                   "pattern": "(?<a>\\a)",
@@ -364,7 +364,7 @@
                 "type": "Literal",
                 "start": 551,
                 "end": 558,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>/",
                 "regex": {
                   "pattern": "\\k<a>",
@@ -449,7 +449,7 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 616,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a/",
                 "regex": {
                   "pattern": "\\k<a",
@@ -490,7 +490,7 @@
                 "type": "Literal",
                 "start": 628,
                 "end": 641,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>(<a>x)/",
                 "regex": {
                   "pattern": "\\k<a>(<a>x)",
@@ -548,7 +548,7 @@
                 "type": "Literal",
                 "start": 668,
                 "end": 677,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>\\1/",
                 "regex": {
                   "pattern": "\\k<a>\\1",
@@ -606,7 +606,7 @@
                 "type": "Literal",
                 "start": 704,
                 "end": 716,
-                "value": {},
+                "value": null,
                 "raw": "/\\1(b)\\k<a>/",
                 "regex": {
                   "pattern": "\\1(b)\\k<a>",

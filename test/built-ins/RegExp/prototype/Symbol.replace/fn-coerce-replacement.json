@@ -192,7 +192,7 @@
                 "type": "Literal",
                 "start": 831,
                 "end": 834,
-                "value": {},
+                "value": null,
                 "raw": "/x/",
                 "regex": {
                   "pattern": "x",

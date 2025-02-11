@@ -61,7 +61,7 @@
             "type": "Literal",
             "start": 382,
             "end": 404,
-            "value": {},
+            "value": null,
             "raw": "/((1)|(12))((3)|(23))/",
             "regex": {
               "pattern": "((1)|(12))((3)|(23))",

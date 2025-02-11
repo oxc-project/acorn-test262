@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 387,
-                "value": {},
+                "value": null,
                 "raw": "/^^^^^^^robot$$$$/",
                 "regex": {
                   "pattern": "^^^^^^^robot$$$$",

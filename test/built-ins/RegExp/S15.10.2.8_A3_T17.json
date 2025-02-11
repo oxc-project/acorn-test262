@@ -249,7 +249,7 @@
                 "type": "Literal",
                 "start": 879,
                 "end": 909,
-                "value": {},
+                "value": null,
                 "raw": "/<body.*>((.*\\n?)*?)<\\/body>/i",
                 "regex": {
                   "pattern": "<body.*>((.*\\n?)*?)<\\/body>",

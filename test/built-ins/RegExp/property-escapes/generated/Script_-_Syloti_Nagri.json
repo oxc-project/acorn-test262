@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 582,
             "end": 611,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Syloti_Nagri}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 684,
             "end": 705,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sylo}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sylo}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 770,
             "end": 795,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Syloti_Nagri}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 864,
             "end": 881,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sylo}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sylo}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1155,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Syloti_Nagri}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sylo}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sylo}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1345,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Syloti_Nagri}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Syloti_Nagri}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1417,
             "end": 1434,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sylo}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sylo}+$",

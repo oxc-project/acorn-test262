@@ -491,7 +491,7 @@
             "type": "Literal",
             "start": 1062,
             "end": 1097,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kannada}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kannada}+$",
@@ -534,7 +534,7 @@
             "type": "Literal",
             "start": 1176,
             "end": 1208,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Knda}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Knda}+$",
@@ -577,7 +577,7 @@
             "type": "Literal",
             "start": 1284,
             "end": 1305,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kannada}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kannada}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1370,
             "end": 1388,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Knda}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Knda}+$",
@@ -1111,7 +1111,7 @@
             "type": "Literal",
             "start": 2036,
             "end": 2071,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kannada}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kannada}+$",
@@ -1154,7 +1154,7 @@
             "type": "Literal",
             "start": 2153,
             "end": 2185,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Knda}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Knda}+$",
@@ -1197,7 +1197,7 @@
             "type": "Literal",
             "start": 2264,
             "end": 2285,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kannada}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kannada}+$",
@@ -1240,7 +1240,7 @@
             "type": "Literal",
             "start": 2353,
             "end": 2371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Knda}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Knda}+$",

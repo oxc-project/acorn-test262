@@ -506,7 +506,7 @@
                     "type": "Literal",
                     "start": 909,
                     "end": 915,
-                    "value": {},
+                    "value": null,
                     "raw": "/\\S+/g",
                     "regex": {
                       "pattern": "\\S+",

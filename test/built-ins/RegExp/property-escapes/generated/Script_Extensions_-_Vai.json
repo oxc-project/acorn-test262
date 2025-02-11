@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 584,
             "end": 615,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vai}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 690,
             "end": 722,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vaii}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 798,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vai}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 876,
             "end": 894,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vaii}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1140,
             "end": 1171,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vai}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1249,
             "end": 1281,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vaii}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1360,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vai}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1441,
             "end": 1459,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vaii}+$",

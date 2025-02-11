@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 576,
             "end": 599,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Carian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Carian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 666,
             "end": 687,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cari}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cari}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 752,
             "end": 771,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Carian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Carian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 834,
             "end": 851,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cari}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cari}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1119,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Carian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Carian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1210,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cari}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cari}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1297,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Carian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Carian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1380,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cari}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cari}+$",

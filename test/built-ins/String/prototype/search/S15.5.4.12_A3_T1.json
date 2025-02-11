@@ -78,7 +78,7 @@
               "type": "Literal",
               "start": 564,
               "end": 569,
-              "value": {},
+              "value": null,
               "raw": "/the/",
               "regex": {
                 "pattern": "the",
@@ -117,7 +117,7 @@
               "type": "Literal",
               "start": 590,
               "end": 596,
-              "value": {},
+              "value": null,
               "raw": "/the/g",
               "regex": {
                 "pattern": "the",
@@ -188,7 +188,7 @@
                         "type": "Literal",
                         "start": 826,
                         "end": 831,
-                        "value": {},
+                        "value": null,
                         "raw": "/the/",
                         "regex": {
                           "pattern": "the",

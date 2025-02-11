@@ -365,7 +365,7 @@
             "type": "Literal",
             "start": 878,
             "end": 901,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Telugu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Telugu}+$",
@@ -408,7 +408,7 @@
             "type": "Literal",
             "start": 968,
             "end": 989,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Telu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Telu}+$",
@@ -451,7 +451,7 @@
             "type": "Literal",
             "start": 1054,
             "end": 1073,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Telugu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Telugu}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1136,
             "end": 1153,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Telu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Telu}+$",
@@ -873,7 +873,7 @@
             "type": "Literal",
             "start": 1640,
             "end": 1663,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Telugu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Telugu}+$",
@@ -916,7 +916,7 @@
             "type": "Literal",
             "start": 1733,
             "end": 1754,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Telu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Telu}+$",
@@ -959,7 +959,7 @@
             "type": "Literal",
             "start": 1822,
             "end": 1841,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Telugu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Telugu}+$",
@@ -1002,7 +1002,7 @@
             "type": "Literal",
             "start": 1907,
             "end": 1924,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Telu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Telu}+$",

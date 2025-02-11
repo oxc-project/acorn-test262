@@ -50,7 +50,7 @@
               "type": "Literal",
               "start": 1013,
               "end": 1022,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)*/",
               "regex": {
                 "pattern": ".(?=Z)*",
@@ -172,7 +172,7 @@
               "type": "Literal",
               "start": 1111,
               "end": 1120,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)+/",
               "regex": {
                 "pattern": ".(?=Z)+",
@@ -294,7 +294,7 @@
               "type": "Literal",
               "start": 1209,
               "end": 1218,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)?/",
               "regex": {
                 "pattern": ".(?=Z)?",
@@ -416,7 +416,7 @@
               "type": "Literal",
               "start": 1307,
               "end": 1318,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2}/",
               "regex": {
                 "pattern": ".(?=Z){2}",
@@ -538,7 +538,7 @@
               "type": "Literal",
               "start": 1423,
               "end": 1435,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2,}/",
               "regex": {
                 "pattern": ".(?=Z){2,}",
@@ -660,7 +660,7 @@
               "type": "Literal",
               "start": 1542,
               "end": 1555,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2,3}/",
               "regex": {
                 "pattern": ".(?=Z){2,3}",
@@ -782,7 +782,7 @@
               "type": "Literal",
               "start": 1680,
               "end": 1690,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)*?/",
               "regex": {
                 "pattern": ".(?=Z)*?",
@@ -904,7 +904,7 @@
               "type": "Literal",
               "start": 1781,
               "end": 1791,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)+?/",
               "regex": {
                 "pattern": ".(?=Z)+?",
@@ -1026,7 +1026,7 @@
               "type": "Literal",
               "start": 1882,
               "end": 1892,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z)??/",
               "regex": {
                 "pattern": ".(?=Z)??",
@@ -1148,7 +1148,7 @@
               "type": "Literal",
               "start": 1983,
               "end": 1995,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2}?/",
               "regex": {
                 "pattern": ".(?=Z){2}?",
@@ -1270,7 +1270,7 @@
               "type": "Literal",
               "start": 2102,
               "end": 2115,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2,}?/",
               "regex": {
                 "pattern": ".(?=Z){2,}?",
@@ -1392,7 +1392,7 @@
               "type": "Literal",
               "start": 2224,
               "end": 2238,
-              "value": {},
+              "value": null,
               "raw": "/.(?=Z){2,3}?/",
               "regex": {
                 "pattern": ".(?=Z){2,3}?",

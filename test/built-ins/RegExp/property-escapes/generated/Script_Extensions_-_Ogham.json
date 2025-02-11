@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 586,
             "end": 619,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ogham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ogham}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 696,
             "end": 728,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ogam}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ogam}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 804,
             "end": 823,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ogham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ogham}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 886,
             "end": 904,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ogam}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ogam}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1150,
             "end": 1183,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ogham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ogham}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1263,
             "end": 1295,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ogam}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ogam}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1374,
             "end": 1393,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ogham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ogham}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1459,
             "end": 1477,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ogam}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ogam}+$",

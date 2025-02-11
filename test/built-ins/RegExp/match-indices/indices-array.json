@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 365,
-                "value": {},
+                "value": null,
                 "raw": "/a/d",
                 "regex": {
                   "pattern": "a",

@@ -149,7 +149,7 @@
           "type": "Literal",
           "start": 1083,
           "end": 1089,
-          "value": {},
+          "value": null,
           "raw": "/x.y/g",
           "regex": {
             "pattern": "x.y",

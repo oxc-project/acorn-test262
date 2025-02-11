@@ -274,7 +274,7 @@
             "type": "Literal",
             "start": 789,
             "end": 825,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Duployan}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Duployan}+$",
@@ -317,7 +317,7 @@
             "type": "Literal",
             "start": 905,
             "end": 937,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Dupl}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Dupl}+$",
@@ -360,7 +360,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1035,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Duployan}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Duployan}+$",
@@ -403,7 +403,7 @@
             "type": "Literal",
             "start": 1101,
             "end": 1119,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Dupl}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Dupl}+$",
@@ -789,7 +789,7 @@
             "type": "Literal",
             "start": 1589,
             "end": 1625,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Duployan}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Duployan}+$",
@@ -832,7 +832,7 @@
             "type": "Literal",
             "start": 1708,
             "end": 1740,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Dupl}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Dupl}+$",
@@ -875,7 +875,7 @@
             "type": "Literal",
             "start": 1819,
             "end": 1841,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Duployan}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Duployan}+$",
@@ -918,7 +918,7 @@
             "type": "Literal",
             "start": 1910,
             "end": 1928,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Dupl}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Dupl}+$",

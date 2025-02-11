@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 451,
-                "value": {},
+                "value": null,
                 "raw": "/[^o]t\\b/",
                 "regex": {
                   "pattern": "[^o]t\\b",

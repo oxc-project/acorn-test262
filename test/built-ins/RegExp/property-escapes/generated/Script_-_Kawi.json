@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 626,
             "end": 647,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kawi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kawi}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 712,
             "end": 733,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kawi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kawi}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 798,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kawi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kawi}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 876,
             "end": 893,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kawi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kawi}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1201,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kawi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kawi}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1269,
             "end": 1290,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kawi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kawi}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1358,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kawi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kawi}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1439,
             "end": 1456,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kawi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kawi}+$",

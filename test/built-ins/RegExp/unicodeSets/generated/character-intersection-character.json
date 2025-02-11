@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 523,
                   "end": 535,
-                  "value": {},
+                  "value": null,
                   "raw": "/^[_&&_]+$/v",
                   "regex": {
                     "pattern": "^[_&&_]+$",

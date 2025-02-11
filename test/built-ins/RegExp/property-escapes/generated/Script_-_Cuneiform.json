@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 657,
             "end": 683,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cuneiform}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cuneiform}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 753,
             "end": 774,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Xsux}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Xsux}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 839,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cuneiform}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cuneiform}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 927,
             "end": 944,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Xsux}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Xsux}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1257,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cuneiform}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cuneiform}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1356,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Xsux}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Xsux}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1445,
             "end": 1467,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cuneiform}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cuneiform}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1536,
             "end": 1553,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Xsux}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Xsux}+$",

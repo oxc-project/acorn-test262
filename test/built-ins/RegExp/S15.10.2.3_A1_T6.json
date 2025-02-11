@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 555,
-                "value": {},
+                "value": null,
                 "raw": "/ab|cd|ef/i",
                 "regex": {
                   "pattern": "ab|cd|ef",

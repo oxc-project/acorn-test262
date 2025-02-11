@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 667,
             "end": 703,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Linear_A}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 783,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Lina}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lina}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 891,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Linear_A}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 979,
             "end": 997,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Lina}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lina}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1321,
             "end": 1357,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Linear_A}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1440,
             "end": 1472,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Lina}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lina}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1551,
             "end": 1573,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Linear_A}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Linear_A}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1642,
             "end": 1660,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Lina}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lina}+$",

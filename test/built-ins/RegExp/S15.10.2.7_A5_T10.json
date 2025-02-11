@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 372,
-                "value": {},
+                "value": null,
                 "raw": "/ab?c?d?x?y?z/",
                 "regex": {
                   "pattern": "ab?c?d?x?y?z",

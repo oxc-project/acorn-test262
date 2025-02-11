@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 644,
             "end": 667,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tangut}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tangut}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 734,
             "end": 755,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tang}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tang}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 820,
             "end": 839,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tangut}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tangut}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 902,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tang}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tang}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1242,
             "end": 1265,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tangut}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tangut}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1335,
             "end": 1356,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tang}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tang}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1443,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tangut}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tangut}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1509,
             "end": 1526,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tang}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tang}+$",

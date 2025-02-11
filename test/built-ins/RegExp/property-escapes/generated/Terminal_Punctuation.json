@@ -1940,7 +1940,7 @@
             "type": "Literal",
             "start": 3059,
             "end": 3089,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Terminal_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Terminal_Punctuation}+$",
@@ -1983,7 +1983,7 @@
             "type": "Literal",
             "start": 3163,
             "end": 3177,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Term}+$/u",
             "regex": {
               "pattern": "^\\p{Term}+$",
@@ -4483,7 +4483,7 @@
             "type": "Literal",
             "start": 6303,
             "end": 6333,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Terminal_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Terminal_Punctuation}+$",
@@ -4526,7 +4526,7 @@
             "type": "Literal",
             "start": 6410,
             "end": 6424,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Term}+$/u",
             "regex": {
               "pattern": "^\\P{Term}+$",

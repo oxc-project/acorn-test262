@@ -302,7 +302,7 @@
             "type": "Literal",
             "start": 863,
             "end": 901,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Glagolitic}+$",
@@ -345,7 +345,7 @@
             "type": "Literal",
             "start": 983,
             "end": 1015,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Glag}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Glag}+$",
@@ -388,7 +388,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1115,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Glagolitic}+$",
@@ -431,7 +431,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1201,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Glag}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Glag}+$",
@@ -901,7 +901,7 @@
             "type": "Literal",
             "start": 1791,
             "end": 1829,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Glagolitic}+$",
@@ -944,7 +944,7 @@
             "type": "Literal",
             "start": 1914,
             "end": 1946,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Glag}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Glag}+$",
@@ -987,7 +987,7 @@
             "type": "Literal",
             "start": 2025,
             "end": 2049,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Glagolitic}+$",
@@ -1030,7 +1030,7 @@
             "type": "Literal",
             "start": 2120,
             "end": 2138,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Glag}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Glag}+$",

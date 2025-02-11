@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 361,
-                "value": {},
+                "value": null,
                 "raw": "/x?ay?bz?c/",
                 "regex": {
                   "pattern": "x?ay?bz?c",

@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 615,
             "end": 651,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Surrogate}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 731,
             "end": 760,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Cs}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Cs}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 833,
             "end": 855,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Surrogate}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 921,
             "end": 936,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Cs}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Cs}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1014,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{Surrogate}+$",
@@ -362,7 +362,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1089,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Cs}+$/u",
             "regex": {
               "pattern": "^\\p{Cs}+$",
@@ -530,7 +530,7 @@
             "type": "Literal",
             "start": 1277,
             "end": 1313,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Surrogate}+$",
@@ -573,7 +573,7 @@
             "type": "Literal",
             "start": 1396,
             "end": 1425,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Cs}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Cs}+$",
@@ -616,7 +616,7 @@
             "type": "Literal",
             "start": 1501,
             "end": 1523,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Surrogate}+$",
@@ -659,7 +659,7 @@
             "type": "Literal",
             "start": 1592,
             "end": 1607,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Cs}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Cs}+$",
@@ -702,7 +702,7 @@
             "type": "Literal",
             "start": 1669,
             "end": 1688,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{Surrogate}+$",
@@ -745,7 +745,7 @@
             "type": "Literal",
             "start": 1754,
             "end": 1766,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Cs}+$/u",
             "regex": {
               "pattern": "^\\P{Cs}+$",

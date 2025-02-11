@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 614,
             "end": 649,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Osmanya}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 728,
             "end": 760,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Osma}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Osma}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 836,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Osmanya}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 922,
             "end": 940,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Osma}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Osma}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1212,
             "end": 1247,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Osmanya}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1329,
             "end": 1361,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Osma}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Osma}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1440,
             "end": 1461,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Osmanya}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Osmanya}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1529,
             "end": 1547,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Osma}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Osma}+$",

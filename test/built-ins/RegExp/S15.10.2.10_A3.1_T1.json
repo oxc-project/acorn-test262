@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 313,
-                "value": {},
+                "value": null,
                 "raw": "/\\x00/",
                 "regex": {
                   "pattern": "\\x00",
@@ -237,7 +237,7 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 512,
-                "value": {},
+                "value": null,
                 "raw": "/\\x01/",
                 "regex": {
                   "pattern": "\\x01",
@@ -444,7 +444,7 @@
                 "type": "Literal",
                 "start": 705,
                 "end": 711,
-                "value": {},
+                "value": null,
                 "raw": "/\\x0A/",
                 "regex": {
                   "pattern": "\\x0A",
@@ -651,7 +651,7 @@
                 "type": "Literal",
                 "start": 904,
                 "end": 910,
-                "value": {},
+                "value": null,
                 "raw": "/\\xFF/",
                 "regex": {
                   "pattern": "\\xFF",

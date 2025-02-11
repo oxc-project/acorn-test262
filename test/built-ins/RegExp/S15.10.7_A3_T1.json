@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 360,
             "end": 367,
-            "value": {},
+            "value": null,
             "raw": "/[^a]*/",
             "regex": {
               "pattern": "[^a]*",

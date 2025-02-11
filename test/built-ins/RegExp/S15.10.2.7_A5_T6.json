@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 361,
-                "value": {},
+                "value": null,
                 "raw": "/o?pqrst/",
                 "regex": {
                   "pattern": "o?pqrst",

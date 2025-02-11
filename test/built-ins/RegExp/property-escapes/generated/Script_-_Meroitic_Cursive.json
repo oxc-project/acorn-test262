@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 638,
             "end": 671,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Meroitic_Cursive}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 748,
             "end": 769,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Merc}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Merc}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 834,
             "end": 863,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Meroitic_Cursive}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 936,
             "end": 953,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Merc}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Merc}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1250,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Meroitic_Cursive}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1384,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Merc}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Merc}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1452,
             "end": 1481,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Meroitic_Cursive}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1557,
             "end": 1574,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Merc}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Merc}+$",

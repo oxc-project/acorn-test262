@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 641,
             "end": 677,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Canadian_Aboriginal}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 757,
             "end": 778,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cans}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cans}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 843,
             "end": 875,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Canadian_Aboriginal}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 951,
             "end": 968,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cans}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cans}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1301,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Canadian_Aboriginal}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1384,
             "end": 1405,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cans}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cans}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1473,
             "end": 1505,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Canadian_Aboriginal}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1584,
             "end": 1601,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cans}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cans}+$",

@@ -112,7 +112,7 @@
             "type": "Literal",
             "start": 587,
             "end": 633,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Paragraph_Separator}+$",
@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 723,
             "end": 752,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Zp}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Zp}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 825,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Paragraph_Separator}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 933,
             "end": 948,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Zp}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Zp}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 1007,
             "end": 1036,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\p{Paragraph_Separator}+$",
@@ -327,7 +327,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1121,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Zp}+$/u",
             "regex": {
               "pattern": "^\\p{Zp}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1361,
             "end": 1407,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Paragraph_Separator}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1500,
             "end": 1529,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Zp}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Zp}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1605,
             "end": 1637,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Paragraph_Separator}+$",
@@ -666,7 +666,7 @@
             "type": "Literal",
             "start": 1716,
             "end": 1731,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Zp}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Zp}+$",
@@ -709,7 +709,7 @@
             "type": "Literal",
             "start": 1793,
             "end": 1822,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Paragraph_Separator}+$/u",
             "regex": {
               "pattern": "^\\P{Paragraph_Separator}+$",
@@ -752,7 +752,7 @@
             "type": "Literal",
             "start": 1898,
             "end": 1910,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Zp}+$/u",
             "regex": {
               "pattern": "^\\P{Zp}+$",

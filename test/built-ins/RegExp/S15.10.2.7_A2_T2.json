@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 444,
-                "value": {},
+                "value": null,
                 "raw": "/\\w{3}\\d?/",
                 "regex": {
                   "pattern": "\\w{3}\\d?",

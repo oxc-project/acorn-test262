@@ -918,7 +918,7 @@
             "type": "Literal",
             "start": 1592,
             "end": 1623,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Han}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Han}+$",
@@ -961,7 +961,7 @@
             "type": "Literal",
             "start": 1698,
             "end": 1730,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hani}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hani}+$",
@@ -1004,7 +1004,7 @@
             "type": "Literal",
             "start": 1806,
             "end": 1823,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Han}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Han}+$",
@@ -1047,7 +1047,7 @@
             "type": "Literal",
             "start": 1884,
             "end": 1902,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hani}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hani}+$",
@@ -2035,7 +2035,7 @@
             "type": "Literal",
             "start": 3144,
             "end": 3175,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Han}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Han}+$",
@@ -2078,7 +2078,7 @@
             "type": "Literal",
             "start": 3253,
             "end": 3285,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hani}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hani}+$",
@@ -2121,7 +2121,7 @@
             "type": "Literal",
             "start": 3364,
             "end": 3381,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Han}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Han}+$",
@@ -2164,7 +2164,7 @@
             "type": "Literal",
             "start": 3445,
             "end": 3463,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hani}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hani}+$",

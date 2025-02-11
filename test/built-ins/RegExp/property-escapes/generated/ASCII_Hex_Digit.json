@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 630,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{ASCII_Hex_Digit}+$/u",
             "regex": {
               "pattern": "^\\p{ASCII_Hex_Digit}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 724,
             "end": 738,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{AHex}+$/u",
             "regex": {
               "pattern": "^\\p{AHex}+$",
@@ -463,7 +463,7 @@
             "type": "Literal",
             "start": 1032,
             "end": 1057,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{ASCII_Hex_Digit}+$/u",
             "regex": {
               "pattern": "^\\P{ASCII_Hex_Digit}+$",
@@ -506,7 +506,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1143,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{AHex}+$/u",
             "regex": {
               "pattern": "^\\P{AHex}+$",

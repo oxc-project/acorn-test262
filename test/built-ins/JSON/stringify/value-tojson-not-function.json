@@ -361,7 +361,7 @@
                       "type": "Literal",
                       "start": 833,
                       "end": 837,
-                      "value": {},
+                      "value": null,
                       "raw": "/re/",
                       "regex": {
                         "pattern": "re",

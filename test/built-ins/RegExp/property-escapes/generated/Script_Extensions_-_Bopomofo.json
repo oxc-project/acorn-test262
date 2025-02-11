@@ -351,7 +351,7 @@
             "type": "Literal",
             "start": 895,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bopomofo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bopomofo}+$",
@@ -394,7 +394,7 @@
             "type": "Literal",
             "start": 1011,
             "end": 1043,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bopo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bopo}+$",
@@ -437,7 +437,7 @@
             "type": "Literal",
             "start": 1119,
             "end": 1141,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bopomofo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bopomofo}+$",
@@ -480,7 +480,7 @@
             "type": "Literal",
             "start": 1207,
             "end": 1225,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bopo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bopo}+$",
@@ -957,7 +957,7 @@
             "type": "Literal",
             "start": 1813,
             "end": 1849,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bopomofo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bopomofo}+$",
@@ -1000,7 +1000,7 @@
             "type": "Literal",
             "start": 1932,
             "end": 1964,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bopo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bopo}+$",
@@ -1043,7 +1043,7 @@
             "type": "Literal",
             "start": 2043,
             "end": 2065,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bopomofo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bopomofo}+$",
@@ -1086,7 +1086,7 @@
             "type": "Literal",
             "start": 2134,
             "end": 2152,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bopo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bopo}+$",

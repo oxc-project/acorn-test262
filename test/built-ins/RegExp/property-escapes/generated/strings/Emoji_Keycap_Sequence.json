@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 530,
                   "end": 561,
-                  "value": {},
+                  "value": null,
                   "raw": "/^\\p{Emoji_Keycap_Sequence}+$/v",
                   "regex": {
                     "pattern": "^\\p{Emoji_Keycap_Sequence}+$",

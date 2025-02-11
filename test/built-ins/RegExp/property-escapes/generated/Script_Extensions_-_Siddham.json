@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 614,
             "end": 649,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Siddham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Siddham}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 728,
             "end": 760,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sidd}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sidd}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 836,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Siddham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Siddham}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 922,
             "end": 940,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sidd}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sidd}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1212,
             "end": 1247,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Siddham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Siddham}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1329,
             "end": 1361,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sidd}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sidd}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1440,
             "end": 1461,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Siddham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Siddham}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1529,
             "end": 1547,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sidd}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sidd}+$",

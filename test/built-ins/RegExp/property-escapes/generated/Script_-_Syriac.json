@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 654,
             "end": 677,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Syriac}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Syriac}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 744,
             "end": 765,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Syrc}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Syrc}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 830,
             "end": 849,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Syriac}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Syriac}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 912,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Syrc}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Syrc}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1242,
             "end": 1265,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Syriac}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Syriac}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1335,
             "end": 1356,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Syrc}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Syrc}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1443,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Syriac}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Syriac}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1509,
             "end": 1526,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Syrc}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Syrc}+$",

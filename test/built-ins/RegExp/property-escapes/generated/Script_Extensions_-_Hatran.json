@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 639,
             "end": 673,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hatran}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hatran}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 751,
             "end": 783,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hatr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hatr}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 859,
             "end": 879,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hatran}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hatran}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 943,
             "end": 961,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hatr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hatr}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1249,
             "end": 1283,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hatran}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hatran}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1364,
             "end": 1396,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hatr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hatr}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1495,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hatran}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hatran}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1580,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hatr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hatr}+$",

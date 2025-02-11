@@ -171,7 +171,7 @@
                 "type": "Literal",
                 "start": 731,
                 "end": 740,
-                "value": {},
+                "value": null,
                 "raw": "/(?<x>.)/",
                 "regex": {
                   "pattern": "(?<x>.)",
@@ -401,7 +401,7 @@
                 "type": "Literal",
                 "start": 1118,
                 "end": 1135,
-                "value": {},
+                "value": null,
                 "raw": "/(?<__proto__>.)/",
                 "regex": {
                   "pattern": "(?<__proto__>.)",

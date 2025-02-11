@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 980,
                 "end": 1002,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a(.\\2)b(\\1)).{4}/",
                 "regex": {
                   "pattern": "(?<=a(.\\2)b(\\1)).{4}",
@@ -149,7 +149,7 @@
                 "type": "Literal",
                 "start": 1067,
                 "end": 1087,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=a(\\2)b(..\\1))b/",
                 "regex": {
                   "pattern": "(?<=a(\\2)b(..\\1))b",
@@ -255,7 +255,7 @@
                 "type": "Literal",
                 "start": 1151,
                 "end": 1170,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(?:\\1b)(aa))./",
                 "regex": {
                   "pattern": "(?<=(?:\\1b)(aa)).",
@@ -354,7 +354,7 @@
                 "type": "Literal",
                 "start": 1227,
                 "end": 1247,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(?:\\1|b)(aa))./",
                 "regex": {
                   "pattern": "(?<=(?:\\1|b)(aa)).",

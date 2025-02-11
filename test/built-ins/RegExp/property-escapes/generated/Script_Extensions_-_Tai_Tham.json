@@ -210,7 +210,7 @@
             "type": "Literal",
             "start": 693,
             "end": 729,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tai_Tham}+$",
@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 809,
             "end": 841,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Lana}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lana}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 917,
             "end": 939,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tai_Tham}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1023,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Lana}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lana}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1399,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tai_Tham}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1514,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Lana}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lana}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1593,
             "end": 1615,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tai_Tham}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1684,
             "end": 1702,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Lana}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lana}+$",

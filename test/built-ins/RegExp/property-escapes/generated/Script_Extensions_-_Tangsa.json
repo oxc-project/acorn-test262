@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 613,
             "end": 647,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tangsa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tangsa}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 725,
             "end": 757,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tnsa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tnsa}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 833,
             "end": 853,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tangsa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tangsa}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 917,
             "end": 935,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tnsa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tnsa}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1231,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tangsa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tangsa}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1312,
             "end": 1344,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tnsa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tnsa}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1443,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tangsa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tangsa}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1510,
             "end": 1528,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tnsa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tnsa}+$",

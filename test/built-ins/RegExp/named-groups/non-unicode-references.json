@@ -81,7 +81,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 373,
-                "value": {},
+                "value": null,
                 "raw": "/(?<b>.).\\k<b>/",
                 "regex": {
                   "pattern": "(?<b>.).\\k<b>",
@@ -159,7 +159,7 @@
                 "type": "Literal",
                 "start": 412,
                 "end": 427,
-                "value": {},
+                "value": null,
                 "raw": "/(?<b>.).\\k<b>/",
                 "regex": {
                   "pattern": "(?<b>.).\\k<b>",
@@ -251,7 +251,7 @@
                 "type": "Literal",
                 "start": 505,
                 "end": 522,
-                "value": {},
+                "value": null,
                 "raw": "/(?<a>\\k<a>\\w)../",
                 "regex": {
                   "pattern": "(?<a>\\k<a>\\w)..",
@@ -337,7 +337,7 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 577,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>\\k<a>\\w)../",
                     "regex": {
                       "pattern": "(?<a>\\k<a>\\w)..",
@@ -447,7 +447,7 @@
                 "type": "Literal",
                 "start": 664,
                 "end": 685,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>(?<a>b)\\w\\k<a>/",
                 "regex": {
                   "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
@@ -533,7 +533,7 @@
                     "type": "Literal",
                     "start": 723,
                     "end": 744,
-                    "value": {},
+                    "value": null,
                     "raw": "/\\k<a>(?<a>b)\\w\\k<a>/",
                     "regex": {
                       "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
@@ -650,7 +650,7 @@
                 "type": "Literal",
                 "start": 808,
                 "end": 834,
-                "value": {},
+                "value": null,
                 "raw": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
                 "regex": {
                   "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
@@ -755,7 +755,7 @@
                   "type": "Literal",
                   "start": 863,
                   "end": 889,
-                  "value": {},
+                  "value": null,
                   "raw": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
                   "regex": {
                     "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
@@ -946,7 +946,7 @@
                 "type": "Literal",
                 "start": 998,
                 "end": 1019,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>(?<a>b)\\w\\k<a>/",
                 "regex": {
                   "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
@@ -1045,7 +1045,7 @@
                 "type": "Literal",
                 "start": 1074,
                 "end": 1100,
-                "value": {},
+                "value": null,
                 "raw": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
                 "regex": {
                   "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
@@ -1114,7 +1114,7 @@
                     "type": "Literal",
                     "start": 1152,
                     "end": 1173,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>a)(?<b>b)\\k<a>/",
                     "regex": {
                       "pattern": "(?<a>a)(?<b>b)\\k<a>",
@@ -1218,7 +1218,7 @@
                     "type": "Literal",
                     "start": 1219,
                     "end": 1240,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>a)(?<b>b)\\k<a>/",
                     "regex": {
                       "pattern": "(?<a>a)(?<b>b)\\k<a>",
@@ -1321,7 +1321,7 @@
                     "type": "Literal",
                     "start": 1292,
                     "end": 1313,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>a)(?<b>b)\\k<a>/",
                     "regex": {
                       "pattern": "(?<a>a)(?<b>b)\\k<a>",
@@ -1424,7 +1424,7 @@
                     "type": "Literal",
                     "start": 1365,
                     "end": 1394,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>a)(?<b>b)\\k<a>|(?<c>c)/",
                     "regex": {
                       "pattern": "(?<a>a)(?<b>b)\\k<a>|(?<c>c)",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 435,
-                "value": {},
+                "value": null,
                 "raw": "/a[^1-9]c/",
                 "regex": {
                   "pattern": "a[^1-9]c",

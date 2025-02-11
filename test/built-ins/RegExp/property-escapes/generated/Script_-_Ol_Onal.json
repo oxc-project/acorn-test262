@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 593,
             "end": 617,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ol_Onal}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 685,
             "end": 706,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Onao}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Onao}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 771,
             "end": 791,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ol_Onal}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 855,
             "end": 872,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Onao}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Onao}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1143,
             "end": 1167,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ol_Onal}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1238,
             "end": 1259,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Onao}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Onao}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1327,
             "end": 1347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Ol_Onal}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ol_Onal}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1414,
             "end": 1431,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Onao}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Onao}+$",

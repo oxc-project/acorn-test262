@@ -61,7 +61,7 @@
             "type": "Literal",
             "start": 357,
             "end": 363,
-            "value": {},
+            "value": null,
             "raw": "/2|12/",
             "regex": {
               "pattern": "2|12",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 536,
                 "end": 562,
-                "value": {},
+                "value": null,
                 "raw": "/(.*?)a(?!(a+)b\\2c)\\2(.*)/",
                 "regex": {
                   "pattern": "(.*?)a(?!(a+)b\\2c)\\2(.*)",

@@ -218,7 +218,7 @@
             "type": "Literal",
             "start": 708,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Multani}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Multani}+$",
@@ -261,7 +261,7 @@
             "type": "Literal",
             "start": 822,
             "end": 854,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mult}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mult}+$",
@@ -304,7 +304,7 @@
             "type": "Literal",
             "start": 930,
             "end": 951,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Multani}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Multani}+$",
@@ -347,7 +347,7 @@
             "type": "Literal",
             "start": 1016,
             "end": 1034,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mult}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mult}+$",
@@ -607,7 +607,7 @@
             "type": "Literal",
             "start": 1364,
             "end": 1399,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Multani}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Multani}+$",
@@ -650,7 +650,7 @@
             "type": "Literal",
             "start": 1481,
             "end": 1513,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mult}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mult}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1592,
             "end": 1613,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Multani}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Multani}+$",
@@ -736,7 +736,7 @@
             "type": "Literal",
             "start": 1681,
             "end": 1699,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mult}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mult}+$",

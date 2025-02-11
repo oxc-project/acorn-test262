@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 464,
-                "value": {},
+                "value": null,
                 "raw": "/ab[ercst]de/",
                 "regex": {
                   "pattern": "ab[ercst]de",

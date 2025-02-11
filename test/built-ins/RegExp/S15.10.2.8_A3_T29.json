@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 653,
                 "end": 671,
-                "value": {},
+                "value": null,
                 "raw": "/^([a-z]+)*[a-z]$/",
                 "regex": {
                   "pattern": "^([a-z]+)*[a-z]$",

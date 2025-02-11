@@ -1596,7 +1596,7 @@
             "type": "Literal",
             "start": 2414,
             "end": 2455,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Decimal_Number}+$",
@@ -1639,7 +1639,7 @@
             "type": "Literal",
             "start": 2540,
             "end": 2569,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Nd}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Nd}+$",
@@ -1682,7 +1682,7 @@
             "type": "Literal",
             "start": 2642,
             "end": 2674,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=digit}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=digit}+$",
@@ -1725,7 +1725,7 @@
             "type": "Literal",
             "start": 2750,
             "end": 2777,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Decimal_Number}+$",
@@ -1768,7 +1768,7 @@
             "type": "Literal",
             "start": 2848,
             "end": 2863,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Nd}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Nd}+$",
@@ -1811,7 +1811,7 @@
             "type": "Literal",
             "start": 2922,
             "end": 2940,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=digit}+$/u",
             "regex": {
               "pattern": "^\\p{gc=digit}+$",
@@ -1854,7 +1854,7 @@
             "type": "Literal",
             "start": 3002,
             "end": 3026,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\p{Decimal_Number}+$",
@@ -1897,7 +1897,7 @@
             "type": "Literal",
             "start": 3094,
             "end": 3106,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Nd}+$/u",
             "regex": {
               "pattern": "^\\p{Nd}+$",
@@ -1940,7 +1940,7 @@
             "type": "Literal",
             "start": 3162,
             "end": 3177,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{digit}+$/u",
             "regex": {
               "pattern": "^\\p{digit}+$",
@@ -3620,7 +3620,7 @@
             "type": "Literal",
             "start": 5240,
             "end": 5281,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Decimal_Number}+$",
@@ -3663,7 +3663,7 @@
             "type": "Literal",
             "start": 5369,
             "end": 5398,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Nd}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Nd}+$",
@@ -3706,7 +3706,7 @@
             "type": "Literal",
             "start": 5474,
             "end": 5506,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=digit}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=digit}+$",
@@ -3749,7 +3749,7 @@
             "type": "Literal",
             "start": 5585,
             "end": 5612,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Decimal_Number}+$",
@@ -3792,7 +3792,7 @@
             "type": "Literal",
             "start": 5686,
             "end": 5701,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Nd}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Nd}+$",
@@ -3835,7 +3835,7 @@
             "type": "Literal",
             "start": 5763,
             "end": 5781,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=digit}+$/u",
             "regex": {
               "pattern": "^\\P{gc=digit}+$",
@@ -3878,7 +3878,7 @@
             "type": "Literal",
             "start": 5846,
             "end": 5870,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Decimal_Number}+$/u",
             "regex": {
               "pattern": "^\\P{Decimal_Number}+$",
@@ -3921,7 +3921,7 @@
             "type": "Literal",
             "start": 5941,
             "end": 5953,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Nd}+$/u",
             "regex": {
               "pattern": "^\\P{Nd}+$",
@@ -3964,7 +3964,7 @@
             "type": "Literal",
             "start": 6012,
             "end": 6027,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{digit}+$/u",
             "regex": {
               "pattern": "^\\P{digit}+$",

@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 611,
             "end": 643,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hanifi_Rohingya}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 719,
             "end": 740,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Rohg}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Rohg}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 805,
             "end": 833,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hanifi_Rohingya}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 905,
             "end": 922,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Rohg}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Rohg}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1193,
             "end": 1225,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hanifi_Rohingya}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1325,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Rohg}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Rohg}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1393,
             "end": 1421,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hanifi_Rohingya}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1496,
             "end": 1513,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Rohg}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Rohg}+$",

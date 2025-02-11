@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 625,
                 "end": 638,
-                "value": {},
+                "value": null,
                 "raw": "/^(A)?(A.*)$/",
                 "regex": {
                   "pattern": "^(A)?(A.*)$",

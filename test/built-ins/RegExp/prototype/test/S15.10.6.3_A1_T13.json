@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 337,
             "end": 349,
-            "value": {},
+            "value": null,
             "raw": "/t[a-b|q-s]/",
             "regex": {
               "pattern": "t[a-b|q-s]",

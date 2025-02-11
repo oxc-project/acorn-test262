@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 275,
             "end": 283,
-            "value": {},
+            "value": null,
             "raw": "/(?:)/gi",
             "regex": {
               "pattern": "(?:)",

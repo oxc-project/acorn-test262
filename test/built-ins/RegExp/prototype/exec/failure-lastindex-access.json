@@ -136,7 +136,7 @@
             "type": "Literal",
             "start": 781,
             "end": 784,
-            "value": {},
+            "value": null,
             "raw": "/a/",
             "regex": {
               "pattern": "a",

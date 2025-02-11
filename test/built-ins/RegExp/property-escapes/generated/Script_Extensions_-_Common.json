@@ -3067,7 +3067,7 @@
             "type": "Literal",
             "start": 4373,
             "end": 4407,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Common}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Common}+$",
@@ -3110,7 +3110,7 @@
             "type": "Literal",
             "start": 4485,
             "end": 4517,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Zyyy}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Zyyy}+$",
@@ -3153,7 +3153,7 @@
             "type": "Literal",
             "start": 4593,
             "end": 4613,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Common}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Common}+$",
@@ -3196,7 +3196,7 @@
             "type": "Literal",
             "start": 4677,
             "end": 4695,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Zyyy}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Zyyy}+$",
@@ -6088,7 +6088,7 @@
             "type": "Literal",
             "start": 8497,
             "end": 8531,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Common}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Common}+$",
@@ -6131,7 +6131,7 @@
             "type": "Literal",
             "start": 8612,
             "end": 8644,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Zyyy}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Zyyy}+$",
@@ -6174,7 +6174,7 @@
             "type": "Literal",
             "start": 8723,
             "end": 8743,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Common}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Common}+$",
@@ -6217,7 +6217,7 @@
             "type": "Literal",
             "start": 8810,
             "end": 8828,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Zyyy}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Zyyy}+$",

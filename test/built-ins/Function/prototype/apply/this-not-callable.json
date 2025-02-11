@@ -503,7 +503,7 @@
                         "type": "Literal",
                         "start": 753,
                         "end": 757,
-                        "value": {},
+                        "value": null,
                         "raw": "/re/",
                         "regex": {
                           "pattern": "re",

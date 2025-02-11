@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 604,
             "end": 639,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Caucasian_Albanian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Caucasian_Albanian}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 718,
             "end": 739,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Aghb}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Aghb}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 804,
             "end": 835,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Caucasian_Albanian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Caucasian_Albanian}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 910,
             "end": 927,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Aghb}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Aghb}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1198,
             "end": 1233,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Caucasian_Albanian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Caucasian_Albanian}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1315,
             "end": 1336,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Aghb}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Aghb}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1404,
             "end": 1435,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Caucasian_Albanian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Caucasian_Albanian}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1513,
             "end": 1530,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Aghb}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Aghb}+$",

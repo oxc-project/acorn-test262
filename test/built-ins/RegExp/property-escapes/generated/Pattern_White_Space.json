@@ -183,7 +183,7 @@
             "type": "Literal",
             "start": 664,
             "end": 693,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pattern_White_Space}+$/u",
             "regex": {
               "pattern": "^\\p{Pattern_White_Space}+$",
@@ -226,7 +226,7 @@
             "type": "Literal",
             "start": 766,
             "end": 782,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pat_WS}+$/u",
             "regex": {
               "pattern": "^\\p{Pat_WS}+$",
@@ -520,7 +520,7 @@
             "type": "Literal",
             "start": 1130,
             "end": 1159,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pattern_White_Space}+$/u",
             "regex": {
               "pattern": "^\\P{Pattern_White_Space}+$",
@@ -563,7 +563,7 @@
             "type": "Literal",
             "start": 1235,
             "end": 1251,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pat_WS}+$/u",
             "regex": {
               "pattern": "^\\P{Pat_WS}+$",

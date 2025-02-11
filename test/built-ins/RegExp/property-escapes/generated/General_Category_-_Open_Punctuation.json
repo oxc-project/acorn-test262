@@ -658,7 +658,7 @@
             "type": "Literal",
             "start": 1676,
             "end": 1719,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Open_Punctuation}+$",
@@ -701,7 +701,7 @@
             "type": "Literal",
             "start": 1806,
             "end": 1835,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Ps}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Ps}+$",
@@ -744,7 +744,7 @@
             "type": "Literal",
             "start": 1908,
             "end": 1937,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Open_Punctuation}+$",
@@ -787,7 +787,7 @@
             "type": "Literal",
             "start": 2010,
             "end": 2025,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Ps}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Ps}+$",
@@ -830,7 +830,7 @@
             "type": "Literal",
             "start": 2084,
             "end": 2110,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Open_Punctuation}+$",
@@ -873,7 +873,7 @@
             "type": "Literal",
             "start": 2180,
             "end": 2192,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Ps}+$/u",
             "regex": {
               "pattern": "^\\p{Ps}+$",
@@ -2092,7 +2092,7 @@
             "type": "Literal",
             "start": 3922,
             "end": 3965,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Open_Punctuation}+$",
@@ -2135,7 +2135,7 @@
             "type": "Literal",
             "start": 4055,
             "end": 4084,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Ps}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Ps}+$",
@@ -2178,7 +2178,7 @@
             "type": "Literal",
             "start": 4160,
             "end": 4189,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Open_Punctuation}+$",
@@ -2221,7 +2221,7 @@
             "type": "Literal",
             "start": 4265,
             "end": 4280,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Ps}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Ps}+$",
@@ -2264,7 +2264,7 @@
             "type": "Literal",
             "start": 4342,
             "end": 4368,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Open_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Open_Punctuation}+$",
@@ -2307,7 +2307,7 @@
             "type": "Literal",
             "start": 4441,
             "end": 4453,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Ps}+$/u",
             "regex": {
               "pattern": "^\\P{Ps}+$",

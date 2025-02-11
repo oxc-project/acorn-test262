@@ -939,7 +939,7 @@
             "type": "Literal",
             "start": 1801,
             "end": 1839,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Math_Symbol}+$",
@@ -982,7 +982,7 @@
             "type": "Literal",
             "start": 1921,
             "end": 1950,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Sm}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Sm}+$",
@@ -1025,7 +1025,7 @@
             "type": "Literal",
             "start": 2023,
             "end": 2047,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Math_Symbol}+$",
@@ -1068,7 +1068,7 @@
             "type": "Literal",
             "start": 2115,
             "end": 2130,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Sm}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Sm}+$",
@@ -1111,7 +1111,7 @@
             "type": "Literal",
             "start": 2189,
             "end": 2210,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\p{Math_Symbol}+$",
@@ -1154,7 +1154,7 @@
             "type": "Literal",
             "start": 2275,
             "end": 2287,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Sm}+$/u",
             "regex": {
               "pattern": "^\\p{Sm}+$",
@@ -2653,7 +2653,7 @@
             "type": "Literal",
             "start": 4145,
             "end": 4183,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Math_Symbol}+$",
@@ -2696,7 +2696,7 @@
             "type": "Literal",
             "start": 4268,
             "end": 4297,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Sm}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Sm}+$",
@@ -2739,7 +2739,7 @@
             "type": "Literal",
             "start": 4373,
             "end": 4397,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Math_Symbol}+$",
@@ -2782,7 +2782,7 @@
             "type": "Literal",
             "start": 4468,
             "end": 4483,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Sm}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Sm}+$",
@@ -2825,7 +2825,7 @@
             "type": "Literal",
             "start": 4545,
             "end": 4566,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Math_Symbol}+$/u",
             "regex": {
               "pattern": "^\\P{Math_Symbol}+$",
@@ -2868,7 +2868,7 @@
             "type": "Literal",
             "start": 4634,
             "end": 4646,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Sm}+$/u",
             "regex": {
               "pattern": "^\\P{Sm}+$",

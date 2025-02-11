@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 393,
-                "value": {},
+                "value": null,
                 "raw": "/(aa|aabaac|ba|b|c)*/",
                 "regex": {
                   "pattern": "(aa|aabaac|ba|b|c)*",

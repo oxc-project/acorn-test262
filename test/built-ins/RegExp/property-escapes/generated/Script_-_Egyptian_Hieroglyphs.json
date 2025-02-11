@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 616,
             "end": 653,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Egyptian_Hieroglyphs}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 734,
             "end": 755,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Egyp}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Egyp}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 820,
             "end": 853,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Egyptian_Hieroglyphs}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 930,
             "end": 947,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Egyp}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Egyp}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1255,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Egyptian_Hieroglyphs}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1339,
             "end": 1360,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Egyp}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Egyp}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1428,
             "end": 1461,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Egyptian_Hieroglyphs}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Egyptian_Hieroglyphs}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1541,
             "end": 1558,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Egyp}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Egyp}+$",

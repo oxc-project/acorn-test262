@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 575,
             "end": 597,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Dogra}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Dogra}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 663,
             "end": 684,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Dogr}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Dogr}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 749,
             "end": 767,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Dogra}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Dogra}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 829,
             "end": 846,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Dogr}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Dogr}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1113,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Dogra}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Dogra}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1182,
             "end": 1203,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Dogr}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Dogr}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1271,
             "end": 1289,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Dogra}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Dogra}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1354,
             "end": 1371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Dogr}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Dogr}+$",

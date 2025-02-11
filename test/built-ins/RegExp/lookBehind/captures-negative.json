@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 1017,
                 "end": 1037,
-                "value": {},
+                "value": null,
                 "raw": "/(?<!(^|[ab]))\\w{2}/",
                 "regex": {
                   "pattern": "(?<!(^|[ab]))\\w{2}",

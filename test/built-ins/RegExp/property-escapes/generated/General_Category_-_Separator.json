@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 701,
             "end": 737,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Separator}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Separator}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 817,
             "end": 845,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Z}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Z}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 917,
             "end": 939,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Separator}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Separator}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1019,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Z}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Z}+$",
@@ -362,7 +362,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1096,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Separator}+$/u",
             "regex": {
               "pattern": "^\\p{Separator}+$",
@@ -405,7 +405,7 @@
             "type": "Literal",
             "start": 1159,
             "end": 1170,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Z}+$/u",
             "regex": {
               "pattern": "^\\p{Z}+$",
@@ -762,7 +762,7 @@
             "type": "Literal",
             "start": 1591,
             "end": 1627,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Separator}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Separator}+$",
@@ -805,7 +805,7 @@
             "type": "Literal",
             "start": 1710,
             "end": 1738,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Z}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Z}+$",
@@ -848,7 +848,7 @@
             "type": "Literal",
             "start": 1813,
             "end": 1835,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Separator}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Separator}+$",
@@ -891,7 +891,7 @@
             "type": "Literal",
             "start": 1904,
             "end": 1918,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Z}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Z}+$",
@@ -934,7 +934,7 @@
             "type": "Literal",
             "start": 1979,
             "end": 1998,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Separator}+$/u",
             "regex": {
               "pattern": "^\\P{Separator}+$",
@@ -977,7 +977,7 @@
             "type": "Literal",
             "start": 2064,
             "end": 2075,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Z}+$/u",
             "regex": {
               "pattern": "^\\P{Z}+$",

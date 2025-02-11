@@ -428,7 +428,7 @@
             "type": "Literal",
             "start": 971,
             "end": 993,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tamil}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tamil}+$",
@@ -471,7 +471,7 @@
             "type": "Literal",
             "start": 1059,
             "end": 1080,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Taml}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Taml}+$",
@@ -514,7 +514,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1163,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tamil}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tamil}+$",
@@ -557,7 +557,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1242,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Taml}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Taml}+$",
@@ -1055,7 +1055,7 @@
             "type": "Literal",
             "start": 1871,
             "end": 1893,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tamil}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tamil}+$",
@@ -1098,7 +1098,7 @@
             "type": "Literal",
             "start": 1962,
             "end": 1983,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Taml}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Taml}+$",
@@ -1141,7 +1141,7 @@
             "type": "Literal",
             "start": 2051,
             "end": 2069,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tamil}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tamil}+$",
@@ -1184,7 +1184,7 @@
             "type": "Literal",
             "start": 2134,
             "end": 2151,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Taml}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Taml}+$",

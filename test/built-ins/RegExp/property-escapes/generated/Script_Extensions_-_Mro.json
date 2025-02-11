@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 636,
             "end": 667,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mro}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mro}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 742,
             "end": 774,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mroo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mroo}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 850,
             "end": 867,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mro}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mro}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 928,
             "end": 946,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mroo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mroo}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1265,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mro}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mro}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mroo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mroo}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1471,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mro}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mro}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1535,
             "end": 1553,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mroo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mroo}+$",

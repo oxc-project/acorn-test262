@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 1740,
             "end": 1745,
-            "value": {},
+            "value": null,
             "raw": "/\\D/g",
             "regex": {
               "pattern": "\\D",

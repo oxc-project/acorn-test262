@@ -110,7 +110,7 @@
               "type": "Literal",
               "start": 522,
               "end": 526,
-              "value": {},
+              "value": null,
               "raw": "/e/g",
               "regex": {
                 "pattern": "e",
@@ -217,7 +217,7 @@
                         "type": "Literal",
                         "start": 736,
                         "end": 740,
-                        "value": {},
+                        "value": null,
                         "raw": "/e/g",
                         "regex": {
                           "pattern": "e",

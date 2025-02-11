@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1084,
-            "value": {},
+            "value": null,
             "raw": "/original value/ig",
             "regex": {
               "pattern": "original value",

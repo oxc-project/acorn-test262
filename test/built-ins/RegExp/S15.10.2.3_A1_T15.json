@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 604,
-                "value": {},
+                "value": null,
                 "raw": "/(Rob)|(Bob)|(Robert)|(Bobby)/",
                 "regex": {
                   "pattern": "(Rob)|(Bob)|(Robert)|(Bobby)",

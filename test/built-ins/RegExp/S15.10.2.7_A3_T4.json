@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 378,
-                "value": {},
+                "value": null,
                 "raw": "/\\s+java\\s+/",
                 "regex": {
                   "pattern": "\\s+java\\s+",

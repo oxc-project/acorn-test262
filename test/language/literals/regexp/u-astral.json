@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 966,
                 "end": 974,
-                "value": {},
+                "value": null,
                 "raw": "/𝌆{2}/u",
                 "regex": {
                   "pattern": "𝌆{2}",
@@ -95,7 +95,7 @@
                 "type": "Literal",
                 "start": 1024,
                 "end": 1033,
-                "value": {},
+                "value": null,
                 "raw": "/^[𝌆]$/u",
                 "regex": {
                   "pattern": "^[𝌆]$",
@@ -152,7 +152,7 @@
             "type": "Literal",
             "start": 1080,
             "end": 1090,
-            "value": {},
+            "value": null,
             "raw": "/[💩-💫]/u",
             "regex": {
               "pattern": "[💩-💫]",
@@ -590,7 +590,7 @@
                 "type": "Literal",
                 "start": 1724,
                 "end": 1732,
-                "value": {},
+                "value": null,
                 "raw": "/[^𝌆]/u",
                 "regex": {
                   "pattern": "[^𝌆]",
@@ -655,7 +655,7 @@
                 "type": "Literal",
                 "start": 1802,
                 "end": 1810,
-                "value": {},
+                "value": null,
                 "raw": "/[^𝌆]/u",
                 "regex": {
                   "pattern": "[^𝌆]",

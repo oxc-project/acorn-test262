@@ -14477,7 +14477,7 @@
             "type": "Literal",
             "start": 18729,
             "end": 18747,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Assigned}+$/u",
             "regex": {
               "pattern": "^\\p{Assigned}+$",
@@ -26469,7 +26469,7 @@
             "type": "Literal",
             "start": 34909,
             "end": 34927,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Assigned}+$/u",
             "regex": {
               "pattern": "^\\P{Assigned}+$",

@@ -55,7 +55,7 @@
             "type": "Literal",
             "start": 396,
             "end": 425,
-            "value": {},
+            "value": null,
             "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",

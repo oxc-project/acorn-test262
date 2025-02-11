@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 638,
             "end": 671,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Dogra}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Dogra}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 748,
             "end": 780,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Dogr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Dogr}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 856,
             "end": 875,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Dogra}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Dogra}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 938,
             "end": 956,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Dogr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Dogr}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1287,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Dogra}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Dogra}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1367,
             "end": 1399,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Dogr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Dogr}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1478,
             "end": 1497,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Dogra}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Dogra}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1563,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Dogr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Dogr}+$",

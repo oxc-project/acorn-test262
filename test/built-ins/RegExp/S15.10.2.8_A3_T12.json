@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 657,
-                "value": {},
+                "value": null,
                 "raw": "/(a(b(c)))(d(e(f)))/",
                 "regex": {
                   "pattern": "(a(b(c)))(d(e(f)))",

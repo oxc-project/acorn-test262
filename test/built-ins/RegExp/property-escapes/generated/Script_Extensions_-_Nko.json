@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 680,
             "end": 711,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nko}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nko}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 786,
             "end": 818,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nkoo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nkoo}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 894,
             "end": 911,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nko}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nko}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 972,
             "end": 990,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nkoo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nkoo}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1366,
             "end": 1397,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nko}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nko}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1507,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nkoo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nkoo}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1586,
             "end": 1603,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nko}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nko}+$",
@@ -763,7 +763,7 @@
             "type": "Literal",
             "start": 1667,
             "end": 1685,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nkoo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nkoo}+$",

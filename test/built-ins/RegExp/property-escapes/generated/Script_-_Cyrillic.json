@@ -274,7 +274,7 @@
             "type": "Literal",
             "start": 778,
             "end": 803,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cyrillic}+$",
@@ -317,7 +317,7 @@
             "type": "Literal",
             "start": 872,
             "end": 893,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cyrl}+$",
@@ -360,7 +360,7 @@
             "type": "Literal",
             "start": 958,
             "end": 979,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cyrillic}+$",
@@ -403,7 +403,7 @@
             "type": "Literal",
             "start": 1044,
             "end": 1061,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cyrl}+$",
@@ -802,7 +802,7 @@
             "type": "Literal",
             "start": 1540,
             "end": 1565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cyrillic}+$",
@@ -845,7 +845,7 @@
             "type": "Literal",
             "start": 1637,
             "end": 1658,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cyrl}+$",
@@ -888,7 +888,7 @@
             "type": "Literal",
             "start": 1726,
             "end": 1747,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cyrillic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cyrillic}+$",
@@ -931,7 +931,7 @@
             "type": "Literal",
             "start": 1815,
             "end": 1832,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cyrl}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cyrl}+$",

@@ -210,7 +210,7 @@
             "type": "Literal",
             "start": 686,
             "end": 715,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Pahawh_Hmong}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Pahawh_Hmong}+$",
@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 788,
             "end": 809,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hmng}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hmng}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 874,
             "end": 899,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Pahawh_Hmong}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Pahawh_Hmong}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 968,
             "end": 985,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hmng}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hmng}+$",
@@ -606,7 +606,7 @@
             "type": "Literal",
             "start": 1312,
             "end": 1341,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Pahawh_Hmong}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Pahawh_Hmong}+$",
@@ -649,7 +649,7 @@
             "type": "Literal",
             "start": 1417,
             "end": 1438,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hmng}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hmng}+$",
@@ -692,7 +692,7 @@
             "type": "Literal",
             "start": 1506,
             "end": 1531,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Pahawh_Hmong}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Pahawh_Hmong}+$",
@@ -735,7 +735,7 @@
             "type": "Literal",
             "start": 1603,
             "end": 1620,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hmng}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hmng}+$",

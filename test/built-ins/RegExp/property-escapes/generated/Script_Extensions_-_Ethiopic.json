@@ -841,7 +841,7 @@
             "type": "Literal",
             "start": 1491,
             "end": 1527,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ethiopic}+$",
@@ -884,7 +884,7 @@
             "type": "Literal",
             "start": 1607,
             "end": 1639,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Ethi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Ethi}+$",
@@ -927,7 +927,7 @@
             "type": "Literal",
             "start": 1715,
             "end": 1737,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ethiopic}+$",
@@ -970,7 +970,7 @@
             "type": "Literal",
             "start": 1803,
             "end": 1821,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Ethi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Ethi}+$",
@@ -1657,7 +1657,7 @@
             "type": "Literal",
             "start": 2765,
             "end": 2801,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ethiopic}+$",
@@ -1700,7 +1700,7 @@
             "type": "Literal",
             "start": 2884,
             "end": 2916,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Ethi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Ethi}+$",
@@ -1743,7 +1743,7 @@
             "type": "Literal",
             "start": 2995,
             "end": 3017,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ethiopic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ethiopic}+$",
@@ -1786,7 +1786,7 @@
             "type": "Literal",
             "start": 3086,
             "end": 3104,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Ethi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Ethi}+$",

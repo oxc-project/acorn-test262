@@ -383,7 +383,7 @@
                 "type": "Literal",
                 "start": 1056,
                 "end": 1062,
-                "value": {},
+                "value": null,
                 "raw": "/(?:)/",
                 "regex": {
                   "pattern": "(?:)",

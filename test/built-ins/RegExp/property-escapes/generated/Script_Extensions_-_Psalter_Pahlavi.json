@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 664,
             "end": 707,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Psalter_Pahlavi}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 794,
             "end": 826,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Phlp}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 902,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Psalter_Pahlavi}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 1004,
             "end": 1022,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Phlp}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1346,
             "end": 1389,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Psalter_Pahlavi}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1479,
             "end": 1511,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Phlp}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1590,
             "end": 1619,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Psalter_Pahlavi}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1695,
             "end": 1713,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Phlp}+$",

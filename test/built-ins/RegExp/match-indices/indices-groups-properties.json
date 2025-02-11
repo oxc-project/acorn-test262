@@ -62,7 +62,7 @@
                         "type": "Literal",
                         "start": 757,
                         "end": 780,
-                        "value": {},
+                        "value": null,
                         "raw": "/(?<fst>.)|(?<snd>.)/du",
                         "regex": {
                           "pattern": "(?<fst>.)|(?<snd>.)",
@@ -345,7 +345,7 @@
                   "type": "Literal",
                   "start": 1010,
                   "end": 1020,
-                  "value": {},
+                  "value": null,
                   "raw": "/(?<x>.)/d",
                   "regex": {
                     "pattern": "(?<x>.)",

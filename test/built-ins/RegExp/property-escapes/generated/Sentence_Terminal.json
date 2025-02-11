@@ -1450,7 +1450,7 @@
             "type": "Literal",
             "start": 2412,
             "end": 2439,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Sentence_Terminal}+$/u",
             "regex": {
               "pattern": "^\\p{Sentence_Terminal}+$",
@@ -1493,7 +1493,7 @@
             "type": "Literal",
             "start": 2510,
             "end": 2525,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{STerm}+$/u",
             "regex": {
               "pattern": "^\\p{STerm}+$",
@@ -3489,7 +3489,7 @@
             "type": "Literal",
             "start": 4996,
             "end": 5023,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Sentence_Terminal}+$/u",
             "regex": {
               "pattern": "^\\P{Sentence_Terminal}+$",
@@ -3532,7 +3532,7 @@
             "type": "Literal",
             "start": 5097,
             "end": 5112,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{STerm}+$/u",
             "regex": {
               "pattern": "^\\P{STerm}+$",

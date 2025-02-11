@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 588,
             "end": 623,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Soyombo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Soyombo}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 702,
             "end": 734,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Soyo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Soyo}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 810,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Soyombo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Soyombo}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 896,
             "end": 914,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Soyo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Soyo}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1160,
             "end": 1195,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Soyombo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Soyombo}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1277,
             "end": 1309,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Soyo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Soyo}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1388,
             "end": 1409,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Soyombo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Soyombo}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1477,
             "end": 1495,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Soyo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Soyo}+$",

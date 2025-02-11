@@ -231,7 +231,7 @@
             "type": "Literal",
             "start": 702,
             "end": 721,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Hex_Digit}+$/u",
             "regex": {
               "pattern": "^\\p{Hex_Digit}+$",
@@ -274,7 +274,7 @@
             "type": "Literal",
             "start": 784,
             "end": 797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Hex}+$/u",
             "regex": {
               "pattern": "^\\p{Hex}+$",
@@ -589,7 +589,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1187,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Hex_Digit}+$/u",
             "regex": {
               "pattern": "^\\P{Hex_Digit}+$",
@@ -632,7 +632,7 @@
             "type": "Literal",
             "start": 1253,
             "end": 1266,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Hex}+$/u",
             "regex": {
               "pattern": "^\\P{Hex}+$",

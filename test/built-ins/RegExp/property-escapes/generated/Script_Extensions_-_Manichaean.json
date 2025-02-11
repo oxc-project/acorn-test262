@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 633,
             "end": 671,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Manichaean}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Manichaean}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 753,
             "end": 785,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mani}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mani}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 861,
             "end": 885,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Manichaean}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Manichaean}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 953,
             "end": 971,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mani}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mani}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1269,
             "end": 1307,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Manichaean}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Manichaean}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1392,
             "end": 1424,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mani}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mani}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1503,
             "end": 1527,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Manichaean}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Manichaean}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1598,
             "end": 1616,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mani}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mani}+$",

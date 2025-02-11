@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 587,
             "end": 621,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_North_Arabian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 699,
             "end": 720,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Narb}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 785,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_North_Arabian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 889,
             "end": 906,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Narb}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1151,
             "end": 1185,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_North_Arabian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1266,
             "end": 1287,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Narb}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1355,
             "end": 1385,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_North_Arabian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1462,
             "end": 1479,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Narb}+$",

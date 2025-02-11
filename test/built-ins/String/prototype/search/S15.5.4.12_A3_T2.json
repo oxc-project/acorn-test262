@@ -78,7 +78,7 @@
               "type": "Literal",
               "start": 616,
               "end": 620,
-              "value": {},
+              "value": null,
               "raw": "/of/",
               "regex": {
                 "pattern": "of",
@@ -117,7 +117,7 @@
               "type": "Literal",
               "start": 641,
               "end": 646,
-              "value": {},
+              "value": null,
               "raw": "/of/g",
               "regex": {
                 "pattern": "of",
@@ -188,7 +188,7 @@
                         "type": "Literal",
                         "start": 910,
                         "end": 914,
-                        "value": {},
+                        "value": null,
                         "raw": "/of/",
                         "regex": {
                           "pattern": "of",

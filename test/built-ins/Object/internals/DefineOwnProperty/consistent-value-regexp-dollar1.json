@@ -265,7 +265,7 @@
                   "type": "Literal",
                   "start": 1004,
                   "end": 1009,
-                  "value": {},
+                  "value": null,
                   "raw": "/(x)/",
                   "regex": {
                     "pattern": "(x)",

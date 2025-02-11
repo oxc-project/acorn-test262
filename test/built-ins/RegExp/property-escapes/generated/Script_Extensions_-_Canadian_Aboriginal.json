@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 652,
             "end": 699,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Canadian_Aboriginal}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 790,
             "end": 822,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cans}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cans}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 898,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Canadian_Aboriginal}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 1008,
             "end": 1026,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cans}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cans}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1324,
             "end": 1371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Canadian_Aboriginal}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1465,
             "end": 1497,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cans}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cans}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1576,
             "end": 1609,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Canadian_Aboriginal}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Canadian_Aboriginal}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1689,
             "end": 1707,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cans}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cans}+$",

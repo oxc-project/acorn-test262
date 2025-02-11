@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 762,
             "end": 797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cypriot}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 876,
             "end": 908,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Cprt}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Cprt}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 984,
             "end": 1005,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cypriot}+$",
@@ -382,7 +382,7 @@
             "type": "Literal",
             "start": 1070,
             "end": 1088,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Cprt}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Cprt}+$",
@@ -733,7 +733,7 @@
             "type": "Literal",
             "start": 1520,
             "end": 1555,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cypriot}+$",
@@ -776,7 +776,7 @@
             "type": "Literal",
             "start": 1637,
             "end": 1669,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Cprt}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Cprt}+$",
@@ -819,7 +819,7 @@
             "type": "Literal",
             "start": 1748,
             "end": 1769,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cypriot}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cypriot}+$",
@@ -862,7 +862,7 @@
             "type": "Literal",
             "start": 1837,
             "end": 1855,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Cprt}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Cprt}+$",

@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 740,
                 "end": 746,
-                "value": {},
+                "value": null,
                 "raw": "/\\s+/g",
                 "regex": {
                   "pattern": "\\s+",
@@ -152,7 +152,7 @@
                 "type": "Literal",
                 "start": 831,
                 "end": 837,
-                "value": {},
+                "value": null,
                 "raw": "/\\S+/g",
                 "regex": {
                   "pattern": "\\S+",

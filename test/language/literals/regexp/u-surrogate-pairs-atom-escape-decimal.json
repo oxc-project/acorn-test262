@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 1011,
                 "end": 1022,
-                "value": {},
+                "value": null,
                 "raw": "/(.+).*\\1/u",
                 "regex": {
                   "pattern": "(.+).*\\1",

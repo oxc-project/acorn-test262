@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 367,
-                "value": {},
+                "value": null,
                 "raw": "/[xyz]*1/",
                 "regex": {
                   "pattern": "[xyz]*1",

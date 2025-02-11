@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 590,
                 "end": 606,
-                "value": {},
+                "value": null,
                 "raw": "/\\d{3}|[a-z]{4}/",
                 "regex": {
                   "pattern": "\\d{3}|[a-z]{4}",

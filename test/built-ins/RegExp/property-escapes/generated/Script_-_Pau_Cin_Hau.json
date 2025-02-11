@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 581,
             "end": 609,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Pau_Cin_Hau}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Pau_Cin_Hau}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 681,
             "end": 702,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Pauc}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Pauc}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 767,
             "end": 791,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Pau_Cin_Hau}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Pau_Cin_Hau}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 859,
             "end": 876,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Pauc}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Pauc}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Pau_Cin_Hau}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Pau_Cin_Hau}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1224,
             "end": 1245,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Pauc}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Pauc}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1313,
             "end": 1337,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Pau_Cin_Hau}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Pau_Cin_Hau}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1408,
             "end": 1425,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Pauc}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Pauc}+$",

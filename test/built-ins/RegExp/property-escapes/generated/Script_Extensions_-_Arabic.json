@@ -995,7 +995,7 @@
             "type": "Literal",
             "start": 1765,
             "end": 1799,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Arabic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Arabic}+$",
@@ -1038,7 +1038,7 @@
             "type": "Literal",
             "start": 1877,
             "end": 1909,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Arab}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Arab}+$",
@@ -1081,7 +1081,7 @@
             "type": "Literal",
             "start": 1985,
             "end": 2005,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Arabic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Arabic}+$",
@@ -1124,7 +1124,7 @@
             "type": "Literal",
             "start": 2069,
             "end": 2087,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Arab}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Arab}+$",
@@ -2035,7 +2035,7 @@
             "type": "Literal",
             "start": 3367,
             "end": 3401,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Arabic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Arabic}+$",
@@ -2078,7 +2078,7 @@
             "type": "Literal",
             "start": 3482,
             "end": 3514,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Arab}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Arab}+$",
@@ -2121,7 +2121,7 @@
             "type": "Literal",
             "start": 3593,
             "end": 3613,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Arabic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Arabic}+$",
@@ -2164,7 +2164,7 @@
             "type": "Literal",
             "start": 3680,
             "end": 3698,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Arab}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Arab}+$",

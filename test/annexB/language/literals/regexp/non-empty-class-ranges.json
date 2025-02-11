@@ -50,7 +50,7 @@
               "type": "Literal",
               "start": 1099,
               "end": 1108,
-              "value": {},
+              "value": null,
               "raw": "/[--\\d]+/",
               "regex": {
                 "pattern": "[--\\d]+",
@@ -165,7 +165,7 @@
               "type": "Literal",
               "start": 1186,
               "end": 1196,
-              "value": {},
+              "value": null,
               "raw": "/[--\\dz]+/",
               "regex": {
                 "pattern": "[--\\dz]+",

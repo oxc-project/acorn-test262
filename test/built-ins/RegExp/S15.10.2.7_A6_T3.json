@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 428,
                 "end": 436,
-                "value": {},
+                "value": null,
                 "raw": "/\\d{1,}/",
                 "regex": {
                   "pattern": "\\d{1,}",

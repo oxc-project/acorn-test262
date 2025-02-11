@@ -53,9 +53,10 @@ for await (const p of walk("./test262/test")) {
       allowAwaitOutsideFunction: true,
     });
 
-    // Replace bigints with strings
-    const bigIntSerializer = (_key, value) => typeof value === "bigint" ? null : value;
-    ast = JSON.parse(JSON.stringify(ast, bigIntSerializer));
+    // Replace `RegExp`s and `BigInt`s with `null`
+    const transformer = (_key, value) =>
+      (typeof value === "bigint" || (typeof value === "object" && value instanceof RegExp)) ? null : value;
+    ast = JSON.parse(JSON.stringify(ast, transformer));
 
     await fs.writeFile(writeFile, JSON.stringify(ast, null, 2));
   } catch (err) {

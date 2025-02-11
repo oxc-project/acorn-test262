@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 667,
             "end": 703,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tagbanwa}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 783,
             "end": 815,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tagb}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tagb}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 891,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tagbanwa}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 979,
             "end": 997,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tagb}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tagb}+$",
@@ -564,7 +564,7 @@
             "type": "Literal",
             "start": 1299,
             "end": 1335,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tagbanwa}+$",
@@ -607,7 +607,7 @@
             "type": "Literal",
             "start": 1418,
             "end": 1450,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tagb}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tagb}+$",
@@ -650,7 +650,7 @@
             "type": "Literal",
             "start": 1529,
             "end": 1551,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tagbanwa}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tagbanwa}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1620,
             "end": 1638,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tagb}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tagb}+$",

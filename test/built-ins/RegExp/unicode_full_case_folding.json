@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 714,
                 "end": 726,
-                "value": {},
+                "value": null,
                 "raw": "/[\\u0390]/ui",
                 "regex": {
                   "pattern": "[\\u0390]",
@@ -95,7 +95,7 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 797,
-                "value": {},
+                "value": null,
                 "raw": "/[\\u1fd3]/ui",
                 "regex": {
                   "pattern": "[\\u1fd3]",
@@ -160,7 +160,7 @@
                 "type": "Literal",
                 "start": 856,
                 "end": 868,
-                "value": {},
+                "value": null,
                 "raw": "/[\\u03b0]/ui",
                 "regex": {
                   "pattern": "[\\u03b0]",
@@ -225,7 +225,7 @@
                 "type": "Literal",
                 "start": 927,
                 "end": 939,
-                "value": {},
+                "value": null,
                 "raw": "/[\\u1fe3]/ui",
                 "regex": {
                   "pattern": "[\\u1fe3]",
@@ -290,7 +290,7 @@
                 "type": "Literal",
                 "start": 998,
                 "end": 1010,
-                "value": {},
+                "value": null,
                 "raw": "/[\\ufb05]/ui",
                 "regex": {
                   "pattern": "[\\ufb05]",
@@ -355,7 +355,7 @@
                 "type": "Literal",
                 "start": 1069,
                 "end": 1081,
-                "value": {},
+                "value": null,
                 "raw": "/[\\ufb06]/ui",
                 "regex": {
                   "pattern": "[\\ufb06]",

@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 577,
             "end": 601,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Emoji_Modifier}+$/u",
             "regex": {
               "pattern": "^\\p{Emoji_Modifier}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 669,
             "end": 683,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{EMod}+$/u",
             "regex": {
               "pattern": "^\\p{EMod}+$",
@@ -379,7 +379,7 @@
             "type": "Literal",
             "start": 925,
             "end": 949,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Emoji_Modifier}+$/u",
             "regex": {
               "pattern": "^\\P{Emoji_Modifier}+$",
@@ -422,7 +422,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1034,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{EMod}+$/u",
             "regex": {
               "pattern": "^\\P{EMod}+$",

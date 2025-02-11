@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 710,
             "end": 718,
-            "value": {},
+            "value": null,
             "raw": "/abc/gim",
             "regex": {
               "pattern": "abc",
@@ -52,7 +52,7 @@
             "type": "Literal",
             "start": 734,
             "end": 742,
-            "value": {},
+            "value": null,
             "raw": "/def/mig",
             "regex": {
               "pattern": "def",

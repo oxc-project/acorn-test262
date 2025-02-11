@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 261,
                 "end": 275,
-                "value": {},
+                "value": null,
                 "raw": "/\\k<a>(?<a>x)/",
                 "regex": {
                   "pattern": "\\k<a>(?<a>x)",

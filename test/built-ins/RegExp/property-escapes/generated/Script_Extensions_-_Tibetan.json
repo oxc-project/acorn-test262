@@ -273,7 +273,7 @@
             "type": "Literal",
             "start": 770,
             "end": 805,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tibetan}+$",
@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 884,
             "end": 916,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tibt}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tibt}+$",
@@ -359,7 +359,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1013,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tibetan}+$",
@@ -402,7 +402,7 @@
             "type": "Literal",
             "start": 1078,
             "end": 1096,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tibt}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tibt}+$",
@@ -704,7 +704,7 @@
             "type": "Literal",
             "start": 1478,
             "end": 1513,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tibetan}+$",
@@ -747,7 +747,7 @@
             "type": "Literal",
             "start": 1595,
             "end": 1627,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tibt}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tibt}+$",
@@ -790,7 +790,7 @@
             "type": "Literal",
             "start": 1706,
             "end": 1727,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tibetan}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tibetan}+$",
@@ -833,7 +833,7 @@
             "type": "Literal",
             "start": 1795,
             "end": 1813,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tibt}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tibt}+$",

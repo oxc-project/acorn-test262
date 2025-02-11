@@ -183,7 +183,7 @@
             "type": "Literal",
             "start": 687,
             "end": 723,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tifinagh}+$",
@@ -226,7 +226,7 @@
             "type": "Literal",
             "start": 803,
             "end": 835,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tfng}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tfng}+$",
@@ -269,7 +269,7 @@
             "type": "Literal",
             "start": 911,
             "end": 933,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tifinagh}+$",
@@ -312,7 +312,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1017,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tfng}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tfng}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1397,
             "end": 1433,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tifinagh}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1516,
             "end": 1548,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tfng}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tfng}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1627,
             "end": 1649,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tifinagh}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tifinagh}+$",
@@ -750,7 +750,7 @@
             "type": "Literal",
             "start": 1718,
             "end": 1736,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tfng}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tfng}+$",

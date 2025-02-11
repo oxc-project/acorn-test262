@@ -34,7 +34,7 @@
                   "type": "Literal",
                   "start": 484,
                   "end": 495,
-                  "value": {},
+                  "value": null,
                   "raw": "/undefined/",
                   "regex": {
                     "pattern": "undefined",

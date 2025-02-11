@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 813,
-                "value": {},
+                "value": null,
                 "raw": "/^|\\udf06/ug",
                 "regex": {
                   "pattern": "^|\\udf06",

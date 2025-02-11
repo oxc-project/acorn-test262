@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 656,
             "end": 681,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Armenian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Armenian}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 750,
             "end": 771,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Armn}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Armn}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 836,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Armenian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Armenian}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 922,
             "end": 939,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Armn}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Armn}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1287,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Armenian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Armenian}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1359,
             "end": 1380,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Armn}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Armn}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1448,
             "end": 1469,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Armenian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Armenian}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1537,
             "end": 1554,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Armn}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Armn}+$",

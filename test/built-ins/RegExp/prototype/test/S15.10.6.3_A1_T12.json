@@ -104,7 +104,7 @@
             "type": "Literal",
             "start": 409,
             "end": 415,
-            "value": {},
+            "value": null,
             "raw": "/\\.14/",
             "regex": {
               "pattern": "\\.14",

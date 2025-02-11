@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 643,
-                "value": {},
+                "value": null,
                 "raw": "/a(..(..)..)/",
                 "regex": {
                   "pattern": "a(..(..)..)",

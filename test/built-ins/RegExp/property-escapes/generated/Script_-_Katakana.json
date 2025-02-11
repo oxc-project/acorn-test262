@@ -372,7 +372,7 @@
             "type": "Literal",
             "start": 894,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Katakana}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Katakana}+$",
@@ -415,7 +415,7 @@
             "type": "Literal",
             "start": 988,
             "end": 1009,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kana}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kana}+$",
@@ -458,7 +458,7 @@
             "type": "Literal",
             "start": 1074,
             "end": 1095,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Katakana}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Katakana}+$",
@@ -501,7 +501,7 @@
             "type": "Literal",
             "start": 1160,
             "end": 1177,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kana}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kana}+$",
@@ -915,7 +915,7 @@
             "type": "Literal",
             "start": 1702,
             "end": 1727,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Katakana}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Katakana}+$",
@@ -958,7 +958,7 @@
             "type": "Literal",
             "start": 1799,
             "end": 1820,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kana}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kana}+$",
@@ -1001,7 +1001,7 @@
             "type": "Literal",
             "start": 1888,
             "end": 1909,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Katakana}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Katakana}+$",
@@ -1044,7 +1044,7 @@
             "type": "Literal",
             "start": 1977,
             "end": 1994,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kana}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kana}+$",

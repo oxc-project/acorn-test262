@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 637,
             "end": 669,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Psalter_Pahlavi}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 745,
             "end": 766,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phlp}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 831,
             "end": 859,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Psalter_Pahlavi}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 931,
             "end": 948,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Phlp}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phlp}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1277,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Psalter_Pahlavi}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1356,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phlp}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1445,
             "end": 1473,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Psalter_Pahlavi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Psalter_Pahlavi}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1548,
             "end": 1565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Phlp}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phlp}+$",

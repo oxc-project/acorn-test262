@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 2095,
                 "end": 2098,
-                "value": {},
+                "value": null,
                 "raw": "/1/",
                 "regex": {
                   "pattern": "1",
@@ -95,7 +95,7 @@
                         "type": "Literal",
                         "start": 2123,
                         "end": 2126,
-                        "value": {},
+                        "value": null,
                         "raw": "/1/",
                         "regex": {
                           "pattern": "1",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 642,
-                "value": {},
+                "value": null,
                 "raw": "/(.{2}).+\\1/",
                 "regex": {
                   "pattern": "(.{2}).+\\1",

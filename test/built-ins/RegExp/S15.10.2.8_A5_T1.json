@@ -56,7 +56,7 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 433,
-                "value": {},
+                "value": null,
                 "raw": "/[a-z]+/ig",
                 "regex": {
                   "pattern": "[a-z]+",

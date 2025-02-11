@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 601,
             "end": 623,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Batak}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Batak}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 689,
             "end": 710,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Batk}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Batk}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 775,
             "end": 793,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Batak}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Batak}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 855,
             "end": 872,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Batk}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Batk}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1143,
             "end": 1165,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Batak}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Batak}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1255,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Batk}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Batk}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1323,
             "end": 1341,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Batak}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Batak}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1406,
             "end": 1423,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Batk}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Batk}+$",

@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 603,
             "end": 637,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Wancho}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Wancho}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 715,
             "end": 747,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Wcho}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Wcho}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 823,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Wancho}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Wancho}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 907,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Wcho}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Wcho}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1231,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Wancho}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Wancho}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1312,
             "end": 1344,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Wcho}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Wcho}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1443,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Wancho}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Wancho}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1510,
             "end": 1528,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Wcho}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Wcho}+$",

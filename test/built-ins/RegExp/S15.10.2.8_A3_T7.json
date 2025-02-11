@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 629,
                 "end": 640,
-                "value": {},
+                "value": null,
                 "raw": "/(aa)bcd\\1/",
                 "regex": {
                   "pattern": "(aa)bcd\\1",

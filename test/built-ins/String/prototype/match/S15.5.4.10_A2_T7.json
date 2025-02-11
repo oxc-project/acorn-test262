@@ -102,7 +102,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 490,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -194,7 +194,7 @@
                           "type": "Literal",
                           "start": 661,
                           "end": 690,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -261,7 +261,7 @@
                 "type": "Literal",
                 "start": 894,
                 "end": 923,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -367,7 +367,7 @@
                           "type": "Literal",
                           "start": 1128,
                           "end": 1157,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",

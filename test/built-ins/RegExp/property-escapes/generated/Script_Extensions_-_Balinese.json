@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 615,
             "end": 651,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Balinese}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Balinese}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 731,
             "end": 763,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bali}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bali}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 839,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Balinese}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Balinese}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 927,
             "end": 945,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bali}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bali}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1207,
             "end": 1243,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Balinese}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Balinese}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1326,
             "end": 1358,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bali}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bali}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1459,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Balinese}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Balinese}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1528,
             "end": 1546,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bali}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bali}+$",

@@ -302,7 +302,7 @@
             "type": "Literal",
             "start": 811,
             "end": 845,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hebrew}+$",
@@ -345,7 +345,7 @@
             "type": "Literal",
             "start": 923,
             "end": 955,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hebr}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hebr}+$",
@@ -388,7 +388,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1051,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hebrew}+$",
@@ -431,7 +431,7 @@
             "type": "Literal",
             "start": 1115,
             "end": 1133,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hebr}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hebr}+$",
@@ -761,7 +761,7 @@
             "type": "Literal",
             "start": 1555,
             "end": 1589,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hebrew}+$",
@@ -804,7 +804,7 @@
             "type": "Literal",
             "start": 1670,
             "end": 1702,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hebr}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hebr}+$",
@@ -847,7 +847,7 @@
             "type": "Literal",
             "start": 1781,
             "end": 1801,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hebrew}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hebrew}+$",
@@ -890,7 +890,7 @@
             "type": "Literal",
             "start": 1868,
             "end": 1886,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hebr}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hebr}+$",

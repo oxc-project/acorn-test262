@@ -58,7 +58,7 @@
                           "type": "Literal",
                           "start": 585,
                           "end": 593,
-                          "value": {},
+                          "value": null,
                           "raw": "/1?1/mig",
                           "regex": {
                             "pattern": "1?1",

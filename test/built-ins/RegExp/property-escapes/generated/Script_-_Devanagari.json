@@ -210,7 +210,7 @@
             "type": "Literal",
             "start": 684,
             "end": 711,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Devanagari}+$",
@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 782,
             "end": 803,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Deva}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Deva}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 868,
             "end": 891,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Devanagari}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 958,
             "end": 975,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Deva}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Deva}+$",
@@ -633,7 +633,7 @@
             "type": "Literal",
             "start": 1324,
             "end": 1351,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Devanagari}+$",
@@ -676,7 +676,7 @@
             "type": "Literal",
             "start": 1425,
             "end": 1446,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Deva}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Deva}+$",
@@ -719,7 +719,7 @@
             "type": "Literal",
             "start": 1514,
             "end": 1537,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Devanagari}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Devanagari}+$",
@@ -762,7 +762,7 @@
             "type": "Literal",
             "start": 1607,
             "end": 1624,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Deva}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Deva}+$",

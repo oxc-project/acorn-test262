@@ -379,7 +379,7 @@
             "type": "Literal",
             "start": 937,
             "end": 975,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Default_Ignorable_Code_Point}+$/u",
             "regex": {
               "pattern": "^\\p{Default_Ignorable_Code_Point}+$",
@@ -422,7 +422,7 @@
             "type": "Literal",
             "start": 1057,
             "end": 1069,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{DI}+$/u",
             "regex": {
               "pattern": "^\\p{DI}+$",
@@ -968,7 +968,7 @@
             "type": "Literal",
             "start": 1725,
             "end": 1763,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Default_Ignorable_Code_Point}+$/u",
             "regex": {
               "pattern": "^\\P{Default_Ignorable_Code_Point}+$",
@@ -1011,7 +1011,7 @@
             "type": "Literal",
             "start": 1848,
             "end": 1860,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{DI}+$/u",
             "regex": {
               "pattern": "^\\P{DI}+$",

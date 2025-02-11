@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 592,
             "end": 615,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kaithi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kaithi}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 682,
             "end": 703,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kthi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kthi}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 768,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kaithi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kaithi}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 850,
             "end": 867,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kthi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kthi}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1161,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kaithi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kaithi}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kthi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kthi}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1339,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kaithi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kaithi}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1405,
             "end": 1422,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kthi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kthi}+$",

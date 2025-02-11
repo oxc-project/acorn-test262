@@ -490,7 +490,7 @@
             "type": "Literal",
             "start": 1667,
             "end": 1679,
-            "value": {},
+            "value": null,
             "raw": "/^[A-Z]{3}$/",
             "regex": {
               "pattern": "^[A-Z]{3}$",

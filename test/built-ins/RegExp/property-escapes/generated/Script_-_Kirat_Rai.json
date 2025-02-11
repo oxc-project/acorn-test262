@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 579,
             "end": 605,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kirat_Rai}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 675,
             "end": 696,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Krai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Krai}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 761,
             "end": 783,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kirat_Rai}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 849,
             "end": 866,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Krai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Krai}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1111,
             "end": 1137,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kirat_Rai}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1231,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Krai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Krai}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1299,
             "end": 1321,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kirat_Rai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kirat_Rai}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1390,
             "end": 1407,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Krai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Krai}+$",

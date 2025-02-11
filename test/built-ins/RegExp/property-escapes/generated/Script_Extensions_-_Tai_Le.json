@@ -218,7 +218,7 @@
             "type": "Literal",
             "start": 707,
             "end": 741,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tai_Le}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tai_Le}+$",
@@ -261,7 +261,7 @@
             "type": "Literal",
             "start": 819,
             "end": 851,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tale}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tale}+$",
@@ -304,7 +304,7 @@
             "type": "Literal",
             "start": 927,
             "end": 947,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tai_Le}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tai_Le}+$",
@@ -347,7 +347,7 @@
             "type": "Literal",
             "start": 1011,
             "end": 1029,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tale}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tale}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1405,
             "end": 1439,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tai_Le}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tai_Le}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1520,
             "end": 1552,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tale}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tale}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1631,
             "end": 1651,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tai_Le}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tai_Le}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1718,
             "end": 1736,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tale}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tale}+$",

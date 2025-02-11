@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 454,
-                "value": {},
+                "value": null,
                 "raw": "/[]/",
                 "regex": {
                   "pattern": "[]",

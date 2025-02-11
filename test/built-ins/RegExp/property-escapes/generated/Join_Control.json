@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 575,
             "end": 597,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Join_Control}+$/u",
             "regex": {
               "pattern": "^\\p{Join_Control}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 663,
             "end": 679,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Join_C}+$/u",
             "regex": {
               "pattern": "^\\p{Join_C}+$",
@@ -379,7 +379,7 @@
             "type": "Literal",
             "start": 923,
             "end": 945,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Join_Control}+$/u",
             "regex": {
               "pattern": "^\\P{Join_Control}+$",
@@ -422,7 +422,7 @@
             "type": "Literal",
             "start": 1014,
             "end": 1030,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Join_C}+$/u",
             "regex": {
               "pattern": "^\\P{Join_C}+$",

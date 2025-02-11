@@ -50,7 +50,7 @@
               "type": "Literal",
               "start": 400,
               "end": 404,
-              "value": {},
+              "value": null,
               "raw": "/\\C/",
               "regex": {
                 "pattern": "\\C",
@@ -165,7 +165,7 @@
               "type": "Literal",
               "start": 462,
               "end": 468,
-              "value": {},
+              "value": null,
               "raw": "/O\\PQ/",
               "regex": {
                 "pattern": "O\\PQ",
@@ -280,7 +280,7 @@
               "type": "Literal",
               "start": 530,
               "end": 534,
-              "value": {},
+              "value": null,
               "raw": "/\\8/",
               "regex": {
                 "pattern": "\\8",
@@ -395,7 +395,7 @@
               "type": "Literal",
               "start": 590,
               "end": 596,
-              "value": {},
+              "value": null,
               "raw": "/7\\89/",
               "regex": {
                 "pattern": "7\\89",
@@ -510,7 +510,7 @@
               "type": "Literal",
               "start": 656,
               "end": 660,
-              "value": {},
+              "value": null,
               "raw": "/\\9/",
               "regex": {
                 "pattern": "\\9",
@@ -625,7 +625,7 @@
               "type": "Literal",
               "start": 716,
               "end": 722,
-              "value": {},
+              "value": null,
               "raw": "/8\\90/",
               "regex": {
                 "pattern": "8\\90",
@@ -740,7 +740,7 @@
               "type": "Literal",
               "start": 782,
               "end": 812,
-              "value": {},
+              "value": null,
               "raw": "/(.)(.)(.)(.)(.)(.)(.)(.)\\8\\8/",
               "regex": {
                 "pattern": "(.)(.)(.)(.)(.)(.)(.)(.)\\8\\8",
@@ -862,7 +862,7 @@
               "type": "Literal",
               "start": 952,
               "end": 985,
-              "value": {},
+              "value": null,
               "raw": "/(.)(.)(.)(.)(.)(.)(.)(.)(.)\\9\\9/",
               "regex": {
                 "pattern": "(.)(.)(.)(.)(.)(.)(.)(.)(.)\\9\\9",

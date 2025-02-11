@@ -379,7 +379,7 @@
             "type": "Literal",
             "start": 949,
             "end": 983,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Syriac}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Syriac}+$",
@@ -422,7 +422,7 @@
             "type": "Literal",
             "start": 1061,
             "end": 1093,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Syrc}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Syrc}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1169,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Syriac}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Syriac}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1253,
             "end": 1271,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Syrc}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Syrc}+$",
@@ -1041,7 +1041,7 @@
             "type": "Literal",
             "start": 1939,
             "end": 1973,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Syriac}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Syriac}+$",
@@ -1084,7 +1084,7 @@
             "type": "Literal",
             "start": 2054,
             "end": 2086,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Syrc}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Syrc}+$",
@@ -1127,7 +1127,7 @@
             "type": "Literal",
             "start": 2165,
             "end": 2185,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Syriac}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Syriac}+$",
@@ -1170,7 +1170,7 @@
             "type": "Literal",
             "start": 2252,
             "end": 2270,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Syrc}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Syrc}+$",

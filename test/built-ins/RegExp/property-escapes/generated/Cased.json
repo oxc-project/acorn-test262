@@ -3025,7 +3025,7 @@
             "type": "Literal",
             "start": 4318,
             "end": 4333,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Cased}+$/u",
             "regex": {
               "pattern": "^\\p{Cased}+$",
@@ -5644,7 +5644,7 @@
             "type": "Literal",
             "start": 7906,
             "end": 7921,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Cased}+$/u",
             "regex": {
               "pattern": "^\\P{Cased}+$",

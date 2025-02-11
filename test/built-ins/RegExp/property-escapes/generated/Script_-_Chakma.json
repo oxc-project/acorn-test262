@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 602,
             "end": 625,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Chakma}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Chakma}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 692,
             "end": 713,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Cakm}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Cakm}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 778,
             "end": 797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Chakma}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Chakma}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 860,
             "end": 877,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Cakm}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Cakm}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1161,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Chakma}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Chakma}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Cakm}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Cakm}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1339,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Chakma}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Chakma}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1405,
             "end": 1422,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Cakm}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Cakm}+$",

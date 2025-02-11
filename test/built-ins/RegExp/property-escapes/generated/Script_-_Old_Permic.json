@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 580,
             "end": 607,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_Permic}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 678,
             "end": 699,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Perm}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Perm}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 764,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_Permic}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 854,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Perm}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Perm}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1116,
             "end": 1143,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_Permic}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1238,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Perm}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Perm}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1329,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Old_Permic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_Permic}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1399,
             "end": 1416,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Perm}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Perm}+$",

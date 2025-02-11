@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 657,
             "end": 683,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bhaiksuki}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 753,
             "end": 774,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bhks}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bhks}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 839,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bhaiksuki}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 927,
             "end": 944,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bhks}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bhks}+$",
@@ -564,7 +564,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1271,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bhaiksuki}+$",
@@ -607,7 +607,7 @@
             "type": "Literal",
             "start": 1344,
             "end": 1365,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bhks}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bhks}+$",
@@ -650,7 +650,7 @@
             "type": "Literal",
             "start": 1433,
             "end": 1455,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bhaiksuki}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bhaiksuki}+$",
@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1524,
             "end": 1541,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bhks}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bhks}+$",

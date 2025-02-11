@@ -1273,7 +1273,7 @@
           "type": "Literal",
           "start": 1446,
           "end": 1454,
-          "value": {},
+          "value": null,
           "raw": "/regexp/",
           "regex": {
             "pattern": "regexp",

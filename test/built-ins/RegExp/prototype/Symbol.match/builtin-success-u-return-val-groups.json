@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 1422,
                 "end": 1434,
-                "value": {},
+                "value": null,
                 "raw": "/b(.).(.)./u",
                 "regex": {
                   "pattern": "b(.).(.).",

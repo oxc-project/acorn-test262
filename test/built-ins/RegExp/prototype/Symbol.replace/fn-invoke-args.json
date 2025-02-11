@@ -98,7 +98,7 @@
             "type": "Literal",
             "start": 751,
             "end": 761,
-            "value": {},
+            "value": null,
             "raw": "/b(.).(.)/",
             "regex": {
               "pattern": "b(.).(.)",

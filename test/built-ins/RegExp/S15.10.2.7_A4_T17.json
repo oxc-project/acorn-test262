@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 367,
-                "value": {},
+                "value": null,
                 "raw": "/x*y+$/",
                 "regex": {
                   "pattern": "x*y+$",

@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 580,
             "end": 607,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_Turkic}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 678,
             "end": 699,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Orkh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Orkh}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 764,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_Turkic}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 854,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Orkh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Orkh}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1116,
             "end": 1143,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_Turkic}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1238,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Orkh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Orkh}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1329,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_Turkic}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1399,
             "end": 1416,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Orkh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Orkh}+$",

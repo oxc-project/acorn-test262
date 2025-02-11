@@ -210,7 +210,7 @@
             "type": "Literal",
             "start": 682,
             "end": 707,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tai_Tham}+$",
@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 776,
             "end": 797,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lana}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lana}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 862,
             "end": 883,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tai_Tham}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 948,
             "end": 965,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lana}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lana}+$",
@@ -620,7 +620,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1329,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tai_Tham}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1401,
             "end": 1422,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lana}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lana}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1490,
             "end": 1511,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tai_Tham}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tai_Tham}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1579,
             "end": 1596,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lana}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lana}+$",

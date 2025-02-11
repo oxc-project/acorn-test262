@@ -109,7 +109,7 @@
                 "type": "Literal",
                 "start": 439,
                 "end": 447,
-                "value": {},
+                "value": null,
                 "raw": "/\\D{2}/g",
                 "regex": {
                   "pattern": "\\D{2}",
@@ -201,7 +201,7 @@
                           "type": "Literal",
                           "start": 591,
                           "end": 599,
-                          "value": {},
+                          "value": null,
                           "raw": "/\\D{2}/g",
                           "regex": {
                             "pattern": "\\D{2}",
@@ -347,7 +347,7 @@
                       "type": "Literal",
                       "start": 853,
                       "end": 861,
-                      "value": {},
+                      "value": null,
                       "raw": "/\\D{2}/g",
                       "regex": {
                         "pattern": "\\D{2}",
@@ -526,7 +526,7 @@
                                 "type": "Literal",
                                 "start": 1075,
                                 "end": 1083,
-                                "value": {},
+                                "value": null,
                                 "raw": "/\\D{2}/g",
                                 "regex": {
                                   "pattern": "\\D{2}",

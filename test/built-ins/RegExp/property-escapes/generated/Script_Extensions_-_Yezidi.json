@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 709,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Yezidi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Yezidi}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 821,
             "end": 853,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Yezi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Yezi}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 929,
             "end": 949,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Yezidi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Yezidi}+$",
@@ -340,7 +340,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1031,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Yezi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Yezi}+$",
@@ -663,7 +663,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1457,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Yezidi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Yezidi}+$",
@@ -706,7 +706,7 @@
             "type": "Literal",
             "start": 1538,
             "end": 1570,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Yezi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Yezi}+$",
@@ -749,7 +749,7 @@
             "type": "Literal",
             "start": 1649,
             "end": 1669,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Yezidi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Yezidi}+$",
@@ -792,7 +792,7 @@
             "type": "Literal",
             "start": 1736,
             "end": 1754,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Yezi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Yezi}+$",

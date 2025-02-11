@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 1034,
                 "end": 1060,
-                "value": {},
+                "value": null,
                 "raw": "/.*(?<=(..|...|....))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(..|...|....))(.*)",
@@ -166,7 +166,7 @@
                 "type": "Literal",
                 "start": 1125,
                 "end": 1151,
-                "value": {},
+                "value": null,
                 "raw": "/.*(?<=(xx|...|....))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|...|....))(.*)",
@@ -272,7 +272,7 @@
                 "type": "Literal",
                 "start": 1218,
                 "end": 1239,
-                "value": {},
+                "value": null,
                 "raw": "/.*(?<=(xx|...))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|...))(.*)",
@@ -378,7 +378,7 @@
                 "type": "Literal",
                 "start": 1307,
                 "end": 1328,
-                "value": {},
+                "value": null,
                 "raw": "/.*(?<=(xx|xxx))(.*)/",
                 "regex": {
                   "pattern": ".*(?<=(xx|xxx))(.*)",

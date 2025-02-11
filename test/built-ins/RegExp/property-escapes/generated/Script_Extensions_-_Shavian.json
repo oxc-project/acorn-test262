@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 604,
             "end": 639,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Shavian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Shavian}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 718,
             "end": 750,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Shaw}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Shaw}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 826,
             "end": 847,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Shavian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Shavian}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 912,
             "end": 930,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Shaw}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Shaw}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1202,
             "end": 1237,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Shavian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Shavian}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1319,
             "end": 1351,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Shaw}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Shaw}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1430,
             "end": 1451,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Shavian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Shavian}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1519,
             "end": 1537,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Shaw}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Shaw}+$",

@@ -76,7 +76,7 @@
                       "type": "Literal",
                       "start": 334,
                       "end": 345,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<π>a)/du",
                       "regex": {
                         "pattern": "(?<π>a)",
@@ -207,7 +207,7 @@
                       "type": "Literal",
                       "start": 405,
                       "end": 423,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<\\u{03C0}>a)/du",
                       "regex": {
                         "pattern": "(?<\\u{03C0}>a)",
@@ -338,7 +338,7 @@
                       "type": "Literal",
                       "start": 483,
                       "end": 494,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<π>a)/du",
                       "regex": {
                         "pattern": "(?<π>a)",
@@ -469,7 +469,7 @@
                       "type": "Literal",
                       "start": 559,
                       "end": 577,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<\\u{03C0}>a)/du",
                       "regex": {
                         "pattern": "(?<\\u{03C0}>a)",
@@ -600,7 +600,7 @@
                       "type": "Literal",
                       "start": 642,
                       "end": 653,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<$>a)/du",
                       "regex": {
                         "pattern": "(?<$>a)",
@@ -731,7 +731,7 @@
                       "type": "Literal",
                       "start": 713,
                       "end": 724,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<_>a)/du",
                       "regex": {
                         "pattern": "(?<_>a)",
@@ -862,7 +862,7 @@
                       "type": "Literal",
                       "start": 784,
                       "end": 797,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<$𐒤>a)/du",
                       "regex": {
                         "pattern": "(?<$𐒤>a)",
@@ -993,7 +993,7 @@
                       "type": "Literal",
                       "start": 859,
                       "end": 876,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<_\\u200C>a)/du",
                       "regex": {
                         "pattern": "(?<_\\u200C>a)",
@@ -1124,7 +1124,7 @@
                       "type": "Literal",
                       "start": 942,
                       "end": 959,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<_\\u200D>a)/du",
                       "regex": {
                         "pattern": "(?<_\\u200D>a)",
@@ -1255,7 +1255,7 @@
                       "type": "Literal",
                       "start": 1025,
                       "end": 1038,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<ಠ_ಠ>a)/du",
                       "regex": {
                         "pattern": "(?<ಠ_ಠ>a)",

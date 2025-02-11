@@ -50,7 +50,7 @@
               "type": "Literal",
               "start": 1103,
               "end": 1112,
-              "value": {},
+              "value": null,
               "raw": "/[\\d-a]+/",
               "regex": {
                 "pattern": "[\\d-a]+",
@@ -165,7 +165,7 @@
               "type": "Literal",
               "start": 1190,
               "end": 1200,
-              "value": {},
+              "value": null,
               "raw": "/[\\d-az]+/",
               "regex": {
                 "pattern": "[\\d-az]+",
@@ -280,7 +280,7 @@
               "type": "Literal",
               "start": 1280,
               "end": 1289,
-              "value": {},
+              "value": null,
               "raw": "/[%-\\d]+/",
               "regex": {
                 "pattern": "[%-\\d]+",
@@ -395,7 +395,7 @@
               "type": "Literal",
               "start": 1367,
               "end": 1377,
-              "value": {},
+              "value": null,
               "raw": "/[%-\\dz]+/",
               "regex": {
                 "pattern": "[%-\\dz]+",
@@ -510,7 +510,7 @@
               "type": "Literal",
               "start": 1457,
               "end": 1467,
-              "value": {},
+              "value": null,
               "raw": "/[\\s-\\d]+/",
               "regex": {
                 "pattern": "[\\s-\\d]+",
@@ -625,7 +625,7 @@
               "type": "Literal",
               "start": 1549,
               "end": 1560,
-              "value": {},
+              "value": null,
               "raw": "/[\\s-\\dz]+/",
               "regex": {
                 "pattern": "[\\s-\\dz]+",

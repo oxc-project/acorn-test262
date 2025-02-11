@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 448,
-                "value": {},
+                "value": null,
                 "raw": "/^p[b-z]/m",
                 "regex": {
                   "pattern": "^p[b-z]",

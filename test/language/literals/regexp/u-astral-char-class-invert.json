@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 913,
                 "end": 923,
-                "value": {},
+                "value": null,
                 "raw": "/^[^❤️]$/u",
                 "regex": {
                   "pattern": "^[^❤️]$",
@@ -121,7 +121,7 @@
                 "type": "Literal",
                 "start": 960,
                 "end": 969,
-                "value": {},
+                "value": null,
                 "raw": "/^[^🧡]/u",
                 "regex": {
                   "pattern": "^[^🧡]",
@@ -199,7 +199,7 @@
                 "type": "Literal",
                 "start": 1006,
                 "end": 1015,
-                "value": {},
+                "value": null,
                 "raw": "/[^💛]$/u",
                 "regex": {
                   "pattern": "[^💛]$",
@@ -277,7 +277,7 @@
                 "type": "Literal",
                 "start": 1052,
                 "end": 1060,
-                "value": {},
+                "value": null,
                 "raw": "/[^💚]/u",
                 "regex": {
                   "pattern": "[^💚]",

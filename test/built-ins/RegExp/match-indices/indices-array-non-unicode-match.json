@@ -113,7 +113,7 @@
                   "type": "Literal",
                   "start": 1408,
                   "end": 1414,
-                  "value": {},
+                  "value": null,
                   "raw": "/(a)/d",
                   "regex": {
                     "pattern": "(a)",
@@ -246,7 +246,7 @@
                   "type": "Literal",
                   "start": 1473,
                   "end": 1481,
-                  "value": {},
+                  "value": null,
                   "raw": "/.(a)./d",
                   "regex": {
                     "pattern": ".(a).",
@@ -400,7 +400,7 @@
                   "type": "Literal",
                   "start": 1548,
                   "end": 1558,
-                  "value": {},
+                  "value": null,
                   "raw": "/.(a)(.)/d",
                   "regex": {
                     "pattern": ".(a)(.)",
@@ -533,7 +533,7 @@
                   "type": "Literal",
                   "start": 1617,
                   "end": 1627,
-                  "value": {},
+                  "value": null,
                   "raw": "/.(\\w\\w)/d",
                   "regex": {
                     "pattern": ".(\\w\\w)",
@@ -666,7 +666,7 @@
                   "type": "Literal",
                   "start": 1686,
                   "end": 1697,
-                  "value": {},
+                  "value": null,
                   "raw": "/(\\w\\w\\w)/d",
                   "regex": {
                     "pattern": "(\\w\\w\\w)",
@@ -820,7 +820,7 @@
                   "type": "Literal",
                   "start": 1764,
                   "end": 1777,
-                  "value": {},
+                  "value": null,
                   "raw": "/(\\w\\w)(\\w)/d",
                   "regex": {
                     "pattern": "(\\w\\w)(\\w)",
@@ -959,7 +959,7 @@
                   "type": "Literal",
                   "start": 1847,
                   "end": 1861,
-                  "value": {},
+                  "value": null,
                   "raw": "/(\\w\\w)(\\W)?/d",
                   "regex": {
                     "pattern": "(\\w\\w)(\\W)?",
@@ -1017,7 +1017,7 @@
                     "type": "Literal",
                     "start": 1887,
                     "end": 1926,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>/d",
                     "regex": {
                       "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>",
@@ -1860,7 +1860,7 @@
                     "type": "Literal",
                     "start": 2807,
                     "end": 2810,
-                    "value": {},
+                    "value": null,
                     "raw": "/./",
                     "regex": {
                       "pattern": ".",
@@ -1972,7 +1972,7 @@
                     "type": "Literal",
                     "start": 2940,
                     "end": 2943,
-                    "value": {},
+                    "value": null,
                     "raw": "/./",
                     "regex": {
                       "pattern": ".",
@@ -2084,7 +2084,7 @@
                     "type": "Literal",
                     "start": 3084,
                     "end": 3087,
-                    "value": {},
+                    "value": null,
                     "raw": "/./",
                     "regex": {
                       "pattern": ".",
@@ -2217,7 +2217,7 @@
                     "type": "Literal",
                     "start": 3234,
                     "end": 3238,
-                    "value": {},
+                    "value": null,
                     "raw": "/./d",
                     "regex": {
                       "pattern": ".",
@@ -2343,7 +2343,7 @@
                     "type": "Literal",
                     "start": 3363,
                     "end": 3367,
-                    "value": {},
+                    "value": null,
                     "raw": "/./d",
                     "regex": {
                       "pattern": ".",
@@ -2469,7 +2469,7 @@
                     "type": "Literal",
                     "start": 3503,
                     "end": 3507,
-                    "value": {},
+                    "value": null,
                     "raw": "/./d",
                     "regex": {
                       "pattern": ".",
@@ -2599,7 +2599,7 @@
                       "type": "Literal",
                       "start": 3637,
                       "end": 3647,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",
@@ -2737,7 +2737,7 @@
                       "type": "Literal",
                       "start": 3790,
                       "end": 3800,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",
@@ -2875,7 +2875,7 @@
                       "type": "Literal",
                       "start": 3954,
                       "end": 3964,
-                      "value": {},
+                      "value": null,
                       "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",

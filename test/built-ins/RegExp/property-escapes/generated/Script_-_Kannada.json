@@ -378,7 +378,7 @@
             "type": "Literal",
             "start": 889,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kannada}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kannada}+$",
@@ -421,7 +421,7 @@
             "type": "Literal",
             "start": 981,
             "end": 1002,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Knda}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Knda}+$",
@@ -464,7 +464,7 @@
             "type": "Literal",
             "start": 1067,
             "end": 1087,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kannada}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kannada}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1151,
             "end": 1168,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Knda}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Knda}+$",
@@ -858,7 +858,7 @@
             "type": "Literal",
             "start": 1631,
             "end": 1655,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kannada}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kannada}+$",
@@ -901,7 +901,7 @@
             "type": "Literal",
             "start": 1726,
             "end": 1747,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Knda}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Knda}+$",
@@ -944,7 +944,7 @@
             "type": "Literal",
             "start": 1815,
             "end": 1835,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kannada}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kannada}+$",
@@ -987,7 +987,7 @@
             "type": "Literal",
             "start": 1902,
             "end": 1919,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Knda}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Knda}+$",

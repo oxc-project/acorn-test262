@@ -260,7 +260,7 @@
             "type": "Literal",
             "start": 775,
             "end": 809,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Coptic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Coptic}+$",
@@ -303,7 +303,7 @@
             "type": "Literal",
             "start": 887,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Copt}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Copt}+$",
@@ -346,7 +346,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1027,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Qaac}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Qaac}+$",
@@ -389,7 +389,7 @@
             "type": "Literal",
             "start": 1103,
             "end": 1123,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Coptic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Coptic}+$",
@@ -432,7 +432,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1205,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Copt}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Copt}+$",
@@ -475,7 +475,7 @@
             "type": "Literal",
             "start": 1267,
             "end": 1285,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Qaac}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Qaac}+$",
@@ -861,7 +861,7 @@
             "type": "Literal",
             "start": 1755,
             "end": 1789,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Coptic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Coptic}+$",
@@ -904,7 +904,7 @@
             "type": "Literal",
             "start": 1870,
             "end": 1902,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Copt}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Copt}+$",
@@ -947,7 +947,7 @@
             "type": "Literal",
             "start": 1981,
             "end": 2013,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Qaac}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Qaac}+$",
@@ -990,7 +990,7 @@
             "type": "Literal",
             "start": 2092,
             "end": 2112,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Coptic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Coptic}+$",
@@ -1033,7 +1033,7 @@
             "type": "Literal",
             "start": 2179,
             "end": 2197,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Copt}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Copt}+$",
@@ -1076,7 +1076,7 @@
             "type": "Literal",
             "start": 2262,
             "end": 2280,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Qaac}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Qaac}+$",

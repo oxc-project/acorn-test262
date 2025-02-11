@@ -47,7 +47,7 @@
                   "type": "Literal",
                   "start": 878,
                   "end": 882,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\1/",
                   "regex": {
                     "pattern": "\\1",
@@ -146,7 +146,7 @@
                   "type": "Literal",
                   "start": 933,
                   "end": 937,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\2/",
                   "regex": {
                     "pattern": "\\2",
@@ -245,7 +245,7 @@
                   "type": "Literal",
                   "start": 988,
                   "end": 992,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\3/",
                   "regex": {
                     "pattern": "\\3",
@@ -344,7 +344,7 @@
                   "type": "Literal",
                   "start": 1043,
                   "end": 1047,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\4/",
                   "regex": {
                     "pattern": "\\4",
@@ -443,7 +443,7 @@
                   "type": "Literal",
                   "start": 1098,
                   "end": 1102,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\5/",
                   "regex": {
                     "pattern": "\\5",
@@ -542,7 +542,7 @@
                   "type": "Literal",
                   "start": 1153,
                   "end": 1157,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\6/",
                   "regex": {
                     "pattern": "\\6",
@@ -641,7 +641,7 @@
                   "type": "Literal",
                   "start": 1208,
                   "end": 1212,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\7/",
                   "regex": {
                     "pattern": "\\7",
@@ -740,7 +740,7 @@
                   "type": "Literal",
                   "start": 1264,
                   "end": 1269,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\00/",
                   "regex": {
                     "pattern": "\\00",
@@ -839,7 +839,7 @@
                   "type": "Literal",
                   "start": 1321,
                   "end": 1326,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\07/",
                   "regex": {
                     "pattern": "\\07",
@@ -938,7 +938,7 @@
                   "type": "Literal",
                   "start": 1379,
                   "end": 1384,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\30/",
                   "regex": {
                     "pattern": "\\30",
@@ -1037,7 +1037,7 @@
                   "type": "Literal",
                   "start": 1436,
                   "end": 1441,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\37/",
                   "regex": {
                     "pattern": "\\37",
@@ -1136,7 +1136,7 @@
                   "type": "Literal",
                   "start": 1494,
                   "end": 1499,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\40/",
                   "regex": {
                     "pattern": "\\40",
@@ -1235,7 +1235,7 @@
                   "type": "Literal",
                   "start": 1551,
                   "end": 1556,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\47/",
                   "regex": {
                     "pattern": "\\47",
@@ -1334,7 +1334,7 @@
                   "type": "Literal",
                   "start": 1609,
                   "end": 1614,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\70/",
                   "regex": {
                     "pattern": "\\70",
@@ -1433,7 +1433,7 @@
                   "type": "Literal",
                   "start": 1666,
                   "end": 1671,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\77/",
                   "regex": {
                     "pattern": "\\77",
@@ -1532,7 +1532,7 @@
                   "type": "Literal",
                   "start": 1777,
                   "end": 1783,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\400/",
                   "regex": {
                     "pattern": "\\400",
@@ -1631,7 +1631,7 @@
                   "type": "Literal",
                   "start": 1838,
                   "end": 1844,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\470/",
                   "regex": {
                     "pattern": "\\470",
@@ -1730,7 +1730,7 @@
                   "type": "Literal",
                   "start": 1899,
                   "end": 1905,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\700/",
                   "regex": {
                     "pattern": "\\700",
@@ -1829,7 +1829,7 @@
                   "type": "Literal",
                   "start": 1960,
                   "end": 1966,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\770/",
                   "regex": {
                     "pattern": "\\770",
@@ -1928,7 +1928,7 @@
                   "type": "Literal",
                   "start": 2022,
                   "end": 2028,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\000/",
                   "regex": {
                     "pattern": "\\000",
@@ -2027,7 +2027,7 @@
                   "type": "Literal",
                   "start": 2081,
                   "end": 2087,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\007/",
                   "regex": {
                     "pattern": "\\007",
@@ -2126,7 +2126,7 @@
                   "type": "Literal",
                   "start": 2140,
                   "end": 2146,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\070/",
                   "regex": {
                     "pattern": "\\070",
@@ -2225,7 +2225,7 @@
                   "type": "Literal",
                   "start": 2200,
                   "end": 2206,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\300/",
                   "regex": {
                     "pattern": "\\300",
@@ -2324,7 +2324,7 @@
                   "type": "Literal",
                   "start": 2259,
                   "end": 2265,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\307/",
                   "regex": {
                     "pattern": "\\307",
@@ -2423,7 +2423,7 @@
                   "type": "Literal",
                   "start": 2318,
                   "end": 2324,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\370/",
                   "regex": {
                     "pattern": "\\370",
@@ -2522,7 +2522,7 @@
                   "type": "Literal",
                   "start": 2377,
                   "end": 2383,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\377/",
                   "regex": {
                     "pattern": "\\377",
@@ -2621,7 +2621,7 @@
                   "type": "Literal",
                   "start": 2494,
                   "end": 2501,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\0111/",
                   "regex": {
                     "pattern": "\\0111",
@@ -2720,7 +2720,7 @@
                   "type": "Literal",
                   "start": 2557,
                   "end": 2564,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\0022/",
                   "regex": {
                     "pattern": "\\0022",
@@ -2819,7 +2819,7 @@
                   "type": "Literal",
                   "start": 2620,
                   "end": 2627,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\0003/",
                   "regex": {
                     "pattern": "\\0003",
@@ -2901,7 +2901,7 @@
                 "type": "Literal",
                 "start": 2679,
                 "end": 2686,
-                "value": {},
+                "value": null,
                 "raw": "/(.)\\1/",
                 "regex": {
                   "pattern": "(.)\\1",

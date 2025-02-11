@@ -519,7 +519,7 @@
             "type": "Literal",
             "start": 1134,
             "end": 1169,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Bengali}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Bengali}+$",
@@ -562,7 +562,7 @@
             "type": "Literal",
             "start": 1248,
             "end": 1280,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Beng}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Beng}+$",
@@ -605,7 +605,7 @@
             "type": "Literal",
             "start": 1356,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Bengali}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Bengali}+$",
@@ -648,7 +648,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1460,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Beng}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Beng}+$",
@@ -1321,7 +1321,7 @@
             "type": "Literal",
             "start": 2312,
             "end": 2347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Bengali}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Bengali}+$",
@@ -1364,7 +1364,7 @@
             "type": "Literal",
             "start": 2429,
             "end": 2461,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Beng}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Beng}+$",
@@ -1407,7 +1407,7 @@
             "type": "Literal",
             "start": 2540,
             "end": 2561,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Bengali}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Bengali}+$",
@@ -1450,7 +1450,7 @@
             "type": "Literal",
             "start": 2629,
             "end": 2647,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Beng}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Beng}+$",

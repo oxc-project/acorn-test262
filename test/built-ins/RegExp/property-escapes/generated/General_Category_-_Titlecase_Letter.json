@@ -218,7 +218,7 @@
             "type": "Literal",
             "start": 748,
             "end": 791,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Titlecase_Letter}+$",
@@ -261,7 +261,7 @@
             "type": "Literal",
             "start": 878,
             "end": 907,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Lt}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Lt}+$",
@@ -304,7 +304,7 @@
             "type": "Literal",
             "start": 980,
             "end": 1009,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Titlecase_Letter}+$",
@@ -347,7 +347,7 @@
             "type": "Literal",
             "start": 1082,
             "end": 1097,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Lt}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Lt}+$",
@@ -390,7 +390,7 @@
             "type": "Literal",
             "start": 1156,
             "end": 1182,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\p{Titlecase_Letter}+$",
@@ -433,7 +433,7 @@
             "type": "Literal",
             "start": 1252,
             "end": 1264,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Lt}+$/u",
             "regex": {
               "pattern": "^\\p{Lt}+$",
@@ -832,7 +832,7 @@
             "type": "Literal",
             "start": 1738,
             "end": 1781,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Titlecase_Letter}+$",
@@ -875,7 +875,7 @@
             "type": "Literal",
             "start": 1871,
             "end": 1900,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Lt}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Lt}+$",
@@ -918,7 +918,7 @@
             "type": "Literal",
             "start": 1976,
             "end": 2005,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Titlecase_Letter}+$",
@@ -961,7 +961,7 @@
             "type": "Literal",
             "start": 2081,
             "end": 2096,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Lt}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Lt}+$",
@@ -1004,7 +1004,7 @@
             "type": "Literal",
             "start": 2158,
             "end": 2184,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Titlecase_Letter}+$/u",
             "regex": {
               "pattern": "^\\P{Titlecase_Letter}+$",
@@ -1047,7 +1047,7 @@
             "type": "Literal",
             "start": 2257,
             "end": 2269,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Lt}+$/u",
             "regex": {
               "pattern": "^\\P{Lt}+$",

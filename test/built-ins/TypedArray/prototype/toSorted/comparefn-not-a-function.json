@@ -55,7 +55,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 634,
-                "value": {},
+                "value": null,
                 "raw": "/a/g",
                 "regex": {
                   "pattern": "a",

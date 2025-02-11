@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 485,
-                "value": {},
+                "value": null,
                 "raw": "/AL|se/",
                 "regex": {
                   "pattern": "AL|se",

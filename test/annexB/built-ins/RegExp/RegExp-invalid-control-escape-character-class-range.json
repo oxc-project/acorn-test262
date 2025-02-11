@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 411,
             "end": 420,
-            "value": {},
+            "value": null,
             "raw": "/[\\\\c-f]/",
             "regex": {
               "pattern": "[\\\\c-f]",

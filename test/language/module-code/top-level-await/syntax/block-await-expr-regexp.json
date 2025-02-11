@@ -100,7 +100,7 @@
                                                                               "type": "Literal",
                                                                               "start": 1421,
                                                                               "end": 1424,
-                                                                              "value": {},
+                                                                              "value": null,
                                                                               "raw": "/1/",
                                                                               "regex": {
                                                                                 "pattern": "1",

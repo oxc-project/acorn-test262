@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 592,
             "end": 631,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Sogdian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Sogdian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 714,
             "end": 746,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sogo}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sogo}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 822,
             "end": 847,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Sogdian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Sogdian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 916,
             "end": 934,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sogo}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sogo}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1219,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Sogdian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Sogdian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1337,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sogo}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sogo}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1416,
             "end": 1441,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Sogdian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Sogdian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1513,
             "end": 1531,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sogo}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sogo}+$",

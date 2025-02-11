@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 420,
-                "value": {},
+                "value": null,
                 "raw": "/[\\b]/u",
                 "regex": {
                   "pattern": "[\\b]",
@@ -88,7 +88,7 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 454,
-                "value": {},
+                "value": null,
                 "raw": "/[\\b-A]/u",
                 "regex": {
                   "pattern": "[\\b-A]",

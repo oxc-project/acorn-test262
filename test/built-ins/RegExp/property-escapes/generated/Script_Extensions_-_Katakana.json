@@ -498,7 +498,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1113,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Katakana}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Katakana}+$",
@@ -541,7 +541,7 @@
             "type": "Literal",
             "start": 1193,
             "end": 1225,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kana}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kana}+$",
@@ -584,7 +584,7 @@
             "type": "Literal",
             "start": 1301,
             "end": 1323,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Katakana}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Katakana}+$",
@@ -627,7 +627,7 @@
             "type": "Literal",
             "start": 1389,
             "end": 1407,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kana}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kana}+$",
@@ -1195,7 +1195,7 @@
             "type": "Literal",
             "start": 2129,
             "end": 2165,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Katakana}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Katakana}+$",
@@ -1238,7 +1238,7 @@
             "type": "Literal",
             "start": 2248,
             "end": 2280,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kana}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kana}+$",
@@ -1281,7 +1281,7 @@
             "type": "Literal",
             "start": 2359,
             "end": 2381,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Katakana}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Katakana}+$",
@@ -1324,7 +1324,7 @@
             "type": "Literal",
             "start": 2450,
             "end": 2468,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kana}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kana}+$",

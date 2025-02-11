@@ -69,7 +69,7 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 492,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -162,7 +162,7 @@
                           "type": "Literal",
                           "start": 666,
                           "end": 694,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -230,7 +230,7 @@
                 "type": "Literal",
                 "start": 894,
                 "end": 922,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -323,7 +323,7 @@
                           "type": "Literal",
                           "start": 1096,
                           "end": 1124,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -391,7 +391,7 @@
                 "type": "Literal",
                 "start": 1324,
                 "end": 1352,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -491,7 +491,7 @@
                           "type": "Literal",
                           "start": 1524,
                           "end": 1552,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -559,7 +559,7 @@
                 "type": "Literal",
                 "start": 1752,
                 "end": 1780,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -651,7 +651,7 @@
                           "type": "Literal",
                           "start": 1950,
                           "end": 1978,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -718,7 +718,7 @@
                 "type": "Literal",
                 "start": 2182,
                 "end": 2210,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -810,7 +810,7 @@
                           "type": "Literal",
                           "start": 2380,
                           "end": 2408,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -877,7 +877,7 @@
                 "type": "Literal",
                 "start": 2611,
                 "end": 2639,
-                "value": {},
+                "value": null,
                 "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
@@ -968,7 +968,7 @@
                           "type": "Literal",
                           "start": 2821,
                           "end": 2849,
-                          "value": {},
+                          "value": null,
                           "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",

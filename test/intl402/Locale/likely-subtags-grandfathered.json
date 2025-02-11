@@ -2419,7 +2419,7 @@
                         "type": "Literal",
                         "start": 3994,
                         "end": 4029,
-                        "value": {},
+                        "value": null,
                         "raw": "/^[a-z0-9]{5,8}|[0-9][a-z0-9]{3}$/i",
                         "regex": {
                           "pattern": "^[a-z0-9]{5,8}|[0-9][a-z0-9]{3}$",
@@ -2509,7 +2509,7 @@
                                     "type": "Literal",
                                     "start": 4087,
                                     "end": 4127,
-                                    "value": {},
+                                    "value": null,
                                     "raw": "/(-([a-z0-9]{5,8}|[0-9][a-z0-9]{3}))+$/i",
                                     "regex": {
                                       "pattern": "(-([a-z0-9]{5,8}|[0-9][a-z0-9]{3}))+$",

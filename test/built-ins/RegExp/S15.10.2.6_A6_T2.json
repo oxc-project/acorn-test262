@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 284,
                 "end": 290,
-                "value": {},
+                "value": null,
                 "raw": "/^.*?/",
                 "regex": {
                   "pattern": "^.*?",

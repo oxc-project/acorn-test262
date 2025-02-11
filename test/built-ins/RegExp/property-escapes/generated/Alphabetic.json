@@ -14211,7 +14211,7 @@
             "type": "Literal",
             "start": 18695,
             "end": 18715,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Alphabetic}+$/u",
             "regex": {
               "pattern": "^\\p{Alphabetic}+$",
@@ -14254,7 +14254,7 @@
             "type": "Literal",
             "start": 18779,
             "end": 18794,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Alpha}+$/u",
             "regex": {
               "pattern": "^\\p{Alpha}+$",
@@ -26533,7 +26533,7 @@
             "type": "Literal",
             "start": 35431,
             "end": 35451,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Alphabetic}+$/u",
             "regex": {
               "pattern": "^\\P{Alphabetic}+$",
@@ -26576,7 +26576,7 @@
             "type": "Literal",
             "start": 35518,
             "end": 35533,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Alpha}+$/u",
             "regex": {
               "pattern": "^\\P{Alpha}+$",

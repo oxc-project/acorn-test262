@@ -61,7 +61,7 @@
             "type": "Literal",
             "start": 645,
             "end": 650,
-            "value": {},
+            "value": null,
             "raw": "/\\d+/",
             "regex": {
               "pattern": "\\d+",

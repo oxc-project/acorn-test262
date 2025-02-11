@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 630,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Javanese}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Javanese}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 724,
             "end": 745,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Java}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Java}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 810,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Javanese}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Javanese}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 896,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Java}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Java}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1235,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Javanese}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Javanese}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1307,
             "end": 1328,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Java}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Java}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1396,
             "end": 1417,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Javanese}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Javanese}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1485,
             "end": 1502,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Java}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Java}+$",

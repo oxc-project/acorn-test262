@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 671,
             "end": 695,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Multani}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Multani}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 763,
             "end": 784,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mult}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mult}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 849,
             "end": 869,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Multani}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Multani}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 933,
             "end": 950,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mult}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mult}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1253,
             "end": 1277,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Multani}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Multani}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1348,
             "end": 1369,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mult}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mult}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1457,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Multani}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Multani}+$",
@@ -694,7 +694,7 @@
             "type": "Literal",
             "start": 1524,
             "end": 1541,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mult}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mult}+$",

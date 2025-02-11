@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 609,
             "end": 639,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mende_Kikakui}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 713,
             "end": 734,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mend}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mend}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 799,
             "end": 825,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mende_Kikakui}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 895,
             "end": 912,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mend}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mend}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1213,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mende_Kikakui}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1290,
             "end": 1311,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mend}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mend}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1379,
             "end": 1405,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mende_Kikakui}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mende_Kikakui}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1478,
             "end": 1495,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mend}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mend}+$",

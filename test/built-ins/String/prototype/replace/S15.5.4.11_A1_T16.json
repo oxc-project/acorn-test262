@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 307,
             "end": 311,
-            "value": {},
+            "value": null,
             "raw": "/77/",
             "regex": {
               "pattern": "77",

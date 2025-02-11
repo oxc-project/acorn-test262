@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 440,
-                "value": {},
+                "value": null,
                 "raw": "/x{1,2}x{1,}/",
                 "regex": {
                   "pattern": "x{1,2}x{1,}",

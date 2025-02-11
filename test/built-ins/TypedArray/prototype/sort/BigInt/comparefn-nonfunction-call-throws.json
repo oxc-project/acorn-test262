@@ -574,7 +574,7 @@
                                     "type": "Literal",
                                     "start": 1086,
                                     "end": 1090,
-                                    "value": {},
+                                    "value": null,
                                     "raw": "/a/g",
                                     "regex": {
                                       "pattern": "a",

@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 333,
             "end": 351,
-            "value": {},
+            "value": null,
             "raw": "/([a-z]+)([0-9]+)/",
             "regex": {
               "pattern": "([a-z]+)([0-9]+)",

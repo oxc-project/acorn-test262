@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 476,
                 "end": 483,
-                "value": {},
+                "value": null,
                 "raw": "/nd|ne/",
                 "regex": {
                   "pattern": "nd|ne",

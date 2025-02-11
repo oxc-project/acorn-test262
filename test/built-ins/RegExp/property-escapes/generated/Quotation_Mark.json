@@ -281,7 +281,7 @@
             "type": "Literal",
             "start": 807,
             "end": 831,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Quotation_Mark}+$/u",
             "regex": {
               "pattern": "^\\p{Quotation_Mark}+$",
@@ -324,7 +324,7 @@
             "type": "Literal",
             "start": 899,
             "end": 914,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{QMark}+$/u",
             "regex": {
               "pattern": "^\\p{QMark}+$",
@@ -786,7 +786,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1493,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Quotation_Mark}+$/u",
             "regex": {
               "pattern": "^\\P{Quotation_Mark}+$",
@@ -829,7 +829,7 @@
             "type": "Literal",
             "start": 1564,
             "end": 1579,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{QMark}+$/u",
             "regex": {
               "pattern": "^\\P{QMark}+$",

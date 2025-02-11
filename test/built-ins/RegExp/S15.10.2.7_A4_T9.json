@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 402,
-                "value": {},
+                "value": null,
                 "raw": "/[\"'][^\"']*[\"']/",
                 "regex": {
                   "pattern": "[\"'][^\"']*[\"']",

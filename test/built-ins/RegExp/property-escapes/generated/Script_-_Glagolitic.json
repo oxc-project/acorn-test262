@@ -231,7 +231,7 @@
             "type": "Literal",
             "start": 710,
             "end": 737,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Glagolitic}+$",
@@ -274,7 +274,7 @@
             "type": "Literal",
             "start": 808,
             "end": 829,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Glag}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Glag}+$",
@@ -317,7 +317,7 @@
             "type": "Literal",
             "start": 894,
             "end": 917,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Glagolitic}+$",
@@ -360,7 +360,7 @@
             "type": "Literal",
             "start": 984,
             "end": 1001,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Glag}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Glag}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1342,
             "end": 1369,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Glagolitic}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1443,
             "end": 1464,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Glag}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Glag}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1532,
             "end": 1555,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Glagolitic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Glagolitic}+$",
@@ -763,7 +763,7 @@
             "type": "Literal",
             "start": 1625,
             "end": 1642,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Glag}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Glag}+$",

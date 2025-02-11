@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 601,
             "end": 623,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bamum}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bamum}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 689,
             "end": 710,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Bamu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Bamu}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 775,
             "end": 793,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bamum}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bamum}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 855,
             "end": 872,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Bamu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Bamu}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1143,
             "end": 1165,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bamum}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bamum}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1255,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Bamu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Bamu}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1323,
             "end": 1341,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bamum}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bamum}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1406,
             "end": 1423,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Bamu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Bamu}+$",

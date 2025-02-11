@@ -155,7 +155,7 @@
             "type": "Literal",
             "start": 618,
             "end": 641,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Brahmi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Brahmi}+$",
@@ -198,7 +198,7 @@
             "type": "Literal",
             "start": 708,
             "end": 729,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Brah}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Brah}+$",
@@ -241,7 +241,7 @@
             "type": "Literal",
             "start": 794,
             "end": 813,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Brahmi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Brahmi}+$",
@@ -284,7 +284,7 @@
             "type": "Literal",
             "start": 876,
             "end": 893,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Brah}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Brah}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1190,
             "end": 1213,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Brahmi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Brahmi}+$",
@@ -579,7 +579,7 @@
             "type": "Literal",
             "start": 1283,
             "end": 1304,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Brah}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Brah}+$",
@@ -622,7 +622,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1391,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Brahmi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Brahmi}+$",
@@ -665,7 +665,7 @@
             "type": "Literal",
             "start": 1457,
             "end": 1474,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Brah}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Brah}+$",

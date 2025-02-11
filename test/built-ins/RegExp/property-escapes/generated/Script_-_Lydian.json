@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 592,
             "end": 615,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lydian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lydian}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 682,
             "end": 703,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lydi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lydi}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 768,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lydian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lydian}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 850,
             "end": 867,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lydi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lydi}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1161,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lydian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lydian}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1252,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lydi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lydi}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1320,
             "end": 1339,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lydian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lydian}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1405,
             "end": 1422,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lydi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lydi}+$",

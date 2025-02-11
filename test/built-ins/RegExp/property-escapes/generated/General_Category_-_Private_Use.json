@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 643,
             "end": 681,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Private_Use}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Private_Use}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 763,
             "end": 792,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Co}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Co}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 865,
             "end": 889,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Private_Use}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Private_Use}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 957,
             "end": 972,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Co}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Co}+$",
@@ -340,7 +340,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1052,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Private_Use}+$/u",
             "regex": {
               "pattern": "^\\p{Private_Use}+$",
@@ -383,7 +383,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1129,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Co}+$/u",
             "regex": {
               "pattern": "^\\p{Co}+$",
@@ -614,7 +614,7 @@
             "type": "Literal",
             "start": 1395,
             "end": 1433,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Private_Use}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Private_Use}+$",
@@ -657,7 +657,7 @@
             "type": "Literal",
             "start": 1518,
             "end": 1547,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Co}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Co}+$",
@@ -700,7 +700,7 @@
             "type": "Literal",
             "start": 1623,
             "end": 1647,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Private_Use}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Private_Use}+$",
@@ -743,7 +743,7 @@
             "type": "Literal",
             "start": 1718,
             "end": 1733,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Co}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Co}+$",
@@ -786,7 +786,7 @@
             "type": "Literal",
             "start": 1795,
             "end": 1816,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Private_Use}+$/u",
             "regex": {
               "pattern": "^\\P{Private_Use}+$",
@@ -829,7 +829,7 @@
             "type": "Literal",
             "start": 1884,
             "end": 1896,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Co}+$/u",
             "regex": {
               "pattern": "^\\P{Co}+$",

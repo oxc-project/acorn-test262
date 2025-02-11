@@ -7120,7 +7120,7 @@
             "type": "Literal",
             "start": 10181,
             "end": 10205,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Case_Ignorable}+$/u",
             "regex": {
               "pattern": "^\\p{Case_Ignorable}+$",
@@ -7163,7 +7163,7 @@
             "type": "Literal",
             "start": 10273,
             "end": 10285,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{CI}+$/u",
             "regex": {
               "pattern": "^\\p{CI}+$",
@@ -15683,7 +15683,7 @@
             "type": "Literal",
             "start": 21257,
             "end": 21281,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Case_Ignorable}+$/u",
             "regex": {
               "pattern": "^\\P{Case_Ignorable}+$",
@@ -15726,7 +15726,7 @@
             "type": "Literal",
             "start": 21352,
             "end": 21364,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{CI}+$/u",
             "regex": {
               "pattern": "^\\P{CI}+$",

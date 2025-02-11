@@ -164,7 +164,7 @@
                         "type": "Literal",
                         "start": 1011,
                         "end": 1014,
-                        "value": {},
+                        "value": null,
                         "raw": "/x/",
                         "regex": {
                           "pattern": "x",

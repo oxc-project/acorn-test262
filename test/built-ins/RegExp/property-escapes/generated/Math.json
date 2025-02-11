@@ -2269,7 +2269,7 @@
             "type": "Literal",
             "start": 3509,
             "end": 3523,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Math}+$/u",
             "regex": {
               "pattern": "^\\p{Math}+$",
@@ -4636,7 +4636,7 @@
             "type": "Literal",
             "start": 6719,
             "end": 6733,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Math}+$/u",
             "regex": {
               "pattern": "^\\P{Math}+$",

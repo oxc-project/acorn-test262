@@ -260,7 +260,7 @@
             "type": "Literal",
             "start": 753,
             "end": 781,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Dives_Akuru}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Dives_Akuru}+$",
@@ -303,7 +303,7 @@
             "type": "Literal",
             "start": 853,
             "end": 874,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Diak}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Diak}+$",
@@ -346,7 +346,7 @@
             "type": "Literal",
             "start": 939,
             "end": 963,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Dives_Akuru}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Dives_Akuru}+$",
@@ -389,7 +389,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1048,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Diak}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Diak}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1441,
             "end": 1469,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Dives_Akuru}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Dives_Akuru}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1544,
             "end": 1565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Diak}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Diak}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1633,
             "end": 1657,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Dives_Akuru}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Dives_Akuru}+$",
@@ -834,7 +834,7 @@
             "type": "Literal",
             "start": 1728,
             "end": 1745,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Diak}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Diak}+$",

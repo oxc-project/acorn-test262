@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 557,
                 "end": 583,
-                "value": {},
+                "value": null,
                 "raw": "/Java(?!Script)([A-Z]\\w*)/",
                 "regex": {
                   "pattern": "Java(?!Script)([A-Z]\\w*)",

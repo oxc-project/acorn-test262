@@ -6539,7 +6539,7 @@
             "type": "Literal",
             "start": 11462,
             "end": 11481,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Lowercase}+$/u",
             "regex": {
               "pattern": "^\\p{Lowercase}+$",
@@ -6582,7 +6582,7 @@
             "type": "Literal",
             "start": 11544,
             "end": 11559,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Lower}+$/u",
             "regex": {
               "pattern": "^\\p{Lower}+$",
@@ -13387,7 +13387,7 @@
             "type": "Literal",
             "start": 22848,
             "end": 22867,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Lowercase}+$/u",
             "regex": {
               "pattern": "^\\P{Lowercase}+$",
@@ -13430,7 +13430,7 @@
             "type": "Literal",
             "start": 22933,
             "end": 22948,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Lower}+$/u",
             "regex": {
               "pattern": "^\\P{Lower}+$",

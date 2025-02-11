@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 456,
-                "value": {},
+                "value": null,
                 "raw": "/\\brobot\\b/",
                 "regex": {
                   "pattern": "\\brobot\\b",

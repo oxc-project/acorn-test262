@@ -120,7 +120,7 @@
                         "type": "Literal",
                         "start": 910,
                         "end": 913,
-                        "value": {},
+                        "value": null,
                         "raw": "/./",
                         "regex": {
                           "pattern": ".",

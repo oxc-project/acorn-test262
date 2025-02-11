@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 407,
-                "value": {},
+                "value": null,
                 "raw": "/^\\^+/",
                 "regex": {
                   "pattern": "^\\^+",

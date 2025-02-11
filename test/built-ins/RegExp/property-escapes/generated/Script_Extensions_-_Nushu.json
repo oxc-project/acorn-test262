@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 602,
             "end": 635,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nushu}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 712,
             "end": 744,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nshu}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 820,
             "end": 839,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nushu}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 902,
             "end": 920,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nshu}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1192,
             "end": 1225,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nushu}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1337,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nshu}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1416,
             "end": 1435,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nushu}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1501,
             "end": 1519,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nshu}+$",

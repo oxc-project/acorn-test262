@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 596,
             "end": 623,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phoenician}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 694,
             "end": 715,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phnx}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 780,
             "end": 803,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phoenician}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 870,
             "end": 887,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phnx}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1158,
             "end": 1185,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phoenician}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1259,
             "end": 1280,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phnx}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1348,
             "end": 1371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phoenician}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1441,
             "end": 1458,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phnx}+$",

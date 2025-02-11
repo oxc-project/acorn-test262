@@ -116,7 +116,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 441,
-                "value": {},
+                "value": null,
                 "raw": "/34/g",
                 "regex": {
                   "pattern": "34",
@@ -208,7 +208,7 @@
                           "type": "Literal",
                           "start": 575,
                           "end": 580,
-                          "value": {},
+                          "value": null,
                           "raw": "/34/g",
                           "regex": {
                             "pattern": "34",
@@ -354,7 +354,7 @@
                       "type": "Literal",
                       "start": 834,
                       "end": 839,
-                      "value": {},
+                      "value": null,
                       "raw": "/34/g",
                       "regex": {
                         "pattern": "34",
@@ -533,7 +533,7 @@
                                 "type": "Literal",
                                 "start": 1047,
                                 "end": 1052,
-                                "value": {},
+                                "value": null,
                                 "raw": "/34/g",
                                 "regex": {
                                   "pattern": "34",

@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 323,
             "end": 334,
-            "value": {},
+            "value": null,
             "raw": "/undefined/",
             "regex": {
               "pattern": "undefined",

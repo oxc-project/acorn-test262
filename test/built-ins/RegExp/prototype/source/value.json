@@ -53,7 +53,7 @@
                       "type": "Literal",
                       "start": 709,
                       "end": 720,
-                      "value": {},
+                      "value": null,
                       "raw": "/ab{2,4}c$/",
                       "regex": {
                         "pattern": "ab{2,4}c$",

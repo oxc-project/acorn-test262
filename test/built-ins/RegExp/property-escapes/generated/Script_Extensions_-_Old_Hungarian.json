@@ -197,7 +197,7 @@
             "type": "Literal",
             "start": 704,
             "end": 745,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Hungarian}+$",
@@ -240,7 +240,7 @@
             "type": "Literal",
             "start": 830,
             "end": 862,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hung}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hung}+$",
@@ -283,7 +283,7 @@
             "type": "Literal",
             "start": 938,
             "end": 965,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Hungarian}+$",
@@ -326,7 +326,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1054,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hung}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hung}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1456,
             "end": 1497,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Hungarian}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1585,
             "end": 1617,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hung}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hung}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1696,
             "end": 1723,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Hungarian}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1797,
             "end": 1815,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hung}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hung}+$",

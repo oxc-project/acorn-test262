@@ -288,7 +288,7 @@
             "type": "Literal",
             "start": 888,
             "end": 931,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Dash_Punctuation}+$",
@@ -331,7 +331,7 @@
             "type": "Literal",
             "start": 1018,
             "end": 1047,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{General_Category=Pd}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Pd}+$",
@@ -374,7 +374,7 @@
             "type": "Literal",
             "start": 1120,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Dash_Punctuation}+$",
@@ -417,7 +417,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1237,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{gc=Pd}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Pd}+$",
@@ -460,7 +460,7 @@
             "type": "Literal",
             "start": 1296,
             "end": 1322,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\p{Dash_Punctuation}+$",
@@ -503,7 +503,7 @@
             "type": "Literal",
             "start": 1392,
             "end": 1404,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Pd}+$/u",
             "regex": {
               "pattern": "^\\p{Pd}+$",
@@ -1112,7 +1112,7 @@
             "type": "Literal",
             "start": 2138,
             "end": 2181,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Dash_Punctuation}+$",
@@ -1155,7 +1155,7 @@
             "type": "Literal",
             "start": 2271,
             "end": 2300,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{General_Category=Pd}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Pd}+$",
@@ -1198,7 +1198,7 @@
             "type": "Literal",
             "start": 2376,
             "end": 2405,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Dash_Punctuation}+$",
@@ -1241,7 +1241,7 @@
             "type": "Literal",
             "start": 2481,
             "end": 2496,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{gc=Pd}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Pd}+$",
@@ -1284,7 +1284,7 @@
             "type": "Literal",
             "start": 2558,
             "end": 2584,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Dash_Punctuation}+$/u",
             "regex": {
               "pattern": "^\\P{Dash_Punctuation}+$",
@@ -1327,7 +1327,7 @@
             "type": "Literal",
             "start": 2657,
             "end": 2669,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Pd}+$/u",
             "regex": {
               "pattern": "^\\P{Pd}+$",

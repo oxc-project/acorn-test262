@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 968,
                 "end": 980,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(b+))c/",
                 "regex": {
                   "pattern": "(?<=(b+))c",
@@ -159,7 +159,7 @@
                 "type": "Literal",
                 "start": 1043,
                 "end": 1057,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=(b\\d+))c/",
                 "regex": {
                   "pattern": "(?<=(b\\d+))c",
@@ -258,7 +258,7 @@
                 "type": "Literal",
                 "start": 1123,
                 "end": 1144,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=((?:b\\d{2})+))c/",
                 "regex": {
                   "pattern": "(?<=((?:b\\d{2})+))c",

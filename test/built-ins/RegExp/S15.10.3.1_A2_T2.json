@@ -84,7 +84,7 @@
                           "type": "Literal",
                           "start": 650,
                           "end": 658,
-                          "value": {},
+                          "value": null,
                           "raw": "/[a-b]?/",
                           "regex": {
                             "pattern": "[a-b]?",

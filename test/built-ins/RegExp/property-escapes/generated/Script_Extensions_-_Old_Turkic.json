@@ -141,7 +141,7 @@
             "type": "Literal",
             "start": 621,
             "end": 659,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_Turkic}+$",
@@ -184,7 +184,7 @@
             "type": "Literal",
             "start": 741,
             "end": 773,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Orkh}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Orkh}+$",
@@ -227,7 +227,7 @@
             "type": "Literal",
             "start": 849,
             "end": 873,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_Turkic}+$",
@@ -270,7 +270,7 @@
             "type": "Literal",
             "start": 941,
             "end": 959,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Orkh}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Orkh}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1257,
             "end": 1295,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_Turkic}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1380,
             "end": 1412,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Orkh}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Orkh}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1491,
             "end": 1515,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Old_Turkic}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_Turkic}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1586,
             "end": 1604,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Orkh}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Orkh}+$",

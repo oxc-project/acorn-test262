@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 1106,
                 "end": 1110,
-                "value": {},
+                "value": null,
                 "raw": "/b/u",
                 "regex": {
                   "pattern": "b",
@@ -141,7 +141,7 @@
                 "type": "Literal",
                 "start": 1178,
                 "end": 1182,
-                "value": {},
+                "value": null,
                 "raw": "/./g",
                 "regex": {
                   "pattern": ".",
@@ -239,7 +239,7 @@
                 "type": "Literal",
                 "start": 1256,
                 "end": 1262,
-                "value": {},
+                "value": null,
                 "raw": "/(b)./",
                 "regex": {
                   "pattern": "(b).",
@@ -337,7 +337,7 @@
                 "type": "Literal",
                 "start": 1330,
                 "end": 1350,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>.)(?<bar>.)/",
                 "regex": {
                   "pattern": "(?<foo>.)(?<bar>.)",
@@ -435,7 +435,7 @@
                 "type": "Literal",
                 "start": 1416,
                 "end": 1438,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>.)(?<bar>.)/gu",
                 "regex": {
                   "pattern": "(?<foo>.)(?<bar>.)",
@@ -533,7 +533,7 @@
                 "type": "Literal",
                 "start": 1503,
                 "end": 1515,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>b)/u",
                 "regex": {
                   "pattern": "(?<foo>b)",
@@ -631,7 +631,7 @@
                 "type": "Literal",
                 "start": 1578,
                 "end": 1590,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>.)/g",
                 "regex": {
                   "pattern": "(?<foo>.)",
@@ -729,7 +729,7 @@
                 "type": "Literal",
                 "start": 1646,
                 "end": 1657,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>b)/",
                 "regex": {
                   "pattern": "(?<foo>b)",
@@ -827,7 +827,7 @@
                 "type": "Literal",
                 "start": 1713,
                 "end": 1734,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>.)(?<bar>.)/g",
                 "regex": {
                   "pattern": "(?<foo>.)(?<bar>.)",
@@ -925,7 +925,7 @@
                 "type": "Literal",
                 "start": 1792,
                 "end": 1804,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>b)/u",
                 "regex": {
                   "pattern": "(?<foo>b)",
@@ -1023,7 +1023,7 @@
                 "type": "Literal",
                 "start": 1867,
                 "end": 1880,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>.)/gu",
                 "regex": {
                   "pattern": "(?<foo>.)",
@@ -1121,7 +1121,7 @@
                 "type": "Literal",
                 "start": 1937,
                 "end": 1948,
-                "value": {},
+                "value": null,
                 "raw": "/(?<foo>b)/",
                 "regex": {
                   "pattern": "(?<foo>b)",
@@ -1219,7 +1219,7 @@
                 "type": "Literal",
                 "start": 2018,
                 "end": 2029,
-                "value": {},
+                "value": null,
                 "raw": "/(?<𝒜>b)/u",
                 "regex": {
                   "pattern": "(?<𝒜>b)",
@@ -1317,7 +1317,7 @@
                 "type": "Literal",
                 "start": 2093,
                 "end": 2106,
-                "value": {},
+                "value": null,
                 "raw": "/(?<$𐒤>b)/gu",
                 "regex": {
                   "pattern": "(?<$𐒤>b)",

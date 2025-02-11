@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 634,
             "end": 663,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Meetei_Mayek}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Meetei_Mayek}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 736,
             "end": 757,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Mtei}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Mtei}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 822,
             "end": 847,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Meetei_Mayek}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Meetei_Mayek}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 916,
             "end": 933,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Mtei}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Mtei}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1230,
             "end": 1259,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Meetei_Mayek}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Meetei_Mayek}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1335,
             "end": 1356,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Mtei}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Mtei}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1449,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Meetei_Mayek}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Meetei_Mayek}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1521,
             "end": 1538,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Mtei}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Mtei}+$",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 441,
-                "value": {},
+                "value": null,
                 "raw": "/es$/mg",
                 "regex": {
                   "pattern": "es$",

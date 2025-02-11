@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 601,
             "end": 633,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Toto}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Toto}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 709,
             "end": 741,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Toto}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Toto}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 817,
             "end": 835,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Toto}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Toto}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 897,
             "end": 915,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Toto}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Toto}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1219,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Toto}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Toto}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1330,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Toto}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Toto}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1409,
             "end": 1427,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Toto}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Toto}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1492,
             "end": 1510,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Toto}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Toto}+$",

@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 446,
                 "end": 455,
-                "value": {},
+                "value": null,
                 "raw": "/ab[.]?c/",
                 "regex": {
                   "pattern": "ab[.]?c",

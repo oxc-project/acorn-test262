@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 573,
             "end": 593,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Vai}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 657,
             "end": 678,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Vaii}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 743,
             "end": 759,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Vai}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 819,
             "end": 836,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Vaii}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1081,
             "end": 1101,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Vai}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1189,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Vaii}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1257,
             "end": 1273,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Vai}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1353,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Vaii}+$",

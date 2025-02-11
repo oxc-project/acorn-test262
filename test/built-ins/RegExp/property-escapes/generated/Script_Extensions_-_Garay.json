@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 682,
             "end": 715,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Garay}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Garay}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 792,
             "end": 824,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gara}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gara}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 900,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Garay}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Garay}+$",
@@ -319,7 +319,7 @@
             "type": "Literal",
             "start": 982,
             "end": 1000,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gara}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gara}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1376,
             "end": 1409,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Garay}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Garay}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1521,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gara}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gara}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1600,
             "end": 1619,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Garay}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Garay}+$",
@@ -763,7 +763,7 @@
             "type": "Literal",
             "start": 1685,
             "end": 1703,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gara}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gara}+$",

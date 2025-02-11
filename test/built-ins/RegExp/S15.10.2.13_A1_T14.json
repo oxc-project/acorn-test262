@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 463,
-                "value": {},
+                "value": null,
                 "raw": "/[*&$]{3}/",
                 "regex": {
                   "pattern": "[*&$]{3}",

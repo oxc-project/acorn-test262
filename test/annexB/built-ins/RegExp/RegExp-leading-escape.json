@@ -39,7 +39,7 @@
               "type": "Literal",
               "start": 404,
               "end": 408,
-              "value": {},
+              "value": null,
               "raw": "/\\1/",
               "regex": {
                 "pattern": "\\1",
@@ -102,7 +102,7 @@
               "type": "Literal",
               "start": 442,
               "end": 446,
-              "value": {},
+              "value": null,
               "raw": "/\\a/",
               "regex": {
                 "pattern": "\\a",

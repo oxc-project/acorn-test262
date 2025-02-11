@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 369,
-                "value": {},
+                "value": null,
                 "raw": "/\\d{2,4}/",
                 "regex": {
                   "pattern": "\\d{2,4}",

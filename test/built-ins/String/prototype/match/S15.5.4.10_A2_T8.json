@@ -68,7 +68,7 @@
             "type": "Literal",
             "start": 443,
             "end": 471,
-            "value": {},
+            "value": null,
             "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",

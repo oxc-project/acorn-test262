@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 622,
             "end": 639,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Radical}+$/u",
             "regex": {
               "pattern": "^\\p{Radical}+$",
@@ -407,7 +407,7 @@
             "type": "Literal",
             "start": 926,
             "end": 943,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Radical}+$/u",
             "regex": {
               "pattern": "^\\P{Radical}+$",

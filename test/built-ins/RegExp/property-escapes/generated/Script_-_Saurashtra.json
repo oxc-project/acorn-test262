@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 606,
             "end": 633,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Saurashtra}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 704,
             "end": 725,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Saur}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Saur}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 790,
             "end": 813,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Saurashtra}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 880,
             "end": 897,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Saur}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Saur}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1195,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Saurashtra}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1269,
             "end": 1290,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Saur}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Saur}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1358,
             "end": 1381,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Saurashtra}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Saurashtra}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1451,
             "end": 1468,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Saur}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Saur}+$",

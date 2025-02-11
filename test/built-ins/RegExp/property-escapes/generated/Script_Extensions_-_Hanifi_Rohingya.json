@@ -183,7 +183,7 @@
             "type": "Literal",
             "start": 694,
             "end": 737,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hanifi_Rohingya}+$",
@@ -226,7 +226,7 @@
             "type": "Literal",
             "start": 824,
             "end": 856,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Rohg}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Rohg}+$",
@@ -269,7 +269,7 @@
             "type": "Literal",
             "start": 932,
             "end": 961,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hanifi_Rohingya}+$",
@@ -312,7 +312,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1052,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Rohg}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Rohg}+$",
@@ -648,7 +648,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1497,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hanifi_Rohingya}+$",
@@ -691,7 +691,7 @@
             "type": "Literal",
             "start": 1587,
             "end": 1619,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Rohg}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Rohg}+$",
@@ -734,7 +734,7 @@
             "type": "Literal",
             "start": 1698,
             "end": 1727,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hanifi_Rohingya}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hanifi_Rohingya}+$",
@@ -777,7 +777,7 @@
             "type": "Literal",
             "start": 1803,
             "end": 1821,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Rohg}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Rohg}+$",

@@ -141,7 +141,7 @@
             "type": "Literal",
             "start": 630,
             "end": 677,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Khitan_Small_Script}+$",
@@ -184,7 +184,7 @@
             "type": "Literal",
             "start": 768,
             "end": 800,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Kits}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kits}+$",
@@ -227,7 +227,7 @@
             "type": "Literal",
             "start": 876,
             "end": 909,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Khitan_Small_Script}+$",
@@ -270,7 +270,7 @@
             "type": "Literal",
             "start": 986,
             "end": 1004,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Kits}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Kits}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1302,
             "end": 1349,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Khitan_Small_Script}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1443,
             "end": 1475,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Kits}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kits}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1554,
             "end": 1587,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Khitan_Small_Script}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1667,
             "end": 1685,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Kits}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Kits}+$",

@@ -204,7 +204,7 @@
             "type": "Literal",
             "start": 697,
             "end": 717,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Deprecated}+$/u",
             "regex": {
               "pattern": "^\\p{Deprecated}+$",
@@ -247,7 +247,7 @@
             "type": "Literal",
             "start": 781,
             "end": 794,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Dep}+$/u",
             "regex": {
               "pattern": "^\\p{Dep}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1207,
             "end": 1227,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Deprecated}+$/u",
             "regex": {
               "pattern": "^\\P{Deprecated}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1307,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Dep}+$/u",
             "regex": {
               "pattern": "^\\P{Dep}+$",

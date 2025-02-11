@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 738,
             "end": 744,
-            "value": {},
+            "value": null,
             "raw": "/abc/y",
             "regex": {
               "pattern": "abc",

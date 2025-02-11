@@ -407,7 +407,7 @@
             "type": "Literal",
             "start": 959,
             "end": 995,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hiragana}+$",
@@ -450,7 +450,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1107,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Hira}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hira}+$",
@@ -493,7 +493,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1205,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hiragana}+$",
@@ -536,7 +536,7 @@
             "type": "Literal",
             "start": 1271,
             "end": 1289,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Hira}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Hira}+$",
@@ -1055,7 +1055,7 @@
             "type": "Literal",
             "start": 1929,
             "end": 1965,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hiragana}+$",
@@ -1098,7 +1098,7 @@
             "type": "Literal",
             "start": 2048,
             "end": 2080,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Hira}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hira}+$",
@@ -1141,7 +1141,7 @@
             "type": "Literal",
             "start": 2159,
             "end": 2181,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hiragana}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hiragana}+$",
@@ -1184,7 +1184,7 @@
             "type": "Literal",
             "start": 2250,
             "end": 2268,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Hira}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Hira}+$",

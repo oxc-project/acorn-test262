@@ -273,7 +273,7 @@
             "type": "Literal",
             "start": 762,
             "end": 789,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kharoshthi}+$",
@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 860,
             "end": 881,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Khar}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Khar}+$",
@@ -359,7 +359,7 @@
             "type": "Literal",
             "start": 946,
             "end": 969,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kharoshthi}+$",
@@ -402,7 +402,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1053,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Khar}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Khar}+$",
@@ -718,7 +718,7 @@
             "type": "Literal",
             "start": 1446,
             "end": 1473,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kharoshthi}+$",
@@ -761,7 +761,7 @@
             "type": "Literal",
             "start": 1547,
             "end": 1568,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Khar}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Khar}+$",
@@ -804,7 +804,7 @@
             "type": "Literal",
             "start": 1636,
             "end": 1659,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kharoshthi}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kharoshthi}+$",
@@ -847,7 +847,7 @@
             "type": "Literal",
             "start": 1729,
             "end": 1746,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Khar}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Khar}+$",

@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 628,
             "end": 651,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lepcha}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 718,
             "end": 739,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lepc}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lepc}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 804,
             "end": 823,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lepcha}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 886,
             "end": 903,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lepc}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lepc}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1223,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lepcha}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1293,
             "end": 1314,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lepc}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lepc}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1382,
             "end": 1401,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lepcha}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1467,
             "end": 1484,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lepc}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lepc}+$",

@@ -61,7 +61,7 @@
             "type": "Literal",
             "start": 638,
             "end": 642,
-            "value": {},
+            "value": null,
             "raw": "/\\s/",
             "regex": {
               "pattern": "\\s",

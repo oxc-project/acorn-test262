@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 340,
-                "value": {},
+                "value": null,
                 "raw": "/\\f/",
                 "regex": {
                   "pattern": "\\f",
@@ -237,7 +237,7 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 538,
-                "value": {},
+                "value": null,
                 "raw": "/\\f\\f/",
                 "regex": {
                   "pattern": "\\f\\f",

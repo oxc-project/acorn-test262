@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 616,
             "end": 653,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sundanese}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 734,
             "end": 766,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sund}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sund}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 842,
             "end": 865,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sundanese}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 932,
             "end": 950,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sund}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sund}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1259,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sundanese}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1375,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sund}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sund}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1477,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sundanese}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sundanese}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1547,
             "end": 1565,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sund}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sund}+$",

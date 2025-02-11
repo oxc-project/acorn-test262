@@ -147,7 +147,7 @@
             "type": "Literal",
             "start": 615,
             "end": 651,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tai_Viet}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tai_Viet}+$",
@@ -190,7 +190,7 @@
             "type": "Literal",
             "start": 731,
             "end": 763,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Tavt}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Tavt}+$",
@@ -233,7 +233,7 @@
             "type": "Literal",
             "start": 839,
             "end": 861,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tai_Viet}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tai_Viet}+$",
@@ -276,7 +276,7 @@
             "type": "Literal",
             "start": 927,
             "end": 945,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Tavt}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Tavt}+$",
@@ -507,7 +507,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1253,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tai_Viet}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tai_Viet}+$",
@@ -550,7 +550,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1368,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Tavt}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Tavt}+$",
@@ -593,7 +593,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1469,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tai_Viet}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tai_Viet}+$",
@@ -636,7 +636,7 @@
             "type": "Literal",
             "start": 1538,
             "end": 1556,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Tavt}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Tavt}+$",

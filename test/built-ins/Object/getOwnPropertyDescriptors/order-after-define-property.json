@@ -410,7 +410,7 @@
             "type": "Literal",
             "start": 1432,
             "end": 1439,
-            "value": {},
+            "value": null,
             "raw": "/(?:)/g",
             "regex": {
               "pattern": "(?:)",

@@ -378,7 +378,7 @@
             "type": "Literal",
             "start": 2017,
             "end": 2024,
-            "value": {},
+            "value": null,
             "raw": "/\\S+/ug",
             "regex": {
               "pattern": "\\S+",

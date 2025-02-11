@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 432,
             "end": 443,
-            "value": {},
+            "value": null,
             "raw": "/^|\\udf06/g",
             "regex": {
               "pattern": "^|\\udf06",

@@ -337,7 +337,7 @@
             "type": "Literal",
             "start": 855,
             "end": 879,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sinhala}+$",
@@ -380,7 +380,7 @@
             "type": "Literal",
             "start": 947,
             "end": 968,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Sinh}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Sinh}+$",
@@ -423,7 +423,7 @@
             "type": "Literal",
             "start": 1033,
             "end": 1053,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sinhala}+$",
@@ -466,7 +466,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1134,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Sinh}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Sinh}+$",
@@ -859,7 +859,7 @@
             "type": "Literal",
             "start": 1633,
             "end": 1657,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sinhala}+$",
@@ -902,7 +902,7 @@
             "type": "Literal",
             "start": 1728,
             "end": 1749,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Sinh}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Sinh}+$",
@@ -945,7 +945,7 @@
             "type": "Literal",
             "start": 1817,
             "end": 1837,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sinhala}+$",
@@ -988,7 +988,7 @@
             "type": "Literal",
             "start": 1904,
             "end": 1921,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Sinh}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Sinh}+$",

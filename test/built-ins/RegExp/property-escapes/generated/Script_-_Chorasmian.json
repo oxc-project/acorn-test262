@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 580,
             "end": 607,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Chorasmian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 678,
             "end": 699,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Chrs}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 764,
             "end": 787,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Chorasmian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 854,
             "end": 871,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Chrs}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1116,
             "end": 1143,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Chorasmian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1238,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Chrs}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1329,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Chorasmian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1399,
             "end": 1416,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Chrs}+$",

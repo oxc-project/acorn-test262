@@ -324,7 +324,7 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 898,
-                "value": {},
+                "value": null,
                 "raw": "/(?:)/g",
                 "regex": {
                   "pattern": "(?:)",

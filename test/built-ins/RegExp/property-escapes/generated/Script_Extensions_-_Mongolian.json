@@ -239,7 +239,7 @@
             "type": "Literal",
             "start": 736,
             "end": 773,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mongolian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mongolian}+$",
@@ -282,7 +282,7 @@
             "type": "Literal",
             "start": 854,
             "end": 886,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mong}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mong}+$",
@@ -325,7 +325,7 @@
             "type": "Literal",
             "start": 962,
             "end": 985,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mongolian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mongolian}+$",
@@ -368,7 +368,7 @@
             "type": "Literal",
             "start": 1052,
             "end": 1070,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mong}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mong}+$",
@@ -704,7 +704,7 @@
             "type": "Literal",
             "start": 1472,
             "end": 1509,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mongolian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mongolian}+$",
@@ -747,7 +747,7 @@
             "type": "Literal",
             "start": 1593,
             "end": 1625,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mong}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mong}+$",
@@ -790,7 +790,7 @@
             "type": "Literal",
             "start": 1704,
             "end": 1727,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mongolian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mongolian}+$",
@@ -833,7 +833,7 @@
             "type": "Literal",
             "start": 1797,
             "end": 1815,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mong}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mong}+$",

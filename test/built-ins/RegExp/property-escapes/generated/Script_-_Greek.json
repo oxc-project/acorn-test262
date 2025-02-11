@@ -708,7 +708,7 @@
             "type": "Literal",
             "start": 1355,
             "end": 1377,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Greek}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Greek}+$",
@@ -751,7 +751,7 @@
             "type": "Literal",
             "start": 1443,
             "end": 1464,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Grek}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Grek}+$",
@@ -794,7 +794,7 @@
             "type": "Literal",
             "start": 1529,
             "end": 1547,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Greek}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Greek}+$",
@@ -837,7 +837,7 @@
             "type": "Literal",
             "start": 1609,
             "end": 1626,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Grek}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Grek}+$",
@@ -1573,7 +1573,7 @@
             "type": "Literal",
             "start": 2603,
             "end": 2625,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Greek}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Greek}+$",
@@ -1616,7 +1616,7 @@
             "type": "Literal",
             "start": 2694,
             "end": 2715,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Grek}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Grek}+$",
@@ -1659,7 +1659,7 @@
             "type": "Literal",
             "start": 2783,
             "end": 2801,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Greek}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Greek}+$",
@@ -1702,7 +1702,7 @@
             "type": "Literal",
             "start": 2866,
             "end": 2883,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Grek}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Grek}+$",

@@ -145,7 +145,7 @@
                     "type": "Literal",
                     "start": 1088,
                     "end": 1108,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<animal>fox|dog)/",
                     "regex": {
                       "pattern": "(?<animal>fox|dog)",
@@ -227,7 +227,7 @@
               "type": "Literal",
               "start": 1155,
               "end": 1187,
-              "value": {},
+              "value": null,
               "raw": "/(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)/",
               "regex": {
                 "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
@@ -542,7 +542,7 @@
               "type": "Literal",
               "start": 1374,
               "end": 1396,
-              "value": {},
+              "value": null,
               "raw": "/(?<狸>fox).*(?<狗>dog)/",
               "regex": {
                 "pattern": "(?<狸>fox).*(?<狗>dog)",
@@ -878,7 +878,7 @@
                     "type": "Literal",
                     "start": 1582,
                     "end": 1604,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/",
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
@@ -981,7 +981,7 @@
                     "type": "Literal",
                     "start": 1665,
                     "end": 1687,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/",
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
@@ -1084,7 +1084,7 @@
                     "type": "Literal",
                     "start": 1783,
                     "end": 1840,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/",
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
@@ -1187,7 +1187,7 @@
                     "type": "Literal",
                     "start": 1901,
                     "end": 1958,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/",
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
@@ -1290,7 +1290,7 @@
                     "type": "Literal",
                     "start": 2054,
                     "end": 2126,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/",
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
@@ -1393,7 +1393,7 @@
                     "type": "Literal",
                     "start": 2187,
                     "end": 2259,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/",
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
@@ -1496,7 +1496,7 @@
                     "type": "Literal",
                     "start": 2356,
                     "end": 2383,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
@@ -1599,7 +1599,7 @@
                     "type": "Literal",
                     "start": 2450,
                     "end": 2484,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
@@ -1702,7 +1702,7 @@
                     "type": "Literal",
                     "start": 2551,
                     "end": 2585,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
@@ -1805,7 +1805,7 @@
                     "type": "Literal",
                     "start": 2652,
                     "end": 2693,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
@@ -1908,7 +1908,7 @@
                     "type": "Literal",
                     "start": 2760,
                     "end": 2794,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
@@ -2011,7 +2011,7 @@
                     "type": "Literal",
                     "start": 2861,
                     "end": 2902,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
@@ -2114,7 +2114,7 @@
                     "type": "Literal",
                     "start": 2969,
                     "end": 3010,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
@@ -2217,7 +2217,7 @@
                     "type": "Literal",
                     "start": 3077,
                     "end": 3125,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
@@ -2320,7 +2320,7 @@
                     "type": "Literal",
                     "start": 3193,
                     "end": 3208,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<the𝟚>the)/",
                     "regex": {
                       "pattern": "(?<the𝟚>the)",
@@ -2423,7 +2423,7 @@
                     "type": "Literal",
                     "start": 3262,
                     "end": 3284,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<the\\u{1d7da}>the)/",
                     "regex": {
                       "pattern": "(?<the\\u{1d7da}>the)",
@@ -2526,7 +2526,7 @@
                     "type": "Literal",
                     "start": 3338,
                     "end": 3363,
-                    "value": {},
+                    "value": null,
                     "raw": "/(?<the\\ud835\\udfda>the)/",
                     "regex": {
                       "pattern": "(?<the\\ud835\\udfda>the)",
@@ -2608,7 +2608,7 @@
               "type": "Literal",
               "start": 3410,
               "end": 3437,
-              "value": {},
+              "value": null,
               "raw": "/(?<dog>dog)(.*?)(\\k<dog>)/",
               "regex": {
                 "pattern": "(?<dog>dog)(.*?)(\\k<dog>)",
@@ -2911,7 +2911,7 @@
               "type": "Literal",
               "start": 3613,
               "end": 3646,
-              "value": {},
+              "value": null,
               "raw": "/(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)/",
               "regex": {
                 "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
@@ -3214,7 +3214,7 @@
               "type": "Literal",
               "start": 3825,
               "end": 3848,
-              "value": {},
+              "value": null,
               "raw": "/(?<狗>dog)(.*?)(\\k<狗>)/",
               "regex": {
                 "pattern": "(?<狗>dog)(.*?)(\\k<狗>)",

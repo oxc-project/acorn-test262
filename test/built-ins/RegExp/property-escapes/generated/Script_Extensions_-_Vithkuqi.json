@@ -273,7 +273,7 @@
             "type": "Literal",
             "start": 771,
             "end": 807,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vithkuqi}+$",
@@ -316,7 +316,7 @@
             "type": "Literal",
             "start": 887,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Vith}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vith}+$",
@@ -359,7 +359,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1017,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vithkuqi}+$",
@@ -402,7 +402,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1101,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Vith}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vith}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1483,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vithkuqi}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1566,
             "end": 1598,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Vith}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vith}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1677,
             "end": 1699,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Vithkuqi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vithkuqi}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1768,
             "end": 1786,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Vith}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vith}+$",

@@ -1968,7 +1968,7 @@
             "type": "Literal",
             "start": 3060,
             "end": 3083,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Bidi_Mirrored}+$/u",
             "regex": {
               "pattern": "^\\p{Bidi_Mirrored}+$",
@@ -2011,7 +2011,7 @@
             "type": "Literal",
             "start": 3150,
             "end": 3166,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Bidi_M}+$/u",
             "regex": {
               "pattern": "^\\p{Bidi_M}+$",
@@ -4203,7 +4203,7 @@
             "type": "Literal",
             "start": 6014,
             "end": 6037,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Bidi_Mirrored}+$/u",
             "regex": {
               "pattern": "^\\P{Bidi_Mirrored}+$",
@@ -4246,7 +4246,7 @@
             "type": "Literal",
             "start": 6107,
             "end": 6123,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Bidi_M}+$/u",
             "regex": {
               "pattern": "^\\P{Bidi_M}+$",

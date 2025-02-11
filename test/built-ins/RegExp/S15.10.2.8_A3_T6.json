@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 644,
-                "value": {},
+                "value": null,
                 "raw": "/(.{3})(.{4})/",
                 "regex": {
                   "pattern": "(.{3})(.{4})",

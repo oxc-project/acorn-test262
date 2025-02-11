@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 576,
             "end": 599,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Thaana}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Thaana}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 666,
             "end": 687,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Thaa}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Thaa}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 752,
             "end": 771,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Thaana}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Thaana}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 834,
             "end": 851,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Thaa}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Thaa}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1119,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Thaana}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Thaana}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1210,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Thaa}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Thaa}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1297,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Thaana}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Thaana}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1380,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Thaa}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Thaa}+$",

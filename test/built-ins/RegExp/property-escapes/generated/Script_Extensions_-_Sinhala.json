@@ -365,7 +365,7 @@
             "type": "Literal",
             "start": 906,
             "end": 941,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sinhala}+$",
@@ -408,7 +408,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1052,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Sinh}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sinh}+$",
@@ -451,7 +451,7 @@
             "type": "Literal",
             "start": 1128,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sinhala}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1214,
             "end": 1232,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Sinh}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sinh}+$",
@@ -929,7 +929,7 @@
             "type": "Literal",
             "start": 1784,
             "end": 1819,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sinhala}+$",
@@ -972,7 +972,7 @@
             "type": "Literal",
             "start": 1901,
             "end": 1933,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Sinh}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sinh}+$",
@@ -1015,7 +1015,7 @@
             "type": "Literal",
             "start": 2012,
             "end": 2033,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sinhala}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sinhala}+$",
@@ -1058,7 +1058,7 @@
             "type": "Literal",
             "start": 2101,
             "end": 2119,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Sinh}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sinh}+$",

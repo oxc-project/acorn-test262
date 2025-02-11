@@ -57,7 +57,7 @@
             "type": "Literal",
             "start": 870,
             "end": 876,
-            "value": {},
+            "value": null,
             "raw": "/[db]/",
             "regex": {
               "pattern": "[db]",

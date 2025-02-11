@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 412,
-                "value": {},
+                "value": null,
                 "raw": "/^..^e/",
                 "regex": {
                   "pattern": "^..^e",

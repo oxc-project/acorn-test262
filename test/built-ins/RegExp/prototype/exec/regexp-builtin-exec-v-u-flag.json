@@ -222,7 +222,7 @@
                 "type": "Literal",
                 "start": 482,
                 "end": 486,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/",
                 "regex": {
                   "pattern": "𠮷",
@@ -307,7 +307,7 @@
                 "type": "Literal",
                 "start": 558,
                 "end": 563,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/u",
                 "regex": {
                   "pattern": "𠮷",
@@ -392,7 +392,7 @@
                 "type": "Literal",
                 "start": 625,
                 "end": 642,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/u",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -477,7 +477,7 @@
                 "type": "Literal",
                 "start": 724,
                 "end": 728,
-                "value": {},
+                "value": null,
                 "raw": "/./u",
                 "regex": {
                   "pattern": ".",
@@ -562,7 +562,7 @@
                 "type": "Literal",
                 "start": 790,
                 "end": 795,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/v",
                 "regex": {
                   "pattern": "𠮷",
@@ -647,7 +647,7 @@
                 "type": "Literal",
                 "start": 857,
                 "end": 874,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/v",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -732,7 +732,7 @@
                 "type": "Literal",
                 "start": 956,
                 "end": 960,
-                "value": {},
+                "value": null,
                 "raw": "/./v",
                 "regex": {
                   "pattern": ".",
@@ -817,7 +817,7 @@
                 "type": "Literal",
                 "start": 1022,
                 "end": 1034,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{ASCII}/u",
                 "regex": {
                   "pattern": "\\p{ASCII}",
@@ -902,7 +902,7 @@
                 "type": "Literal",
                 "start": 1096,
                 "end": 1108,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{ASCII}/v",
                 "regex": {
                   "pattern": "\\p{ASCII}",
@@ -987,7 +987,7 @@
                 "type": "Literal",
                 "start": 1168,
                 "end": 1172,
-                "value": {},
+                "value": null,
                 "raw": "/x/u",
                 "regex": {
                   "pattern": "x",
@@ -1058,7 +1058,7 @@
                 "type": "Literal",
                 "start": 1240,
                 "end": 1244,
-                "value": {},
+                "value": null,
                 "raw": "/x/v",
                 "regex": {
                   "pattern": "x",
@@ -1105,7 +1105,7 @@
             "type": "Literal",
             "start": 1314,
             "end": 1336,
-            "value": {},
+            "value": null,
             "raw": "/(\\p{Script=Han})(.)/u",
             "regex": {
               "pattern": "(\\p{Script=Han})(.)",
@@ -1384,7 +1384,7 @@
             "type": "Literal",
             "start": 1656,
             "end": 1678,
-            "value": {},
+            "value": null,
             "raw": "/(\\p{Script=Han})(.)/v",
             "regex": {
               "pattern": "(\\p{Script=Han})(.)",
@@ -1710,7 +1710,7 @@
                 "type": "Literal",
                 "start": 2039,
                 "end": 2051,
-                "value": {},
+                "value": null,
                 "raw": "/\\P{ASCII}/u",
                 "regex": {
                   "pattern": "\\P{ASCII}",
@@ -1801,7 +1801,7 @@
                 "type": "Literal",
                 "start": 2132,
                 "end": 2144,
-                "value": {},
+                "value": null,
                 "raw": "/\\P{ASCII}/v",
                 "regex": {
                   "pattern": "\\P{ASCII}",

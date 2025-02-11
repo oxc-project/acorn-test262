@@ -40,7 +40,7 @@
                   "type": "Literal",
                   "start": 523,
                   "end": 536,
-                  "value": {},
+                  "value": null,
                   "raw": "/^[_--\\d]+$/v",
                   "regex": {
                     "pattern": "^[_--\\d]+$",

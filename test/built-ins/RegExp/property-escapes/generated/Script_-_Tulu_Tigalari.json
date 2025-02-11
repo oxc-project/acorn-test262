@@ -281,7 +281,7 @@
             "type": "Literal",
             "start": 797,
             "end": 827,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tulu_Tigalari}+$",
@@ -324,7 +324,7 @@
             "type": "Literal",
             "start": 901,
             "end": 922,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Tutg}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Tutg}+$",
@@ -367,7 +367,7 @@
             "type": "Literal",
             "start": 987,
             "end": 1013,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tulu_Tigalari}+$",
@@ -410,7 +410,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1100,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Tutg}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Tutg}+$",
@@ -733,7 +733,7 @@
             "type": "Literal",
             "start": 1523,
             "end": 1553,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tulu_Tigalari}+$",
@@ -776,7 +776,7 @@
             "type": "Literal",
             "start": 1630,
             "end": 1651,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Tutg}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Tutg}+$",
@@ -819,7 +819,7 @@
             "type": "Literal",
             "start": 1719,
             "end": 1745,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tulu_Tigalari}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tulu_Tigalari}+$",
@@ -862,7 +862,7 @@
             "type": "Literal",
             "start": 1818,
             "end": 1835,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Tutg}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Tutg}+$",

@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 618,
             "end": 631,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Any}+$/u",
             "regex": {
               "pattern": "^\\p{Any}+$",
@@ -225,7 +225,7 @@
                   "type": "Literal",
                   "start": 677,
                   "end": 687,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\P{Any}/u",
                   "regex": {
                     "pattern": "\\P{Any}",

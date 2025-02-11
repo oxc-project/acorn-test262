@@ -207,7 +207,7 @@
                         "type": "Literal",
                         "start": 613,
                         "end": 629,
-                        "value": {},
+                        "value": null,
                         "raw": "/toString value/",
                         "regex": {
                           "pattern": "toString value",

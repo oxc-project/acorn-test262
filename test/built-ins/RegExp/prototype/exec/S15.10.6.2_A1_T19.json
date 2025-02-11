@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 472,
                 "end": 478,
-                "value": {},
+                "value": null,
                 "raw": "/e{1}/",
                 "regex": {
                   "pattern": "e{1}",

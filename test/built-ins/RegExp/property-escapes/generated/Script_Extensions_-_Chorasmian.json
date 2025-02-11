@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 591,
             "end": 629,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Chorasmian}+$",
@@ -169,7 +169,7 @@
             "type": "Literal",
             "start": 711,
             "end": 743,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Chrs}+$",
@@ -212,7 +212,7 @@
             "type": "Literal",
             "start": 819,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Chorasmian}+$",
@@ -255,7 +255,7 @@
             "type": "Literal",
             "start": 911,
             "end": 929,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Chrs}+$",
@@ -465,7 +465,7 @@
             "type": "Literal",
             "start": 1175,
             "end": 1213,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Chorasmian}+$",
@@ -508,7 +508,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1330,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Chrs}+$",
@@ -551,7 +551,7 @@
             "type": "Literal",
             "start": 1409,
             "end": 1433,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Chorasmian}+$",
@@ -594,7 +594,7 @@
             "type": "Literal",
             "start": 1504,
             "end": 1522,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Chrs}+$",

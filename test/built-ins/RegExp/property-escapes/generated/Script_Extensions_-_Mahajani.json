@@ -176,7 +176,7 @@
             "type": "Literal",
             "start": 657,
             "end": 693,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mahajani}+$",
@@ -219,7 +219,7 @@
             "type": "Literal",
             "start": 773,
             "end": 805,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Mahj}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Mahj}+$",
@@ -262,7 +262,7 @@
             "type": "Literal",
             "start": 881,
             "end": 903,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mahajani}+$",
@@ -305,7 +305,7 @@
             "type": "Literal",
             "start": 969,
             "end": 987,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Mahj}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Mahj}+$",
@@ -578,7 +578,7 @@
             "type": "Literal",
             "start": 1311,
             "end": 1347,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mahajani}+$",
@@ -621,7 +621,7 @@
             "type": "Literal",
             "start": 1430,
             "end": 1462,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Mahj}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Mahj}+$",
@@ -664,7 +664,7 @@
             "type": "Literal",
             "start": 1541,
             "end": 1563,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mahajani}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mahajani}+$",
@@ -707,7 +707,7 @@
             "type": "Literal",
             "start": 1632,
             "end": 1650,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Mahj}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Mahj}+$",

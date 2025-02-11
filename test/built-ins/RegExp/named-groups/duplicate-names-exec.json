@@ -1136,7 +1136,7 @@
                 "type": "Literal",
                 "start": 1263,
                 "end": 1284,
-                "value": {},
+                "value": null,
                 "raw": "/(?<a>x)|(?:zy\\k<a>)/",
                 "regex": {
                   "pattern": "(?<a>x)|(?:zy\\k<a>)",

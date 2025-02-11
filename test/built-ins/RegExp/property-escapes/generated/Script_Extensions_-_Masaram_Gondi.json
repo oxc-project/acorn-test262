@@ -260,7 +260,7 @@
             "type": "Literal",
             "start": 766,
             "end": 807,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Masaram_Gondi}+$",
@@ -303,7 +303,7 @@
             "type": "Literal",
             "start": 892,
             "end": 924,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Gonm}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Gonm}+$",
@@ -346,7 +346,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1027,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Masaram_Gondi}+$",
@@ -389,7 +389,7 @@
             "type": "Literal",
             "start": 1098,
             "end": 1116,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Gonm}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Gonm}+$",
@@ -691,7 +691,7 @@
             "type": "Literal",
             "start": 1498,
             "end": 1539,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Masaram_Gondi}+$",
@@ -734,7 +734,7 @@
             "type": "Literal",
             "start": 1627,
             "end": 1659,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Gonm}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Gonm}+$",
@@ -777,7 +777,7 @@
             "type": "Literal",
             "start": 1738,
             "end": 1765,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Masaram_Gondi}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Masaram_Gondi}+$",
@@ -820,7 +820,7 @@
             "type": "Literal",
             "start": 1839,
             "end": 1857,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Gonm}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Gonm}+$",

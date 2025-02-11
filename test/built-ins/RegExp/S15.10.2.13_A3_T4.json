@@ -30,7 +30,7 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 330,
-                "value": {},
+                "value": null,
                 "raw": "/[^\\[\\b\\]]+/",
                 "regex": {
                   "pattern": "[^\\[\\b\\]]+",

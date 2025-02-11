@@ -100,7 +100,7 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 539,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\0/u",
                   "regex": {
                     "pattern": "\\0",
@@ -173,7 +173,7 @@
                 "type": "Literal",
                 "start": 577,
                 "end": 585,
-                "value": {},
+                "value": null,
                 "raw": "/^\\0a$/u",
                 "regex": {
                   "pattern": "^\\0a$",
@@ -265,7 +265,7 @@
                   "type": "Literal",
                   "start": 631,
                   "end": 637,
-                  "value": {},
+                  "value": null,
                   "raw": "/\\0②/u",
                   "regex": {
                     "pattern": "\\0②",
@@ -353,7 +353,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 694,
-                "value": {},
+                "value": null,
                 "raw": "/\\0፬$/u",
                 "regex": {
                   "pattern": "\\0፬$",

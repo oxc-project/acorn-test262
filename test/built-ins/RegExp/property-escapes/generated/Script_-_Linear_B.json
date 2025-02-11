@@ -252,7 +252,7 @@
             "type": "Literal",
             "start": 734,
             "end": 759,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Linear_B}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Linear_B}+$",
@@ -295,7 +295,7 @@
             "type": "Literal",
             "start": 828,
             "end": 849,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Linb}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Linb}+$",
@@ -338,7 +338,7 @@
             "type": "Literal",
             "start": 914,
             "end": 935,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Linear_B}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Linear_B}+$",
@@ -381,7 +381,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1017,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Linb}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Linb}+$",
@@ -662,7 +662,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1397,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Linear_B}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Linear_B}+$",
@@ -705,7 +705,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1490,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Linb}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Linb}+$",
@@ -748,7 +748,7 @@
             "type": "Literal",
             "start": 1558,
             "end": 1579,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Linear_B}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Linear_B}+$",
@@ -791,7 +791,7 @@
             "type": "Literal",
             "start": 1647,
             "end": 1664,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Linb}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Linb}+$",

@@ -456,7 +456,7 @@
             "type": "Literal",
             "start": 1006,
             "end": 1039,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Oriya}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Oriya}+$",
@@ -499,7 +499,7 @@
             "type": "Literal",
             "start": 1116,
             "end": 1148,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Orya}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Orya}+$",
@@ -542,7 +542,7 @@
             "type": "Literal",
             "start": 1224,
             "end": 1243,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Oriya}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Oriya}+$",
@@ -585,7 +585,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1324,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Orya}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Orya}+$",
@@ -1083,7 +1083,7 @@
             "type": "Literal",
             "start": 1954,
             "end": 1987,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Oriya}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Oriya}+$",
@@ -1126,7 +1126,7 @@
             "type": "Literal",
             "start": 2067,
             "end": 2099,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Orya}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Orya}+$",
@@ -1169,7 +1169,7 @@
             "type": "Literal",
             "start": 2178,
             "end": 2197,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Oriya}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Oriya}+$",
@@ -1212,7 +1212,7 @@
             "type": "Literal",
             "start": 2263,
             "end": 2281,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Orya}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Orya}+$",

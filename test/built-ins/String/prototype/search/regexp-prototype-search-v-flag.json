@@ -184,7 +184,7 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 422,
-                "value": {},
+                "value": null,
                 "raw": "/a/",
                 "regex": {
                   "pattern": "a",
@@ -255,7 +255,7 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 490,
-                "value": {},
+                "value": null,
                 "raw": "/a/v",
                 "regex": {
                   "pattern": "a",
@@ -326,7 +326,7 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 549,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/",
                 "regex": {
                   "pattern": "𠮷",
@@ -397,7 +397,7 @@
                 "type": "Literal",
                 "start": 626,
                 "end": 631,
-                "value": {},
+                "value": null,
                 "raw": "/𠮷/v",
                 "regex": {
                   "pattern": "𠮷",
@@ -468,7 +468,7 @@
                 "type": "Literal",
                 "start": 705,
                 "end": 722,
-                "value": {},
+                "value": null,
                 "raw": "/\\p{Script=Han}/v",
                 "regex": {
                   "pattern": "\\p{Script=Han}",
@@ -539,7 +539,7 @@
                 "type": "Literal",
                 "start": 795,
                 "end": 800,
-                "value": {},
+                "value": null,
                 "raw": "/b./v",
                 "regex": {
                   "pattern": "b.",

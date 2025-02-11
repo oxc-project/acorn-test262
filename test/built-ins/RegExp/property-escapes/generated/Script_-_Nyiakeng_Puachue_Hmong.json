@@ -189,7 +189,7 @@
             "type": "Literal",
             "start": 670,
             "end": 709,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Nyiakeng_Puachue_Hmong}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nyiakeng_Puachue_Hmong}+$",
@@ -232,7 +232,7 @@
             "type": "Literal",
             "start": 792,
             "end": 813,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Hmnp}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hmnp}+$",
@@ -275,7 +275,7 @@
             "type": "Literal",
             "start": 878,
             "end": 913,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Nyiakeng_Puachue_Hmong}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nyiakeng_Puachue_Hmong}+$",
@@ -318,7 +318,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1009,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Hmnp}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hmnp}+$",
@@ -591,7 +591,7 @@
             "type": "Literal",
             "start": 1332,
             "end": 1371,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Nyiakeng_Puachue_Hmong}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nyiakeng_Puachue_Hmong}+$",
@@ -634,7 +634,7 @@
             "type": "Literal",
             "start": 1457,
             "end": 1478,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Hmnp}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hmnp}+$",
@@ -677,7 +677,7 @@
             "type": "Literal",
             "start": 1546,
             "end": 1581,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Nyiakeng_Puachue_Hmong}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nyiakeng_Puachue_Hmong}+$",
@@ -720,7 +720,7 @@
             "type": "Literal",
             "start": 1663,
             "end": 1680,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Hmnp}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hmnp}+$",

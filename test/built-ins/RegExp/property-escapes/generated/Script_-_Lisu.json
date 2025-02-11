@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 590,
             "end": 611,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lisu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lisu}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 676,
             "end": 697,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Lisu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Lisu}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 762,
             "end": 779,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lisu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lisu}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 840,
             "end": 857,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Lisu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Lisu}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1128,
             "end": 1149,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lisu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lisu}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1238,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Lisu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Lisu}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1323,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lisu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lisu}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1387,
             "end": 1404,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Lisu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Lisu}+$",

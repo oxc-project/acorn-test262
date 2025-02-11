@@ -399,7 +399,7 @@
             "type": "Literal",
             "start": 913,
             "end": 935,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Oriya}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Oriya}+$",
@@ -442,7 +442,7 @@
             "type": "Literal",
             "start": 1001,
             "end": 1022,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Orya}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Orya}+$",
@@ -485,7 +485,7 @@
             "type": "Literal",
             "start": 1087,
             "end": 1105,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Oriya}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Oriya}+$",
@@ -528,7 +528,7 @@
             "type": "Literal",
             "start": 1167,
             "end": 1184,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Orya}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Orya}+$",
@@ -942,7 +942,7 @@
             "type": "Literal",
             "start": 1709,
             "end": 1731,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Oriya}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Oriya}+$",
@@ -985,7 +985,7 @@
             "type": "Literal",
             "start": 1800,
             "end": 1821,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Orya}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Orya}+$",
@@ -1028,7 +1028,7 @@
             "type": "Literal",
             "start": 1889,
             "end": 1907,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Oriya}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Oriya}+$",
@@ -1071,7 +1071,7 @@
             "type": "Literal",
             "start": 1972,
             "end": 1989,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Orya}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Orya}+$",

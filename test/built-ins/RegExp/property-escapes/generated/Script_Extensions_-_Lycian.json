@@ -134,7 +134,7 @@
             "type": "Literal",
             "start": 603,
             "end": 637,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Lycian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lycian}+$",
@@ -177,7 +177,7 @@
             "type": "Literal",
             "start": 715,
             "end": 747,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Lyci}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lyci}+$",
@@ -220,7 +220,7 @@
             "type": "Literal",
             "start": 823,
             "end": 843,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Lycian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lycian}+$",
@@ -263,7 +263,7 @@
             "type": "Literal",
             "start": 907,
             "end": 925,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Lyci}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lyci}+$",
@@ -494,7 +494,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1231,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Lycian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lycian}+$",
@@ -537,7 +537,7 @@
             "type": "Literal",
             "start": 1312,
             "end": 1344,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Lyci}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lyci}+$",
@@ -580,7 +580,7 @@
             "type": "Literal",
             "start": 1423,
             "end": 1443,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Lycian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lycian}+$",
@@ -623,7 +623,7 @@
             "type": "Literal",
             "start": 1510,
             "end": 1528,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Lyci}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lyci}+$",

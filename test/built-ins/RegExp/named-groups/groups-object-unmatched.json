@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 568,
             "end": 586,
-            "value": {},
+            "value": null,
             "raw": "/(?<a>a).|(?<x>x)/",
             "regex": {
               "pattern": "(?<a>a).|(?<x>x)",

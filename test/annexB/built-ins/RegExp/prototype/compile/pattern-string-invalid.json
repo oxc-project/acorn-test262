@@ -22,7 +22,7 @@
             "type": "Literal",
             "start": 907,
             "end": 918,
-            "value": {},
+            "value": null,
             "raw": "/test262/ig",
             "regex": {
               "pattern": "test262",

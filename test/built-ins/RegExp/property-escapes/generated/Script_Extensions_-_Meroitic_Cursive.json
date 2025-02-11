@@ -168,7 +168,7 @@
             "type": "Literal",
             "start": 649,
             "end": 693,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Meroitic_Cursive}+$",
@@ -211,7 +211,7 @@
             "type": "Literal",
             "start": 781,
             "end": 813,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Merc}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Merc}+$",
@@ -254,7 +254,7 @@
             "type": "Literal",
             "start": 889,
             "end": 919,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Meroitic_Cursive}+$",
@@ -297,7 +297,7 @@
             "type": "Literal",
             "start": 993,
             "end": 1011,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Merc}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Merc}+$",
@@ -549,7 +549,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1353,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Meroitic_Cursive}+$",
@@ -592,7 +592,7 @@
             "type": "Literal",
             "start": 1444,
             "end": 1476,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Merc}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Merc}+$",
@@ -635,7 +635,7 @@
             "type": "Literal",
             "start": 1555,
             "end": 1585,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Meroitic_Cursive}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Meroitic_Cursive}+$",
@@ -678,7 +678,7 @@
             "type": "Literal",
             "start": 1662,
             "end": 1680,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Merc}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Merc}+$",

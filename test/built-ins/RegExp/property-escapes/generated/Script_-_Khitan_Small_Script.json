@@ -141,7 +141,7 @@
             "type": "Literal",
             "start": 619,
             "end": 655,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Khitan_Small_Script}+$",
@@ -184,7 +184,7 @@
             "type": "Literal",
             "start": 735,
             "end": 756,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script=Kits}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Kits}+$",
@@ -227,7 +227,7 @@
             "type": "Literal",
             "start": 821,
             "end": 853,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Khitan_Small_Script}+$",
@@ -270,7 +270,7 @@
             "type": "Literal",
             "start": 929,
             "end": 946,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{sc=Kits}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Kits}+$",
@@ -522,7 +522,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1279,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Khitan_Small_Script}+$",
@@ -565,7 +565,7 @@
             "type": "Literal",
             "start": 1362,
             "end": 1383,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script=Kits}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Kits}+$",
@@ -608,7 +608,7 @@
             "type": "Literal",
             "start": 1451,
             "end": 1483,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Khitan_Small_Script}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Khitan_Small_Script}+$",
@@ -651,7 +651,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1579,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{sc=Kits}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Kits}+$",

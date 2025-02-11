@@ -43,7 +43,7 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 685,
-                "value": {},
+                "value": null,
                 "raw": "/.4?./",
                 "regex": {
                   "pattern": ".4?.",

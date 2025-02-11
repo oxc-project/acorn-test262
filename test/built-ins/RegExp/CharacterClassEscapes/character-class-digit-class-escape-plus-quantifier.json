@@ -126,7 +126,7 @@
             "type": "Literal",
             "start": 1647,
             "end": 1653,
-            "value": {},
+            "value": null,
             "raw": "/\\d+/g",
             "regex": {
               "pattern": "\\d+",

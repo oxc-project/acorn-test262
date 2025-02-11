@@ -5440,7 +5440,7 @@
             "type": "Literal",
             "start": 10046,
             "end": 10079,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Changes_When_Lowercased}+$/u",
             "regex": {
               "pattern": "^\\p{Changes_When_Lowercased}+$",
@@ -5483,7 +5483,7 @@
             "type": "Literal",
             "start": 10156,
             "end": 10169,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{CWL}+$/u",
             "regex": {
               "pattern": "^\\p{CWL}+$",
@@ -11147,7 +11147,7 @@
             "type": "Literal",
             "start": 19990,
             "end": 20023,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Changes_When_Lowercased}+$/u",
             "regex": {
               "pattern": "^\\P{Changes_When_Lowercased}+$",
@@ -11190,7 +11190,7 @@
             "type": "Literal",
             "start": 20103,
             "end": 20116,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{CWL}+$/u",
             "regex": {
               "pattern": "^\\P{CWL}+$",

@@ -18,8 +18,12 @@ Files producing the following errors are ignored:
 * Unexpected token (possibility a stage 3 feature).
 * Cannot parse YAML from Test262 fixture comment.
 
-`BigInt`s are serialized as to `null`, because JSON does not support `BigInt`s. `Literal` nodes which
-are `BigInt`s also have a `bigint` field containing the `BigInt`'s value as a string.
+`RegExp`s and `BigInt`s are serialized as `null`, because JSON does not support `BigInt`s, and
+serializes `RegExp`s as `{}` (not useful).
+
+`Literal` nodes which are `BigInt`s have a `bigint` field containing the `BigInt`'s value as a string.
+Similarly, `Literal` nodes which are `RegExp`s have a `regex` field containing `pattern` and `flags`.
+So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra data.
 
 ## Maintainance
 

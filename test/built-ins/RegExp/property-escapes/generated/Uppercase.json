@@ -6140,7 +6140,7 @@
             "type": "Literal",
             "start": 10968,
             "end": 10987,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Uppercase}+$/u",
             "regex": {
               "pattern": "^\\p{Uppercase}+$",
@@ -6183,7 +6183,7 @@
             "type": "Literal",
             "start": 11050,
             "end": 11065,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Upper}+$/u",
             "regex": {
               "pattern": "^\\p{Upper}+$",
@@ -12645,7 +12645,7 @@
             "type": "Literal",
             "start": 21908,
             "end": 21927,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Uppercase}+$/u",
             "regex": {
               "pattern": "^\\P{Uppercase}+$",
@@ -12688,7 +12688,7 @@
             "type": "Literal",
             "start": 21993,
             "end": 22008,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Upper}+$/u",
             "regex": {
               "pattern": "^\\P{Upper}+$",

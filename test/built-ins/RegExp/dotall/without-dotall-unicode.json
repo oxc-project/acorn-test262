@@ -37,7 +37,7 @@
             "type": "Literal",
             "start": 627,
             "end": 633,
-            "value": {},
+            "value": null,
             "raw": "/^.$/u",
             "regex": {
               "pattern": "^.$",
@@ -48,7 +48,7 @@
             "type": "Literal",
             "start": 635,
             "end": 642,
-            "value": {},
+            "value": null,
             "raw": "/^.$/um",
             "regex": {
               "pattern": "^.$",

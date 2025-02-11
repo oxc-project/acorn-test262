@@ -60,7 +60,7 @@
                 "type": "Literal",
                 "start": 1082,
                 "end": 1100,
-                "value": {},
+                "value": null,
                 "raw": "/(?<=([abc]+)).\\1/",
                 "regex": {
                   "pattern": "(?<=([abc]+)).\\1",

@@ -253,7 +253,7 @@
             "type": "Literal",
             "start": 766,
             "end": 805,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nandinagari}+$",
@@ -296,7 +296,7 @@
             "type": "Literal",
             "start": 888,
             "end": 920,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{Script_Extensions=Nand}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Nand}+$",
@@ -339,7 +339,7 @@
             "type": "Literal",
             "start": 996,
             "end": 1021,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nandinagari}+$",
@@ -382,7 +382,7 @@
             "type": "Literal",
             "start": 1090,
             "end": 1108,
-            "value": {},
+            "value": null,
             "raw": "/^\\p{scx=Nand}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Nand}+$",
@@ -760,7 +760,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1601,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nandinagari}+$",
@@ -803,7 +803,7 @@
             "type": "Literal",
             "start": 1687,
             "end": 1719,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{Script_Extensions=Nand}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Nand}+$",
@@ -846,7 +846,7 @@
             "type": "Literal",
             "start": 1798,
             "end": 1823,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nandinagari}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nandinagari}+$",
@@ -889,7 +889,7 @@
             "type": "Literal",
             "start": 1895,
             "end": 1913,
-            "value": {},
+            "value": null,
             "raw": "/^\\P{scx=Nand}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Nand}+$",
