@@ -50,7 +50,8 @@ for await (const p of walk("./test262/test")) {
       preserveParens: true,
       allowHashBang: true,
       allowReturnOutsideFunction: true,
-      allowAwaitOutsideFunction: true,
+      // Note: Do not specify `allowAwaitOutsideFunction` option.
+      // It defaults to `true` for modules, `false` for scripts, which is what we want.
     });
 
     // Replace `RegExp`s and `BigInt`s with `null`

@@ -56,20 +56,24 @@
                   "raw": "'./2nd-param_FIXTURE.js'"
                 },
                 "options": {
-                  "type": "AwaitExpression",
+                  "type": "CallExpression",
                   "start": 643,
                   "end": 659,
-                  "argument": {
-                    "type": "ParenthesizedExpression",
-                    "start": 648,
-                    "end": 659,
-                    "expression": {
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 643,
+                    "end": 648,
+                    "name": "await"
+                  },
+                  "arguments": [
+                    {
                       "type": "Identifier",
                       "start": 649,
                       "end": 658,
                       "name": "undefined"
                     }
-                  }
+                  ],
+                  "optional": false
                 }
               },
               "property": {
