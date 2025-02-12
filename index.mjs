@@ -1,7 +1,6 @@
 import { Parser } from "acorn";
 import fs from "fs/promises";
 import path from "path";
-import traverse from "traverse";
 import YAML from "yaml";
 
 async function* walk(dir) {

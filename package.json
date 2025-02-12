@@ -12,7 +12,6 @@
   "devDependencies": {
     "acorn": "8.14.0",
     "degit": "^2.8.4",
-    "traverse": "^0.6.11",
     "yaml": "^2.7.0"
   }
 }
