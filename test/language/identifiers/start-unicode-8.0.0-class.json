@@ -96152,5 +96152,6 @@
       "end": 48375
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

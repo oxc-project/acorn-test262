@@ -246,5 +246,6 @@
       "end": 1028
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

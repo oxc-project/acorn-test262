@@ -1052,5 +1052,6 @@
       "finalizer": null
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

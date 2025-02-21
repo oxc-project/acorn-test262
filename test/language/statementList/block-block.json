@@ -16,5 +16,6 @@
       "body": []
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

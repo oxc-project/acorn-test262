@@ -1296,5 +1296,6 @@
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }

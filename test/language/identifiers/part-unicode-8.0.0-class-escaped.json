@@ -42,5 +42,6 @@
       "end": 1996
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

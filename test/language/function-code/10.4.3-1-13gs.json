@@ -95,5 +95,6 @@
       "alternate": null
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

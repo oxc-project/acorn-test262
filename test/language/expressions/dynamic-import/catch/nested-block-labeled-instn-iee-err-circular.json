@@ -181,5 +181,6 @@
       "end": 1842
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

@@ -85316,5 +85316,6 @@
       "end": 84006
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

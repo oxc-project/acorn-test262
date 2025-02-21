@@ -227,5 +227,6 @@
       "kind": "let"
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }

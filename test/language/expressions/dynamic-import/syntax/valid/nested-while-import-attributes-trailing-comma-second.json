@@ -101,5 +101,6 @@
       "end": 1358
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

@@ -24164,5 +24164,6 @@
       "end": 24306
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

@@ -215,5 +215,6 @@
       "kind": "var"
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

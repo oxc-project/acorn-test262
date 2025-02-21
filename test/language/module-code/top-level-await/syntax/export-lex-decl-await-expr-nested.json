@@ -220,5 +220,6 @@
       "source": null
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }

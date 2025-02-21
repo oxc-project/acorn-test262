@@ -116606,5 +116606,6 @@
       "end": 58701
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

@@ -3164,5 +3164,6 @@
       "end": 1984
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

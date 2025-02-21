@@ -1989,5 +1989,6 @@
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

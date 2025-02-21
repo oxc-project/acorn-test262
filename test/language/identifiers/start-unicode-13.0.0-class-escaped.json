@@ -78400,5 +78400,6 @@
       "end": 78774
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

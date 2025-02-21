@@ -444,5 +444,6 @@
       "end": 2002
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

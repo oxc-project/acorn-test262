@@ -3,5 +3,6 @@
   "start": 0,
   "end": 284,
   "body": [],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

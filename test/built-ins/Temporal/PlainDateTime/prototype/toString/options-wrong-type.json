@@ -312,5 +312,6 @@
       "end": 586
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

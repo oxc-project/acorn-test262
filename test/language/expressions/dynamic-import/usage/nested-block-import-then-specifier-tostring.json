@@ -382,5 +382,6 @@
       "end": 1973
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

@@ -44,5 +44,6 @@
       "kind": "var"
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }

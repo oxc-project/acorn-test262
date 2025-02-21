@@ -293,5 +293,6 @@
       "end": 2012
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

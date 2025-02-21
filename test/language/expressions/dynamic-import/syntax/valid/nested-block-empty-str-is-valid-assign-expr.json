@@ -34,5 +34,6 @@
       "end": 1051
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

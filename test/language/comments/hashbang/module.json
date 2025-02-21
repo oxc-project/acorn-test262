@@ -3,5 +3,6 @@
   "start": 0,
   "end": 333,
   "body": [],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }

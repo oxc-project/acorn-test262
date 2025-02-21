@@ -24,6 +24,8 @@ serializes `RegExp`s as `{}` (not useful).
 Similarly, `Literal` nodes which are `RegExp`s have a `regex` field containing `pattern` and `flags`.
 So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra data.
 
+A non-standard `hashbang` field is added to `Program`.
+
 ## Maintainance
 
 ```bash

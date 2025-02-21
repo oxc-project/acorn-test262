@@ -53,6 +53,9 @@ for await (const p of walk("./test262/test")) {
       // It defaults to `true` for modules, `false` for scripts, which is what we want.
     });
 
+    // Add `hashbang` field
+    ast.hashbang = null;
+
     // Replace `RegExp`s and `BigInt`s with `null`
     const transformer = (_key, value) =>
       (typeof value === "bigint" || (typeof value === "object" && value instanceof RegExp)) ? null : value;

@@ -100506,5 +100506,6 @@
       "end": 50662
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "hashbang": null
 }

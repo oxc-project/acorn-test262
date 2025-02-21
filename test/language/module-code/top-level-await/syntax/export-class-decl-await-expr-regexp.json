@@ -106,5 +106,6 @@
       "end": 2156
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "hashbang": null
 }
