@@ -8,7 +8,6 @@ sourceType: module ? "module" : "script",
 preserveParens: true,
 allowHashBang: true,
 allowReturnOutsideFunction: true,
-allowAwaitOutsideFunction: true,
 ```
 
 Negative errors are filtered out.
