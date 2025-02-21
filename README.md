@@ -24,6 +24,8 @@ serializes `RegExp`s as `{}` (not useful).
 Similarly, `Literal` nodes which are `RegExp`s have a `regex` field containing `pattern` and `flags`.
 So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra data.
 
+`Infinity` is serialized as `1e+400` - which `JSON.parse` converts back to `Infinity`.
+
 A non-standard `hashbang` field is added to `Program`.
 
 ## Maintainance

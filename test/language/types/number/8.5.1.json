@@ -759,7 +759,7 @@
               "type": "Literal",
               "start": 2579,
               "end": 2604,
-              "value": null,
+              "value": 1e+400,
               "raw": "1.797693134862315808e+308"
             },
             "operator": "===",

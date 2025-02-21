@@ -262,7 +262,7 @@
           "type": "Literal",
           "start": 375,
           "end": 381,
-          "value": null,
+          "value": 1e+400,
           "raw": "1E+309"
         }
       }
@@ -643,7 +643,7 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 685,
-                "value": null,
+                "value": 1e+400,
                 "raw": "1E+309"
               }
             ],

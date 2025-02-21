@@ -3,6 +3,9 @@ import fs from "fs/promises";
 import path from "path";
 import YAML from "yaml";
 
+const INFINITY_PLACEHOLDER = "__INFINITY__INFINITY__INFINITY__";
+const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, "g");
+
 async function* walk(dir) {
   for await (const d of await fs.opendir(dir)) {
     const entry = path.join(dir, d.name);
@@ -56,12 +59,11 @@ for await (const p of walk("./test262/test")) {
     // Add `hashbang` field
     ast.hashbang = null;
 
-    // Replace `RegExp`s and `BigInt`s with `null`
-    const transformer = (_key, value) =>
-      (typeof value === "bigint" || (typeof value === "object" && value instanceof RegExp)) ? null : value;
-    ast = JSON.parse(JSON.stringify(ast, transformer));
+    // Serialize to JSON, with modifications
+    let json = JSON.stringify(ast, transformer, 2);
+    json = json.replace(INFINITY_REGEXP, "1e+400");
 
-    await fs.writeFile(writeFile, JSON.stringify(ast, null, 2));
+    await fs.writeFile(writeFile, json);
   } catch (err) {
     console.log(p);
     console.log(err.message);
@@ -69,3 +71,14 @@ for await (const p of walk("./test262/test")) {
 }
 
 console.log("Done.");
+
+// Replace `RegExp`s and `BigInt`s with `null`.
+// Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
+// which will be replaced in JSON with `1e+400`.
+function transformer(_key, value) {
+  if (typeof value === "bigint" || (typeof value === "object" && value instanceof RegExp)) {
+    return null;
+  }
+  if (value === Infinity) return INFINITY_PLACEHOLDER;
+  return value;
+}
