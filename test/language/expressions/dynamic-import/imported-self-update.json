@@ -70,7 +70,8 @@
           }
         }
       ],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",

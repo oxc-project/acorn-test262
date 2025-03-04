@@ -191,7 +191,8 @@
         }
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -524,7 +525,8 @@
         }
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -75,10 +75,20 @@ console.log("Done.");
 // Replace `RegExp`s and `BigInt`s with `null`.
 // Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
 // which will be replaced in JSON with `1e+400`.
+//
+// Ensure `ExportNamedDeclaration` always has an `attributes` property.
+// https://github.com/acornjs/acorn/pull/1346
 function transformer(_key, value) {
-  if (typeof value === "bigint" || (typeof value === "object" && value instanceof RegExp)) {
-    return null;
-  }
+  if (typeof value === "bigint") return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
+  if (typeof value === "object" && value !== null) {
+    if (value instanceof RegExp) return null;
+
+    if (
+      Object.hasOwn(value, "type") && value.type === "ExportNamedDeclaration" && !Object.hasOwn(value, "attributes")
+    ) {
+      value.attributes = [];
+    }
+  }
   return value;
 }

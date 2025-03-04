@@ -146,7 +146,8 @@
         "kind": "let"
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

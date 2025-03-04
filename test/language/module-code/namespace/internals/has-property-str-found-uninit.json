@@ -504,7 +504,8 @@
         "kind": "let"
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
@@ -556,7 +557,8 @@
           }
         }
       ],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

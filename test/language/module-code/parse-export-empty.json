@@ -9,7 +9,8 @@
       "end": 789,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -17,7 +18,8 @@
       "end": 800,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -25,7 +27,8 @@
       "end": 810,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -33,7 +36,8 @@
       "end": 822,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -41,7 +45,8 @@
       "end": 835,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -49,7 +54,8 @@
       "end": 857,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -57,7 +63,8 @@
       "end": 875,
       "declaration": null,
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

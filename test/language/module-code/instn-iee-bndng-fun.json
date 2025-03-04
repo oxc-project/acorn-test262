@@ -295,7 +295,8 @@
         }
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

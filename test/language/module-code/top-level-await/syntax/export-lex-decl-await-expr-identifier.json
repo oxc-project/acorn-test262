@@ -64,7 +64,8 @@
         "kind": "let"
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -101,7 +102,8 @@
         "kind": "const"
       },
       "specifiers": [],
-      "source": null
+      "source": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

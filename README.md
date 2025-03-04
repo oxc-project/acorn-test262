@@ -28,6 +28,9 @@ So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra d
 
 A non-standard `hashbang` field is added to `Program`.
 
+An `attributes` property is added to `ExportNamedDeclaration`, where there isn't one already
+(ref: https://github.com/acornjs/acorn/pull/1346).
+
 ## Maintainance
 
 ```bash
